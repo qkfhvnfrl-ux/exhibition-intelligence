@@ -6,6 +6,12 @@ Version: 0.1.1
 - GitHub 저장 및 버전관리 승인. 공개 링크 요청에 따라 Pages/Actions 배포 연결.
 - 첫 실행 가능 버전 구현·검증 완료. 이 문서는 각 커밋에서 갱신.
 
+## 공개 접속
+- URL: https://qkfhvnfrl-ux.github.io/exhibition-intelligence/
+- 2026-11-10 v0.1.1 배포 성공. 첫 배포 커밋 `0fd4a74`.
+- 배포 실행: https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/42768031988
+- 실제 공개 주소에서 종합 현황과 장비 상세·사진 갤러리 접속 확인. GitHub/ChatGPT 로그인 불필요.
+
 ## 저장된 구현
 - 6개 주요 화면과 평가항목 편집·JSON 백업 화면.
 - 14개 장비 / 53장 사진 / 71개 제원 / 98개 분석 / 본문 출처 48건.

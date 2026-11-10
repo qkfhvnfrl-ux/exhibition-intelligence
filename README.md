@@ -4,6 +4,8 @@
 
 현재 버전: **0.1.1** · [변경 기록](CHANGELOG.md) · [진행 상태 및 다음 작업](docs/STATUS.md)
 
+**공개 웹앱:** https://qkfhvnfrl-ux.github.io/exhibition-intelligence/
+
 ![v0.1.0 종합 현황](docs/screenshots/overview-v0.1.0.png)
 
 ## 포함 기능
@@ -31,6 +33,8 @@ npm run dev
 
 ## 배포 상태
 GitHub에 소스·공개 데이터·허용된 사진을 버전관리합니다. GitHub Pages는 `main` 변경 시 빌드와 10개 검증을 통과한 `dist/` 산출물을 공개 배포합니다. `release/v0.1.0`은 첫 개발 버전 보관용입니다.
+
+2026-11-10 v0.1.1의 첫 공개 배포와 HTTPS 접속을 확인했습니다. 로그인 없이 열 수 있습니다. 개인 검토 메모는 각 방문자의 브라우저에 저장됩니다.
 
 ## 저장 구조
 - `data/research/`: 장비별 공개자료와 분석
