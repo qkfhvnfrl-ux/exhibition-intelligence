@@ -1,0 +1,958 @@
+[
+  {
+    "id": "arma-ii",
+    "name": "ARMA II 8×8",
+    "manufacturer": "Otokar",
+    "country": "튀르키예",
+    "category": "장갑차",
+    "description": "40톤급 최대 총중량을 수용하도록 확장한 차륜형 장갑 플랫폼. IDEX 2025의 30mm MIZRAK 탑재형을 기준으로 검토합니다.",
+    "tags": [
+      "8×8",
+      "확장형 차체",
+      "모듈형 플랫폼"
+    ],
+    "researchStatus": "partial",
+    "exhibitions": [
+      {
+        "id": "idex-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "note": "제조사 개막일 발표에 ARMA II 8×8 + 30mm MIZRAK 전시를 명시. 일반 ARMA 8×8과 구분."
+      }
+    ],
+    "specs": [
+      {
+        "label": "구동 형식",
+        "value": "8×8",
+        "sourceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "note": ""
+      },
+      {
+        "label": "최대 총중량",
+        "value": "40 t",
+        "sourceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "note": "적재중량 또는 전시차 실측중량이 아님"
+      },
+      {
+        "label": "엔진 출력",
+        "value": "720 hp",
+        "sourceUrl": "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti",
+        "note": "제조사 공개치"
+      },
+      {
+        "label": "엔진",
+        "value": "12.7 L · 6기통 터보디젤",
+        "sourceUrl": "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti",
+        "note": ""
+      },
+      {
+        "label": "IDEX 전시 형상",
+        "value": "30mm MIZRAK",
+        "sourceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "note": "탑재 가능 상한 120mm와 전시형상을 구분"
+      }
+    ],
+    "highlights": [
+      "일반 ARMA와 ARMA II를 별도 모델로 관리",
+      "40 t는 총중량 한도이며 탑재량이 아님",
+      "부품 국산화와 확대된 임무실이 주요 검토 지점"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "차체 확대와 임무 공간",
+        "fact": "제조사는 확장된 차체와 추가 내부 공간을 설명합니다.",
+        "interpretation": "정비·의무 임무형은 외형 크기보다 내부 작업 공간의 활용 방식이 비교 포인트입니다.",
+        "unknown": "유효 실내 체적과 전시형 좌석 배치는 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "중량 증가를 수용하는 동력 구성",
+        "fact": "공개된 엔진은 720 hp 터보디젤입니다.",
+        "interpretation": "출력 단독 순위보다 임무 장비를 포함한 총중량별 기동자료가 필요합니다.",
+        "unknown": "IDEX 전시차 실중량·연비·지속 주행 시험조건은 미확인입니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "방호 홍보와 등급의 구분",
+        "fact": "제조사는 탄도·지뢰·IED 방호를 강조합니다.",
+        "interpretation": "방호 주장은 존재하지만 표준 등급 없는 최상급 표현을 장비 간 비교 점수로 사용할 수 없습니다.",
+        "unknown": "장착 장갑 구성과 독립 시험 성적은 공개 근거가 부족합니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "전시 탑재형을 기준으로 비교",
+        "fact": "IDEX에는 30mm MIZRAK 형상이 명시되어 있습니다.",
+        "interpretation": "포탑 통합 사례는 확인되지만 다른 구경 통합 가능성이 같은 성숙도를 의미하지는 않습니다.",
+        "unknown": "전시차 전력·냉각 여유와 센서 연동 시험결과는 미확인입니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "자체 개발 부품의 지원 체계",
+        "fact": "제조사는 자체 트랜스퍼 케이스와 현가장치, 현지 생산 부체계를 제시합니다.",
+        "interpretation": "부품 공급원과 정비 문서의 통일 여부를 검토하면 현지 유지지원 가능성을 판단하는 데 도움이 됩니다.",
+        "unknown": "평균 수리시간과 부품 공급기간은 공개되지 않았습니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "구급·정비형으로의 확장",
+        "fact": "의무·정비·지휘 등 여러 임무 구성을 제안합니다.",
+        "interpretation": "공통 차대는 지원 체계 통합의 여지가 있지만 각 형상 개발 상태를 따로 기록해야 합니다.",
+        "unknown": "임무형 간 교체시간과 실제 공통부품 비율은 미확인입니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "전시와 양산 입증 분리",
+        "fact": "IDEX 2025 전시 모델과 탑재체는 제조사 발표로 확인됩니다.",
+        "interpretation": "전시 확인은 설계 소개의 근거이며 특정 고객의 전력화 증거로 확대하지 않습니다.",
+        "unknown": "이 조사에서는 ARMA II 해당 형상의 양산 인도 수량을 확인하지 못했습니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "to": "IDEX 2025",
+        "title": "직전 회차 형상 근거 부족",
+        "detail": "2025년 ARMA II 전시는 확인했으나 IDEX 2023의 동형 실물·형상을 확보하지 못해 증감이나 신규 등장으로 단정하지 않습니다.",
+        "status": "insufficient",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities"
+        ],
+        "from": "IDEX 2023"
+      }
+    ],
+    "sources": [
+      {
+        "title": "IDEX 2025 전시 구성",
+        "url": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": "2025-02-17",
+        "supports": "30mm MIZRAK 전시형·40t·720hp"
+      },
+      {
+        "title": "ARMA II 개발·국산 부체계 소개",
+        "url": "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "엔진 배기량·부체계·임무 확장"
+      }
+    ],
+    "photoSearchTerms": [
+      "ARMA II IDEX 2025 MIZRAK front side rear",
+      "Otokar ARMA II interior 8x8"
+    ],
+    "limitations": [
+      "ARMA 8×8의 사진·제원을 ARMA II에 혼합하지 않습니다.",
+      "공개 사진은 출처 페이지로 연결하며 재배포 허가 없이 복사하지 않습니다.",
+      "SAHA 2026 공식 목록의 ARMA 8×8을 ARMA II로 간주하지 않았습니다."
+    ]
+  },
+  {
+    "id": "tulpar",
+    "name": "TULPAR",
+    "manufacturer": "Otokar",
+    "country": "튀르키예",
+    "category": "장갑차",
+    "description": "공통 궤도 차체를 여러 임무에 적용하는 플랫폼. IDEX의 HITFACT MkII와 SAHA의 KORHAN은 서로 다른 전시 구성으로 다룹니다.",
+    "tags": [
+      "궤도형",
+      "공통 차체",
+      "복수 포탑 통합"
+    ],
+    "researchStatus": "partial",
+    "exhibitions": [
+      {
+        "id": "idex-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "note": "제조사: Leonardo HITFACT MkII 120mm 탑재차 전시."
+      },
+      {
+        "id": "saha-2026",
+        "status": "confirmed",
+        "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+        "note": "제조사 행사 당일 본문: ASELSAN KORHAN 탑재 TULPAR 전시. 모형이라고 표기되어 있지 않음."
+      }
+    ],
+    "specs": [
+      {
+        "label": "차체",
+        "value": "궤도형",
+        "sourceUrl": "https://defense.otokar.com.tr/tracked-armored/tulpar-armored",
+        "note": ""
+      },
+      {
+        "label": "플랫폼 중량 범위",
+        "value": "28–45 t",
+        "sourceUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+        "note": "여러 파생형을 포함한 범위. 특정 전시차 중량 아님"
+      },
+      {
+        "label": "출력 선택 범위",
+        "value": "700–1,100 hp",
+        "sourceUrl": "https://defense.otokar.com.tr/tracked-armored/tulpar-armored",
+        "note": "제품군 일반 사양. 행사 차량 엔진 미확인"
+      },
+      {
+        "label": "IDEX 2025 형상",
+        "value": "HITFACT MkII 120mm",
+        "sourceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "note": ""
+      },
+      {
+        "label": "SAHA 2026 형상",
+        "value": "ASELSAN KORHAN",
+        "sourceUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+        "note": ""
+      }
+    ],
+    "highlights": [
+      "중량과 출력은 제품군 범위로 표시",
+      "차체 공통성과 포탑별 임무 차이를 함께 검토",
+      "다른 전시회 탑재체 차이를 일방적인 성능 향상으로 해석하지 않음"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "전방 동력실의 배치",
+        "fact": "제품 페이지는 전방 동력장치 배치를 명시합니다.",
+        "interpretation": "후방 임무 공간을 사용하는 파생형 비교 시 동력실과 승무원 구획의 경계를 확인할 필요가 있습니다.",
+        "unknown": "전시형별 내부 통로·탑승 공간은 미확인입니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/tracked-armored/tulpar-armored"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "제품군 범위와 개별 차량의 차이",
+        "fact": "일반 사양은 700–1,100 hp 동력 선택 범위를 제시합니다.",
+        "interpretation": "전시형의 중량과 엔진 조합이 없으면 출력 대비 중량을 계산해 우열을 정할 수 없습니다.",
+        "unknown": "HITFACT 및 KORHAN 전시차의 정확한 엔진 조합이 불명확합니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/tracked-armored/tulpar-armored"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "두 전시회의 다른 포탑 통합",
+        "fact": "IDEX는 HITFACT MkII, SAHA는 KORHAN 구성입니다.",
+        "interpretation": "공통 차체의 임무 확장 사례로 읽을 수 있으며 동일 모델의 연도별 업그레이드로 단정하지 않습니다.",
+        "unknown": "각 포탑 통합형의 동일 시험조건 성능자료는 없습니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "공통 부체계의 유지지원 가능성",
+        "fact": "제품군은 여러 파생형의 공통 부체계 사용을 설명합니다.",
+        "interpretation": "지원차와 전투차의 공통 정비교육·부품 묶음이 어느 정도 가능한지 검토할 가치가 있습니다.",
+        "unknown": "형상별 부품 공통률과 정비 주기는 미확인입니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/tracked-armored/tulpar-armored"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "모듈 장갑과 다임무 차체",
+        "fact": "제조사는 모듈형 장갑과 복수 임무형을 소개합니다.",
+        "interpretation": "임무 변화 때 교체되는 부분과 고정되는 부분을 구분한 형상표가 필요합니다.",
+        "unknown": "장갑별 중량 증가, 교환 작업시간은 공개되지 않았습니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "포탑마다 다른 인원 구성 검토",
+        "fact": "제품군에는 유인·무인 탑재체 통합 가능성이 제시되어 있습니다.",
+        "interpretation": "장비 명칭이 같아도 조작석·출입 동선이 달라질 수 있으므로 사진을 탑재체별로 묶어야 합니다.",
+        "unknown": "두 전시형의 실제 좌석 수·승하차 시험자료를 확인하지 못했습니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/tracked-armored/tulpar-armored"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "통합 소개와 운용 실적 구분",
+        "fact": "두 행사에서 구체적인 탑재체가 명시되었습니다.",
+        "interpretation": "전시 형상 존재는 확인되지만 모든 파생형이 같은 개발 단계라고 볼 수 없습니다.",
+        "unknown": "이 자료만으로 해당 전시형의 양산 인도나 실전 운용을 확정하지 않습니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "to": "SAHA 2026",
+        "title": "직전 회차 TULPAR 형상은 추가 확인 필요",
+        "detail": "2026 KORHAN 구성은 확인되나 2024 같은 차체의 확정 형상을 확보하지 않아 회차별 성능 변화는 보류합니다.",
+        "status": "insufficient",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+          "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+        ],
+        "from": "SAHA 2024"
+      }
+    ],
+    "sources": [
+      {
+        "title": "TULPAR 제품 페이지",
+        "url": "https://defense.otokar.com.tr/tracked-armored/tulpar-armored",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "동력실·출력 범위·부체계 공통성"
+      },
+      {
+        "title": "IDEX 2025 전시 구성",
+        "url": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": "2025-02-17",
+        "supports": "HITFACT MkII 탑재형"
+      },
+      {
+        "title": "SAHA 2026 전시 구성",
+        "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": "2026-05-05",
+        "supports": "KORHAN·중량 범위·모듈 장갑"
+      },
+      {
+        "title": "SAHA 2024 전시 소개",
+        "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": "2024-10-21",
+        "supports": "직전 회차 조사 범위"
+      }
+    ],
+    "photoSearchTerms": [
+      "TULPAR HITFACT MkII IDEX 2025 front rear",
+      "TULPAR KORHAN SAHA 2026 side interior"
+    ],
+    "limitations": [
+      "7.62–120mm 통합 가능 범위를 모든 형상의 실증 완료로 보지 않습니다.",
+      "같은 TULPAR 제품명 아래 파생형이 있어 사진별 포탑·행사·연도를 확인해야 합니다."
+    ]
+  },
+  {
+    "id": "cobra-ii",
+    "name": "COBRA II",
+    "manufacturer": "Otokar",
+    "country": "튀르키예",
+    "category": "장갑차",
+    "description": "4×4 전술 장갑차. SAHA 직전 회차의 원격무장형에서 2026년 차량 탑재 UAV 스테이션으로 전시 임무 구성이 달라졌습니다.",
+    "tags": [
+      "4×4",
+      "차량 탑재 UAV",
+      "다임무"
+    ],
+    "researchStatus": "partial",
+    "exhibitions": [
+      {
+        "id": "idex-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "note": "12.7mm KESKİN RCWS 탑재 COBRA II 전시 명시."
+      },
+      {
+        "id": "saha-2026",
+        "status": "confirmed",
+        "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+        "note": "DASAL UAV 스테이션 탑재차 전시 명시. 제조사 행사일 자료 기준."
+      }
+    ],
+    "specs": [
+      {
+        "label": "구동 형식",
+        "value": "4×4",
+        "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+        "note": ""
+      },
+      {
+        "label": "최대 총중량",
+        "value": "최대 14.5 t",
+        "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+        "note": "2025 브로슈어, 일반 COBRA II. MRAP 별도 모델"
+      },
+      {
+        "label": "엔진 출력",
+        "value": "360 hp",
+        "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+        "note": ""
+      },
+      {
+        "label": "차체 치수",
+        "value": "길이 6.4 m · 폭 2.5 m · 높이 2.3 m",
+        "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+        "note": "길이: 윈치·예비타이어 포함. 높이: 차체 상단 기준"
+      },
+      {
+        "label": "최대 탑승 인원",
+        "value": "최대 11명",
+        "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+        "note": "운전수·차장 포함, 파생형에 따라 다름"
+      }
+    ],
+    "highlights": [
+      "2024→2026 SAHA 전시 임무장비 변화 근거 확보",
+      "일반 COBRA II와 COBRA II MRAP 구분",
+      "UAV 스테이션 수치는 제조사 주장으로 표시"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "차체와 상부 임무장비 구분",
+        "fact": "브로슈어 차체 높이는 2.3 m이며 상부 장비 높이를 포함하지 않습니다.",
+        "interpretation": "전시차 외형 비교에서 UAV 장비와 RCWS의 추가 높이를 별도로 기록해야 합니다.",
+        "unknown": "UAV 탑재형 총높이·무게중심은 미확인입니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "공통 차체 제원의 적용 한계",
+        "fact": "기본 브로슈어에 360 hp와 최대 총중량 14.5 t가 기재됩니다.",
+        "interpretation": "다른 탑재체를 비교할 때는 기본 출력보다 남은 적재여유와 임무장비 중량을 함께 확인해야 합니다.",
+        "unknown": "2026 전시형 실제 총중량과 탑재상태 기동시험은 미확인입니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "차량과 UAV 운용 연결",
+        "fact": "SAHA 2026에는 DASAL UAV 스테이션이 탑재되었습니다.",
+        "interpretation": "상부 장비와 차내 화면·통신 연결을 함께 기록해야 통합 수준을 이해할 수 있습니다.",
+        "unknown": "통신 단절 처리와 운용자 작업부하는 공개 근거가 부족합니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "상부 작업 감소 가능성",
+        "fact": "제조사는 스테이션의 자동 배터리 교환을 설명합니다.",
+        "interpretation": "상부 반복 작업을 줄일 가능성이 있으나 실제 인원 감소나 피로 개선을 확인한 자료는 아닙니다.",
+        "unknown": "재보급 동선·우천 운용·장갑 착용 상태 조작성은 미확인입니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "방호 대상과 등급을 구분",
+        "fact": "제품 브로슈어는 탄도·지뢰 방호를 제시합니다.",
+        "interpretation": "일반형·MRAP·수출형에 동일 방호 성능을 일괄 적용해서는 안 됩니다.",
+        "unknown": "본 전시형의 인증 등급과 추가 장비가 방호 구성에 미치는 영향은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "임무 장비 선택형 플랫폼",
+        "fact": "브로슈어에는 인원수송·지휘·의무·정찰 등 파생형이 있습니다.",
+        "interpretation": "전시 변화는 신형 차체의 등장보다 기존 차체의 임무 확장으로 해석할 근거가 큽니다.",
+        "unknown": "임무형 전환이 현장 교환 가능한지 공장 개조인지 명확하지 않습니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "차체와 신규 통합의 성숙도 분리",
+        "fact": "제조사는 COBRA II가 여러 사용자에게 운용 중이라고 설명합니다.",
+        "interpretation": "기존 차체의 운용 이력이 신규 UAV 스테이션의 신뢰성까지 입증하지는 않습니다.",
+        "unknown": "UAV 통합형의 납품·운용 수량과 독립 장기 시험은 미확인입니다.",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "to": "SAHA 2026",
+        "title": "RCWS에서 UAV 스테이션으로 전시 구성 변화",
+        "detail": "2024 공식 자료의 KESKİN 12.7mm RCWS와 2026 자료의 DASAL UAV 스테이션을 비교한 관측입니다. 전시 선택 변화이며 전체 전시회에서 UAV 장비 비중이 증가했다는 통계는 아닙니다.",
+        "status": "verified",
+        "sourceUrls": [
+          "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+          "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+        ],
+        "from": "SAHA 2024"
+      }
+    ],
+    "sources": [
+      {
+        "title": "COBRA II 2025 제품 브로슈어",
+        "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "중량·치수·인원·엔진·파생형"
+      },
+      {
+        "title": "IDEX 2025 전시 구성",
+        "url": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": "2025-02-17",
+        "supports": "KESKİN 전시형"
+      },
+      {
+        "title": "SAHA 2024 전시 구성",
+        "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": "2024-10-21",
+        "supports": "직전 회차 KESKİN 탑재"
+      },
+      {
+        "title": "SAHA 2026 전시 구성",
+        "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+        "publisher": "Otokar",
+        "kind": "manufacturer",
+        "date": "2026-05-05",
+        "supports": "DASAL UAV 통합"
+      }
+    ],
+    "photoSearchTerms": [
+      "COBRA II DASAL UAV station SAHA 2026 roof rear",
+      "COBRA II Keskin IDEX 2025 SAHA 2024",
+      "COBRA II interior brochure"
+    ],
+    "limitations": [
+      "UAV 이동 중 이착륙 및 교환시간 수치는 독립 검증 전이므로 비교 점수에 반영하지 않습니다.",
+      "MRAP의 중량과 치수를 일반 COBRA II에 적용하지 않습니다."
+    ]
+  },
+  {
+    "id": "pars-alpha",
+    "name": "PARS ALPHA 8×8",
+    "manufacturer": "FNSS",
+    "country": "튀르키예",
+    "category": "장갑차",
+    "description": "전방 동력실과 승무원 배치를 강조한 FNSS 차륜형 장갑차. SAHA 2024와 2026의 TEBER-II 30/40 전시형을 연결해 검토합니다.",
+    "tags": [
+      "8×8",
+      "차고 조절",
+      "전방 동력실"
+    ],
+    "researchStatus": "partial",
+    "exhibitions": [
+      {
+        "id": "saha-2026",
+        "status": "confirmed",
+        "evidenceUrl": "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter",
+        "note": "행사 후 FNSS Q2 뉴스레터에 PARS ALPHA + TEBER-II 30/40 전시를 과거형으로 확인."
+      }
+    ],
+    "specs": [
+      {
+        "label": "엔진 출력",
+        "value": "711 hp",
+        "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+        "note": "2024 기본 공개 사양"
+      },
+      {
+        "label": "탑승 인원",
+        "value": "12명 (3+9)",
+        "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+        "note": "원격포탑 IFV 구성 기준"
+      },
+      {
+        "label": "차체 치수",
+        "value": "길이 <7.8 m · 폭 <3.1 m",
+        "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+        "note": ""
+      },
+      {
+        "label": "차체 높이",
+        "value": "주행 <2.4 m · 수송 <2.2 m",
+        "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+        "note": "공개 브로슈어 기준"
+      },
+      {
+        "label": "현가장치",
+        "value": "차고 조절식 독립 유기압",
+        "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+        "note": ""
+      },
+      {
+        "label": "구동·조향",
+        "value": "전륜 구동 · 전 차축 조향",
+        "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+        "note": ""
+      }
+    ],
+    "highlights": [
+      "전방 동력실과 나란히 배치된 승무원 검토",
+      "2024·2026 전시 탑재체 계열의 연속성 확인",
+      "양산 계약과 실제 인도 완료는 구분"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "동력실 뒤의 승무원 공간",
+        "fact": "제조사는 전방 동력장치 뒤로 승무원과 탑승병 공간을 배치했다고 설명합니다.",
+        "interpretation": "승무원 간 이동과 소통 측면에서 기존 배치와 비교할 가치가 있습니다.",
+        "unknown": "내부 실제 통로 폭과 비상 탈출 검증자료는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/products/pars-alpha-8x8-new-generation-afv"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "차장·조종수 간 소통",
+        "fact": "제품 설명은 차장·조종수의 나란한 배치를 강조합니다.",
+        "interpretation": "좌석 간 소통에는 이점이 있을 수 있으나 외부 시야와 디스플레이 부하를 함께 검토해야 합니다.",
+        "unknown": "운용자 평가와 인체치수별 적합성 자료는 없습니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/products/pars-alpha-8x8-new-generation-afv"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "차고 조절과 전차축 조향",
+        "fact": "브로슈어는 차고 조절식 현가장치와 전 차축 조향을 명시합니다.",
+        "interpretation": "수송 높이 조절과 좁은 공간 이동의 설계 선택을 보여줍니다.",
+        "unknown": "고장 모드·장기 유지비·다른 중량에서의 동일 성능은 미확인입니다.",
+        "sourceUrls": [
+          "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "공개되지 않은 방호 등급",
+        "fact": "브로슈어는 STANAG 4569 관련 방호 수준을 비공개로 표기합니다.",
+        "interpretation": "등급 미공개 상태를 점수로 임의 보정하지 않고 자료 공백으로 남겨야 합니다.",
+        "unknown": "확정 방호 등급과 시험구성은 공개 근거가 없습니다.",
+        "sourceUrls": [
+          "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "같은 계열의 전시 포탑 유지",
+        "fact": "2024와 2026 SAHA 자료 모두 TEBER-II 30/40을 명시합니다.",
+        "interpretation": "탑재체 계열의 연속성은 확인되지만 내부 소프트웨어나 센서 변경까지 동일하다는 의미는 아닙니다.",
+        "unknown": "두 회차 전시차의 세부 구성 차이는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/tr/medya/basin-bultenleri/fnss-pars-alpha-8x8-ve-zaha-ile-saha-expo-2024te-yerini-aldi-",
+          "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "복합 조향·현가의 정비 검토",
+        "fact": "차고 조절 현가와 전체 차축 조향이 공개 사양에 포함됩니다.",
+        "interpretation": "장치 수가 늘어나는 만큼 부품 접근성과 진단 지원을 확인하는 것이 비교에 유용합니다.",
+        "unknown": "정비시간·공구 요구·고장 통계는 확보되지 않았습니다.",
+        "sourceUrls": [
+          "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "양산 사업 진입과 인도 구분",
+        "fact": "FNSS는 튀르키예 육군용 PARS ALPHA 양산 사업 수주를 발표했습니다.",
+        "interpretation": "시제품 전시에서 조달 사업 단계로 이어지는 근거로 사용할 수 있습니다.",
+        "unknown": "SAHA 전시차 자체가 최종 양산 구성인지, 전체 인도가 완료됐는지는 확인하지 못했습니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/media/news/fnss-has-been-awarded-turkish-land-forces-tlf-new-generation-armoured-vehicles-program-serial-production-pars-alpha-8x8-6x6-variants-1869",
+          "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "to": "SAHA 2026",
+        "title": "TEBER-II 30/40 전시 구성의 연속성",
+        "detail": "양 회차 공식 자료에서 같은 계열 포탑의 PARS ALPHA가 확인됩니다. 2026 자료에는 튀르키예 육군 인도 예정 언급이 있으나 전시 외형만으로 성능 향상을 단정하지 않습니다.",
+        "status": "verified",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/tr/medya/basin-bultenleri/fnss-pars-alpha-8x8-ve-zaha-ile-saha-expo-2024te-yerini-aldi-",
+          "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter"
+        ],
+        "from": "SAHA 2024"
+      }
+    ],
+    "sources": [
+      {
+        "title": "PARS ALPHA 2024 영어 브로슈어",
+        "url": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "기본 사양·방호 비공개 표기"
+      },
+      {
+        "title": "PARS ALPHA 제품 소개",
+        "url": "https://www.fnss.com.tr/en/products/pars-alpha-8x8-new-generation-afv",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "배치·승무원 소통 설계"
+      },
+      {
+        "title": "SAHA 2024 공식 발표",
+        "url": "https://www.fnss.com.tr/tr/medya/basin-bultenleri/fnss-pars-alpha-8x8-ve-zaha-ile-saha-expo-2024te-yerini-aldi-",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "직전 회차 TEBER-II 구성"
+      },
+      {
+        "title": "SAHA 2026 공식 사전 발표",
+        "url": "https://www.fnss.com.tr/en/media/news/fnss-showcase-pars-alpha-8x8-zaha-pars-scout-6x6-command-post-vehicle-and-roketsan-alka-dews-fnss-kaplan-hybrid-autonomous-saha-2026-1986",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": "2026-05-02",
+        "supports": "전시 예정 형상"
+      },
+      {
+        "title": "FNSS Focus Q2 2026",
+        "url": "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "실제 전시 사후 확인"
+      },
+      {
+        "title": "PARS ALPHA 양산 사업 수주",
+        "url": "https://www.fnss.com.tr/en/media/news/fnss-has-been-awarded-turkish-land-forces-tlf-new-generation-armoured-vehicles-program-serial-production-pars-alpha-8x8-6x6-variants-1869",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "개발·조달 단계"
+      }
+    ],
+    "photoSearchTerms": [
+      "FNSS PARS ALPHA 8x8 SAHA 2026 TEBER II front side rear",
+      "PARS ALPHA driver commander interior"
+    ],
+    "limitations": [
+      "제품 페이지 일부 직접 열람이 시간 초과되어 공식 검색 색인과 브로슈어를 함께 확인했습니다.",
+      "PARS ALPHA 6×6 개념형의 사진과 제원을 8×8 실물에 혼합하지 않습니다."
+    ]
+  },
+  {
+    "id": "kaplan-hybrid",
+    "name": "ALKA–KAPLAN HYBRID",
+    "manufacturer": "FNSS · ROKETSAN",
+    "country": "튀르키예",
+    "category": "방공·대드론",
+    "description": "ROKETSAN ALKA 임무체계를 FNSS KAPLAN HYBRID 궤도 플랫폼과 통합한 전시 체계. SAHA 2026에서 선택적 유인·자율 기능을 함께 제시했습니다.",
+    "tags": [
+      "하이브리드",
+      "선택적 유인",
+      "대드론",
+      "전력 통합"
+    ],
+    "researchStatus": "partial",
+    "exhibitions": [
+      {
+        "id": "saha-2026",
+        "status": "confirmed",
+        "evidenceUrl": "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter",
+        "note": "행사 후 제조사 뉴스레터에서 선택적 유인·자율 기능의 ALKA-KAPLAN HYBRID 전시 확인."
+      }
+    ],
+    "specs": [
+      {
+        "label": "주행 기반",
+        "value": "하이브리드 궤도형",
+        "sourceUrl": "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026",
+        "note": ""
+      },
+      {
+        "label": "기본 차대 중량",
+        "value": "17.5 t",
+        "sourceUrl": "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications",
+        "note": "KAPLAN HYBRID 기본형 공개치. ALKA 통합형 중량 아님"
+      },
+      {
+        "label": "기본 차대 치수",
+        "value": "5.6 × 3.0 × 2.4 m",
+        "sourceUrl": "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications",
+        "note": "기본형 길이·폭·전체 높이. 2026 통합 탑재체 포함 치수 미확인"
+      },
+      {
+        "label": "기본 차대 배터리",
+        "value": "800 V · 56 kWh",
+        "sourceUrl": "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications",
+        "note": "기본형 사양, SAHA 전시차 동일 구성 미확인"
+      },
+      {
+        "label": "SAHA 전시 운용 형태",
+        "value": "선택적 유인·자율 기능",
+        "sourceUrl": "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026",
+        "note": "제조사 설명. 자율 기능의 검증 수준 별도 확인"
+      }
+    ],
+    "highlights": [
+      "기본 차대 제원과 ALKA 통합형을 명확히 구분",
+      "추진 전력과 임무 전력의 통합을 주요 분석 축으로 설정",
+      "자율 기능 소개를 완전 무인화 또는 독립 검증으로 확대하지 않음"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "차대와 임무체계의 결합",
+        "fact": "ALKA는 KAPLAN HYBRID 위에 통합된 별도 임무체계입니다.",
+        "interpretation": "상부 센서·장비와 기반 차대의 형상 변경을 따로 기록하면 비교 오류를 줄일 수 있습니다.",
+        "unknown": "통합 후 총중량·전체 높이·내부 공간 변화는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "기본형과 통합형의 제원 분리",
+        "fact": "FNSS는 기본 KAPLAN HYBRID 제원표를 공개합니다.",
+        "interpretation": "기본형 주행자료를 중량이 다른 ALKA 통합형에 그대로 적용할 수 없습니다.",
+        "unknown": "SAHA 2026 형상에서 검증된 주행·내구 시험결과는 확보되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "추진·임무 전력 공유",
+        "fact": "제조사는 하이브리드 동력계가 이동과 임무체계 전력을 함께 지원한다고 설명합니다.",
+        "interpretation": "차체와 임무장비를 따로 보는 것보다 동시 사용 시 전력·냉각 관리의 통합성을 검토해야 합니다.",
+        "unknown": "동시 부하 조건의 지속 운용 자료는 공개 근거가 부족합니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "고전압 동력계의 지원 요구",
+        "fact": "기본 차대에는 고전압 배터리와 전기 구동계가 명시됩니다.",
+        "interpretation": "기계 정비뿐 아니라 전기 진단 인력·장비와 배터리 교체 계획을 함께 확인할 필요가 있습니다.",
+        "unknown": "배터리 수명·교체 비용·정비 소요시간은 미확인입니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "선택적 유인 운용의 인터페이스",
+        "fact": "SAHA 2026 소개는 유인 또는 자율 운용 선택을 언급합니다.",
+        "interpretation": "화면·조종권 전환·감독 방식은 차량 운용 부담을 판단할 핵심 검토 지점입니다.",
+        "unknown": "사용자 평가, 개입 절차, 통신 단절 시 동작은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "임무체계와 차대 개발의 연결",
+        "fact": "2025 ALKA 통합 소개에 이어 2026 선택적 유인·자율 기능이 제시되었습니다.",
+        "interpretation": "같은 기반 차대에 임무·운용 기능을 단계적으로 통합한 사례로 볼 수 있습니다.",
+        "unknown": "다른 차대나 임무체계로의 교환 가능 범위는 확정되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/media/press-releases/ideal-match-mobile-armoured-counter-drone-requirements-roketsan-fnss-will-showcase-alka-kaplan-hybrid-directed-energy-weapon-system-dews-platform-idef-2025",
+          "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "전시 실증과 전력화의 구분",
+        "fact": "행사 후 공식 뉴스레터가 2026 전시 사실을 확인합니다.",
+        "interpretation": "전시 기능 소개는 개발 방향을 보여주며 실전 성능이나 양산 성숙도를 입증하는 자료는 아닙니다.",
+        "unknown": "독립 평가와 양산 인도 수량은 미확인입니다.",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "to": "SAHA 2026",
+        "title": "동일 통합체계의 직전 회차 비교는 불가",
+        "detail": "2026 ALKA-KAPLAN은 확인되나 SAHA 2024의 동일 통합체계 자료는 확보하지 못했습니다. IDEF 2025→SAHA 2026 기능 소개는 별도 개발 맥락이며 동일 전시회 시계열로 세지 않습니다.",
+        "status": "insufficient",
+        "sourceUrls": [
+          "https://www.fnss.com.tr/en/media/press-releases/ideal-match-mobile-armoured-counter-drone-requirements-roketsan-fnss-will-showcase-alka-kaplan-hybrid-directed-energy-weapon-system-dews-platform-idef-2025",
+          "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+        ],
+        "from": "SAHA 2024"
+      }
+    ],
+    "sources": [
+      {
+        "title": "KAPLAN HYBRID 기본형 기술 제원",
+        "url": "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "기본 차대 중량·치수·전기 구성"
+      },
+      {
+        "title": "ALKA-KAPLAN IDEF 2025 소개",
+        "url": "https://www.fnss.com.tr/en/media/press-releases/ideal-match-mobile-armoured-counter-drone-requirements-roketsan-fnss-will-showcase-alka-kaplan-hybrid-directed-energy-weapon-system-dews-platform-idef-2025",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "ALKA 통합의 개발 맥락"
+      },
+      {
+        "title": "ALKA-KAPLAN SAHA 2026 소개",
+        "url": "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": "2026-05-05",
+        "supports": "선택적 유인·자율·전력 통합"
+      },
+      {
+        "title": "FNSS Focus Q2 2026",
+        "url": "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter",
+        "publisher": "FNSS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "실제 전시 사후 확인"
+      }
+    ],
+    "photoSearchTerms": [
+      "ALKA KAPLAN HYBRID SAHA 2026 autonomous front rear side",
+      "FNSS KAPLAN HYBRID ALKA IDEF 2025"
+    ],
+    "limitations": [
+      "기본형 제원은 해당 라벨로만 사용하며 통합체계 제원으로 합산하지 않습니다.",
+      "공식 영문 제원 일부에 속도 단위 오기가 있어 관련 수치를 채택하지 않았습니다.",
+      "외부 사진의 라이선스가 확인되기 전에는 원문 링크만 제공합니다."
+    ]
+  }
+]

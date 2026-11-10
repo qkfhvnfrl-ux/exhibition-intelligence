@@ -1,7 +1,8 @@
 import http from 'node:http';
 import {readFile,stat} from 'node:fs/promises';
 import path from 'node:path';
-const root=process.cwd(), port=Number(process.env.PORT||3000);
+const args=process.argv.slice(2), arg=(name,fallback)=>{const i=args.indexOf(name);return i>=0?args[i+1]:fallback;};
+const root=process.cwd(), port=Number(arg('--port',process.env.PORT||3000)), host=arg('--host','0.0.0.0');
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.ico':'image/x-icon'};
 http.createServer(async(req,res)=>{
  try{
@@ -13,4 +14,4 @@ http.createServer(async(req,res)=>{
   const bytes=await readFile(file);
   res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'});res.end(bytes);
  }catch{res.writeHead(404);res.end('Not found');}
-}).listen(port,'0.0.0.0',()=>console.log(`Exhibition Intelligence on port ${port}`));
+}).listen(port,host,()=>console.log(`Exhibition Intelligence on http://${host}:${port}`));

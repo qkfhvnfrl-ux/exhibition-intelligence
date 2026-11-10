@@ -1,0 +1,950 @@
+[
+  {
+    "id": "boxer-miv",
+    "name": "BOXER MIV",
+    "manufacturer": "ARTEC · RBSL · KNDS UK",
+    "country": "독일·영국",
+    "category": "장갑차",
+    "description": "영국 기계화보병용 BOXER 계열. DSEI 2025에서 지휘소형 및 정찰·중보병 무장운반형의 전시가 각각 명시된 모듈형 차륜 플랫폼입니다.",
+    "tags": [
+      "8×8",
+      "임무모듈",
+      "영국 생산",
+      "지휘지원"
+    ],
+    "exhibitions": [
+      {
+        "id": "dsei-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025",
+        "note": "제조사 발표가 Land Zone N2-350 지휘소형 및 자사 부스 정찰·중보병 무장운반형 전시를 명시. 각 차량의 완성도와 운용국 형상은 사진별 재확인 필요."
+      }
+    ],
+    "specs": [
+      {
+        "label": "구동 형식",
+        "value": "8×8",
+        "sourceUrl": "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet",
+        "note": "BOXER 계열 공통"
+      },
+      {
+        "label": "영국 차량 중량",
+        "value": "38.5 t",
+        "sourceUrl": "https://www.army.mod.uk/news/trials-begin-for-the-army-s-new-heavyweight-the-boxer",
+        "note": "영국 육군 시험차량 소개 수치. 모든 DSEI 파생형에 일괄 적용하지 않음"
+      },
+      {
+        "label": "길이 × 폭",
+        "value": "7.93 × 2.99 m",
+        "sourceUrl": "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet",
+        "note": "OCCAR 계열 일반 제원; 지붕 장비·임무모듈별 높이 별도"
+      },
+      {
+        "label": "도로 최고속도",
+        "value": "100 km/h",
+        "sourceUrl": "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet",
+        "note": "OCCAR 계열 수치; 전시차 개별 시험 결과 아님"
+      }
+    ],
+    "highlights": [
+      "차체와 임무모듈을 분리한 공통 플랫폼",
+      "전시차의 역할과 영국 생산차의 형상을 구분해야 함",
+      "상부 장비보다 유지보수·형상관리 구조가 핵심 비교항목"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "구동부와 임무부의 분리",
+        "fact": "OCCAR는 공통 구동모듈과 교환형 임무모듈 구조를 설명합니다.",
+        "interpretation": "차량 한 대보다 모듈별 임무공간과 연결 인터페이스를 함께 비교하는 편이 적절합니다.",
+        "unknown": "전시된 각 모듈의 내부 배치도와 유효 공간은 별도 확인이 필요합니다.",
+        "sourceUrls": [
+          "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "영국형 중량의 적용 범위",
+        "fact": "영국 육군은 시험대상 BOXER를 38.5t급으로 소개했습니다.",
+        "interpretation": "브리지·수송 검토에는 영국형 수치를 사용하되 다른 BOXER 파생형의 중량과 혼합하지 않아야 합니다.",
+        "unknown": "DSEI의 각 전시형별 실제 계측 중량은 공개 근거가 없습니다.",
+        "sourceUrls": [
+          "https://www.army.mod.uk/news/trials-begin-for-the-army-s-new-heavyweight-the-boxer",
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "역할에 따라 달라지는 실내",
+        "fact": "DSEI 발표는 지휘소형과 다른 임무형을 구분합니다.",
+        "interpretation": "실내 사진은 같은 BOXER라는 이유로 합치지 않고 운용 역할별로 분류해야 좌석·작업공간 검토가 가능합니다.",
+        "unknown": "지휘소형의 좌석 수·작업대 치수·승하차 여유는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "보호구조와 국가별 사양",
+        "fact": "OCCAR 자료는 모듈식 장갑과 안전 셀 구조를 제시합니다.",
+        "interpretation": "보호구조 개념은 공통 비교가 가능하지만 외관 사진만으로 방호등급을 평가할 수 없습니다.",
+        "unknown": "영국 전시차의 상세 방호등급과 적용 옵션은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "현지 생산과 장기 지원",
+        "fact": "RBSL은 Telford에서 구조물 제작·조립·통합·시험을 수행한다고 설명합니다.",
+        "interpretation": "현지 생산 능력은 공급망 분석의 근거가 되며 실제 수리기간·부품 조달기간은 별도 지표로 관리해야 합니다.",
+        "unknown": "현장 정비 공수와 가동률 실측치는 공개 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://rbsl.com/capabilities/wheeled-vehicles/boxer"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "모듈 공통성과 형상관리",
+        "fact": "임무모듈은 국가별 요구와 차종에 맞추어 구성됩니다.",
+        "interpretation": "공통화의 이점을 비교하려면 교체 가능성뿐 아니라 소프트웨어·전기 인터페이스의 승인 범위도 확인해야 합니다.",
+        "unknown": "운용국 간 모듈의 직접 호환 범위와 승인 절차는 미확인입니다.",
+        "sourceUrls": [
+          "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "시험·생산·전시의 단계 구분",
+        "fact": "2025년 발표는 첫 영국 생산차 출고와 DSEI 전시를 함께 다룹니다.",
+        "interpretation": "생산 진척과 특정 전시형의 실전 배치는 서로 다른 사건으로 기록하는 것이 타당합니다.",
+        "unknown": "부스에 놓인 개별 차량의 양산 표준 일치 여부는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "from": "2023",
+        "to": "2025",
+        "title": "BOXER 계열 전시 역할의 차이",
+        "detail": "2023년 공식 자료는 BOXER CRV 및 Skyranger 임무모듈을, 2025년은 지휘소형과 정찰·중보병 무장운반형을 언급합니다. 동일 차량의 성능 개선 증거가 아니라 전시 구성의 차이입니다.",
+        "status": "verified",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/2023-09-06-Rheinmetall-at-DSEI-2023.pdf",
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "DSEI 2025 출품 발표 및 사진",
+        "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025",
+        "publisher": "Rheinmetall",
+        "kind": "manufacturer",
+        "date": "2025-09-03",
+        "supports": "차량별 출품 명시, 영국 생산 진척"
+      },
+      {
+        "title": "BOXER 프로그램 제원표",
+        "url": "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet",
+        "publisher": "OCCAR",
+        "kind": "government",
+        "date": null,
+        "supports": "계열 기본 제원·모듈 구조"
+      },
+      {
+        "title": "영국 육군 BOXER 시험 소개",
+        "url": "https://www.army.mod.uk/news/trials-begin-for-the-army-s-new-heavyweight-the-boxer",
+        "publisher": "British Army",
+        "kind": "government",
+        "date": null,
+        "supports": "영국형 38.5t 및 사진"
+      },
+      {
+        "title": "BOXER 영국 생산 소개",
+        "url": "https://rbsl.com/capabilities/wheeled-vehicles/boxer",
+        "publisher": "RBSL",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "현지 생산 범위 및 사진"
+      },
+      {
+        "title": "DSEI 2023 출품 발표",
+        "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/2023-09-06-Rheinmetall-at-DSEI-2023.pdf",
+        "publisher": "Rheinmetall",
+        "kind": "manufacturer",
+        "date": "2023-09-06",
+        "supports": "직전 회차 BOXER 계열 출품 구성"
+      }
+    ],
+    "photoSearchTerms": [
+      "BOXER MIV DSEI 2025 command post front rear interior",
+      "RBSL Boxer British Army trials side view"
+    ],
+    "researchStatus": "reviewed",
+    "limitations": [
+      "제원은 영국형 수치와 BOXER 계열 일반 수치의 적용 범위를 항목마다 구분했습니다.",
+      "공식 사진 원문 링크를 제공하며 재배포 허가가 확인되지 않은 사진은 저장하지 않았습니다.",
+      "외관으로 임무모듈 내부 성능이나 방호등급을 추정하지 않습니다."
+    ]
+  },
+  {
+    "id": "patria-6x6",
+    "name": "Patria 6×6",
+    "manufacturer": "Patria",
+    "country": "핀란드",
+    "category": "장갑차",
+    "description": "공통 차륜 플랫폼을 기반으로 한 병력수송·지원 차량. DSEI 2025에서는 Patria의 지휘통제형과 Babcock의 병력수송형 두 대가 명시되었습니다.",
+    "tags": [
+      "6×6",
+      "CAVS",
+      "지휘통제",
+      "병력수송",
+      "공동조달"
+    ],
+    "exhibitions": [
+      {
+        "id": "dsei-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+        "note": "Patria N9-220 지휘통제형, Babcock S7-110 병력수송형 실차 2대 전시 명시. 9월 9일 협약 보도에 DSEI 현장 사진도 수록."
+      }
+    ],
+    "specs": [
+      {
+        "label": "최대 전투중량",
+        "value": "24,000 kg",
+        "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+        "note": "2025년 7월 표기 브로슈어. 개별 전시형의 실측 중량 아님"
+      },
+      {
+        "label": "최대 적재량",
+        "value": "8,500 kg",
+        "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+        "note": "브로슈어 상한값; 방호·임무장비 구성과 연동"
+      },
+      {
+        "label": "길이 × 폭 × 차체 높이",
+        "value": "7.5 × 2.9 × 2.5 m",
+        "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+        "note": "차체 기준 높이; 지휘통제 안테나 미포함"
+      },
+      {
+        "label": "엔진 출력",
+        "value": "325 kW",
+        "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+        "note": "0725 표기 브로슈어. 이전 형상의 294kW와 혼용 금지"
+      },
+      {
+        "label": "병력수송 배치",
+        "value": "승무원 2명 + 후방 최대 10명",
+        "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+        "note": "병력수송형 일반 배치; 지휘통제형에 그대로 적용 불가"
+      },
+      {
+        "label": "도로 최고속도",
+        "value": "100 km/h 초과",
+        "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+        "note": "제조사 표기; 시험 조건 미공개"
+      }
+    ],
+    "highlights": [
+      "2023년 NEMO 탑재형에서 2025년 지휘통제·병력수송형으로 전시 역할 다변화",
+      "형상별 실내 비교와 공동조달·현지생산 분석에 적합",
+      "공식 2025 브로슈어의 제원 버전을 명시"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "병력수송과 지휘통제의 공간 차이",
+        "fact": "2025년 전시차는 지휘통제형과 병력수송형으로 구분됩니다.",
+        "interpretation": "동일 차체의 좌석·랙·작업공간 변화를 비교하는 자료로 활용할 수 있습니다.",
+        "unknown": "지휘통제형의 정확한 작업자 수와 실내 치수는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "기본 차체의 기동 구성",
+        "fact": "제조사 브로슈어는 독립현가와 상시 전륜구동을 명시합니다.",
+        "interpretation": "차량 간 비교에서는 최고속도보다 적재·방호 구성별 시험 조건을 함께 기록할 필요가 있습니다.",
+        "unknown": "전시차의 적재 상태별 승차감·지속 운행 결과는 공개되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.patriagroup.com/download/patria-6x6-brochure-2"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "트럭형 조작계의 평가 범위",
+        "fact": "브로슈어는 트럭과 유사한 조작계를 설명합니다.",
+        "interpretation": "교육 부담 완화 가능성은 있으나 실제 교육시간 감소를 입증하는 수치는 아닙니다.",
+        "unknown": "운전자 시야 사각·피로도·비상 탈출 시험 결과는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.patriagroup.com/download/patria-6x6-brochure-2"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "기본형과 옵션을 분리",
+        "fact": "제조사는 방호 구성이 고객 요구에 따라 달라진다고 설명합니다.",
+        "interpretation": "방호 성능을 단일 숫자로 고정하기보다 해당 사진과 계약의 구성 상태를 연결해야 합니다.",
+        "unknown": "DSEI 두 차량에 적용된 구체적 방호 옵션은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+          "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "지휘통제형의 센서·통신 통합",
+        "fact": "전시 발표는 지휘통제형과 함께 ARIS·ARIS-E·CATCHR를 소개합니다.",
+        "interpretation": "장비 목록과 실제 차량에 통합된 장비를 별도 기록해야 전시 홍보와 실물 구성을 혼동하지 않습니다.",
+        "unknown": "각 체계의 실차 탑재 위치·완전 통합 상태는 현장 상세자료가 필요합니다.",
+        "sourceUrls": [
+          "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "공동 플랫폼과 영국 생산 협력",
+        "fact": "Patria와 Babcock은 DSEI에서 영국 내 제조 협력을 발표했습니다.",
+        "interpretation": "공동 플랫폼의 분석 범위가 차량 성능에서 현지 공급망·교육·지원으로 확대되는 사례입니다.",
+        "unknown": "영국 생산분의 확정 일정과 실제 단위 유지비는 이 발표만으로 판단할 수 없습니다.",
+        "sourceUrls": [
+          "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "양산 계열과 개별 전시형의 구분",
+        "fact": "2025년 8월 발표는 CAVS 계열 인도 실적을 설명합니다.",
+        "interpretation": "계열의 생산 경험은 확인되지만 전시 지휘통제형의 자격인증이나 배치 완료를 뜻하지 않습니다.",
+        "unknown": "해당 지휘통제 형상의 고객 승인·배치 상태는 추가 확인이 필요합니다.",
+        "sourceUrls": [
+          "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "from": "2023",
+        "to": "2025",
+        "title": "포탑 탑재형에서 지원 역할 전시로 확대",
+        "detail": "DSEI 2023 공식 자료는 Patria 6×6 NEMO 탑재형을, 2025년은 지휘통제형과 병력수송형을 명시합니다. 이는 제품군의 전시 강조점 변화이며 전 모델의 무장 변경을 의미하지 않습니다.",
+        "status": "verified",
+        "sourceUrls": [
+          "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
+          "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "DSEI 2025 두 전시차 안내",
+        "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+        "publisher": "Patria",
+        "kind": "manufacturer",
+        "date": "2025-08-28",
+        "supports": "출품 차종·부스·당시 계열 생산상태"
+      },
+      {
+        "title": "DSEI 현장 협약 및 차량 사진",
+        "url": "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom",
+        "publisher": "Patria",
+        "kind": "manufacturer",
+        "date": "2025-09-09",
+        "supports": "현장 사진, 영국 제조 협력"
+      },
+      {
+        "title": "Patria 6×6 제품 브로슈어 0725",
+        "url": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+        "publisher": "Patria",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "기본 제원, 차체 구성, 제품 사진"
+      },
+      {
+        "title": "DSEI 2023 전시 안내",
+        "url": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
+        "publisher": "Patria",
+        "kind": "manufacturer",
+        "date": "2023-08-28",
+        "supports": "직전 회차 NEMO 탑재형 전시"
+      },
+      {
+        "title": "공식 사진자료 목록",
+        "url": "https://www.patriagroup.com/newsroom/images?page=3",
+        "publisher": "Patria",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "각도별 사진 탐색 및 DSEI 2023 사진 식별"
+      }
+    ],
+    "photoSearchTerms": [
+      "Patria 6x6 DSEI 2025 C2 interior rear Babcock",
+      "Patria 6x6 DSEI 2023 NEMO official images"
+    ],
+    "researchStatus": "reviewed",
+    "limitations": [
+      "브로슈어 일반 제원은 DSEI 지휘통제형의 확정 제원과 다를 수 있습니다.",
+      "최대 적재량과 최대 승차인원은 모든 옵션 상태에서 동시에 성립한다고 가정하지 않습니다.",
+      "사진 원문과 라이선스 검토가 필요하며 무허가 이미지 복제는 포함하지 않았습니다."
+    ]
+  },
+  {
+    "id": "lynx-skyranger35",
+    "name": "Lynx KF41 Skyranger 35",
+    "manufacturer": "Rheinmetall",
+    "country": "독일",
+    "category": "방공·대드론",
+    "description": "Lynx KF41 궤도 플랫폼에 Skyranger 35를 통합한 기동 방공 전시형. DSEI 2025에서 최초 공개가 제조사 발표로 확인됩니다.",
+    "tags": [
+      "궤도형",
+      "방공",
+      "대드론",
+      "공통차체",
+      "센서 통합"
+    ],
+    "exhibitions": [
+      {
+        "id": "dsei-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+        "note": "2025년 9월 9일 제조사 발표가 S9-110 부스 최초 전시를 명시. 실운용 배치 완료와는 구분."
+      }
+    ],
+    "specs": [
+      {
+        "label": "기반 차체",
+        "value": "Lynx KF41 궤도형",
+        "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+        "note": "Skyranger 35 통합 형상"
+      },
+      {
+        "label": "주 체계 구경",
+        "value": "35 mm",
+        "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+        "note": "기본 식별 제원. 발사 성능과 교전 최적화 수치는 수록하지 않음"
+      },
+      {
+        "label": "센서 구성",
+        "value": "능동·수동 탐색 및 추적 센서",
+        "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+        "note": "제조사 공개 설명; 개별 센서 모델과 배치는 추가 확인"
+      }
+    ],
+    "highlights": [
+      "보병전투차 계열의 방공 역할 확장",
+      "센서·차체 통합 상태와 지원 공통성 검토가 중심",
+      "Skyranger 30의 수주 실적을 이 형상에 전용하지 않음"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "기존 차체의 역할 전환",
+        "fact": "제조사는 KF41 차체에 Skyranger 35를 결합했다고 발표했습니다.",
+        "interpretation": "사진 비교는 보병전투차의 승차공간이 방공형에서 어떻게 달라지는지 확인하는 데 초점을 둘 수 있습니다.",
+        "unknown": "방공형 내부 배치도와 운용자 좌석 수는 이 자료에서 확인되지 않습니다.",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "차체 계열과 완성차 제원을 분리",
+        "fact": "전시형은 궤도식 Lynx KF41을 기반으로 합니다.",
+        "interpretation": "기반 차체의 주행 경험은 참고하되 포탑·센서가 결합된 완성차의 중량과 주행 시험이 별도로 필요합니다.",
+        "unknown": "Skyranger형의 확정 중량·치수·출력 수치는 확보하지 못했습니다.",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "복수 센서와 작업부담",
+        "fact": "능동·수동 탐색 및 추적 센서의 통합이 공개되어 있습니다.",
+        "interpretation": "운용 편의성은 센서 개수보다 표시 화면과 경보 관리의 사용성 자료로 평가해야 합니다.",
+        "unknown": "실내 조작계, 작업 분담, 피로도 평가 자료는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "계열 보호구조의 적용 한계",
+        "fact": "제조사는 Lynx 계열의 보호구조를 방공형 설명에 포함합니다.",
+        "interpretation": "기반 차체의 방호 개념과 상부 임무장비의 보호 범위를 구분해 기록하는 것이 타당합니다.",
+        "unknown": "방공형 전체의 인증 방호등급은 이 공개자료에 제시되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "센서 통합과 향후 옵션",
+        "fact": "제조사는 통합 센서를 설명하고 유도탄 추가는 향후 가능성으로 표현합니다.",
+        "interpretation": "현재 전시 구성과 향후 통합 구상을 분리해야 완성도를 과대평가하지 않습니다.",
+        "unknown": "외부 지휘체계 인터페이스의 인증 상태와 향후 옵션 일정은 미확인입니다.",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "Lynx 계열 공통성",
+        "fact": "제조사는 플랫폼 호환성에 기반한 지원 효율을 제시합니다.",
+        "interpretation": "차체 부품 공통화의 가능성과 방공 센서·포탑의 별도 정비 부담을 함께 검토해야 합니다.",
+        "unknown": "공통 부품 비율과 전용 정비 인력 규모는 공개 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "최초 공개와 양산 실적 구분",
+        "fact": "DSEI 2025는 이 결합 형상의 최초 공개로 명시됩니다.",
+        "interpretation": "다른 차체에 탑재한 Skyranger의 계약을 이 차량의 납품 실적으로 합산해서는 안 됩니다.",
+        "unknown": "전시 당시 이 형상의 양산 승인·납품 실적은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "from": "2023",
+        "to": "2025",
+        "title": "Skyranger 임무모듈에서 Lynx 결합형 공개",
+        "detail": "Rheinmetall의 2023 DSEI 발표는 Skyranger 방공 임무모듈을, 2025년은 Lynx KF41 Skyranger 35의 최초 공개를 명시합니다. 방공 체계의 플랫폼 적용 확대를 보여주지만 동일 차체의 개량 전후 비교는 아닙니다.",
+        "status": "verified",
+        "sourceUrls": [
+          "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/2023-09-06-Rheinmetall-at-DSEI-2023.pdf",
+          "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Lynx Skyranger 35 DSEI 최초 공개·사진",
+        "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+        "publisher": "Rheinmetall",
+        "kind": "manufacturer",
+        "date": "2025-09-09",
+        "supports": "차체, 센서 통합, 전시상태, 향후 옵션 구분"
+      },
+      {
+        "title": "DSEI 2025 전체 출품 발표",
+        "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025",
+        "publisher": "Rheinmetall",
+        "kind": "manufacturer",
+        "date": "2025-09-03",
+        "supports": "별도 출품 공지로 전시 재확인"
+      },
+      {
+        "title": "DSEI 2023 출품 발표",
+        "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/2023-09-06-Rheinmetall-at-DSEI-2023.pdf",
+        "publisher": "Rheinmetall",
+        "kind": "manufacturer",
+        "date": "2023-09-06",
+        "supports": "직전 회차 방공 모듈 출품"
+      },
+      {
+        "title": "Lynx 계열 공식 제품·사진",
+        "url": "https://www.rheinmetall.com/en/products/tracked-armoured-vehicles/lynx-infantry-fighting-vehicle",
+        "publisher": "Rheinmetall",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "차체 계열 및 사진 탐색; 다른 형상 사진과 구분"
+      }
+    ],
+    "photoSearchTerms": [
+      "Rheinmetall Lynx Skyranger 35 DSEI 2025 front side rear",
+      "Lynx KF41 Skyranger 35 official Rheinmetall gallery"
+    ],
+    "researchStatus": "reviewed",
+    "limitations": [
+      "KF41 보병전투차의 일반 중량·승무원 수를 방공 전시형의 제원으로 옮기지 않았습니다.",
+      "제조사의 성능 표현은 독립 시험 결과가 아니며, 우열 점수로 환산하지 않았습니다.",
+      "공식 사진 링크는 제공하지만 각도별 이미지의 재사용 허가는 별도 확인 대상입니다."
+    ]
+  },
+  {
+    "id": "leopard-2a8",
+    "name": "LEOPARD 2 A8",
+    "manufacturer": "KNDS Deutschland",
+    "country": "독일",
+    "category": "전차",
+    "description": "신조 생산과 TROPHY 능동방호체계 통합을 특징으로 하는 LEOPARD 2 계열 기준 형상. Eurosatory 2026 BDSV 출품기업 제품 목록에서 확인되지만 개별 실물 전시는 추가 검증 대상입니다.",
+    "tags": [
+      "신조 생산",
+      "능동방호",
+      "국가별 형상",
+      "전시 확인 대기"
+    ],
+    "exhibitions": [
+      {
+        "id": "eurosatory-2026",
+        "status": "candidate",
+        "evidenceUrl": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+        "note": "KNDS 전시기업 프로필의 Product 1에 A8이 명시됨. 기업 제품 소개와 실제 부스 전시를 구분하기 위해 후보로 유지."
+      }
+    ],
+    "specs": [
+      {
+        "label": "차량 형식",
+        "value": "궤도형 주력전차",
+        "sourceUrl": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+        "note": "출품기업 제품 소개"
+      },
+      {
+        "label": "능동방호체계",
+        "value": "TROPHY",
+        "sourceUrl": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+        "note": "A8 기준 형상. 국가별 추가 요구는 별도"
+      },
+      {
+        "label": "생산 구분",
+        "value": "신조 생산",
+        "sourceUrl": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+        "note": "기존 전차 개조형 일반과 구분"
+      }
+    ],
+    "highlights": [
+      "A8·A8 NOR 등 고객별 형상 구분 필요",
+      "능동방호 통합과 공급망 관점의 비교 대상으로 적합",
+      "공식 브로슈어의 세대 혼재 가능성 때문에 중량 숫자는 보류"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "기준 형상과 고객 형상",
+        "fact": "KNDS는 A8 NOR가 독일 A8에 추가 기능을 갖는다고 설명합니다.",
+        "interpretation": "장비 사진은 국가·계약·연도를 태그로 연결해야 서로 다른 형상을 한 모델처럼 비교하지 않습니다.",
+        "unknown": "Eurosatory 2026 목록의 사진이 어떤 고객 사양인지 미확인입니다.",
+        "sourceUrls": [
+          "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+          "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "중량 수치의 버전 통제",
+        "fact": "확인한 공식 브로슈어는 A8 명칭 아래 이전 세대의 시험 이력도 함께 제시합니다.",
+        "interpretation": "한 수치를 최신 양산형으로 확정하기보다 문서 발행시점과 적용 형상을 먼저 검증해야 합니다.",
+        "unknown": "최신 고객별 확정 중량·치수·출력은 이번 데이터에서 보류합니다.",
+        "sourceUrls": [
+          "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "능동방호의 기준 형상 포함",
+        "fact": "KNDS와 EuroTrophy는 A8 기준 형상에 TROPHY 통합을 명시합니다.",
+        "interpretation": "별도 옵션 소개에서 기준 형상 구성품으로 이동한 점은 조달 및 정비 범위 분석에 의미가 있습니다.",
+        "unknown": "실제 보호효과의 운용 조건별 독립 시험 결과는 확보하지 않았습니다.",
+        "sourceUrls": [
+          "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+          "https://www.euro-trophy.de/news/trophy-aps-selected-as-the-baseline-aps-of-the-new-leopard-2-a8-mbtconfiguration-with-first-contracts-awarded-for-germany-and-norway/"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "국가별 통신체계 차이",
+        "fact": "A8 NOR에는 Kongsberg ICS/CORTEX가 추가된다고 KNDS가 설명합니다.",
+        "interpretation": "동일 A8 명칭이라도 통신·데이터체계가 다를 수 있어 상호운용성은 계약 형상 단위로 비교해야 합니다.",
+        "unknown": "독일형과 노르웨이형의 전체 인터페이스 차이는 미확인입니다.",
+        "sourceUrls": [
+          "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "계열 기반 지원체계",
+        "fact": "공식 브로슈어는 훈련·예비부품·형상관리 지원을 제품 지원 범위로 설명합니다.",
+        "interpretation": "넓은 계열 기반은 지원 체계의 근거지만 A8 전용 구성품의 조달성과 동일하지 않습니다.",
+        "unknown": "A8 전용 부품의 교체 주기·정비시간·실제 비용은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "공통 기준과 고객 추가 요구",
+        "fact": "A8 NOR의 사례는 공통 기준 위에 고객별 기능을 추가하는 구조를 보여줍니다.",
+        "interpretation": "모듈성을 즉시 교환 가능한 하드웨어로 단정하지 않고 국가별 통합·승인 범위로 분석해야 합니다.",
+        "unknown": "고객 사양 사이의 현장 교환 가능 범위는 미확인입니다.",
+        "sourceUrls": [
+          "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "제품 존재와 행사 출품을 분리",
+        "fact": "A8 명칭과 생산 기준은 공식 발표로 확인되며 2026 출품기업 제품 목록에도 등장합니다.",
+        "interpretation": "제품 실재성은 확인되지만 전시차 실물·목업 여부는 별도의 현장 근거가 있어야 합니다.",
+        "unknown": "Eurosatory 2026 실물 전시 여부와 정확한 전시 차량 식별은 보류합니다.",
+        "sourceUrls": [
+          "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+          "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "from": "2024",
+        "to": "2026",
+        "title": "회차 간 A8 형상 변화는 판정 보류",
+        "detail": "2024 Eurosatory 경로의 공식 A8 브로슈어와 2026 기업 제품 목록은 찾았으나 동일 형상의 현장 사진과 변경 목록을 대조하지 못했습니다. 단순 목록 재등장을 기술 진전으로 표시하지 않습니다.",
+        "status": "insufficient",
+        "sourceUrls": [
+          "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/LEOPARD_2_A8/KNDS_B_Ansicht_LEOPARD2A8_EN.pdf",
+          "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eurosatory 2026 KNDS 출품기업 제품 목록",
+        "url": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+        "publisher": "BDSV Exhibitions",
+        "kind": "organizer",
+        "date": null,
+        "supports": "A8 제품 목록 수록 및 제품 이미지; 실물 전시 미확정"
+      },
+      {
+        "title": "A8 기준 형상 공식 정의",
+        "url": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+        "publisher": "KNDS",
+        "kind": "manufacturer",
+        "date": "2023-06-13",
+        "supports": "신조, TROPHY, A8 NOR 추가 기능"
+      },
+      {
+        "title": "TROPHY의 A8 기준 적용 발표",
+        "url": "https://www.euro-trophy.de/news/trophy-aps-selected-as-the-baseline-aps-of-the-new-leopard-2-a8-mbtconfiguration-with-first-contracts-awarded-for-germany-and-norway/",
+        "publisher": "EuroTrophy",
+        "kind": "manufacturer",
+        "date": "2023-09-06",
+        "supports": "별도 제조사의 A8 통합 확인"
+      },
+      {
+        "title": "LEOPARD 2 A8 공식 브로슈어",
+        "url": "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf",
+        "publisher": "KNDS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "제품·지원 설명 및 여러 사진; 세대·형상 혼재 주의"
+      },
+      {
+        "title": "Eurosatory 2024 A8 브로슈어 경로",
+        "url": "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/LEOPARD_2_A8/KNDS_B_Ansicht_LEOPARD2A8_EN.pdf",
+        "publisher": "KNDS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "직전 회차 자료의 존재; 변경 검증 근거로는 부족"
+      }
+    ],
+    "photoSearchTerms": [
+      "KNDS LEOPARD 2 A8 Eurosatory 2026 official",
+      "LEOPARD 2 A8 NOR TROPHY official front side rear"
+    ],
+    "researchStatus": "partial",
+    "limitations": [
+      "실물 전시 확인 전까지 전시 장비 확정 집계에서 제외해야 합니다.",
+      "A-RC 3.0 및 ASCALON 탑재 개념차는 A8과 다른 형상입니다.",
+      "브로슈어 내 과거 시험 이력을 A8 자체의 해당 연도 시험 실적으로 사용하지 않았습니다.",
+      "신뢰할 수 있는 최신 형상별 수치 확인 전까지 중량·출력 등 숫자는 보류했습니다."
+    ]
+  },
+  {
+    "id": "rch155-tracked",
+    "name": "RCH 155 TRACKED",
+    "manufacturer": "KNDS Deutschland",
+    "country": "독일",
+    "category": "화력체계",
+    "description": "무인 AGM 포 모듈과 BOXER TRACKED 궤도 차체를 결합한 자주포 계열. Eurosatory 2026 출품기업 목록에는 수록되어 있으나 L52 표준형의 실물 전시 식별은 추가 확인이 필요합니다.",
+    "tags": [
+      "궤도형",
+      "무인 포 모듈",
+      "승무원 분리",
+      "형상 확인 대기"
+    ],
+    "exhibitions": [
+      {
+        "id": "eurosatory-2026",
+        "status": "candidate",
+        "evidenceUrl": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+        "note": "KNDS 출품기업 프로필 Product 2에 수록. 제품 페이지의 L52 사양과 2026 신형 장포신 시연 개념을 혼동하지 않도록 실물 확정 보류."
+      }
+    ],
+    "specs": [
+      {
+        "label": "전투중량",
+        "value": "45 t 미만",
+        "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+        "note": "공식 제품 페이지의 L52 표준형 설명"
+      },
+      {
+        "label": "길이 × 폭 × 높이",
+        "value": "10.60 × 3.45 × 3.5 m",
+        "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+        "note": "표준 제품 제원; 2026 실물 전시형 확정치 아님"
+      },
+      {
+        "label": "엔진 출력",
+        "value": "약 800–900 kW",
+        "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+        "note": "제조사 범위 표기 그대로"
+      },
+      {
+        "label": "도로 최고속도",
+        "value": "70 km/h",
+        "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+        "note": "공식 제품 설명; 독립 시험값 아님"
+      },
+      {
+        "label": "차체 내 운용자",
+        "value": "2명",
+        "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+        "note": "표준 제품 페이지 기준"
+      },
+      {
+        "label": "기본 포 모듈",
+        "value": "155 mm / L52",
+        "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+        "note": "형상 식별용 기본 제원; 다른 장포신 개념과 구분"
+      }
+    ],
+    "highlights": [
+      "포 모듈과 승무원 공간 분리",
+      "차륜형 RCH 155의 계약을 궤도형 수주로 합산하지 않음",
+      "공식 다각도 갤러리 확보, 재사용 권한은 별도"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "무인 모듈과 승무원 공간",
+        "fact": "KNDS는 무인 AGM과 2인 운용 차체를 설명합니다.",
+        "interpretation": "승무원 공간과 임무 모듈을 분리한 배치가 작업환경·점검 동선에 주는 영향을 검토할 수 있습니다.",
+        "unknown": "실내 배치도와 비상 작업 절차의 공개 검증 자료는 확보하지 않았습니다.",
+        "sourceUrls": [
+          "https://knds.com/de/produkte/systeme/rch-155-tracked"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "궤도형 자체 제원 관리",
+        "fact": "공식 페이지는 BOXER TRACKED 기반과 중량·출력 범위를 명시합니다.",
+        "interpretation": "차륜형 RCH 155와는 이동·수송·정비 조건이 다르므로 별도 제품으로 비교해야 합니다.",
+        "unknown": "특정 고객 사양의 최종 전투중량과 장거리 내구성 시험 결과는 미확인입니다.",
+        "sourceUrls": [
+          "https://knds.com/de/produkte/systeme/rch-155-tracked"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "2인 운용의 실제 작업부담",
+        "fact": "기본 제품 설명은 차체의 운용자를 2명으로 제시합니다.",
+        "interpretation": "운용 인원 감소가 모든 유지·보급 업무의 인력 감소를 뜻하는지 별도 자료가 필요합니다.",
+        "unknown": "장시간 운용 피로도와 보조 인력 수요의 실측값은 미확인입니다.",
+        "sourceUrls": [
+          "https://knds.com/de/produkte/systeme/rch-155-tracked"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "운용자 보호와 무인 상부 모듈",
+        "fact": "제조사는 장갑 차체와 무인 AGM 구성을 설명합니다.",
+        "interpretation": "승무원 분리는 배치상의 특징이며 실제 보호 수준은 인증자료가 있어야 평가할 수 있습니다.",
+        "unknown": "조건별 보호등급과 검증 시험의 상세 결과는 확보하지 않았습니다.",
+        "sourceUrls": [
+          "https://knds.com/de/produkte/systeme/rch-155-tracked"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "완성차와 구성품의 성숙도",
+        "fact": "AGM과 BOXER TRACKED의 결합이 공식 제품 설명에 명시됩니다.",
+        "interpretation": "기존 구성품의 경험과 신규 차체 결합 이후의 완성차 검증 상태를 분리해야 합니다.",
+        "unknown": "완성차의 통합 인증 일정과 고객 승인 범위는 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://knds.com/de/produkte/systeme/rch-155-tracked"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "서로 다른 모듈의 지원 요구",
+        "fact": "제품 설명은 PzH 2000 및 BOXER 계열 기반 구성품을 언급합니다.",
+        "interpretation": "공통 구성품 활용은 부품·교육 측면에서 검토할 수 있지만 궤도형 전용 정비 부담도 따로 산정해야 합니다.",
+        "unknown": "완성차 공통부품 비율·정비 공수·가동률은 공개 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://knds.com/de/produkte/systeme/rch-155-tracked"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "카탈로그 수록과 실제 전시 구분",
+        "fact": "2026 BDSV 기업 프로필에는 RCH 155 TRACKED가 제품으로 수록됩니다.",
+        "interpretation": "목록과 갤러리만으로 양산·납품 또는 특정 전시형의 실물 공개를 확정할 수 없습니다.",
+        "unknown": "2026 현장 차량의 정확한 형상과 계약·인도 상태는 추가 확인이 필요합니다.",
+        "sourceUrls": [
+          "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+          "https://knds.com/de/produkte/systeme/rch-155-tracked"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "from": "2024",
+        "to": "2026",
+        "title": "차륜형·궤도형을 동일 모델의 개선치로 계산하지 않음",
+        "detail": "2024 Eurosatory 자료 경로에는 차륜형 RCH 155 브로슈어가 있고 2026 목록에는 TRACKED가 등장합니다. 궤도형의 직전 회차 출품 근거를 확보하지 못했으므로 신규 등장이나 성능 증가로 단정하지 않습니다.",
+        "status": "insufficient",
+        "sourceUrls": [
+          "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/RCH_155/KNDS_B_Ansicht_RCH155_EN.pdf",
+          "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eurosatory 2026 KNDS 출품기업 제품 목록",
+        "url": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+        "publisher": "BDSV Exhibitions",
+        "kind": "organizer",
+        "date": null,
+        "supports": "TRACKED 제품 수록; 개별 실물 전시 미확정"
+      },
+      {
+        "title": "RCH 155 TRACKED 공식 제품·다각도 갤러리",
+        "url": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+        "publisher": "KNDS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "L52 표준형 기본 제원·사진·차체 구성"
+      },
+      {
+        "title": "Eurosatory 2024 RCH 155 자료",
+        "url": "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/RCH_155/KNDS_B_Ansicht_RCH155_EN.pdf",
+        "publisher": "KNDS",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "차륜형 참고 자료; 궤도형과 혼용 금지"
+      }
+    ],
+    "photoSearchTerms": [
+      "KNDS RCH 155 TRACKED official gallery front side rear",
+      "RCH 155 TRACKED Eurosatory 2026 L52 LORAS variant"
+    ],
+    "researchStatus": "partial",
+    "limitations": [
+      "실물 전시 근거 확보 전까지 전시 장비 확정 집계에서 제외해야 합니다.",
+      "공식 제품 페이지의 L52 사양을 LORAS 등 다른 포신 형상에 전용하지 않았습니다.",
+      "차륜형 RCH 155의 영국 계약·인도 자료는 이 궤도형의 양산 실적으로 반영하지 않았습니다.",
+      "제조사 제원을 독립 검증 성능으로 평가하지 않았으며 상세 운용·교전 분석은 포함하지 않았습니다."
+    ]
+  }
+]

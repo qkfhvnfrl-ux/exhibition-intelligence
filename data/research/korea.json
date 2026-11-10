@@ -1,0 +1,788 @@
+[
+  {
+    "id": "k2pl",
+    "name": "K2PL",
+    "manufacturer": "현대로템",
+    "country": "대한민국",
+    "category": "전차",
+    "description": "폴란드 요구를 반영한 K2 계열의 국가 맞춤 형상. ADEX 2025에서 실물 첫 공개가 확인되지만 전시형과 최종 납품형의 동일성은 확인되지 않았습니다.",
+    "tags": [
+      "국가 맞춤형",
+      "보호체계 통합",
+      "실물 전시"
+    ],
+    "exhibitions": [
+      {
+        "id": "adex-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+        "note": "제조사가 K2PL 실물 첫 공개를 명시. 양산 납품형 확정과는 구분."
+      }
+    ],
+    "specs": [
+      {
+        "label": "형상",
+        "value": "폴란드 맞춤 K2 계열",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+        "note": "기본형 K2의 제원을 그대로 적용하지 않음"
+      },
+      {
+        "label": "추가 체계",
+        "value": "능동방호·드론재머·원격무장장치",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+        "note": "구성 공개이며 성능 입증을 의미하지 않음"
+      },
+      {
+        "label": "기본형 K2 참고 중량",
+        "value": "56 t",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8",
+        "note": "2026-11-10 현행 제조사 표기; K2PL 전시형 값 아님"
+      },
+      {
+        "label": "기본형 K2 참고 출력",
+        "value": "1,500 hp",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8",
+        "note": "디젤 엔진. K2PL 전시형 적용·성능 보증값 아님"
+      },
+      {
+        "label": "기본형 K2 참고 최고속도",
+        "value": "70 km/h (포장)",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8",
+        "note": "기본형 참고값. K2PL 형상의 시험 조건 미확인"
+      },
+      {
+        "label": "중량·출력·치수",
+        "value": "K2PL 전시형 확정 수치 미확인",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+        "note": "근거 없는 기본형 수치 전용을 방지"
+      }
+    ],
+    "highlights": [
+      "2023 수출 콘셉트에서 2025 폴란드 맞춤 실물로 전시 메시지가 구체화",
+      "장비 추가에 따른 정비·교육 부담을 함께 검토",
+      "전시와 인수시험·전력화는 별도 지표"
+    ],
+    "analysis": [
+      {
+        "criterion": "integration",
+        "title": "추가 장비의 통합 범위",
+        "fact": "제조사는 복수의 보호·원격 운용 장비 추가를 발표했습니다.",
+        "interpretation": "검토 단위를 개별 장비 목록에서 차량 전체의 운용·정비 체계로 넓힐 필요가 있습니다.",
+        "unknown": "전력 소요, 고장 진단 연계, 통합 시험 결과는 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "장착 사실과 보호 성능의 구분",
+        "fact": "특수장갑과 능동방호 체계가 전시 구성으로 언급됩니다.",
+        "interpretation": "사진과 장비 명칭으로 확인할 수 있는 것은 구성입니다. 종합 보호 성능 점수는 별도 시험 근거가 있어야 합니다.",
+        "unknown": "공인 시험 조건과 등급은 공개자료에서 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "승무원 업무 부담",
+        "fact": "원격무장장치와 추가 전자장비를 포함하는 형상입니다.",
+        "interpretation": "조작계가 늘어나는 만큼 화면 통합 여부와 교육 부담을 검토 항목으로 두는 것이 타당합니다.",
+        "unknown": "실내 배치, 사용자 평가, 교육 시간은 미확인입니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "기동 수치의 형상별 관리",
+        "fact": "이번 전시 보도자료에는 K2PL의 확정 중량과 동력 제원이 없습니다.",
+        "interpretation": "기본형의 기동 수치를 붙이면 추가 장비의 영향을 숨기게 됩니다. 동일 형상의 시험 조건을 확보한 뒤 비교해야 합니다.",
+        "unknown": "전시형과 납품형의 중량·주행 성능 차이는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "현지 생산과 수명주기 지원",
+        "fact": "폴란드 정부는 2025년 계약에서 K2PL 물량을 별도로 구분했습니다.",
+        "interpretation": "국가 맞춤형은 부품·문서·교육의 형상 관리가 중요한 평가 대상입니다. 계약 존재만으로 현지 정비 준비도를 높게 평가할 수는 없습니다.",
+        "unknown": "정비 단계별 수행 주체, 가동률, 부품 대기시간은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "수출 콘셉트에서 고객 형상으로",
+        "fact": "2023년에는 K2EX, 2025년에는 K2PL을 제시했습니다.",
+        "interpretation": "수출형 전시의 중심이 범용 개량 제안에서 특정 고객 구성으로 구체화된 것으로 해석할 수 있습니다.",
+        "unknown": "K2EX와 K2PL 간 공통부품 비율과 직접적인 설계 계승은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "실물 공개와 납품 성숙도",
+        "fact": "제조사의 실물 공개 발표와 정부의 K2PL 계약 발표가 각각 확인됩니다.",
+        "interpretation": "실물 전시와 계약은 별개의 진척 증거입니다. 운용 검증까지 완료했다는 근거로 합산하지 않아야 합니다.",
+        "unknown": "전시차의 시험 상태, 최종 인증, 고객 인수 여부는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "from": "2023",
+        "to": "2025",
+        "title": "K2EX 수출 콘셉트에서 K2PL 실물로",
+        "detail": "2023 공식 자료의 K2EX 성능개량 콘셉트와 2025 자료의 K2PL 실물 공개를 비교한 전시 메시지 변화입니다. 동일 차체의 연속 개량이나 성능 증가량을 입증하는 비교는 아닙니다.",
+        "status": "verified",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "현대로템, ADEX서 종합 방산 기업 비전 제시",
+        "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+        "publisher": "현대로템",
+        "kind": "manufacturer",
+        "date": "2025-10-20",
+        "supports": "K2PL 실물 첫 공개, 페루형 장갑차 및 계열차량 전시"
+      },
+      {
+        "title": "현대로템, 미래 지상무기체계 비전 제시",
+        "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+        "publisher": "현대로템",
+        "kind": "manufacturer",
+        "date": "2023-10-17",
+        "supports": "ADEX 2023 K2EX 콘셉트 및 30t급 장갑차 전시"
+      },
+      {
+        "title": "Umowa podpisana: 180 czołgów K2",
+        "url": "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii",
+        "publisher": "폴란드 국방부",
+        "kind": "government",
+        "date": "2025-08-01",
+        "supports": "K2GF와 K2PL을 구분한 2차 이행계약"
+      },
+      {
+        "title": "K2 전차 제품 정보",
+        "url": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8",
+        "publisher": "현대로템",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "기본형 참고 중량·출력·포장도로 속도. K2PL 전시형 수치 아님"
+      }
+    ],
+    "photoSearchTerms": [
+      "K2PL Seoul ADEX 2025 front side rear",
+      "현대로템 K2PL ADEX 2025 실물"
+    ],
+    "researchStatus": "partial",
+    "limitations": [
+      "기본형 K2 사진을 K2PL 실물 사진으로 표시하면 안 됩니다.",
+      "K2PL 전시형 정량제원과 내부 사진은 추가 확인이 필요합니다.",
+      "기본형 K2의 현행 제조사 중량은 56t입니다. 다른 시점 자료의 55t와 혼합하지 않았으며 K2PL의 중량으로 사용하지 않았습니다."
+    ]
+  },
+  {
+    "id": "k808-peru",
+    "name": "페루형 차륜장갑차 · K808 계열",
+    "manufacturer": "현대로템",
+    "country": "대한민국",
+    "category": "장갑차",
+    "description": "ADEX 2025에서 하부 보호를 강화한 페루형 장갑차를 소개했습니다. K808 기본형의 수치와 수출형 전시차의 확정 제원을 구분해 기록합니다.",
+    "tags": [
+      "차륜형",
+      "수출 맞춤",
+      "계열화"
+    ],
+    "exhibitions": [
+      {
+        "id": "adex-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+        "note": "제조사가 페루형 차륜장갑차 전시를 명시. 별도 2024 제조사 자료로 K808 기반임을 확인. 실물·모형 구분은 추가 확인 필요."
+      }
+    ],
+    "specs": [
+      {
+        "label": "차량 구성",
+        "value": "차륜형 장갑차",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+        "note": "행사 자료의 표기"
+      },
+      {
+        "label": "개량 초점",
+        "value": "하부 보호 강화",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+        "note": "정량 보호 등급 미공개"
+      },
+      {
+        "label": "기본형 참고 중량",
+        "value": "20 t",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+        "note": "현행 K808 제품 페이지 값; 페루형 제원 아님"
+      },
+      {
+        "label": "기본형 참고 최고속도",
+        "value": "100 km/h",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+        "note": "K808 제품 페이지 값; 페루형 보증값 아님"
+      },
+      {
+        "label": "기본형 참고 엔진",
+        "value": "420 hp",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+        "note": "HMC 엔진. 페루형 적용 여부 미확인"
+      },
+      {
+        "label": "기본형 참고 현가",
+        "value": "유기압",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+        "note": "전시차의 세부 구성 동일성은 미확인"
+      }
+    ],
+    "highlights": [
+      "하부 보호 중심의 고객 맞춤 요구",
+      "지휘·의무 차량과 함께 제시된 계열화",
+      "기본형 제원은 참고값으로만 노출"
+    ],
+    "analysis": [
+      {
+        "criterion": "protection",
+        "title": "하부 보호의 정성적 변화",
+        "fact": "페루형의 하부 보호 강화가 명시돼 있습니다.",
+        "interpretation": "같은 계열이어도 고객별 요구가 구조와 중량에 영향을 줄 수 있음을 보여 줍니다. 보호 등급의 우열은 단정할 수 없습니다.",
+        "unknown": "시험 기준·등급·차내 충격 평가 결과는 미공개입니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "기본형 수치와 수출형 구분",
+        "fact": "현행 K808 페이지에는 20t·100km/h·420hp가 제시돼 있습니다.",
+        "interpretation": "대략적인 계열 규모를 이해하는 참고값입니다. 수출형의 보호 구성과 시험 조건을 확인하기 전 직접 비교표의 확정값으로 사용하면 안 됩니다.",
+        "unknown": "페루형의 실제 중량, 주행 및 수상 운용 조건은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "장갑차 계열화의 의미",
+        "fact": "같은 전시에서 지휘소차량·의무후송차량도 소개했습니다.",
+        "interpretation": "전차와 별개로 수송·지원 기능을 공통 계열로 제시하는 흐름을 읽을 수 있습니다. 부품 공통화의 효과는 아직 추정입니다.",
+        "unknown": "형상별 공통부품 비율과 전환 가능 범위는 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "탑승 공간의 근거 공백",
+        "fact": "페루형 공개 보도자료는 내부 좌석·출입구 치수를 제공하지 않습니다.",
+        "interpretation": "외부 보호 변화만으로 탑승 편의가 향상됐다고 평가할 수 없습니다. 내부 사진과 인원 구성 자료가 필요한 영역입니다.",
+        "unknown": "좌석 배치, 승하차 평가, 실내 온열·소음 자료가 없습니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "기본형 장치의 정비 관점",
+        "fact": "K808 기본형에는 공기압 조절장치와 자력 구난 윈치가 안내돼 있습니다.",
+        "interpretation": "현장 지원 기능의 존재와 실제 정비 용이성은 다른 문제입니다. 수출형 자료에는 지원 장치 적용 여부와 부품 체계를 별도로 확인해야 합니다.",
+        "unknown": "페루형의 장치 구성, 현지 정비 범위와 부품 조달 조건은 미확인입니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "30t급과 페루형의 혼동 방지",
+        "fact": "2025 전시 소개에는 페루형과 30t급 장갑차가 별개 항목으로 등장합니다.",
+        "interpretation": "같은 부스 사진이나 기사에 함께 등장한다는 이유로 하나의 장비 제원을 합치면 안 됩니다. 형상별 기록이 필요합니다.",
+        "unknown": "명패와 차대 번호 수준의 사진 대조는 아직 수행하지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "전시 확인과 고객 인수의 분리",
+        "fact": "페루형의 행사 전시는 확인됩니다.",
+        "interpretation": "전시 존재를 제품 형상 확인의 근거로 사용하되, 현지 시험이나 인수 완료로 표시하지 않습니다.",
+        "unknown": "최종 납품 구성 및 해당 전시차와의 동일성은 추가 근거가 필요합니다.",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "from": "2023",
+        "to": "2025",
+        "title": "장갑차 전시의 고객 맞춤·지원형 강조",
+        "detail": "2023년 30t급 장갑차 실물, 2025년 페루형 및 지원 계열 전시를 비교할 수 있습니다. 동일 K808 형상의 회차별 변화 증거가 부족하여 성능 추세로 확정하지 않습니다.",
+        "status": "insufficient",
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "현대로템, ADEX서 종합 방산 기업 비전 제시",
+        "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+        "publisher": "현대로템",
+        "kind": "manufacturer",
+        "date": "2025-10-20",
+        "supports": "K2PL 실물 첫 공개, 페루형 장갑차 및 계열차량 전시"
+      },
+      {
+        "title": "현대로템, 미래 지상무기체계 비전 제시",
+        "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+        "publisher": "현대로템",
+        "kind": "manufacturer",
+        "date": "2023-10-17",
+        "supports": "ADEX 2023 K2EX 콘셉트 및 30t급 장갑차 전시"
+      },
+      {
+        "title": "K808/K806 Wheeled Armored Vehicle",
+        "url": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+        "publisher": "현대로템",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "현행 K808 기본형 참고 제원"
+      },
+      {
+        "title": "K808/K806 차륜형장갑차",
+        "url": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K808%2FK806+%EC%B0%A8%EB%A5%9C%ED%98%95%EC%9E%A5%EA%B0%91%EC%B0%A8",
+        "publisher": "현대로템",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "국문 제품 페이지와 기본형 제원 교차 확인"
+      },
+      {
+        "title": "현대로템 KADEX 2024 전시 소개",
+        "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2358",
+        "publisher": "현대로템",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "페루형 차륜장갑차가 K808 기반임을 확인; ADEX 전시 증거와 구분"
+      },
+      {
+        "title": "차륜형장갑차 제원 및 성능",
+        "url": "https://kookbang.dema.mil.kr/newsWeb/20190513/1/ATCE_CTGR_0080010003/view.do",
+        "publisher": "국방일보",
+        "kind": "government",
+        "date": "2019-05-13",
+        "supports": "이전 기본형 제원과 현행 제조사 제원의 차이 확인"
+      }
+    ],
+    "photoSearchTerms": [
+      "K808 Peru ADEX 2025 side rear",
+      "페루형 차륜형장갑차 ADEX 2025"
+    ],
+    "researchStatus": "partial",
+    "limitations": [
+      "2019년 정부 기사와 현행 제조사 페이지의 기본형 중량 표기가 다릅니다. 형상·시점이 다른 수치를 평균내지 않았습니다.",
+      "기본형 사진은 참고 이미지이며 페루형 전시 사진을 대신하지 않습니다."
+    ]
+  },
+  {
+    "id": "k9a3",
+    "name": "K9A3 · 발전 로드맵",
+    "manufacturer": "한화에어로스페이스",
+    "country": "대한민국",
+    "category": "화력체계",
+    "description": "K9 계열의 유·무인 복합 운용 발전 방향을 제시한 전시 항목입니다. 공개 기능 설명을 기록하며 최종 양산형의 확정 제원으로 취급하지 않습니다.",
+    "tags": [
+      "유무인 복합",
+      "원격 운용",
+      "개발 로드맵"
+    ],
+    "exhibitions": [
+      {
+        "id": "adex-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "note": "K9A3 관련 전시 확인. 공식 사전자료·현장 후속자료를 대조했으며 실물 완성품 전시로 단정하지 않음."
+      }
+    ],
+    "specs": [
+      {
+        "label": "기반 계열",
+        "value": "K9 자주포",
+        "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "note": "K9A1·A2의 수치를 K9A3에 전용하지 않음"
+      },
+      {
+        "label": "공개 운용 개념",
+        "value": "유·무인 복합 운용",
+        "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "note": "개발·전시 개념"
+      },
+      {
+        "label": "주행 기능 소개",
+        "value": "원격·자율주행 및 선도차량 추종",
+        "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "note": "실운용 검증 수준은 미확인"
+      },
+      {
+        "label": "중량·인원·지속운용",
+        "value": "전시형 확정값 미확인",
+        "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "note": "로드맵과 완성형 제원을 구분"
+      },
+      {
+        "label": "기본형 K9 참고 출력",
+        "value": "1,000 hp",
+        "sourceUrl": "https://hanwha-aerospace.eu/portfolio/k9-sph/",
+        "note": "디젤 엔진. K9A3 전시형의 확정 출력 아님"
+      },
+      {
+        "label": "공개 개발 목표 사거리",
+        "value": "80 km 초과",
+        "sourceUrl": "https://hanwha-aerospace.eu/adex-2025-2/",
+        "note": "제조사 ADEX 소개의 개발 방향·목표. 검증된 운용 제원이나 최종 납품 성능으로 취급하지 않음"
+      }
+    ],
+    "highlights": [
+      "기존 플랫폼의 운용 방식 변화가 중심",
+      "자동화 홍보와 검증된 자율성 범위 구분",
+      "운용 인원 감소와 총 지원 인력은 별도 평가"
+    ],
+    "analysis": [
+      {
+        "criterion": "integration",
+        "title": "단일 차량에서 복합 운용으로",
+        "fact": "한화는 K9A3를 유·무인 복합 방향으로 설명합니다.",
+        "interpretation": "차량 제원뿐 아니라 운용자·지휘·지원 장치의 관계를 평가해야 제품 구상을 이해할 수 있습니다.",
+        "unknown": "다른 체계와의 검증된 인터페이스 범위는 공개되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "자동 주행 설명의 범위",
+        "fact": "공식 소개에는 원격·자율주행과 선도차량 추종 기능이 포함됩니다.",
+        "interpretation": "이는 공개된 기능 목표입니다. 복잡한 환경에서의 안정성이나 모든 조건에서의 자율성을 뜻하지 않습니다.",
+        "unknown": "시험 환경, 개입 빈도와 주행 검증 결과는 미확인입니다.",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "인원 수보다 업무의 이동",
+        "fact": "유인·무인 협업이 전시의 중심 설명입니다.",
+        "interpretation": "차내 업무가 원격 운용·감시·정비로 이동할 수 있습니다. 승무원 수 하나로 전체 인력 절감 효과를 계산하기 어렵습니다.",
+        "unknown": "운용자 대 차량 수, 교대 방식과 교육 부담은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "자동화와 정비 요구",
+        "fact": "기존 K9 계열의 자동화 확대를 제시합니다.",
+        "interpretation": "기계 정비 외에 센서·소프트웨어 점검이 중요해질 수 있습니다. 기존 계열의 정비 실적을 신규 기능의 성숙도로 간주할 수 없습니다.",
+        "unknown": "고장 진단, 소프트웨어 갱신, 정비 시간에 관한 실측 자료는 없습니다.",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "로드맵의 단계 구분",
+        "fact": "제조사의 공식 채널은 K9A3의 발전 방향을 전시했다고 설명합니다.",
+        "interpretation": "전시 구현, 시제품 시험, 인증, 납품을 분리해 관리해야 개발 일정이 실제보다 앞서 보이지 않습니다.",
+        "unknown": "최종 형상과 단계별 완료 여부를 확인할 자료가 부족합니다.",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "https://hanwha-aerospace.eu/adex-2025-2/"
+        ]
+      },
+      {
+        "criterion": "protection",
+        "title": "인적 노출 감소는 조건부 해석",
+        "fact": "원격 운용을 포함하는 구성입니다.",
+        "interpretation": "일부 작업의 원격화는 차량 내부의 인적 노출을 줄일 여지가 있습니다. 전체 임무의 인명 위험 감소량을 수치로 제시할 근거는 없습니다.",
+        "unknown": "지원 인력의 위치·작업 조건과 안전 검증은 미확인입니다.",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "계열 연속성과 공통화의 구분",
+        "fact": "K9 계열의 차세대 모델로 소개됩니다.",
+        "interpretation": "계열 명칭의 연속성은 기존 군수체계 활용 가능성을 검토할 출발점입니다. 실제 부품 공통화 비율을 보증하지는 않습니다.",
+        "unknown": "기존 차량 개조 가능 범위와 부품 호환성은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "from": "2023",
+        "to": "2025",
+        "title": "직전 회차와의 정량 추세 보류",
+        "detail": "2025년 유·무인 복합 발전 방향은 확인했습니다. 이번 조사에서 2023년 동일 형상·동일 기능의 1차 자료를 충분히 확보하지 못해 자동화 수준이 얼마나 증가했는지 평가하지 않습니다.",
+        "status": "insufficient",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hanwha to Showcase Next-Generation AI and Unmanned Systems at ADEX 2025",
+        "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "publisher": "한화에어로스페이스",
+        "kind": "manufacturer",
+        "date": "2025-10-16",
+        "supports": "THeMIS-K 첫 공개와 K9A3 발전 방향"
+      },
+      {
+        "title": "ADEX 2025",
+        "url": "https://hanwha-aerospace.eu/adex-2025-2/",
+        "publisher": "Hanwha Aerospace Europe",
+        "kind": "manufacturer",
+        "date": "2025-10-22",
+        "supports": "K9A3와 THeMIS-K 전시 재확인; 행사 날짜 문구는 타 공식자료와 달라 사용하지 않음"
+      },
+      {
+        "title": "K9 SPH 제품 정보",
+        "url": "https://hanwha-aerospace.eu/portfolio/k9-sph/",
+        "publisher": "Hanwha Aerospace Europe",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "기본형 K9 참고 동력 및 현가. K9A3 제원으로 전용하지 않음"
+      }
+    ],
+    "photoSearchTerms": [
+      "K9A3 ADEX 2025 roadmap model",
+      "한화 K9A3 서울 ADEX 2025 K9 솔루션존"
+    ],
+    "researchStatus": "partial",
+    "limitations": [
+      "K9A1·K9A2 사진은 계열 참고용입니다. K9A3 전시형으로 표시하면 안 됩니다.",
+      "제조사 유럽법인 글의 행사 날짜 표기는 한국 공식자료와 달라 행사 일정 근거에서 제외했습니다.",
+      "사거리는 제조사가 공개한 개발 방향·목표로 별도 표기했으며, 다른 장비의 검증된 제원과 동등 비교하지 않습니다."
+    ]
+  },
+  {
+    "id": "themis-k",
+    "name": "THeMIS-K",
+    "manufacturer": "한화에어로스페이스 · Milrem Robotics",
+    "country": "대한민국·에스토니아",
+    "category": "무인지상체계",
+    "description": "Milrem의 궤도형 THeMIS 플랫폼과 한화의 원격무장장치를 결합한 한국형 전시 구성입니다. 기반 플랫폼의 현행 카탈로그는 별도 참고값으로 제공합니다.",
+    "tags": [
+      "궤도형 UGV",
+      "국제 협업",
+      "모듈형 플랫폼"
+    ],
+    "exhibitions": [
+      {
+        "id": "adex-2025",
+        "status": "confirmed",
+        "evidenceUrl": "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194",
+        "note": "한화의 2025-10-22 현장 소개에서 THeMIS-K 전시를 확인. 행사 사전자료와 상호 대조."
+      }
+    ],
+    "specs": [
+      {
+        "label": "구성",
+        "value": "THeMIS 플랫폼 + 한화 RCWS",
+        "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "note": "한국형 통합 구성"
+      },
+      {
+        "label": "기반 플랫폼 참고 최고속도",
+        "value": "20 km/h",
+        "sourceUrl": "https://milremrobotics.com/themis-family/",
+        "note": "현행 THeMIS 계열 값; 2025 한국형 보증값 아님"
+      },
+      {
+        "label": "기반 플랫폼 참고 정격적재량",
+        "value": "750 kg",
+        "sourceUrl": "https://milremrobotics.com/themis-family/",
+        "note": "임무장비 포함 조건과 한국형 적용값 미확인"
+      },
+      {
+        "label": "기반 플랫폼 참고 추진",
+        "value": "디젤 엔진·발전기와 배터리",
+        "sourceUrl": "https://milremrobotics.com/themis-family/",
+        "note": "기반 플랫폼의 하이브리드 구성"
+      },
+      {
+        "label": "한국형 중량·크기",
+        "value": "확정값 미확인",
+        "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "note": "시점별 기반 플랫폼 중량 표기가 달라 이전 자료와 혼용하지 않음"
+      }
+    ],
+    "highlights": [
+      "검증된 기반체계와 신규 통합 형상의 성숙도 분리",
+      "플랫폼 공통화와 탑재체 교체의 구분",
+      "원격 운용에서 사람의 감독·교육 항목을 별도 관리"
+    ],
+    "analysis": [
+      {
+        "criterion": "layout",
+        "title": "플랫폼과 임무장비의 구분",
+        "fact": "기존 THeMIS 위에 한화 RCWS를 결합했습니다.",
+        "interpretation": "차량 전체를 하나의 고정 제품으로 보기보다 이동 플랫폼과 임무장비의 통합 사례로 기록하는 편이 적절합니다.",
+        "unknown": "한국형의 최종 외형·탑재 구성은 추가 확인이 필요합니다.",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      },
+      {
+        "criterion": "mobility",
+        "title": "기반 플랫폼 수치의 사용 제한",
+        "fact": "현행 THeMIS 자료의 최고속도는 20km/h입니다.",
+        "interpretation": "한국형의 이동 규모를 이해하는 참고값이지만 탑재장비·환경에 따라 검증 조건이 달라질 수 있습니다.",
+        "unknown": "한국형 시험 중량과 주행 조건은 미확인입니다.",
+        "sourceUrls": [
+          "https://milremrobotics.com/themis-family/",
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      },
+      {
+        "criterion": "integration",
+        "title": "서로 다른 공급사의 책임 범위",
+        "fact": "한화 장비와 Milrem 플랫폼을 결합한 것으로 발표됐습니다.",
+        "interpretation": "통합 결함의 원인 추적과 공급사별 지원 경계를 문서로 관리하는 것이 검토의 핵심입니다.",
+        "unknown": "통합 인증·지원 계약·소프트웨어 책임 분담은 공개되지 않았습니다.",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      },
+      {
+        "criterion": "modularity",
+        "title": "기반 설계의 모듈성",
+        "fact": "Milrem은 THeMIS를 여러 임무에 맞추는 모듈형 플랫폼으로 설명합니다.",
+        "interpretation": "한국형에서도 계열 확장 가능성을 검토할 수 있으나 모든 탑재체를 현장에서 바로 바꿀 수 있다는 뜻은 아닙니다.",
+        "unknown": "교체 시간, 표준 인터페이스와 한국형 호환 목록은 미확인입니다.",
+        "sourceUrls": [
+          "https://milremrobotics.com/themis-family/"
+        ]
+      },
+      {
+        "criterion": "maintenance",
+        "title": "하이브리드 계통의 지원",
+        "fact": "기반 플랫폼은 디젤 발전과 배터리를 사용합니다.",
+        "interpretation": "지원 검토는 연료 보급과 배터리 관리, 궤도계통 점검을 함께 다뤄야 합니다. 실제 정비 부담의 증감은 운용 데이터가 필요합니다.",
+        "unknown": "한국형 배터리 규격, 정비 주기, 현지 부품 공급은 미확인입니다.",
+        "sourceUrls": [
+          "https://milremrobotics.com/themis-family/"
+        ]
+      },
+      {
+        "criterion": "ergonomics",
+        "title": "무인화와 감독 업무",
+        "fact": "전시는 무인지상차량과 유·무인 협업을 주제로 구성됐습니다.",
+        "interpretation": "탑승자가 없더라도 원격 운용자의 상황 인지와 교육 부담이 남습니다. 플랫폼 수만으로 인력 효율을 평가하지 않습니다.",
+        "unknown": "조작 화면, 사용자 시험, 감독 부담의 정량 자료는 없습니다.",
+        "sourceUrls": [
+          "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194",
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      },
+      {
+        "criterion": "maturity",
+        "title": "기반 운용 실적의 전이 한계",
+        "fact": "기반 THeMIS와 한국형 통합 구성은 서로 다른 형상입니다.",
+        "interpretation": "기반 플랫폼의 기존 실적은 참고할 수 있지만 새 탑재체를 포함한 전체 차량의 검증 완료를 뜻하지 않습니다.",
+        "unknown": "한국형 인수·환경·신뢰성 시험과 최종 운용 요건은 확인되지 않았습니다.",
+        "sourceUrls": [
+          "https://milremrobotics.com/themis-family/",
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "from": "2023",
+        "to": "2025",
+        "title": "한국형 통합 구성 첫 공개",
+        "detail": "제조사는 2025년 THeMIS-K 첫 공개를 발표했습니다. 2023년 ADEX의 동일 한국형 자료가 없어 형상 변화율이나 성능 증가 추세는 계산하지 않습니다.",
+        "status": "insufficient",
+        "sourceUrls": [
+          "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hanwha to Showcase Next-Generation AI and Unmanned Systems at ADEX 2025",
+        "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "publisher": "한화에어로스페이스",
+        "kind": "manufacturer",
+        "date": "2025-10-16",
+        "supports": "THeMIS-K 첫 공개와 K9A3 발전 방향"
+      },
+      {
+        "title": "ADEX 2025",
+        "url": "https://hanwha-aerospace.eu/adex-2025-2/",
+        "publisher": "Hanwha Aerospace Europe",
+        "kind": "manufacturer",
+        "date": "2025-10-22",
+        "supports": "K9A3와 THeMIS-K 전시 재확인; 행사 날짜 문구는 타 공식자료와 달라 사용하지 않음"
+      },
+      {
+        "title": "ADEX 2025, 한화 AI Defense for Tomorrow 2부",
+        "url": "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194",
+        "publisher": "한화그룹",
+        "kind": "manufacturer",
+        "date": "2025-10-22",
+        "supports": "현장 MUM-T 구역의 THeMIS-K·아리온스멧·그룬트 전시 확인"
+      },
+      {
+        "title": "THeMIS family",
+        "url": "https://milremrobotics.com/themis-family/",
+        "publisher": "Milrem Robotics",
+        "kind": "manufacturer",
+        "date": null,
+        "supports": "현행 기반 플랫폼 제원·모듈성. 한국형 확정값 아님"
+      },
+      {
+        "title": "Milrem Product Catalogue 2024",
+        "url": "https://d3tr2q1wj7u3d5.cloudfront.net/32284/20240611_MILREM-Product-Catalogue-EN_web.pdf",
+        "publisher": "Milrem Robotics",
+        "kind": "manufacturer",
+        "date": "2024-06-11",
+        "supports": "이전 카탈로그와 현행 페이지의 형상·중량 차이 확인"
+      }
+    ],
+    "photoSearchTerms": [
+      "THeMIS-K ADEX 2025 Hanwha side rear",
+      "테미스 K 서울 ADEX 2025"
+    ],
+    "researchStatus": "partial",
+    "limitations": [
+      "2024 카탈로그와 현행 페이지의 중량·치수 차이 때문에 한국형 중량을 임의 선정하지 않았습니다.",
+      "일반 THeMIS 사진과 한국형 RCWS 탑재 사진을 구분해야 합니다.",
+      "현장 사진의 공개는 재배포 허락을 뜻하지 않습니다."
+    ]
+  }
+]
