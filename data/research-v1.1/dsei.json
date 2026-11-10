@@ -1,0 +1,254 @@
+{
+  "eventId": "dsei-2025",
+  "eventName": "DSEI 2025",
+  "eventYear": 2025,
+  "dates": "2025.09.09–12",
+  "location": "영국 런던 · ExCeL",
+  "researchedAt": "2026-11-11",
+  "status": "first-batch",
+  "summary": "공통 차체와 임무장비의 조합을 넓히는 제품 전개가 두드러집니다. 전용 완성차뿐 아니라 베어샤시·임무모듈·체계 연동을 함께 제시하며 고객별 구성을 확대하는 방향으로 해석됩니다.",
+  "equipment": [
+    {
+      "id": "kia-platforms-dsei2025",
+      "name": "타스만 특수목적 쇼카 · KLTV 베어샤시",
+      "manufacturer": "기아",
+      "category": "소형전술차량",
+      "strategySummary": "상용 픽업의 군용 파생과 전술차량 베어샤시를 함께 제시해 고객별 특수목적차로 확장하는 전략으로 해석됩니다. 완성차 한 종류보다 기반 플랫폼의 활용 범위를 넓히는 전시 구성입니다.",
+      "exhibitHighlights": [
+        "타스만 특수목적 파생 쇼카 유럽 공개",
+        "KLTV 베어샤시 실물 전시",
+        "지휘·통신장비 탑재차 축소 모형 소개"
+      ],
+      "sourceUrls": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210"
+      ],
+      "photos": [
+        {
+          "id": "dsei2025-kia-booth-01",
+          "eventId": "dsei-2025",
+          "equipmentId": "kia-platforms-dsei2025",
+          "src": "./assets/photos/dsei2025-new-kia-booth.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+          "imageUrl": "https://www.hyundaimotorgroup.com/image/upload/asset_library/MDA00000000000068655/9ac92e316bf7441bb69ff84f57c0f9e6.jpg",
+          "author": "기아 / 현대자동차그룹",
+          "license": "현대자동차그룹 뉴스룸 자유 이용 고지",
+          "licenseUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+          "date": "2025-09-09",
+          "dateKind": "publication",
+          "context": "event",
+          "rightsStatus": "reusable",
+          "sourceType": "manufacturer",
+          "caption": "DSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시",
+          "angle": "부스 전체 사선 전경",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "05ae2d39572f355278990fb628f6dac75e3b554574212e9823d4d1dd2dd6677f",
+          "verificationNote": "공식 DSEI 2025 보도자료와 이미지 내 DSEI UK·Kia Special Vehicle 표기, 타스만·KLTV 전시를 시각적으로 교차 확인. 기사 하단 자유 이용 고지 확인; 제3자 사진 표기 없음."
+        }
+      ]
+    },
+    {
+      "id": "boxer-dsei2025",
+      "name": "Boxer · 30mm 포탑 전시형",
+      "manufacturer": "KNDS / Rheinmetall",
+      "category": "차륜형 장갑차",
+      "strategySummary": "Boxer 차체에 임무별 상부 구성을 결합해 제품군을 확대하는 전략으로 해석됩니다. DSEI에서는 무인포탑 전시형과 별도의 지휘소형·정찰형 소개를 통해 같은 계열의 고객 선택 폭을 제시했습니다.",
+      "exhibitHighlights": [
+        "KNDS 부스의 30mm 무인포탑 탑재 Boxer",
+        "별도 Land Zone의 MIV 지휘소형 소개",
+        "Rheinmetall 부스의 정찰·중보병 지원형 소개"
+      ],
+      "sourceUrls": [
+        "https://knds.com/en/events/dsei-london-knds-uk",
+        "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-dsei-first-uk-built-boxer-has-now-been-delivered",
+        "https://www.flickr.com/photos/dyvroeth/54785369506/"
+      ],
+      "photos": [
+        {
+          "id": "dsei2025-visitor-54785369506",
+          "eventId": "dsei-2025",
+          "equipmentId": "boxer-dsei2025",
+          "caption": "KNDS 부스의 30mm 무인포탑 탑재 Boxer",
+          "angle": "전시 차량 사선 전경",
+          "date": "2025-09-09",
+          "dateKind": "capture",
+          "context": "event",
+          "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54785369506/",
+          "author": "dyvroeth",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "rightsStatus": "provider-embed",
+          "embedProvider": "flickr",
+          "embedImageUrl": "https://live.staticflickr.com/65535/54785369506_29c25dbe2f_b.jpg",
+          "embedEvidenceUrl": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdyvroeth%2F54785369506%2F&format=json",
+          "embedHtml": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/dyvroeth/54785369506/\" title=\"Boxer with 30mm turret by dyvroeth, on Flickr\"><img src=\"https://live.staticflickr.com/65535/54785369506_29c25dbe2f_b.jpg\" width=\"1024\" height=\"683\" alt=\"Boxer with 30mm turret\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+          "width": 1024,
+          "height": 683,
+          "sourceType": "visitor",
+          "verificationNote": "촬영자 캡션에서 DSEI 2025와 장비·부스를 명시. 촬영일 2025-09-09 09:05:46 및 DSEI 2025 앨범을 교차 확인. 공개 공유 canShare=true와 Flickr oEmbed 반환 확인. 원본 파일은 재배포하지 않음."
+        }
+      ]
+    },
+    {
+      "id": "roshel-family-dsei2025",
+      "name": "Roshel Senator · Captain 계열",
+      "manufacturer": "Roshel",
+      "category": "경장갑차",
+      "strategySummary": "상용차 기반에 임무장비와 차체 구성을 달리해 방호차량 제품군을 넓히는 전략으로 해석됩니다. 같은 부스에서 여러 Senator 구성과 더 작은 Captain을 함께 보여주며 고객의 예산·임무별 선택지를 제시했습니다.",
+      "exhibitHighlights": [
+        "Senator 통신·전자광학 장비 구성",
+        "Senator 포탑 탑재 구성",
+        "Captain APC 동시 전시"
+      ],
+      "sourceUrls": [
+        "https://www.linkedin.com/posts/roshel_roshel-smart-armored-vehicles-will-be-presenting-activity-7367200090651881472-SeIs",
+        "https://www.armyrecognition.com/news/defense-web-tv/dsei-2025-discover-senator-armoured-vehicle-range-from-canadian-roshel-with-modular-design-approach"
+      ],
+      "photos": [
+        {
+          "id": "dsei2025-visitor-54786101885",
+          "eventId": "dsei-2025",
+          "equipmentId": "roshel-family-dsei2025",
+          "caption": "Roshel 부스의 통신·전자광학 장비 탑재 Senator",
+          "angle": "상부 장비를 포함한 차량 전경",
+          "date": "2025-09-09",
+          "dateKind": "capture",
+          "context": "event",
+          "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54786101885/",
+          "author": "dyvroeth",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "rightsStatus": "provider-embed",
+          "embedProvider": "flickr",
+          "embedImageUrl": "https://live.staticflickr.com/65535/54786101885_0f11fbc494_b.jpg",
+          "embedEvidenceUrl": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdyvroeth%2F54786101885%2F&format=json",
+          "embedHtml": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/dyvroeth/54786101885/\" title=\"Roshel Senator by dyvroeth, on Flickr\"><img src=\"https://live.staticflickr.com/65535/54786101885_0f11fbc494_b.jpg\" width=\"1024\" height=\"683\" alt=\"Roshel Senator\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+          "width": 1024,
+          "height": 683,
+          "sourceType": "visitor",
+          "verificationNote": "촬영자 캡션에서 DSEI 2025와 장비·부스를 명시. 촬영일 2025-09-09 08:55:11 및 DSEI 2025 앨범을 교차 확인. 공개 공유 canShare=true와 Flickr oEmbed 반환 확인. 원본 파일은 재배포하지 않음."
+        },
+        {
+          "id": "dsei2025-visitor-54785766106",
+          "eventId": "dsei-2025",
+          "equipmentId": "roshel-family-dsei2025",
+          "caption": "Roshel 부스의 포탑 탑재 Senator",
+          "angle": "다른 임무장비 구성의 차량 전경",
+          "date": "2025-09-09",
+          "dateKind": "capture",
+          "context": "event",
+          "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54785766106/",
+          "author": "dyvroeth",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "rightsStatus": "provider-embed",
+          "embedProvider": "flickr",
+          "embedImageUrl": "https://live.staticflickr.com/65535/54785766106_41a10e48fa_b.jpg",
+          "embedEvidenceUrl": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdyvroeth%2F54785766106%2F&format=json",
+          "embedHtml": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/dyvroeth/54785766106/\" title=\"Roshel Senator by dyvroeth, on Flickr\"><img src=\"https://live.staticflickr.com/65535/54785766106_41a10e48fa_b.jpg\" width=\"1024\" height=\"683\" alt=\"Roshel Senator\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+          "width": 1024,
+          "height": 683,
+          "sourceType": "visitor",
+          "verificationNote": "촬영자 캡션에서 DSEI 2025와 장비·부스를 명시. 촬영일 2025-09-09 08:54:08 및 DSEI 2025 앨범을 교차 확인. 공개 공유 canShare=true와 Flickr oEmbed 반환 확인. 원본 파일은 재배포하지 않음."
+        },
+        {
+          "id": "dsei2025-visitor-54785994754",
+          "eventId": "dsei-2025",
+          "equipmentId": "roshel-family-dsei2025",
+          "caption": "Roshel 부스의 Captain APC",
+          "angle": "지붕 탑재장비를 포함한 차량 전경",
+          "date": "2025-09-09",
+          "dateKind": "capture",
+          "context": "event",
+          "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54785994754/",
+          "author": "dyvroeth",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "rightsStatus": "provider-embed",
+          "embedProvider": "flickr",
+          "embedImageUrl": "https://live.staticflickr.com/65535/54785994754_7042d819f6_b.jpg",
+          "embedEvidenceUrl": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdyvroeth%2F54785994754%2F&format=json",
+          "embedHtml": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/dyvroeth/54785994754/\" title=\"Roshel Captain APC by dyvroeth, on Flickr\"><img src=\"https://live.staticflickr.com/65535/54785994754_7042d819f6_b.jpg\" width=\"1024\" height=\"683\" alt=\"Roshel Captain APC\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+          "width": 1024,
+          "height": 683,
+          "sourceType": "visitor",
+          "verificationNote": "촬영자 캡션에서 DSEI 2025와 장비·부스를 명시. 촬영일 2025-09-09 08:53:25 및 DSEI 2025 앨범을 교차 확인. 공개 공유 canShare=true와 Flickr oEmbed 반환 확인. 원본 파일은 재배포하지 않음."
+        }
+      ]
+    },
+    {
+      "id": "gdams-dsei2025",
+      "name": "GDAMS · 전술차량 연동 전시",
+      "manufacturer": "ST Engineering / Babcock",
+      "category": "지상 임무체계",
+      "strategySummary": "여러 기반 차량에 적용 가능한 임무체계와 디지털 연동을 묶어 기존 차량의 활용도를 높이는 전략으로 해석됩니다. DSEI에서 복수 협력사 플랫폼과 연동을 제시한 점은 특정 전용차량에 묶이지 않는 제품 전개를 보여줍니다.",
+      "exhibitHighlights": [
+        "Babcock 부스의 GDAMS 전시",
+        "ST Engineering이 협력사 플랫폼 3종 적용을 소개",
+        "기존 통신체계 연동 시연 공개"
+      ],
+      "sourceUrls": [
+        "https://www.stengg.com/en/newsroom/news-releases/st-engineering-showcases-defence-innovations-and-expands-global-partnerships-at-dsei-2025/",
+        "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/"
+      ],
+      "photos": [
+        {
+          "id": "dsei2025-visitor-54783778059",
+          "eventId": "dsei-2025",
+          "equipmentId": "gdams-dsei2025",
+          "caption": "Babcock 부스에 전시된 GDAMS 120mm 체계",
+          "angle": "부스 전시 장비 전경",
+          "date": "2025-09-09",
+          "dateKind": "capture",
+          "context": "event",
+          "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54783778059/",
+          "author": "dyvroeth",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "rightsStatus": "provider-embed",
+          "embedProvider": "flickr",
+          "embedImageUrl": "https://live.staticflickr.com/65535/54783778059_d741fa3a1c_b.jpg",
+          "embedEvidenceUrl": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdyvroeth%2F54783778059%2F&format=json",
+          "embedHtml": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/dyvroeth/54783778059/\" title=\"GDAMS 120mm mortar by dyvroeth, on Flickr\"><img src=\"https://live.staticflickr.com/65535/54783778059_d741fa3a1c_b.jpg\" width=\"1024\" height=\"683\" alt=\"GDAMS 120mm mortar\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+          "width": 1024,
+          "height": 683,
+          "sourceType": "visitor",
+          "verificationNote": "촬영자 캡션에서 DSEI 2025와 장비·부스를 명시. 촬영일 2025-09-09 08:52:44 및 DSEI 2025 앨범을 교차 확인. 공개 공유 canShare=true와 Flickr oEmbed 반환 확인. 원본 파일은 재배포하지 않음."
+        }
+      ]
+    }
+  ],
+  "sourceGalleries": [
+    {
+      "title": "관람객 dyvroeth · DSEI 2025 앨범",
+      "url": "https://www.flickr.com/photos/dyvroeth/albums/72177720328931396/",
+      "sourceType": "visitor",
+      "note": "총 12장 중 지상장비 5장을 선별. 항공·함정 사진 제외."
+    },
+    {
+      "title": "ADU · UK MoD 지상장비 현장 갤러리",
+      "url": "https://www.aviation-defence-universe.com/uk-mod-land-systems-at-dsei-2025/",
+      "sourceType": "media",
+      "note": "추가 취재사진 10장 공개. 개별 장비·재사용 범위 확정 전 원문 연결만 제공."
+    },
+    {
+      "title": "MILMAG · Challenger 3 현장 취재",
+      "url": "https://milmag.pl/en/challenger-3-tank-prototype-at-dsei-2025/",
+      "sourceType": "media",
+      "note": "촬영자 Jakub Link-Lenczowski. 현장사진과 행사 후 시험사진의 혼재에 유의; 원문 연결."
+    },
+    {
+      "title": "관람객 · Armour at DSEI 2025",
+      "url": "https://www.reddit.com/r/tanks/comments/1nla8lg",
+      "sourceType": "visitor",
+      "note": "Challenger 3·Ajax·Boxer 관람객 게시물. 검색 결과에서 행사 캡션 확인; 개별 이미지와 재사용 범위 미확인."
+    }
+  ],
+  "coverage": {
+    "localReusablePhotos": 1,
+    "providerEmbeddedPhotos": 5,
+    "distinctRenderablePhotos": 6,
+    "equipmentGroups": 4,
+    "note": "첫 수집 묶음. 전체 전시 출품장비 또는 모든 현장사진을 포괄하지 않음. Flickr 사진은 외부 제공 원본을 연결하므로 삭제·권한 변경 시 표시가 중단될 수 있음."
+  }
+}

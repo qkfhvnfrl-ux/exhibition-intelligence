@@ -1,0 +1,322 @@
+{
+  "eventId": "saha-2026",
+  "name": "SAHA 2026",
+  "year": 2026,
+  "dates": "2026.05.05–09",
+  "location": "이스탄불 Expo Center",
+  "reviewedAt": "2026-11-11",
+  "summary": "공통 차량에 임무 모듈을 결합하고 하이브리드·유무인 운용과 지원차량 제품군을 넓히는 전시 구성이 두드러집니다.",
+  "summaryType": "전시 구성에 근거한 개발전략 해석",
+  "equipment": [
+    {
+      "id": "tulpar-korhan",
+      "name": "TULPAR · KORHAN 통합형",
+      "manufacturer": "Otokar · ASELSAN",
+      "country": "튀르키예",
+      "category": "궤도형 보병전투차",
+      "strategySummary": "기존 궤도형 차체에 자국 포탑을 통합해 국내 수요 대응력을 높이고 공통 플랫폼의 제안 범위를 넓히는 전략으로 해석됩니다.",
+      "exhibitHighlights": [
+        "TULPAR에 ASELSAN KORHAN을 통합한 전시 구성",
+        "제조사 출품 발표와 5월 5일 현장 촬영 캡션으로 확인"
+      ],
+      "sourceUrls": [
+        "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+        "https://www.reutersconnect.com/item/saha-2026-defense-expo-continues-in-istanbul/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwUEZDQU5Y"
+      ],
+      "photos": [
+        {
+          "id": "saha2026-tulpar-korhan-aa-01",
+          "sourceUrl": "https://www.reutersconnect.com/item/saha-2026-defense-expo-continues-in-istanbul/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwUEZDQU5Y",
+          "author": "Muhammed Enes Yıldırım / Anadolu",
+          "license": "저작권자 권리 보유 · 공개 재배포 허용 미확인",
+          "licenseUrl": "https://www.reutersconnect.com/item/saha-2026-defense-expo-continues-in-istanbul/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwUEZDQU5Y",
+          "date": "2026-05-05",
+          "eventId": "saha-2026",
+          "equipmentId": "tulpar-korhan",
+          "caption": "SAHA 2026 전시장에 전시된 TULPAR · Anadolu 현장 촬영",
+          "angle": "전시장 전경",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "verificationNote": "Reuters Connect 사진 캡션이 2026-05-05 Istanbul Expo Center의 TULPAR를 명시. Otokar의 해당 행사 발표는 KORHAN 탑재를 명시. 라이선스 구매 전에는 링크만 제공.",
+          "publicationMode": "source-link-only",
+          "visualVerified": false
+        }
+      ]
+    },
+    {
+      "id": "cobra-ii-bee-eater",
+      "name": "COBRA II · 차량탑재 UAV 구성",
+      "manufacturer": "Otokar · DASAL",
+      "country": "튀르키예",
+      "category": "4×4 장갑차",
+      "strategySummary": "기존 장갑차에 드론 운용 모듈을 결합해 차량의 임무 범위와 제품 가치를 확장하는 개발전략으로 해석됩니다.",
+      "exhibitHighlights": [
+        "COBRA II에 DASAL 차량탑재 UAV 스테이션 결합",
+        "차량과 임무 모듈의 통합 구성을 현장에서 제시"
+      ],
+      "sourceUrls": [
+        "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+        "https://www.armyrecognition.com/news/army-news/2026/otokars-cobra-ii-with-bee-eater-system-offers-nato-a-turkish-vehicle-mounted-aerial-reconnaissance-solution"
+      ],
+      "photos": [
+        {
+          "id": "saha2026-cobra-ii-bee-eater-ar-01",
+          "sourceUrl": "https://www.armyrecognition.com/news/army-news/2026/otokars-cobra-ii-with-bee-eater-system-offers-nato-a-turkish-vehicle-mounted-aerial-reconnaissance-solution",
+          "author": "Army Recognition Group",
+          "license": "저작권자 권리 보유 · 공개 재배포 허용 미확인",
+          "licenseUrl": "https://www.armyrecognition.com/news/army-news/2026/otokars-cobra-ii-with-bee-eater-system-offers-nato-a-turkish-vehicle-mounted-aerial-reconnaissance-solution",
+          "date": "2026-05",
+          "eventId": "saha-2026",
+          "equipmentId": "cobra-ii-bee-eater",
+          "caption": "SAHA 2026의 COBRA II·BEE EATER 전시 구성",
+          "angle": "전면 사선 · 탑재부 확대 합성",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "verificationNote": "2026-05-06 현장 기사와 사진 크레딧 확인. Otokar의 5월 5일 행사 발표로 탑재 구성 교차 확인. 촬영 일자는 기사에서 특정되지 않음. 원문 미리보기 이미지의 차량·전시장 배경을 육안 확인했으며, 이미지 파일은 검수용 임시영역에만 보관했습니다. 원본 기사 사진에 탑재부 확대 삽입이 있으므로 단일 원시 촬영본으로 분류하지 않습니다.",
+          "publicationMode": "source-link-only",
+          "imageUrl": "https://www.armyrecognition.com/images/stories/news/2026/may/Otokars_Cobra_II_with_BEE_EATER_System_Offers_NATO_a_Turkish_Vehicle-Mounted_Aerial_Reconnaissance_Solution.jpg",
+          "sourceDimensions": [
+            1920,
+            1280
+          ],
+          "sourceSha256": "5a4b8c0dc5753f19172664b18ae0a0716cfb71e3995599cd8ceb4716c58fd96c",
+          "visualVerified": true
+        }
+      ]
+    },
+    {
+      "id": "alka-kaplan-autonomous",
+      "name": "ALKA–KAPLAN HYBRID Autonomous",
+      "manufacturer": "FNSS · ROKETSAN",
+      "country": "튀르키예",
+      "category": "하이브리드 궤도 플랫폼",
+      "strategySummary": "하이브리드 동력과 선택적 유·무인 운용을 하나의 차량에 묶어 임무장비 확장이 가능한 플랫폼을 제시하는 전략으로 해석됩니다.",
+      "exhibitHighlights": [
+        "SAHA 2026에서 선택적 유·무인 운용 구성을 소개",
+        "FNSS 차체와 ROKETSAN 탑재체의 통합 제품 제안"
+      ],
+      "sourceUrls": [
+        "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026",
+        "https://www.janes.com/defence-intelligence-insights/defence-news/land/fnss-and-roketsan-unveil-optionally-manned-alper-kaplan-laser-and-ew-vehicle"
+      ],
+      "photos": [
+        {
+          "id": "saha2026-alka-kaplan-autonomous-janes-01",
+          "sourceUrl": "https://www.janes.com/defence-intelligence-insights/defence-news/land/fnss-and-roketsan-unveil-optionally-manned-alper-kaplan-laser-and-ew-vehicle",
+          "author": "Tristan Sauer / Janes",
+          "license": "저작권자 권리 보유 · 공개 재배포 허용 미확인",
+          "licenseUrl": "https://www.janes.com/defence-intelligence-insights/defence-news/land/fnss-and-roketsan-unveil-optionally-manned-alper-kaplan-laser-and-ew-vehicle",
+          "date": "2026-05",
+          "eventId": "saha-2026",
+          "equipmentId": "alka-kaplan-autonomous",
+          "caption": "SAHA 2026의 ALKA–KAPLAN HYBRID Autonomous · Janes 현장 촬영",
+          "angle": "측면 사선",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "verificationNote": "Janes 사진 캡션이 Saha Expo 2026 Istanbul 및 촬영자를 명시. FNSS의 SAHA 2026 제품 발표와 구성 교차 확인. 촬영 일자는 특정되지 않음. 원문 미리보기 이미지의 차량·전시장 배경을 육안 확인했으며, 이미지 파일은 검수용 임시영역에만 보관했습니다.",
+          "publicationMode": "source-link-only",
+          "imageUrl": "https://www.janes.com/images/default-source/news-images/bsp_105165-jdw-36055.jpeg?sfvrsn=a2557b1e_2",
+          "sourceDimensions": [
+            600,
+            450
+          ],
+          "sourceSha256": "06a0511911a52bed619e7b026ddfa46329159d3907b1843b7ba0c1c14df7eb4f",
+          "visualVerified": true
+        }
+      ]
+    },
+    {
+      "id": "pamir-4x4",
+      "name": "PAMİR 4×4",
+      "manufacturer": "BMC",
+      "country": "튀르키예",
+      "category": "경량 인원·화물 수송차량",
+      "strategySummary": "비장갑 경량 4×4 신차를 제시해 인원·화물 수송 등 지원차량 수요까지 제품군을 넓히는 전략으로 해석됩니다.",
+      "exhibitHighlights": [
+        "SAHA 2026에서 새 인원·화물 수송차량 공개",
+        "다목적 적재·수송을 중심으로 지원차량 제품군 확장"
+      ],
+      "sourceUrls": [
+        "https://www.bmc.com.tr/en/news-all/6920",
+        "https://www.aa.com.tr/tr/bilim-teknoloji/bmcnin-yeni-araci-pamir-4x4-saha-2026da-vitrine-cikti/3927981",
+        "https://www.joint-forces.com/defence-equipment-news/90888-bmc-pamir-4x4-unveiled-at-saha-2026"
+      ],
+      "photos": [
+        {
+          "id": "saha2026-pamir-4x4-aa-01",
+          "sourceUrl": "https://www.aa.com.tr/tr/bilim-teknoloji/bmcnin-yeni-araci-pamir-4x4-saha-2026da-vitrine-cikti/3927981",
+          "author": "Murat Şengül / Anadolu",
+          "license": "저작권자 권리 보유 · 공개 재배포 허용 미확인",
+          "licenseUrl": "https://www.aa.com.tr/tr/bilim-teknoloji/bmcnin-yeni-araci-pamir-4x4-saha-2026da-vitrine-cikti/3927981",
+          "date": "2026-05-05",
+          "eventId": "saha-2026",
+          "equipmentId": "pamir-4x4",
+          "caption": "SAHA 2026 PAMİR 4×4 공개 현장 · Anadolu 사진 1",
+          "angle": "전면 사선 · 공개 행사",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "verificationNote": "Anadolu의 5월5일 현장 기사에 실린 개별 사진. BMC 행사 종료 기사로 공개 행사와 제품명 교차 확인. 사진별 자세한 각도는 확대 원문에서 확인. 원문 미리보기 이미지의 차량·전시장 배경을 육안 확인했으며, 이미지 파일은 검수용 임시영역에만 보관했습니다.",
+          "publicationMode": "source-link-only",
+          "imageUrl": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/05/05/thumbs_b_c_2158f665c4ee4b853c8ae4e2b1eebc89.jpg",
+          "sourceDimensions": [
+            864,
+            486
+          ],
+          "sourceSha256": "6110165e7391a8c3345a978343657bf4888877dfdd817d6e7e508b834d159786",
+          "visualVerified": true
+        },
+        {
+          "id": "saha2026-pamir-4x4-aa-02",
+          "sourceUrl": "https://www.aa.com.tr/tr/bilim-teknoloji/bmcnin-yeni-araci-pamir-4x4-saha-2026da-vitrine-cikti/3927981",
+          "author": "Murat Şengül / Anadolu",
+          "license": "저작권자 권리 보유 · 공개 재배포 허용 미확인",
+          "licenseUrl": "https://www.aa.com.tr/tr/bilim-teknoloji/bmcnin-yeni-araci-pamir-4x4-saha-2026da-vitrine-cikti/3927981",
+          "date": "2026-05-05",
+          "eventId": "saha-2026",
+          "equipmentId": "pamir-4x4",
+          "caption": "SAHA 2026 PAMİR 4×4 공개 현장 · Anadolu 사진 2",
+          "angle": "전면 사선 · 양쪽 문 개방",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "verificationNote": "Anadolu의 5월5일 현장 기사에 실린 개별 사진. BMC 행사 종료 기사로 공개 행사와 제품명 교차 확인. 사진별 자세한 각도는 확대 원문에서 확인. 원문 미리보기 이미지의 차량·전시장 배경을 육안 확인했으며, 이미지 파일은 검수용 임시영역에만 보관했습니다.",
+          "publicationMode": "source-link-only",
+          "imageUrl": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/05/05/717337a3f3cc3afba17fd159c8b4d6bb.jpg",
+          "sourceDimensions": [
+            1200,
+            800
+          ],
+          "sourceSha256": "cde52b15d28a2f412d7bd47c0dd6d89f7fbe81e1699dd438de10fa976697b26f",
+          "visualVerified": true
+        },
+        {
+          "id": "saha2026-pamir-4x4-aa-03",
+          "sourceUrl": "https://www.aa.com.tr/tr/bilim-teknoloji/bmcnin-yeni-araci-pamir-4x4-saha-2026da-vitrine-cikti/3927981",
+          "author": "Murat Şengül / Anadolu",
+          "license": "저작권자 권리 보유 · 공개 재배포 허용 미확인",
+          "licenseUrl": "https://www.aa.com.tr/tr/bilim-teknoloji/bmcnin-yeni-araci-pamir-4x4-saha-2026da-vitrine-cikti/3927981",
+          "date": "2026-05-05",
+          "eventId": "saha-2026",
+          "equipmentId": "pamir-4x4",
+          "caption": "SAHA 2026 PAMİR 4×4 공개 현장 · Anadolu 사진 3",
+          "angle": "정면 · 명패",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "verificationNote": "Anadolu의 5월5일 현장 기사에 실린 개별 사진. BMC 행사 종료 기사로 공개 행사와 제품명 교차 확인. 사진별 자세한 각도는 확대 원문에서 확인. 원문 미리보기 이미지의 차량·전시장 배경을 육안 확인했으며, 이미지 파일은 검수용 임시영역에만 보관했습니다.",
+          "publicationMode": "source-link-only",
+          "imageUrl": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/05/05/6dd21e158777a5438d302e92b46a7ae9.jpg",
+          "sourceDimensions": [
+            1200,
+            800
+          ],
+          "sourceSha256": "20d2c6858368280999d2c5028ace3355880a70d9f2d1966a2ac3ca55ac1b8954",
+          "visualVerified": true
+        },
+        {
+          "id": "saha2026-pamir-4x4-aa-04",
+          "sourceUrl": "https://www.aa.com.tr/tr/bilim-teknoloji/bmcnin-yeni-araci-pamir-4x4-saha-2026da-vitrine-cikti/3927981",
+          "author": "Murat Şengül / Anadolu",
+          "license": "저작권자 권리 보유 · 공개 재배포 허용 미확인",
+          "licenseUrl": "https://www.aa.com.tr/tr/bilim-teknoloji/bmcnin-yeni-araci-pamir-4x4-saha-2026da-vitrine-cikti/3927981",
+          "date": "2026-05-05",
+          "eventId": "saha-2026",
+          "equipmentId": "pamir-4x4",
+          "caption": "SAHA 2026 PAMİR 4×4 공개 현장 · Anadolu 사진 4",
+          "angle": "정면 · 행사 관계자 동반",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "verificationNote": "Anadolu의 5월5일 현장 기사에 실린 개별 사진. BMC 행사 종료 기사로 공개 행사와 제품명 교차 확인. 사진별 자세한 각도는 확대 원문에서 확인. 원문 미리보기 이미지의 차량·전시장 배경을 육안 확인했으며, 이미지 파일은 검수용 임시영역에만 보관했습니다.",
+          "publicationMode": "source-link-only",
+          "imageUrl": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/05/05/6f088dede9b5f41d3b0938731b757ec9.jpg",
+          "sourceDimensions": [
+            1200,
+            800
+          ],
+          "sourceSha256": "50de307863bfac0613137acef62eba77444c67cb20d4afd58f7e0c06bbe311bd",
+          "visualVerified": true
+        },
+        {
+          "id": "saha2026-pamir-4x4-jf-01",
+          "sourceUrl": "https://www.joint-forces.com/defence-equipment-news/90888-bmc-pamir-4x4-unveiled-at-saha-2026",
+          "author": "Bob Morrison / Joint Forces",
+          "license": "저작권자 권리 보유 · 공개 재배포 허용 미확인",
+          "licenseUrl": "https://www.joint-forces.com/defence-equipment-news/90888-bmc-pamir-4x4-unveiled-at-saha-2026",
+          "date": "2026-05-05",
+          "eventId": "saha-2026",
+          "equipmentId": "pamir-4x4",
+          "caption": "SAHA 2026 PAMİR 4×4 · 공개 행사 현장",
+          "angle": "전면 사선",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "verificationNote": "기자 본문의 5월5일 공개 현장 방문 기록과 개별 사진 캡션(© Bob Morrison)이 일치. 같은 기사 중 제조사 제공 일반제품 사진은 제외. 원문 미리보기 이미지의 차량·전시장 배경을 육안 확인했으며, 이미지 파일은 검수용 임시영역에만 보관했습니다.",
+          "publicationMode": "source-link-only",
+          "imageUrl": "https://www.joint-forces.com/wp-content/uploads/2026/05/01-BMC-PAMIR-SAHA-5231.jpg",
+          "sourceDimensions": [
+            900,
+            600
+          ],
+          "sourceSha256": "19b1de45a68a618b6488b30f281bf0d6c1ec57dfe54959f748d73a9b532e490f",
+          "visualVerified": true
+        },
+        {
+          "id": "saha2026-pamir-4x4-jf-02",
+          "sourceUrl": "https://www.joint-forces.com/defence-equipment-news/90888-bmc-pamir-4x4-unveiled-at-saha-2026",
+          "author": "Bob Morrison / Joint Forces",
+          "license": "저작권자 권리 보유 · 공개 재배포 허용 미확인",
+          "licenseUrl": "https://www.joint-forces.com/defence-equipment-news/90888-bmc-pamir-4x4-unveiled-at-saha-2026",
+          "date": "2026-05-05",
+          "eventId": "saha-2026",
+          "equipmentId": "pamir-4x4",
+          "caption": "SAHA 2026 PAMİR 4×4 · 공개 후 전시 현장",
+          "angle": "후면 사선 · 적재부",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "verificationNote": "기자 본문의 5월5일 공개 현장 방문 기록과 개별 사진 캡션(© Bob Morrison)이 일치. 같은 기사 중 제조사 제공 일반제품 사진은 제외. 원문 미리보기 이미지의 차량·전시장 배경을 육안 확인했으며, 이미지 파일은 검수용 임시영역에만 보관했습니다.",
+          "publicationMode": "source-link-only",
+          "imageUrl": "https://www.joint-forces.com/wp-content/uploads/2026/05/03-BMC-PAMIR-SAHA-5256.jpg",
+          "sourceDimensions": [
+            900,
+            600
+          ],
+          "sourceSha256": "13415a53031cbfdbe614967333d0675b5024ded451e2c66f506d9a5a516bf55f",
+          "visualVerified": true
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "equipmentCount": 4,
+    "verifiedPhotoRecords": 9,
+    "reusablePhotoCount": 0,
+    "linkOnlyPhotoCount": 9,
+    "visitorReusablePhotoCount": 0,
+    "status": "현장사진 원문 1차 선별 완료 · 공개 재사용 사진 추가 확보 필요"
+  },
+  "additionalSourceGalleries": [
+    {
+      "title": "Anadolu SAHA 2026 5월6일 현장 갤러리",
+      "url": "https://aa.com.tr/tr/pg/foto-galeri/saha-2026-ziyaretcilerini-agirlamaya-devam-ediyor/161185",
+      "note": "지상장비 외 항공·미사일도 섞여 있어 추가 선별 필요."
+    },
+    {
+      "title": "Mohammad Daher / NurPhoto SAHA 2026 18장",
+      "url": "https://www.nurphoto.com/gallery/631207",
+      "note": "사진 상세 캡션은 5월8일 이스탄불. 갤러리 머리말은 업로드일 5월11일과 Gaziantep로 상충하므로 개별 사진 기준으로 확인. 유료 라이선스; 링크만 수집."
+    }
+  ],
+  "excludedSources": [
+    {
+      "url": "https://www.sahaexpo.com/en/photo-gallery",
+      "reason": "현재 사이트의 공식 갤러리는 명시적으로 SAHA EXPO 2024 행사 사진. 2026 자료로 수록하지 않음."
+    }
+  ],
+  "rightsNote": "이미지 주소는 출처 식별용 메타데이터입니다. 모든 사진은 link-only이며 웹앱 img src나 PDF에 복제하지 않습니다."
+}

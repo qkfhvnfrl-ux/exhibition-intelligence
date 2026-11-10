@@ -1,0 +1,583 @@
+{
+  "eventId": "adex-2025",
+  "title": "서울 ADEX 2025",
+  "year": 2025,
+  "dates": "2025.10.20–24",
+  "location": "경기 고양 KINTEX · 지상장비 전시",
+  "updatedAt": "2026-11-11",
+  "strategyHeadline": "고객형·계열화·무인화로 기존 플랫폼의 제품 범위 확대",
+  "strategySummary": "이번 지상장비 전시는 기존 플랫폼의 고객형 개량, 임무별 파생형, 협력 기반 무인체계 전개가 함께 나타났습니다. 완성차 한 종의 제원보다 플랫폼을 활용한 제품군 확대가 공통 개발 방향으로 해석됩니다.",
+  "summaryType": "전시 구성에 근거한 해석",
+  "sourceUrls": [
+    "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+    "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+    "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+    "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+  ],
+  "equipment": [
+    {
+      "id": "k2pl",
+      "name": "K2PL",
+      "manufacturer": "현대로템",
+      "category": "전차",
+      "eventId": "adex-2025",
+      "strategyTitle": "수출 플랫폼의 고객 맞춤형 전개",
+      "strategySummary": "기존 K2 플랫폼에 고객별 장비 구성을 더한 제품을 전시했습니다. 범용 수출 모델에서 요구조건별 패키지로 제품군을 확장하는 전략으로 해석됩니다.",
+      "summaryType": "전시 구성에 근거한 개발전략 해석",
+      "exhibitHighlights": [
+        "폴란드형 실물 공개",
+        "APS·드론 재머·원격무장장치 소개"
+      ],
+      "sourceUrls": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "photos": [
+        {
+          "id": "k2pl-event-01",
+          "equipmentId": "k2pl",
+          "src": "assets/adex2025/k2pl-event-01.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "author": "현대로템 / 현대자동차그룹",
+          "license": "© 현대자동차그룹 · 뉴스룸 이미지 사용 안내",
+          "licenseUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "caption": "서울 ADEX 2025 현대로템 전시관의 K2PL — 앞쪽 램제트 엔진 모형과 함께 전시",
+          "angle": "전시관 사선 원경",
+          "context": "event",
+          "eventId": "adex-2025",
+          "variantNote": "제조사 다운로드 원본 캡션이 K2PL을 명시합니다. 전차가 사진 뒤쪽에 있고 전면은 엔진 모형에 일부 가려져 있어, 개별 부품의 명칭·기능을 사진만으로 확정할 수 없습니다.",
+          "sourceDate": "2025-10-20",
+          "retrievedAt": "2026-11-11",
+          "width": 1616,
+          "height": 1080,
+          "mediaType": "photo",
+          "changes": "공식 뉴스룸 다운로드 원본을 웹 표시용으로 긴 변 1,800px 이하 축소·JPEG 압축. 자르기·합성·형상 수정 없음.",
+          "copyrightNotice": "© 현대로템 / 현대자동차그룹",
+          "rightsBasis": "현대자동차그룹 뉴스룸은 해당 페이지 하단에서 기사와 이미지를 누구나 자유롭게 사용할 수 있다고 안내합니다. 제공받은 일부 자료의 사용 제한 예외도 함께 명시합니다. 이 사진은 해당 보도자료의 공식 이미지 다운로드 묶음에서 받은 제조사 보도사진이며 별도 제3자 제한 표시는 확인되지 않았습니다. CC 또는 퍼블릭도메인으로 표기하지 않습니다.",
+          "downloadFileId": "FIL00000000000290041",
+          "sha256": "cf68e69710366d23dd41e3491000c4115565b2f26ebfcc4b3659730a5315ed0b",
+          "date": "2025-10-20",
+          "rightsStatus": "reusable",
+          "sourceType": "manufacturer",
+          "verificationNote": "제조사 ADEX 2025 기사·다운로드 원본 캡션과 사진 내 전시장 맥락을 교차 확인했습니다."
+        },
+        {
+          "id": "adex-k2pl-ceo",
+          "equipmentId": "k2pl",
+          "sourceUrl": "https://www.ceoscoredaily.com/page/view/2025102017192308138",
+          "author": "박주선 / CEO스코어데일리",
+          "license": "원문 열람 · 재사용 허락 미확인",
+          "licenseUrl": "https://www.ceoscoredaily.com/page/view/2025102017192308138",
+          "date": "2025-10-20",
+          "sourceDate": "2025-10-20",
+          "eventId": "adex-2025",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "caption": "K2PL 전시 실물 현장 취재사진",
+          "angle": "원문 현장사진",
+          "verificationNote": "기사의 ADEX 2025 촬영장소·일자·사진 캡션 확인. 원문 링크만 제공하며 파일 복제·직접 게시는 하지 않습니다.",
+          "imageUrl": "https://www.ceoscoredaily.com/photos/2025/10/20/2025102016520833924_l.jpg"
+        }
+      ]
+    },
+    {
+      "id": "light-105",
+      "name": "경량화 105mm 자주포",
+      "manufacturer": "현대위아",
+      "category": "차량탑재 화력체계",
+      "eventId": "adex-2025",
+      "strategyTitle": "기존 기술의 경량 플랫폼 확장",
+      "strategySummary": "소형전술차량에 맞춘 경량화 제품을 전시했습니다. 축적한 화포 기술을 다른 차량급으로 확장해 제품 적용 범위를 넓히는 개발 방향으로 해석됩니다.",
+      "summaryType": "전시 구성에 근거한 개발전략 해석",
+      "exhibitHighlights": [
+        "소형전술차량 탑재 실물",
+        "지원차량과 함께 운용하는 제품 구성"
+      ],
+      "sourceUrls": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+      ],
+      "photos": [
+        {
+          "id": "light-105-event-01",
+          "equipmentId": "light-105",
+          "src": "assets/adex2025/light-105-event-01.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "author": "현대위아 / 현대자동차그룹",
+          "license": "© 현대자동차그룹 · 뉴스룸 이미지 사용 안내",
+          "licenseUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "caption": "서울 ADEX 2025 현대위아 부스의 경량화 105mm 자주포 — 전술차량 탑재 실물",
+          "angle": "전면 사선",
+          "context": "event",
+          "eventId": "adex-2025",
+          "variantNote": "사진 속 전면 표지와 제조사 원문이 경량화 105mm 자주포를 명시합니다. 전시 형상이며 양산·배치 완료를 뜻하지 않습니다.",
+          "sourceDate": "2025-10-20",
+          "retrievedAt": "2026-11-11",
+          "width": 1800,
+          "height": 1201,
+          "mediaType": "photo",
+          "changes": "공식 뉴스룸 다운로드 원본을 웹 표시용으로 긴 변 1,800px 이하 축소·JPEG 압축. 자르기·합성·형상 수정 없음.",
+          "copyrightNotice": "© 현대위아 / 현대자동차그룹",
+          "rightsBasis": "현대자동차그룹 뉴스룸은 해당 페이지 하단에서 기사와 이미지를 누구나 자유롭게 사용할 수 있다고 안내합니다. 제공받은 일부 자료의 사용 제한 예외도 함께 명시합니다. 이 사진은 해당 보도자료의 공식 이미지 다운로드 묶음에서 받은 제조사 보도사진이며 별도 제3자 제한 표시는 확인되지 않았습니다. CC 또는 퍼블릭도메인으로 표기하지 않습니다.",
+          "downloadFileId": "FIL00000000000289986",
+          "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72",
+          "date": "2025-10-20",
+          "rightsStatus": "reusable",
+          "sourceType": "manufacturer",
+          "verificationNote": "제조사 ADEX 2025 기사·다운로드 원본 캡션과 사진 내 전시장 맥락을 교차 확인했습니다."
+        },
+        {
+          "id": "adex-light105-herald",
+          "equipmentId": "light-105",
+          "sourceUrl": "https://v.daum.net/v/20251025092544935",
+          "author": "김성우 / 헤럴드경제",
+          "license": "원문 열람 · 재사용 허락 미확인",
+          "licenseUrl": "https://v.daum.net/v/20251025092544935",
+          "date": "2025-10-24",
+          "sourceDate": "2025-10-24",
+          "eventId": "adex-2025",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "caption": "ADEX 2025 현장에서 관람 중인 경량화 105mm 자주포",
+          "angle": "원문 현장사진",
+          "verificationNote": "기사의 ADEX 2025 촬영장소·일자·사진 캡션 확인. 원문 링크만 제공하며 파일 복제·직접 게시는 하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "rcws",
+      "name": "전술차량용 RCWS",
+      "manufacturer": "현대위아",
+      "category": "원격운용 장비",
+      "eventId": "adex-2025",
+      "strategyTitle": "다양한 탑재 플랫폼을 겨냥한 모듈 제품군",
+      "strategySummary": "소형·지능형 RCWS를 나란히 전시했습니다. 하나의 완성차에 종속되지 않는 탑재장비 제품군을 확보해 여러 차량과 시장으로 적용을 넓히는 전략으로 해석됩니다.",
+      "summaryType": "전시 구성에 근거한 개발전략 해석",
+      "exhibitHighlights": [
+        "소형·지능형 라인업",
+        "전시대에 분리된 실물 3종"
+      ],
+      "sourceUrls": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+      ],
+      "photos": [
+        {
+          "id": "rcws-event-01",
+          "equipmentId": "rcws",
+          "src": "assets/adex2025/rcws-event-01.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "author": "현대위아 / 현대자동차그룹",
+          "license": "© 현대자동차그룹 · 뉴스룸 이미지 사용 안내",
+          "licenseUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "caption": "서울 ADEX 2025 현대위아 부스의 RCWS 3종 — 40mm·12.7mm·7.62mm 전시대 실물",
+          "angle": "전시대 전면 사선",
+          "context": "event",
+          "eventId": "adex-2025",
+          "variantNote": "RCWS가 차량 위에 장착된 사진이 아니라 전시대에 분리 전시된 실물 사진입니다. 전시 표지의 40mm·12.7mm·7.62mm 구분은 확인되지만 자동추적 성능이나 운용 완성도는 사진만으로 확정할 수 없습니다.",
+          "sourceDate": "2025-10-20",
+          "retrievedAt": "2026-11-11",
+          "width": 1800,
+          "height": 1200,
+          "mediaType": "photo",
+          "changes": "공식 뉴스룸 다운로드 원본을 웹 표시용으로 긴 변 1,800px 이하 축소·JPEG 압축. 자르기·합성·형상 수정 없음.",
+          "copyrightNotice": "© 현대위아 / 현대자동차그룹",
+          "rightsBasis": "현대자동차그룹 뉴스룸은 해당 페이지 하단에서 기사와 이미지를 누구나 자유롭게 사용할 수 있다고 안내합니다. 제공받은 일부 자료의 사용 제한 예외도 함께 명시합니다. 이 사진은 해당 보도자료의 공식 이미지 다운로드 묶음에서 받은 제조사 보도사진이며 별도 제3자 제한 표시는 확인되지 않았습니다. CC 또는 퍼블릭도메인으로 표기하지 않습니다.",
+          "downloadFileId": "FIL00000000000289987",
+          "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb",
+          "date": "2025-10-20",
+          "rightsStatus": "reusable",
+          "sourceType": "manufacturer",
+          "verificationNote": "제조사 ADEX 2025 기사·다운로드 원본 캡션과 사진 내 전시장 맥락을 교차 확인했습니다."
+        }
+      ]
+    },
+    {
+      "id": "tasman-military",
+      "name": "타스만 군용 지휘차·파생형",
+      "manufacturer": "기아",
+      "category": "군용 지원차량",
+      "eventId": "adex-2025",
+      "strategyTitle": "민수 기반 차량의 군용 파생 확대",
+      "strategySummary": "타스만 지휘차와 여러 특수목적 파생형을 함께 전시했습니다. 민수 플랫폼을 활용해 군용 제품을 전개하고 차체 공용성을 기반으로 용도별 시장을 넓히는 전략으로 해석됩니다.",
+      "summaryType": "전시 구성에 근거한 개발전략 해석",
+      "exhibitHighlights": [
+        "군용 지휘차 실물",
+        "베어샤시·특수목적 파생차량"
+      ],
+      "sourceUrls": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141"
+      ],
+      "photos": [
+        {
+          "fileId": "FIL00000000000290007",
+          "src": "assets/photos/adex2025-new-tasman-front.jpg",
+          "width": 1800,
+          "height": 1200,
+          "sha256": "627548af6e2c960b4566e7257c2970c39a63b55664ed789460fef1195b69f3bc",
+          "size": 413934,
+          "id": "adex2025-new-tasman-front",
+          "equipmentId": "tasman-military",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "author": "기아 / 현대자동차그룹",
+          "license": "© 현대자동차그룹 · 뉴스룸 이미지 사용 안내",
+          "licenseUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "date": "2025-10-20",
+          "sourceDate": "2025-10-20",
+          "eventId": "adex-2025",
+          "context": "event",
+          "rightsStatus": "reusable",
+          "sourceType": "manufacturer",
+          "caption": "ADEX 2025 타스만 군용 지휘차와 베어샤시 전시",
+          "angle": "전면",
+          "verificationNote": "ADEX 2025 기아 보도자료의 공식 다운로드 원본. 전시장 사진이며 촬영 각도·차량 표지를 육안 확인했습니다.",
+          "rightsBasis": "해당 뉴스룸 하단 기사·이미지 자유 사용 안내. 제조사 원본 다운로드이며 별도 제3자 제한 표시 없음.",
+          "changes": "긴 변 1800px 이하 축소·JPEG 압축. 자르기·합성 없음.",
+          "retrievedAt": "2026-11-11"
+        },
+        {
+          "fileId": "FIL00000000000290009",
+          "src": "assets/photos/adex2025-new-kia-family.jpg",
+          "width": 1800,
+          "height": 1200,
+          "sha256": "a184930d3cff5ad8e49476cedcf8bed5e8b8674ddd99ab61b9d6a2dc218f7693",
+          "size": 452337,
+          "id": "adex2025-new-kia-family",
+          "equipmentId": "tasman-military",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "author": "기아 / 현대자동차그룹",
+          "license": "© 현대자동차그룹 · 뉴스룸 이미지 사용 안내",
+          "licenseUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "date": "2025-10-20",
+          "sourceDate": "2025-10-20",
+          "eventId": "adex-2025",
+          "context": "event",
+          "rightsStatus": "reusable",
+          "sourceType": "manufacturer",
+          "caption": "ADEX 2025 기아 부스의 타스만과 군용차량 제품군",
+          "angle": "부스 사선",
+          "verificationNote": "ADEX 2025 기아 보도자료의 공식 다운로드 원본. 전시장 사진이며 촬영 각도·차량 표지를 육안 확인했습니다.",
+          "rightsBasis": "해당 뉴스룸 하단 기사·이미지 자유 사용 안내. 제조사 원본 다운로드이며 별도 제3자 제한 표시 없음.",
+          "changes": "긴 변 1800px 이하 축소·JPEG 압축. 자르기·합성 없음.",
+          "retrievedAt": "2026-11-11"
+        },
+        {
+          "id": "adex-tasman-asia",
+          "equipmentId": "tasman-military",
+          "sourceUrl": "https://www.asiatime.co.kr/article/20251023500386",
+          "author": "조광현 / 아시아타임즈",
+          "license": "원문 열람 · 재사용 허락 미확인",
+          "licenseUrl": "https://www.asiatime.co.kr/article/20251023500386",
+          "date": "2025-10-23",
+          "sourceDate": "2025-10-23",
+          "eventId": "adex-2025",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "caption": "타스만 군용 지휘차 현장 취재사진",
+          "angle": "원문 현장사진",
+          "verificationNote": "기사의 ADEX 2025 촬영장소·일자·사진 캡션 확인. 원문 링크만 제공하며 파일 복제·직접 게시는 하지 않습니다.",
+          "imageUrl": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2025/10/23/.cache/512/20251023500391.jpg"
+        }
+      ]
+    },
+    {
+      "id": "kmtv",
+      "name": "차세대 중형표준차 KMTV",
+      "manufacturer": "기아",
+      "category": "군용 지원차량",
+      "eventId": "adex-2025",
+      "strategyTitle": "차량급을 연결하는 공용 제품군",
+      "strategySummary": "KMTV를 소형전술차·타스만과 같은 부스에 제시했습니다. 특정 차량 한 종보다 차급별 공통 기반과 파생 제품을 묶어 군용 이동수단 전반을 공급하려는 방향으로 해석됩니다.",
+      "summaryType": "전시 구성에 근거한 개발전략 해석",
+      "exhibitHighlights": [
+        "KMTV 실물 전시",
+        "차급별 차량군 동시 제시"
+      ],
+      "sourceUrls": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141"
+      ],
+      "photos": [
+        {
+          "fileId": "FIL00000000000290008",
+          "src": "assets/photos/adex2025-new-kmtv-front.jpg",
+          "width": 1800,
+          "height": 1200,
+          "sha256": "62a7c344970dbca6cd6dae82f3d532cdf1ba33636883811999b112fb5d1cc1d5",
+          "size": 439007,
+          "id": "adex2025-new-kmtv-front",
+          "equipmentId": "kmtv",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "author": "기아 / 현대자동차그룹",
+          "license": "© 현대자동차그룹 · 뉴스룸 이미지 사용 안내",
+          "licenseUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "date": "2025-10-20",
+          "sourceDate": "2025-10-20",
+          "eventId": "adex-2025",
+          "context": "event",
+          "rightsStatus": "reusable",
+          "sourceType": "manufacturer",
+          "caption": "ADEX 2025 KMTV 전면과 뒤편 소형전술차·K2PL 전시",
+          "angle": "전면 사선",
+          "verificationNote": "ADEX 2025 기아 보도자료의 공식 다운로드 원본. 전시장 사진이며 촬영 각도·차량 표지를 육안 확인했습니다.",
+          "rightsBasis": "해당 뉴스룸 하단 기사·이미지 자유 사용 안내. 제조사 원본 다운로드이며 별도 제3자 제한 표시 없음.",
+          "changes": "긴 변 1800px 이하 축소·JPEG 압축. 자르기·합성 없음.",
+          "retrievedAt": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "k808-peru",
+      "name": "K808 페루형·계열차량",
+      "manufacturer": "현대로템",
+      "category": "차륜형장갑차",
+      "eventId": "adex-2025",
+      "strategyTitle": "고객형 개량과 임무별 계열화",
+      "strategySummary": "페루형과 지휘소·의무후송 계열을 함께 소개했습니다. 기존 차륜형 플랫폼의 고객 대응과 임무 확장을 병행해 차체군 전체의 사업 범위를 넓히는 전략으로 해석됩니다.",
+      "summaryType": "전시 구성에 근거한 개발전략 해석",
+      "exhibitHighlights": [
+        "페루형 전시 소개",
+        "지휘소·의무후송 계열 소개"
+      ],
+      "sourceUrls": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "photos": []
+    },
+    {
+      "id": "themis-k",
+      "name": "THeMIS-K",
+      "manufacturer": "한화에어로스페이스 · Milrem Robotics",
+      "category": "무인지상차량",
+      "eventId": "adex-2025",
+      "strategyTitle": "협력 플랫폼에 국내 임무장비 통합",
+      "strategySummary": "Milrem의 THeMIS 플랫폼과 한화의 탑재장비를 결합한 제품을 공개했습니다. 검증된 외부 플랫폼을 활용하면서 국내 요구에 맞는 체계통합 역량을 확보하려는 개발 전략으로 해석됩니다.",
+      "summaryType": "전시 구성에 근거한 개발전략 해석",
+      "exhibitHighlights": [
+        "THeMIS-K 공개",
+        "ARION-SMET·GRUNT와 함께 전시"
+      ],
+      "sourceUrls": [
+        "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194"
+      ],
+      "photos": [
+        {
+          "id": "adex-themis-maphoto",
+          "equipmentId": "themis-k",
+          "sourceUrl": "https://www.maphotosg.com/seoul-adex-2025/",
+          "author": "Hanson Seah / MAphotoSG",
+          "license": "원문 열람 · 재사용 허락 미확인",
+          "licenseUrl": "https://www.maphotosg.com/seoul-adex-2025/",
+          "date": "2025-10-20/2025-10-24",
+          "sourceDate": "2025-10-20/2025-10-24",
+          "eventId": "adex-2025",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "caption": "ARION-SMET·GRUNT·THeMIS-K 전시 구역 사진",
+          "angle": "원문 현장사진",
+          "verificationNote": "기사의 ADEX 2025 촬영장소·일자·사진 캡션 확인. 원문 링크만 제공하며 파일 복제·직접 게시는 하지 않습니다."
+        },
+        {
+          "id": "adex-themis-bloter",
+          "equipmentId": "themis-k",
+          "sourceUrl": "https://v.daum.net/v/ZbfuJ4ZvXr",
+          "author": "김덕호 / 블로터",
+          "license": "원문 열람 · 재사용 허락 미확인",
+          "licenseUrl": "https://v.daum.net/v/ZbfuJ4ZvXr",
+          "date": "2025-10",
+          "sourceDate": "2025-10",
+          "eventId": "adex-2025",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "caption": "MUM-T 구역에 전시한 THeMIS-K 취재사진",
+          "angle": "원문 현장사진",
+          "verificationNote": "기사의 ADEX 2025 촬영장소·일자·사진 캡션 확인. 원문 링크만 제공하며 파일 복제·직접 게시는 하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "black-veil",
+      "name": "블랙 베일",
+      "manufacturer": "현대로템",
+      "category": "무인지상차량",
+      "eventId": "adex-2025",
+      "strategyTitle": "전동화 기반의 범용 무인 플랫폼",
+      "strategySummary": "개방형 적재공간을 갖춘 수소연료전지 무인 플랫폼을 처음 소개했습니다. 임무별 완성차 개발과 함께 공통 전동화 기반을 확보하려는 제품 다변화 전략으로 해석됩니다.",
+      "summaryType": "전시 구성에 근거한 개발전략 해석",
+      "exhibitHighlights": [
+        "수소연료전지 무인 플랫폼 공개",
+        "적재부 활용에 따른 용도 전개"
+      ],
+      "sourceUrls": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "photos": [
+        {
+          "id": "adex-blackveil-herald",
+          "equipmentId": "black-veil",
+          "sourceUrl": "https://v.daum.net/v/20251025092544935",
+          "author": "김성우 / 헤럴드경제",
+          "license": "원문 열람 · 재사용 허락 미확인",
+          "licenseUrl": "https://v.daum.net/v/20251025092544935",
+          "date": "2025-10-24",
+          "sourceDate": "2025-10-24",
+          "eventId": "adex-2025",
+          "context": "event",
+          "rightsStatus": "link-only",
+          "sourceType": "media",
+          "caption": "현대로템 무인체계 전시 구역 현장사진",
+          "angle": "원문 현장사진",
+          "verificationNote": "기사의 ADEX 2025 촬영장소·일자·사진 캡션 확인. 원문 링크만 제공하며 파일 복제·직접 게시는 하지 않습니다."
+        }
+      ]
+    }
+  ],
+  "eventPhotos": [
+    {
+      "fileId": "FIL00000000000290038",
+      "src": "assets/photos/adex2025-new-rotem-booth.jpg",
+      "width": 1506,
+      "height": 1004,
+      "sha256": "89be393f6aca5a8fae6b36e0f1191d03fc204fef12ee1778daf3b272729a0629",
+      "size": 346351,
+      "id": "adex2025-new-rotem-booth",
+      "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+      "author": "현대로템 / 현대자동차그룹",
+      "license": "© 현대자동차그룹 · 뉴스룸 이미지 사용 안내",
+      "licenseUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+      "date": "2025-10-20",
+      "eventId": "adex-2025",
+      "context": "event",
+      "rightsStatus": "reusable",
+      "sourceType": "manufacturer",
+      "caption": "ADEX 2025 현대로템·현대자동차그룹 통합관 전경",
+      "angle": "부스 외곽 원경",
+      "verificationNote": "공식 원본 파일명 전시관 전경과 관람객·부스 표지 확인. 개별 장비 분석 사진으로 집계하지 않음."
+    }
+  ],
+  "externalGalleries": [
+    {
+      "id": "maphotosg-adex25",
+      "title": "MAphotoSG · 사진가의 KINTEX 실내·야외 갤러리",
+      "url": "https://www.maphotosg.com/seoul-adex-2025/",
+      "author": "Hanson Seah",
+      "sourceType": "visitor",
+      "publishedAt": "2025-12-30",
+      "eventDates": "2025-10-17–24",
+      "rightsStatus": "link-only",
+      "description": "K2 계열, K808, THeMIS-K, K-NIFV, K9A1·K10, K21·K600과 군용 지원차량 등 실내·야외 현장사진. 일반 K808을 페루형으로 혼용하지 않습니다.",
+      "listedEquipment": [
+        "K2 계열",
+        "K808 기본형",
+        "THeMIS-K",
+        "K-NIFV",
+        "K9A1",
+        "K10",
+        "K21",
+        "K600",
+        "기아 타스만"
+      ],
+      "verificationNote": "기사 날짜·KINTEX 실내/야외 구분·개별 사진 캡션 확인. 재사용 허락 미확인으로 원문 연결."
+    },
+    {
+      "id": "ceo-adex25",
+      "title": "CEO스코어데일리 · K2PL·K9 전시자료 현장 취재",
+      "url": "https://www.ceoscoredaily.com/page/view/2025102017192308138",
+      "author": "박주선",
+      "sourceType": "media",
+      "publishedAt": "2025-10-20",
+      "rightsStatus": "link-only",
+      "description": "K2PL 실물과 K9 계열 개발 로드맵 전시사진.",
+      "listedEquipment": [
+        "K2PL",
+        "K9 계열 로드맵"
+      ],
+      "verificationNote": "사진 캡션·기자 이름·행사일 확인. 무단전재·재배포 금지 표시."
+    },
+    {
+      "id": "asia-adex25",
+      "title": "아시아타임즈 · 타스만·무인체계 현장 취재",
+      "url": "https://www.asiatime.co.kr/article/20251023500386",
+      "author": "조광현",
+      "sourceType": "media",
+      "publishedAt": "2025-10-23",
+      "rightsStatus": "link-only",
+      "description": "타스만 군용 지휘차, 무인체계, 전시장 현장사진.",
+      "listedEquipment": [
+        "타스만 군용 지휘차",
+        "무인체계"
+      ],
+      "verificationNote": "현장 방문일·촬영자·사진 캡션 확인. 무단전재·재배포 금지 표시."
+    },
+    {
+      "id": "herald-adex25",
+      "title": "헤럴드경제 · 현대로템·현대위아 전시 현장",
+      "url": "https://v.daum.net/v/20251025092544935",
+      "author": "김성우",
+      "sourceType": "media",
+      "publishedAt": "2025-10-25",
+      "rightsStatus": "link-only",
+      "description": "무인체계 구역과 경량화 105mm 자주포 현장사진.",
+      "listedEquipment": [
+        "블랙 베일 전시 구역",
+        "경량화 105mm 자주포"
+      ],
+      "verificationNote": "2025-10-24 현장 촬영 캡션 확인. 기사에 105mm 제조사를 현대로템으로 적은 부분은 공식 현대위아 자료와 대조하여 사용하지 않음."
+    },
+    {
+      "id": "bloter-adex25",
+      "title": "블로터 · THeMIS-K 현장 취재",
+      "url": "https://v.daum.net/v/ZbfuJ4ZvXr",
+      "author": "김덕호",
+      "sourceType": "media",
+      "publishedAt": "2025-10",
+      "rightsStatus": "link-only",
+      "description": "THeMIS-K의 MUM-T 전시 구역 현장사진.",
+      "listedEquipment": [
+        "THeMIS-K"
+      ],
+      "verificationNote": "사진 캡션의 장비·기자 확인. 재사용 허락 미확인."
+    },
+    {
+      "id": "trafficnews-adex25",
+      "title": "乗りものニュース · K2PL 현장 사진 갤러리",
+      "url": "https://trafficnews.jp/photo/600488",
+      "author": "布留川 司",
+      "sourceType": "media",
+      "publishedAt": "2025-10",
+      "rightsStatus": "link-only",
+      "description": "사진가가 ADEX 2025 현장에서 촬영한 K2PL 사진.",
+      "listedEquipment": [
+        "K2PL"
+      ],
+      "verificationNote": "검색 결과의 행사·장비·촬영자 캡션 확인. 원문 접근 403으로 개별 이미지와 권한 추가 확인 필요.",
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "rotem-video-adex25",
+      "title": "현대로템 · ADEX 2025 현장 스케치 영상",
+      "url": "https://blog.hyundai-rotem.co.kr/1130",
+      "author": "현대로템",
+      "sourceType": "manufacturer",
+      "publishedAt": "2025-10-23",
+      "rightsStatus": "link-only",
+      "description": "전시 부스 현장 영상. 정지사진 수에는 포함하지 않습니다.",
+      "listedEquipment": [
+        "현대로템 전시관"
+      ],
+      "verificationNote": "ADEX 2025 현장 스케치로 명시된 영상 링크. 영상을 추출·복제하지 않음."
+    }
+  ],
+  "collectionStatus": {
+    "phase": "ADEX 2025 1차 수집",
+    "reusableEquipmentPhotos": 6,
+    "newReusableEquipmentPhotos": 3,
+    "newBoothPhotos": 1,
+    "linkOnlyPhotoReferences": 6,
+    "externalGallerySources": 7,
+    "visitorReusablePhotos": 0,
+    "note": "기존 현장사진 3장에 기아 현장사진 3장·부스 전경 1장을 추가. 권한 미확인 취재·사진가 자료는 원문 링크로 수집했습니다. 다른 행사·훈련·홍보 참고사진은 제외했습니다. 다각도와 개인 관람객 원본 확보는 후속 수집 대상입니다."
+  }
+}
