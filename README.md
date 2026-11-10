@@ -6,7 +6,7 @@
 
 **공개 주소:** https://qkfhvnfrl-ux.github.io/exhibition-intelligence/
 
-1.0.0 소스는 **49개 검사와 빌드**를 통과했습니다. 공개 주소의 최종 배포 확인은 [진행 상태](docs/STATUS.md)에 기록합니다.
+1.0.0은 **49개 검사와 빌드, GitHub Pages 공개 배포**를 완료했습니다. 공개 화면도 확인했으며, 검증 범위와 남은 제약은 [진행 상태](docs/STATUS.md)에 기록했습니다.
 
 ## 수록 자료
 
