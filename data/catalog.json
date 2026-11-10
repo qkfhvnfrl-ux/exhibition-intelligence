@@ -1,0 +1,3978 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-11-10",
+  "exhibitions": [
+    {
+      "id": "eurosatory-2026",
+      "name": "Eurosatory",
+      "year": 2026,
+      "country": "프랑스",
+      "city": "파리",
+      "dates": "2026.06.15–19",
+      "previousYear": 2024,
+      "summary": "지상·공중지상 방산전. 차량 플랫폼과 무인체계, 관련 부체계를 같은 기준으로 검토합니다.",
+      "sourceUrl": "https://www.eurosatory.com/en/eurosatory-2026-the-tradeshow-addressing-the-new-world-order/"
+    },
+    {
+      "id": "dsei-2025",
+      "name": "DSEI",
+      "year": 2025,
+      "country": "영국",
+      "city": "런던",
+      "dates": "2025.09.09–12",
+      "previousYear": 2023,
+      "summary": "종합 방산전에서 지상장비·센서·통신·체계 통합에 해당하는 자료를 선별합니다.",
+      "sourceUrl": "https://www.gov.uk/government/news/always-on-csoc-at-dsei-2025"
+    },
+    {
+      "id": "idex-2025",
+      "name": "IDEX",
+      "year": 2025,
+      "country": "UAE",
+      "city": "아부다비",
+      "dates": "2025.02.17–21",
+      "previousYear": 2023,
+      "summary": "각국의 수출형 지상장비와 업체별 제품·계열형을 공개 근거로 비교합니다.",
+      "sourceUrl": "https://www.adnec.ae/en/press-and-media/press-release-listing/idex-and-navdex-2025-conclude-with-record-breaking-and-historic-results-garnering-widespread-international-acclaim-from-exhibitors-and-official-delegations"
+    },
+    {
+      "id": "saha-2026",
+      "name": "SAHA",
+      "year": 2026,
+      "country": "튀르키예",
+      "city": "이스탄불",
+      "dates": "2026.05.05–09",
+      "previousYear": 2024,
+      "summary": "완성 장비와 부체계의 연결, 공개된 신형·계열형 전시 내용을 검토합니다.",
+      "sourceUrl": "https://sahaexpo.com/en/exhibition-information"
+    },
+    {
+      "id": "adex-2025",
+      "name": "서울 ADEX",
+      "year": 2025,
+      "country": "대한민국",
+      "city": "고양·성남",
+      "dates": "2025.10.17–24",
+      "previousYear": 2023,
+      "summary": "국내 지상장비의 수출형·계열형과 개발 로드맵을 해외 장비와 공통 기준으로 살펴봅니다.",
+      "sourceUrl": "https://www.seouladex.com/"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "boxer-miv",
+      "name": "BOXER MIV",
+      "manufacturer": "ARTEC · RBSL · KNDS UK",
+      "country": "독일·영국",
+      "category": "장갑차",
+      "description": "영국 기계화보병용 BOXER 계열. DSEI 2025에서 지휘소형 및 정찰·중보병 무장운반형의 전시가 각각 명시된 모듈형 차륜 플랫폼입니다.",
+      "tags": [
+        "8×8",
+        "임무모듈",
+        "영국 생산",
+        "지휘지원"
+      ],
+      "exhibitions": [
+        {
+          "id": "dsei-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025",
+          "note": "제조사 발표가 Land Zone N2-350 지휘소형 및 자사 부스 정찰·중보병 무장운반형 전시를 명시. 각 차량의 완성도와 운용국 형상은 사진별 재확인 필요."
+        }
+      ],
+      "specs": [
+        {
+          "label": "구동 형식",
+          "value": "8×8",
+          "sourceUrl": "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet",
+          "note": "BOXER 계열 공통"
+        },
+        {
+          "label": "영국 차량 중량",
+          "value": "38.5 t",
+          "sourceUrl": "https://www.army.mod.uk/news/trials-begin-for-the-army-s-new-heavyweight-the-boxer",
+          "note": "영국 육군 시험차량 소개 수치. 모든 DSEI 파생형에 일괄 적용하지 않음"
+        },
+        {
+          "label": "길이 × 폭",
+          "value": "7.93 × 2.99 m",
+          "sourceUrl": "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet",
+          "note": "OCCAR 계열 일반 제원; 지붕 장비·임무모듈별 높이 별도"
+        },
+        {
+          "label": "도로 최고속도",
+          "value": "100 km/h",
+          "sourceUrl": "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet",
+          "note": "OCCAR 계열 수치; 전시차 개별 시험 결과 아님"
+        }
+      ],
+      "highlights": [
+        "차체와 임무모듈을 분리한 공통 플랫폼",
+        "전시차의 역할과 영국 생산차의 형상을 구분해야 함",
+        "상부 장비보다 유지보수·형상관리 구조가 핵심 비교항목"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "구동부와 임무부의 분리",
+          "fact": "OCCAR는 공통 구동모듈과 교환형 임무모듈 구조를 설명합니다.",
+          "interpretation": "차량 한 대보다 모듈별 임무공간과 연결 인터페이스를 함께 비교하는 편이 적절합니다.",
+          "unknown": "전시된 각 모듈의 내부 배치도와 유효 공간은 별도 확인이 필요합니다.",
+          "sourceUrls": [
+            "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "영국형 중량의 적용 범위",
+          "fact": "영국 육군은 시험대상 BOXER를 38.5t급으로 소개했습니다.",
+          "interpretation": "브리지·수송 검토에는 영국형 수치를 사용하되 다른 BOXER 파생형의 중량과 혼합하지 않아야 합니다.",
+          "unknown": "DSEI의 각 전시형별 실제 계측 중량은 공개 근거가 없습니다.",
+          "sourceUrls": [
+            "https://www.army.mod.uk/news/trials-begin-for-the-army-s-new-heavyweight-the-boxer",
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "역할에 따라 달라지는 실내",
+          "fact": "DSEI 발표는 지휘소형과 다른 임무형을 구분합니다.",
+          "interpretation": "실내 사진은 같은 BOXER라는 이유로 합치지 않고 운용 역할별로 분류해야 좌석·작업공간 검토가 가능합니다.",
+          "unknown": "지휘소형의 좌석 수·작업대 치수·승하차 여유는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "보호구조와 국가별 사양",
+          "fact": "OCCAR 자료는 모듈식 장갑과 안전 셀 구조를 제시합니다.",
+          "interpretation": "보호구조 개념은 공통 비교가 가능하지만 외관 사진만으로 방호등급을 평가할 수 없습니다.",
+          "unknown": "영국 전시차의 상세 방호등급과 적용 옵션은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "현지 생산과 장기 지원",
+          "fact": "RBSL은 Telford에서 구조물 제작·조립·통합·시험을 수행한다고 설명합니다.",
+          "interpretation": "현지 생산 능력은 공급망 분석의 근거가 되며 실제 수리기간·부품 조달기간은 별도 지표로 관리해야 합니다.",
+          "unknown": "현장 정비 공수와 가동률 실측치는 공개 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://rbsl.com/capabilities/wheeled-vehicles/boxer"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "모듈 공통성과 형상관리",
+          "fact": "임무모듈은 국가별 요구와 차종에 맞추어 구성됩니다.",
+          "interpretation": "공통화의 이점을 비교하려면 교체 가능성뿐 아니라 소프트웨어·전기 인터페이스의 승인 범위도 확인해야 합니다.",
+          "unknown": "운용국 간 모듈의 직접 호환 범위와 승인 절차는 미확인입니다.",
+          "sourceUrls": [
+            "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "시험·생산·전시의 단계 구분",
+          "fact": "2025년 발표는 첫 영국 생산차 출고와 DSEI 전시를 함께 다룹니다.",
+          "interpretation": "생산 진척과 특정 전시형의 실전 배치는 서로 다른 사건으로 기록하는 것이 타당합니다.",
+          "unknown": "부스에 놓인 개별 차량의 양산 표준 일치 여부는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "2023",
+          "to": "2025",
+          "title": "BOXER 계열 전시 역할의 차이",
+          "detail": "2023년 공식 자료는 BOXER CRV 및 Skyranger 임무모듈을, 2025년은 지휘소형과 정찰·중보병 무장운반형을 언급합니다. 동일 차량의 성능 개선 증거가 아니라 전시 구성의 차이입니다.",
+          "status": "verified",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/2023-09-06-Rheinmetall-at-DSEI-2023.pdf",
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "DSEI 2025 출품 발표 및 사진",
+          "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025",
+          "publisher": "Rheinmetall",
+          "kind": "manufacturer",
+          "date": "2025-09-03",
+          "supports": "차량별 출품 명시, 영국 생산 진척"
+        },
+        {
+          "title": "BOXER 프로그램 제원표",
+          "url": "https://occar.int/our-work/programmes/boxer-a-multi-role-armoured-vehicle/fact-sheet",
+          "publisher": "OCCAR",
+          "kind": "government",
+          "date": null,
+          "supports": "계열 기본 제원·모듈 구조"
+        },
+        {
+          "title": "영국 육군 BOXER 시험 소개",
+          "url": "https://www.army.mod.uk/news/trials-begin-for-the-army-s-new-heavyweight-the-boxer",
+          "publisher": "British Army",
+          "kind": "government",
+          "date": null,
+          "supports": "영국형 38.5t 및 사진"
+        },
+        {
+          "title": "BOXER 영국 생산 소개",
+          "url": "https://rbsl.com/capabilities/wheeled-vehicles/boxer",
+          "publisher": "RBSL",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "현지 생산 범위 및 사진"
+        },
+        {
+          "title": "DSEI 2023 출품 발표",
+          "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/2023-09-06-Rheinmetall-at-DSEI-2023.pdf",
+          "publisher": "Rheinmetall",
+          "kind": "manufacturer",
+          "date": "2023-09-06",
+          "supports": "직전 회차 BOXER 계열 출품 구성"
+        }
+      ],
+      "photoSearchTerms": [
+        "BOXER MIV DSEI 2025 command post front rear interior",
+        "RBSL Boxer British Army trials side view"
+      ],
+      "researchStatus": "reviewed",
+      "limitations": [
+        "제원은 영국형 수치와 BOXER 계열 일반 수치의 적용 범위를 항목마다 구분했습니다.",
+        "공식 사진 원문 링크를 제공하며 재배포 허가가 확인되지 않은 사진은 저장하지 않았습니다.",
+        "외관으로 임무모듈 내부 성능이나 방호등급을 추정하지 않습니다."
+      ]
+    },
+    {
+      "id": "patria-6x6",
+      "name": "Patria 6×6",
+      "manufacturer": "Patria",
+      "country": "핀란드",
+      "category": "장갑차",
+      "description": "공통 차륜 플랫폼을 기반으로 한 병력수송·지원 차량. DSEI 2025에서는 Patria의 지휘통제형과 Babcock의 병력수송형 두 대가 명시되었습니다.",
+      "tags": [
+        "6×6",
+        "CAVS",
+        "지휘통제",
+        "병력수송",
+        "공동조달"
+      ],
+      "exhibitions": [
+        {
+          "id": "dsei-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+          "note": "Patria N9-220 지휘통제형, Babcock S7-110 병력수송형 실차 2대 전시 명시. 9월 9일 협약 보도에 DSEI 현장 사진도 수록."
+        }
+      ],
+      "specs": [
+        {
+          "label": "최대 전투중량",
+          "value": "24,000 kg",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+          "note": "2025년 7월 표기 브로슈어. 개별 전시형의 실측 중량 아님"
+        },
+        {
+          "label": "최대 적재량",
+          "value": "8,500 kg",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+          "note": "브로슈어 상한값; 방호·임무장비 구성과 연동"
+        },
+        {
+          "label": "길이 × 폭 × 차체 높이",
+          "value": "7.5 × 2.9 × 2.5 m",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+          "note": "차체 기준 높이; 지휘통제 안테나 미포함"
+        },
+        {
+          "label": "엔진 출력",
+          "value": "325 kW",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+          "note": "0725 표기 브로슈어. 이전 형상의 294kW와 혼용 금지"
+        },
+        {
+          "label": "병력수송 배치",
+          "value": "승무원 2명 + 후방 최대 10명",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+          "note": "병력수송형 일반 배치; 지휘통제형에 그대로 적용 불가"
+        },
+        {
+          "label": "도로 최고속도",
+          "value": "100 km/h 초과",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+          "note": "제조사 표기; 시험 조건 미공개"
+        }
+      ],
+      "highlights": [
+        "2023년 NEMO 탑재형에서 2025년 지휘통제·병력수송형으로 전시 역할 다변화",
+        "형상별 실내 비교와 공동조달·현지생산 분석에 적합",
+        "공식 2025 브로슈어의 제원 버전을 명시"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "병력수송과 지휘통제의 공간 차이",
+          "fact": "2025년 전시차는 지휘통제형과 병력수송형으로 구분됩니다.",
+          "interpretation": "동일 차체의 좌석·랙·작업공간 변화를 비교하는 자료로 활용할 수 있습니다.",
+          "unknown": "지휘통제형의 정확한 작업자 수와 실내 치수는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "기본 차체의 기동 구성",
+          "fact": "제조사 브로슈어는 독립현가와 상시 전륜구동을 명시합니다.",
+          "interpretation": "차량 간 비교에서는 최고속도보다 적재·방호 구성별 시험 조건을 함께 기록할 필요가 있습니다.",
+          "unknown": "전시차의 적재 상태별 승차감·지속 운행 결과는 공개되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.patriagroup.com/download/patria-6x6-brochure-2"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "트럭형 조작계의 평가 범위",
+          "fact": "브로슈어는 트럭과 유사한 조작계를 설명합니다.",
+          "interpretation": "교육 부담 완화 가능성은 있으나 실제 교육시간 감소를 입증하는 수치는 아닙니다.",
+          "unknown": "운전자 시야 사각·피로도·비상 탈출 시험 결과는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.patriagroup.com/download/patria-6x6-brochure-2"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "기본형과 옵션을 분리",
+          "fact": "제조사는 방호 구성이 고객 요구에 따라 달라진다고 설명합니다.",
+          "interpretation": "방호 성능을 단일 숫자로 고정하기보다 해당 사진과 계약의 구성 상태를 연결해야 합니다.",
+          "unknown": "DSEI 두 차량에 적용된 구체적 방호 옵션은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+            "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "지휘통제형의 센서·통신 통합",
+          "fact": "전시 발표는 지휘통제형과 함께 ARIS·ARIS-E·CATCHR를 소개합니다.",
+          "interpretation": "장비 목록과 실제 차량에 통합된 장비를 별도 기록해야 전시 홍보와 실물 구성을 혼동하지 않습니다.",
+          "unknown": "각 체계의 실차 탑재 위치·완전 통합 상태는 현장 상세자료가 필요합니다.",
+          "sourceUrls": [
+            "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "공동 플랫폼과 영국 생산 협력",
+          "fact": "Patria와 Babcock은 DSEI에서 영국 내 제조 협력을 발표했습니다.",
+          "interpretation": "공동 플랫폼의 분석 범위가 차량 성능에서 현지 공급망·교육·지원으로 확대되는 사례입니다.",
+          "unknown": "영국 생산분의 확정 일정과 실제 단위 유지비는 이 발표만으로 판단할 수 없습니다.",
+          "sourceUrls": [
+            "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "양산 계열과 개별 전시형의 구분",
+          "fact": "2025년 8월 발표는 CAVS 계열 인도 실적을 설명합니다.",
+          "interpretation": "계열의 생산 경험은 확인되지만 전시 지휘통제형의 자격인증이나 배치 완료를 뜻하지 않습니다.",
+          "unknown": "해당 지휘통제 형상의 고객 승인·배치 상태는 추가 확인이 필요합니다.",
+          "sourceUrls": [
+            "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "2023",
+          "to": "2025",
+          "title": "포탑 탑재형에서 지원 역할 전시로 확대",
+          "detail": "DSEI 2023 공식 자료는 Patria 6×6 NEMO 탑재형을, 2025년은 지휘통제형과 병력수송형을 명시합니다. 이는 제품군의 전시 강조점 변화이며 전 모델의 무장 변경을 의미하지 않습니다.",
+          "status": "verified",
+          "sourceUrls": [
+            "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
+            "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "DSEI 2025 두 전시차 안내",
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+          "publisher": "Patria",
+          "kind": "manufacturer",
+          "date": "2025-08-28",
+          "supports": "출품 차종·부스·당시 계열 생산상태"
+        },
+        {
+          "title": "DSEI 현장 협약 및 차량 사진",
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom",
+          "publisher": "Patria",
+          "kind": "manufacturer",
+          "date": "2025-09-09",
+          "supports": "현장 사진, 영국 제조 협력"
+        },
+        {
+          "title": "Patria 6×6 제품 브로슈어 0725",
+          "url": "https://www.patriagroup.com/download/patria-6x6-brochure-2",
+          "publisher": "Patria",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "기본 제원, 차체 구성, 제품 사진"
+        },
+        {
+          "title": "DSEI 2023 전시 안내",
+          "url": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
+          "publisher": "Patria",
+          "kind": "manufacturer",
+          "date": "2023-08-28",
+          "supports": "직전 회차 NEMO 탑재형 전시"
+        },
+        {
+          "title": "공식 사진자료 목록",
+          "url": "https://www.patriagroup.com/newsroom/images?page=3",
+          "publisher": "Patria",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "각도별 사진 탐색 및 DSEI 2023 사진 식별"
+        }
+      ],
+      "photoSearchTerms": [
+        "Patria 6x6 DSEI 2025 C2 interior rear Babcock",
+        "Patria 6x6 DSEI 2023 NEMO official images"
+      ],
+      "researchStatus": "reviewed",
+      "limitations": [
+        "브로슈어 일반 제원은 DSEI 지휘통제형의 확정 제원과 다를 수 있습니다.",
+        "최대 적재량과 최대 승차인원은 모든 옵션 상태에서 동시에 성립한다고 가정하지 않습니다.",
+        "사진 원문과 라이선스 검토가 필요하며 무허가 이미지 복제는 포함하지 않았습니다."
+      ]
+    },
+    {
+      "id": "lynx-skyranger35",
+      "name": "Lynx KF41 Skyranger 35",
+      "manufacturer": "Rheinmetall",
+      "country": "독일",
+      "category": "방공·대드론",
+      "description": "Lynx KF41 궤도 플랫폼에 Skyranger 35를 통합한 기동 방공 전시형. DSEI 2025에서 최초 공개가 제조사 발표로 확인됩니다.",
+      "tags": [
+        "궤도형",
+        "방공",
+        "대드론",
+        "공통차체",
+        "센서 통합"
+      ],
+      "exhibitions": [
+        {
+          "id": "dsei-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+          "note": "2025년 9월 9일 제조사 발표가 S9-110 부스 최초 전시를 명시. 실운용 배치 완료와는 구분."
+        }
+      ],
+      "specs": [
+        {
+          "label": "기반 차체",
+          "value": "Lynx KF41 궤도형",
+          "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+          "note": "Skyranger 35 통합 형상"
+        },
+        {
+          "label": "주 체계 구경",
+          "value": "35 mm",
+          "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+          "note": "기본 식별 제원. 발사 성능과 교전 최적화 수치는 수록하지 않음"
+        },
+        {
+          "label": "센서 구성",
+          "value": "능동·수동 탐색 및 추적 센서",
+          "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+          "note": "제조사 공개 설명; 개별 센서 모델과 배치는 추가 확인"
+        }
+      ],
+      "highlights": [
+        "보병전투차 계열의 방공 역할 확장",
+        "센서·차체 통합 상태와 지원 공통성 검토가 중심",
+        "Skyranger 30의 수주 실적을 이 형상에 전용하지 않음"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "기존 차체의 역할 전환",
+          "fact": "제조사는 KF41 차체에 Skyranger 35를 결합했다고 발표했습니다.",
+          "interpretation": "사진 비교는 보병전투차의 승차공간이 방공형에서 어떻게 달라지는지 확인하는 데 초점을 둘 수 있습니다.",
+          "unknown": "방공형 내부 배치도와 운용자 좌석 수는 이 자료에서 확인되지 않습니다.",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "차체 계열과 완성차 제원을 분리",
+          "fact": "전시형은 궤도식 Lynx KF41을 기반으로 합니다.",
+          "interpretation": "기반 차체의 주행 경험은 참고하되 포탑·센서가 결합된 완성차의 중량과 주행 시험이 별도로 필요합니다.",
+          "unknown": "Skyranger형의 확정 중량·치수·출력 수치는 확보하지 못했습니다.",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "복수 센서와 작업부담",
+          "fact": "능동·수동 탐색 및 추적 센서의 통합이 공개되어 있습니다.",
+          "interpretation": "운용 편의성은 센서 개수보다 표시 화면과 경보 관리의 사용성 자료로 평가해야 합니다.",
+          "unknown": "실내 조작계, 작업 분담, 피로도 평가 자료는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "계열 보호구조의 적용 한계",
+          "fact": "제조사는 Lynx 계열의 보호구조를 방공형 설명에 포함합니다.",
+          "interpretation": "기반 차체의 방호 개념과 상부 임무장비의 보호 범위를 구분해 기록하는 것이 타당합니다.",
+          "unknown": "방공형 전체의 인증 방호등급은 이 공개자료에 제시되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "센서 통합과 향후 옵션",
+          "fact": "제조사는 통합 센서를 설명하고 유도탄 추가는 향후 가능성으로 표현합니다.",
+          "interpretation": "현재 전시 구성과 향후 통합 구상을 분리해야 완성도를 과대평가하지 않습니다.",
+          "unknown": "외부 지휘체계 인터페이스의 인증 상태와 향후 옵션 일정은 미확인입니다.",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "Lynx 계열 공통성",
+          "fact": "제조사는 플랫폼 호환성에 기반한 지원 효율을 제시합니다.",
+          "interpretation": "차체 부품 공통화의 가능성과 방공 센서·포탑의 별도 정비 부담을 함께 검토해야 합니다.",
+          "unknown": "공통 부품 비율과 전용 정비 인력 규모는 공개 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "최초 공개와 양산 실적 구분",
+          "fact": "DSEI 2025는 이 결합 형상의 최초 공개로 명시됩니다.",
+          "interpretation": "다른 차체에 탑재한 Skyranger의 계약을 이 차량의 납품 실적으로 합산해서는 안 됩니다.",
+          "unknown": "전시 당시 이 형상의 양산 승인·납품 실적은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "2023",
+          "to": "2025",
+          "title": "Skyranger 임무모듈에서 Lynx 결합형 공개",
+          "detail": "Rheinmetall의 2023 DSEI 발표는 Skyranger 방공 임무모듈을, 2025년은 Lynx KF41 Skyranger 35의 최초 공개를 명시합니다. 방공 체계의 플랫폼 적용 확대를 보여주지만 동일 차체의 개량 전후 비교는 아닙니다.",
+          "status": "verified",
+          "sourceUrls": [
+            "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/2023-09-06-Rheinmetall-at-DSEI-2023.pdf",
+            "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lynx Skyranger 35 DSEI 최초 공개·사진",
+          "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-lynx-skyranger-35-at-dsei-2025",
+          "publisher": "Rheinmetall",
+          "kind": "manufacturer",
+          "date": "2025-09-09",
+          "supports": "차체, 센서 통합, 전시상태, 향후 옵션 구분"
+        },
+        {
+          "title": "DSEI 2025 전체 출품 발표",
+          "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-03-rheinmetall-at-dsei-2025",
+          "publisher": "Rheinmetall",
+          "kind": "manufacturer",
+          "date": "2025-09-03",
+          "supports": "별도 출품 공지로 전시 재확인"
+        },
+        {
+          "title": "DSEI 2023 출품 발표",
+          "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/2023-09-06-Rheinmetall-at-DSEI-2023.pdf",
+          "publisher": "Rheinmetall",
+          "kind": "manufacturer",
+          "date": "2023-09-06",
+          "supports": "직전 회차 방공 모듈 출품"
+        },
+        {
+          "title": "Lynx 계열 공식 제품·사진",
+          "url": "https://www.rheinmetall.com/en/products/tracked-armoured-vehicles/lynx-infantry-fighting-vehicle",
+          "publisher": "Rheinmetall",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "차체 계열 및 사진 탐색; 다른 형상 사진과 구분"
+        }
+      ],
+      "photoSearchTerms": [
+        "Rheinmetall Lynx Skyranger 35 DSEI 2025 front side rear",
+        "Lynx KF41 Skyranger 35 official Rheinmetall gallery"
+      ],
+      "researchStatus": "reviewed",
+      "limitations": [
+        "KF41 보병전투차의 일반 중량·승무원 수를 방공 전시형의 제원으로 옮기지 않았습니다.",
+        "제조사의 성능 표현은 독립 시험 결과가 아니며, 우열 점수로 환산하지 않았습니다.",
+        "공식 사진 링크는 제공하지만 각도별 이미지의 재사용 허가는 별도 확인 대상입니다."
+      ]
+    },
+    {
+      "id": "leopard-2a8",
+      "name": "LEOPARD 2 A8",
+      "manufacturer": "KNDS Deutschland",
+      "country": "독일",
+      "category": "전차",
+      "description": "신조 생산과 TROPHY 능동방호체계 통합을 특징으로 하는 LEOPARD 2 계열 기준 형상. Eurosatory 2026 BDSV 출품기업 제품 목록에서 확인되지만 개별 실물 전시는 추가 검증 대상입니다.",
+      "tags": [
+        "신조 생산",
+        "능동방호",
+        "국가별 형상",
+        "전시 확인 대기"
+      ],
+      "exhibitions": [
+        {
+          "id": "eurosatory-2026",
+          "status": "candidate",
+          "evidenceUrl": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+          "note": "KNDS 전시기업 프로필의 Product 1에 A8이 명시됨. 기업 제품 소개와 실제 부스 전시를 구분하기 위해 후보로 유지."
+        }
+      ],
+      "specs": [
+        {
+          "label": "차량 형식",
+          "value": "궤도형 주력전차",
+          "sourceUrl": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+          "note": "출품기업 제품 소개"
+        },
+        {
+          "label": "능동방호체계",
+          "value": "TROPHY",
+          "sourceUrl": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+          "note": "A8 기준 형상. 국가별 추가 요구는 별도"
+        },
+        {
+          "label": "생산 구분",
+          "value": "신조 생산",
+          "sourceUrl": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+          "note": "기존 전차 개조형 일반과 구분"
+        }
+      ],
+      "highlights": [
+        "A8·A8 NOR 등 고객별 형상 구분 필요",
+        "능동방호 통합과 공급망 관점의 비교 대상으로 적합",
+        "공식 브로슈어의 세대 혼재 가능성 때문에 중량 숫자는 보류"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "기준 형상과 고객 형상",
+          "fact": "KNDS는 A8 NOR가 독일 A8에 추가 기능을 갖는다고 설명합니다.",
+          "interpretation": "장비 사진은 국가·계약·연도를 태그로 연결해야 서로 다른 형상을 한 모델처럼 비교하지 않습니다.",
+          "unknown": "Eurosatory 2026 목록의 사진이 어떤 고객 사양인지 미확인입니다.",
+          "sourceUrls": [
+            "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+            "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "중량 수치의 버전 통제",
+          "fact": "확인한 공식 브로슈어는 A8 명칭 아래 이전 세대의 시험 이력도 함께 제시합니다.",
+          "interpretation": "한 수치를 최신 양산형으로 확정하기보다 문서 발행시점과 적용 형상을 먼저 검증해야 합니다.",
+          "unknown": "최신 고객별 확정 중량·치수·출력은 이번 데이터에서 보류합니다.",
+          "sourceUrls": [
+            "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "능동방호의 기준 형상 포함",
+          "fact": "KNDS와 EuroTrophy는 A8 기준 형상에 TROPHY 통합을 명시합니다.",
+          "interpretation": "별도 옵션 소개에서 기준 형상 구성품으로 이동한 점은 조달 및 정비 범위 분석에 의미가 있습니다.",
+          "unknown": "실제 보호효과의 운용 조건별 독립 시험 결과는 확보하지 않았습니다.",
+          "sourceUrls": [
+            "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+            "https://www.euro-trophy.de/news/trophy-aps-selected-as-the-baseline-aps-of-the-new-leopard-2-a8-mbtconfiguration-with-first-contracts-awarded-for-germany-and-norway/"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "국가별 통신체계 차이",
+          "fact": "A8 NOR에는 Kongsberg ICS/CORTEX가 추가된다고 KNDS가 설명합니다.",
+          "interpretation": "동일 A8 명칭이라도 통신·데이터체계가 다를 수 있어 상호운용성은 계약 형상 단위로 비교해야 합니다.",
+          "unknown": "독일형과 노르웨이형의 전체 인터페이스 차이는 미확인입니다.",
+          "sourceUrls": [
+            "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "계열 기반 지원체계",
+          "fact": "공식 브로슈어는 훈련·예비부품·형상관리 지원을 제품 지원 범위로 설명합니다.",
+          "interpretation": "넓은 계열 기반은 지원 체계의 근거지만 A8 전용 구성품의 조달성과 동일하지 않습니다.",
+          "unknown": "A8 전용 부품의 교체 주기·정비시간·실제 비용은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "공통 기준과 고객 추가 요구",
+          "fact": "A8 NOR의 사례는 공통 기준 위에 고객별 기능을 추가하는 구조를 보여줍니다.",
+          "interpretation": "모듈성을 즉시 교환 가능한 하드웨어로 단정하지 않고 국가별 통합·승인 범위로 분석해야 합니다.",
+          "unknown": "고객 사양 사이의 현장 교환 가능 범위는 미확인입니다.",
+          "sourceUrls": [
+            "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "제품 존재와 행사 출품을 분리",
+          "fact": "A8 명칭과 생산 기준은 공식 발표로 확인되며 2026 출품기업 제품 목록에도 등장합니다.",
+          "interpretation": "제품 실재성은 확인되지만 전시차 실물·목업 여부는 별도의 현장 근거가 있어야 합니다.",
+          "unknown": "Eurosatory 2026 실물 전시 여부와 정확한 전시 차량 식별은 보류합니다.",
+          "sourceUrls": [
+            "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+            "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "2024",
+          "to": "2026",
+          "title": "회차 간 A8 형상 변화는 판정 보류",
+          "detail": "2024 Eurosatory 경로의 공식 A8 브로슈어와 2026 기업 제품 목록은 찾았으나 동일 형상의 현장 사진과 변경 목록을 대조하지 못했습니다. 단순 목록 재등장을 기술 진전으로 표시하지 않습니다.",
+          "status": "insufficient",
+          "sourceUrls": [
+            "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/LEOPARD_2_A8/KNDS_B_Ansicht_LEOPARD2A8_EN.pdf",
+            "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Eurosatory 2026 KNDS 출품기업 제품 목록",
+          "url": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+          "publisher": "BDSV Exhibitions",
+          "kind": "organizer",
+          "date": null,
+          "supports": "A8 제품 목록 수록 및 제품 이미지; 실물 전시 미확정"
+        },
+        {
+          "title": "A8 기준 형상 공식 정의",
+          "url": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+          "publisher": "KNDS",
+          "kind": "manufacturer",
+          "date": "2023-06-13",
+          "supports": "신조, TROPHY, A8 NOR 추가 기능"
+        },
+        {
+          "title": "TROPHY의 A8 기준 적용 발표",
+          "url": "https://www.euro-trophy.de/news/trophy-aps-selected-as-the-baseline-aps-of-the-new-leopard-2-a8-mbtconfiguration-with-first-contracts-awarded-for-germany-and-norway/",
+          "publisher": "EuroTrophy",
+          "kind": "manufacturer",
+          "date": "2023-09-06",
+          "supports": "별도 제조사의 A8 통합 확인"
+        },
+        {
+          "title": "LEOPARD 2 A8 공식 브로슈어",
+          "url": "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf",
+          "publisher": "KNDS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "제품·지원 설명 및 여러 사진; 세대·형상 혼재 주의"
+        },
+        {
+          "title": "Eurosatory 2024 A8 브로슈어 경로",
+          "url": "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/LEOPARD_2_A8/KNDS_B_Ansicht_LEOPARD2A8_EN.pdf",
+          "publisher": "KNDS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "직전 회차 자료의 존재; 변경 검증 근거로는 부족"
+        }
+      ],
+      "photoSearchTerms": [
+        "KNDS LEOPARD 2 A8 Eurosatory 2026 official",
+        "LEOPARD 2 A8 NOR TROPHY official front side rear"
+      ],
+      "researchStatus": "partial",
+      "limitations": [
+        "실물 전시 확인 전까지 전시 장비 확정 집계에서 제외해야 합니다.",
+        "A-RC 3.0 및 ASCALON 탑재 개념차는 A8과 다른 형상입니다.",
+        "브로슈어 내 과거 시험 이력을 A8 자체의 해당 연도 시험 실적으로 사용하지 않았습니다.",
+        "신뢰할 수 있는 최신 형상별 수치 확인 전까지 중량·출력 등 숫자는 보류했습니다."
+      ]
+    },
+    {
+      "id": "rch155-tracked",
+      "name": "RCH 155 TRACKED",
+      "manufacturer": "KNDS Deutschland",
+      "country": "독일",
+      "category": "화력체계",
+      "description": "무인 AGM 포 모듈과 BOXER TRACKED 궤도 차체를 결합한 자주포 계열. Eurosatory 2026 출품기업 목록에는 수록되어 있으나 L52 표준형의 실물 전시 식별은 추가 확인이 필요합니다.",
+      "tags": [
+        "궤도형",
+        "무인 포 모듈",
+        "승무원 분리",
+        "형상 확인 대기"
+      ],
+      "exhibitions": [
+        {
+          "id": "eurosatory-2026",
+          "status": "candidate",
+          "evidenceUrl": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+          "note": "KNDS 출품기업 프로필 Product 2에 수록. 제품 페이지의 L52 사양과 2026 신형 장포신 시연 개념을 혼동하지 않도록 실물 확정 보류."
+        }
+      ],
+      "specs": [
+        {
+          "label": "전투중량",
+          "value": "45 t 미만",
+          "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+          "note": "공식 제품 페이지의 L52 표준형 설명"
+        },
+        {
+          "label": "길이 × 폭 × 높이",
+          "value": "10.60 × 3.45 × 3.5 m",
+          "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+          "note": "표준 제품 제원; 2026 실물 전시형 확정치 아님"
+        },
+        {
+          "label": "엔진 출력",
+          "value": "약 800–900 kW",
+          "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+          "note": "제조사 범위 표기 그대로"
+        },
+        {
+          "label": "도로 최고속도",
+          "value": "70 km/h",
+          "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+          "note": "공식 제품 설명; 독립 시험값 아님"
+        },
+        {
+          "label": "차체 내 운용자",
+          "value": "2명",
+          "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+          "note": "표준 제품 페이지 기준"
+        },
+        {
+          "label": "기본 포 모듈",
+          "value": "155 mm / L52",
+          "sourceUrl": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+          "note": "형상 식별용 기본 제원; 다른 장포신 개념과 구분"
+        }
+      ],
+      "highlights": [
+        "포 모듈과 승무원 공간 분리",
+        "차륜형 RCH 155의 계약을 궤도형 수주로 합산하지 않음",
+        "공식 다각도 갤러리 확보, 재사용 권한은 별도"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "무인 모듈과 승무원 공간",
+          "fact": "KNDS는 무인 AGM과 2인 운용 차체를 설명합니다.",
+          "interpretation": "승무원 공간과 임무 모듈을 분리한 배치가 작업환경·점검 동선에 주는 영향을 검토할 수 있습니다.",
+          "unknown": "실내 배치도와 비상 작업 절차의 공개 검증 자료는 확보하지 않았습니다.",
+          "sourceUrls": [
+            "https://knds.com/de/produkte/systeme/rch-155-tracked"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "궤도형 자체 제원 관리",
+          "fact": "공식 페이지는 BOXER TRACKED 기반과 중량·출력 범위를 명시합니다.",
+          "interpretation": "차륜형 RCH 155와는 이동·수송·정비 조건이 다르므로 별도 제품으로 비교해야 합니다.",
+          "unknown": "특정 고객 사양의 최종 전투중량과 장거리 내구성 시험 결과는 미확인입니다.",
+          "sourceUrls": [
+            "https://knds.com/de/produkte/systeme/rch-155-tracked"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "2인 운용의 실제 작업부담",
+          "fact": "기본 제품 설명은 차체의 운용자를 2명으로 제시합니다.",
+          "interpretation": "운용 인원 감소가 모든 유지·보급 업무의 인력 감소를 뜻하는지 별도 자료가 필요합니다.",
+          "unknown": "장시간 운용 피로도와 보조 인력 수요의 실측값은 미확인입니다.",
+          "sourceUrls": [
+            "https://knds.com/de/produkte/systeme/rch-155-tracked"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "운용자 보호와 무인 상부 모듈",
+          "fact": "제조사는 장갑 차체와 무인 AGM 구성을 설명합니다.",
+          "interpretation": "승무원 분리는 배치상의 특징이며 실제 보호 수준은 인증자료가 있어야 평가할 수 있습니다.",
+          "unknown": "조건별 보호등급과 검증 시험의 상세 결과는 확보하지 않았습니다.",
+          "sourceUrls": [
+            "https://knds.com/de/produkte/systeme/rch-155-tracked"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "완성차와 구성품의 성숙도",
+          "fact": "AGM과 BOXER TRACKED의 결합이 공식 제품 설명에 명시됩니다.",
+          "interpretation": "기존 구성품의 경험과 신규 차체 결합 이후의 완성차 검증 상태를 분리해야 합니다.",
+          "unknown": "완성차의 통합 인증 일정과 고객 승인 범위는 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://knds.com/de/produkte/systeme/rch-155-tracked"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "서로 다른 모듈의 지원 요구",
+          "fact": "제품 설명은 PzH 2000 및 BOXER 계열 기반 구성품을 언급합니다.",
+          "interpretation": "공통 구성품 활용은 부품·교육 측면에서 검토할 수 있지만 궤도형 전용 정비 부담도 따로 산정해야 합니다.",
+          "unknown": "완성차 공통부품 비율·정비 공수·가동률은 공개 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://knds.com/de/produkte/systeme/rch-155-tracked"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "카탈로그 수록과 실제 전시 구분",
+          "fact": "2026 BDSV 기업 프로필에는 RCH 155 TRACKED가 제품으로 수록됩니다.",
+          "interpretation": "목록과 갤러리만으로 양산·납품 또는 특정 전시형의 실물 공개를 확정할 수 없습니다.",
+          "unknown": "2026 현장 차량의 정확한 형상과 계약·인도 상태는 추가 확인이 필요합니다.",
+          "sourceUrls": [
+            "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+            "https://knds.com/de/produkte/systeme/rch-155-tracked"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "2024",
+          "to": "2026",
+          "title": "차륜형·궤도형을 동일 모델의 개선치로 계산하지 않음",
+          "detail": "2024 Eurosatory 자료 경로에는 차륜형 RCH 155 브로슈어가 있고 2026 목록에는 TRACKED가 등장합니다. 궤도형의 직전 회차 출품 근거를 확보하지 못했으므로 신규 등장이나 성능 증가로 단정하지 않습니다.",
+          "status": "insufficient",
+          "sourceUrls": [
+            "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/RCH_155/KNDS_B_Ansicht_RCH155_EN.pdf",
+            "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Eurosatory 2026 KNDS 출품기업 제품 목록",
+          "url": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+          "publisher": "BDSV Exhibitions",
+          "kind": "organizer",
+          "date": null,
+          "supports": "TRACKED 제품 수록; 개별 실물 전시 미확정"
+        },
+        {
+          "title": "RCH 155 TRACKED 공식 제품·다각도 갤러리",
+          "url": "https://knds.com/de/produkte/systeme/rch-155-tracked",
+          "publisher": "KNDS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "L52 표준형 기본 제원·사진·차체 구성"
+        },
+        {
+          "title": "Eurosatory 2024 RCH 155 자료",
+          "url": "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/RCH_155/KNDS_B_Ansicht_RCH155_EN.pdf",
+          "publisher": "KNDS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "차륜형 참고 자료; 궤도형과 혼용 금지"
+        }
+      ],
+      "photoSearchTerms": [
+        "KNDS RCH 155 TRACKED official gallery front side rear",
+        "RCH 155 TRACKED Eurosatory 2026 L52 LORAS variant"
+      ],
+      "researchStatus": "partial",
+      "limitations": [
+        "실물 전시 근거 확보 전까지 전시 장비 확정 집계에서 제외해야 합니다.",
+        "공식 제품 페이지의 L52 사양을 LORAS 등 다른 포신 형상에 전용하지 않았습니다.",
+        "차륜형 RCH 155의 영국 계약·인도 자료는 이 궤도형의 양산 실적으로 반영하지 않았습니다.",
+        "제조사 제원을 독립 검증 성능으로 평가하지 않았으며 상세 운용·교전 분석은 포함하지 않았습니다."
+      ]
+    },
+    {
+      "id": "k2pl",
+      "name": "K2PL",
+      "manufacturer": "현대로템",
+      "country": "대한민국",
+      "category": "전차",
+      "description": "폴란드 요구를 반영한 K2 계열의 국가 맞춤 형상. ADEX 2025에서 실물 첫 공개가 확인되지만 전시형과 최종 납품형의 동일성은 확인되지 않았습니다.",
+      "tags": [
+        "국가 맞춤형",
+        "보호체계 통합",
+        "실물 전시"
+      ],
+      "exhibitions": [
+        {
+          "id": "adex-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "note": "제조사가 K2PL 실물 첫 공개를 명시. 양산 납품형 확정과는 구분."
+        }
+      ],
+      "specs": [
+        {
+          "label": "형상",
+          "value": "폴란드 맞춤 K2 계열",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "note": "기본형 K2의 제원을 그대로 적용하지 않음"
+        },
+        {
+          "label": "추가 체계",
+          "value": "능동방호·드론재머·원격무장장치",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "note": "구성 공개이며 성능 입증을 의미하지 않음"
+        },
+        {
+          "label": "기본형 K2 참고 중량",
+          "value": "56 t",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8",
+          "note": "2026-11-10 현행 제조사 표기; K2PL 전시형 값 아님"
+        },
+        {
+          "label": "기본형 K2 참고 출력",
+          "value": "1,500 hp",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8",
+          "note": "디젤 엔진. K2PL 전시형 적용·성능 보증값 아님"
+        },
+        {
+          "label": "기본형 K2 참고 최고속도",
+          "value": "70 km/h (포장)",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8",
+          "note": "기본형 참고값. K2PL 형상의 시험 조건 미확인"
+        },
+        {
+          "label": "중량·출력·치수",
+          "value": "K2PL 전시형 확정 수치 미확인",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "note": "근거 없는 기본형 수치 전용을 방지"
+        }
+      ],
+      "highlights": [
+        "2023 수출 콘셉트에서 2025 폴란드 맞춤 실물로 전시 메시지가 구체화",
+        "장비 추가에 따른 정비·교육 부담을 함께 검토",
+        "전시와 인수시험·전력화는 별도 지표"
+      ],
+      "analysis": [
+        {
+          "criterion": "integration",
+          "title": "추가 장비의 통합 범위",
+          "fact": "제조사는 복수의 보호·원격 운용 장비 추가를 발표했습니다.",
+          "interpretation": "검토 단위를 개별 장비 목록에서 차량 전체의 운용·정비 체계로 넓힐 필요가 있습니다.",
+          "unknown": "전력 소요, 고장 진단 연계, 통합 시험 결과는 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "장착 사실과 보호 성능의 구분",
+          "fact": "특수장갑과 능동방호 체계가 전시 구성으로 언급됩니다.",
+          "interpretation": "사진과 장비 명칭으로 확인할 수 있는 것은 구성입니다. 종합 보호 성능 점수는 별도 시험 근거가 있어야 합니다.",
+          "unknown": "공인 시험 조건과 등급은 공개자료에서 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "승무원 업무 부담",
+          "fact": "원격무장장치와 추가 전자장비를 포함하는 형상입니다.",
+          "interpretation": "조작계가 늘어나는 만큼 화면 통합 여부와 교육 부담을 검토 항목으로 두는 것이 타당합니다.",
+          "unknown": "실내 배치, 사용자 평가, 교육 시간은 미확인입니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "기동 수치의 형상별 관리",
+          "fact": "이번 전시 보도자료에는 K2PL의 확정 중량과 동력 제원이 없습니다.",
+          "interpretation": "기본형의 기동 수치를 붙이면 추가 장비의 영향을 숨기게 됩니다. 동일 형상의 시험 조건을 확보한 뒤 비교해야 합니다.",
+          "unknown": "전시형과 납품형의 중량·주행 성능 차이는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "현지 생산과 수명주기 지원",
+          "fact": "폴란드 정부는 2025년 계약에서 K2PL 물량을 별도로 구분했습니다.",
+          "interpretation": "국가 맞춤형은 부품·문서·교육의 형상 관리가 중요한 평가 대상입니다. 계약 존재만으로 현지 정비 준비도를 높게 평가할 수는 없습니다.",
+          "unknown": "정비 단계별 수행 주체, 가동률, 부품 대기시간은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "수출 콘셉트에서 고객 형상으로",
+          "fact": "2023년에는 K2EX, 2025년에는 K2PL을 제시했습니다.",
+          "interpretation": "수출형 전시의 중심이 범용 개량 제안에서 특정 고객 구성으로 구체화된 것으로 해석할 수 있습니다.",
+          "unknown": "K2EX와 K2PL 간 공통부품 비율과 직접적인 설계 계승은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "실물 공개와 납품 성숙도",
+          "fact": "제조사의 실물 공개 발표와 정부의 K2PL 계약 발표가 각각 확인됩니다.",
+          "interpretation": "실물 전시와 계약은 별개의 진척 증거입니다. 운용 검증까지 완료했다는 근거로 합산하지 않아야 합니다.",
+          "unknown": "전시차의 시험 상태, 최종 인증, 고객 인수 여부는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+            "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "2023",
+          "to": "2025",
+          "title": "K2EX 수출 콘셉트에서 K2PL 실물로",
+          "detail": "2023 공식 자료의 K2EX 성능개량 콘셉트와 2025 자료의 K2PL 실물 공개를 비교한 전시 메시지 변화입니다. 동일 차체의 연속 개량이나 성능 증가량을 입증하는 비교는 아닙니다.",
+          "status": "verified",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "현대로템, ADEX서 종합 방산 기업 비전 제시",
+          "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "publisher": "현대로템",
+          "kind": "manufacturer",
+          "date": "2025-10-20",
+          "supports": "K2PL 실물 첫 공개, 페루형 장갑차 및 계열차량 전시"
+        },
+        {
+          "title": "현대로템, 미래 지상무기체계 비전 제시",
+          "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+          "publisher": "현대로템",
+          "kind": "manufacturer",
+          "date": "2023-10-17",
+          "supports": "ADEX 2023 K2EX 콘셉트 및 30t급 장갑차 전시"
+        },
+        {
+          "title": "Umowa podpisana: 180 czołgów K2",
+          "url": "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii",
+          "publisher": "폴란드 국방부",
+          "kind": "government",
+          "date": "2025-08-01",
+          "supports": "K2GF와 K2PL을 구분한 2차 이행계약"
+        },
+        {
+          "title": "K2 전차 제품 정보",
+          "url": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8",
+          "publisher": "현대로템",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "기본형 참고 중량·출력·포장도로 속도. K2PL 전시형 수치 아님"
+        }
+      ],
+      "photoSearchTerms": [
+        "K2PL Seoul ADEX 2025 front side rear",
+        "현대로템 K2PL ADEX 2025 실물"
+      ],
+      "researchStatus": "partial",
+      "limitations": [
+        "기본형 K2 사진을 K2PL 실물 사진으로 표시하면 안 됩니다.",
+        "K2PL 전시형 정량제원과 내부 사진은 추가 확인이 필요합니다.",
+        "기본형 K2의 현행 제조사 중량은 56t입니다. 다른 시점 자료의 55t와 혼합하지 않았으며 K2PL의 중량으로 사용하지 않았습니다."
+      ]
+    },
+    {
+      "id": "k808-peru",
+      "name": "페루형 차륜장갑차 · K808 계열",
+      "manufacturer": "현대로템",
+      "country": "대한민국",
+      "category": "장갑차",
+      "description": "ADEX 2025에서 하부 보호를 강화한 페루형 장갑차를 소개했습니다. K808 기본형의 수치와 수출형 전시차의 확정 제원을 구분해 기록합니다.",
+      "tags": [
+        "차륜형",
+        "수출 맞춤",
+        "계열화"
+      ],
+      "exhibitions": [
+        {
+          "id": "adex-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "note": "제조사가 페루형 차륜장갑차 전시를 명시. 별도 2024 제조사 자료로 K808 기반임을 확인. 실물·모형 구분은 추가 확인 필요."
+        }
+      ],
+      "specs": [
+        {
+          "label": "차량 구성",
+          "value": "차륜형 장갑차",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "note": "행사 자료의 표기"
+        },
+        {
+          "label": "개량 초점",
+          "value": "하부 보호 강화",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "note": "정량 보호 등급 미공개"
+        },
+        {
+          "label": "기본형 참고 중량",
+          "value": "20 t",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+          "note": "현행 K808 제품 페이지 값; 페루형 제원 아님"
+        },
+        {
+          "label": "기본형 참고 최고속도",
+          "value": "100 km/h",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+          "note": "K808 제품 페이지 값; 페루형 보증값 아님"
+        },
+        {
+          "label": "기본형 참고 엔진",
+          "value": "420 hp",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+          "note": "HMC 엔진. 페루형 적용 여부 미확인"
+        },
+        {
+          "label": "기본형 참고 현가",
+          "value": "유기압",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+          "note": "전시차의 세부 구성 동일성은 미확인"
+        }
+      ],
+      "highlights": [
+        "하부 보호 중심의 고객 맞춤 요구",
+        "지휘·의무 차량과 함께 제시된 계열화",
+        "기본형 제원은 참고값으로만 노출"
+      ],
+      "analysis": [
+        {
+          "criterion": "protection",
+          "title": "하부 보호의 정성적 변화",
+          "fact": "페루형의 하부 보호 강화가 명시돼 있습니다.",
+          "interpretation": "같은 계열이어도 고객별 요구가 구조와 중량에 영향을 줄 수 있음을 보여 줍니다. 보호 등급의 우열은 단정할 수 없습니다.",
+          "unknown": "시험 기준·등급·차내 충격 평가 결과는 미공개입니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "기본형 수치와 수출형 구분",
+          "fact": "현행 K808 페이지에는 20t·100km/h·420hp가 제시돼 있습니다.",
+          "interpretation": "대략적인 계열 규모를 이해하는 참고값입니다. 수출형의 보호 구성과 시험 조건을 확인하기 전 직접 비교표의 확정값으로 사용하면 안 됩니다.",
+          "unknown": "페루형의 실제 중량, 주행 및 수상 운용 조건은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "장갑차 계열화의 의미",
+          "fact": "같은 전시에서 지휘소차량·의무후송차량도 소개했습니다.",
+          "interpretation": "전차와 별개로 수송·지원 기능을 공통 계열로 제시하는 흐름을 읽을 수 있습니다. 부품 공통화의 효과는 아직 추정입니다.",
+          "unknown": "형상별 공통부품 비율과 전환 가능 범위는 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "탑승 공간의 근거 공백",
+          "fact": "페루형 공개 보도자료는 내부 좌석·출입구 치수를 제공하지 않습니다.",
+          "interpretation": "외부 보호 변화만으로 탑승 편의가 향상됐다고 평가할 수 없습니다. 내부 사진과 인원 구성 자료가 필요한 영역입니다.",
+          "unknown": "좌석 배치, 승하차 평가, 실내 온열·소음 자료가 없습니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "기본형 장치의 정비 관점",
+          "fact": "K808 기본형에는 공기압 조절장치와 자력 구난 윈치가 안내돼 있습니다.",
+          "interpretation": "현장 지원 기능의 존재와 실제 정비 용이성은 다른 문제입니다. 수출형 자료에는 지원 장치 적용 여부와 부품 체계를 별도로 확인해야 합니다.",
+          "unknown": "페루형의 장치 구성, 현지 정비 범위와 부품 조달 조건은 미확인입니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "30t급과 페루형의 혼동 방지",
+          "fact": "2025 전시 소개에는 페루형과 30t급 장갑차가 별개 항목으로 등장합니다.",
+          "interpretation": "같은 부스 사진이나 기사에 함께 등장한다는 이유로 하나의 장비 제원을 합치면 안 됩니다. 형상별 기록이 필요합니다.",
+          "unknown": "명패와 차대 번호 수준의 사진 대조는 아직 수행하지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "전시 확인과 고객 인수의 분리",
+          "fact": "페루형의 행사 전시는 확인됩니다.",
+          "interpretation": "전시 존재를 제품 형상 확인의 근거로 사용하되, 현지 시험이나 인수 완료로 표시하지 않습니다.",
+          "unknown": "최종 납품 구성 및 해당 전시차와의 동일성은 추가 근거가 필요합니다.",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "2023",
+          "to": "2025",
+          "title": "장갑차 전시의 고객 맞춤·지원형 강조",
+          "detail": "2023년 30t급 장갑차 실물, 2025년 페루형 및 지원 계열 전시를 비교할 수 있습니다. 동일 K808 형상의 회차별 변화 증거가 부족하여 성능 추세로 확정하지 않습니다.",
+          "status": "insufficient",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "현대로템, ADEX서 종합 방산 기업 비전 제시",
+          "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "publisher": "현대로템",
+          "kind": "manufacturer",
+          "date": "2025-10-20",
+          "supports": "K2PL 실물 첫 공개, 페루형 장갑차 및 계열차량 전시"
+        },
+        {
+          "title": "현대로템, 미래 지상무기체계 비전 제시",
+          "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+          "publisher": "현대로템",
+          "kind": "manufacturer",
+          "date": "2023-10-17",
+          "supports": "ADEX 2023 K2EX 콘셉트 및 30t급 장갑차 전시"
+        },
+        {
+          "title": "K808/K806 Wheeled Armored Vehicle",
+          "url": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0204",
+          "publisher": "현대로템",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "현행 K808 기본형 참고 제원"
+        },
+        {
+          "title": "K808/K806 차륜형장갑차",
+          "url": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K808%2FK806+%EC%B0%A8%EB%A5%9C%ED%98%95%EC%9E%A5%EA%B0%91%EC%B0%A8",
+          "publisher": "현대로템",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "국문 제품 페이지와 기본형 제원 교차 확인"
+        },
+        {
+          "title": "현대로템 KADEX 2024 전시 소개",
+          "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2358",
+          "publisher": "현대로템",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "페루형 차륜장갑차가 K808 기반임을 확인; ADEX 전시 증거와 구분"
+        },
+        {
+          "title": "차륜형장갑차 제원 및 성능",
+          "url": "https://kookbang.dema.mil.kr/newsWeb/20190513/1/ATCE_CTGR_0080010003/view.do",
+          "publisher": "국방일보",
+          "kind": "government",
+          "date": "2019-05-13",
+          "supports": "이전 기본형 제원과 현행 제조사 제원의 차이 확인"
+        }
+      ],
+      "photoSearchTerms": [
+        "K808 Peru ADEX 2025 side rear",
+        "페루형 차륜형장갑차 ADEX 2025"
+      ],
+      "researchStatus": "partial",
+      "limitations": [
+        "2019년 정부 기사와 현행 제조사 페이지의 기본형 중량 표기가 다릅니다. 형상·시점이 다른 수치를 평균내지 않았습니다.",
+        "기본형 사진은 참고 이미지이며 페루형 전시 사진을 대신하지 않습니다."
+      ]
+    },
+    {
+      "id": "k9a3",
+      "name": "K9A3 · 발전 로드맵",
+      "manufacturer": "한화에어로스페이스",
+      "country": "대한민국",
+      "category": "화력체계",
+      "description": "K9 계열의 유·무인 복합 운용 발전 방향을 제시한 전시 항목입니다. 공개 기능 설명을 기록하며 최종 양산형의 확정 제원으로 취급하지 않습니다.",
+      "tags": [
+        "유무인 복합",
+        "원격 운용",
+        "개발 로드맵"
+      ],
+      "exhibitions": [
+        {
+          "id": "adex-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "note": "K9A3 관련 전시 확인. 공식 사전자료·현장 후속자료를 대조했으며 실물 완성품 전시로 단정하지 않음."
+        }
+      ],
+      "specs": [
+        {
+          "label": "기반 계열",
+          "value": "K9 자주포",
+          "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "note": "K9A1·A2의 수치를 K9A3에 전용하지 않음"
+        },
+        {
+          "label": "공개 운용 개념",
+          "value": "유·무인 복합 운용",
+          "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "note": "개발·전시 개념"
+        },
+        {
+          "label": "주행 기능 소개",
+          "value": "원격·자율주행 및 선도차량 추종",
+          "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "note": "실운용 검증 수준은 미확인"
+        },
+        {
+          "label": "중량·인원·지속운용",
+          "value": "전시형 확정값 미확인",
+          "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "note": "로드맵과 완성형 제원을 구분"
+        },
+        {
+          "label": "기본형 K9 참고 출력",
+          "value": "1,000 hp",
+          "sourceUrl": "https://hanwha-aerospace.eu/portfolio/k9-sph/",
+          "note": "디젤 엔진. K9A3 전시형의 확정 출력 아님"
+        },
+        {
+          "label": "공개 개발 목표 사거리",
+          "value": "80 km 초과",
+          "sourceUrl": "https://hanwha-aerospace.eu/adex-2025-2/",
+          "note": "제조사 ADEX 소개의 개발 방향·목표. 검증된 운용 제원이나 최종 납품 성능으로 취급하지 않음"
+        }
+      ],
+      "highlights": [
+        "기존 플랫폼의 운용 방식 변화가 중심",
+        "자동화 홍보와 검증된 자율성 범위 구분",
+        "운용 인원 감소와 총 지원 인력은 별도 평가"
+      ],
+      "analysis": [
+        {
+          "criterion": "integration",
+          "title": "단일 차량에서 복합 운용으로",
+          "fact": "한화는 K9A3를 유·무인 복합 방향으로 설명합니다.",
+          "interpretation": "차량 제원뿐 아니라 운용자·지휘·지원 장치의 관계를 평가해야 제품 구상을 이해할 수 있습니다.",
+          "unknown": "다른 체계와의 검증된 인터페이스 범위는 공개되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "자동 주행 설명의 범위",
+          "fact": "공식 소개에는 원격·자율주행과 선도차량 추종 기능이 포함됩니다.",
+          "interpretation": "이는 공개된 기능 목표입니다. 복잡한 환경에서의 안정성이나 모든 조건에서의 자율성을 뜻하지 않습니다.",
+          "unknown": "시험 환경, 개입 빈도와 주행 검증 결과는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "인원 수보다 업무의 이동",
+          "fact": "유인·무인 협업이 전시의 중심 설명입니다.",
+          "interpretation": "차내 업무가 원격 운용·감시·정비로 이동할 수 있습니다. 승무원 수 하나로 전체 인력 절감 효과를 계산하기 어렵습니다.",
+          "unknown": "운용자 대 차량 수, 교대 방식과 교육 부담은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "자동화와 정비 요구",
+          "fact": "기존 K9 계열의 자동화 확대를 제시합니다.",
+          "interpretation": "기계 정비 외에 센서·소프트웨어 점검이 중요해질 수 있습니다. 기존 계열의 정비 실적을 신규 기능의 성숙도로 간주할 수 없습니다.",
+          "unknown": "고장 진단, 소프트웨어 갱신, 정비 시간에 관한 실측 자료는 없습니다.",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "로드맵의 단계 구분",
+          "fact": "제조사의 공식 채널은 K9A3의 발전 방향을 전시했다고 설명합니다.",
+          "interpretation": "전시 구현, 시제품 시험, 인증, 납품을 분리해 관리해야 개발 일정이 실제보다 앞서 보이지 않습니다.",
+          "unknown": "최종 형상과 단계별 완료 여부를 확인할 자료가 부족합니다.",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+            "https://hanwha-aerospace.eu/adex-2025-2/"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "인적 노출 감소는 조건부 해석",
+          "fact": "원격 운용을 포함하는 구성입니다.",
+          "interpretation": "일부 작업의 원격화는 차량 내부의 인적 노출을 줄일 여지가 있습니다. 전체 임무의 인명 위험 감소량을 수치로 제시할 근거는 없습니다.",
+          "unknown": "지원 인력의 위치·작업 조건과 안전 검증은 미확인입니다.",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "계열 연속성과 공통화의 구분",
+          "fact": "K9 계열의 차세대 모델로 소개됩니다.",
+          "interpretation": "계열 명칭의 연속성은 기존 군수체계 활용 가능성을 검토할 출발점입니다. 실제 부품 공통화 비율을 보증하지는 않습니다.",
+          "unknown": "기존 차량 개조 가능 범위와 부품 호환성은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "2023",
+          "to": "2025",
+          "title": "직전 회차와의 정량 추세 보류",
+          "detail": "2025년 유·무인 복합 발전 방향은 확인했습니다. 이번 조사에서 2023년 동일 형상·동일 기능의 1차 자료를 충분히 확보하지 못해 자동화 수준이 얼마나 증가했는지 평가하지 않습니다.",
+          "status": "insufficient",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hanwha to Showcase Next-Generation AI and Unmanned Systems at ADEX 2025",
+          "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "publisher": "한화에어로스페이스",
+          "kind": "manufacturer",
+          "date": "2025-10-16",
+          "supports": "THeMIS-K 첫 공개와 K9A3 발전 방향"
+        },
+        {
+          "title": "ADEX 2025",
+          "url": "https://hanwha-aerospace.eu/adex-2025-2/",
+          "publisher": "Hanwha Aerospace Europe",
+          "kind": "manufacturer",
+          "date": "2025-10-22",
+          "supports": "K9A3와 THeMIS-K 전시 재확인; 행사 날짜 문구는 타 공식자료와 달라 사용하지 않음"
+        },
+        {
+          "title": "K9 SPH 제품 정보",
+          "url": "https://hanwha-aerospace.eu/portfolio/k9-sph/",
+          "publisher": "Hanwha Aerospace Europe",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "기본형 K9 참고 동력 및 현가. K9A3 제원으로 전용하지 않음"
+        }
+      ],
+      "photoSearchTerms": [
+        "K9A3 ADEX 2025 roadmap model",
+        "한화 K9A3 서울 ADEX 2025 K9 솔루션존"
+      ],
+      "researchStatus": "partial",
+      "limitations": [
+        "K9A1·K9A2 사진은 계열 참고용입니다. K9A3 전시형으로 표시하면 안 됩니다.",
+        "제조사 유럽법인 글의 행사 날짜 표기는 한국 공식자료와 달라 행사 일정 근거에서 제외했습니다.",
+        "사거리는 제조사가 공개한 개발 방향·목표로 별도 표기했으며, 다른 장비의 검증된 제원과 동등 비교하지 않습니다."
+      ]
+    },
+    {
+      "id": "themis-k",
+      "name": "THeMIS-K",
+      "manufacturer": "한화에어로스페이스 · Milrem Robotics",
+      "country": "대한민국·에스토니아",
+      "category": "무인지상체계",
+      "description": "Milrem의 궤도형 THeMIS 플랫폼과 한화의 원격무장장치를 결합한 한국형 전시 구성입니다. 기반 플랫폼의 현행 카탈로그는 별도 참고값으로 제공합니다.",
+      "tags": [
+        "궤도형 UGV",
+        "국제 협업",
+        "모듈형 플랫폼"
+      ],
+      "exhibitions": [
+        {
+          "id": "adex-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194",
+          "note": "한화의 2025-10-22 현장 소개에서 THeMIS-K 전시를 확인. 행사 사전자료와 상호 대조."
+        }
+      ],
+      "specs": [
+        {
+          "label": "구성",
+          "value": "THeMIS 플랫폼 + 한화 RCWS",
+          "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "note": "한국형 통합 구성"
+        },
+        {
+          "label": "기반 플랫폼 참고 최고속도",
+          "value": "20 km/h",
+          "sourceUrl": "https://milremrobotics.com/themis-family/",
+          "note": "현행 THeMIS 계열 값; 2025 한국형 보증값 아님"
+        },
+        {
+          "label": "기반 플랫폼 참고 정격적재량",
+          "value": "750 kg",
+          "sourceUrl": "https://milremrobotics.com/themis-family/",
+          "note": "임무장비 포함 조건과 한국형 적용값 미확인"
+        },
+        {
+          "label": "기반 플랫폼 참고 추진",
+          "value": "디젤 엔진·발전기와 배터리",
+          "sourceUrl": "https://milremrobotics.com/themis-family/",
+          "note": "기반 플랫폼의 하이브리드 구성"
+        },
+        {
+          "label": "한국형 중량·크기",
+          "value": "확정값 미확인",
+          "sourceUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "note": "시점별 기반 플랫폼 중량 표기가 달라 이전 자료와 혼용하지 않음"
+        }
+      ],
+      "highlights": [
+        "검증된 기반체계와 신규 통합 형상의 성숙도 분리",
+        "플랫폼 공통화와 탑재체 교체의 구분",
+        "원격 운용에서 사람의 감독·교육 항목을 별도 관리"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "플랫폼과 임무장비의 구분",
+          "fact": "기존 THeMIS 위에 한화 RCWS를 결합했습니다.",
+          "interpretation": "차량 전체를 하나의 고정 제품으로 보기보다 이동 플랫폼과 임무장비의 통합 사례로 기록하는 편이 적절합니다.",
+          "unknown": "한국형의 최종 외형·탑재 구성은 추가 확인이 필요합니다.",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "기반 플랫폼 수치의 사용 제한",
+          "fact": "현행 THeMIS 자료의 최고속도는 20km/h입니다.",
+          "interpretation": "한국형의 이동 규모를 이해하는 참고값이지만 탑재장비·환경에 따라 검증 조건이 달라질 수 있습니다.",
+          "unknown": "한국형 시험 중량과 주행 조건은 미확인입니다.",
+          "sourceUrls": [
+            "https://milremrobotics.com/themis-family/",
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "서로 다른 공급사의 책임 범위",
+          "fact": "한화 장비와 Milrem 플랫폼을 결합한 것으로 발표됐습니다.",
+          "interpretation": "통합 결함의 원인 추적과 공급사별 지원 경계를 문서로 관리하는 것이 검토의 핵심입니다.",
+          "unknown": "통합 인증·지원 계약·소프트웨어 책임 분담은 공개되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "기반 설계의 모듈성",
+          "fact": "Milrem은 THeMIS를 여러 임무에 맞추는 모듈형 플랫폼으로 설명합니다.",
+          "interpretation": "한국형에서도 계열 확장 가능성을 검토할 수 있으나 모든 탑재체를 현장에서 바로 바꿀 수 있다는 뜻은 아닙니다.",
+          "unknown": "교체 시간, 표준 인터페이스와 한국형 호환 목록은 미확인입니다.",
+          "sourceUrls": [
+            "https://milremrobotics.com/themis-family/"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "하이브리드 계통의 지원",
+          "fact": "기반 플랫폼은 디젤 발전과 배터리를 사용합니다.",
+          "interpretation": "지원 검토는 연료 보급과 배터리 관리, 궤도계통 점검을 함께 다뤄야 합니다. 실제 정비 부담의 증감은 운용 데이터가 필요합니다.",
+          "unknown": "한국형 배터리 규격, 정비 주기, 현지 부품 공급은 미확인입니다.",
+          "sourceUrls": [
+            "https://milremrobotics.com/themis-family/"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "무인화와 감독 업무",
+          "fact": "전시는 무인지상차량과 유·무인 협업을 주제로 구성됐습니다.",
+          "interpretation": "탑승자가 없더라도 원격 운용자의 상황 인지와 교육 부담이 남습니다. 플랫폼 수만으로 인력 효율을 평가하지 않습니다.",
+          "unknown": "조작 화면, 사용자 시험, 감독 부담의 정량 자료는 없습니다.",
+          "sourceUrls": [
+            "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194",
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "기반 운용 실적의 전이 한계",
+          "fact": "기반 THeMIS와 한국형 통합 구성은 서로 다른 형상입니다.",
+          "interpretation": "기반 플랫폼의 기존 실적은 참고할 수 있지만 새 탑재체를 포함한 전체 차량의 검증 완료를 뜻하지 않습니다.",
+          "unknown": "한국형 인수·환경·신뢰성 시험과 최종 운용 요건은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://milremrobotics.com/themis-family/",
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "2023",
+          "to": "2025",
+          "title": "한국형 통합 구성 첫 공개",
+          "detail": "제조사는 2025년 THeMIS-K 첫 공개를 발표했습니다. 2023년 ADEX의 동일 한국형 자료가 없어 형상 변화율이나 성능 증가 추세는 계산하지 않습니다.",
+          "status": "insufficient",
+          "sourceUrls": [
+            "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hanwha to Showcase Next-Generation AI and Unmanned Systems at ADEX 2025",
+          "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "publisher": "한화에어로스페이스",
+          "kind": "manufacturer",
+          "date": "2025-10-16",
+          "supports": "THeMIS-K 첫 공개와 K9A3 발전 방향"
+        },
+        {
+          "title": "ADEX 2025",
+          "url": "https://hanwha-aerospace.eu/adex-2025-2/",
+          "publisher": "Hanwha Aerospace Europe",
+          "kind": "manufacturer",
+          "date": "2025-10-22",
+          "supports": "K9A3와 THeMIS-K 전시 재확인; 행사 날짜 문구는 타 공식자료와 달라 사용하지 않음"
+        },
+        {
+          "title": "ADEX 2025, 한화 AI Defense for Tomorrow 2부",
+          "url": "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194",
+          "publisher": "한화그룹",
+          "kind": "manufacturer",
+          "date": "2025-10-22",
+          "supports": "현장 MUM-T 구역의 THeMIS-K·아리온스멧·그룬트 전시 확인"
+        },
+        {
+          "title": "THeMIS family",
+          "url": "https://milremrobotics.com/themis-family/",
+          "publisher": "Milrem Robotics",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "현행 기반 플랫폼 제원·모듈성. 한국형 확정값 아님"
+        },
+        {
+          "title": "Milrem Product Catalogue 2024",
+          "url": "https://d3tr2q1wj7u3d5.cloudfront.net/32284/20240611_MILREM-Product-Catalogue-EN_web.pdf",
+          "publisher": "Milrem Robotics",
+          "kind": "manufacturer",
+          "date": "2024-06-11",
+          "supports": "이전 카탈로그와 현행 페이지의 형상·중량 차이 확인"
+        }
+      ],
+      "photoSearchTerms": [
+        "THeMIS-K ADEX 2025 Hanwha side rear",
+        "테미스 K 서울 ADEX 2025"
+      ],
+      "researchStatus": "partial",
+      "limitations": [
+        "2024 카탈로그와 현행 페이지의 중량·치수 차이 때문에 한국형 중량을 임의 선정하지 않았습니다.",
+        "일반 THeMIS 사진과 한국형 RCWS 탑재 사진을 구분해야 합니다.",
+        "현장 사진의 공개는 재배포 허락을 뜻하지 않습니다."
+      ]
+    },
+    {
+      "id": "arma-ii",
+      "name": "ARMA II 8×8",
+      "manufacturer": "Otokar",
+      "country": "튀르키예",
+      "category": "장갑차",
+      "description": "40톤급 최대 총중량을 수용하도록 확장한 차륜형 장갑 플랫폼. IDEX 2025의 30mm MIZRAK 탑재형을 기준으로 검토합니다.",
+      "tags": [
+        "8×8",
+        "확장형 차체",
+        "모듈형 플랫폼"
+      ],
+      "researchStatus": "partial",
+      "exhibitions": [
+        {
+          "id": "idex-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "note": "제조사 개막일 발표에 ARMA II 8×8 + 30mm MIZRAK 전시를 명시. 일반 ARMA 8×8과 구분."
+        }
+      ],
+      "specs": [
+        {
+          "label": "구동 형식",
+          "value": "8×8",
+          "sourceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "note": ""
+        },
+        {
+          "label": "최대 총중량",
+          "value": "40 t",
+          "sourceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "note": "적재중량 또는 전시차 실측중량이 아님"
+        },
+        {
+          "label": "엔진 출력",
+          "value": "720 hp",
+          "sourceUrl": "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti",
+          "note": "제조사 공개치"
+        },
+        {
+          "label": "엔진",
+          "value": "12.7 L · 6기통 터보디젤",
+          "sourceUrl": "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti",
+          "note": ""
+        },
+        {
+          "label": "IDEX 전시 형상",
+          "value": "30mm MIZRAK",
+          "sourceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "note": "탑재 가능 상한 120mm와 전시형상을 구분"
+        }
+      ],
+      "highlights": [
+        "일반 ARMA와 ARMA II를 별도 모델로 관리",
+        "40 t는 총중량 한도이며 탑재량이 아님",
+        "부품 국산화와 확대된 임무실이 주요 검토 지점"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "차체 확대와 임무 공간",
+          "fact": "제조사는 확장된 차체와 추가 내부 공간을 설명합니다.",
+          "interpretation": "정비·의무 임무형은 외형 크기보다 내부 작업 공간의 활용 방식이 비교 포인트입니다.",
+          "unknown": "유효 실내 체적과 전시형 좌석 배치는 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "중량 증가를 수용하는 동력 구성",
+          "fact": "공개된 엔진은 720 hp 터보디젤입니다.",
+          "interpretation": "출력 단독 순위보다 임무 장비를 포함한 총중량별 기동자료가 필요합니다.",
+          "unknown": "IDEX 전시차 실중량·연비·지속 주행 시험조건은 미확인입니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "방호 홍보와 등급의 구분",
+          "fact": "제조사는 탄도·지뢰·IED 방호를 강조합니다.",
+          "interpretation": "방호 주장은 존재하지만 표준 등급 없는 최상급 표현을 장비 간 비교 점수로 사용할 수 없습니다.",
+          "unknown": "장착 장갑 구성과 독립 시험 성적은 공개 근거가 부족합니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "전시 탑재형을 기준으로 비교",
+          "fact": "IDEX에는 30mm MIZRAK 형상이 명시되어 있습니다.",
+          "interpretation": "포탑 통합 사례는 확인되지만 다른 구경 통합 가능성이 같은 성숙도를 의미하지는 않습니다.",
+          "unknown": "전시차 전력·냉각 여유와 센서 연동 시험결과는 미확인입니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "자체 개발 부품의 지원 체계",
+          "fact": "제조사는 자체 트랜스퍼 케이스와 현가장치, 현지 생산 부체계를 제시합니다.",
+          "interpretation": "부품 공급원과 정비 문서의 통일 여부를 검토하면 현지 유지지원 가능성을 판단하는 데 도움이 됩니다.",
+          "unknown": "평균 수리시간과 부품 공급기간은 공개되지 않았습니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "구급·정비형으로의 확장",
+          "fact": "의무·정비·지휘 등 여러 임무 구성을 제안합니다.",
+          "interpretation": "공통 차대는 지원 체계 통합의 여지가 있지만 각 형상 개발 상태를 따로 기록해야 합니다.",
+          "unknown": "임무형 간 교체시간과 실제 공통부품 비율은 미확인입니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "전시와 양산 입증 분리",
+          "fact": "IDEX 2025 전시 모델과 탑재체는 제조사 발표로 확인됩니다.",
+          "interpretation": "전시 확인은 설계 소개의 근거이며 특정 고객의 전력화 증거로 확대하지 않습니다.",
+          "unknown": "이 조사에서는 ARMA II 해당 형상의 양산 인도 수량을 확인하지 못했습니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "to": "IDEX 2025",
+          "title": "직전 회차 형상 근거 부족",
+          "detail": "2025년 ARMA II 전시는 확인했으나 IDEX 2023의 동형 실물·형상을 확보하지 못해 증감이나 신규 등장으로 단정하지 않습니다.",
+          "status": "insufficient",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities"
+          ],
+          "from": "IDEX 2023"
+        }
+      ],
+      "sources": [
+        {
+          "title": "IDEX 2025 전시 구성",
+          "url": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": "2025-02-17",
+          "supports": "30mm MIZRAK 전시형·40t·720hp"
+        },
+        {
+          "title": "ARMA II 개발·국산 부체계 소개",
+          "url": "https://defense.otokar.com.tr/haberler/otokar-turkiyenin-ilk-agir-sinif-paletli-insansiz-zirhli-aracini-tanitti",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "엔진 배기량·부체계·임무 확장"
+        }
+      ],
+      "photoSearchTerms": [
+        "ARMA II IDEX 2025 MIZRAK front side rear",
+        "Otokar ARMA II interior 8x8"
+      ],
+      "limitations": [
+        "ARMA 8×8의 사진·제원을 ARMA II에 혼합하지 않습니다.",
+        "공개 사진은 출처 페이지로 연결하며 재배포 허가 없이 복사하지 않습니다.",
+        "SAHA 2026 공식 목록의 ARMA 8×8을 ARMA II로 간주하지 않았습니다."
+      ]
+    },
+    {
+      "id": "tulpar",
+      "name": "TULPAR",
+      "manufacturer": "Otokar",
+      "country": "튀르키예",
+      "category": "장갑차",
+      "description": "공통 궤도 차체를 여러 임무에 적용하는 플랫폼. IDEX의 HITFACT MkII와 SAHA의 KORHAN은 서로 다른 전시 구성으로 다룹니다.",
+      "tags": [
+        "궤도형",
+        "공통 차체",
+        "복수 포탑 통합"
+      ],
+      "researchStatus": "partial",
+      "exhibitions": [
+        {
+          "id": "idex-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "note": "제조사: Leonardo HITFACT MkII 120mm 탑재차 전시."
+        },
+        {
+          "id": "saha-2026",
+          "status": "confirmed",
+          "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "note": "제조사 행사 당일 본문: ASELSAN KORHAN 탑재 TULPAR 전시. 모형이라고 표기되어 있지 않음."
+        }
+      ],
+      "specs": [
+        {
+          "label": "차체",
+          "value": "궤도형",
+          "sourceUrl": "https://defense.otokar.com.tr/tracked-armored/tulpar-armored",
+          "note": ""
+        },
+        {
+          "label": "플랫폼 중량 범위",
+          "value": "28–45 t",
+          "sourceUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "note": "여러 파생형을 포함한 범위. 특정 전시차 중량 아님"
+        },
+        {
+          "label": "출력 선택 범위",
+          "value": "700–1,100 hp",
+          "sourceUrl": "https://defense.otokar.com.tr/tracked-armored/tulpar-armored",
+          "note": "제품군 일반 사양. 행사 차량 엔진 미확인"
+        },
+        {
+          "label": "IDEX 2025 형상",
+          "value": "HITFACT MkII 120mm",
+          "sourceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "note": ""
+        },
+        {
+          "label": "SAHA 2026 형상",
+          "value": "ASELSAN KORHAN",
+          "sourceUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "note": ""
+        }
+      ],
+      "highlights": [
+        "중량과 출력은 제품군 범위로 표시",
+        "차체 공통성과 포탑별 임무 차이를 함께 검토",
+        "다른 전시회 탑재체 차이를 일방적인 성능 향상으로 해석하지 않음"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "전방 동력실의 배치",
+          "fact": "제품 페이지는 전방 동력장치 배치를 명시합니다.",
+          "interpretation": "후방 임무 공간을 사용하는 파생형 비교 시 동력실과 승무원 구획의 경계를 확인할 필요가 있습니다.",
+          "unknown": "전시형별 내부 통로·탑승 공간은 미확인입니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/tracked-armored/tulpar-armored"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "제품군 범위와 개별 차량의 차이",
+          "fact": "일반 사양은 700–1,100 hp 동력 선택 범위를 제시합니다.",
+          "interpretation": "전시형의 중량과 엔진 조합이 없으면 출력 대비 중량을 계산해 우열을 정할 수 없습니다.",
+          "unknown": "HITFACT 및 KORHAN 전시차의 정확한 엔진 조합이 불명확합니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/tracked-armored/tulpar-armored"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "두 전시회의 다른 포탑 통합",
+          "fact": "IDEX는 HITFACT MkII, SAHA는 KORHAN 구성입니다.",
+          "interpretation": "공통 차체의 임무 확장 사례로 읽을 수 있으며 동일 모델의 연도별 업그레이드로 단정하지 않습니다.",
+          "unknown": "각 포탑 통합형의 동일 시험조건 성능자료는 없습니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+            "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "공통 부체계의 유지지원 가능성",
+          "fact": "제품군은 여러 파생형의 공통 부체계 사용을 설명합니다.",
+          "interpretation": "지원차와 전투차의 공통 정비교육·부품 묶음이 어느 정도 가능한지 검토할 가치가 있습니다.",
+          "unknown": "형상별 부품 공통률과 정비 주기는 미확인입니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/tracked-armored/tulpar-armored"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "모듈 장갑과 다임무 차체",
+          "fact": "제조사는 모듈형 장갑과 복수 임무형을 소개합니다.",
+          "interpretation": "임무 변화 때 교체되는 부분과 고정되는 부분을 구분한 형상표가 필요합니다.",
+          "unknown": "장갑별 중량 증가, 교환 작업시간은 공개되지 않았습니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "포탑마다 다른 인원 구성 검토",
+          "fact": "제품군에는 유인·무인 탑재체 통합 가능성이 제시되어 있습니다.",
+          "interpretation": "장비 명칭이 같아도 조작석·출입 동선이 달라질 수 있으므로 사진을 탑재체별로 묶어야 합니다.",
+          "unknown": "두 전시형의 실제 좌석 수·승하차 시험자료를 확인하지 못했습니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/tracked-armored/tulpar-armored"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "통합 소개와 운용 실적 구분",
+          "fact": "두 행사에서 구체적인 탑재체가 명시되었습니다.",
+          "interpretation": "전시 형상 존재는 확인되지만 모든 파생형이 같은 개발 단계라고 볼 수 없습니다.",
+          "unknown": "이 자료만으로 해당 전시형의 양산 인도나 실전 운용을 확정하지 않습니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+            "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "to": "SAHA 2026",
+          "title": "직전 회차 TULPAR 형상은 추가 확인 필요",
+          "detail": "2026 KORHAN 구성은 확인되나 2024 같은 차체의 확정 형상을 확보하지 않아 회차별 성능 변화는 보류합니다.",
+          "status": "insufficient",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+            "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+          ],
+          "from": "SAHA 2024"
+        }
+      ],
+      "sources": [
+        {
+          "title": "TULPAR 제품 페이지",
+          "url": "https://defense.otokar.com.tr/tracked-armored/tulpar-armored",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "동력실·출력 범위·부체계 공통성"
+        },
+        {
+          "title": "IDEX 2025 전시 구성",
+          "url": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": "2025-02-17",
+          "supports": "HITFACT MkII 탑재형"
+        },
+        {
+          "title": "SAHA 2026 전시 구성",
+          "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": "2026-05-05",
+          "supports": "KORHAN·중량 범위·모듈 장갑"
+        },
+        {
+          "title": "SAHA 2024 전시 소개",
+          "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": "2024-10-21",
+          "supports": "직전 회차 조사 범위"
+        }
+      ],
+      "photoSearchTerms": [
+        "TULPAR HITFACT MkII IDEX 2025 front rear",
+        "TULPAR KORHAN SAHA 2026 side interior"
+      ],
+      "limitations": [
+        "7.62–120mm 통합 가능 범위를 모든 형상의 실증 완료로 보지 않습니다.",
+        "같은 TULPAR 제품명 아래 파생형이 있어 사진별 포탑·행사·연도를 확인해야 합니다."
+      ]
+    },
+    {
+      "id": "cobra-ii",
+      "name": "COBRA II",
+      "manufacturer": "Otokar",
+      "country": "튀르키예",
+      "category": "장갑차",
+      "description": "4×4 전술 장갑차. SAHA 직전 회차의 원격무장형에서 2026년 차량 탑재 UAV 스테이션으로 전시 임무 구성이 달라졌습니다.",
+      "tags": [
+        "4×4",
+        "차량 탑재 UAV",
+        "다임무"
+      ],
+      "researchStatus": "partial",
+      "exhibitions": [
+        {
+          "id": "idex-2025",
+          "status": "confirmed",
+          "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "note": "12.7mm KESKİN RCWS 탑재 COBRA II 전시 명시."
+        },
+        {
+          "id": "saha-2026",
+          "status": "confirmed",
+          "evidenceUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "note": "DASAL UAV 스테이션 탑재차 전시 명시. 제조사 행사일 자료 기준."
+        }
+      ],
+      "specs": [
+        {
+          "label": "구동 형식",
+          "value": "4×4",
+          "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+          "note": ""
+        },
+        {
+          "label": "최대 총중량",
+          "value": "최대 14.5 t",
+          "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+          "note": "2025 브로슈어, 일반 COBRA II. MRAP 별도 모델"
+        },
+        {
+          "label": "엔진 출력",
+          "value": "360 hp",
+          "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+          "note": ""
+        },
+        {
+          "label": "차체 치수",
+          "value": "길이 6.4 m · 폭 2.5 m · 높이 2.3 m",
+          "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+          "note": "길이: 윈치·예비타이어 포함. 높이: 차체 상단 기준"
+        },
+        {
+          "label": "최대 탑승 인원",
+          "value": "최대 11명",
+          "sourceUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+          "note": "운전수·차장 포함, 파생형에 따라 다름"
+        }
+      ],
+      "highlights": [
+        "2024→2026 SAHA 전시 임무장비 변화 근거 확보",
+        "일반 COBRA II와 COBRA II MRAP 구분",
+        "UAV 스테이션 수치는 제조사 주장으로 표시"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "차체와 상부 임무장비 구분",
+          "fact": "브로슈어 차체 높이는 2.3 m이며 상부 장비 높이를 포함하지 않습니다.",
+          "interpretation": "전시차 외형 비교에서 UAV 장비와 RCWS의 추가 높이를 별도로 기록해야 합니다.",
+          "unknown": "UAV 탑재형 총높이·무게중심은 미확인입니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "공통 차체 제원의 적용 한계",
+          "fact": "기본 브로슈어에 360 hp와 최대 총중량 14.5 t가 기재됩니다.",
+          "interpretation": "다른 탑재체를 비교할 때는 기본 출력보다 남은 적재여유와 임무장비 중량을 함께 확인해야 합니다.",
+          "unknown": "2026 전시형 실제 총중량과 탑재상태 기동시험은 미확인입니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "차량과 UAV 운용 연결",
+          "fact": "SAHA 2026에는 DASAL UAV 스테이션이 탑재되었습니다.",
+          "interpretation": "상부 장비와 차내 화면·통신 연결을 함께 기록해야 통합 수준을 이해할 수 있습니다.",
+          "unknown": "통신 단절 처리와 운용자 작업부하는 공개 근거가 부족합니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "상부 작업 감소 가능성",
+          "fact": "제조사는 스테이션의 자동 배터리 교환을 설명합니다.",
+          "interpretation": "상부 반복 작업을 줄일 가능성이 있으나 실제 인원 감소나 피로 개선을 확인한 자료는 아닙니다.",
+          "unknown": "재보급 동선·우천 운용·장갑 착용 상태 조작성은 미확인입니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "방호 대상과 등급을 구분",
+          "fact": "제품 브로슈어는 탄도·지뢰 방호를 제시합니다.",
+          "interpretation": "일반형·MRAP·수출형에 동일 방호 성능을 일괄 적용해서는 안 됩니다.",
+          "unknown": "본 전시형의 인증 등급과 추가 장비가 방호 구성에 미치는 영향은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "임무 장비 선택형 플랫폼",
+          "fact": "브로슈어에는 인원수송·지휘·의무·정찰 등 파생형이 있습니다.",
+          "interpretation": "전시 변화는 신형 차체의 등장보다 기존 차체의 임무 확장으로 해석할 근거가 큽니다.",
+          "unknown": "임무형 전환이 현장 교환 가능한지 공장 개조인지 명확하지 않습니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "차체와 신규 통합의 성숙도 분리",
+          "fact": "제조사는 COBRA II가 여러 사용자에게 운용 중이라고 설명합니다.",
+          "interpretation": "기존 차체의 운용 이력이 신규 UAV 스테이션의 신뢰성까지 입증하지는 않습니다.",
+          "unknown": "UAV 통합형의 납품·운용 수량과 독립 장기 시험은 미확인입니다.",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "to": "SAHA 2026",
+          "title": "RCWS에서 UAV 스테이션으로 전시 구성 변화",
+          "detail": "2024 공식 자료의 KESKİN 12.7mm RCWS와 2026 자료의 DASAL UAV 스테이션을 비교한 관측입니다. 전시 선택 변화이며 전체 전시회에서 UAV 장비 비중이 증가했다는 통계는 아닙니다.",
+          "status": "verified",
+          "sourceUrls": [
+            "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+            "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026"
+          ],
+          "from": "SAHA 2024"
+        }
+      ],
+      "sources": [
+        {
+          "title": "COBRA II 2025 제품 브로슈어",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/cobra-ii-en-az77eg-25.pdf",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "중량·치수·인원·엔진·파생형"
+        },
+        {
+          "title": "IDEX 2025 전시 구성",
+          "url": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": "2025-02-17",
+          "supports": "KESKİN 전시형"
+        },
+        {
+          "title": "SAHA 2024 전시 구성",
+          "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": "2024-10-21",
+          "supports": "직전 회차 KESKİN 탑재"
+        },
+        {
+          "title": "SAHA 2026 전시 구성",
+          "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "publisher": "Otokar",
+          "kind": "manufacturer",
+          "date": "2026-05-05",
+          "supports": "DASAL UAV 통합"
+        }
+      ],
+      "photoSearchTerms": [
+        "COBRA II DASAL UAV station SAHA 2026 roof rear",
+        "COBRA II Keskin IDEX 2025 SAHA 2024",
+        "COBRA II interior brochure"
+      ],
+      "limitations": [
+        "UAV 이동 중 이착륙 및 교환시간 수치는 독립 검증 전이므로 비교 점수에 반영하지 않습니다.",
+        "MRAP의 중량과 치수를 일반 COBRA II에 적용하지 않습니다."
+      ]
+    },
+    {
+      "id": "pars-alpha",
+      "name": "PARS ALPHA 8×8",
+      "manufacturer": "FNSS",
+      "country": "튀르키예",
+      "category": "장갑차",
+      "description": "전방 동력실과 승무원 배치를 강조한 FNSS 차륜형 장갑차. SAHA 2024와 2026의 TEBER-II 30/40 전시형을 연결해 검토합니다.",
+      "tags": [
+        "8×8",
+        "차고 조절",
+        "전방 동력실"
+      ],
+      "researchStatus": "partial",
+      "exhibitions": [
+        {
+          "id": "saha-2026",
+          "status": "confirmed",
+          "evidenceUrl": "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter",
+          "note": "행사 후 FNSS Q2 뉴스레터에 PARS ALPHA + TEBER-II 30/40 전시를 과거형으로 확인."
+        }
+      ],
+      "specs": [
+        {
+          "label": "엔진 출력",
+          "value": "711 hp",
+          "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+          "note": "2024 기본 공개 사양"
+        },
+        {
+          "label": "탑승 인원",
+          "value": "12명 (3+9)",
+          "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+          "note": "원격포탑 IFV 구성 기준"
+        },
+        {
+          "label": "차체 치수",
+          "value": "길이 <7.8 m · 폭 <3.1 m",
+          "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+          "note": ""
+        },
+        {
+          "label": "차체 높이",
+          "value": "주행 <2.4 m · 수송 <2.2 m",
+          "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+          "note": "공개 브로슈어 기준"
+        },
+        {
+          "label": "현가장치",
+          "value": "차고 조절식 독립 유기압",
+          "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+          "note": ""
+        },
+        {
+          "label": "구동·조향",
+          "value": "전륜 구동 · 전 차축 조향",
+          "sourceUrl": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+          "note": ""
+        }
+      ],
+      "highlights": [
+        "전방 동력실과 나란히 배치된 승무원 검토",
+        "2024·2026 전시 탑재체 계열의 연속성 확인",
+        "양산 계약과 실제 인도 완료는 구분"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "동력실 뒤의 승무원 공간",
+          "fact": "제조사는 전방 동력장치 뒤로 승무원과 탑승병 공간을 배치했다고 설명합니다.",
+          "interpretation": "승무원 간 이동과 소통 측면에서 기존 배치와 비교할 가치가 있습니다.",
+          "unknown": "내부 실제 통로 폭과 비상 탈출 검증자료는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/products/pars-alpha-8x8-new-generation-afv"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "차장·조종수 간 소통",
+          "fact": "제품 설명은 차장·조종수의 나란한 배치를 강조합니다.",
+          "interpretation": "좌석 간 소통에는 이점이 있을 수 있으나 외부 시야와 디스플레이 부하를 함께 검토해야 합니다.",
+          "unknown": "운용자 평가와 인체치수별 적합성 자료는 없습니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/products/pars-alpha-8x8-new-generation-afv"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "차고 조절과 전차축 조향",
+          "fact": "브로슈어는 차고 조절식 현가장치와 전 차축 조향을 명시합니다.",
+          "interpretation": "수송 높이 조절과 좁은 공간 이동의 설계 선택을 보여줍니다.",
+          "unknown": "고장 모드·장기 유지비·다른 중량에서의 동일 성능은 미확인입니다.",
+          "sourceUrls": [
+            "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf"
+          ]
+        },
+        {
+          "criterion": "protection",
+          "title": "공개되지 않은 방호 등급",
+          "fact": "브로슈어는 STANAG 4569 관련 방호 수준을 비공개로 표기합니다.",
+          "interpretation": "등급 미공개 상태를 점수로 임의 보정하지 않고 자료 공백으로 남겨야 합니다.",
+          "unknown": "확정 방호 등급과 시험구성은 공개 근거가 없습니다.",
+          "sourceUrls": [
+            "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "같은 계열의 전시 포탑 유지",
+          "fact": "2024와 2026 SAHA 자료 모두 TEBER-II 30/40을 명시합니다.",
+          "interpretation": "탑재체 계열의 연속성은 확인되지만 내부 소프트웨어나 센서 변경까지 동일하다는 의미는 아닙니다.",
+          "unknown": "두 회차 전시차의 세부 구성 차이는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/tr/medya/basin-bultenleri/fnss-pars-alpha-8x8-ve-zaha-ile-saha-expo-2024te-yerini-aldi-",
+            "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "복합 조향·현가의 정비 검토",
+          "fact": "차고 조절 현가와 전체 차축 조향이 공개 사양에 포함됩니다.",
+          "interpretation": "장치 수가 늘어나는 만큼 부품 접근성과 진단 지원을 확인하는 것이 비교에 유용합니다.",
+          "unknown": "정비시간·공구 요구·고장 통계는 확보되지 않았습니다.",
+          "sourceUrls": [
+            "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "양산 사업 진입과 인도 구분",
+          "fact": "FNSS는 튀르키예 육군용 PARS ALPHA 양산 사업 수주를 발표했습니다.",
+          "interpretation": "시제품 전시에서 조달 사업 단계로 이어지는 근거로 사용할 수 있습니다.",
+          "unknown": "SAHA 전시차 자체가 최종 양산 구성인지, 전체 인도가 완료됐는지는 확인하지 못했습니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/media/news/fnss-has-been-awarded-turkish-land-forces-tlf-new-generation-armoured-vehicles-program-serial-production-pars-alpha-8x8-6x6-variants-1869",
+            "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "to": "SAHA 2026",
+          "title": "TEBER-II 30/40 전시 구성의 연속성",
+          "detail": "양 회차 공식 자료에서 같은 계열 포탑의 PARS ALPHA가 확인됩니다. 2026 자료에는 튀르키예 육군 인도 예정 언급이 있으나 전시 외형만으로 성능 향상을 단정하지 않습니다.",
+          "status": "verified",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/tr/medya/basin-bultenleri/fnss-pars-alpha-8x8-ve-zaha-ile-saha-expo-2024te-yerini-aldi-",
+            "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter"
+          ],
+          "from": "SAHA 2024"
+        }
+      ],
+      "sources": [
+        {
+          "title": "PARS ALPHA 2024 영어 브로슈어",
+          "url": "https://fnss.com.tr/uploads/docs/2024ENGCATALOGUE/1706888472_pars-alpha-8x8-eng-2024-tri-fold.pdf",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "기본 사양·방호 비공개 표기"
+        },
+        {
+          "title": "PARS ALPHA 제품 소개",
+          "url": "https://www.fnss.com.tr/en/products/pars-alpha-8x8-new-generation-afv",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "배치·승무원 소통 설계"
+        },
+        {
+          "title": "SAHA 2024 공식 발표",
+          "url": "https://www.fnss.com.tr/tr/medya/basin-bultenleri/fnss-pars-alpha-8x8-ve-zaha-ile-saha-expo-2024te-yerini-aldi-",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "직전 회차 TEBER-II 구성"
+        },
+        {
+          "title": "SAHA 2026 공식 사전 발표",
+          "url": "https://www.fnss.com.tr/en/media/news/fnss-showcase-pars-alpha-8x8-zaha-pars-scout-6x6-command-post-vehicle-and-roketsan-alka-dews-fnss-kaplan-hybrid-autonomous-saha-2026-1986",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": "2026-05-02",
+          "supports": "전시 예정 형상"
+        },
+        {
+          "title": "FNSS Focus Q2 2026",
+          "url": "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "실제 전시 사후 확인"
+        },
+        {
+          "title": "PARS ALPHA 양산 사업 수주",
+          "url": "https://www.fnss.com.tr/en/media/news/fnss-has-been-awarded-turkish-land-forces-tlf-new-generation-armoured-vehicles-program-serial-production-pars-alpha-8x8-6x6-variants-1869",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "개발·조달 단계"
+        }
+      ],
+      "photoSearchTerms": [
+        "FNSS PARS ALPHA 8x8 SAHA 2026 TEBER II front side rear",
+        "PARS ALPHA driver commander interior"
+      ],
+      "limitations": [
+        "제품 페이지 일부 직접 열람이 시간 초과되어 공식 검색 색인과 브로슈어를 함께 확인했습니다.",
+        "PARS ALPHA 6×6 개념형의 사진과 제원을 8×8 실물에 혼합하지 않습니다."
+      ]
+    },
+    {
+      "id": "kaplan-hybrid",
+      "name": "ALKA–KAPLAN HYBRID",
+      "manufacturer": "FNSS · ROKETSAN",
+      "country": "튀르키예",
+      "category": "방공·대드론",
+      "description": "ROKETSAN ALKA 임무체계를 FNSS KAPLAN HYBRID 궤도 플랫폼과 통합한 전시 체계. SAHA 2026에서 선택적 유인·자율 기능을 함께 제시했습니다.",
+      "tags": [
+        "하이브리드",
+        "선택적 유인",
+        "대드론",
+        "전력 통합"
+      ],
+      "researchStatus": "partial",
+      "exhibitions": [
+        {
+          "id": "saha-2026",
+          "status": "confirmed",
+          "evidenceUrl": "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter",
+          "note": "행사 후 제조사 뉴스레터에서 선택적 유인·자율 기능의 ALKA-KAPLAN HYBRID 전시 확인."
+        }
+      ],
+      "specs": [
+        {
+          "label": "주행 기반",
+          "value": "하이브리드 궤도형",
+          "sourceUrl": "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026",
+          "note": ""
+        },
+        {
+          "label": "기본 차대 중량",
+          "value": "17.5 t",
+          "sourceUrl": "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications",
+          "note": "KAPLAN HYBRID 기본형 공개치. ALKA 통합형 중량 아님"
+        },
+        {
+          "label": "기본 차대 치수",
+          "value": "5.6 × 3.0 × 2.4 m",
+          "sourceUrl": "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications",
+          "note": "기본형 길이·폭·전체 높이. 2026 통합 탑재체 포함 치수 미확인"
+        },
+        {
+          "label": "기본 차대 배터리",
+          "value": "800 V · 56 kWh",
+          "sourceUrl": "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications",
+          "note": "기본형 사양, SAHA 전시차 동일 구성 미확인"
+        },
+        {
+          "label": "SAHA 전시 운용 형태",
+          "value": "선택적 유인·자율 기능",
+          "sourceUrl": "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026",
+          "note": "제조사 설명. 자율 기능의 검증 수준 별도 확인"
+        }
+      ],
+      "highlights": [
+        "기본 차대 제원과 ALKA 통합형을 명확히 구분",
+        "추진 전력과 임무 전력의 통합을 주요 분석 축으로 설정",
+        "자율 기능 소개를 완전 무인화 또는 독립 검증으로 확대하지 않음"
+      ],
+      "analysis": [
+        {
+          "criterion": "layout",
+          "title": "차대와 임무체계의 결합",
+          "fact": "ALKA는 KAPLAN HYBRID 위에 통합된 별도 임무체계입니다.",
+          "interpretation": "상부 센서·장비와 기반 차대의 형상 변경을 따로 기록하면 비교 오류를 줄일 수 있습니다.",
+          "unknown": "통합 후 총중량·전체 높이·내부 공간 변화는 미확인입니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+          ]
+        },
+        {
+          "criterion": "mobility",
+          "title": "기본형과 통합형의 제원 분리",
+          "fact": "FNSS는 기본 KAPLAN HYBRID 제원표를 공개합니다.",
+          "interpretation": "기본형 주행자료를 중량이 다른 ALKA 통합형에 그대로 적용할 수 없습니다.",
+          "unknown": "SAHA 2026 형상에서 검증된 주행·내구 시험결과는 확보되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications"
+          ]
+        },
+        {
+          "criterion": "integration",
+          "title": "추진·임무 전력 공유",
+          "fact": "제조사는 하이브리드 동력계가 이동과 임무체계 전력을 함께 지원한다고 설명합니다.",
+          "interpretation": "차체와 임무장비를 따로 보는 것보다 동시 사용 시 전력·냉각 관리의 통합성을 검토해야 합니다.",
+          "unknown": "동시 부하 조건의 지속 운용 자료는 공개 근거가 부족합니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+          ]
+        },
+        {
+          "criterion": "maintenance",
+          "title": "고전압 동력계의 지원 요구",
+          "fact": "기본 차대에는 고전압 배터리와 전기 구동계가 명시됩니다.",
+          "interpretation": "기계 정비뿐 아니라 전기 진단 인력·장비와 배터리 교체 계획을 함께 확인할 필요가 있습니다.",
+          "unknown": "배터리 수명·교체 비용·정비 소요시간은 미확인입니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications"
+          ]
+        },
+        {
+          "criterion": "ergonomics",
+          "title": "선택적 유인 운용의 인터페이스",
+          "fact": "SAHA 2026 소개는 유인 또는 자율 운용 선택을 언급합니다.",
+          "interpretation": "화면·조종권 전환·감독 방식은 차량 운용 부담을 판단할 핵심 검토 지점입니다.",
+          "unknown": "사용자 평가, 개입 절차, 통신 단절 시 동작은 확인되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+          ]
+        },
+        {
+          "criterion": "modularity",
+          "title": "임무체계와 차대 개발의 연결",
+          "fact": "2025 ALKA 통합 소개에 이어 2026 선택적 유인·자율 기능이 제시되었습니다.",
+          "interpretation": "같은 기반 차대에 임무·운용 기능을 단계적으로 통합한 사례로 볼 수 있습니다.",
+          "unknown": "다른 차대나 임무체계로의 교환 가능 범위는 확정되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/media/press-releases/ideal-match-mobile-armoured-counter-drone-requirements-roketsan-fnss-will-showcase-alka-kaplan-hybrid-directed-energy-weapon-system-dews-platform-idef-2025",
+            "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+          ]
+        },
+        {
+          "criterion": "maturity",
+          "title": "전시 실증과 전력화의 구분",
+          "fact": "행사 후 공식 뉴스레터가 2026 전시 사실을 확인합니다.",
+          "interpretation": "전시 기능 소개는 개발 방향을 보여주며 실전 성능이나 양산 성숙도를 입증하는 자료는 아닙니다.",
+          "unknown": "독립 평가와 양산 인도 수량은 미확인입니다.",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "to": "SAHA 2026",
+          "title": "동일 통합체계의 직전 회차 비교는 불가",
+          "detail": "2026 ALKA-KAPLAN은 확인되나 SAHA 2024의 동일 통합체계 자료는 확보하지 못했습니다. IDEF 2025→SAHA 2026 기능 소개는 별도 개발 맥락이며 동일 전시회 시계열로 세지 않습니다.",
+          "status": "insufficient",
+          "sourceUrls": [
+            "https://www.fnss.com.tr/en/media/press-releases/ideal-match-mobile-armoured-counter-drone-requirements-roketsan-fnss-will-showcase-alka-kaplan-hybrid-directed-energy-weapon-system-dews-platform-idef-2025",
+            "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026"
+          ],
+          "from": "SAHA 2024"
+        }
+      ],
+      "sources": [
+        {
+          "title": "KAPLAN HYBRID 기본형 기술 제원",
+          "url": "https://www.fnss.com.tr/en/products/kaplan-hybrid/kaplan-hybrid-technical-specifications",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "기본 차대 중량·치수·전기 구성"
+        },
+        {
+          "title": "ALKA-KAPLAN IDEF 2025 소개",
+          "url": "https://www.fnss.com.tr/en/media/press-releases/ideal-match-mobile-armoured-counter-drone-requirements-roketsan-fnss-will-showcase-alka-kaplan-hybrid-directed-energy-weapon-system-dews-platform-idef-2025",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "ALKA 통합의 개발 맥락"
+        },
+        {
+          "title": "ALKA-KAPLAN SAHA 2026 소개",
+          "url": "https://www.fnss.com.tr/en/media/press-releases/alka-kaplan-hybrid-autonomous-optionally-manned-and-autonomous-capabilities-saha-2026",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": "2026-05-05",
+          "supports": "선택적 유인·자율·전력 통합"
+        },
+        {
+          "title": "FNSS Focus Q2 2026",
+          "url": "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter",
+          "publisher": "FNSS",
+          "kind": "manufacturer",
+          "date": null,
+          "supports": "실제 전시 사후 확인"
+        }
+      ],
+      "photoSearchTerms": [
+        "ALKA KAPLAN HYBRID SAHA 2026 autonomous front rear side",
+        "FNSS KAPLAN HYBRID ALKA IDEF 2025"
+      ],
+      "limitations": [
+        "기본형 제원은 해당 라벨로만 사용하며 통합체계 제원으로 합산하지 않습니다.",
+        "공식 영문 제원 일부에 속도 단위 오기가 있어 관련 수치를 채택하지 않았습니다.",
+        "외부 사진의 라이선스가 확인되기 전에는 원문 링크만 제공합니다."
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "id": "boxer-miv-00",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_Mechanised_Infantry_Vehicle_of_the_British_Army.jpg",
+      "author": "UK Ministry of Defence / Crown copyright (촬영자 미상)",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "caption": "영국 Boxer MIV의 전면 사선 — 2023년 시험 차량",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "sourceTitle": "File:Boxer Mechanised Infantry Vehicle of the British Army.jpg",
+      "sourceDate": "2023-07-10 23:19:38",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a"
+    },
+    {
+      "id": "boxer-miv-01",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-01.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GTK_Boxer_inside.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "독일군 Boxer 병력수송 모듈 내부 — 좌석·통로 참고",
+      "angle": "병력실 내부",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "독일군·기존 Boxer 계열 참고사진입니다. 해당 내부·임무모듈을 영국 MIV의 확정 구성으로 해석하면 안 됩니다.",
+      "sourceTitle": "File:GTK Boxer inside.jpg",
+      "sourceDate": "2021-09-19",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "bde53a504d88c2c4ad98a393539a2cd5162d615aef3590fa7e414cabda426547"
+    },
+    {
+      "id": "boxer-miv-02",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-02.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GTK-Boxer_drivers_compartment.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "독일군 Boxer 운전석 — 계기판·조향장치 참고",
+      "angle": "운전석",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "독일군·기존 Boxer 계열 참고사진입니다. 해당 내부·임무모듈을 영국 MIV의 확정 구성으로 해석하면 안 됩니다.",
+      "sourceTitle": "File:GTK-Boxer drivers compartment.jpg",
+      "sourceDate": "2021-09-19",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "dfa659889afcf61910663afec210b716d98d8c90014b5c2afe0cf24ca6238da3"
+    },
+    {
+      "id": "boxer-miv-07",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-07.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GTK_Boxer_side.jpg",
+      "author": "Heldt",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "caption": "Boxer 계열 외부 전경 — 차체와 8륜 배치 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "독일군·기존 Boxer 계열 참고사진입니다. 해당 내부·임무모듈을 영국 MIV의 확정 구성으로 해석하면 안 됩니다.",
+      "sourceTitle": "File:GTK Boxer side.jpg",
+      "sourceDate": "2004-06-28",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "d730fae4db1f5275fccdc3b94a5da71b2284dded268ead41da9d3ac4f5972661"
+    },
+    {
+      "id": "boxer-miv-08",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-08.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KMW_Boxer_(armoured_fighting_vehicle).JPG",
+      "author": "Alf van Beem",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "caption": "박물관 전시 Boxer 계열 — 차체 측면 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "독일군·기존 Boxer 계열 참고사진입니다. 해당 내부·임무모듈을 영국 MIV의 확정 구성으로 해석하면 안 됩니다.",
+      "sourceTitle": "File:KMW Boxer (armoured fighting vehicle).JPG",
+      "sourceDate": "2018-04-29 11:19:52",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1200,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "d69f2d5e1178ae5f40e705533fdbaecab10cee1907df3a64785497d4b59f419d"
+    },
+    {
+      "id": "boxer-miv-12",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-12.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GTK_Boxer_Fuehrungsfahrzeug_front.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "독일군 Boxer 지휘차량 — 외부 배치 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "독일군·기존 Boxer 계열 참고사진입니다. 해당 내부·임무모듈을 영국 MIV의 확정 구성으로 해석하면 안 됩니다.",
+      "sourceTitle": "File:GTK Boxer Fuehrungsfahrzeug front.jpg",
+      "sourceDate": "2017-06-24",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "77f87d835eb150a42a13dec3faf3805d620652374668b23b7d5527f29ae403d8"
+    },
+    {
+      "id": "boxer-miv-14",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-14.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_sgSanKfz_stretchers_2.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "독일군 Boxer 구급차 모듈 — 들것 적재 공간 참고",
+      "angle": "구급 모듈 내부",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "독일군·기존 Boxer 계열 참고사진입니다. 해당 내부·임무모듈을 영국 MIV의 확정 구성으로 해석하면 안 됩니다.",
+      "sourceTitle": "File:Boxer sgSanKfz stretchers 2.jpg",
+      "sourceDate": "2017-06-10",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "806e6803aa0a0370488fe8c052d26c1bb743bee2a29341c2dabc738f5a991f81"
+    },
+    {
+      "id": "boxer-miv-16",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-16.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GTK_Boxer_Fuehrungsfahrzeug_Monitor_at_NATO_Days_Ostrava_2023.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "독일군 Boxer 지휘차량 — 내부 모니터와 작업공간 참고",
+      "angle": "지휘 모듈 내부",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "독일군·기존 Boxer 계열 참고사진입니다. 해당 내부·임무모듈을 영국 MIV의 확정 구성으로 해석하면 안 됩니다.",
+      "sourceTitle": "File:GTK Boxer Fuehrungsfahrzeug Monitor at NATO Days Ostrava 2023.jpg",
+      "sourceDate": "2023-09-16",
+      "retrievedAt": "2026-11-10",
+      "width": 768,
+      "height": 1024,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "c496d985a7713de8ba9842b6fe36dfacff4c51c6532723b34049c654a078e34d"
+    },
+    {
+      "id": "boxer-miv-18",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-18.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_2.jpg",
+      "author": "Jack Eckersley",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "caption": "2019년 영국 시연 Boxer MIV — 후면과 임무모듈 참고",
+      "angle": "후면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "sourceTitle": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 2.jpg",
+      "sourceDate": "2019-10-25 13:45:09",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6"
+    },
+    {
+      "id": "boxer-miv-19",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-19.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_11.jpg",
+      "author": "Jack Eckersley",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "caption": "2019년 영국 시연 Boxer MIV — 후면 모듈 근접 참고",
+      "angle": "후면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "sourceTitle": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 11.jpg",
+      "sourceDate": "2019-10-25 13:29:30",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f"
+    },
+    {
+      "id": "boxer-miv-21",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-21.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_5.jpg",
+      "author": "Jack Eckersley",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "caption": "2019년 영국 시연 Boxer MIV — 야지 주행 전면 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "sourceTitle": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 5.jpg",
+      "sourceDate": "2019-10-25 14:24:21",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6"
+    },
+    {
+      "id": "boxer-miv-22",
+      "equipmentId": "boxer-miv",
+      "src": "assets/photos/boxer-miv-22.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_9.jpg",
+      "author": "Jack Eckersley",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "caption": "2019년 영국 시연 Boxer MIV — 차륜과 차체 측면 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "sourceTitle": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 9.jpg",
+      "sourceDate": "2019-10-25 14:24:22",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5"
+    },
+    {
+      "id": "k2pl-05",
+      "equipmentId": "k2pl",
+      "src": "assets/photos/k2pl-05.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polish_Army_K2_at_Radom-2023.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "폴란드군 K2 전경 — K2PL과 구별되는 기존 K2",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:Polish Army K2 at Radom-2023.jpg",
+      "sourceDate": "2023-08-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b"
+    },
+    {
+      "id": "k2pl-23",
+      "equipmentId": "k2pl",
+      "src": "assets/photos/k2pl-23.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:K2_tank_at_the_Hyundai_Rotem_stand_at_MSPO_2026_in_Kielce.jpg",
+      "author": "Krzysztof Popławski",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "caption": "MSPO 2026 현대 로템 부스의 K2 — 정면 참고, K2PL 확정 형상 아님",
+      "angle": "정면",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:K2 tank at the Hyundai Rotem stand at MSPO 2026 in Kielce.jpg",
+      "sourceDate": "8 September 2026",
+      "retrievedAt": "2026-11-10",
+      "width": 1067,
+      "height": 1600,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942"
+    },
+    {
+      "id": "k2pl-00",
+      "equipmentId": "k2pl",
+      "src": "assets/photos/k2pl-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:K2_black_panther3.jpg",
+      "author": "Simta",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "ADEX 2013의 기존 K2 — 전면 사선 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:K2 black panther3.jpg",
+      "sourceDate": "2013-11-03 09:25:42",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1036,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "d07c142cab7202e298968d83e0de9cbbb2c59a8a814a10ab4fbe3a8c40043309"
+    },
+    {
+      "id": "k2pl-08",
+      "equipmentId": "k2pl",
+      "src": "assets/photos/k2pl-08.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polish_Army_K2_right_turret_Radom-2023.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "폴란드군 K2의 우측 포탑 근접 — 공개 외관 참고",
+      "angle": "포탑 상세",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:Polish Army K2 right turret Radom-2023.jpg",
+      "sourceDate": "2023-08-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "77b4e4a21dffca8e714884022b9c511566c2a0a296d66a6f54dc2ae79c5c1bbf"
+    },
+    {
+      "id": "k2pl-09",
+      "equipmentId": "k2pl",
+      "src": "assets/photos/k2pl-09.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polish_Army_K2_left_side_Radom-2023.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "폴란드군 K2의 좌측면 — 포탑·차체 연결부 참고",
+      "angle": "좌측면 상세",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:Polish Army K2 left side Radom-2023.jpg",
+      "sourceDate": "2023-08-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "aca6680ea2ff6b2c7a9159356848faa911e46769120b27a40057e7ff16b3514b"
+    },
+    {
+      "id": "k2pl-10",
+      "equipmentId": "k2pl",
+      "src": "assets/photos/k2pl-10.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polish_Army_K2_right_side_Radom-2023.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "폴란드군 K2의 우측면 근접 — 차체 외장 참고",
+      "angle": "우측면 상세",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:Polish Army K2 right side Radom-2023.jpg",
+      "sourceDate": "2023-08-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "74042ccaca9e680dd01b30393fa7b80d2bcd340160e798fe31f3d661b4848d0f"
+    },
+    {
+      "id": "k2pl-11",
+      "equipmentId": "k2pl",
+      "src": "assets/photos/k2pl-11.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polish_Army_K2_turret_front_Radom-2023.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "폴란드군 K2의 포탑 전면 근접 — 공개 외관 참고",
+      "angle": "포탑 전면 상세",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:Polish Army K2 turret front Radom-2023.jpg",
+      "sourceDate": "2023-08-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "a6c55340ca54f4aba3f3031d87598c16645109db9d1f2fb32618b21cc5072454"
+    },
+    {
+      "id": "k2pl-17",
+      "equipmentId": "k2pl",
+      "src": "assets/photos/k2pl-17.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%9C%A1%EA%B5%B0_K2%EC%A0%84%EC%B0%A8_(7445555272).jpg",
+      "author": "대한민국 국군 Republic of Korea Armed Forces",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "대한민국 육군 기존 K2의 측면 사격 장면",
+      "angle": "측면",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:육군 K2전차 (7445555272).jpg",
+      "sourceDate": "2012-06-26 10:55",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 860,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "3bfe15fb68e24993dc1b83c843583f3753fd9430941a14822150cd3c00927337"
+    },
+    {
+      "id": "k2pl-01",
+      "equipmentId": "k2pl",
+      "src": "assets/photos/k2pl-01.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:K2_Black_Panther_20161106.jpg",
+      "author": "KBS VIEW – theDEEP",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "caption": "기존 K2의 위장망 적용 전면 — K2PL 확정 형상 아님",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:K2 Black Panther 20161106.jpg",
+      "sourceDate": "2016-11-06",
+      "retrievedAt": "2026-11-10",
+      "width": 1279,
+      "height": 719,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "735b97e00eae905e9fe53f2b23483dec5d21bb04edf5a2e6c145b313fe2465f6"
+    },
+    {
+      "id": "patria-6x6-00",
+      "equipmentId": "patria-6x6",
+      "src": "assets/photos/patria-6x6-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patria_6x6_APC.jpg",
+      "author": "TnTkr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Patria 6×6의 외부 전경 — 기본 차체와 차륜 배치",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "sourceTitle": "File:Patria 6x6 APC.jpg",
+      "sourceDate": "2021-10-29",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1024,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9"
+    },
+    {
+      "id": "patria-6x6-01",
+      "equipmentId": "patria-6x6",
+      "src": "assets/photos/patria-6x6-01.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patria_6x6_MSPO23_IMG133345590_HDR.jpg",
+      "author": "Michał Derela",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "MSPO 2023의 Patria 6×6 전시차량",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "sourceTitle": "File:Patria 6x6 MSPO23 IMG133345590 HDR.jpg",
+      "sourceDate": "2023-09-05",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 960,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54"
+    },
+    {
+      "id": "patria-6x6-02",
+      "equipmentId": "patria-6x6",
+      "src": "assets/photos/patria-6x6-02.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lippujuhlan_p%C3%A4iv%C3%A4n_2022_paraati_046_Patria_6x6_XA-300.JPG",
+      "author": "MKFI",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "caption": "핀란드군 Patria 6×6 XA-300 — 전면 사선 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "sourceTitle": "File:Lippujuhlan päivän 2022 paraati 046 Patria 6x6 XA-300.JPG",
+      "sourceDate": "2022-06-04",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1"
+    },
+    {
+      "id": "patria-6x6-04",
+      "equipmentId": "patria-6x6",
+      "src": "assets/photos/patria-6x6-04.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lippujuhlan_p%C3%A4iv%C3%A4n_2022_paraati_049_Patria_6x6_XA-300.JPG",
+      "author": "MKFI",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "caption": "핀란드군 Patria 6×6 XA-300 — 후면과 측면 참고",
+      "angle": "후면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "sourceTitle": "File:Lippujuhlan päivän 2022 paraati 049 Patria 6x6 XA-300.JPG",
+      "sourceDate": "2022-06-04",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363"
+    },
+    {
+      "id": "patria-6x6-08",
+      "equipmentId": "patria-6x6",
+      "src": "assets/photos/patria-6x6-08.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ko%C5%82owy_transporter_opancerzony_Patria_6x6_%C5%82otewskich_Narodowych_Si%C5%82_Zbrojnych_(NBS)..jpg",
+      "author": "Naračanski",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "라트비아군 Patria 6×6 — 국가별 구성 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "sourceTitle": "File:Kołowy transporter opancerzony Patria 6x6 łotewskich Narodowych Sił Zbrojnych (NBS)..jpg",
+      "sourceDate": "2024-07-10",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 899,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18"
+    },
+    {
+      "id": "lynx-skyranger35-03",
+      "equipmentId": "lynx-skyranger35",
+      "src": "assets/photos/lynx-skyranger35-03.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rheinmetall_LYNX_KF41_for_LAND_400_Phase.jpg",
+      "author": "Rheinmetall Defence",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "호주 LAND 400 제안형 Lynx KF41 — Skyranger 35 통합형 아님",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "Lynx KF41 계열 참고사진입니다. 사진의 포탑은 Skyranger 35 통합형을 나타내지 않습니다. 방공형 제원·구조의 증거로 사용할 수 없습니다.",
+      "sourceTitle": "File:Rheinmetall LYNX KF41 for LAND 400 Phase.jpg",
+      "sourceDate": "2020-10-30 15:36:19",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "077aa8b758ffa16300320af3e9d9cec88dbe6bd64927aa6962ad07a7ac39878e"
+    },
+    {
+      "id": "lynx-skyranger35-05",
+      "equipmentId": "lynx-skyranger35",
+      "src": "assets/photos/lynx-skyranger35-05.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rheinmetall_Lynx_KF41_Parow_2024.JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "caption": "2024년 Parow 공개행사의 Lynx KF41 시연차량",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "Lynx KF41 계열 참고사진입니다. 사진의 포탑은 Skyranger 35 통합형을 나타내지 않습니다. 방공형 제원·구조의 증거로 사용할 수 없습니다.",
+      "sourceTitle": "File:Rheinmetall Lynx KF41 Parow 2024.JPG",
+      "sourceDate": "2024-08-17",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "d03a2e66b69b36a584a4c848898691c1b4b88dea8fdc4da360af153ebafcee62"
+    },
+    {
+      "id": "lynx-skyranger35-07",
+      "equipmentId": "lynx-skyranger35",
+      "src": "assets/photos/lynx-skyranger35-07.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rheinmetall_Lynx_KF41_leftside_Parow_2024.JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "caption": "Lynx KF41 시연차량의 측면 — 방공형과 다른 포탑 구성",
+      "angle": "측면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "Lynx KF41 계열 참고사진입니다. 사진의 포탑은 Skyranger 35 통합형을 나타내지 않습니다. 방공형 제원·구조의 증거로 사용할 수 없습니다.",
+      "sourceTitle": "File:Rheinmetall Lynx KF41 leftside Parow 2024.JPG",
+      "sourceDate": "2024-08-17",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "cb870eb53e653c35dc21428552ec8501499a211249f43be9debb8a5e7647613e"
+    },
+    {
+      "id": "leopard-2a8-04",
+      "equipmentId": "leopard-2a8",
+      "src": "assets/photos/leopard-2a8-04.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leopard_2A8.jpg",
+      "author": "Wikimedilea",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "출처 표기 Leopard 2A8 — 2025년 Zagreb 운송 장면",
+      "angle": "측면",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "원출처는 Leopard 2A8 또는 시제차로 표기합니다. 전시회 출품차·국가별 양산 구성과 동일한지는 별도 확인이 필요합니다.",
+      "sourceTitle": "File:Leopard 2A8.jpg",
+      "sourceDate": "2025-07-15",
+      "retrievedAt": "2026-11-10",
+      "width": 1200,
+      "height": 870,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95"
+    },
+    {
+      "id": "leopard-2a8-02",
+      "equipmentId": "leopard-2a8",
+      "src": "assets/photos/leopard-2a8-02.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leopard_2A8_prototype.jpg",
+      "author": "Defensie Nederlands",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "네덜란드 국방부 자료의 Leopard 2A8 시제차 표기 사진",
+      "angle": "측면",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "원출처는 Leopard 2A8 또는 시제차로 표기합니다. 전시회 출품차·국가별 양산 구성과 동일한지는 별도 확인이 필요합니다.",
+      "sourceTitle": "File:Leopard 2A8 prototype.jpg",
+      "sourceDate": "2024-04",
+      "retrievedAt": "2026-11-10",
+      "width": 1250,
+      "height": 833,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78"
+    },
+    {
+      "id": "leopard-2a8-07",
+      "equipmentId": "leopard-2a8",
+      "src": "assets/photos/leopard-2a8-07.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leopard_2A8_with_Trophy_system.jpg",
+      "author": "Defensie",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Leopard 2A7A1과 Trophy — 2A8과 구별되는 선행형 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "파일 제목에는 2A8이 있지만 원출처 설명은 Leopard 2A7A1입니다. 따라서 2A7A1 참고사진으로 분류했습니다. 2A8 실물 형상을 확정하지 않습니다.",
+      "sourceTitle": "File:Leopard 2A8 with Trophy system.jpg",
+      "sourceDate": "14 May 2025",
+      "retrievedAt": "2026-11-10",
+      "width": 735,
+      "height": 491,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea"
+    },
+    {
+      "id": "rch155-tracked-03",
+      "equipmentId": "rch155-tracked",
+      "src": "assets/photos/rch155-tracked-03.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KNDS_RCH_155_at_Klietz_2025.JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "caption": "차륜형 Boxer 기반 RCH 155 — 궤도형과 다른 차체",
+      "angle": "측면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "차륜형 Boxer 기반 RCH 155 참고사진입니다. 궤도형 RCH 155 차량 사진이 아닙니다.",
+      "sourceTitle": "File:KNDS RCH 155 at Klietz 2025.JPG",
+      "sourceDate": "2025-07-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1280,
+      "height": 960,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "7a6b2344d0d3d38a3fb3a07a3d8da28898be4c2ab8c3e965e893cdfda3585ca3"
+    },
+    {
+      "id": "rch155-tracked-05",
+      "equipmentId": "rch155-tracked",
+      "src": "assets/photos/rch155-tracked-05.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KNDS_RCH_155_back_side_at_Klietz_2025.JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "caption": "차륜형 RCH 155의 후면 — 궤도형 형상 아님",
+      "angle": "후면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "차륜형 Boxer 기반 RCH 155 참고사진입니다. 궤도형 RCH 155 차량 사진이 아닙니다.",
+      "sourceTitle": "File:KNDS RCH 155 back side at Klietz 2025.JPG",
+      "sourceDate": "2025-07-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1280,
+      "height": 960,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "49e650894bf87a3760fc6860be722e4d24e81155c0fac7bae232659e60cc68da"
+    },
+    {
+      "id": "rch155-tracked-06",
+      "equipmentId": "rch155-tracked",
+      "src": "assets/photos/rch155-tracked-06.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SETAS_left_view_ICM_on_RCH_155_Klietz_2025.JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "caption": "차륜형 RCH 155의 외부 SETAS 장치 — 공개 외관 참고",
+      "angle": "외부 장치 상세",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "차륜형 Boxer 기반 RCH 155 참고사진입니다. 궤도형 RCH 155 차량 사진이 아닙니다.",
+      "sourceTitle": "File:SETAS left view ICM on RCH 155 Klietz 2025.JPG",
+      "sourceDate": "2025-07-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e"
+    },
+    {
+      "id": "k808-peru-12",
+      "equipmentId": "k808-peru",
+      "src": "assets/photos/k808-peru-12.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KMEP_26_1_-_12th_LCT%E2%80%99s_Charlie_Company_Execute_Training_on_the_K808_(9599330).jpg",
+      "author": "U.S. Marine Corps photo by Lance Cpl. Camila Garibay",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+      "caption": "대한민국 K808의 주행 전면 — 2026년 공개 훈련 사진",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "대한민국 K808 계열 참고사진입니다. 페루 수출형의 세부 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:KMEP 26 1 - 12th LCT’s Charlie Company Execute Training on the K808 (9599330).jpg",
+      "sourceDate": "Taken on 11 March 2026",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1068,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "2b0f1f6bf39db012c28fa198cc43c1169a3de746fdb9ed72dbf4a3a85b0e0973"
+    },
+    {
+      "id": "k808-peru-14",
+      "equipmentId": "k808-peru",
+      "src": "assets/photos/k808-peru-14.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KMEP_26_1_-_12th_LCT%E2%80%99s_Charlie_Company_Execute_Training_on_the_K808_(9599333).jpg",
+      "author": "U.S. Marine Corps photo by Lance Cpl. Camila Garibay",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+      "caption": "대한민국 K808의 원거리 측면 — 공개 훈련 사진",
+      "angle": "측면 원경",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "대한민국 K808 계열 참고사진입니다. 페루 수출형의 세부 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:KMEP 26 1 - 12th LCT’s Charlie Company Execute Training on the K808 (9599333).jpg",
+      "sourceDate": "Taken on 11 March 2026",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1068,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "b238205a6b0b8951d92d9f3709e77a03e2f025c2dad8044eb6fd8c72d1ec18cf"
+    },
+    {
+      "id": "k808-peru-15",
+      "equipmentId": "k808-peru",
+      "src": "assets/photos/k808-peru-15.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KMEP_26_1_-_12th_LCT%E2%80%99s_Charlie_Company_Execute_Training_on_the_K808_(9599331).jpg",
+      "author": "U.S. Marine Corps photo by Lance Cpl. Camila Garibay",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+      "caption": "대한민국 K808의 후면 사선 — 차체 일부 프레임 밖",
+      "angle": "후면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "대한민국 K808 계열 참고사진입니다. 페루 수출형의 세부 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:KMEP 26 1 - 12th LCT’s Charlie Company Execute Training on the K808 (9599331).jpg",
+      "sourceDate": "Taken on 11 March 2026",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1068,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "8f63c7226570e1e5363d84fc4ce1997b4380df0dd3c0b80ff101a733e2e993a4"
+    },
+    {
+      "id": "k9a3-03",
+      "equipmentId": "k9a3",
+      "src": "assets/photos/k9a3-03.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polish_Army_K9_front_at_Radom-2023.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "폴란드군 기존 K9 — 전면 사선, K9A3 형상 아님",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K9 계열 참고사진입니다. K9A3의 무인포탑·자동화 구성이나 최종 형상을 나타내지 않습니다.",
+      "sourceTitle": "File:Polish Army K9 front at Radom-2023.jpg",
+      "sourceDate": "2023-08-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "aaf24af505a5b7b17d4a6faa30d2ff3332f9a98e408a752b95bbf8fccec56e5c"
+    },
+    {
+      "id": "k9a3-02",
+      "equipmentId": "k9a3",
+      "src": "assets/photos/k9a3-02.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:K-9thunder.jpg",
+      "author": "권순삼, 국방시민연대 (Defense Citizen Network)",
+      "license": "CC BY-SA 2.0 kr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+      "caption": "대한민국 기존 K9 — 측면과 차체 배치 참고",
+      "angle": "측면",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K9 계열 참고사진입니다. K9A3의 무인포탑·자동화 구성이나 최종 형상을 나타내지 않습니다.",
+      "sourceTitle": "File:K-9thunder.jpg",
+      "sourceDate": "",
+      "retrievedAt": "2026-11-10",
+      "width": 1000,
+      "height": 765,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "f9d30ff810da2c998ee3d07b215388bad3275fe866c7c3edb9f969834ab04d25"
+    },
+    {
+      "id": "k9a3-11",
+      "equipmentId": "k9a3",
+      "src": "assets/photos/k9a3-11.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lippujuhlan_p%C3%A4iv%C3%A4n_2017_paraati_104_K9_Thunder.JPG",
+      "author": "MKFI",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "caption": "핀란드군 K9 — 운용국별 구성 참고, K9A3 아님",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K9 계열 참고사진입니다. K9A3의 무인포탑·자동화 구성이나 최종 형상을 나타내지 않습니다.",
+      "sourceTitle": "File:Lippujuhlan päivän 2017 paraati 104 K9 Thunder.JPG",
+      "sourceDate": "2017-06-04",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "59473682382b3adc312870dfdf99d705f6208a947260ff1e031deb8ae06ee9ed"
+    },
+    {
+      "id": "themis-k-00",
+      "equipmentId": "themis-k",
+      "src": "assets/photos/themis-k-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:THeMIS_5th_generation_UGV.jpg",
+      "author": "Milrem Robotics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Milrem Robotics THeMIS 5세대 — 기존 UGV 외관 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "Milrem Robotics의 기존 THeMIS 계열 참고사진입니다. THeMIS-K의 한국형 탑재장비·최종 형상과 다를 수 있습니다.",
+      "sourceTitle": "File:THeMIS 5th generation UGV.jpg",
+      "sourceDate": "2019-04-16",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "81c4ea6179f5e2483bf1e8f5ca2f79874a46053d4804ea51ee8699f3660fcd13"
+    },
+    {
+      "id": "arma-ii-00",
+      "equipmentId": "arma-ii",
+      "src": "assets/photos/arma-ii-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otokar_ARMA_6x6(Estonian_Army)(2).jpg",
+      "author": "ПринцШотландии",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "에스토니아군 ARMA 6×6 — ARMA II 8×8과 다른 선행형",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "에스토니아군 ARMA 6×6 참고사진입니다. ARMA II 8×8과 차체·차륜 수가 다른 선행 계열입니다.",
+      "sourceTitle": "File:Otokar ARMA 6x6(Estonian Army)(2).jpg",
+      "sourceDate": "2025-02-25",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1200,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "addbf63377971d9381663c910b70f32e23c91c8f9443afcc17f1b50fe58dc35e"
+    },
+    {
+      "id": "arma-ii-01",
+      "equipmentId": "arma-ii",
+      "src": "assets/photos/arma-ii-01.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otokar_ARMA_6x6_(Estonian_Army)(1).jpg",
+      "author": "ПринцШотландии",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "에스토니아군 ARMA 6×6의 후면 — 8×8형과 구별 필요",
+      "angle": "후면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "에스토니아군 ARMA 6×6 참고사진입니다. ARMA II 8×8과 차체·차륜 수가 다른 선행 계열입니다.",
+      "sourceTitle": "File:Otokar ARMA 6x6 (Estonian Army)(1).jpg",
+      "sourceDate": "2025-02-25",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1200,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "ee7c1dff45819b2a7d3057f4685712d3b47f771846a09b172559d9c7d8776298"
+    },
+    {
+      "id": "tulpar-00",
+      "equipmentId": "tulpar",
+      "src": "assets/photos/tulpar-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TULPAR.jpg",
+      "author": "Swadim",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "DSEI 2019의 TULPAR — MIZRAK 30 포탑 전시형 참고",
+      "angle": "측면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "DSEI 2019의 TULPAR 참고사진입니다. SAHA 2026 전시 형상을 확정하지 않습니다.",
+      "sourceTitle": "File:TULPAR.jpg",
+      "sourceDate": "2019-09-11 14:56:30",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1200,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8"
+    },
+    {
+      "id": "cobra-ii-08",
+      "equipmentId": "cobra-ii",
+      "src": "assets/photos/cobra-ii-08.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cobra_II.jpg",
+      "author": "Cezary Filip Krzymowski",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "caption": "IDEX 2025의 COBRA II — 측면과 승하차 문 참고",
+      "angle": "측면",
+      "context": "event",
+      "eventId": "idex-2025",
+      "variantNote": "원본 사진 설명과 촬영일은 IDEX 2025를 가리킵니다. 해당 전시 차량의 임무형·세부 장비명은 별도 확인이 필요합니다.",
+      "sourceTitle": "File:Cobra II.jpg",
+      "sourceDate": "2025-02-20",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1200,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd"
+    },
+    {
+      "id": "pars-alpha-00",
+      "equipmentId": "pars-alpha",
+      "src": "assets/photos/pars-alpha-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FNSS_-_PARS_ALPHA_8x8.jpg",
+      "author": "Ciko1213",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "PARS ALPHA 8×8 전시차량 — 차체·차륜 배치 참고",
+      "angle": "측면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "출처 표기 PARS ALPHA 8×8 참고사진입니다. SAHA 2026 실물 전시·최종 양산 구성을 증명하지 않습니다.",
+      "sourceTitle": "File:FNSS - PARS ALPHA 8x8.jpg",
+      "sourceDate": "2025-01-07",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 900,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35"
+    },
+    {
+      "id": "pars-alpha-11",
+      "equipmentId": "pars-alpha",
+      "src": "assets/photos/pars-alpha-11.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARS_ALPHA_8x8_Taktik_Tekerlekli_Z%C4%B1rhl%C4%B1_Muharebe_Arac%C4%B1.jpg",
+      "author": "RainforestGuardian",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "PARS ALPHA 8×8 외부 전경 — 전면 사선 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "출처 표기 PARS ALPHA 8×8 참고사진입니다. SAHA 2026 실물 전시·최종 양산 구성을 증명하지 않습니다.",
+      "sourceTitle": "File:PARS ALPHA 8x8 Taktik Tekerlekli Zırhlı Muharebe Aracı.jpg",
+      "sourceDate": "2023-12-06 15:55:38",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1067,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855"
+    },
+    {
+      "id": "kaplan-hybrid-00",
+      "equipmentId": "kaplan-hybrid",
+      "src": "assets/photos/kaplan-hybrid-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KaplanSTA.jpg",
+      "author": "CeeGee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "IDEF 2019의 KAPLAN STA — HYBRID와 다른 파생형",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "KAPLAN STA 참고사진입니다. KAPLAN HYBRID의 동력계·최종 형상을 나타내지 않습니다.",
+      "sourceTitle": "File:KaplanSTA.jpg",
+      "sourceDate": "2019-05-02 10:44:18",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1200,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "2793449fd6e58feae4a17e4472e0724ffa55066248f37d3ced4c08c931c8d9d2"
+    },
+    {
+      "id": "k9a3-07",
+      "equipmentId": "k9a3",
+      "src": "assets/photos/k9a3-07.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polish_Army_K9_back_at_Radom-2023.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "기존 K9의 후면 — K9A3 형상 아님",
+      "angle": "후면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 K9 계열 참고사진입니다. K9A3의 무인포탑·자동화 구성이나 최종 형상을 나타내지 않습니다.",
+      "sourceTitle": "File:Polish Army K9 back at Radom-2023.jpg",
+      "sourceDate": "2023-08-26",
+      "retrievedAt": "2026-11-10",
+      "width": 1024,
+      "height": 768,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "41df7fff5d51af5e282bc138d54edaaa60267bb094db84a239fd7f61a4f341bc"
+    },
+    {
+      "id": "k808-peru-00",
+      "equipmentId": "k808-peru",
+      "src": "assets/photos/k808-peru-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ROKA_K808_APC_river_crossing_training_-_March_2021.jpg",
+      "author": "국방부 - ROK Ministry of National Defense",
+      "license": "KOGL Type 1",
+      "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do",
+      "caption": "대한민국 K808 도하 훈련 — 페루 수출형 아님",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "대한민국 K808 계열 참고사진입니다. 페루 수출형의 세부 형상·장비를 나타내지 않습니다.",
+      "sourceTitle": "File:ROKA K808 APC river crossing training - March 2021.jpg",
+      "sourceDate": "2021-03-03",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 908,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "e2b6aca06dec2953da24a510d0f33cf73a5d5f411539a631e63d6e19549adf9b"
+    },
+    {
+      "id": "cobra-ii-00",
+      "equipmentId": "cobra-ii",
+      "src": "assets/photos/cobra-ii-00.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:OtokarCobraII.jpg",
+      "author": "CeeGee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "IDEF 2019의 COBRA II — 전면 사선 참고",
+      "angle": "전면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "IDEF 2019의 COBRA II 참고사진입니다. IDEX 2025 차량과 세부 장비·형상이 다를 수 있습니다.",
+      "sourceTitle": "File:OtokarCobraII.jpg",
+      "sourceDate": "2019-05-02 11:35:09",
+      "retrievedAt": "2026-11-10",
+      "width": 1600,
+      "height": 1200,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "2120fb5b5c9317560c6cfc5861dc7dbad64ef858ed5ccbd4158bf05fedd6937b"
+    },
+    {
+      "id": "themis-k-21",
+      "equipmentId": "themis-k",
+      "src": "assets/photos/themis-k-21.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:THeMIS_COMBAT.jpg",
+      "author": "Cezary FIlip Krzymowski",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "caption": "THeMIS COMBAT — THeMIS-K와 다른 무장형 참고",
+      "angle": "측면 사선",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "기존 THeMIS COMBAT 참고사진입니다. THeMIS-K의 탑재체나 최종 형상을 나타내지 않습니다.",
+      "sourceTitle": "File:THeMIS COMBAT.jpg",
+      "sourceDate": "2025-02-20",
+      "retrievedAt": "2026-11-10",
+      "width": 1200,
+      "height": 1600,
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "purpose",
+      "label": "용도·개발 방향",
+      "description": "공개된 임무와 개발 방향, 제품군 내 위치"
+    },
+    {
+      "id": "layout",
+      "label": "차체·전체 배치",
+      "description": "조종석·동력장치·탑승실·탑재장치 배치"
+    },
+    {
+      "id": "mobility",
+      "label": "기동·동력 계통",
+      "description": "공개된 중량·출력·구동·현수 구성의 관계"
+    },
+    {
+      "id": "ergonomics",
+      "label": "탑승공간·인간공학",
+      "description": "좌석·통로·출입·시야·개인장구 수용 관점"
+    },
+    {
+      "id": "protection",
+      "label": "방호·안전 구성",
+      "description": "공개 방호 사양과 안전 관련 구성"
+    },
+    {
+      "id": "integration",
+      "label": "탑재장치·체계 통합",
+      "description": "탑재장치의 배치와 시스템 간 통합 특징"
+    },
+    {
+      "id": "maintenance",
+      "label": "정비·지원성",
+      "description": "정비 접근·교환·점검구·지원체계"
+    },
+    {
+      "id": "modularity",
+      "label": "모듈화·계열화",
+      "description": "공용 차체·임무변경·계열형 확대"
+    },
+    {
+      "id": "maturity",
+      "label": "개발·운용 상태",
+      "description": "개념·목업·시제·양산·운용 근거 구분"
+    },
+    {
+      "id": "implication",
+      "label": "검토 시사점",
+      "description": "공개자료에서 도출한 검토 논점과 추가 질문"
+    }
+  ]
+}
