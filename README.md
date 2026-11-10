@@ -1,2 +1,37 @@
-# exhibition-intelligence
-Public-source ground equipment exhibition intelligence: Eurosatory, DSEI, IDEX, SAHA and Seoul ADEX.
+# 전시회 장비 분석 / Exhibition Intelligence
+
+공개 근거를 확인하며 전시 장비 사진·제원·상세 분석·회차별 변화를 검토하는 독립 웹앱.
+
+## 범위
+- Eurosatory 2026, DSEI 2025, IDEX 2025, SAHA 2026, 서울 ADEX 2025
+- 지상장비 우선. 직전 회차 자료는 변화 검토 근거로 제한.
+- 원문 사실, 분석 의견, 확인 필요사항을 분리. 확인되지 않은 전시 참여는 후보로 표시.
+- 과거/다른 계열형의 사진은 참고사진으로 명시. 공개 이미지의 재사용 허가와 원출처 보존.
+
+## 실행
+Node.js 20 이상. 외부 런타임 패키지 없음.
+```sh
+npm run build
+npm test
+npm run dev
+```
+로컬 주소는 실행 로그를 따릅니다. `dist/`는 향후 정적 호스팅에 사용할 빌드 결과입니다.
+
+## 배포 상태
+GitHub에 소스·공개 데이터·허용된 사진을 버전관리합니다. **사이트 배포와 GitHub Pages 활성화는 아직 하지 않습니다.**
+
+## 저장 구조
+- `data/research/`: 장비별 공개자료와 분석
+- `data/photos.json`, `assets/photos/`: 사진 출처·라이선스 및 파일
+- `data/exhibitions.json`, `data/criteria.json`: 전시회·평가항목
+- `src/`: UI와 동작
+- `docs/STATUS.md`: 진행 상태·재개 순서
+- `CHANGELOG.md`: 버전 변경 기록
+
+개인 메모와 평가항목 편집은 해당 브라우저에만 저장됩니다. GitHub 원본 데이터는 변경되지 않습니다. JSON 내보내기로 백업하십시오.
+
+## 콘텐츠 해석
+제원은 제조사 공개값이며 독립 시험으로 검증한 성능을 의미하지 않습니다. 전시회 출품 상태·목업 여부·차량 계열형은 개별 근거를 확인하십시오. 데이터베이스의 분포는 조사한 표본이며 전시회 전체 통계가 아닙니다.
+
+## 저작물
+코드 및 분석문과 제3자 사진의 권리 조건은 구분됩니다. 각 사진의 저작자·라이선스·원문 링크는 사진 명세에 기록합니다. 권리 불명확 사진은 저장하지 않습니다.

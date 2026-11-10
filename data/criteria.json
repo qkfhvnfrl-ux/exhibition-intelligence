@@ -1,0 +1,12 @@
+[
+ {"id":"purpose","label":"용도·개발 방향","description":"공개된 임무와 개발 방향, 제품군 내 위치"},
+ {"id":"layout","label":"차체·전체 배치","description":"조종석·동력장치·탑승실·탑재장치 배치"},
+ {"id":"mobility","label":"기동·동력 계통","description":"공개된 중량·출력·구동·현수 구성의 관계"},
+ {"id":"ergonomics","label":"탑승공간·인간공학","description":"좌석·통로·출입·시야·개인장구 수용 관점"},
+ {"id":"protection","label":"방호·안전 구성","description":"공개 방호 사양과 안전 관련 구성"},
+ {"id":"integration","label":"탑재장치·체계 통합","description":"탑재장치의 배치와 시스템 간 통합 특징"},
+ {"id":"maintenance","label":"정비·지원성","description":"정비 접근·교환·점검구·지원체계"},
+ {"id":"modularity","label":"모듈화·계열화","description":"공용 차체·임무변경·계열형 확대"},
+ {"id":"maturity","label":"개발·운용 상태","description":"개념·목업·시제·양산·운용 근거 구분"},
+ {"id":"implication","label":"검토 시사점","description":"공개자료에서 도출한 검토 논점과 추가 질문"}
+]

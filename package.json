@@ -1,0 +1,14 @@
+{
+  "name": "exhibition-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Public-source ground equipment exhibition research workspace",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/app.js && npm test"
+  },
+  "engines": {"node": ">=20"}
+}
