@@ -1,0 +1,582 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-11-11",
+  "title": "서울 ADEX 2025 — 고객형·경량화·원격운용",
+  "summary": "실제 전시 현장사진으로 K2PL, 경량화 105mm 자주포, 전술차량용 RCWS를 살펴봅니다. 고객 맞춤형 구성, 소형 차량을 활용한 제품 전개, 실내 원격운용이라는 서로 다른 전시 특징을 비교합니다.",
+  "scopeNote": "서울 ADEX 2025의 현장사진 3장과 이전·후속 형상 참고사진 8장을 구분해 수록했습니다. 참고사진은 해당 행사 현장사진이나 동일 형상 입증자료가 아닙니다. 세 사례의 전시 구성과 공개 설명을 분석하며 성능 순위를 매기지 않습니다.",
+  "event": {
+    "id": "adex-2025",
+    "name": "서울 ADEX 2025",
+    "year": 2025,
+    "dates": "2025.10.20–24 · 전문관람일",
+    "location": "경기 고양시 KINTEX 제2전시장 · 야외전시장",
+    "sourceUrl": "https://www.seouladex.com/assets/download/Seoul%20ADEX%202025%20Brochure_ENG.pdf",
+    "summary": "2025년 10월 20–24일 KINTEX 전문관람일의 지상장비 전시를 분석합니다. 첫 검토 묶음은 현대로템과 현대위아의 실제 출품 장비 3종이며, 서울공항 일반관람 행사(10월 17–19일)와 구분합니다."
+  },
+  "cases": [
+    {
+      "id": "k2pl",
+      "name": "K2PL",
+      "manufacturer": "현대로템",
+      "country": "대한민국",
+      "category": "전차",
+      "subtitle": "폴란드 맞춤형 K2 · 실물 첫 공개",
+      "summary": "폴란드 고객형을 실물로 제시한 K2 계열 사례입니다. 수출 콘셉트였던 제품 제안이 특정 고객의 장비 구성과 현지 생산·지원 패키지로 구체화되는 흐름을 보여줍니다.",
+      "eventLabel": "서울 ADEX 2025 · 실물 첫 공개",
+      "eventStatus": "confirmed",
+      "heroPhotoId": "k2pl-event-01",
+      "photoIds": [
+        "k2pl-event-01",
+        "k2pl-05",
+        "k2pl-08",
+        "k2pl-09",
+        "k2pl-00"
+      ],
+      "specs": [
+        {
+          "label": "전시 구분",
+          "value": "폴란드형 K2 실물 첫 공개",
+          "note": "제조사 ADEX 2025 발표",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        },
+        {
+          "label": "주요 공개 구성",
+          "value": "APS · 드론 재머 · 원격무장장치 · 특수장갑",
+          "note": "제품 구성 소개; 정량 성능 비교값은 아님",
+          "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+        },
+        {
+          "label": "고객형 계약",
+          "value": "K2PL 64대",
+          "note": "2025년 8월 2차 계약 발표 기준",
+          "sourceUrl": "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+        },
+        {
+          "label": "생산·납품 계획",
+          "value": "3대 한국 제작 · 61대 폴란드 제작",
+          "note": "정부 발표 당시 계획; K2PL 납품 2028–2030년",
+          "sourceUrl": "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+        }
+      ],
+      "observations": [
+        {
+          "id": "k2pl-customer",
+          "title": "범용 수출 제안에서 고객형 실물로",
+          "fact": "ADEX 2023은 K2EX 콘셉트, 2025는 K2PL 실물을 소개했습니다.",
+          "interpretation": "두 회차의 전시 메시지는 개량 가능성 소개에서 특정 고객형 제시로 구체화됩니다. 장비명만 바뀐 것으로 보기보다 요구·형상·지원 범위를 고객별로 묶어 비교할 사례입니다.",
+          "question": "사진·명패·공개 자료에서 고객형의 특징을 일관되게 추적할 수 있는가?",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "id": "k2pl-package",
+          "title": "상부 장비까지 포함한 제품 패키지",
+          "fact": "공개 구성에는 APS, 드론 재머, 원격무장장치, 특수장갑이 포함됩니다.",
+          "interpretation": "전차의 차체·포탑 형상에 여러 장비가 더해진 제품 구성이 핵심입니다. 외형 사진과 함께 운용자 화면, 교육 내용, 정비 접근성 자료를 연결하면 장비 목록을 실제 사용 관점으로 읽을 수 있습니다.",
+          "question": "장비 추가에 따른 운용·교육·정비 설명은 어느 자료에서 함께 확인할 수 있는가?",
+          "sourceUrls": [
+            "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+          ]
+        },
+        {
+          "id": "k2pl-local",
+          "title": "차량 수출과 현지 생산을 함께 제시",
+          "fact": "폴란드 정부는 K2PL의 한국 제작 3대와 현지 제작 61대를 구분했습니다.",
+          "interpretation": "현지화는 완성차의 성능 제안에 생산·검사·지원 역량까지 포함하는 사업 구조입니다. 전시 비교도 차량 사진뿐 아니라 생산 주체와 유지지원 패키지를 함께 보면 차별점을 더 명확히 설명할 수 있습니다.",
+          "question": "현지 생산·교육·정비에서 각 주체가 맡는 범위는 어떻게 공개돼 있는가?",
+          "sourceUrls": [
+            "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+          ]
+        },
+        {
+          "id": "k2pl-support",
+          "title": "지원 패키지가 제품 가치의 일부",
+          "fact": "정부 계약 설명에는 기술 문서, 예비부품, 공구, 교육이 포함됩니다.",
+          "interpretation": "차량 판매 이후의 가동과 유지가 별도 부가서비스가 아니라 제품 제안의 일부로 드러납니다. 공개 전시를 사업 관점에서 분석할 때도 차체 제원과 지원체계의 준비 수준을 나누어 살펴볼 필요가 있습니다.",
+          "question": "차량 구성과 지원 문서·교육 체계가 동일한 고객형을 기준으로 연결되어 있는가?",
+          "sourceUrls": [
+            "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "ADEX 2025 K2PL·페루형·지원 계열 공개",
+          "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "publisher": "현대로템",
+          "date": "2025-10-20"
+        },
+        {
+          "title": "ADEX 2023 K2EX 수출 콘셉트 공개",
+          "url": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032",
+          "publisher": "현대로템",
+          "date": "2023-10-17"
+        },
+        {
+          "title": "K2 2차 계약과 K2PL 현지화·지원 범위",
+          "url": "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii",
+          "publisher": "폴란드 국방부",
+          "date": "2025-08-01"
+        }
+      ],
+      "limitations": [
+        "K2EX와 K2PL은 전시 메시지를 비교한 것이며 동일 차량의 연속 개량으로 단정하지 않습니다.",
+        "기본형 K2 수치를 K2PL 전시형의 중량·성능으로 적용하지 않습니다."
+      ],
+      "photoCoverageNote": "ADEX 2025 현장 1장 + 기존 K2 계열 참고 4장. 기존형은 K2PL의 세부 형상·성능 근거가 아닙니다."
+    },
+    {
+      "id": "light-105",
+      "name": "경량화 105mm 자주포",
+      "manufacturer": "현대위아",
+      "country": "대한민국",
+      "category": "차량탑재 화력체계",
+      "subtitle": "소형전술차량 탑재 · 경량화 제품 실물 공개",
+      "summary": "소형전술차량을 기반으로 제시한 경량화 제품입니다. 차량과 탑재장비의 조합, 외부 작업공간, 함께 소개된 지원차량을 통해 완성체계의 제품 범위를 살펴봅니다.",
+      "eventLabel": "서울 ADEX 2025 · 실물 및 현장사진 확인",
+      "eventStatus": "confirmed",
+      "heroPhotoId": "light-105-event-01",
+      "photoIds": [
+        "light-105-event-01",
+        "light-105-wds2026-01",
+        "light-105-eurosatory2026-01",
+        "light-105-eurosatory2026-02"
+      ],
+      "specs": [
+        {
+          "label": "제품 유형",
+          "value": "105mm 경량화 자주포",
+          "note": "ADEX 2025 실물 공개 제품",
+          "sourceUrl": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1"
+        },
+        {
+          "label": "탑재 기반",
+          "value": "소형전술차량",
+          "note": "제조사 행사 소개 기준",
+          "sourceUrl": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1"
+        },
+        {
+          "label": "공개 특징",
+          "value": "기존 대비 무게 절반 이상 경량화",
+          "note": "제조사 설명; 기준중량·비교 범위의 상세값은 미공개",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+        },
+        {
+          "label": "함께 소개된 구성",
+          "value": "사격지휘차량 · 탄약운반차량",
+          "note": "지원차량을 포함한 제품 구성 설명",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+        }
+      ],
+      "observations": [
+        {
+          "id": "light105-platform",
+          "title": "소형 차량과 탑재장비의 조합",
+          "fact": "현대위아는 소형전술차량에 탑재한 경량화 제품을 실물로 공개했습니다.",
+          "interpretation": "전용 대형 차체뿐 아니라 소형 기반 차량을 활용하는 제품 전개를 보여줍니다. 현장사진을 전체 차량·탑재부·작업공간으로 나누어 보면 어떤 부분이 차량이고 어떤 부분이 추가 장비인지 명확해집니다.",
+          "question": "행사 사진의 차량과 제품 설명이 같은 탑재 구성을 가리키는가?",
+          "sourceUrls": [
+            "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1"
+          ]
+        },
+        {
+          "id": "light105-lightweight",
+          "title": "경량화가 전시의 대표 메시지",
+          "fact": "제조사는 기존 제품 대비 중량을 절반 이상 줄였다고 설명했습니다.",
+          "interpretation": "수치 자체보다 소형 차량에 탑재한 완성 형상으로 경량화의 의미를 보여준 점이 눈에 띕니다. 제품 소개에서는 기반 차량과 탑재장비를 함께 보여주는 사진이 변화의 맥락을 전달합니다.",
+          "question": "경량화 비교의 기준 제품과 포함 범위는 어느 자료에서 확인할 수 있는가?",
+          "sourceUrls": [
+            "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+          ]
+        },
+        {
+          "id": "light105-family",
+          "title": "지원차량까지 포함한 제품 범위",
+          "fact": "사격지휘차량과 탄약운반차량을 함께 운용하는 구성이 소개됐습니다.",
+          "interpretation": "전시된 한 대만 보면 놓치기 쉬운 지원체계가 제품 설명에 포함돼 있습니다. 보고서에서는 대표 차량 사진 옆에 지원차량의 역할을 연결하면 제품군의 범위가 명료해집니다.",
+          "question": "대표 차량과 지원차량의 자료를 각각 구분하면서 하나의 구성으로 볼 수 있는가?",
+          "sourceUrls": [
+            "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+          ]
+        },
+        {
+          "id": "light105-workspace",
+          "title": "외형에서 작업 공간으로 시선 확장",
+          "fact": "공식 현장사진에는 차량에 탑재된 전체 제품 형상이 제시됩니다.",
+          "interpretation": "사진 관찰은 주요 장비의 존재를 확인하는 데서 시작해 승하차부, 외부 작업 공간, 접근 경로를 기록하는 방향으로 확장할 수 있습니다. 실제 편의성 평가는 사용자 자료와 연결해야 합니다.",
+          "question": "외형 사진 외에 작업 공간과 정비 접근성을 보여주는 각도별 자료가 있는가?",
+          "sourceUrls": [
+            "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "ADEX 2025 차량형 제품 전시 소개",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "publisher": "현대자동차그룹 · 현대위아",
+          "date": "2025-10-20"
+        },
+        {
+          "title": "경량화 105mm 자주포·RCWS 현장사진과 전시 설명",
+          "url": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1",
+          "publisher": "현대위아",
+          "date": "2025-10-20"
+        },
+        {
+          "title": "후속 전시 참고 — 현대위아 Eurosatory 2026 공식 발표",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+          "publisher": "현대자동차그룹 / 현대위아",
+          "date": "2026-06-16",
+          "type": "manufacturer"
+        }
+      ],
+      "limitations": [
+        "경량화 비교에서 기준 제품·포함 범위가 상세히 공개되지 않아 전시차 총중량으로 환산하지 않습니다.",
+        "탑재 구성과 제품 설명은 확인했으며, 운용인원·시험조건은 이 보도자료에서 확정하지 않습니다."
+      ],
+      "photoCoverageNote": "ADEX 2025 현장 1장 + WDS·Eurosatory 2026 후속 전시 참고 3장. 전시회·시점을 구분해서 비교합니다."
+    },
+    {
+      "id": "rcws",
+      "name": "전술차량용 RCWS",
+      "manufacturer": "현대위아",
+      "country": "대한민국",
+      "category": "원격운용 탑재장비",
+      "subtitle": "실내 원격운용 제품 · 실물 라인업 전시",
+      "summary": "전술차량에 탑재하도록 소개된 원격장비의 실물 라인업입니다. 전시대 위 제품과 명패를 비교하고, 공개 설명의 실내 운용 방식까지 연결해 탑재장비와 운용자의 관계를 살펴봅니다.",
+      "eventLabel": "서울 ADEX 2025 · 실물 및 현장사진 확인",
+      "eventStatus": "confirmed",
+      "heroPhotoId": "rcws-event-01",
+      "photoIds": [
+        "rcws-event-01",
+        "rcws-eurosatory2026-01"
+      ],
+      "specs": [
+        {
+          "label": "제품 유형",
+          "value": "원격사격통제체계(RCWS)",
+          "note": "Remote Control Weapon System",
+          "sourceUrl": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1"
+        },
+        {
+          "label": "전시 제품군",
+          "value": "소형 RCWS · AI 기반 지능형 RCWS",
+          "note": "별도 제품 구성을 함께 소개",
+          "sourceUrl": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1"
+        },
+        {
+          "label": "운용 방식",
+          "value": "실내 모니터를 통한 원격운용",
+          "note": "운용인원 숫자는 해당 자료에 미공개",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+        },
+        {
+          "label": "탑재 기반",
+          "value": "전술차량 탑재형",
+          "note": "차량별 장착 구성은 사진·명패 기준으로 구분",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+        }
+      ],
+      "observations": [
+        {
+          "id": "rcws-remote",
+          "title": "실내 운용자와 외부 장비를 연결",
+          "fact": "제조사는 실내 모니터를 사용한 원격운용 방식으로 소개했습니다.",
+          "interpretation": "제품의 특징은 외부 탑재부만으로 모두 드러나지 않습니다. 상부 장비 사진과 운용자 화면·실내 공간 자료를 함께 보면 실제 사용 방식과 사용자에게 필요한 정보가 연결됩니다.",
+          "question": "탑재부 외형과 실내 조작계·화면의 관계를 설명하는 자료가 있는가?",
+          "sourceUrls": [
+            "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+          ]
+        },
+        {
+          "id": "rcws-range",
+          "title": "단일 장비가 아닌 제품군 전개",
+          "fact": "이번 전시에는 소형 RCWS와 AI 기반 지능형 RCWS의 실물이 소개됐습니다.",
+          "interpretation": "현장사진은 차량에 탑재한 모습이 아니라 전시대 위 제품군을 보여줍니다. 명패와 제품 외형을 함께 비교하면 같은 RCWS라는 이름 안에서도 여러 구성이 존재함을 구분할 수 있습니다.",
+          "question": "각 현장사진이 어떤 제품군을 보여주는지 명패·설명과 대조할 수 있는가?",
+          "sourceUrls": [
+            "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1"
+          ]
+        },
+        {
+          "id": "rcws-carrier",
+          "title": "차량과 장비를 별도 단위로 읽기",
+          "fact": "현대위아는 여러 전술차량에 탑재할 수 있는 제품으로 설명했습니다.",
+          "interpretation": "전시대에서 제시한 제품은 차량 위 장착 상태와 구분해야 합니다. 장비와 기반 차량을 각각 기록하면 다음 행사에서 차량탑재 형상을 확보했을 때 제품 자체의 변화와 탑재 방식의 차이를 연결하기 쉽습니다.",
+          "question": "차량 모델·탑재장비 모델·행사 연도를 각각 식별할 수 있는가?",
+          "sourceUrls": [
+            "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+          ]
+        },
+        {
+          "id": "rcws-operator",
+          "title": "원격화 이후에도 사용자 검토는 남습니다",
+          "fact": "공식 설명은 실내 모니터를 통한 상황 확인과 원격조작을 포함합니다.",
+          "interpretation": "노출된 외부 위치에서 실내 조작으로 사용 방식이 바뀌면 사용자 화면과 교육자료가 중요한 비교 자료가 됩니다. 자동화 기능 이름만으로 운용 부담의 감소를 정량화할 수는 없습니다.",
+          "question": "운용자에게 제공되는 정보와 교육·점검 절차가 제품 설명에 포함되는가?",
+          "sourceUrls": [
+            "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "ADEX 2025 차량형 제품 전시 소개",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "publisher": "현대자동차그룹 · 현대위아",
+          "date": "2025-10-20"
+        },
+        {
+          "title": "경량화 105mm 자주포·RCWS 현장사진과 전시 설명",
+          "url": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1",
+          "publisher": "현대위아",
+          "date": "2025-10-20"
+        },
+        {
+          "title": "후속 전시 참고 — 현대위아 Eurosatory 2026 공식 발표",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+          "publisher": "현대자동차그룹 / 현대위아",
+          "date": "2026-06-16",
+          "type": "manufacturer"
+        }
+      ],
+      "limitations": [
+        "이번 현장사진은 전시대 위 RCWS 라인업입니다. 실제 차량 장착 상태를 보여주는 사진으로 해석하지 않습니다.",
+        "AI·원격 기능의 공개는 무인 차량 전체나 완전자율 운용을 의미하지 않습니다."
+      ],
+      "photoCoverageNote": "ADEX 2025 현장 1장 + Eurosatory 2026 전시 구역 참고 1장. 후속 사진은 인물에 일부 가려져 개별 형상 비교에 제한이 있습니다."
+    }
+  ],
+  "comparison": {
+    "title": "완성 차량과 탑재장비, 전시의 단위를 비교합니다",
+    "summary": "K2PL의 고객형 완성차, 소형전술차량 기반 경량화 제품, 전술차량용 RCWS를 제품 유형과 운용자 관점에서 비교합니다. 종류가 다른 장비의 전투성능 순위를 산정하지 않습니다.",
+    "rows": [
+      {
+        "label": "전시제품 유형",
+        "k2pl": "폴란드 고객형 전차",
+        "light-105": "소형 차량 탑재 경량화 자주포",
+        "rcws": "차량탑재 원격운용 장비"
+      },
+      {
+        "label": "탑재·기반 관계",
+        "k2pl": "K2 계열의 고객 맞춤 구성",
+        "light-105": "소형전술차량 + 탑재장비",
+        "rcws": "전술차량 + RCWS"
+      },
+      {
+        "label": "대표 공개 특징",
+        "k2pl": "추가 장비와 현지화 패키지",
+        "light-105": "경량화·소형 차량 활용",
+        "rcws": "실내 원격운용·제품군 구분"
+      },
+      {
+        "label": "운용인원 정보",
+        "k2pl": "전시형 인원은 채택 자료에 미공개",
+        "light-105": "운용인원 숫자 미공개",
+        "rcws": "실내 조작 방식 공개 · 인원 숫자 미공개"
+      },
+      {
+        "label": "사진에서 볼 지점",
+        "k2pl": "고객형 식별 · 전체 형상 · 상부 장비",
+        "light-105": "차량·탑재부 · 외부 작업공간",
+        "rcws": "전시대 제품군 · 명패 · 외부 구성"
+      },
+      {
+        "label": "이어 볼 자료",
+        "k2pl": "현지 생산·교육·지원 범위",
+        "light-105": "각도별 사진 · 지원차량 구성",
+        "rcws": "실내 조작계 · 제품군별 설명"
+      }
+    ],
+    "conclusion": "같은 전시장에서도 완성차·차량탑재 체계·부체계의 비교 단위는 다릅니다. 사진에서 제품 경계를 먼저 정한 뒤 고객 요구, 기반 차량 활용, 운용자와 지원체계의 관계를 연결하면 장비 종류가 달라도 비교의 의미가 선명해집니다."
+  },
+  "trend": {
+    "title": "고객형·경량화·원격운용으로 넓어지는 차량 제품군",
+    "summary": "서울 ADEX 2025의 선정 사례에서는 기존 기반을 고객형 완성차와 차량탑재 제품으로 확장하는 흐름이 보입니다. 완성 차량과 탑재장비의 경계를 구분하면서 제품 구성과 사용자 관점을 함께 살펴봅니다.",
+    "items": [
+      {
+        "title": "고객형 완성차와 현지화 패키지",
+        "fact": "K2PL은 폴란드형 실물과 현지 생산·지원 계획을 연결하는 사례입니다.",
+        "interpretation": "제품 제안이 차량 한 대의 특징에서 고객형 구성과 지속 운용의 범위로 넓어집니다. 전시 분석에서도 장비 사진과 생산·교육·지원 자료를 함께 보여줄 수 있습니다.",
+        "question": "고객형 구성과 지원 패키지를 같은 기준으로 비교하고 있는가?",
+        "caseIds": [
+          "k2pl"
+        ],
+        "sourceUrls": [
+          "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521",
+          "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+        ]
+      },
+      {
+        "title": "소형 차량을 활용한 제품 전개",
+        "fact": "경량화 105mm 자주포와 RCWS는 차량탑재 제품으로 전시됐습니다.",
+        "interpretation": "기반 차량과 임무장비를 결합한 사례에서는 차체와 장비 각각의 역할이 중요합니다. 같은 차량에 실렸다는 이유로 제품 전체를 하나의 종류로 분류하기보다 탑재 관계를 표현하는 편이 명확합니다.",
+        "question": "차량과 탑재장비의 이름·사진·근거가 분리되어 연결되는가?",
+        "caseIds": [
+          "light-105",
+          "rcws"
+        ],
+        "sourceUrls": [
+          "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1"
+        ]
+      },
+      {
+        "title": "외부 형상에서 운용자와 지원까지",
+        "fact": "RCWS의 실내 원격운용과 경량화 제품의 지원차량 구성이 소개됐습니다.",
+        "interpretation": "현장사진이 보여주는 외형에 사용자 화면, 작업공간, 지원차량을 연결하면 보고의 범위가 풍부해집니다. 사용자 경험과 유지지원의 차이는 추가 자료를 통해 구체화할 검토 주제입니다.",
+        "question": "장비의 외형 다음에 운용자·작업공간·지원체계를 확인할 수 있는가?",
+        "caseIds": [
+          "rcws",
+          "light-105"
+        ],
+        "sourceUrls": [
+          "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "year": "2023.10",
+        "title": "직전 ADEX의 K2EX 콘셉트",
+        "detail": "ADEX 2023은 K2EX 수출 성능개량 콘셉트를, 2025는 폴란드 고객형 K2PL 실물을 소개했습니다. 서로 다른 제안 형상이므로 동일 차량의 성능개량 전후를 뜻하지 않습니다.",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2032"
+      },
+      {
+        "year": "2024.10",
+        "title": "경량화 105mm 자주포 실물 공개",
+        "detail": "현대위아는 KADEX 2024에서 경량화 105mm 자주포 실물을 공개했다고 발표했습니다. ADEX 2025 재전시와 최초 공개 시점을 구분합니다.",
+        "sourceUrl": "https://en.hyundai-wia.com/investment/news_view.asp?flag=NEWS&gubun=EN&keyIdx=5615&page=3"
+      },
+      {
+        "year": "2025.08",
+        "title": "K2PL 계약·현지화 발표",
+        "detail": "폴란드 정부가 고객형 물량과 생산·지원 범위를 발표했습니다.",
+        "sourceUrl": "https://www.gov.pl/web/obrona-narodowa/umowa-podpisana-potezne-wzmocnienie-wojsk-pancernych---180-czolgow-k2-trafi-do-armii"
+      },
+      {
+        "year": "2025.10.20",
+        "title": "K2PL 실물 첫 공개",
+        "detail": "현대로템이 ADEX 2025에서 고객형 전차의 실물을 소개했습니다.",
+        "sourceUrl": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+      },
+      {
+        "year": "2025.10.20",
+        "title": "차량탑재 제품군 공개",
+        "detail": "현대위아가 경량화 105mm 자주포와 RCWS의 실물·현장사진을 공개했습니다.",
+        "sourceUrl": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyIdx=6016&page=1"
+      },
+      {
+        "year": "2026.02–06",
+        "title": "후속 해외 전시로 제품 소개 확대",
+        "detail": "WDS와 Eurosatory의 공식 사진을 후속 참고로 연결합니다. 행사별 부스와 공개 설명의 변화이며, 계약·양산 완료를 의미하지 않습니다.",
+        "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation"
+      }
+    ]
+  },
+  "briefing": [
+    {
+      "title": "K2PL: 고객형 구성과 현지화",
+      "summary": "폴란드형 실물에 생산·지원 계획을 연결한 사례입니다. 고객형 완성차의 특징을 사진과 사업 범위로 함께 읽습니다.",
+      "caseId": "k2pl",
+      "question": "제품 구성과 현지화·지원 설명이 같은 고객형을 기준으로 연결되는가?"
+    },
+    {
+      "title": "경량화 105mm 자주포: 소형 차량의 활용",
+      "summary": "경량화 제품을 소형전술차량에 탑재해 실물로 제시했습니다. 차량·탑재부·작업공간·지원차량을 나누어 전체 구성을 살펴봅니다.",
+      "caseId": "light-105",
+      "question": "대표 차량과 지원차량의 구성 및 작업공간 자료가 함께 제시되는가?"
+    },
+    {
+      "title": "전술차량용 RCWS: 실내 원격운용",
+      "summary": "전시대 위 RCWS 실물 라인업을 확인하고, 공개 설명의 실내 원격운용 방식으로 연결합니다. 제품 외형·명패와 조작계·교육 자료를 구분해 검토합니다.",
+      "caseId": "rcws",
+      "question": "사진의 제품군 식별과 운용자 관점의 설명을 연결할 수 있는가?"
+    }
+  ],
+  "photoObservations": [
+    {
+      "caseId": "k2pl",
+      "photoId": "k2pl-event-01",
+      "observationId": "k2pl-customer",
+      "x": 71,
+      "y": 59,
+      "title": "실내 부스에 배치된 K2PL",
+      "visualObservation": "공식 사진 설명이 K2PL로 식별한 전차가 전시 부스 뒤쪽에 배치되어 있습니다. 앞쪽 엔진 모형이 차체 일부를 가리므로 전체 외형 비교에는 다른 각도 사진도 필요합니다."
+    },
+    {
+      "caseId": "k2pl",
+      "photoId": "k2pl-event-01",
+      "observationId": "k2pl-package",
+      "x": 57,
+      "y": 51,
+      "title": "포탑 위 여러 장착물",
+      "visualObservation": "포탑 상부에 높이와 모양이 다른 여러 장착물이 보입니다. 사진상 배치와 제조사의 구성 설명을 함께 살펴볼 수 있지만, 개별 장치의 명칭은 이 각도만으로 확정하기 어렵습니다."
+    },
+    {
+      "caseId": "k2pl",
+      "photoId": "k2pl-event-01",
+      "observationId": "k2pl-support",
+      "x": 76,
+      "y": 65,
+      "title": "차체 측면과 하부의 노출 범위",
+      "visualObservation": "차체 측면 덮개와 궤도·전륜 일부가 보입니다. 내부 장치나 덮개 개방 모습은 보이지 않아 정비 접근성과 지원 절차는 별도 자료로 확인해야 합니다."
+    },
+    {
+      "caseId": "light-105",
+      "photoId": "light-105-event-01",
+      "observationId": "light105-platform",
+      "x": 43,
+      "y": 51,
+      "title": "차량 앞부분과 후방 탑재부",
+      "visualObservation": "전면 운전실 뒤쪽에 별도 장비와 플랫폼이 배치된 전체 차량 형상이 보입니다. 차량과 탑재부를 한 화면에서 구분해 볼 수 있는 전시 각도입니다."
+    },
+    {
+      "caseId": "light-105",
+      "photoId": "light-105-event-01",
+      "observationId": "light105-workspace",
+      "x": 16,
+      "y": 59,
+      "title": "측면 발판과 외부 공간",
+      "visualObservation": "운전실 뒤쪽 측면에 돌출된 발판이 보이고, 그 아래로 비스듬한 구조물이 바닥까지 이어집니다. 사진은 외부 배치를 보여주지만 실제 작업 동선과 접근 편의성은 드러내지 않습니다."
+    },
+    {
+      "caseId": "light-105",
+      "photoId": "light-105-event-01",
+      "observationId": "light105-family",
+      "x": 74,
+      "y": 45,
+      "title": "뒤쪽에 함께 전시된 차량",
+      "visualObservation": "대표 차량 뒤편에 운전실과 상자형 구조를 갖춘 다른 차량이 보입니다. 지원차량 구성 설명과 연결해 볼 수 있으나 이 사진만으로 뒤쪽 차량의 세부 역할을 확정할 수는 없습니다."
+    },
+    {
+      "caseId": "rcws",
+      "photoId": "rcws-event-01",
+      "observationId": "rcws-range",
+      "x": 34,
+      "y": 86,
+      "title": "명패로 구분한 세 제품",
+      "visualObservation": "전시대 명패에 왼쪽부터 40mm RCWS, 12.7mm RCWS, 7.62mm RCWS가 적혀 있습니다. 각 제품을 명칭과 함께 구분해 비교할 수 있는 실제 전시장면입니다."
+    },
+    {
+      "caseId": "rcws",
+      "photoId": "rcws-event-01",
+      "observationId": "rcws-carrier",
+      "x": 58,
+      "y": 64,
+      "title": "차량과 분리된 전시대 배치",
+      "visualObservation": "RCWS 세 제품은 각각 별도의 전시대 위에 놓여 있습니다. 이 사진은 장비 자체의 전시이며 뒤쪽 차량에 장착된 모습으로 해석하지 않습니다."
+    },
+    {
+      "caseId": "rcws",
+      "photoId": "rcws-event-01",
+      "observationId": "rcws-remote",
+      "x": 9,
+      "y": 61,
+      "title": "외부 장비와 운용자 화면의 구분",
+      "visualObservation": "왼쪽 제품 전면에 원형·사각형 창이 있는 별도 상자형 부분이 보입니다. 외부 구성의 관찰은 가능하지만 운용자 화면과 실내 조작계는 이 사진에 나타나지 않습니다."
+    }
+  ]
+}

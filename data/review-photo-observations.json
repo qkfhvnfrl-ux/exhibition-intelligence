@@ -1,0 +1,83 @@
+[
+  {
+    "caseId": "k2pl",
+    "photoId": "k2pl-event-01",
+    "observationId": "k2pl-customer",
+    "x": 71,
+    "y": 59,
+    "title": "실내 부스에 배치된 K2PL",
+    "visualObservation": "공식 사진 설명이 K2PL로 식별한 전차가 전시 부스 뒤쪽에 배치되어 있습니다. 앞쪽 엔진 모형이 차체 일부를 가리므로 전체 외형 비교에는 다른 각도 사진도 필요합니다."
+  },
+  {
+    "caseId": "k2pl",
+    "photoId": "k2pl-event-01",
+    "observationId": "k2pl-package",
+    "x": 57,
+    "y": 51,
+    "title": "포탑 위 여러 장착물",
+    "visualObservation": "포탑 상부에 높이와 모양이 다른 여러 장착물이 보입니다. 사진상 배치와 제조사의 구성 설명을 함께 살펴볼 수 있지만, 개별 장치의 명칭은 이 각도만으로 확정하기 어렵습니다."
+  },
+  {
+    "caseId": "k2pl",
+    "photoId": "k2pl-event-01",
+    "observationId": "k2pl-support",
+    "x": 76,
+    "y": 65,
+    "title": "차체 측면과 하부의 노출 범위",
+    "visualObservation": "차체 측면 덮개와 궤도·전륜 일부가 보입니다. 내부 장치나 덮개 개방 모습은 보이지 않아 정비 접근성과 지원 절차는 별도 자료로 확인해야 합니다."
+  },
+  {
+    "caseId": "light-105",
+    "photoId": "light-105-event-01",
+    "observationId": "light105-platform",
+    "x": 43,
+    "y": 51,
+    "title": "차량 앞부분과 후방 탑재부",
+    "visualObservation": "전면 운전실 뒤쪽에 별도 장비와 플랫폼이 배치된 전체 차량 형상이 보입니다. 차량과 탑재부를 한 화면에서 구분해 볼 수 있는 전시 각도입니다."
+  },
+  {
+    "caseId": "light-105",
+    "photoId": "light-105-event-01",
+    "observationId": "light105-workspace",
+    "x": 16,
+    "y": 59,
+    "title": "측면 발판과 외부 공간",
+    "visualObservation": "운전실 뒤쪽 측면에 돌출된 발판이 보이고, 그 아래로 비스듬한 구조물이 바닥까지 이어집니다. 사진은 외부 배치를 보여주지만 실제 작업 동선과 접근 편의성은 드러내지 않습니다."
+  },
+  {
+    "caseId": "light-105",
+    "photoId": "light-105-event-01",
+    "observationId": "light105-family",
+    "x": 74,
+    "y": 45,
+    "title": "뒤쪽에 함께 전시된 차량",
+    "visualObservation": "대표 차량 뒤편에 운전실과 상자형 구조를 갖춘 다른 차량이 보입니다. 지원차량 구성 설명과 연결해 볼 수 있으나 이 사진만으로 뒤쪽 차량의 세부 역할을 확정할 수는 없습니다."
+  },
+  {
+    "caseId": "rcws",
+    "photoId": "rcws-event-01",
+    "observationId": "rcws-range",
+    "x": 34,
+    "y": 86,
+    "title": "명패로 구분한 세 제품",
+    "visualObservation": "전시대 명패에 왼쪽부터 40mm RCWS, 12.7mm RCWS, 7.62mm RCWS가 적혀 있습니다. 각 제품을 명칭과 함께 구분해 비교할 수 있는 실제 전시장면입니다."
+  },
+  {
+    "caseId": "rcws",
+    "photoId": "rcws-event-01",
+    "observationId": "rcws-carrier",
+    "x": 58,
+    "y": 64,
+    "title": "차량과 분리된 전시대 배치",
+    "visualObservation": "RCWS 세 제품은 각각 별도의 전시대 위에 놓여 있습니다. 이 사진은 장비 자체의 전시이며 뒤쪽 차량에 장착된 모습으로 해석하지 않습니다."
+  },
+  {
+    "caseId": "rcws",
+    "photoId": "rcws-event-01",
+    "observationId": "rcws-remote",
+    "x": 9,
+    "y": 61,
+    "title": "외부 장비와 운용자 화면의 구분",
+    "visualObservation": "왼쪽 제품 전면에 원형·사각형 창이 있는 별도 상자형 부분이 보입니다. 외부 구성의 관찰은 가능하지만 운용자 화면과 실내 조작계는 이 사진에 나타나지 않습니다."
+  }
+]
