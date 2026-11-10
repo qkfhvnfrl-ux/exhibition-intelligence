@@ -50,8 +50,8 @@ Version: **1.1.0** · 2026-11-11
 ## 배포 상태
 
 - 기존 공개 주소: https://qkfhvnfrl-ux.github.io/exhibition-intelligence/
-- **1.1.0 공개 배포 최종 확인 진행 중**. 검증·저장·배포 결과를 확인한 뒤 이 항목을 갱신합니다.
-- 마지막 확인된 배포: 1.0.0, 커밋 `07ef2dd922b9f66ffccbaeefa81ef1bd73dbf5cb`, [배포 성공 기록](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/42901472091).
+- **1.1.0 공개 배포 완료**. 릴리스 커밋 `4713114268f7c678859e1c950c30cc2687b128b2`, [검사·빌드·배포 성공 기록](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/42914289841).
+- 공개 주소에서 FIELDNOTE 1.1, 5개 전시회·31개 장비 사례·49장 현장사진·10개 사진 원문 표시를 확인했습니다.
 
 ## 다음 수집 묶음
 
