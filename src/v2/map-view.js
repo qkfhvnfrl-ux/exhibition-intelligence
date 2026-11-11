@@ -85,7 +85,7 @@ export function createMapView(container, initialOptions = {}) {
   let view = normalizeView(options.view);
   let mode = options.mode === '3d' ? '3d' : '2d';
   let pageHeight = WORLD_WIDTH * ((options.document?.original?.height || 707) / (options.document?.original?.width || 1000));
-  let animation = 0, wheelTimer = 0, destroyed = false, imageRevision = 0, loadedUrl = null, requestedUrl = null;
+  let animation = 0, wheelTimer = 0, destroyed = false, imageRevision = 0, loadedUrl = null, requestedUrl = null, failedHighResolutionUrl = null;
   let pointerStart = null, pinchStart = null, dragged = false, suppressClickUntil = 0;
   const pointers = new Map();
   const controller = new AbortController();
@@ -179,7 +179,8 @@ export function createMapView(container, initialOptions = {}) {
   }
   function ensureBackground() {
     const source = options.background || {};
-    const wanted = sourceUrl((view.z >= 2.25 && source.highResolutionUrl) || source.previewUrl || source.imageUrl);
+    const highResolution = sourceUrl(source.highResolutionUrl);
+    const wanted = (view.z >= 2.25 && highResolution !== failedHighResolutionUrl && highResolution) || sourceUrl(source.previewUrl || source.imageUrl);
     const link = sourceUrl(source.sourceUrl || options.document?.url);
     sourceLink.hidden = !link; if (link) sourceLink.href = link;
     if (!wanted) {
@@ -200,6 +201,13 @@ export function createMapView(container, initialOptions = {}) {
     };
     image.onerror = () => {
       if (destroyed || revision !== imageRevision) return;
+      const fallback = sourceUrl(source.previewUrl || source.imageUrl);
+      if (wanted === highResolution && fallback && fallback !== wanted) {
+        // Direct links may start zoomed in before any preview has loaded.
+        failedHighResolutionUrl = wanted; requestedUrl = null;
+        ensureBackground();
+        return;
+      }
       requestedUrl = wanted; status.hidden = false;
       status.textContent = loadedUrl ? '고해상도 원본을 불러오지 못해 기본 지도를 유지합니다.' : '공식 배치도를 불러오지 못했습니다. 공식 원본 링크에서 확인하세요. 위치가 확인된 영역만 표시합니다.';
     };
@@ -212,6 +220,8 @@ export function createMapView(container, initialOptions = {}) {
     return `${label}${companies > 1 ? ' · 공동부스' : ''}${booth.code ? ` · ${booth.code}` : ' · 부스번호 미확인'}`;
   }
   function renderRegions() {
+    const focusedBoothId = regions.contains(document.activeElement) ? document.activeElement?.closest?.('[data-booth-id]')?.dataset.boothId : null;
+    let focusedReplacement = null;
     regions.replaceChildren();
     floor.setAttribute('transform', mode === '3d' ? `matrix(1 .12 -.35 .62 ${.35 * pageHeight} 24)` : '');
     const boothsById = new Map(options.booths.map(b => [b.id, b]));
@@ -224,6 +234,7 @@ export function createMapView(container, initialOptions = {}) {
       const lift = mode === '3d' ? 8 : 0;
       const topPoints = basePoints.map(p => [p[0], p[1] - lift]);
       const group = svgNode(document, 'g', {'class': 'fn-map__booth', 'data-booth-id': booth.id, tabindex: 0, role: 'button', 'aria-label': boothLabel(booth), 'aria-pressed': String(booth.id === options.selectedBoothId)});
+      if (booth.id === focusedBoothId) focusedReplacement = group;
       if (booth.id === options.selectedBoothId) group.classList.add('is-selected');
       if (highlighted.has(booth.id)) group.classList.add('is-highlighted');
       const title = svgNode(document, 'title'); title.textContent = boothLabel(booth); group.append(title);
@@ -242,6 +253,8 @@ export function createMapView(container, initialOptions = {}) {
       }
       regions.append(group);
     }
+    // Rebuilding SVG regions must not strand keyboard users on the document body.
+    if (focusedBoothId) (focusedReplacement || viewport).focus({preventScroll: true});
     mode2d.disabled = mode3d.disabled = !options.document?.original;
   }
   function changeMode(next) {
@@ -275,6 +288,11 @@ export function createMapView(container, initialOptions = {}) {
     return true;
   }
   function fit({animate = true} = {}) {setView({x: .5, y: .5, z: 1}, {animate, reason: 'fit', commit: true});}
+  function beginPinch() {
+    const [a, b] = [...pointers.values()];
+    const middle = {x: (a.x + b.x) / 2, y: (a.y + b.y) / 2};
+    pinchStart = {distance: Math.max(1, Math.hypot(a.x - b.x, a.y - b.y)), view: {...view}, anchor: pointOnPage(middle.x, middle.y)};
+  }
   viewport.addEventListener('wheel', event => {
     event.preventDefault(); tooltip.hidden = true;
     zoomAt(Math.exp(-clamp(event.deltaY, -160, 160) * .002), event, 'wheel', false);
@@ -286,8 +304,7 @@ export function createMapView(container, initialOptions = {}) {
     viewport.setPointerCapture?.(event.pointerId); tooltip.hidden = true;
     if (pointers.size === 1) {pointerStart = {clientX: event.clientX, clientY: event.clientY, view: {...view}, boothId: event.target.closest?.('[data-booth-id]')?.dataset.boothId || null}; dragged = false;}
     else if (pointers.size === 2) {
-      const [a, b] = [...pointers.values()]; const middle = {x: (a.x + b.x) / 2, y: (a.y + b.y) / 2};
-      pinchStart = {distance: Math.max(1, Math.hypot(a.x - b.x, a.y - b.y)), view: {...view}, anchor: pointOnPage(middle.x, middle.y)};
+      beginPinch();
       dragged = true; host.classList.add('is-dragging');
     }
   }, listeners);
@@ -320,7 +337,8 @@ export function createMapView(container, initialOptions = {}) {
     if (!hadPointer) return;
     const tappedBooth = !dragged && event.type === 'pointerup' && pointers.size === 0 ? pointerStart?.boothId : null;
     if (dragged) suppressClickUntil = win.performance.now() + 350;
-    if (pointers.size === 1) {const [remaining] = pointers.values(); pointerStart = {clientX: remaining.x, clientY: remaining.y, view: {...view}}; pinchStart = null;}
+    if (pointers.size >= 2) beginPinch();
+    else if (pointers.size === 1) {const [remaining] = pointers.values(); pointerStart = {clientX: remaining.x, clientY: remaining.y, view: {...view}}; pinchStart = null;}
     else if (!pointers.size) {pointerStart = pinchStart = null; host.classList.remove('is-dragging'); if (dragged) emit('pan', true); dragged = false;}
     if (tappedBooth) {
       suppressClickUntil = win.performance.now() + 350;
@@ -354,7 +372,7 @@ export function createMapView(container, initialOptions = {}) {
     if (patch.mode) mode = patch.mode === '3d' ? '3d' : '2d';
     if (patch.view) {stopAnimation(); view = normalizeView(patch.view);}
     if (options.document?.id !== previousDocument) {
-      stopAnimation(); imageRevision++; loadedUrl = requestedUrl = null; backgroundImage.removeAttribute('href');
+      stopAnimation(); imageRevision++; loadedUrl = requestedUrl = failedHighResolutionUrl = null; backgroundImage.removeAttribute('href');
       pageHeight = WORLD_WIDTH * ((options.document?.original?.height || 707) / (options.document?.original?.width || 1000));
       paper.setAttribute('height', pageHeight); backgroundImage.setAttribute('height', pageHeight);
       if (!patch.view) view = normalizeView();

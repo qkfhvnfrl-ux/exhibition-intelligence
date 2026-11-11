@@ -22,3 +22,9 @@ export function searchCompanies(data,{query='',category='',hall='',mappedOnly=fa
   });
 }
 export function tourCompanies(data,{category='',kind='featured'}={}){const byId=index(data).companies;const featured=array(data.editorials).map(e=>byId.get(e.organizationId)).filter(Boolean);const candidates=kind==='technology'?searchCompanies(data,{category,mappedOnly:true}):featured.filter(c=>c.mapBoothIds.length);return [...new Map(candidates.map(c=>[c.id,c])).values()];}
+/** Manual selections must not leave the tour label pointing at another company. */
+export function tourSelection(data,state,companyId){
+  if(!state.tour)return {tour:'',step:0};
+  const step=tourCompanies(data,{kind:state.tour,category:state.category}).findIndex(company=>company.id===companyId);
+  return step<0?{tour:'',step:0}:{tour:state.tour,step};
+}

@@ -71,7 +71,7 @@ function imageMarkup(photo, index, {print = false, hero = false} = {}) {
   const context = photo.context === 'event' ? '해당 회차 현장' : '관련 참고사진';
   const image = src ? `<img src="${escapeHTML(src)}" alt="${escapeHTML(caption)}" loading="${print || hero ? 'eager' : 'lazy'}" decoding="async"${photo.width && photo.height ? ` width="${Number(photo.width)}" height="${Number(photo.height)}"` : ''}>` : print ? '<p class="fn-note">사진 원문 링크</p>' : `<div class="fn-photo-link-only"><span>사진 원문 열람</span><small>사진은 출처에서 확인할 수 있습니다</small></div>`;
   const content = print ? image : `<button type="button" class="fn-photo-open" data-photo-index="${index}" aria-label="${escapeHTML(caption)} 확대">${image}<span class="fn-photo-expand">${svg('expand')}</span></button>`;
-  return `<figure class="fn-photo ${hero ? 'fn-photo-hero' : ''}" data-photo-id="${escapeHTML(photo.id)}">${content}<figcaption><span>${escapeHTML(caption)}</span><small>${escapeHTML([context, photo.credit || photo.author, photo.sourceDate].filter(Boolean).join(' · '))}</small>${photo.variantNote ? `<small>${escapeHTML(photo.variantNote)}</small>` : ''}${sourceUrl(photo) ? link(photo.sourceUrl,'사진 원문','fn-source-link') : ''}</figcaption></figure>`;
+  return `<figure class="fn-photo ${hero ? 'fn-photo-hero' : ''}" data-photo-id="${escapeHTML(photo.id)}">${content}<figcaption><span>${escapeHTML(caption)}</span><small>${escapeHTML([context, photo.credit || photo.author, photo.sourceDate].filter(Boolean).join(' · '))}</small>${photo.variantNote ? `<small>${escapeHTML(photo.variantNote)}</small>` : ''}${sourceUrl(photo) ? link(photo.sourceUrl,'사진 원문','fn-source-link') + (print ? `<small class="fn-print-url">${escapeHTML(sourceUrl(photo))}</small>` : '') : ''}</figcaption></figure>`;
 }
 function galleryMarkup(photos, {print = false} = {}) {
   if (!photos.length) return '<p class="fn-note">이 업체의 해당 회차 사진은 아직 연결하지 못했습니다.</p>';
@@ -154,7 +154,7 @@ export function renderCompanyPanel(container, options = {}) {
     if (action === 'print') {
       const feedback=container.querySelector('.fn-action-feedback');
       if(feedback)feedback.textContent='사진과 근거를 준비하고 있습니다';
-      try { if(onPrint) await onPrint(company); else await printCompanyReport({data,companyIds:[company.id]}); if(feedback)feedback.textContent='인쇄 창에서 PDF로 저장을 선택하세요'; }
+      try { const result=onPrint ? await onPrint(company) : await printCompanyReport({data,companyIds:[company.id]}); if(feedback && !result?.cancelled)feedback.textContent='인쇄 창에서 PDF로 저장을 선택하세요'; }
       catch { if(feedback)feedback.textContent='보고서를 준비하지 못했습니다. 다시 시도해 주세요.'; }
     }
     const catalogAnchor=event.target.closest('.fn-document-link');
@@ -196,40 +196,88 @@ export function comparisonMarkup(data, companyIds = [], {print = false} = {}) {
   if(!companies.length)return '<section class="fn-comparison"><h2>업체 비교</h2><p>업체 상세에서 비교할 업체를 선택하세요.</p></section>';
   const row=(label,read)=>`<tr><th scope="row">${escapeHTML(label)}</th>${companies.map(company=>`<td>${escapeHTML(read(company,getCompanyEditorial(data,company)) || '공개자료로 판단할 수 없습니다')}</td>`).join('')}</tr>`;
   const table=`<table><caption>${escapeHTML(eventName(data))} · 공개 근거에 따른 검토 관점 비교</caption><thead><tr><th scope="col">검토 항목</th>${companies.map(company=>`<th scope="col"><span>${escapeHTML(companyName(company,data))}</span>${print?'':`<div class="fn-compare-company-actions"><button type="button" data-compare-open="${escapeHTML(company.id)}">상세</button><button type="button" data-compare-remove="${escapeHTML(company.id)}" aria-label="${escapeHTML(companyName(company,data))} 비교에서 제외">제외</button></div>`}</th>`).join('')}</tr></thead><tbody>${row('봐야 하는 이유',(company,editorial)=>editorial?.reason || company.relevanceNote)}${row('이번 전시에서 확인',(_,editorial)=>editorial?.exhibit?.summary || '실제 출품품목 미확인')}${row('비교 대상과 조건',(_,editorial)=>editorial?.distinction?.comparator ? [editorial.distinction.comparator,Array.isArray(editorial.distinction.conditions)?editorial.distinction.conditions.join(' · '):editorial.distinction.conditions].filter(Boolean).join(' / ') : '동일 조건의 비교자료 없음')}${row('차별점 판단',(_,editorial)=>editorial?.distinction?.judgment)}${row('당사 검토 가치',(_,editorial)=>editorial?.workConnection?.value)}${row('추가로 확인할 조건',(_,editorial)=>arr(editorial?.followUps).join(' / '))}</tbody></table>`;
-  return `<section class="fn-comparison"><header><div><p class="fn-detail-kicker">${escapeHTML(eventName(data))}</p><h2>업체 비교</h2></div>${print?'':`<div class="fn-detail-actions"><button type="button" data-compare-print>${svg('print')}비교 PDF로 저장</button><button type="button" class="fn-icon-button" data-compare-close aria-label="비교 닫기">${svg('close')}</button></div>`}</header><p class="fn-note">업체별 공개 근거와 적용 검토 조건을 비교합니다. 같은 기준의 성능시험 결과가 아닙니다.</p><div class="fn-comparison-scroll" tabindex="0" aria-label="업체 비교표">${table}</div>${print?companies.map(company=>`<section class="fn-report-section"><h3>${escapeHTML(companyName(company,data))} 근거</h3>${sourcesMarkup(companySources(data,company),companyCatalogs(data,company),{print:true})}</section>`).join(''):''}</section>`;
+  return `<section class="fn-comparison"><header><div><p class="fn-detail-kicker">${escapeHTML(eventName(data))}</p><h2>업체 비교</h2></div>${print?'':`<div class="fn-detail-actions"><button type="button" data-compare-print>${svg('print')}비교 PDF로 저장</button><button type="button" class="fn-icon-button" data-compare-close aria-label="비교 닫기">${svg('close')}</button></div>`}</header><p class="fn-note">업체별 공개 근거와 적용 검토 조건을 비교합니다. 같은 기준의 성능시험 결과가 아닙니다.</p><div class="fn-comparison-scroll" tabindex="0" aria-label="업체 비교표">${table}</div>${print?companies.map(company=>`<section class="fn-report-section"><h3>${escapeHTML(companyName(company,data))} 근거</h3>${sourcesMarkup(companySources(data,company),companyCatalogs(data,company),{print:true})}</section>`).join(''):'<div class="fn-action-feedback" aria-live="polite"></div>'}</section>`;
 }
 export function renderCompare(container,{data,companyIds=[],onRemove,onOpenCompany,onClose,onPrint}={}) {
   container.innerHTML=comparisonMarkup(data,companyIds);
-  const click=async event=>{const remove=event.target.closest('[data-compare-remove]');if(remove)onRemove?.(remove.dataset.compareRemove);const open=event.target.closest('[data-compare-open]');if(open)onOpenCompany?.(open.dataset.compareOpen);if(event.target.closest('[data-compare-close]'))onClose?.();if(event.target.closest('[data-compare-print]')){if(onPrint)await onPrint();else await printCompanyReport({data,companyIds,comparison:true});}};
+  const click=async event=>{
+    const remove=event.target.closest('[data-compare-remove]');if(remove)onRemove?.(remove.dataset.compareRemove);
+    const open=event.target.closest('[data-compare-open]');if(open)onOpenCompany?.(open.dataset.compareOpen);
+    if(event.target.closest('[data-compare-close]'))onClose?.();
+    const printButton=event.target.closest('[data-compare-print]');
+    if(printButton){
+      if(printButton.disabled)return;
+      const feedback=container.querySelector('.fn-action-feedback');printButton.disabled=true;
+      if(feedback)feedback.textContent='사진과 근거를 준비하고 있습니다';
+      try {const result=onPrint ? await onPrint() : await printCompanyReport({data,companyIds,comparison:true});if(feedback && !result?.cancelled)feedback.textContent='인쇄 창에서 PDF로 저장을 선택하세요';}
+      catch {if(feedback)feedback.textContent='보고서를 준비하지 못했습니다. 다시 시도해 주세요.';}
+      finally {printButton.disabled=false;}
+    }
+  };
   container.addEventListener('click',click);return()=>container.removeEventListener('click',click);
 }
 export function printReportMarkup(data, companyIds, {comparison = false,title = null} = {}) {
   const companies=arr(companyIds).map(id=>byId(data?.companies,id)).filter(Boolean);
   return `<div class="fn-print-cover"><p>FIELDNOTE v2 · ${escapeHTML(eventName(data))}</p><h1>${escapeHTML(title || (comparison?'업체 비교 보고':'업체 검토 보고'))}</h1><p>자료 기준 ${escapeHTML(data?.dataAsOf || data?.event?.dataAsOf || '연결된 원문 발행일 참조')}</p><p>해당 회차의 공개자료에 근거한 검토 자료입니다. 제조사 발표 수치와 실제 전시 관찰을 구분하며, 공개 근거가 없는 항목은 판단하지 않습니다.</p></div>${comparison?comparisonMarkup(data,companyIds,{print:true}):companies.map(company=>companyPanelMarkup(data,company,{print:true})).join('')}`;
 }
-export async function preparePrintImages(container, {timeout = 10000} = {}) {
+function preparationAborted() {
+  const error=new Error('보고서 준비가 다른 요청으로 대체되었습니다.');error.name='AbortError';return error;
+}
+function withPreparationDeadline(promise, timeout, signal) {
+  return new Promise((resolve,reject)=>{
+    if(signal?.aborted){reject(preparationAborted());return;}
+    const abort=()=>finish(reject,preparationAborted());
+    const timer=setTimeout(()=>finish(reject,new Error('report preparation timeout')),timeout);
+    const finish=(settle,value)=>{clearTimeout(timer);signal?.removeEventListener('abort',abort);settle(value);};
+    signal?.addEventListener('abort',abort,{once:true});
+    Promise.resolve(promise).then(value=>finish(resolve,value),error=>finish(reject,error));
+  });
+}
+export async function preparePrintImages(container, {timeout = 10000, signal} = {}) {
   const failures=[];
   await Promise.all([...container.querySelectorAll('img')].map(async img=>{
     img.loading='eager';
+    let removeListeners=()=>{};
     try {
-      const ready=img.complete ? (img.naturalWidth?Promise.resolve():Promise.reject(new Error('image failed'))) : new Promise((resolve,reject)=>{img.addEventListener('load',resolve,{once:true});img.addEventListener('error',reject,{once:true});});
-      let timer;
-      await Promise.race([ready,new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error('image timeout')),timeout);})]).finally(()=>clearTimeout(timer));
-      if(typeof img.decode==='function')await img.decode();
-    } catch {
+      if(signal?.aborted)throw preparationAborted();
+      const loaded=img.complete ? (img.naturalWidth?Promise.resolve():Promise.reject(new Error('image failed'))) : new Promise((resolve,reject)=>{
+        const load=()=>resolve(),error=()=>reject(new Error('image failed'));
+        removeListeners=()=>{img.removeEventListener('load',load);img.removeEventListener('error',error);};
+        img.addEventListener('load',load,{once:true});img.addEventListener('error',error,{once:true});
+      });
+      const ready=loaded.then(()=>typeof img.decode==='function'?img.decode():undefined);
+      await withPreparationDeadline(ready,timeout,signal);
+    } catch(error) {
+      if(signal?.aborted)throw error;
       failures.push(img.getAttribute('src'));
       const notice=img.ownerDocument.createElement('p');notice.className='fn-print-image-notice';notice.textContent='이미지를 불러오지 못해 원문 링크로 대체했습니다.';img.replaceWith(notice);
-    }
+    } finally {removeListeners();}
   }));
   return {failedImages:failures};
 }
-export async function printCompanyReport({data,companyIds=[],comparison=false,title,document:doc=globalThis.document,window:win=globalThis.window}={}) {
+const printJobs=new WeakMap();
+export async function printCompanyReport({data,companyIds=[],comparison=false,title,timeout=10000,document:doc=globalThis.document,window:win=globalThis.window}={}) {
   if(!doc || !win?.print)throw new Error('인쇄 기능을 사용할 수 없습니다.');
+  printJobs.get(doc)?.cleanup();
   doc.querySelector('.fn-print-root')?.remove();
   const report=doc.createElement('div');report.className='fn-print-root';report.innerHTML=printReportMarkup(data,companyIds,{comparison,title});doc.body.append(report);
-  const result=await preparePrintImages(report);
-  if(doc.fonts?.ready)await doc.fonts.ready;
-  const cleanup=()=>{report.remove();win.removeEventListener('afterprint',cleanup);};win.addEventListener('afterprint',cleanup,{once:true});
-  try {win.print();} catch(error){cleanup();throw error;}
-  return {...result,cleanup};
+  const controller=new AbortController();
+  const job={cleanup:()=>{
+    controller.abort();report.remove();win.removeEventListener('afterprint',job.cleanup);
+    if(printJobs.get(doc)===job)printJobs.delete(doc);
+  }};
+  printJobs.set(doc,job);
+  try {
+    const result=await preparePrintImages(report,{timeout,signal:controller.signal});
+    // Font loading must not leave the PDF action pending forever; the browser can use its fallback font.
+    if(doc.fonts?.ready)await withPreparationDeadline(doc.fonts.ready,timeout,controller.signal).catch(error=>{if(controller.signal.aborted)throw error;});
+    if(controller.signal.aborted)return {...result,cancelled:true,cleanup:job.cleanup};
+    win.addEventListener('afterprint',job.cleanup,{once:true});
+    win.print();
+    return {...result,cleanup:job.cleanup};
+  } catch(error) {
+    const cancelled=controller.signal.aborted;job.cleanup();
+    if(cancelled)return {failedImages:[],cancelled:true,cleanup:job.cleanup};
+    throw error;
+  }
 }

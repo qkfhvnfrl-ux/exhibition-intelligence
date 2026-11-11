@@ -19,6 +19,8 @@ class Element {
   replaceChildren(...elements) {this.children.forEach(node => {node.parentNode = null;}); this.children = []; this.append(...elements);}
   remove() {if (this.parentNode) this.parentNode.children = this.parentNode.children.filter(n => n !== this); this.parentNode = null;}
   closest(selector) {if (selector === '[data-booth-id]' && this.dataset.boothId) return this; return this.parentNode?.closest(selector) || null;}
+  contains(node) {return node === this || this.children.some(child => child.contains(node));}
+  focus() {this.ownerDocument.activeElement = this;}
   getBoundingClientRect() {return {...this.ownerDocument.rect};}
   setPointerCapture(id) {this.capture.add(id);}
   addEventListener(type, handler, options = {}) {
@@ -37,12 +39,13 @@ class Element {
 }
 
 export function mapDOM({width = 800, height = 600, reducedMotion = true} = {}) {
-  const timers = new Map(), frames = new Map(); let now = 1000, nextId = 1;
+  const timers = new Map(), frames = new Map(), images = []; let now = 1000, nextId = 1;
   const document = {rect: {x: 0, y: 0, left: 0, top: 0, right: width, bottom: height, width, height}};
   document.createElement = tag => new Element(document, tag);
   document.createElementNS = (_, tag) => new Element(document, tag);
   const events = new Element(document, 'window');
   document.defaultView = {
+    Image: class {constructor() {images.push(this);}},
     performance: {now: () => now}, matchMedia: () => ({matches: reducedMotion}),
     requestAnimationFrame: callback => {const id = nextId++; frames.set(id, callback); return id;},
     cancelAnimationFrame: id => frames.delete(id),
@@ -53,8 +56,9 @@ export function mapDOM({width = 800, height = 600, reducedMotion = true} = {}) {
   const container = new Element(document, 'div');
   const findAll = predicate => {const found = []; const visit = node => {if (predicate(node)) found.push(node); node.children.forEach(visit);}; visit(container); return found;};
   return {
-    document, container,
+    document, container, images,
     byClass: name => findAll(n => n.classList.contains(name))[0],
+    byTag: name => findAll(n => n.tagName === name)[0],
     booths: () => findAll(n => Boolean(n.dataset.boothId)),
     advance: amount => {now += amount;},
     flushTimers: () => {const callbacks = [...timers.values()]; timers.clear(); callbacks.forEach(fn => fn());},

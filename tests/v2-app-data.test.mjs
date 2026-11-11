@@ -2,12 +2,24 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {compileAppData,normalizePhoto,validateAppEvent} from '../scripts/compile-v2-app.mjs';
-import {getBoothCompanies,getCompanyPhotos,searchCompanies,safeAssetPath,safeUrl,tourCompanies} from '../src/v2/data.js';
+import {getBoothCompanies,getCompanyPhotos,searchCompanies,safeAssetPath,safeUrl,tourCompanies,tourSelection} from '../src/v2/data.js';
 
 const read=file=>readFile(new URL('../'+file,import.meta.url),'utf8').then(JSON.parse);
 const [publicData,registry,taxonomy,mapDisplay]=await Promise.all([read('data/v2/public.json'),read('data/v2/registry.json'),read('data/v2/taxonomy.json'),read('data/v2/map-display.json')]);
 const output=compileAppData({publicData,registry,taxonomy,mapDisplay});
 const adex=output.events['adex-2025'];
+
+test('manual selection keeps the tour position aligned with the visible company or ends the tour',()=>{
+  const mapped=adex.companies.filter(company=>company.mapBoothIds.length);
+  const data={...adex,editorials:mapped.slice(0,3).map(company=>({organizationId:company.id}))};
+  const state={tour:'featured',step:0,category:''};
+  assert.deepEqual(tourSelection(data,state,mapped[2].id),{tour:'featured',step:2});
+  assert.deepEqual(tourSelection(data,state,mapped[3].id),{tour:'',step:0});
+  assert.deepEqual(tourSelection(data,{...state,tour:''},mapped[1].id),{tour:'',step:0});
+  const technology=tourCompanies(data,{kind:'technology',category:'complete_vehicle'});
+  assert.ok(technology.length);
+  assert.deepEqual(tourSelection(data,{tour:'technology',step:3,category:'complete_vehicle'},technology[0].id),{tour:'technology',step:0});
+});
 
 test('app shards retain every registered participant and never invent missing booth coordinates',()=>{
   for(const event of publicData.events){

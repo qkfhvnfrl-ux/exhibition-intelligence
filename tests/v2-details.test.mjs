@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {companyPanelMarkup,companyPhotos,companySources,companyCatalogs,comparisonMarkup,printReportMarkup,preparePrintImages,renderCompanyPanel,photoUrl,safeExternalUrl} from '../src/v2/details.js';
+import {companyPanelMarkup,companyPhotos,companySources,companyCatalogs,comparisonMarkup,printReportMarkup,preparePrintImages,renderCompanyPanel,renderCompare,printCompanyReport,photoUrl,safeExternalUrl} from '../src/v2/details.js';
 
 function fixture(){
  const photos=Array.from({length:8},(_,index)=>({id:'p'+index,src:'assets/photos/angle-'+index+'.jpg',sourceUrl:'https://example.org/photo/'+index,caption:'현장 사진 '+index,context:'event',delivery:'local',credit:'촬영자',rights:{status:'reusable'}}));
@@ -124,4 +124,67 @@ test('editorial source metadata wins URL duplicates while all conditions and rep
  assert.deepEqual(sources[0].notes,['성능은 독립 시험 결과가 아닙니다.','기존 자료의 추가 조건']);
  const html=companyPanelMarkup(data,data.companies[0]);assert.match(html,/성능은 독립 시험 결과가 아닙니다/);assert.match(html,/기존 자료의 추가 조건/);assert.match(html,/발행사 단일 근거/);assert.match(html,/같은 원문 재전재 · 독립 근거로 세지 않음/);
  const print=printReportMarkup(data,['o1']);assert.match(print,/같은 원문 재전재 · 독립 근거로 세지 않음/);
+});
+
+test('print captions retain readable photo provenance even without clickable PDF links',()=>{
+ const data=fixture(),printed=printReportMarkup(data,['o1']);
+ for(const photo of data.photos)assert.ok(printed.includes(`<small class="fn-print-url">${photo.sourceUrl}</small>`),photo.id);
+ assert.doesNotMatch(companyPanelMarkup(data,data.companies[0]),/class="fn-print-url"/);
+});
+
+test('print image deadline covers decoding and removes timed-out image listeners',{timeout:1000},async()=>{
+ const replaced=[],listeners=new Map();
+ const doc={createElement(){return {className:'',textContent:''};}};
+ const base={ownerDocument:doc,getAttribute(){return this.src;},replaceWith(node){replaced.push({src:this.src,text:node.textContent});}};
+ const decoding={...base,src:'decode-stalled',complete:true,naturalWidth:100,decode:()=>new Promise(()=>{})};
+ const loading={...base,src:'load-stalled',complete:false,addEventListener(type,fn){listeners.set(type,fn);},removeEventListener(type,fn){if(listeners.get(type)===fn)listeners.delete(type);}};
+ const result=await preparePrintImages({querySelectorAll:()=>[decoding,loading]},{timeout:20});
+ assert.deepEqual(new Set(result.failedImages),new Set(['decode-stalled','load-stalled']));
+ assert.equal(replaced.length,2);assert.equal(listeners.size,0);
+});
+
+function printEnvironment(imageBatches=[]){
+ const nodes=[],listeners=new Map(),printed=[];
+ const doc={
+  createElement(){const images=imageBatches.shift()||[];return {className:'',innerHTML:'',removed:false,querySelectorAll(){return images;},remove(){this.removed=true;}};},
+  body:{append(node){nodes.push(node);}},
+  querySelector(){return nodes.find(node=>!node.removed)||null;}
+ };
+ const win={
+  print(){printed.push(nodes.filter(node=>!node.removed).map(node=>node.innerHTML).join(''));},
+  addEventListener(type,fn){if(!listeners.has(type))listeners.set(type,new Set());listeners.get(type).add(fn);},
+  removeEventListener(type,fn){listeners.get(type)?.delete(fn);},
+  dispatch(type){for(const fn of [...(listeners.get(type)||[])])fn();}
+ };
+ return {doc,win,nodes,listeners,printed};
+}
+
+test('a newer PDF request cancels pending preparation and only prints its own company',{timeout:1000},async()=>{
+ let finishDecode;const decoding={complete:true,naturalWidth:100,decode:()=>new Promise(resolve=>{finishDecode=resolve;})};
+ const env=printEnvironment([[decoding],[]]),data=fixture();
+ const first=printCompanyReport({data,companyIds:['o1'],document:env.doc,window:env.win});
+ await Promise.resolve();
+ const second=printCompanyReport({data,companyIds:['o2'],document:env.doc,window:env.win});
+ const [cancelled,ready]=await Promise.all([first,second]);
+ assert.equal(cancelled.cancelled,true);assert.equal(ready.cancelled,undefined);
+ assert.equal(env.printed.length,1);assert.match(env.printed[0],/data-company-id="o2"/);assert.doesNotMatch(env.printed[0],/data-company-id="o1"/);
+ finishDecode();await Promise.resolve();assert.equal(env.printed.length,1);
+ env.win.dispatch('afterprint');assert.ok(env.nodes.every(node=>node.removed));assert.equal(env.listeners.get('afterprint').size,0);
+});
+
+test('a stalled font load does not block PDF preparation and thrown print calls clean up',{timeout:1000},async()=>{
+ const data=fixture(),env=printEnvironment();env.doc.fonts={ready:new Promise(()=>{})};
+ const result=await printCompanyReport({data,companyIds:['o2'],document:env.doc,window:env.win,timeout:20});
+ assert.equal(env.printed.length,1);result.cleanup();assert.ok(env.nodes.every(node=>node.removed));
+ const failed=printEnvironment();failed.win.print=()=>{throw new Error('printing unavailable');};
+ await assert.rejects(printCompanyReport({data,companyIds:['o2'],document:failed.doc,window:failed.win}),/printing unavailable/);
+ assert.ok(failed.nodes.every(node=>node.removed));assert.equal(failed.listeners.get('afterprint').size,0);
+});
+
+test('comparison print failures show feedback and reenable the action',async()=>{
+ const events=new Map(),feedback={textContent:''},button={disabled:false};
+ const container={innerHTML:'',querySelector(){return feedback;},addEventListener(type,fn){events.set(type,fn);},removeEventListener(type,fn){if(events.get(type)===fn)events.delete(type);}};
+ const cleanup=renderCompare(container,{data:fixture(),companyIds:['o1'],onPrint:async()=>{assert.equal(button.disabled,true);throw new Error('printing blocked');}});
+ await events.get('click')({target:{closest(selector){return selector==='[data-compare-print]'?button:null;}}});
+ assert.match(feedback.textContent,/준비하지 못했습니다/);assert.equal(button.disabled,false);cleanup();
 });

@@ -66,17 +66,42 @@ test('all 32 verified ADEX regions remain selectable in both coordinate projecti
 import {createMapView} from '../src/v2/map-view.js';
 import {mapDOM} from './helpers/map-dom.mjs';
 
-function gestureMap(settings = {}) {
+function gestureMap(settings = {}, overrides = {}) {
   const dom = mapDOM(settings), selected = [], changes = [], modes = [];
   const options = {
     document: {id:'test-plan',url:'https://example.org/plan.pdf',original:{width:1000,height}},
     geometries: [{id:'geometry-a',documentId:'test-plan',boothId:'a',coordinateSpace:'normalized_original',coordinates:[[.35,.35],[.65,.35],[.65,.65],[.35,.65],[.35,.35]]}],
     booths: [{id:'a',hall:'7',code:null}], labels:{a:'공동 업체'}, occupancies:[{boothId:'a',participationId:'one'},{boothId:'a',participationId:'two'}],
-    onSelectBooth: id => selected.push(id), onViewChange: (view, detail) => changes.push({view, ...detail}), onModeChange: mode => modes.push(mode)
+    onSelectBooth: id => selected.push(id), onViewChange: (view, detail) => changes.push({view, ...detail}), onModeChange: mode => modes.push(mode), ...overrides
   };
   const map = createMapView(dom.container, options);
   return {dom,map,selected,changes,modes,viewport:dom.byClass('fn-map__viewport'),host:dom.byClass('fn-map'),getBooth:()=>dom.booths()[0]};
 }
+
+test('a zoomed direct link falls back to its preview when the high-resolution map cannot load', () => {
+  const background={previewUrl:'https://example.org/preview.png',highResolutionUrl:'https://example.org/large.png'};
+  const f=gestureMap({}, {background,view:{x:.5,y:.5,z:4}});
+  assert.equal(f.dom.images[0].src,background.highResolutionUrl);
+  f.dom.images[0].onerror();
+  assert.equal(f.dom.images[1].src,background.previewUrl);
+  f.dom.images[1].onload();
+  assert.equal(f.dom.byTag('image').getAttribute('href'),background.previewUrl);
+  f.map.update({view:{x:.4,y:.6,z:5}});
+  assert.equal(f.dom.images.length,2,'camera movement does not retry a failed high-resolution URL');
+  assert.equal(f.dom.byClass('fn-map__status').hidden,true);
+  f.map.destroy();
+});
+
+test('failed map fallback stops retrying and leaves source access with a visible explanation', () => {
+  const f=gestureMap({}, {background:{previewUrl:'https://example.org/preview.png',highResolutionUrl:'https://example.org/large.png'},view:{x:.5,y:.5,z:4}});
+  f.dom.images[0].onerror(); f.dom.images[1].onerror();
+  f.map.update({view:{x:.5,y:.5,z:5}});
+  assert.equal(f.dom.images.length,2);
+  assert.equal(f.dom.byClass('fn-map__status').hidden,false);
+  assert.match(f.dom.byClass('fn-map__status').textContent,/불러오지 못했습니다/);
+  assert.equal(f.dom.byClass('fn-map__source').href,'https://example.org/plan.pdf');
+  f.map.destroy();
+});
 
 test('touch tap selects a shared booth once even when pointer capture retargets pointerup', () => {
   const f=gestureMap(); const booth=f.getBooth();
@@ -123,6 +148,25 @@ test('two touch pointers pinch around their midpoint then continue one-finger pa
   f.map.destroy();
 });
 
+test('replacing a pinch finger does not jump the camera when three fingers touch the map', () => {
+  const f=gestureMap();
+  f.viewport.dispatch('pointerdown',{pointerId:1,clientX:300,clientY:300});
+  f.viewport.dispatch('pointerdown',{pointerId:2,clientX:500,clientY:300});
+  f.viewport.dispatch('pointermove',{pointerId:2,clientX:600,clientY:300});
+  f.viewport.dispatch('pointerdown',{pointerId:3,clientX:700,clientY:400});
+  const before=f.map.getView();
+  f.viewport.dispatch('pointerup',{pointerId:1,clientX:300,clientY:300});
+  f.viewport.dispatch('pointermove',{pointerId:2,clientX:600,clientY:300});
+  assert.deepEqual(f.map.getView(),before,'remaining fingers retain their current camera and anchor');
+  f.viewport.dispatch('pointermove',{pointerId:3,clientX:750,clientY:450});
+  near(f.map.getView().z,before.z*1.5);
+  f.viewport.dispatch('pointerup',{pointerId:2});
+  f.viewport.dispatch('pointerup',{pointerId:3});
+  assert.deepEqual(f.selected,[]);
+  assert.equal(f.changes.filter(c=>c.commit).length,1);
+  f.map.destroy();
+});
+
 test('cancelled gestures clear pointer state and cannot cause a later booth selection or phantom drag', () => {
   const f=gestureMap();
   f.viewport.dispatch('pointerdown',{target:f.getBooth(),pointerId:1,clientX:300,clientY:300});
@@ -163,6 +207,23 @@ test('2D keeps the same keyboard-selectable booth when returning from simplified
   assert.deepEqual(f.dom.booths().map(b=>b.dataset.boothId),initial);
   const event=f.viewport.dispatch('keydown',{target:f.getBooth(),key:'Enter'});
   assert.equal(event.defaultPrevented,true); assert.deepEqual(f.selected,['a']);
+  f.map.destroy();
+});
+
+test('keyboard focus survives booth selection and map redraws, with a viewport fallback for hidden booths', () => {
+  const f=gestureMap();
+  f.getBooth().focus();
+  f.viewport.dispatch('keydown',{target:f.dom.document.activeElement,key:'Enter'});
+  assert.equal(f.dom.document.activeElement,f.getBooth());
+  assert.deepEqual(f.selected,['a']);
+  f.map.update({mode:'3d'});
+  assert.equal(f.dom.document.activeElement,f.getBooth());
+  const before=f.map.getView();
+  f.viewport.dispatch('keydown',{target:f.dom.document.activeElement,key:'+'});
+  assert.ok(f.map.getView().z>before.z);
+  f.map.update({activeHall:'8'});
+  assert.equal(f.dom.booths().length,0);
+  assert.equal(f.dom.document.activeElement,f.viewport);
   f.map.destroy();
 });
 
