@@ -517,7 +517,8 @@ def build():
                 "Facilities (cafe, seminars, media conference rooms, delegation lounge, BtoB, prayer room, USA Pavilion meeting point, toilets) are not organizational roster rows.",
                 "Source name spellings are retained (including apparent typos). Brand/legal-name normalization needs a separate evidence-backed alias relationship."]},
         entries=entries,maps=[],queues=queues)
-    return apply_number_correction(data)
+    from adex_population_review import apply_population_review
+    return apply_population_review(apply_number_correction(data))
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)

@@ -1,0 +1,980 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "batchId": "stage4-pavilion-components",
+  "checkedAt": "2026-11-12",
+  "cases": [
+    {
+      "id": "case-adex-2025-soosung-pmc",
+      "organizationId": "org-1aaf2c2c6edaa0818a73",
+      "displayName": "수성정밀기계",
+      "categoryIds": [
+        "testing_maintenance"
+      ],
+      "productIds": [
+        "adex25-soosung-bore-cleaner"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "포구 자동청소기는 정비장비까지 차량 운용 패키지에 포함할 때 살펴볼 사례입니다.",
+      "highlights": [
+        "공식 리플릿의 업체·품목과 사후 현장 전시사진을 대조했습니다.",
+        "제품군은 포구 자동청소기로 등록했으며, 모든 구경 형식을 출품한 것으로 확대하지 않았습니다.",
+        "차량 내부 탑재 여부보다 정비장비 보관·반출과 군수지원 범위를 먼저 확인할 대상입니다."
+      ],
+      "exhibit": {
+        "summary": "통합홍보관 전시대의 청소기 실물을 현장 사진에서 확인했습니다. 전시 표지와 리플릿의 제품군 표기는 대조했지만 회사 영문 브랜드를 별도 법인명으로 확정하지 않았습니다.",
+        "items": [
+          {
+            "productId": "adex25-soosung-bore-cleaner",
+            "name": "포구 자동청소기",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "pavilion-dapa-leaflet",
+              "pavilion-dtaq-report"
+            ],
+            "form": "전시실물 — 표지에 105MM ABC SYSTEM 표기, 전체 형식 범위 미확인"
+          }
+        ],
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        },
+        {
+          "id": "pavilion-dtaq-report",
+          "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+          "publisher": "국방기술품질원 미디어룸 / 글 정소야",
+          "date": "2025-11-10",
+          "role": "official_onsite_report",
+          "originGroup": "dtaq-adex2025-report",
+          "support": "통합홍보관 DQ마크 7개사 9개 품목 전시 서술 및 5개 현장사진",
+          "limitations": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [
+        {
+          "id": "adex25-photo-dtaq-01",
+          "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "originalImageUrl": "https://dtaq-media.kr/image/asset/a05950017fb18cd16cc1ffac9df777dda9188dcd06c56cb40221cb532ef67595",
+          "caption": "ADEX 2025 DQ마크 전시대 전경 — 왼쪽의 수성 포구 청소기와 HKC 승무원 헬멧",
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "photographer": null,
+          "provider": "국방기술품질원",
+          "rightsStatus": "link-only",
+          "rightsNote": "원문 Copyright DTaQ All Right Reserved. 재사용 허가 미확보로 원문 연결만 제공합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-11-10",
+          "capturedAt": null,
+          "width": 1024,
+          "height": 569,
+          "sourceIds": [
+            "pavilion-dtaq-report"
+          ],
+          "productIds": [
+            "adex25-soosung-bore-cleaner",
+            "adex25-hkc-crew-helmet"
+          ],
+          "variantNote": "실제 픽셀과 2025년 현장 기사 문맥을 확인했습니다. 촬영일 미기재; sourceDate는 게시일입니다."
+        },
+        {
+          "id": "adex25-photo-dtaq-02",
+          "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "originalImageUrl": "https://dtaq-media.kr/image/asset/129479bb76256f343ea3243fe74c4c5635df2c15815bafd12b78ace904c4d3c6",
+          "caption": "ADEX 2025 DQ마크 전시대 사선 시점 — 포구 청소기·승무원 헬멧과 관람객",
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "photographer": null,
+          "provider": "국방기술품질원",
+          "rightsStatus": "link-only",
+          "rightsNote": "원문 Copyright DTaQ All Right Reserved. 재사용 허가 미확보로 원문 연결만 제공합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-11-10",
+          "capturedAt": null,
+          "width": 1024,
+          "height": 569,
+          "sourceIds": [
+            "pavilion-dtaq-report"
+          ],
+          "productIds": [
+            "adex25-soosung-bore-cleaner",
+            "adex25-hkc-crew-helmet"
+          ],
+          "variantNote": "실제 픽셀과 2025년 현장 기사 문맥을 확인했습니다. 촬영일 미기재; sourceDate는 게시일입니다."
+        },
+        {
+          "id": "adex25-photo-dtaq-03",
+          "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "originalImageUrl": "https://dtaq-media.kr/image/asset/d76d33d782645c8c5398bd6fbf30e4c239298aa92453ae3dcecd1527868c04b0",
+          "caption": "ADEX 2025 수성 포구 자동청소기와 뒤쪽 HKC 승무원 헬멧",
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "photographer": null,
+          "provider": "국방기술품질원",
+          "rightsStatus": "link-only",
+          "rightsNote": "원문 Copyright DTaQ All Right Reserved. 재사용 허가 미확보로 원문 연결만 제공합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-11-10",
+          "capturedAt": null,
+          "width": 1024,
+          "height": 569,
+          "sourceIds": [
+            "pavilion-dtaq-report"
+          ],
+          "productIds": [
+            "adex25-soosung-bore-cleaner",
+            "adex25-hkc-crew-helmet"
+          ],
+          "variantNote": "실제 픽셀과 2025년 현장 기사 문맥을 확인했습니다. 촬영일 미기재; sourceDate는 게시일입니다. 전시 표지의 SOOSUNG DEFENSE INDUSTRIES는 법인명 변경 근거로 사용하지 않습니다."
+        }
+      ],
+      "catalogs": [],
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "pavilion-dapa-leaflet"
+      ],
+      "boothClaims": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "정비 지원장비의 현장 출품을 확인했습니다. 체계개발의 정비성·지원장비 구성 검토와 연결됩니다.",
+        "categories": [
+          "testing_maintenance"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "수동 청소 도구와 자동 구동 청소장비라는 정비 방식",
+        "conditions": "같은 구경·오염·작업인원 조건의 작업시간 및 세척 품질 비교자료가 없습니다.",
+        "judgment": "작업 방식의 차이는 검토할 수 있으나 인시 절감률이나 세척 우수성은 비교 불가입니다.",
+        "status": "comparison_not_quantified",
+        "sourceIds": [
+          "pavilion-dtaq-report"
+        ]
+      },
+      "direction": {
+        "observation": "완성 무기체계가 아닌 전용 정비장비가 DQ마크 전시 구성에 포함됐습니다.",
+        "interpretation": "차량 공급 뒤의 유지관리 장비까지 제안 범위로 묶는 접근으로 해석됩니다. 구체적인 수출 계약 성립을 뜻하지 않습니다.",
+        "sourceIds": [
+          "pavilion-dtaq-report"
+        ]
+      },
+      "workConnection": {
+        "value": "무장 탑재형 파생차의 정비 지원장비·공구함·보관 위치를 검토할 때 참고할 수 있습니다.",
+        "conditions": [
+          "적용 가능한 장비 형식과 보관 조건 확인",
+          "차량 공통 정비장비와 전용 장비의 경계 확인",
+          "공개 전시로 정비시간 목표 충족을 판단하지 않음"
+        ]
+      },
+      "followUps": [
+        "실제 출품 형식과 공급 가능한 정비 대상 범위는 무엇입니까?",
+        "보관·운반·현장 정비에 필요한 지원장비 구성은 무엇입니까?",
+        "동일 조건의 정비 인시와 세척 결과를 확인한 자료가 있습니까?"
+      ],
+      "verificationNote": "공식 리플릿과 DTaQ 사후 기사·사진을 2차 대조했습니다. 두 자료는 공공기관 행사 홍보 계열이며 독립 성능검증으로 세지 않습니다. 회사 영문 브랜드 관계는 추가 확인 대상입니다.",
+      "photoIds": [
+        "adex25-photo-dtaq-01",
+        "adex25-photo-dtaq-02",
+        "adex25-photo-dtaq-03"
+      ],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      },
+      "newRosterSourceListed": true
+    },
+    {
+      "id": "case-adex-2025-hkc",
+      "organizationId": "org-52aa211bb99d6c505361",
+      "displayName": "에이치케이씨",
+      "categoryIds": [
+        "interiors_modules",
+        "protection"
+      ],
+      "productIds": [
+        "adex25-hkc-crew-helmet",
+        "adex25-hkc-radiation-meter"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "승무원 헬멧과 휴대형 방사능 측정기를 별개 장비로 보면, 승무원 공간·통신·안전장비 요구를 함께 점검할 수 있습니다.",
+      "highlights": [
+        "헬멧 실물은 DQ마크 현장사진에서 확인했습니다.",
+        "방사능 측정기는 공식 현장 기사와 리플릿에서 출품을 확인했고, 사진 속 개별 모델은 확정하지 않았습니다.",
+        "일반 제품정보의 모델명을 이번 전시 실물에 그대로 붙이지 않았습니다."
+      ],
+      "exhibit": {
+        "summary": "DQ마크 공동 전시에서 헬멧과 방사능 측정기 두 품목을 소개했습니다. 헬멧은 사진과 대조했고 측정기는 사후 기사 출품 서술까지 확인했습니다.",
+        "items": [
+          {
+            "productId": "adex25-hkc-crew-helmet",
+            "name": "전투차량 승무원용 헬멧",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "pavilion-dapa-leaflet",
+              "pavilion-dtaq-report"
+            ],
+            "form": "마네킹에 장착한 전시실물 — 세부 모델 미확인"
+          },
+          {
+            "productId": "adex25-hkc-radiation-meter",
+            "name": "방사능 측정기",
+            "status": "onsite_report_confirmed",
+            "sourceIds": [
+              "pavilion-dapa-leaflet",
+              "pavilion-dtaq-report"
+            ],
+            "form": "현장 기사 출품 확인 — 개별 모델·사진 식별 미완료"
+          }
+        ],
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        },
+        {
+          "id": "pavilion-dtaq-report",
+          "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+          "publisher": "국방기술품질원 미디어룸 / 글 정소야",
+          "date": "2025-11-10",
+          "role": "official_onsite_report",
+          "originGroup": "dtaq-adex2025-report",
+          "support": "통합홍보관 DQ마크 7개사 9개 품목 전시 서술 및 5개 현장사진",
+          "limitations": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [
+        {
+          "id": "adex25-photo-dtaq-01",
+          "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "originalImageUrl": "https://dtaq-media.kr/image/asset/a05950017fb18cd16cc1ffac9df777dda9188dcd06c56cb40221cb532ef67595",
+          "caption": "ADEX 2025 DQ마크 전시대 전경 — 왼쪽의 수성 포구 청소기와 HKC 승무원 헬멧",
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "photographer": null,
+          "provider": "국방기술품질원",
+          "rightsStatus": "link-only",
+          "rightsNote": "원문 Copyright DTaQ All Right Reserved. 재사용 허가 미확보로 원문 연결만 제공합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-11-10",
+          "capturedAt": null,
+          "width": 1024,
+          "height": 569,
+          "sourceIds": [
+            "pavilion-dtaq-report"
+          ],
+          "productIds": [
+            "adex25-soosung-bore-cleaner",
+            "adex25-hkc-crew-helmet"
+          ],
+          "variantNote": "실제 픽셀과 2025년 현장 기사 문맥을 확인했습니다. 촬영일 미기재; sourceDate는 게시일입니다."
+        },
+        {
+          "id": "adex25-photo-dtaq-02",
+          "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "originalImageUrl": "https://dtaq-media.kr/image/asset/129479bb76256f343ea3243fe74c4c5635df2c15815bafd12b78ace904c4d3c6",
+          "caption": "ADEX 2025 DQ마크 전시대 사선 시점 — 포구 청소기·승무원 헬멧과 관람객",
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "photographer": null,
+          "provider": "국방기술품질원",
+          "rightsStatus": "link-only",
+          "rightsNote": "원문 Copyright DTaQ All Right Reserved. 재사용 허가 미확보로 원문 연결만 제공합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-11-10",
+          "capturedAt": null,
+          "width": 1024,
+          "height": 569,
+          "sourceIds": [
+            "pavilion-dtaq-report"
+          ],
+          "productIds": [
+            "adex25-soosung-bore-cleaner",
+            "adex25-hkc-crew-helmet"
+          ],
+          "variantNote": "실제 픽셀과 2025년 현장 기사 문맥을 확인했습니다. 촬영일 미기재; sourceDate는 게시일입니다."
+        },
+        {
+          "id": "adex25-photo-dtaq-03",
+          "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "originalImageUrl": "https://dtaq-media.kr/image/asset/d76d33d782645c8c5398bd6fbf30e4c239298aa92453ae3dcecd1527868c04b0",
+          "caption": "ADEX 2025 수성 포구 자동청소기와 뒤쪽 HKC 승무원 헬멧",
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "photographer": null,
+          "provider": "국방기술품질원",
+          "rightsStatus": "link-only",
+          "rightsNote": "원문 Copyright DTaQ All Right Reserved. 재사용 허가 미확보로 원문 연결만 제공합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-11-10",
+          "capturedAt": null,
+          "width": 1024,
+          "height": 569,
+          "sourceIds": [
+            "pavilion-dtaq-report"
+          ],
+          "productIds": [
+            "adex25-soosung-bore-cleaner",
+            "adex25-hkc-crew-helmet"
+          ],
+          "variantNote": "실제 픽셀과 2025년 현장 기사 문맥을 확인했습니다. 촬영일 미기재; sourceDate는 게시일입니다. 전시 표지의 SOOSUNG DEFENSE INDUSTRIES는 법인명 변경 근거로 사용하지 않습니다."
+        }
+      ],
+      "catalogs": [],
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "pavilion-dapa-leaflet"
+      ],
+      "boothClaims": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차량 승무원 장비 및 안전·오염 측정장비로 업무 관련성이 명시적입니다.",
+        "categories": [
+          "interiors_modules",
+          "protection"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "일반 보호용 헬멧과 차량 승무원용 통신·착용 장비",
+        "conditions": "동일 조건의 소음·착용성·충격 시험 및 경쟁 제품 자료가 없습니다.",
+        "judgment": "차량 운용을 전제로 한 장비 구분은 가능하지만 방호·통신 성능 우위는 비교 불가입니다.",
+        "status": "comparison_not_quantified",
+        "sourceIds": [
+          "pavilion-dtaq-report"
+        ]
+      },
+      "direction": {
+        "observation": "승무원 착용품과 안전 측정장비를 공동관에서 함께 제시했습니다.",
+        "interpretation": "차체 밖에 있는 개인 지급품도 차량 운용성 검토의 일부로 취급할 가치가 있습니다. 두 품목이 하나의 통합 시스템이라는 의미는 아닙니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "workConnection": {
+        "value": "조종수·승무원 좌석, 헤드룸, 상호통화기 및 임무실 개인장비 수납의 적합성 검토에 연결됩니다.",
+        "conditions": [
+          "실제 지급 헬멧 형식과 차량 통신 인터페이스 확인",
+          "탑승·하차 및 좌석 조절 시 착용 공간 확인",
+          "방사능 측정기의 운용·보관 요구를 별도 안전장비 요구로 확인"
+        ]
+      },
+      "followUps": [
+        "전시 헬멧의 정확한 형식과 호환 상호통화기는 무엇입니까?",
+        "좌석·해치·헤드셋을 함께 고려한 착용성 시험자료가 있습니까?",
+        "방사능 측정기의 정확한 전시 모델과 보관·점검 조건은 무엇입니까?"
+      ],
+      "verificationNote": "전시 리플릿·사후 기사와 실제 사진을 대조했습니다. 촬영자는 미기재입니다. 기사 필자 정소야를 촬영자로 기입하지 않았습니다.",
+      "photoIds": [
+        "adex25-photo-dtaq-01",
+        "adex25-photo-dtaq-02",
+        "adex25-photo-dtaq-03"
+      ],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      },
+      "newRosterSourceListed": true
+    },
+    {
+      "id": "case-adex-2025-edeltech",
+      "organizationId": "org-9919e5b4755ec20cc84e",
+      "displayName": "에델테크",
+      "categoryIds": [
+        "mission_computing",
+        "components"
+      ],
+      "productIds": [
+        "adex25-edeltech-sar-asic"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "SAR 위성용 반도체는 차량 직접 적용품으로 확정할 수 없지만, 센서 신호처리 부품의 국산화 접근을 살펴볼 후보입니다.",
+      "highlights": [
+        "2025 통합홍보관 리플릿에 광대역 신호 생성·처리 ASIC이 명시됐습니다.",
+        "현재 회사의 일반 사업소개를 ADEX 2025 출품 목록으로 확대하지 않았습니다.",
+        "현장 실물·시연 형식과 지상차량 적용 가능성은 추가 확인이 필요합니다."
+      ],
+      "exhibit": {
+        "summary": "국방기술진흥연구소 전시품목에 SAR 위성용 ASIC이 등재됐습니다. 공개 리플릿에는 제품 그림이 있으나 이번 회차 현장사진으로 취급하지 않습니다.",
+        "items": [
+          {
+            "productId": "adex25-edeltech-sar-asic",
+            "name": "SAR 위성용 반도체 — 광대역 신호 생성·처리 ASIC",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "pavilion-dapa-leaflet"
+            ],
+            "form": "공식 전시 목록에 기재 — 현장 실물·모형 여부 미확인"
+          }
+        ],
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        },
+        {
+          "id": "pavilion-edel-successor",
+          "url": "https://www.edelway.ai/company",
+          "title": "에델웨이 회사개요·성장 스토리",
+          "publisher": "에델웨이",
+          "date": null,
+          "role": "company_background",
+          "originGroup": "edelway-company",
+          "support": "2026년 합병 전 회사명이 에델테크였다는 회사 연혁 및 대한민국 소재 사업장",
+          "limitations": "2026년 이후 회사 배경자료입니다. 2025 출품 근거로 사용하지 않으며 당시 업체명 EDELTECH를 유지합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [],
+      "catalogs": [],
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "pavilion-edel-successor"
+      ],
+      "boothClaims": [],
+      "review": {
+        "relevance": "pending",
+        "reason": "공식 2025 출품품은 위성용 ASIC입니다. 신호처리 부품 공급망 검토 후보로 보존하되 지상차량 적용 가능한 제품 또는 전용 기술 제공 근거가 부족하여 관련성 검토중으로 남깁니다.",
+        "categories": [
+          "mission_computing",
+          "components"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-edel-successor"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "개별 신호처리 기능의 ASIC 구현과 범용 처리 모듈",
+        "conditions": "같은 처리 기능·소비전력·비용 조건의 비교자료를 확보하지 못했습니다.",
+        "judgment": "반도체 단위 국산화 사례로 분류할 수 있습니다. 차량용 처리장치의 대체 가능성과 우위는 비교 불가입니다.",
+        "status": "insufficient_comparison_data",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ]
+      },
+      "direction": {
+        "observation": "완성 위성보다 하위 부품인 신호 생성·처리 반도체를 출품 목록에 올렸습니다.",
+        "interpretation": "핵심 부품의 국내 공급 기반을 보여주려는 전시 선택으로 해석됩니다. 차량용 제품 출시 계획은 확인되지 않았습니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ]
+      },
+      "workConnection": {
+        "value": "차량 임무컴퓨터·센서 처리장치의 부품 공급망 후보 조사에 참고할 수 있으나, 현재는 적용 검토 이전의 기술 배경 수준입니다.",
+        "conditions": [
+          "차량용 제공 제품 존재 여부 확인",
+          "수명주기 공급·형상관리 지원 범위 확인",
+          "위성용 전시품의 적합성을 차량 요구에 자동 적용하지 않음"
+        ]
+      },
+      "followUps": [
+        "이번 전시품은 실제 칩·보드·모형 중 무엇이었습니까?",
+        "지상차량용으로 제공 가능한 별도 제품이나 검증 자료가 있습니까?",
+        "장기 공급과 설계변경 통지는 어떤 범위로 지원합니까?"
+      ],
+      "verificationNote": "2025 리플릿만 제품 출품 근거입니다. 후속 회사 연혁으로 명칭 변화를 확인했으며 2026 제품·사진을 2025 자료로 넣지 않았습니다.",
+      "photoIds": [],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      }
+    },
+    {
+      "id": "case-adex-2025-pixoneer",
+      "organizationId": "org-451ea401431c45877d4c",
+      "displayName": "픽소니어",
+      "categoryIds": [
+        "optics_awareness",
+        "mission_computing"
+      ],
+      "productIds": [
+        "adex25-pixoneer-coordinate-camera"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "AI 좌표 추출 카메라는 센서 출력이 지휘소 화면에 어떤 정보로 전달되는지 살펴볼 전시 후보입니다.",
+      "highlights": [
+        "통합홍보관 리플릿에 AI 표적 좌표 추출 카메라가 제품별로 기재됐습니다.",
+        "현장 사진과 정확한 형식명은 아직 확보하지 못했습니다.",
+        "다른 기사에 나온 단순 참관 사실은 제품 출품의 독립 확인으로 세지 않았습니다."
+      ],
+      "exhibit": {
+        "summary": "리플릿은 해당 카메라를 AI 기반 실시간 좌표 제공 시스템으로 소개합니다. 제품 설명 그림을 이번 회차 현장 사진으로 전환하지 않았습니다.",
+        "items": [
+          {
+            "productId": "adex25-pixoneer-coordinate-camera",
+            "name": "AI 표적 좌표 추출 카메라",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "pavilion-dapa-leaflet"
+            ],
+            "form": "공식 전시 목록에 기재 — 현장 실물·시연 여부 미확인"
+          }
+        ],
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        },
+        {
+          "id": "pavilion-pixoneer-profile",
+          "url": "https://www.pixoneer.co.kr/board?bbsId=BOARD00001&menuKey=yFIhiS898T",
+          "title": "픽소니어 회사소개",
+          "publisher": "픽소니어",
+          "date": null,
+          "role": "company_background",
+          "originGroup": "pixoneer-company",
+          "support": "한국 법인명과 대전 소재 본사, 감시정찰·지휘통제 사업의 배경",
+          "limitations": "현행 회사소개이므로 2025 출품 증거와 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [],
+      "catalogs": [],
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "pavilion-pixoneer-profile"
+      ],
+      "boothClaims": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "감시 영상과 위치 정보를 지휘소 임무화면에서 다루는 업체 조사와 관련됩니다. 차량 탑재나 실제 운용 적합성은 확인 전입니다.",
+        "categories": [
+          "optics_awareness",
+          "mission_computing"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-pixoneer-profile"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "영상 제공만 하는 카메라와 위치 정보까지 내보내는 센서 구성",
+        "conditions": "같은 거리·환경에서의 정확도·지연·검출 성능 비교가 없습니다.",
+        "judgment": "정보 출력 범위의 차이는 검토할 수 있지만 성능 우위나 차량 적용성은 비교 불가입니다.",
+        "status": "insufficient_comparison_data",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ]
+      },
+      "direction": {
+        "observation": "카메라 하드웨어 이름과 AI 정보처리 기능을 함께 제시했습니다.",
+        "interpretation": "영상 장비를 후속 정보 활용과 연결해 설명하려는 전시 방향으로 읽힙니다. 실제 통합 수준은 확인이 필요합니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ]
+      },
+      "workConnection": {
+        "value": "지휘소 차량의 상황인식 화면과 센서 데이터 인터페이스 요구를 정리할 때 확인할 업체입니다.",
+        "conditions": [
+          "정확한 형식·시험자료·제공 데이터 목록 확인",
+          "차량 장착 환경 및 유지관리 조건 확인",
+          "당사 탑재·채택·협력관계를 추정하지 않음"
+        ]
+      },
+      "followUps": [
+        "2025년 실제 전시한 형식과 구성품 목록은 무엇입니까?",
+        "차량 적용에 대해 공개할 수 있는 환경 검증 자료가 있습니까?",
+        "데이터 제공·상태진단·유지관리 인터페이스 문서가 있습니까?"
+      ],
+      "verificationNote": "리플릿 원문과 제품 그림·업체명 표기를 대조했고 회사소개로 국가·명칭을 확인했습니다. 독립 현장사진 미확보로 자료부족 상태입니다.",
+      "photoIds": [],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      },
+      "newRosterSourceListed": true
+    },
+    {
+      "id": "case-adex-2025-funzin",
+      "organizationId": "org-727b89d90befcaec969c",
+      "displayName": "펀진",
+      "categoryIds": [
+        "mission_computing",
+        "unmanned_remote",
+        "manufacturing_simulation"
+      ],
+      "productIds": [
+        "adex25-funzin-kwm",
+        "adex25-funzin-ocelot",
+        "adex25-funzin-sta",
+        "adex25-funzin-ranza",
+        "adex25-funzin-eagleeye"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "KWM-stA를 전술차량 탑재형으로 소개한 점은 지휘소 차량의 임무 소프트웨어 경계를 검토할 단서입니다.",
+      "highlights": [
+        "KWM·Ocelot·stA·RANZA·EagleEye를 제품별로 구분했습니다.",
+        "전시대의 KWM 및 EagleEye 화면은 실제 사진으로 대조했습니다.",
+        "차량 탑재형이라는 발표를 완성 지휘차량 실물 출품이나 성능 검증으로 바꾸지 않았습니다."
+      ],
+      "exhibit": {
+        "summary": "펀진은 지휘결심·무인체계 관리·군수자동화·합성데이터 제품을 함께 제시했습니다. KWM WORLD는 전시의 상위 구성명으로 남겨 하위 제품과 이중 집계하지 않았습니다.",
+        "items": [
+          {
+            "productId": "adex25-funzin-kwm",
+            "name": "KWM 지휘결심지원체계",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "pavilion-funzin-event",
+              "pavilion-funzin-recap",
+              "pavilion-dapa-leaflet"
+            ],
+            "form": "부스 모니터·패널 전시; KWM WORLD는 상위 구성명으로 중복 제품 집계하지 않음"
+          },
+          {
+            "productId": "adex25-funzin-ocelot",
+            "name": "KWM-Ocelot 전자기 스펙트럼 정찰 시스템",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "pavilion-funzin-event",
+              "pavilion-funzin-recap"
+            ],
+            "form": "행사 후 제조사 전시 목록 확인; 개별 화면 식별 미완료"
+          },
+          {
+            "productId": "adex25-funzin-sta",
+            "name": "KWM-stA 전술차량 탑재형 MUM-T C2 시스템",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "pavilion-funzin-event",
+              "pavilion-funzin-recap"
+            ],
+            "form": "제조사 전시 소개; 완성 차량 실물 전시 근거 없음"
+          },
+          {
+            "productId": "adex25-funzin-ranza",
+            "name": "KWM-RANZA 군수자동화 시스템",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "pavilion-funzin-event",
+              "pavilion-funzin-recap"
+            ],
+            "form": "제조사 기사에 군수창고 시뮬레이션 설명; 원본 이미지 접근 제한"
+          },
+          {
+            "productId": "adex25-funzin-eagleeye",
+            "name": "EagleEye AI 합성데이터 플랫폼",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "pavilion-funzin-event",
+              "pavilion-funzin-recap"
+            ],
+            "form": "현장 모니터의 EagleEye 표기와 제조사 출품 문장 대조"
+          }
+        ],
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-funzin-event",
+          "pavilion-funzin-recap"
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        },
+        {
+          "id": "pavilion-funzin-event",
+          "url": "https://www.funzin.co.kr/pr-center/newsletter?board_code=1&code=606&tpf=board/view",
+          "title": "펀진, ADEX 2025서 초거대-KWM, KWM-world 등 더 진화한 AI 참모 시스템 공개",
+          "publisher": "펀진",
+          "date": "2025-10-23",
+          "role": "manufacturer_event_statement",
+          "originGroup": "funzin-adex2025",
+          "support": "KWM, KWM-Ocelot, KWM-stA, KWM-RANZA, EagleEye 전시 발표",
+          "limitations": "제조사 자체 설명입니다. 운영 성능·알고리즘 효과의 독립 검증은 아닙니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "pavilion-funzin-recap",
+          "url": "https://funzin.stibee.com/p/62",
+          "title": "펀진 뉴스레터 2025년 11월호 — ADEX 참가 회고",
+          "publisher": "펀진",
+          "date": "2025-11-24",
+          "role": "manufacturer_event_recap",
+          "originGroup": "funzin-adex2025",
+          "support": "행사 종료 후 전시품 재확인 및 실제 전시대 사진",
+          "limitations": "같은 제조사 원천이므로 행사 발표와 독립 출처 두 개로 세지 않습니다. 촬영자는 미기재입니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [
+        {
+          "id": "adex25-photo-funzin-newsletter",
+          "sourceUrl": "https://funzin.stibee.com/p/62",
+          "originalImageUrl": "https://img.stibee.com/112490_3070828_1763616952110301665.jpg",
+          "caption": "서울 ADEX 2025 펀진 전시대 — KWM 및 EagleEye 모니터·패널",
+          "credit": "펀진 제공 / 촬영자 미기재",
+          "photographer": null,
+          "provider": "펀진",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가 미확보. 원문 뉴스레터에 연결하며 이미지 파일을 배포하지 않습니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-11-24",
+          "capturedAt": null,
+          "sourceIds": [
+            "pavilion-funzin-recap"
+          ],
+          "productIds": [
+            "adex25-funzin-kwm",
+            "adex25-funzin-eagleeye"
+          ],
+          "variantNote": "현장 사진의 제품 표기와 제조사 출품 목록을 대조했습니다. 주변 타사 표시는 펀진 제품으로 등록하지 않았습니다. 게시일과 촬영일은 구별합니다."
+        }
+      ],
+      "catalogs": [],
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "pavilion-funzin-event"
+      ],
+      "boothClaims": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "전술차량 탑재형 지휘통제 소프트웨어, 임무컴퓨터 화면 및 군수 데이터 활용과 관련됩니다.",
+        "categories": [
+          "mission_computing",
+          "unmanned_remote",
+          "manufacturing_simulation"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-funzin-event",
+          "pavilion-funzin-recap"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "상위 지휘결심 KWM과 차량 단위 독립형으로 소개한 KWM-stA",
+        "conditions": "제조사 제품 설명에 따른 구성 비교입니다. 현장 통신 제약·동일 컴퓨팅 자원에서의 검증 결과는 없습니다.",
+        "judgment": "차량 단위 임무와 상위 체계 역할을 나누려는 구성이 확인됩니다. 실제 운용 효과와 타사 대비 우열은 비교 불가입니다.",
+        "status": "architecture_comparison_only",
+        "sourceIds": [
+          "pavilion-funzin-event"
+        ]
+      },
+      "direction": {
+        "observation": "하나의 AI 제품뿐 아니라 지휘·군수·데이터 생성 제품군을 동일 회차에서 소개했습니다.",
+        "interpretation": "여러 임무의 소프트웨어를 공통 제품군으로 설명하려는 방향으로 읽힙니다. 각 제품 간 실제 연동 완료 범위는 추가 확인 대상입니다.",
+        "sourceIds": [
+          "pavilion-funzin-event",
+          "pavilion-funzin-recap"
+        ]
+      },
+      "workConnection": {
+        "value": "지휘소 차량의 운용자 화면·임무컴퓨터·소프트웨어 공급 범위 및 군수 정보 연계 요구를 검토할 때 참고할 수 있습니다.",
+        "conditions": [
+          "제조사 발표 기능과 시험 완료 기능을 분리 확인",
+          "사용자 역할·승인 책임·상태표시 등 운용 요구 명확화",
+          "차량 실물 탑재 근거와 컴퓨터·전원·열관리 요구는 별도 확인"
+        ]
+      },
+      "followUps": [
+        "KWM-stA의 2025년 전시 구성과 실제 차량 탑재 검증 범위는 무엇입니까?",
+        "각 제품의 형상관리·업데이트·장애 복구 지원 범위는 어디까지입니까?",
+        "지휘소 운용자 화면과 기존 임무장비 사이에 필요한 인터페이스 문서는 무엇입니까?"
+      ],
+      "verificationNote": "제조사 10월 발표·11월 사후 회고와 사진 픽셀을 대조했습니다. 뉴스투데이·ZDNet 기사 사진도 펀진 제공이므로 독립 촬영으로 세지 않았습니다. 기사 이미지의 직접 접근 제한 때문에 확인하지 못한 각도는 사진 수에서 제외했습니다.",
+      "photoIds": [
+        "adex25-photo-funzin-newsletter"
+      ],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      }
+    }
+  ],
+  "scopeNote": "공식 공동관 목록의 소형 5개 기업 검토: 관련 4개, 검토중 1개; 분석완료 3개, 자료부족 2개. 전체 행사 모집단/전체 출품 완료 아님.",
+  "photoCountPolicy": "공유 사진은 원본 이미지/안정 ID별 1건: DTaQ 3장 + 펀진 1장. 7개의 업체-사진 연결을 7장으로 세지 않음."
+}

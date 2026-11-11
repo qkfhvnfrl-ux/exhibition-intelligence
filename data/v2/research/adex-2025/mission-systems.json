@@ -1,0 +1,1242 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "batchId": "adex25-stage4-mission-01",
+  "checkedAt": "2026-11-12",
+  "scope": "Six previously pending mission-system firms; existing cases unchanged.",
+  "cases": [
+    {
+      "id": "case-adex-2025-cots",
+      "organizationId": "org-53dca27d6bb21ebea782",
+      "displayName": "코츠테크놀로지",
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "cots-official"
+      ],
+      "categoryIds": [
+        "mission_computing"
+      ],
+      "productIds": [
+        "adex25-cots-sbc-family"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "차량 임무컴퓨터의 국산 모듈 공급과 장기 유지보수 관점에서 검토할 업체입니다.",
+      "highlights": [
+        "SBC 기반 임베디드 제품군의 회차 출품을 확인했습니다.",
+        "부스 실사진은 있으나 개별 보드 모델명을 판독하지 못했습니다.",
+        "여러 언론 기사는 같은 회사 발표를 전달해 독립 검증으로 합산하지 않습니다."
+      ],
+      "exhibit": {
+        "summary": "천마 적용 사례를 포함한 SBC 기반 임베디드 제품군을 소개했습니다. 공개된 회차 자료는 모델별 명세를 제공하지 않습니다.",
+        "items": [
+          {
+            "productId": "adex25-cots-sbc-family",
+            "name": "무기체계용 SBC 기반 임베디드 제품군",
+            "status": "event_photo_confirmed",
+            "form": "실물 보드·장비 전시; 개별 모델명 미확인",
+            "sourceIds": [
+              "cots-official",
+              "cots-photo"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "cots-official",
+          "cots-photo"
+        ]
+      },
+      "distinction": {
+        "comparator": "해당 업체의 공개 전시 구성과 단품 공급 방식",
+        "conditions": "같은 조건의 비교시험 자료는 확보하지 못했습니다.",
+        "judgment": "완성 임무장비보다 연산·제어의 하위 모듈이 중심입니다. 단종 대응과 시스템 통합 범위를 별도로 비교해야 합니다.",
+        "status": "configuration_comparison_only",
+        "sourceIds": [
+          "cots-official",
+          "cots-photo"
+        ]
+      },
+      "direction": {
+        "observation": "천마 적용 사례를 포함한 SBC 기반 임베디드 제품군을 소개했습니다. 공개된 회차 자료는 모델별 명세를 제공하지 않습니다.",
+        "interpretation": "국산 연산 모듈을 AI·자율체계로 확장하려는 공급 방향으로 해석됩니다. 당사 적용 실적을 뜻하지 않습니다.",
+        "sourceIds": [
+          "cots-official",
+          "cots-photo"
+        ]
+      },
+      "workConnection": {
+        "value": "지휘소 차량의 컴퓨터·표시장치 교체 시 공급 지속성, 모듈 교환성 및 정비 문서 요구사항을 비교할 수 있습니다.",
+        "conditions": [
+          "전시 소개와 차량 적용 승인·시험 완료를 구분",
+          "개별 형식·인터페이스·시험 성적서를 별도 확인"
+        ]
+      },
+      "followUps": [
+        "전시한 보드별 모델명과 개별 명판 사진을 확보할 수 있습니까?",
+        "지원 운영체제·수명주기·단종 대체 정책은 무엇입니까?",
+        "차량 환경 시험 성적서가 제공됩니까?"
+      ],
+      "sources": [
+        {
+          "id": "cots-official",
+          "url": "http://www.cotstech.com/12_1/53",
+          "title": "코츠테크놀로지 서울 ADEX 2025 참가",
+          "publisher": "코츠테크놀로지 (뉴스핌 보도 재게시)",
+          "date": "2025-10-22",
+          "role": "manufacturer_event_statement",
+          "originGroup": "cots-adex25-release",
+          "support": "SBC 기반 임베디드 제품군 출품 및 한국 본사 주소.",
+          "limitations": "HTTP 원문 200 확인. HTTPS는 Gabia 403으로 전환. 재게시와 언론 원문은 같은 기원.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "cots-photo",
+          "url": "https://www.finance-scope.com/article/view/scp202510220013",
+          "title": "ADEX 2025 코츠테크놀로지 부스",
+          "publisher": "파이낸스스코프 / 남지완, 사진 코츠테크놀로지",
+          "date": "2025-10-22",
+          "role": "manufacturer_event_photo",
+          "originGroup": "cots-adex25-release",
+          "support": "실제 코츠 부스 사진과 공개 제품군",
+          "limitations": "독립 현장 취재·독립 성능시험으로 세지 않음.",
+          "independence": "same_origin_republication",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "cots-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 공식 사전 배치도 (2025-10-11)",
+          "publisher": "Seoul ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "official_floor_plan",
+          "originGroup": "adex25-map-20251011",
+          "support": "코츠테크놀로지 명칭 및 Hall 7 사전 배치. 개별 번호는 판독되지 않음.",
+          "limitations": "사전 계획이며 현장 출품의 근거가 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-adex25-cots-booth",
+          "sourceUrl": "https://www.finance-scope.com/article/view/scp202510220013",
+          "caption": "ADEX 2025 코츠테크놀로지 부스와 전시 보드",
+          "credit": "코츠테크놀로지 제공·개별 촬영자 미표기",
+          "photographer": "코츠테크놀로지 제공·개별 촬영자 미표기",
+          "rightsStatus": "link-only",
+          "rightsNote": "재배포 허락 미확인. 원문 링크만 제공하며 이미지 파일을 복제하거나 직접 표시하지 않습니다.",
+          "license": null,
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-10-22",
+          "sourceIds": [
+            "cots-photo"
+          ],
+          "productIds": [
+            "adex25-cots-sbc-family"
+          ],
+          "variantNote": "부스 사진 직접 확인. 보드별 제품명·제원은 이미지 해상도로 확인되지 않음.",
+          "assetUrl": "https://www.finance-scope.com/data/scp/image/2025/10/22/scp20251022000012.800x.0.jpg",
+          "originalImageUrl": "https://www.finance-scope.com/data/scp/image/2025/10/22/scp20251022000012.800x.0.jpg",
+          "organizationId": "org-53dca27d6bb21ebea782",
+          "eventName": "Seoul ADEX 2025"
+        }
+      ],
+      "catalogs": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차량 임무컴퓨터의 국산 모듈 공급과 장기 유지보수 관점에서 검토할 업체입니다.",
+        "categories": [
+          "mission_computing"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "cots-official",
+          "cots-photo"
+        ],
+        "remaining": [
+          "개별 SBC·임베디드 모듈 모델 전사",
+          "독립 현장 사진",
+          "부스 번호"
+        ]
+      },
+      "boothClaims": [
+        {
+          "code": null,
+          "hall": "7",
+          "status": "unverified",
+          "sourceIds": [
+            "cots-map"
+          ],
+          "note": "공식 사전 지도 홀만 확인. 부스 번호와 추가 좌표는 생성하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "case-adex-2025-huneed",
+      "organizationId": "org-8a21476471c8947e6e2b",
+      "displayName": "휴니드테크놀러지스",
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "huneed-country"
+      ],
+      "categoryIds": [
+        "communications_navigation",
+        "mission_computing",
+        "unmanned_remote"
+      ],
+      "productIds": [
+        "adex25-huneed-hctrs",
+        "adex25-huneed-p5g",
+        "adex25-huneed-tracking-antenna",
+        "adex25-huneed-manet",
+        "adex25-huneed-fanet-drone",
+        "adex25-huneed-mission-commander",
+        "adex25-huneed-drone-simulator"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "지휘소 차량의 통신망과 상황 표시를 함께 검토할 수 있는 전시 구성입니다.",
+      "highlights": [
+        "무선전송·P5G·MANET·FANET·지휘소를 연결한 출품 발표입니다.",
+        "현장 협약 사진으로 부스 운영을 확인했습니다.",
+        "제품별 실물·시연 형식은 추가 확인이 필요합니다."
+      ],
+      "exhibit": {
+        "summary": "통신장비 4종, 정찰드론, 미션커멘더와 드론 시뮬레이터를 회차 발표에서 구분했습니다. MOU 현장 확인을 모든 제품의 실물 확인으로 확대하지 않습니다.",
+        "items": [
+          {
+            "productId": "adex25-huneed-hctrs",
+            "name": "고속무선전송장비",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 회차 발표·개별 실물 형식 미확인",
+            "sourceIds": [
+              "huneed-release"
+            ]
+          },
+          {
+            "productId": "adex25-huneed-p5g",
+            "name": "군용 P5G 시스템",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 회차 발표·개별 실물 형식 미확인",
+            "sourceIds": [
+              "huneed-release"
+            ]
+          },
+          {
+            "productId": "adex25-huneed-tracking-antenna",
+            "name": "장거리형 추적안테나",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 회차 발표·개별 실물 형식 미확인",
+            "sourceIds": [
+              "huneed-release"
+            ]
+          },
+          {
+            "productId": "adex25-huneed-manet",
+            "name": "MANET 무전기",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 회차 발표·개별 실물 형식 미확인",
+            "sourceIds": [
+              "huneed-release"
+            ]
+          },
+          {
+            "productId": "adex25-huneed-fanet-drone",
+            "name": "FANET 기반 소형 장거리 정찰드론",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 회차 발표·개별 실물 형식 미확인",
+            "sourceIds": [
+              "huneed-release"
+            ]
+          },
+          {
+            "productId": "adex25-huneed-mission-commander",
+            "name": "미션커멘더 지휘소 솔루션",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 회차 발표·개별 실물 형식 미확인",
+            "sourceIds": [
+              "huneed-release"
+            ]
+          },
+          {
+            "productId": "adex25-huneed-drone-simulator",
+            "name": "드론 시뮬레이터",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 회차 발표·개별 실물 형식 미확인",
+            "sourceIds": [
+              "huneed-release"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "huneed-release",
+          "huneed-partner",
+          "huneed-country",
+          "huneed-photo"
+        ]
+      },
+      "distinction": {
+        "comparator": "해당 업체의 공개 전시 구성과 단품 공급 방식",
+        "conditions": "같은 조건의 비교시험 자료는 확보하지 못했습니다.",
+        "judgment": "무전기 단품에 지휘소 시각화·드론 연결을 더한 구성이 특징입니다. 네트워크 통합 수준과 상호운용성은 별도 확인 대상입니다.",
+        "status": "configuration_comparison_only",
+        "sourceIds": [
+          "huneed-release",
+          "huneed-partner",
+          "huneed-country",
+          "huneed-photo"
+        ]
+      },
+      "direction": {
+        "observation": "통신장비 4종, 정찰드론, 미션커멘더와 드론 시뮬레이터를 회차 발표에서 구분했습니다. MOU 현장 확인을 모든 제품의 실물 확인으로 확대하지 않습니다.",
+        "interpretation": "항공 전장·전술통신 경험을 지상 지휘소와 무인체계 연결로 넓히려는 방향입니다.",
+        "sourceIds": [
+          "huneed-release",
+          "huneed-partner",
+          "huneed-country",
+          "huneed-photo"
+        ]
+      },
+      "workConnection": {
+        "value": "CPV의 통신·전시기 연동, 전원·냉각·안테나 설치 요구를 협의할 후보입니다. 항공 분야 실적이 지상차량 적합성을 자동 보장하지 않습니다.",
+        "conditions": [
+          "전시 소개와 차량 적용 승인·시험 완료를 구분",
+          "개별 형식·인터페이스·시험 성적서를 별도 확인"
+        ]
+      },
+      "followUps": [
+        "7개 공개 품목의 실제 전시 모델·시연 형식은 무엇입니까?",
+        "미션커멘더의 외부 장비 데이터 연동 범위를 문서로 확인할 수 있습니까?",
+        "차량 장착 구성의 전원·냉각·정비 요구는 별도 제시됩니까?"
+      ],
+      "sources": [
+        {
+          "id": "huneed-release",
+          "url": "https://www.etnews.com/20251020000005",
+          "title": "휴니드 ADEX 2025 Mission Ready Now 발표",
+          "publisher": "휴니드 발표 / 전자신문 김현민",
+          "date": "2025-10-20",
+          "role": "manufacturer_event_statement",
+          "originGroup": "huneed-adex25-release",
+          "support": "회차 출품 예정 7품목/솔루션 명칭",
+          "limitations": "회사 성능 수치·즉시 전력화 주장은 독립 검증하지 않음.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "huneed-partner",
+          "url": "https://www.pabloair.com/kr/news/news.php?bgu=view&code=news&idx=249",
+          "title": "ADEX 2025 휴니드 부스 MOU",
+          "publisher": "파블로항공",
+          "date": "2025-10-23",
+          "role": "partner_event_statement",
+          "originGroup": "pablo-huneed-adex25-mou",
+          "support": "10월22일 휴니드 부스에서 협약 및 현장 기념사진",
+          "limitations": "협약은 제품별 실물 전시·개발 완료의 증거가 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "huneed-country",
+          "url": "https://www.huneed.com/copy-of-%ED%9A%8C%EC%82%AC%EC%86%8C%EA%B0%9C",
+          "title": "휴니드 오시는 길",
+          "publisher": "휴니드",
+          "date": null,
+          "role": "manufacturer_profile",
+          "originGroup": "huneed-profile",
+          "support": "인천 본사 주소",
+          "limitations": "현재 회사 배경자료",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "huneed-photo",
+          "url": "https://www.news2day.co.kr/article/20251023500128",
+          "title": "휴니드·파블로항공 ADEX 현장 협약 사진",
+          "publisher": "뉴스투데이 / 김한경; 사진 휴니드",
+          "date": "2025-10-23",
+          "role": "manufacturer_event_photo",
+          "originGroup": "pablo-huneed-adex25-mou",
+          "support": "휴니드 부스 내 협약 현장",
+          "limitations": "기술제품 사진이 아니라 업체 참가 증빙.",
+          "independence": "same_origin_republication",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "huneed-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 공식 사전 배치도 (2025-10-11)",
+          "publisher": "Seoul ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "official_floor_plan",
+          "originGroup": "adex25-map-20251011",
+          "support": "휴니드테크놀러지스 명칭 및 Hall 9 사전 배치. 개별 번호는 판독되지 않음.",
+          "limitations": "사전 계획이며 현장 출품의 근거가 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-adex25-huneed-mou",
+          "sourceUrl": "https://www.news2day.co.kr/article/20251023500128",
+          "caption": "ADEX 2025 휴니드 부스의 파블로항공 협약 현장",
+          "credit": "휴니드테크놀러지스 제공·개별 촬영자 미표기",
+          "photographer": "휴니드테크놀러지스 제공·개별 촬영자 미표기",
+          "rightsStatus": "link-only",
+          "rightsNote": "재배포 허락 미확인. 원문 링크만 제공하며 이미지 파일을 복제하거나 직접 표시하지 않습니다.",
+          "license": null,
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-10-22",
+          "sourceIds": [
+            "huneed-photo",
+            "huneed-partner"
+          ],
+          "productIds": [],
+          "variantNote": "부스 참가 및 협약 현장. 개별 통신장비의 출품 사진이 아닙니다.",
+          "assetUrl": "https://cdn.news2day.co.kr/data2/content/image/2025/10/23/.cache/512/20251023500127.png",
+          "originalImageUrl": "https://cdn.news2day.co.kr/data2/content/image/2025/10/23/.cache/512/20251023500127.png",
+          "organizationId": "org-8a21476471c8947e6e2b",
+          "eventName": "Seoul ADEX 2025"
+        }
+      ],
+      "catalogs": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "지휘소 차량의 통신망과 상황 표시를 함께 검토할 수 있는 전시 구성입니다.",
+        "categories": [
+          "communications_navigation",
+          "mission_computing",
+          "unmanned_remote"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "huneed-release",
+          "huneed-partner",
+          "huneed-country",
+          "huneed-photo"
+        ],
+        "remaining": [
+          "제품별 현장 형식·명판 확인",
+          "독립 현장 사진",
+          "부스 번호"
+        ]
+      },
+      "boothClaims": [
+        {
+          "code": null,
+          "hall": "9",
+          "status": "unverified",
+          "sourceIds": [
+            "huneed-map"
+          ],
+          "note": "공식 사전 지도 홀만 확인. 부스 번호와 추가 좌표는 생성하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "case-adex-2025-eo-system",
+      "organizationId": "org-e843c1da4f4efc81c4ca",
+      "displayName": "이오시스템",
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "eo-profile"
+      ],
+      "categoryIds": [
+        "optics_awareness",
+        "unmanned_remote"
+      ],
+      "productIds": [
+        "adex25-eo-raptor-f",
+        "adex25-eo-mgs5",
+        "adex25-eo-thetis",
+        "adex25-eo-drone-eoir",
+        "adex25-eo-nvg-network",
+        "adex25-eo-ai-eoir"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "승무원 관측장비와 무인체계 영상센서를 함께 검토할 수 있는 국내 광학업체입니다.",
+      "highlights": [
+        "RAPTOR-F·MGS-5·THETIS를 각각 등록했습니다.",
+        "독립 현장 취재 사진과 회사 제공 사진을 분리했습니다.",
+        "24종 전체 모델 명단은 미확보 상태입니다."
+      ],
+      "exhibit": {
+        "summary": "체험용 광학장비 3종과 드론 EO/IR·야간투시경 연동·AI 영상 기술을 소개했습니다. 제품군 명칭만 공개된 품목은 미상 모델을 만들지 않았습니다.",
+        "items": [
+          {
+            "productId": "adex25-eo-raptor-f",
+            "name": "RAPTOR-F 야간투시경",
+            "status": "event_photo_confirmed",
+            "form": "현장 체험 실물",
+            "sourceIds": [
+              "eo-release"
+            ]
+          },
+          {
+            "productId": "adex25-eo-mgs5",
+            "name": "MGS-5 조준경",
+            "status": "onsite_report_confirmed",
+            "form": "현장 체험 실물; 제조사 제공 기사",
+            "sourceIds": [
+              "eo-release"
+            ]
+          },
+          {
+            "productId": "adex25-eo-thetis",
+            "name": "THETIS 관측경",
+            "status": "onsite_report_confirmed",
+            "form": "현장 체험 실물; 제조사 제공 기사",
+            "sourceIds": [
+              "eo-release"
+            ]
+          },
+          {
+            "productId": "adex25-eo-drone-eoir",
+            "name": "드론 EO·IR 탑재장비 제품군",
+            "status": "exhibitor_event_statement",
+            "form": "제품군 출품 발표; 세부 모델 미확인",
+            "sourceIds": [
+              "eo-release"
+            ]
+          },
+          {
+            "productId": "adex25-eo-nvg-network",
+            "name": "야간투시경 네트워크 연동 장비",
+            "status": "exhibitor_event_statement",
+            "form": "품목 발표; 모델명 미확인",
+            "sourceIds": [
+              "eo-release"
+            ]
+          },
+          {
+            "productId": "adex25-eo-ai-eoir",
+            "name": "AI-EO 통합 영상센서 솔루션",
+            "status": "exhibitor_event_statement",
+            "form": "자동탐지·엣지 영상처리·추적 짐벌을 묶은 전시 기술; 세부 제품 미확인",
+            "sourceIds": [
+              "eo-release"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "eo-release",
+          "eo-field",
+          "eo-profile",
+          "eo-name"
+        ]
+      },
+      "distinction": {
+        "comparator": "해당 업체의 공개 전시 구성과 단품 공급 방식",
+        "conditions": "같은 조건의 비교시험 자료는 확보하지 못했습니다.",
+        "judgment": "정적 진열에 암실·직접 조작 체험을 더했습니다. 이는 전시 방식의 차이이며 실제 전장 성능의 우위를 뜻하지 않습니다.",
+        "status": "configuration_comparison_only",
+        "sourceIds": [
+          "eo-release",
+          "eo-field",
+          "eo-profile",
+          "eo-name"
+        ]
+      },
+      "direction": {
+        "observation": "체험용 광학장비 3종과 드론 EO/IR·야간투시경 연동·AI 영상 기술을 소개했습니다. 제품군 명칭만 공개된 품목은 미상 모델을 만들지 않았습니다.",
+        "interpretation": "개별 광학장비에서 영상처리·연동 기능을 함께 제시하는 방향으로 해석됩니다.",
+        "sourceIds": [
+          "eo-release",
+          "eo-field",
+          "eo-profile",
+          "eo-name"
+        ]
+      },
+      "workConnection": {
+        "value": "차량 관측계와 하차 승무원 장비의 화면·취급성 검토에 참고할 수 있습니다. 현재 회사의 차량용 제품 목록은 배경자료이며 이번 출품으로 간주하지 않습니다.",
+        "conditions": [
+          "전시 소개와 차량 적용 승인·시험 완료를 구분",
+          "개별 형식·인터페이스·시험 성적서를 별도 확인"
+        ]
+      },
+      "followUps": [
+        "공개되지 않은 나머지 전시 모델 명단은 무엇입니까?",
+        "탑재형 EO/IR의 차량 적용 여부와 인터페이스 자료를 제공합니까?",
+        "체험 제품별 환경시험·유지보수 조건은 무엇입니까?"
+      ],
+      "sources": [
+        {
+          "id": "eo-release",
+          "url": "https://www.news2day.co.kr/article/20251020500350",
+          "title": "이오시스템 ADEX 2025 출품·체험 전시",
+          "publisher": "이오시스템 발표·사진 / 뉴스투데이 김한경",
+          "date": "2025-10-20",
+          "role": "manufacturer_event_statement",
+          "originGroup": "eo-adex25-release",
+          "support": "RAPTOR-F, MGS-5, THETIS 및 EO/IR·AI 솔루션 실물 전시",
+          "limitations": "24종 40여대는 회사 발표. 전체 24종 명단을 확보하지 못함.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "eo-field",
+          "url": "https://www.motoya.co.kr/news/articleView.html?idxno=44416",
+          "title": "ADEX 2025 현장 취재와 이오시스템 부스 사진",
+          "publisher": "모토야 / 박병하",
+          "date": "2025-10-22",
+          "role": "independent_event_report",
+          "originGroup": "motoya-park-adex25",
+          "support": "이오시스템 부스와 광학장비 전시의 독립 관찰",
+          "limitations": "사진은 부스와 출품 존재를 뒷받침하며 성능 시험이 아님.",
+          "independence": "independent_observation_only",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "eo-profile",
+          "url": "https://www.eosystem.com/",
+          "title": "이오에스티 공식 회사·제품 소개",
+          "publisher": "이오에스티",
+          "date": null,
+          "role": "manufacturer_profile",
+          "originGroup": "eo-profile",
+          "support": "한국 사업장 및 차량용 EO/IR 등 회사 배경",
+          "limitations": "2026년 현재 정보는 2025 출품 목록이 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "eo-name",
+          "url": "https://eosystem.com/company5.php",
+          "title": "이오에스티 공식 연혁",
+          "publisher": "이오에스티",
+          "date": null,
+          "role": "manufacturer_profile",
+          "originGroup": "eo-profile",
+          "support": "2026-01-01 이오에스티로 변경; 2025 행사명은 이오시스템 유지",
+          "limitations": "법인 합병으로 추정하지 않음.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "eo-system-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 공식 사전 배치도 (2025-10-11)",
+          "publisher": "Seoul ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "official_floor_plan",
+          "originGroup": "adex25-map-20251011",
+          "support": "이오시스템 명칭 및 Hall 9 사전 배치. 개별 번호는 판독되지 않음.",
+          "limitations": "사전 계획이며 현장 출품의 근거가 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-adex25-eo-raptor-use",
+          "sourceUrl": "https://www.news2day.co.kr/article/20251020500350",
+          "caption": "ADEX 2025 이오시스템 부스의 RAPTOR-F 체험",
+          "credit": "이오시스템 제공·개별 촬영자 미표기",
+          "photographer": "이오시스템 제공·개별 촬영자 미표기",
+          "rightsStatus": "link-only",
+          "rightsNote": "재배포 허락 미확인. 원문 링크만 제공하며 이미지 파일을 복제하거나 직접 표시하지 않습니다.",
+          "license": null,
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "eo-release"
+          ],
+          "productIds": [
+            "adex25-eo-raptor-f"
+          ],
+          "variantNote": "사진 및 원문 캡션을 대조했습니다. 성능 입증은 아닙니다.",
+          "assetUrl": "https://cdn.news2day.co.kr/data2/content/image/2025/10/20/.cache/512/20251020500348.png",
+          "originalImageUrl": "https://cdn.news2day.co.kr/data2/content/image/2025/10/20/.cache/512/20251020500348.png",
+          "organizationId": "org-e843c1da4f4efc81c4ca",
+          "eventName": "Seoul ADEX 2025"
+        },
+        {
+          "id": "photo-adex25-eo-booth-official",
+          "sourceUrl": "https://www.news2day.co.kr/article/20251020500350",
+          "caption": "ADEX 2025 이오시스템 전시관 전경",
+          "credit": "이오시스템 제공·개별 촬영자 미표기",
+          "photographer": "이오시스템 제공·개별 촬영자 미표기",
+          "rightsStatus": "link-only",
+          "rightsNote": "재배포 허락 미확인. 원문 링크만 제공하며 이미지 파일을 복제하거나 직접 표시하지 않습니다.",
+          "license": null,
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "eo-release"
+          ],
+          "productIds": [],
+          "variantNote": "개별 촬영자 실명은 원문에 별도 기재되지 않았습니다.",
+          "assetUrl": "https://cdn.news2day.co.kr/data2/content/image/2025/10/20/.cache/512/20251020500349.png",
+          "originalImageUrl": "https://cdn.news2day.co.kr/data2/content/image/2025/10/20/.cache/512/20251020500349.png",
+          "organizationId": "org-e843c1da4f4efc81c4ca",
+          "eventName": "Seoul ADEX 2025"
+        },
+        {
+          "id": "photo-adex25-eo-booth-motoya",
+          "sourceUrl": "https://www.motoya.co.kr/news/articleView.html?idxno=44416",
+          "caption": "ADEX 2025 이오시스템 부스 — 현장 취재 사진",
+          "credit": "모토야 / 박병하 (기사 작성자; 사진별 촬영자 별도 미표기)",
+          "photographer": "모토야 / 박병하 (기사 작성자; 사진별 촬영자 별도 미표기)",
+          "rightsStatus": "link-only",
+          "rightsNote": "재배포 허락 미확인. 원문 링크만 제공하며 이미지 파일을 복제하거나 직접 표시하지 않습니다.",
+          "license": null,
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-10-22",
+          "sourceIds": [
+            "eo-field"
+          ],
+          "productIds": [],
+          "variantNote": "독립 현장 사진 직접 확인. 이오시스템 간판은 명확하나 개별 제품명을 사진만으로 추정하지 않음.",
+          "assetUrl": "https://www.motoya.co.kr/news/photo/202510/44416_251867_5442.jpg",
+          "originalImageUrl": "https://www.motoya.co.kr/news/photo/202510/44416_251867_5442.jpg",
+          "organizationId": "org-e843c1da4f4efc81c4ca",
+          "eventName": "Seoul ADEX 2025"
+        }
+      ],
+      "catalogs": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "승무원 관측장비와 무인체계 영상센서를 함께 검토할 수 있는 국내 광학업체입니다.",
+        "categories": [
+          "optics_awareness",
+          "unmanned_remote"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "eo-release",
+          "eo-field",
+          "eo-profile",
+          "eo-name"
+        ],
+        "remaining": [
+          "24종 전체 모델 명단 중 미식별 품목",
+          "제품별 제원·차량 적용 자료",
+          "부스 번호"
+        ]
+      },
+      "boothClaims": [
+        {
+          "code": null,
+          "hall": "9",
+          "status": "unverified",
+          "sourceIds": [
+            "eo-system-map"
+          ],
+          "note": "공식 사전 지도 홀만 확인. 부스 번호와 추가 좌표는 생성하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "case-adex-2025-solvit",
+      "organizationId": "org-af8a2012bbe385dddabc",
+      "displayName": "솔빛시스템",
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "solvit-profile"
+      ],
+      "categoryIds": [
+        "communications_navigation",
+        "manufacturing_simulation",
+        "testing_maintenance"
+      ],
+      "productIds": [
+        "adex25-solvit-atdi-htz"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "차량 탑재 통신장비의 시험·분석 도구 후보로 관련성이 있습니다.",
+      "highlights": [
+        "공식 배치도와 ATDI의 현장 사진을 대조했습니다.",
+        "HTZ Communications는 ATDI 제품으로 표시했습니다.",
+        "솔빛 자체 출품 제품의 전체 목록은 확인하지 못했습니다."
+      ],
+      "exhibit": {
+        "summary": "ATDI는 ADEX 현장에서 HTZ Communications 관련 논의와 솔빛 협업 사진을 공개했습니다. 실제 소프트웨어 시연 형식과 솔빛 자체 출품은 추가 확인 대상입니다.",
+        "items": [
+          {
+            "productId": "adex25-solvit-atdi-htz",
+            "name": "HTZ Communications (ATDI 제품·협업 소개)",
+            "status": "exhibitor_event_statement",
+            "form": "파트너의 현장 발표; 시연 형식 미확인",
+            "sourceIds": [
+              "solvit-atdi"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "solvit-atdi",
+          "solvit-profile"
+        ]
+      },
+      "distinction": {
+        "comparator": "해당 업체의 공개 전시 구성과 단품 공급 방식",
+        "conditions": "같은 조건의 비교시험 자료는 확보하지 못했습니다.",
+        "judgment": "완성 통신기보다 해석·디지털트윈 도구에 초점이 있습니다. 제품 공급사와 국내 협력사의 역할을 나누어 확인해야 합니다.",
+        "status": "configuration_comparison_only",
+        "sourceIds": [
+          "solvit-atdi",
+          "solvit-profile"
+        ]
+      },
+      "direction": {
+        "observation": "ATDI는 ADEX 현장에서 HTZ Communications 관련 논의와 솔빛 협업 사진을 공개했습니다. 실제 소프트웨어 시연 형식과 솔빛 자체 출품은 추가 확인 대상입니다.",
+        "interpretation": "통신 분석 역량을 체계업체의 시험·검증 작업에 연결하려는 방향으로 읽힙니다.",
+        "sourceIds": [
+          "solvit-atdi",
+          "solvit-profile"
+        ]
+      },
+      "workConnection": {
+        "value": "CPV 통신 시스템 검토와 시험계획 수립 시 도구 범위·입력데이터·실측 대조 기능을 문의할 수 있습니다.",
+        "conditions": [
+          "전시 소개와 차량 적용 승인·시험 완료를 구분",
+          "개별 형식·인터페이스·시험 성적서를 별도 확인"
+        ]
+      },
+      "followUps": [
+        "솔빛 자체 제품별 ADEX 2025 전시 명단은 무엇입니까?",
+        "ATDI 제품의 대리점·공동개발·기술지원 역할은 어떻게 나뉩니까?",
+        "차량 적용 분석의 실측 검증 사례를 확인할 수 있습니까?"
+      ],
+      "sources": [
+        {
+          "id": "solvit-atdi",
+          "url": "https://atdi.com/newsletter-october-2025/",
+          "title": "ATDI 2025-10 뉴스레터: ADEX와 SOLVIT",
+          "publisher": "ATDI",
+          "date": "2025-10-22",
+          "role": "partner_event_statement",
+          "originGroup": "atdi-adex25",
+          "support": "SOLVIT·ATDI 현장 사진, HTZ Communications 관련 ADEX 논의",
+          "limitations": "솔빛 자체 제품의 전체 출품 명단은 아님; HTZ는 ATDI 제품.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "solvit-profile",
+          "url": "https://www.solvitsystem.co.kr/",
+          "title": "솔빛시스템 회사·사업 소개",
+          "publisher": "솔빛시스템",
+          "date": null,
+          "role": "manufacturer_profile",
+          "originGroup": "solvit-profile",
+          "support": "서울 소재 회사, 전파분석·디지털트윈·Edge AI 사업",
+          "limitations": "현재 일반자료; 이번 행사 실제 출품으로 승격하지 않음.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "solvit-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 공식 사전 배치도 (2025-10-11)",
+          "publisher": "Seoul ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "official_floor_plan",
+          "originGroup": "adex25-map-20251011",
+          "support": "솔빛시스템 명칭 및 Hall 9 사전 배치. 개별 번호는 판독되지 않음.",
+          "limitations": "사전 계획이며 현장 출품의 근거가 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-adex25-solvit-atdi-team",
+          "sourceUrl": "https://atdi.com/newsletter-october-2025/",
+          "caption": "ADEX 2025 현장 SOLVIT·ATDI 관계자와 부스",
+          "credit": "ATDI 제공·개별 촬영자 미표기",
+          "photographer": "ATDI 제공·개별 촬영자 미표기",
+          "rightsStatus": "link-only",
+          "rightsNote": "재배포 허락 미확인. 원문 링크만 제공하며 이미지 파일을 복제하거나 직접 표시하지 않습니다.",
+          "license": null,
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-10-22",
+          "sourceIds": [
+            "solvit-atdi"
+          ],
+          "productIds": [],
+          "variantNote": "원문 회차·시점 및 사진을 직접 대조. SOLVIT 간판 확인; 소프트웨어 제품 화면은 판독 불가.",
+          "assetUrl": "https://atdi.com/wp-content/uploads/2025/10/Image-2-300x225.jpeg",
+          "originalImageUrl": "https://atdi.com/wp-content/uploads/2025/10/Image-2-300x225.jpeg",
+          "organizationId": "org-af8a2012bbe385dddabc",
+          "eventName": "Seoul ADEX 2025"
+        }
+      ],
+      "catalogs": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차량 탑재 통신장비의 시험·분석 도구 후보로 관련성이 있습니다.",
+        "categories": [
+          "communications_navigation",
+          "manufacturing_simulation",
+          "testing_maintenance"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "solvit-atdi",
+          "solvit-profile"
+        ],
+        "remaining": [
+          "솔빛 자체 출품 명단",
+          "HTZ 현장 시연 형식",
+          "공동전시·대리점 관계 문서",
+          "부스 번호"
+        ]
+      },
+      "boothClaims": [
+        {
+          "code": null,
+          "hall": "9",
+          "status": "unverified",
+          "sourceIds": [
+            "solvit-map"
+          ],
+          "note": "공식 사전 지도 홀만 확인. 부스 번호와 추가 좌표는 생성하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "case-adex-2025-konan",
+      "organizationId": "org-ded46d927e7670b5d54e",
+      "displayName": "코난테크놀로지",
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "konan-profile"
+      ],
+      "categoryIds": [
+        "mission_computing"
+      ],
+      "productIds": [
+        "adex25-konan-ai-recommendation",
+        "adex25-konan-llm"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "지휘소의 문서 검색·정보 표시를 검토할 소프트웨어 업체입니다.",
+      "highlights": [
+        "공식 회차 발표의 2개 기술을 분리 등록했습니다.",
+        "폐쇄망 LLM 소개는 제조사 설명 수준으로 표시했습니다.",
+        "홍보 이미지를 현장사진으로 등록하지 않았습니다."
+      ],
+      "exhibit": {
+        "summary": "AI 화력추천시스템과 공개 군사문서 기반 코난 LLM을 출품 기술로 발표했습니다. 실제 시연 화면·현장 적용 수준은 미확인입니다.",
+        "items": [
+          {
+            "productId": "adex25-konan-ai-recommendation",
+            "name": "AI 기반 화력추천시스템",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 회차 발표·개별 실물 형식 미확인",
+            "sourceIds": [
+              "konan-event"
+            ]
+          },
+          {
+            "productId": "adex25-konan-llm",
+            "name": "공개 군사문서 기반 코난 LLM",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 회차 발표·개별 실물 형식 미확인",
+            "sourceIds": [
+              "konan-event"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "konan-event",
+          "konan-reprint",
+          "konan-profile"
+        ]
+      },
+      "distinction": {
+        "comparator": "해당 업체의 공개 전시 구성과 단품 공급 방식",
+        "conditions": "같은 조건의 비교시험 자료는 확보하지 못했습니다.",
+        "judgment": "하드웨어보다 정보처리·검색 소프트웨어를 전면에 배치했습니다. 업체의 성능 주장과 실제 운용 검증은 구분합니다.",
+        "status": "configuration_comparison_only",
+        "sourceIds": [
+          "konan-event",
+          "konan-reprint",
+          "konan-profile"
+        ]
+      },
+      "direction": {
+        "observation": "AI 화력추천시스템과 공개 군사문서 기반 코난 LLM을 출품 기술로 발표했습니다. 실제 시연 화면·현장 적용 수준은 미확인입니다.",
+        "interpretation": "범용 AI 기능을 국방 문서·업무 맥락에 맞추려는 전략으로 해석됩니다.",
+        "sourceIds": [
+          "konan-event",
+          "konan-reprint",
+          "konan-profile"
+        ]
+      },
+      "workConnection": {
+        "value": "당사 검토는 CPV의 정보 검색·보고 보조 기능과 운영자 화면·컴퓨팅 자원 요구에 한정할 수 있습니다. 전술 판단의 자동화 효과는 평가하지 않았습니다.",
+        "conditions": [
+          "전시 소개와 차량 적용 승인·시험 완료를 구분",
+          "개별 형식·인터페이스·시험 성적서를 별도 확인"
+        ]
+      },
+      "followUps": [
+        "행사에서 실제 구동한 버전과 시연 화면을 확인할 수 있습니까?",
+        "문서 출처·버전 갱신과 오류 검증 기능은 어떻게 제공됩니까?",
+        "차량 탑재 시 컴퓨팅·저장장치·정비 요구는 무엇입니까?"
+      ],
+      "sources": [
+        {
+          "id": "konan-event",
+          "url": "https://konantech.com/company/news/933",
+          "title": "코난테크놀로지 서울 ADEX 2025 참가",
+          "publisher": "코난테크놀로지",
+          "date": "2025-10-20",
+          "role": "manufacturer_event_statement",
+          "originGroup": "konan-adex25-release",
+          "support": "2개 출품 기술과 KINTEX 8홀",
+          "limitations": "게시 이미지는 홍보물이며 현장사진으로 등록하지 않음.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "konan-reprint",
+          "url": "https://zdnet.co.kr/view/?no=20251020151854",
+          "title": "ADEX의 코난 국방 AI 기술 소개",
+          "publisher": "ZDNet Korea / 조이환",
+          "date": "2025-10-20",
+          "role": "event_press_republication",
+          "originGroup": "konan-adex25-release",
+          "support": "제조사 발표의 출품 2종을 재대조",
+          "limitations": "같은 회사 발표를 인용하므로 독립 성능·현장 검증이 아님.",
+          "independence": "same_origin_republication",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "konan-profile",
+          "url": "https://konantech.com/company/overview",
+          "title": "코난테크놀로지 회사 연혁",
+          "publisher": "코난테크놀로지",
+          "date": null,
+          "role": "manufacturer_profile",
+          "originGroup": "konan-profile",
+          "support": "국내 기업 정체성·코스닥 상장 배경",
+          "limitations": "현재 연혁; 출품 근거가 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "konan-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 공식 사전 배치도 (2025-10-11)",
+          "publisher": "Seoul ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "official_floor_plan",
+          "originGroup": "adex25-map-20251011",
+          "support": "코난테크놀로지 명칭 및 Hall 8 사전 배치. 개별 번호는 판독되지 않음.",
+          "limitations": "사전 계획이며 현장 출품의 근거가 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [],
+      "catalogs": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "지휘소의 문서 검색·정보 표시를 검토할 소프트웨어 업체입니다.",
+        "categories": [
+          "mission_computing"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "konan-event",
+          "konan-reprint",
+          "konan-profile"
+        ],
+        "remaining": [
+          "실제 현장사진",
+          "시연 버전·형식",
+          "부스 번호"
+        ]
+      },
+      "boothClaims": [
+        {
+          "code": null,
+          "hall": "8",
+          "status": "unverified",
+          "sourceIds": [
+            "konan-map"
+          ],
+          "note": "공식 사전 지도 홀만 확인. 부스 번호와 추가 좌표는 생성하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "case-adex-2025-rfcore",
+      "organizationId": "org-41c20f9c2d55d1040a58",
+      "displayName": "알에프코어 (RFcore)",
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "rfcore-profile"
+      ],
+      "categoryIds": [
+        "communications_navigation",
+        "components"
+      ],
+      "productIds": [
+        "adex25-rfcore-hpa-reference",
+        "adex25-rfcore-rffe-reference",
+        "adex25-rfcore-mmic-reference"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "RF 증폭기·배열 안테나 전단 부품의 공급 가능성 때문에 관련 업체로 유지합니다.",
+      "highlights": [
+        "공식 사전 지도에 RFcore 명칭이 있습니다.",
+        "제품군은 공식 회사 자료에서만 확인했습니다.",
+        "2025 실제 출품품목·현장사진은 미확보입니다."
+      ],
+      "exhibit": {
+        "summary": "ADEX 2025 현장 출품은 확인하지 못했습니다. HPA·RFFE·MMIC는 조사 연결을 위한 회사 일반제품으로만 등록합니다.",
+        "items": [
+          {
+            "productId": "adex25-rfcore-hpa-reference",
+            "name": "High Power Amplifiers (일반 제품자료)",
+            "status": "background_reference",
+            "form": "회사 일반 제품군",
+            "sourceIds": [
+              "rfcore-profile"
+            ]
+          },
+          {
+            "productId": "adex25-rfcore-rffe-reference",
+            "name": "Phased Array RFFE (일반 제품자료)",
+            "status": "background_reference",
+            "form": "회사 일반 제품군",
+            "sourceIds": [
+              "rfcore-profile"
+            ]
+          },
+          {
+            "productId": "adex25-rfcore-mmic-reference",
+            "name": "MMIC Solutions (일반 제품자료)",
+            "status": "background_reference",
+            "form": "회사 일반 제품군",
+            "sourceIds": [
+              "rfcore-profile"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "rfcore-profile"
+        ]
+      },
+      "distinction": {
+        "comparator": "해당 업체의 공개 전시 구성과 단품 공급 방식",
+        "conditions": "같은 조건의 비교시험 자료는 확보하지 못했습니다.",
+        "judgment": "부품·모듈부터 시스템까지 소개하지만 이번 전시의 차별점은 판단할 근거가 부족합니다.",
+        "status": "configuration_comparison_only",
+        "sourceIds": [
+          "rfcore-profile"
+        ]
+      },
+      "direction": {
+        "observation": "ADEX 2025 현장 출품은 확인하지 못했습니다. HPA·RFFE·MMIC는 조사 연결을 위한 회사 일반제품으로만 등록합니다.",
+        "interpretation": "회차별 출품 근거가 없어 ADEX 전시 전략 해석을 보류합니다.",
+        "sourceIds": [
+          "rfcore-profile"
+        ]
+      },
+      "workConnection": {
+        "value": "차량 통신·전자장비 공급망 조사에 포함하되, 현재 제품군을 2025 현장 장비로 사용하지 않습니다.",
+        "conditions": [
+          "전시 소개와 차량 적용 승인·시험 완료를 구분",
+          "개별 형식·인터페이스·시험 성적서를 별도 확인"
+        ]
+      },
+      "followUps": [
+        "ADEX 2025 출품 명단과 명판 사진을 확보할 수 있습니까?",
+        "공식 사전 배치와 실제 현장 부스가 일치합니까?",
+        "소개한 부품의 차량 적용 실적 자료가 있습니까?"
+      ],
+      "sources": [
+        {
+          "id": "rfcore-profile",
+          "url": "https://www.rfcore.com/",
+          "title": "RFcore 제품·회사 소개",
+          "publisher": "RFcore",
+          "date": null,
+          "role": "manufacturer_profile",
+          "originGroup": "rfcore-profile",
+          "support": "한국 본사와 HPA·RFFE·MMIC 제품군",
+          "limitations": "현재 일반 카탈로그이며 ADEX 2025 실제 출품 증거가 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "rfcore-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 공식 사전 배치도 (2025-10-11)",
+          "publisher": "Seoul ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "official_floor_plan",
+          "originGroup": "adex25-map-20251011",
+          "support": "알에프코어 (RFcore) 명칭 및 Hall 10 사전 배치. 개별 번호는 판독되지 않음.",
+          "limitations": "사전 계획이며 현장 출품의 근거가 아님.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [],
+      "catalogs": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "RF 증폭기·배열 안테나 전단 부품의 공급 가능성 때문에 관련 업체로 유지합니다.",
+        "categories": [
+          "communications_navigation",
+          "components"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "rfcore-profile"
+        ],
+        "remaining": [
+          "회차별 실제 출품 전체",
+          "현장사진",
+          "부스 번호"
+        ]
+      },
+      "boothClaims": [
+        {
+          "code": null,
+          "hall": "10",
+          "status": "unverified",
+          "sourceIds": [
+            "rfcore-map"
+          ],
+          "note": "공식 사전 지도 홀만 확인. 부스 번호와 추가 좌표는 생성하지 않습니다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1494 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "batchId": "stage4-small-systems-01",
+  "checkedAt": "2026-11-11",
+  "scopeNote": "공식 배치도 후보 중 7개 관련 업체의 한정 조사 묶음. 전체 모집단·전체 제품 조사 완료가 아님.",
+  "cases": [
+    {
+      "id": "case-adex-2025-mnc-solution",
+      "organizationId": "org-04b57642e09c33ee22c5",
+      "displayName": "엠앤씨솔루션",
+      "categoryIds": [
+        "running_gear",
+        "components"
+      ],
+      "productIds": [
+        "adex25-mnc-redback-isu",
+        "adex25-mnc-k2-electric-drive",
+        "adex25-mnc-servo-valve",
+        "adex25-mnc-kuh-hydraulic-pump",
+        "adex25-mnc-kf21-hydraulic-pump"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "현수장치·구동장치·밸브는 차체 기동과 임무장비 구동에 직접 연결됩니다. 항공용 펌프는 유압 설계의 비교자료로만 검토합니다.",
+      "highlights": [
+        "ISU·전기식 구동장치·밸브와 항공용 펌프를 개별 등록했습니다.",
+        "회사 발표와 재전재 기사에 품목이 명시됩니다.",
+        "부스사진과 개별 제품 식별을 구분합니다."
+      ],
+      "exhibit": {
+        "summary": "현수·구동·유압 부품군의 ADEX 2025 전시 발표를 확인했습니다. 개별 모델 근접사진·부스번호 부족으로 자료부족 상태를 유지합니다.",
+        "items": [
+          {
+            "productId": "adex25-mnc-redback-isu",
+            "name": "Redback용 유기압 현수장치(ISU)",
+            "status": "exhibitor_event_statement",
+            "form": "전시 발표·개별 실물 근접사진 미확인",
+            "sourceIds": [
+              "mnc-event"
+            ]
+          },
+          {
+            "productId": "adex25-mnc-k2-electric-drive",
+            "name": "K2용 전기식 포·포탑 구동장치",
+            "status": "exhibitor_event_statement",
+            "form": "전시 발표·개별 형식 미확인",
+            "sourceIds": [
+              "mnc-event"
+            ]
+          },
+          {
+            "productId": "adex25-mnc-servo-valve",
+            "name": "고정밀 서보밸브",
+            "status": "exhibitor_event_statement",
+            "form": "전시 발표·모델 미기재",
+            "sourceIds": [
+              "mnc-event"
+            ]
+          },
+          {
+            "productId": "adex25-mnc-kuh-hydraulic-pump",
+            "name": "KUH용 유압펌프",
+            "status": "exhibitor_event_statement",
+            "form": "항공용 전시 발표·지상 적용성 별도 검토",
+            "sourceIds": [
+              "mnc-event"
+            ]
+          },
+          {
+            "productId": "adex25-mnc-kf21-hydraulic-pump",
+            "name": "KF-21용 유압펌프",
+            "status": "exhibitor_event_statement",
+            "form": "항공용 전시 발표·지상 적용성 별도 검토",
+            "sourceIds": [
+              "mnc-event"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "mnc-event",
+          "mnc-photo-report"
+        ]
+      },
+      "distinction": {
+        "comparator": "지상 플랫폼용 현수·구동장치와 항공용 유압펌프",
+        "conditions": "동일 하중·환경조건의 비교 시험은 없습니다.",
+        "judgment": "서로 다른 플랫폼의 부품 공급 범위를 보여줍니다. 항공용 펌프의 지상차량 대체 가능성은 미확인입니다.",
+        "status": "qualified_comparison_only",
+        "sourceIds": [
+          "mnc-event",
+          "mnc-photo-report"
+        ]
+      },
+      "direction": {
+        "observation": "회사는 유럽시장 확대와 부품 직수출·기술협력을 추진한다고 밝혔습니다.",
+        "interpretation": "부품 단위 해외 공급을 넓히려는 발표로 해석합니다. 계약 성과로 간주하지 않습니다.",
+        "sourceIds": [
+          "mnc-event",
+          "mnc-photo-report"
+        ]
+      },
+      "workConnection": {
+        "value": "차량 임무장비의 구동·유압 인터페이스 검토 후보입니다.",
+        "conditions": [
+          "장착공간·정비 접근성 확인",
+          "유압 유체·온도·전원 조건 대조",
+          "항공용 품목의 지상 환경 적합성 별도 입증"
+        ]
+      },
+      "followUps": [
+        "각 전시품의 모델과 실물·모형을 확인할 수 있습니까?",
+        "ISU와 구동장치의 정비 교환 단위는 무엇입니까?",
+        "서보밸브·펌프의 차량용 인터페이스 자료가 있습니까?"
+      ],
+      "sources": [
+        {
+          "id": "official-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 Floor Plan (2025-10-11)",
+          "publisher": "서울 ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "organizer_floorplan",
+          "originGroup": "adex2025-map",
+          "support": "2025 공식 배치도에서 회사명 후보 확인",
+          "limitations": "개최 전 배치도이며 개별 출품이나 실제 참가를 단독으로 증명하지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11",
+          "locator": "page 1 / Hall 9 / scanned label 004 / occurrence 1"
+        },
+        {
+          "id": "mnc-event",
+          "url": "https://www.mncsolution.com/kr/media-center/news/136?page=0&query=",
+          "title": "엠앤씨솔루션, 서울 ADEX 참가",
+          "publisher": "MNC솔루션 / 뉴시스 재전재",
+          "date": "2025-10-21",
+          "role": "manufacturer_event_statement",
+          "originGroup": "mnc-adex2025-release",
+          "support": "ISU·포탑 구동·서보밸브·항공기 펌프의 해당 회차 전시와 수출 방향",
+          "limitations": "회사 발표 기원이며 독립 성능 검증이 아닙니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "mnc-photo-report",
+          "url": "https://ir.newspim.com/news/view/20251021000067",
+          "title": "엠앤씨솔루션, 서울 ADEX 2025 참가",
+          "publisher": "뉴스핌 / 이나영",
+          "date": "2025-10-21",
+          "role": "manufacturer_supplied_event_photo",
+          "originGroup": "mnc-adex2025-release",
+          "support": "회사가 제공한 ADEX 2025 부스 사진과 품목 목록",
+          "limitations": "동일 회사 발표를 재전재했으므로 독립 근거로 세지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "mnc-location",
+          "url": "https://www.mncsolution.com/kr/contact-us/location",
+          "title": "사업장 위치",
+          "publisher": "MNC솔루션",
+          "date": null,
+          "role": "company_background",
+          "originGroup": "mnc-location",
+          "support": "창원 소재 법인",
+          "limitations": "회차별 전시 근거가 아닙니다.",
+          "independence": "primary_single_origin",
+          "eventId": null,
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-adex25-mnc-booth",
+          "sourceUrl": "https://ir.newspim.com/news/view/20251021000067",
+          "originalImageUrl": "https://img.newspim.com/news/2025/10/21/2510210825081230.jpg",
+          "locator": "https://img.newspim.com/news/2025/10/21/2510210825081230.jpg",
+          "caption": "ADEX 2025 엠앤씨솔루션 부스 전경",
+          "credit": "엠앤씨솔루션 제공 / 뉴스핌",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문으로 연결합니다. 로컬 복제·인라인 재게시하지 않습니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "productIds": [],
+          "sourceDate": "2025-10-21",
+          "capturedAt": null,
+          "sourceIds": [
+            "mnc-photo-report"
+          ],
+          "variantNote": "원본을 직접 시각 확인했습니다. 회사 부스와 여러 전시품은 보이지만 표찰이 불명확해 개별 제품사진으로 연결하지 않습니다. 우측 9B는 전시장 벽 표기이며 부스번호로 해석하지 않습니다."
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "bounded_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "review": {
+        "relevance": "confirmed",
+        "reason": "현수장치·구동장치·밸브는 차체 기동과 임무장비 구동에 직접 연결됩니다. 항공용 펌프는 유압 설계의 비교자료로만 검토합니다.",
+        "categories": [
+          "running_gear",
+          "components"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-11",
+        "sourceIds": [
+          "official-map",
+          "mnc-event",
+          "mnc-photo-report",
+          "mnc-location"
+        ],
+        "statusReason": "품목은 행사기간 회사 발표로 확인했으나 개별 전시품 식별사진과 부스번호가 부족합니다."
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "mnc-location"
+      ],
+      "boothClaims": [],
+      "rawRosterName": "MNC Solution",
+      "rosterEntryIds": [
+        "adex25-maplabel-6e60140851da2a44"
+      ]
+    },
+    {
+      "id": "case-adex-2025-yeonhab-precision",
+      "organizationId": "org-73b2ea65b6e784cb4def",
+      "displayName": "연합정밀",
+      "categoryIds": [
+        "communications_navigation",
+        "electrical",
+        "components"
+      ],
+      "productIds": [
+        "adex25-yeonhab-qpl-connectors",
+        "adex25-yeonhab-qpl-wire",
+        "adex25-yeonhab-space-connectors",
+        "adex25-yeonhab-sliprings",
+        "adex25-yeonhab-ema",
+        "adex25-yeonhab-vic7dk"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "차내 상호통화·배선·회전 접속부품은 지휘소와 의무후송 차량의 임무장비 연결에 관련됩니다. 항공·우주용 부품은 차량 적합성을 따로 확인합니다.",
+      "highlights": [
+        "VIC-7DK는 기관의 전시 결과보고로 확인했습니다.",
+        "커넥터·전선·슬립링·EMA도 각각 기록했습니다.",
+        "독립 부스와 DTaQ 공동 전시를 분리했습니다."
+      ],
+      "exhibit": {
+        "summary": "VIC-7DK 공동 전시와 자사 부스의 부품군 소개를 함께 확인했습니다. 슬립링 10여종은 이름이 불명확해 하나의 제품군으로 등록하며 개수를 임의 확장하지 않습니다.",
+        "items": [
+          {
+            "productId": "adex25-yeonhab-qpl-connectors",
+            "name": "QPL 인증 커넥터 제품군",
+            "status": "exhibitor_event_statement",
+            "form": "회사 설명 기반 전시 제품군·개별 모델 미확인",
+            "sourceIds": [
+              "yeonhab-report"
+            ]
+          },
+          {
+            "productId": "adex25-yeonhab-qpl-wire",
+            "name": "QPL 인증 전선 제품군",
+            "status": "exhibitor_event_statement",
+            "form": "회사 설명 기반 전시 제품군·개별 모델 미확인",
+            "sourceIds": [
+              "yeonhab-report"
+            ]
+          },
+          {
+            "productId": "adex25-yeonhab-space-connectors",
+            "name": "우주급 커넥터",
+            "status": "exhibitor_event_statement",
+            "form": "전시 소개·차량용 인증과 별도",
+            "sourceIds": [
+              "yeonhab-report"
+            ]
+          },
+          {
+            "productId": "adex25-yeonhab-sliprings",
+            "name": "무인·감시정찰용 슬립링 제품군(10여종)",
+            "status": "exhibitor_event_statement",
+            "form": "개별 모델명 부족으로 제품군 1건 등록",
+            "sourceIds": [
+              "yeonhab-report"
+            ]
+          },
+          {
+            "productId": "adex25-yeonhab-ema",
+            "name": "항공우주체계용 전기구동장치(EMA)",
+            "status": "exhibitor_event_statement",
+            "form": "항공용 전시 소개·차량 적용성 별도 검토",
+            "sourceIds": [
+              "yeonhab-report"
+            ]
+          },
+          {
+            "productId": "adex25-yeonhab-vic7dk",
+            "name": "VIC-7DK 전투차량용 상호통화기 세트",
+            "status": "onsite_report_confirmed",
+            "form": "국방기술품질원 공동 전시품·개별 사진 식별 미완료",
+            "sourceIds": [
+              "dtaq-onsite",
+              "dapa-leaflet"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "yeonhab-report",
+          "dtaq-onsite",
+          "dapa-leaflet"
+        ]
+      },
+      "distinction": {
+        "comparator": "차량 내부 통신장치와 배선·회전 연결 부품",
+        "conditions": "핀배열·접점 수명·통신규격의 동일 조건 비교는 없습니다.",
+        "judgment": "하드웨어 연결과 승무원 통화가 함께 포착됩니다. 우주급·QPL 표기는 차량 적합성 보증과 구분합니다.",
+        "status": "qualified_comparison_only",
+        "sourceIds": [
+          "yeonhab-report",
+          "dtaq-onsite",
+          "dapa-leaflet"
+        ]
+      },
+      "direction": {
+        "observation": "자사 부품 전시와 기관의 품질인증 제품 전시에 모두 나타납니다.",
+        "interpretation": "부품 공급과 인증 제품 홍보를 병행한 구성으로 읽힙니다. 공동관 참가를 계열사 관계로 해석하지 않습니다.",
+        "sourceIds": [
+          "yeonhab-report",
+          "dtaq-onsite",
+          "dapa-leaflet"
+        ]
+      },
+      "workConnection": {
+        "value": "지휘·의무후송 임무실의 통화, 케이블 경로와 회전부 연결 검토에 활용할 수 있습니다.",
+        "conditions": [
+          "차량 통신체계 호환성 확인",
+          "정비 시 커넥터 접근·교환성 검토",
+          "항공 EMA의 차량 적용 근거 별도 확보"
+        ]
+      },
+      "followUps": [
+        "전시된 슬립링 개별 모델과 실물 목록은 무엇입니까?",
+        "VIC-7DK의 대상 차량·무전기 인터페이스는 무엇입니까?",
+        "자사 부스와 공동관의 품목·부스번호를 구분할 수 있습니까?"
+      ],
+      "sources": [
+        {
+          "id": "official-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 Floor Plan (2025-10-11)",
+          "publisher": "서울 ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "organizer_floorplan",
+          "originGroup": "adex2025-map",
+          "support": "2025 공식 배치도에서 회사명 후보 확인",
+          "limitations": "개최 전 배치도이며 개별 출품이나 실제 참가를 단독으로 증명하지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11",
+          "locator": "page 1 / Hall 9 / scanned label 028 / occurrence 1"
+        },
+        {
+          "id": "yeonhab-report",
+          "url": "https://www.news2day.co.kr/article/20251023500283",
+          "title": "연합정밀, QPL 인증 제품과 미래제품 전시",
+          "publisher": "뉴스투데이 / 김한경",
+          "date": "2025-10-23",
+          "role": "event_report_with_manufacturer_material",
+          "originGroup": "yeonhab-adex2025-release",
+          "support": "독립 부스와 커넥터·전선·슬립링·EMA 전시 소개 및 회사 제공 현장사진",
+          "limitations": "제품 성능·인증 범위는 회사 설명이며 별도 검증하지 않았습니다.",
+          "independence": "origin_not_independently_confirmed",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "dtaq-onsite",
+          "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+          "publisher": "국방기술품질원 / 글 정소야",
+          "date": "2025-11-10",
+          "role": "institutional_onsite_report",
+          "originGroup": "dapa-dtaq-adex2025",
+          "support": "통합홍보관에서 연합정밀 VIC-7DK 실제 전시를 명시",
+          "limitations": "전시 주체의 결과보고입니다. 작성자와 사진 촬영자는 동일인으로 추정하지 않습니다.",
+          "independence": "primary_institutional_observation",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "ADEX 2025 방위사업청 통합홍보관 리플릿",
+          "publisher": "방위사업청 / 경상국립대학교 배포",
+          "date": null,
+          "role": "institutional_exhibition_leaflet",
+          "originGroup": "dapa-dtaq-adex2025",
+          "support": "2쪽 연합정밀 전투차량용 상호통화기와 공동관 관계",
+          "limitations": "리플릿은 VIC-7DK 모델명을 쓰지 않습니다. DTaQ와 같은 기관 계열 기원입니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-adex25-yeonhab-booth",
+          "sourceUrl": "https://www.news2day.co.kr/article/20251023500283",
+          "originalImageUrl": "https://cdn.news2day.co.kr/data2/content/image/2025/10/23/.cache/512/20251023500295.png",
+          "locator": "https://cdn.news2day.co.kr/data2/content/image/2025/10/23/.cache/512/20251023500295.png",
+          "caption": "ADEX 2025 연합정밀 자사 부스",
+          "credit": "연합정밀 제공 / 뉴스투데이",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문으로 연결합니다. 로컬 복제·인라인 재게시하지 않습니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "productIds": [],
+          "sourceDate": "2025-10-23",
+          "capturedAt": null,
+          "sourceIds": [
+            "yeonhab-report"
+          ],
+          "variantNote": "부스 전경을 직접 확인했습니다. 인접 GV ENGINEERING 표기는 보이지만 계열·대리점 관계는 확인되지 않았습니다."
+        },
+        {
+          "id": "photo-adex25-yeonhab-dtaq-context",
+          "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "originalImageUrl": "https://dtaq-media.kr/image/asset/a05950017fb18cd16cc1ffac9df777dda9188dcd06c56cb40221cb532ef67595",
+          "locator": "https://dtaq-media.kr/image/asset/a05950017fb18cd16cc1ffac9df777dda9188dcd06c56cb40221cb532ef67595",
+          "caption": "ADEX 2025 DTaQ 공동 전시대 전경",
+          "credit": "국방기술품질원 제공·촬영자 미표기",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문으로 연결합니다. 로컬 복제·인라인 재게시하지 않습니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "productIds": [],
+          "sourceDate": "2025-11-10",
+          "capturedAt": null,
+          "sourceIds": [
+            "dtaq-onsite"
+          ],
+          "variantNote": "공동 전시 맥락 사진이며 모든 개별 제품의 모델을 식별한 것은 아닙니다. 게시일 2025-11-10, 촬영일 미기재. VIC-7DK의 출품은 기사 본문에서 별도로 확인했습니다."
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "bounded_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차내 상호통화·배선·회전 접속부품은 지휘소와 의무후송 차량의 임무장비 연결에 관련됩니다. 항공·우주용 부품은 차량 적합성을 따로 확인합니다.",
+        "categories": [
+          "communications_navigation",
+          "electrical",
+          "components"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-11",
+        "sourceIds": [
+          "official-map",
+          "yeonhab-report",
+          "dtaq-onsite",
+          "dapa-leaflet"
+        ],
+        "statusReason": "VIC-7DK 실제 전시를 기관 결과보고로 확인하고 나머지 부품군의 확인 수준을 구분한 한정 분석입니다. 개별 슬립링 모델은 잔여입니다."
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "dtaq-onsite"
+      ],
+      "boothClaims": [],
+      "relationships": [
+        {
+          "type": "co_exhibition",
+          "name": "방위사업청·국방기술품질원 통합홍보관",
+          "sourceIds": [
+            "dtaq-onsite",
+            "dapa-leaflet"
+          ],
+          "note": "VIC-7DK 공동 전시. 자사 독립 부스와 구분하며 공동관 좌표를 회사 전용 부스로 지정하지 않음."
+        },
+        {
+          "type": "unverified_adjacent_exhibitor",
+          "name": "GV ENGINEERING",
+          "sourceIds": [
+            "yeonhab-report"
+          ],
+          "note": "사진상 인접 표기만 확인. 계열·대리점 관계 미확인."
+        }
+      ],
+      "rawRosterName": "YEONHAB PRECISION",
+      "rosterEntryIds": [
+        "adex25-maplabel-e129cb077276b106"
+      ]
+    },
+    {
+      "id": "case-adex-2025-vitzrocell",
+      "organizationId": "org-2d5daeb855e50609f569",
+      "displayName": "비츠로셀",
+      "categoryIds": [
+        "electrical",
+        "components"
+      ],
+      "productIds": [
+        "adex25-vitzrocell-licfx-mno2-34600"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "전술 전자장비·차량 탑재 센서의 교환형 전원 검토에 관련됩니다. 일차전지는 차량 구동용 충전 배터리와 용도를 구분합니다.",
+      "highlights": [
+        "34600 규격 Li/CFx-MnO2 시제품 전시가 공개 관찰글에 명시됩니다.",
+        "사진 원본·촬영자·게시 연도 대조가 부족합니다.",
+        "일반 배터리 카탈로그를 출품목록으로 확대하지 않았습니다."
+      ],
+      "exhibit": {
+        "summary": "공개 현장 관찰글에서 배터리 시제품 1종을 확인했습니다. 다른 출품품목과 부스·사진 검증이 부족해 자료부족 상태입니다.",
+        "items": [
+          {
+            "productId": "adex25-vitzrocell-licfx-mno2-34600",
+            "name": "3.0V Li/CFx-MnO2 34600 일차전지 시제품",
+            "status": "onsite_report_confirmed",
+            "form": "독립 관찰자의 공개 미리보기·사진 시각 검증 미완료",
+            "sourceIds": [
+              "vitz-observer"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "vitz-observer"
+        ]
+      },
+      "distinction": {
+        "comparator": "기존 일차전지와 새 복합 양극 시제품",
+        "conditions": "용량·온도·방전률이 같은 비교 데이터가 없습니다.",
+        "judgment": "새 전지계 전시를 확인한 수준입니다. 에너지밀도·가격 우위는 채택 판단에 사용하지 않습니다.",
+        "status": "qualified_comparison_only",
+        "sourceIds": [
+          "vitz-observer"
+        ]
+      },
+      "direction": {
+        "observation": "현장 관찰글은 개발 시제품을 소개합니다.",
+        "interpretation": "전시를 통해 신규 전지계의 적용처를 탐색한 것으로 해석할 수 있으나 양산 공급 상태는 알 수 없습니다.",
+        "sourceIds": [
+          "vitz-observer"
+        ]
+      },
+      "workConnection": {
+        "value": "지휘소·의무후송 차량의 독립 센서·보조 장비 전원 후보를 조사할 출발점입니다.",
+        "conditions": [
+          "사용 후 교체·보급 조건 검토",
+          "충전형 팩과 기능 구분",
+          "온도·방전 프로파일 시험자료 확인"
+        ]
+      },
+      "followUps": [
+        "사진 속 시제품과 이후 개선형의 용량을 구분할 수 있습니까?",
+        "ADEX 2025 전체 출품 목록과 부스번호는 무엇입니까?",
+        "차량 탑재 센서용 환경·보관 시험 결과가 있습니까?"
+      ],
+      "sources": [
+        {
+          "id": "official-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 Floor Plan (2025-10-11)",
+          "publisher": "서울 ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "organizer_floorplan",
+          "originGroup": "adex2025-map",
+          "support": "2025 공식 배치도에서 회사명 후보 확인",
+          "limitations": "개최 전 배치도이며 개별 출품이나 실제 참가를 단독으로 증명하지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11",
+          "locator": "page 1 / Hall 10 / scanned label 030 / occurrence 1"
+        },
+        {
+          "id": "vitz-observer",
+          "url": "https://www.patreon.com/jhst3103/posts/adex-2025-2-149483251",
+          "title": "ADEX 2025 - 2 (공개 미리보기)",
+          "publisher": "Sheldon's Military",
+          "date": null,
+          "role": "independent_onsite_report",
+          "originGroup": "sheldon-adex2025",
+          "support": "공개 부분에 Li/CFx-MnO2 34600 시제품 전시를 명시",
+          "limitations": "본문은 유료입니다. 공개 부분만 사용했습니다. 표시일 January 30의 연도와 사진 촬영자를 확인하지 못했습니다. 성능 주장은 독립 시험이 아닙니다.",
+          "independence": "independent_observation_only",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "vitz-company",
+          "url": "https://vitzrocell.com/en/sub/sub01_01.php",
+          "title": "About Vitzrocell",
+          "publisher": "Vitzrocell",
+          "date": null,
+          "role": "company_background",
+          "originGroup": "vitz-company",
+          "support": "리튬 일차전지 사업과 대한민국 당진 소재",
+          "limitations": "일반 기업자료이며 행사 출품목록이 아닙니다.",
+          "independence": "primary_single_origin",
+          "eventId": null,
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [],
+      "catalogs": [],
+      "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "bounded_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "review": {
+        "relevance": "confirmed",
+        "reason": "전술 전자장비·차량 탑재 센서의 교환형 전원 검토에 관련됩니다. 일차전지는 차량 구동용 충전 배터리와 용도를 구분합니다.",
+        "categories": [
+          "electrical",
+          "components"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-11",
+        "sourceIds": [
+          "official-map",
+          "vitz-observer",
+          "vitz-company"
+        ],
+        "statusReason": "공개 관찰글의 시제품은 확인했으나 사진·날짜·촬영자·전체 품목·부스가 부족합니다."
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "vitz-company"
+      ],
+      "boothClaims": [],
+      "photoCandidates": [
+        {
+          "sourceUrl": "https://www.patreon.com/jhst3103/posts/adex-2025-2-149483251",
+          "locator": "공개 미리보기의 Developed 3V 34600 primary battery prototype 이미지",
+          "context": "unverified_event_candidate",
+          "reason": "사진 캡션은 공개됐지만 원본 시각 확인·개별 촬영자·정확한 게시일 대조가 미완료여서 현장사진 수에 포함하지 않음.",
+          "rightsStatus": "link-only"
+        }
+      ],
+      "rawRosterName": "VITZ ROCELL",
+      "rosterEntryIds": [
+        "adex25-maplabel-f60ceb780750ff0a"
+      ]
+    },
+    {
+      "id": "case-adex-2025-cmtechron",
+      "organizationId": "org-1273e8383e083821a303",
+      "displayName": "씨엠테크론(당시 창민테크론)",
+      "categoryIds": [
+        "thermal",
+        "interiors_modules",
+        "components"
+      ],
+      "productIds": [],
+      "reviewStatus": "reviewed_case",
+      "reason": "단열·흡음과 배터리 예열 사업은 차량 임무실과 저온 운용에 관련됩니다. 다만 ADEX 2025에 이 제품들이 출품됐는지는 확인되지 않았습니다.",
+      "highlights": [
+        "공식 참가 공지에서 10-M1을 확인했습니다.",
+        "관련 제품자료는 모두 일반 배경자료입니다.",
+        "실제 전시품·현장사진은 미확보입니다."
+      ],
+      "exhibit": {
+        "summary": "부스 공지까지만 확인했습니다. 출품을 추정하지 않고 관련 일반 제품자료를 배경으로 분리합니다.",
+        "items": [],
+        "sourceIds": [
+          "official-map",
+          "cm-event"
+        ]
+      },
+      "distinction": {
+        "comparator": "배터리 예열과 차체 단열·흡음",
+        "conditions": "실제 전시 구성과 재료 성능 조건을 확보하지 못했습니다.",
+        "judgment": "관련성은 있으나 전시 특징이나 우위를 판단할 근거가 부족합니다.",
+        "status": "qualified_comparison_only",
+        "sourceIds": [
+          "official-map",
+          "cm-event",
+          "cm-insulation",
+          "cm-heater"
+        ]
+      },
+      "direction": {
+        "observation": "공식 사이트는 ADEX 2025 참가를 사전 공지했습니다.",
+        "interpretation": "참가 공지만으로 신제품·수출 전략을 해석하지 않습니다.",
+        "sourceIds": [
+          "official-map",
+          "cm-event",
+          "cm-insulation",
+          "cm-heater"
+        ]
+      },
+      "workConnection": {
+        "value": "임무실의 열·소음 관리와 배터리 저온 유지 요구를 후속 조사할 후보입니다.",
+        "conditions": [
+          "실제 출품목록 우선 확보",
+          "재료 난연·내구 조건 확인",
+          "차량 적용 이력과 설계 요구 대조"
+        ]
+      },
+      "followUps": [
+        "실제 ADEX 2025 출품 목록과 현장사진이 있습니까?",
+        "배터리 예열 장치의 대상 전지·전원 조건은 무엇입니까?",
+        "단열·흡음재의 차량 적용 검증 범위는 어디까지입니까?"
+      ],
+      "sources": [
+        {
+          "id": "official-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 Floor Plan (2025-10-11)",
+          "publisher": "서울 ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "organizer_floorplan",
+          "originGroup": "adex2025-map",
+          "support": "2025 공식 배치도에서 회사명 후보 확인",
+          "limitations": "개최 전 배치도이며 개별 출품이나 실제 참가를 단독으로 증명하지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11",
+          "locator": "page 1 / Hall 10 / scanned label 011 / occurrence 1"
+        },
+        {
+          "id": "cm-event",
+          "url": "https://cmtechron.com/support/?board_code=1&code=340&tpf=board%2Fview",
+          "title": "서울 국제 항공우주 방산 박람회 2025 참가",
+          "publisher": "씨엠테크론(당시 창민테크론)",
+          "date": "2025-10-14",
+          "role": "exhibitor_pre_event_announcement",
+          "originGroup": "cm-event",
+          "support": "해당 회차 참가 예정과 부스 10-M1",
+          "limitations": "본문은 출품품목을 명시하지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "cm-insulation",
+          "url": "https://cmtechron.com/product/product03",
+          "title": "단열재·흡음재",
+          "publisher": "씨엠테크론",
+          "date": null,
+          "role": "company_background",
+          "originGroup": "cm-insulation",
+          "support": "SUS·섬유 단열재와 흡음재 일반 제품군",
+          "limitations": "ADEX 2025 출품 근거가 아닙니다.",
+          "independence": "primary_single_origin",
+          "eventId": null,
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "cm-heater",
+          "url": "https://cmtechron.com/product/product06",
+          "title": "배터리 예열 히터",
+          "publisher": "씨엠테크론",
+          "date": null,
+          "role": "company_background",
+          "originGroup": "cm-heater",
+          "support": "배터리 히팅 시스템 일반 제품",
+          "limitations": "ADEX 2025 출품 근거가 아닙니다.",
+          "independence": "primary_single_origin",
+          "eventId": null,
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [],
+      "catalogs": [
+        {
+          "title": "단열재·흡음재 — 일반 제품자료",
+          "url": "https://cmtechron.com/product/product03",
+          "context": "background_reference",
+          "sourceIds": [
+            "cm-insulation"
+          ]
+        },
+        {
+          "title": "배터리 예열 히터 — 일반 제품자료",
+          "url": "https://cmtechron.com/product/product06",
+          "context": "background_reference",
+          "sourceIds": [
+            "cm-heater"
+          ]
+        }
+      ],
+      "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "bounded_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "review": {
+        "relevance": "confirmed",
+        "reason": "단열·흡음과 배터리 예열 사업은 차량 임무실과 저온 운용에 관련됩니다. 다만 ADEX 2025에 이 제품들이 출품됐는지는 확인되지 않았습니다.",
+        "categories": [
+          "thermal",
+          "interiors_modules",
+          "components"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-11",
+        "sourceIds": [
+          "official-map",
+          "cm-event",
+          "cm-insulation",
+          "cm-heater"
+        ],
+        "statusReason": "사전 참가·부스 공지 외에 실제 제품 전시 근거와 현장사진이 없습니다."
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "cm-event"
+      ],
+      "boothClaims": [
+        {
+          "code": "10-M1",
+          "hall": "10",
+          "status": "confirmed",
+          "sourceIds": [
+            "cm-event"
+          ],
+          "note": "제조사 2025-10-14 사전 참가 공지의 부스번호. 실제 점유·지도 좌표는 별도 확인 필요."
+        }
+      ],
+      "rawRosterName": "CMTECHRON",
+      "rosterEntryIds": [
+        "adex25-maplabel-e2c69c27fe5028b9"
+      ]
+    },
+    {
+      "id": "case-adex-2025-fire-kim",
+      "organizationId": "org-9753ff08865cbaf0bb91",
+      "displayName": "파이어킴",
+      "categoryIds": [
+        "protection",
+        "electrical"
+      ],
+      "productIds": [],
+      "reviewStatus": "reviewed_case",
+      "reason": "소형 자동소화 사업은 차량 전장함·지휘소 임무장비의 화재 대응 검토에 연결될 수 있습니다. 해당 차량 적용성과 2025 출품품목은 미확인입니다.",
+      "highlights": [
+        "2025 공식 배치도의 업체명 후보를 유지합니다.",
+        "소형 자동소화 사업은 일반 자료로 확인했습니다.",
+        "2025 현장사진·품목·부스번호가 부족합니다."
+      ],
+      "exhibit": {
+        "summary": "관련성 검토는 진행했지만 ADEX 2025에서 확인된 출품품목은 없습니다. 과거 행사 사진이나 일반 제품사진을 현장사진으로 등록하지 않았습니다.",
+        "items": [],
+        "sourceIds": [
+          "official-map"
+        ]
+      },
+      "distinction": {
+        "comparator": "소형 장비 내부 자동소화와 차량 전체 화재대응",
+        "conditions": "2025 전시품과 차량 환경 시험자료가 없습니다.",
+        "judgment": "전장함 용도 검토 가능성만 제안합니다. 엔진실·승무원실용 적합성으로 확장하지 않습니다.",
+        "status": "qualified_comparison_only",
+        "sourceIds": [
+          "official-map",
+          "fire-if",
+          "fire-skt"
+        ]
+      },
+      "direction": {
+        "observation": "공식 배치도에 FIRE KIM이 있고 일반 자료는 자동소화 사업을 소개합니다.",
+        "interpretation": "출품 구성이 없어 이번 전시 전략은 판단하지 않습니다.",
+        "sourceIds": [
+          "official-map",
+          "fire-if",
+          "fire-skt"
+        ]
+      },
+      "workConnection": {
+        "value": "소형 임무장비·배전함의 국부 소화 요구를 질문할 후보입니다.",
+        "conditions": [
+          "2025 실제 참가·품목 먼저 확인",
+          "소화제·온도·전기 적합성 확인",
+          "승무원 노출과 정비 요구 별도 검토"
+        ]
+      },
+      "followUps": [
+        "ADEX 2025 실제 출품제품과 부스번호는 무엇입니까?",
+        "전장함·차량용 검증 자료가 있습니까?",
+        "소화 후 교체·복구·정비 조건은 무엇입니까?"
+      ],
+      "sources": [
+        {
+          "id": "official-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 Floor Plan (2025-10-11)",
+          "publisher": "서울 ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "organizer_floorplan",
+          "originGroup": "adex2025-map",
+          "support": "2025 공식 배치도에서 회사명 후보 확인",
+          "limitations": "개최 전 배치도이며 개별 출품이나 실제 참가를 단독으로 증명하지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11",
+          "locator": "page 1 / Hall 8 / scanned label 084 / occurrence 1"
+        },
+        {
+          "id": "fire-if",
+          "url": "https://ifdesign.com/en/brands-creatives/company/firekim/11533",
+          "title": "FIREKIM company profile",
+          "publisher": "iF Design",
+          "date": null,
+          "role": "company_background",
+          "originGroup": "if-firekim",
+          "support": "대한민국 소재와 STICK FSC130 자동소화 제품의 사업 관련성",
+          "limitations": "디자인 기관의 일반 기업·제품 소개로 ADEX 2025 출품 근거가 아닙니다.",
+          "independence": "primary_profile",
+          "eventId": null,
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "fire-skt",
+          "url": "https://news.sktelecom.com/136695",
+          "title": "SK텔레콤·파이어킴 소방 안전 솔루션 협력",
+          "publisher": "SK텔레콤",
+          "date": "2020-10-26",
+          "role": "partner_background",
+          "originGroup": "skt-firekim",
+          "support": "자동소화·화재 징후 감시 사업 관련성",
+          "limitations": "2020년 협력 발표이며 2025 행사 출품 또는 차량 적용을 뜻하지 않습니다.",
+          "independence": "primary_partner_statement",
+          "eventId": null,
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [],
+      "catalogs": [
+        {
+          "title": "STICK FSC130 자동소화 — 일반 기업·제품 소개",
+          "url": "https://ifdesign.com/en/brands-creatives/company/firekim/11533",
+          "context": "background_reference",
+          "sourceIds": [
+            "fire-if"
+          ]
+        }
+      ],
+      "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "bounded_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "review": {
+        "relevance": "confirmed",
+        "reason": "소형 자동소화 사업은 차량 전장함·지휘소 임무장비의 화재 대응 검토에 연결될 수 있습니다. 해당 차량 적용성과 2025 출품품목은 미확인입니다.",
+        "categories": [
+          "protection",
+          "electrical"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-11",
+        "sourceIds": [
+          "official-map",
+          "fire-if",
+          "fire-skt"
+        ],
+        "statusReason": "공식 명단 후보 및 일반 사업 관련성 외에 2025 출품·현장사진·부스번호를 확인하지 못했습니다."
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "fire-if"
+      ],
+      "boothClaims": [],
+      "rawRosterName": "FIRE KIM",
+      "rosterEntryIds": [
+        "adex25-maplabel-8b93d9df90f753cb"
+      ]
+    },
+    {
+      "id": "case-adex-2025-fiberpro",
+      "organizationId": "org-4ffe152337cf4eb1bae2",
+      "displayName": "파이버프로",
+      "categoryIds": [
+        "communications_navigation",
+        "components"
+      ],
+      "productIds": [
+        "adex25-fiberpro-fog-ins",
+        "adex25-fiberpro-fog",
+        "adex25-fiberpro-antijam-gnss"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "항공 중심 관성항법·GNSS 기술은 지상차량의 위치·방향 입력에도 관련됩니다. 차량 적용 구성과 성능은 별도 확인이 필요합니다.",
+      "highlights": [
+        "공식 ADEX 2025 현장사진 4장을 직접 확인했습니다.",
+        "INS·항재밍 GNSS 진열장을 제품군에 연결했습니다.",
+        "FOG는 현장 갤러리의 품목 목록 수준으로 표시합니다."
+      ],
+      "exhibit": {
+        "summary": "INS·FOG·항재밍 GNSS가 해당 회차 갤러리에 명시됩니다. INS·GNSS는 진열장 사진도 확인했으며 개별 모델·수량은 확정하지 않습니다.",
+        "items": [
+          {
+            "productId": "adex25-fiberpro-fog-ins",
+            "name": "FOG 기반 관성항법장치(INS) 제품군",
+            "status": "event_photo_confirmed",
+            "form": "실제 관성항법 진열장·개별 모델 미확인",
+            "sourceIds": [
+              "fiber-gallery"
+            ]
+          },
+          {
+            "productId": "adex25-fiberpro-fog",
+            "name": "고정밀 광섬유 자이로스코프(FOG) 제품군",
+            "status": "exhibitor_event_statement",
+            "form": "현장 갤러리 품목 목록·개별 실물 식별 부족",
+            "sourceIds": [
+              "fiber-gallery"
+            ]
+          },
+          {
+            "productId": "adex25-fiberpro-antijam-gnss",
+            "name": "항재밍 GNSS 수신기 제품군",
+            "status": "event_photo_confirmed",
+            "form": "실제 항재밍 GNSS 진열장·개별 모델 미확인",
+            "sourceIds": [
+              "fiber-gallery"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "fiber-gallery",
+          "fiber-event"
+        ]
+      },
+      "distinction": {
+        "comparator": "관성항법과 GNSS 수신기 제품군",
+        "conditions": "동일 차속·오차·환경 조건의 통합 시험은 없습니다.",
+        "judgment": "위치·방향을 다루는 서로 다른 제품군을 함께 보여줍니다. 통합 성능이나 교란 대응 우위는 확인되지 않았습니다.",
+        "status": "qualified_comparison_only",
+        "sourceIds": [
+          "fiber-gallery",
+          "fiber-event"
+        ]
+      },
+      "direction": {
+        "observation": "관성항법과 항재밍 GNSS를 같은 부스에 구성했습니다.",
+        "interpretation": "항법 관련 부품 공급 범위를 제시한 구성으로 해석합니다. 특정 차량용 통합 납품은 추정하지 않습니다.",
+        "sourceIds": [
+          "fiber-gallery",
+          "fiber-event"
+        ]
+      },
+      "workConnection": {
+        "value": "지휘소·의무후송·무인 차량의 항법 입력 요구를 정리할 비교 후보입니다.",
+        "conditions": [
+          "차량 진동·전원 조건 확인",
+          "인터페이스와 설치공간 대조",
+          "개별 모델의 시험 자료 확보"
+        ]
+      },
+      "followUps": [
+        "전시된 각 INS·FOG·GNSS의 모델명은 무엇입니까?",
+        "지상차량용 설치·정렬·인터페이스 요구는 무엇입니까?",
+        "시험된 운용 환경과 아직 검증하지 않은 범위는 어디까지입니까?"
+      ],
+      "sources": [
+        {
+          "id": "official-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 Floor Plan (2025-10-11)",
+          "publisher": "서울 ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "organizer_floorplan",
+          "originGroup": "adex2025-map",
+          "support": "2025 공식 배치도에서 회사명 후보 확인",
+          "limitations": "개최 전 배치도이며 개별 출품이나 실제 참가를 단독으로 증명하지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11",
+          "locator": "page 1 / Hall 9 / scanned label 015 / occurrence 1"
+        },
+        {
+          "id": "fiber-gallery",
+          "url": "https://fiberpro.co.kr/gallery/seoul-adex-2025/?page=2",
+          "title": "Seoul ADEX 2025 현장 갤러리",
+          "publisher": "파이버프로",
+          "date": "2025-10-20",
+          "role": "manufacturer_onsite_gallery",
+          "originGroup": "fiberpro-adex2025",
+          "support": "실제 부스 4장·관성항법·항재밍 진열장과 세 제품군 목록",
+          "limitations": "같은 제조사 기원입니다. 개별 모델 표찰·수량은 사진에서 확정하지 못했습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "fiber-event",
+          "url": "https://fiberpro.co.kr/event/seoul-adex-2025/",
+          "title": "Seoul ADEX 2025 참가 안내",
+          "publisher": "파이버프로",
+          "date": "2025-10-01",
+          "role": "exhibitor_pre_event_announcement",
+          "originGroup": "fiberpro-adex2025",
+          "support": "해당 회차·부스 9-C4",
+          "limitations": "부스번호는 사전 공지 기준입니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-adex25-fiber-1",
+          "sourceUrl": "https://fiberpro.co.kr/gallery/seoul-adex-2025/?page=2",
+          "originalImageUrl": "https://fiberpro.co.kr/data/editor/2510/thumb-b482259f99af7c8042f9cdef50e8d68d_1760923486_2146_600x498.jpg",
+          "locator": "공식 갤러리 본문 이미지 1",
+          "caption": "파이버프로 ADEX 2025 부스 전경",
+          "credit": "파이버프로 제공·개별 촬영자 미표기",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문으로 연결합니다. 로컬 복제·인라인 재게시하지 않습니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "productIds": [],
+          "sourceDate": "2025-10-20",
+          "capturedAt": null,
+          "sourceIds": [
+            "fiber-gallery"
+          ],
+          "variantNote": "실제 사진을 시각 확인했습니다. 진열장 분류는 읽히지만 개별 모델 표찰은 확정하지 않았습니다."
+        },
+        {
+          "id": "photo-adex25-fiber-2",
+          "sourceUrl": "https://fiberpro.co.kr/gallery/seoul-adex-2025/?page=2",
+          "originalImageUrl": "https://fiberpro.co.kr/data/editor/2510/thumb-b482259f99af7c8042f9cdef50e8d68d_1760923491_4617_600x800.jpg",
+          "locator": "공식 갤러리 본문 이미지 2",
+          "caption": "파이버프로 ADEX 2025 부스 정면",
+          "credit": "파이버프로 제공·개별 촬영자 미표기",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문으로 연결합니다. 로컬 복제·인라인 재게시하지 않습니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "productIds": [],
+          "sourceDate": "2025-10-20",
+          "capturedAt": null,
+          "sourceIds": [
+            "fiber-gallery"
+          ],
+          "variantNote": "실제 사진을 시각 확인했습니다. 진열장 분류는 읽히지만 개별 모델 표찰은 확정하지 않았습니다."
+        },
+        {
+          "id": "photo-adex25-fiber-3",
+          "sourceUrl": "https://fiberpro.co.kr/gallery/seoul-adex-2025/?page=2",
+          "originalImageUrl": "https://fiberpro.co.kr/data/editor/2510/thumb-b482259f99af7c8042f9cdef50e8d68d_1760923496_9087_600x778.jpg",
+          "locator": "공식 갤러리 본문 이미지 3",
+          "caption": "ADEX 2025 항재밍 GNSS 솔루션 진열장",
+          "credit": "파이버프로 제공·개별 촬영자 미표기",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문으로 연결합니다. 로컬 복제·인라인 재게시하지 않습니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "productIds": [
+            "adex25-fiberpro-antijam-gnss"
+          ],
+          "sourceDate": "2025-10-20",
+          "capturedAt": null,
+          "sourceIds": [
+            "fiber-gallery"
+          ],
+          "variantNote": "실제 사진을 시각 확인했습니다. 진열장 분류는 읽히지만 개별 모델 표찰은 확정하지 않았습니다."
+        },
+        {
+          "id": "photo-adex25-fiber-4",
+          "sourceUrl": "https://fiberpro.co.kr/gallery/seoul-adex-2025/?page=2",
+          "originalImageUrl": "https://fiberpro.co.kr/data/editor/2510/thumb-b482259f99af7c8042f9cdef50e8d68d_1760923501_8026_600x800.jpg",
+          "locator": "공식 갤러리 본문 이미지 4",
+          "caption": "ADEX 2025 관성항법 솔루션 진열장",
+          "credit": "파이버프로 제공·개별 촬영자 미표기",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문으로 연결합니다. 로컬 복제·인라인 재게시하지 않습니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "productIds": [
+            "adex25-fiberpro-fog-ins"
+          ],
+          "sourceDate": "2025-10-20",
+          "capturedAt": null,
+          "sourceIds": [
+            "fiber-gallery"
+          ],
+          "variantNote": "실제 사진을 시각 확인했습니다. 진열장 분류는 읽히지만 개별 모델 표찰은 확정하지 않았습니다."
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "bounded_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "review": {
+        "relevance": "confirmed",
+        "reason": "항공 중심 관성항법·GNSS 기술은 지상차량의 위치·방향 입력에도 관련됩니다. 차량 적용 구성과 성능은 별도 확인이 필요합니다.",
+        "categories": [
+          "communications_navigation",
+          "components"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-11",
+        "sourceIds": [
+          "official-map",
+          "fiber-gallery",
+          "fiber-event"
+        ],
+        "statusReason": "실제 INS·GNSS 진열장과 세 제품군 목록을 대조한 한정 분석입니다. 개별 모델은 잔여입니다."
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "fiber-gallery"
+      ],
+      "boothClaims": [
+        {
+          "code": "9-C4",
+          "hall": "9",
+          "status": "confirmed",
+          "sourceIds": [
+            "fiber-event"
+          ],
+          "note": "제조사 사전 공지의 부스번호. 현장사진에서 개별 번호는 판독하지 않았으며 지도 좌표는 별도 대조 필요."
+        }
+      ],
+      "rawRosterName": "FIBER PRO",
+      "rosterEntryIds": [
+        "adex25-maplabel-6b7a09405a45cd75"
+      ]
+    },
+    {
+      "id": "case-adex-2025-ktc",
+      "organizationId": "org-7860ab420e3a6b80bf35",
+      "displayName": "한국기계전기전자시험연구원(KTC)",
+      "categoryIds": [
+        "testing_maintenance",
+        "components"
+      ],
+      "productIds": [
+        "adex25-ktc-defense-material-testing",
+        "adex25-ktc-defense-standardization",
+        "adex25-ktc-test-infrastructure-plan"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "차량 소재·부품의 시험과 요구규격 정리는 당사 검증 업무에 직접 연결됩니다. 기관이 기획 중인 설비와 현재 제공 서비스를 구분해야 합니다.",
+      "highlights": [
+        "공식 현장사진에서 KTC 부스 8-P4를 확인했습니다.",
+        "시험평가·표준화·인프라 기획을 개별 항목으로 기록했습니다.",
+        "전시 패널을 운영 완료 설비로 해석하지 않았습니다."
+      ],
+      "exhibit": {
+        "summary": "물리적 장비보다 시험·표준화 역량을 홍보한 부스입니다. 현장 패널과 기관의 행사 설명을 대조해 서비스를 등록했습니다.",
+        "items": [
+          {
+            "productId": "adex25-ktc-defense-material-testing",
+            "name": "방산·우주 첨단재료 시험평가 서비스 소개",
+            "status": "exhibitor_event_statement",
+            "form": "기관의 행사 소개·실물 제품이 아닌 서비스",
+            "sourceIds": [
+              "ktc-event"
+            ]
+          },
+          {
+            "productId": "adex25-ktc-defense-standardization",
+            "name": "국방표준서 제·개정 역량 소개",
+            "status": "event_photo_confirmed",
+            "form": "현장 홍보 패널·서비스",
+            "sourceIds": [
+              "ktc-event"
+            ]
+          },
+          {
+            "productId": "adex25-ktc-test-infrastructure-plan",
+            "name": "방산우주 첨단 소재·부품 시험 인프라 구축 기획",
+            "status": "event_photo_confirmed",
+            "form": "현장 패널·기획 사업이며 운영 설비 아님",
+            "sourceIds": [
+              "ktc-event"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "ktc-event"
+        ]
+      },
+      "distinction": {
+        "comparator": "시험 서비스·표준서 업무와 신규 인프라 기획",
+        "conditions": "해당 시험의 인정 범위·장비 가용성과 처리기간은 확보하지 못했습니다.",
+        "judgment": "규격 정리와 시험기관 협의의 출발점입니다. 모든 차량 부품 시험을 수행할 수 있다는 뜻은 아닙니다.",
+        "status": "qualified_comparison_only",
+        "sourceIds": [
+          "ktc-event"
+        ]
+      },
+      "direction": {
+        "observation": "기관은 시험 서비스와 국방표준서 작업을 홍보하고 신규 인프라 수요조사를 소개했습니다.",
+        "interpretation": "시험 수요를 모아 지원 범위를 넓히려는 방향으로 읽힙니다. 기획 사업 확정을 뜻하지 않습니다.",
+        "sourceIds": [
+          "ktc-event"
+        ]
+      },
+      "workConnection": {
+        "value": "부품 국산화·변경 시 검증 항목과 외부 시험 역량을 대조할 후보입니다.",
+        "conditions": [
+          "시험별 인정·수행 범위 확인",
+          "시편·장비·일정 조건 확인",
+          "현재 서비스와 기획 인프라 구분"
+        ]
+      },
+      "followUps": [
+        "필요한 차량 부품 시험 중 현재 수행 가능한 항목은 무엇입니까?",
+        "국방표준서 제·개정 지원의 산출물과 범위는 무엇입니까?",
+        "신규 인프라의 계획·확정·운영 상태를 구분할 수 있습니까?"
+      ],
+      "sources": [
+        {
+          "id": "official-map",
+          "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "title": "Seoul ADEX 2025 Floor Plan (2025-10-11)",
+          "publisher": "서울 ADEX / BCI Aerospace",
+          "date": "2025-10-11",
+          "role": "organizer_floorplan",
+          "originGroup": "adex2025-map",
+          "support": "2025 공식 배치도에서 회사명 후보 확인",
+          "limitations": "개최 전 배치도이며 개별 출품이나 실제 참가를 단독으로 증명하지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11",
+          "locator": "page 1 / Hall 8 / scanned label 155 / occurrence 1"
+        },
+        {
+          "id": "ktc-event",
+          "url": "https://www.ktc.re.kr/web_united/board/view_season_02.asp?pagen=590&sno=3828",
+          "title": "KTC, 서울 ADEX 2025서 표준화·시험인증 역량 공개",
+          "publisher": "한국기계전기전자시험연구원",
+          "date": "2025-10-20",
+          "role": "exhibitor_event_statement_and_photo",
+          "originGroup": "ktc-adex2025",
+          "support": "부스 실제 사진·방산 시험 서비스·국방표준서·첨단소재 시험 인프라 기획 소개",
+          "limitations": "홍보기관 단일 기원입니다. 기획 중인 인프라를 현재 운영 설비로 보지 않습니다.",
+          "independence": "primary_single_origin",
+          "eventId": "adex-2025",
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-adex25-ktc-booth",
+          "sourceUrl": "https://www.ktc.re.kr/web_united/board/view_season_02.asp?pagen=590&sno=3828",
+          "originalImageUrl": "https://www.ktc.re.kr/web_united/program/board/imageview.asp?fchecksum=2c410958d9e764a7c7d5bc877cc21a32ed482d5a4dae65e4607f44ca139e9b0e&ftype=4&pagen=595&psize=400x400",
+          "locator": "https://www.ktc.re.kr/web_united/program/board/imageview.asp?fchecksum=2c410958d9e764a7c7d5bc877cc21a32ed482d5a4dae65e4607f44ca139e9b0e&ftype=4&pagen=595&psize=400x400",
+          "caption": "ADEX 2025 KTC 8-P4 부스와 표준화·시험 인프라 홍보 패널",
+          "credit": "KTC 제공·개별 촬영자 미표기",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문으로 연결합니다. 로컬 복제·인라인 재게시하지 않습니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "productIds": [
+            "adex25-ktc-defense-standardization",
+            "adex25-ktc-test-infrastructure-plan"
+          ],
+          "sourceDate": "2025-10-20",
+          "capturedAt": null,
+          "sourceIds": [
+            "ktc-event"
+          ],
+          "variantNote": "직접 시각 확인. 부스번호 8-P4가 양쪽 기둥에 표시됩니다. 패널은 서비스·기획 소개이며 시험 장비 가동 사진이 아닙니다."
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "bounded_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차량 소재·부품의 시험과 요구규격 정리는 당사 검증 업무에 직접 연결됩니다. 기관이 기획 중인 설비와 현재 제공 서비스를 구분해야 합니다.",
+        "categories": [
+          "testing_maintenance",
+          "components"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-11",
+        "sourceIds": [
+          "official-map",
+          "ktc-event"
+        ],
+        "statusReason": "실제 부스와 표준화·기획 패널을 확인한 한정 분석입니다. 시험 능력의 적용 범위는 별도 확인이 필요합니다."
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "ktc-event"
+      ],
+      "boothClaims": [
+        {
+          "code": "8-P4",
+          "hall": "8",
+          "status": "confirmed",
+          "sourceIds": [
+            "ktc-event"
+          ],
+          "note": "ADEX 2025 공식 현장사진의 부스 기둥에서 직접 판독. 지도 좌표는 원도면과 별도 대조해야 함."
+        }
+      ],
+      "rawRosterName": "KTC",
+      "rosterEntryIds": [
+        "adex25-maplabel-be6581fd83f23f32"
+      ]
+    }
+  ],
+  "qualityChecks": {
+    "sourcePass": "행사 회차·원문 본문·공식 후보 이름을 대조",
+    "secondPass": "현장사진 시각검토·부스 표기·제품 식별 수준·국가 주소·재전재 기원 재검수",
+    "identityCheck": "7개 roster rawName에서 기존 SHA-256 organizationId 재계산 일치",
+    "scope": "사진에서 읽히지 않는 표찰을 임의 제품으로 확정하지 않음",
+    "uiAndCommit": "루트 통합 작업에서 수행; 이 조사 파일만으로 화면·커밋 완료를 주장하지 않음"
+  }
+}

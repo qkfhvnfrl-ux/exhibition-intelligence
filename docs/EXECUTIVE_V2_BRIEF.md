@@ -42,7 +42,7 @@
 | 1 | 현재 상태 확인, 복구 지점·브랜치, 기능 조사, 공통 기준·상태·인수인계·작업 규칙 저장 | [수신 원문](EXECUTIVE_V2_STAGE_1.md) |
 | 2 | 공식 원장·지도 | [수신 원문](EXECUTIVE_V2_STAGE_2.md) |
 | 3 | 지도·업체 화면 구현 | [수신 원문](EXECUTIVE_V2_STAGE_3.md) |
-| 4 | ADEX 조사 확장 | 미수신 — 문서를 미리 작성하지 않음 |
+| 4 | ADEX 조사 확장 | [수신 원문](EXECUTIVE_V2_STAGE_4.md) |
 | 5 | Eurosatory 조사 확장 | 미수신 — 문서를 미리 작성하지 않음 |
 | 6 | DSEI 조사 확장 | 미수신 — 문서를 미리 작성하지 않음 |
 | 7 | IDEX 조사 확장 | 미수신 — 문서를 미리 작성하지 않음 |
@@ -60,3 +60,5 @@
 2단계 산출물은 [공식 자료 확보 범위](EXECUTIVE_V2_STAGE_2_COLLECTION.md), [공통 데이터 구조·이전 규칙](EXECUTIVE_V2_DATA_CONTRACT.md), [검증 기록](EXECUTIVE_V2_STAGE_2_VERIFICATION.md)에 연결합니다. 원천은 `data/v2/collection`, 지도는 `data/v2/maps`, 기존 ID 이전표는 `data/v2/legacy-mapping.json`입니다. `npm run compile:v2`로 전체 조사용 registry와 화면용 public 데이터를 재생성합니다. 전체 모집단 확보·심층분석은 완료하지 않았으며 남은 범위는 원장 `queues`의 4~8단계로 연결됩니다. 3단계 시작 시 이 파일들과 최신 STATUS/HANDOFF를 함께 읽습니다.
 
 3단계 구현은 [화면 데이터](EXECUTIVE_V2_STAGE_3_DATA.md), [디자인 적용](EXECUTIVE_V2_STAGE_3_DESIGN.md), [기능 제거](EXECUTIVE_V2_STAGE_3_REMOVAL.md), [검증과 한계](EXECUTIVE_V2_STAGE_3_VERIFICATION.md)에 연결합니다. 실제 화면 입력은 `data/v2/app/index.json`과 `events/{eventId}.json`이며 `npm run build`로 생성합니다. ADEX 5개 상세 사례는 전체 모집단 완료와 구별합니다. 실제 PDF 저장·물리적 휴대폰 검증을 남긴 상태로 다음 4단계의 조사 지시를 이어받습니다.
+
+4~8단계 공통 조사 절차는 [EXHIBITION_RESEARCH_PROTOCOL.md](EXHIBITION_RESEARCH_PROTOCOL.md)입니다. 각 회차를 시작할 때 원장·STATUS·HANDOFF와 함께 읽고 동일한 근거·집계·묶음 검증 기준을 적용합니다. 4단계는 3단계 업체 화면을 재사용하며 전체 모집단과 이번 묶음 완료를 구별합니다.

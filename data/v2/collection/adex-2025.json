@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "eventId": "adex-2025",
-  "checkedAt": "2026-11-11T22:05:00Z",
+  "checkedAt": "2026-11-12T00:00:00Z",
   "sources": [
     {
       "id": "src-adex-2025-floorplan-20251011",
@@ -195,6 +195,92 @@
         "notes": "Issuer social post; no image or full post reproduced."
       },
       "notes": "Post states LIVE Seoul ADEX 2025 and Booth 7-C11. Relative date and Edited label do not establish exact publication date. Same issuer as the earlier press release, not independent number verification."
+    },
+    {
+      "id": "population-dapa-leaflet",
+      "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+      "discoveryUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709",
+      "title": "서울 ADEX 2025 통합홍보관 리플릿",
+      "publisher": "방위사업청·출연기관 / 경상국립대학교 공개 첨부",
+      "edition": "2025",
+      "role": "official_institution_pavilion_leaflet",
+      "pages": 2,
+      "pdfCreatedAt": "2025-10-15T17:34:26+09:00",
+      "sha256": "904f8421bfbbbe8f7385d98dbaa126081050d36316b248a35718b35302ef6f1a",
+      "checkedAt": "2026-11-12",
+      "rightsStatus": "link_only",
+      "originGroup": "dapa-adex2025-integrated-pavilion",
+      "limitations": "Pre-event institutional exhibit list; images are product reference illustrations, not onsite photographs. Page 1 map was not independently reconciled against the acquired 2025-10-11 floorplan; no geometry imported.",
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-12",
+      "rights": {
+        "status": "link_only",
+        "notes": "Pre-event institutional exhibit list; images are product reference illustrations, not onsite photographs. Page 1 map was not independently reconciled against the acquired 2025-10-11 floorplan; no geometry imported."
+      }
+    },
+    {
+      "id": "population-dtaq-postevent",
+      "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+      "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+      "publisher": "국방기술품질원 DTaQ 미디어룸",
+      "writer": "정소야",
+      "publishedAt": "2025-11-10",
+      "role": "institution_postevent_report",
+      "edition": "2025",
+      "checkedAt": "2026-11-12",
+      "rightsStatus": "link_only",
+      "originGroup": "dtaq-adex2025-postevent",
+      "limitations": "Institution-run coverage corroborates exhibition, not independent performance certification; overlaps DAPA institutional family.",
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-12",
+      "rights": {
+        "status": "link_only",
+        "notes": "Institution-run coverage corroborates exhibition, not independent performance certification; overlaps DAPA institutional family."
+      }
+    },
+    {
+      "id": "population-kallman-usa",
+      "url": "https://www.kallman.com/united-states-showcases-innovation-and-partnership-at-seoul-adex-2025/",
+      "title": "United States Showcases Innovation and Partnership at Seoul ADEX 2025",
+      "publisher": "Kallman Worldwide",
+      "publishedAt": "2025-10-02",
+      "role": "official_pavilion_operator",
+      "edition": "2025",
+      "reportedPavilionCompanies": 37,
+      "reportedUSCompanies": 69,
+      "limitations": "Pre-event subset totals; individual 37-name list not available in article; Meeting Point 7-L9 is pavilion facility, not every exhibitor booth.",
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-12",
+      "rights": {
+        "status": "link_only",
+        "notes": "Pre-event subset totals; individual 37-name list not available in article; Meeting Point 7-L9 is pavilion facility, not every exhibitor booth."
+      }
+    },
+    {
+      "id": "population-gnu-brochure",
+      "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=759ff6e822a86f4d5944f57c2602a270",
+      "discoveryUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709",
+      "title": "서울 ADEX 2025 브로슈어 국문",
+      "publisher": "Seoul ADEX / GNU hosted original attachment",
+      "edition": "2025",
+      "sha256": "3d922d01f144ae0fbcaa4cb1468232f069ec102e3b46964addea35f7cfa280ac",
+      "checkedAt": "2026-11-12",
+      "rightsStatus": "link_only",
+      "limitations": "Marketing participation brochure with 2023 result statistics, not 2025 final exhibitor roster.",
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-12",
+      "rights": {
+        "status": "link_only",
+        "notes": "Marketing participation brochure with 2023 result statistics, not 2025 final exhibitor roster."
+      }
     }
   ],
   "collection": {
@@ -269,6 +355,15 @@
         "url": "https://www.sibat.mod.gov.il/Exhibitions/SeoulAdex/Documents/ISRAEL%20at%20ADEX%20SEOUL%202023.pdf",
         "status": "edition_mismatch",
         "rawEntryCount": 0
+      },
+      {
+        "id": "adex25-dapa-pavilion-review",
+        "kind": "pavilion_subset",
+        "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+        "status": "partial",
+        "rawEntryCount": 19,
+        "canonicalNewEntries": 3,
+        "scopeNote": "19 source names preserved in supplemental candidate ledger; 3 new resolved names imported. Not 19 new companies."
       }
     ],
     "missingRanges": [
@@ -284,7 +379,8 @@
       "Raw entries count map labels, including repeat blocks and institution/pavilion/media labels; never report it as deduplicated exhibitor count.",
       "No whole-population completion percentage is defined because total official 2025 directory was not acquired. Dense Hall 7/8 candidates are not all individually verified.",
       "Facilities (cafe, seminars, media conference rooms, delegation lounge, BtoB, prayer room, USA Pavilion meeting point, toilets) are not organizational roster rows.",
-      "Source name spellings are retained (including apparent typos). Brand/legal-name normalization needs a separate evidence-backed alias relationship."
+      "Source name spellings are retained (including apparent typos). Brand/legal-name normalization needs a separate evidence-backed alias relationship.",
+      "Stage 4: reviewed 79 Hall 7 transcription rows and registered 3 newly resolved DAPA constituent names; full 19-company/22-item pavilion candidate list preserved in data/v2/research/adex-2025/population.json. Remaining bilingual names require identity matching before import to avoid double counting."
     ]
   },
   "entries": [
@@ -314,10 +410,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-5f310340f21e7c54",
@@ -345,10 +442,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "institution",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-6ed5ec5b475137de",
@@ -376,10 +474,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "media",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-a718bb08307ed757",
@@ -407,10 +506,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "media",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-072e66de24097843",
@@ -438,10 +538,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "media",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-bcbc77a4e988b5f7",
@@ -469,10 +570,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "media",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-99744f65ce56c3d8",
@@ -1190,10 +1292,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-a578742163f6506e",
@@ -1221,10 +1324,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-eada4c9c4ed8239e",
@@ -1252,10 +1356,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-2e6e7f6c737fdca1",
@@ -1359,11 +1464,12 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization_unresolved",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name.",
-      "identityNote": "Multiple names may share this label; legal identity, brand/distributor relationship and split require independent checking. Do not create a merged legal company."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "identityNote": "Multiple names may share this label; legal identity, brand/distributor relationship and split require independent checking. Do not create a merged legal company.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-cfbdbc8f68812914",
@@ -1391,10 +1497,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-bea4018fafb556aa",
@@ -1422,10 +1529,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-dd248bb35e612533",
@@ -1453,10 +1561,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-8c30eaf9e173fa66",
@@ -1484,10 +1593,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-786c7147fc2c792e",
@@ -1515,10 +1625,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-05b2d6553ca814c0",
@@ -1546,10 +1657,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-b330f07c09e0c6c1",
@@ -1577,10 +1689,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-d7291af694ad881b",
@@ -1608,10 +1721,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-d9de46296be4689a",
@@ -1639,10 +1753,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-8f26778ce23ce3e9",
@@ -1670,10 +1785,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-3414cacba7d98944",
@@ -1701,10 +1817,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-b59a3c76897b56df",
@@ -1732,10 +1849,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-94634e980f5f893b",
@@ -1763,10 +1881,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-fc1f2fda4cc17f3a",
@@ -1794,11 +1913,12 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization_unresolved",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name.",
-      "identityNote": "Multiple names may share this label; legal identity, brand/distributor relationship and split require independent checking. Do not create a merged legal company."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "identityNote": "Multiple names may share this label; legal identity, brand/distributor relationship and split require independent checking. Do not create a merged legal company.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-97cc4149992731ad",
@@ -1826,10 +1946,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-76a9106324bb789c",
@@ -1857,10 +1978,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-68437bce85ebd690",
@@ -1888,10 +2010,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-d9253386f3266c2a",
@@ -1919,10 +2042,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-2ae16852bb0ca578",
@@ -1950,10 +2074,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-a926ad67eddb13f6",
@@ -1981,10 +2106,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-e0f538c79d6999ca",
@@ -2012,10 +2138,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-e5f11f50c83f0714",
@@ -2043,10 +2170,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-5ad8530b24cc41ef",
@@ -2074,10 +2202,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-a746c1c9580e9414",
@@ -2105,10 +2234,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "institution",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-ce8e413693719c1d",
@@ -2136,10 +2266,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-1b8fbe7f9c280d49",
@@ -2167,10 +2298,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-a6153ecad7dc0ae8",
@@ -2198,10 +2330,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-ed2de46bfd2eee57",
@@ -2229,10 +2362,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-019415dca175023e",
@@ -2260,10 +2394,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-5d416d50bcf210cc",
@@ -2291,10 +2426,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-30ed8be9c7651026",
@@ -2322,10 +2458,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-03523bef6e756835",
@@ -2353,10 +2490,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-f74fa8cad0c58fe4",
@@ -2384,10 +2522,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-e91604e9f24d5643",
@@ -2415,10 +2554,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-65b123e697ac766f",
@@ -2446,10 +2586,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-f73cb44f309416c2",
@@ -2477,10 +2618,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-549ae0e3ba103135",
@@ -2508,10 +2650,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-cc43d620d5e0f316",
@@ -2539,10 +2682,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-4be5cafcbcbfa551",
@@ -2570,10 +2714,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-0c9c2d2e7a169208",
@@ -2601,11 +2746,12 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization_unresolved",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name.",
-      "identityNote": "Multiple names may share this label; legal identity, brand/distributor relationship and split require independent checking. Do not create a merged legal company."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "identityNote": "Multiple names may share this label; legal identity, brand/distributor relationship and split require independent checking. Do not create a merged legal company.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-66273e26380eb302",
@@ -2633,10 +2779,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-c7880fc2179f52fc",
@@ -2664,10 +2811,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-00497b3eb9bb769d",
@@ -2695,10 +2843,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-5359452194e5441e",
@@ -2726,10 +2875,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-a8d1df91c9c49fc3",
@@ -2757,10 +2907,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-284fedc79cc35905",
@@ -2788,10 +2939,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-f8ca13f304b3c5fb",
@@ -2819,10 +2971,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-7f2e840949210659",
@@ -2850,10 +3003,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-45c26a9550595856",
@@ -2881,10 +3035,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-780959697eff38d8",
@@ -2912,10 +3067,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-1cb4ef8a854ce8d3",
@@ -2943,10 +3099,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-0abcaa5348578999",
@@ -2974,10 +3131,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-ce31a64344900b9a",
@@ -3005,10 +3163,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-b519e6565d6d85ce",
@@ -3036,10 +3195,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "pavilion",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-52e71040cca417a8",
@@ -3067,10 +3227,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-ac7cf0d8d908c27d",
@@ -3098,11 +3259,12 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization_unresolved",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name.",
-      "identityNote": "Multiple names may share this label; legal identity, brand/distributor relationship and split require independent checking. Do not create a merged legal company."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "identityNote": "Multiple names may share this label; legal identity, brand/distributor relationship and split require independent checking. Do not create a merged legal company.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-9103b4cad1f2f843",
@@ -3317,10 +3479,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-cd6bd2c87c3a16c0",
@@ -3348,10 +3511,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-91a2e892e9860cb0",
@@ -3379,10 +3543,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-d6d22303b865816f",
@@ -3530,10 +3695,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-e374c7c1487d2408",
@@ -3561,10 +3727,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-3a896011b3ab01c7",
@@ -3592,10 +3759,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-06fb9e146216c677",
@@ -3653,10 +3821,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-9805198f0b9c9480",
@@ -3684,10 +3853,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-6a0c7c64bbc2b67d",
@@ -3715,10 +3885,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-79831f65b74050fc",
@@ -3746,10 +3917,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-b9eb00c8366454c2",
@@ -3777,10 +3949,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-d76cdbae482c11a3",
@@ -3808,10 +3981,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-cd930a547c172a8a",
@@ -4049,10 +4223,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision. Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-5407998b32247664",
@@ -11448,6 +11623,107 @@
       "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here"
+    },
+    {
+      "id": "adex25-pavilion-1aaf2c2c6edaa081",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / DAPA integrated pavilion / 수성정밀기계",
+      "rawName": "수성정밀기계",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "기관 공동관의 제품 출품 명칭. 개별 업체 관련성·사진·분석은 검증 묶음에서 대조하며 독립 부스나 직원 현장 참가를 뜻하지 않습니다.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "locator": "named product listing / 수성정밀기계",
+          "kind": "observation",
+          "claim": "Product represented under 수성정밀기계 in the 2025 institutional pavilion; no independent booth location asserted.",
+          "independentSourceCount": 1
+        },
+        {
+          "sourceId": "population-dtaq-postevent",
+          "locator": "named product listing / 수성정밀기계",
+          "kind": "observation",
+          "claim": "Product represented under 수성정밀기계 in the 2025 institutional pavilion; no independent booth location asserted.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified",
+      "pavilionName": "DAPA integrated pavilion"
+    },
+    {
+      "id": "adex25-pavilion-52aa211bb99d6c50",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / DAPA integrated pavilion / 에이치케이씨",
+      "rawName": "에이치케이씨",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "기관 공동관의 제품 출품 명칭. 개별 업체 관련성·사진·분석은 검증 묶음에서 대조하며 독립 부스나 직원 현장 참가를 뜻하지 않습니다.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "locator": "named product listing / 에이치케이씨",
+          "kind": "observation",
+          "claim": "Product represented under 에이치케이씨 in the 2025 institutional pavilion; no independent booth location asserted.",
+          "independentSourceCount": 1
+        },
+        {
+          "sourceId": "population-dtaq-postevent",
+          "locator": "named product listing / 에이치케이씨",
+          "kind": "observation",
+          "claim": "Product represented under 에이치케이씨 in the 2025 institutional pavilion; no independent booth location asserted.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified",
+      "pavilionName": "DAPA integrated pavilion"
+    },
+    {
+      "id": "adex25-pavilion-451ea401431c4587",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / DAPA integrated pavilion / 픽소니어",
+      "rawName": "픽소니어",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "기관 공동관의 제품 출품 명칭. 개별 업체 관련성·사진·분석은 검증 묶음에서 대조하며 독립 부스나 직원 현장 참가를 뜻하지 않습니다.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "locator": "named product listing / 픽소니어",
+          "kind": "observation",
+          "claim": "Product represented under 픽소니어 in the 2025 institutional pavilion; no independent booth location asserted.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified",
+      "pavilionName": "DAPA integrated pavilion"
     }
   ],
   "maps": [],
@@ -11486,6 +11762,13 @@
       "reason": "Issuer pre-event booth 18-20 differs from issuer live-post 7-C11. Neither number is matched to the verified pre-event polygon.",
       "nextAction": "Find an organizer final booth list, corrected event-day plan or PEI onsite photograph with legible number; compare its placement with the pinned official pre-event plan before assigning a current code.",
       "missingRange": "PEI-GENESIS final booth-number-to-plan-geometry reconciliation."
+    },
+    {
+      "id": "queue-adex-2025-stage4-next",
+      "stage": 4,
+      "reason": "Verified batches are partial; 135 Hall 8 transcription rows and full directory remain open.",
+      "nextAction": "Read EXHIBITION_RESEARCH_PROTOCOL.md and latest stage4 metrics; resume Hall 8 WASCO label001, then unresolved DAPA constituents (한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던) and Patria/Finland pavilion.",
+      "missingRange": "Full 2025 directory/outdoor; 135 dense labels; unreviewed candidates; number/geometry associations; field-photo rights."
     }
   ]
 }

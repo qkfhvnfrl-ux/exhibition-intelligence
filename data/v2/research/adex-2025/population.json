@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "checkedAt": "2026-11-12",
+  "scope": "population_acquisition_and_pavilion_candidates",
+  "populationComplete": false,
+  "directoryTraversalComplete": false,
+  "expectedTotal": null,
+  "reportedScale": {
+    "value": 600,
+    "qualifier": "approximately",
+    "sourceId": "population-dtaq-postevent",
+    "use": "event scale context only; not reconciled candidate denominator"
+  },
+  "sources": [
+    {
+      "id": "population-dapa-leaflet",
+      "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+      "discoveryUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709",
+      "title": "서울 ADEX 2025 통합홍보관 리플릿",
+      "publisher": "방위사업청·출연기관 / 경상국립대학교 공개 첨부",
+      "edition": "2025",
+      "role": "official_institution_pavilion_leaflet",
+      "pages": 2,
+      "pdfCreatedAt": "2025-10-15T17:34:26+09:00",
+      "sha256": "904f8421bfbbbe8f7385d98dbaa126081050d36316b248a35718b35302ef6f1a",
+      "checkedAt": "2026-11-12",
+      "rightsStatus": "link_only",
+      "originGroup": "dapa-adex2025-integrated-pavilion",
+      "limitations": "Pre-event institutional exhibit list; images are product reference illustrations, not onsite photographs. Page 1 map was not independently reconciled against the acquired 2025-10-11 floorplan; no geometry imported."
+    },
+    {
+      "id": "population-dtaq-postevent",
+      "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+      "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+      "publisher": "국방기술품질원 DTaQ 미디어룸",
+      "writer": "정소야",
+      "publishedAt": "2025-11-10",
+      "role": "institution_postevent_report",
+      "edition": "2025",
+      "checkedAt": "2026-11-12",
+      "rightsStatus": "link_only",
+      "originGroup": "dtaq-adex2025-postevent",
+      "limitations": "Institution-run coverage corroborates exhibition, not independent performance certification; overlaps DAPA institutional family."
+    },
+    {
+      "id": "population-kallman-usa",
+      "url": "https://www.kallman.com/united-states-showcases-innovation-and-partnership-at-seoul-adex-2025/",
+      "title": "United States Showcases Innovation and Partnership at Seoul ADEX 2025",
+      "publisher": "Kallman Worldwide",
+      "publishedAt": "2025-10-02",
+      "role": "official_pavilion_operator",
+      "edition": "2025",
+      "reportedPavilionCompanies": 37,
+      "reportedUSCompanies": 69,
+      "limitations": "Pre-event subset totals; individual 37-name list not available in article; Meeting Point 7-L9 is pavilion facility, not every exhibitor booth."
+    },
+    {
+      "id": "population-gnu-brochure",
+      "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=759ff6e822a86f4d5944f57c2602a270",
+      "discoveryUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709",
+      "title": "서울 ADEX 2025 브로슈어 국문",
+      "publisher": "Seoul ADEX / GNU hosted original attachment",
+      "edition": "2025",
+      "sha256": "3d922d01f144ae0fbcaa4cb1468232f069ec102e3b46964addea35f7cfa280ac",
+      "checkedAt": "2026-11-12",
+      "rightsStatus": "link_only",
+      "limitations": "Marketing participation brochure with 2023 result statistics, not 2025 final exhibitor roster."
+    }
+  ],
+  "acquisitionChecks": [
+    {
+      "url": "https://www.seouladex.com/en/business/trade-visitor/exhibitor-list.php",
+      "result": "web_open_inaccessible",
+      "importedRows": 0
+    },
+    {
+      "url": "https://www.seoulairshow.com/en/business/seoul-adex/exhibitor-list.php",
+      "result": "web_open_inaccessible",
+      "importedRows": 0
+    },
+    {
+      "url": "https://seouladex.sourcehere.com/search",
+      "result": "opened_current_2027_directory_signup_gate",
+      "importedRows": 0,
+      "note": "Stale search snapshots say 2025; current page header and directory body say 2027."
+    },
+    {
+      "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+      "result": "http_200_hash_unchanged",
+      "sha256": "fd0bcbaa88705c683f28b8e2effe94fd749fa12fd654f11287b17025db688dde",
+      "bytes": 5490107
+    }
+  ],
+  "transcriptionReview": {
+    "hall": "7",
+    "reviewCount": 79,
+    "remainingDenseReviewCount": 135,
+    "nextEntry": {
+      "hall": "8",
+      "rawName": "WASCO",
+      "sourceLocator": "page 1 / Hall 8 / scanned label 001 / occurrence 1"
+    },
+    "records": [
+      {
+        "entryId": "adex25-maplabel-2dd838eb43f04c07",
+        "rawName": "Indo Defence",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 001 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-5f310340f21e7c54",
+        "rawName": "Korea Aerospace Industries Association",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 002 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-6ed5ec5b475137de",
+        "rawName": "Aviation Week Network",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 003 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-a718bb08307ed757",
+        "rawName": "Defense times korea",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 004 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-072e66de24097843",
+        "rawName": "SAP Media",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 005 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-bcbc77a4e988b5f7",
+        "rawName": "GLOBAL BUSINESS PRESS",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 006 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-1c7c3a27dfdce666",
+        "rawName": "INVICTUM",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 030 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-a578742163f6506e",
+        "rawName": "Beaufort",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 031 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-eada4c9c4ed8239e",
+        "rawName": "NeXber",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 032 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-46188d6bf29ff1e0",
+        "rawName": "Click Bond A-Tech Aviation",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 034 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-cfbdbc8f68812914",
+        "rawName": "DAESHIN METAL",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 035 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-bea4018fafb556aa",
+        "rawName": "FS",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 036 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-dd248bb35e612533",
+        "rawName": "Fostec",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 037 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-8c30eaf9e173fa66",
+        "rawName": "Prolangs",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 038 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-786c7147fc2c792e",
+        "rawName": "GNK Solutions",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 039 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-05b2d6553ca814c0",
+        "rawName": "Green Optics",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 040 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-b330f07c09e0c6c1",
+        "rawName": "PSIONdsp",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 041 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-d7291af694ad881b",
+        "rawName": "SEC",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 042 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-d9de46296be4689a",
+        "rawName": "SJ Precision",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 043 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-8f26778ce23ce3e9",
+        "rawName": "ULTRONICS",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 044 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-3414cacba7d98944",
+        "rawName": "HANKUK SPECIAL STEEL",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 045 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-b59a3c76897b56df",
+        "rawName": "SEETRON",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 046 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-94634e980f5f893b",
+        "rawName": "SamTra International",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 047 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-fc1f2fda4cc17f3a",
+        "rawName": "IPT Wilko Aero",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 048 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-97cc4149992731ad",
+        "rawName": "REALTIMEVISUAL",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 049 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-76a9106324bb789c",
+        "rawName": "CTLA",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 050 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-68437bce85ebd690",
+        "rawName": "BIBUS METALS KOREA",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 051 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-d9253386f3266c2a",
+        "rawName": "Sungjin C&T",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 052 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-2ae16852bb0ca578",
+        "rawName": "DNB",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 053 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-a926ad67eddb13f6",
+        "rawName": "ELMA ELECTRONIC",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 054 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-e0f538c79d6999ca",
+        "rawName": "KCL",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 055 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-e5f11f50c83f0714",
+        "rawName": "ALA",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 056 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-5ad8530b24cc41ef",
+        "rawName": "ACE WAVETECH",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 057 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-a746c1c9580e9414",
+        "rawName": "Korea Defense Guarantee Cooperative",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 058 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-ce8e413693719c1d",
+        "rawName": "Drive System Design",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 059 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-1b8fbe7f9c280d49",
+        "rawName": "MARCH ELECTRONICS",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 060 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-a6153ecad7dc0ae8",
+        "rawName": "Age Optic",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 061 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-ed2de46bfd2eee57",
+        "rawName": "Woori HQ",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 062 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-019415dca175023e",
+        "rawName": "Woori DS",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 063 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-5d416d50bcf210cc",
+        "rawName": "U-Tel",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 064 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-30ed8be9c7651026",
+        "rawName": "Millennium Optical System",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 065 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-03523bef6e756835",
+        "rawName": "JENOPTIK",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 066 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-f74fa8cad0c58fe4",
+        "rawName": "ILSUNG COMPOSITES",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 067 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-e91604e9f24d5643",
+        "rawName": "ElectroAir OU",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 068 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-65b123e697ac766f",
+        "rawName": "HYOSEONG ELECTRIC",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 069 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-f73cb44f309416c2",
+        "rawName": "ARS ELECTRONICS",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 070 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-549ae0e3ba103135",
+        "rawName": "SUNGSAN Electronics & Communications",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 071 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-cc43d620d5e0f316",
+        "rawName": "Parkor Korea Indus",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 072 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-4be5cafcbcbfa551",
+        "rawName": "MPS bearings",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 073 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-0c9c2d2e7a169208",
+        "rawName": "Tronair Taeyang Aero",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 074 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-66273e26380eb302",
+        "rawName": "JAEWON KOREA",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 075 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-c7880fc2179f52fc",
+        "rawName": "RF Systems",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 076 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-00497b3eb9bb769d",
+        "rawName": "3M",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 077 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-5359452194e5441e",
+        "rawName": "Amazon Web Services",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 078 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-a8d1df91c9c49fc3",
+        "rawName": "Pace",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 079 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-284fedc79cc35905",
+        "rawName": "GEOSTORY",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 080 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-f8ca13f304b3c5fb",
+        "rawName": "5ATZ",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 081 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-7f2e840949210659",
+        "rawName": "DeTect",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 082 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-45c26a9550595856",
+        "rawName": "WIRE MASTERS",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 083 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-780959697eff38d8",
+        "rawName": "hessed korea",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 084 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-1cb4ef8a854ce8d3",
+        "rawName": "D.I. OPTICAL",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 085 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-0abcaa5348578999",
+        "rawName": "NCS TECHNOLOGY",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 086 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-ce31a64344900b9a",
+        "rawName": "YUAN High-Tech Development",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 087 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-b519e6565d6d85ce",
+        "rawName": "Latvia",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 088 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-52e71040cca417a8",
+        "rawName": "datamaker",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 089 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-ac7cf0d8d908c27d",
+        "rawName": "Global Konet & Commtact",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 090 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-3ee9305154ef6263",
+        "rawName": "Marvin Test Solutions",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 097 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-cd6bd2c87c3a16c0",
+        "rawName": "Jonal Laboratories, Inc.",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 098 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-91a2e892e9860cb0",
+        "rawName": "CBDL Corporation",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 099 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-b59528c40de96c90",
+        "rawName": "Teledyne FLIR",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 104 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-e374c7c1487d2408",
+        "rawName": "Fastening Systems International, Inc",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 105 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-3a896011b3ab01c7",
+        "rawName": "S3 Aero Defense",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 106 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-a29f0a83535fa29b",
+        "rawName": "BAE Systems",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 108 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-9805198f0b9c9480",
+        "rawName": "Hydraulics International Inc.",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 109 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-6a0c7c64bbc2b67d",
+        "rawName": "nLIGHT",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 110 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-79831f65b74050fc",
+        "rawName": "W. L. Gore & Associates",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 111 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-b9eb00c8366454c2",
+        "rawName": "IMSAR",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 112 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-d76cdbae482c11a3",
+        "rawName": "Microchip Technology Inc",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 113 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-e24279ea25140a36",
+        "rawName": "Edge Autonomy",
+        "sourceLocator": "page 1 / Hall 7 / scanned label 121 / occurrence 1",
+        "from": "needs_review",
+        "to": "visually_reviewed",
+        "sourceId": "src-adex-2025-floorplan-20251011",
+        "checkedAt": "2026-11-12",
+        "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
+        "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
+        "rawNameChanged": false
+      }
+    ]
+  },
+  "pavilionCandidates": [
+    {
+      "rawName": "한국항공우주연구원",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "마이크로 가스터빈",
+          "pavilionSection": "KRIT",
+          "sourceLocator": "page 2 / KRIT / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "소형무인기용 엔진; 차량 적용은 별도 검토",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "HD현대중공업",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "연료절감형 OPV(원해경비함)",
+          "pavilionSection": "KRIT",
+          "sourceLocator": "page 2 / KRIT / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "해양 체계; 지상차량 적용 기술 확인 필요",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "LIG넥스원",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "AESA(능동위상배열) 레이더",
+          "pavilionSection": "KRIT",
+          "sourceLocator": "page 2 / KRIT / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "FA-50용 항공 레이더; 지상 통합 가능성은 별도 검토",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "한화에어로스페이스",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "차륜형 자주포",
+          "pavilionSection": "KRIT",
+          "sourceLocator": "page 2 / KRIT / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "차륜형 플랫폼 및 임무 모듈 구성 비교",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        },
+        {
+          "name": "지능형 40mm 무인방공시스템",
+          "pavilionSection": "DRRI",
+          "sourceLocator": "page 2 / DRRI / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "원격 운용 지상 체계 구성 사례",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "㈜에델테크",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "SAR 위성용 반도체",
+          "pavilionSection": "KRIT",
+          "sourceLocator": "page 2 / KRIT / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "광대역 신호 생성/처리 ASIC; 임무전자 연결 가능성 검토",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "㈜브로던",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "SAR 위성 안테나용 핵심 소자",
+          "pavilionSection": "KRIT",
+          "sourceLocator": "page 2 / KRIT / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "TRM 반도체 탑재 HPA; 차량 통신/센서 적용은 별도 검토",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "펀진",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "AI KWM(Kill-Web Matching)",
+          "pavilionSection": "KRIT",
+          "sourceLocator": "page 2 / KRIT / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "AI 기반 지휘결심지원체계; 지휘소 임무컴퓨터/통신 연계 검토",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "㈜픽소니어",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "AI 표적 좌표 추출 카메라",
+          "pavilionSection": "KRIT",
+          "sourceLocator": "page 2 / KRIT / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "지휘소/감시정찰 임무장비 및 좌표 정보 연동 검토",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "현대로템(주)",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "대테러 작전용 다족보행로봇",
+          "pavilionSection": "DRRI",
+          "sourceLocator": "page 2 / DRRI / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "무인 플랫폼 및 지상 임무장비 연계 검토",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "현대위아(주)",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "경량화 105mm 자주포",
+          "pavilionSection": "DRRI",
+          "sourceLocator": "page 2 / DRRI / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "기동 플랫폼과 임무체계 통합 사례",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "SNT 다이내믹스(주)",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "소형전술차량 탑재형 120mm 박격포체계",
+          "pavilionSection": "DRRI",
+          "sourceLocator": "page 2 / DRRI / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "소형 전술차량 임무 탑재 사례",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "대양전기공업(주)",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "exhibition_product_listed",
+      "sourceIds": [
+        "population-dapa-leaflet"
+      ],
+      "products": [
+        {
+          "name": "구조함 탑재 한국형 수중무인탐사기",
+          "pavilionSection": "DRRI",
+          "sourceLocator": "page 2 / DRRI / 전시 품목",
+          "status": "exhibition_product_listed",
+          "relevanceNote": "해양 전용 전시품; 회사 일반 지상 기술로 전시품 대체 금지",
+          "sourceIds": [
+            "population-dapa-leaflet"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "수성정밀기계",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "institution_postevent_report",
+      "sourceIds": [
+        "population-dapa-leaflet",
+        "population-dtaq-postevent"
+      ],
+      "products": [
+        {
+          "name": "포구 자동청소기",
+          "pavilionSection": "DTaQ",
+          "sourceLocator": "page 2 / DTaQ / 전시 품목",
+          "status": "institution_postevent_report",
+          "relevanceNote": "차량 탑재 무장 정비장비/정비 접근성 검토",
+          "sourceIds": [
+            "population-dapa-leaflet",
+            "population-dtaq-postevent"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "한국씨앤오테크",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "institution_postevent_report",
+      "sourceIds": [
+        "population-dapa-leaflet",
+        "population-dtaq-postevent"
+      ],
+      "products": [
+        {
+          "name": "연습용 수류탄",
+          "pavilionSection": "DTaQ",
+          "sourceLocator": "page 2 / DTaQ / 전시 품목",
+          "status": "institution_postevent_report",
+          "relevanceNote": "훈련용 소모품; 직접 차량 구성품은 아니므로 포함 범위 검토",
+          "sourceIds": [
+            "population-dapa-leaflet",
+            "population-dtaq-postevent"
+          ],
+          "onsitePhotoConfirmed": false
+        },
+        {
+          "name": "40mm 연습유탄",
+          "pavilionSection": "DTaQ",
+          "sourceLocator": "page 2 / DTaQ / 전시 품목",
+          "status": "institution_postevent_report",
+          "relevanceNote": "차량 탑재 유탄발사 체계의 훈련/군수 연계 검토",
+          "sourceIds": [
+            "population-dapa-leaflet",
+            "population-dtaq-postevent"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "네스앤텍",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "institution_postevent_report",
+      "sourceIds": [
+        "population-dapa-leaflet",
+        "population-dtaq-postevent"
+      ],
+      "products": [
+        {
+          "name": "멀티콥터형 다목적 드론",
+          "pavilionSection": "DTaQ",
+          "sourceLocator": "page 2 / DTaQ / 전시 품목",
+          "status": "institution_postevent_report",
+          "relevanceNote": "차량·지휘소 정찰 드론 및 운용단말 연계 검토",
+          "sourceIds": [
+            "population-dapa-leaflet",
+            "population-dtaq-postevent"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "연합정밀",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "institution_postevent_report",
+      "sourceIds": [
+        "population-dapa-leaflet",
+        "population-dtaq-postevent"
+      ],
+      "products": [
+        {
+          "name": "전투차량용 상호통화기 세트(VIC-7DK)",
+          "pavilionSection": "DTaQ",
+          "sourceLocator": "page 2 / DTaQ / 전시 품목",
+          "status": "institution_postevent_report",
+          "relevanceNote": "차량 승무원 통화 및 임무실 통신 인터페이스",
+          "sourceIds": [
+            "population-dapa-leaflet",
+            "population-dtaq-postevent"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "에이치케이씨",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "institution_postevent_report",
+      "sourceIds": [
+        "population-dapa-leaflet",
+        "population-dtaq-postevent"
+      ],
+      "products": [
+        {
+          "name": "승무원용 헬멧",
+          "pavilionSection": "DTaQ",
+          "sourceLocator": "page 2 / DTaQ / 전시 품목",
+          "status": "institution_postevent_report",
+          "relevanceNote": "차량 승무원 보호·통신장비·좌석 주변 간섭 검토",
+          "sourceIds": [
+            "population-dapa-leaflet",
+            "population-dtaq-postevent"
+          ],
+          "onsitePhotoConfirmed": false
+        },
+        {
+          "name": "방사능 측정기",
+          "pavilionSection": "DTaQ",
+          "sourceLocator": "page 2 / DTaQ / 전시 품목",
+          "status": "institution_postevent_report",
+          "relevanceNote": "차량 운용/화생방 감시 및 휴대 임무장비 검토",
+          "sourceIds": [
+            "population-dapa-leaflet",
+            "population-dtaq-postevent"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "화인정밀",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "institution_postevent_report",
+      "sourceIds": [
+        "population-dapa-leaflet",
+        "population-dtaq-postevent"
+      ],
+      "products": [
+        {
+          "name": "항공기용 방풍유리 세척기 조립체",
+          "pavilionSection": "DTaQ",
+          "sourceLocator": "page 2 / DTaQ / 전시 품목",
+          "status": "institution_postevent_report",
+          "relevanceNote": "차량 전방 시야 유지장치 기술 검토; 차량용 실출품으로 표현 금지",
+          "sourceIds": [
+            "population-dapa-leaflet",
+            "population-dtaq-postevent"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    },
+    {
+      "rawName": "데크카본",
+      "country": null,
+      "countryNote": "DAPA leaflet is Korean institution publication; verify each legal country/profile before canonical import. DTaQ describes its seven firms as domestic Korean companies.",
+      "relationship": "product represented in DAPA integrated pavilion; not proof of an independently staffed company booth",
+      "pavilion": "DAPA integrated pavilion",
+      "boothCode": null,
+      "geometry": null,
+      "participationStatus": "institution_postevent_report",
+      "sourceIds": [
+        "population-dapa-leaflet",
+        "population-dtaq-postevent"
+      ],
+      "products": [
+        {
+          "name": "F-16 Block50/52 카본 브레이크 디스크",
+          "pavilionSection": "DTaQ",
+          "sourceLocator": "page 2 / DTaQ / 전시 품목",
+          "status": "institution_postevent_report",
+          "relevanceNote": "제동 마찰재/시험 기술 비교; 차량용 제동품으로 표현 금지",
+          "sourceIds": [
+            "population-dapa-leaflet",
+            "population-dtaq-postevent"
+          ],
+          "onsitePhotoConfirmed": false
+        }
+      ],
+      "researchStatus": "pending_company_review",
+      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+    }
+  ],
+  "photos": [
+    {
+      "id": "population-dtaq-photo-1",
+      "eventId": "adex-2025",
+      "year": 2025,
+      "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+      "imageUrl": "https://dtaq-media.kr/image/asset/a05950017fb18cd16cc1ffac9df777dda9188dcd06c56cb40221cb532ef67595",
+      "caption": "국방기술품질원 공동 전시대 전경",
+      "credit": "국방기술품질원 DTaQ 미디어룸",
+      "writer": "정소야",
+      "photographer": null,
+      "photographerNote": "Article identifies writer only; no separate photographer attribution found.",
+      "publishedAt": "2025-11-10",
+      "captureDate": null,
+      "captureDateNote": "Article describes event October 20–24, 2025; individual exposure dates unavailable.",
+      "rightsStatus": "link_only",
+      "rightsNote": "Page footer Copyright DTaQ All Right Reserved; no reuse/embedding license verified.",
+      "visuallyInspected": true,
+      "context": "event",
+      "note": "Multiple products visible; individual model labels cannot all be read."
+    },
+    {
+      "id": "population-dtaq-photo-2",
+      "eventId": "adex-2025",
+      "year": 2025,
+      "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+      "imageUrl": "https://dtaq-media.kr/image/asset/129479bb76256f343ea3243fe74c4c5635df2c15815bafd12b78ace904c4d3c6",
+      "caption": "국방기술품질원 전시대와 방문객",
+      "credit": "국방기술품질원 DTaQ 미디어룸",
+      "writer": "정소야",
+      "photographer": null,
+      "photographerNote": "Article identifies writer only; no separate photographer attribution found.",
+      "publishedAt": "2025-11-10",
+      "captureDate": null,
+      "captureDateNote": "Article describes event October 20–24, 2025; individual exposure dates unavailable.",
+      "rightsStatus": "link_only",
+      "rightsNote": "Page footer Copyright DTaQ All Right Reserved; no reuse/embedding license verified.",
+      "visuallyInspected": true,
+      "context": "event",
+      "note": "Oblique shared-display view; do not assign all products to each company."
+    },
+    {
+      "id": "population-dtaq-photo-3",
+      "eventId": "adex-2025",
+      "year": 2025,
+      "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+      "imageUrl": "https://dtaq-media.kr/image/asset/d76d33d782645c8c5398bd6fbf30e4c239298aa92453ae3dcecd1527868c04b0",
+      "caption": "포구 자동청소기와 뒤쪽 승무원 헬멧",
+      "credit": "국방기술품질원 DTaQ 미디어룸",
+      "writer": "정소야",
+      "photographer": null,
+      "photographerNote": "Article identifies writer only; no separate photographer attribution found.",
+      "publishedAt": "2025-11-10",
+      "captureDate": null,
+      "captureDateNote": "Article describes event October 20–24, 2025; individual exposure dates unavailable.",
+      "rightsStatus": "link_only",
+      "rightsNote": "Page footer Copyright DTaQ All Right Reserved; no reuse/embedding license verified.",
+      "visuallyInspected": true,
+      "context": "event",
+      "note": "Cleaner placard displays SOOSUNG DEFENSE INDUSTRIES / 105MM ABC SYSTEM. Leaflet uses 수성정밀기계. Do not silently equate legal names."
+    },
+    {
+      "id": "population-dtaq-photo-4",
+      "eventId": "adex-2025",
+      "year": 2025,
+      "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+      "imageUrl": "https://dtaq-media.kr/image/asset/d337f33f270daa5dc4fa969ba128873ba44774dcd4b812b22536a9fd65430c86",
+      "caption": "한국씨앤오테크 연습용 수류탄·40mm 연습유탄",
+      "credit": "국방기술품질원 DTaQ 미디어룸",
+      "writer": "정소야",
+      "photographer": null,
+      "photographerNote": "Article identifies writer only; no separate photographer attribution found.",
+      "publishedAt": "2025-11-10",
+      "captureDate": null,
+      "captureDateNote": "Article describes event October 20–24, 2025; individual exposure dates unavailable.",
+      "rightsStatus": "link_only",
+      "rightsNote": "Page footer Copyright DTaQ All Right Reserved; no reuse/embedding license verified.",
+      "visuallyInspected": true,
+      "context": "event",
+      "note": "Visible PRACTICE and DUMMY SAMPLE marks; performance not visually verified."
+    },
+    {
+      "id": "population-dtaq-photo-5",
+      "eventId": "adex-2025",
+      "year": 2025,
+      "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+      "imageUrl": "https://dtaq-media.kr/image/asset/a1ffaa10f3c471eae36de306fcdc3294574862ed250dbcd57dc57fd8a8d4a1e5",
+      "caption": "네스앤텍 드론 및 운용 화면",
+      "credit": "국방기술품질원 DTaQ 미디어룸",
+      "writer": "정소야",
+      "photographer": null,
+      "photographerNote": "Article identifies writer only; no separate photographer attribution found.",
+      "publishedAt": "2025-11-10",
+      "captureDate": null,
+      "captureDateNote": "Article describes event October 20–24, 2025; individual exposure dates unavailable.",
+      "rightsStatus": "link_only",
+      "rightsNote": "Page footer Copyright DTaQ All Right Reserved; no reuse/embedding license verified.",
+      "visuallyInspected": true,
+      "context": "event",
+      "note": "Article assigns multicopter to NES&TEC; exact drone model not printed in source text."
+    }
+  ],
+  "counts": {
+    "pavilionNamedCompanies": 19,
+    "pavilionNamedProducts": 22,
+    "dtaqCompanies": 7,
+    "dtaqProducts": 9,
+    "inspectedOnsitePhotos": 5
+  },
+  "nextStart": [
+    "Hall 8 / scanned label 001 / WASCO: 135 dense labels remain after proposed Hall 7 transcription promotion.",
+    "DAPA pavilion manufacturers not adopted in this batch: 한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던, etc. Use recorded full 19-name candidate list, reconcile with actual intake before choosing next.",
+    "USA pavilion 37-member directory; Finland pavilion companies; other national/regional association pavilion constituents.",
+    "Official 2025 final directory boundaries and outdoor/static display roster remain unacquired."
+  ]
+}

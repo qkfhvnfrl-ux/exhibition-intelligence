@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "batchId": "adex25-stage3-reconciliation",
+  "checkedAt": "2026-11-12",
+  "scope": "Existing five examples reconciled; product-level omissions corrected from re-opened primary sources. Not five new companies.",
+  "cases": [
+    {
+      "extendsEditorialId": "case-adex-2025-hyundai-rotem",
+      "review": {
+        "relevance": "confirmed",
+        "reason": "당사 차륜형장갑차 계열 개발에서 임무실 요구가 차체·공조·전원·정비 접근성에 미치는 변화를 비교할 기준 사례로 활용할 수 있습니다.",
+        "categories": [
+          "complete_vehicle",
+          "interiors_modules",
+          "unmanned_remote"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "rotem-official",
+          "rotem-field-report",
+          "rotem-nurphoto",
+          "population-dapa-leaflet"
+        ]
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "rotem-official"
+      ],
+      "changeReason": "기존 사례의 정식 원장 연결 및 재대조한 출품 품목 세분화. 분석 본문은 새 정정 필요 부분 외 유지.",
+      "exhibit": {
+        "summary": "K2PL 현장 전시와 함께 페루형·지휘소·의무후송·30t급 차륜차량, 수소 차륜형장갑차 및 블랙 베일의 출품 발표를 제품별로 연결했습니다. 차량별 실물/모형 형식과 성능은 별도 확인이 필요합니다.",
+        "items": [
+          {
+            "name": "K2PL",
+            "productId": "k2pl",
+            "form": "전시실물",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "rotem-official",
+              "rotem-field-report"
+            ]
+          },
+          {
+            "productId": "k808-peru",
+            "name": "페루형 차륜장갑차",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "rotem-official"
+            ]
+          },
+          {
+            "productId": "adex25-rotem-cpv",
+            "name": "차륜형지휘소용차량",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "rotem-official"
+            ]
+          },
+          {
+            "productId": "adex25-rotem-mev",
+            "name": "차륜형의무후송차량",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "rotem-official"
+            ]
+          },
+          {
+            "productId": "adex25-rotem-30t",
+            "name": "30t급 차륜형장갑차",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "rotem-official"
+            ]
+          },
+          {
+            "productId": "adex25-rotem-hydrogen-wav",
+            "name": "수소 차륜형장갑차",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "rotem-official"
+            ]
+          },
+          {
+            "name": "블랙 베일 무인 플랫폼",
+            "productId": "black-veil",
+            "form": "전시 소개 확인·사진별 형식 재검토 필요",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "rotem-official"
+            ]
+          },
+          {
+            "productId": "adex25-rotem-multilegged-robot",
+            "name": "대테러 작전용 다족보행로봇",
+            "status": "exhibitor_event_statement",
+            "form": "방위사업청 통합홍보관 리플릿의 현대로템 출품품목·실제 형식 미확인",
+            "sourceIds": [
+              "population-dapa-leaflet"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "rotem-official",
+          "rotem-field-report",
+          "rotem-nurphoto",
+          "population-dapa-leaflet"
+        ]
+      },
+      "productIds": [
+        "k2pl",
+        "k808-peru",
+        "adex25-rotem-cpv",
+        "adex25-rotem-mev",
+        "adex25-rotem-30t",
+        "adex25-rotem-hydrogen-wav",
+        "black-veil",
+        "adex25-rotem-multilegged-robot"
+      ],
+      "sources": [
+        {
+          "id": "rotem-official",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "title": "현대로템 ADEX 2025 전시 발표",
+          "publisher": "현대로템 / 현대자동차그룹",
+          "date": "2025-10-20",
+          "role": "manufacturer_event_statement",
+          "originGroup": "rotem-adex2025-release",
+          "support": "회차별 출품 소개와 제조사 보도사진",
+          "limitations": "방호·자동화 등 제품 성능은 제조사 설명이며 독립 시험 결과가 아닙니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "rotem-field-report",
+          "url": "https://www.asiatime.co.kr/article/20251023500386",
+          "title": "[ADEX 2025] 현장 취재: 현대차그룹 전시관",
+          "publisher": "아시아타임즈 / 조광현",
+          "date": "2025-10-23",
+          "role": "independent_event_report",
+          "originGroup": "asiatimes-adex2025-field",
+          "support": "K2PL 전시 언급과 현장 관람 기사",
+          "limitations": "기술 수치는 제조사 설명일 수 있어 독립 성능 검증으로 세지 않습니다.",
+          "independence": "independent_observation_only",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "rotem-nurphoto",
+          "url": "https://www.nurphoto.com/photo/12888707",
+          "title": "Hyundai Rotem booth at Seoul ADEX 2025",
+          "publisher": "NurPhoto / Chris Jung",
+          "date": "2025-10-20",
+          "role": "independent_event_photo",
+          "originGroup": "chris-jung-adex2025",
+          "support": "현대로템 부스의 실제 참가",
+          "limitations": "부스 사진만으로 개별 차종의 출품 형식이나 성능을 확정할 수 없습니다.",
+          "independence": "independent_observation_only",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "population-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "discoveryUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709",
+          "title": "서울 ADEX 2025 통합홍보관 리플릿",
+          "publisher": "방위사업청·출연기관 / 경상국립대학교 공개 첨부",
+          "edition": "2025",
+          "role": "official_institution_pavilion_leaflet",
+          "pages": 2,
+          "pdfCreatedAt": "2025-10-15T17:34:26+09:00",
+          "sha256": "904f8421bfbbbe8f7385d98dbaa126081050d36316b248a35718b35302ef6f1a",
+          "checkedAt": "2026-11-12",
+          "rightsStatus": "link_only",
+          "originGroup": "dapa-adex2025-integrated-pavilion",
+          "limitations": "Pre-event institutional exhibit list; images are product reference illustrations, not onsite photographs. Page 1 map was not independently reconciled against the acquired 2025-10-11 floorplan; no geometry imported.",
+          "independence": "institutional_primary_single_origin"
+        }
+      ]
+    },
+    {
+      "extendsEditorialId": "case-adex-2025-kia",
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차륜형장갑차와 함께 운용될 지휘·지원 차량의 통신장비, 전원, 정비 장비 공통화 가능성을 검토할 때 참고할 수 있습니다.",
+        "categories": [
+          "complete_vehicle",
+          "interiors_modules"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "kia-official",
+          "kia-field-report"
+        ]
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "kia-official"
+      ],
+      "changeReason": "기존 사례의 정식 원장 연결 및 재대조한 출품 품목 세분화. 분석 본문은 새 정정 필요 부분 외 유지.",
+      "exhibit": {
+        "summary": "군용 지휘차 실물·KMTV와 함께 KLTV 카고/드론/AI 경계 형식, 베어샤시, 타스만 특수목적 형식 및 KHTV 모형을 구별했습니다. 카고 2종은 명칭이 없어 하나의 묶음 기록으로 남깁니다. 타스만 파생형과 KLTV 출품품목을 혼동하지 않습니다.",
+        "items": [
+          {
+            "productId": "tasman-military",
+            "name": "타스만 군용 지휘차",
+            "status": "event_photo_confirmed",
+            "form": "실물·제조사 및 현장 기자 사진",
+            "sourceIds": [
+              "kia-official",
+              "kia-field-report"
+            ],
+            "note": "같은 원문의 타스만 특수목적 작전지휘 차량 표현은 별도 형식 근거가 없어 이 기록에 통합했습니다."
+          },
+          {
+            "productId": "kmtv",
+            "name": "KMTV 중형표준차",
+            "status": "event_photo_confirmed",
+            "form": "제조사 전시 사진",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-tasman-chassis",
+            "name": "타스만 베어샤시",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-kmtv-chassis",
+            "name": "중형표준차 베어샤시",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-kltv-cargo",
+            "name": "KLTV 4인승 카고",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-kltv-drone",
+            "name": "KLTV 드론 탑재차",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-kltv-ai",
+            "name": "KLTV AI 경계차",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-tasman-cargo-pair",
+            "name": "타스만 카고 파생차량 2종 — 개별 형식명 미공개",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-tasman-fuel",
+            "name": "타스만 유조 파생차량",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-tasman-refrigerated",
+            "name": "타스만 냉동·냉장 부식 파생차량",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-kmtv-armored",
+            "name": "방탄 패널 적용 중형 전술차",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "productId": "adex25-kia-khtv",
+            "name": "KHTV 대형표준차",
+            "status": "exhibitor_event_statement",
+            "form": "제조사 발표에서 모형 전시 명시",
+            "sourceIds": [
+              "kia-official"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "kia-official",
+          "kia-field-report"
+        ]
+      },
+      "photos": [
+        {
+          "id": "photo-88508f17c41d264626d0",
+          "src": "assets/photos/adex2025-new-tasman-front.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "caption": "ADEX 2025 타스만 군용 지휘차와 베어샤시 전시",
+          "credit": "기아 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1800,
+          "height": 1200,
+          "variantNote": null,
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "kia-official"
+          ]
+        },
+        {
+          "id": "photo-af0b79b5b51a37df0ab9",
+          "src": "assets/photos/adex2025-new-kia-family.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "caption": "ADEX 2025 기아 부스의 타스만과 군용차량 제품군",
+          "credit": "기아 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1800,
+          "height": 1200,
+          "variantNote": null,
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "kia-official"
+          ]
+        },
+        {
+          "id": "photo-c9b10caa412b9d19d1ef",
+          "src": "assets/photos/adex2025-new-kmtv-front.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "caption": "ADEX 2025 KMTV 전면과 뒤편 소형전술차·K2PL 전시",
+          "credit": "기아 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1800,
+          "height": 1200,
+          "variantNote": null,
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "kia-official"
+          ]
+        },
+        {
+          "id": "photo-663d72c9e9ede8415645",
+          "sourceUrl": "https://www.asiatime.co.kr/article/20251023500386",
+          "imageUrl": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2025/10/23/.cache/512/20251023500391.jpg",
+          "caption": "서울 ADEX 2025 타스만 군용 지휘차 — 조광현 기자 현장사진",
+          "credit": "아시아타임즈 / 조광현 기자",
+          "rightsStatus": "link_only",
+          "rightsNote": "원문 무단전재·재배포 금지. 사진을 복제하거나 직접 표시하지 않고 원문으로 연결합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "year": 2025,
+          "organizationId": "org-37268bb0020007468bbc",
+          "productIds": [
+            "tasman-military"
+          ],
+          "sourceDate": "2025-10-23",
+          "photographer": "조광현",
+          "sourceIds": [
+            "kia-field-report"
+          ]
+        }
+      ],
+      "productIds": [
+        "tasman-military",
+        "kmtv",
+        "adex25-kia-tasman-chassis",
+        "adex25-kia-kmtv-chassis",
+        "adex25-kia-kltv-cargo",
+        "adex25-kia-kltv-drone",
+        "adex25-kia-kltv-ai",
+        "adex25-kia-tasman-cargo-pair",
+        "adex25-kia-tasman-fuel",
+        "adex25-kia-tasman-refrigerated",
+        "adex25-kia-kmtv-armored",
+        "adex25-kia-khtv"
+      ]
+    },
+    {
+      "extendsEditorialId": "case-adex-2025-stx-engine",
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차륜형장갑차의 동력계 후보 검토에서 엔진 설치 공간, 변속기 결합, 냉각 요구, 제어 인터페이스를 묶어 공급사 질의서를 구성할 근거가 됩니다.",
+        "categories": [
+          "powertrain",
+          "electrical"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "stx-official",
+          "stx-issued-release",
+          "stx-nurphoto"
+        ]
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "stx-issued-release"
+      ],
+      "changeReason": "기존 사례의 정식 원장 연결 및 재대조한 출품 품목 세분화. 분석 본문은 새 정정 필요 부분 외 유지.",
+      "exhibit": {
+        "summary": "SMV1000·350·520·750, V1360, 협력사 V199, 하이브리드 시스템 및 군용 배터리를 제품별로 등록했습니다. 현장 사진의 엔진 형상은 확인되지만 모든 모델과 실물/모형을 대응시키지는 못했습니다. 해양 감시·음탐 품목은 이번 차량 적용 분석의 개별 제품에서 제외했습니다.",
+        "items": [
+          {
+            "productId": "adex25-stx-smv1000",
+            "name": "SMV1000",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          },
+          {
+            "productId": "adex25-stx-smv350",
+            "name": "SMV350",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          },
+          {
+            "productId": "adex25-stx-smv520",
+            "name": "SMV520",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          },
+          {
+            "productId": "adex25-stx-smv750",
+            "name": "SMV750",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          },
+          {
+            "productId": "adex25-stx-v1360",
+            "name": "V1360",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          },
+          {
+            "productId": "adex25-stx-v199",
+            "name": "Rolls-Royce Solutions V199",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          },
+          {
+            "productId": "adex25-stx-hybrid",
+            "name": "하이브리드 시스템",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          },
+          {
+            "productId": "adex25-stx-lithium-battery",
+            "name": "군용 리튬이온 배터리",
+            "status": "exhibitor_event_statement",
+            "form": "행사 출품 발표·개별 실물/모형 구분 미확인",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "stx-official",
+          "stx-issued-release",
+          "stx-nurphoto"
+        ]
+      },
+      "productIds": [
+        "adex25-stx-smv1000",
+        "adex25-stx-smv350",
+        "adex25-stx-smv520",
+        "adex25-stx-smv750",
+        "adex25-stx-v1360",
+        "adex25-stx-v199",
+        "adex25-stx-hybrid",
+        "adex25-stx-lithium-battery"
+      ]
+    },
+    {
+      "extendsEditorialId": "case-adex-2025-hyundai-wia",
+      "review": {
+        "relevance": "confirmed",
+        "reason": "당사 차륜형장갑차의 선택 임무장비 검토 시 차량의 전원·냉각·장착부·전자파 적합성 요구를 장비 구성별로 나누어 확인할 가치가 있습니다.",
+        "categories": [
+          "unmanned_remote",
+          "optics_awareness"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "wia-official",
+          "wia-edr"
+        ]
+      },
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "wia-official"
+      ],
+      "changeReason": "기존 사례의 정식 원장 연결 및 재대조한 출품 품목 세분화. 분석 본문은 새 정정 필요 부분 외 유지.",
+      "exhibit": {
+        "summary": "현대위아는 소형·AI 기반 RCWS, 대드론 방어체계와 소형 전술차량 탑재 경량 105mm 체계를 전시했습니다. 사진에서 분리 전시된 RCWS와 실제 차량에 탑재된 다른 장비를 구분했습니다.",
+        "items": [
+          {
+            "productId": "rcws",
+            "name": "7.62mm 소형 RCWS",
+            "status": "event_photo_confirmed",
+            "form": "별도 전시대 실물",
+            "sourceIds": [
+              "wia-official"
+            ]
+          },
+          {
+            "productId": "adex25-wia-rcws-ai",
+            "name": "12.7mm/40mm AI 기반 RCWS",
+            "status": "event_photo_confirmed",
+            "form": "별도 전시대 실물",
+            "sourceIds": [
+              "wia-official"
+            ]
+          },
+          {
+            "productId": "adex25-wia-ads",
+            "name": "차량 탑재 ADS",
+            "status": "exhibitor_event_statement",
+            "form": "소형 전술차량 탑재 전시 발표",
+            "sourceIds": [
+              "wia-official"
+            ]
+          },
+          {
+            "productId": "adex25-wia-ads-all-in-one",
+            "name": "일체형 ADS",
+            "status": "event_report_confirmed",
+            "form": "현장 취재·탐지/식별/무력화 일체형 소개",
+            "sourceIds": [
+              "wia-official",
+              "wia-edr"
+            ]
+          },
+          {
+            "name": "경량화 105mm 자주포",
+            "productId": "light-105",
+            "form": "소형 전술차량 탑재 실물",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "wia-official"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "wia-official",
+          "wia-edr"
+        ]
+      },
+      "productIds": [
+        "rcws",
+        "adex25-wia-rcws-ai",
+        "adex25-wia-ads",
+        "adex25-wia-ads-all-in-one",
+        "light-105"
+      ]
+    },
+    {
+      "extendsEditorialId": "case-adex-2025-pei-genesis",
+      "review": {
+        "relevance": "confirmed",
+        "reason": "임무장비 교체 때 전원·신호 접속부의 방수, 체결, 정비 호환성과 공급 책임을 묶어 확인할 후보 접점입니다.",
+        "categories": [
+          "components",
+          "electrical"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pei-live",
+          "pei-recap",
+          "pei-pre-event"
+        ]
+      },
+      "countries": [
+        "미국"
+      ],
+      "countrySourceIds": [
+        "pei-pre-event"
+      ],
+      "changeReason": "기존 사례의 정식 원장 연결 및 재대조한 출품 품목 세분화. 분석 본문은 새 정정 필요 부분 외 유지.",
+      "exhibit": {
+        "summary": "공식 현장 게시물은 커넥터·백셸·케이블 및 PRECI-DIP 협업 소개를 명시합니다. 후기 사진에는 PEI 간판과 소형 샘플 진열이 보입니다. 품번과 전기·환경 규격은 사진에서 확인할 수 없습니다. PRECI-DIP 협업 소개는 전시 특징으로 보존하며 개별 제품 수에 포함하지 않습니다.",
+        "items": [
+          {
+            "name": "커넥터·백셸·케이블 및 소형 접속 부품 샘플",
+            "form": "공식 현장 사진의 샘플·개별 모델 미식별",
+            "status": "exhibitor_event_photo_confirmed",
+            "sourceIds": [
+              "pei-live",
+              "pei-recap"
+            ],
+            "productId": "adex25-pei-connector-samples"
+          }
+        ],
+        "sourceIds": [
+          "pei-live",
+          "pei-recap"
+        ]
+      },
+      "productIds": [
+        "adex25-pei-connector-samples"
+      ]
+    }
+  ]
+}

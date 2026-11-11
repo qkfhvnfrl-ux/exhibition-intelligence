@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T08:32:37+09:00",
+  "updated_at": "2026-11-12T08:55:57+09:00",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -19,11 +19,12 @@
     "remote_branch": "origin/work/fieldnote-v2",
     "implementation_commit": "160efa420211160bf07eed559e4465e1059a25e8",
     "remote_verified_commit": "160efa420211160bf07eed559e4465e1059a25e8",
-    "state": "stage_3_implemented_stage_4_ready",
+    "state": "stage_4_batch_1_verified_remote_pending",
     "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response.",
     "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
     "implementation_tree": "92e3e0f6431912de5e0e3a10012ef6ec648a03e3",
-    "resume_start_commit": "f110c3f3f27f749d749eac6cdff7e7bfb9243906"
+    "resume_start_commit": "5045bd513976d812d3c28672e6ddd51b76248637",
+    "stage4_implementation_commit": null
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -243,10 +244,16 @@
     {
       "stage": 4,
       "name": "ADEX 조사 확장",
-      "status": "not_started",
-      "instructions_received": false,
-      "instruction_file": null,
-      "evidence": [],
+      "status": "in_progress",
+      "instructions_received": true,
+      "instruction_file": "docs/EXECUTIVE_V2_STAGE_4.md",
+      "evidence": [
+        "docs/EXECUTIVE_V2_STAGE_4_VERIFICATION.md",
+        "docs/EXECUTIVE_V2_STAGE_4_DATA.md",
+        "docs/evidence/EXECUTIVE_V2_STAGE_4_METRICS.json",
+        "docs/research-v2/stage4-independent-audit.md",
+        "data/v2/research/adex-2025/"
+      ],
       "implementation_commit": null,
       "prepared_queue_file": "data/v2/collection/adex-2025.json",
       "prepared_queue_ids": [
@@ -255,7 +262,76 @@
         "queue-adex-2025-identity",
         "queue-adex-2025-onsite",
         "queue-adex-2025-pei-number-conflict"
-      ]
+      ],
+      "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md",
+      "start_commit": "5045bd513976d812d3c28672e6ddd51b76248637",
+      "batch_1_status": "verified_pending_remote",
+      "batch_1_metrics": {
+        "newlyReviewedCompanies": 18,
+        "reconciledExistingCompanies": 5,
+        "newCandidateNames": 3,
+        "reviewedProductAndServiceRecords": 82,
+        "eventProductAndServiceRecords": 79,
+        "backgroundOnlyRecords": 3,
+        "newProductAndServiceIds": 75,
+        "retiredGroupedProductIds": [
+          "product-a3ab2ba98146786a9e43",
+          "product-a3b6f5196fdb4499160c",
+          "product-3cac563634476b052d19",
+          "product-bd580cd39351d1003764",
+          "product-dc8983f9c6586b9f1923",
+          "product-c6b2610f8b75f06d7cd0",
+          "product-7fd88e3585b6db0c0152"
+        ],
+        "itemEvidenceCounts": {
+          "event_photo_confirmed": 16,
+          "exhibitor_event_statement": 56,
+          "onsite_report_confirmed": 5,
+          "background_reference": 3,
+          "event_report_confirmed": 1,
+          "exhibitor_event_photo_confirmed": 1
+        },
+        "uniqueNewOnsitePhotoAssets": 17,
+        "newOnsitePhotoDisplayable": 0,
+        "newOnsitePhotoLinkOnly": 17,
+        "reviewedTranscriptionRows": 79,
+        "remainingDenseTranscriptionRows": 135
+      },
+      "cumulative_metrics": {
+        "eventId": "adex-2025",
+        "populationRows": 365,
+        "deduplicatedRosterOrganizations": 368,
+        "deduplicatedCompanyCandidateNames": 332,
+        "confirmedCompanyIdentities": 4,
+        "unresolvedCompositeIdentities": 8,
+        "registeredOrganizations": 369,
+        "collectiveOrganizations": 1,
+        "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+        "relevanceReviewed": 22,
+        "relevantOrganizations": 22,
+        "excludedOrganizations": 0,
+        "deepAnalysisComplete": 9,
+        "mapLinkedOrganizations": 35,
+        "numberLinkedOrganizations": 3,
+        "insufficientData": 14,
+        "notStarted": 346,
+        "underReviewOrganizations": 347,
+        "insufficientDataDefinition": "Explicitly researched cases whose review status is insufficient_data; untouched organizations are counted separately as notStarted.",
+        "withoutVerifiedExhibitEvidence": 356,
+        "directoryTraversalComplete": false,
+        "populationComplete": false,
+        "overallCompletionPercent": null,
+        "appCompanyNames": 369,
+        "editorialCompanies": 23,
+        "appProductAndServiceRecords": 84,
+        "appPhotoRecords": 59,
+        "eventContextPhotoRecords": 36,
+        "verifiedMapRegions": 32
+      },
+      "local_validation_tests": 147,
+      "population_complete": false,
+      "stage_complete": false,
+      "further_user_instructions_required": false
     },
     {
       "stage": 5,
@@ -270,7 +346,8 @@
         "q-eurosatory-2026-full-directory",
         "q-eurosatory-2026-map-originals",
         "q-eurosatory-2026-relevance"
-      ]
+      ],
+      "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md"
     },
     {
       "stage": 6,
@@ -285,7 +362,8 @@
         "q-dsei-2025-relevance",
         "q-dsei-2025-map",
         "q-dsei-2025-depth"
-      ]
+      ],
+      "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md"
     },
     {
       "stage": 7,
@@ -301,7 +379,8 @@
         "queue-idex-2025-relevance",
         "queue-idex-2025-map",
         "queue-idex-2025-deep-analysis"
-      ]
+      ],
+      "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md"
     },
     {
       "stage": 8,
@@ -316,7 +395,8 @@
         "saha-2026-profile-review",
         "saha-2026-map-source",
         "saha-2026-exhibit-analysis"
-      ]
+      ],
+      "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md"
     },
     {
       "stage": 9,
@@ -478,12 +558,17 @@
         "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43120472459",
         "artifact_id": 13900022866
       }
+    },
+    {
+      "check": "stage_4_batch_1_local_source_and_browser",
+      "result": "pass_with_named_limits",
+      "tests": 147,
+      "evidence": "docs/EXECUTIVE_V2_STAGE_4_VERIFICATION.md"
     }
   ],
   "unfinished": [
-    "ADEX full official directory/pavilions/outdoor and 214 dense map labels require review; five editorial examples are not full-population completion (stage 4)",
+    "ADEX full official 2025 directory/outdoor and pavilion populations remain incomplete; 135 Hall 8 transcriptions and 346 registered names not started. Batch 1 is not stage completion.",
     "PEI booth-number conflict 18-20 versus 7-C11 remains unresolved; preserve stable ID and verified pre-event geometry pending onsite cross-check (stage 4)",
-    "Reconcile five reviewed editorial examples into canonical analysis/participation ledger during stage 4; do not infer registry deep-completion counts from rendered cards",
     "Eurosatory full catalogue and booth maps beyond LAB partial list (stage 5)",
     "DSEI identity/relevance/exhibit review and original 2025 map (stage 6)",
     "IDEX 2025 organizer full roster/guide/map beyond BDSV partial list (stage 7)",
@@ -494,10 +579,16 @@
   ],
   "next_start": {
     "stage": 4,
-    "title": "ADEX 조사 확장",
-    "instruction_status": "not_received",
-    "required_first_action": "Read AGENTS, BRIEF, STATUS, HANDOFF, STAGE_3, STAGE_3_DATA and STAGE_3_VERIFICATION; fetch work/fieldnote-v2 and read commits after the recorded implementation. Preserve source IDs and the five source-backed editorial cases. Save received stage-4 instructions verbatim in EXECUTIVE_V2_STAGE_4.md and link BRIEF before acting on new details. Run npm run build then npm run check.",
-    "known_gap": "ADEX source map is verified and working; full directory and relevance review are incomplete. Preserve PEI conflicting-source correction and distinguish pre-event geometry from onsite confirmation.",
-    "do_not": "Do not fabricate instructions, booth numbers/geometry, map reuse rights, actual exhibits or completed population percentages. Do not deploy before stage 9."
-  }
+    "title": "ADEX 미완료 업체 다음 묶음",
+    "instruction_status": "received",
+    "required_first_action": "Read AGENTS, BRIEF, STATUS, HANDOFF, EXHIBITION_RESEARCH_PROTOCOL, STAGE_4_VERIFICATION and metrics; fetch work/fieldnote-v2; preserve completed cases unless new evidence. Continue saved queue without requesting the same instructions.",
+    "company_start_points": [
+      "Hall 8 / scanned label 001 / WASCO, then remaining 135 dense labels.",
+      "DAPA unadopted constituent identities: 한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던; use population.json before adding duplicates.",
+      "Patria / Finland pavilion 8K13 and USA pavilion full 37-name subset."
+    ],
+    "known_gap": "Full official population unknown; represented product does not prove company staff attendance; generic catalog is not an actual event exhibit.",
+    "do_not": "Do not deploy before stage 9, invent coordinates/models/rights or completion percentages."
+  },
+  "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md"
 }

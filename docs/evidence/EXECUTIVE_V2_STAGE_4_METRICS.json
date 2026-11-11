@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "asOf": "2026-11-12",
+  "baselineCommit": "5045bd513976d812d3c28672e6ddd51b76248637",
+  "batch": {
+    "newlyReviewedCompanies": 18,
+    "reconciledExistingCompanies": 5,
+    "newCandidateNames": 3,
+    "reviewedProductAndServiceRecords": 82,
+    "eventProductAndServiceRecords": 79,
+    "backgroundOnlyRecords": 3,
+    "newProductAndServiceIds": 75,
+    "retiredGroupedProductIds": [
+      "product-a3ab2ba98146786a9e43",
+      "product-a3b6f5196fdb4499160c",
+      "product-3cac563634476b052d19",
+      "product-bd580cd39351d1003764",
+      "product-dc8983f9c6586b9f1923",
+      "product-c6b2610f8b75f06d7cd0",
+      "product-7fd88e3585b6db0c0152"
+    ],
+    "itemEvidenceCounts": {
+      "event_photo_confirmed": 16,
+      "exhibitor_event_statement": 56,
+      "onsite_report_confirmed": 5,
+      "background_reference": 3,
+      "event_report_confirmed": 1,
+      "exhibitor_event_photo_confirmed": 1
+    },
+    "uniqueNewOnsitePhotoAssets": 17,
+    "newOnsitePhotoDisplayable": 0,
+    "newOnsitePhotoLinkOnly": 17,
+    "reviewedTranscriptionRows": 79,
+    "remainingDenseTranscriptionRows": 135
+  },
+  "cumulative": {
+    "eventId": "adex-2025",
+    "populationRows": 365,
+    "deduplicatedRosterOrganizations": 368,
+    "deduplicatedCompanyCandidateNames": 332,
+    "confirmedCompanyIdentities": 4,
+    "unresolvedCompositeIdentities": 8,
+    "registeredOrganizations": 369,
+    "collectiveOrganizations": 1,
+    "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+    "relevanceReviewed": 22,
+    "relevantOrganizations": 22,
+    "excludedOrganizations": 0,
+    "deepAnalysisComplete": 9,
+    "mapLinkedOrganizations": 35,
+    "numberLinkedOrganizations": 3,
+    "insufficientData": 14,
+    "notStarted": 346,
+    "underReviewOrganizations": 347,
+    "insufficientDataDefinition": "Explicitly researched cases whose review status is insufficient_data; untouched organizations are counted separately as notStarted.",
+    "withoutVerifiedExhibitEvidence": 356,
+    "directoryTraversalComplete": false,
+    "populationComplete": false,
+    "overallCompletionPercent": null,
+    "appCompanyNames": 369,
+    "editorialCompanies": 23,
+    "appProductAndServiceRecords": 84,
+    "appPhotoRecords": 59,
+    "eventContextPhotoRecords": 36,
+    "verifiedMapRegions": 32
+  },
+  "reviewedCompanies": [
+    {
+      "id": "org-53dca27d6bb21ebea782",
+      "name": "코츠테크놀로지",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-8a21476471c8947e6e2b",
+      "name": "휴니드테크놀러지스",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 7
+    },
+    {
+      "id": "org-e843c1da4f4efc81c4ca",
+      "name": "이오시스템",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 6
+    },
+    {
+      "id": "org-af8a2012bbe385dddabc",
+      "name": "솔빛시스템",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-ded46d927e7670b5d54e",
+      "name": "코난테크놀로지",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 2
+    },
+    {
+      "id": "org-41c20f9c2d55d1040a58",
+      "name": "알에프코어 (RFcore)",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 3
+    },
+    {
+      "id": "org-1aaf2c2c6edaa0818a73",
+      "name": "수성정밀기계",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-52aa211bb99d6c505361",
+      "name": "에이치케이씨",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 2
+    },
+    {
+      "id": "org-9919e5b4755ec20cc84e",
+      "name": "에델테크",
+      "status": "insufficient_data",
+      "relevance": "pending",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-451ea401431c45877d4c",
+      "name": "픽소니어",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-727b89d90befcaec969c",
+      "name": "펀진",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 5
+    },
+    {
+      "id": "org-04b57642e09c33ee22c5",
+      "name": "엠앤씨솔루션",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 5
+    },
+    {
+      "id": "org-73b2ea65b6e784cb4def",
+      "name": "연합정밀",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 6
+    },
+    {
+      "id": "org-2d5daeb855e50609f569",
+      "name": "비츠로셀",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-1273e8383e083821a303",
+      "name": "씨엠테크론(당시 창민테크론)",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 0
+    },
+    {
+      "id": "org-9753ff08865cbaf0bb91",
+      "name": "파이어킴",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 0
+    },
+    {
+      "id": "org-4ffe152337cf4eb1bae2",
+      "name": "파이버프로",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 3
+    },
+    {
+      "id": "org-7860ab420e3a6b80bf35",
+      "name": "한국기계전기전자시험연구원(KTC)",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 3
+    },
+    {
+      "id": "org-bb5b014b7abb0359c75b",
+      "name": "현대로템",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 8
+    },
+    {
+      "id": "org-37268bb0020007468bbc",
+      "name": "기아",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 12
+    },
+    {
+      "id": "org-78adc7840c066c08ba6b",
+      "name": "STX엔진",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 8
+    },
+    {
+      "id": "org-b6b486fa375701e51329",
+      "name": "현대위아",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 5
+    },
+    {
+      "id": "org-ded72d6076eb66b253d7",
+      "name": "PEI-GENESIS",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    }
+  ],
+  "limitations": [
+    "Company candidate names are not a verified full legal-company population.",
+    "Analysis complete means source-bounded editorial review, not all product models/performance independently tested.",
+    "Product count includes service displays and identified product families; no model count invented for unnamed variants.",
+    "Full official 2025 directory and outdoor population remain missing; no completion percentage.",
+    "New photo count deduplicates original image assets across company links; no new copied image assets."
+  ],
+  "nextStart": [
+    "Hall 8 / scanned label 001 / WASCO, then remaining 135 dense labels.",
+    "DAPA unadopted constituent identities: 한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던; use population.json before adding duplicates.",
+    "Patria / Finland pavilion 8K13 and USA pavilion full 37-name subset."
+  ],
+  "stageComplete": false
+}

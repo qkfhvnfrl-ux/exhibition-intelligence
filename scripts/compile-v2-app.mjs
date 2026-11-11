@@ -3,6 +3,7 @@ import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {safeAssetPath,safeUrl} from '../src/v2/data.js';
+import {readResearchBundles,researchEditorialBundles} from './research-v2.mjs';
 
 const rootDirectory=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const array=value=>Array.isArray(value)?value:[];
@@ -31,7 +32,7 @@ export function normalizePhoto(photo,sources,{context=photo.context||'reference'
       else if(status==='reusable'&&image.hostname==='upload.wikimedia.org'){src=remote;delivery='remote';displayBasis='recorded_reuse_basis';}
     }
   }
-  return {id:photo.id,caption:photo.caption||'',src,sourceUrl,sourceIds,width:photo.width||null,height:photo.height||null,credit:photo.credit||photo.author||null,rights,context,variantNote:photo.variantNote||null,sourceDate:photo.sourceDate||photo.date||null,delivery,displayBasis};
+  return {id:photo.id,caption:photo.caption||'',src,sourceUrl,originalImageUrl:safeUrl(photo.originalImageUrl||photo.assetUrl||photo.imageUrl||photo.embedImageUrl)||null,sourceIds,productIds:unique([photo.productId,...array(photo.productIds)]),width:photo.width||null,height:photo.height||null,credit:photo.credit||photo.author||null,rights,context,variantNote:photo.variantNote||null,sourceDate:photo.sourceDate||photo.date||null,delivery,displayBasis};
 }
 
 function sourceRecord(source){return {id:source.id,url:safeUrl(source.url),title:source.title||source.url,publisher:source.publisher||null,publishedAt:source.publishedAt||source.date||null,...(source.limitations?{note:source.limitations}:{}),...(source.independence?{evidenceStatus:source.independence==='primary_single_origin'?'single_source':source.independence}:{})};}
@@ -45,9 +46,10 @@ function mapDisplayDocument(doc,display){
 }
 
 /** Deterministic event shards; no browser state or research-management tables are published. */
-export function compileAppData({publicData,registry,taxonomy,editorialBundles=[],mapDisplay={documents:[]}}){
+export function compileAppData({publicData,registry,taxonomy,editorialBundles=[],researchBundles=[],mapDisplay={documents:[]}}){
   check(publicData?.schemaVersion===2,'missing v2 public projection');
   check(Array.isArray(taxonomy?.categories)&&taxonomy.categories.length>0,'taxonomy missing');
+  editorialBundles=researchEditorialBundles(editorialBundles,researchBundles);
   const publicOrganizations=byId(publicData.organizations),privateOrganizations=byId(registry.organizations),privateParticipations=byId(registry.participations);
   const publicProducts=byId(publicData.products),privateProducts=byId(registry.products),publicPhotos=byId(publicData.photos);
   const sources=byId(publicData.sources.map(sourceRecord));
@@ -84,6 +86,7 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
       const context=link.eventId===event.id&&link.context==='event'?'event':'reference';
       const photo=normalizePhoto(original,sources,{context});photos.set(photo.id,photo);
       const product=publicProducts.get(link.productId);
+      if(link.organizationId)assignPhoto(link.organizationId,photo);
       if(product)for(const companyId of product.organizationIds)assignPhoto(companyId,photo);
       else if(link.eventId===event.id)eventPhotoIds.push(photo.id);
     }
@@ -103,8 +106,8 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
         check(rawPhoto.context!=='event'||rawPhoto.eventId===event.id,'editorial photo edition mismatch '+rawPhoto.id);
         const sourceUrl=safeUrl(rawPhoto.sourceUrl);const photoSourceId=sourceUrl?appendSource({url:sourceUrl,title:rawPhoto.caption||'사진 원문',publisher:rawPhoto.author||rawPhoto.credit}):null;
         const p=normalizePhoto({...rawPhoto,id:rawPhoto.id||'photo-'+hash(rawPhoto.src||rawPhoto.imageUrl||sourceUrl+'|'+rawPhoto.caption),sourceIds:unique([...array(rawPhoto.sourceIds),photoSourceId])},sources,{context:rawPhoto.context||'event'});
-        const duplicate=[...photos.values()].find(other=>(p.src&&p.src===other.src)||(!p.src&&!other.src&&p.sourceUrl===other.sourceUrl&&p.caption===other.caption));
-        if(duplicate){const merged={...duplicate,...p,id:duplicate.id,sourceIds:unique([...duplicate.sourceIds,...p.sourceIds])};assignPhoto(item.organizationId,merged);editorialPhotoIds.push(duplicate.id);}else{assignPhoto(item.organizationId,p);editorialPhotoIds.push(p.id);}
+        const duplicate=[...photos.values()].find(other=>p.id===other.id||(p.src&&p.src===other.src)||(p.originalImageUrl&&p.originalImageUrl===other.originalImageUrl)||(!p.src&&!other.src&&!p.originalImageUrl&&!other.originalImageUrl&&p.sourceUrl===other.sourceUrl&&p.caption===other.caption));
+        if(duplicate){const merged={...duplicate,...p,id:duplicate.id,sourceIds:unique([...duplicate.sourceIds,...p.sourceIds]),productIds:unique([...array(duplicate.productIds),...array(p.productIds)])};assignPhoto(item.organizationId,merged);editorialPhotoIds.push(duplicate.id);}else{assignPhoto(item.organizationId,p);editorialPhotoIds.push(p.id);}
       }
       const editorialCatalogIds=[];
       for(const raw of array(item.catalogs)){
@@ -150,7 +153,7 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
       const aliases=unique([...array(org.aliasNames),editorial?.displayName]);
       return {id:org.id,organizationId:org.id,name:org.name,displayName:editorial?.displayName||org.name,aliases,kind:org.kind,countries:array(privateOrg?.countryNames),participationId:p.id,status:p.status,attendanceStatus:p.attendanceStatus,sourceLabelStatus:p.sourceLabelStatus,boothIds:ownBoothIds,mapBoothIds:ownBoothIds.filter(id=>mappedBooths.has(id)),productIds:companyProducts.map(product=>product.id),photoIds:unique(companyPhotoIds.get(org.id)||[]),analysisIds:companyAnalyses.map(a=>a.id),catalogIds:unique(ownCatalogIds),editorialId:editorial?.id||null,categoryIds:category,rawCategories,sourceIds:ownSourceIds,profileUrls:unique(rows.map(row=>safeUrl(row.profileUrl))),relevanceNote:privateP?.relevance.status==='confirmed'?privateP.relevance.reason:null,reason:editorial?.reason||null,highlights:editorial?.highlights||[],exhibitStatus:editorial?'source_documented':'unconfirmed',interpretationNote:editorial?.interpretationNote||(!editorial?'명단 등재와 제품의 실제 전시 확인은 구분합니다. 기존 제품·분석은 원문 조건을 함께 확인하십시오.':null),verificationNote:editorial?.verificationNote||null,searchText:[org.name,...aliases,...companyProducts.flatMap(product=>[product.name,...array(product.alternativeNames)]),...rawCategories,...category.map(id=>taxonomy.categories.find(c=>c.id===id).label)].join(' ')};
     }).sort((a,b)=>a.name.localeCompare(b.name,'ko',{numeric:true}));
-    for(const photo of photos.values())photo.sourceIds.forEach(id=>relevantSourceIds.add(id));
+    for(const photo of photos.values()){photo.sourceIds.forEach(id=>relevantSourceIds.add(id));if(photo.context==='event')eventPhotoIds.push(photo.id);}
     for(const catalog of catalogs.values())catalog.sourceIds.forEach(id=>relevantSourceIds.add(id));
     for(const product of products.values())product.sourceIds.forEach(id=>relevantSourceIds.add(id));
     for(const doc of mapDocuments){const existing=[...sources.values()].find(source=>source.url===doc.url);if(existing)relevantSourceIds.add(existing.id);}
@@ -185,8 +188,8 @@ export function validateAppEvent(data){
 async function readJson(file,fallback){try{return JSON.parse(await readFile(file,'utf8'));}catch(error){if(error.code==='ENOENT'&&fallback!==undefined)return fallback;throw error;}}
 export async function compileApp(root=rootDirectory){
   let editorialFiles=[];try{editorialFiles=(await readdir(path.join(root,'data/v2/editorial'))).filter(file=>file.endsWith('.json')).sort();}catch(error){if(error.code!=='ENOENT')throw error;}
-  const [publicData,registry,taxonomy,mapDisplay,editorialBundles]=await Promise.all([readJson(path.join(root,'data/v2/public.json')),readJson(path.join(root,'data/v2/registry.json')),readJson(path.join(root,'data/v2/taxonomy.json')),readJson(path.join(root,'data/v2/map-display.json'),{documents:[]}),Promise.all(editorialFiles.map(file=>readJson(path.join(root,'data/v2/editorial',file))))]);
-  const output=compileAppData({publicData,registry,taxonomy,mapDisplay,editorialBundles});
+  const [publicData,registry,taxonomy,mapDisplay,editorialBundles,researchBundles]=await Promise.all([readJson(path.join(root,'data/v2/public.json')),readJson(path.join(root,'data/v2/registry.json')),readJson(path.join(root,'data/v2/taxonomy.json')),readJson(path.join(root,'data/v2/map-display.json'),{documents:[]}),Promise.all(editorialFiles.map(file=>readJson(path.join(root,'data/v2/editorial',file)))),readResearchBundles(root)]);
+  const output=compileAppData({publicData,registry,taxonomy,mapDisplay,editorialBundles,researchBundles});
   await mkdir(path.join(root,'data/v2/app/events'),{recursive:true});
   await writeFile(path.join(root,'data/v2/app/index.json'),JSON.stringify(output.index)+'\n');
   for(const [id,event] of Object.entries(output.events))await writeFile(path.join(root,`data/v2/app/events/${id}.json`),JSON.stringify(event)+'\n');
