@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "product": "FIELDNOTE v2",
+  "updated_at": "2026-11-12T06:42:57+09:00",
+  "timezone": "Asia/Seoul",
+  "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
+  "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
+  "baseline": {
+    "package_version": "1.1.0",
+    "source_commit": "4990376dfef1b6890666056bb7e526519d79c784",
+    "source_tree": "c27db5d6f20a1501bdf3d0baaeefe7806e1038f6",
+    "deployed_commit": "4713114268f7c678859e1c950c30cc2687b128b2",
+    "deployment_run": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/42914289841",
+    "recovery_branch": "recovery/fieldnote-v1.1-20261112",
+    "recovery_remote_verified": true
+  },
+  "work": {
+    "branch": "work/fieldnote-v2",
+    "remote_branch": "origin/work/fieldnote-v2",
+    "implementation_commit": null,
+    "remote_verified_commit": "4990376dfef1b6890666056bb7e526519d79c784",
+    "state": "stage_1_local_verified_pending_remote_commit"
+  },
+  "unslop": {
+    "repository": "https://github.com/heydamir/unslop",
+    "commit": "97daa3eb365670ea3f87ed85356cbfcee18105a5",
+    "author": "Damir Sokolovsky",
+    "license": "CC-BY-4.0",
+    "installed": true,
+    "original_text_unmodified": true,
+    "provenance": "docs/EXECUTIVE_V2_UNSLOP.md",
+    "application": "stage_1_audit_and_rules_only",
+    "visual_passes_complete": false
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "name": "기준 확인·작업 기반",
+      "status": "local_verified_pending_remote",
+      "instructions_received": true,
+      "instruction_file": "docs/EXECUTIVE_V2_STAGE_1.md",
+      "evidence": [
+        "docs/EXECUTIVE_V2_AUDIT.md",
+        "docs/EXECUTIVE_V2_UNSLOP.md",
+        "docs/EXECUTIVE_V2_VERIFICATION.md"
+      ],
+      "implementation_commit": null
+    },
+    {
+      "stage": 2,
+      "name": "공식 원장·지도",
+      "status": "not_started",
+      "instructions_received": false,
+      "instruction_file": null,
+      "evidence": [],
+      "implementation_commit": null
+    },
+    {
+      "stage": 3,
+      "name": "지도·업체 화면 구현",
+      "status": "not_started",
+      "instructions_received": false,
+      "instruction_file": null,
+      "evidence": [],
+      "implementation_commit": null
+    },
+    {
+      "stage": 4,
+      "name": "ADEX 조사 확장",
+      "status": "not_started",
+      "instructions_received": false,
+      "instruction_file": null,
+      "evidence": [],
+      "implementation_commit": null
+    },
+    {
+      "stage": 5,
+      "name": "Eurosatory 조사 확장",
+      "status": "not_started",
+      "instructions_received": false,
+      "instruction_file": null,
+      "evidence": [],
+      "implementation_commit": null
+    },
+    {
+      "stage": 6,
+      "name": "DSEI 조사 확장",
+      "status": "not_started",
+      "instructions_received": false,
+      "instruction_file": null,
+      "evidence": [],
+      "implementation_commit": null
+    },
+    {
+      "stage": 7,
+      "name": "IDEX 조사 확장",
+      "status": "not_started",
+      "instructions_received": false,
+      "instruction_file": null,
+      "evidence": [],
+      "implementation_commit": null
+    },
+    {
+      "stage": 8,
+      "name": "SAHA 조사 확장",
+      "status": "not_started",
+      "instructions_received": false,
+      "instruction_file": null,
+      "evidence": [],
+      "implementation_commit": null
+    },
+    {
+      "stage": 9,
+      "name": "종합 보고·검증·배포",
+      "status": "not_started",
+      "instructions_received": false,
+      "instruction_file": null,
+      "evidence": [],
+      "implementation_commit": null
+    }
+  ],
+  "decisions": {
+    "primary_menu": [
+      "전시장 탐색",
+      "업체·장비",
+      "핵심 보고"
+    ],
+    "feature_removal_status": "decided_not_implemented_stage_3",
+    "preserve_local_storage_keys": [
+      "fieldnote.review.adex2025.v1",
+      "fieldnote.workspace.v1"
+    ],
+    "preserve_indexed_db": {
+      "database": "fieldnote-field-photos-v1",
+      "version": 1,
+      "store": "photos"
+    },
+    "browser_storage_modified": false,
+    "production_changed": false,
+    "new_site_created": false
+  },
+  "verification": [
+    {
+      "check": "baseline_source_and_remote",
+      "result": "pass",
+      "evidence": "docs/EXECUTIVE_V2_VERIFICATION.md"
+    },
+    {
+      "check": "public_HTTP_matches_baseline",
+      "result": "pass",
+      "evidence": "docs/evidence/EXECUTIVE_V2_BASELINE_HTTP.json"
+    },
+    {
+      "check": "source_data_audit",
+      "result": "pass",
+      "evidence": "docs/EXECUTIVE_V2_AUDIT.md"
+    },
+    {
+      "check": "npm run check",
+      "result": "pass",
+      "tests": 61
+    },
+    {
+      "check": "npm run build",
+      "result": "pass"
+    },
+    {
+      "check": "public_and_branch_preview",
+      "result": "pass",
+      "scope": "opening overview only; not all routes/photos/PDF/mobile"
+    },
+    {
+      "check": "workflow_yaml_static",
+      "result": "pass"
+    },
+    {
+      "check": "implementation_remote_CI",
+      "result": "pending"
+    }
+  ],
+  "unfinished": [
+    "v2 UI / 3-menu routing and removal implementation",
+    "official participant rosters, floor-plan files and evidence-based booth mapping",
+    "company/mission-equipment/component coverage expansion for five specified editions",
+    "claim-level source independence and exhibition-presence revalidation",
+    "all-photo loading, mobile and full PDF pagination checks",
+    "final combined report and production deployment"
+  ],
+  "next_start": {
+    "stage": 2,
+    "title": "공식 원장·지도",
+    "instruction_status": "not_received",
+    "required_first_action": "Read AGENTS.md, BRIEF, STATUS and HANDOFF; fetch and verify work/fieldnote-v2; save incoming stage-2 instructions verbatim to docs/EXECUTIVE_V2_STAGE_2.md and link from BRIEF/STATUS before performing that stage.",
+    "known_gap": "No official roster, floor-plan file or booth coordinate data exists at baseline.",
+    "do_not": "Do not invent detailed stage instructions or replace existing public deployment."
+  }
+}
