@@ -1,0 +1,1759 @@
+{
+  "schemaVersion": 1,
+  "eventId": "eurosatory-2026",
+  "checkedAt": "2026-11-11T22:05:38.428Z",
+  "sources": [
+    {
+      "id": "src-eurosatory-2026-catalogue",
+      "url": "https://www.eurosatory.com/en/catalogue/",
+      "title": "2026 Catalogue and map",
+      "publisher": "COGES / Eurosatory",
+      "role": "organizer_directory",
+      "edition": "2026",
+      "editionStatus": "confirmed",
+      "accessStatus": "blocked",
+      "coverageScope": "full_directory",
+      "acquiredAt": "2026-11-11T22:05:38.428Z",
+      "rights": {
+        "status": "link_only",
+        "notes": "Official Legal Mentions article 2 reserves reproduction rights; no reusable licence established. Retain factual identifiers and source links; do not republish original PDF/HTML/images.",
+        "url": "https://www.eurosatory.com/en/legal-mentions/"
+      },
+      "accessNotes": "Direct HTTP initially returned 403 and a later check returned 503. Web retrieval exposes 2026 catalogue navigation but no company rows or pagination; embedded directory not acquired. No access-control bypass attempted.",
+      "editionEvidence": "Official navigation labels 2026 Catalogue and map."
+    },
+    {
+      "id": "src-eurosatory-2026-lab",
+      "url": "https://www.eurosatory.com/en/eurosatory-lab/",
+      "title": "Eurosatory LAB — Les exposants 2026",
+      "publisher": "COGES / Eurosatory",
+      "role": "organizer_subdirectory",
+      "edition": "2026",
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-11T22:05:38.428Z",
+      "rights": {
+        "status": "link_only",
+        "notes": "Official Legal Mentions article 2 reserves reproduction rights; no reusable licence established. Retain factual identifiers and source links; do not republish original PDF/HTML/images.",
+        "url": "https://www.eurosatory.com/en/legal-mentions/"
+      },
+      "accessNotes": "Official page text retrieval exposes all 58 table rows. Direct HTTP initially returned 403 and a later check returned 503; original HTML bytes unavailable. UI reports 58 entries / two display pages.",
+      "editionEvidence": "Table section is explicitly Les exposants 2026.",
+      "sourceExtractKind": "name/country/hall/stand factual table only; not original source bytes",
+      "independenceGroup": "eurosatory-lab-official-2026",
+      "factualExtractSha256": "01007b20aa845794d7d6ee27a2e13dc7175a9d6e76d63118884538b841ef6106",
+      "factualExtractHashMethod": "SHA-256 of UTF-8 compact sorted-key JSON {sourceUrl, rows:[{rawName,country,hall,boothCodes}]}; not original source SHA."
+    },
+    {
+      "id": "src-eurosatory-2026-press-guide",
+      "url": "https://www.eurosatory.com/wp-content/uploads/2026/04/EUROSATORY-DP-2026-UK-10_compressed.pdf",
+      "title": "EUROSATORY 2026 Press Release — Exhibition Map p.16",
+      "publisher": "COGES / Eurosatory",
+      "role": "organizer_guide",
+      "edition": "2026",
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "guide",
+      "acquiredAt": "2026-11-11T22:05:38.428Z",
+      "rights": {
+        "status": "link_only",
+        "notes": "Official Legal Mentions article 2 reserves reproduction rights; no reusable licence established. Retain factual identifiers and source links; do not republish original PDF/HTML/images.",
+        "url": "https://www.eurosatory.com/en/legal-mentions/"
+      },
+      "accessNotes": "Official PDF inspected through web PDF extraction; 19 pages. Direct byte download returned 403. No redistributable original stored.",
+      "pageCount": 19,
+      "editionEvidence": "Cover Paris 15–19 June 2026; p.17 confirms 2026 venue and dates.",
+      "issuedAt": null,
+      "revisionDate": null
+    },
+    {
+      "id": "src-eurosatory-2026-legal",
+      "url": "https://www.eurosatory.com/en/legal-mentions/",
+      "title": "Legal Mentions",
+      "publisher": "COGES / Eurosatory",
+      "role": "rights_information",
+      "edition": "2026",
+      "editionStatus": "uncertain",
+      "accessStatus": "accessible",
+      "coverageScope": "guide",
+      "acquiredAt": "2026-11-11T22:05:38.428Z",
+      "rights": {
+        "status": "link_only",
+        "notes": "Official Legal Mentions article 2 reserves reproduction rights; no reusable licence established. Retain factual identifiers and source links; do not republish original PDF/HTML/images.",
+        "url": "https://www.eurosatory.com/en/legal-mentions/"
+      },
+      "editionEvidence": "Legal page title still mentions 2024; current website terms inspected, not treated as 2026 event evidence."
+    }
+  ],
+  "collection": {
+    "status": "partial",
+    "complete": false,
+    "expectedTotal": null,
+    "observedRawCount": 58,
+    "uniqueSourceEntryCount": 58,
+    "units": [
+      {
+        "id": "eurosatory-2026-full-catalogue",
+        "kind": "embedded_directory_all_letters",
+        "url": "https://www.eurosatory.com/en/catalogue/",
+        "status": "blocked",
+        "rawEntryCount": 0
+      },
+      {
+        "id": "eurosatory-2026-lab-table",
+        "kind": "subset_complete_table",
+        "url": "https://www.eurosatory.com/en/eurosatory-lab/",
+        "status": "complete",
+        "firstLabel": "ADVENT ATUM",
+        "lastLabel": "Work-Out",
+        "rawEntryCount": 58,
+        "displayPages": 2,
+        "tableReportedTotal": 58
+      }
+    ],
+    "missingRanges": [
+      "Main official catalogue: every letter/category/page; pagination and total have not been exposed.",
+      "Booth-level original floorplans for halls 4, 5A, 5B, 6 and outdoor areas; only overview map located."
+    ],
+    "notes": [
+      "The 58 LAB rows are a complete table subsection, not the full exhibition population. No overall completion percentage is calculated.",
+      "All table rows were read in source order from ADVENT ATUM through Work-Out. Country labels and TBC qualifiers are preserved without normalization.",
+      "All 58 LAB booth codes are distinct; uniqueness of booths does not establish enterprise identity or onsite presence.",
+      "Table totals and final row were checked in separate official-page retrievals; these are the same publisher source, not independent confirmation.",
+      "The press guide includes a hall-level overview; it is not a booth map or onsite survey. Its forward-looking wording indicates pre-event planning.",
+      "Any number advertised as expected exhibitors is not used as a denominator."
+    ]
+  },
+  "entries": [
+    {
+      "id": "eurosatory-2026-lab-advent-atum",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 1; ADVENT ATUM",
+      "rawName": "ADVENT ATUM",
+      "boothCodes": [
+        "C-455-49"
+      ],
+      "country": "AUSTRALIE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 1",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-ai-verse",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 2; AI Verse",
+      "rawName": "AI Verse",
+      "boothCodes": [
+        "C-455-50"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 2",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-aid",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 3; AID",
+      "rawName": "AID",
+      "boothCodes": [
+        "C-455-44"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 3",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-ares-shield-ai",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 4; Ares Shield AI",
+      "rawName": "Ares Shield AI",
+      "boothCodes": [
+        "C-455-15"
+      ],
+      "country": "POLOGNE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 4",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-asterodyn",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 5; ASTERODYN",
+      "rawName": "ASTERODYN",
+      "boothCodes": [
+        "C-455-25"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 5",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-auxsys-gmbh",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 6; Auxsys GmbH",
+      "rawName": "Auxsys GmbH",
+      "boothCodes": [
+        "C-455-20"
+      ],
+      "country": "ALLEMAGNE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 6",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-axelera-fr-tbc",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 7; AXELERA FR (TBC)",
+      "rawName": "AXELERA FR (TBC)",
+      "boothCodes": [
+        "C-455-51"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "listedCondition": "TBC",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 7",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-beyond-electric-d-o-o",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 8; Beyond Electric d.o.o.",
+      "rawName": "Beyond Electric d.o.o.",
+      "boothCodes": [
+        "C-455-24"
+      ],
+      "country": "SLOVÉNIE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 8",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-black-hawk-defence-ltd",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 9; Black Hawk Defence Ltd",
+      "rawName": "Black Hawk Defence Ltd",
+      "boothCodes": [
+        "C-455-13"
+      ],
+      "country": "ROYAUME-UNI",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 9",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-booxit",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 10; BOOXit",
+      "rawName": "BOOXit",
+      "boothCodes": [
+        "C-455-35"
+      ],
+      "country": "AUTRICHE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 10",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-chimney-trail-health",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 11; CHIMNEY TRAIL HEALTH",
+      "rawName": "CHIMNEY TRAIL HEALTH",
+      "boothCodes": [
+        "C-455-19"
+      ],
+      "country": "ÉTATS-UNIS",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 11",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-defaine-gmbh",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 12; DEFAINE GMBH",
+      "rawName": "DEFAINE GMBH",
+      "boothCodes": [
+        "C-455-1"
+      ],
+      "country": "ALLEMAGNE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 12",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-distance",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 13; DISTANCE",
+      "rawName": "DISTANCE",
+      "boothCodes": [
+        "C-455-9"
+      ],
+      "country": "FINLANDE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 13",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-drv-solutions",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 14; DRV Solutions",
+      "rawName": "DRV Solutions",
+      "boothCodes": [
+        "C-455-31"
+      ],
+      "country": "BELGIUM",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 14",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-dwc-llc",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 15; DWC LLC",
+      "rawName": "DWC LLC",
+      "boothCodes": [
+        "C-455-30"
+      ],
+      "country": "EMIRATS ARABES UNIS",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 15",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-e-boost-gmbh",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 16; E-boost Gmbh",
+      "rawName": "E-boost Gmbh",
+      "boothCodes": [
+        "C-455-56"
+      ],
+      "country": "ALLEMAGNE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 16",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-egide",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 17; EGIDE",
+      "rawName": "EGIDE",
+      "boothCodes": [
+        "C-455-21"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 17",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-elfys-inc",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 18; ELFYS, INC.",
+      "rawName": "ELFYS, INC.",
+      "boothCodes": [
+        "C-455-33"
+      ],
+      "country": "FINLANDE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 18",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-ephyca",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 19; Ephyca",
+      "rawName": "Ephyca",
+      "boothCodes": [
+        "C-455-36"
+      ],
+      "country": "BELGIQUE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 19",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-erendil",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 20; ERENDIL",
+      "rawName": "ERENDIL",
+      "boothCodes": [
+        "C-455-16"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 20",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-fibrecoat",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 21; FibreCoat",
+      "rawName": "FibreCoat",
+      "boothCodes": [
+        "C-455-3"
+      ],
+      "country": "ALLEMAGNE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 21",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-gripid",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 22; GripID",
+      "rawName": "GripID",
+      "boothCodes": [
+        "C-455-34"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 22",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-hawai-tech",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 23; HawAI.tech",
+      "rawName": "HawAI.tech",
+      "boothCodes": [
+        "C-455-27"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 23",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-huless",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 24; Huless",
+      "rawName": "Huless",
+      "boothCodes": [
+        "C-455-7"
+      ],
+      "country": "ROYAUME-UNI",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 24",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-innovateur-adt-tbc",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 25; INNOVATEUR AdT (TBC)",
+      "rawName": "INNOVATEUR AdT (TBC)",
+      "boothCodes": [
+        "C-455-48"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "listedCondition": "TBC",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 25",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-kara-dag-technologies",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 26; KARA DAG TECHNOLOGIES",
+      "rawName": "KARA DAG TECHNOLOGIES",
+      "boothCodes": [
+        "C-455-39"
+      ],
+      "country": "UKRAINE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 26",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-latence-technologies-inc-latencetech",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 27; Latence Technologies Inc. (LatenceTech)",
+      "rawName": "Latence Technologies Inc. (LatenceTech)",
+      "boothCodes": [
+        "C-455-23"
+      ],
+      "country": "CANADA",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 27",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-livedrop",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 28; LiveDrop",
+      "rawName": "LiveDrop",
+      "boothCodes": [
+        "C-455-11"
+      ],
+      "country": "PAYS-BAS",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 28",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-lysk",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 29; LYSK",
+      "rawName": "LYSK",
+      "boothCodes": [
+        "C-455-32"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 29",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-mab-robotics",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 30; MAB ROBOTICS",
+      "rawName": "MAB ROBOTICS",
+      "boothCodes": [
+        "C-455-6"
+      ],
+      "country": "POLOGNE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 30",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-mauna",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 31; MAUNA",
+      "rawName": "MAUNA",
+      "boothCodes": [
+        "C-455-43"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 31",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-mecanus-innovacion",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 32; Mecanus Innovacion",
+      "rawName": "Mecanus Innovacion",
+      "boothCodes": [
+        "C-455-17"
+      ],
+      "country": "ESPAGNE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 32",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-mte-dgitm-sdmint-mint2",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 33; MTE/DGITM/SDMINT/MINT2",
+      "rawName": "MTE/DGITM/SDMINT/MINT2",
+      "boothCodes": [
+        "C-455-47"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 33",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-myakiatto",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 34; Myakiatto",
+      "rawName": "Myakiatto",
+      "boothCodes": [
+        "C-455-22"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 34",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-namma",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 35; NAMMA",
+      "rawName": "NAMMA",
+      "boothCodes": [
+        "C-455-28"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 35",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-nanomade",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 36; Nanomade",
+      "rawName": "Nanomade",
+      "boothCodes": [
+        "C-455-38"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 36",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-nanopyro",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 37; NanoPyro",
+      "rawName": "NanoPyro",
+      "boothCodes": [
+        "C-455-8"
+      ],
+      "country": "BELGIQUE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 37",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-nicomatic-explorer-filiale-du-groupe-nicomatic",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 38; NICOMATIC Explorer (Filiale du groupe Nicomatic)",
+      "rawName": "NICOMATIC Explorer (Filiale du groupe Nicomatic)",
+      "boothCodes": [
+        "C-455-41"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 38",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-onenav-inc",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 39; oneNav, Inc.",
+      "rawName": "oneNav, Inc.",
+      "boothCodes": [
+        "C-455-4"
+      ],
+      "country": "ÉTATS-UNIS",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 39",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-optii",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 40; Optii",
+      "rawName": "Optii",
+      "boothCodes": [
+        "C-455-12"
+      ],
+      "country": "CANADA",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 40",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-orus",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 41; ORUS",
+      "rawName": "ORUS",
+      "boothCodes": [
+        "C-455-37"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 41",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-owley",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 42; OWLEY",
+      "rawName": "OWLEY",
+      "boothCodes": [
+        "C-455-5"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 42",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-pltech",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 43; PLTECH",
+      "rawName": "PLTECH",
+      "boothCodes": [
+        "C-455-57"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 43",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-poam-electronics-ltd",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 44; Poam Electronics LTD",
+      "rawName": "Poam Electronics LTD",
+      "boothCodes": [
+        "C-455-58"
+      ],
+      "country": "ROYAUME-UNI",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 44",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-rayxagon",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 45; RayXagon",
+      "rawName": "RayXagon",
+      "boothCodes": [
+        "C-455-2"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 45",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-rvactuators",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 46; Rvactuators",
+      "rawName": "Rvactuators",
+      "boothCodes": [
+        "C-455-29"
+      ],
+      "country": "SLOVAQUIE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 46",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-s2p-smart-plastic-products",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 47; S2P - SMART PLASTIC PRODUCTS",
+      "rawName": "S2P - SMART PLASTIC PRODUCTS",
+      "boothCodes": [
+        "C-455-52"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 47",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-sapien-x",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 48; SAPIEN X",
+      "rawName": "SAPIEN X",
+      "boothCodes": [
+        "C-455-46"
+      ],
+      "country": "MAROC",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 48",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-skyld",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 49; Skyld",
+      "rawName": "Skyld",
+      "boothCodes": [
+        "C-455-53"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 49",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-snowpack",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 50; SNOWPACK",
+      "rawName": "SNOWPACK",
+      "boothCodes": [
+        "C-455-26"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 50",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-st-connect-gmbh",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 51; ST Connect GmbH",
+      "rawName": "ST Connect GmbH",
+      "boothCodes": [
+        "C-455-55"
+      ],
+      "country": "ALLEMAGNE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 51",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-swarm-biotactics",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 52; SWARM Biotactics",
+      "rawName": "SWARM Biotactics",
+      "boothCodes": [
+        "C-455-18"
+      ],
+      "country": "Allemagne",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 52",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-tacteris",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 53; Tacteris",
+      "rawName": "Tacteris",
+      "boothCodes": [
+        "C-455-54"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 53",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-tamilan",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 54; TAMILAN",
+      "rawName": "TAMILAN",
+      "boothCodes": [
+        "C-455-14"
+      ],
+      "country": "INDE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 54",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-tomorrow-io",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 55; Tomorrow.io",
+      "rawName": "Tomorrow.io",
+      "boothCodes": [
+        "C-455-40"
+      ],
+      "country": "ÉTATS-UNIS",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 55",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-touchwaves",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 56; Touchwaves",
+      "rawName": "Touchwaves",
+      "boothCodes": [
+        "C-455-10"
+      ],
+      "country": "PAYS-BAS",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 56",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-ultimetas",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 57; ULTIMETAS",
+      "rawName": "ULTIMETAS",
+      "boothCodes": [
+        "C-455-42"
+      ],
+      "country": "FRANCE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 57",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    },
+    {
+      "id": "eurosatory-2026-lab-work-out",
+      "sourceId": "src-eurosatory-2026-lab",
+      "sourceLocator": "Les exposants 2026 table; row 58; Work-Out",
+      "rawName": "Work-Out",
+      "boothCodes": [
+        "C-455-45"
+      ],
+      "country": "BELGIQUE",
+      "hall": "Hall 5B",
+      "participationStatus": "listed",
+      "relevance": {
+        "status": "pending",
+        "reason": "LAB registration alone does not establish vehicle-system relevance; review company-specific products and actual 2026 exhibits.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "kind": "fact",
+          "sourceId": "src-eurosatory-2026-lab",
+          "sourceLocator": "Les exposants 2026 table row 58",
+          "claim": "Listed name, country, hall and booth only.",
+          "support": "single_source",
+          "independenceGroup": "eurosatory-lab-official-2026"
+        }
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "id": "map-eurosatory-2026-guide-overview-p16",
+      "eventId": "eurosatory-2026",
+      "edition": "2026",
+      "sourceId": "src-eurosatory-2026-press-guide",
+      "sourceUrl": "https://www.eurosatory.com/wp-content/uploads/2026/04/EUROSATORY-DP-2026-UK-10_compressed.pdf",
+      "venue": "Paris Nord Villepinte Exhibition Centre",
+      "hallOrArea": [
+        "4",
+        "5A",
+        "5B",
+        "6",
+        "outdoor exhibition",
+        "helicopter and drone area",
+        "live demonstrations"
+      ],
+      "floor": null,
+      "documentPage": 16,
+      "pdfPageIndex": 15,
+      "documentPageCount": 19,
+      "issuedAt": null,
+      "revisionDate": null,
+      "originalSize": null,
+      "rotation": null,
+      "crop": null,
+      "geometry": [],
+      "mapType": "venue_overview",
+      "verificationStatus": "source_located_no_booth_geometry",
+      "onsiteSurvey": false,
+      "rights": {
+        "status": "link_only",
+        "notes": "Official Legal Mentions article 2 reserves reproduction rights; no reusable licence established. Retain factual identifiers and source links; do not republish original PDF/HTML/images.",
+        "url": "https://www.eurosatory.com/en/legal-mentions/"
+      },
+      "notes": "Map labelled EXHIBITION MAP on p.16; venue and edition cross-checked on p.17. PDF byte download unavailable; page box size and crop/rotation not verified. Do not derive individual booth coordinates from hall diagram."
+    }
+  ],
+  "queues": [
+    {
+      "id": "q-eurosatory-2026-full-directory",
+      "stage": 5,
+      "reason": "Full official catalogue inaccessible in current acquisition paths; LAB is only a subset.",
+      "nextAction": "Open the official 2026 catalogue in a supported browser/public catalogue interface. Record actual pagination/letters/categories, collect all pages into batches, retain any failed ranges. Merge LAB by verified entity identity without treating it as the denominator.",
+      "missingRange": "Main catalogue: every page/letter/category; total unknown."
+    },
+    {
+      "id": "q-eurosatory-2026-map-originals",
+      "stage": 5,
+      "reason": "Only official hall overview located; no verified booth polygons.",
+      "nextAction": "Acquire 2026 original booth maps with permitted use, record page box, revision, rotation and crop, cross-check booth labels with source rows and late-change notices. Keep coordinates empty until verified.",
+      "missingRange": "Halls 4/5A/5B/6 and outdoor booth maps."
+    },
+    {
+      "id": "q-eurosatory-2026-relevance",
+      "stage": 5,
+      "reason": "58 LAB rows await vehicle-application relevance review; all other official companies not yet acquired.",
+      "nextAction": "Review each LAB row plus the remaining full-directory population, including small shared-component suppliers. Verify event-specific exhibited products/photos, unique analysis and work relevance before deep completion.",
+      "missingRange": "All 58 LAB companies and uncaptured main-catalogue population."
+    }
+  ]
+}

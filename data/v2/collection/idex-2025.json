@@ -1,0 +1,1443 @@
+{
+  "schemaVersion": 1,
+  "eventId": "idex-2025",
+  "checkedAt": "2026-11-12T07:02:48+09:00",
+  "sources": [
+    {
+      "id": "src-idex-2025-bdsv",
+      "url": "https://bdsv-exhibitions.eu/idex-2025",
+      "title": "IDEX 2025 – BDSV Exhibitor directory",
+      "publisher": "BDSV",
+      "role": "association_directory",
+      "edition": 2025,
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-12T07:02:48+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "BDSV imprint checked; no blanket reuse grant for exhibitor photos/logos or full descriptions was found. Preserve factual names/booth numbers and source links; do not republish original page or images."
+      },
+      "notes": "BDSV association subset, not official global IDEX population. All-view includes 30 factual exhibitor records; all 0–9/A–Z filter controls and page footer checked.",
+      "sha256": "4e997dcc2d550c70c00490519c1ddc29efde4c23d8082f32fc37b2b3d5d2fd69"
+    },
+    {
+      "id": "src-idex-current-directory",
+      "url": "https://www.idexuae.ae/en/why-exhibit/exhibitor-list",
+      "title": "Exhibitor List — current IDEX site",
+      "publisher": "Capital Events / IDEX",
+      "role": "organizer_directory",
+      "edition": 2027,
+      "editionStatus": "mismatch",
+      "accessStatus": "blocked",
+      "coverageScope": "full_directory",
+      "acquiredAt": "2026-11-12T07:02:48+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "No confirmed redistribution licence; source link only."
+      },
+      "notes": "Direct HTTP and web open returned 403. Current indexed page advertises 2027. No 2025 global rows were imported."
+    },
+    {
+      "id": "src-idex-current-map",
+      "url": "https://www.idexuae.ae/en/why-exhibit/download-floor-plan",
+      "title": "Download IDEX 2027 Floor Plan",
+      "publisher": "Capital Events / IDEX",
+      "role": "organizer_map",
+      "edition": 2027,
+      "editionStatus": "mismatch",
+      "accessStatus": "blocked",
+      "coverageScope": "map",
+      "acquiredAt": "2026-11-12T07:02:48+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "No confirmed redistribution licence; source link only."
+      },
+      "notes": "Current indexed heading explicitly says 2027. Rejected for 2025; zero booth geometry extracted."
+    },
+    {
+      "id": "src-idex-current-guide",
+      "url": "https://www.idexuae.ae/en/media-partners/2027-event-guide",
+      "title": "2027 Event Guide",
+      "publisher": "Capital Events / Event Guides Ltd",
+      "role": "organizer_guide",
+      "edition": 2027,
+      "editionStatus": "mismatch",
+      "accessStatus": "blocked",
+      "coverageScope": "guide",
+      "acquiredAt": "2026-11-12T07:02:48+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "No confirmed redistribution licence; source link only."
+      },
+      "notes": "Current guide path/header belongs to 2027; 2025 complete guide not secured. Event Guides publisher portfolio checked but does not expose a 2025 download."
+    },
+    {
+      "id": "src-idex-2025-adnec-event",
+      "url": "https://www.adnec.ae/en/eventlisting/international-defence-exhibition-and-conference-idex-2025",
+      "title": "International Defence Exhibition and Conference (IDEX 2025)",
+      "publisher": "ADNEC Centre Abu Dhabi",
+      "role": "organizer_event_page",
+      "edition": 2025,
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "guide",
+      "acquiredAt": "2026-11-12T07:02:48+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "No confirmed redistribution licence; source link only."
+      },
+      "notes": "Official event page confirms 17–21 February 2025, ADNEC Centre Abu Dhabi; not an exhibitor roster."
+    },
+    {
+      "id": "src-idex-2025-adnec-postevent",
+      "url": "https://www.adnec.ae/en/press-and-media/press-release-listing/idex-and-navdex-2025-conclude-with-record-breaking-and-historic-results-garnering-widespread-international-acclaim-from-exhibitors-and-official-delegations",
+      "title": "IDEX and NAVDEX 2025 post-event results",
+      "publisher": "ADNEC Centre Abu Dhabi",
+      "role": "organizer_postevent",
+      "edition": 2025,
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "guide",
+      "acquiredAt": "2026-11-12T07:02:48+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "No confirmed redistribution licence; source link only."
+      },
+      "notes": "2025-02-21 press release reports 1,565 companies in IDEX/NAVDEX event context. Aggregate is not a deduplicated IDEX-only list denominator."
+    },
+    {
+      "id": "src-idex-2025-parking",
+      "url": "https://d19ff1canfg6xu.cloudfront.net/idex-assets/uploads/2025/02/IDEX2025_Parking_Leaflet-English.pdf",
+      "title": "IDEX2025 Parking Leaflet — English",
+      "publisher": "IDEX / ADNEC",
+      "role": "organizer_visitor_leaflet",
+      "edition": 2025,
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "guide",
+      "acquiredAt": "2026-11-12T07:02:48+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "No confirmed redistribution licence; source link only."
+      },
+      "notes": "Two pages confirmed for 2025; transport/parking information only, not a booth floor plan.",
+      "sha256": "78adec168db73c5cb82cbfb66c29e93044f73b4bf2ab92b768a04e4ef69dc236"
+    },
+    {
+      "id": "src-idex-2025-ai-search",
+      "url": "https://aisearch.idexuae.ae/",
+      "title": "IDEX AI Search",
+      "publisher": "ADNEC Group",
+      "role": "organizer_search",
+      "edition": 2025,
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "guide",
+      "acquiredAt": "2026-11-12T07:02:48+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "No confirmed redistribution licence; source link only."
+      },
+      "notes": "Title/help identify IDEX2025; query interface warns AI content may be inaccurate. Not a browsable/complete official directory, not used as factual listing proof."
+    },
+    {
+      "id": "src-bdsv-rights",
+      "url": "https://www.bdsv.eu/imprint.html",
+      "title": "BDSV Imprint",
+      "publisher": "BDSV",
+      "role": "rights_information",
+      "edition": null,
+      "editionStatus": "uncertain",
+      "accessStatus": "accessible",
+      "coverageScope": "guide",
+      "acquiredAt": "2026-11-12T07:02:48+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "No confirmed redistribution licence; source link only."
+      },
+      "notes": "Photo permissions are attributed to individual member-company releases; no general reuse permission for this project established."
+    }
+  ],
+  "collection": {
+    "status": "partial",
+    "complete": false,
+    "expectedTotal": null,
+    "units": [
+      {
+        "id": "idex-bdsv-all",
+        "kind": "all_directory_view",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "firstLabel": "Argus Interception GmbH",
+        "lastLabel": "TARGUS Management Consulting AG",
+        "rawEntryCount": 30,
+        "scope": "BDSV subset only",
+        "pagination": "No next/pagination control in returned HTML; all 30 profile ids present",
+        "validation": "HTML extraction and web-rendered listing crosschecked"
+      },
+      {
+        "id": "idex-bdsv-alpha-0-9",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "0-9",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-A",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 2,
+        "label": "A",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-B",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 1,
+        "label": "B",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-C",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "C",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-D",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 4,
+        "label": "D",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-E",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 1,
+        "label": "E",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-F",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "F",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-G",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 1,
+        "label": "G",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-H",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 3,
+        "label": "H",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-I",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 1,
+        "label": "I",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-J",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "J",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-K",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 3,
+        "label": "K",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-L",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 1,
+        "label": "L",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-M",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "M",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-N",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "N",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-O",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 1,
+        "label": "O",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-P",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 1,
+        "label": "P",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-Q",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 1,
+        "label": "Q",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-R",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 4,
+        "label": "R",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-S",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 5,
+        "label": "S",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-T",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 1,
+        "label": "T",
+        "filterDisabled": false,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-U",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "U",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-V",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "V",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-W",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "W",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-X",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "X",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-Y",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "Y",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-bdsv-alpha-Z",
+        "kind": "alphabet_partition",
+        "url": "https://bdsv-exhibitions.eu/idex-2025",
+        "status": "complete",
+        "rawEntryCount": 0,
+        "label": "Z",
+        "filterDisabled": true,
+        "method": "Partitioned the complete All HTML and crosschecked every enabled/disabled A–Z / 0–9 filter; no separate form request claimed"
+      },
+      {
+        "id": "idex-official-global-directory",
+        "kind": "directory",
+        "url": "https://www.idexuae.ae/en/why-exhibit/exhibitor-list",
+        "status": "blocked",
+        "rawEntryCount": 0,
+        "notes": "HTTP403 plus current edition mismatch; original 2025 full alphabetical/page ranges unavailable"
+      },
+      {
+        "id": "idex-official-2025-guide",
+        "kind": "guide",
+        "url": "https://www.idexuae.ae/en/media-partners/2027-event-guide",
+        "status": "not_started",
+        "rawEntryCount": 0,
+        "notes": "Discovery attempted; no 2025 guide acquired. Current 2027 guide blocked and rejected."
+      }
+    ],
+    "missingRanges": [
+      "Official global IDEX2025 participant directory: all original pages/alphabet/country/category ranges not secured",
+      "Non-BDSV companies and association/pavilion rosters outside collected subset",
+      "Official 2025 full Event Guide / Pocket Map / booth floor plan, including hall pages and any revisions"
+    ],
+    "notes": "30 BDSV subset rows captured in full, not 30 total IDEX exhibitors. Current 2027 material rejected. No global completion percentage. Organizer aggregate of 1,565 is not used as denominator. 30 listings, 30 distinct profile identities, 23 distinct booth codes; shared 09-A19 is not company deduplication.",
+    "subsetCounts": {
+      "rawRows": 30,
+      "distinctProfiles": 30,
+      "distinctBoothCodes": 23,
+      "relevanceReviewed": 10,
+      "related": 10,
+      "pending": 20,
+      "excluded": 0,
+      "deepAnalysisComplete": 0,
+      "mapLinked": 0
+    },
+    "organizerReportedAggregate": {
+      "count": 1565,
+      "scope": "IDEX and NAVDEX 2025 results / not a deduplicated IDEX-only roster",
+      "sourceId": "src-idex-2025-adnec-postevent",
+      "usableAsCompletionDenominator": false
+    }
+  },
+  "entries": [
+    {
+      "id": "listing-idex-2025-bdsv-698",
+      "rawName": "Argus Interception GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/698",
+      "boothCodes": [
+        "07-D20"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 1 / profile 698",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 1 / profile 698",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-699",
+      "rawName": "Astute GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/699",
+      "boothCodes": [
+        "09-A19"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 2 / profile 699",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 2 / profile 699",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-700",
+      "rawName": "Blücher GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/700",
+      "boothCodes": [
+        "C9-001"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 3 / profile 700",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 3 / profile 700",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-701",
+      "rawName": "Daimler Truck AG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/701",
+      "boothCodes": [
+        "08-D48"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 4 / profile 701",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "군용 트럭·Unimog/Arocs 등 차량 플랫폼 공급 범위가 명시되어 차체·플랫폼 개발 비교에 관련",
+        "categories": [
+          "완성차"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 4 / profile 701",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-702",
+      "rawName": "Diehl Defence GmbH & Co.KG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/702",
+      "boothCodes": [
+        "08-D30"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 5 / profile 702",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 5 / profile 702",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-703",
+      "rawName": "DOLL Fahrzeugbau GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/703",
+      "boothCodes": [
+        "09-A14"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 6 / profile 703",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "방산용 수송차량과 기술지원·정비 서비스를 제공하므로 차량 및 정비지원 검토에 관련",
+        "categories": [
+          "완성차",
+          "정비·시험·진단"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 6 / profile 703",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-704",
+      "rawName": "Dynamit Nobel Defence GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/704",
+      "boothCodes": [
+        "09-A16"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 7 / profile 704",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "반응장갑 기술이 명시되어 차량 방호체계 기술동향 검토에 관련; 차륜형 적용 적합성은 별도 검토",
+        "categories": [
+          "소화·방호"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 7 / profile 704",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-772",
+      "rawName": "Emil Hembeck GmbH & Co. KG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/772",
+      "boothCodes": [
+        "09-A19"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 8 / profile 772",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 8 / profile 772",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-705",
+      "rawName": "Global Clearance Solutions AG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/705",
+      "boothCodes": [
+        "08-C30"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 9 / profile 705",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 9 / profile 705",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-773",
+      "rawName": "Helsing Germany GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/773",
+      "boothCodes": [
+        "09-A19"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 10 / profile 773",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 10 / profile 773",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-706",
+      "rawName": "hema electronic GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/706",
+      "boothCodes": [
+        "09-A19"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 11 / profile 706",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 11 / profile 706",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-707",
+      "rawName": "HENSOLDT",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/707",
+      "boothCodes": [
+        "08-B13"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 12 / profile 707",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 12 / profile 707",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-708",
+      "rawName": "Institut Dr. Foerster GmbH & Co. KG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/708",
+      "boothCodes": [
+        "08-B14"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 13 / profile 708",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 13 / profile 708",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-709",
+      "rawName": "Kärcher Futuretech GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/709",
+      "boothCodes": [
+        "08-C18"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 14 / profile 709",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 14 / profile 709",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-769",
+      "rawName": "KIDDE-DEUGRA Brandschutzsysteme GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/769",
+      "boothCodes": [
+        "08-D07"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 15 / profile 769",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "군용·방호차량의 엔진실 및 승무원실 소화체계 공급이 명시되어 자동소화 인터페이스 검토에 관련",
+        "categories": [
+          "소화·방호"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 15 / profile 769",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-710",
+      "rawName": "KNDS Deutschland Tracks GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/710",
+      "boothCodes": [
+        "CP-320"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 16 / profile 710",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "장갑차 주행장치 구성품과 궤도 시스템 공급이 명시되어 기동계통 비교 참고에 관련; 차륜형 직접 적용은 미확인",
+        "categories": [
+          "차축·현수·조향·제동"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 16 / profile 710",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-711",
+      "rawName": "Lindner & Fischer Fahrzeugbau GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/711",
+      "boothCodes": [
+        "09-A19"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 17 / profile 711",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "군용 물류차량의 탱커·상부구조물 공급이 명시되어 차체와 임무 상부구조 결합 검토에 관련",
+        "categories": [
+          "좌석·내장·지휘소·의무후송 모듈"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 17 / profile 711",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-775",
+      "rawName": "ODM GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/775",
+      "boothCodes": [
+        "09-A19"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 18 / profile 775",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 18 / profile 775",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-712",
+      "rawName": "PLATH Group",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/712",
+      "boothCodes": [
+        "08-B12"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 19 / profile 712",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 19 / profile 712",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-767",
+      "rawName": "Quantum-Systems GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/767",
+      "boothCodes": [
+        "14-B45"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 20 / profile 767",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 20 / profile 767",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-713",
+      "rawName": "RENK Group",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/713",
+      "boothCodes": [
+        "08-C33"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 21 / profile 713",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "변속기·하이브리드 구동·현수·베어링·커플링·시험 시스템이 명시되어 차량 기동계통 개발에 관련",
+        "categories": [
+          "동력전달",
+          "차축·현수·조향·제동",
+          "정비·시험·진단"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 21 / profile 713",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-714",
+      "rawName": "Rohde & Schwarz GmbH & Co. KG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/714",
+      "boothCodes": [
+        "08-C32"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 22 / profile 714",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 22 / profile 714",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-715",
+      "rawName": "Rolls-Royce Power Systems AG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/715",
+      "boothCodes": [
+        "08-B16"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 23 / profile 715",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "대형 지상차량 동력과 전력 시스템 공급 범위가 명시되어 파워팩·전력체계 검토에 관련",
+        "categories": [
+          "동력전달",
+          "전력·배터리·배선"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 23 / profile 715",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-716",
+      "rawName": "ROTZLER Deutschland GMBH + CO. KG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/716",
+      "boothCodes": [
+        "08-C01"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 24 / profile 716",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "차륜·궤도 장갑차 및 구난차량용 윈치가 명시되어 구난·견인 기능 통합 검토에 관련",
+        "categories": [
+          "정비·시험·진단"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 24 / profile 716",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-717",
+      "rawName": "Schellenberger Bürstenfabrik GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/717",
+      "boothCodes": [
+        "08-B02"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 25 / profile 717",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 25 / profile 717",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-718",
+      "rawName": "Schmidt & Bender GmbH & Co. KG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/718",
+      "boothCodes": [
+        "08-C02"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 26 / profile 718",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 26 / profile 718",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-766",
+      "rawName": "secunet Security Networks AG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/766",
+      "boothCodes": [
+        "08-C04"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 27 / profile 766",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 27 / profile 766",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-719",
+      "rawName": "SMAG Mobile Antenna Masts GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/719",
+      "boothCodes": [
+        "08-C03"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 28 / profile 719",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 28 / profile 719",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-720",
+      "rawName": "STOOF International GmbH",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/720",
+      "boothCodes": [
+        "09-A19"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 29 / profile 720",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "confirmed",
+        "reason": "장갑차·특수목적차량 제작이 명시되어 완성차와 방호형 차량 구성 비교에 관련",
+        "categories": [
+          "완성차",
+          "소화·방호"
+        ],
+        "basis": "supplier_capability_in_2025_directory_not_product_exhibition_confirmation",
+        "reviewedAt": "2026-11-12T07:02:48+09:00",
+        "independentVerification": "single_source"
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 29 / profile 720",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    },
+    {
+      "id": "listing-idex-2025-bdsv-721",
+      "rawName": "TARGUS Management Consulting AG",
+      "profileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/721",
+      "boothCodes": [
+        "09-A19"
+      ],
+      "sourceId": "src-idex-2025-bdsv",
+      "sourceLocator": "All view / row 30 / profile 721",
+      "participationStatus": "listed",
+      "boothConfirmationStatus": "directory_listed",
+      "productExhibitionStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "명단 등재와 부스번호만 확보; 구체적인 차량 적용 연결 및 관련 분야를 후속 검토",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "src-idex-2025-bdsv",
+          "sourceLocator": "All view / row 30 / profile 721",
+          "kind": "fact",
+          "claim": "Directory name and booth listing; not on-site attendance or a particular exhibited product.",
+          "independentVerification": "single_source"
+        }
+      ],
+      "onsiteParticipationStatus": "unverified"
+    }
+  ],
+  "maps": [],
+  "documents": [
+    {
+      "id": "doc-idex-2025-parking",
+      "sourceId": "src-idex-2025-parking",
+      "documentType": "visitor_parking_leaflet",
+      "eventId": "idex-2025",
+      "venue": "ADNEC Centre Abu Dhabi",
+      "pages": [
+        1,
+        2
+      ],
+      "pageSizePt": [
+        595.276,
+        841.89
+      ],
+      "rotationDegrees": 0,
+      "crop": null,
+      "pdfCreatedAt": "2025-02-13T22:47:11+09:00",
+      "pdfModifiedAt": "2025-02-13T22:47:19+09:00",
+      "publicationDate": null,
+      "notes": "PDF metadata dates are not a verified publication/revision date. Page dimensions/rotation from pdfinfo. Not suitable for booth geometry.",
+      "localPath": null,
+      "delivery": "source_link"
+    }
+  ],
+  "queues": [
+    {
+      "id": "queue-idex-2025-official-roster",
+      "stage": 7,
+      "reason": "Official 2025 population incomplete; current official directory blocked/2027",
+      "nextAction": "Obtain the organizer or official publisher 2025 Event Guide/directory archive, establish actual pagination and walk every page/alphabet/category; append unreviewed firms without a numerical cap.",
+      "missingRange": "All original 2025 global roster ranges outside BDSV subset"
+    },
+    {
+      "id": "queue-idex-2025-relevance",
+      "stage": 7,
+      "reason": "20 collected firms still pending; 10 relevance decisions use one directory capability statement",
+      "nextAction": "Review each remaining row for concrete vehicle-system links including common parts; independently recheck ten confirmed links and document exclusions only with reasons.",
+      "missingRange": "20 pending BDSV rows and future official roster additions"
+    },
+    {
+      "id": "queue-idex-2025-map",
+      "stage": 7,
+      "reason": "No 2025 booth map acquired; 2027 map invalid for this edition",
+      "nextAction": "Acquire and date the genuine 2025 hall/outdoor booth plan; compare booth codes with official directory and enlarged original before recording normalized geometry.",
+      "missingRange": "All 2025 booth geometry and revision history"
+    },
+    {
+      "id": "queue-idex-2025-deep-analysis",
+      "stage": 7,
+      "reason": "Directory company descriptions do not prove particular exhibited products or on-site presence",
+      "nextAction": "For related firms connect actual 2025 exhibit evidence, company-specific judgment, Rotem work connection and independent source review before marking analysis complete.",
+      "missingRange": "All collected companies; deep analysis count is zero"
+    }
+  ]
+}

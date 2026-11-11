@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.eurosatory.com/en/catalogue/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "checkedAt": "2026-11-11T22:04:57.891242+00:00"
+  },
+  {
+    "url": "https://www.eurosatory.com/en/eurosatory-lab/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "checkedAt": "2026-11-11T22:04:57.890805+00:00"
+  },
+  {
+    "url": "https://www.eurosatory.com/wp-content/uploads/2026/04/EUROSATORY-DP-2026-UK-10_compressed.pdf",
+    "error": "HTTP Error 403: Forbidden",
+    "checkedAt": "2026-11-11T22:04:57.162215+00:00"
+  }
+]

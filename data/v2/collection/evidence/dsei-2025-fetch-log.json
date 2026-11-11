@@ -1,0 +1,74 @@
+[
+  {
+    "page": 1,
+    "url": "https://www.dsei.co.uk/visit/exhibiting-companies?page=1&azLetterField=",
+    "finalUrl": "https://www.dsei.co.uk/visit/exhibiting-companies?page=1&azLetterField=",
+    "status": 200,
+    "bytes": 809669,
+    "sha256": "a20974908fb7236b10a18231d602b30eb44293913fabaa108234af9328fda658",
+    "fetchedAt": "2026-11-11T21:59:31.749023+00:00"
+  },
+  {
+    "page": 2,
+    "url": "https://www.dsei.co.uk/visit/exhibiting-companies?page=2&azLetterField=",
+    "finalUrl": "https://www.dsei.co.uk/visit/exhibiting-companies?page=2&azLetterField=",
+    "status": 200,
+    "bytes": 809864,
+    "sha256": "295d5deeaf36d3430b4709a35c21df3c3dcda29298e4196e5f4b4e8673a47183",
+    "fetchedAt": "2026-11-11T21:59:39.741163+00:00"
+  },
+  {
+    "page": 3,
+    "url": "https://www.dsei.co.uk/visit/exhibiting-companies?page=3&azLetterField=",
+    "finalUrl": "https://www.dsei.co.uk/visit/exhibiting-companies?page=3&azLetterField=",
+    "status": 200,
+    "bytes": 809037,
+    "sha256": "987203b753a7450886ec443cb5e0c9b125fa9d3c62fbd474da9ad0374c1a7427",
+    "fetchedAt": "2026-11-11T21:59:31.843829+00:00"
+  },
+  {
+    "page": 4,
+    "url": "https://www.dsei.co.uk/visit/exhibiting-companies?page=4&azLetterField=",
+    "finalUrl": "https://www.dsei.co.uk/visit/exhibiting-companies?page=4&azLetterField=",
+    "status": 200,
+    "bytes": 808585,
+    "sha256": "853d7dbade0ff99f1f72eade9757bf72633f8b3a85872db4eef0bbcc9916bdff",
+    "fetchedAt": "2026-11-11T21:59:44.909531+00:00"
+  },
+  {
+    "page": 5,
+    "url": "https://www.dsei.co.uk/visit/exhibiting-companies?page=5&azLetterField=",
+    "finalUrl": "https://www.dsei.co.uk/visit/exhibiting-companies?page=5&azLetterField=",
+    "status": 200,
+    "bytes": 810396,
+    "sha256": "79b7351f3f6f4c785248183567afd9cb5dae980fbd508c95cf7a5b088a1d3cd9",
+    "fetchedAt": "2026-11-11T21:59:36.808424+00:00"
+  },
+  {
+    "page": 6,
+    "url": "https://www.dsei.co.uk/visit/exhibiting-companies?page=6&azLetterField=",
+    "finalUrl": "https://www.dsei.co.uk/visit/exhibiting-companies?page=6&azLetterField=",
+    "status": 200,
+    "bytes": 809629,
+    "sha256": "d3591875ab9696e1f2605d9beb1079b04da05c237a6afbbe23cd9608725bf603",
+    "fetchedAt": "2026-11-11T21:59:49.540534+00:00"
+  },
+  {
+    "page": 7,
+    "url": "https://www.dsei.co.uk/visit/exhibiting-companies?page=7&azLetterField=",
+    "finalUrl": "https://www.dsei.co.uk/visit/exhibiting-companies?page=7&azLetterField=",
+    "status": 200,
+    "bytes": 811987,
+    "sha256": "ad1eae31f66a4f41d71a01014ff0aa6edb07a8beeca9efcdf4c89208440b78c3",
+    "fetchedAt": "2026-11-11T21:59:41.849708+00:00"
+  },
+  {
+    "page": 8,
+    "url": "https://www.dsei.co.uk/visit/exhibiting-companies?page=8&azLetterField=",
+    "finalUrl": "https://www.dsei.co.uk/visit/exhibiting-companies?page=8&azLetterField=",
+    "status": 200,
+    "bytes": 374748,
+    "sha256": "dd2bfa85cf54a2203798654162b3b2ee83f8ebbc3d69a6a98d4ffe9acf711c5d",
+    "fetchedAt": "2026-11-11T21:59:46.752407+00:00"
+  }
+]

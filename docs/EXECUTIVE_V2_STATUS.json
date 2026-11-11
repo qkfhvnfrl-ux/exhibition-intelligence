@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T06:45:29+09:00",
+  "updated_at": "2026-11-12T07:11:59+09:00",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -19,7 +19,7 @@
     "remote_branch": "origin/work/fieldnote-v2",
     "implementation_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
     "remote_verified_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
-    "state": "stage_1_complete_remote_verified",
+    "state": "stage_2_in_progress",
     "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response."
   },
   "unslop": {
@@ -51,11 +51,24 @@
     {
       "stage": 2,
       "name": "공식 원장·지도",
-      "status": "not_started",
-      "instructions_received": false,
-      "instruction_file": null,
-      "evidence": [],
-      "implementation_commit": null
+      "status": "in_progress",
+      "instructions_received": true,
+      "instruction_file": "docs/EXECUTIVE_V2_STAGE_2.md",
+      "evidence": [
+        "docs/EXECUTIVE_V2_STAGE_2_COLLECTION.md",
+        "docs/research-v2/adex-map-review.md",
+        "data/v2/collection/",
+        "data/v2/maps/adex-2025.json"
+      ],
+      "implementation_commit": null,
+      "start_commit": "622cb9149912bacf6b46a378c53de7ae1972ec6e",
+      "collected_source_rows": 3670,
+      "stage3_ready": false,
+      "remaining_in_stage2": [
+        "common model/migration validator and edge-case tests",
+        "final metrics and independent model review",
+        "remote implementation/handoff commits and CI"
+      ]
     },
     {
       "stage": 3,
@@ -202,10 +215,10 @@
   ],
   "next_start": {
     "stage": 2,
-    "title": "공식 원장·지도",
-    "instruction_status": "not_received",
-    "required_first_action": "Read AGENTS.md, BRIEF, STATUS and HANDOFF; fetch work/fieldnote-v2 and verify it includes 81b88ecfab6740fbf218000a1b310c75b6386a74; read later handoff commits; save incoming stage-2 instructions verbatim to docs/EXECUTIVE_V2_STAGE_2.md and link from BRIEF/STATUS before performing that stage.",
-    "known_gap": "No official roster, floor-plan file or booth coordinate data exists at baseline.",
-    "do_not": "Do not invent detailed stage instructions or replace existing public deployment."
+    "title": "공식 원장·지도 마무리",
+    "instruction_status": "received",
+    "required_first_action": "Read AGENTS, BRIEF, STATUS, HANDOFF and STAGE_2; verify branch; finalize common registry compiler, legacy migration mapping and validation, then record exact implementation commit.",
+    "known_gap": "5 source ledgers and 32 map regions collected; full event populations remain incomplete and are queued to stages 4–8.",
+    "do_not": "Do not treat raw source rows or partial rosters as all companies. Do not deploy."
   }
 }

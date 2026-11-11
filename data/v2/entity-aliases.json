@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-11T22:23:00Z",
+  "scope": "동일 법인의 한글·영문 명칭만 연결한다. 명칭 동일성은 참가·현장 출품·기업집단 동일성을 증명하지 않는다.",
+  "aliases": [
+    {
+      "canonicalName": "Hyundai Rotem",
+      "aliasNames": ["현대로템", "현대로템 주식회사", "현대로템주식회사", "HYUNDAI ROTEM COMPANY"],
+      "kind": "company",
+      "evidenceUrls": [
+        "https://kind.krx.co.kr/external/2026/03/19/001937/20260319008028/11011.htm",
+        "https://www.hyundai-rotem.co.kr/",
+        "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+      ],
+      "note": "2025 사업연도 사업보고서 I.1.가가 국문 현대로템 주식회사와 영문 HYUNDAI ROTEM COMPANY를 명시한다. 공식 기업 사이트의 Hyundai Rotem 표기 및 ADEX 2025 지도 공동 블록의 Hyundai Rotem 토큰과 대조했다. 현대위아·기아는 별도 법인으로 남긴다. 공동 블록 전체 문자열은 이 회사의 별칭이 아니다.",
+      "verification": {"identityStatus": "official_bilingual_confirmed", "sourcePeriod": "2025 annual report", "eventParticipationInference": false}
+    },
+    {
+      "canonicalName": "Hyundai WIA",
+      "aliasNames": ["현대위아", "현대위아 주식회사", "현대위아주식회사", "HYUNDAI WIA", "HYUNDAI WIA CORPORATION"],
+      "kind": "company",
+      "evidenceUrls": [
+        "https://kind.krx.co.kr/external/2026/03/17/001075/20260317003930/11011.htm",
+        "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+      ],
+      "note": "2025 사업연도 사업보고서 I.1.가가 현대위아주식회사, HYUNDAI WIA CORPORATION 및 약식 현대위아/HYUNDAI WIA를 함께 명시한다. ADEX 2025 지도 공동 블록의 Hyundai WIA와 철자 대조. 현대로템·기아 및 분할/매각된 공작기계 법인은 이 별칭으로 합치지 않는다.",
+      "verification": {"identityStatus": "official_bilingual_confirmed", "sourcePeriod": "2025 annual report", "eventParticipationInference": false}
+    },
+    {
+      "canonicalName": "Kia",
+      "aliasNames": ["기아", "기아 주식회사", "기아(주)", "Kia Corporation", "KIA CORPORATION", "Kia Corp.", "KIA CORP."],
+      "kind": "company",
+      "evidenceUrls": [
+        "https://worldwide.kia.com/ko/company/sustainability/governance/general-information",
+        "https://kind.krx.co.kr/external/2026/09/16/000449/20260916001261/11012.htm",
+        "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+      ],
+      "note": "공식 정관 제1조는 2021-03-22 개정 명칭 기아 주식회사/KIA CORPORATION을 명시한다. 2026 반기보고서 I.1.나의 국영문·약식 명칭과 재대조했고 ADEX 2025 지도에서 Kia를 확인했다. 현대차그룹 공동관은 별도 집합이며 현대로템/현대위아와 동일 기업으로 합치지 않는다.",
+      "verification": {"identityStatus": "official_bilingual_confirmed", "sourcePeriod": "articles name amendment 2021-03-22; 2026 half-year identity cross-check", "eventParticipationInference": false}
+    },
+    {
+      "canonicalName": "Hanwha Aerospace",
+      "aliasNames": ["한화에어로스페이스", "한화에어로스페이스 주식회사", "한화에어로스페이스주식회사", "한화에어로스페이스(주)", "HANWHA AEROSPACE CO., LTD.", "Hanwha Aerospace Co., Ltd."],
+      "kind": "company",
+      "evidenceUrls": [
+        "https://kind.krx.co.kr/external/2025/11/13/000724/20251113001752/11013.htm",
+        "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+      ],
+      "note": "2025 3분기보고서 I.1.가에서 국문 한화에어로스페이스 주식회사와 영문 HANWHA AEROSPACE CO., LTD.를 확인하고 지도 공동 블록의 Hanwha Aerospace와 대조했다. Hanwha 그룹, Hanwha Systems, Hanwha Ocean, Satrec Initiative, Milrem Robotics는 별칭에 포함하지 않는다. legacy의 '한화에어로스페이스 · Milrem Robotics' 같은 복합 manufacturer는 이 별칭으로 자동 분리·확정하지 않는다.",
+      "verification": {"identityStatus": "official_bilingual_confirmed", "sourcePeriod": "2025 Q3 report", "eventParticipationInference": false}
+    }
+  ],
+  "relationships": []
+}

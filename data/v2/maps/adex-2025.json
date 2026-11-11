@@ -1,0 +1,2187 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "checkedAt": "2026-11-12T07:00:00+09:00",
+  "sources": [
+    {
+      "id": "src-adex-2025-floorplan-20251011",
+      "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+      "title": "Seoul ADEX 2025 Floor Plan",
+      "publisher": "Seoul ADEX BtoB / advanced business events",
+      "role": "official_map",
+      "edition": 2025,
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "map",
+      "acquiredAt": "2026-11-12T07:00:00+09:00",
+      "sha256": "fd0bcbaa88705c683f28b8e2effe94fd749fa12fd654f11287b17025db688dde",
+      "rights": {
+        "status": "link_only",
+        "notes": "Publicly accessible official PDF; no open redistribution licence identified. Original and crops are not committed."
+      }
+    },
+    {
+      "id": "src-adex-2025-pei-announcement",
+      "url": "https://www.prnewswire.com/apac/news-releases/pei-genesis-to-exhibit-at-seoul-adex-2025-in-korea-302572565.html",
+      "title": "PEI-Genesis to Exhibit at Seoul ADEX 2025 in Korea",
+      "publisher": "PEI-Genesis via PR Newswire",
+      "role": "exhibitor_announcement",
+      "edition": 2025,
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-12T07:00:00+09:00",
+      "rights": {
+        "status": "link_only",
+        "notes": "Issuer-provided announcement; syndication is not independent verification."
+      }
+    }
+  ],
+  "documents": [
+    {
+      "id": "map-adex-2025-kintex-20251011-p1",
+      "eventId": "adex-2025",
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+      "title": "Seoul ADEX 2025 Floor Plan",
+      "edition": 2025,
+      "venue": "KINTEX Exhibition Center 2, Goyang, South Korea",
+      "halls": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "floor": null,
+      "outdoorAreas": [],
+      "page": 1,
+      "publishedAt": null,
+      "revisionAt": "2025-10-11",
+      "revisionBasis": "PDF title 25.10.11 and embedded creation/modification metadata; not a separately published revision notice.",
+      "original": {
+        "width": 1190.52001953125,
+        "height": 841.9199829101562,
+        "unit": "pt",
+        "rotation": 0
+      },
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "rights": {
+        "status": "link_only",
+        "notes": "Link to official original; reproduction/embedding permission not established."
+      },
+      "localPath": null,
+      "planStatus": "pre_event_plan",
+      "verification": {
+        "status": "document_verified",
+        "notes": "Title/year/hall labels visually checked. Not an as-built survey. Onsite photographs verify some exhibitor presence only, not every boundary or unprinted booth number."
+      },
+      "sha256": "fd0bcbaa88705c683f28b8e2effe94fd749fa12fd654f11287b17025db688dde",
+      "originalBytes": 5490107,
+      "pageCount": 1,
+      "renderVerification": {
+        "fullPagePixels": [
+          2400,
+          1698
+        ],
+        "detailScale": 3,
+        "peiDetailScale": 10,
+        "originalTextExtraction": "empty_outline_text",
+        "ocrUsedForGeometry": false
+      }
+    }
+  ],
+  "booths": [
+    {
+      "id": "adex-2025-region-pei-genesis",
+      "eventId": "adex-2025",
+      "code": "18-20",
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "7",
+      "companies": [
+        {
+          "rawName": "PEI-GENESIS"
+        }
+      ],
+      "numberStatus": "confirmed",
+      "numberVerification": {
+        "status": "single_source_exhibitor_announcement",
+        "sourceUrl": "https://www.prnewswire.com/apac/news-releases/pei-genesis-to-exhibit-at-seoul-adex-2025-in-korea-302572565.html",
+        "note": "18-20 is one announced range; not inferred as three separate booths."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.25390585,
+            0.28050168
+          ],
+          [
+            0.26801732,
+            0.28050168
+          ],
+          [
+            0.26801732,
+            0.29047891
+          ],
+          [
+            0.25390585,
+            0.29047891
+          ],
+          [
+            0.25390585,
+            0.28050168
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 572,
+        "originalBoundsPt": [
+          302.279999,
+          236.159973,
+          319.079987,
+          244.559998
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+          "https://www.prnewswire.com/apac/news-releases/pei-genesis-to-exhibit-at-seoul-adex-2025-in-korea-302572565.html"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-hyundai-north",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "Hyundai Rotem"
+        },
+        {
+          "rawName": "Hyundai WIA"
+        },
+        {
+          "rawName": "Kia"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.27043644,
+            0.74786206
+          ],
+          [
+            0.37899406,
+            0.74786206
+          ],
+          [
+            0.37899406,
+            0.8212657
+          ],
+          [
+            0.27043644,
+            0.8212657
+          ],
+          [
+            0.27043644,
+            0.74786206
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 275,
+        "originalBoundsPt": [
+          321.959991,
+          629.640015,
+          451.200012,
+          691.440002
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-hyundai-south",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "Hyundai Rotem"
+        },
+        {
+          "rawName": "Hyundai WIA"
+        },
+        {
+          "rawName": "Kia"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.27043644,
+            0.83794184
+          ],
+          [
+            0.37899406,
+            0.83794184
+          ],
+          [
+            0.37899406,
+            0.88811287
+          ],
+          [
+            0.27043644,
+            0.88811287
+          ],
+          [
+            0.27043644,
+            0.83794184
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 273,
+        "originalBoundsPt": [
+          321.959991,
+          705.47998,
+          451.200012,
+          747.719971
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-lig-north",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "LIG Nex1"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.39320632,
+            0.74786206
+          ],
+          [
+            0.47112186,
+            0.74786206
+          ],
+          [
+            0.47112186,
+            0.8212657
+          ],
+          [
+            0.39320632,
+            0.8212657
+          ],
+          [
+            0.39320632,
+            0.74786206
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 269,
+        "originalBoundsPt": [
+          468.119995,
+          629.640015,
+          560.880005,
+          691.440002
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-lig-south",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "LIG Nex1"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.39320632,
+            0.83794184
+          ],
+          [
+            0.47112186,
+            0.83794184
+          ],
+          [
+            0.47112186,
+            0.88811287
+          ],
+          [
+            0.39320632,
+            0.88811287
+          ],
+          [
+            0.39320632,
+            0.83794184
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 274,
+        "originalBoundsPt": [
+          468.119995,
+          705.47998,
+          560.880005,
+          747.719971
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-hanwha-north",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "Hanwha Aerospace"
+        },
+        {
+          "rawName": "Hanwha Systems"
+        },
+        {
+          "rawName": "Hanwha Ocean"
+        },
+        {
+          "rawName": "Satrec Initiative"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.50418303,
+            0.74786206
+          ],
+          [
+            0.62927121,
+            0.74786206
+          ],
+          [
+            0.62927121,
+            0.8212657
+          ],
+          [
+            0.50418303,
+            0.8212657
+          ],
+          [
+            0.50418303,
+            0.74786206
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 283,
+        "originalBoundsPt": [
+          600.23999,
+          629.640015,
+          749.159973,
+          691.440002
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-hanwha-south",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "Hanwha Aerospace"
+        },
+        {
+          "rawName": "Hanwha Systems"
+        },
+        {
+          "rawName": "Hanwha Ocean"
+        },
+        {
+          "rawName": "Satrec Initiative"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.50418303,
+            0.83794184
+          ],
+          [
+            0.62927121,
+            0.83794184
+          ],
+          [
+            0.62927121,
+            0.88811287
+          ],
+          [
+            0.50418303,
+            0.88811287
+          ],
+          [
+            0.50418303,
+            0.83794184
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 281,
+        "originalBoundsPt": [
+          600.23999,
+          705.47998,
+          749.159973,
+          747.719971
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-snt",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "SNT Dynamics"
+        },
+        {
+          "rawName": "SNT Motiv"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.75919767,
+            0.70111172
+          ],
+          [
+            0.80163375,
+            0.70111172
+          ],
+          [
+            0.80163375,
+            0.78463395
+          ],
+          [
+            0.75919767,
+            0.78463395
+          ],
+          [
+            0.75919767,
+            0.70111172
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 285,
+        "originalBoundsPt": [
+          903.840027,
+          590.279968,
+          954.361023,
+          660.598999
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-stx-engine",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "STX ENGINE"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.70718675,
+            0.69697833
+          ],
+          [
+            0.74740447,
+            0.69697833
+          ],
+          [
+            0.74740447,
+            0.73033069
+          ],
+          [
+            0.70718675,
+            0.73033069
+          ],
+          [
+            0.70718675,
+            0.69697833
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 248,
+        "originalBoundsPt": [
+          841.919983,
+          586.799988,
+          889.799988,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-yeonhab",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "YEONHAB PRECISION"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.58733997,
+            0.69697833
+          ],
+          [
+            0.64408828,
+            0.69697833
+          ],
+          [
+            0.64408828,
+            0.73033069
+          ],
+          [
+            0.58733997,
+            0.73033069
+          ],
+          [
+            0.58733997,
+            0.69697833
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 247,
+        "originalBoundsPt": [
+          699.23999,
+          586.799988,
+          766.799988,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-amphenol",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "Amphenol"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.6104223,
+            0.60675599
+          ],
+          [
+            0.62453377,
+            0.60675599
+          ],
+          [
+            0.62453377,
+            0.63683016
+          ],
+          [
+            0.6104223,
+            0.63683016
+          ],
+          [
+            0.6104223,
+            0.60675599
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 256,
+        "originalBoundsPt": [
+          726.719971,
+          510.839996,
+          743.519958,
+          536.160034
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-glenair",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "Glenair Korea"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.61626851,
+            0.64680731
+          ],
+          [
+            0.63048077,
+            0.64680731
+          ],
+          [
+            0.63048077,
+            0.66690421
+          ],
+          [
+            0.61626851,
+            0.66690421
+          ],
+          [
+            0.61626851,
+            0.64680731
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 355,
+        "originalBoundsPt": [
+          733.679993,
+          544.559998,
+          750.599976,
+          561.47998
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-aselsan",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "ASELSAN"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.33182139,
+            0.70025657
+          ],
+          [
+            0.37899406,
+            0.70025657
+          ],
+          [
+            0.37899406,
+            0.73033069
+          ],
+          [
+            0.33182139,
+            0.73033069
+          ],
+          [
+            0.33182139,
+            0.70025657
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 318,
+        "originalBoundsPt": [
+          395.040009,
+          589.559998,
+          451.200012,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-seedcore",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "Seedcore Abaco Systems"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.39794376,
+            0.70025657
+          ],
+          [
+            0.42626752,
+            0.70025657
+          ],
+          [
+            0.42626752,
+            0.73033069
+          ],
+          [
+            0.39794376,
+            0.73033069
+          ],
+          [
+            0.39794376,
+            0.70025657
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 317,
+        "originalBoundsPt": [
+          473.76001,
+          589.559998,
+          507.480011,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-quantum-aero",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "QUANTUM AERO"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.36488256,
+            0.60675599
+          ],
+          [
+            0.39320632,
+            0.60675599
+          ],
+          [
+            0.39320632,
+            0.64025091
+          ],
+          [
+            0.36488256,
+            0.64025091
+          ],
+          [
+            0.36488256,
+            0.60675599
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 310,
+        "originalBoundsPt": [
+          434.399994,
+          510.839996,
+          468.119995,
+          539.040039
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-rfcore",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "RFcore"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.33293013,
+            0.60675599
+          ],
+          [
+            0.35661727,
+            0.60675599
+          ],
+          [
+            0.35661727,
+            0.64025091
+          ],
+          [
+            0.33293013,
+            0.64025091
+          ],
+          [
+            0.33293013,
+            0.60675599
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 278,
+        "originalBoundsPt": [
+          396.359985,
+          510.839996,
+          424.559998,
+          539.040039
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-woori-byul",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "Woori Byul"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.33182139,
+            0.65022799
+          ],
+          [
+            0.34593286,
+            0.65022799
+          ],
+          [
+            0.34593286,
+            0.69028058
+          ],
+          [
+            0.33182139,
+            0.69028058
+          ],
+          [
+            0.33182139,
+            0.65022799
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 286,
+        "originalBoundsPt": [
+          395.040009,
+          547.439941,
+          411.839996,
+          581.161011
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-i3system",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "i3 system"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.36720088,
+            0.65022799
+          ],
+          [
+            0.38141317,
+            0.65022799
+          ],
+          [
+            0.38141317,
+            0.6701836
+          ],
+          [
+            0.36720088,
+            0.6701836
+          ],
+          [
+            0.36720088,
+            0.65022799
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 307,
+        "originalBoundsPt": [
+          437.160004,
+          547.439941,
+          454.080017,
+          564.240967
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-hyowon-power",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "Hyowon Power Tech"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.38141315,
+            0.65022799
+          ],
+          [
+            0.39552462,
+            0.65022799
+          ],
+          [
+            0.39552462,
+            0.6701836
+          ],
+          [
+            0.38141315,
+            0.6701836
+          ],
+          [
+            0.38141315,
+            0.65022799
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 265,
+        "originalBoundsPt": [
+          454.079987,
+          547.439941,
+          470.879974,
+          564.240967
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-vitzrocell",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "VITZ ROCELL"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.36720088,
+            0.67018244
+          ],
+          [
+            0.38141317,
+            0.67018244
+          ],
+          [
+            0.38141317,
+            0.69027942
+          ],
+          [
+            0.36720088,
+            0.69027942
+          ],
+          [
+            0.36720088,
+            0.67018244
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 259,
+        "originalBoundsPt": [
+          437.160004,
+          564.23999,
+          454.080017,
+          581.160034
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-ksep",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "KSEP"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.38141315,
+            0.67018244
+          ],
+          [
+            0.39552462,
+            0.67018244
+          ],
+          [
+            0.39552462,
+            0.69027942
+          ],
+          [
+            0.38141315,
+            0.69027942
+          ],
+          [
+            0.38141315,
+            0.67018244
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 289,
+        "originalBoundsPt": [
+          454.079987,
+          564.23999,
+          470.879974,
+          581.160034
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-funzin",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "Funzin"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.26096159,
+            0.70025657
+          ],
+          [
+            0.28222961,
+            0.70025657
+          ],
+          [
+            0.28222961,
+            0.73033069
+          ],
+          [
+            0.26096159,
+            0.73033069
+          ],
+          [
+            0.26096159,
+            0.70025657
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 312,
+        "originalBoundsPt": [
+          310.679993,
+          589.559998,
+          336.0,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-firstec",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "FIRSTEC"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.17830863,
+            0.68186997
+          ],
+          [
+            0.21136982,
+            0.68186997
+          ],
+          [
+            0.21136982,
+            0.73033069
+          ],
+          [
+            0.17830863,
+            0.73033069
+          ],
+          [
+            0.17830863,
+            0.68186997
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 295,
+        "originalBoundsPt": [
+          212.279999,
+          574.079956,
+          251.639999,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-huneed",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "Huneed Technologies"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.50418303,
+            0.65521668
+          ],
+          [
+            0.54198164,
+            0.65521668
+          ],
+          [
+            0.54198164,
+            0.73033069
+          ],
+          [
+            0.50418303,
+            0.73033069
+          ],
+          [
+            0.50418303,
+            0.65521668
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 291,
+        "originalBoundsPt": [
+          600.23999,
+          551.640015,
+          645.23999,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-wb-group",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "WB Group"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.55377484,
+            0.69697833
+          ],
+          [
+            0.57736118,
+            0.69697833
+          ],
+          [
+            0.57736118,
+            0.73033069
+          ],
+          [
+            0.55377484,
+            0.73033069
+          ],
+          [
+            0.55377484,
+            0.69697833
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 287,
+        "originalBoundsPt": [
+          659.280029,
+          586.799988,
+          687.360046,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-dn-solutions",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "DN Solutions"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.65648623,
+            0.69697833
+          ],
+          [
+            0.68481083,
+            0.69697833
+          ],
+          [
+            0.68481083,
+            0.73033069
+          ],
+          [
+            0.65648623,
+            0.73033069
+          ],
+          [
+            0.65648623,
+            0.69697833
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 309,
+        "originalBoundsPt": [
+          781.559998,
+          586.799988,
+          815.281006,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-hankuk-carbon",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "HANKUK CARBON"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.6849108,
+            0.69697833
+          ],
+          [
+            0.69912307,
+            0.69697833
+          ],
+          [
+            0.69912307,
+            0.73033069
+          ],
+          [
+            0.6849108,
+            0.73033069
+          ],
+          [
+            0.6849108,
+            0.69697833
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 253,
+        "originalBoundsPt": [
+          815.400024,
+          586.799988,
+          832.320007,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-eo-system",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "EO SYSTEM"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.62453382,
+            0.60675599
+          ],
+          [
+            0.64348434,
+            0.60675599
+          ],
+          [
+            0.64348434,
+            0.63683016
+          ],
+          [
+            0.62453382,
+            0.63683016
+          ],
+          [
+            0.62453382,
+            0.60675599
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 250,
+        "originalBoundsPt": [
+          743.52002,
+          510.839996,
+          766.080994,
+          536.160034
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-leonardo",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "Leonardo Spa"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.65648623,
+            0.60675599
+          ],
+          [
+            0.6836004,
+            0.60675599
+          ],
+          [
+            0.6836004,
+            0.63683016
+          ],
+          [
+            0.65648623,
+            0.63683016
+          ],
+          [
+            0.65648623,
+            0.60675599
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 304,
+        "originalBoundsPt": [
+          781.559998,
+          510.839996,
+          813.839966,
+          536.160034
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-kencoa",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "Kencoa Aerospace"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.28928534,
+            0.70025657
+          ],
+          [
+            0.3176091,
+            0.70025657
+          ],
+          [
+            0.3176091,
+            0.73033069
+          ],
+          [
+            0.28928534,
+            0.73033069
+          ],
+          [
+            0.28928534,
+            0.70025657
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 313,
+        "originalBoundsPt": [
+          344.399994,
+          589.559998,
+          378.119995,
+          614.880005
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-dasan",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "10",
+      "companies": [
+        {
+          "rawName": "DASAN MACHINERIES"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.29402278,
+            0.60675599
+          ],
+          [
+            0.3176091,
+            0.60675599
+          ],
+          [
+            0.3176091,
+            0.64025091
+          ],
+          [
+            0.29402278,
+            0.64025091
+          ],
+          [
+            0.29402278,
+            0.60675599
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 246,
+        "originalBoundsPt": [
+          350.040009,
+          510.839996,
+          378.119995,
+          539.040039
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    },
+    {
+      "id": "adex-2025-region-poongsan",
+      "eventId": "adex-2025",
+      "code": null,
+      "sourceId": "src-adex-2025-floorplan-20251011",
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "hall": "9",
+      "companies": [
+        {
+          "rawName": "POONGSAN"
+        }
+      ],
+      "numberStatus": "unverified",
+      "numberVerification": {
+        "status": "not_printed_on_map",
+        "sourceUrl": null,
+        "note": "Internal region ID is not an official booth number."
+      },
+      "geometryStatus": "verified",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            0.75919767,
+            0.60091219
+          ],
+          [
+            0.80163375,
+            0.60091219
+          ],
+          [
+            0.80163375,
+            0.68443558
+          ],
+          [
+            0.75919767,
+            0.68443558
+          ],
+          [
+            0.75919767,
+            0.60091219
+          ]
+        ],
+        "coordinateSpace": "normalized_original",
+        "page": 1
+      },
+      "verification": {
+        "method": "vector_and_visual_crosscheck",
+        "reviewedAt": "2026-11-12T07:00:00+09:00",
+        "vectorDrawingIndex": 290,
+        "originalBoundsPt": [
+          903.840027,
+          505.919983,
+          954.361023,
+          576.23999
+        ],
+        "notes": "Original enlarged labels + PDF vector rectangle; no OCR-only coordinates. Pre-event plan location only, not surveyed onsite placement. Separate repeated blocks remain separate map regions; shared labels link each named organization.",
+        "evidenceUrls": [
+          "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf"
+        ],
+        "independentGeometryEvidence": false
+      }
+    }
+  ],
+  "onsiteCrosschecks": [
+    {
+      "companies": [
+        "Hyundai Rotem"
+      ],
+      "sourceUrl": "https://www.nurphoto.com/photo/12888707",
+      "observedDate": "2025-10-20",
+      "kind": "observation",
+      "supports": "booth presence at ADEX 2025, independent event photograph caption",
+      "doesNotSupport": [
+        "official booth number",
+        "exact plan geometry",
+        "all shared-company participation"
+      ],
+      "rights": "link_only; licensed editorial photograph; no image copied"
+    },
+    {
+      "companies": [
+        "STX ENGINE"
+      ],
+      "sourceUrl": "https://www.nurphoto.com/photo/12888697",
+      "observedDate": "2025-10-20",
+      "kind": "observation",
+      "supports": "booth presence at ADEX 2025, independent event photograph caption",
+      "doesNotSupport": [
+        "official booth number",
+        "exact plan geometry"
+      ],
+      "rights": "link_only; licensed editorial photograph; no image copied"
+    }
+  ],
+  "limitations": [
+    "Only 32 individually reviewed regions have geometry; remaining labels stay unlocated until reviewed.",
+    "Only PEI-GENESIS has an announcement-backed booth code here; others remain null.",
+    "Map background redistribution/embedding rights unresolved: stage 3 must keep official-source fallback.",
+    "No corrected event-day floorplan obtained; two onsite photo checks do not confirm as-built geometry."
+  ]
+}

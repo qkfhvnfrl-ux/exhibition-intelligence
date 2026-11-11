@@ -1,0 +1,170 @@
+{
+  "eventId": "idex-2025",
+  "checkedAt": "2026-11-12T07:02:48+09:00",
+  "sourceSha256": "4e997dcc2d550c70c00490519c1ddc29efde4c23d8082f32fc37b2b3d5d2fd69",
+  "extraction": {
+    "sourceSha256": "4e997dcc2d550c70c00490519c1ddc29efde4c23d8082f32fc37b2b3d5d2fd69",
+    "rawEntryCount": 30,
+    "distinctProfileCount": 30,
+    "distinctBoothCount": 23,
+    "alphabetCoverage": [
+      {
+        "label": "All",
+        "disabled": false,
+        "rawEntryCount": 30
+      },
+      {
+        "label": "0-9",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "A",
+        "disabled": false,
+        "rawEntryCount": 2
+      },
+      {
+        "label": "B",
+        "disabled": false,
+        "rawEntryCount": 1
+      },
+      {
+        "label": "C",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "D",
+        "disabled": false,
+        "rawEntryCount": 4
+      },
+      {
+        "label": "E",
+        "disabled": false,
+        "rawEntryCount": 1
+      },
+      {
+        "label": "F",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "G",
+        "disabled": false,
+        "rawEntryCount": 1
+      },
+      {
+        "label": "H",
+        "disabled": false,
+        "rawEntryCount": 3
+      },
+      {
+        "label": "I",
+        "disabled": false,
+        "rawEntryCount": 1
+      },
+      {
+        "label": "J",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "K",
+        "disabled": false,
+        "rawEntryCount": 3
+      },
+      {
+        "label": "L",
+        "disabled": false,
+        "rawEntryCount": 1
+      },
+      {
+        "label": "M",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "N",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "O",
+        "disabled": false,
+        "rawEntryCount": 1
+      },
+      {
+        "label": "P",
+        "disabled": false,
+        "rawEntryCount": 1
+      },
+      {
+        "label": "Q",
+        "disabled": false,
+        "rawEntryCount": 1
+      },
+      {
+        "label": "R",
+        "disabled": false,
+        "rawEntryCount": 4
+      },
+      {
+        "label": "S",
+        "disabled": false,
+        "rawEntryCount": 5
+      },
+      {
+        "label": "T",
+        "disabled": false,
+        "rawEntryCount": 1
+      },
+      {
+        "label": "U",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "V",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "W",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "X",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "Y",
+        "disabled": true,
+        "rawEntryCount": 0
+      },
+      {
+        "label": "Z",
+        "disabled": true,
+        "rawEntryCount": 0
+      }
+    ]
+  },
+  "verificationPasses": [
+    "Raw HTML exhibitor-data/profile-id/booth parser (30 rows), All 0–9/A–Z filters and footer inspected",
+    "Web text extraction enumerated 30 linked exhibitors and matching booth codes; supplementary source not independent exhibit verification"
+  ],
+  "rawFilesRedistributed": false,
+  "originals": "Original HTML/PDF examined in scratch only; repository stores factual rows, hashes and source URLs",
+  "officialDirectoryAttempt": {
+    "url": "https://www.idexuae.ae/en/why-exhibit/exhibitor-list",
+    "directHTTPStatus": 403,
+    "webOpenStatus": 403,
+    "currentIndexedEdition": 2027
+  },
+  "rejectedCurrentMap": {
+    "url": "https://www.idexuae.ae/en/why-exhibit/download-floor-plan",
+    "currentIndexedHeading": "Download IDEX 2027 Floor Plan",
+    "acceptedFor2025": false
+  }
+}
