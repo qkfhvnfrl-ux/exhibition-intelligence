@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T06:42:57+09:00",
+  "updated_at": "2026-11-12T06:45:29+09:00",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -17,9 +17,10 @@
   "work": {
     "branch": "work/fieldnote-v2",
     "remote_branch": "origin/work/fieldnote-v2",
-    "implementation_commit": null,
-    "remote_verified_commit": "4990376dfef1b6890666056bb7e526519d79c784",
-    "state": "stage_1_local_verified_pending_remote_commit"
+    "implementation_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
+    "remote_verified_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
+    "state": "stage_1_complete_remote_verified",
+    "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response."
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -36,7 +37,7 @@
     {
       "stage": 1,
       "name": "기준 확인·작업 기반",
-      "status": "local_verified_pending_remote",
+      "status": "complete",
       "instructions_received": true,
       "instruction_file": "docs/EXECUTIVE_V2_STAGE_1.md",
       "evidence": [
@@ -44,7 +45,8 @@
         "docs/EXECUTIVE_V2_UNSLOP.md",
         "docs/EXECUTIVE_V2_VERIFICATION.md"
       ],
-      "implementation_commit": null
+      "implementation_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
+      "completed_at": "2026-11-12T06:45:29+09:00"
     },
     {
       "stage": 2,
@@ -175,7 +177,19 @@
     },
     {
       "check": "implementation_remote_CI",
-      "result": "pending"
+      "result": "pass",
+      "commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
+      "run_id": 43105675563,
+      "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43105675563",
+      "artifact_id": 13894805457,
+      "artifact_name": "fieldnote-v2-preview-81b88ecfab6740fbf218000a1b310c75b6386a74"
+    },
+    {
+      "check": "implementation_remote_ref_and_local_tree",
+      "result": "pass",
+      "commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
+      "tree": "ee5a44de52735e766fddecf83fd4d77b069f9766",
+      "evidence": "docs/evidence/EXECUTIVE_V2_REMOTE.json"
     }
   ],
   "unfinished": [
@@ -190,7 +204,7 @@
     "stage": 2,
     "title": "공식 원장·지도",
     "instruction_status": "not_received",
-    "required_first_action": "Read AGENTS.md, BRIEF, STATUS and HANDOFF; fetch and verify work/fieldnote-v2; save incoming stage-2 instructions verbatim to docs/EXECUTIVE_V2_STAGE_2.md and link from BRIEF/STATUS before performing that stage.",
+    "required_first_action": "Read AGENTS.md, BRIEF, STATUS and HANDOFF; fetch work/fieldnote-v2 and verify it includes 81b88ecfab6740fbf218000a1b310c75b6386a74; read later handoff commits; save incoming stage-2 instructions verbatim to docs/EXECUTIVE_V2_STAGE_2.md and link from BRIEF/STATUS before performing that stage.",
     "known_gap": "No official roster, floor-plan file or booth coordinate data exists at baseline.",
     "do_not": "Do not invent detailed stage instructions or replace existing public deployment."
   }

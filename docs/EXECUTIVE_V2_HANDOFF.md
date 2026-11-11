@@ -4,7 +4,7 @@
 
 ## 현재 상태
 
-1단계 문서·감사·작업 규칙·개발 검증/배포 가드의 로컬 검증을 완료했습니다. 구현 커밋과 원격 CI 확인은 이 문서의 다음 커밋에서 기록합니다. 현재 화면은 기존 FIELDNOTE 1.1이며 v2 화면·삭제 구현·전수 조사·배포를 완료한 상태가 아닙니다.
+1단계 문서·감사·작업 규칙·개발 검증/배포 가드를 커밋하고 GitHub 원격 반영·CI 성공·미리보기 산출물 생성을 확인했습니다. 현재 화면은 기존 FIELDNOTE 1.1이며 v2 화면·삭제 구현·전수 조사·배포를 완료한 상태가 아닙니다.
 
 - 저장소: https://github.com/qkfhvnfrl-ux/exhibition-intelligence
 - 원격 작업 브랜치: `origin/work/fieldnote-v2`
@@ -12,7 +12,9 @@
 - 기준 소스: `4990376dfef1b6890666056bb7e526519d79c784` (`1.1.0`)
 - 기존 배포 구현: `4713114268f7c678859e1c950c30cc2687b128b2`
 - 복구 브랜치: `origin/recovery/fieldnote-v1.1-20261112` → 기준 소스 커밋 (원격 조회 확인)
-- v2 1단계 구현 기준 커밋: 아직 원격 커밋 전. 원격 반영 후 이 항목을 실제 SHA로 갱신합니다.
+- v2 1단계 구현 기준 커밋: `81b88ecfab6740fbf218000a1b310c75b6386a74` — 원격 ref, 로컬/원격 tree 일치 확인. 이 문서는 그 구현을 확인한 후속 인수인계 커밋입니다.
+- 구현 CI: https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43105675563 — success. 미리보기 artifact `fieldnote-v2-preview-81b88ecfab6740fbf218000a1b310c75b6386a74` (ID `13894805457`, 14일 보관).
+- 인수인계 커밋 자체의 SHA는 `git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md`로 확인합니다. 최종 작업 응답에도 실제 원격 반영 SHA를 기록합니다.
 - 상세 상태: [EXECUTIVE_V2_STATUS.json](EXECUTIVE_V2_STATUS.json)
 
 ## 이 묶음에서 실제 수행한 일
@@ -52,3 +54,7 @@
 이 환경의 일반 `git push`는 GitHub 자격증명 부재로 실패했습니다. 읽기 fetch는 가능하며 연결된 GitHub API로 같은 저장소의 브랜치·커밋을 저장할 수 있습니다. 이 실패를 원격 저장 성공으로 취급하지 않고 실제 ref와 파일을 확인합니다.
 
 API 저장은 최신 branch head 확인 → 기존 tree 기반 변경파일 tree → 해당 head를 부모로 commit → 예상 head와 일치하는 ref 이동 → fetch/fast-forward → 원격/로컬 tree 대조 순서입니다. 원격 저장 실패 시 마지막 성공 ref, 미반영 파일, 복구용 patch/bundle 경로를 STATUS에 남깁니다. main/recovery 브랜치에는 작업 커밋을 반영하지 않습니다.
+
+## 최종 원격 확인 기록
+
+구현 커밋 `81b88ecfab6740fbf218000a1b310c75b6386a74`을 GitHub API로 저장했고 원격 ref 조회·일반 git fetch·tree 일치(`ee5a44de52735e766fddecf83fd4d77b069f9766`)로 대조했습니다. 원격 CI가 통과하고 dist 미리보기 artifact가 생성되었습니다. main과 복구 브랜치는 모두 `4990376dfef1b6890666056bb7e526519d79c784`로 유지된 것을 재조회했습니다. 미반영 구현 파일은 없습니다. 이 후속 문서 갱신도 별도 커밋 후 원격 ref를 확인하는 것으로 1단계를 종료합니다. [원격 근거](evidence/EXECUTIVE_V2_REMOTE.json).

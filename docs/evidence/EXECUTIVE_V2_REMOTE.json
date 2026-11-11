@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-11-12T06:45:29+09:00",
+  "repository": "qkfhvnfrl-ux/exhibition-intelligence",
+  "branch": "work/fieldnote-v2",
+  "implementation_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
+  "tree": "ee5a44de52735e766fddecf83fd4d77b069f9766",
+  "api_ref_verified": true,
+  "git_fetch_tree_verified": true,
+  "main_unchanged": "4990376dfef1b6890666056bb7e526519d79c784",
+  "recovery_branch": "recovery/fieldnote-v1.1-20261112",
+  "recovery_commit": "4990376dfef1b6890666056bb7e526519d79c784",
+  "workflow_run": {
+    "id": 43105675563,
+    "name": "Validate and build",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43105675563"
+  },
+  "preview_artifact": {
+    "id": 13894805457,
+    "name": "fieldnote-v2-preview-81b88ecfab6740fbf218000a1b310c75b6386a74",
+    "size_in_bytes": 21181278,
+    "digest": "sha256:3676cb5014e8c51205d4fc26ba6c6fdb9bb247a1a0fad7a12497031ac21542b2",
+    "expires_at": "2026-11-25T21:44:23Z"
+  },
+  "new_deployment_performed": false,
+  "scope": "Evidence for implementation commit. Containing docs-only handoff commit is verified separately at turn completion."
+}
