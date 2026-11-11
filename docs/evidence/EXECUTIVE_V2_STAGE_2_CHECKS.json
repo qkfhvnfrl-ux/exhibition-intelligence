@@ -200,6 +200,15 @@
   },
   "production_changed": false,
   "browser_storage_touched": false,
-  "remote_model_commit": null,
-  "remote_model_ci": "pending"
+  "remote_model_commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
+  "remote_model_ci": {
+    "check": "stage_2_remote_CI",
+    "stage": 2,
+    "result": "pass",
+    "commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
+    "run_id": 43110872701,
+    "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43110872701",
+    "artifact_id": 13895867596,
+    "artifact_name": "fieldnote-v2-preview-61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T07:18:27+09:00",
+  "updated_at": "2026-11-12T07:22:19+09:00",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -17,10 +17,11 @@
   "work": {
     "branch": "work/fieldnote-v2",
     "remote_branch": "origin/work/fieldnote-v2",
-    "implementation_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
-    "remote_verified_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
-    "state": "stage_2_validated_pending_remote",
-    "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response."
+    "implementation_commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
+    "remote_verified_commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
+    "state": "stage_2_complete_ready_for_stage_3",
+    "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response.",
+    "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a"
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -51,7 +52,7 @@
     {
       "stage": 2,
       "name": "공식 원장·지도",
-      "status": "in_progress",
+      "status": "complete",
       "instructions_received": true,
       "instruction_file": "docs/EXECUTIVE_V2_STAGE_2.md",
       "evidence": [
@@ -62,18 +63,132 @@
         "docs/EXECUTIVE_V2_DATA_CONTRACT.md",
         "docs/EXECUTIVE_V2_STAGE_2_VERIFICATION.md",
         "docs/evidence/EXECUTIVE_V2_STAGE_2_CHECKS.json",
-        "docs/research-v2/code-review.md"
+        "docs/research-v2/code-review.md",
+        "docs/evidence/EXECUTIVE_V2_STAGE_2_REMOTE.json"
       ],
-      "implementation_commit": null,
+      "implementation_commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
       "start_commit": "622cb9149912bacf6b46a378c53de7ae1972ec6e",
       "collected_source_rows": 3670,
-      "stage3_ready": false,
-      "remaining_in_stage2": [
-        "remote common-model implementation commit/CI",
-        "final handoff commit and remote ref verification"
-      ],
+      "stage3_ready": true,
+      "remaining_in_stage2": [],
       "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
-      "validation_tests": 83
+      "validation_tests": 83,
+      "completed_at": "2026-11-12T07:22:19+09:00",
+      "completion_scope": "Five source acquisition statuses/scopes, common data model, existing ID migration, validation and selected ADEX map-ready booth evidence. Not full event population or deep-analysis completion.",
+      "metrics": [
+        {
+          "eventId": "adex-2025",
+          "populationRows": 362,
+          "deduplicatedRosterOrganizations": 365,
+          "deduplicatedCompanyCandidateNames": 329,
+          "confirmedCompanyIdentities": 4,
+          "unresolvedCompositeIdentities": 8,
+          "registeredOrganizations": 366,
+          "collectiveOrganizations": 1,
+          "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+          "relevanceReviewed": 1,
+          "relevantOrganizations": 1,
+          "excludedOrganizations": 0,
+          "deepAnalysisComplete": 0,
+          "mapLinkedOrganizations": 35,
+          "numberLinkedOrganizations": 1,
+          "insufficientData": 366,
+          "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+          "directoryTraversalComplete": false,
+          "populationComplete": false,
+          "overallCompletionPercent": null
+        },
+        {
+          "eventId": "dsei-2025",
+          "populationRows": 1754,
+          "deduplicatedRosterOrganizations": 1738,
+          "deduplicatedCompanyCandidateNames": 1730,
+          "confirmedCompanyIdentities": 1,
+          "unresolvedCompositeIdentities": 7,
+          "registeredOrganizations": 1743,
+          "collectiveOrganizations": 10,
+          "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+          "relevanceReviewed": 0,
+          "relevantOrganizations": 0,
+          "excludedOrganizations": 0,
+          "deepAnalysisComplete": 0,
+          "mapLinkedOrganizations": 0,
+          "numberLinkedOrganizations": 1738,
+          "insufficientData": 1743,
+          "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+          "directoryTraversalComplete": true,
+          "populationComplete": false,
+          "overallCompletionPercent": null
+        },
+        {
+          "eventId": "eurosatory-2026",
+          "populationRows": 58,
+          "deduplicatedRosterOrganizations": 58,
+          "deduplicatedCompanyCandidateNames": 58,
+          "confirmedCompanyIdentities": 0,
+          "unresolvedCompositeIdentities": 0,
+          "registeredOrganizations": 64,
+          "collectiveOrganizations": 1,
+          "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+          "relevanceReviewed": 0,
+          "relevantOrganizations": 0,
+          "excludedOrganizations": 0,
+          "deepAnalysisComplete": 0,
+          "mapLinkedOrganizations": 0,
+          "numberLinkedOrganizations": 58,
+          "insufficientData": 64,
+          "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+          "directoryTraversalComplete": false,
+          "populationComplete": false,
+          "overallCompletionPercent": null
+        },
+        {
+          "eventId": "idex-2025",
+          "populationRows": 30,
+          "deduplicatedRosterOrganizations": 30,
+          "deduplicatedCompanyCandidateNames": 30,
+          "confirmedCompanyIdentities": 0,
+          "unresolvedCompositeIdentities": 0,
+          "registeredOrganizations": 36,
+          "collectiveOrganizations": 4,
+          "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+          "relevanceReviewed": 10,
+          "relevantOrganizations": 10,
+          "excludedOrganizations": 0,
+          "deepAnalysisComplete": 0,
+          "mapLinkedOrganizations": 0,
+          "numberLinkedOrganizations": 30,
+          "insufficientData": 36,
+          "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+          "directoryTraversalComplete": false,
+          "populationComplete": false,
+          "overallCompletionPercent": null
+        },
+        {
+          "eventId": "saha-2026",
+          "populationRows": 1466,
+          "deduplicatedRosterOrganizations": 1463,
+          "deduplicatedCompanyCandidateNames": 1461,
+          "confirmedCompanyIdentities": 0,
+          "unresolvedCompositeIdentities": 2,
+          "registeredOrganizations": 1467,
+          "collectiveOrganizations": 5,
+          "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+          "relevanceReviewed": 0,
+          "relevantOrganizations": 0,
+          "excludedOrganizations": 0,
+          "deepAnalysisComplete": 0,
+          "mapLinkedOrganizations": 0,
+          "numberLinkedOrganizations": 1462,
+          "insufficientData": 1467,
+          "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+          "directoryTraversalComplete": true,
+          "populationComplete": false,
+          "overallCompletionPercent": null
+        }
+      ],
+      "generated_registry": "npm run compile:v2 -> data/v2/registry.json and public.json (generated/ignored)",
+      "legacy_mapping": "data/v2/legacy-mapping.json"
     },
     {
       "stage": 3,
@@ -91,7 +206,14 @@
       "instructions_received": false,
       "instruction_file": null,
       "evidence": [],
-      "implementation_commit": null
+      "implementation_commit": null,
+      "prepared_queue_file": "data/v2/collection/adex-2025.json",
+      "prepared_queue_ids": [
+        "queue-adex-2025-full-directory",
+        "queue-adex-2025-pavilions",
+        "queue-adex-2025-identity",
+        "queue-adex-2025-onsite"
+      ]
     },
     {
       "stage": 5,
@@ -100,7 +222,13 @@
       "instructions_received": false,
       "instruction_file": null,
       "evidence": [],
-      "implementation_commit": null
+      "implementation_commit": null,
+      "prepared_queue_file": "data/v2/collection/eurosatory-2026.json",
+      "prepared_queue_ids": [
+        "q-eurosatory-2026-full-directory",
+        "q-eurosatory-2026-map-originals",
+        "q-eurosatory-2026-relevance"
+      ]
     },
     {
       "stage": 6,
@@ -109,7 +237,13 @@
       "instructions_received": false,
       "instruction_file": null,
       "evidence": [],
-      "implementation_commit": null
+      "implementation_commit": null,
+      "prepared_queue_file": "data/v2/collection/dsei-2025.json",
+      "prepared_queue_ids": [
+        "q-dsei-2025-relevance",
+        "q-dsei-2025-map",
+        "q-dsei-2025-depth"
+      ]
     },
     {
       "stage": 7,
@@ -118,7 +252,14 @@
       "instructions_received": false,
       "instruction_file": null,
       "evidence": [],
-      "implementation_commit": null
+      "implementation_commit": null,
+      "prepared_queue_file": "data/v2/collection/idex-2025.json",
+      "prepared_queue_ids": [
+        "queue-idex-2025-official-roster",
+        "queue-idex-2025-relevance",
+        "queue-idex-2025-map",
+        "queue-idex-2025-deep-analysis"
+      ]
     },
     {
       "stage": 8,
@@ -127,7 +268,13 @@
       "instructions_received": false,
       "instruction_file": null,
       "evidence": [],
-      "implementation_commit": null
+      "implementation_commit": null,
+      "prepared_queue_file": "data/v2/collection/saha-2026.json",
+      "prepared_queue_ids": [
+        "saha-2026-profile-review",
+        "saha-2026-map-source",
+        "saha-2026-exhibit-analysis"
+      ]
     },
     {
       "stage": 9,
@@ -208,22 +355,59 @@
       "commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
       "tree": "ee5a44de52735e766fddecf83fd4d77b069f9766",
       "evidence": "docs/evidence/EXECUTIVE_V2_REMOTE.json"
+    },
+    {
+      "check": "stage_2_local_checks",
+      "stage": 2,
+      "result": "pass",
+      "tests": 83,
+      "evidence": "docs/evidence/EXECUTIVE_V2_STAGE_2_CHECKS.json"
+    },
+    {
+      "check": "stage_2_independent_map_and_model_reviews",
+      "stage": 2,
+      "result": "pass",
+      "evidence": [
+        "docs/research-v2/adex-map-review.md",
+        "docs/research-v2/code-review.md"
+      ]
+    },
+    {
+      "check": "stage_2_remote_CI",
+      "stage": 2,
+      "result": "pass",
+      "commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
+      "run_id": 43110872701,
+      "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43110872701",
+      "artifact_id": 13895867596,
+      "artifact_name": "fieldnote-v2-preview-61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8"
+    },
+    {
+      "check": "stage_2_remote_ref_and_tree",
+      "stage": 2,
+      "result": "pass",
+      "commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
+      "tree": "187efeebd818dddad7f70039c0473cdfee5e4158",
+      "evidence": "docs/evidence/EXECUTIVE_V2_STAGE_2_REMOTE.json"
     }
   ],
   "unfinished": [
-    "v2 UI / 3-menu routing and removal implementation",
-    "official participant rosters, floor-plan files and evidence-based booth mapping",
-    "company/mission-equipment/component coverage expansion for five specified editions",
-    "claim-level source independence and exhibition-presence revalidation",
-    "all-photo loading, mobile and full PDF pagination checks",
-    "final combined report and production deployment"
+    "Stage 3 three-menu map/company screens and removal of personal upload, notes/annotations, backup/restore, archive and management UI/modules from final build",
+    "ADEX official full roster/pavilion/outdoor expansion and 214 dense map-label transcriptions requiring review (stage 4)",
+    "Eurosatory full catalogue and booth maps beyond 58 LAB entries (stage 5)",
+    "DSEI identity/relevance/exhibit review and original 2025 map (stage 6)",
+    "IDEX 2025 organizer full roster/guide/map beyond 30 BDSV entries (stage 7)",
+    "SAHA 1466 profile/relevance reviews, 407 truncated category cards, population reconciliation and map originals (stage 8)",
+    "Original map redistribution/embedding rights unresolved; keep link_only until a usable basis is verified",
+    "Event-specific actual exhibits, source independence and company-specific deep analysis; all deep completion counts remain zero",
+    "Mobile, all-photo loading, full PDF pagination, combined report and production deployment (stage 9)"
   ],
   "next_start": {
-    "stage": 2,
-    "title": "공식 원장·지도 마무리",
-    "instruction_status": "received",
-    "required_first_action": "Read AGENTS, BRIEF, STATUS, HANDOFF and STAGE_2; verify branch; finalize common registry compiler, legacy migration mapping and validation, then record exact implementation commit.",
-    "known_gap": "5 source ledgers and 32 map regions collected; full event populations remain incomplete and are queued to stages 4–8.",
-    "do_not": "Do not treat raw source rows or partial rosters as all companies. Do not deploy."
+    "stage": 3,
+    "title": "지도·업체 화면 구현",
+    "instruction_status": "not_received",
+    "required_first_action": "Read AGENTS, BRIEF, STATUS, HANDOFF, STAGE_2 and DATA_CONTRACT; fetch work/fieldnote-v2 and verify it contains 61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8; read later handoff commits. When stage-3 instructions arrive, save them verbatim as docs/EXECUTIVE_V2_STAGE_3.md and link them before implementing. Run npm run compile:v2 and use public projection for UI, private registry/ledgers for research.",
+    "known_gap": "Full event populations and deep analyses remain incomplete; queues in five collection files point to stages 4–8. ADEX has 32 verified pre-event regions but map original is link_only; 31 region numbers remain unknown.",
+    "do_not": "Do not invent stage-3 detailed instructions, original-map reuse permission, booth numbers, coordinates or actual-exhibit evidence. Do not replace production before stage 9."
   }
 }

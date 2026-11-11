@@ -1,60 +1,63 @@
 # FIELDNOTE v2 — 다음 실행 인수인계
 
-기준일: 2026-11-12 (Asia/Seoul).
+기준일: 2026-11-12 (Asia/Seoul). **2단계 완료, 다음은 3단계입니다.** 전체 모집단·심층분석·v2 화면·기능 제거·최종 배포는 완료하지 않았습니다.
 
-## 현재 상태
-
-1단계 문서·감사·작업 규칙·개발 검증/배포 가드를 커밋하고 GitHub 원격 반영·CI 성공·미리보기 산출물 생성을 확인했습니다. 현재 화면은 기존 FIELDNOTE 1.1이며 v2 화면·삭제 구현·전수 조사·배포를 완료한 상태가 아닙니다.
+## 브랜치와 복구 기준
 
 - 저장소: https://github.com/qkfhvnfrl-ux/exhibition-intelligence
-- 원격 작업 브랜치: `origin/work/fieldnote-v2`
-- 브랜치 주소: https://github.com/qkfhvnfrl-ux/exhibition-intelligence/tree/work/fieldnote-v2
-- 기준 소스: `4990376dfef1b6890666056bb7e526519d79c784` (`1.1.0`)
-- 기존 배포 구현: `4713114268f7c678859e1c950c30cc2687b128b2`
-- 복구 브랜치: `origin/recovery/fieldnote-v1.1-20261112` → 기준 소스 커밋 (원격 조회 확인)
-- v2 1단계 구현 기준 커밋: `81b88ecfab6740fbf218000a1b310c75b6386a74` — 원격 ref, 로컬/원격 tree 일치 확인. 이 문서는 그 구현을 확인한 후속 인수인계 커밋입니다.
-- 구현 CI: https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43105675563 — success. 미리보기 artifact `fieldnote-v2-preview-81b88ecfab6740fbf218000a1b310c75b6386a74` (ID `13894805457`, 14일 보관).
-- 인수인계 커밋 자체의 SHA는 `git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md`로 확인합니다. 최종 작업 응답에도 실제 원격 반영 SHA를 기록합니다.
-- 상세 상태: [EXECUTIVE_V2_STATUS.json](EXECUTIVE_V2_STATUS.json)
+- 원격 작업 브랜치: `origin/work/fieldnote-v2` — https://github.com/qkfhvnfrl-ux/exhibition-intelligence/tree/work/fieldnote-v2
+- 기존 기준: `1.1.0`, 소스 `4990376dfef1b6890666056bb7e526519d79c784`, 기존 배포 구현 `4713114268f7c678859e1c950c30cc2687b128b2`.
+- 복구 브랜치 `origin/recovery/fieldnote-v1.1-20261112`와 main은 모두 `4990376dfef1b6890666056bb7e526519d79c784` 유지. 원격 재조회 확인.
+- 1단계 구현 `81b88ecfab6740fbf218000a1b310c75b6386a74`, 2단계 시작 `622cb9149912bacf6b46a378c53de7ae1972ec6e`.
+- 2단계 수집 묶음 `faa792b99c74219d9beb58da0159494b7778739a`.
+- **2단계 구현 기준 커밋 `61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8`**, tree `187efeebd818dddad7f70039c0473cdfee5e4158`. 원격 ref/commit API, git fetch, 로컬 index tree 일치 확인.
+- 구현 CI: https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43110872701 — success. 미리보기 artifact `fieldnote-v2-preview-61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8`, ID `13895867596`, 14일 보관. 이는 배포 성공이 아닙니다.
+- 이 문서는 검증한 구현의 후속 인수인계 커밋입니다. 포함된 최신 SHA는 `git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md`와 원격 ref로 확인합니다. 자기 자신의 SHA를 추정해 넣지 않습니다.
 
-## 이 묶음에서 실제 수행한 일
+## 이번에 실제 수행한 일
 
-- 기존 저장소 clone, 원격 refs·최근 Actions·공개 화면·배포 파일 대조.
-- 복구 브랜치와 개발 브랜치를 원격 생성. 기준 커밋의 소스·데이터·사진 보존.
-- 기존 기능·빌드·원천 데이터·저장 키를 조사하고 유지/제거/이전 결정표 저장.
-- 공통 기준, 사용자 1단계 원문, 단계 순서, 상태/인수인계, 루트 AGENTS 작업 규칙 저장.
-- unslop 설치, 원본 및 5개 reference 읽기, 커밋·저작자·라이선스·화면 감사 기록.
-- Pages 워크플로의 build/deploy에 main 조건 추가. 개발 브랜치 CI는 검사 뒤 dist 미리보기 artifact를 저장하도록 변경.
-- 기존 61개 검사·빌드, YAML 정적 확인, 공개 화면과 개발 미리보기 초기 화면 확인.
+5개 원장에 공식/보조 명단 원문 3,670행, 확보 일시·회차·페이지 범위·누락·접근 상태·이용 조건·다음 큐를 저장했습니다. DSEI는 2025 본문 8페이지 1,754행, SAHA는 62페이지 1,466행을 끝까지 확인했습니다. ADEX 362행은 공식 사전 배치도의 명칭 블록, Eurosatory 58행은 LAB, IDEX 30행은 BDSV 부분명단입니다. 전체 행사 모집단으로 승격하지 않았습니다.
+
+ADEX 32개 도형을 공식 원본 벡터 경계·확대 이미지와 별도 재검토로 검증했습니다. 35개 원문 업체명과 43개 영역 점유 연결을 준비했습니다. PEI `18-20`만 발행사 사전발표 단일 근거로 번호 확인; 다른 31개 번호는 비워 두었습니다. 지도는 당일 실측 배치가 아닌 사전 계획이며 원본은 `link_only`입니다.
+
+공통 모델은 조직·기업 관계·참가·부스·제품·출품·사진·카탈로그·분석·근거를 분리합니다. 기업↔부스는 다대다입니다. 원문 명칭 ID는 3,579개이며 법적으로 확인한 기업 총수가 아닙니다. 기존 ID 이전 매핑 271개, 제품 41개, 사진 개체 116개, 분석 62개를 보존했습니다. 심층분석 완료는 모든 행사에서 0입니다. 한영 동일 법인 별칭 4개만 공시/정관 근거로 연결했으며 계열사는 합치지 않았습니다.
+
+검사 83개, 빌드, 결정적 재생성, 원장 참조/회차, 원본 보존 비교, 미리보기 HTTP·관리 원장 배포 제외를 확인했습니다. [검증](EXECUTIVE_V2_STAGE_2_VERIFICATION.md), [독립 코드 검토](research-v2/code-review.md), [지도 검토](research-v2/adex-map-review.md), [원격 근거](evidence/EXECUTIVE_V2_STAGE_2_REMOTE.json)를 참고합니다. 데이터 검사가 전시 사실·성능을 모두 재검증한 것은 아닙니다.
 
 ## 정확한 다음 시작점
 
-1. 루트 [AGENTS.md](../AGENTS.md), [BRIEF](EXECUTIVE_V2_BRIEF.md), [STATUS](EXECUTIVE_V2_STATUS.json), 이 문서 및 [AUDIT](EXECUTIVE_V2_AUDIT.md)를 읽습니다.
-2. `git status --short`로 사용자 변경을 확인하고 `git fetch origin` 후 `work/fieldnote-v2`와 원격 구현 커밋을 비교합니다. 아래 기록된 구현 커밋보다 원격이 앞서면 후속 커밋도 읽고 이어갑니다.
-3. 다음은 **2단계 공식 원장·지도**입니다. 상세 지시는 아직 받지 않았습니다. 받은 지시 원문을 `docs/EXECUTIVE_V2_STAGE_2.md`에 저장하고 BRIEF/STATUS에 연결한 다음 수행합니다. 현재 정보만으로 상세 지시를 작성하지 않습니다.
-4. 실제 조사 시작 자료는 `data/exhibitions.json`, `data/research-v1.1/*.json`, `src/review.js`의 기존 ADEX 외부 배치도 링크입니다. 현재 공식 참가기업 원장·공식 배치도 파일·부스 좌표·정규화된 업체 ID가 없습니다. 기존 manufacturer 문자열은 기업 전수 목록이 아닙니다.
-5. 자료/업체 하나가 막히면 상태에 사유를 남기고 독립 작업을 계속합니다. 검증한 묶음마다 소스·데이터·상태를 커밋하고 원격을 재조회합니다.
+1. [AGENTS](../AGENTS.md), [BRIEF](EXECUTIVE_V2_BRIEF.md), [STATUS](EXECUTIVE_V2_STATUS.json), 이 문서, [2단계 원문](EXECUTIVE_V2_STAGE_2.md), [데이터 계약](EXECUTIVE_V2_DATA_CONTRACT.md)을 읽습니다.
+2. `git status --short`로 사용자 변경을 확인합니다. `git fetch origin` 후 `work/fieldnote-v2`가 위 구현 커밋과 후속 인수인계 커밋을 포함하는지 확인합니다. 원격이 더 앞서면 후속 변경을 읽고 이어갑니다. reset/clean하지 않습니다.
+3. 다음은 **3단계 지도·업체 화면 구현**입니다. 상세 지시는 아직 받지 않았습니다. 받은 원문을 `docs/EXECUTIVE_V2_STAGE_3.md`에 저장하고 BRIEF/STATUS에 연결한 뒤 수행합니다. 새로운 상세 지시를 추측해 작성하지 않습니다.
+4. `npm run compile:v2` 또는 `npm run check`로 `data/v2/registry.json`과 `public.json`을 재생성합니다. 두 파일은 생성물로 Git에서 제외됩니다. 영속 원천은 `data/v2/collection`, `data/v2/maps`, `entity-aliases.json`, 기존 JSON 및 컴파일러입니다. `legacy-mapping.json`은 커밋된 이전표입니다.
+5. UI 입력은 `dist/data/v2/public.json`입니다. 현재 기존 화면은 이 파일을 아직 사용하지 않습니다. 상세 구조는 DATA_CONTRACT를 따릅니다. 조사 원장·큐·완료 집계는 UI에 노출하지 않고, 단일 근거·명칭 불확실·사전 배치도·재검증 미완료 조건은 작고 명확하게 유지합니다.
+6. ADEX부터 구현용 도형을 사용할 수 있으나 원본 지도 재호스팅/임베드 권한은 확보하지 않았습니다. `link_only`, 원본 URL, 번호 null, 전사 미확인 상태를 유지하며 사용 가능한 배경의 근거를 확인합니다. 좌표와 번호를 만들어 채우지 않습니다.
+7. 검증한 묶음마다 실제 소스·데이터·상태 문서를 함께 저장·커밋하고 원격 ref를 확인합니다. 한 업체나 출처의 막힘으로 다른 묶음을 멈추지 않습니다. main/공개 배포는 9단계 전까지 교체하지 않습니다.
 
-## 제거·보존 경계
+## 남은 조사 큐
 
-삭제 대상은 개인 사진 등록·메모·주석·백업/복원·확정본/검토상태 편집·과거 보관함·진행률/디버그 등입니다. 3개 주 메뉴의 구조와 검색/비교/PDF 이동을 결정했습니다. 실제 화면 변경은 3단계에 남아 있습니다.
+각 원장 `queues` 17개가 4~8단계에 연결됩니다. 이들은 2단계의 미완료 범위 기록이며 미수신 상세 지시를 대체하지 않습니다.
 
-`scripts/build.mjs`가 현재 `legacy.html` 및 전체 `src`를 배포합니다. 최종 v2에서는 메뉴뿐 아니라 제거 기능의 라우트/진입점/의존 모듈을 배포 산출물에서 제외해야 합니다. 원본은 복구 브랜치와 Git 이력에 보존합니다. 별도 관리자 화면은 만들지 않습니다.
+| 단계 | 다음 조사 파일 | 남은 범위 |
+| --- | --- | --- |
+| 4 ADEX | `data/v2/collection/adex-2025.json` | 전체 공식 디렉터리·국가관/협회 구성원·야외, 214개 작은 글씨 전사 재검토, 모든 관련성/실제 출품/심층분석 |
+| 5 Eurosatory | `data/v2/collection/eurosatory-2026.json` | LAB 밖 전체 catalogue의 모든 페이지/알파벳/분류, 홀/야외 부스 지도와 조사 |
+| 6 DSEI | `data/v2/collection/dsei-2025.json` | 공개 목록 페이지 누락 없음. 동일 명칭/공동관 정체성, 모든 관련성/실제 출품, 2025 원본 지도 |
+| 7 IDEX | `data/v2/collection/idex-2025.json` | BDSV 밖 주최사 2025 전체 원장·가이드·지도, 20개 미판정과 10개 단일근거 관련성 재대조 |
+| 8 SAHA | `data/v2/collection/saha-2026.json` | 공개 목록 페이지 누락 없음. 1,466개 상세 프로필, 잘린 분류 407건, 전체 참가수 대조, 원본 지도/관련성/실제 출품 |
 
-기존 localStorage `fieldnote.review.adex2025.v1`, `fieldnote.workspace.v1`과 IndexedDB `fieldnote-field-photos-v1` / `photos`는 읽어 축소 저장하거나 삭제하지 않습니다. 사용자 브라우저 원본 기록은 저장소에 없으며 이번 작업에서 읽거나 변경하지 않았습니다.
+회차 불일치 자료(ADEX Sourcehere 2027, SIBAT 연결 2023 PDF, IDEX 현재 2027 지도)는 가져오지 않았습니다. Eurosatory 안내도는 부스 지도와 다르며 원본 크기가 아직 미확보입니다. 모든 행사 전체 완료율은 `null`입니다.
 
-## 검증 범위와 남은 일
+## 제거·보존·배포 경계
 
-[검증 기록](EXECUTIVE_V2_VERIFICATION.md)과 [보존 파일 목록](evidence/EXECUTIVE_V2_PRESERVATION.json)을 참고합니다. 검사 61개는 기존 동작/구조 검사이며 전시 주장·성능의 독립 검증이 아닙니다. 사진 49개도 메타데이터상 표시 가능한 URL 수이며 모든 사진의 최신 로딩 검증은 아닙니다.
+3개 메뉴는 전시장 탐색 / 업체·장비 / 핵심 보고입니다. 개인 사진 등록·메모/주석·백업/복원·과거 보관함·진행률/디버그 및 관리 편집은 3단계에서 실제로 제거해야 합니다. 현재 빌드는 기존 `legacy.html`과 전체 `src`를 여전히 포함합니다. 최종 v2에서는 제거 기능의 메뉴뿐 아니라 라우트·진입점·의존 모듈을 배포에서 제외합니다. 원본은 복구 브랜치/이력으로 보존하고 관리자 화면을 새로 만들지 않습니다.
 
-단계 2~9는 미착수입니다. 공식 원장/지도, v2 화면/삭제, 부품·소형 임무장비 공급망 조사, 핵심 주장 독립 근거 확인, 모바일·모든 사진·전체 PDF 페이지 나눔, 종합 보고와 최종 배포가 남아 있습니다. 개발 미리보기에서 기존 초기 화면만 확인했습니다. 새 공개 사이트는 만들지 않았습니다.
+localStorage `fieldnote.review.adex2025.v1`, `fieldnote.workspace.v1` 및 IndexedDB `fieldnote-field-photos-v1`/`photos`는 이번에 읽거나 변경하지 않았습니다. 추후에도 지우거나 축소된 구조로 덮어쓰지 않습니다.
 
-## 원격 저장 및 복구 방법
+unslop 고정 버전은 `97daa3eb365670ea3f87ed85356cbfcee18105a5`입니다. [원문/저작자/라이선스와 적용 순서](EXECUTIVE_V2_UNSLOP.md)를 유지합니다. 2단계는 데이터 기반 작업이며 시각 다듬기 완료로 보고하지 않습니다.
 
-이 환경의 일반 `git push`는 GitHub 자격증명 부재로 실패했습니다. 읽기 fetch는 가능하며 연결된 GitHub API로 같은 저장소의 브랜치·커밋을 저장할 수 있습니다. 이 실패를 원격 저장 성공으로 취급하지 않고 실제 ref와 파일을 확인합니다.
+## 원격 저장 방식
 
-API 저장은 최신 branch head 확인 → 기존 tree 기반 변경파일 tree → 해당 head를 부모로 commit → 예상 head와 일치하는 ref 이동 → fetch/fast-forward → 원격/로컬 tree 대조 순서입니다. 원격 저장 실패 시 마지막 성공 ref, 미반영 파일, 복구용 patch/bundle 경로를 STATUS에 남깁니다. main/recovery 브랜치에는 작업 커밋을 반영하지 않습니다.
+일반 Git push 자격증명이 없으므로 연결된 GitHub blob/tree/commit/ref API로 같은 브랜치에 저장했습니다. 파일 blob 해시를 로컬과 대조하고, 기존 tree 기반 commit을 만든 뒤 `expected_sha`/fast-forward로 ref를 옮겼습니다. fetch 후 로컬 index tree와 원격 tree를 재대조했습니다. force push하지 않았습니다.
 
-## 최종 원격 확인 기록
-
-구현 커밋 `81b88ecfab6740fbf218000a1b310c75b6386a74`을 GitHub API로 저장했고 원격 ref 조회·일반 git fetch·tree 일치(`ee5a44de52735e766fddecf83fd4d77b069f9766`)로 대조했습니다. 원격 CI가 통과하고 dist 미리보기 artifact가 생성되었습니다. main과 복구 브랜치는 모두 `4990376dfef1b6890666056bb7e526519d79c784`로 유지된 것을 재조회했습니다. 미반영 구현 파일은 없습니다. 이 후속 문서 갱신도 별도 커밋 후 원격 ref를 확인하는 것으로 1단계를 종료합니다. [원격 근거](evidence/EXECUTIVE_V2_REMOTE.json).
+구현 파일의 원격 미반영 범위는 없습니다. 이 후속 문서도 커밋 후 ref와 로컬/원격 일치를 확인합니다. 원격 저장에 실패하는 다음 실행은 성공으로 표시하지 말고 마지막 원격 SHA, 미반영 파일, 복구 가능한 patch/bundle을 남겨야 합니다.
