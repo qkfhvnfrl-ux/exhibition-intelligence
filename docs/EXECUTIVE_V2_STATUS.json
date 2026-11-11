@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T08:19:55+09:00",
+  "updated_at": "2026-11-12T08:32:37+09:00",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -17,12 +17,13 @@
   "work": {
     "branch": "work/fieldnote-v2",
     "remote_branch": "origin/work/fieldnote-v2",
-    "implementation_commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
-    "remote_verified_commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+    "implementation_commit": "160efa420211160bf07eed559e4465e1059a25e8",
+    "remote_verified_commit": "160efa420211160bf07eed559e4465e1059a25e8",
     "state": "stage_3_implemented_stage_4_ready",
     "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response.",
     "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
-    "implementation_tree": "5a31da8951ec3c2861b3b34683489cc596d9f8f1"
+    "implementation_tree": "92e3e0f6431912de5e0e3a10012ef6ec648a03e3",
+    "resume_start_commit": "f110c3f3f27f749d749eac6cdff7e7bfb9243906"
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -207,11 +208,13 @@
         "docs/research-v2/stage3-cases.md",
         "docs/research-v2/stage3-map-source.md",
         "docs/research-v2/stage3-number-correction.md",
-        "docs/evidence/EXECUTIVE_V2_STAGE_3_REMOTE.json"
+        "docs/evidence/EXECUTIVE_V2_STAGE_3_REMOTE.json",
+        "docs/EXECUTIVE_V2_STAGE_3_RESUME.md",
+        "docs/evidence/EXECUTIVE_V2_STAGE_3_RESUME.json"
       ],
-      "implementation_commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+      "implementation_commit": "160efa420211160bf07eed559e4465e1059a25e8",
       "start_commit": "aff4f5ca909bfbc7a945a512a2813b9513dfbeb5",
-      "local_validation_tests": 128,
+      "local_validation_tests": 138,
       "metrics": {
         "adexVerifiedRegions": 32,
         "adexMapLinkedOrganizationLabels": 35,
@@ -232,7 +235,10 @@
         "Physical phone tap/pinch/hit testing",
         "Actual PDF save and page-break inspection in a browser with printing enabled"
       ],
-      "stage4_ready": true
+      "stage4_ready": true,
+      "initial_implementation_commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+      "resume_start_commit": "f110c3f3f27f749d749eac6cdff7e7bfb9243906",
+      "last_verified_at": "2026-11-12T08:32:37+09:00"
     },
     {
       "stage": 4,
@@ -457,6 +463,21 @@
       "result": "pass",
       "production_version": "1.1.0",
       "production_build": "2026-11-10T22:24:44.865Z"
+    },
+    {
+      "check": "stage_3_resume_navigation_print_and_map",
+      "stage": 3,
+      "result": "pass_with_named_limits",
+      "tests": 138,
+      "commit": "160efa420211160bf07eed559e4465e1059a25e8",
+      "tree": "92e3e0f6431912de5e0e3a10012ef6ec648a03e3",
+      "evidence": "docs/evidence/EXECUTIVE_V2_STAGE_3_RESUME.json",
+      "remote_ci": {
+        "result": "pass",
+        "run_id": 43120472459,
+        "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43120472459",
+        "artifact_id": 13900022866
+      }
     }
   ],
   "unfinished": [

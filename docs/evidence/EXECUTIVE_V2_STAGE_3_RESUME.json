@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-11-12T08:32:37+09:00",
+  "base_commit": "f110c3f3f27f749d749eac6cdff7e7bfb9243906",
+  "implementation_commit": "160efa420211160bf07eed559e4465e1059a25e8",
+  "implementation_tree": "92e3e0f6431912de5e0e3a10012ef6ec648a03e3",
+  "version": "2.0.0-stage.3",
+  "branch": "work/fieldnote-v2",
+  "checks": {
+    "build": "pass",
+    "npm_run_check": {
+      "passed": 138,
+      "failed": 0,
+      "skipped": 0
+    },
+    "git_diff_check": "pass",
+    "remote_ref": "matches implementation_commit",
+    "remote_tree": "matches local index tree"
+  },
+  "browser": {
+    "tour_search": "STX search ends previous tour and selects STX company",
+    "history": "back restores company, tour step and focused search input; pending search does not overwrite",
+    "map_keyboard": "shared booth remains keyboard focused after Enter and chooser render",
+    "responsive_frame": {
+      "outer_css_width": 390,
+      "height": 844,
+      "content_client_width": 375,
+      "content_scroll_width": 375,
+      "photo_open_close": "pass",
+      "return_to_map": "pass; map top 202.53125 and bottom 641.40625 after scroll settles"
+    },
+    "report_preparation": {
+      "completed": true,
+      "images": 24,
+      "source_links": 63,
+      "button_reenabled": true,
+      "actual_pdf_saved": false
+    },
+    "final_brand_navigation": "clears tour when returning to company list",
+    "simplified_3d": "pass; actual-height disclaimer retained"
+  },
+  "limitations": [
+    "Physical phone touch testing not performed",
+    "Browser print invocation prepared report but no print dialog/file; actual PDF pagination remains unverified",
+    "No new population research or production deployment"
+  ],
+  "remote_ci": {
+    "run_id": 43120472459,
+    "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43120472459",
+    "status": "completed",
+    "conclusion": "success",
+    "artifact_id": 13900022866,
+    "artifact_name": "fieldnote-v2-preview-160efa420211160bf07eed559e4465e1059a25e8",
+    "artifact_expires_at": "2026-11-25T23:31:54Z"
+  }
+}

@@ -10,10 +10,14 @@
 - 복구 브랜치: `origin/recovery/fieldnote-v1.1-20261112`. main은 위 기준 유지. 이번 작업에서 공개 배포하지 않았습니다.
 - 2단계 구현: `61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8`; 수집 묶음 `faa792b99c74219d9beb58da0159494b7778739a`.
 - 3단계 시작/원격 재확인 SHA: `aff4f5ca909bfbc7a945a512a2813b9513dfbeb5`.
-- 현재 구현 버전: `2.0.0-stage.3`. **구현 기준 커밋 `8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec`**, tree `5a31da8951ec3c2861b3b34683489cc596d9f8f1`. GitHub ref/commit 객체, git fetch, 로컬 index tree 일치를 확인했습니다.
-- [구현 CI](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43118714357): success. 미리보기 artifact `fieldnote-v2-preview-8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec`, ID `13898569722`, 2026-11-25T23:18:06Z 만료. 미리보기 산출물이며 공개 배포가 아닙니다.
-- 공개 version.json HTTP 200, 버전 `1.1.0`, build `2026-11-10T22:24:44.865Z`를 종료 전 재확인했습니다. [원격 확인 기록](evidence/EXECUTIVE_V2_STAGE_3_REMOTE.json).
+- 현재 구현 버전: `2.0.0-stage.3`. **구현 기준 커밋 `160efa420211160bf07eed559e4465e1059a25e8`**, tree `92e3e0f6431912de5e0e3a10012ef6ec648a03e3` (3단계 재개 보완). 초기 구현은 `8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec`. GitHub ref/commit 객체, git fetch, 로컬 index tree 일치를 확인했습니다.
+- [재개 구현 CI](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43120472459): success. 미리보기 artifact `fieldnote-v2-preview-160efa420211160bf07eed559e4465e1059a25e8`, ID `13900022866`, 2026-11-25T23:31:54Z 만료. 미리보기 산출물이며 공개 배포가 아닙니다.
+- 초기 3단계 종료 시점의 공개 version.json HTTP 200, 버전 `1.1.0`, build `2026-11-10T22:24:44.865Z`를 당시 확인했습니다. 이번 재개에서는 공개 배포 작업을 실행하지 않았습니다. [원격 확인 기록](evidence/EXECUTIVE_V2_STAGE_3_REMOTE.json).
 - 이 문서를 포함하는 최종 SHA는 `git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md`와 원격 ref로 확인합니다. 자기 자신의 SHA를 추정해 넣지 않습니다.
+
+## 3단계 재개 보완 — 2026-11-12
+
+사용자의 중단 작업 계속 요청으로 `f110c3f3f27f749d749eac6cdff7e7bfb9243906`에서 재개했습니다. 탐방 표시와 선택 업체 불일치, 뒤로가기 후 지연 검색 적용, 지도 키보드 초점 유실, 핀치 중 접촉 손가락 교체 시 확대율 급변, 고해상도 지도 실패 시 대체 지도 누락, PDF 사진/글꼴 무한 대기 및 중복 요청 경합을 수정했습니다. 비교/핵심 보고 PDF 준비·실패 안내와 인쇄 사진별 원문 URL도 보완했습니다. [검증 기록](EXECUTIVE_V2_STAGE_3_RESUME.md)을 우선 참조합니다. ADEX 32개 영역·35개 연결 명칭·5개 상세 사례 범위는 동일하고 4단계는 시작하지 않았습니다.
 
 ## 실제 변경
 
@@ -27,7 +31,7 @@ PEI는 새 현장 발표 `7-C11`과 사전 발표 `18-20`이 상충해 현재 �
 
 ## 검증 근거와 한계
 
-- clean build + check **128개 통과**, diff 검사 통과. 독립 코드 검토 및 실제 브라우저 경로 검증을 수행했습니다.
+- 재개 후 clean build + check **138개 통과**, diff 검사 통과. 독립 코드 검토 및 실제 브라우저 경로 검증을 수행했습니다.
 - 실제 지도/공동부스/검색/탐방/드래그/휠/2D·입체/사진/직접링크/뒤로가기/원문 PDF·카탈로그 새 창/업체 비교/5개 회차 전환을 확인했습니다.
 - 390×844 CSS px 프레임에서 실제 앱의 반응형 화면·지도·사진 왕복과 가로 넘침 없음을 확인했습니다. 실제 휴대폰 시험은 아닙니다. 포인터 핸들러 시험은 탭·드래그·핀치·취소·휠·키보드를 포함합니다.
 - 관리 Chromium의 Print 메뉴가 비활성화되어 실제 PDF 저장·페이지 검수는 하지 못했습니다. 업체/비교/전체 보고서 인쇄 내용·사진 준비·출처 보존은 검사했습니다. DevTools도 관리 정책으로 사용할 수 없었습니다. 정책을 바꾸지 않았습니다.
@@ -57,4 +61,4 @@ PEI는 새 현장 발표 `7-C11`과 사전 발표 `18-20`이 상충해 현재 �
 
 ## 원격 저장 방식
 
-이 환경의 일반 git push 자격증명 대신 연결된 GitHub blob/tree/commit/ref API를 사용합니다. 로컬 blob SHA와 API SHA, index tree와 원격 tree를 비교하고 `expected_sha`를 사용해 fast-forward 합니다. 저장 실패 시 마지막 확인 SHA·미반영 파일·복구 patch를 기록해야 합니다. 구현 묶음 51개 blob SHA와 tree를 대조해 원격 반영했고 미반영 구현 파일은 없습니다. 이 문서는 검증 결과를 기록하는 후속 커밋입니다. 문서 커밋도 원격 ref와 로컬 tree를 확인한 뒤 최종 응답에 실제 SHA를 남깁니다.
+이 환경의 일반 git push 자격증명 대신 연결된 GitHub blob/tree/commit/ref API를 사용합니다. 로컬 blob SHA와 API SHA, index tree와 원격 tree를 비교하고 `expected_sha`를 사용해 fast-forward 합니다. 저장 실패 시 마지막 확인 SHA·미반영 파일·복구 patch를 기록해야 합니다. 초기 구현 51개와 재개 보완 8개 파일의 blob SHA 및 tree를 각각 대조해 원격 반영했고 미반영 구현 파일은 없습니다. 이 문서는 검증 결과를 기록하는 후속 커밋입니다. 문서 커밋도 원격 ref와 로컬 tree를 확인한 뒤 최종 응답에 실제 SHA를 남깁니다.
