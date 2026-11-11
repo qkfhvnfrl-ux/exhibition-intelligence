@@ -1,0 +1,205 @@
+{
+  "checked_at": "2026-11-12T07:18:27+09:00",
+  "start_commit": "622cb9149912bacf6b46a378c53de7ae1972ec6e",
+  "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
+  "collection_tree": "f0a4cf0e77b36c1128272f898c1e49296da46cf0",
+  "checks": [
+    {
+      "name": "npm run check",
+      "result": "pass",
+      "tests": 83,
+      "failed": 0
+    },
+    {
+      "name": "npm run build",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "source entry id/edition/reference checks",
+      "result": "pass",
+      "rows": 3670
+    },
+    {
+      "name": "deterministic compile of registry/public/migration",
+      "result": "pass"
+    },
+    {
+      "name": "existing runtime and original data/assets unchanged from stage2 start",
+      "result": "pass"
+    },
+    {
+      "name": "collector Python syntax in memory",
+      "result": "pass"
+    },
+    {
+      "name": "local built preview HTTP",
+      "result": "pass",
+      "index": 200,
+      "public_json": 200,
+      "registry_json": 404,
+      "collection_json": 404,
+      "visual_UI_check": false
+    }
+  ],
+  "counts": {
+    "events": 5,
+    "organizations": 3579,
+    "organizationRelationships": 0,
+    "participations": 3676,
+    "booths": 1983,
+    "boothOccupancies": 3347,
+    "products": 41,
+    "exhibits": 43,
+    "photos": 116,
+    "photoLinks": 120,
+    "catalogs": 16,
+    "analyses": 62,
+    "assertions": 8662,
+    "sources": 223,
+    "mapDocuments": 2,
+    "mapGeometries": 32,
+    "rosterEntries": 3670,
+    "legacyCriteria": 10,
+    "collections": 5,
+    "workQueue": 17,
+    "metrics": 5
+  },
+  "migration_records": 271,
+  "metrics": [
+    {
+      "eventId": "adex-2025",
+      "populationRows": 362,
+      "deduplicatedRosterOrganizations": 365,
+      "deduplicatedCompanyCandidateNames": 329,
+      "confirmedCompanyIdentities": 4,
+      "unresolvedCompositeIdentities": 8,
+      "registeredOrganizations": 366,
+      "collectiveOrganizations": 1,
+      "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+      "relevanceReviewed": 1,
+      "relevantOrganizations": 1,
+      "excludedOrganizations": 0,
+      "deepAnalysisComplete": 0,
+      "mapLinkedOrganizations": 35,
+      "numberLinkedOrganizations": 1,
+      "insufficientData": 366,
+      "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+      "directoryTraversalComplete": false,
+      "populationComplete": false,
+      "overallCompletionPercent": null
+    },
+    {
+      "eventId": "dsei-2025",
+      "populationRows": 1754,
+      "deduplicatedRosterOrganizations": 1738,
+      "deduplicatedCompanyCandidateNames": 1730,
+      "confirmedCompanyIdentities": 1,
+      "unresolvedCompositeIdentities": 7,
+      "registeredOrganizations": 1743,
+      "collectiveOrganizations": 10,
+      "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+      "relevanceReviewed": 0,
+      "relevantOrganizations": 0,
+      "excludedOrganizations": 0,
+      "deepAnalysisComplete": 0,
+      "mapLinkedOrganizations": 0,
+      "numberLinkedOrganizations": 1738,
+      "insufficientData": 1743,
+      "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+      "directoryTraversalComplete": true,
+      "populationComplete": false,
+      "overallCompletionPercent": null
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "populationRows": 58,
+      "deduplicatedRosterOrganizations": 58,
+      "deduplicatedCompanyCandidateNames": 58,
+      "confirmedCompanyIdentities": 0,
+      "unresolvedCompositeIdentities": 0,
+      "registeredOrganizations": 64,
+      "collectiveOrganizations": 1,
+      "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+      "relevanceReviewed": 0,
+      "relevantOrganizations": 0,
+      "excludedOrganizations": 0,
+      "deepAnalysisComplete": 0,
+      "mapLinkedOrganizations": 0,
+      "numberLinkedOrganizations": 58,
+      "insufficientData": 64,
+      "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+      "directoryTraversalComplete": false,
+      "populationComplete": false,
+      "overallCompletionPercent": null
+    },
+    {
+      "eventId": "idex-2025",
+      "populationRows": 30,
+      "deduplicatedRosterOrganizations": 30,
+      "deduplicatedCompanyCandidateNames": 30,
+      "confirmedCompanyIdentities": 0,
+      "unresolvedCompositeIdentities": 0,
+      "registeredOrganizations": 36,
+      "collectiveOrganizations": 4,
+      "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+      "relevanceReviewed": 10,
+      "relevantOrganizations": 10,
+      "excludedOrganizations": 0,
+      "deepAnalysisComplete": 0,
+      "mapLinkedOrganizations": 0,
+      "numberLinkedOrganizations": 30,
+      "insufficientData": 36,
+      "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+      "directoryTraversalComplete": false,
+      "populationComplete": false,
+      "overallCompletionPercent": null
+    },
+    {
+      "eventId": "saha-2026",
+      "populationRows": 1466,
+      "deduplicatedRosterOrganizations": 1463,
+      "deduplicatedCompanyCandidateNames": 1461,
+      "confirmedCompanyIdentities": 0,
+      "unresolvedCompositeIdentities": 2,
+      "registeredOrganizations": 1467,
+      "collectiveOrganizations": 5,
+      "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+      "relevanceReviewed": 0,
+      "relevantOrganizations": 0,
+      "excludedOrganizations": 0,
+      "deepAnalysisComplete": 0,
+      "mapLinkedOrganizations": 0,
+      "numberLinkedOrganizations": 1462,
+      "insufficientData": 1467,
+      "insufficientDataDefinition": "Registered organizations without reviewed event-specific actual-exhibit evidence; basic listing is not deep analysis.",
+      "directoryTraversalComplete": true,
+      "populationComplete": false,
+      "overallCompletionPercent": null
+    }
+  ],
+  "generated_files": {
+    "registry.json": {
+      "sha256": "c99bf9fa1593cdd139c26996d7643e99a35d97b4add554b1a8377f837e1c06e3",
+      "bytes": 10812320,
+      "tracked": false
+    },
+    "public.json": {
+      "sha256": "37f1a60de547cbfdb529413cbe073fc2f30edd7d826981c2650058b46e79fad4",
+      "bytes": 2755172,
+      "tracked": false
+    },
+    "legacy-mapping.json": {
+      "sha256": "63ae328c16e366f757a6364e3b5c5b3cf5e9b9fc5b5defcaa609ceb3b793b26f",
+      "bytes": 59740,
+      "tracked": true
+    }
+  },
+  "production_changed": false,
+  "browser_storage_touched": false,
+  "remote_model_commit": null,
+  "remote_model_ci": "pending"
+}

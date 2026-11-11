@@ -1,0 +1,2179 @@
+{
+  "sourceFiles": [
+    "data/catalog.json",
+    "data/event-reports.json",
+    "data/review.json",
+    "data/review-photos.json"
+  ],
+  "records": [
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "event",
+      "oldId": "adex-2025",
+      "eventId": "adex-2025",
+      "newType": "events",
+      "newId": "adex-2025"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "event",
+      "oldId": "idex-2025",
+      "eventId": "idex-2025",
+      "newType": "events",
+      "newId": "idex-2025"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "event",
+      "oldId": "dsei-2025",
+      "eventId": "dsei-2025",
+      "newType": "events",
+      "newId": "dsei-2025"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "event",
+      "oldId": "saha-2026",
+      "eventId": "saha-2026",
+      "newType": "events",
+      "newId": "saha-2026"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "event",
+      "oldId": "eurosatory-2026",
+      "eventId": "eurosatory-2026",
+      "newType": "events",
+      "newId": "eurosatory-2026"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "event",
+      "oldId": "eurosatory-2026",
+      "eventId": "eurosatory-2026",
+      "newType": "events",
+      "newId": "eurosatory-2026"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "event",
+      "oldId": "dsei-2025",
+      "eventId": "dsei-2025",
+      "newType": "events",
+      "newId": "dsei-2025"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "event",
+      "oldId": "idex-2025",
+      "eventId": "idex-2025",
+      "newType": "events",
+      "newId": "idex-2025"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "event",
+      "oldId": "saha-2026",
+      "eventId": "saha-2026",
+      "newType": "events",
+      "newId": "saha-2026"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "event",
+      "oldId": "adex-2025",
+      "eventId": "adex-2025",
+      "newType": "events",
+      "newId": "adex-2025"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "event",
+      "oldId": "adex-2025",
+      "eventId": "adex-2025",
+      "newType": "events",
+      "newId": "adex-2025"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "boxer-miv",
+      "eventId": null,
+      "newType": "products",
+      "newId": "boxer-miv"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "boxer-miv",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-19a02aaded2ff6acee41"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "patria-6x6",
+      "eventId": null,
+      "newType": "products",
+      "newId": "patria-6x6"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "patria-6x6",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-524ffcced07757b43055"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "lynx-skyranger35",
+      "eventId": null,
+      "newType": "products",
+      "newId": "lynx-skyranger35"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "lynx-skyranger35",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-e418981c1539aeb8abdd"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "leopard-2a8",
+      "eventId": null,
+      "newType": "products",
+      "newId": "leopard-2a8"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "leopard-2a8",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-5a24e90ba1b7d59c3a7d"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "rch155-tracked",
+      "eventId": null,
+      "newType": "products",
+      "newId": "rch155-tracked"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "rch155-tracked",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-e7aa6010ce9d1f95002e"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "k2pl",
+      "eventId": null,
+      "newType": "products",
+      "newId": "k2pl"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "k2pl",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-be09d571f1db2f73071b"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "k808-peru",
+      "eventId": null,
+      "newType": "products",
+      "newId": "k808-peru"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "k808-peru",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-3f133c1e3c1af8a07ab9"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "k9a3",
+      "eventId": null,
+      "newType": "products",
+      "newId": "k9a3"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "k9a3",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-033f341d55bf807b21d3"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "themis-k",
+      "eventId": null,
+      "newType": "products",
+      "newId": "themis-k"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "themis-k",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-54ad1e1f1bc992c2ee40"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "arma-ii",
+      "eventId": null,
+      "newType": "products",
+      "newId": "arma-ii"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "arma-ii",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-2823cd15cfbef90b32cd"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "tulpar",
+      "eventId": null,
+      "newType": "products",
+      "newId": "tulpar"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "tulpar",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-040a7e8b05680c6a767c"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "cobra-ii",
+      "eventId": null,
+      "newType": "products",
+      "newId": "cobra-ii"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "cobra-ii",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-257e1811ee308c555745"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "pars-alpha",
+      "eventId": null,
+      "newType": "products",
+      "newId": "pars-alpha"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "pars-alpha",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-c30758055924ba0681b4"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "product",
+      "oldId": "kaplan-hybrid",
+      "eventId": null,
+      "newType": "products",
+      "newId": "kaplan-hybrid"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "analysis",
+      "oldId": "kaplan-hybrid",
+      "eventId": null,
+      "newType": "analyses",
+      "newId": "analysis-aa67ad54036655e9385d"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "k2pl",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "k2pl"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "k2pl",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-0d65672c48461a4b33e8"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "light-105",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "light-105"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "light-105",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-0a861fcae48f5bad3228"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "rcws",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "rcws"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "rcws",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-990bfce732085e29481f"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "tasman-military",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "tasman-military"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "tasman-military",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-b54c39322a1581eb914d"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "kmtv",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "kmtv"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "kmtv",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-f51cd9ecdfa082c521dd"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "k808-peru",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "k808-peru"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "k808-peru",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-b79af744697729df8255"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "themis-k",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "themis-k"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "themis-k",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2dcd894d9f927cc46b67"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "black-veil",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "black-veil"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "black-veil",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-dafc0109ff6001b1ddb1"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "havoc-8x8",
+      "eventId": "idex-2025",
+      "newType": "products",
+      "newId": "havoc-8x8"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "havoc-8x8",
+      "eventId": "idex-2025",
+      "newType": "analyses",
+      "newId": "analysis-d137cc21b25258b46356"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "ajban-family",
+      "eventId": "idex-2025",
+      "newType": "products",
+      "newId": "ajban-family"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "ajban-family",
+      "eventId": "idex-2025",
+      "newType": "analyses",
+      "newId": "analysis-eadb0d9004d716b5966b"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "acv",
+      "eventId": "idex-2025",
+      "newType": "products",
+      "newId": "acv"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "acv",
+      "eventId": "idex-2025",
+      "newType": "analyses",
+      "newId": "analysis-09cf1493f2d884f2639a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "t90ms",
+      "eventId": "idex-2025",
+      "newType": "products",
+      "newId": "t90ms"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "t90ms",
+      "eventId": "idex-2025",
+      "newType": "analyses",
+      "newId": "analysis-60b50c95e3ee32d16581"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "cobra-ii",
+      "eventId": "idex-2025",
+      "newType": "products",
+      "newId": "cobra-ii"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "cobra-ii",
+      "eventId": "idex-2025",
+      "newType": "analyses",
+      "newId": "analysis-22a6827e09ed01c2a580"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "cockerill-ix",
+      "eventId": "idex-2025",
+      "newType": "products",
+      "newId": "cockerill-ix"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "cockerill-ix",
+      "eventId": "idex-2025",
+      "newType": "analyses",
+      "newId": "analysis-6c33ae09861824ff306a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "hafeet-mk2",
+      "eventId": "idex-2025",
+      "newType": "products",
+      "newId": "hafeet-mk2"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "hafeet-mk2",
+      "eventId": "idex-2025",
+      "newType": "analyses",
+      "newId": "analysis-d7b6df0f039b14faa58e"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "themis-combat",
+      "eventId": "idex-2025",
+      "newType": "products",
+      "newId": "themis-combat"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "themis-combat",
+      "eventId": "idex-2025",
+      "newType": "analyses",
+      "newId": "analysis-f84f3b1f0a8da0bd9bff"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "kia-platforms-dsei2025",
+      "eventId": "dsei-2025",
+      "newType": "products",
+      "newId": "kia-platforms-dsei2025"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "kia-platforms-dsei2025",
+      "eventId": "dsei-2025",
+      "newType": "analyses",
+      "newId": "analysis-17f399a76fc20b85ba7d"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "boxer-dsei2025",
+      "eventId": "dsei-2025",
+      "newType": "products",
+      "newId": "boxer-dsei2025"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "boxer-dsei2025",
+      "eventId": "dsei-2025",
+      "newType": "analyses",
+      "newId": "analysis-76856aa2f641b02e5c7a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "roshel-family-dsei2025",
+      "eventId": "dsei-2025",
+      "newType": "products",
+      "newId": "roshel-family-dsei2025"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "roshel-family-dsei2025",
+      "eventId": "dsei-2025",
+      "newType": "analyses",
+      "newId": "analysis-84c6affcf853048d84c5"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "gdams-dsei2025",
+      "eventId": "dsei-2025",
+      "newType": "products",
+      "newId": "gdams-dsei2025"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "gdams-dsei2025",
+      "eventId": "dsei-2025",
+      "newType": "analyses",
+      "newId": "analysis-8338b05646c3497eec51"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "tulpar-korhan",
+      "eventId": "saha-2026",
+      "newType": "products",
+      "newId": "tulpar-korhan"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "tulpar-korhan",
+      "eventId": "saha-2026",
+      "newType": "analyses",
+      "newId": "analysis-e958c90eb36b9afb653c"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "cobra-ii-bee-eater",
+      "eventId": "saha-2026",
+      "newType": "products",
+      "newId": "cobra-ii-bee-eater"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "cobra-ii-bee-eater",
+      "eventId": "saha-2026",
+      "newType": "analyses",
+      "newId": "analysis-ac42687b267c4ed79bca"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "alka-kaplan-autonomous",
+      "eventId": "saha-2026",
+      "newType": "products",
+      "newId": "alka-kaplan-autonomous"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "alka-kaplan-autonomous",
+      "eventId": "saha-2026",
+      "newType": "analyses",
+      "newId": "analysis-12d98ce94a05684a6a0a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "pamir-4x4",
+      "eventId": "saha-2026",
+      "newType": "products",
+      "newId": "pamir-4x4"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "pamir-4x4",
+      "eventId": "saha-2026",
+      "newType": "analyses",
+      "newId": "analysis-e28468d6b5e695286bf9"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "eu-korkut-25",
+      "eventId": "eurosatory-2026",
+      "newType": "products",
+      "newId": "eu-korkut-25"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "eu-korkut-25",
+      "eventId": "eurosatory-2026",
+      "newType": "analyses",
+      "newId": "analysis-d2315ec94fe2cedc2f4b"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "eu-mars-rbs70",
+      "eventId": "eurosatory-2026",
+      "newType": "products",
+      "newId": "eu-mars-rbs70"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "eu-mars-rbs70",
+      "eventId": "eurosatory-2026",
+      "newType": "analyses",
+      "newId": "analysis-5f5bc822024830bf7bf3"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "eu-light-105",
+      "eventId": "eurosatory-2026",
+      "newType": "products",
+      "newId": "eu-light-105"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "eu-light-105",
+      "eventId": "eurosatory-2026",
+      "newType": "analyses",
+      "newId": "analysis-e6067386f6f9f6dee059"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "eu-rcws",
+      "eventId": "eurosatory-2026",
+      "newType": "products",
+      "newId": "eu-rcws"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "eu-rcws",
+      "eventId": "eurosatory-2026",
+      "newType": "analyses",
+      "newId": "analysis-73b6e561e37452e8454f"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "eu-kltv-cargo",
+      "eventId": "eurosatory-2026",
+      "newType": "products",
+      "newId": "eu-kltv-cargo"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "eu-kltv-cargo",
+      "eventId": "eurosatory-2026",
+      "newType": "analyses",
+      "newId": "analysis-0cf6669b20f832057bf2"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "eu-tasman-c2",
+      "eventId": "eurosatory-2026",
+      "newType": "products",
+      "newId": "eu-tasman-c2"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "eu-tasman-c2",
+      "eventId": "eurosatory-2026",
+      "newType": "analyses",
+      "newId": "analysis-ad3d92963531ff317439"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "product",
+      "oldId": "eu-k2-export",
+      "eventId": "eurosatory-2026",
+      "newType": "products",
+      "newId": "eu-k2-export"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "analysis",
+      "oldId": "eu-k2-export",
+      "eventId": "eurosatory-2026",
+      "newType": "analyses",
+      "newId": "analysis-bd574473a4181108f3cc"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "product",
+      "oldId": "k2pl",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "k2pl"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "k2pl-customer",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2a4cac1c09acea66e7fe"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "k2pl-package",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2a4cac1c09acea66e7fe"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "k2pl-local",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2a4cac1c09acea66e7fe"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "k2pl-support",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2a4cac1c09acea66e7fe"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "analysis",
+      "oldId": "k2pl",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2a4cac1c09acea66e7fe"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "product",
+      "oldId": "light-105",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "light-105"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "light105-platform",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-8a2cff9ec5910fac2558"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "light105-lightweight",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-8a2cff9ec5910fac2558"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "light105-family",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-8a2cff9ec5910fac2558"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "light105-workspace",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-8a2cff9ec5910fac2558"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "analysis",
+      "oldId": "light-105",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-8a2cff9ec5910fac2558"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "product",
+      "oldId": "rcws",
+      "eventId": "adex-2025",
+      "newType": "products",
+      "newId": "rcws"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "rcws-remote",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2d130f73cbb3fde0bce1"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "rcws-range",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2d130f73cbb3fde0bce1"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "rcws-carrier",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2d130f73cbb3fde0bce1"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "observation",
+      "oldId": "rcws-operator",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2d130f73cbb3fde0bce1"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "analysis",
+      "oldId": "rcws",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "analysis-2d130f73cbb3fde0bce1"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "purpose",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "purpose"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "layout",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "layout"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "mobility",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "mobility"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "ergonomics",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "ergonomics"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "protection",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "protection"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "integration",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "integration"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "maintenance",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "maintenance"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "modularity",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "modularity"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "maturity",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "maturity"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "criterion",
+      "oldId": "implication",
+      "eventId": null,
+      "newType": "legacyCriteria",
+      "newId": "implication"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-3bab6a6d3d461b5e7454"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-01",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-8f805ff9602c7bf8d0cc"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-02",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-e7669094e841a27c6985"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-07",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-9389c76adbae3b159148"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-08",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-f6eb2c916d7aa9c96ba4"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-12",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-f1be4a809c623d27f2de"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-14",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-95dbbd8c938ada2dafa8"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-16",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-e92ed7d1fd835105ca68"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-18",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-e0d3676bc8e97ce0194b"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-19",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-8b2c22f6f3b6d39d1ba0"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-21",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-3448c374bc6377c4ef10"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "boxer-miv-22",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-19046c09fb26777f48f0"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k2pl-05",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-f4fdc8f2aee6a9f9a71d"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k2pl-23",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-20bc64ed322f8b231c24"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k2pl-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-5b4d7966a5166ec9ee13"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k2pl-08",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-c7547977e70545ff4811"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k2pl-09",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-349b597b071a9a680f4f"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k2pl-10",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-2aab6dc4b4dac892e6ce"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k2pl-11",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-8963c1777a31fc9ff30e"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k2pl-17",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-b4240aeef7727bb0eaed"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k2pl-01",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-5b314b87c465ad7dc85d"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "patria-6x6-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-3ab93894767d28bdb0f4"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "patria-6x6-01",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-ecfd6ef1b18a9c9b8992"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "patria-6x6-02",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-a20c190c720276d8b052"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "patria-6x6-04",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-1ac7e803c1bd498e38db"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "patria-6x6-08",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-492f1f7a13f186a25ef3"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "lynx-skyranger35-03",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-03669377a0a61c04a65a"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "lynx-skyranger35-05",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-053c8f6f2f57a2da2027"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "lynx-skyranger35-07",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-65faaa666aee3d6b073e"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "leopard-2a8-04",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-df3f297ae7de030893e5"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "leopard-2a8-02",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-43700666675664039ef0"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "leopard-2a8-07",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-4cfe6358b053c3c05ff2"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "rch155-tracked-03",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-ea6ff1f1d7ab627e56a1"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "rch155-tracked-05",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-3798126e3c80324c1505"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "rch155-tracked-06",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-3ec2bb0e3eb1f5f84a56"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k808-peru-12",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-8cb92337cbe64b9d79c2"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k808-peru-14",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-ae64069da5fabe110150"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k808-peru-15",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-d342be54ccbb83543ea2"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k9a3-03",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-4c2fd88d1c7f7c051cf4"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k9a3-02",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-b899b0a5029942a40233"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k9a3-11",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-863fb7a66d8bcb49b580"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "themis-k-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-f9aa714ffc42baff7a00"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "arma-ii-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-e228010562adee0f803a"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "arma-ii-01",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-ac687be9d93443efc546"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "tulpar-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-5fbef9765de4f339f63f"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "cobra-ii-08",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-cb87df5d135cfa3a2f1a"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "pars-alpha-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-5856f0c21570a730032d"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "pars-alpha-11",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-6236edcf1728b4f16107"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "kaplan-hybrid-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-4bef82b6b1d34e0a0101"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k9a3-07",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-bed113fb841d99323427"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "k808-peru-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-482c08c89efd0cc89020"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "cobra-ii-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-ea32c7ac98ac9fb81cba"
+    },
+    {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "themis-k-21",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-25e3c0aefc7efbbcfddc"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "k2pl-event-01",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-f27315794918d9b8ddce"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "light-105-event-01",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-f07b18031de173091dff"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "rcws-event-01",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-406026b01ffa0009623a"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "k2pl-05",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-f4fdc8f2aee6a9f9a71d"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "k2pl-08",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-c7547977e70545ff4811"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "k2pl-09",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-349b597b071a9a680f4f"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "k2pl-00",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-5b4d7966a5166ec9ee13"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "light-105-wds2026-01",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-7198090e66604758267c"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "light-105-eurosatory2026-01",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-81610d7ae35d4bd5b354"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "light-105-eurosatory2026-02",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-0642e500330d08ea35be"
+    },
+    {
+      "sourceFile": "data/review-photos.json",
+      "recordType": "photo",
+      "oldId": "rcws-eurosatory2026-01",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-60cf5a2d603caa260f23"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "k2pl-event-01",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-f27315794918d9b8ddce"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex-k2pl-ceo",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-d567b099067d175da982"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "light-105-event-01",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-f07b18031de173091dff"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex-light105-herald",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-3b90804f3d47a1228fcb"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "rcws-event-01",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-406026b01ffa0009623a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex2025-new-tasman-front",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-88508f17c41d264626d0"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex2025-new-kia-family",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-af0b79b5b51a37df0ab9"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex-tasman-asia",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-663d72c9e9ede8415645"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex2025-new-kmtv-front",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-c9b10caa412b9d19d1ef"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex-themis-maphoto",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-0d15d86d393fb006ec50"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex-themis-bloter",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-5c38f98aa39286575d1b"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex-blackveil-herald",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-9507c13028bc16ca66e8"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "adex2025-new-rotem-booth",
+      "eventId": "adex-2025",
+      "newType": "photos",
+      "newId": "photo-e0774b19c4805c2bb425"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-havoc-01",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-d230f00bf90029fc0a2e"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-havoc-02",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-985b49c2b185568fba9d"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-havoc-03",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-0807aea6727cdd66f83c"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-ajban-441ae",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-37412350e639440f3d71"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-ajban-442a",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-12e23567663eba491f36"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-ajban-452a",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-954ad88a75d6531185e2"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-acv-rws",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-ec57e567a5091a1ac1ac"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-acv-thruster",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-68c423ede7bd55417d56"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-t90ms-front",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-6fe3dd99c161ed32ca7a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-t90ms-side",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-5dd70cdd947e8d8264db"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-cobra-ii",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-cb87df5d135cfa3a2f1a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-cockerill-ix",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-77eec4976f1654c14cd9"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-hafeet",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-69dc76e63f40de3a4788"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "idex2025-themis-combat",
+      "eventId": "idex-2025",
+      "newType": "photos",
+      "newId": "photo-25e3c0aefc7efbbcfddc"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "dsei2025-kia-booth-01",
+      "eventId": "dsei-2025",
+      "newType": "photos",
+      "newId": "photo-648d50af60ebb4f3032a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "dsei2025-visitor-54785369506",
+      "eventId": "dsei-2025",
+      "newType": "photos",
+      "newId": "photo-82d773132553b98ac998"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "dsei2025-visitor-54786101885",
+      "eventId": "dsei-2025",
+      "newType": "photos",
+      "newId": "photo-0cae38d806030dcdea1a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "dsei2025-visitor-54785766106",
+      "eventId": "dsei-2025",
+      "newType": "photos",
+      "newId": "photo-bca8aa760976ba37519d"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "dsei2025-visitor-54785994754",
+      "eventId": "dsei-2025",
+      "newType": "photos",
+      "newId": "photo-11263067e6d43e7ce029"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "dsei2025-visitor-54783778059",
+      "eventId": "dsei-2025",
+      "newType": "photos",
+      "newId": "photo-759379832c8e0bb07807"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "saha2026-tulpar-korhan-aa-01",
+      "eventId": "saha-2026",
+      "newType": "photos",
+      "newId": "photo-cf26216591f376dad8f8"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "saha2026-cobra-ii-bee-eater-ar-01",
+      "eventId": "saha-2026",
+      "newType": "photos",
+      "newId": "photo-56aa8a3a1d06155388d5"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "saha2026-alka-kaplan-autonomous-janes-01",
+      "eventId": "saha-2026",
+      "newType": "photos",
+      "newId": "photo-c06237d4a87578256633"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "saha2026-pamir-4x4-aa-01",
+      "eventId": "saha-2026",
+      "newType": "photos",
+      "newId": "photo-615622cdf3a42116c5e3"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "saha2026-pamir-4x4-aa-02",
+      "eventId": "saha-2026",
+      "newType": "photos",
+      "newId": "photo-2202f5917524d294b0a5"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "saha2026-pamir-4x4-aa-03",
+      "eventId": "saha-2026",
+      "newType": "photos",
+      "newId": "photo-0a9bcb34156194d5cb41"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "saha2026-pamir-4x4-aa-04",
+      "eventId": "saha-2026",
+      "newType": "photos",
+      "newId": "photo-3ec9630c1820d23b7c20"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "saha2026-pamir-4x4-jf-01",
+      "eventId": "saha-2026",
+      "newType": "photos",
+      "newId": "photo-df4a3cb002317047f5a7"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "saha2026-pamir-4x4-jf-02",
+      "eventId": "saha-2026",
+      "newType": "photos",
+      "newId": "photo-00a310596595b5e1f2a6"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55342429582",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-6ac3e9dbf373e131d0e5"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343573969",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-aec42c56571bfacd9939"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343771705",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-c9de12f9cace0b10535f"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55342429507",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-8e783c755c82dc11628c"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343359116",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-8559a88b8564724e9075"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343508318",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-64952442f8046ffbbaf7"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343573879",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-59361c4bf771c72b9b97"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343502418",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-f39ef13bbe35952dc791"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343568009",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-05353942716e54058c53"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343502408",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-43d54391a2b676930834"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55342423407",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-942bfc3e192a0df3b107"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343508303",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-cefcbbd2b595ed31a69f"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55342429472",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-f94a052656828e8efc2a"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55343508278",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-e3d61f8445111321c23f"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-flickr-55342429412",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-22321203751121ea76df"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "light-105-eurosatory2026-01",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-81610d7ae35d4bd5b354"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "light-105-eurosatory2026-02",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-0642e500330d08ea35be"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "rcws-eurosatory2026-01",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-60cf5a2d603caa260f23"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-kia-kltv",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-ce3d7958065066487fe7"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-kia-booth",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-fe344eea0f7f2615ff7f"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-kia-tasman",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-999005f47b49d93d96ef"
+    },
+    {
+      "sourceFile": "data/event-reports.json",
+      "recordType": "photo",
+      "oldId": "eurosatory2026-rotem",
+      "eventId": "eurosatory-2026",
+      "newType": "photos",
+      "newId": "photo-a305d72436108230a626"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "comparison",
+      "oldId": "comparison:0",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-5803434a552d07f7ed75"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "trend",
+      "oldId": "trend:0",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-5c20a8002aec41ebe6d6"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "briefing",
+      "oldId": "briefing:0",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-ee8771210cc07835072f"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "briefing",
+      "oldId": "briefing:1",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-492fed123b0c8e4be7d4"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "briefing",
+      "oldId": "briefing:2",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-0dc6b5b3d0fbdfcef9c6"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "photoObservations",
+      "oldId": "k2pl|k2pl-event-01|k2pl-customer",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-5763256ea6d4c3fbe507"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "photoObservations",
+      "oldId": "k2pl|k2pl-event-01|k2pl-package",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-3e44977c6e4be57ac523"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "photoObservations",
+      "oldId": "k2pl|k2pl-event-01|k2pl-support",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-f7805eed09823c3453c3"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "photoObservations",
+      "oldId": "light-105|light-105-event-01|light105-platform",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-37cef5e3cc0446ae00b6"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "photoObservations",
+      "oldId": "light-105|light-105-event-01|light105-workspace",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-1f37a0c42604d736b858"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "photoObservations",
+      "oldId": "light-105|light-105-event-01|light105-family",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-a64adc42fc5eb22a4adc"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "photoObservations",
+      "oldId": "rcws|rcws-event-01|rcws-range",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-68f89937f64f9306718c"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "photoObservations",
+      "oldId": "rcws|rcws-event-01|rcws-carrier",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-c7c66ab52cd0e411a596"
+    },
+    {
+      "sourceFile": "data/review.json",
+      "recordType": "photoObservations",
+      "oldId": "rcws|rcws-event-01|rcws-remote",
+      "eventId": "adex-2025",
+      "newType": "analyses",
+      "newId": "legacy-review-ef152da734e95829b9e0"
+    }
+  ],
+  "policy": "Legacy identifiers retained in namespace-qualified mapping; legacy verification is not promoted to v2 verification."
+}

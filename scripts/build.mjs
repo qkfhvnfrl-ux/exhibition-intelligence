@@ -1,10 +1,14 @@
 import {mkdir,rm,cp,readFile,writeFile} from 'node:fs/promises';
 await import('./compile-data.mjs');
 await import('./compile-event-data.mjs');
+const {compileV2}=await import('./compile-v2-data.mjs');
+await compileV2();
 await rm('dist',{recursive:true,force:true});await mkdir('dist',{recursive:true});
 for(const p of ['index.html','legacy.html','src','assets'])await cp(p,`dist/${p}`,{recursive:true});
 await mkdir('dist/data',{recursive:true});await cp('data/catalog.json','dist/data/catalog.json');
 for(const p of ['review.json','review-photos.json','event-reports.json'])await cp(`data/${p}`,`dist/data/${p}`);
+await mkdir('dist/data/v2',{recursive:true});
+await cp('data/v2/public.json','dist/data/v2/public.json');
 await writeFile('dist/.nojekyll','');
 const pkg=JSON.parse(await readFile('package.json','utf8'));
 await writeFile('dist/version.json',JSON.stringify({version:pkg.version,build:new Date().toISOString()},null,2));

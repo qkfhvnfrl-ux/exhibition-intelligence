@@ -4,3 +4,7 @@ dist/
 *.log
 .DS_Store
 .openai/
+
+# Rebuilt from tracked v2 collection, map and legacy inputs
+data/v2/registry.json
+data/v2/public.json

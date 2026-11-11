@@ -8,7 +8,9 @@
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check src/app.js && node --check src/review.js && node --check src/event-reports.js && node --check src/public-gallery.js && node --check src/field-records.js && npm test"
+    "check": "node --check src/app.js && node --check src/review.js && node --check src/event-reports.js && node --check src/public-gallery.js && node --check src/field-records.js && npm run compile:v2 && npm run validate:v2 && npm test",
+    "compile:v2": "node scripts/compile-v2-data.mjs",
+    "validate:v2": "node scripts/validate-v2-data.mjs"
   },
   "engines": {
     "node": ">=20"

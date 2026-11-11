@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T07:11:59+09:00",
+  "updated_at": "2026-11-12T07:18:27+09:00",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -19,7 +19,7 @@
     "remote_branch": "origin/work/fieldnote-v2",
     "implementation_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
     "remote_verified_commit": "81b88ecfab6740fbf218000a1b310c75b6386a74",
-    "state": "stage_2_in_progress",
+    "state": "stage_2_validated_pending_remote",
     "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response."
   },
   "unslop": {
@@ -58,17 +58,22 @@
         "docs/EXECUTIVE_V2_STAGE_2_COLLECTION.md",
         "docs/research-v2/adex-map-review.md",
         "data/v2/collection/",
-        "data/v2/maps/adex-2025.json"
+        "data/v2/maps/adex-2025.json",
+        "docs/EXECUTIVE_V2_DATA_CONTRACT.md",
+        "docs/EXECUTIVE_V2_STAGE_2_VERIFICATION.md",
+        "docs/evidence/EXECUTIVE_V2_STAGE_2_CHECKS.json",
+        "docs/research-v2/code-review.md"
       ],
       "implementation_commit": null,
       "start_commit": "622cb9149912bacf6b46a378c53de7ae1972ec6e",
       "collected_source_rows": 3670,
       "stage3_ready": false,
       "remaining_in_stage2": [
-        "common model/migration validator and edge-case tests",
-        "final metrics and independent model review",
-        "remote implementation/handoff commits and CI"
-      ]
+        "remote common-model implementation commit/CI",
+        "final handoff commit and remote ref verification"
+      ],
+      "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
+      "validation_tests": 83
     },
     {
       "stage": 3,
