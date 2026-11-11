@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-12T07:41:58+09:00",
+  "documents": [
+    {
+      "documentId": "map-adex-2025-kintex-20251011-p1",
+      "eventId": "adex-2025",
+      "background": {
+        "type": "image",
+        "url": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.png",
+        "imageUrl": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.png",
+        "sourceUrl": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+        "attribution": "서울 ADEX 2025 · 공식 사전 배치도 (문서 표기 2025.10.11)",
+        "width": 1653,
+        "height": 1169,
+        "localPath": null,
+        "sha256": "0b283933dfcf86e971d9c1103ab3882388db100686d2f205f00a3fa60199cc30",
+        "bytes": 328639,
+        "fetchMode": "direct_image_element_without_crossorigin",
+        "loading": "when_selected_event_uses_this_document",
+        "coordinateSpace": "normalized_original",
+        "rotation": 0,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        }
+      },
+      "areas": [
+        {
+          "id": "7",
+          "label": "7홀",
+          "kind": "hall",
+          "bounds": [
+            0.19010096,
+            0.17729832,
+            0.78278309,
+            0.47746936
+          ],
+          "focusPoint": [
+            0.3381451,
+            0.32738384
+          ],
+          "boundaryScope": "shared_halls_7_8",
+          "outlineCoordinates": [
+            [
+              0.19010096,
+              0.17729832
+            ],
+            [
+              0.78278309,
+              0.17729832
+            ],
+            [
+              0.78278309,
+              0.47746936
+            ],
+            [
+              0.19010096,
+              0.47746936
+            ],
+            [
+              0.19010096,
+              0.17729832
+            ]
+          ],
+          "sourceDrawingIndices": [
+            0,
+            5472
+          ],
+          "sourceBoundsPt": [
+            226.31900024414062,
+            149.27099609375,
+            931.9189453125,
+            401.9909973144531
+          ],
+          "sourceLabelBoundsPt": [
+            334.468505859375,
+            108.73469543457031,
+            470.66851806640625,
+            135.2677001953125
+          ],
+          "note": "7·8홀은 원본에 공동 외곽으로 표시됩니다. 선택 시 공식 홀 제목 위치를 기준으로 시점을 옮기며 두 홀 사이의 경계를 만들지 않습니다.",
+          "focusPointBasis": "Horizontal centre of printed hall-title rectangle and vertical centre of its depicted outline; camera target only, not a physical hall boundary or booth position."
+        },
+        {
+          "id": "8",
+          "label": "8홀",
+          "kind": "hall",
+          "bounds": [
+            0.19010096,
+            0.17729832,
+            0.78278309,
+            0.47746936
+          ],
+          "focusPoint": [
+            0.63431992,
+            0.32738384
+          ],
+          "boundaryScope": "shared_halls_7_8",
+          "outlineCoordinates": [
+            [
+              0.19010096,
+              0.17729832
+            ],
+            [
+              0.78278309,
+              0.17729832
+            ],
+            [
+              0.78278309,
+              0.47746936
+            ],
+            [
+              0.19010096,
+              0.47746936
+            ],
+            [
+              0.19010096,
+              0.17729832
+            ]
+          ],
+          "sourceDrawingIndices": [
+            0,
+            5491
+          ],
+          "sourceBoundsPt": [
+            226.31900024414062,
+            149.27099609375,
+            931.9189453125,
+            401.9909973144531
+          ],
+          "sourceLabelBoundsPt": [
+            687.070556640625,
+            108.73469543457031,
+            823.2705688476562,
+            135.2677001953125
+          ],
+          "note": "7·8홀은 원본에 공동 외곽으로 표시됩니다. 선택 시 공식 홀 제목 위치를 기준으로 시점을 옮기며 두 홀 사이의 경계를 만들지 않습니다.",
+          "focusPointBasis": "Horizontal centre of printed hall-title rectangle and vertical centre of its depicted outline; camera target only, not a physical hall boundary or booth position."
+        },
+        {
+          "id": "9",
+          "label": "9홀",
+          "kind": "hall",
+          "bounds": [
+            0.48820572,
+            0.57011536,
+            0.80586522,
+            0.89872022
+          ],
+          "focusPoint": [
+            0.65174805,
+            0.73441779
+          ],
+          "boundaryScope": "individual_hall",
+          "outlineCoordinates": [
+            [
+              0.48820572,
+              0.89872022
+            ],
+            [
+              0.80586522,
+              0.89872022
+            ],
+            [
+              0.80586522,
+              0.57011536
+            ],
+            [
+              0.4970254,
+              0.57011536
+            ],
+            [
+              0.4970254,
+              0.80543347
+            ],
+            [
+              0.48820572,
+              0.80543347
+            ],
+            [
+              0.48820572,
+              0.89872022
+            ]
+          ],
+          "sourceDrawingIndices": [
+            104,
+            5485
+          ],
+          "sourceBoundsPt": [
+            581.2186889648438,
+            479.99151611328125,
+            959.398681640625,
+            756.6505126953125
+          ],
+          "sourceLabelBoundsPt": [
+            707.819580078125,
+            432.507080078125,
+            844.0186157226562,
+            459.0400695800781
+          ],
+          "note": "원본의 채색된 홀 외곽을 사용합니다. 실제 통로·층고·당일 실측을 뜻하지 않습니다.",
+          "focusPointBasis": "Horizontal centre of printed hall-title rectangle and vertical centre of its depicted outline; camera target only, not a physical hall boundary or booth position."
+        },
+        {
+          "id": "10",
+          "label": "10홀",
+          "kind": "hall",
+          "bounds": [
+            0.17054623,
+            0.56883256,
+            0.48820572,
+            0.89872022
+          ],
+          "focusPoint": [
+            0.32491559,
+            0.73377639
+          ],
+          "boundaryScope": "individual_hall",
+          "outlineCoordinates": [
+            [
+              0.48820572,
+              0.89872022
+            ],
+            [
+              0.17054623,
+              0.89872022
+            ],
+            [
+              0.17054623,
+              0.56883256
+            ],
+            [
+              0.47958763,
+              0.56883256
+            ],
+            [
+              0.47958763,
+              0.80543347
+            ],
+            [
+              0.48820572,
+              0.80543347
+            ],
+            [
+              0.48820572,
+              0.89872022
+            ]
+          ],
+          "sourceDrawingIndices": [
+            103,
+            5478
+          ],
+          "sourceBoundsPt": [
+            203.0386962890625,
+            478.9114990234375,
+            581.2186889648438,
+            756.6505126953125
+          ],
+          "sourceLabelBoundsPt": [
+            318.718505859375,
+            432.507080078125,
+            454.91851806640625,
+            459.0400695800781
+          ],
+          "note": "원본의 채색된 홀 외곽을 사용합니다. 실제 통로·층고·당일 실측을 뜻하지 않습니다.",
+          "focusPointBasis": "Horizontal centre of printed hall-title rectangle and vertical centre of its depicted outline; camera target only, not a physical hall boundary or booth position."
+        }
+      ],
+      "rights": {
+        "status": "remote_reference_only",
+        "redistributionPermission": "not_established",
+        "legalNoticeUrl": "https://advbe.com/index.php/en/legals-en",
+        "notes": "Use a direct reference to the official image, not a copied/re-hosted asset or framed organizer page. The linked legal notice names advbe.com and reserves reproduction rights; no open licence or permission is inferred. Existing original-document link_only status remains. No local PNG/PDF is shipped."
+      },
+      "verification": {
+        "status": "source_and_alignment_verified",
+        "checkedAt": "2026-11-12T07:41:58+09:00",
+        "sourcePage": "https://adex.bciaerospace.com/",
+        "sourceElement": "Floor Plan anchor to the PDF containing an image with src=/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.png",
+        "pdfSha256": "fd0bcbaa88705c683f28b8e2effe94fd749fa12fd654f11287b17025db688dde",
+        "pdfBytes": 5490107,
+        "pdfPageCount": 1,
+        "pdfOriginalSizePt": [
+          1190.52001953125,
+          841.9199829101562
+        ],
+        "pdfRotation": 0,
+        "pngPageAlignment": "Full-page layout and landmarks visually compared with original PDF rendered to matching PNG dimensions; no crop or rotation. Native PNG aspect differs only by raster rounding.",
+        "geometryCountRechecked": 32,
+        "geometryCheck": "All stored originalBoundsPt match corresponding current PDF vector rectangles within 1e-5 pt; all normalized polygon vertices remain in bounds.",
+        "http": {
+          "pdfStatus": 200,
+          "pngStatus": 200,
+          "pngReferer": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
+          "accessControlAllowOrigin": null,
+          "xFrameOptions": null
+        },
+        "browserRenderVerified": false,
+        "note": "HTTP and image/PDF inspection are verified here. Parent UI testing must verify actual browser remote-image display, panning, zoom and overlays."
+      },
+      "fallback": {
+        "onImageError": "Keep verified geometry and entity list available as explicitly simplified source-linked locations; open original PDF in a separate tab. Do not claim the official background loaded.",
+        "openSourceInNewTab": true,
+        "noCanvasReadback": true
+      },
+      "unsupportedAreas": {
+        "floorLevels": "not specified by this source; no invented floor switch",
+        "outdoor": "not depicted by this source; no invented outdoor geometry"
+      },
+      "planStatus": "pre_event_plan"
+    }
+  ]
+}

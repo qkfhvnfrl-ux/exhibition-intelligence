@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T07:22:19+09:00",
+  "updated_at": "2026-11-12T08:12:30+09:00",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -19,7 +19,7 @@
     "remote_branch": "origin/work/fieldnote-v2",
     "implementation_commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
     "remote_verified_commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
-    "state": "stage_2_complete_ready_for_stage_3",
+    "state": "stage_3_implemented_remote_save_pending",
     "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response.",
     "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a"
   },
@@ -31,8 +31,8 @@
     "installed": true,
     "original_text_unmodified": true,
     "provenance": "docs/EXECUTIVE_V2_UNSLOP.md",
-    "application": "stage_1_audit_and_rules_only",
-    "visual_passes_complete": false
+    "application": "stage_3_nine_pass_ui_implementation",
+    "visual_passes_complete": true
   },
   "stages": [
     {
@@ -193,11 +193,43 @@
     {
       "stage": 3,
       "name": "지도·업체 화면 구현",
-      "status": "not_started",
-      "instructions_received": false,
-      "instruction_file": null,
-      "evidence": [],
-      "implementation_commit": null
+      "status": "implemented_with_validation_limits",
+      "instructions_received": true,
+      "instruction_file": "docs/EXECUTIVE_V2_STAGE_3.md",
+      "evidence": [
+        "docs/EXECUTIVE_V2_STAGE_3_DATA.md",
+        "docs/EXECUTIVE_V2_STAGE_3_DESIGN.md",
+        "docs/EXECUTIVE_V2_STAGE_3_REMOVAL.md",
+        "docs/EXECUTIVE_V2_STAGE_3_VERIFICATION.md",
+        "docs/evidence/EXECUTIVE_V2_STAGE_3_CHECKS.json",
+        "docs/research-v2/stage3-cases.md",
+        "docs/research-v2/stage3-map-source.md",
+        "docs/research-v2/stage3-number-correction.md"
+      ],
+      "implementation_commit": null,
+      "start_commit": "aff4f5ca909bfbc7a945a512a2813b9513dfbeb5",
+      "local_validation_tests": 128,
+      "metrics": {
+        "adexVerifiedRegions": 32,
+        "adexMapLinkedOrganizationLabels": 35,
+        "adexReviewedEditorialExamples": 5,
+        "adexPhotoRecords": 42,
+        "eventCompanyLabels": {
+          "adex-2025": 366,
+          "eurosatory-2026": 64,
+          "dsei-2025": 1743,
+          "idex-2025": 36,
+          "saha-2026": 1467
+        },
+        "allEventsResearchComplete": false
+      },
+      "completed_at": "2026-11-12T08:12:30+09:00",
+      "completion_scope": "Map and company UI implemented, five source-backed example analyses, existing runtime removals, local browser verification and unit/integration checks. Full populations, physical phone, actual saved PDF pagination and deployment are not complete.",
+      "remaining_validation": [
+        "Physical phone tap/pinch/hit testing",
+        "Actual PDF save and page-break inspection in a browser with printing enabled"
+      ],
+      "stage4_ready": true
     },
     {
       "stage": 4,
@@ -292,7 +324,7 @@
       "업체·장비",
       "핵심 보고"
     ],
-    "feature_removal_status": "decided_not_implemented_stage_3",
+    "feature_removal_status": "implemented_and_excluded_from_v2_build",
     "preserve_local_storage_keys": [
       "fieldnote.review.adex2025.v1",
       "fieldnote.workspace.v1"
@@ -389,25 +421,33 @@
       "commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
       "tree": "187efeebd818dddad7f70039c0473cdfee5e4158",
       "evidence": "docs/evidence/EXECUTIVE_V2_STAGE_2_REMOTE.json"
+    },
+    {
+      "check": "stage_3_local_and_browser",
+      "stage": 3,
+      "result": "pass_with_named_limits",
+      "tests": 128,
+      "evidence": "docs/evidence/EXECUTIVE_V2_STAGE_3_CHECKS.json"
     }
   ],
   "unfinished": [
-    "Stage 3 three-menu map/company screens and removal of personal upload, notes/annotations, backup/restore, archive and management UI/modules from final build",
-    "ADEX official full roster/pavilion/outdoor expansion and 214 dense map-label transcriptions requiring review (stage 4)",
-    "Eurosatory full catalogue and booth maps beyond 58 LAB entries (stage 5)",
+    "ADEX full official directory/pavilions/outdoor and 214 dense map labels require review; five editorial examples are not full-population completion (stage 4)",
+    "PEI booth-number conflict 18-20 versus 7-C11 remains unresolved; preserve stable ID and verified pre-event geometry pending onsite cross-check (stage 4)",
+    "Reconcile five reviewed editorial examples into canonical analysis/participation ledger during stage 4; do not infer registry deep-completion counts from rendered cards",
+    "Eurosatory full catalogue and booth maps beyond LAB partial list (stage 5)",
     "DSEI identity/relevance/exhibit review and original 2025 map (stage 6)",
-    "IDEX 2025 organizer full roster/guide/map beyond 30 BDSV entries (stage 7)",
-    "SAHA 1466 profile/relevance reviews, 407 truncated category cards, population reconciliation and map originals (stage 8)",
-    "Original map redistribution/embedding rights unresolved; keep link_only until a usable basis is verified",
-    "Event-specific actual exhibits, source independence and company-specific deep analysis; all deep completion counts remain zero",
-    "Mobile, all-photo loading, full PDF pagination, combined report and production deployment (stage 9)"
+    "IDEX 2025 organizer full roster/guide/map beyond BDSV partial list (stage 7)",
+    "SAHA profile/relevance review, truncated categories, population reconciliation and original maps (stage 8)",
+    "Original-map redistribution permission unresolved; remote reference only, no local rehosting or open-license claim",
+    "Physical phone touch/hit testing and saved-PDF pagination remain unverified; managed validation browser disabled printing and DevTools",
+    "Full report consolidation, cross-event review and production deployment (stage 9)"
   ],
   "next_start": {
-    "stage": 3,
-    "title": "지도·업체 화면 구현",
+    "stage": 4,
+    "title": "ADEX 조사 확장",
     "instruction_status": "not_received",
-    "required_first_action": "Read AGENTS, BRIEF, STATUS, HANDOFF, STAGE_2 and DATA_CONTRACT; fetch work/fieldnote-v2 and verify it contains 61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8; read later handoff commits. When stage-3 instructions arrive, save them verbatim as docs/EXECUTIVE_V2_STAGE_3.md and link them before implementing. Run npm run compile:v2 and use public projection for UI, private registry/ledgers for research.",
-    "known_gap": "Full event populations and deep analyses remain incomplete; queues in five collection files point to stages 4–8. ADEX has 32 verified pre-event regions but map original is link_only; 31 region numbers remain unknown.",
-    "do_not": "Do not invent stage-3 detailed instructions, original-map reuse permission, booth numbers, coordinates or actual-exhibit evidence. Do not replace production before stage 9."
+    "required_first_action": "Read AGENTS, BRIEF, STATUS, HANDOFF, STAGE_3, STAGE_3_DATA and STAGE_3_VERIFICATION; fetch work/fieldnote-v2 and read commits after the recorded implementation. Preserve source IDs and the five source-backed editorial cases. Save received stage-4 instructions verbatim in EXECUTIVE_V2_STAGE_4.md and link BRIEF before acting on new details. Run npm run build then npm run check.",
+    "known_gap": "ADEX source map is verified and working; full directory and relevance review are incomplete. Preserve PEI conflicting-source correction and distinguish pre-event geometry from onsite confirmation.",
+    "do_not": "Do not fabricate instructions, booth numbers/geometry, map reuse rights, actual exhibits or completed population percentages. Do not deploy before stage 9."
   }
 }

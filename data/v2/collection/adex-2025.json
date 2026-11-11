@@ -123,7 +123,8 @@
       },
       "publishedAt": "2025-10-02",
       "independenceGroup": "pei-genesis-adex-2025-announcement",
-      "accessNotes": "Issuer announcement, not independent reporting. Pre-event planned attendance at Hall 7, booth 18-20. No onsite confirmation."
+      "accessNotes": "Issuer announcement, not independent reporting. Pre-event planned attendance at Hall 7, booth 18-20. No onsite confirmation.",
+      "originGroup": "pei-official-adex2025"
     },
     {
       "id": "src-adex-2025-brochure-unacquired",
@@ -175,6 +176,25 @@
         "notes": "Public access does not establish republication permission. Official footer reserves rights; store factual observations and source URL only."
       },
       "accessNotes": "All four PDF pages examined as text; cover says 2023 and Oct. 17–22. Zero rows/booth codes imported into ADEX 2025."
+    },
+    {
+      "id": "src-adex-2025-pei-live",
+      "url": "https://www.linkedin.com/posts/pei-genesis_connectors-backshells-cables-activity-7386215858634833920-QgTU",
+      "title": "PEI-Genesis official Seoul ADEX 2025 live post",
+      "publisher": "PEI-Genesis official LinkedIn",
+      "role": "exhibitor_live_announcement",
+      "edition": 2025,
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-12T07:49:59+09:00",
+      "publishedAt": null,
+      "originGroup": "pei-official-adex2025",
+      "rights": {
+        "status": "link_only",
+        "notes": "Issuer social post; no image or full post reproduced."
+      },
+      "notes": "Post states LIVE Seoul ADEX 2025 and Booth 7-C11. Relative date and Edited label do not establish exact publication date. Same issuer as the earlier press release, not independent number verification."
     }
   ],
   "collection": {
@@ -1242,9 +1262,7 @@
       "sourceId": "src-adex-2025-floorplan-20251011",
       "sourceLocator": "page 1 / Hall 7 / scanned label 033 / occurrence 1",
       "rawName": "PEI-GENESIS",
-      "boothCodes": [
-        "18-20"
-      ],
+      "boothCodes": [],
       "participationStatus": "listed",
       "relevance": {
         "status": "confirmed",
@@ -1275,6 +1293,13 @@
           "kind": "interpretation",
           "claim": "Announced military connectors and cable assemblies provide a concrete vehicle wiring/mission-interface review connection; vehicle-specific integration and onsite display remain unverified.",
           "independentSourceCount": 1
+        },
+        {
+          "sourceId": "src-adex-2025-pei-live",
+          "locator": "official live-post body",
+          "kind": "fact",
+          "claim": "The exhibitor live post identifies Booth 7-C11 at Seoul ADEX 2025. This differs from the earlier issuer announcement 18-20; neither number has been verified against this pre-event plan geometry.",
+          "independentSourceCount": 1
         }
       ],
       "rowKind": "map_label",
@@ -1283,9 +1308,30 @@
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
       "transcriptionStatus": "visually_reviewed",
-      "boothNumberStatus": "confirmed_single_source",
+      "boothNumberStatus": "conflicting_sources",
       "geometryStatus": "not_collected_here",
-      "attendanceStatus": "planned"
+      "attendanceStatus": "planned",
+      "numberClaims": [
+        {
+          "code": "18-20",
+          "status": "issuer_pre_event_announcement",
+          "sourceId": "src-adex-2025-pei-announcement",
+          "sourceUrl": "https://www.prnewswire.com/apac/news-releases/pei-genesis-to-exhibit-at-seoul-adex-2025-in-korea-302572565.html",
+          "publishedAt": "2025-10-02"
+        },
+        {
+          "code": "7-C11",
+          "status": "issuer_onsite_announcement",
+          "sourceId": "src-adex-2025-pei-live",
+          "sourceUrl": "https://www.linkedin.com/posts/pei-genesis_connectors-backshells-cables-activity-7386215858634833920-QgTU",
+          "publishedAt": null
+        }
+      ],
+      "numberCorrection": {
+        "id": "correction-adex-2025-pei-number",
+        "checkedAt": "2026-11-12T07:49:59+09:00",
+        "note": "부스번호 자료 상충: 사전 발표는 18-20, 업체 현장 게시물은 7-C11입니다. 지도는 공식 사전 배치도의 PEI 표기 위치이며 어느 번호와 일치하는지는 확인되지 않았습니다."
+      }
     },
     {
       "id": "adex25-maplabel-46188d6bf29ff1e0",
@@ -11433,6 +11479,13 @@
       "reason": "Official pre-show plan is a single source; not an event-day observation.",
       "nextAction": "Compare final guide/revision and booth photos; confirm booth codes, exhibited products, photos/catalogues and independent sources. Only then promote attendance/exhibition/deep-analysis status.",
       "missingRange": "All onsite and product exhibition claims; independent booth codes and final map corrections."
+    },
+    {
+      "id": "queue-adex-2025-pei-number-conflict",
+      "stage": 4,
+      "reason": "Issuer pre-event booth 18-20 differs from issuer live-post 7-C11. Neither number is matched to the verified pre-event polygon.",
+      "nextAction": "Find an organizer final booth list, corrected event-day plan or PEI onsite photograph with legible number; compare its placement with the pinned official pre-event plan before assigning a current code.",
+      "missingRange": "PEI-GENESIS final booth-number-to-plan-geometry reconciliation."
     }
   ]
 }

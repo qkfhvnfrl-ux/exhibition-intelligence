@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "correction-adex-2025-pei-number",
+  "eventId": "adex-2025",
+  "checkedAt": "2026-11-12T07:49:59+09:00",
+  "rosterEntryId": "adex25-maplabel-2e6e7f6c737fdca1",
+  "regionId": "adex-2025-region-pei-genesis",
+  "stableBoothId": "booth-c27e5705a13bd788443d",
+  "sources": [
+    {
+      "id": "src-adex-2025-pei-live",
+      "url": "https://www.linkedin.com/posts/pei-genesis_connectors-backshells-cables-activity-7386215858634833920-QgTU",
+      "title": "PEI-Genesis official Seoul ADEX 2025 live post",
+      "publisher": "PEI-Genesis official LinkedIn",
+      "role": "exhibitor_live_announcement",
+      "edition": 2025,
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-12T07:49:59+09:00",
+      "publishedAt": null,
+      "originGroup": "pei-official-adex2025",
+      "rights": {
+        "status": "link_only",
+        "notes": "Issuer social post; no image or full post reproduced."
+      },
+      "notes": "Post states LIVE Seoul ADEX 2025 and Booth 7-C11. Relative date and Edited label do not establish exact publication date. Same issuer as the earlier press release, not independent number verification."
+    }
+  ],
+  "claims": [
+    {
+      "code": "18-20",
+      "status": "issuer_pre_event_announcement",
+      "sourceId": "src-adex-2025-pei-announcement",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/pei-genesis-to-exhibit-at-seoul-adex-2025-in-korea-302572565.html",
+      "publishedAt": "2025-10-02"
+    },
+    {
+      "code": "7-C11",
+      "status": "issuer_onsite_announcement",
+      "sourceId": "src-adex-2025-pei-live",
+      "sourceUrl": "https://www.linkedin.com/posts/pei-genesis_connectors-backshells-cables-activity-7386215858634833920-QgTU",
+      "publishedAt": null
+    }
+  ],
+  "note": "부스번호 자료 상충: 사전 발표는 18-20, 업체 현장 게시물은 7-C11입니다. 지도는 공식 사전 배치도의 PEI 표기 위치이며 어느 번호와 일치하는지는 확인되지 않았습니다.",
+  "followup": {
+    "id": "queue-adex-2025-pei-number-conflict",
+    "stage": 4,
+    "reason": "Issuer pre-event booth 18-20 differs from issuer live-post 7-C11. Neither number is matched to the verified pre-event polygon.",
+    "nextAction": "Find an organizer final booth list, corrected event-day plan or PEI onsite photograph with legible number; compare its placement with the pinned official pre-event plan before assigning a current code.",
+    "missingRange": "PEI-GENESIS final booth-number-to-plan-geometry reconciliation."
+  }
+}

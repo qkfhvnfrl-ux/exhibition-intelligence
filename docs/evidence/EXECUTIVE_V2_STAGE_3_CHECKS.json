@@ -1,0 +1,148 @@
+{
+  "stage": 3,
+  "checkedAt": "2026-11-12T08:12:30+09:00",
+  "startCommit": "aff4f5ca909bfbc7a945a512a2813b9513dfbeb5",
+  "packageVersion": "2.0.0-stage.3",
+  "local": {
+    "build": "pass",
+    "check": "pass",
+    "tests": 128,
+    "passed": 128,
+    "failed": 0,
+    "diffCheck": "pass",
+    "deployAllowlist": "pass",
+    "temporaryMobileHarnessExcluded": true
+  },
+  "browser": {
+    "engine": "managed Chromium",
+    "desktopViewportCss": [
+      1348,
+      926
+    ],
+    "mobileMethod": "same real app in a 390 x 844 CSS-pixel iframe; 375px content width after desktop scrollbar; not device emulation",
+    "checks": [
+      {
+        "name": "official remote map background loaded",
+        "result": "pass"
+      },
+      {
+        "name": "shared booth company chooser preserves chosen region",
+        "result": "pass"
+      },
+      {
+        "name": "2D and simplified 3D same verified locations",
+        "result": "pass"
+      },
+      {
+        "name": "drag wheel zoom and back restoration",
+        "result": "pass"
+      },
+      {
+        "name": "hall 7 8 9 10 source-based focus",
+        "result": "pass"
+      },
+      {
+        "name": "company search with booth focus; product-name search covered by data regression",
+        "result": "pass"
+      },
+      {
+        "name": "unlocated 3M remains unlocated and readable",
+        "result": "pass"
+      },
+      {
+        "name": "featured five-case tour and component-category PEI tour",
+        "result": "pass"
+      },
+      {
+        "name": "company to photo previous-next and back-forward",
+        "result": "pass"
+      },
+      {
+        "name": "company to map return at narrow width",
+        "result": "pass"
+      },
+      {
+        "name": "direct link event category company booth mode tour compare restoration",
+        "result": "pass"
+      },
+      {
+        "name": "all five event selection and unknown-map list fallback",
+        "result": "pass"
+      },
+      {
+        "name": "catalog row detail and map return",
+        "result": "pass"
+      },
+      {
+        "name": "official map PDF opens in original tab",
+        "result": "pass"
+      },
+      {
+        "name": "catalog PDF opens exactly one original tab",
+        "result": "pass"
+      },
+      {
+        "name": "five-case report and print DOM with source links",
+        "result": "pass"
+      },
+      {
+        "name": "narrow viewport no horizontal overflow",
+        "result": "pass"
+      },
+      {
+        "name": "no application-origin console errors",
+        "result": "pass"
+      }
+    ],
+    "directLinkCameraMaxVirtualPageUnitError": 0.0004880170319,
+    "directLinkErrorCause": "camera normalized coordinates serialized to six decimals; below 0.001 SVG page units",
+    "print": {
+      "buttonAndReportPreparation": "pass",
+      "savedPdfAndPagination": "not_verified",
+      "blocker": "Managed Chromium Print menu visibly disabled; button and Ctrl+P did not open a dialog. Browser policy was not changed."
+    },
+    "touch": {
+      "pointerHandlerRegression": "pass",
+      "physicalPhone": "not_verified",
+      "mobileEmulation": "unavailable; browser DevTools policy disabled"
+    }
+  },
+  "metrics": {
+    "adexVerifiedRegions": 32,
+    "adexMapLinkedOrganizationLabels": 35,
+    "adexReviewedEditorialExamples": 5,
+    "adexPhotoRecords": 42,
+    "eventCompanyLabels": {
+      "adex-2025": 366,
+      "eurosatory-2026": 64,
+      "dsei-2025": 1743,
+      "idex-2025": 36,
+      "saha-2026": 1467
+    },
+    "allEventsResearchComplete": false
+  },
+  "storageAccessed": false,
+  "productionDeployed": false,
+  "screenshots": [
+    {
+      "path": "docs/evidence/stage3/desktop-map.jpg",
+      "sha256": "3cb501c860c77a59fae8cbbc5a0b92b1bb1f0b788caf5e8d4b01a51623ad2010",
+      "bytes": 133346
+    },
+    {
+      "path": "docs/evidence/stage3/desktop-photo.jpg",
+      "sha256": "8ba3bff398050ecc24b6d133583a17cc927be5d550eb0f9b3715672a83c47eeb",
+      "bytes": 136435
+    },
+    {
+      "path": "docs/evidence/stage3/mobile-map.jpg",
+      "sha256": "9b769403840cc41957da48952726225008b7237dd1d04504bd8fe7b13552a84d",
+      "bytes": 68955
+    },
+    {
+      "path": "docs/evidence/stage3/mobile-photo.jpg",
+      "sha256": "eb23545ddca0ee54f05c046e734888bd871d0946c1513288778f89e20bc4f45d",
+      "bytes": 41938
+    }
+  ]
+}

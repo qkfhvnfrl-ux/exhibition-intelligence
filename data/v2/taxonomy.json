@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "note": "공식 분류와 제품·분석 근거에 따른 탐색용 분류입니다. 분류만으로 차량 적용성이나 실제 출품을 확정하지 않습니다.",
+  "categories": [
+    {"id":"complete_vehicle","label":"완성차·차량 플랫폼","directoryLabels":["Land Platforms","Construction Machinery and Heavy Equipment"],"productLabels":["4×4 장갑차","경량 인원·화물 수송차량","경장갑차","군용 지원차량","군용 지휘차","궤도형 보병전투차","대드론 차량","방공 장갑차","소형 전술차량","소형전술차량","수륙양용 장갑차","장갑차","전차","차륜형 장갑차","특수 전술차량","하이브리드 궤도 플랫폼"],"relevanceLabels":["완성차"]},
+    {"id":"powertrain","label":"동력전달","directoryLabels":["Propulsion and Power Systems"],"productLabels":[],"relevanceLabels":["동력전달"]},
+    {"id":"running_gear","label":"차축·현수·조향·제동","directoryLabels":[],"productLabels":[],"relevanceLabels":["차축·현수·조향·제동"]},
+    {"id":"tires_ctis","label":"타이어·CTIS","directoryLabels":[],"productLabels":[],"relevanceLabels":["타이어·CTIS"]},
+    {"id":"thermal","label":"냉각·공조","directoryLabels":[],"productLabels":[],"relevanceLabels":["냉각·공조"]},
+    {"id":"electrical","label":"전력·배터리·배선","directoryLabels":["Cabling and Power Distribution Systems","Energy Storage and Management Systems"],"productLabels":[],"relevanceLabels":["전력·배터리·배선","electrical_wiring"]},
+    {"id":"protection","label":"소화·방호","directoryLabels":[],"productLabels":[],"relevanceLabels":["소화·방호"]},
+    {"id":"communications_navigation","label":"통신·항법","directoryLabels":["Communication, Command Control, and Information Technologies"],"productLabels":[],"relevanceLabels":["통신·항법·광학·상황인식"]},
+    {"id":"optics_awareness","label":"광학·상황인식","directoryLabels":["Optical Material and Electro-optic Device Technologies","Sensor and Sensor Systems Technologies"],"productLabels":[],"relevanceLabels":["광학·상황인식"]},
+    {"id":"mission_computing","label":"임무컴퓨터","directoryLabels":[],"productLabels":[],"relevanceLabels":["임무컴퓨터"]},
+    {"id":"unmanned_remote","label":"원격·무인체계","directoryLabels":["Unmanned Systems"],"productLabels":["무인지상차량","무인지상체계","원격무장장치","원격운용 장비"],"relevanceLabels":["원격·무인체계"]},
+    {"id":"interiors_modules","label":"좌석·내장·임무모듈","directoryLabels":["Vehicle-Mounted Equipment Systems"],"productLabels":["지상 임무체계"],"relevanceLabels":["좌석·내장·지휘소·의무후송 모듈"]},
+    {"id":"components","label":"커넥터·밸브·펌프·실링","directoryLabels":[],"productLabels":[],"relevanceLabels":["커넥터·밸브·펌프·실링","connectors"]},
+    {"id":"testing_maintenance","label":"정비·시험·진단","directoryLabels":["Testing and Certification Systems"],"productLabels":[],"relevanceLabels":["정비·시험·진단"]},
+    {"id":"manufacturing_simulation","label":"시뮬레이션·제조기술","directoryLabels":["Composite Material Technologies","Design, Analysis, and Engineering Services","Digital Transformation and Automation Technologies","Industrial Production Technologies and Robotic Systems","Machinery and Other Manufacturing Equipment","Material and Material Shaping Technologies","Painting and Coating Technologies","Simulators and Trainer Systems"],"productLabels":[],"relevanceLabels":["정비·시험·진단·시뮬레이션·제조기술","시뮬레이션·제조기술"]}
+  ]
+}

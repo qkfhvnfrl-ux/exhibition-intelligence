@@ -1,16 +1,17 @@
 {
   "name": "exhibition-intelligence",
-  "version": "1.1.0",
+  "version": "2.0.0-stage.3",
   "private": true,
   "type": "module",
-  "description": "Public-source ground equipment exhibition research workspace",
+  "description": "FIELDNOTE v2 executive exhibition map and evidence-based vehicle-system review",
   "scripts": {
-    "dev": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs --root dist",
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check src/app.js && node --check src/review.js && node --check src/event-reports.js && node --check src/public-gallery.js && node --check src/field-records.js && npm run compile:v2 && npm run validate:v2 && npm test",
+    "check": "node --check src/app.js && node --check src/review.js && node --check src/event-reports.js && node --check src/public-gallery.js && node --check src/field-records.js && npm run compile:v2 && npm run validate:v2 && npm run compile:v2:app && node --check src/v2/app.js && node --check src/v2/state.js && npm test",
     "compile:v2": "node scripts/compile-v2-data.mjs",
-    "validate:v2": "node scripts/validate-v2-data.mjs"
+    "validate:v2": "node scripts/validate-v2-data.mjs",
+    "compile:v2:app": "node scripts/compile-v2-app.mjs"
   },
   "engines": {
     "node": ">=20"

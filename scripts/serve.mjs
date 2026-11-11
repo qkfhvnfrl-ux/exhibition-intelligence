@@ -2,7 +2,7 @@ import http from 'node:http';
 import {readFile,stat} from 'node:fs/promises';
 import path from 'node:path';
 const args=process.argv.slice(2), arg=(name,fallback)=>{const i=args.indexOf(name);return i>=0?args[i+1]:fallback;};
-const root=process.cwd(), port=Number(arg('--port',process.env.PORT||3000)), host=arg('--host','0.0.0.0');
+const root=path.resolve(arg('--root',process.cwd())), port=Number(arg('--port',process.env.PORT||3000)), host=arg('--host','0.0.0.0');
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.ico':'image/x-icon'};
 http.createServer(async(req,res)=>{
  try{

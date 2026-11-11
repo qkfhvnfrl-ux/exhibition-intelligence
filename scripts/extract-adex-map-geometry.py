@@ -8,6 +8,7 @@ import hashlib
 import json
 import sys
 from pathlib import Path
+from adex_number_correction import apply_number_correction
 
 import fitz
 
@@ -96,7 +97,7 @@ def build(pdf_path):
                 'evidenceUrls': [MAP_URL] + ([PEI_URL] if pei else []),
                 'independentGeometryEvidence': False},
         })
-    return {
+    result = {
         'schemaVersion': 1, 'eventId': 'adex-2025', 'checkedAt': CHECKED,
         'sources': [{
             'id': SOURCE, 'url': MAP_URL, 'title': 'Seoul ADEX 2025 Floor Plan',
@@ -143,6 +144,7 @@ def build(pdf_path):
                          'Map background redistribution/embedding rights unresolved: stage 3 must keep official-source fallback.',
                          'No corrected event-day floorplan obtained; two onsite photo checks do not confirm as-built geometry.']
     }
+    return apply_number_correction(result)
 
 if __name__ == '__main__':
     result = build(sys.argv[1])

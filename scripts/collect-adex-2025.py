@@ -11,6 +11,7 @@ import hashlib
 import json
 from collections import Counter
 from pathlib import Path
+from adex_number_correction import apply_number_correction
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKED = "2026-11-11T22:05:00Z"
@@ -508,7 +509,7 @@ def build():
         {"id":"queue-adex-2025-identity","stage":4,"reason":"Shared and ambiguous labels need entity resolution; all relevance decisions except PEI are pending.","nextAction":"First enlarge each needs_review map label; resolve listedOrganizations and ambiguous identityNote rows without merging unrelated names; review all collected organizations for concrete vehicle-system/component connection, record exclusions with evidence.","missingRange":"All pending relevance rows, needs_review transcriptions and organization_unresolved labels."},
         {"id":"queue-adex-2025-onsite","stage":4,"reason":"Official pre-show plan is a single source; not an event-day observation.","nextAction":"Compare final guide/revision and booth photos; confirm booth codes, exhibited products, photos/catalogues and independent sources. Only then promote attendance/exhibition/deep-analysis status.","missingRange":"All onsite and product exhibition claims; independent booth codes and final map corrections."},
     ]
-    return dict(schemaVersion=1,eventId="adex-2025",checkedAt=CHECKED,sources=sources,
+    data = dict(schemaVersion=1,eventId="adex-2025",checkedAt=CHECKED,sources=sources,
         collection={"status":"partial","complete":False,"expectedTotal":None,"units":units,"missingRanges":missing,
             "notes":["Universe starts with the official plan, systematically reviewed across all four halls, not searches for well-known companies.",
                 "Raw entries count map labels, including repeat blocks and institution/pavilion/media labels; never report it as deduplicated exhibitor count.",
@@ -516,6 +517,7 @@ def build():
                 "Facilities (cafe, seminars, media conference rooms, delegation lounge, BtoB, prayer room, USA Pavilion meeting point, toilets) are not organizational roster rows.",
                 "Source name spellings are retained (including apparent typos). Brand/legal-name normalization needs a separate evidence-backed alias relationship."]},
         entries=entries,maps=[],queues=queues)
+    return apply_number_correction(data)
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
@@ -527,7 +529,7 @@ def main():
     data=build()
     assert len({e['id'] for e in data['entries']})==len(data['entries'])
     assert all(not e['boothCodes'] and e['relevance']['status']=='pending' for e in data['entries'] if e['rawName']!='PEI-GENESIS')
-    assert [e['boothCodes'] for e in data['entries'] if e['rawName']=='PEI-GENESIS']==[['18-20']]
+    assert [e['boothCodes'] for e in data['entries'] if e['rawName']=='PEI-GENESIS']==[[]]
     assert not data['collection']['complete'] and data['collection']['expectedTotal'] is None
     path=ROOT/'data/v2/collection/adex-2025.json'
     serialized=json.dumps(data,ensure_ascii=False,indent=2)+'\n'

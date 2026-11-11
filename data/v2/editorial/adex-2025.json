@@ -1,0 +1,880 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "dataAsOf": "2026-11-11",
+  "scope": "selected_cases_only",
+  "scopeNote": "3단계 상호작용 검증을 위한 선택 사례입니다. 전체 모집단의 관련성 검토 또는 전체 심층분석 완료를 뜻하지 않습니다.",
+  "sourcePolicy": "제조사 발표·관찰·해석을 분리합니다. 재전재는 독립 검증에 더하지 않고, 성능의 독립 시험이 없으면 그렇게 표시합니다.",
+  "cases": [
+    {
+      "id": "case-adex-2025-hyundai-rotem",
+      "organizationId": "org-bb5b014b7abb0359c75b",
+      "displayName": "현대로템",
+      "categoryIds": [
+        "complete_vehicle",
+        "interiors_modules",
+        "unmanned_remote"
+      ],
+      "productIds": [
+        "k2pl",
+        "k808-peru",
+        "black-veil"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "차륜장갑차의 임무별 파생과 무인 플랫폼을 함께 제시해, 공통 차체를 유지하면서 무엇을 바꾸어야 하는지 살펴볼 사례입니다.",
+      "highlights": [
+        "차륜장갑차 계열차량의 전시 소개를 확인했습니다. 개별 형식의 실차·모형 구분은 추가 확인이 필요합니다.",
+        "K2PL 전시실물과 현대로템 부스는 공식 사진·현장 취재를 대조했습니다.",
+        "관심은 제원 우위보다 임무별 공간·중량·전력 배분과 정비 공통성입니다."
+      ],
+      "exhibit": {
+        "summary": "ADEX 2025 공식 발표는 K2PL, 페루형 차륜장갑차와 지휘소·의무후송 계열, 블랙 베일을 소개합니다. 공개 사진으로 확인되는 실물과 발표에만 명시된 품목의 확인 수준을 나누었습니다.",
+        "items": [
+          {
+            "name": "K2PL",
+            "productId": "k2pl",
+            "form": "전시실물",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "rotem-official",
+              "rotem-field-report"
+            ]
+          },
+          {
+            "name": "페루형 차륜장갑차·지휘소·의무후송 계열",
+            "productId": "k808-peru",
+            "form": "개별 형식의 실차·모형 여부 미확인",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "rotem-official"
+            ]
+          },
+          {
+            "name": "블랙 베일 무인 플랫폼",
+            "productId": "black-veil",
+            "form": "전시 소개 확인·사진별 형식 재검토 필요",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "rotem-official"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "rotem-official",
+          "rotem-field-report",
+          "rotem-nurphoto"
+        ]
+      },
+      "distinction": {
+        "comparator": "같은 차륜장갑차 계열의 기본 수송 임무와 지휘소·의무후송 임무",
+        "conditions": "공개 전시는 계열화 방향을 보여줍니다. 각 형식의 내부 배치, 동일 하중 조건 및 시험 결과는 확보하지 못했습니다.",
+        "judgment": "임무별 요구를 공통 플랫폼에서 수용하려는 점을 검토할 수 있습니다. 경쟁 차량보다 공간·방호·주행 성능이 우수하다는 결론은 내릴 수 없습니다.",
+        "status": "configuration_comparison_only",
+        "sourceIds": [
+          "rotem-official"
+        ]
+      },
+      "direction": {
+        "observation": "차륜장갑차 파생형과 무인 플랫폼이 같은 회차 발표에 포함됐습니다.",
+        "interpretation": "한 차종의 성능 추가와 함께 임무 구성의 폭을 넓히려는 방향으로 읽힙니다. 이는 전시 구성에 대한 해석이며 양산 일정이나 운용 성숙도 판단은 아닙니다.",
+        "sourceIds": [
+          "rotem-official"
+        ]
+      },
+      "workConnection": {
+        "value": "당사 차륜형장갑차 계열 개발에서 임무실 요구가 차체·공조·전원·정비 접근성에 미치는 변화를 비교할 기준 사례로 활용할 수 있습니다.",
+        "conditions": [
+          "같은 승무원·탑재중량 조건으로 요구사항을 정리한 뒤 비교",
+          "의무후송·지휘소 형식의 내부 도면과 장비 인터페이스 자료 확보",
+          "공개 전시만으로 당사 채택·협력 여부를 추정하지 않음"
+        ]
+      },
+      "followUps": [
+        "지휘소·의무후송 형식에서 유지되는 차체·동력계 공통 범위는 어디까지입니까?",
+        "임무장비 추가 후 여유 중량·전력·냉각 용량은 어떤 조건으로 산정했습니까?",
+        "이번 전시품의 시제·양산 형식과 검증 완료 범위를 구분할 수 있습니까?"
+      ],
+      "sources": [
+        {
+          "id": "rotem-official",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "title": "현대로템 ADEX 2025 전시 발표",
+          "publisher": "현대로템 / 현대자동차그룹",
+          "date": "2025-10-20",
+          "role": "manufacturer_event_statement",
+          "originGroup": "rotem-adex2025-release",
+          "support": "회차별 출품 소개와 제조사 보도사진",
+          "limitations": "방호·자동화 등 제품 성능은 제조사 설명이며 독립 시험 결과가 아닙니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "rotem-field-report",
+          "url": "https://www.asiatime.co.kr/article/20251023500386",
+          "title": "[ADEX 2025] 현장 취재: 현대차그룹 전시관",
+          "publisher": "아시아타임즈 / 조광현",
+          "date": "2025-10-23",
+          "role": "independent_event_report",
+          "originGroup": "asiatimes-adex2025-field",
+          "support": "K2PL 전시 언급과 현장 관람 기사",
+          "limitations": "기술 수치는 제조사 설명일 수 있어 독립 성능 검증으로 세지 않습니다.",
+          "independence": "independent_observation_only",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "rotem-nurphoto",
+          "url": "https://www.nurphoto.com/photo/12888707",
+          "title": "Hyundai Rotem booth at Seoul ADEX 2025",
+          "publisher": "NurPhoto / Chris Jung",
+          "date": "2025-10-20",
+          "role": "independent_event_photo",
+          "originGroup": "chris-jung-adex2025",
+          "support": "현대로템 부스의 실제 참가",
+          "limitations": "부스 사진만으로 개별 차종의 출품 형식이나 성능을 확정할 수 없습니다.",
+          "independence": "independent_observation_only",
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-f27315794918d9b8ddce",
+          "src": "assets/adex2025/k2pl-event-01.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "caption": "서울 ADEX 2025 현대로템 전시관의 K2PL — 앞쪽 램제트 엔진 모형과 함께 전시",
+          "credit": "현대로템 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1616,
+          "height": 1080,
+          "variantNote": "제조사 다운로드 원본 캡션이 K2PL을 명시합니다. 전차가 사진 뒤쪽에 있고 전면은 엔진 모형에 일부 가려져 있어, 개별 부품의 명칭·기능을 사진만으로 확정할 수 없습니다.",
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "rotem-official"
+          ]
+        },
+        {
+          "id": "photo-e0774b19c4805c2bb425",
+          "src": "assets/photos/adex2025-new-rotem-booth.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "caption": "ADEX 2025 현대로템·현대자동차그룹 통합관 전경",
+          "credit": "현대로템 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1506,
+          "height": 1004,
+          "variantNote": null,
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "rotem-official"
+          ]
+        },
+        {
+          "id": "case-photo-rotem-nurphoto",
+          "sourceUrl": "https://www.nurphoto.com/photo/12888707",
+          "caption": "ADEX 2025 현대로템 부스 — 독립 촬영 원문",
+          "credit": "Chris Jung / NurPhoto",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문 사진으로 연결합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "variantNote": "현장 참가 확인용 부스 사진이며 별도 라이선스가 필요합니다."
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "실제 부스와 K2PL 전시를 대조했습니다. 차륜장갑차 각 파생형의 실제 전시 형상은 제조사 발표에 한정해 표시합니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "selected_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      }
+    },
+    {
+      "id": "case-adex-2025-kia",
+      "organizationId": "org-37268bb0020007468bbc",
+      "displayName": "기아",
+      "categoryIds": [
+        "complete_vehicle",
+        "interiors_modules"
+      ],
+      "productIds": [
+        "tasman-military",
+        "kmtv"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "타스만 지휘차와 차대 전시를 함께 보면, 상용 기반 차량의 군용 임무 전환에서 추가되는 장비와 차체 여유를 구체적으로 질문할 수 있습니다.",
+      "highlights": [
+        "타스만 군용 지휘차와 베어샤시가 공식 현장 사진에 함께 보입니다.",
+        "KMTV 및 타스만 파생형 소개를 확인했습니다. 모든 파생형의 실차 전시를 뜻하지 않습니다.",
+        "차량 구매가격보다 통신장비·전원·탑재물 변경을 포함한 운용 조건 비교가 먼저입니다."
+      ],
+      "exhibit": {
+        "summary": "기아는 타스만 군용 지휘차, 차세대 중형표준차 KMTV와 군용 차량 계열을 전시했습니다. 타스만 지휘차는 현장 취재 사진과 제조사 사진을 대조했고, 차대 노출 전시는 구조를 살피는 자료로 연결했습니다.",
+        "items": [
+          {
+            "name": "타스만 군용 지휘차·베어샤시",
+            "productId": "tasman-military",
+            "form": "전시실물·차대",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "kia-official",
+              "kia-field-report"
+            ]
+          },
+          {
+            "name": "KMTV",
+            "productId": "kmtv",
+            "form": "전시실물",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "kia-official"
+            ]
+          },
+          {
+            "name": "타스만 군용 목적별 파생형",
+            "form": "일부 실물·나머지 형식별 실물 여부 미확인",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "kia-official"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "kia-official",
+          "kia-field-report"
+        ]
+      },
+      "distinction": {
+        "comparator": "상용 기반 타스만 군용 지휘차와 군용 표준차 계열",
+        "conditions": "차급·임무·방호 조건이 다릅니다. 같은 적재량과 주행 조건의 수명주기 비용·내구 자료는 없습니다.",
+        "judgment": "상용 플랫폼 활용과 군용 플랫폼 구성이라는 접근의 차이를 비교할 수 있습니다. 가격·기동성·정비성의 우열은 비교 불가입니다.",
+        "status": "architecture_comparison_only",
+        "sourceIds": [
+          "kia-official"
+        ]
+      },
+      "direction": {
+        "observation": "지휘 임무용 실차와 베어샤시, 목적별 파생형을 같은 공간에 제시했습니다.",
+        "interpretation": "기본 차량 판매를 넘어 임무 장비를 얹는 기반으로 공급 범위를 넓히는 방향으로 읽힙니다. 실제 플랫폼 간 공통 부품 비율이나 계약 범위는 확인되지 않았습니다.",
+        "sourceIds": [
+          "kia-official",
+          "kia-field-report"
+        ]
+      },
+      "workConnection": {
+        "value": "차륜형장갑차와 함께 운용될 지휘·지원 차량의 통신장비, 전원, 정비 장비 공통화 가능성을 검토할 때 참고할 수 있습니다.",
+        "conditions": [
+          "장갑차와 지원차량의 방호·환경 요구 차이를 유지한 비교",
+          "무전기·안테나·배터리 추가에 따른 차량 한계와 보증 범위 확인",
+          "군수 지원 체계와 부품 수급 조건을 별도 검토"
+        ]
+      },
+      "followUps": [
+        "통신장비와 보조전원 추가 후 허용 중량·공간 여유는 얼마입니까?",
+        "타스만 지휘차의 군용 환경·전자파·내구 시험 완료 범위는 어디까지입니까?",
+        "상용형과 공통으로 정비할 수 있는 부품·진단장비와 군 전용 항목은 무엇입니까?"
+      ],
+      "sources": [
+        {
+          "id": "kia-official",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "title": "기아 ADEX 2025 군용 모빌리티 전시 발표",
+          "publisher": "기아 / 현대자동차그룹",
+          "date": "2025-10-20",
+          "role": "manufacturer_event_statement",
+          "originGroup": "kia-adex2025-release",
+          "support": "타스만 지휘차·KMTV·파생형 소개와 현장 사진",
+          "limitations": "군용 성능과 경제성 주장은 독립 시험으로 검증하지 않았습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "kia-field-report",
+          "url": "https://www.asiatime.co.kr/article/20251023500386",
+          "title": "[ADEX 2025] 타스만 군용 지휘차 현장 취재",
+          "publisher": "아시아타임즈 / 조광현",
+          "date": "2025-10-23",
+          "role": "independent_event_report",
+          "originGroup": "asiatimes-adex2025-field",
+          "support": "기자가 촬영한 타스만 지휘차와 현장 설명",
+          "limitations": "현장 사진은 전시 형상만 확인하며 시험 성능을 검증하지 않습니다.",
+          "independence": "independent_observation_only",
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-88508f17c41d264626d0",
+          "src": "assets/photos/adex2025-new-tasman-front.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "caption": "ADEX 2025 타스만 군용 지휘차와 베어샤시 전시",
+          "credit": "기아 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1800,
+          "height": 1200,
+          "variantNote": null,
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "kia-official"
+          ]
+        },
+        {
+          "id": "photo-af0b79b5b51a37df0ab9",
+          "src": "assets/photos/adex2025-new-kia-family.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "caption": "ADEX 2025 기아 부스의 타스만과 군용차량 제품군",
+          "credit": "기아 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1800,
+          "height": 1200,
+          "variantNote": null,
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "kia-official"
+          ]
+        },
+        {
+          "id": "photo-c9b10caa412b9d19d1ef",
+          "src": "assets/photos/adex2025-new-kmtv-front.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "caption": "ADEX 2025 KMTV 전면과 뒤편 소형전술차·K2PL 전시",
+          "credit": "기아 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1800,
+          "height": 1200,
+          "variantNote": null,
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "kia-official"
+          ]
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "타스만 실차는 독립 현장 자료를 대조했습니다. KMTV 사진 및 나머지 파생형 소개는 제조사 근거입니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "selected_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      }
+    },
+    {
+      "id": "case-adex-2025-stx-engine",
+      "organizationId": "org-78adc7840c066c08ba6b",
+      "displayName": "STX엔진",
+      "categoryIds": [
+        "powertrain",
+        "electrical"
+      ],
+      "productIds": [],
+      "reviewStatus": "reviewed_case",
+      "reason": "SMV 엔진 계열과 하이브리드 동력원을 함께 제시해, 차륜 차량의 동력원 후보를 정격출력뿐 아니라 체계 통합 조건으로 비교할 사례입니다.",
+      "highlights": [
+        "STX 부스와 엔진 형상 전시물을 독립 현장 사진에서 확인했습니다.",
+        "SMV1000·SMV350/520/750·V1360은 제조사가 해당 회차 출품으로 발표했습니다.",
+        "모델별 실물·모형 구분과 성능은 추가 확인이 필요합니다. 모델명의 숫자를 출력으로 환산하지 않았습니다."
+      ],
+      "exhibit": {
+        "summary": "STX엔진은 SMV 엔진 계열과 V1360, 하이브리드 시스템·군용 리튬이온 배터리를 발표했습니다. 독립 현장 사진에서 엔진 형상 전시물을 확인했으나 개별 모델명과 실물·모형 구분은 모두 판독하지 못했습니다.",
+        "items": [
+          {
+            "name": "엔진 형상 전시물 — 개별 모델명 미확정",
+            "form": "현장 전시물·전체 모델 표지 가림",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "stx-nurphoto"
+            ]
+          },
+          {
+            "name": "SMV1000·SMV350·SMV520·SMV750·V1360",
+            "form": "실물과 모형 혼합·모델별 구분 미확인",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          },
+          {
+            "name": "하이브리드 시스템·군용 리튬이온 배터리",
+            "form": "출품 발표·개별 형상 미확인",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "stx-official",
+              "stx-issued-release"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "stx-official",
+          "stx-issued-release",
+          "stx-nurphoto"
+        ]
+      },
+      "distinction": {
+        "comparator": "기존 단일 엔진 후보 선정과 복수 엔진·전동 보조 동력원 후보 검토",
+        "conditions": "같은 차량 중량·운전 주기에서 연료 소모, 냉각 부하, 설치 부피를 비교할 자료는 확보하지 못했습니다.",
+        "judgment": "공급 후보의 구성 범위를 볼 수 있습니다. 해외 엔진이나 기존 엔진 대비 연비·신뢰성·체계 중량 우위는 비교 불가입니다.",
+        "status": "comparison_unavailable",
+        "sourceIds": [
+          "stx-official",
+          "stx-issued-release"
+        ]
+      },
+      "direction": {
+        "observation": "여러 SMV 모델과 하이브리드·배터리가 한 회차 전시 발표에 포함됐습니다.",
+        "interpretation": "개별 내연기관 공급에서 차량별 동력원 조합까지 대응 범위를 넓히려는 방향으로 읽힙니다. 엔진 간 설계 공통성이나 전동 시스템 양산 준비도가 입증됐다는 뜻은 아닙니다.",
+        "sourceIds": [
+          "stx-official",
+          "stx-issued-release"
+        ]
+      },
+      "workConnection": {
+        "value": "차륜형장갑차의 동력계 후보 검토에서 엔진 설치 공간, 변속기 결합, 냉각 요구, 제어 인터페이스를 묶어 공급사 질의서를 구성할 근거가 됩니다.",
+        "conditions": [
+          "차량 운전 주기와 환경 조건을 고정한 자료 요청",
+          "동력계 전체의 부피·중량·정비 동선 비교",
+          "수출 조건과 인증·시험 완료 범위는 별도 검토"
+        ]
+      },
+      "followUps": [
+        "SMV 모델별 이번 전시품은 실물·모형·개념 중 무엇이며 시험 완료 단계는 어디까지입니까?",
+        "차량 요구 운전 주기에서 출력·열방출·연료 소모 자료를 같은 조건으로 제공할 수 있습니까?",
+        "변속기·제어기·배터리와의 결합 책임 및 외부 인터페이스 범위는 무엇입니까?"
+      ],
+      "sources": [
+        {
+          "id": "stx-official",
+          "url": "https://m.stxengine.co.kr/mkor/html/pr/news/news_view.aspx?lang=mkor&listurl=%2Fmkor%2Fhtml%2Fpr%2Fnews%2Fnews_list.aspx&seq=636&startIndex=0",
+          "title": "STX엔진 ADEX 2025 SMV 엔진·미래 동력원 발표",
+          "publisher": "STX엔진",
+          "date": "2025-10-20",
+          "role": "manufacturer_event_statement",
+          "originGroup": "stx-adex2025-release",
+          "support": "출품 모델명 및 전시 구성",
+          "limitations": "검색 색인 본문 확인. 원문 직접 접근은 502/503 응답이 있어 배포 원문을 함께 확인했습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "stx-issued-release",
+          "url": "https://www.newswire.co.kr/newsRead.php?no=1020918",
+          "title": "STX엔진, ADEX 2025서 국산 개발 SMV 엔진 시리즈와 미래 동력원 공개",
+          "publisher": "STX엔진 제공 / 뉴스와이어 배포",
+          "date": "2025-10-20",
+          "role": "issuer_press_release_mirror",
+          "originGroup": "stx-adex2025-release",
+          "support": "공식 발표의 모델명·전시 내용 재대조",
+          "limitations": "STX 원문과 동일 계열 보도자료입니다. 독립 검증 건수에 더하지 않습니다.",
+          "independence": "same_origin_republication",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "stx-nurphoto",
+          "url": "https://www.nurphoto.com/photo/12888697",
+          "title": "STX Engine booth at Seoul ADEX 2025",
+          "publisher": "NurPhoto / Chris Jung",
+          "date": "2025-10-20",
+          "role": "independent_event_photo",
+          "originGroup": "chris-jung-adex2025",
+          "support": "STX 부스와 엔진 형상 전시물의 실제 현장 사진을 직접 확대 확인",
+          "limitations": "사진의 모델 표지가 일부 가려져 개별 모델명은 확정하지 않았습니다. 실물·모형 구분과 성능은 검증하지 않습니다.",
+          "independence": "independent_observation_only",
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [
+        {
+          "id": "case-photo-stx-nurphoto",
+          "sourceUrl": "https://www.nurphoto.com/photo/12888697",
+          "caption": "STX엔진 ADEX 2025 부스 — 현장 사진 원문",
+          "credit": "Chris Jung / NurPhoto",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문 사진으로 연결합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "variantNote": "원문 이미지를 직접 확대 확인했습니다. 엔진 형상 전시물은 보이지만 모델 표지가 일부 가려져 품번·실물/모형 여부는 확정하지 않았습니다."
+        },
+        {
+          "id": "case-photo-stx-press",
+          "sourceUrl": "https://www.newswire.co.kr/newsRead.php?no=1020918",
+          "caption": "STX엔진 ADEX 2025 출품 발표와 제공 사진",
+          "credit": "STX엔진 / 뉴스와이어",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문 사진으로 연결합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "variantNote": "제조사 제공 사진입니다. 공개 기사에 연결하며 재배포 허가를 추정하지 않았습니다."
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "부스와 엔진 형상 전시물을 독립 사진에서 확인했습니다. 모델별 출품·성능은 STX 단일 원문 계열이며 재전재를 별도 검증으로 세지 않았습니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "selected_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      }
+    },
+    {
+      "id": "case-adex-2025-hyundai-wia",
+      "organizationId": "org-b6b486fa375701e51329",
+      "displayName": "현대위아",
+      "categoryIds": [
+        "unmanned_remote",
+        "optics_awareness"
+      ],
+      "productIds": [
+        "rcws",
+        "light-105"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "소형 RCWS와 대드론 장비를 각각 전시해, 차륜 플랫폼에서 임무장비의 탑재 범위와 차량 측 통합 부담을 구분해 볼 사례입니다.",
+      "highlights": [
+        "7.62mm·12.7mm·40mm RCWS가 별도 전시대에 놓인 공식 현장 사진을 확인했습니다.",
+        "대드론 장비 소개를 대조했습니다. 전시 배치가 곧 차량 통합·운용 완료를 뜻하지 않습니다.",
+        "경량 105mm 실차 사진은 추가 전시 사례이며 RCWS의 차량 장착 사진으로 사용하지 않았습니다."
+      ],
+      "exhibit": {
+        "summary": "현대위아는 소형·AI 기반 RCWS, 대드론 방어체계와 소형 전술차량 탑재 경량 105mm 체계를 전시했습니다. 사진에서 분리 전시된 RCWS와 실제 차량에 탑재된 다른 장비를 구분했습니다.",
+        "items": [
+          {
+            "name": "7.62mm 소형 RCWS·12.7mm/40mm RCWS",
+            "productId": "rcws",
+            "form": "별도 전시대의 실물",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "wia-official"
+            ]
+          },
+          {
+            "name": "대드론 방어체계 ADS",
+            "form": "현장 소개·일부 장비 분리 전시",
+            "status": "event_report_confirmed",
+            "sourceIds": [
+              "wia-official",
+              "wia-edr"
+            ]
+          },
+          {
+            "name": "경량화 105mm 자주포",
+            "productId": "light-105",
+            "form": "소형 전술차량 탑재 실물",
+            "status": "event_photo_confirmed",
+            "sourceIds": [
+              "wia-official"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "wia-official",
+          "wia-edr"
+        ]
+      },
+      "distinction": {
+        "comparator": "소형 RCWS 단품과 탐지·식별 장비를 포함하는 ADS 구성",
+        "conditions": "임무 범위가 다릅니다. 동일 표적·환경 조건에서 탐지·추적·운용 성능을 비교한 시험 자료는 없습니다.",
+        "judgment": "차량이 수용해야 할 장비 범위와 인터페이스 수가 달라지는 점은 검토할 수 있습니다. AI 적용에 따른 정확도 향상이나 경쟁 장비 우위는 독립 검증하지 않았습니다.",
+        "status": "configuration_comparison_only",
+        "sourceIds": [
+          "wia-official",
+          "wia-edr"
+        ]
+      },
+      "direction": {
+        "observation": "RCWS 단품과 탐지·식별 장비를 결합한 대드론 구성을 함께 소개했습니다.",
+        "interpretation": "단일 탑재장비에서 감시·판단 장비까지 연동 범위를 넓히려는 방향으로 읽힙니다. 현장 취재에서 레이더가 별도 전시된 조건을 함께 고려해야 합니다.",
+        "sourceIds": [
+          "wia-official",
+          "wia-edr"
+        ]
+      },
+      "workConnection": {
+        "value": "당사 차륜형장갑차의 선택 임무장비 검토 시 차량의 전원·냉각·장착부·전자파 적합성 요구를 장비 구성별로 나누어 확인할 가치가 있습니다.",
+        "conditions": [
+          "전시형과 차량 탑재 검증형의 구성 차이 확인",
+          "동일 임무 조건의 질량·전력·환경 적합성 자료 요청",
+          "원격 장비의 운용·안전 책임과 차량 인터페이스 범위 확인"
+        ]
+      },
+      "followUps": [
+        "전시 RCWS·ADS 중 차량 탑재 검증을 마친 구성과 별도 시제 구성은 무엇입니까?",
+        "차량 측 전원·열관리·장착부·전자파 요구 자료를 구성별로 제공할 수 있습니까?",
+        "AI 추적과 통합 장비의 성능은 어떤 시험 조건과 독립 평가로 확인됐습니까?"
+      ],
+      "sources": [
+        {
+          "id": "wia-official",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "title": "현대위아, ADEX 2025에서 육·해·공 방산 제품 라인업 공개",
+          "publisher": "현대위아 / 현대자동차그룹",
+          "date": "2025-10-20",
+          "role": "manufacturer_event_statement",
+          "originGroup": "wia-adex2025-release",
+          "support": "실제 전시 품목·공식 현장 사진",
+          "limitations": "성능 개선 설명은 제조사 발표이며 시험 조건과 독립 검증 자료는 없습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "wia-edr",
+          "url": "https://www.edrmagazine.eu/adex-2025-hyundai-wia-unveils-its-all-in-one-ads-anti-drone-system",
+          "title": "ADEX 2025 – Hyundai Wia unveils its all-in-one ADS anti-drone system",
+          "publisher": "EDR Magazine / Paolo Valpolini",
+          "date": "2025-11-06",
+          "role": "independent_event_report",
+          "originGroup": "edr-paolo-valpolini-adex2025",
+          "support": "현장 취재 및 사진 저자 표기, 레이더 별도 전시 조건",
+          "limitations": "검색 색인 본문으로 대조했으며 원문 직접 접근은 403입니다. 기사 속 제품 성능 설명을 독립 시험 결과로 취급하지 않습니다.",
+          "independence": "independent_observation_only",
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-406026b01ffa0009623a",
+          "src": "assets/adex2025/rcws-event-01.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "caption": "서울 ADEX 2025 현대위아 부스의 RCWS 3종 — 40mm·12.7mm·7.62mm 전시대 실물",
+          "credit": "현대위아 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1800,
+          "height": 1200,
+          "variantNote": "RCWS가 차량 위에 장착된 사진이 아니라 전시대에 분리 전시된 실물 사진입니다. 전시 표지의 40mm·12.7mm·7.62mm 구분은 확인되지만 자동추적 성능이나 운용 완성도는 사진만으로 확정할 수 없습니다.",
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "wia-official"
+          ]
+        },
+        {
+          "id": "photo-f07b18031de173091dff",
+          "src": "assets/adex2025/light-105-event-01.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "caption": "서울 ADEX 2025 현대위아 부스의 경량화 105mm 자주포 — 전술차량 탑재 실물",
+          "credit": "현대위아 / 현대자동차그룹",
+          "rightsStatus": "reusable",
+          "rightsNote": "현대자동차그룹 뉴스룸의 기사·이미지 자유 사용 안내를 재확인했습니다. 원문 제공 제3자 자료의 예외가 있으며 이 제조사 보도사진에서 별도 제한 표시는 확인되지 않았습니다.",
+          "license": "현대자동차그룹 뉴스룸 이용 안내 — CC 라이선스가 아님",
+          "context": "event",
+          "eventId": "adex-2025",
+          "width": 1800,
+          "height": 1201,
+          "variantNote": "사진 속 전면 표지와 제조사 원문이 경량화 105mm 자주포를 명시합니다. 전시 형상이며 양산·배치 완료를 뜻하지 않습니다.",
+          "sourceDate": "2025-10-20",
+          "sourceIds": [
+            "wia-official"
+          ]
+        },
+        {
+          "id": "case-photo-wia-edr",
+          "sourceUrl": "https://www.edrmagazine.eu/adex-2025-hyundai-wia-unveils-its-all-in-one-ads-anti-drone-system",
+          "caption": "ADEX 2025 ADS 현장 취재·사진 원문",
+          "credit": "Paolo Valpolini / EDR Magazine",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문 사진으로 연결합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "variantNote": "원문 접근 제한이 발생할 수 있습니다. 검색 색인에서 기사·사진 저자와 현장 조건을 확인했습니다."
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "catalog-wia-mobility-2024-reference",
+          "title": "Hyundai WIA Mobility Weapon Systems (2024, 일반 제품자료)",
+          "url": "https://www.targikielce.pl/storage/file/core_files/2025/8/18/2f60538c2a239f808b908fa436894f75/2024-H-WIA-Mobilty-Weapon-Systems.pdf",
+          "scope": "general",
+          "note": "MSPO 2025 주최사 참가업체 페이지에 연결된 3쪽 제조사 PDF입니다. ADEX 2025 카탈로그나 해당 회차 출품 증거로 사용하지 않습니다."
+        }
+      ],
+      "verificationNote": "현대위아 보도사진은 실제 회차 자료입니다. EDR은 별도 현장 취재이지만 성능 수치는 독립 시험이 아니며 원문 접근 제한을 표시했습니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "selected_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      }
+    },
+    {
+      "id": "case-adex-2025-pei-genesis",
+      "organizationId": "org-ded72d6076eb66b253d7",
+      "displayName": "PEI-GENESIS",
+      "categoryIds": [
+        "components",
+        "electrical"
+      ],
+      "productIds": [],
+      "reviewStatus": "reviewed_case",
+      "reason": "커넥터·백셸·케이블을 묶어 상담한 부스여서, 작은 접속 부품이 차량 임무장비 변경과 정비 호환성에 미치는 조건을 확인할 사례입니다.",
+      "highlights": [
+        "공식 현장 게시물과 후기 사진에서 PEI 부스·부품 샘플·상담 장면을 확인했습니다.",
+        "개별 샘플의 모델명은 판독하지 못했습니다. 사전 발표의 제품군을 실제 전시 모델로 바꾸지 않았습니다.",
+        "현장 게시물은 7-C11, 초기 사전 자료는 18-20입니다. 지도 좌표는 이 자료만으로 수정하지 않습니다."
+      ],
+      "exhibit": {
+        "summary": "공식 현장 게시물은 커넥터·백셸·케이블 및 PRECI-DIP 협업 소개를 명시합니다. 후기 사진에는 PEI 간판과 소형 샘플 진열이 보입니다. 품번과 전기·환경 규격은 사진에서 확인할 수 없습니다.",
+        "items": [
+          {
+            "name": "커넥터·백셸·케이블 및 소형 접속 부품 샘플",
+            "form": "공식 현장 사진의 샘플·개별 모델 미식별",
+            "status": "exhibitor_event_photo_confirmed",
+            "sourceIds": [
+              "pei-live",
+              "pei-recap"
+            ]
+          },
+          {
+            "name": "PRECI-DIP과의 접속 부품 협업 소개",
+            "form": "현장 게시물 확인·개별 전시 모델 미확인",
+            "status": "exhibitor_event_statement",
+            "sourceIds": [
+              "pei-live"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "pei-live",
+          "pei-recap"
+        ]
+      },
+      "distinction": {
+        "comparator": "단일 커넥터 품번 구매와 커넥터·백셸·케이블 조합 공급 상담",
+        "conditions": "전시 샘플의 정확한 품번·조합·시험 성적이 공개되지 않았습니다. 회사의 일반 규격 대응 설명을 전시품 검증 결과로 취급하지 않습니다.",
+        "judgment": "차량 배선의 접속 부품과 조립 공급 범위를 함께 질문할 수 있습니다. 개별 제조사 직구매 대비 성능·납기·가격 우위는 비교 불가입니다.",
+        "status": "comparison_unavailable",
+        "sourceIds": [
+          "pei-live",
+          "pei-recap"
+        ]
+      },
+      "direction": {
+        "observation": "현장 게시물은 개별 부품군뿐 아니라 협업에 따른 접속 솔루션을 소개했습니다.",
+        "interpretation": "품번 공급에서 조합·적용 상담으로 역할을 넓혀 제안하는 방식으로 읽힙니다. PEI가 모든 전시 부품의 원제조사이거나 차량용 인증을 마쳤다는 뜻은 아닙니다.",
+        "sourceIds": [
+          "pei-live"
+        ]
+      },
+      "workConnection": {
+        "value": "임무장비 교체 때 전원·신호 접속부의 방수, 체결, 정비 호환성과 공급 책임을 묶어 확인할 후보 접점입니다.",
+        "conditions": [
+          "실제 전시 품번과 원제조사·유통·조립 역할을 먼저 구분",
+          "차량 환경과 필요한 시험 규격의 일치 여부 확인",
+          "대체품 호환성과 단종 대응·추적성 자료 확보 후 검토"
+        ]
+      },
+      "followUps": [
+        "이번 부스의 실제 샘플 품번과 원제조사, PEI의 공급·조립 범위는 무엇입니까?",
+        "차량 진동·온도·습기 조건에 해당하는 시험 성적과 적용 한계가 있습니까?",
+        "케이블 조립품 변경·단종 시 대체품 승인과 추적성은 누가 책임집니까?"
+      ],
+      "sources": [
+        {
+          "id": "pei-live",
+          "url": "https://www.linkedin.com/posts/pei-genesis_connectors-backshells-cables-activity-7386215858634833920-QgTU",
+          "title": "PEI-GENESIS 공식 ADEX 2025 현장 게시물",
+          "publisher": "PEI-GENESIS 공식 LinkedIn",
+          "date": null,
+          "role": "exhibitor_live_post",
+          "originGroup": "pei-official-adex2025",
+          "support": "현장 참가, 취급 부품군, PRECI-DIP 현장 협업 소개, 7-C11 표기",
+          "limitations": "정확한 게시일은 공개 상대 날짜로 확정하지 않았습니다. 현장 번호는 업체 자기보고이며 사진 번호는 읽히지 않습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "pei-recap",
+          "url": "https://www.linkedin.com/posts/pei-genesis_aerospace-defense-connectors-activity-7388798681489137664-Pidj",
+          "title": "PEI-GENESIS ADEX 2025 행사 후기·사진 6장",
+          "publisher": "PEI-GENESIS 공식 LinkedIn",
+          "date": null,
+          "role": "exhibitor_event_photo",
+          "originGroup": "pei-official-adex2025",
+          "support": "PEI 간판·소형 샘플 진열·상담 현장 사진",
+          "limitations": "회사 자체 사진입니다. 다른 독립 현장 근거를 확보하지 못했으며 품번을 판독하지 않았습니다.",
+          "independence": "same_origin_additional_observation",
+          "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "pei-pre-event",
+          "url": "https://www.prnewswire.com/apac/news-releases/pei-genesis-to-exhibit-at-seoul-adex-2025-in-korea-302572565.html",
+          "title": "PEI-GENESIS to Exhibit at Seoul ADEX 2025 in Korea",
+          "publisher": "PEI-GENESIS 제공 / PRNewswire",
+          "date": "2025-10-02",
+          "role": "issuer_pre_event_announcement",
+          "originGroup": "pei-official-adex2025",
+          "support": "사전 참가 예정과 제품군, 초기 18-20 표기",
+          "limitations": "사전 소개를 실제 전시 확인으로 사용하지 않습니다. 현장 게시물의 7-C11과 번호가 다릅니다.",
+          "independence": "same_origin_pre_event",
+          "checkedAt": "2026-11-11"
+        }
+      ],
+      "photos": [
+        {
+          "id": "case-photo-pei-booth-angle-1",
+          "sourceUrl": "https://www.linkedin.com/posts/pei-genesis_aerospace-defense-connectors-activity-7388798681489137664-Pidj",
+          "caption": "PEI-GENESIS 부스 전경 — 공식 후기 사진 2",
+          "credit": "PEI-GENESIS",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문 사진으로 연결합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "variantNote": "직접 확대 확인: PEI 간판·샘플 진열·상담 장면. 사진 1은 KINTEX 외부이며 제품 사진으로 세지 않았습니다."
+        },
+        {
+          "id": "case-photo-pei-booth-angle-2",
+          "sourceUrl": "https://www.linkedin.com/posts/pei-genesis_aerospace-defense-connectors-activity-7388798681489137664-Pidj",
+          "caption": "PEI-GENESIS 샘플 진열·상담 — 공식 후기 사진 3",
+          "credit": "PEI-GENESIS",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가를 확보하지 않아 원문 사진으로 연결합니다.",
+          "context": "event",
+          "eventId": "adex-2025",
+          "variantNote": "직접 확대 확인: 다른 각도의 부스 전경과 소형 샘플. 개별 품번 및 부스번호는 판독 불가입니다."
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "현장 발표 7-C11과 사전 안내 18-20이 다릅니다. 사전 배치도 좌표만으로 현장 위치를 확정할 수 없습니다. 실제 샘플 전시는 업체 단일 계열 근거입니다.",
+      "evidenceAsOf": "2026-11-11",
+      "analysisScope": "selected_event_case",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      }
+    }
+  ]
+}
