@@ -10,7 +10,9 @@
 - 복구 브랜치: `origin/recovery/fieldnote-v1.1-20261112`. main은 위 기준 유지. 이번 작업에서 공개 배포하지 않았습니다.
 - 2단계 구현: `61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8`; 수집 묶음 `faa792b99c74219d9beb58da0159494b7778739a`.
 - 3단계 시작/원격 재확인 SHA: `aff4f5ca909bfbc7a945a512a2813b9513dfbeb5`.
-- 현재 구현 버전: `2.0.0-stage.3`. **3단계 구현 커밋·원격 CI는 저장 직후 후속 인수인계 커밋에서 확정합니다. 이 시점에 원격 반영 성공을 주장하지 않습니다.**
+- 현재 구현 버전: `2.0.0-stage.3`. **구현 기준 커밋 `8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec`**, tree `5a31da8951ec3c2861b3b34683489cc596d9f8f1`. GitHub ref/commit 객체, git fetch, 로컬 index tree 일치를 확인했습니다.
+- [구현 CI](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43118714357): success. 미리보기 artifact `fieldnote-v2-preview-8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec`, ID `13898569722`, 2026-11-25T23:18:06Z 만료. 미리보기 산출물이며 공개 배포가 아닙니다.
+- 공개 version.json HTTP 200, 버전 `1.1.0`, build `2026-11-10T22:24:44.865Z`를 종료 전 재확인했습니다. [원격 확인 기록](evidence/EXECUTIVE_V2_STAGE_3_REMOTE.json).
 - 이 문서를 포함하는 최종 SHA는 `git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md`와 원격 ref로 확인합니다. 자기 자신의 SHA를 추정해 넣지 않습니다.
 
 ## 실제 변경
@@ -55,4 +57,4 @@ PEI는 새 현장 발표 `7-C11`과 사전 발표 `18-20`이 상충해 현재 �
 
 ## 원격 저장 방식
 
-이 환경의 일반 git push 자격증명 대신 연결된 GitHub blob/tree/commit/ref API를 사용합니다. 로컬 blob SHA와 API SHA, index tree와 원격 tree를 비교하고 `expected_sha`를 사용해 fast-forward 합니다. 저장 실패 시 마지막 확인 SHA·미반영 파일·복구 patch를 기록해야 합니다. 후속 커밋에 원격 검증 결과를 갱신합니다.
+이 환경의 일반 git push 자격증명 대신 연결된 GitHub blob/tree/commit/ref API를 사용합니다. 로컬 blob SHA와 API SHA, index tree와 원격 tree를 비교하고 `expected_sha`를 사용해 fast-forward 합니다. 저장 실패 시 마지막 확인 SHA·미반영 파일·복구 patch를 기록해야 합니다. 구현 묶음 51개 blob SHA와 tree를 대조해 원격 반영했고 미반영 구현 파일은 없습니다. 이 문서는 검증 결과를 기록하는 후속 커밋입니다. 문서 커밋도 원격 ref와 로컬 tree를 확인한 뒤 최종 응답에 실제 SHA를 남깁니다.

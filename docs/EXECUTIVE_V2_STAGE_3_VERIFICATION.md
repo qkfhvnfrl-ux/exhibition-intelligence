@@ -1,6 +1,6 @@
 # 3단계 구현·검증 기록
 
-기준일: 2026-11-12 (Asia/Seoul). 시작 커밋 `aff4f5ca909bfbc7a945a512a2813b9513dfbeb5`, 브랜치 `work/fieldnote-v2`, 버전 `2.0.0-stage.3`. 실제 원격 구현 SHA는 커밋 후 [HANDOFF](EXECUTIVE_V2_HANDOFF.md)와 STATUS에 기록합니다.
+기준일: 2026-11-12 (Asia/Seoul). 시작 커밋 `aff4f5ca909bfbc7a945a512a2813b9513dfbeb5`, 브랜치 `work/fieldnote-v2`, 버전 `2.0.0-stage.3`. 실제 원격 구현 SHA는 `8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec`입니다. 원격 CI와 미리보기 artifact 생성까지 success이며 [HANDOFF](EXECUTIVE_V2_HANDOFF.md)와 [원격 근거](evidence/EXECUTIVE_V2_STAGE_3_REMOTE.json)에 기록했습니다.
 
 ## 구현 범위
 
@@ -40,7 +40,7 @@
 - 모든 사진 원문의 실시간 접근·전체 회차 심층분석·큰 전시장 실기기 성능 벤치마크는 완료하지 않았습니다. ADEX 행사는 524 KB 샤드와 329 KB 배경만 먼저 가져오며, 다른 회차와 사진은 필요한 시점에 로딩합니다.
 - 기존 사용자 localStorage/IndexedDB는 읽거나 쓰거나 지우지 않았습니다. 공개 배포·main 변경은 하지 않았습니다.
 
-기계 판독 기록: [CHECKS.json](evidence/EXECUTIVE_V2_STAGE_3_CHECKS.json). 임시 모바일 QA HTML은 `tests/fixtures`에만 보존하고 최종 `dist`에는 포함하지 않았습니다. 원격 CI/ref 검증은 후속 기록에서 확인합니다.
+기계 판독 기록: [CHECKS.json](evidence/EXECUTIVE_V2_STAGE_3_CHECKS.json). 임시 모바일 QA HTML은 `tests/fixtures`에만 보존하고 최종 `dist`에는 포함하지 않았습니다. 원격 CI/ref와 로컬 tree 일치도 확인했습니다.
 
 ## 후속 범위
 

@@ -1,0 +1,116 @@
+{
+  "checkedAt": "2026-11-11T23:19:55.047Z",
+  "branch": "work/fieldnote-v2",
+  "implementationCommit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+  "implementationTree": "5a31da8951ec3c2861b3b34683489cc596d9f8f1",
+  "parentCommit": "aff4f5ca909bfbc7a945a512a2813b9513dfbeb5",
+  "blobHashesMatched": 51,
+  "remoteRefVerified": true,
+  "gitFetchVerified": true,
+  "localIndexTreeMatched": true,
+  "ci": {
+    "id": 43118714357,
+    "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43118714357",
+    "headSha": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "id": 130853353136,
+        "name": "validate",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 43118714357,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-node@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Run npm run build",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run npm run check",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Save FIELDNOTE v2 preview",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Post Run actions/setup-node@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 12
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 13
+          }
+        ]
+      }
+    ]
+  },
+  "artifact": {
+    "id": 13898569722,
+    "name": "fieldnote-v2-preview-8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+    "size_in_bytes": 21673393,
+    "url": "https://api.github.com/repos/qkfhvnfrl-ux/exhibition-intelligence/actions/artifacts/13898569722",
+    "archive_download_url": "https://api.github.com/repos/qkfhvnfrl-ux/exhibition-intelligence/actions/artifacts/13898569722/zip",
+    "expired": false,
+    "created_at": "2026-11-11T23:18:07Z",
+    "expires_at": "2026-11-25T23:18:06Z",
+    "updated_at": "2026-11-11T23:18:07Z",
+    "digest": "sha256:0a6743c6932d8c16d57aa66fbdfc8ee90b72cc3a2d27563f662888b14101a6a4",
+    "workflow_run": {
+      "id": 43118714357,
+      "repository_id": 1452260840,
+      "head_repository_id": 1452260840,
+      "head_branch": "work/fieldnote-v2",
+      "head_sha": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec"
+    }
+  },
+  "production": {
+    "url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/version.json",
+    "httpStatus": 200,
+    "version": "1.1.0",
+    "build": "2026-11-10T22:24:44.865Z",
+    "mainAndRecoveryCommit": "4990376dfef1b6890666056bb7e526519d79c784",
+    "changed": false
+  },
+  "limits": [
+    "Preview artifact is not a public deployment",
+    "Artifact retention is 14 days",
+    "Managed-browser actual PDF save/pagination and physical phone checks remain unverified"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T08:12:30+09:00",
+  "updated_at": "2026-11-12T08:19:55+09:00",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -17,11 +17,12 @@
   "work": {
     "branch": "work/fieldnote-v2",
     "remote_branch": "origin/work/fieldnote-v2",
-    "implementation_commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
-    "remote_verified_commit": "61ab77ed4af4ad2330d886c9ee58d90e9fe24fd8",
-    "state": "stage_3_implemented_remote_save_pending",
+    "implementation_commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+    "remote_verified_commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+    "state": "stage_3_implemented_stage_4_ready",
     "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response.",
-    "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a"
+    "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
+    "implementation_tree": "5a31da8951ec3c2861b3b34683489cc596d9f8f1"
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -188,7 +189,8 @@
         }
       ],
       "generated_registry": "npm run compile:v2 -> data/v2/registry.json and public.json (generated/ignored)",
-      "legacy_mapping": "data/v2/legacy-mapping.json"
+      "legacy_mapping": "data/v2/legacy-mapping.json",
+      "metrics_snapshot_note": "Historical stage-2 snapshot. PEI booth-number confirmation was superseded by the stage-3 conflicting-source correction; do not use the old number count as current."
     },
     {
       "stage": 3,
@@ -204,9 +206,10 @@
         "docs/evidence/EXECUTIVE_V2_STAGE_3_CHECKS.json",
         "docs/research-v2/stage3-cases.md",
         "docs/research-v2/stage3-map-source.md",
-        "docs/research-v2/stage3-number-correction.md"
+        "docs/research-v2/stage3-number-correction.md",
+        "docs/evidence/EXECUTIVE_V2_STAGE_3_REMOTE.json"
       ],
-      "implementation_commit": null,
+      "implementation_commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
       "start_commit": "aff4f5ca909bfbc7a945a512a2813b9513dfbeb5",
       "local_validation_tests": 128,
       "metrics": {
@@ -244,7 +247,8 @@
         "queue-adex-2025-full-directory",
         "queue-adex-2025-pavilions",
         "queue-adex-2025-identity",
-        "queue-adex-2025-onsite"
+        "queue-adex-2025-onsite",
+        "queue-adex-2025-pei-number-conflict"
       ]
     },
     {
@@ -428,6 +432,31 @@
       "result": "pass_with_named_limits",
       "tests": 128,
       "evidence": "docs/evidence/EXECUTIVE_V2_STAGE_3_CHECKS.json"
+    },
+    {
+      "check": "stage_3_remote_CI",
+      "stage": 3,
+      "result": "pass",
+      "commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+      "run_id": 43118714357,
+      "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43118714357",
+      "artifact_id": 13898569722,
+      "artifact_name": "fieldnote-v2-preview-8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec"
+    },
+    {
+      "check": "stage_3_remote_ref_and_tree",
+      "stage": 3,
+      "result": "pass",
+      "commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+      "tree": "5a31da8951ec3c2861b3b34683489cc596d9f8f1",
+      "evidence": "docs/evidence/EXECUTIVE_V2_STAGE_3_REMOTE.json"
+    },
+    {
+      "check": "stage_3_production_unchanged",
+      "stage": 3,
+      "result": "pass",
+      "production_version": "1.1.0",
+      "production_build": "2026-11-10T22:24:44.865Z"
     }
   ],
   "unfinished": [
