@@ -17,14 +17,14 @@
   "work": {
     "branch": "work/fieldnote-v2",
     "remote_branch": "origin/work/fieldnote-v2",
-    "implementation_commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
-    "remote_verified_commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
-    "state": "stage_4_batch_2_validated_pending_remote",
+    "implementation_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41",
+    "remote_verified_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41",
+    "state": "stage_4_batch_2_saved_continue_research",
     "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response.",
     "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
-    "implementation_tree": "e193fe549696444400cdd02e110f85da236d34ee",
+    "implementation_tree": "bac351fbb758c7729565093d8e884b1df2bd54c4",
     "resume_start_commit": "f6a89fcf07aa09dcd8060359e8ebec942f543b85",
-    "stage4_implementation_commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc"
+    "stage4_implementation_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41"
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -256,7 +256,7 @@
         "docs/evidence/EXECUTIVE_V2_STAGE_4_REMOTE.json",
         "docs/evidence/EXECUTIVE_V2_STAGE_4_BATCH_2.json"
       ],
-      "implementation_commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+      "implementation_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41",
       "prepared_queue_file": "data/v2/collection/adex-2025.json",
       "prepared_queue_ids": [
         "queue-adex-2025-full-directory",
@@ -335,7 +335,20 @@
       "stage_complete": false,
       "further_user_instructions_required": false,
       "batch_1_saved_at": "2026-11-12T09:02:39+09:00",
-      "remote_ci": {
+      "batch_2_status": "saved_verified",
+      "batch_2_metrics": {
+        "newlyReviewedCompanies": 6,
+        "updatedExistingCompanies": 1,
+        "newCandidateNames": 6,
+        "newProductRecords": 10,
+        "newOnsitePhotoAssets": 5,
+        "newOnsitePhotoDisplayable": 0,
+        "newOnsitePhotoLinkOnly": 5,
+        "excludedAlteredPhotoAssets": 1,
+        "reviewedTranscriptionRows": 23,
+        "remainingDenseTranscriptionRows": 112
+      },
+      "batch_1_remote_ci": {
         "run_id": 43123939143,
         "status": "completed",
         "conclusion": "success",
@@ -349,19 +362,7 @@
         "artifact_digest": "sha256:710e85c3b5fcebe7bbe525ef98eda5e3e73d67c99ca818887e41371192c217c7",
         "purpose": "development_preview_only"
       },
-      "batch_2_status": "validated_pending_remote",
-      "batch_2_metrics": {
-        "newlyReviewedCompanies": 6,
-        "updatedExistingCompanies": 1,
-        "newCandidateNames": 6,
-        "newProductRecords": 10,
-        "newOnsitePhotoAssets": 5,
-        "newOnsitePhotoDisplayable": 0,
-        "newOnsitePhotoLinkOnly": 5,
-        "excludedAlteredPhotoAssets": 1,
-        "reviewedTranscriptionRows": 23,
-        "remainingDenseTranscriptionRows": 112
-      }
+      "remote_ci_note": "Batch2 local build and 147 tests passed; remote CI not checked in this execution."
     },
     {
       "stage": 5,
