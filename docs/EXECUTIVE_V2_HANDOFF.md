@@ -15,7 +15,7 @@
 - 작업 브랜치: `origin/work/fieldnote-v2` — https://github.com/qkfhvnfrl-ux/exhibition-intelligence/tree/work/fieldnote-v2
 - 이번 시작: `5045bd513976d812d3c28672e6ddd51b76248637`.
 - 3단계 구현 기준: `160efa420211160bf07eed559e4465e1059a25e8`; 초기 구현 `8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec`.
-- 현재 버전: `2.0.0-stage.4`. 4단계 구현 SHA는 원격 반영 후 아래 원격 검증 절에 기록합니다. 이 문서 자체의 최종 SHA는 `git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md`로 확인합니다.
+- 현재 버전: `2.0.0-stage.4`. 4단계 구현 SHA는 `91dee14bbd21c172cd127e18409ad9c582f5c9bc`입니다. 이 문서 자체의 최종 SHA는 `git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md`로 확인합니다.
 - 기존 공개 소스 `4990376dfef1b6890666056bb7e526519d79c784`, 배포 구현 `4713114268f7c678859e1c950c30cc2687b128b2`, 복구 `origin/recovery/fieldnote-v1.1-20261112`. **9단계 전까지 main/공개 배포를 교체하지 않습니다.**
 - unslop 고정 커밋 `97daa3eb365670ea3f87ed85356cbfcee18105a5`, Damir Sokolovsky, CC BY 4.0. 기존 기록 `docs/EXECUTIVE_V2_UNSLOP.md` 유지.
 
@@ -68,4 +68,10 @@ git diff --check
 
 ## 원격 검증
 
-이번 구현은 로컬 검증 완료 후 원격 반영 대기 상태입니다. 일반 Git 인증이 없으면 GitHub blob/tree/commit/ref API로 같은 작업 브랜치에 fast-forward하며 expected SHA를 사용합니다. 로컬 blob/index tree와 원격 객체 및 ref를 재확인한 뒤 이 절과 STATUS를 실제 SHA로 갱신합니다.
+이번 묶음의 저장·원격 검증을 완료했습니다. ADEX 전체 단계는 `in_progress`이며 WORK 상태는 `stage_4_batch_1_saved_continue_research`입니다.
+
+- 구현 커밋: `91dee14bbd21c172cd127e18409ad9c582f5c9bc`.
+- 구현 tree: `e193fe549696444400cdd02e110f85da236d34ee`.
+- 변경 33개 파일의 blob SHA를 로컬 index와 대조했고, 원격 ref 조회·fetch·tree 대조 후 로컬을 fast-forward했습니다. force push는 사용하지 않았습니다.
+- 원격 CI: [Validate and build #17](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43123939143) 성공. build/check 및 미리보기 산출물 저장 성공. 산출물 ID `13901024570`은 개발 미리보기이며 공개 배포가 아닙니다.
+- 기계 판독 근거: `docs/evidence/EXECUTIVE_V2_STAGE_4_REMOTE.json`. 이 절과 STATUS는 구현 커밋 뒤 별도의 문서 커밋으로 저장합니다.

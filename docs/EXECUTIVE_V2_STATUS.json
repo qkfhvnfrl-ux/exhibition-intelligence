@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T08:55:57+09:00",
+  "updated_at": "2026-11-12T09:02:39+09:00",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -17,14 +17,14 @@
   "work": {
     "branch": "work/fieldnote-v2",
     "remote_branch": "origin/work/fieldnote-v2",
-    "implementation_commit": "160efa420211160bf07eed559e4465e1059a25e8",
-    "remote_verified_commit": "160efa420211160bf07eed559e4465e1059a25e8",
-    "state": "stage_4_batch_1_verified_remote_pending",
+    "implementation_commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+    "remote_verified_commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+    "state": "stage_4_batch_1_saved_continue_research",
     "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response.",
     "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
-    "implementation_tree": "92e3e0f6431912de5e0e3a10012ef6ec648a03e3",
+    "implementation_tree": "e193fe549696444400cdd02e110f85da236d34ee",
     "resume_start_commit": "5045bd513976d812d3c28672e6ddd51b76248637",
-    "stage4_implementation_commit": null
+    "stage4_implementation_commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc"
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -252,9 +252,10 @@
         "docs/EXECUTIVE_V2_STAGE_4_DATA.md",
         "docs/evidence/EXECUTIVE_V2_STAGE_4_METRICS.json",
         "docs/research-v2/stage4-independent-audit.md",
-        "data/v2/research/adex-2025/"
+        "data/v2/research/adex-2025/",
+        "docs/evidence/EXECUTIVE_V2_STAGE_4_REMOTE.json"
       ],
-      "implementation_commit": null,
+      "implementation_commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
       "prepared_queue_file": "data/v2/collection/adex-2025.json",
       "prepared_queue_ids": [
         "queue-adex-2025-full-directory",
@@ -265,7 +266,7 @@
       ],
       "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md",
       "start_commit": "5045bd513976d812d3c28672e6ddd51b76248637",
-      "batch_1_status": "verified_pending_remote",
+      "batch_1_status": "saved_verified",
       "batch_1_metrics": {
         "newlyReviewedCompanies": 18,
         "reconciledExistingCompanies": 5,
@@ -331,7 +332,22 @@
       "local_validation_tests": 147,
       "population_complete": false,
       "stage_complete": false,
-      "further_user_instructions_required": false
+      "further_user_instructions_required": false,
+      "batch_1_saved_at": "2026-11-12T09:02:39+09:00",
+      "remote_ci": {
+        "run_id": 43123939143,
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43123939143",
+        "head_sha": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+        "job_id": 130871137509,
+        "build": "success",
+        "check": "success",
+        "artifact_id": 13901024570,
+        "artifact_name": "fieldnote-v2-preview-91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+        "artifact_digest": "sha256:710e85c3b5fcebe7bbe525ef98eda5e3e73d67c99ca818887e41371192c217c7",
+        "purpose": "development_preview_only"
+      }
     },
     {
       "stage": 5,
@@ -564,6 +580,23 @@
       "result": "pass_with_named_limits",
       "tests": 147,
       "evidence": "docs/EXECUTIVE_V2_STAGE_4_VERIFICATION.md"
+    },
+    {
+      "check": "stage_4_remote_ref_and_tree",
+      "stage": 4,
+      "result": "pass",
+      "commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+      "tree": "e193fe549696444400cdd02e110f85da236d34ee",
+      "evidence": "docs/evidence/EXECUTIVE_V2_STAGE_4_REMOTE.json"
+    },
+    {
+      "check": "stage_4_remote_CI",
+      "stage": 4,
+      "result": "pass",
+      "commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+      "run_id": 43123939143,
+      "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43123939143",
+      "artifact_id": 13901024570
     }
   ],
   "unfinished": [

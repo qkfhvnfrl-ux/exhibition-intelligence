@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-11-12T09:02:39+09:00",
+  "branch": "work/fieldnote-v2",
+  "parent_commit": "5045bd513976d812d3c28672e6ddd51b76248637",
+  "implementation_commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+  "implementation_tree": "e193fe549696444400cdd02e110f85da236d34ee",
+  "uploaded_files": 33,
+  "all_blob_shas_match_local_index": true,
+  "remote_ref_matches": true,
+  "remote_tree_matches_local_index": true,
+  "local_fast_forward_complete": true,
+  "force_push": false,
+  "ci": {
+    "run_id": 43123939143,
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43123939143",
+    "head_sha": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+    "job_id": 130871137509,
+    "build": "success",
+    "check": "success",
+    "artifact_id": 13901024570,
+    "artifact_name": "fieldnote-v2-preview-91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+    "artifact_digest": "sha256:710e85c3b5fcebe7bbe525ef98eda5e3e73d67c99ca818887e41371192c217c7",
+    "purpose": "development_preview_only"
+  },
+  "production_changed": false,
+  "stage_complete": false,
+  "batch_status": "saved_verified",
+  "further_user_instructions_required": false,
+  "note": "This evidence records the implementation commit; a separate documentation commit saves the status/handoff and this file."
+}
