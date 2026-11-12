@@ -3,14 +3,15 @@
   "eventId": "adex-2025",
   "asOf": "2026-11-12",
   "baselineCommit": "5045bd513976d812d3c28672e6ddd51b76248637",
+  "aggregationScope": "Stage 4 cumulative changes since stage-3 baseline; individual batch deltas recorded separately",
   "batch": {
-    "newlyReviewedCompanies": 18,
+    "newlyReviewedCompanies": 24,
     "reconciledExistingCompanies": 5,
-    "newCandidateNames": 3,
-    "reviewedProductAndServiceRecords": 82,
-    "eventProductAndServiceRecords": 79,
+    "newCandidateNames": 9,
+    "reviewedProductAndServiceRecords": 92,
+    "eventProductAndServiceRecords": 89,
     "backgroundOnlyRecords": 3,
-    "newProductAndServiceIds": 75,
+    "newProductAndServiceIds": 85,
     "retiredGroupedProductIds": [
       "product-a3ab2ba98146786a9e43",
       "product-a3b6f5196fdb4499160c",
@@ -21,48 +22,48 @@
       "product-7fd88e3585b6db0c0152"
     ],
     "itemEvidenceCounts": {
-      "event_photo_confirmed": 16,
-      "exhibitor_event_statement": 56,
-      "onsite_report_confirmed": 5,
+      "event_photo_confirmed": 19,
+      "exhibitor_event_statement": 58,
+      "onsite_report_confirmed": 7,
       "background_reference": 3,
-      "event_report_confirmed": 1,
-      "exhibitor_event_photo_confirmed": 1
+      "exhibitor_event_photo_confirmed": 4,
+      "event_report_confirmed": 1
     },
-    "uniqueNewOnsitePhotoAssets": 17,
+    "uniqueNewOnsitePhotoAssets": 22,
     "newOnsitePhotoDisplayable": 0,
-    "newOnsitePhotoLinkOnly": 17,
-    "reviewedTranscriptionRows": 79,
-    "remainingDenseTranscriptionRows": 135
+    "newOnsitePhotoLinkOnly": 22,
+    "reviewedTranscriptionRows": 102,
+    "remainingDenseTranscriptionRows": 112
   },
   "cumulative": {
     "eventId": "adex-2025",
-    "populationRows": 365,
-    "deduplicatedRosterOrganizations": 368,
-    "deduplicatedCompanyCandidateNames": 332,
+    "populationRows": 371,
+    "deduplicatedRosterOrganizations": 374,
+    "deduplicatedCompanyCandidateNames": 338,
     "confirmedCompanyIdentities": 4,
     "unresolvedCompositeIdentities": 8,
-    "registeredOrganizations": 369,
+    "registeredOrganizations": 375,
     "collectiveOrganizations": 1,
     "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
-    "relevanceReviewed": 22,
-    "relevantOrganizations": 22,
+    "relevanceReviewed": 27,
+    "relevantOrganizations": 27,
     "excludedOrganizations": 0,
-    "deepAnalysisComplete": 9,
+    "deepAnalysisComplete": 14,
     "mapLinkedOrganizations": 35,
-    "numberLinkedOrganizations": 3,
-    "insufficientData": 14,
+    "numberLinkedOrganizations": 4,
+    "insufficientData": 15,
     "notStarted": 346,
-    "underReviewOrganizations": 347,
+    "underReviewOrganizations": 348,
     "insufficientDataDefinition": "Explicitly researched cases whose review status is insufficient_data; untouched organizations are counted separately as notStarted.",
-    "withoutVerifiedExhibitEvidence": 356,
+    "withoutVerifiedExhibitEvidence": 357,
     "directoryTraversalComplete": false,
     "populationComplete": false,
     "overallCompletionPercent": null,
-    "appCompanyNames": 369,
-    "editorialCompanies": 23,
-    "appProductAndServiceRecords": 84,
-    "appPhotoRecords": 59,
-    "eventContextPhotoRecords": 36,
+    "appCompanyNames": 375,
+    "editorialCompanies": 29,
+    "appProductAndServiceRecords": 94,
+    "appPhotoRecords": 64,
+    "eventContextPhotoRecords": 41,
     "verifiedMapRegions": 32
   },
   "reviewedCompanies": [
@@ -144,6 +145,48 @@
       "productAndServiceRecords": 5
     },
     {
+      "id": "org-28e4da701cc649565df6",
+      "name": "한국씨앤오테크",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 2
+    },
+    {
+      "id": "org-5eaa88672e8cbfe6bbe8",
+      "name": "네스앤텍",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-7169c5cf6fdfaa767c9f",
+      "name": "화인정밀",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-4e1384acf205b9865ada",
+      "name": "데크카본",
+      "status": "analysis_complete",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-4198106a4705623995cd",
+      "name": "브로던",
+      "status": "insufficient_data",
+      "relevance": "pending",
+      "productAndServiceRecords": 1
+    },
+    {
+      "id": "org-b2e821937e2348e31631",
+      "name": "Patria",
+      "status": "insufficient_data",
+      "relevance": "confirmed",
+      "productAndServiceRecords": 1
+    },
+    {
       "id": "org-04b57642e09c33ee22c5",
       "name": "엠앤씨솔루션",
       "status": "insufficient_data",
@@ -167,9 +210,9 @@
     {
       "id": "org-1273e8383e083821a303",
       "name": "씨엠테크론(당시 창민테크론)",
-      "status": "insufficient_data",
+      "status": "analysis_complete",
       "relevance": "confirmed",
-      "productAndServiceRecords": 0
+      "productAndServiceRecords": 3
     },
     {
       "id": "org-9753ff08865cbaf0bb91",
@@ -236,9 +279,9 @@
     "New photo count deduplicates original image assets across company links; no new copied image assets."
   ],
   "nextStart": [
-    "Hall 8 / scanned label 001 / WASCO, then remaining 135 dense labels.",
-    "DAPA unadopted constituent identities: 한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던; use population.json before adding duplicates.",
-    "Patria / Finland pavilion 8K13 and USA pavilion full 37-name subset."
+    "Hall 8 / scanned label 024 / SANJU OPTICAL, then remaining 112 dense labels.",
+    "Remaining DAPA constituents beyond the six batch-2 additions; 브로던 country/identity and onsite evidence remain open.",
+    "Finland pavilion other companies and USA pavilion full 37-name subset; Patria event announcement already registered."
   ],
   "stageComplete": false
 }

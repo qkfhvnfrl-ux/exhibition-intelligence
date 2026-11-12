@@ -31,4 +31,17 @@ def apply_population_review(data):
     data['collection']['notes'].append('Stage 4: reviewed 79 Hall 7 transcription rows and registered 3 newly resolved DAPA constituent names; full 19-company/22-item pavilion candidate list preserved in data/v2/research/adex-2025/population.json. Remaining bilingual names require identity matching before import to avoid double counting.')
     data['collection']['units'].append({'id':'adex25-dapa-pavilion-review','kind':'pavilion_subset','url':review['sources'][0]['url'],'status':'partial','rawEntryCount':19,'canonicalNewEntries':3,'scopeNote':'19 source names preserved in supplemental candidate ledger; 3 new resolved names imported. Not 19 new companies.'})
     data['queues'].append({'id':'queue-adex-2025-stage4-next','stage':4,'reason':'Verified batches are partial; 135 Hall 8 transcription rows and full directory remain open.','nextAction':'Read EXHIBITION_RESEARCH_PROTOCOL.md and latest stage4 metrics; resume Hall 8 WASCO label001, then unresolved DAPA constituents (한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던) and Patria/Finland pavilion.','missingRange':'Full 2025 directory/outdoor; 135 dense labels; unreviewed candidates; number/geometry associations; field-photo rights.'})
+    supplement_path = ROOT / 'data/v2/research/adex-2025/batch2-roster.json'
+    if supplement_path.exists():
+        supplement = json.loads(supplement_path.read_text())
+        known_sources = {s['id'] for s in data['sources']}
+        for src in supplement['sources']:
+            if src['id'] not in known_sources:
+                data['sources'].append({**src, 'accessStatus': 'accessible', 'coverageScope': 'subset', 'acquiredAt': supplement['checkedAt']})
+        known_entries = {e['id'] for e in data['entries']}
+        for entry in supplement['entries']:
+            if entry['id'] not in known_entries:
+                data['entries'].append(entry)
+        data['collection']['notes'].append('Stage 4 batch 2: six additional source-named constituents registered after exact-name and alias review. Not a complete pavilion roster.')
+        data['queues'][-1]['nextAction'] = 'Resume Hall 8 SANJU OPTICAL label024; Finland pavilion other constituents and USA pavilion 37-name directory; remaining DAPA constituents. Batch2 reviewed 한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던 and Patria.'
     return data

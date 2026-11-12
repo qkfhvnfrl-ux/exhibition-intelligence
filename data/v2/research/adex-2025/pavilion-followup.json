@@ -1,0 +1,888 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "batchId": "adex-2025-batch-02-followup",
+  "checkedAt": "2026-11-12",
+  "cases": [
+    {
+      "id": "case-adex-2025-cno",
+      "organizationId": "org-28e4da701cc649565df6",
+      "displayName": "한국씨앤오테크",
+      "categoryIds": [
+        "manufacturing_simulation"
+      ],
+      "productIds": [
+        "adex25-cno-1",
+        "adex25-cno-2"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "차량 운용부대의 훈련·군수지원 범위를 검토할 사례이며 차량 탑재 구성품으로 분류하지 않습니다.",
+      "highlights": [
+        "차량 운용부대의 훈련·군수지원 범위를 검토할 사례이며 차량 탑재 구성품으로 분류하지 않습니다.",
+        "차량 탑재 유탄발사장치와의 호환성은 확인되지 않았습니다.",
+        "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다."
+      ],
+      "exhibit": {
+        "summary": "차량 탑재 유탄발사장치와의 호환성은 확인되지 않았습니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ],
+        "items": [
+          {
+            "productId": "adex25-cno-1",
+            "name": "연습용 수류탄",
+            "status": "event_photo_confirmed",
+            "form": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+            "sourceIds": [
+              "pavilion-dapa-leaflet",
+              "pavilion-dtaq-report"
+            ]
+          },
+          {
+            "productId": "adex25-cno-2",
+            "name": "40mm 연습유탄",
+            "status": "event_photo_confirmed",
+            "form": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+            "sourceIds": [
+              "pavilion-dapa-leaflet",
+              "pavilion-dtaq-report"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        },
+        {
+          "id": "pavilion-dtaq-report",
+          "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+          "publisher": "국방기술품질원 미디어룸 / 글 정소야",
+          "date": "2025-11-10",
+          "role": "official_onsite_report",
+          "originGroup": "dtaq-adex2025-report",
+          "support": "통합홍보관 DQ마크 7개사 9개 품목 전시 서술 및 5개 현장사진",
+          "limitations": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [
+        {
+          "id": "adex25-photo-dtaq-04",
+          "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "originalImageUrl": "https://dtaq-media.kr/image/asset/d337f33f270daa5dc4fa969ba128873ba44774dcd4b812b22536a9fd65430c86",
+          "caption": "한국씨앤오테크 연습용 수류탄·40mm 연습유탄",
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "photographer": null,
+          "provider": "국방기술품질원",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가 미확보; 원문 연결",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-11-10",
+          "capturedAt": null,
+          "width": 1024,
+          "height": 569,
+          "sourceIds": [
+            "pavilion-dtaq-report"
+          ],
+          "productIds": [
+            "adex25-cno-1",
+            "adex25-cno-2"
+          ],
+          "variantNote": "2026-11-12 원본 픽셀 재확인. 게시일과 촬영일 구분; 정확한 모델은 추정하지 않음."
+        }
+      ],
+      "catalogs": [],
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "pavilion-dapa-leaflet"
+      ],
+      "boothClaims": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차량 운용부대의 훈련·군수지원 범위를 검토할 사례이며 차량 탑재 구성품으로 분류하지 않습니다.",
+        "categories": [
+          "manufacturing_simulation"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "동일 임무·운용조건의 대체 장비",
+        "conditions": "차량 탑재 유탄발사장치와의 호환성은 확인되지 않았습니다.",
+        "judgment": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+        "status": "comparison_not_quantified",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "direction": {
+        "observation": "회차별 자료에 연습용 수류탄, 40mm 연습유탄 기재.",
+        "interpretation": "훈련용 보급품을 장비 공급 후 운용지원과 함께 제시하는 접근으로 해석됩니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "workConnection": {
+        "value": "차량 운용부대의 훈련·군수지원 범위를 검토할 사례이며 차량 탑재 구성품으로 분류하지 않습니다.",
+        "conditions": [
+          "차량 탑재 유탄발사장치와의 호환성은 확인되지 않았습니다.",
+          "공개 근거와 차량 체계 요구의 추가 대조 필요"
+        ]
+      },
+      "followUps": [
+        "차량용 발사장치와 호환되는 형식은 무엇입니까?",
+        "모형 전시품과 실제 훈련용 공급품은 어떻게 구분됩니까?",
+        "보관·운반 요구와 훈련지원 범위는 무엇입니까?"
+      ],
+      "verificationNote": "공식 리플릿의 업체·제품을 재추출하고 사후 기사 본문과 대조했습니다. 기관 홍보계열 자료이며 독립 성능검증이 아닙니다.",
+      "photoIds": [
+        "adex25-photo-dtaq-04"
+      ],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      },
+      "newRosterSourceListed": true
+    },
+    {
+      "id": "case-adex-2025-nes",
+      "organizationId": "org-5eaa88672e8cbfe6bbe8",
+      "displayName": "네스앤텍",
+      "categoryIds": [
+        "unmanned_remote",
+        "communications_navigation"
+      ],
+      "productIds": [
+        "adex25-nes-1"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "드론과 운용단말을 함께 살펴볼 수 있어 지휘소 차량의 정찰정보 연계 검토에 참고됩니다.",
+      "highlights": [
+        "드론과 운용단말을 함께 살펴볼 수 있어 지휘소 차량의 정찰정보 연계 검토에 참고됩니다.",
+        "차량 탑재·주행 중 운용·연동 인터페이스는 공개 근거가 없습니다.",
+        "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다."
+      ],
+      "exhibit": {
+        "summary": "차량 탑재·주행 중 운용·연동 인터페이스는 공개 근거가 없습니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ],
+        "items": [
+          {
+            "productId": "adex25-nes-1",
+            "name": "멀티콥터형 다목적 드론",
+            "status": "event_photo_confirmed",
+            "form": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+            "sourceIds": [
+              "pavilion-dapa-leaflet",
+              "pavilion-dtaq-report"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        },
+        {
+          "id": "pavilion-dtaq-report",
+          "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+          "publisher": "국방기술품질원 미디어룸 / 글 정소야",
+          "date": "2025-11-10",
+          "role": "official_onsite_report",
+          "originGroup": "dtaq-adex2025-report",
+          "support": "통합홍보관 DQ마크 7개사 9개 품목 전시 서술 및 5개 현장사진",
+          "limitations": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [
+        {
+          "id": "adex25-photo-dtaq-05",
+          "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "originalImageUrl": "https://dtaq-media.kr/image/asset/a1ffaa10f3c471eae36de306fcdc3294574862ed250dbcd57dc57fd8a8d4a1e5",
+          "caption": "네스앤텍 드론 및 운용 화면",
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "photographer": null,
+          "provider": "국방기술품질원",
+          "rightsStatus": "link-only",
+          "rightsNote": "재사용 허가 미확보; 원문 연결",
+          "context": "event",
+          "eventId": "adex-2025",
+          "eventYear": 2025,
+          "sourceDate": "2025-11-10",
+          "capturedAt": null,
+          "width": 1024,
+          "height": 569,
+          "sourceIds": [
+            "pavilion-dtaq-report"
+          ],
+          "productIds": [
+            "adex25-nes-1"
+          ],
+          "variantNote": "2026-11-12 원본 픽셀 재확인. 게시일과 촬영일 구분; 정확한 모델은 추정하지 않음."
+        }
+      ],
+      "catalogs": [],
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "pavilion-dapa-leaflet"
+      ],
+      "boothClaims": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "드론과 운용단말을 함께 살펴볼 수 있어 지휘소 차량의 정찰정보 연계 검토에 참고됩니다.",
+        "categories": [
+          "unmanned_remote",
+          "communications_navigation"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "동일 임무·운용조건의 대체 장비",
+        "conditions": "차량 탑재·주행 중 운용·연동 인터페이스는 공개 근거가 없습니다.",
+        "judgment": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+        "status": "comparison_not_quantified",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "direction": {
+        "observation": "회차별 자료에 멀티콥터형 다목적 드론 기재.",
+        "interpretation": "비행체 단품보다 운용단말을 포함한 감시·정찰 운용체계를 제시하는 방향으로 해석됩니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "workConnection": {
+        "value": "드론과 운용단말을 함께 살펴볼 수 있어 지휘소 차량의 정찰정보 연계 검토에 참고됩니다.",
+        "conditions": [
+          "차량 탑재·주행 중 운용·연동 인터페이스는 공개 근거가 없습니다.",
+          "공개 근거와 차량 체계 요구의 추가 대조 필요"
+        ]
+      },
+      "followUps": [
+        "전시 기체의 정확한 모델과 단말 구성은 무엇입니까?",
+        "차량 내부 단말 설치·전원·통신 요구는 무엇입니까?",
+        "정찰정보를 지휘체계로 전달하는 공개 인터페이스가 있습니까?"
+      ],
+      "verificationNote": "공식 리플릿의 업체·제품을 재추출하고 사후 기사 본문과 대조했습니다. 기관 홍보계열 자료이며 독립 성능검증이 아닙니다.",
+      "photoIds": [
+        "adex25-photo-dtaq-05"
+      ],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      },
+      "newRosterSourceListed": true
+    },
+    {
+      "id": "case-adex-2025-fine",
+      "organizationId": "org-7169c5cf6fdfaa767c9f",
+      "displayName": "화인정밀",
+      "categoryIds": [
+        "components",
+        "optics_awareness"
+      ],
+      "productIds": [
+        "adex25-fine-1"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "시야 유지장치의 구성과 정비성을 비교할 항공 분야 사례입니다. 차량 적용품 출품으로 확대하지 않습니다.",
+      "highlights": [
+        "시야 유지장치의 구성과 정비성을 비교할 항공 분야 사례입니다. 차량 적용품 출품으로 확대하지 않습니다.",
+        "항공용 제품이며 장갑차 유리·와이퍼·세척액 계통과의 적용성은 미검증입니다.",
+        "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다."
+      ],
+      "exhibit": {
+        "summary": "항공용 제품이며 장갑차 유리·와이퍼·세척액 계통과의 적용성은 미검증입니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ],
+        "items": [
+          {
+            "productId": "adex25-fine-1",
+            "name": "항공기용 방풍유리 세척기 조립체",
+            "status": "onsite_report_confirmed",
+            "form": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+            "sourceIds": [
+              "pavilion-dapa-leaflet",
+              "pavilion-dtaq-report"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        },
+        {
+          "id": "pavilion-dtaq-report",
+          "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+          "publisher": "국방기술품질원 미디어룸 / 글 정소야",
+          "date": "2025-11-10",
+          "role": "official_onsite_report",
+          "originGroup": "dtaq-adex2025-report",
+          "support": "통합홍보관 DQ마크 7개사 9개 품목 전시 서술 및 5개 현장사진",
+          "limitations": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [],
+      "catalogs": [],
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "pavilion-dapa-leaflet"
+      ],
+      "boothClaims": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "시야 유지장치의 구성과 정비성을 비교할 항공 분야 사례입니다. 차량 적용품 출품으로 확대하지 않습니다.",
+        "categories": [
+          "components",
+          "optics_awareness"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "동일 임무·운용조건의 대체 장비",
+        "conditions": "항공용 제품이며 장갑차 유리·와이퍼·세척액 계통과의 적용성은 미검증입니다.",
+        "judgment": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+        "status": "comparison_not_quantified",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "direction": {
+        "observation": "회차별 자료에 항공기용 방풍유리 세척기 조립체 기재.",
+        "interpretation": "완성 플랫폼 이외에 시야 유지 부품을 수출 품질 사례로 제시하는 구성으로 해석됩니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "workConnection": {
+        "value": "시야 유지장치의 구성과 정비성을 비교할 항공 분야 사례입니다. 차량 적용품 출품으로 확대하지 않습니다.",
+        "conditions": [
+          "항공용 제품이며 장갑차 유리·와이퍼·세척액 계통과의 적용성은 미검증입니다.",
+          "공개 근거와 차량 체계 요구의 추가 대조 필요"
+        ]
+      },
+      "followUps": [
+        "전시품의 정확한 구성과 공급 범위는 무엇입니까?",
+        "차량용 적용 이력 또는 별도 제품이 있습니까?",
+        "세척성능·환경시험·정비주기 자료를 제공할 수 있습니까?"
+      ],
+      "verificationNote": "공식 리플릿의 업체·제품을 재추출하고 사후 기사 본문과 대조했습니다. 기관 홍보계열 자료이며 독립 성능검증이 아닙니다.",
+      "photoIds": [],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      },
+      "newRosterSourceListed": true
+    },
+    {
+      "id": "case-adex-2025-dacc",
+      "organizationId": "org-4e1384acf205b9865ada",
+      "displayName": "데크카본",
+      "categoryIds": [
+        "running_gear",
+        "manufacturing_simulation"
+      ],
+      "productIds": [
+        "adex25-dacc-1"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "제동 마찰재와 제조·시험 역량을 검토할 항공용 사례입니다. 차량용 제동품과 구분합니다.",
+      "highlights": [
+        "제동 마찰재와 제조·시험 역량을 검토할 항공용 사례입니다. 차량용 제동품과 구분합니다.",
+        "동일 하중·온도·반복제동 조건의 비교자료가 없어 차량용 우수성을 판단할 수 없습니다.",
+        "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다."
+      ],
+      "exhibit": {
+        "summary": "동일 하중·온도·반복제동 조건의 비교자료가 없어 차량용 우수성을 판단할 수 없습니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ],
+        "items": [
+          {
+            "productId": "adex25-dacc-1",
+            "name": "F-16 Block50/52 카본 브레이크 디스크",
+            "status": "onsite_report_confirmed",
+            "form": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+            "sourceIds": [
+              "pavilion-dapa-leaflet",
+              "pavilion-dtaq-report"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        },
+        {
+          "id": "pavilion-dtaq-report",
+          "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+          "publisher": "국방기술품질원 미디어룸 / 글 정소야",
+          "date": "2025-11-10",
+          "role": "official_onsite_report",
+          "originGroup": "dtaq-adex2025-report",
+          "support": "통합홍보관 DQ마크 7개사 9개 품목 전시 서술 및 5개 현장사진",
+          "limitations": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "photos": [],
+      "catalogs": [],
+      "countries": [
+        "대한민국"
+      ],
+      "countrySourceIds": [
+        "pavilion-dapa-leaflet"
+      ],
+      "boothClaims": [],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "제동 마찰재와 제조·시험 역량을 검토할 항공용 사례입니다. 차량용 제동품과 구분합니다.",
+        "categories": [
+          "running_gear",
+          "manufacturing_simulation"
+        ],
+        "status": "analysis_complete",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "동일 임무·운용조건의 대체 장비",
+        "conditions": "동일 하중·온도·반복제동 조건의 비교자료가 없어 차량용 우수성을 판단할 수 없습니다.",
+        "judgment": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+        "status": "comparison_not_quantified",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "direction": {
+        "observation": "회차별 자료에 F-16 Block50/52 카본 브레이크 디스크 기재.",
+        "interpretation": "특정 항공기 적용 부품을 통해 소재 제조와 품질보증 역량을 드러내는 구성으로 해석됩니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet",
+          "pavilion-dtaq-report"
+        ]
+      },
+      "workConnection": {
+        "value": "제동 마찰재와 제조·시험 역량을 검토할 항공용 사례입니다. 차량용 제동품과 구분합니다.",
+        "conditions": [
+          "동일 하중·온도·반복제동 조건의 비교자료가 없어 차량용 우수성을 판단할 수 없습니다.",
+          "공개 근거와 차량 체계 요구의 추가 대조 필요"
+        ]
+      },
+      "followUps": [
+        "항공용 전시품과 차량용 공급품의 차이는 무엇입니까?",
+        "차량의 제동 반복조건에 대한 시험자료가 있습니까?",
+        "교체·검사·수리 범위와 공급 조건은 무엇입니까?"
+      ],
+      "verificationNote": "공식 리플릿의 업체·제품을 재추출하고 사후 기사 본문과 대조했습니다. 기관 홍보계열 자료이며 독립 성능검증이 아닙니다.",
+      "photoIds": [],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      },
+      "newRosterSourceListed": true
+    },
+    {
+      "id": "case-adex-2025-broadern",
+      "organizationId": "org-4198106a4705623995cd",
+      "displayName": "브로던",
+      "categoryIds": [
+        "components"
+      ],
+      "productIds": [
+        "adex25-broadern-1"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "SAR 안테나 소자의 전력증폭 기술은 센서 부품 후보로 검토하되 지상차량 적용은 미확인입니다.",
+      "highlights": [
+        "SAR 안테나 소자의 전력증폭 기술은 센서 부품 후보로 검토하되 지상차량 적용은 미확인입니다.",
+        "회차 리플릿의 출품 예정만 확인했으며 실제 현장 전시·성능·차량 적용 자료는 부족합니다.",
+        "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다."
+      ],
+      "exhibit": {
+        "summary": "회차 리플릿의 출품 예정만 확인했으며 실제 현장 전시·성능·차량 적용 자료는 부족합니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "items": [
+          {
+            "productId": "adex25-broadern-1",
+            "name": "SAR 위성 안테나용 핵심 소자",
+            "status": "exhibitor_event_statement",
+            "form": "전시 예고 — 현장 형식 미확인",
+            "sourceIds": [
+              "pavilion-dapa-leaflet"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "pavilion-dapa-leaflet",
+          "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=9c408e6cd3741e0eb3daa00b4f62f3bf",
+          "title": "서울 ADEX 2025 방위사업청 통합홍보관 리플릿 — 2쪽",
+          "publisher": "방위사업청 및 산하 기관 / 경상국립대학교 게시",
+          "date": null,
+          "role": "official_pavilion_exhibit_list",
+          "originGroup": "dapa-integrated-pavilion-2025",
+          "support": "2025 회차의 업체별 출품 목록; 2쪽 전시품목 텍스트와 이미지 대조",
+          "limitations": "공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed",
+          "sourceLocator": "page 2",
+          "parentUrl": "https://www.gnu.ac.kr/main/na/ntt/selectNttInfo.do?bbsId=1032&calAt=Y&mi=1131&nttSn=3708709"
+        }
+      ],
+      "photos": [],
+      "catalogs": [],
+      "countries": [],
+      "countrySourceIds": [],
+      "boothClaims": [],
+      "review": {
+        "relevance": "pending",
+        "reason": "SAR 안테나 소자의 전력증폭 기술은 센서 부품 후보로 검토하되 지상차량 적용은 미확인입니다.",
+        "categories": [
+          "components"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "동일 임무·운용조건의 대체 장비",
+        "conditions": "회차 리플릿의 출품 예정만 확인했으며 실제 현장 전시·성능·차량 적용 자료는 부족합니다.",
+        "judgment": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+        "status": "comparison_not_quantified",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ]
+      },
+      "direction": {
+        "observation": "회차별 자료에 SAR 위성 안테나용 핵심 소자 기재.",
+        "interpretation": "핵심 소자 국산화 역량을 제시하는 것으로 해석할 수 있으나 차량시장 진출을 단정할 근거는 없습니다.",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ]
+      },
+      "workConnection": {
+        "value": "SAR 안테나 소자의 전력증폭 기술은 센서 부품 후보로 검토하되 지상차량 적용은 미확인입니다.",
+        "conditions": [
+          "회차 리플릿의 출품 예정만 확인했으며 실제 현장 전시·성능·차량 적용 자료는 부족합니다.",
+          "공개 근거와 차량 체계 요구의 추가 대조 필요"
+        ]
+      },
+      "followUps": [
+        "정확한 법인 영문명과 제조 범위는 무엇입니까?",
+        "ADEX 2025 실제 전시품과 현장사진이 있습니까?",
+        "지상 센서 적용 이력과 공개 시험자료가 있습니까?"
+      ],
+      "verificationNote": "회차별 원문 본문과 항목을 두 차례 대조했습니다. 단일 원천의 사전 발표로 실제 현장 확인과 구별합니다.",
+      "photoIds": [],
+      "pavilionAssociation": {
+        "name": "방위사업청 통합홍보관",
+        "sourceIds": [
+          "pavilion-dapa-leaflet"
+        ],
+        "status": "official_listed",
+        "note": "회사별 부스번호·좌표 미확인. 기존 지도 공동관 도형에 임의 배치하지 않습니다."
+      },
+      "newRosterSourceListed": true
+    },
+    {
+      "id": "case-adex-2025-patria",
+      "organizationId": "org-b2e821937e2348e31631",
+      "displayName": "Patria",
+      "categoryIds": [
+        "optics_awareness"
+      ],
+      "productIds": [
+        "adex25-patria-1"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "ADEX 발표 대상인 수동 감시체계를 지휘소·센서 정보 연계 관점에서 검토합니다. AMV 등 일반 차량 카탈로그를 이번 출품으로 추가하지 않습니다.",
+      "highlights": [
+        "ADEX 발표 대상인 수동 감시체계를 지휘소·센서 정보 연계 관점에서 검토합니다. AMV 등 일반 차량 카탈로그를 이번 출품으로 추가하지 않습니다.",
+        "제조사 사전 발표만 확인했습니다. 차량 탑재 형식과 실제 현장 전시품은 미확인입니다.",
+        "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다."
+      ],
+      "exhibit": {
+        "summary": "제조사 사전 발표만 확인했습니다. 차량 탑재 형식과 실제 현장 전시품은 미확인입니다.",
+        "sourceIds": [
+          "patria-adex25"
+        ],
+        "items": [
+          {
+            "productId": "adex25-patria-1",
+            "name": "MUSCL 수동 레이더",
+            "status": "exhibitor_event_statement",
+            "form": "전시 예고 — 현장 형식 미확인",
+            "sourceIds": [
+              "patria-adex25"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "patria-adex25",
+          "url": "https://www.patriagroup.com/newsroom/meet-patria-at-events/patria-at-seoul-adex-2025",
+          "title": "Patria at Seoul ADEX 2025",
+          "publisher": "Patria",
+          "date": null,
+          "role": "exhibitor_pre_event_announcement",
+          "originGroup": "patria-adex25",
+          "support": "MUSCL 전시 예고 및 Finland pavilion 8K13. 페이지의 Seoul Airport 문구는 행사일별 장소 안내와 상충하여 사용하지 않습니다.",
+          "limitations": "발표기관의 단일 원천입니다. 성능 독립 검증을 뜻하지 않습니다.",
+          "independence": "primary_single_origin",
+          "checkedAt": "2026-11-12",
+          "edition": "2025",
+          "editionStatus": "confirmed"
+        }
+      ],
+      "photos": [],
+      "catalogs": [],
+      "countries": [
+        "핀란드"
+      ],
+      "countrySourceIds": [
+        "patria-adex25"
+      ],
+      "boothClaims": [
+        {
+          "code": "8K13",
+          "hall": "8",
+          "status": "confirmed",
+          "sourceIds": [
+            "patria-adex25"
+          ],
+          "note": "제조사 사전 발표의 Finland pavilion 번호. 지도 도형 미검증; 장소 표기 오류는 검증 기록 참조."
+        }
+      ],
+      "review": {
+        "relevance": "confirmed",
+        "reason": "ADEX 발표 대상인 수동 감시체계를 지휘소·센서 정보 연계 관점에서 검토합니다. AMV 등 일반 차량 카탈로그를 이번 출품으로 추가하지 않습니다.",
+        "categories": [
+          "optics_awareness"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-12",
+        "sourceIds": [
+          "patria-adex25"
+        ]
+      },
+      "evidenceAsOf": "2026-11-12",
+      "analysisScope": "reviewed_event_batch",
+      "claimKinds": {
+        "exhibit": "fact_or_attributed_statement",
+        "direction.observation": "observation",
+        "direction.interpretation": "analyst_interpretation",
+        "distinction.judgment": "qualified_comparison",
+        "workConnection": "proposed_review_value"
+      },
+      "distinction": {
+        "comparator": "동일 임무·운용조건의 대체 장비",
+        "conditions": "제조사 사전 발표만 확인했습니다. 차량 탑재 형식과 실제 현장 전시품은 미확인입니다.",
+        "judgment": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+        "status": "comparison_not_quantified",
+        "sourceIds": [
+          "patria-adex25"
+        ]
+      },
+      "direction": {
+        "observation": "회차별 자료에 MUSCL 수동 레이더 기재.",
+        "interpretation": "감시체계의 독립·네트워크 운용을 강조한 행사 제안으로 해석되며 장갑차 출품 전략으로 확대하지 않습니다.",
+        "sourceIds": [
+          "patria-adex25"
+        ]
+      },
+      "workConnection": {
+        "value": "ADEX 발표 대상인 수동 감시체계를 지휘소·센서 정보 연계 관점에서 검토합니다. AMV 등 일반 차량 카탈로그를 이번 출품으로 추가하지 않습니다.",
+        "conditions": [
+          "제조사 사전 발표만 확인했습니다. 차량 탑재 형식과 실제 현장 전시품은 미확인입니다.",
+          "공개 근거와 차량 체계 요구의 추가 대조 필요"
+        ]
+      },
+      "followUps": [
+        "실제 전시 형식과 현장사진을 확인할 수 있습니까?",
+        "지휘소 연계에 필요한 공개 인터페이스와 설치 조건은 무엇입니까?",
+        "Finland pavilion 내 실제 부스 점유와 번호를 재확인할 수 있습니까?"
+      ],
+      "verificationNote": "회차별 원문 본문과 항목을 두 차례 대조했습니다. 단일 원천의 사전 발표로 실제 현장 확인과 구별합니다.",
+      "photoIds": [],
+      "newRosterSourceListed": true
+    }
+  ]
+}

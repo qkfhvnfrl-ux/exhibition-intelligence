@@ -93,14 +93,10 @@
     }
   ],
   "transcriptionReview": {
-    "hall": "7",
-    "reviewCount": 79,
-    "remainingDenseReviewCount": 135,
-    "nextEntry": {
-      "hall": "8",
-      "rawName": "WASCO",
-      "sourceLocator": "page 1 / Hall 8 / scanned label 001 / occurrence 1"
-    },
+    "hall": "7 and 8 (partial)",
+    "reviewCount": 102,
+    "remainingDenseReviewCount": 112,
+    "nextEntry": "Hall8 / label024 / SANJU OPTICAL",
     "records": [
       {
         "entryId": "adex25-maplabel-2dd838eb43f04c07",
@@ -1049,6 +1045,190 @@
         "method": "Enlarged Hall 7 original raster inspected; label compared with existing transcription. Fresh source PDF hash matches original 2025-10-11 revision.",
         "scope": "Glyph transcription only; no legal-identity, relevance, attendance, booth-number or product confirmation.",
         "rawNameChanged": false
+      },
+      {
+        "entryId": "adex25-maplabel-3297a4336db86c4a",
+        "rawName": "WASCO",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-86178e56d86bdb78",
+        "rawName": "AMDA",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-c6f64b75b9c8649c",
+        "rawName": "Aeromag Asia",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-7803f8509131b66d",
+        "rawName": "Asia Military",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-8f15770fd7f24406",
+        "rawName": "Romania",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-f3c426a657060da2",
+        "rawName": "SIMTOS",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-660b95f443ccfa45",
+        "rawName": "DS AETHER CT",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-1eb3709dcde2929b",
+        "rawName": "Orbit Communication System",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-6a8f91909b9c4534",
+        "rawName": "KATRA",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-2be55d997907abe3",
+        "rawName": "KAICA",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-03a045e56f404bf1",
+        "rawName": "KOSHIPA",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-c45c234d7887ddd8",
+        "rawName": "COSAR",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-aeeb2a9e4498c0c3",
+        "rawName": "KCIA",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-7f96d6163c1cf23c",
+        "rawName": "KOFOTI",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-c8e3f869caebfdfb",
+        "rawName": "KOMERA",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-72528c2009ffe387",
+        "rawName": "KORBA",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-5f31ddece5fee259",
+        "rawName": "Finland",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-ab01396d030b4116",
+        "rawName": "ROTAC",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-0d857f289d671660",
+        "rawName": "Sky AutoNet",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-885ed2493cbbc3c3",
+        "rawName": "Quantum Systems",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-b9fae7c06b87b085",
+        "rawName": "DIGITRON",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-15eabb91adc9430d",
+        "rawName": "Australia",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
+      },
+      {
+        "entryId": "adex25-maplabel-cacdba6d208887c9",
+        "rawName": "SAMKEE ENERGY SOLUTIONS",
+        "to": "visually_reviewed",
+        "method": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked.",
+        "scope": "Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+        "checkedAt": "2026-11-12"
       }
     ]
   },
@@ -1229,8 +1409,8 @@
           "onsitePhotoConfirmed": false
         }
       ],
-      "researchStatus": "pending_company_review",
-      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+      "researchStatus": "adopted_batch2",
+      "nextAction": "See pavilion-followup.json for bounded analysis and remaining evidence."
     },
     {
       "rawName": "펀진",
@@ -1469,8 +1649,8 @@
           "onsitePhotoConfirmed": false
         }
       ],
-      "researchStatus": "pending_company_review",
-      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+      "researchStatus": "adopted_batch2",
+      "nextAction": "See pavilion-followup.json for bounded analysis and remaining evidence."
     },
     {
       "rawName": "네스앤텍",
@@ -1499,8 +1679,8 @@
           "onsitePhotoConfirmed": false
         }
       ],
-      "researchStatus": "pending_company_review",
-      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+      "researchStatus": "adopted_batch2",
+      "nextAction": "See pavilion-followup.json for bounded analysis and remaining evidence."
     },
     {
       "rawName": "연합정밀",
@@ -1601,8 +1781,8 @@
           "onsitePhotoConfirmed": false
         }
       ],
-      "researchStatus": "pending_company_review",
-      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+      "researchStatus": "adopted_batch2",
+      "nextAction": "See pavilion-followup.json for bounded analysis and remaining evidence."
     },
     {
       "rawName": "데크카본",
@@ -1631,8 +1811,8 @@
           "onsitePhotoConfirmed": false
         }
       ],
-      "researchStatus": "pending_company_review",
-      "nextAction": "Match legal identity and existing stable organization ID; retain complete event-item list; verify additional independent or manufacturer event evidence."
+      "researchStatus": "adopted_batch2",
+      "nextAction": "See pavilion-followup.json for bounded analysis and remaining evidence."
     }
   ],
   "photos": [
@@ -1745,9 +1925,9 @@
     "inspectedOnsitePhotos": 5
   },
   "nextStart": [
-    "Hall 8 / scanned label 001 / WASCO: 135 dense labels remain after proposed Hall 7 transcription promotion.",
-    "DAPA pavilion manufacturers not adopted in this batch: 한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던, etc. Use recorded full 19-name candidate list, reconcile with actual intake before choosing next.",
-    "USA pavilion 37-member directory; Finland pavilion companies; other national/regional association pavilion constituents.",
-    "Official 2025 final directory boundaries and outdoor/static display roster remain unacquired."
+    "Hall 8 / scanned label 024 / SANJU OPTICAL; remaining 112 dense labels.",
+    "Remaining DAPA constituents; batch2 six names now registered. 브로던 identity/country/onsite evidence remain pending.",
+    "Other Finland pavilion companies and full USA pavilion 37-company list.",
+    "Full official 2025 directory and outdoor/static display list."
   ]
 }

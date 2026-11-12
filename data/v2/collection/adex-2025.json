@@ -281,6 +281,24 @@
         "status": "link_only",
         "notes": "Marketing participation brochure with 2023 result statistics, not 2025 final exhibitor roster."
       }
+    },
+    {
+      "id": "patria-adex25",
+      "url": "https://www.patriagroup.com/newsroom/meet-patria-at-events/patria-at-seoul-adex-2025",
+      "title": "Patria at Seoul ADEX 2025",
+      "publisher": "Patria",
+      "date": null,
+      "role": "exhibitor_pre_event_announcement",
+      "originGroup": "patria-adex25",
+      "support": "MUSCL 전시 예고 및 Finland pavilion 8K13. 페이지의 Seoul Airport 문구는 행사일별 장소 안내와 상충하여 사용하지 않습니다.",
+      "limitations": "발표기관의 단일 원천입니다. 성능 독립 검증을 뜻하지 않습니다.",
+      "independence": "primary_single_origin",
+      "checkedAt": "2026-11-12",
+      "edition": "2025",
+      "editionStatus": "confirmed",
+      "accessStatus": "accessible",
+      "coverageScope": "subset",
+      "acquiredAt": "2026-11-12"
     }
   ],
   "collection": {
@@ -380,7 +398,8 @@
       "No whole-population completion percentage is defined because total official 2025 directory was not acquired. Dense Hall 7/8 candidates are not all individually verified.",
       "Facilities (cafe, seminars, media conference rooms, delegation lounge, BtoB, prayer room, USA Pavilion meeting point, toilets) are not organizational roster rows.",
       "Source name spellings are retained (including apparent typos). Brand/legal-name normalization needs a separate evidence-backed alias relationship.",
-      "Stage 4: reviewed 79 Hall 7 transcription rows and registered 3 newly resolved DAPA constituent names; full 19-company/22-item pavilion candidate list preserved in data/v2/research/adex-2025/population.json. Remaining bilingual names require identity matching before import to avoid double counting."
+      "Stage 4: reviewed 79 Hall 7 transcription rows and registered 3 newly resolved DAPA constituent names; full 19-company/22-item pavilion candidate list preserved in data/v2/research/adex-2025/population.json. Remaining bilingual names require identity matching before import to avoid double counting.",
+      "Stage 4 batch 2: six additional source-named constituents registered after exact-name and alias review. Not a complete pavilion roster."
     ]
   },
   "entries": [
@@ -4285,10 +4304,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-86178e56d86bdb78",
@@ -4316,10 +4336,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-c6f64b75b9c8649c",
@@ -4347,10 +4368,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "media",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-7803f8509131b66d",
@@ -4378,10 +4400,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "media",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-8f15770fd7f24406",
@@ -4409,10 +4432,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "pavilion",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-f3c426a657060da2",
@@ -4440,10 +4464,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-660b95f443ccfa45",
@@ -4471,10 +4496,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-1eb3709dcde2929b",
@@ -4502,10 +4528,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-6a8f91909b9c4534",
@@ -4533,10 +4560,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-2be55d997907abe3",
@@ -4564,10 +4592,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-03a045e56f404bf1",
@@ -4595,10 +4624,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-c45c234d7887ddd8",
@@ -4626,10 +4656,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-aeeb2a9e4498c0c3",
@@ -4657,10 +4688,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-7f96d6163c1cf23c",
@@ -4688,10 +4720,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-c8e3f869caebfdfb",
@@ -4719,10 +4752,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-72528c2009ffe387",
@@ -4750,10 +4784,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-5f31ddece5fee259",
@@ -4781,10 +4816,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "pavilion",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-ab01396d030b4116",
@@ -4812,10 +4848,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-0d857f289d671660",
@@ -4843,10 +4880,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-885ed2493cbbc3c3",
@@ -4874,10 +4912,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-b9fae7c06b87b085",
@@ -4905,10 +4944,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-15eabb91adc9430d",
@@ -4936,10 +4976,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "pavilion",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-cacdba6d208887c9",
@@ -4967,10 +5008,11 @@
       "page": 1,
       "mapOccurrenceIndex": 1,
       "entityKindHint": "organization",
-      "transcriptionStatus": "needs_review",
+      "transcriptionStatus": "visually_reviewed",
       "boothNumberStatus": "not_printed",
       "geometryStatus": "not_collected_here",
-      "transcriptionNote": "Dense small label transcribed during full-hall visual scan/OCR comparison; individual enlarged glyph/identity review remains queued. Candidate spelling is not a verified legal name."
+      "transcriptionNote": "Original PDF hash verified; full plan then 9000px-render Hall8 top-left crop visually cross-checked. Hall8 scanned labels 001–023 only. Transcription review does not confirm relevance, company identity, attendance or product exhibition.",
+      "transcriptionReviewedAt": "2026-11-12"
     },
     {
       "id": "adex25-maplabel-1856dbfd522e1ff0",
@@ -11724,6 +11766,168 @@
       "boothNumberStatus": "unknown",
       "geometryStatus": "unverified",
       "pavilionName": "DAPA integrated pavilion"
+    },
+    {
+      "id": "adex25-batch2-28e4da701cc64956",
+      "rawName": "한국씨앤오테크",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 한국씨앤오테크",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-5eaa88672e8cbfe6",
+      "rawName": "네스앤텍",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 네스앤텍",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-7169c5cf6fdfaa76",
+      "rawName": "화인정밀",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 화인정밀",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-4e1384acf205b986",
+      "rawName": "데크카본",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 데크카본",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-4198106a47056239",
+      "rawName": "브로던",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 브로던",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-1b6c368fe51e416d",
+      "rawName": "Patria",
+      "sourceId": "patria-adex25",
+      "sourceLocator": "Finland pavilion 8K13 / event announcement",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "patria-adex25",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
     }
   ],
   "maps": [],
@@ -11767,7 +11971,7 @@
       "id": "queue-adex-2025-stage4-next",
       "stage": 4,
       "reason": "Verified batches are partial; 135 Hall 8 transcription rows and full directory remain open.",
-      "nextAction": "Read EXHIBITION_RESEARCH_PROTOCOL.md and latest stage4 metrics; resume Hall 8 WASCO label001, then unresolved DAPA constituents (한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던) and Patria/Finland pavilion.",
+      "nextAction": "Resume Hall 8 SANJU OPTICAL label024; Finland pavilion other constituents and USA pavilion 37-name directory; remaining DAPA constituents. Batch2 reviewed 한국씨앤오테크, 네스앤텍, 화인정밀, 데크카본, 브로던 and Patria.",
       "missingRange": "Full 2025 directory/outdoor; 135 dense labels; unreviewed candidates; number/geometry associations; field-photo rights."
     }
   ]

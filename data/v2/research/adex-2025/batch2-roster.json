@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "sources": [
+    {
+      "id": "patria-adex25",
+      "url": "https://www.patriagroup.com/newsroom/meet-patria-at-events/patria-at-seoul-adex-2025",
+      "title": "Patria at Seoul ADEX 2025",
+      "publisher": "Patria",
+      "date": null,
+      "role": "exhibitor_pre_event_announcement",
+      "originGroup": "patria-adex25",
+      "support": "MUSCL 전시 예고 및 Finland pavilion 8K13. 페이지의 Seoul Airport 문구는 행사일별 장소 안내와 상충하여 사용하지 않습니다.",
+      "limitations": "발표기관의 단일 원천입니다. 성능 독립 검증을 뜻하지 않습니다.",
+      "independence": "primary_single_origin",
+      "checkedAt": "2026-11-12",
+      "edition": "2025",
+      "editionStatus": "confirmed"
+    }
+  ],
+  "entries": [
+    {
+      "id": "adex25-batch2-28e4da701cc64956",
+      "rawName": "한국씨앤오테크",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 한국씨앤오테크",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-5eaa88672e8cbfe6",
+      "rawName": "네스앤텍",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 네스앤텍",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-7169c5cf6fdfaa76",
+      "rawName": "화인정밀",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 화인정밀",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-4e1384acf205b986",
+      "rawName": "데크카본",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 데크카본",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-4198106a47056239",
+      "rawName": "브로던",
+      "sourceId": "population-dapa-leaflet",
+      "sourceLocator": "page 2 / integrated pavilion / 브로던",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "population-dapa-leaflet",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    },
+    {
+      "id": "adex25-batch2-1b6c368fe51e416d",
+      "rawName": "Patria",
+      "sourceId": "patria-adex25",
+      "sourceLocator": "Finland pavilion 8K13 / event announcement",
+      "boothCodes": [],
+      "participationStatus": "listed",
+      "attendanceStatus": "unverified",
+      "relevance": {
+        "status": "pending",
+        "reason": "공식 회차 자료로 신규 명칭을 대조; 상세 판단은 조사 묶음 참조.",
+        "categories": []
+      },
+      "evidence": [
+        {
+          "sourceId": "patria-adex25",
+          "kind": "observation",
+          "claim": "회차별 출품 예고에 명칭이 기재되어 있습니다.",
+          "independentSourceCount": 1
+        }
+      ],
+      "rowKind": "pavilion_constituent",
+      "entityKindHint": "company",
+      "transcriptionStatus": "visually_reviewed",
+      "boothNumberStatus": "unknown",
+      "geometryStatus": "unverified"
+    }
+  ],
+  "checkedAt": "2026-11-12"
+}
