@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows: ['Validate and build']
+    branches: ['work/fieldnote-v2']
+    types: [completed]
 
 permissions:
   contents: read
@@ -14,23 +18,50 @@ concurrency:
 
 jobs:
   build:
-    if: github.ref == 'refs/heads/main'
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.event == 'push' &&
+        github.event.workflow_run.head_branch == 'work/fieldnote-v2' &&
+        github.event.workflow_run.head_repository.full_name == github.repository))
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - name: Check out the stable site
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          path: production
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Build the static app
-        run: npm run build
-      - name: Validate data and UI
-        run: npm run check
+      - name: Build and validate the stable site
+        working-directory: production
+        run: |
+          npm run build
+          npm run check
+      - name: Check out the progress site
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || 'work/fieldnote-v2' }}
+          path: progress
+          persist-credentials: false
+      - name: Build and validate the progress site
+        working-directory: progress
+        run: |
+          npm run build
+          npm run check
+      - name: Assemble stable root and progress subdirectory
+        run: |
+          node production/scripts/assemble-pages-preview.mjs production/dist progress/dist publish
+          node -e "const fs=require('node:fs'),cp=require('node:child_process');const sha=p=>cp.execFileSync('git',['-C',p,'rev-parse','HEAD'],{encoding:'utf8'}).trim();fs.writeFileSync('publish/preview/deployment.json',JSON.stringify({productionCommit:sha('production'),previewCommit:sha('progress'),runId:process.env.GITHUB_RUN_ID},null,2)+'\n')"
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload the built site
+      - name: Upload the combined site
         uses: actions/upload-pages-artifact@v4
         with:
-          path: dist
+          path: publish
   deploy:
     if: github.ref == 'refs/heads/main'
     needs: build

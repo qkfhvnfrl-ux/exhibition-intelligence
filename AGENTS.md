@@ -30,5 +30,7 @@
 
 ## 고정 진행 확인 링크
 
-- 2026-11-12 사용자 요청으로 별도 진행 확인용 배포를 허용했습니다. `docs/EXECUTIVE_V2_PREVIEW.md`의 동일 Site ID·slug를 계속 사용하고, 검증한 작업 묶음 저장 후 같은 주소에 반영합니다. 새 Site를 만들지 않습니다.
-- 구현 원본은 기존 GitHub 작업 브랜치입니다. 별도 배포 디렉터리는 정적 빌드 스냅샷이며 프로젝트 포크가 아닙니다. main/기존 공개 사이트의 9단계 전 교체 금지는 유지합니다. 배포 성공·접근 범위를 실제 결과로 확인하고 기록합니다.
+- 2026-11-12 사용자 후속 요청으로 로그인 없는 GitHub Pages 진행본을 게시합니다. 고정 주소는 `https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/`입니다. 이후 같은 경로를 유지합니다.
+- `.github/workflows/pages.yml`은 main 문맥에서만 배포하며 main 빌드를 루트에, 검증한 `work/fieldnote-v2` 빌드를 `/preview/`에 조립합니다. 사용자 요청에 따라 main의 배포 인프라 수정은 허용하지만 9단계 전 앱 본문을 v2로 교체하지 않습니다.
+- 개발 브랜치의 `Validate and build`가 성공하면 main 소유 워크플로가 같은 저장소/브랜치/push 이벤트를 확인해 갱신합니다. 개발 브랜치에서 Pages 배포 job을 직접 실행하도록 바꾸지 않습니다.
+- 배포 성공 후 익명 HTTP로 `/preview/`, 데이터 shard, `deployment.json` 원본 커밋을 확인합니다. `docs/EXECUTIVE_V2_PREVIEW.json`과 HANDOFF에 결과를 기록합니다. 기존 Sites 링크는 보존하되 최신 GitHub 진행본 주소를 우선 안내합니다.

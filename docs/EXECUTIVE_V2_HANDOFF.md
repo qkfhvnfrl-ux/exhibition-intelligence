@@ -61,4 +61,6 @@ git diff --check
 
 ## 고정 진행 확인 링크
 
-2026-11-12 사용자 요청에 따라 별도 소유자 전용 진행 확인 링크를 배포했고 성공을 확인했다. 주소·동일 Site ID·갱신 절차는 [EXECUTIVE_V2_PREVIEW.md](EXECUTIVE_V2_PREVIEW.md), 최신 배포 기록은 [EXECUTIVE_V2_PREVIEW.json](EXECUTIVE_V2_PREVIEW.json) 참조. 이후 검증한 묶음은 같은 Site에 반영하며 새 주소를 만들지 않는다. 구현은 기존 GitHub 브랜치에서 계속하고 main/기존 공개 사이트는 9단계 전까지 유지한다.
+사용자 후속 요청으로 로그인 없는 GitHub Pages `/preview/`를 주 진행본으로 사용한다: https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/ . 동일 주소 유지. [배포 기록](EXECUTIVE_V2_PREVIEW.json)과 [갱신 절차](EXECUTIVE_V2_PREVIEW.md) 참조. main 앱 루트는 9단계까지 유지하며, main 배포 워크플로만 두 빌드를 조립하도록 변경했다. 개발 CI 성공 후 자동 반영되므로 후속 작업에서 최종 Pages 실행과 원본 SHA를 확인한다. 이전 Sites 링크는 삭제하지 않았다.
+
+공개 첫 배포 성공: main 인프라 `a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7`, 진행본 원본 `a2e518f84f95e5de51f4cfadcf70841992ac36fe`, Pages 실행 `43128424515`. 익명 HTTP와 브라우저에서 로그인 없이 화면 표시를 확인했다. 152개 로컬 검사 통과, 조립 결과 main 빌드 100개 파일 내용 일치. 이후 문서/인프라 커밋은 같은 주소 갱신을 다시 유발하므로 최신 실제 원본은 공개 `/preview/deployment.json`에서 확인한다.

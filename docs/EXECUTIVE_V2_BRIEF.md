@@ -64,3 +64,5 @@
 4~8단계 공통 조사 절차는 [EXHIBITION_RESEARCH_PROTOCOL.md](EXHIBITION_RESEARCH_PROTOCOL.md)입니다. 각 회차를 시작할 때 원장·STATUS·HANDOFF와 함께 읽고 동일한 근거·집계·묶음 검증 기준을 적용합니다. 4단계는 3단계 업체 화면을 재사용하며 전체 모집단과 이번 묶음 완료를 구별합니다.
 
 2026-11-12 사용자가 중간 작업본의 고정 링크를 요청했습니다. 별도 진행 확인용 배포와 동일 주소 유지는 [EXECUTIVE_V2_PREVIEW.md](EXECUTIVE_V2_PREVIEW.md)를 따릅니다. 검증한 묶음을 같은 Site에 갱신하며, 구현 원본과 main/기존 공개 사이트의 9단계 전 유지 원칙은 보존합니다. 배포 성공 여부는 STATUS의 실제 결과를 기준으로 합니다.
+
+후속 지시로 진행본은 로그인 없는 [GitHub Pages /preview/](https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/)를 우선 사용합니다. main의 배포 인프라만 수정하여 기존 루트 앱과 개발 진행본을 분리 게시합니다. 동일 주소 유지·CI 갱신 절차는 PREVIEW 문서를 따릅니다.
