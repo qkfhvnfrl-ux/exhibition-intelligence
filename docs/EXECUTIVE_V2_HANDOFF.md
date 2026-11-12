@@ -58,3 +58,7 @@ git diff --check
 7. 검증 가능한 묶음마다 원장·STATUS·HANDOFF→검사→커밋→원격 tree 대조. 전체 ADEX 완료로 표시하지 않는다.
 
 5~8단계는 같은 공통 조사 절차를 사용하되 개별 상세 지시는 아직 미수신이다. 이 문서 자체의 최종 커밋은 `git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md`로 확인한다.
+
+## 고정 진행 확인 링크
+
+2026-11-12 사용자 요청에 따라 별도 소유자 전용 진행 확인 링크를 배포했고 성공을 확인했다. 주소·동일 Site ID·갱신 절차는 [EXECUTIVE_V2_PREVIEW.md](EXECUTIVE_V2_PREVIEW.md), 최신 배포 기록은 [EXECUTIVE_V2_PREVIEW.json](EXECUTIVE_V2_PREVIEW.json) 참조. 이후 검증한 묶음은 같은 Site에 반영하며 새 주소를 만들지 않는다. 구현은 기존 GitHub 브랜치에서 계속하고 main/기존 공개 사이트는 9단계 전까지 유지한다.

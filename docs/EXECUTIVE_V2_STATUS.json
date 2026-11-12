@@ -457,7 +457,8 @@
     },
     "browser_storage_modified": false,
     "production_changed": false,
-    "new_site_created": false
+    "new_site_created": false,
+    "persistent_progress_preview": "2026-11-12 사용자 요청으로 별도 고정 진행본 링크 게시. 동일 Sites 프로젝트와 주소를 후속 검증 묶음에 재사용하며 기존 main/GitHub Pages 배포는 9단계 전까지 유지."
   },
   "verification": [
     {
@@ -630,5 +631,21 @@
     "Remaining DAPA constituents; 브로던 country/identity and onsite evidence",
     "Finland pavilion other companies; USA pavilion full 37-name list"
   ],
-  "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md"
+  "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md",
+  "progress_preview": {
+    "schemaVersion": 1,
+    "purpose": "persistent_work_in_progress_preview",
+    "sourceRepository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
+    "sourceBranch": "work/fieldnote-v2",
+    "sourceCommit": "24181a79a36f7af87104958d6fe2af5e49466419",
+    "projectId": "appgprj_6af50711695881919e5723f1689f8b3b",
+    "url": "https://fieldnote-v2-progress.tko-korean.chatgpt.site",
+    "audience": "owner_private",
+    "status": "succeeded",
+    "versionId": "appgprj_6af50711695881919e5723f1689f8b3b~appgver_94a6d406242881919e548a352c2e523e",
+    "deploymentId": "appgdep_6af5077830848191ba82c90843c3973c",
+    "mirrorCommit": "6352d99cecb5d9e094093c9d52af5dc8650aa45a",
+    "updatedAt": "2026-11-12T00:25:50.437308+00:00",
+    "policy": "Reuse the same projectId and URL for subsequent verified work batches. Preserve main/GitHub Pages until stage 9."
+  }
 }
