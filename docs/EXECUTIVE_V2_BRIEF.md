@@ -14,7 +14,7 @@
 
 이전에 미통합으로 기록한 `docs/research-v2/redesign-narratives-photo-coverage.json`의 6개 제품 서술은 이번 묶음에서 앱에 연결했으며 위 46개 서술·230개 항목에 포함한다. SAHA 세 보고 사례는 대체 경로 조사에서도 표시 준비를 마친 사진이 0개다. [SAHA 사진 후보 기록](research-v2/redesign-photo-candidates-saha.json)을 확인하고 다른 회차 사진으로 공백을 채우지 않는다. 기존 5개 회차의 조사 원장과 큐는 그대로 유지하며, 사진 확보와 사례 확장을 전체 조사 완료로 표시하지 않는다.
 
-작업 브랜치는 `codex/fieldnote-redesign-audit`다. 현재 HEAD `16e7e691f232eeee7951c15ef0ae4ea274aea57d`는 40개 서술 묶음의 저장점이며, 이후 46개 서술 묶음은 아직 작업 트리에 있다. 새 구현 커밋은 저장 후 별도로 기록한다. 이전 `6b2999b`·`137fa84`는 과거 체크포인트다. 재개 지점은 [HANDOFF](EXECUTIVE_V2_HANDOFF.md)와 [STATUS](EXECUTIVE_V2_STATUS.json)를 따른다.
+작업 브랜치는 `codex/fieldnote-redesign-audit`다. 검증한 구현 커밋은 `49d846d0b80c6247db7bb3003c1ea008a874c9bd`(46개 서술·230항목)이며 직전 보고/PDF 묶음은 `16e7e691f232eeee7951c15ef0ae4ea274aea57d`다. 로컬 저장을 완료했고 후속 인계 문서 커밋은 이 구현 저장점을 기록한다. 원격 push·배포는 하지 않았다. 재개 지점은 [HANDOFF](EXECUTIVE_V2_HANDOFF.md)와 [STATUS](EXECUTIVE_V2_STATUS.json)를 따른다.
 
 ---
 
