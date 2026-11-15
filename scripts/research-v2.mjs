@@ -10,7 +10,7 @@ export async function readResearchBundles(root){
   const directory=path.join(root,'data/v2/research');
   let events;try{events=await readdir(directory,{withFileTypes:true});}catch(error){if(error.code==='ENOENT')return [];throw error;}
   const bundles=[],editorials=new Map();
-  let editorialFiles=[];try{editorialFiles=(await readdir(path.join(root,'data/v2/editorial'))).filter(name=>name.endsWith('.json'));}catch(error){if(error.code!=='ENOENT')throw error;}
+  let editorialFiles=[];try{editorialFiles=(await readdir(path.join(root,'data/v2/editorial'))).filter(name=>name.endsWith('.json')&&!['product-narratives.json','event-reports.json'].includes(name));}catch(error){if(error.code!=='ENOENT')throw error;}
   for(const filename of editorialFiles){const original=JSON.parse(await readFile(path.join(root,'data/v2/editorial',filename),'utf8'));for(const item of list(original.cases))editorials.set(original.eventId+'|'+item.id,item);}
   for(const event of events.filter(entry=>entry.isDirectory()).sort((a,b)=>a.name.localeCompare(b.name))){
     for(const filename of (await readdir(path.join(directory,event.name))).filter(name=>name.endsWith('.json')).sort()){
@@ -128,18 +128,17 @@ export function applyResearch({out,maps,put,addSource,participation,assertion,bo
       }
       const analysisId='research-analysis-'+hash(bundle.eventId+'|'+organization.id);
       if(item.reason&&item.exhibit){
-        check(item.distinction&&item.direction&&item.workConnection&&list(item.highlights).length===3&&list(item.followUps).length>=2&&list(item.followUps).length<=3,'analysis structure incomplete '+item.id);
-        const a=put('analyses',{id:analysisId,title:item.displayName||organization.name,summary:item.reason,eventId:bundle.eventId,organizationIds:[organization.id],productIds,exhibitIds,assertionIds:[],companySpecificJudgment:item.reason,workConnection:item.workConnection.value||null,evidenceReviewState:'reviewed',completionStatus:review.status==='analysis_complete'?'complete':'not_complete',researchReview:p.researchReview,interpretationNote:item.interpretationNote||item.verificationNote||null});
+        check(item.distinction&&item.direction&&list(item.highlights).length===3&&list(item.followUps).length>=2&&list(item.followUps).length<=3,'analysis structure incomplete '+item.id);
+        const a=put('analyses',{id:analysisId,title:item.displayName||organization.name,summary:item.reason,eventId:bundle.eventId,organizationIds:[organization.id],productIds,exhibitIds,assertionIds:[],companySpecificJudgment:item.reason,evidenceReviewState:'reviewed',completionStatus:review.status==='analysis_complete'?'complete':'not_complete',researchReview:p.researchReview,interpretationNote:item.interpretationNote||item.verificationNote||null});
         for(const [predicate,kind,text,ids] of [
           ['company_judgment','interpretation',item.reason,review.sourceIds],
           ['exhibition_characteristics','observation',item.exhibit.summary,item.exhibit.sourceIds||review.sourceIds],
           ['distinction','interpretation',item.distinction.judgment,item.distinction.sourceIds||review.sourceIds],
           ['strategy_interpretation','interpretation',item.direction.interpretation,item.direction.sourceIds||review.sourceIds],
-          ['work_connection','interpretation',item.workConnection.value,item.workConnection.sourceIds||review.sourceIds],
           ['follow_up','observation',list(item.followUps).join('\n'),review.sourceIds]
         ])if(text)a.assertionIds.push(assertion('analyses',analysisId,kind,predicate,text,evidence(ids,item.id),{reviewState:'reviewed',independentVerification:'not_assessed'}));
         if(review.status==='analysis_complete'){check(exhibitIds.some(id=>maps.exhibits.get(id).status==='onsite_confirmed'),'complete analysis requires actual event exhibit '+item.id);p.deepAnalysisStatus='complete';}
-      }else check(review.status!=='analysis_complete','complete analysis requires six-part editorial '+item.id);
+      }else check(review.status!=='analysis_complete','complete analysis requires sourced editorial '+item.id);
       for(const photo of list(item.photos)){
         check(photo.id&&photo.sourceUrl&&photo.credit,'photo id/original/credit required '+item.id);
         check(photo.context!=='event'||photo.eventId===bundle.eventId,'photo edition mismatch '+photo.id);

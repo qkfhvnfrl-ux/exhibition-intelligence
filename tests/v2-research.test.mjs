@@ -13,7 +13,7 @@ const input=()=>({catalog:{exhibitions:[],equipment:[],photos:[]},eventReports:{
 function fixture(){
   const data=input(),registry=compileRegistry(data),oid=registry.organizations.find(o=>o.name==='Alpha').id;
   const sources=[{id:'alpha-event',url:'https://example.org/alpha/2025/show',title:'Alpha onsite report',role:'independent_event_report',edition:2025,editionStatus:'confirmed',originGroup:'field-report',independence:'independent_observation_only',date:'2025-10-20'},{id:'alpha-country',url:'https://example.org/alpha/company',role:'company_background',originGroup:'alpha-company',independence:'primary_single_origin'}];
-  const record={id:'case-alpha',organizationId:oid,displayName:'Alpha',categoryIds:['power'],countries:['대한민국'],countrySourceIds:['alpha-country'],review:{relevance:'confirmed',reason:'차량 전원 연결성',categories:['power'],status:'analysis_complete',reviewedAt:'2026-11-12',sourceIds:['alpha-event']},reason:'차량 전원 배분 검토',highlights:['전원','정비','검증'],exhibit:{summary:'전시품 확인',sourceIds:['alpha-event'],items:[{productId:'alpha-battery',name:'Battery A',status:'event_photo_confirmed',form:'실물',sourceIds:['alpha-event']},{productId:'alpha-connector',name:'Connector B',status:'onsite_report_confirmed',form:'실물',sourceIds:['alpha-event']},{productId:'alpha-background',name:'General C',status:'background_reference',form:'일반 자료',sourceIds:['alpha-country']}]},distinction:{judgment:'구성 비교',sourceIds:['alpha-event']},direction:{interpretation:'전원 다각화',sourceIds:['alpha-event']},workConnection:{value:'차량 전원 요구 검토'},followUps:['전력 조건은?','시험 조건은?'],sources,photos:[{id:'alpha-photo',sourceUrl:'https://example.org/alpha/photo',caption:'Alpha ADEX 2025 booth',credit:'Test Photographer',context:'event',eventId,sourceDate:'2025-10-20',rightsStatus:'link-only',sourceIds:['alpha-event'],productId:'alpha-battery'}],boothClaims:[{code:'7-A1',hall:'7',status:'confirmed',sourceIds:['alpha-event'],note:'번호만 확인'}]};
+  const record={id:'case-alpha',organizationId:oid,displayName:'Alpha',categoryIds:['power'],countries:['대한민국'],countrySourceIds:['alpha-country'],review:{relevance:'confirmed',reason:'차량 전원 연결성',categories:['power'],status:'analysis_complete',reviewedAt:'2026-11-12',sourceIds:['alpha-event']},reason:'차량 전원 배분 검토',highlights:['전원','정비','검증'],exhibit:{summary:'전시품 확인',sourceIds:['alpha-event'],items:[{productId:'alpha-battery',name:'Battery A',status:'event_photo_confirmed',form:'실물',sourceIds:['alpha-event']},{productId:'alpha-connector',name:'Connector B',status:'onsite_report_confirmed',form:'실물',sourceIds:['alpha-event']},{productId:'alpha-background',name:'General C',status:'background_reference',form:'일반 자료',sourceIds:['alpha-country']}]},distinction:{judgment:'구성 비교',sourceIds:['alpha-event']},direction:{interpretation:'전원 다각화',sourceIds:['alpha-event']},followUps:['전력 조건은?','시험 조건은?'],sources,photos:[{id:'alpha-photo',sourceUrl:'https://example.org/alpha/photo',caption:'Alpha ADEX 2025 booth',credit:'Test Photographer',context:'event',eventId,sourceDate:'2025-10-20',rightsStatus:'link-only',sourceIds:['alpha-event'],productId:'alpha-battery'}],boothClaims:[{code:'7-A1',hall:'7',status:'confirmed',sourceIds:['alpha-event'],note:'번호만 확인'}]};
   data.researchBundles=[{schemaVersion:1,eventId,batchId:'fixture',checkedAt:'2026-11-12',cases:[record]}];
   return {data,record,oid};
 }
@@ -32,6 +32,16 @@ test('research distinguishes researched insufficient evidence from untouched org
   const {data,record}=fixture();record.review.status='insufficient_data';record.exhibit.items.forEach(p=>p.status='exhibitor_event_statement');
   const r=compileRegistry(data);assert.equal(r.metrics[0].insufficientData,1);assert.equal(r.metrics[0].notStarted,2);assert.equal(r.metrics[0].deepAnalysisComplete,0);assert(r.exhibits.every(e=>e.status==='planned'));
   record.review.status='analysis_complete';assert.throws(()=>compileRegistry(data),/requires actual event exhibit/);
+});
+
+test('retired internal-work fields never enter registry or app data and are not completion requirements',()=>{
+  const {data,record,oid}=fixture();
+  record.workConnection={value:'INTERNAL_WORK_SENTINEL',sourceIds:['alpha-event']};
+  const registry=compileRegistry(data),publicData=publicProjection(registry);
+  const app=compileAppData({publicData,registry,taxonomy,researchBundles:data.researchBundles});
+  for(const result of [registry,publicData,app])assert.doesNotMatch(JSON.stringify(result),/workConnection|work_connection|INTERNAL_WORK_SENTINEL/);
+  assert.equal(registry.participations.find(participation=>participation.organizationId===oid).deepAnalysisStatus,'complete');
+  assert.equal(registry.metrics[0].deepAnalysisComplete,1);
 });
 
 test('research refuses cross-edition exhibit proof, nonexistent source links and invented map coordinates',()=>{

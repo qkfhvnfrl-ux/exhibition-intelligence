@@ -1,0 +1,681 @@
+{
+  "schemaVersion": "1.0",
+  "documentType": "local_research_draft",
+  "companyGroup": "한화",
+  "event": "adex-2025",
+  "accessedDate": "2026-11-15",
+  "status": "bounded_research_complete_with_gaps",
+  "productionIntegrated": false,
+  "scope": "기존 연결제품 2개 보강과 신규 후보 1개 제안. 한화 전체·ADEX 전체 조사 완료가 아니다.",
+  "baseline": {
+    "path": "data/v2/app/events/adex-2025.json",
+    "companies": [
+      {
+        "id": "org-c919e0346aa5a11fd7a0",
+        "name": "Hanwha Aerospace",
+        "productIds": [
+          "k9a3"
+        ]
+      },
+      {
+        "id": "org-f59a1086debbc920179b",
+        "name": "한화에어로스페이스 · Milrem Robotics",
+        "productIds": [
+          "themis-k"
+        ],
+        "identityCondition": "기존 collective ID 보존. 한화에어로스페이스 원장과 자동 병합하지 않음."
+      },
+      {
+        "id": "org-99ceb5230a76a06842bf",
+        "name": "Hanwha Ocean",
+        "productIds": [],
+        "condition": "현재 제품 연결 없음. 이번 조사에서 함정 제품을 생성하지 않음."
+      },
+      {
+        "id": "org-12c2f7aa91f0c2b129bf",
+        "name": "Hanwha Systems",
+        "productIds": [],
+        "condition": "현재 제품 연결 없음. 이번 조사에서 위성·레이더 제품을 생성하지 않음."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "source-a054039a60d396e259d2",
+      "exactURL": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+      "title": "Hanwha to Showcase Next-Generation AI and Unmanned Systems at ADEX 2025",
+      "publisher": "Hanwha Aerospace",
+      "date": "2025-10-16",
+      "originGroup": "hanwha",
+      "evidenceType": "manufacturer_pre_event_announcement",
+      "access": "공식 HTML의 본문 삽입 문자열을 읽음. 웹 원문 열기는 시간 초과.",
+      "condition": "개막 전 예고이므로 실출품을 단독 확정하지 않는다."
+    },
+    {
+      "id": "source-a556071f484e0f8d490a",
+      "exactURL": "https://hanwha-aerospace.eu/adex-2025-2/",
+      "title": "ADEX 2025",
+      "publisher": "Hanwha Aerospace Europe",
+      "date": "2025-10-22",
+      "updatedDate": "2026-01-21",
+      "originGroup": "hanwha",
+      "evidenceType": "manufacturer_event_article",
+      "access": "웹 원문 본문 열람",
+      "condition": "제조사 계열 매체. 원문 행사기간 10월17~27일 표기는 다른 현장자료와 불일치하므로 일정 근거로 채택하지 않음. 10월16일 발표와 독립 근거로 중복 계산하지 않음."
+    },
+    {
+      "id": "source-f901f0a244024ddbfcac",
+      "exactURL": "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194",
+      "title": "ADEX 2025, 한화 AI Defense for Tomorrow 2부",
+      "publisher": "한화그룹",
+      "date": "2025-10-22",
+      "originGroup": "hanwha",
+      "evidenceType": "manufacturer_event_report",
+      "access": "공식 HTML의 application/ld+json articleBody 직접 파싱",
+      "condition": "전시기간 중 제조사 현장 소개. 통합·자율성 홍보 표현은 작동 시험 증거로 취급하지 않음."
+    },
+    {
+      "id": "hanwha-adex2025-part1",
+      "exactURL": "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15193",
+      "title": "ADEX 2025, 한화 AI Defense for Tomorrow 1부",
+      "publisher": "한화그룹",
+      "date": "2025-10-22",
+      "originGroup": "hanwha",
+      "evidenceType": "manufacturer_event_report",
+      "access": "공식 HTML의 application/ld+json articleBody 직접 파싱",
+      "condition": "실물 크기는 기능하는 실차와 다르다. 최고·세계 순위 등 홍보성 단정은 채택하지 않음."
+    },
+    {
+      "id": "hanwha-adex2025-official-recap",
+      "exactURL": "https://kr.linkedin.com/posts/hanwha-aerospace-global_%ED%95%9C%ED%99%94%EC%97%90%EC%96%B4%EB%A1%9C%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-hanwhaaerospace-adex2025-activity-7388409095638327296-tZqF",
+      "title": "한화에어로스페이스 ADEX 2025 참가 후기",
+      "publisher": "한화에어로스페이스 공식 LinkedIn",
+      "date": null,
+      "originGroup": "hanwha",
+      "evidenceType": "manufacturer_post_event_recap",
+      "access": "웹 본문 열람",
+      "condition": "게시일의 절대 날짜 미확인. 본문은 2025년10월20~24일 전시를 회고. 2030년은 제조사의 목표이며 확정 전력화 일정이 아님."
+    },
+    {
+      "id": "hanwha-adex2025-ceoscore",
+      "exactURL": "https://www.ceoscoredaily.com/page/view/2025102017192308138",
+      "title": "[르포] “올해는 수출 300억 달러 넘는다”…K-방산, ADEX 2025에 총출동",
+      "publisher": "CEO스코어데일리",
+      "author": "박주선",
+      "date": "2025-10-20",
+      "updatedDate": "2025-10-21",
+      "originGroup": "ceoscore",
+      "evidenceType": "independent_field_report",
+      "access": "웹 본문·사진 캡션 열람",
+      "condition": "기자 현장 관찰과 제조사 관계자 발언을 분리한다. 수출 전망은 이 초안에 사용하지 않음."
+    },
+    {
+      "id": "hanwha-adex2025-asiatime",
+      "exactURL": "https://www.asiatime.co.kr/article/20251023500386",
+      "title": "[AT 현장] AI로 진화한 첨단 무기…ADEX 2025 가보니",
+      "publisher": "아시아타임즈",
+      "author": "조광현",
+      "date": "2025-10-23",
+      "updatedDate": "2025-10-24",
+      "originGroup": "asiatimes",
+      "evidenceType": "independent_field_report",
+      "access": "웹 본문 열람",
+      "condition": "THeMIS-K의 현장 존재 보완. 개별 기술 성숙도·주행 시연을 확정하지 않음."
+    },
+    {
+      "id": "source-402d941f0c801162f6d4",
+      "exactURL": "https://v.daum.net/v/ZbfuJ4ZvXr",
+      "originalURL": "https://bloter.net/news/articleView.html?idxno=645833",
+      "title": "[ADEX 2025] K9 이을 전략상품 '천무3.0'…지능형 플랫폼으로 진화",
+      "publisher": "블로터 / 다음 유통본",
+      "author": "김덕호",
+      "date": null,
+      "datePrecision": "기존 레지스트리 2025-10; 유통본 절대 게시일 미표시",
+      "originGroup": "bloter",
+      "evidenceType": "independent_field_report",
+      "access": "유통본 본문·사진 캡션 열람. 원문 링크는 Cache miss.",
+      "condition": "다음과 블로터를 별도 독립 출처로 세지 않는다. 기사 내 행사 종료일 표기는 채택하지 않음."
+    },
+    {
+      "id": "source-a24da8c6ce7a5443f776",
+      "exactURL": "https://www.maphotosg.com/seoul-adex-2025/",
+      "title": "Seoul ADEX 2025 – K-Defence Time to Shine",
+      "publisher": "MAphotoSG",
+      "author": "Hanson Seah",
+      "date": "2025-12-30",
+      "originGroup": "maphotosg",
+      "evidenceType": "independent_photo_report",
+      "access": "웹 본문·갤러리 캡션 열람",
+      "condition": "행사 후 게시된 현장 사진 기사. 별도 무료 재사용 문구는 확인하지 못함."
+    }
+  ],
+  "claims": [
+    {
+      "id": "themis-purpose",
+      "text": "THeMIS-K는 한화와 Milrem이 소개한 궤도형 무인지상차량이다.",
+      "sourceIDs": [
+        "source-a054039a60d396e259d2"
+      ],
+      "exactURL": [
+        "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+      ],
+      "date": [
+        "2025-10-16"
+      ],
+      "evidenceType": "manufacturer_pre_event_product_description",
+      "condition": "국내 요구 대응을 위한 협업 제품 소개. 운용 부대·도입 계약은 확인하지 않음."
+    },
+    {
+      "id": "themis-configuration",
+      "text": "제조사 발표는 THeMIS 플랫폼과 한화 원격무장장치의 결합을 설명한다.",
+      "sourceIDs": [
+        "source-a054039a60d396e259d2"
+      ],
+      "exactURL": [
+        "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+      ],
+      "date": [
+        "2025-10-16"
+      ],
+      "evidenceType": "manufacturer_pre_event_configuration",
+      "condition": "무장 종류·실제 작동 상태는 이 발표만으로 확정하지 않음."
+    },
+    {
+      "id": "themis-event",
+      "text": "전시기간 공식 소개는 THeMIS-K를 MUM-T 구역의 UGV 전시품으로 명시한다.",
+      "sourceIDs": [
+        "source-f901f0a244024ddbfcac"
+      ],
+      "exactURL": [
+        "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194"
+      ],
+      "date": [
+        "2025-10-22"
+      ],
+      "evidenceType": "manufacturer_event_report",
+      "condition": "개별 전시물의 모형/시제차 구분과 현장 주행 여부는 미확인."
+    },
+    {
+      "id": "themis-crosscheck",
+      "text": "블로터의 현장 캡션과 아시아타임즈 취재는 THeMIS-K의 전시장 존재를 보완한다.",
+      "sourceIDs": [
+        "source-402d941f0c801162f6d4",
+        "hanwha-adex2025-asiatime"
+      ],
+      "exactURL": [
+        "https://v.daum.net/v/ZbfuJ4ZvXr",
+        "https://www.asiatime.co.kr/article/20251023500386"
+      ],
+      "date": [
+        null,
+        "2025-10-23"
+      ],
+      "evidenceType": "independent_field_corroboration",
+      "condition": "캡션·현장 기사 기반 교차 확인. 이번 조사에서 이미지 픽셀을 직접 분석하지 않음."
+    },
+    {
+      "id": "themis-direction",
+      "text": "제조사는 유인체계와 무인체계의 협업을 전시 방향으로 제시했다.",
+      "sourceIDs": [
+        "source-f901f0a244024ddbfcac"
+      ],
+      "exactURL": [
+        "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194"
+      ],
+      "date": [
+        "2025-10-22"
+      ],
+      "evidenceType": "manufacturer_stated_direction",
+      "condition": "전체 전시 메시지이며 모든 장비의 완전자율 기능 완성을 뜻하지 않음."
+    },
+    {
+      "id": "themis-interpretation",
+      "text": "편집 해석: 해외 기동 플랫폼과 국내 탑재체의 통합 방향을 보여주는 사례다.",
+      "sourceIDs": [
+        "source-a054039a60d396e259d2"
+      ],
+      "exactURL": [
+        "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+      ],
+      "date": [
+        "2025-10-16"
+      ],
+      "evidenceType": "editorial_inference",
+      "condition": "조달 채택이나 수출 성공을 예측하는 해석이 아님."
+    },
+    {
+      "id": "k9-purpose",
+      "text": "K9A3는 K9 계열의 차세대 발전 방향으로 소개됐다.",
+      "sourceIDs": [
+        "source-a054039a60d396e259d2"
+      ],
+      "exactURL": [
+        "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+      ],
+      "date": [
+        "2025-10-16"
+      ],
+      "evidenceType": "manufacturer_pre_event_product_description",
+      "condition": "기존 K9 실차·운용국 사진으로 K9A3의 최종 형상을 설명하지 않는다."
+    },
+    {
+      "id": "k9-feature",
+      "text": "제조사는 원격·자율 운용과 유무인 협업 기능을 설명했다.",
+      "sourceIDs": [
+        "source-a054039a60d396e259d2"
+      ],
+      "exactURL": [
+        "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+      ],
+      "date": [
+        "2025-10-16"
+      ],
+      "evidenceType": "manufacturer_stated_capability",
+      "condition": "개발 방향 설명으로 한정한다. 현재 운용 성능이나 시험 통과 근거가 아님."
+    },
+    {
+      "id": "k9-event",
+      "text": "현장기사는 K9 솔루션 구역의 발전 로드맵 전시를 기록한다.",
+      "sourceIDs": [
+        "hanwha-adex2025-ceoscore"
+      ],
+      "exactURL": [
+        "https://www.ceoscoredaily.com/page/view/2025102017192308138"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "independent_field_report",
+      "condition": "사진 캡션도 로드맵으로 식별. 완성 K9A3 실차가 출품됐다고 쓰지 않는다."
+    },
+    {
+      "id": "k9-direction",
+      "text": "관계자 설명은 K9 계열의 자동화에서 무인 운용으로 이어지는 구상을 제시한다.",
+      "sourceIDs": [
+        "hanwha-adex2025-ceoscore"
+      ],
+      "exactURL": [
+        "https://www.ceoscoredaily.com/page/view/2025102017192308138"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_statement_in_field_report",
+      "condition": "기자의 현장 관찰과 별도로 분류. 개발 완료·확정 납품 시점 미확인."
+    },
+    {
+      "id": "k9-interpretation",
+      "text": "편집 해석: 제품 성숙도와 미래 로드맵을 분리해서 읽어야 하는 사례다.",
+      "sourceIDs": [
+        "source-a054039a60d396e259d2",
+        "hanwha-adex2025-ceoscore"
+      ],
+      "exactURL": [
+        "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+        "https://www.ceoscoredaily.com/page/view/2025102017192308138"
+      ],
+      "date": [
+        "2025-10-16",
+        "2025-10-20"
+      ],
+      "evidenceType": "editorial_inference",
+      "condition": "미래형 제안을 현재 실전 배치 체계로 오인하지 않도록 하는 해석."
+    },
+    {
+      "id": "knifv-purpose",
+      "text": "K-NIFV는 레드백 차체를 바탕으로 소개한 차세대 보병전투차량이다.",
+      "sourceIDs": [
+        "hanwha-adex2025-part1"
+      ],
+      "exactURL": [
+        "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15193"
+      ],
+      "date": [
+        "2025-10-22"
+      ],
+      "evidenceType": "manufacturer_event_product_description",
+      "condition": "기존 앱의 Redback용 현수장치 제품과 별개 제품이다."
+    },
+    {
+      "id": "knifv-feature",
+      "text": "공식 소개는 개발 중인 국산 무인포탑과 방호·원격무장 구성을 설명한다.",
+      "sourceIDs": [
+        "hanwha-adex2025-part1"
+      ],
+      "exactURL": [
+        "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15193"
+      ],
+      "date": [
+        "2025-10-22"
+      ],
+      "evidenceType": "manufacturer_event_configuration",
+      "condition": "각 구성품의 작동·시험 완료 여부를 전시로 판단하지 않음."
+    },
+    {
+      "id": "knifv-form",
+      "text": "공식 후기는 K-NIFV 전시물을 실물 모형으로 명시한다.",
+      "sourceIDs": [
+        "hanwha-adex2025-official-recap"
+      ],
+      "exactURL": [
+        "https://kr.linkedin.com/posts/hanwha-aerospace-global_%ED%95%9C%ED%99%94%EC%97%90%EC%96%B4%EB%A1%9C%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-hanwhaaerospace-adex2025-activity-7388409095638327296-tZqF"
+      ],
+      "date": [
+        null
+      ],
+      "evidenceType": "manufacturer_post_event_display_form",
+      "condition": "일부 보도의 실물 표현보다 구체적인 제조사 분류를 채택. 기능하는 실차로 표현하지 않는다."
+    },
+    {
+      "id": "knifv-event",
+      "text": "독립 사진 기사의 실내 갤러리에도 K-NIFV가 식별되어 있다.",
+      "sourceIDs": [
+        "source-a24da8c6ce7a5443f776"
+      ],
+      "exactURL": [
+        "https://www.maphotosg.com/seoul-adex-2025/"
+      ],
+      "date": [
+        "2025-12-30"
+      ],
+      "evidenceType": "independent_photo_caption",
+      "condition": "원문 캡션 식별이며 사진의 기능적 진위·성능을 검증한 것은 아님."
+    },
+    {
+      "id": "knifv-direction",
+      "text": "제조사 후기는 2030년 전력화를 개발 목표로 제시한다.",
+      "sourceIDs": [
+        "hanwha-adex2025-official-recap"
+      ],
+      "exactURL": [
+        "https://kr.linkedin.com/posts/hanwha-aerospace-global_%ED%95%9C%ED%99%94%EC%97%90%EC%96%B4%EB%A1%9C%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-hanwhaaerospace-adex2025-activity-7388409095638327296-tZqF"
+      ],
+      "date": [
+        null
+      ],
+      "evidenceType": "manufacturer_target",
+      "condition": "미래 목표로만 표시. 군의 도입 확정·계약·일정 보장으로 표시하지 않는다."
+    },
+    {
+      "id": "knifv-interpretation",
+      "text": "편집 해석: 기존 플랫폼을 국내 요구와 구성품에 맞추는 개발 제안으로 읽을 수 있다.",
+      "sourceIDs": [
+        "hanwha-adex2025-part1"
+      ],
+      "exactURL": [
+        "https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15193"
+      ],
+      "date": [
+        "2025-10-22"
+      ],
+      "evidenceType": "editorial_inference",
+      "condition": "양산·전력화·수출 전망으로 확대하지 않음."
+    }
+  ],
+  "equipment": [
+    {
+      "productId": "themis-k",
+      "companyIds": [
+        "org-f59a1086debbc920179b"
+      ],
+      "name": "THeMIS-K",
+      "integration": "existing_id_preserved",
+      "displayForm": "event_presence_corroborated_physical_form_unresolved",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "themis-purpose"
+          ]
+        },
+        "characteristics": {
+          "claimIDs": [
+            "themis-configuration"
+          ]
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [
+            "themis-event",
+            "themis-crosscheck"
+          ]
+        },
+        "developmentDirection": {
+          "claimIDs": [
+            "themis-direction"
+          ]
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "themis-interpretation"
+          ]
+        }
+      },
+      "limits": [
+        "개별 전시형태와 현장 주행 여부 미확인",
+        "기존 THeMIS·THeMIS COMBAT 참고사진을 한국형 전시차 사진으로 전용하지 않음",
+        "독립 보도에서 인용한 제조사 기능 설명은 시험 검증과 구분"
+      ]
+    },
+    {
+      "productId": "k9a3",
+      "companyIds": [
+        "org-c919e0346aa5a11fd7a0"
+      ],
+      "name": "K9A3 · 발전 로드맵",
+      "integration": "existing_id_preserved",
+      "displayForm": "roadmap_exhibit_documented",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "k9-purpose"
+          ]
+        },
+        "characteristics": {
+          "claimIDs": [
+            "k9-feature"
+          ]
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [
+            "k9-event"
+          ]
+        },
+        "developmentDirection": {
+          "claimIDs": [
+            "k9-direction"
+          ]
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "k9-interpretation"
+          ]
+        }
+      },
+      "limits": [
+        "완성 실차 출품으로 확정하지 않음",
+        "사거리·자율운용 성능을 실증된 제원으로 기재하지 않음",
+        "이번 조사에서 모형 축척·개발 완료 일정을 확정하지 못함"
+      ]
+    }
+  ],
+  "expansionProposals": [
+    {
+      "productId": null,
+      "proposedName": "K-NIFV",
+      "existingCompanyIds": [
+        "org-c919e0346aa5a11fd7a0"
+      ],
+      "action": "원천 제품 레코드와 출처·조직 연결을 검토한 뒤 별도 통합. 이 문서는 신규 ID를 만들지 않는다.",
+      "displayForm": "manufacturer_full_size_mockup",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "knifv-purpose"
+          ]
+        },
+        "characteristics": {
+          "claimIDs": [
+            "knifv-feature"
+          ]
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [
+            "knifv-form",
+            "knifv-event"
+          ]
+        },
+        "developmentDirection": {
+          "claimIDs": [
+            "knifv-direction"
+          ]
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "knifv-interpretation"
+          ]
+        }
+      },
+      "doNotMergeWith": {
+        "productId": "adex25-mnc-redback-isu",
+        "reason": "타 업체의 Redback용 유기압 현수장치이며 완성차 K-NIFV와 동일 제품이 아니다."
+      },
+      "limits": [
+        "원천 레코드 확장과 제품 ID 발급 전 화면 집계에 포함하지 않음",
+        "2030년 목표는 확정 조달 일정이 아님"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "candidate": "THeMIS-K 현장 취재사진",
+      "existingPhotoId": "photo-5c38f98aa39286575d1b",
+      "sourceIDs": [
+        "source-402d941f0c801162f6d4"
+      ],
+      "sourceCaption": "MUM-T 무기체계인 테미스-K로 캡션 식별",
+      "photographer": "김덕호",
+      "provider": "블로터",
+      "rightsStatus": "no_free_reuse_permission_found",
+      "decision": "링크만 유지",
+      "imageViewed": false,
+      "downloaded": false
+    },
+    {
+      "candidate": "ARION-SMET·GRUNT·THeMIS-K 실내 전시 구역",
+      "existingPhotoId": "photo-0d15d86d393fb006ec50",
+      "sourceIDs": [
+        "source-a24da8c6ce7a5443f776"
+      ],
+      "sourceCaption": "3종 UGV를 나열한 갤러리 캡션",
+      "photographer": null,
+      "articleAuthor": "Hanson Seah",
+      "provider": "MAphotoSG",
+      "condition": "기사 작성자와 개별 사진 촬영자가 동일하다고 단정하지 않음.",
+      "rightsStatus": "no_free_reuse_permission_found",
+      "decision": "링크만 유지",
+      "imageViewed": false,
+      "downloaded": false
+    },
+    {
+      "candidate": "K9 계열 발전 로드맵",
+      "existingPhotoId": null,
+      "sourceIDs": [
+        "hanwha-adex2025-ceoscore"
+      ],
+      "sourceCaption": "K9 자주포의 진화 로드맵으로 식별",
+      "photographer": "박주선",
+      "provider": "CEO스코어데일리",
+      "rightsStatus": "republication_prohibited_without_permission",
+      "decision": "원문 링크만 사용",
+      "imageViewed": false,
+      "downloaded": false
+    },
+    {
+      "candidate": "K-NIFV 제조사 소개 사진",
+      "existingPhotoId": null,
+      "sourceIDs": [
+        "hanwha-adex2025-part1"
+      ],
+      "photographer": null,
+      "provider": "한화그룹",
+      "condition": "공식 기사 이미지가 있다는 사실은 무상 재사용 허락이 아님. 촬영자·개별 캡션 미확인.",
+      "rightsStatus": "no_free_reuse_permission_found",
+      "decision": "원문 링크만 사용",
+      "imageViewed": false,
+      "downloaded": false
+    },
+    {
+      "candidate": "K-NIFV 독립 현장 갤러리",
+      "existingPhotoId": null,
+      "sourceIDs": [
+        "source-a24da8c6ce7a5443f776"
+      ],
+      "sourceCaption": "ADEX 2025에서 소개한 K-NIFV로 캡션 식별",
+      "photographer": null,
+      "articleAuthor": "Hanson Seah",
+      "provider": "MAphotoSG",
+      "rightsStatus": "no_free_reuse_permission_found",
+      "decision": "원문 링크만 사용",
+      "imageViewed": false,
+      "downloaded": false
+    },
+    {
+      "candidate": "Hanwha Europe 기사 사진",
+      "existingPhotoId": null,
+      "sourceIDs": [
+        "source-a556071f484e0f8d490a"
+      ],
+      "provider": "Hanwha",
+      "photographer": null,
+      "condition": "Photo: Hanwha는 제공 출처 표기다. 촬영자나 무료 이용 허락으로 확대하지 않음.",
+      "rightsStatus": "no_free_reuse_permission_found",
+      "decision": "원문 링크만 사용",
+      "imageViewed": false,
+      "downloaded": false
+    }
+  ],
+  "existingReferencePhotos": {
+    "k9a3": [
+      "photo-bed113fb841d99323427",
+      "photo-b899b0a5029942a40233",
+      "photo-4c2fd88d1c7f7c051cf4",
+      "photo-863fb7a66d8bcb49b580"
+    ],
+    "themis-k": [
+      "photo-f9aa714ffc42baff7a00",
+      "photo-25e3c0aefc7efbbcfddc"
+    ],
+    "condition": "기존 레지스트리에서 reference 분류 확인. 해당 회차의 해당 형상 사진으로 재분류하지 않는다. 기존 파일·권리 레코드는 수정하지 않음."
+  },
+  "excludedCatalogEvidence": [
+    {
+      "existingSourceId": "source-dbc35474c1c1572d1246",
+      "exactURL": "https://milremrobotics.com/themis-family/",
+      "scope": "현재 일반 제품",
+      "condition": "이번 조사에서 재열람하지 않음. THeMIS-K ADEX2025의 구성 근거로 사용하지 않음."
+    },
+    {
+      "existingSourceId": "source-f9c239d1b5fa9dbacd37",
+      "exactURL": "https://hanwha-aerospace.eu/portfolio/k9-sph/",
+      "scope": "현재 K9 일반 제품",
+      "condition": "이번 조사에서 재열람하지 않음. K9A3 전시형태·완성 제원 근거로 사용하지 않음."
+    }
+  ],
+  "comparison": {
+    "status": "not_established",
+    "condition": "이번 제한 조사에서는 ADEX2023 동일 제품/동일형상 비교 원문을 확보하지 않았다. 다른 전시회나 현재 카탈로그로 회차 변화를 채우지 않는다."
+  },
+  "sourceLimitations": [
+    "제조사 4개 공식 사이트/계정은 단일 한화 기원 집단으로 묶는다.",
+    "Hanwha Europe 기사의 일정 불일치와 후속 갱신 표시를 기록한다.",
+    "EDR와 Asian Military Review 일부 기사는 검색 결과를 찾았으나 원문403으로 현재 주장의 직접 근거에 포함하지 않았다.",
+    "기능·성능·수출·시점 단정은 채택하지 않고 출품·제품 일반 소개·공식 목표·편집 해석을 분리했다."
+  ],
+  "verification": {
+    "json": "PASS: Node JSON 파싱, 9개 출처·17개 주장 참조, 기존 제품/조직 ID, 3개 대상의 5개 설명 항목 검사. 오류 0개.",
+    "sourceReading": "공식 HTML 구조화 본문·제조사 행사기사·현장기사·사진 캡션 확인. 실제 이미지 픽셀 검증 없음.",
+    "productCodeChanged": false,
+    "newMediaDownloaded": 0,
+    "buildTestLint": "조사 JSON만 작성하므로 해당 없음.",
+    "publicCoverageClaim": "전체 조사 완료로 표시하지 않음."
+  }
+}

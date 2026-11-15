@@ -2,17 +2,17 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="공식 전시장 배치도와 실제 출품자료로 읽는 차량 체계개발 FIELDNOTE">
-<title>FIELDNOTE v2 · 전시장 탐색</title>
+<meta name="description" content="전시장 지도에서 업체와 장비의 사진·출품 근거를 읽는 FIELDNOTE">
+<title>FIELDNOTE · 전시장 지도</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./src/v2/app.css"><link rel="stylesheet" href="./src/v2/map-view.css"><link rel="stylesheet" href="./src/v2/details.css">
+<link rel="stylesheet" href="./src/v2/app.css"><link rel="stylesheet" href="./src/v2/map-view.css"><link rel="stylesheet" href="./src/v2/details.css"><link rel="stylesheet" href="./src/v2/report.css">
 </head>
 <body>
 <a class="skip-link" href="#main">본문 바로가기</a>
 <header class="app-header">
-<a class="brand" href="#explore?event=adex-2025" aria-label="FIELDNOTE 전시장 탐색"><span class="brand-mark" aria-hidden="true"></span><span>FIELDNOTE<small>차량 체계개발 · 전시 현장 기록</small></span></a>
-<nav aria-label="주 메뉴"><a data-nav="explore" href="#explore?event=adex-2025">전시장 탐색</a><a data-nav="companies" href="#companies?event=adex-2025">업체·장비</a><a data-nav="report" href="#report?event=adex-2025">핵심 보고</a></nav>
+<a class="brand" href="#explore?event=adex-2025" aria-label="FIELDNOTE 전시장 지도"><span class="brand-mark" aria-hidden="true"></span><span>FIELDNOTE<small>전시 현장에서 읽는 기술</small></span></a>
+<nav aria-label="주 메뉴"><a data-nav="explore" href="#explore?event=adex-2025">전시장 지도</a><a data-nav="companies" href="#companies?event=adex-2025">업체·장비</a><a data-nav="report" href="#report?event=adex-2025">전시회 종합보고</a></nav>
 <button disabled type="button" id="compare-toggle" class="quiet-button" aria-label="선택 업체 비교">업체 비교 <span id="compare-count">0</span></button>
 </header>
 <form class="filterbar" id="filters" role="search">
@@ -24,7 +24,7 @@
 <main id="main" tabindex="-1"><div class="loading-note" role="status">전시 자료를 불러오고 있습니다</div></main>
 <div id="toast" role="status" aria-live="polite"></div>
 <div id="compare-layer" hidden></div>
-<footer class="app-footer"><span>FIELDNOTE v2 · 공개 전시자료 기반</span><span>자료 기준일 <time id="data-date">2026-11-12</time></span><a id="page-source" href="https://adex.bciaerospace.com/" target="_blank" rel="noopener noreferrer">공식 행사 자료</a></footer>
+<footer class="app-footer"><span>FIELDNOTE · 공개 전시자료 기반</span><span>자료 기준일 <time id="data-date">2026-11-12</time></span><a id="page-source" href="https://adex.bciaerospace.com/" target="_blank" rel="noopener noreferrer">공식 행사 자료</a></footer>
 <script type="module" src="./src/v2/app.js"></script>
 </body>
 </html>

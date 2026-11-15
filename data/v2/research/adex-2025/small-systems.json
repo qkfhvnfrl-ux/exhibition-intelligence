@@ -99,14 +99,6 @@
           "mnc-photo-report"
         ]
       },
-      "workConnection": {
-        "value": "차량 임무장비의 구동·유압 인터페이스 검토 후보입니다.",
-        "conditions": [
-          "장착공간·정비 접근성 확인",
-          "유압 유체·온도·전원 조건 대조",
-          "항공용 품목의 지상 환경 적합성 별도 입증"
-        ]
-      },
       "followUps": [
         "각 전시품의 모델과 실물·모형을 확인할 수 있습니까?",
         "ISU와 구동장치의 정비 교환 단위는 무엇입니까?",
@@ -203,8 +195,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "review": {
         "relevance": "confirmed",
@@ -344,14 +335,6 @@
           "dapa-leaflet"
         ]
       },
-      "workConnection": {
-        "value": "지휘·의무후송 임무실의 통화, 케이블 경로와 회전부 연결 검토에 활용할 수 있습니다.",
-        "conditions": [
-          "차량 통신체계 호환성 확인",
-          "정비 시 커넥터 접근·교환성 검토",
-          "항공 EMA의 차량 적용 근거 별도 확보"
-        ]
-      },
       "followUps": [
         "전시된 슬립링 개별 모델과 실물 목록은 무엇입니까?",
         "VIC-7DK의 대상 차량·무전기 인터페이스는 무엇입니까?",
@@ -470,8 +453,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "review": {
         "relevance": "confirmed",
@@ -573,14 +555,6 @@
           "vitz-observer"
         ]
       },
-      "workConnection": {
-        "value": "지휘소·의무후송 차량의 독립 센서·보조 장비 전원 후보를 조사할 출발점입니다.",
-        "conditions": [
-          "사용 후 교체·보급 조건 검토",
-          "충전형 팩과 기능 구분",
-          "온도·방전 프로파일 시험자료 확인"
-        ]
-      },
       "followUps": [
         "사진 속 시제품과 이후 개선형의 용량을 구분할 수 있습니까?",
         "ADEX 2025 전체 출품 목록과 부스번호는 무엇입니까?",
@@ -640,8 +614,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "review": {
         "relevance": "confirmed",
@@ -750,13 +723,6 @@
         "interpretation": "열관리 기술을 훈련·시험용 표적 응용으로 제시한 것으로 해석됩니다.",
         "sourceIds": [
           "cm-postevent"
-        ]
-      },
-      "workConnection": {
-        "value": "차량 탑재 광학장비의 시험지원·교육훈련 장비 범위를 검토할 수 있습니다.",
-        "conditions": [
-          "대상 장비의 시험조건과 공급범위 확인",
-          "전시 시연을 검증 성능으로 간주하지 않음"
         ]
       },
       "followUps": [
@@ -934,8 +900,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "review": {
         "relevance": "confirmed",
@@ -1027,14 +992,6 @@
           "fire-skt"
         ]
       },
-      "workConnection": {
-        "value": "소형 임무장비·배전함의 국부 소화 요구를 질문할 후보입니다.",
-        "conditions": [
-          "2025 실제 참가·품목 먼저 확인",
-          "소화제·온도·전기 적합성 확인",
-          "승무원 노출과 정비 요구 별도 검토"
-        ]
-      },
       "followUps": [
         "ADEX 2025 실제 출품제품과 부스번호는 무엇입니까?",
         "전장함·차량용 검증 자료가 있습니까?",
@@ -1103,8 +1060,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "review": {
         "relevance": "confirmed",
@@ -1206,14 +1162,6 @@
         "sourceIds": [
           "fiber-gallery",
           "fiber-event"
-        ]
-      },
-      "workConnection": {
-        "value": "지휘소·의무후송·무인 차량의 항법 입력 요구를 정리할 비교 후보입니다.",
-        "conditions": [
-          "차량 진동·전원 조건 확인",
-          "인터페이스와 설치공간 대조",
-          "개별 모델의 시험 자료 확보"
         ]
       },
       "followUps": [
@@ -1368,8 +1316,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "review": {
         "relevance": "confirmed",
@@ -1423,7 +1370,7 @@
         "adex25-ktc-test-infrastructure-plan"
       ],
       "reviewStatus": "reviewed_case",
-      "reason": "차량 소재·부품의 시험과 요구규격 정리는 당사 검증 업무에 직접 연결됩니다. 기관이 기획 중인 설비와 현재 제공 서비스를 구분해야 합니다.",
+      "reason": "기관이 기획 중인 설비와 현재 제공 서비스를 구분해야 합니다.",
       "highlights": [
         "공식 현장사진에서 KTC 부스 8-P4를 확인했습니다.",
         "시험평가·표준화·인프라 기획을 개별 항목으로 기록했습니다.",
@@ -1478,14 +1425,6 @@
         "interpretation": "시험 수요를 모아 지원 범위를 넓히려는 방향으로 읽힙니다. 기획 사업 확정을 뜻하지 않습니다.",
         "sourceIds": [
           "ktc-event"
-        ]
-      },
-      "workConnection": {
-        "value": "부품 국산화·변경 시 검증 항목과 외부 시험 역량을 대조할 후보입니다.",
-        "conditions": [
-          "시험별 인정·수행 범위 확인",
-          "시편·장비·일정 조건 확인",
-          "현재 서비스와 기획 인프라 구분"
         ]
       },
       "followUps": [
@@ -1559,12 +1498,11 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "review": {
         "relevance": "confirmed",
-        "reason": "차량 소재·부품의 시험과 요구규격 정리는 당사 검증 업무에 직접 연결됩니다. 기관이 기획 중인 설비와 현재 제공 서비스를 구분해야 합니다.",
+        "reason": "기관이 기획 중인 설비와 현재 제공 서비스를 구분해야 합니다.",
         "categories": [
           "testing_maintenance",
           "components"

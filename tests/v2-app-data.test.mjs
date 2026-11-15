@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {compileAppData,normalizePhoto,validateAppEvent} from '../scripts/compile-v2-app.mjs';
-import {getBoothCompanies,getCompanyPhotos,searchCompanies,safeAssetPath,safeUrl,tourCompanies,tourSelection} from '../src/v2/data.js';
+import {getBoothCompanies,getCompanyPhotos,getPhotoViewerSelection,searchCompanies,safeAssetPath,safeUrl,tourCompanies,tourSelection} from '../src/v2/data.js';
+import {parseState,serializeState,patchState,DEFAULT_STATE} from '../src/v2/state.js';
 
 const read=file=>readFile(new URL('../'+file,import.meta.url),'utf8').then(JSON.parse);
 const [publicData,registry,taxonomy,mapDisplay]=await Promise.all([read('data/v2/public.json'),read('data/v2/registry.json'),read('data/v2/taxonomy.json'),read('data/v2/map-display.json')]);
@@ -79,6 +80,31 @@ test('all matching image angles remain available and other-edition photos are no
   assert.ok(adex.photos.some(p=>p.context==='reference'));
 });
 
+test('URL-selected equipment galleries exclude other products and references but retain their own linked photos',()=>{
+ const data={event:{id:'adex-2025'},companies:[{id:'kia',productIds:['tasman','kmtv'],photoIds:['reference','kmtv-front','tasman-front','tasman-linked','tasman-shared','wrong-edition','narrative-angle']},{id:'other',productIds:['other-product'],photoIds:['foreign']}],products:[{id:'tasman',narrative:{photoIds:['narrative-angle']}},{id:'kmtv'},{id:'other-product'}],photos:[
+  {id:'reference',context:'reference',src:'assets/reference.jpg',productIds:['tasman']},
+  {id:'kmtv-front',context:'event',src:'assets/kmtv.jpg',productIds:['kmtv']},
+  {id:'tasman-front',context:'event',src:'assets/tasman.jpg',productIds:['tasman']},
+  {id:'tasman-linked',context:'event',src:null,delivery:'linked',productIds:['tasman']},
+  {id:'tasman-shared',context:'event',src:'assets/shared.jpg',productIds:['tasman','kmtv']},
+  {id:'wrong-edition',context:'event',eventId:'adex-2023',src:'assets/old.jpg',productIds:['tasman']},
+  {id:'narrative-angle',context:'event',src:'assets/narrative.jpg'},
+  {id:'foreign',context:'event',src:'assets/foreign.jpg',productIds:['other-product']}
+ ]};
+ const state=patchState(DEFAULT_STATE,{route:'company',event:'adex-2025',company:'kia',product:'tasman',photo:'tasman-front'});
+ const selected=getPhotoViewerSelection(data,state);
+ assert.deepEqual(selected.photos.map(p=>p.id),['tasman-front','tasman-shared','narrative-angle','tasman-linked']);
+ assert.equal(selected.productId,'tasman');assert.equal(selected.photos[selected.index].id,'tasman-front');
+ const next=patchState(state,{photo:'tasman-linked'}),reloaded=getPhotoViewerSelection(data,parseState(serializeState(next)));
+ assert.deepEqual(reloaded.photos.map(p=>p.id),selected.photos.map(p=>p.id));assert.equal(reloaded.photos[reloaded.index].id,'tasman-linked');
+ const back=getPhotoViewerSelection(data,parseState(serializeState(state)));assert.equal(back.photos[back.index].id,'tasman-front');
+ for(const photo of ['reference','wrong-edition','kmtv-front']){
+  const outside=getPhotoViewerSelection(data,{...state,photo});assert.equal(outside.productId,'');assert.deepEqual(outside.photos,getCompanyPhotos(data,'kia'));
+ }
+ const hero=getPhotoViewerSelection(data,{...state,product:''});assert.equal(hero.productId,'');assert.equal(hero.photos.length,7);
+ const foreign=getPhotoViewerSelection(data,{...state,product:'other-product',photo:'foreign'});assert.equal(foreign.index,-1);assert.equal(foreign.productId,'');
+});
+
 test('data shards omit collection/queue/completion bookkeeping and keep evidence limitations',()=>{
   for(const data of Object.values(output.events)){
     for(const key of ['collections','workQueue','metrics','rosterEntries','migration'])assert.equal(data[key],undefined);
@@ -96,7 +122,7 @@ test('unverified data cannot acquire geometry merely by adding a company map lin
 
 test('editorial examples augment their own registered company without changing global completeness',()=>{
   const company=adex.companies.find(c=>c.name==='Hyundai Rotem');
-  const example={id:'case-example',organizationId:company.id,categoryIds:['complete_vehicle'],reason:'조건이 있는 사례 판단',highlights:['가','나','다'],exhibit:{items:[{name:'문서로 확인한 사례제품',form:'model',status:'displayed_model',sourceIds:['example-source']}]},distinction:{status:'not_comparable'},direction:{observation:'발표 근거',interpretation:'해석'},workConnection:{value:'적용 조건 확인',conditions:['질량']},followUps:['형상?','운용조건?'],sources:[{id:'example-source',url:'https://example.com/adex-2025',title:'2025 원문'}],photos:[],catalogs:[]};
+  const example={id:'case-example',organizationId:company.id,categoryIds:['complete_vehicle'],reason:'조건이 있는 사례 판단',highlights:['가','나','다'],exhibit:{items:[{name:'문서로 확인한 사례제품',form:'model',status:'displayed_model',sourceIds:['example-source']}]},distinction:{status:'not_comparable'},direction:{observation:'발표 근거',interpretation:'해석'},followUps:['형상?','운용조건?'],sources:[{id:'example-source',url:'https://example.com/adex-2025',title:'2025 원문'}],photos:[],catalogs:[]};
   const event=compileAppData({publicData,registry,taxonomy,mapDisplay,editorialBundles:[{eventId:'adex-2025',cases:[example]}]}).events['adex-2025'];
   const selected=event.companies.find(c=>c.id===company.id);
   assert.equal(selected.editorialId,'case-example');
@@ -107,4 +133,65 @@ test('editorial examples augment their own registered company without changing g
   assert.equal(event.populationComplete,undefined);
   assert.throws(()=>compileAppData({publicData,registry,taxonomy,editorialBundles:[{eventId:'adex-2025',cases:[{...example,organizationId:'org-missing'}]}]}),/not registered/);
   assert.throws(()=>compileAppData({publicData,registry,taxonomy,editorialBundles:[{eventId:'adex-2025',cases:[{...example,photos:[{id:'wrong-edition',eventId:'idex-2025',context:'event',sourceUrl:'https://example.com/photo',rightsStatus:'link-only'}]}]}]}),/photo edition mismatch/);
+});
+
+const narrativeFixture=()=>{
+  const company=adex.companies.find(company=>company.name==='Hyundai WIA');
+  const photo=adex.photos.find(photo=>company.photoIds.includes(photo.id)&&photo.context==='event'&&photo.src==='assets/adex2025/rcws-event-01.jpg');
+  assert.ok(photo);
+  return {eventId:adex.event.id,organizationId:company.id,productId:'rcws',asOf:'2026-11-15',sections:['overview','features','exhibit','development','interpretation'].map(id=>({id,label:id,text:'제품별 공개 설명',sourceIds:['narrative-event'],claimType:id==='interpretation'?'editorial_inference':'event'})),eventEvidenceSourceIds:['narrative-event'],generalSourceIds:['narrative-general'],photoIds:[photo.id],form:'실물',limitations:['단일 제조사 자료'],sources:[{id:'narrative-event',url:'https://example.org/adex2025',title:'행사 발표',publisher:'Manufacturer',publishedAt:'2025-10-20'},{id:'narrative-general',url:'https://example.org/product',title:'현재 일반제품 소개'}]};
+};
+const withNarratives=(productNarratives,extra={})=>compileAppData({publicData,registry,taxonomy,mapDisplay,productNarratives,...extra});
+
+test('optional product narratives enrich only an existing product and its own event photo',()=>{
+  const narrative=narrativeFixture(),event=withNarratives([narrative]).events[adex.event.id];
+  const product=event.products.find(product=>product.id===narrative.productId);
+  assert.equal(event.products.length,adex.products.length);
+  assert.deepEqual(product.narrative.sections,narrative.sections);
+  assert.equal(product.narrative.asOf,'2026-11-15');
+  assert.equal(event.dataAsOf,adex.dataAsOf);
+  assert.equal(product.form,'실물');
+  for(const id of ['narrative-event','narrative-general'])assert.ok(product.sourceIds.includes(id));
+  assert.ok(event.companies.find(company=>company.id===narrative.organizationId).sourceIds.includes('narrative-general'));
+  assert.ok(event.photos.find(photo=>photo.id===narrative.photoIds[0]).productIds.includes(product.id));
+  assert.equal(event.sources.find(source=>source.id==='narrative-event').publishedAt,'2025-10-20');
+  for(const [id,shard] of Object.entries(withNarratives([narrative]).events))if(id!==adex.event.id)assert.ok(shard.products.every(product=>!product.narrative));
+  assert.ok(adex.products.every(product=>!product.narrative),'compiler must not mutate shared input');
+});
+
+test('product narratives reject invented products, wrong companies, unknown editions and duplicate records',()=>{
+  const narrative=narrativeFixture();
+  assert.throws(()=>withNarratives([{...narrative,productId:'invented-product'}]),/does not belong/);
+  assert.throws(()=>withNarratives([{...narrative,organizationId:adex.companies.find(company=>company.name==='Kia').id}]),/does not belong/);
+  assert.throws(()=>withNarratives([{...narrative,eventId:'adex-2023'}]),/event is not registered/);
+  assert.throws(()=>withNarratives([narrative,narrative]),/duplicate product narrative/);
+});
+
+test('product narrative evidence cannot silently lose sources or borrow another company or edition photo',()=>{
+  const narrative=narrativeFixture(),other=adex.companies.find(company=>company.name==='Kia');
+  const otherPhoto=adex.photos.find(photo=>other.photoIds.includes(photo.id)&&photo.context==='event');
+  const reference=adex.photos.find(photo=>photo.context==='reference'&&adex.companies.find(company=>company.id===narrative.organizationId).photoIds.includes(photo.id));
+  assert.throws(()=>withNarratives([{...narrative,generalSourceIds:['missing-source']}]),/dangling source/);
+  assert.throws(()=>withNarratives([{...narrative,photoIds:[otherPhoto.id]}]),/another organization/);
+  assert.throws(()=>withNarratives([{...narrative,photoIds:[reference.id]}]),/not from this edition/);
+  assert.throws(()=>withNarratives([{...narrative,sections:narrative.sections.slice(0,4)}]),/five sections/);
+  const event=withNarratives([narrative]).events[adex.event.id];
+  event.products.find(product=>product.id===narrative.productId).narrative.sections[0].sourceIds.push('missing-source');
+  assert.throws(()=>validateAppEvent(event),/dangling sources/);
+});
+
+test('optional event reports retain their own date, evidence and existing product/photo relations',()=>{
+  const narrative=narrativeFixture();
+  const report={eventId:adex.event.id,asOf:'2026-11-15',title:'관찰 보고',message:'확인된 사례만 비교',scopeNote:'전체 행사 결론 아님',comparisonEvent:'ADEX 2023',comparisonNote:'제조사 원문 대조',themes:[{title:'계열 구성',summary:'공개 내용의 비교',companyId:narrative.organizationId,productId:narrative.productId,photoId:narrative.photoIds[0],before:'이전 설명',after:'이번 설명',sourceIds:['report-source']}],interpretation:'관찰에 한정',limitations:['독립 확인 필요'],sourceIds:['report-source'],sources:[{id:'report-source',url:'https://example.org/adex2023',title:'직전 회차 자료',publishedAt:'2023-10-17'}]};
+  const result=withNarratives([narrative],{reportContents:[report]}),event=result.events[adex.event.id];
+  assert.equal(event.report.asOf,'2026-11-15');
+  assert.equal(event.dataAsOf,adex.dataAsOf);
+  assert.deepEqual(event.report.themes,report.themes);
+  assert.ok(event.sources.some(source=>source.id==='report-source'));
+  assert.equal(result.events['idex-2025'].report,null);
+  assert.throws(()=>withNarratives([narrative],{reportContents:[{...report,themes:[{...report.themes[0],companyId:'missing-company'}]}]}),/report company/);
+  assert.throws(()=>withNarratives([narrative],{reportContents:[{...report,themes:[{...report.themes[0],productId:'missing-product'}]}]}),/report product/);
+  assert.throws(()=>withNarratives([narrative],{reportContents:[{...report,sourceIds:['missing-source']}]}),/report dangling source/);
+  const broken=structuredClone(event);broken.report.themes[0].photoId=adex.photos.find(photo=>photo.context==='reference').id;
+  assert.throws(()=>validateAppEvent(broken),/report company\/photo mismatch/);
 });

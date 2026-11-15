@@ -1,0 +1,940 @@
+{
+  "schemaVersion": "1.0",
+  "documentType": "local_research_draft",
+  "company": "현대로템",
+  "event": "ADEX 2025",
+  "comparisonEvent": "ADEX 2023",
+  "accessedDate": "2026-11-15",
+  "status": "research_verified_with_gaps",
+  "productionIntegrated": false,
+  "scope": "공개 제품 소개 수준의 근거 보강. 이 파일은 제품 화면·데이터에 아직 통합하지 않은 조사 초안이다.",
+  "editorialRules": [
+    "제조사 발표·독립 현장 관찰·일반제품 설명·후속 발표·편집 해석을 구분한다.",
+    "아래 다섯 항목은 claimIDs를 통해 원문을 한 번만 보관한다. 빈 항목을 추정으로 채우지 않는다.",
+    "사진에 보이는 형상은 기능·성능·실제 작동 여부의 증거와 구별한다.",
+    "수출계약·시장전망·내부 업무 연계는 이 초안에서 작성하지 않는다."
+  ],
+  "sources": [
+    {
+      "id": "rotem-adex2025-official",
+      "title": "현대로템, ADEX서 ‘종합 방산’ 기업 비전 제시",
+      "publisher": "현대자동차그룹 / 현대로템",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+      "date": "2025-10-20",
+      "evidenceType": "manufacturer_event_release",
+      "originGroup": "hyundai-rotem",
+      "access": "원문 본문 열람",
+      "condition": "개막일 제조사 발표. 현장 사진·독립 보도와 구별한다.",
+      "sameOriginAlternateURL": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2521"
+    },
+    {
+      "id": "rotem-adex2023-official",
+      "title": "[로템B] 현대로템 미래무기체계 만날 수 있는 ‘서울 ADEX 2023’",
+      "publisher": "현대로템 공식 블로그",
+      "exactURL": "https://blog.hyundai-rotem.co.kr/905",
+      "date": "2023-10-20",
+      "evidenceType": "manufacturer_event_report",
+      "originGroup": "hyundai-rotem",
+      "access": "원문 본문 열람",
+      "condition": "전시기간 중 제조사 자체 현장 소개. 독립 관찰로 세지 않는다."
+    },
+    {
+      "id": "rotem-cpv-background",
+      "title": "[신비한로템사전] “빠르게 움직이는 지휘소”..현대로템의 ‘차륜형지휘소용차량’",
+      "publisher": "현대로템 공식 블로그",
+      "exactURL": "https://blog.hyundai-rotem.co.kr/938",
+      "date": "2024-01-17",
+      "evidenceType": "manufacturer_product_background",
+      "originGroup": "hyundai-rotem",
+      "access": "원문 본문 열람",
+      "condition": "제품 일반 설명. ADEX 2025 전시차의 세부 형식을 지정하지 않는다."
+    },
+    {
+      "id": "rotem-mev-later",
+      "title": "현대로템, 軍 장병 생명 지킬 장갑형구급차 개발",
+      "publisher": "현대로템",
+      "exactURL": "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2743",
+      "date": "2026-09-01",
+      "evidenceType": "manufacturer_later_update",
+      "originGroup": "hyundai-rotem",
+      "access": "원문 본문 열람",
+      "condition": "전시 이후 발표. 2025 전시품의 개발 완료나 상세 구성을 입증하지 않는다."
+    },
+    {
+      "id": "rotem-hydrogen-background",
+      "title": "수소 차륜형장갑차",
+      "publisher": "현대로템",
+      "exactURL": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productCt03=defense0603",
+      "date": null,
+      "evidenceType": "manufacturer_undated_product_page",
+      "originGroup": "hyundai-rotem",
+      "access": "원문 본문 열람",
+      "condition": "게시일 불명. 2026-11-15 현재 제품 설명이며 2025 시점에 소급하지 않는다."
+    },
+    {
+      "id": "rotem-adex2025-field",
+      "title": "[AT 현장] AI로 진화한 첨단 무기…ADEX 2025 가보니",
+      "publisher": "아시아타임즈",
+      "author": "조광현",
+      "exactURL": "https://www.asiatime.co.kr/article/20251023500386",
+      "date": "2025-10-23",
+      "updatedDate": "2025-10-24",
+      "evidenceType": "independent_field_report",
+      "originGroup": "asiatimes",
+      "access": "원문 본문 열람",
+      "condition": "기자가 현장 방문을 명시. K2PL 전시형태 표현은 제조사와 상충한다."
+    },
+    {
+      "id": "rotem-adex2025-nurphoto",
+      "title": "ADEX 2025 Opens In Goyang With Record Global Participation",
+      "publisher": "NurPhoto",
+      "author": "Chris Jung/NurPhoto",
+      "exactURL": "https://www.nurphoto.com/photo/12888707",
+      "date": "2025-10-20",
+      "evidenceType": "independent_photo_caption",
+      "originGroup": "nurphoto",
+      "access": "캡션·촬영일·촬영자·이용조건 열람",
+      "condition": "부스 현장 캡션. 이번 조사에서 이미지 픽셀 기반 장비 식별은 하지 않았다."
+    },
+    {
+      "id": "cc-by-nc-nd-4",
+      "title": "저작자표시-비영리-변경금지 4.0 국제",
+      "publisher": "Creative Commons",
+      "exactURL": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko",
+      "date": null,
+      "evidenceType": "license_deed",
+      "originGroup": "creativecommons",
+      "access": "블로그 라이선스 링크 목적지 확인",
+      "condition": "각 사진의 권리자·예외와 실제 사용 조건을 별도로 확인해야 한다."
+    }
+  ],
+  "claims": [
+    {
+      "id": "k2pl-identity",
+      "text": "K2PL은 폴란드 요구를 반영한 K2형이다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_product_description",
+      "scope": "adex-2025",
+      "condition": "국가별 모델 명칭 확인. 계약 수량·납품 상태는 다루지 않는다."
+    },
+    {
+      "id": "k2pl-features",
+      "text": "제조사는 APS·드론 재머·원격무장장치·특수장갑 적용을 설명한다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_event_configuration",
+      "scope": "adex-2025",
+      "condition": "작동 시연이나 각각의 실장 상태를 사진만으로 확인한 것은 아니다."
+    },
+    {
+      "id": "k2pl-form",
+      "text": "제조사는 K2PL을 실물 첫 공개로 발표했다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_event_statement",
+      "scope": "adex-2025",
+      "condition": "아래 독립 기사와 전시형태 표현이 다르다. 양산차·완성 기능체계로 확정하지 않는다."
+    },
+    {
+      "id": "k2pl-form-conflict",
+      "text": "현장기사는 같은 전시품을 ‘실물 모형’으로 표현했다.",
+      "sourceIDs": [
+        "rotem-adex2025-field"
+      ],
+      "exactURL": [
+        "https://www.asiatime.co.kr/article/20251023500386"
+      ],
+      "date": [
+        "2025-10-23"
+      ],
+      "evidenceType": "independent_field_report",
+      "scope": "adex-2025",
+      "condition": "현장 존재는 교차 확인되지만 실차/모형 분류는 미해결이다."
+    },
+    {
+      "id": "peru-identity",
+      "text": "페루형 차륜형장갑차를 전시 대상으로 명시했다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_event_statement",
+      "scope": "adex-2025",
+      "condition": "개별 사진·명판으로 실물 또는 축소모형을 판정하지 못했다."
+    },
+    {
+      "id": "peru-feature",
+      "text": "제조사는 페루형의 하부 방호 보강을 설명했다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_product_description",
+      "scope": "adex-2025",
+      "condition": "보강 수준·시험 결과·2023 대비 변경량은 미확인이다."
+    },
+    {
+      "id": "cpv-event",
+      "text": "차륜형지휘소용차량도 출품 목록에 포함됐다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_event_statement",
+      "scope": "adex-2025",
+      "condition": "전시차의 K870/K877 구분과 실물/모형 여부는 미확인이다."
+    },
+    {
+      "id": "cpv-role",
+      "text": "K808 계열 지휘 차량으로, 이동 중 지휘·정보 공유를 지원한다.",
+      "sourceIDs": [
+        "rotem-cpv-background"
+      ],
+      "exactURL": [
+        "https://blog.hyundai-rotem.co.kr/938"
+      ],
+      "date": [
+        "2024-01-17"
+      ],
+      "evidenceType": "manufacturer_product_background",
+      "scope": "general-product",
+      "condition": "2024년 제품 일반 설명이다. 2025 전시차의 내부 탑재물을 직접 확인한 근거가 아니다."
+    },
+    {
+      "id": "cpv-development",
+      "text": "제조사는 2022년 양산 착수와 2023년 12월 첫 배치를 설명한다.",
+      "sourceIDs": [
+        "rotem-cpv-background"
+      ],
+      "exactURL": [
+        "https://blog.hyundai-rotem.co.kr/938"
+      ],
+      "date": [
+        "2024-01-17"
+      ],
+      "evidenceType": "manufacturer_product_background",
+      "scope": "general-product",
+      "condition": "이를 전시회 신제품으로 소개하지 않는다."
+    },
+    {
+      "id": "mev-event",
+      "text": "차륜형의무후송차량을 계열화 전시 대상으로 소개했다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_event_statement",
+      "scope": "adex-2025",
+      "condition": "2025 개별 전시형태·탑승 인원·의료 장비 구성은 확인되지 않았다."
+    },
+    {
+      "id": "mev-role-later",
+      "text": "2026년 발표는 환자 후송용 장갑 차량이며 지휘소용차량 기반이라고 설명한다.",
+      "sourceIDs": [
+        "rotem-mev-later"
+      ],
+      "exactURL": [
+        "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2743"
+      ],
+      "date": [
+        "2026-09-01"
+      ],
+      "evidenceType": "manufacturer_later_update",
+      "scope": "later-update-2026",
+      "condition": "동일 계열의 후속 설명으로만 사용. 전시품과 완전히 같은 사양이라는 근거는 없다."
+    },
+    {
+      "id": "mev-development-later",
+      "text": "제조사는 2026년 9월 체계개발 완료를 발표했다.",
+      "sourceIDs": [
+        "rotem-mev-later"
+      ],
+      "exactURL": [
+        "https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2743"
+      ],
+      "date": [
+        "2026-09-01"
+      ],
+      "evidenceType": "manufacturer_later_update",
+      "scope": "later-update-2026",
+      "condition": "개발 완료 시점을 2025 전시회로 앞당기지 않는다."
+    },
+    {
+      "id": "30t-event",
+      "text": "30t급 차륜형장갑차도 2025 출품 목록에 포함됐다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_event_statement",
+      "scope": "adex-2025",
+      "condition": "2025 독립 장비 사진·전시형태·형상 변경 여부는 미확인이다."
+    },
+    {
+      "id": "30t-2023",
+      "text": "2023 공식 현장 소개는 30t급 실차 첫 공개와 30㎜ 무인포탑을 명시한다.",
+      "sourceIDs": [
+        "rotem-adex2023-official"
+      ],
+      "exactURL": [
+        "https://blog.hyundai-rotem.co.kr/905"
+      ],
+      "date": [
+        "2023-10-20"
+      ],
+      "evidenceType": "manufacturer_event_report",
+      "scope": "adex-2023",
+      "condition": "2023 전시 구성이다. 같은 포탑이 2025에도 장착됐다고 전제하지 않는다."
+    },
+    {
+      "id": "hydrogen-event",
+      "text": "수소 차륜형장갑차를 함께 전시하며 연료전지·전동화 추진 적용기술을 개발 중이라고 밝혔다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_event_statement",
+      "scope": "adex-2025",
+      "condition": "양산·전력화·전시품의 주행 가능성·세계 최초 공개를 입증하지 않는다."
+    },
+    {
+      "id": "hydrogen-background",
+      "text": "현재 제품 페이지는 연료전지와 배터리를 결합한 전동화 플랫폼으로 소개한다.",
+      "sourceIDs": [
+        "rotem-hydrogen-background"
+      ],
+      "exactURL": [
+        "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productCt03=defense0603"
+      ],
+      "date": [
+        null
+      ],
+      "evidenceType": "manufacturer_undated_product_page",
+      "scope": "current-product-background",
+      "condition": "게시일이 없어 이 설명을 2025 실물 구성의 증거로 사용하지 않는다."
+    },
+    {
+      "id": "blackveil-identity",
+      "text": "Black Veil은 수소연료전지 기반 무인 전동화 플랫폼으로 처음 소개됐다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_event_statement",
+      "scope": "adex-2025",
+      "condition": "제조사의 최초 소개 표현이다. 현장에서 실제 주행했거나 운용 승인을 받았다는 뜻은 아니다."
+    },
+    {
+      "id": "blackveil-feature",
+      "text": "4륜구동과 개방 적재부를 두고 탑재물에 따라 물자 운송 등 용도를 달리한다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "manufacturer_product_description",
+      "scope": "adex-2025",
+      "condition": "적재량·항속거리·완전자율 성능은 이 자료로 확정하지 않는다."
+    },
+    {
+      "id": "k2ex-2023",
+      "text": "2023에는 K2EX 수출형을 공개했다.",
+      "sourceIDs": [
+        "rotem-adex2023-official"
+      ],
+      "exactURL": [
+        "https://blog.hyundai-rotem.co.kr/905"
+      ],
+      "date": [
+        "2023-10-20"
+      ],
+      "evidenceType": "manufacturer_event_report",
+      "scope": "adex-2023",
+      "condition": "K2PL과 동일 모델 또는 직접 후속형이라고 단정하지 않는다."
+    },
+    {
+      "id": "unmanned-2023",
+      "text": "2023에는 전동 무인 콘셉트 U-POD와 개량 다목적무인차량도 전시했다.",
+      "sourceIDs": [
+        "rotem-adex2023-official"
+      ],
+      "exactURL": [
+        "https://blog.hyundai-rotem.co.kr/905"
+      ],
+      "date": [
+        "2023-10-20"
+      ],
+      "evidenceType": "manufacturer_event_report",
+      "scope": "adex-2023",
+      "condition": "무인 주제가 2025에 처음 등장했다는 해석을 배제한다."
+    },
+    {
+      "id": "models-2023",
+      "text": "2023의 대구경포탑 탑재차량·차륜형박격포 계열은 모형으로 소개됐다.",
+      "sourceIDs": [
+        "rotem-adex2023-official"
+      ],
+      "exactURL": [
+        "https://blog.hyundai-rotem.co.kr/905"
+      ],
+      "date": [
+        "2023-10-20"
+      ],
+      "evidenceType": "manufacturer_event_report",
+      "scope": "adex-2023",
+      "condition": "같은 기사에 나온 실차와 모형을 모두 실물로 묶지 않는다."
+    },
+    {
+      "id": "booth-independent",
+      "text": "독립 사진 캡션은 2025년 10월 20일 킨텍스 현대로템 부스 방문 장면으로 식별한다.",
+      "sourceIDs": [
+        "rotem-adex2025-nurphoto"
+      ],
+      "exactURL": [
+        "https://www.nurphoto.com/photo/12888707"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "independent_photo_caption",
+      "scope": "adex-2025",
+      "condition": "개별 장비 사양이나 실물/모형 분류를 입증하지 않는다."
+    },
+    {
+      "id": "comparison-k2",
+      "text": "K2 계열 소개 대상은 K2EX에서 폴란드형 K2PL로 달라졌다.",
+      "sourceIDs": [
+        "rotem-adex2023-official",
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://blog.hyundai-rotem.co.kr/905",
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2023-10-20",
+        "2025-10-20"
+      ],
+      "evidenceType": "editorial_comparison",
+      "scope": "adex-2023-to-2025",
+      "condition": "명칭·대상 요구 변화의 비교다. 성능 우열·계약 성과·직접 계보 판단은 제외한다."
+    },
+    {
+      "id": "comparison-30t",
+      "text": "30t급은 두 회차에 모두 등장하므로 2025 신규 품목으로 분류하지 않는다.",
+      "sourceIDs": [
+        "rotem-adex2023-official",
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://blog.hyundai-rotem.co.kr/905",
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2023-10-20",
+        "2025-10-20"
+      ],
+      "evidenceType": "editorial_comparison",
+      "scope": "adex-2023-to-2025",
+      "condition": "동일 형상의 반복 출품 여부는 별도 확인이 필요하다."
+    },
+    {
+      "id": "comparison-unmanned",
+      "text": "무인 플랫폼 소개의 연속성 속에서 2025에는 수소 기반 Black Veil이 추가로 제시됐다.",
+      "sourceIDs": [
+        "rotem-adex2023-official",
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://blog.hyundai-rotem.co.kr/905",
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2023-10-20",
+        "2025-10-20"
+      ],
+      "evidenceType": "editorial_comparison",
+      "scope": "adex-2023-to-2025",
+      "condition": "전시 품목 변화만 해석한다. U-POD 대체·직접 개발 계보·무인 전시 수량 증가를 주장하지 않는다."
+    },
+    {
+      "id": "interpretation-country",
+      "text": "편집 해석: 국가별 요구 대응을 보여주는 사례로 읽을 수 있다.",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160"
+      ],
+      "date": [
+        "2025-10-20"
+      ],
+      "evidenceType": "editorial_inference",
+      "scope": "adex-2025",
+      "condition": "전시 메시지에 한정한 해석이며 수주 가능성·수출 성과 예측이 아니다."
+    },
+    {
+      "id": "interpretation-family",
+      "text": "편집 해석: 기동 플랫폼의 임무 분화를 보여주는 구성이다.",
+      "sourceIDs": [
+        "rotem-adex2025-official",
+        "rotem-cpv-background"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+        "https://blog.hyundai-rotem.co.kr/938"
+      ],
+      "date": [
+        "2025-10-20",
+        "2024-01-17"
+      ],
+      "evidenceType": "editorial_inference",
+      "scope": "adex-2025",
+      "condition": "상품 구성에 대한 해석. 실제 부품 공통성·운용 효과의 정량 검증은 없다."
+    },
+    {
+      "id": "interpretation-hydrogen",
+      "text": "편집 해석: 동력원과 무인 플랫폼을 함께 보여준 기술 방향이다.",
+      "sourceIDs": [
+        "rotem-adex2025-official",
+        "rotem-hydrogen-background"
+      ],
+      "exactURL": [
+        "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+        "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productCt03=defense0603"
+      ],
+      "date": [
+        "2025-10-20",
+        null
+      ],
+      "evidenceType": "editorial_inference",
+      "scope": "adex-2025",
+      "condition": "전시된 기술 방향에 대한 해석. 실전 성숙도·환경성 전 과정 평가를 뜻하지 않는다."
+    }
+  ],
+  "equipment": [
+    {
+      "equipmentId": "k2pl",
+      "name": "K2PL",
+      "displayForm": "conflicting_manufacturer_full_size_vs_media_model",
+      "independentEvidence": "출품 현장 존재 지지. 실차/모형 분류 미해결.",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "k2pl-identity"
+          ],
+          "status": "supported"
+        },
+        "characteristics": {
+          "claimIDs": [
+            "k2pl-features"
+          ],
+          "status": "supported"
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [
+            "k2pl-form",
+            "k2pl-form-conflict",
+            "comparison-k2"
+          ],
+          "status": "qualified"
+        },
+        "developmentDirection": {
+          "claimIDs": [],
+          "status": "gap",
+          "note": "별도 공식 개발 일정·완료 상태 미확인."
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "interpretation-country"
+          ],
+          "status": "inference"
+        }
+      }
+    },
+    {
+      "equipmentId": "k808-peru",
+      "name": "페루형 차륜형장갑차",
+      "displayForm": "manufacturer_listed_form_unresolved",
+      "independentEvidence": "장비별 독립 현장 근거 부족.",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "peru-identity"
+          ],
+          "status": "supported"
+        },
+        "characteristics": {
+          "claimIDs": [
+            "peru-feature"
+          ],
+          "status": "supported"
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [],
+          "status": "gap",
+          "note": "2023 동종 국가형과 비교할 직접 근거 미확인."
+        },
+        "developmentDirection": {
+          "claimIDs": [],
+          "status": "gap",
+          "note": "이번 원문에 제품별 개발 일정 없음."
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "interpretation-country"
+          ],
+          "status": "inference"
+        }
+      }
+    },
+    {
+      "equipmentId": "adex25-rotem-cpv",
+      "name": "차륜형지휘소용차량",
+      "displayForm": "manufacturer_listed_form_unresolved",
+      "independentEvidence": "장비별 독립 현장 근거 부족.",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "cpv-role"
+          ],
+          "status": "supported"
+        },
+        "characteristics": {
+          "claimIDs": [],
+          "status": "gap",
+          "note": "2025 전시차 형식 확인 전 일반제품 제원 전재 보류."
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [
+            "cpv-event"
+          ],
+          "status": "qualified"
+        },
+        "developmentDirection": {
+          "claimIDs": [
+            "cpv-development"
+          ],
+          "status": "background_only"
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "interpretation-family"
+          ],
+          "status": "inference"
+        }
+      }
+    },
+    {
+      "equipmentId": "adex25-rotem-mev",
+      "name": "차륜형의무후송차량",
+      "displayForm": "manufacturer_listed_form_unresolved",
+      "independentEvidence": "장비별 독립 현장 근거 부족.",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "mev-role-later"
+          ],
+          "status": "later_update_only"
+        },
+        "characteristics": {
+          "claimIDs": [],
+          "status": "gap",
+          "note": "후속 개발차의 좌석 수·의료장비를 2025 전시품에 전용하지 않음."
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [
+            "mev-event"
+          ],
+          "status": "qualified"
+        },
+        "developmentDirection": {
+          "claimIDs": [
+            "mev-development-later"
+          ],
+          "status": "later_update_only"
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "interpretation-family"
+          ],
+          "status": "inference"
+        }
+      }
+    },
+    {
+      "equipmentId": "adex25-rotem-30t",
+      "name": "30t급 차륜형장갑차",
+      "displayForm": "manufacturer_listed_2025_form_unresolved_2023_full_size_stated",
+      "independentEvidence": "2025 장비별 독립 현장 근거 부족.",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "30t-event"
+          ],
+          "status": "supported"
+        },
+        "characteristics": {
+          "claimIDs": [
+            "30t-2023"
+          ],
+          "status": "historical_only"
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [
+            "comparison-30t"
+          ],
+          "status": "qualified"
+        },
+        "developmentDirection": {
+          "claimIDs": [],
+          "status": "gap",
+          "note": "두 회차 사이 개발 단계·세부 형상 변화 미확인."
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "interpretation-family"
+          ],
+          "status": "inference"
+        }
+      }
+    },
+    {
+      "equipmentId": "adex25-rotem-hydrogen-wav",
+      "name": "수소 차륜형장갑차",
+      "displayForm": "manufacturer_listed_form_unresolved",
+      "independentEvidence": "장비별 독립 현장 근거 부족.",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "hydrogen-event"
+          ],
+          "status": "supported"
+        },
+        "characteristics": {
+          "claimIDs": [
+            "hydrogen-background"
+          ],
+          "status": "undated_background_only"
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [],
+          "status": "gap",
+          "note": "2023 ADEX 동일 품목·형태 근거 미확인. 다른 전시회 출품 이력과 섞지 않음."
+        },
+        "developmentDirection": {
+          "claimIDs": [
+            "hydrogen-event"
+          ],
+          "status": "manufacturer_development_statement"
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "interpretation-hydrogen"
+          ],
+          "status": "inference"
+        }
+      }
+    },
+    {
+      "equipmentId": "black-veil",
+      "name": "Black Veil",
+      "displayForm": "manufacturer_introduction_form_and_operation_unresolved",
+      "independentEvidence": "장비별 독립 현장 근거 부족.",
+      "fiveFields": {
+        "identity": {
+          "claimIDs": [
+            "blackveil-identity"
+          ],
+          "status": "supported"
+        },
+        "characteristics": {
+          "claimIDs": [
+            "blackveil-feature"
+          ],
+          "status": "supported"
+        },
+        "eventConfigurationAndDifference": {
+          "claimIDs": [
+            "comparison-unmanned"
+          ],
+          "status": "qualified"
+        },
+        "developmentDirection": {
+          "claimIDs": [],
+          "status": "gap",
+          "note": "2025 원문만으로 양산·도입 일정 확정 불가."
+        },
+        "strategicInterpretation": {
+          "claimIDs": [
+            "interpretation-hydrogen"
+          ],
+          "status": "inference"
+        }
+      }
+    }
+  ],
+  "comparisons": {
+    "publishableWithConditions": [
+      "comparison-k2",
+      "comparison-30t",
+      "comparison-unmanned"
+    ],
+    "rejected": [
+      "2025에 처음 무인화로 전환했다.",
+      "30t급 장갑차가 ADEX 2025에서 처음 공개됐다.",
+      "K2EX가 K2PL로 직접 진화했고 성능이 향상됐다.",
+      "Black Veil이 U-POD를 대체했으며 완전자율 실증을 마쳤다.",
+      "수소 차륜형장갑차의 2025 전시로 양산·전력화가 확인됐다."
+    ],
+    "absenceRule": "검토한 2023 자료에서 누락됐다는 사유만으로 당시 미출품을 확정하지 않는다."
+  },
+  "photoChecks": [
+    {
+      "photoId": "photo-f27315794918d9b8ddce",
+      "existingLocalPath": "assets/adex2025/k2pl-event-01.jpg",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "sourceCaptionStatus": "기사 대표 이미지의 alt는 기사 제목. 개별 상세 캡션은 이 조사에서 확인하지 못함.",
+      "existingEditorialCaption": "K2PL 전시품 앞쪽에 엔진 전시품이 겹친 장면.",
+      "photographer": null,
+      "provider": "현대로템 / 현대자동차그룹 뉴스룸",
+      "condition": "뉴스룸 일반 사용 안내와 제3자 제공물 예외 확인. 촬영자를 제공기관과 동일시하지 않는다.",
+      "rightsStatus": "publisher_general_reuse_notice_with_exception",
+      "imageViewedThisRun": false,
+      "verificationOwner": "상위 작업에서 원본·로컬 자산 대조 진행",
+      "reuseDecision": "최종 자산 대조 결과와 캡션의 실차/모형 미해결 표기를 함께 검토"
+    },
+    {
+      "photoId": "photo-e0774b19c4805c2bb425",
+      "existingLocalPath": "assets/photos/adex2025-new-rotem-booth.jpg",
+      "sourceIDs": [
+        "rotem-adex2025-official"
+      ],
+      "sourceCaptionStatus": "기존 레지스트리의 부스 사진 출처 연결. 이번 조사에서는 원본 개별 캡션 미확인.",
+      "photographer": null,
+      "provider": "현대로템 / 현대자동차그룹 뉴스룸",
+      "condition": "전체 부스 사진을 개별 장비 실출품·제원 증거로 확대하지 않는다.",
+      "rightsStatus": "publisher_general_reuse_notice_with_exception",
+      "imageViewedThisRun": false,
+      "verificationOwner": "상위 작업에서 원본·로컬 자산 대조 진행"
+    },
+    {
+      "photoId": "case-photo-rotem-nurphoto",
+      "sourceIDs": [
+        "rotem-adex2025-nurphoto"
+      ],
+      "captionClaimID": "booth-independent",
+      "photographer": "Chris Jung/NurPhoto",
+      "dateTaken": "2025-10-20",
+      "rightsStatus": "rights_managed_single_editorial_use",
+      "condition": "유료 라이선스 범위를 정하는 페이지. 편집 목적 표시는 무상 재사용 허락이 아니다.",
+      "reuseDecision": "링크만 유지. 원본 파일 신규 저장·재게시 없음.",
+      "imageViewedThisRun": false
+    },
+    {
+      "photoId": "candidate-adex2023-blog-images",
+      "sourceIDs": [
+        "rotem-adex2023-official",
+        "cc-by-nc-nd-4"
+      ],
+      "photographer": null,
+      "provider": "현대로템 공식 블로그",
+      "rightsStatus": "article_links_cc_by_nc_nd_4_0",
+      "condition": "게시물에 비영리·변경금지 조건 라이선스가 연결됨. 상업적 웹앱·크롭·파생 사용을 포괄 허용한다고 판단하지 않는다.",
+      "reuseDecision": "비교 근거 링크로만 사용. 사진별 예외·권리 확인 전 신규 다운로드/게시 없음.",
+      "imageViewedThisRun": false
+    }
+  ],
+  "coverage": {
+    "equipmentCount": 7,
+    "fiveFieldCoverage": "7개 장비에 다섯 설명 항목을 배치했지만 미확인 항목은 gap으로 남겼다.",
+    "primaryIssuerGroups": 1,
+    "independentOriginsReviewed": [
+      "asiatimes",
+      "nurphoto"
+    ],
+    "independenceLimit": "독립 보도·사진은 부스 존재와 K2PL 전시를 보완한다. 다른 6개 장비의 개별 구성은 제조사 발표 의존.",
+    "organizerEvidence": "장비별 구성을 입증하는 주최사 원문은 이번 조사에서 확보하지 못함.",
+    "sampleOnly": true
+  },
+  "unresolved": [
+    "K2PL 실물/실물 모형 표현 충돌과 작동 가능한 전시차 여부",
+    "페루형·지휘소형·의무후송형·30t·수소형·Black Veil의 개별 사진/명판과 전시형태",
+    "2023→2025 수치 성능 비교와 확정 형상 변경",
+    "촬영자 미표기 제조사 사진의 개별 캡션 및 제3자 권리 예외",
+    "의무후송 2026 개발차와 2025 전시품의 사양 동일성"
+  ],
+  "verification": {
+    "sourceReads": "8개 공개 URL의 본문 또는 권리·캡션을 열람. 핵심 제조사 2025 원문은 초기 추출 누락 후 직접 HTTP 및 웹 재열람으로 본문 확인.",
+    "independentConflictPreserved": true,
+    "sourceCopyPolicy": "긴 원문 인용 없이 짧은 사실 기록. 동일 주장 재사용은 claimIDs 참조.",
+    "productCodeChanged": false,
+    "buildTestLint": "제품 코드 무변경으로 해당 없음.",
+    "jsonValidation": "PASS: Node JSON 파싱, 8개 출처 및 28개 주장 참조 무결성, 7개 장비별 5개 항목, 기존 사진 2개 경로 존재 확인. 오류 0개.",
+    "validationCommand": "node -e: JSON.parse / sourceIDs·claimIDs·필수 필드·fiveFields 5개·fs.existsSync 검사",
+    "derivedTextBudget": "2025 제조사 원문에 연결된 claim.text 합계 129개 공백 구분 단위. 원문 긴 문장 복제 없음. 반복 사용은 ID 참조."
+  }
+}

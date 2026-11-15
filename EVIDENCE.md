@@ -54,3 +54,23 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 - 최초 commit은 작성자 미설정으로 실패. `git -c user.name=Codex -c user.email=codex@local.invalid commit ...`으로 해당 명령에만 작성자 지정, 전역 설정 변경 없이 성공.
 - `git status --short --branch`: 로컬 작업 트리 clean 확인. 원격 push 없음.
 - 문서 정리용 Python 실행은 설치 별칭 접근 실패. 같은 파일 작업을 Node로 수행하고 JSON parse로 확인했다. 제품 실행 오류와 구분한다.
+
+## 2026-11-15 승인된 본 구현 검증
+
+- 승인: 큰 지도 → 별도 업체 메인 → 장비별 설명 → 16:9 보고, 모바일 세로. 첫 공개 대상 /preview/만, 완성본 검토 뒤. 이번 push/배포 없음.
+- node scripts/prepare-redesign-content.mjs: 26 narratives / 130 sections / 1 ADEX comparison report 생성. 기존 ID 유지, 한화2제품 포함.
+- npm run build: exit 0. 5회차 업체 375/64/1743/36/1467, 지도32영역 유지.
+- npm run check: 최종 exit 0, 180 tests / 180 pass / 0 fail / 0 skipped. 178개 통과 뒤 장비별뷰어 회귀2개 추가. 전체로그 .local-redesign-check.log(로컬), .local-redesign-build.log(로컬).
+- Windows 링크 검사는 sandbox에서 junction 생성 EPERM 재현. 승인된 exec 환경에서 실제 junction을 생성하고 거부 동작을 검증해 통과했으며 skip 처리하지 않았다. 경로 allowlist는 path.sep 정규화로 수정했다.
+- lint 별도 스크립트 없음. git diff --check 통과.
+- 실제 IAB 브라우저: 1440×1000 지도 크기 1077×670, 공식도면 표시; 1.35확대→공동부스3사→현대로템→K2PL→새로고침→지도복귀 URL z=1.35 보존 확인.
+- 보고: 실제 현장사진3개 모두 naturalWidth>0, object-fit contain, 대표사례→타스만 장비 URL 연결. 390×844에서 가로넘침 없음, 보고본문18px/제목27px, 모바일 세로. 실제 휴대폰 검증 아님.
+- 업체: 5회차3685회사/128제품 렌더 검사, 기존24개 서술120항목 기본노출과 제품갤러리31개연결 참조 검사 통과. 이후 한화2제품 추가까지 전체 check통과.
+- 마지막 장비별뷰어 수정은 단위검사만 확인: 타스만3기록(표시2/링크1), 샤시2, KMTV1 분리. 수정 뒤 실제 브라우저의 스크롤·새로고침·뒤로가기는 미검증.
+- 원본사진7개: 제조사 POST 다운로드200·이미지decode·치수/SHA보존; 기존자산 시각 확인과64×64표본 RGB차 평균1.318~6.351/255 대조. 원본과축소본해시가다르므로동일바이트라고주장하지않음. 신규사진확보0. docs/evidence/REDESIGN_CONTENT_PHOTOS.json 참조.
+- 독립검토 수정: 다른회차 기본보고의 회사사진/첫제품 오연결을 회사자료형으로제한, 기아2문장출처재연결, 화면이탈중인쇄취소/경합회귀추가.
+- PDF: IAB 인쇄호출후 토스트만확인. Chrome실제인쇄버튼실행후 Windows app검사에서 도구가 현재브라우저URL을정책상판정하지못해중단. 이후 컴퓨터입력없음. 파일저장·페이지수·비율·잘림검증완료를선언하지않음.
+- 남은위험: 저장PDF, 마지막viewer브라우저회귀, /exhibition-intelligence/preview/ 경로실브라우저, 다른4회차 비교근거,26서술중19제품의직접표시현장사진,사내참고장표미제공.
+- 판정: retry_with_revision. 구현과코드검증체크포인트이며 전체보고대체목표·전수조사·공개배포완료아님.
+
+최종 공개 감사: docs/evidence/REDESIGN_PUBLIC_AUDIT.json의 7검사 PASS. 공개 금지문구0, dist allowlist와 원천산출물 대응, 추적 첨부93개(모두이미지; Office/PDF0), 기존 이력3개객체보존 확인. API의 undefined와JSON생략 차이는 직렬화 경계 비교로 정정하고 최초 결과와 원인을 보존했다. 마지막 root rg --hidden --no-ignore 공백정규식 scan도0매치.

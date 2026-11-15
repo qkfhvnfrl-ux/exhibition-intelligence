@@ -25,7 +25,7 @@
     "organizationId": "기존 원장의 안정 ID",
     "review": {
       "relevance": "confirmed",
-      "reason": "실제 검토한 차량체계 업무 연결성 및 한계",
+      "reason": "전시 조사 범위의 관련 분야 및 근거 한계",
       "categories": ["electrical"],
       "status": "insufficient_data",
       "reviewedAt": "2026-11-12",
@@ -42,7 +42,7 @@
 
 위는 구조 설명용이며 제품·기업 근거를 생략한 예시입니다. 실제 입력은 출처가 없으면 실패합니다. `categoryIds`와 `review.categories`는 기존 `taxonomy.json`의 분류 ID를 사용합니다. 회사명에서 업종이나 국가를 추측하지 않습니다.
 
-상세 화면을 제공하는 사례에는 3단계와 같은 `reason`, `highlights` 3개, `exhibit`, `distinction`, `direction`, `workConnection`, `followUps` 2~3개를 넣습니다. `exhibit.items`에 확인한 제품을 각각 등록합니다. 분류만 끝낸 행은 상세 구조를 생략할 수 있지만 `analysis_complete`로 표시할 수 없습니다.
+상세 화면을 제공하는 사례에는 3단계와 같은 `reason`, `highlights` 3개, `exhibit`, `distinction`, `direction`, `followUps` 2~3개를 넣습니다. `exhibit.items`에 확인한 제품을 각각 등록합니다. 분류만 끝낸 행은 상세 구조를 생략할 수 있지만 `analysis_complete`로 표시할 수 없습니다.
 
 기존 사례는 `{ "extendsEditorialId": "기존 사례 ID", "review": {...} }`로 상속할 수 있습니다. ID와 조직은 바꾸지 않습니다. 명시한 필드가 기존 필드를 대체하는 얕은 병합이므로 `exhibit`를 바꾸면 `summary`, `sourceIds`, `items` 전체를 제공합니다. 기존 파일은 수정하지 않아도 됩니다. 화면은 동일 사례 ID를 한 번만 표시합니다. 같은 기업을 다른 사례 ID로 중복 등록하면 검사가 실패합니다.
 
@@ -89,3 +89,5 @@
 `insufficientData`의 정의가 이전 단계의 “현장 출품 근거 없는 모든 업체”에서 바뀌었습니다. 과거 스냅샷과 단순 증감 비교하지 않습니다. 미착수와 실제 조사 후 자료부족을 구분하려는 변경입니다. 원장 집계·큐·완료 상태는 일반 화면에 배포하지 않습니다.
 
 검사: `tests/v2-research.test.mjs`는 제품별 등록, 배경자료 분리, 자료부족/미착수 분리, 가짜 완료 거부, 다른 회차·출처 누락·좌표 삽입 거부, 사진 권리, 화면 연결, 사례 상속과 중복 방지를 확인합니다.
+
+> 2026-11-15 공개용 정리: 과거의 내부 업무 연결 요구를 제거하고 공개 근거·해석 기준으로 갱신했다. 원문 이력은 Git에 보존하며 현재 실행은 승인된 개편 계획을 따른다.

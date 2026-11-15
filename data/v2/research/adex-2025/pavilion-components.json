@@ -179,8 +179,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "수동 청소 도구와 자동 구동 청소장비라는 정비 방식",
@@ -196,14 +195,6 @@
         "interpretation": "차량 공급 뒤의 유지관리 장비까지 제안 범위로 묶는 접근으로 해석됩니다. 구체적인 수출 계약 성립을 뜻하지 않습니다.",
         "sourceIds": [
           "pavilion-dtaq-report"
-        ]
-      },
-      "workConnection": {
-        "value": "무장 탑재형 파생차의 정비 지원장비·공구함·보관 위치를 검토할 때 참고할 수 있습니다.",
-        "conditions": [
-          "적용 가능한 장비 형식과 보관 조건 확인",
-          "차량 공통 정비장비와 전용 장비의 경계 확인",
-          "공개 전시로 정비시간 목표 충족을 판단하지 않음"
         ]
       },
       "followUps": [
@@ -397,7 +388,7 @@
       "boothClaims": [],
       "review": {
         "relevance": "confirmed",
-        "reason": "차량 승무원 장비 및 안전·오염 측정장비로 업무 관련성이 명시적입니다.",
+        "reason": "승무원 헬멧과 휴대형 방사능 측정기를 별개 장비로 보면, 승무원 공간·통신·안전장비 요구를 함께 점검할 수 있습니다.",
         "categories": [
           "interiors_modules",
           "protection"
@@ -415,8 +406,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "일반 보호용 헬멧과 차량 승무원용 통신·착용 장비",
@@ -433,14 +423,6 @@
         "sourceIds": [
           "pavilion-dapa-leaflet",
           "pavilion-dtaq-report"
-        ]
-      },
-      "workConnection": {
-        "value": "조종수·승무원 좌석, 헤드룸, 상호통화기 및 임무실 개인장비 수납의 적합성 검토에 연결됩니다.",
-        "conditions": [
-          "실제 지급 헬멧 형식과 차량 통신 인터페이스 확인",
-          "탑승·하차 및 좌석 조절 시 착용 공간 확인",
-          "방사능 측정기의 운용·보관 요구를 별도 안전장비 요구로 확인"
         ]
       },
       "followUps": [
@@ -560,8 +542,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "개별 신호처리 기능의 ASIC 구현과 범용 처리 모듈",
@@ -577,14 +558,6 @@
         "interpretation": "핵심 부품의 국내 공급 기반을 보여주려는 전시 선택으로 해석됩니다. 차량용 제품 출시 계획은 확인되지 않았습니다.",
         "sourceIds": [
           "pavilion-dapa-leaflet"
-        ]
-      },
-      "workConnection": {
-        "value": "차량 임무컴퓨터·센서 처리장치의 부품 공급망 후보 조사에 참고할 수 있으나, 현재는 적용 검토 이전의 기술 배경 수준입니다.",
-        "conditions": [
-          "차량용 제공 제품 존재 여부 확인",
-          "수명주기 공급·형상관리 지원 범위 확인",
-          "위성용 전시품의 적합성을 차량 요구에 자동 적용하지 않음"
         ]
       },
       "followUps": [
@@ -699,8 +672,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "영상 제공만 하는 카메라와 위치 정보까지 내보내는 센서 구성",
@@ -716,14 +688,6 @@
         "interpretation": "영상 장비를 후속 정보 활용과 연결해 설명하려는 전시 방향으로 읽힙니다. 실제 통합 수준은 확인이 필요합니다.",
         "sourceIds": [
           "pavilion-dapa-leaflet"
-        ]
-      },
-      "workConnection": {
-        "value": "지휘소 차량의 상황인식 화면과 센서 데이터 인터페이스 요구를 정리할 때 확인할 업체입니다.",
-        "conditions": [
-          "정확한 형식·시험자료·제공 데이터 목록 확인",
-          "차량 장착 환경 및 유지관리 조건 확인",
-          "당사 탑재·채택·협력관계를 추정하지 않음"
         ]
       },
       "followUps": [
@@ -928,8 +892,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "상위 지휘결심 KWM과 차량 단위 독립형으로 소개한 KWM-stA",
@@ -946,14 +909,6 @@
         "sourceIds": [
           "pavilion-funzin-event",
           "pavilion-funzin-recap"
-        ]
-      },
-      "workConnection": {
-        "value": "지휘소 차량의 운용자 화면·임무컴퓨터·소프트웨어 공급 범위 및 군수 정보 연계 요구를 검토할 때 참고할 수 있습니다.",
-        "conditions": [
-          "제조사 발표 기능과 시험 완료 기능을 분리 확인",
-          "사용자 역할·승인 책임·상태표시 등 운용 요구 명확화",
-          "차량 실물 탑재 근거와 컴퓨터·전원·열관리 요구는 별도 확인"
         ]
       },
       "followUps": [

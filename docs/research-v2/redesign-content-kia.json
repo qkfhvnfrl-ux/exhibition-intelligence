@@ -1,0 +1,1256 @@
+{
+  "schemaVersion": "research-draft-1",
+  "researchDate": "2026-11-15",
+  "organization": {
+    "id": "org-37268bb0020007468bbc",
+    "name": "기아"
+  },
+  "scope": {
+    "event": "서울 ADEX 2025",
+    "comparisonEvent": "서울 ADEX 2023",
+    "purpose": "기존 productId를 유지한 장비별 5항목 후속 편집 초안",
+    "implementationStatus": "본 파일은 조사 증거; 제품 코드·원본 데이터 변경 없음",
+    "coverage": "기아 12개 기존 항목에 한정. 전체 행사·전체 업체 조사 완료가 아님.",
+    "renderingInstruction": "각 sections의 claimIds로 claims.text를 조회하여 사실 문장을 구성하고 editorialText를 연결한다. claim 문장을 여러 사진에 반복하지 않는다. 미확인 수치·형상·일정은 생성하지 않는다.",
+    "independence": "HMG·Kia 자료 6건은 단일 제조사 계열. 독립 현장 근거는 타스만 관찰 기사 1건이며 기술 성능 검증은 아님."
+  },
+  "sources": [
+    {
+      "sourceId": "kia-adex-2023",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+      "title": "기아, ‘서울 ADEX 2023’ 참가",
+      "date": "2023-10-17",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2023",
+      "issuerGroup": "Hyundai Motor Group / Kia",
+      "independent": false,
+      "confidence": "high_for_announced_exhibit_list",
+      "limitations": [
+        "제조사 발표이며 독립 성능시험이 아님.",
+        "본문에 없는 품목의 부재나 개발 중단을 뜻하지 않음."
+      ],
+      "retrievedAt": "2026-11-15",
+      "verifiedBy": "웹 원문 본문 직접 열람",
+      "sourceLanguage": "ko"
+    },
+    {
+      "sourceId": "kia-adex-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "title": "기아, '서울 ADEX 2025' 방산전시회 참가",
+      "date": "2025-10-20",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2025",
+      "issuerGroup": "Hyundai Motor Group / Kia",
+      "independent": false,
+      "confidence": "high_for_announced_exhibit_list",
+      "limitations": [
+        "전시 품목과 제조사 설명의 근거.",
+        "모든 품목별 사진 식별·실물/모형 구분이 확보된 것은 아님."
+      ],
+      "retrievedAt": "2026-11-15",
+      "verifiedBy": "웹 원문 본문 직접 열람",
+      "sourceLanguage": "ko"
+    },
+    {
+      "sourceId": "kia-kmtv-production-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000178454",
+      "title": "기아, 차세대 군용 ‘중형표준차’ 양산 본격화",
+      "date": "2025-06-10",
+      "type": "manufacturer_product_release",
+      "eventOrGeneral": "general_product_before_ADEX_2025",
+      "issuerGroup": "Hyundai Motor Group / Kia",
+      "independent": false,
+      "confidence": "high_for_manufacturer_model_specs",
+      "limitations": [
+        "제원과 양산 발표를 확인하며 ADEX 전시품 세부 모델 식별을 대신하지 않음.",
+        "정부 원본 시험성적서와 실제 납품 완료 증빙은 미확보."
+      ],
+      "retrievedAt": "2026-11-15",
+      "verifiedBy": "웹 원문 본문 직접 열람",
+      "sourceLanguage": "ko"
+    },
+    {
+      "sourceId": "kia-military-history-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/story/CONT0000000000183139",
+      "title": "평화를 향해 달려온 발자취, 기아의 군용 차량 개발 이야기",
+      "date": "2025-08-14",
+      "type": "manufacturer_product_story",
+      "eventOrGeneral": "general_product_before_ADEX_2025",
+      "issuerGroup": "Hyundai Motor Group / Kia",
+      "independent": false,
+      "confidence": "high_for_manufacturer_history",
+      "limitations": [
+        "같은 발행주체의 자료이며 독립 근거 수에 가산하지 않음.",
+        "KADEX와 ADEX는 다른 행사."
+      ],
+      "retrievedAt": "2026-11-15",
+      "verifiedBy": "웹 원문 본문 직접 열람",
+      "sourceLanguage": "ko"
+    },
+    {
+      "sourceId": "kia-kmtv-catalog-current",
+      "exactURL": "https://special.kia.com/kr/kmtv",
+      "title": "기아 특수차량 KMTV",
+      "date": null,
+      "type": "manufacturer_current_catalog",
+      "eventOrGeneral": "general_product_current_not_2025_snapshot",
+      "issuerGroup": "Hyundai Motor Group / Kia",
+      "independent": false,
+      "confidence": "mixed_due_to_spec_table_anomaly",
+      "limitations": [
+        "발행일 미표기. 2026-11-15 열람한 현재 자료로 2025 전시 제원을 소급 확정하지 않음.",
+        "적재 중량과 총중량의 중복 수치가 있어 적재량 수치는 채택하지 않음."
+      ],
+      "retrievedAt": "2026-11-15",
+      "verifiedBy": "웹 원문 본문 직접 열람",
+      "sourceLanguage": "ko"
+    },
+    {
+      "sourceId": "kia-kltv-catalog-current",
+      "exactURL": "https://org-military.kia.com/en/kltv/multi-purpose-vehicle",
+      "title": "Kia Military KLTV Multi Purpose Vehicle",
+      "date": null,
+      "type": "manufacturer_current_catalog",
+      "eventOrGeneral": "general_product_current_not_2025_snapshot",
+      "issuerGroup": "Hyundai Motor Group / Kia",
+      "independent": false,
+      "confidence": "high_for_catalog_model_only",
+      "limitations": [
+        "발행일 미표기. 2025 AI 경계차·드론탑재차와 동일 형상이라는 근거 미확보.",
+        "출력 단위는 상세 제원표의 PS를 사용."
+      ],
+      "retrievedAt": "2026-11-15",
+      "verifiedBy": "웹 원문 본문 직접 열람",
+      "sourceLanguage": "en"
+    },
+    {
+      "sourceId": "asiatime-adex-2025-field",
+      "exactURL": "https://www.asiatime.co.kr/article/20251023500386",
+      "title": "[AT 현장] AI로 진화한 첨단 무기…ADEX 2025 가보니",
+      "date": "2025-10-23",
+      "updatedDate": "2025-10-24",
+      "type": "independent_original_field_reporting",
+      "eventOrGeneral": "ADEX 2025",
+      "issuerGroup": "아시아타임즈 / 조광현 기자",
+      "independent": true,
+      "confidence": "high_for_tasman_onsite_observation",
+      "limitations": [
+        "기자는 10월 23일 킨텍스 방문을 명시. 독립 현장 관찰 및 사진 캡션 근거.",
+        "기술 설명은 제조사 발표와 겹치므로 독립 성능 검증으로 취급하지 않음.",
+        "사진 무단 전재·재배포 제한. 링크 전용."
+      ],
+      "retrievedAt": "2026-11-15",
+      "verifiedBy": "웹 원문 본문 직접 열람",
+      "sourceLanguage": "ko"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "K01",
+      "text": "제14회 ADEX 2023은 10월 17~22일 서울공항에서 개최됐다.",
+      "sourceId": "kia-adex-2023",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+      "date": "2023-10-17",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2023",
+      "claimType": "event_fact",
+      "confidence": "high",
+      "limitations": []
+    },
+    {
+      "claimId": "K02",
+      "text": "기아는 수소연료전지 군용 드론 콘셉트·멀티콥터 드론, EV9 군용 콘셉트, 중형 샤시를 소개했다.",
+      "sourceId": "kia-adex-2023",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+      "date": "2023-10-17",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2023",
+      "claimType": "announced_exhibit",
+      "confidence": "high",
+      "limitations": [
+        "군용 드론은 개발 콘셉트이며 제시 목표를 실증 성능으로 읽지 않는다."
+      ]
+    },
+    {
+      "claimId": "K03",
+      "text": "EV9 군용 콘셉트는 수송과 V2L 활용을 제시했고, 중형 샤시는 군·민수 목적 차량 확장을 설명했다.",
+      "sourceId": "kia-adex-2023",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+      "date": "2023-10-17",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2023",
+      "claimType": "manufacturer_concept_direction",
+      "confidence": "high",
+      "limitations": [
+        "양산·전력화 확정과 구분."
+      ]
+    },
+    {
+      "claimId": "K04",
+      "text": "제15회 ADEX 2025는 서울공항 퍼블릭데이(10월 17~19일)와 킨텍스 비즈니스데이(20~24일)로 구성됐다.",
+      "sourceId": "kia-adex-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "date": "2025-10-20",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2025",
+      "claimType": "event_fact",
+      "confidence": "high",
+      "limitations": []
+    },
+    {
+      "claimId": "K05",
+      "text": "타스만 군용 지휘차 실물이 처음 공개됐다. 무전기·안테나를 추가한 픽업 기반 형상이다.",
+      "sourceId": "kia-adex-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "date": "2025-10-20",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2025",
+      "claimType": "announced_physical_exhibit",
+      "confidence": "high",
+      "limitations": [
+        "최초 공개는 제조사 표현. 타스만 기본 모델 최초 공개와 다르다."
+      ]
+    },
+    {
+      "claimId": "K06",
+      "text": "타스만 군용 지휘차는 2025년 9월 표준 지휘용 픽업 선정, 연내 전력화 예정으로 발표됐다.",
+      "sourceId": "kia-adex-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "date": "2025-10-20",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2025",
+      "claimType": "official_plan_as_of_publication",
+      "confidence": "high_for_announcement",
+      "limitations": [
+        "실제 2025년 말 전력화 완료 여부 미검증."
+      ]
+    },
+    {
+      "claimId": "K07",
+      "text": "KMTV 중형표준차와 방탄 패널 적용 중형전술차가 소개됐다.",
+      "sourceId": "kia-adex-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "date": "2025-10-20",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2025",
+      "claimType": "announced_exhibit",
+      "confidence": "high",
+      "limitations": [
+        "두 항목을 동일 형상으로 합치지 않는다.",
+        "방탄 등급·시험 결과 미공개."
+      ]
+    },
+    {
+      "claimId": "K08",
+      "text": "타스만·KMTV 베어샤시와 타스만 특수목적 5종(지휘, 카고 2종, 유조, 냉동냉장부식)이 전시 목록에 포함됐다.",
+      "sourceId": "kia-adex-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "date": "2025-10-20",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2025",
+      "claimType": "announced_exhibit",
+      "confidence": "high",
+      "limitations": [
+        "카고 2종의 개별 형상명·적재량 미확인.",
+        "베어샤시별 현장 확대사진 식별 미완료."
+      ]
+    },
+    {
+      "claimId": "K09",
+      "text": "KLTV는 4인승 카고·드론탑재차·AI 경계차가 소개됐다.",
+      "sourceId": "kia-adex-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "date": "2025-10-20",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2025",
+      "claimType": "announced_exhibit",
+      "confidence": "high",
+      "limitations": [
+        "드론·센서·AI 공급사, 처리 성능, 연동 구조 미확인."
+      ]
+    },
+    {
+      "claimId": "K10",
+      "text": "KHTV는 축소 모형으로 전시됐다. 25톤 이상 적재는 개발 목표다.",
+      "sourceId": "kia-adex-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "date": "2025-10-20",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "ADEX 2025",
+      "claimType": "announced_scale_model_and_goal",
+      "confidence": "high",
+      "limitations": [
+        "실차 전시·달성 제원·양산 확정으로 표시 금지."
+      ]
+    },
+    {
+      "claimId": "K11",
+      "text": "KMTV 양산식은 2025년 6월 10일 개최됐으며 최초 군 인도는 같은 달 예정으로 발표됐다.",
+      "sourceId": "kia-kmtv-production-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000178454",
+      "date": "2025-06-10",
+      "type": "manufacturer_product_release",
+      "eventOrGeneral": "general_product_before_ADEX_2025",
+      "claimType": "official_production_status_and_plan",
+      "confidence": "high_for_announcement",
+      "limitations": [
+        "실제 인도 완료 증빙과 구분."
+      ]
+    },
+    {
+      "claimId": "K12",
+      "text": "KMTV 2.5톤형/5톤형의 발표 출력은 각각 280/330PS, 변속기는 8단 자동이다.",
+      "sourceId": "kia-kmtv-production-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000178454",
+      "date": "2025-06-10",
+      "type": "manufacturer_product_release",
+      "eventOrGeneral": "general_product_before_ADEX_2025",
+      "claimType": "general_model_spec",
+      "confidence": "high_for_manufacturer_spec",
+      "limitations": [
+        "현장 장비의 모델명이 확인되기 전 단일 출력값을 붙이지 않는다."
+      ]
+    },
+    {
+      "claimId": "K13",
+      "text": "KMTV 발표값은 도하 1m, 종경사 60%, 횡경사 40%, 저온 시동 -32°C다. 최대 25명 탑승은 5톤형 기준이다.",
+      "sourceId": "kia-kmtv-production-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000178454",
+      "date": "2025-06-10",
+      "type": "manufacturer_product_release",
+      "eventOrGeneral": "general_product_before_ADEX_2025",
+      "claimType": "general_model_spec",
+      "confidence": "high_for_manufacturer_spec",
+      "limitations": [
+        "독립 시험 결과가 아님.",
+        "제원은 운용 조건에 의존하며 다른 파생형에 자동 적용하지 않음."
+      ]
+    },
+    {
+      "claimId": "K14",
+      "text": "KMTV 실물 최초 공개는 KADEX 2024로 설명된다. K551(4×4)과 K751(6×6)은 통합 플랫폼을 사용한다.",
+      "sourceId": "kia-military-history-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/story/CONT0000000000183139",
+      "date": "2025-08-14",
+      "type": "manufacturer_product_story",
+      "eventOrGeneral": "general_product_before_ADEX_2025",
+      "claimType": "manufacturer_history_and_family",
+      "confidence": "high",
+      "limitations": [
+        "ADEX 2025를 KMTV 실물 최초 공개로 쓰지 않는다."
+      ]
+    },
+    {
+      "claimId": "K15",
+      "text": "2025년 8월 자료는 수소연료전지 모빌리티 개발 지속을 설명한다.",
+      "sourceId": "kia-military-history-2025",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/story/CONT0000000000183139",
+      "date": "2025-08-14",
+      "type": "manufacturer_product_story",
+      "eventOrGeneral": "general_product_before_ADEX_2025",
+      "claimType": "official_development_direction_as_of_publication",
+      "confidence": "high",
+      "limitations": [
+        "ADEX 2025 현장 수소 장비 출품을 증명하지 않음."
+      ]
+    },
+    {
+      "claimId": "K16",
+      "text": "현재 KLTV 다목적차 카탈로그는 225PS·8단 자동변속기·사륜구동·독립현가·특장용 적재부를 제시한다.",
+      "sourceId": "kia-kltv-catalog-current",
+      "exactURL": "https://org-military.kia.com/en/kltv/multi-purpose-vehicle",
+      "date": null,
+      "type": "manufacturer_current_catalog",
+      "eventOrGeneral": "general_product_current_not_2025_snapshot",
+      "claimType": "current_general_catalog_spec",
+      "confidence": "high_for_catalog_model_only",
+      "limitations": [
+        "2025 드론탑재차·AI 경계차에 그대로 전재하지 않는다."
+      ]
+    },
+    {
+      "claimId": "K17",
+      "text": "현재 KMTV 제원표는 적재 중량과 총중량에 동일한 약 21,000/21,000/15,000kg을 반복 기재한다.",
+      "sourceId": "kia-kmtv-catalog-current",
+      "exactURL": "https://special.kia.com/kr/kmtv",
+      "date": null,
+      "type": "manufacturer_current_catalog",
+      "eventOrGeneral": "general_product_current_not_2025_snapshot",
+      "claimType": "source_quality_observation",
+      "confidence": "high",
+      "limitations": [
+        "오류 가능성이 있어 적재 중량으로 채택하지 않는다.",
+        "원문 정정 또는 별도 공식 브로슈어 확인 필요."
+      ]
+    },
+    {
+      "claimId": "K18",
+      "text": "현장 기사는 타스만 군용 지휘차 사진을 조광현 기자 촬영으로 표시한다.",
+      "sourceId": "asiatime-adex-2025-field",
+      "exactURL": "https://www.asiatime.co.kr/article/20251023500386",
+      "date": "2025-10-23",
+      "type": "independent_original_field_reporting",
+      "eventOrGeneral": "ADEX 2025",
+      "claimType": "independent_onsite_photo_caption",
+      "confidence": "high",
+      "limitations": [
+        "독립 출품 관찰만 보강하며 성능 입증은 하지 않음."
+      ]
+    }
+  ],
+  "equipmentDrafts": [
+    {
+      "productId": "tasman-military",
+      "name": "타스만 군용 지휘차",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "physical_vehicle_confirmed_by_manufacturer_and_field_photo_caption",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K05"
+          ],
+          "editorialText": "지휘 임무용 형상으로 식별한다. '작전지휘 차량'을 별도 제품으로 중복 생성하지 않는다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K05"
+          ],
+          "editorialText": "군용 통신 장착의 확인 범위를 보여준다. 일반 타스만의 엔진·적재량을 이 형상의 확정 제원으로 옮기지 않는다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K05",
+            "K08",
+            "K18"
+          ],
+          "editorialText": "완성 지휘차와 플랫폼·파생형의 관계를 함께 읽는 전시다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K06"
+          ],
+          "editorialText": "공식 일정은 발표 당시 계획으로 표시한다. 이후 이행 여부는 별도 확인 대상이다.",
+          "mode": "official_plan_with_time_boundary"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K05",
+            "K08"
+          ],
+          "editorialText": "민수 픽업을 군용 임무차로 연결한 구성을 통해, 통신 탑재와 임무별 차체 적용의 확장성을 강조한 것으로 해석할 수 있다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [
+        "현장 취재는 독립 관찰 1건. 성능과 선정·전력화 계획은 단일 제조사 계열 근거."
+      ],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "kmtv",
+      "name": "KMTV 중형표준차",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "physical_vehicle_local_newsroom_photo_visually_verified",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K07",
+            "K14"
+          ],
+          "editorialText": "전시 장비는 계열명으로 유지하고, 4×4와 6×6 세부형 식별 뒤 제원을 연결한다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K12",
+            "K13"
+          ],
+          "editorialText": "출력과 인원 수는 형상별 표에 두고, 도하·경사·시동값은 제조사 발표 조건임을 표시한다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K07",
+            "K11",
+            "K14"
+          ],
+          "editorialText": "이번 전시는 양산 발표 이후의 제품 제시로 해석할 수 있다. 이 행사를 최초 실물 공개로 설명하지 않는다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K11",
+            "K14"
+          ],
+          "editorialText": "공통 플랫폼과 차종별 구동 구성을 바탕으로 공급·파생형을 전개하는 방향이 확인된다. 납품 완료 여부는 유보한다.",
+          "mode": "official_status_with_time_boundary"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K07",
+            "K08",
+            "K14"
+          ],
+          "editorialText": "완성차·샤시·방호형을 나란히 보여준 구성은 기본 수송차의 공통 기반을 여러 임무로 확장할 가능성을 제시한다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [
+        "사진 속 축수·모델명 재확인이 남아 있다.",
+        "현재 카탈로그의 적재량 중복 수치 K17은 채택하지 않는다."
+      ],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-tasman-chassis",
+      "name": "타스만 베어샤시",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "physical_chassis_local_newsroom_photo_visually_verified",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "완성 특장차를 구성하는 하부 플랫폼 전시로 읽는다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "휠베이스·프레임 허용하중·장착 인터페이스는 미확인으로 남긴다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K05",
+            "K08"
+          ],
+          "editorialText": "지휘차와 임무별 차체를 플랫폼 관점으로 연결하는 설명 단위다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "샤시 기반의 추가 개발 일정은 확인하지 못했다. 전시 파생형 범위에서만 확장 방향을 해석한다.",
+          "mode": "not_announced_in_checked_sources"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "차체가 없는 기반을 공개한 구성은 특장 제작과 임무 장착의 선택 여지를 설명하는 데 적합하다. 실제 통합 용이성을 검증한 것은 아니다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [
+        "사진의 TASMAN 표지와 노출 샤시를 확인. 세부 제원표는 판독하지 못함."
+      ],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-kmtv-chassis",
+      "name": "KMTV 베어샤시",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "announced_exhibit_exact_physical_form_not_independently_verified",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "중형표준차의 특장 기반으로 제시된 별도 전시 항목이다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K14"
+          ],
+          "editorialText": "계열의 통합 플랫폼 설명을 연결하되, 이 샤시의 축수·제원은 미확인으로 둔다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K07",
+            "K08"
+          ],
+          "editorialText": "완성차 설명에서 분리해 차체 장착 가능성에 초점을 맞춘다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K14"
+          ],
+          "editorialText": "플랫폼 공용화는 제조사 설명이다. 이 전시 샤시의 후속 특장 일정은 미확인이다.",
+          "mode": "official_family_direction_not_exhibit_schedule"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K07",
+            "K08"
+          ],
+          "editorialText": "기본 수송, 방호, 특장 기반을 함께 제시한 점에서 고객의 차체·임무 선택을 수용하려는 구성을 읽을 수 있다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-kltv-cargo",
+      "name": "KLTV 4인승 카고",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "announced_exhibit_specific_form_photo_not_verified",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "인원과 화물을 함께 옮기는 용도로 읽히는 형상이다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K16"
+          ],
+          "editorialText": "현재 다목적차 일반 사양은 별도 참고로 둔다. 전시형의 허용 적재량은 확정하지 않는다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "KLTV의 기본 수송 역할과 다른 임무 장착형을 비교하는 기준으로 설명한다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "개별 차종의 후속 개발·도입 일정은 확인하지 못했다.",
+          "mode": "not_announced_in_checked_sources"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "같은 계열 내 수송형과 임무형의 병치는 공통 차량을 유지하며 역할을 넓히는 접근으로 해석할 수 있다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-kltv-drone",
+      "name": "KLTV 드론탑재차",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "announced_exhibit_specific_form_photo_not_verified",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "드론 탑재 역할은 확인되지만 운용 방식과 드론 종류는 미확인이다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K09",
+            "K16"
+          ],
+          "editorialText": "드론 수량·항속·발진/회수·전력 공급값을 추정하지 않는다. 일반 차량 사양과 탑재체 사양을 분리한다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "완성 차량의 기동 기능 외에 항공 무인체계의 이동 기반이라는 관점을 제시한다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "구체적인 무인체계 연동 개발 계획은 확인하지 못했다.",
+          "mode": "not_announced_in_checked_sources"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "운용 장소를 바꿔야 하는 드론 임무의 차량화 수요에 대응하는 전시로 읽을 수 있다. 자동 운용 능력은 입증되지 않았다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-kltv-ai",
+      "name": "KLTV AI 경계차",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "announced_exhibit_specific_form_photo_not_verified",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "경계 임무 형상으로 소개한다. 명칭만으로 무인 자율주행 차량으로 분류하지 않는다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "센서·모델·탐지 범위·오경보율·통신 방식은 공개 확인 자료가 부족하다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "이동 플랫폼에 감시·경계 기능을 부여한 구성으로 읽는다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "AI 경계 기능의 실증·양산·도입 일정은 확인하지 못했다.",
+          "mode": "not_announced_in_checked_sources"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K09"
+          ],
+          "editorialText": "감시 위치를 바꾸며 경계 임무를 수행하는 수요를 상정한 전시로 해석할 수 있다. 인력 절감 효과나 탐지 성능은 결론 내리지 않는다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-tasman-cargo-pair",
+      "name": "타스만 카고 2종",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "announced_group_two_unidentified_variants",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "원문이 구분하지 않은 두 카고 형상을 하나의 조사 묶음으로 유지한다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "형상별 적재함 크기·적재량·구동 구성은 미확인이다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "차량 용도 중 물자 수송의 변형 가능성을 보여주는 묶음이다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "각 형상의 개발 단계·양산 일정은 미확인이다.",
+          "mode": "not_announced_in_checked_sources"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "카고를 둘로 제시한 점은 적재 방식의 선택 폭을 시사한다. 구체적인 사용자 요구를 단정할 근거는 없다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-tasman-fuel",
+      "name": "타스만 유조차",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "announced_exhibit_specific_form_photo_not_verified",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "연료 수송용 특장 형상으로 소개한다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "탱크 용량·펌프 유량·방호·안전 인증값은 미확인이다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "지휘·카고 중심 설명을 연료 지원 임무까지 넓히는 전시 항목이다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "구체적인 군 채택이나 양산 계획은 확인하지 못했다.",
+          "mode": "not_announced_in_checked_sources"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "전투부대 지원의 보급 역할까지 픽업 기반 파생형으로 다루려는 구성으로 읽을 수 있다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-tasman-refrigerated",
+      "name": "타스만 냉동냉장부식차",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "announced_exhibit_specific_form_photo_not_verified",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "식품 보급을 위한 온도 관리 특장 형상으로 소개한다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "온도 범위·냉동기 전원·유효 용적·유지시간은 미확인이다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "운반 대상의 보관 조건을 다루는 지원차량으로 설명한다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "냉동·냉장 성능 검증과 군 도입 일정은 확인하지 못했다.",
+          "mode": "not_announced_in_checked_sources"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K08"
+          ],
+          "editorialText": "상용 기반 특장이 병참의 생활 지원 수요까지 적용될 가능성을 보여주는 전시로 해석할 수 있다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-kmtv-armored",
+      "name": "방탄 패널 적용 중형전술차",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "announced_exhibit_specific_form_photo_not_verified",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K07"
+          ],
+          "editorialText": "기본 중형표준차와 구별되는 방호 적용 전시 항목으로 유지한다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K07"
+          ],
+          "editorialText": "방탄 등급·추가 중량·유효 적재량 변화·기동 성능은 미확인이다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K07"
+          ],
+          "editorialText": "기본 수송차 외에 방호 요구를 고려하는 선택지를 제시한 것으로 읽는다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K07"
+          ],
+          "editorialText": "전시형의 군 채택·양산·방호 인증 계획은 확인하지 못했다.",
+          "mode": "not_announced_in_checked_sources"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K07"
+          ],
+          "editorialText": "수송 임무의 보호 요구에 대응하는 파생 방향으로 해석할 수 있다. 보호수준과 운용 효용은 별도 검증이 필요하다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [],
+      "publicationStatus": "research_draft_not_product_content"
+    },
+    {
+      "productId": "adex25-kia-khtv",
+      "name": "KHTV 대형표준차",
+      "eventEdition": "ADEX 2025",
+      "displayForm": "scale_model_explicitly_announced",
+      "sections": [
+        {
+          "label": "① 장비명·세부 형상·용도",
+          "claimIds": [
+            "K10"
+          ],
+          "editorialText": "실차와 시각적으로 구분되는 모형 표기를 유지한다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "② 주요 특징·필요 제원",
+          "claimIds": [
+            "K10"
+          ],
+          "editorialText": "적재 목표만 표시하고 전장·축수·엔진·달성 성능을 추정하지 않는다.",
+          "mode": "source_linked_draft"
+        },
+        {
+          "label": "③ 이번 전시 구성·차별점",
+          "claimIds": [
+            "K10"
+          ],
+          "editorialText": "현용·양산 발표 차량과 미래 개발 항목을 분리해 읽는 사례다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "label": "④ 개발 방향",
+          "claimIds": [
+            "K10"
+          ],
+          "editorialText": "대형 수송차 개발 목표가 공식 확인 범위다. 개발 완료·시험·양산 일정은 미확인이다.",
+          "mode": "official_development_goal"
+        },
+        {
+          "label": "⑤ 전략적 해석",
+          "claimIds": [
+            "K07",
+            "K10"
+          ],
+          "editorialText": "차량군의 중량 범위를 넓히려는 방향으로 해석할 수 있다. 모형 공개만으로 기술 성숙도나 시장 확보를 판단하지 않는다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "limitations": [],
+      "publicationStatus": "research_draft_not_product_content"
+    }
+  ],
+  "sameEventComparison": [
+    {
+      "comparisonId": "KC01",
+      "subject": "소개 품목의 변화",
+      "claimIds": [
+        "K02",
+        "K07",
+        "K08",
+        "K09",
+        "K10"
+      ],
+      "text": "제조사 회차별 발표 목록을 비교하면 2023의 전동화·수소 콘셉트 소개에서 2025의 임무별 차량군과 플랫폼 제시로 설명의 중심이 이동했다.",
+      "type": "analyst_interpretation_of_listed_exhibits",
+      "confidence": "medium",
+      "limitations": [
+        "두 보도자료의 강조점을 비교한 관찰이다.",
+        "행사 전체 방향·회사 전체 전략·미출품 품목을 확정하지 않는다."
+      ]
+    },
+    {
+      "comparisonId": "KC02",
+      "subject": "중형 플랫폼의 성숙도",
+      "claimIds": [
+        "K03",
+        "K07",
+        "K08",
+        "K11",
+        "K14"
+      ],
+      "text": "2023 중형 샤시 소개와 2025 중형표준차 전시는 같은 계열 발전의 비교 소재다. 다만 두 전시품의 설계 동일성은 확인되지 않았다.",
+      "type": "analyst_interpretation_with_identity_limit",
+      "confidence": "medium",
+      "limitations": [
+        "양산은 2025년 6월 제조사 발표로 별도 확인.",
+        "2025 ADEX에서 처음 실물 공개됐다고 표현하지 않는다.",
+        "2023 샤시에서 2025 완성차까지의 기술 변경 수치는 미확보."
+      ]
+    },
+    {
+      "comparisonId": "KC03",
+      "subject": "타스만의 비교 가능 범위",
+      "claimIds": [
+        "K02",
+        "K05",
+        "K08"
+      ],
+      "text": "2025 타스만 전시군은 이번 회차의 구체적인 새 비교 항목이다. 2023 EV9 군용 콘셉트의 직접 후속 차종으로 연결할 근거는 없다.",
+      "type": "comparison_boundary",
+      "confidence": "high",
+      "limitations": [
+        "차량 계보와 사업 승계를 추정하지 않는다."
+      ]
+    },
+    {
+      "comparisonId": "KC04",
+      "subject": "수소 개발 방향의 해석 한계",
+      "claimIds": [
+        "K02",
+        "K15"
+      ],
+      "text": "2025 ADEX 보도자료에서 수소 품목이 강조되지 않았다는 이유로 개발 포기 또는 내연기관 회귀를 결론 내릴 수 없다.",
+      "type": "evidence_boundary",
+      "confidence": "high",
+      "limitations": [
+        "2025년 8월 수소 개발 지속 설명은 현장 출품 근거와 별개."
+      ]
+    },
+    {
+      "comparisonId": "KC05",
+      "subject": "대형 수송의 공개 단계",
+      "claimIds": [
+        "K10"
+      ],
+      "text": "KHTV는 모형과 목표를 설명하는 항목이다. 양산 발표가 있는 다른 차량과 같은 개발 단계로 묶지 않는다.",
+      "type": "evidence_boundary",
+      "confidence": "high",
+      "limitations": [
+        "2023 동일 KHTV 전시 근거 미확보로 회차 간 성능 향상 비교 불가."
+      ]
+    }
+  ],
+  "photoEvidence": [
+    {
+      "photoId": "photo-88508f17c41d264626d0",
+      "localPath": "assets/photos/adex2025-new-tasman-front.jpg",
+      "sourceId": "kia-adex-2025",
+      "sourceDate": "2025-10-20",
+      "credit": "기아 / 현대자동차그룹",
+      "existingDownloadId": "FIL00000000000290007",
+      "productIds": [
+        "tasman-military",
+        "adex25-kia-tasman-chassis"
+      ],
+      "visualVerifiedAt": "2026-11-15",
+      "visualMethod": "tools.view_image: 실제 로컬 JPG 직접 관찰",
+      "observed": "오른쪽 타스만 완성차 전면과 왼쪽 TASMAN 표지 앞의 노출 샤시가 확인된다.",
+      "captionDraft": "서울 ADEX 2025 기아 부스의 타스만 군용 지휘차와 타스만 베어샤시.",
+      "captionType": "editorial_caption_from_source_and_visual",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "rightsStatus": "HMG_newsroom_reuse_statement_third_party_exception",
+      "limitations": [
+        "세부 제원 안내판은 판독하지 못함.",
+        "사진의 일부 배경 차량을 임의 제품에 연결하지 않음.",
+        "원본 파일 다운로드 URL의 재응답·동일성 검증은 이번 하위 조사에서 미수행."
+      ]
+    },
+    {
+      "photoId": "photo-c9b10caa412b9d19d1ef",
+      "localPath": "assets/photos/adex2025-new-kmtv-front.jpg",
+      "sourceId": "kia-adex-2025",
+      "sourceDate": "2025-10-20",
+      "credit": "기아 / 현대자동차그룹",
+      "existingDownloadId": "FIL00000000000290008",
+      "productIds": [
+        "kmtv"
+      ],
+      "visualVerifiedAt": "2026-11-15",
+      "visualMethod": "tools.view_image: 실제 로컬 JPG 직접 관찰",
+      "observed": "왼쪽 대형 차량 전면과 KMTV 표지를 확인했다. 가운데 노출 샤시와 오른쪽 TASMAN 전시도 보인다.",
+      "captionDraft": "서울 ADEX 2025 기아 부스의 KMTV 전면과 차량 플랫폼 전시.",
+      "captionType": "editorial_caption_from_source_and_visual",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "rightsStatus": "HMG_newsroom_reuse_statement_third_party_exception",
+      "limitations": [
+        "KMTV 축수·모델별 형상은 이 전면 사진만으로 확정하지 않음.",
+        "가운데 샤시의 모델명은 명판 판독 없이 확정하지 않음.",
+        "원본 파일 다운로드 URL의 재응답·동일성 검증은 이번 하위 조사에서 미수행."
+      ]
+    },
+    {
+      "photoId": "photo-af0b79b5b51a37df0ab9",
+      "localPath": "assets/photos/adex2025-new-kia-family.jpg",
+      "sourceId": "kia-adex-2025",
+      "sourceDate": "2025-10-20",
+      "credit": "기아 / 현대자동차그룹",
+      "existingDownloadId": "FIL00000000000290009",
+      "productIds": [
+        "tasman-military",
+        "adex25-kia-tasman-chassis"
+      ],
+      "visualVerifiedAt": "2026-11-15",
+      "visualMethod": "tools.view_image: 실제 로컬 JPG 직접 관찰",
+      "observed": "타스만 완성차와 샤시, 왼쪽 중형차 영역, 오른쪽 베이지색 KLTV가 담긴 광각 부스 전경.",
+      "captionDraft": "서울 ADEX 2025 기아 차량군 전시 전경. 앞쪽은 타스만 군용 지휘차와 베어샤시.",
+      "captionType": "editorial_caption_from_source_and_visual",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "rightsStatus": "HMG_newsroom_reuse_statement_third_party_exception",
+      "limitations": [
+        "오른쪽 KLTV의 세부형은 이번 관찰에서 확정하지 않음.",
+        "모든 실제 출품 항목을 한 장으로 확인했다고 집계하지 않음.",
+        "원본 파일 다운로드 URL의 재응답·동일성 검증은 이번 하위 조사에서 미수행."
+      ]
+    },
+    {
+      "photoId": "photo-663d72c9e9ede8415645",
+      "sourceId": "asiatime-adex-2025-field",
+      "sourceDate": "2025-10-23",
+      "credit": "아시아타임즈 / 조광현 기자",
+      "productIds": [
+        "tasman-military"
+      ],
+      "remoteImageURL": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2025/10/23/.cache/512/20251023500391.jpg",
+      "verificationStatus": "원문 사진 캡션 확인; 이번 조사 직접 이미지 확대 미수행",
+      "rightsStatus": "link_only_no_unauthorized_republication",
+      "limitations": [
+        "본문·캡션은 독립 출품 관찰 근거.",
+        "웹앱 내 복제 표시용 자산으로 채택하지 않음."
+      ]
+    }
+  ],
+  "rightsAudit": {
+    "checkedAt": "2026-11-15",
+    "sources": [
+      "kia-adex-2023",
+      "kia-adex-2025"
+    ],
+    "verifiedStatementSummary": "두 HMG 뉴스룸 기사 하단에서 기사·이미지 이용 안내와 제3자 제공물 제한 예외를 확인했다.",
+    "licenseClassification": "게시자의 뉴스룸 이용 안내; Creative Commons 라이선스 아님",
+    "requirements": [
+      "출처와 기아/현대자동차그룹 크레딧을 유지한다.",
+      "각 파일에 제3자 별도 크레딧·권리 제한이 있으면 개별 조건을 우선한다.",
+      "다른 Kia 카탈로그 사이트에 뉴스룸 이용 안내를 확장 적용하지 않는다."
+    ],
+    "remaining": [
+      "이번 조사에서는 원본 첨부파일의 전체 메타데이터·별도 권리 표기까지 재수집하지 않았다.",
+      "기존 내려받기 원장과 실제 로컬 이미지의 출처 연결을 사용했다."
+    ]
+  },
+  "openItems": [
+    "KMTV 현장 차량의 4×4/6×6와 세부 모델명 명판 재확인.",
+    "KMTV 베어샤시, KLTV 3형상, 타스만 카고 2종·유조·냉동냉장, 방탄형의 개별 근접 사진 및 명판 확보.",
+    "KHTV 모형 현장 사진과 공식 개발 일정 확보.",
+    "타스만 전력화와 KMTV 초기 납품 계획의 실제 이행 여부는 국방부·군·조달기관 원문으로 별도 확인.",
+    "KMTV 현재 카탈로그 적재 중량/총중량 중복 수치는 정정 또는 별도 공식 자료 전까지 사용하지 않음.",
+    "동일 행사 2023 대비 정량 성능 향상을 주장할 수 있는 동형 비교표는 미확보."
+  ],
+  "verification": {
+    "status": "passed_local_integrity_check_with_documented_research_limits",
+    "productCodeChanged": false,
+    "buildTestLint": "해당 없음: 조사 JSON만 생성; 본구현 검증은 상위 작업 담당.",
+    "freshVisualInspectionCount": 3,
+    "sourceCount": 7,
+    "claimCount": 18,
+    "equipmentCount": 12,
+    "checks": [
+      {
+        "command": "PowerShell Get-Content -Raw | ConvertFrom-Json; source/claim refs, unique productId, five-section count and Test-Path checks",
+        "result": "PASS: sources 7, claims 18, equipment 12, sections 60, local photos 3, errors 0",
+        "checkedAt": "2026-11-15"
+      },
+      {
+        "command": "tools.view_image for the three local JPG files",
+        "result": "PASS: actual images opened and observed; identified subjects and unresolved subtype limits recorded per photo",
+        "checkedAt": "2026-11-15"
+      },
+      {
+        "command": "git diff --check -- docs/research-v2/redesign-content-kia.json",
+        "result": "No output; file is new/untracked, so this command alone does not validate its whitespace",
+        "checkedAt": "2026-11-15"
+      }
+    ]
+  }
+}

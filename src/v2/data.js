@@ -11,6 +11,16 @@ export async function loadEvent(eventId){if(!/^[a-z0-9]+-\d{4}$/.test(String(eve
 function index(data){if(!indexes.has(data))indexes.set(data,{companies:new Map(array(data.companies).map(c=>[c.id,c])),photos:new Map(array(data.photos).map(p=>[p.id,p])),products:new Map(array(data.products).map(p=>[p.id,p])),booths:new Map(array(data.booths).map(b=>[b.id,b])),editorials:new Map(array(data.editorials).map(e=>[e.id,e]))});return indexes.get(data);}
 export function getCompany(data,organizationId){return index(data).companies.get(organizationId)||null;}
 export function getCompanyPhotos(data,organizationId){const c=getCompany(data,organizationId);if(!c)return [];const score=photo=>(photo.context==='event'?0:2)+(photo.src?0:1);return c.photoIds.map(id=>index(data).photos.get(id)).filter(Boolean).sort((a,b)=>score(a)-score(b));}
+/** Resolve URL-selected photos without mixing other equipment into a product gallery. */
+export function getPhotoViewerSelection(data,{company='',product='',photo=''}={}){
+ const owner=getCompany(data,company),all=getCompanyPhotos(data,company);
+ const item=array(owner?.productIds).includes(product)?index(data).products.get(product):null;
+ const ids=new Set(array(item?.narrative?.photoIds));
+ const grouped=item?all.filter(p=>p.context==='event'&&(!(p.eventId||p.eventEditionId)||(p.eventId||p.eventEditionId)===data.event?.id)&&(array(p.productIds).includes(item.id)||ids.has(p.id))):[];
+ const productId=grouped.some(p=>p.id===photo)?product:'';
+ const photos=productId?grouped:all;
+ return {photos,index:photos.findIndex(p=>p.id===photo),productId};
+}
 export function getCompanyProducts(data,organizationId){const c=getCompany(data,organizationId);return c?c.productIds.map(id=>index(data).products.get(id)).filter(Boolean):[];}
 export function getCompanyEditorial(data,organizationId){const c=getCompany(data,organizationId);return c?.editorialId?index(data).editorials.get(c.editorialId)||null:null;}
 export function getBoothCompanies(data,boothId){return array(data.companies).filter(c=>c.boothIds.includes(boothId));}

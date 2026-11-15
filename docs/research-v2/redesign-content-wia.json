@@ -1,0 +1,274 @@
+{
+  "documentType": "research_draft_not_product_data",
+  "status": "completed_with_evidence_limits",
+  "asOf": "2026-11-15",
+  "eventId": "adex-2025",
+  "company": "현대위아",
+  "scope": "현대위아 육상 장비 5개 설명 초안. ADEX 전체 행사나 현대위아 전체 출품목록의 조사 완료를 뜻하지 않는다.",
+  "implementationBoundary": "docs의 조사 기록만 작성. src/data/review 및 공개 화면에 반영하지 않음.",
+  "sourcePolicy": {
+    "eventEvidenceIndependentIssuerCount": 1,
+    "issuer": "현대위아",
+    "duplicateRule": "현대위아 보도자료와 현대자동차그룹 뉴스룸 재게시물은 같은 발신 자료로 묶었다.",
+    "confidenceMeaning": "high는 원문에서 해당 발표 또는 전시 사실을 명시적으로 확인했다는 뜻이다. 제조사 성능 주장의 독립 검증 등급이 아니다.",
+    "dateRule": "발행일 없는 현재 제품 페이지는 2026-11-15 확인 일반자료로만 사용한다. 2025 전시품 제원으로 소급하지 않는다.",
+    "textRule": "긴 원문 인용 없이 간결하게 재서술했다. 같은 사실의 반복 설명을 줄이고 편집자 추론과 확인 한계를 표시했다.",
+    "technicalBoundary": "제품 식별과 전시 해석에 필요한 고수준 정보만 담았다. 운용 절차·전술·무기 개선 지침은 작성하지 않았다."
+  },
+  "sources": [
+    {
+      "sourceId": "wia-adex-2025",
+      "title": "현대위아, ADEX 2025에서 육·해·공 방산 제품 라인업 공개",
+      "exactURL": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016",
+      "date": "2025-10-20",
+      "retrievedAt": "2026-11-15",
+      "sourceType": "manufacturer_press_release",
+      "issuerGroup": "hyundai-wia",
+      "originGroup": "wia-adex-2025-release",
+      "claimType": "event",
+      "verification": "original_page_opened",
+      "locator": "경량화 105mm 본문·RCWS 본문·ADS 본문 및 사진 캡션",
+      "confidence": "high_for_attributed_exhibit_claim",
+      "comparisonLimits": "실물 전시와 양산·전력화·성능 검증은 별개다. 최초라는 표현은 제조사에 귀속한다."
+    },
+    {
+      "sourceId": "hmg-adex-2025-reprint",
+      "title": "현대위아, ADEX 2025에서 육·해·공 방산 제품 라인업 공개",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+      "date": "2025-10-20",
+      "retrievedAt": "2026-11-15",
+      "sourceType": "manufacturer_group_newsroom_reprint",
+      "issuerGroup": "hyundai-wia",
+      "originGroup": "wia-adex-2025-release",
+      "claimType": "event_and_media_rights",
+      "verification": "original_page_opened",
+      "locator": "본문 및 뉴스룸 이용 안내",
+      "confidence": "high_for_attributed_exhibit_claim",
+      "comparisonLimits": "독립 기사로 중복 집계하지 않는다. 현재 페이지 하단의 이용 안내는 제3자 제공자료의 제한 예외를 포함한다."
+    },
+    {
+      "sourceId": "wia-adex-2023",
+      "title": "현대위아, ADEX 2023에서 차량탑재형 ADS 및 신형 화포 공개",
+      "exactURL": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyCate=&keyField=&keyIdx=5102&keyWord=&page=",
+      "date": "2023-10-17",
+      "retrievedAt": "2026-11-15",
+      "sourceType": "manufacturer_press_release",
+      "issuerGroup": "hyundai-wia",
+      "originGroup": "wia-adex-2023-release",
+      "claimType": "event",
+      "verification": "original_page_opened",
+      "locator": "차량탑재형 ADS 본문·캡션, 마지막 경량화 105mm 단락",
+      "confidence": "high_for_attributed_exhibit_claim",
+      "comparisonLimits": "105mm는 전시품이라고만 적혀 있어 모형/실물 여부를 이 문장만으로 확정하지 않는다. 보도자료에서 다루지 않은 형상을 당시 부재로 처리하지 않는다."
+    },
+    {
+      "sourceId": "wia-rcws-current",
+      "title": "원격사격통제체계 RCWS 제품 소개",
+      "exactURL": "https://www.hyundai-wia.com/business/defense_future01.asp",
+      "date": null,
+      "dateStatus": "undated_current_page",
+      "retrievedAt": "2026-11-15",
+      "sourceType": "manufacturer_product_page",
+      "issuerGroup": "hyundai-wia",
+      "originGroup": "wia-rcws-product-page",
+      "claimType": "general_product",
+      "verification": "original_page_opened",
+      "locator": "제품특징·적용 가능 무장·적용 가능 플랫폼",
+      "confidence": "high_for_current_manufacturer_description",
+      "comparisonLimits": "현재 계열 전체 정보다. 각 ADEX 2025 전시품의 옵션·인증·동일 제원을 보장하지 않는다."
+    },
+    {
+      "sourceId": "wia-ads-current",
+      "title": "대드론방어체계 ADS 제품 소개",
+      "exactURL": "https://www.hyundai-wia.com/business/defense_future02.asp",
+      "date": null,
+      "dateStatus": "undated_current_page",
+      "retrievedAt": "2026-11-15",
+      "sourceType": "manufacturer_product_page",
+      "issuerGroup": "hyundai-wia",
+      "originGroup": "wia-ads-product-page",
+      "claimType": "general_product",
+      "verification": "original_page_opened",
+      "locator": "시스템 구성·제품특징·Soft-Kill 일체형/고정형/기동형 구분",
+      "confidence": "high_for_current_manufacturer_description",
+      "comparisonLimits": "2025 일체형 출품물과 현재 제품 계열의 완전한 동일성은 확인하지 못했다. 계열 전체의 기능을 개별 전시물에 모두 부여하지 않는다."
+    },
+    {
+      "sourceId": "wia-105-current",
+      "title": "경량화 105mm 자주포 제품 소개",
+      "exactURL": "https://www.hyundai-wia.com/business/firepower_system01.asp",
+      "date": null,
+      "dateStatus": "undated_current_page",
+      "retrievedAt": "2026-11-15",
+      "sourceType": "manufacturer_product_page",
+      "issuerGroup": "hyundai-wia",
+      "originGroup": "wia-105-product-page",
+      "claimType": "general_product",
+      "verification": "original_page_opened",
+      "locator": "제품개요·화포차량/사격지휘차량/탄약운반차량·제원",
+      "confidence": "high_for_current_manufacturer_description",
+      "comparisonLimits": "화포차량 탑승인원 2명과 체계 운용인원 4명이 별도 항목에 있다. 범위가 다르므로 하나의 승무원 수로 합치지 않는다. 2025 확정 제원으로 소급하지 않는다."
+    },
+    {
+      "sourceId": "edr-ads-pending",
+      "title": "ADEX 2025 – Hyundai Wia unveils its all-in-one ADS anti-drone system",
+      "exactURL": "https://www.edrmagazine.eu/adex-2025-hyundai-wia-unveils-its-all-in-one-ads-anti-drone-system",
+      "date": "2025-11-06",
+      "dateStatus": "existing_research_record_not_reverified",
+      "retrievedAt": "2026-11-15",
+      "sourceType": "specialist_media_candidate",
+      "issuerGroup": "edr-magazine",
+      "originGroup": "edr-ads-2025",
+      "claimType": "event_candidate",
+      "verification": "original_page_403_forbidden",
+      "confidence": "not_counted",
+      "comparisonLimits": "이번 조사에서 원문을 읽지 못했다. 검색 결과나 기존 요약만으로 독립 출품 근거·사진 권리·세부 형상을 확정하지 않는다."
+    }
+  ],
+  "equipment": [
+    {
+      "equipmentId": "wia-rcws-762",
+      "name": "7.62mm 소형 RCWS",
+      "eventEvidenceSourceIds": ["wia-adex-2025"],
+      "independentEventIssuerCount": 1,
+      "photoIds": ["rcws-event-01"],
+      "sections": [
+        {"id":"overview","label":"장비와 역할","text":"차량용 원격 무장 계열의 7.62mm 형상이다. 현재 제조사 제품 소개는 전술차량 등을 적용 플랫폼으로 제시한다.","sourceIds":["wia-rcws-current"],"claimType":"general_product","confidence":"high_attributed"},
+        {"id":"features","label":"특징과 필요한 제원","text":"화면에는 구경과 원격통제 방식부터 설명한다. 계열 공통 제원을 이 전시품의 확정 사양으로 채우지 않는다.","sourceIds":["wia-rcws-current"],"claimType":"editorial_selection","confidence":"high_for_scope_limit"},
+        {"id":"exhibit","label":"이번 전시 구성","text":"2025 발표는 이를 소형 RCWS로 구분했다. 사진에는 차량과 분리된 전시대의 7.62mm 표지가 보인다.","sourceIds":["wia-adex-2025"],"photoIds":["rcws-event-01"],"claimType":"event_and_visual_observation","confidence":"high_attributed_and_visual"},
+        {"id":"development","label":"공식 개발 방향","text":"현재 제품 설명은 표준화·계열화와 사용자별 설계를 제시한다. 해당 형상의 후속 개발 일정은 확인한 자료에서 찾지 못했다.","sourceIds":["wia-rcws-current"],"claimType":"general_product_and_evidence_gap","confidence":"high_attributed"},
+        {"id":"interpretation","label":"2023 대비 해석","text":"2023 발표에도 RCWS를 결합한 ADS가 있었다. 따라서 2025의 구경별 소개를 RCWS 자체의 첫 등장으로 해석하지 않는다.","sourceIds":["wia-adex-2023"],"claimType":"comparison_limit","confidence":"high_for_limit"}
+      ],
+      "comparisonLimits": ["2023 소형 7.62mm 별도 전시 여부는 확인하지 못했다.","사진은 형상과 표지를 보여 주며 성능 시험을 대신하지 않는다."]
+    },
+    {
+      "equipmentId": "wia-rcws-ai-127-40",
+      "name": "12.7mm·40mm AI 기반 RCWS",
+      "eventEvidenceSourceIds": ["wia-adex-2025"],
+      "independentEventIssuerCount": 1,
+      "photoIds": ["rcws-event-01"],
+      "sections": [
+        {"id":"overview","label":"장비와 역할","text":"12.7mm와 40mm는 같은 원격통제 계열의 서로 다른 무장 형상이다. 현재 제품 페이지는 40mm 무장을 유탄발사기로 분류한다.","sourceIds":["wia-rcws-current"],"claimType":"general_product","confidence":"high_attributed"},
+        {"id":"features","label":"특징과 필요한 제원","text":"2025 제조사 설명은 AI 기반 추적을 특징으로 내세운다. 효과의 크기를 입증할 비교 시험자료는 확보하지 못했다.","sourceIds":["wia-adex-2025"],"claimType":"event_product_claim_and_evidence_gap","confidence":"high_for_attribution_only"},
+        {"id":"exhibit","label":"이번 전시 구성","text":"공식 사진에서 12.7mm·40mm 표지와 각각의 전시대를 확인했다. 전시대 배치는 계열을 비교해 보여 주려는 구성으로 읽을 수 있다.","sourceIds":[],"photoIds":["rcws-event-01"],"claimType":"visual_observation_and_editorial_inference","confidence":"high_visual_medium_inference"},
+        {"id":"development","label":"공식 개발 방향","text":"제조사는 현재 RCWS 계열에 다양한 무장 적용과 ADS 연동을 설명한다. 특정 파생형의 미래 납기나 계약은 이 자료로 확인되지 않는다.","sourceIds":["wia-rcws-current"],"claimType":"general_product_and_evidence_gap","confidence":"high_attributed"},
+        {"id":"interpretation","label":"2023 대비 해석","text":"2023 ADS 소개에도 AI와 RCWS가 함께 언급됐다. AI 적용이 2025에 처음 시작됐다는 결론은 성립하지 않는다.","sourceIds":["wia-adex-2023"],"claimType":"comparison_limit","confidence":"high_for_limit"}
+      ],
+      "comparisonLimits": ["구경별 명칭의 구체화와 실제 성능 개선은 서로 다른 주장이다.","2025 기사에서 40mm를 기관총으로 뭉뚱그린 표현은 현재 제품 분류와 구분한다.","한 RCWS에 두 무장을 동시에 탑재했다는 의미로 쓰지 않는다."]
+    },
+    {
+      "equipmentId": "wia-light-105",
+      "name": "경량화 105mm 자주포",
+      "eventEvidenceSourceIds": ["wia-adex-2025"],
+      "independentEventIssuerCount": 1,
+      "photoIds": ["light-105-event-01"],
+      "sections": [
+        {"id":"overview","label":"장비와 역할","text":"105mm 화포를 소형전술차량에 통합한 자주포다. 현재 제품 설명은 화포차량과 지휘·탄약 지원차량을 구분한다.","sourceIds":["wia-105-current"],"claimType":"general_product","confidence":"high_attributed"},
+        {"id":"features","label":"특징과 필요한 제원","text":"핵심 식별 정보는 105mm 구경과 차량 탑재 구조다. 현재 페이지의 7톤 수치는 일반제품 정보이며 2025 전시물의 계측 결과가 아니다.","sourceIds":["wia-105-current"],"claimType":"general_product_and_scope_limit","confidence":"high_attributed"},
+        {"id":"exhibit","label":"이번 전시 구성","text":"2025 발표는 실물 출품과 지원차량을 포함한 체계 구성을 설명했다. 사진에는 전면 식별 표지와 차량 탑재 화포가 보인다.","sourceIds":["wia-adex-2025"],"photoIds":["light-105-event-01"],"claimType":"event_and_visual_observation","confidence":"high_attributed_and_visual"},
+        {"id":"development","label":"공식 개발 방향","text":"2023에는 신속연구개발사업으로 개발 중인 전시품으로 소개됐다. 당시의 개발 목표를 지금의 양산·전력화 완료 증거로 쓰지 않는다.","sourceIds":["wia-adex-2023"],"claimType":"historical_official_development_and_limit","confidence":"high_attributed"},
+        {"id":"interpretation","label":"2023 대비 해석","text":"비교 가능한 변화는 전시 설명의 구체성이다. 2023 자료에 형상 구분이 없어 모형에서 실물로 전환됐다고 단정할 수 없다.","sourceIds":["wia-adex-2023","wia-adex-2025"],"claimType":"editorial_inference_and_comparison_limit","confidence":"medium"}
+      ],
+      "comparisonLimits": ["2025 최초 공개라는 문구는 사용하지 않는다.","지원차량별 출품 대수와 사진 속 후방 차량의 정확한 역할은 추가 캡션 없이는 확정하지 않는다.","현재 페이지의 차량 탑승인원과 체계 운용인원을 혼합하지 않는다."]
+    },
+    {
+      "equipmentId": "wia-ads-vehicle",
+      "name": "차량 탑재 대드론 방어체계 ADS",
+      "eventEvidenceSourceIds": ["wia-adex-2025"],
+      "independentEventIssuerCount": 1,
+      "photoIds": [],
+      "sections": [
+        {"id":"overview","label":"장비와 역할","text":"차량을 기반으로 드론 위협에 대응하는 방어체계다. 현재 제조사 자료는 센서·식별장치·대응 장비를 체계 단위로 설명한다.","sourceIds":["wia-ads-current"],"claimType":"general_product","confidence":"high_attributed"},
+        {"id":"features","label":"특징과 필요한 제원","text":"장비 설명에서는 단일 무장보다 여러 구성품의 통합 관계가 중요하다. 현재 제품 계열의 탐지 성능을 2025 전시품 제원으로 옮기지 않는다.","sourceIds":["wia-ads-current"],"claimType":"editorial_selection_and_scope_limit","confidence":"high_for_scope_limit"},
+        {"id":"exhibit","label":"이번 전시 구성","text":"2025 원문은 소형전술차량 기반 ADS 출품을 명시한다. 이번 조사에서 재사용 가능한 해당 전시물의 개별 현장사진은 확정하지 못했다.","sourceIds":["wia-adex-2025"],"claimType":"event_and_evidence_gap","confidence":"high_attributed"},
+        {"id":"development","label":"공식 개발 방향","text":"현재 자료는 일체형·고정형·기동형 제품군을 제시한다. 이는 공개된 제품 구성 설명이며 향후 개발 일정이나 수주 사실은 아니다.","sourceIds":["wia-ads-current"],"claimType":"general_product_and_scope_limit","confidence":"high_attributed"},
+        {"id":"interpretation","label":"2023 대비 해석","text":"차량 탑재 ADS는 2023에도 출품됐고 사진 캡션으로 확인된다. 2025에는 기존 제품군의 연속성과 다른 형상의 추가를 나누어 읽어야 한다.","sourceIds":["wia-adex-2023"],"claimType":"comparison_and_editorial_inference","confidence":"high_fact_medium_inference"}
+      ],
+      "comparisonLimits": ["2023·2025 차량형이 완전히 동일한 하드웨어라는 뜻은 아니다.","차량형 ADS의 첫 출품·새로운 성능 향상·일체형과 동일 구성이라는 단정은 하지 않는다."]
+    },
+    {
+      "equipmentId": "wia-ads-all-in-one",
+      "name": "일체형 대드론 방어체계 ADS",
+      "eventEvidenceSourceIds": ["wia-adex-2025"],
+      "independentEventIssuerCount": 1,
+      "photoIds": [],
+      "sections": [
+        {"id":"overview","label":"장비와 역할","text":"제조사는 탐지·식별·대응 장비를 일체화한 ADS를 2025 행사에서 처음 소개했다고 밝혔다.","sourceIds":["wia-adex-2025"],"claimType":"event_manufacturer_first_claim","confidence":"high_for_attribution_only"},
+        {"id":"features","label":"특징과 필요한 제원","text":"현재 제품 페이지의 Soft-Kill 일체형은 레이더·영상식별장치·재머를 묶은 형태다. 이 설명을 2025 전시물의 모든 구성품 목록으로 확정하지 않는다.","sourceIds":["wia-ads-current"],"claimType":"general_product_and_scope_limit","confidence":"high_attributed"},
+        {"id":"exhibit","label":"이번 전시 구성","text":"출품 사실은 제조사 원문으로 확인했다. 개별 현장사진과 상세 캡션을 확보하지 못해 전시 크기·설치 방식·실물 여부는 보류한다.","sourceIds":["wia-adex-2025"],"claimType":"event_and_evidence_gap","confidence":"high_exhibit_unresolved_form"},
+        {"id":"development","label":"공식 개발 방향","text":"현재 제조사는 센서와 대응 장비의 연동 가능성을 설명한다. 해당 일체형 모델의 개발 완료일·납품 일정은 확인 자료에 없다.","sourceIds":["wia-ads-current"],"claimType":"general_product_and_evidence_gap","confidence":"high_attributed"},
+        {"id":"interpretation","label":"2023 대비 해석","text":"차량형 중심의 2023 소개와 비교하면 제품 구성 선택지를 강조하는 방향으로 읽힌다. 이는 편집자 해석이며 성능 우위나 확정 사업전략을 뜻하지 않는다.","sourceIds":["wia-adex-2023"],"basisEquipmentId":"wia-ads-all-in-one","claimType":"editorial_inference","confidence":"medium"}
+      ],
+      "comparisonLimits": ["최초 주장은 현대위아에 귀속하며 세계 최초·국내 최초로 확대하지 않는다.","현재 Soft-Kill 일체형과 2025 전시물의 동일성 및 RCWS 탑재 여부는 추가 확인이 필요하다.","독립 현장 기사 후보 EDR은 원문 접근 실패로 근거 수에 포함하지 않았다."]
+    }
+  ],
+  "photos": [
+    {
+      "photoId": "rcws-event-01",
+      "localPath": "assets/adex2025/rcws-event-01.jpg",
+      "sourceIds": ["wia-adex-2025","hmg-adex-2025-reprint"],
+      "sourceDate": "2025-10-20",
+      "sourceType": "manufacturer_event_photo",
+      "claimType": "event_visual_observation",
+      "sourceImageURL": "https://www.hyundai-wia.com/upload/INFO/thumb_20251020075126.jpg",
+      "newsroomDownloadFileId": "FIL00000000000289987",
+      "captionDraft": "서울 ADEX 2025 현대위아 RCWS 전시대. 앞쪽부터 40mm, 12.7mm, 7.62mm 표지가 보인다.",
+      "credit": "현대위아 / 현대자동차그룹",
+      "width": 1800,
+      "height": 1200,
+      "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb",
+      "verification": "2026-11-15 local image visually inspected; SHA256 matches existing photo manifest",
+      "confidence": "high_for_visible_labels",
+      "comparisonLimits": "차량 위 탑재 사진이 아니다. AI·자동추적 성능과 내부 형식은 사진만으로 확인할 수 없다.",
+      "rightsSourceId": "hmg-adex-2025-reprint",
+      "rightsStatus": "newsroom_use_notice_confirmed_with_third_party_exception",
+      "rightsLimits": "페이지 안내와 기존 다운로드 출처 기록을 연결했다. 개별 권리자의 추가 제한 가능성을 없애는 CC/퍼블릭도메인 선언으로 바꾸지 않는다.",
+      "provenanceLimit": "다운로드 파일 ID는 기존 manifest를 읽었다. 이번 조사에서는 다운로드 묶음을 다시 받지 않았다."
+    },
+    {
+      "photoId": "light-105-event-01",
+      "localPath": "assets/adex2025/light-105-event-01.jpg",
+      "sourceIds": ["wia-adex-2025","hmg-adex-2025-reprint"],
+      "sourceDate": "2025-10-20",
+      "sourceType": "manufacturer_event_photo",
+      "claimType": "event_visual_observation",
+      "sourceImageURL": "https://www.hyundai-wia.com/upload/INFO/thumb_20251020075103.jpg",
+      "newsroomDownloadFileId": "FIL00000000000289986",
+      "captionDraft": "서울 ADEX 2025 현대위아 경량화 105mm 자주포 전시물. 전면 표지와 차량 탑재 형상을 확인할 수 있다.",
+      "credit": "현대위아 / 현대자동차그룹",
+      "width": 1800,
+      "height": 1201,
+      "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72",
+      "verification": "2026-11-15 local image visually inspected; SHA256 matches existing photo manifest",
+      "confidence": "high_for_visible_configuration",
+      "comparisonLimits": "후방 차량의 역할·양산 여부·성능을 사진만으로 단정하지 않는다.",
+      "rightsSourceId": "hmg-adex-2025-reprint",
+      "rightsStatus": "newsroom_use_notice_confirmed_with_third_party_exception",
+      "rightsLimits": "제조사 보도사진 출처를 표시한다. 뉴스룸 이용 안내의 제3자 자료 예외를 유지한다.",
+      "provenanceLimit": "다운로드 파일 ID와 축소·JPEG 변환 이력은 기존 manifest에서 읽었다. 이번 작업에서 이미지를 편집하지 않았다."
+    }
+  ],
+  "comparisonPhotoCandidate": {
+    "sourceId": "wia-adex-2023",
+    "sourceImageURL": "https://www.hyundai-wia.com/upload/INFO/thumb_20231017094014.jpg",
+    "captionScope": "제조사 페이지 캡션은 ADEX 2023 차량탑재형 ADS라고 명시한다.",
+    "rightsStatus": "unverified_link_only",
+    "visualStatus": "page_caption_checked_image_not_added",
+    "limit": "현대위아 자체 사이트 이미지는 HMG 뉴스룸의 이용 안내를 자동 적용하지 않는다."
+  },
+  "remainingGaps": [
+    "독립 발신 현장 원문으로 5개 출품 사실을 교차 확인하지 못했다.",
+    "차량형·일체형 ADS의 2025 개별 전시사진, 형상별 캡션, 재사용 조건이 미확정이다.",
+    "2023 105mm 전시품의 모형/실물 구분, 2023 구경별 RCWS 전시 여부가 미확정이다.",
+    "제품별 미래 일정과 계약·전력화는 이번 근거 범위에 없다.",
+    "사진은 기존 2개 자산을 재검증했으며 신규 자산 확보로 계산하지 않는다."
+  ],
+  "validation": {
+    "appBuildRequired": false,
+    "reason": "신규 조사 JSON만 작성했으며 제품 코드와 데이터는 변경하지 않았다.",
+    "checks": ["JSON parse", "5 equipment entries with 5 sections each", "source and photo references resolve", "2 existing assets SHA256 match", "2023/2025 original release pages opened", "2 local photos visually inspected"],
+    "result": "passed",
+    "command": "PowerShell here-string piped to node: JSON.parse + equipment/section count + source/photo reference checks + crypto SHA256 comparison",
+    "observed": {"equipmentCount":5,"sectionCount":25,"sourceCount":7,"photoCount":2,"exitCode":0}
+  }
+}

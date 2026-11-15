@@ -51,3 +51,8 @@
 - `.github/workflows/pages.yml`은 main 문맥에서만 배포하며 main 빌드를 루트에, 검증한 `work/fieldnote-v2` 빌드를 `/preview/`에 조립합니다. 사용자 요청에 따라 main의 배포 인프라 수정은 허용하지만 9단계 전 앱 본문을 v2로 교체하지 않습니다.
 - 개발 브랜치의 `Validate and build`가 성공하면 main 소유 워크플로가 같은 저장소/브랜치/push 이벤트를 확인해 갱신합니다. 개발 브랜치에서 Pages 배포 job을 직접 실행하도록 바꾸지 않습니다.
 - 배포 성공 후 익명 HTTP로 `/preview/`, 데이터 shard, `deployment.json` 원본 커밋을 확인합니다. `docs/EXECUTIVE_V2_PREVIEW.json`과 HANDOFF에 결과를 기록합니다. 기존 Sites 링크는 보존하되 최신 GitHub 진행본 주소를 우선 안내합니다.
+
+## 최신 승인 — 본 구현
+
+2026-11-15 사용자 결정: 큰 지도 → 별도 업체 메인 → 장비별 설명 → 16:9 종합보고(모바일 세로) 본 구현 승인. 첫 공개 대상은 기존 /preview/만이며 실제 배포는 완성본 검토 뒤 진행한다.
+기존 A단계 한정 문구보다 이 결정이 우선한다. 로컬 구현·검증을 계속하며 main/work 브랜치 push·공개 배포는 완성본 검토 전 수행하지 않는다.

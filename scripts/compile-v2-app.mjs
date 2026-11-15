@@ -46,9 +46,19 @@ function mapDisplayDocument(doc,display){
 }
 
 /** Deterministic event shards; no browser state or research-management tables are published. */
-export function compileAppData({publicData,registry,taxonomy,editorialBundles=[],researchBundles=[],mapDisplay={documents:[]}}){
+export function compileAppData({publicData,registry,taxonomy,editorialBundles=[],researchBundles=[],productNarratives=[],reportContents=[],mapDisplay={documents:[]}}){
   check(publicData?.schemaVersion===2,'missing v2 public projection');
   check(Array.isArray(taxonomy?.categories)&&taxonomy.categories.length>0,'taxonomy missing');
+  check(Array.isArray(productNarratives),'product narratives must be an array');
+  check(Array.isArray(reportContents),'event reports must be an array');
+  check(new Set(reportContents.map(report=>report.eventId)).size===reportContents.length,'duplicate event report');
+  for(const report of reportContents)check(publicData.events.some(event=>event.id===report.eventId),'report event is not registered '+report.eventId);
+  const narrativeKeys=new Set();
+  for(const narrative of productNarratives){
+    check(publicData.events.some(event=>event.id===narrative.eventId),'narrative event is not registered '+narrative.eventId);
+    const key=narrative.eventId+'|'+narrative.productId;
+    check(!narrativeKeys.has(key),'duplicate product narrative '+key);narrativeKeys.add(key);
+  }
   editorialBundles=researchEditorialBundles(editorialBundles,researchBundles);
   const publicOrganizations=byId(publicData.organizations),privateOrganizations=byId(registry.organizations),privateParticipations=byId(registry.participations);
   const publicProducts=byId(publicData.products),privateProducts=byId(registry.products),publicPhotos=byId(publicData.photos);
@@ -99,7 +109,7 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
       check(participant,'editorial organization is not registered in edition '+item.organizationId);
       check(array(item.categoryIds).every(id=>taxonomy.categories.some(category=>category.id===id)),'unknown editorial category '+item.id);
       check(item.reason&&array(item.highlights).length===3&&array(item.followUps).length>=2&&array(item.followUps).length<=3,'editorial needs reason, three highlights and two/three follow-ups '+item.id);
-      for(const field of ['exhibit','distinction','direction','workConnection'])check(item[field],'editorial missing '+field+' '+item.id);
+      for(const field of ['exhibit','distinction','direction'])check(item[field],'editorial missing '+field+' '+item.id);
       const editorialSourceIds=unique(array(item.sources).map(appendSource));check(editorialSourceIds.length,'editorial requires evidence '+item.id);editorialSourceIds.forEach(id=>relevantSourceIds.add(id));
       const editorialPhotoIds=[];
       for(const rawPhoto of array(item.photos)){
@@ -124,10 +134,36 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
         check(!previous||previous.organizationIds.includes(item.organizationId),'editorial product belongs to a different organization '+id);
         products.set(id,{...(previous||{}),id,name:exhibitItem.name,alternativeNames:unique([...array(previous?.alternativeNames),previous?.name]),organizationIds:unique([...(previous?.organizationIds||[]),item.organizationId]),category:previous?.category||null,sourceIds:unique([...array(previous?.sourceIds),...array(exhibitItem.sourceIds)]),form:exhibitItem.form||null,exhibitStatus:exhibitItem.status||'source_documented'});
       }
-      const editorial={id:item.id,organizationId:item.organizationId,eventId:event.id,categoryIds:array(item.categoryIds),reason:item.reason,highlights:item.highlights,exhibit:item.exhibit,distinction:item.distinction,direction:item.direction,workConnection:item.workConnection,followUps:item.followUps,sourceIds:editorialSourceIds,photoIds:unique(editorialPhotoIds),catalogIds:editorialCatalogIds};
+      const editorial={id:item.id,organizationId:item.organizationId,eventId:event.id,categoryIds:array(item.categoryIds),reason:item.reason,highlights:item.highlights,exhibit:item.exhibit,distinction:item.distinction,direction:item.direction,followUps:item.followUps,sourceIds:editorialSourceIds,photoIds:unique(editorialPhotoIds),catalogIds:editorialCatalogIds};
       for(const key of ['companyName','displayName','interpretationNote','verificationNote','evidenceNote','participationNote','boothNote','boothNumberNote'])if(item[key])editorial[key]=item[key];
       editorial.interpretationNote=item.interpretationNote||item.verificationNote||null;
       editorials.push(editorial);
+    }
+    for(const raw of productNarratives.filter(narrative=>narrative.eventId===event.id)){
+      const product=products.get(raw.productId);
+      check(participations.some(p=>p.organizationId===raw.organizationId),'narrative organization is not registered in edition '+raw.organizationId);
+      check(product&&product.organizationIds.includes(raw.organizationId),'narrative product does not belong to this edition and organization '+raw.productId);
+      check(Array.isArray(raw.sections)&&raw.sections.length===5,'narrative needs five sections '+raw.productId);
+      check(new Set(raw.sections.map(section=>section.id)).size===raw.sections.length,'duplicate narrative section '+raw.productId);
+      const addedSourceIds=array(raw.sources).map(appendSource);
+      const sections=raw.sections.map(section=>{
+        check(['id','label','text','claimType'].every(key=>typeof section[key]==='string'&&section[key].trim()),'narrative section text missing '+raw.productId);
+        check(Array.isArray(section.sourceIds),'narrative section source list missing '+raw.productId);
+        return {id:section.id,label:section.label,text:section.text,sourceIds:unique(section.sourceIds),claimType:section.claimType};
+      });
+      const eventEvidenceSourceIds=unique(array(raw.eventEvidenceSourceIds)),generalSourceIds=unique(array(raw.generalSourceIds));
+      const narrativeSourceIds=unique([...addedSourceIds,...eventEvidenceSourceIds,...generalSourceIds,...sections.flatMap(section=>section.sourceIds)]);
+      for(const id of narrativeSourceIds){check(sources.has(id),'narrative dangling source '+id);relevantSourceIds.add(id);}
+      const photoIds=unique(array(raw.photoIds));
+      for(const id of photoIds){
+        const photo=photos.get(id);
+        check(photo&&photo.context==='event','narrative photo is not from this edition '+id);
+        check(array(companyPhotoIds.get(raw.organizationId)).includes(id),'narrative photo belongs to another organization '+id);
+        photo.productIds=unique([...array(photo.productIds),product.id]);
+      }
+      product.sourceIds=unique([...product.sourceIds,...narrativeSourceIds]);
+      if(raw.form)product.form=raw.form;
+      product.narrative={eventId:event.id,organizationId:raw.organizationId,productId:product.id,...(raw.asOf?{asOf:raw.asOf}:{}),sections,eventEvidenceSourceIds,generalSourceIds,photoIds,form:raw.form||product.form||null,limitations:array(raw.limitations)};
     }
     const companies=participations.map(p=>{
       const org=publicOrganizations.get(p.organizationId),privateOrg=privateOrganizations.get(p.organizationId),privateP=privateParticipations.get(p.id);
@@ -153,12 +189,27 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
       const aliases=unique([...array(org.aliasNames),editorial?.displayName]);
       return {id:org.id,organizationId:org.id,name:org.name,displayName:editorial?.displayName||org.name,aliases,kind:org.kind,countries:array(privateOrg?.countryNames),participationId:p.id,status:p.status,attendanceStatus:p.attendanceStatus,sourceLabelStatus:p.sourceLabelStatus,boothIds:ownBoothIds,mapBoothIds:ownBoothIds.filter(id=>mappedBooths.has(id)),productIds:companyProducts.map(product=>product.id),photoIds:unique(companyPhotoIds.get(org.id)||[]),analysisIds:companyAnalyses.map(a=>a.id),catalogIds:unique(ownCatalogIds),editorialId:editorial?.id||null,categoryIds:category,rawCategories,sourceIds:ownSourceIds,profileUrls:unique(rows.map(row=>safeUrl(row.profileUrl))),relevanceNote:privateP?.relevance.status==='confirmed'?privateP.relevance.reason:null,reason:editorial?.reason||null,highlights:editorial?.highlights||[],exhibitStatus:editorial?'source_documented':'unconfirmed',interpretationNote:editorial?.interpretationNote||(!editorial?'명단 등재와 제품의 실제 전시 확인은 구분합니다. 기존 제품·분석은 원문 조건을 함께 확인하십시오.':null),verificationNote:editorial?.verificationNote||null,searchText:[org.name,...aliases,...companyProducts.flatMap(product=>[product.name,...array(product.alternativeNames)]),...rawCategories,...category.map(id=>taxonomy.categories.find(c=>c.id===id).label)].join(' ')};
     }).sort((a,b)=>a.name.localeCompare(b.name,'ko',{numeric:true}));
+    const rawReport=reportContents.find(report=>report.eventId===event.id);
+    let report=null;
+    if(rawReport){
+      const addedSourceIds=array(rawReport.sources).map(appendSource);
+      const themes=array(rawReport.themes).map(theme=>{
+        const company=companies.find(company=>company.id===theme.companyId);
+        if(theme.companyId)check(company,'report company is not registered in edition '+theme.companyId);
+        if(theme.productId)check(company&&company.productIds.includes(theme.productId),'report product does not belong to company '+theme.productId);
+        if(theme.photoId){const photo=photos.get(theme.photoId);check(company&&company.photoIds.includes(theme.photoId)&&photo?.context==='event','report photo does not belong to this edition and company '+theme.photoId);if(theme.productId)check(photo.productIds.includes(theme.productId),'report photo is not linked to product '+theme.photoId);}
+        return {title:theme.title,summary:theme.summary,companyId:theme.companyId||null,productId:theme.productId||null,photoId:theme.photoId||null,before:theme.before||null,after:theme.after||null,sourceIds:unique(array(theme.sourceIds))};
+      });
+      const sourceIds=unique([...array(rawReport.sourceIds),...themes.flatMap(theme=>theme.sourceIds),...addedSourceIds]);
+      for(const id of sourceIds){check(sources.has(id),'report dangling source '+id);relevantSourceIds.add(id);}
+      report={eventId:event.id,...(rawReport.asOf?{asOf:rawReport.asOf}:{}),title:rawReport.title,message:rawReport.message,scopeNote:rawReport.scopeNote,comparisonEvent:rawReport.comparisonEvent||null,comparisonNote:rawReport.comparisonNote||null,themes,interpretation:rawReport.interpretation||null,limitations:array(rawReport.limitations),sourceIds};
+    }
     for(const photo of photos.values()){photo.sourceIds.forEach(id=>relevantSourceIds.add(id));if(photo.context==='event')eventPhotoIds.push(photo.id);}
     for(const catalog of catalogs.values())catalog.sourceIds.forEach(id=>relevantSourceIds.add(id));
     for(const product of products.values())product.sourceIds.forEach(id=>relevantSourceIds.add(id));
     for(const doc of mapDocuments){const existing=[...sources.values()].find(source=>source.url===doc.url);if(existing)relevantSourceIds.add(existing.id);}
     const sourceSubset=[...relevantSourceIds].map(id=>sources.get(id)).filter(Boolean);
-    const shard={schemaVersion:3,dataAsOf:publicData.dataAsOf,event:{id:event.id,name:event.name,year:event.year,venue:event.venue,dates:event.dates,sourceIds:event.sourceIds},taxonomy:taxonomyPublic,companies,products:[...products.values()],photos:[...photos.values()],eventPhotoIds:unique(eventPhotoIds),catalogs:[...catalogs.values()],editorials,analyses,assertions,sources:sourceSubset,booths,mapDocuments,mapGeometries,boothOccupancies};
+    const shard={schemaVersion:3,dataAsOf:publicData.dataAsOf,event:{id:event.id,name:event.name,year:event.year,venue:event.venue,dates:event.dates,sourceIds:event.sourceIds},taxonomy:taxonomyPublic,companies,products:[...products.values()],photos:[...photos.values()],eventPhotoIds:unique(eventPhotoIds),catalogs:[...catalogs.values()],editorials,analyses,assertions,sources:sourceSubset,booths,mapDocuments,mapGeometries,boothOccupancies,report};
     validateAppEvent(shard);
     result.events[event.id]=shard;
     result.index.events.push({...shard.event,dataFile:`events/${event.id}.json`,mapAvailable:mapGeometries.length>0,companyCount:companies.length,mappedCompanyCount:companies.filter(c=>c.mapBoothIds.length).length,scopeNote:'수록 명칭·자료 기준이며 전체 참가기업 조사 완료 수가 아닙니다'});
@@ -174,7 +225,17 @@ export function validateAppEvent(data){
   for(const company of data.companies){for(const key of ['photoIds','productIds','catalogIds','analysisIds','sourceIds'])for(const id of company[key])ref(({photoIds:'photos',productIds:'products',catalogIds:'catalogs',analysisIds:'analyses',sourceIds:'sources'})[key],id);for(const id of company.boothIds)ref('booths',id);if(company.editorialId)ref('editorials',company.editorialId);for(const id of company.mapBoothIds)check(data.mapGeometries.some(g=>g.boothId===id),'unverified map placement '+id);}
   for(const source of data.sources)check(safeUrl(source.url),'unsafe source URL');
   for(const photo of data.photos){for(const id of photo.sourceIds)ref('sources',id);check(!['link-only','link_only'].includes(photo.rights.status)||photo.src===null,'link-only photo displayed');if(photo.src)check(safeAssetPath(photo.src)||safeUrl(photo.src),'unsafe image URL');}
-  for(const product of data.products)for(const id of product.sourceIds)ref('sources',id);
+  for(const product of data.products){
+    for(const id of product.sourceIds)ref('sources',id);
+    if(product.narrative){
+      const narrative=product.narrative,company=tables.companies.get(narrative.organizationId);
+      check(narrative.eventId===data.event.id&&narrative.productId===product.id,'narrative edition/product mismatch '+product.id);
+      check(company&&product.organizationIds.includes(company.id)&&company.productIds.includes(product.id),'narrative company mismatch '+product.id);
+      check(array(narrative.sections).length===5,'narrative needs five sections '+product.id);
+      for(const id of [...array(narrative.eventEvidenceSourceIds),...array(narrative.generalSourceIds),...narrative.sections.flatMap(section=>array(section.sourceIds))]){ref('sources',id);check(product.sourceIds.includes(id),'narrative source missing from product '+id);}
+      for(const id of array(narrative.photoIds)){ref('photos',id);const photo=tables.photos.get(id);check(photo.context==='event'&&company.photoIds.includes(id)&&photo.productIds.includes(product.id),'narrative photo relation mismatch '+id);}
+    }
+  }
   for(const catalog of data.catalogs)for(const id of catalog.sourceIds)ref('sources',id);
   for(const editorial of data.editorials){
     for(const id of editorial.sourceIds)ref('sources',id);for(const id of editorial.photoIds)ref('photos',id);for(const id of editorial.catalogIds)ref('catalogs',id);
@@ -182,14 +243,27 @@ export function validateAppEvent(data){
     validateEvidence(editorial);
   }
   for(const geometry of data.mapGeometries){ref('booths',geometry.boothId);ref('mapDocuments',geometry.documentId);check(geometry.eventId===data.event.id,'wrong-event geometry');}
+  if(data.report){
+    check(data.report.eventId===data.event.id,'report edition mismatch');
+    for(const id of array(data.report.sourceIds))ref('sources',id);
+    for(const theme of array(data.report.themes)){
+      if(theme.companyId)ref('companies',theme.companyId);
+      const company=tables.companies.get(theme.companyId);
+      if(theme.productId){ref('products',theme.productId);check(company?.productIds.includes(theme.productId),'report company/product mismatch');}
+      if(theme.photoId){ref('photos',theme.photoId);const photo=tables.photos.get(theme.photoId);check(company?.photoIds.includes(theme.photoId)&&photo.context==='event','report company/photo mismatch');if(theme.productId)check(photo.productIds.includes(theme.productId),'report product/photo mismatch');}
+      for(const id of array(theme.sourceIds))ref('sources',id);
+    }
+  }
   return true;
 }
 
 async function readJson(file,fallback){try{return JSON.parse(await readFile(file,'utf8'));}catch(error){if(error.code==='ENOENT'&&fallback!==undefined)return fallback;throw error;}}
 export async function compileApp(root=rootDirectory){
-  let editorialFiles=[];try{editorialFiles=(await readdir(path.join(root,'data/v2/editorial'))).filter(file=>file.endsWith('.json')).sort();}catch(error){if(error.code!=='ENOENT')throw error;}
-  const [publicData,registry,taxonomy,mapDisplay,editorialBundles,researchBundles]=await Promise.all([readJson(path.join(root,'data/v2/public.json')),readJson(path.join(root,'data/v2/registry.json')),readJson(path.join(root,'data/v2/taxonomy.json')),readJson(path.join(root,'data/v2/map-display.json'),{documents:[]}),Promise.all(editorialFiles.map(file=>readJson(path.join(root,'data/v2/editorial',file)))),readResearchBundles(root)]);
-  const output=compileAppData({publicData,registry,taxonomy,mapDisplay,editorialBundles,researchBundles});
+  let editorialFiles=[];try{editorialFiles=(await readdir(path.join(root,'data/v2/editorial'))).filter(file=>file.endsWith('.json')&&!['product-narratives.json','event-reports.json'].includes(file)).sort();}catch(error){if(error.code!=='ENOENT')throw error;}
+  const [publicData,registry,taxonomy,mapDisplay,editorialBundles,researchBundles,narrativeFile,reportFile]=await Promise.all([readJson(path.join(root,'data/v2/public.json')),readJson(path.join(root,'data/v2/registry.json')),readJson(path.join(root,'data/v2/taxonomy.json')),readJson(path.join(root,'data/v2/map-display.json'),{documents:[]}),Promise.all(editorialFiles.map(file=>readJson(path.join(root,'data/v2/editorial',file)))),readResearchBundles(root),readJson(path.join(root,'data/v2/editorial/product-narratives.json'),{narratives:[]}),readJson(path.join(root,'data/v2/editorial/event-reports.json'),{reports:[]})]);
+  const productNarratives=(Array.isArray(narrativeFile)?narrativeFile:array(narrativeFile.narratives)).map(narrative=>({...(narrativeFile.asOf?{asOf:narrativeFile.asOf}:{}),...narrative}));
+  const reportContents=(Array.isArray(reportFile)?reportFile:array(reportFile.reports)).map(report=>({...(reportFile.asOf?{asOf:reportFile.asOf}:{}),...report}));
+  const output=compileAppData({publicData,registry,taxonomy,mapDisplay,editorialBundles,researchBundles,productNarratives,reportContents});
   await mkdir(path.join(root,'data/v2/app/events'),{recursive:true});
   await writeFile(path.join(root,'data/v2/app/index.json'),JSON.stringify(output.index)+'\n');
   for(const [id,event] of Object.entries(output.events))await writeFile(path.join(root,`data/v2/app/events/${id}.json`),JSON.stringify(event)+'\n');

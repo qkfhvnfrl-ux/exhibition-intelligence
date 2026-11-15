@@ -1,0 +1,2179 @@
+{
+  "documentType": "public_distribution_audit",
+  "schemaVersion": 1,
+  "startedAt": "2026-11-15T13:05:46.194Z",
+  "finishedAt": "2026-11-15T13:06:19.598Z",
+  "cwd": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence",
+  "headAtAudit": "a21b78157316e6ce28c11a21dc9f393c1f98ac0e",
+  "auditResult": "PASS",
+  "projectCompletionState": "retry_with_revision",
+  "scope": "Public compiler output, generated runtime shards, current dist, attachment inventory and history-object presence. This audit does not run build/test or deploy.",
+  "prohibitedPatterns": [
+    {
+      "id": "retired_camel_field",
+      "source": "workConnection"
+    },
+    {
+      "id": "retired_snake_predicate",
+      "source": "work_connection"
+    },
+    {
+      "id": "first_person_company_ko",
+      "source": "당사|우리\\s*회사"
+    },
+    {
+      "id": "internal_work_relation_ko",
+      "source": "업무\\s*(?:연결|관련|연계)|체계개발과의\\s*연결"
+    },
+    {
+      "id": "internal_work_relation_en",
+      "source": "Rotem\\s+work\\s+connection|our\\s+company|our\\s+work"
+    }
+  ],
+  "validationReportedByParent": {
+    "buildExitCode": 0,
+    "checkExitCode": 0,
+    "testsPassed": 180,
+    "testsSkipped": 0,
+    "verification": "parent_agent_message_not_rerun_by_this_audit"
+  },
+  "outstandingManualChecks": [
+    "Actual saved PDF page count, Korean text, photos and clipping",
+    "Final photo viewer browser check after latest code changes",
+    "Actual nested /preview/ path browser verification"
+  ],
+  "explicitLimitations": [
+    "Text scan excludes binary image pixels; no OCR was performed.",
+    "No publishing, push, remote branch verification, browser-history deletion or Git-history rewrite was performed.",
+    "Existing history availability does not imply current distribution includes archived source documents."
+  ],
+  "steps": [
+    {
+      "id": "public_text_and_compile_api_source_scan",
+      "startedAt": "2026-11-15T13:05:46.445Z",
+      "finishedAt": "2026-11-15T13:05:46.803Z",
+      "exitCode": 0,
+      "command": {
+        "executable": "node",
+        "arguments": [
+          "--input-type=module",
+          "--eval",
+          "\nimport fs from 'node:fs';\nimport path from 'node:path';\nimport cp from 'node:child_process';\nimport crypto from 'node:crypto';\nconst walk=p=>fs.statSync(p).isDirectory()?fs.readdirSync(p,{withFileTypes:true}).filter(e=>e.isFile()||e.isDirectory()).flatMap(e=>walk(path.join(p,e.name))):[p.replaceAll('\\\\','/')];\nconst sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');\n\nconst patterns=[{\"id\":\"retired_camel_field\",\"source\":\"workConnection\"},{\"id\":\"retired_snake_predicate\",\"source\":\"work_connection\"},{\"id\":\"first_person_company_ko\",\"source\":\"당사|우리\\\\s*회사\"},{\"id\":\"internal_work_relation_ko\",\"source\":\"업무\\\\s*(?:연결|관련|연계)|체계개발과의\\\\s*연결\"},{\"id\":\"internal_work_relation_en\",\"source\":\"Rotem\\\\s+work\\\\s+connection|our\\\\s+company|our\\\\s+work\"}];\nconst targets=['scripts/compile-v2-data.mjs','scripts/compile-v2-app.mjs','scripts/research-v2.mjs','scripts/validate-v2-data.mjs','scripts/prepare-redesign-content.mjs','data','src/v2','dist'];\nconst textExt=new Set(['.json','.js','.mjs','.css','.html','.md','.txt','.svg','.yml','.yaml','.py']);\nconst files=[...new Set(targets.flatMap(walk))].filter(p=>textExt.has(path.extname(p).toLowerCase())).sort();\nconst matches=[];\nfor(const file of files){const lines=fs.readFileSync(file,'utf8').split(/\\r?\\n/);for(let i=0;i<lines.length;i++){const ids=patterns.filter(p=>new RegExp(p.source,'i').test(lines[i])).map(p=>p.id);if(ids.length)matches.push({file,line:i+1,patternIds:ids});}}\nconsole.log(JSON.stringify({result:matches.length?'FAIL':'PASS',targets,textFileCount:files.length,matchCount:matches.length,matches,binaryContentScan:false}));\n"
+        ],
+        "cwd": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence",
+        "readOnly": true
+      },
+      "result": {
+        "result": "PASS",
+        "targets": [
+          "scripts/compile-v2-data.mjs",
+          "scripts/compile-v2-app.mjs",
+          "scripts/research-v2.mjs",
+          "scripts/validate-v2-data.mjs",
+          "scripts/prepare-redesign-content.mjs",
+          "data",
+          "src/v2",
+          "dist"
+        ],
+        "textFileCount": 80,
+        "matchCount": 0,
+        "matches": [],
+        "binaryContentScan": false
+      }
+    },
+    {
+      "id": "tracked_attachment_inventory",
+      "startedAt": "2026-11-15T13:05:46.803Z",
+      "finishedAt": "2026-11-15T13:05:47.134Z",
+      "exitCode": 0,
+      "command": {
+        "executable": "node",
+        "arguments": [
+          "--input-type=module",
+          "--eval",
+          "\nimport fs from 'node:fs';\nimport path from 'node:path';\nimport cp from 'node:child_process';\nimport crypto from 'node:crypto';\nconst walk=p=>fs.statSync(p).isDirectory()?fs.readdirSync(p,{withFileTypes:true}).filter(e=>e.isFile()||e.isDirectory()).flatMap(e=>walk(path.join(p,e.name))):[p.replaceAll('\\\\','/')];\nconst sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');\n\nconst tracked=cp.execFileSync('git',['ls-files','-z'],{encoding:'utf8'}).split('\\0').filter(Boolean);\nconst image=new Set(['.jpg','.jpeg','.png','.gif','.webp','.svg','.avif','.tif','.tiff','.bmp','.heic']);\nconst office=new Set(['.doc','.docx','.xls','.xlsx','.ppt','.pptx','.odt','.ods','.odp']);\nconst other=new Set(['.pdf','.mp4','.mov','.mp3','.wav','.zip','.7z']);\nconst files=tracked.filter(p=>image.has(path.extname(p).toLowerCase())||office.has(path.extname(p).toLowerCase())||other.has(path.extname(p).toLowerCase())).sort();\nconst inventory=files.map(file=>{const ext=path.extname(file).toLowerCase(),deployed=fs.existsSync('dist/'+file);return {path:file,extension:ext,type:image.has(ext)?'image':office.has(ext)?'office':ext==='.pdf'?'pdf':'other_attachment',bytes:fs.statSync(file).size,sha256:sha(file),includedInDist:deployed,distHashMatches:deployed?sha(file)===sha('dist/'+file):null};});\nconsole.log(JSON.stringify({result:'PASS',trackedFileCount:tracked.length,attachmentCount:inventory.length,imageCount:inventory.filter(p=>p.type==='image').length,pdfCount:inventory.filter(p=>p.type==='pdf').length,officeCount:inventory.filter(p=>p.type==='office').length,otherAttachmentCount:inventory.filter(p=>p.type==='other_attachment').length,inventory,limitations:['Tracked inventory only; untracked authoring artifacts are checked separately by the distribution allowlist.','Binary image text was not OCR-scanned; this inventory verifies paths, size, checksums and deployment membership.']}));\n"
+        ],
+        "cwd": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence",
+        "readOnly": true
+      },
+      "result": {
+        "result": "PASS",
+        "trackedFileCount": 306,
+        "attachmentCount": 93,
+        "imageCount": 93,
+        "pdfCount": 0,
+        "officeCount": 0,
+        "otherAttachmentCount": 0,
+        "inventory": [
+          {
+            "path": "assets/adex2025/k2pl-event-01.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 228154,
+            "sha256": "cf68e69710366d23dd41e3491000c4115565b2f26ebfcc4b3659730a5315ed0b",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/adex2025/light-105-eurosatory2026-01.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 304109,
+            "sha256": "5dd80611f9ad285068567420048071bec0e2a7bf419bda21c71ab195ee482438",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/adex2025/light-105-eurosatory2026-02.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 485042,
+            "sha256": "6604e9ce7273e5afd762fbc309624e7a51a1f2511b5dfaa2bfee2c1c49cbc10b",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/adex2025/light-105-event-01.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 310237,
+            "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/adex2025/light-105-wds2026-01.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 287753,
+            "sha256": "ed5956e7bd51c1577b1e46df189711ee25ae2f5d4531f9370ad05080533b48c5",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/adex2025/rcws-eurosatory2026-01.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 275007,
+            "sha256": "f9e4611325b7f624ea9d56cee9399717e43544163a7f351e1cbcbd816c978941",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/adex2025/rcws-event-01.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 246948,
+            "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/adex2025-new-kia-family.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 452337,
+            "sha256": "a184930d3cff5ad8e49476cedcf8bed5e8b8674ddd99ab61b9d6a2dc218f7693",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/adex2025-new-kmtv-front.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 439007,
+            "sha256": "62a7c344970dbca6cd6dae82f3d532cdf1ba33636883811999b112fb5d1cc1d5",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/adex2025-new-rotem-booth.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 346351,
+            "sha256": "89be393f6aca5a8fae6b36e0f1191d03fc204fef12ee1778daf3b272729a0629",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/adex2025-new-tasman-front.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 413934,
+            "sha256": "627548af6e2c960b4566e7257c2970c39a63b55664ed789460fef1195b69f3bc",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/arma-ii-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 352404,
+            "sha256": "addbf63377971d9381663c910b70f32e23c91c8f9443afcc17f1b50fe58dc35e",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/arma-ii-01.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 475830,
+            "sha256": "ee7c1dff45819b2a7d3057f4685712d3b47f771846a09b172559d9c7d8776298",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 351440,
+            "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-01.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 133060,
+            "sha256": "bde53a504d88c2c4ad98a393539a2cd5162d615aef3590fa7e414cabda426547",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-02.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 105994,
+            "sha256": "dfa659889afcf61910663afec210b716d98d8c90014b5c2afe0cf24ca6238da3",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-07.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 124600,
+            "sha256": "d730fae4db1f5275fccdc3b94a5da71b2284dded268ead41da9d3ac4f5972661",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-08.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 231962,
+            "sha256": "d69f2d5e1178ae5f40e705533fdbaecab10cee1907df3a64785497d4b59f419d",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-12.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 158648,
+            "sha256": "77f87d835eb150a42a13dec3faf3805d620652374668b23b7d5527f29ae403d8",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-14.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 106926,
+            "sha256": "806e6803aa0a0370488fe8c052d26c1bb743bee2a29341c2dabc738f5a991f81",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-16.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 130844,
+            "sha256": "c496d985a7713de8ba9842b6fe36dfacff4c51c6532723b34049c654a078e34d",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-18.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 212806,
+            "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-19.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 597506,
+            "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-21.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 267276,
+            "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/boxer-miv-22.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 265420,
+            "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/cobra-ii-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 436416,
+            "sha256": "2120fb5b5c9317560c6cfc5861dc7dbad64ef858ed5ccbd4158bf05fedd6937b",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/cobra-ii-08.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 143476,
+            "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/dsei2025-new-kia-booth.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 392836,
+            "sha256": "05ae2d39572f355278990fb628f6dac75e3b554574212e9823d4d1dd2dd6677f",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/eurosatory2026-new-kia-booth.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 482730,
+            "sha256": "1a22e5316b518f0acd49228dc7e5a0fdbf4856b810b603e90d0092372d5ef62c",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/eurosatory2026-new-kia-kltv.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 450823,
+            "sha256": "db31a7952f3a5ddaae43e48d5ac3f800c4065e3b0368d7bf0e9b79f2fa1c83d3",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/eurosatory2026-new-kia-tasman.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 429522,
+            "sha256": "84ce8f414a08a8ad3b8000b55c4d4833da6ac805489e9e1f38d838408b5767e5",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/eurosatory2026-new-rotem.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 549682,
+            "sha256": "62c5bdd392a2a63340697b73bb7717793a0f1fc85500f076a6530b22259301bd",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-acv-rws.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 125102,
+            "sha256": "0f6030fd76a7db78166bc68cd9f13a86cd753dbd831744a7ea4493be41772333",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-acv-thruster.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 131568,
+            "sha256": "6a7aebbe81f0e8bbcf338a136b3cf29385187a4385350956e854f7fdd4b0b43e",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-ajban-441ae.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 273456,
+            "sha256": "5d48473cfdbcd757aceb18ca3f63eaf5d17ec05d02514ddf20420acfb0aa54ac",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-ajban-442a.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 263556,
+            "sha256": "b88053b5f20fdb3b4bc9b6242017e05bb66b1aa336fe340b70bc45c29aed91ac",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-ajban-452a.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 276696,
+            "sha256": "6c923b1e3d2268d3d8b6afd42f8629130e7688d2566582f8d1d79eb1d802ec3c",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-cockerill-ix.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 221340,
+            "sha256": "91b52fbd2b42f554083f88a45b5a516febb9a5929fe4f7ac953f4e123d71654f",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-hafeet.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 234206,
+            "sha256": "0bef0345cec60c3e923b0f1f8098876c7d9de10b35c6e64e00b063587c59eb4f",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-havoc-01.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 215038,
+            "sha256": "d76428520c370a61e8a05463bd05cc5954e5726166ab7e59ca7953fdfcbee3b2",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-havoc-02.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 241978,
+            "sha256": "caa14f707ff0bbd4a0f8eeebe9257fed2598bf0d7f0f242ddfce1785020afde9",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-havoc-03.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 231432,
+            "sha256": "4a0e4e56c0c98f2cf6897161d96cc9ed2ddf3d089bf1ff93f60470d79ea17dda",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-t90ms-front.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 313620,
+            "sha256": "1163407c74001d71eb8104f9fd5375ce3268299b9099ab0cc48a6dc318607af9",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/idex2025-new-t90ms-side.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 359098,
+            "sha256": "3c6e3bbc62b652030f69bf4f340f492391fad9f0c6165e7c99dd93cab76a2b63",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k2pl-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 170684,
+            "sha256": "d07c142cab7202e298968d83e0de9cbbb2c59a8a814a10ab4fbe3a8c40043309",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k2pl-01.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 122658,
+            "sha256": "735b97e00eae905e9fe53f2b23483dec5d21bb04edf5a2e6c145b313fe2465f6",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k2pl-05.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 227336,
+            "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k2pl-08.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 90994,
+            "sha256": "77b4e4a21dffca8e714884022b9c511566c2a0a296d66a6f54dc2ae79c5c1bbf",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k2pl-09.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 183356,
+            "sha256": "aca6680ea2ff6b2c7a9159356848faa911e46769120b27a40057e7ff16b3514b",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k2pl-10.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 101760,
+            "sha256": "74042ccaca9e680dd01b30393fa7b80d2bcd340160e798fe31f3d661b4848d0f",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k2pl-11.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 108854,
+            "sha256": "a6c55340ca54f4aba3f3031d87598c16645109db9d1f2fb32618b21cc5072454",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k2pl-17.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 266650,
+            "sha256": "3bfe15fb68e24993dc1b83c843583f3753fd9430941a14822150cd3c00927337",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k2pl-23.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 122256,
+            "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k808-peru-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 107834,
+            "sha256": "e2b6aca06dec2953da24a510d0f33cf73a5d5f411539a631e63d6e19549adf9b",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k808-peru-12.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 509296,
+            "sha256": "2b0f1f6bf39db012c28fa198cc43c1169a3de746fdb9ed72dbf4a3a85b0e0973",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k808-peru-14.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 390294,
+            "sha256": "b238205a6b0b8951d92d9f3709e77a03e2f025c2dad8044eb6fd8c72d1ec18cf",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k808-peru-15.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 439848,
+            "sha256": "8f63c7226570e1e5363d84fc4ce1997b4380df0dd3c0b80ff101a733e2e993a4",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k9a3-02.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 62706,
+            "sha256": "f9d30ff810da2c998ee3d07b215388bad3275fe866c7c3edb9f969834ab04d25",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k9a3-03.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 191384,
+            "sha256": "aaf24af505a5b7b17d4a6faa30d2ff3332f9a98e408a752b95bbf8fccec56e5c",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k9a3-07.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 104330,
+            "sha256": "41df7fff5d51af5e282bc138d54edaaa60267bb094db84a239fd7f61a4f341bc",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/k9a3-11.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 404398,
+            "sha256": "59473682382b3adc312870dfdf99d705f6208a947260ff1e031deb8ae06ee9ed",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/kaplan-hybrid-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 167210,
+            "sha256": "2793449fd6e58feae4a17e4472e0724ffa55066248f37d3ced4c08c931c8d9d2",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/leopard-2a8-02.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 309676,
+            "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/leopard-2a8-04.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 145892,
+            "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/leopard-2a8-07.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 46876,
+            "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/lynx-skyranger35-03.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 342876,
+            "sha256": "077aa8b758ffa16300320af3e9d9cec88dbe6bd64927aa6962ad07a7ac39878e",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/lynx-skyranger35-05.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 158086,
+            "sha256": "d03a2e66b69b36a584a4c848898691c1b4b88dea8fdc4da360af153ebafcee62",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/lynx-skyranger35-07.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 136660,
+            "sha256": "cb870eb53e653c35dc21428552ec8501499a211249f43be9debb8a5e7647613e",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/pars-alpha-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 128670,
+            "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/pars-alpha-11.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 143864,
+            "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/patria-6x6-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 378042,
+            "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/patria-6x6-01.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 156472,
+            "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/patria-6x6-02.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 392676,
+            "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/patria-6x6-04.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 239452,
+            "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/patria-6x6-08.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 292640,
+            "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/rch155-tracked-03.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 114518,
+            "sha256": "7a6b2344d0d3d38a3fb3a07a3d8da28898be4c2ab8c3e965e893cdfda3585ca3",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/rch155-tracked-05.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 146400,
+            "sha256": "49e650894bf87a3760fc6860be722e4d24e81155c0fac7bae232659e60cc68da",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/rch155-tracked-06.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 116634,
+            "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/themis-k-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 448990,
+            "sha256": "81c4ea6179f5e2483bf1e8f5ca2f79874a46053d4804ea51ee8699f3660fcd13",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/themis-k-21.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 214990,
+            "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "assets/photos/tulpar-00.webp",
+            "extension": ".webp",
+            "type": "image",
+            "bytes": 251040,
+            "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8",
+            "includedInDist": true,
+            "distHashMatches": true
+          },
+          {
+            "path": "docs/evidence/stage3/desktop-map.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 133346,
+            "sha256": "3cb501c860c77a59fae8cbbc5a0b92b1bb1f0b788caf5e8d4b01a51623ad2010",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "docs/evidence/stage3/desktop-photo.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 136435,
+            "sha256": "8ba3bff398050ecc24b6d133583a17cc927be5d550eb0f9b3715672a83c47eeb",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "docs/evidence/stage3/mobile-map.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 68955,
+            "sha256": "9b769403840cc41957da48952726225008b7237dd1d04504bd8fe7b13552a84d",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "docs/evidence/stage3/mobile-photo.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 41938,
+            "sha256": "eb23545ddca0ee54f05c046e734888bd871d0946c1513288778f89e20bc4f45d",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "docs/screenshots/adex2025-review-v1.png",
+            "extension": ".png",
+            "type": "image",
+            "bytes": 135454,
+            "sha256": "462ce8547ac125af73fee951093bd6acd205ffec6c9ddba23c46a69a6128faaf",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "docs/screenshots/fieldnote-v1.1-preview.png",
+            "extension": ".png",
+            "type": "image",
+            "bytes": 125746,
+            "sha256": "5373ba20d4acbf442662c4b3118d543577900111327be9b4a6f414cbf5dbc96e",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "docs/screenshots/overview-v0.1.0.png",
+            "extension": ".png",
+            "type": "image",
+            "bytes": 95145,
+            "sha256": "d35e9656d7795b194a71af306ce44d2977add3502e2bfa15e439a73fc2442d74",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "docs/screenshots/public-v0.1.1.png",
+            "extension": ".png",
+            "type": "image",
+            "bytes": 95006,
+            "sha256": "5367dfa46589dd35493b86fe6de45e427a190a4ae790496e11b64f466df51abf",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "review/screenshots/company-desktop.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 119683,
+            "sha256": "5295eba3ed214298b5610daf93b5fe55bdf97fbd7879e03414af28a995af400c",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "review/screenshots/equipment-mobile.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 48496,
+            "sha256": "b3c913bf1d1b12d38a6d86f92c2d0844ca8d48b4cbd67cfa2fb3125c3297c8b0",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "review/screenshots/map-desktop.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 54115,
+            "sha256": "409da358d83f06aa415f6b98212a5d550deb34d00508e44dba16f783094edc0a",
+            "includedInDist": false,
+            "distHashMatches": null
+          },
+          {
+            "path": "review/screenshots/report-desktop.jpg",
+            "extension": ".jpg",
+            "type": "image",
+            "bytes": 132773,
+            "sha256": "ee2f562fcd979725deecba0b6cff5c7c49df4f95e85b887fc418c5845ca0a465",
+            "includedInDist": false,
+            "distHashMatches": null
+          }
+        ],
+        "limitations": [
+          "Tracked inventory only; untracked authoring artifacts are checked separately by the distribution allowlist.",
+          "Binary image text was not OCR-scanned; this inventory verifies paths, size, checksums and deployment membership."
+        ]
+      }
+    },
+    {
+      "id": "distribution_allowlist_and_runtime_parity",
+      "startedAt": "2026-11-15T13:05:47.134Z",
+      "finishedAt": "2026-11-15T13:05:47.477Z",
+      "exitCode": 0,
+      "command": {
+        "executable": "node",
+        "arguments": [
+          "--input-type=module",
+          "--eval",
+          "\nimport fs from 'node:fs';\nimport path from 'node:path';\nimport cp from 'node:child_process';\nimport crypto from 'node:crypto';\nconst walk=p=>fs.statSync(p).isDirectory()?fs.readdirSync(p,{withFileTypes:true}).filter(e=>e.isFile()||e.isDirectory()).flatMap(e=>walk(path.join(p,e.name))):[p.replaceAll('\\\\','/')];\nconst sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');\n\nconst files=walk('dist').sort();\nconst allowed=file=>['dist/index.html','dist/.nojekyll','dist/version.json'].includes(file)||['dist/assets/','dist/src/v2/','dist/data/v2/app/'].some(prefix=>file.startsWith(prefix));\nconst disallowed=files.filter(file=>!allowed(file));\nconst internalPaths=files.filter(file=>/(^|\\/)(docs|research|research-v1\\.1|review-src|event-reports-src)(\\/|$)|(^|\\/)(AGENTS|PROJECT_STATE|TASKS|DECISIONS|EVIDENCE|CHANGELOG)\\.md$|\\/data\\/v2\\/(registry|public|legacy-mapping)\\.json$/i.test(file));\nconst parity=files.filter(file=>!['dist/.nojekyll','dist/version.json'].includes(file)).map(file=>({path:file,sourcePath:file.slice(5),sourceExists:fs.existsSync(file.slice(5)),matchesSource:fs.existsSync(file.slice(5))&&sha(file)===sha(file.slice(5))}));\nconst mismatch=parity.filter(item=>!item.matchesSource);\nconst version=JSON.parse(fs.readFileSync('dist/version.json','utf8')),pkg=JSON.parse(fs.readFileSync('package.json','utf8'));\nconst generatedMetadataValid=fs.readFileSync('dist/.nojekyll').length===0&&version.version===pkg.version;\nconsole.log(JSON.stringify({result:disallowed.length||internalPaths.length||mismatch.length||!generatedMetadataValid?'FAIL':'PASS',buildAllowlistSource:'scripts/build.mjs',buildScriptSHA256:sha('scripts/build.mjs'),fileCount:files.length,allowedPaths:['index.html','.nojekyll','version.json','assets/**','src/v2/**','data/v2/app/**'],disallowed,internalDocumentOrResearchPaths:internalPaths,parityCheckedFileCount:parity.length,mismatches:mismatch,generatedMetadataValid,version,manifest:files.map(file=>({path:file,bytes:fs.statSync(file).size,sha256:sha(file)}))}));\n"
+        ],
+        "cwd": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence",
+        "readOnly": true
+      },
+      "result": {
+        "result": "PASS",
+        "buildAllowlistSource": "scripts/build.mjs",
+        "buildScriptSHA256": "b06bb8c138b9968ee5fac861e695c46f304d4b029733189f2c92cecbcd209ace",
+        "fileCount": 100,
+        "allowedPaths": [
+          "index.html",
+          ".nojekyll",
+          "version.json",
+          "assets/**",
+          "src/v2/**",
+          "data/v2/app/**"
+        ],
+        "disallowed": [],
+        "internalDocumentOrResearchPaths": [],
+        "parityCheckedFileCount": 98,
+        "mismatches": [],
+        "generatedMetadataValid": true,
+        "version": {
+          "version": "2.0.0-stage.4",
+          "build": "2026-11-15T13:03:57.655Z"
+        },
+        "manifest": [
+          {
+            "path": "dist/.nojekyll",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "path": "dist/assets/adex2025/k2pl-event-01.jpg",
+            "bytes": 228154,
+            "sha256": "cf68e69710366d23dd41e3491000c4115565b2f26ebfcc4b3659730a5315ed0b"
+          },
+          {
+            "path": "dist/assets/adex2025/light-105-eurosatory2026-01.jpg",
+            "bytes": 304109,
+            "sha256": "5dd80611f9ad285068567420048071bec0e2a7bf419bda21c71ab195ee482438"
+          },
+          {
+            "path": "dist/assets/adex2025/light-105-eurosatory2026-02.jpg",
+            "bytes": 485042,
+            "sha256": "6604e9ce7273e5afd762fbc309624e7a51a1f2511b5dfaa2bfee2c1c49cbc10b"
+          },
+          {
+            "path": "dist/assets/adex2025/light-105-event-01.jpg",
+            "bytes": 310237,
+            "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72"
+          },
+          {
+            "path": "dist/assets/adex2025/light-105-wds2026-01.jpg",
+            "bytes": 287753,
+            "sha256": "ed5956e7bd51c1577b1e46df189711ee25ae2f5d4531f9370ad05080533b48c5"
+          },
+          {
+            "path": "dist/assets/adex2025/rcws-eurosatory2026-01.jpg",
+            "bytes": 275007,
+            "sha256": "f9e4611325b7f624ea9d56cee9399717e43544163a7f351e1cbcbd816c978941"
+          },
+          {
+            "path": "dist/assets/adex2025/rcws-event-01.jpg",
+            "bytes": 246948,
+            "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb"
+          },
+          {
+            "path": "dist/assets/photos/adex2025-new-kia-family.jpg",
+            "bytes": 452337,
+            "sha256": "a184930d3cff5ad8e49476cedcf8bed5e8b8674ddd99ab61b9d6a2dc218f7693"
+          },
+          {
+            "path": "dist/assets/photos/adex2025-new-kmtv-front.jpg",
+            "bytes": 439007,
+            "sha256": "62a7c344970dbca6cd6dae82f3d532cdf1ba33636883811999b112fb5d1cc1d5"
+          },
+          {
+            "path": "dist/assets/photos/adex2025-new-rotem-booth.jpg",
+            "bytes": 346351,
+            "sha256": "89be393f6aca5a8fae6b36e0f1191d03fc204fef12ee1778daf3b272729a0629"
+          },
+          {
+            "path": "dist/assets/photos/adex2025-new-tasman-front.jpg",
+            "bytes": 413934,
+            "sha256": "627548af6e2c960b4566e7257c2970c39a63b55664ed789460fef1195b69f3bc"
+          },
+          {
+            "path": "dist/assets/photos/arma-ii-00.webp",
+            "bytes": 352404,
+            "sha256": "addbf63377971d9381663c910b70f32e23c91c8f9443afcc17f1b50fe58dc35e"
+          },
+          {
+            "path": "dist/assets/photos/arma-ii-01.webp",
+            "bytes": 475830,
+            "sha256": "ee7c1dff45819b2a7d3057f4685712d3b47f771846a09b172559d9c7d8776298"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-00.webp",
+            "bytes": 351440,
+            "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-01.webp",
+            "bytes": 133060,
+            "sha256": "bde53a504d88c2c4ad98a393539a2cd5162d615aef3590fa7e414cabda426547"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-02.webp",
+            "bytes": 105994,
+            "sha256": "dfa659889afcf61910663afec210b716d98d8c90014b5c2afe0cf24ca6238da3"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-07.webp",
+            "bytes": 124600,
+            "sha256": "d730fae4db1f5275fccdc3b94a5da71b2284dded268ead41da9d3ac4f5972661"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-08.webp",
+            "bytes": 231962,
+            "sha256": "d69f2d5e1178ae5f40e705533fdbaecab10cee1907df3a64785497d4b59f419d"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-12.webp",
+            "bytes": 158648,
+            "sha256": "77f87d835eb150a42a13dec3faf3805d620652374668b23b7d5527f29ae403d8"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-14.webp",
+            "bytes": 106926,
+            "sha256": "806e6803aa0a0370488fe8c052d26c1bb743bee2a29341c2dabc738f5a991f81"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-16.webp",
+            "bytes": 130844,
+            "sha256": "c496d985a7713de8ba9842b6fe36dfacff4c51c6532723b34049c654a078e34d"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-18.webp",
+            "bytes": 212806,
+            "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-19.webp",
+            "bytes": 597506,
+            "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-21.webp",
+            "bytes": 267276,
+            "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6"
+          },
+          {
+            "path": "dist/assets/photos/boxer-miv-22.webp",
+            "bytes": 265420,
+            "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5"
+          },
+          {
+            "path": "dist/assets/photos/cobra-ii-00.webp",
+            "bytes": 436416,
+            "sha256": "2120fb5b5c9317560c6cfc5861dc7dbad64ef858ed5ccbd4158bf05fedd6937b"
+          },
+          {
+            "path": "dist/assets/photos/cobra-ii-08.webp",
+            "bytes": 143476,
+            "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd"
+          },
+          {
+            "path": "dist/assets/photos/dsei2025-new-kia-booth.jpg",
+            "bytes": 392836,
+            "sha256": "05ae2d39572f355278990fb628f6dac75e3b554574212e9823d4d1dd2dd6677f"
+          },
+          {
+            "path": "dist/assets/photos/eurosatory2026-new-kia-booth.jpg",
+            "bytes": 482730,
+            "sha256": "1a22e5316b518f0acd49228dc7e5a0fdbf4856b810b603e90d0092372d5ef62c"
+          },
+          {
+            "path": "dist/assets/photos/eurosatory2026-new-kia-kltv.jpg",
+            "bytes": 450823,
+            "sha256": "db31a7952f3a5ddaae43e48d5ac3f800c4065e3b0368d7bf0e9b79f2fa1c83d3"
+          },
+          {
+            "path": "dist/assets/photos/eurosatory2026-new-kia-tasman.jpg",
+            "bytes": 429522,
+            "sha256": "84ce8f414a08a8ad3b8000b55c4d4833da6ac805489e9e1f38d838408b5767e5"
+          },
+          {
+            "path": "dist/assets/photos/eurosatory2026-new-rotem.jpg",
+            "bytes": 549682,
+            "sha256": "62c5bdd392a2a63340697b73bb7717793a0f1fc85500f076a6530b22259301bd"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-acv-rws.webp",
+            "bytes": 125102,
+            "sha256": "0f6030fd76a7db78166bc68cd9f13a86cd753dbd831744a7ea4493be41772333"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-acv-thruster.webp",
+            "bytes": 131568,
+            "sha256": "6a7aebbe81f0e8bbcf338a136b3cf29385187a4385350956e854f7fdd4b0b43e"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-ajban-441ae.webp",
+            "bytes": 273456,
+            "sha256": "5d48473cfdbcd757aceb18ca3f63eaf5d17ec05d02514ddf20420acfb0aa54ac"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-ajban-442a.webp",
+            "bytes": 263556,
+            "sha256": "b88053b5f20fdb3b4bc9b6242017e05bb66b1aa336fe340b70bc45c29aed91ac"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-ajban-452a.webp",
+            "bytes": 276696,
+            "sha256": "6c923b1e3d2268d3d8b6afd42f8629130e7688d2566582f8d1d79eb1d802ec3c"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-cockerill-ix.webp",
+            "bytes": 221340,
+            "sha256": "91b52fbd2b42f554083f88a45b5a516febb9a5929fe4f7ac953f4e123d71654f"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-hafeet.webp",
+            "bytes": 234206,
+            "sha256": "0bef0345cec60c3e923b0f1f8098876c7d9de10b35c6e64e00b063587c59eb4f"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-havoc-01.webp",
+            "bytes": 215038,
+            "sha256": "d76428520c370a61e8a05463bd05cc5954e5726166ab7e59ca7953fdfcbee3b2"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-havoc-02.webp",
+            "bytes": 241978,
+            "sha256": "caa14f707ff0bbd4a0f8eeebe9257fed2598bf0d7f0f242ddfce1785020afde9"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-havoc-03.webp",
+            "bytes": 231432,
+            "sha256": "4a0e4e56c0c98f2cf6897161d96cc9ed2ddf3d089bf1ff93f60470d79ea17dda"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-t90ms-front.webp",
+            "bytes": 313620,
+            "sha256": "1163407c74001d71eb8104f9fd5375ce3268299b9099ab0cc48a6dc318607af9"
+          },
+          {
+            "path": "dist/assets/photos/idex2025-new-t90ms-side.webp",
+            "bytes": 359098,
+            "sha256": "3c6e3bbc62b652030f69bf4f340f492391fad9f0c6165e7c99dd93cab76a2b63"
+          },
+          {
+            "path": "dist/assets/photos/k2pl-00.webp",
+            "bytes": 170684,
+            "sha256": "d07c142cab7202e298968d83e0de9cbbb2c59a8a814a10ab4fbe3a8c40043309"
+          },
+          {
+            "path": "dist/assets/photos/k2pl-01.webp",
+            "bytes": 122658,
+            "sha256": "735b97e00eae905e9fe53f2b23483dec5d21bb04edf5a2e6c145b313fe2465f6"
+          },
+          {
+            "path": "dist/assets/photos/k2pl-05.webp",
+            "bytes": 227336,
+            "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b"
+          },
+          {
+            "path": "dist/assets/photos/k2pl-08.webp",
+            "bytes": 90994,
+            "sha256": "77b4e4a21dffca8e714884022b9c511566c2a0a296d66a6f54dc2ae79c5c1bbf"
+          },
+          {
+            "path": "dist/assets/photos/k2pl-09.webp",
+            "bytes": 183356,
+            "sha256": "aca6680ea2ff6b2c7a9159356848faa911e46769120b27a40057e7ff16b3514b"
+          },
+          {
+            "path": "dist/assets/photos/k2pl-10.webp",
+            "bytes": 101760,
+            "sha256": "74042ccaca9e680dd01b30393fa7b80d2bcd340160e798fe31f3d661b4848d0f"
+          },
+          {
+            "path": "dist/assets/photos/k2pl-11.webp",
+            "bytes": 108854,
+            "sha256": "a6c55340ca54f4aba3f3031d87598c16645109db9d1f2fb32618b21cc5072454"
+          },
+          {
+            "path": "dist/assets/photos/k2pl-17.webp",
+            "bytes": 266650,
+            "sha256": "3bfe15fb68e24993dc1b83c843583f3753fd9430941a14822150cd3c00927337"
+          },
+          {
+            "path": "dist/assets/photos/k2pl-23.webp",
+            "bytes": 122256,
+            "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942"
+          },
+          {
+            "path": "dist/assets/photos/k808-peru-00.webp",
+            "bytes": 107834,
+            "sha256": "e2b6aca06dec2953da24a510d0f33cf73a5d5f411539a631e63d6e19549adf9b"
+          },
+          {
+            "path": "dist/assets/photos/k808-peru-12.webp",
+            "bytes": 509296,
+            "sha256": "2b0f1f6bf39db012c28fa198cc43c1169a3de746fdb9ed72dbf4a3a85b0e0973"
+          },
+          {
+            "path": "dist/assets/photos/k808-peru-14.webp",
+            "bytes": 390294,
+            "sha256": "b238205a6b0b8951d92d9f3709e77a03e2f025c2dad8044eb6fd8c72d1ec18cf"
+          },
+          {
+            "path": "dist/assets/photos/k808-peru-15.webp",
+            "bytes": 439848,
+            "sha256": "8f63c7226570e1e5363d84fc4ce1997b4380df0dd3c0b80ff101a733e2e993a4"
+          },
+          {
+            "path": "dist/assets/photos/k9a3-02.webp",
+            "bytes": 62706,
+            "sha256": "f9d30ff810da2c998ee3d07b215388bad3275fe866c7c3edb9f969834ab04d25"
+          },
+          {
+            "path": "dist/assets/photos/k9a3-03.webp",
+            "bytes": 191384,
+            "sha256": "aaf24af505a5b7b17d4a6faa30d2ff3332f9a98e408a752b95bbf8fccec56e5c"
+          },
+          {
+            "path": "dist/assets/photos/k9a3-07.webp",
+            "bytes": 104330,
+            "sha256": "41df7fff5d51af5e282bc138d54edaaa60267bb094db84a239fd7f61a4f341bc"
+          },
+          {
+            "path": "dist/assets/photos/k9a3-11.webp",
+            "bytes": 404398,
+            "sha256": "59473682382b3adc312870dfdf99d705f6208a947260ff1e031deb8ae06ee9ed"
+          },
+          {
+            "path": "dist/assets/photos/kaplan-hybrid-00.webp",
+            "bytes": 167210,
+            "sha256": "2793449fd6e58feae4a17e4472e0724ffa55066248f37d3ced4c08c931c8d9d2"
+          },
+          {
+            "path": "dist/assets/photos/leopard-2a8-02.webp",
+            "bytes": 309676,
+            "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78"
+          },
+          {
+            "path": "dist/assets/photos/leopard-2a8-04.webp",
+            "bytes": 145892,
+            "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95"
+          },
+          {
+            "path": "dist/assets/photos/leopard-2a8-07.webp",
+            "bytes": 46876,
+            "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea"
+          },
+          {
+            "path": "dist/assets/photos/lynx-skyranger35-03.webp",
+            "bytes": 342876,
+            "sha256": "077aa8b758ffa16300320af3e9d9cec88dbe6bd64927aa6962ad07a7ac39878e"
+          },
+          {
+            "path": "dist/assets/photos/lynx-skyranger35-05.webp",
+            "bytes": 158086,
+            "sha256": "d03a2e66b69b36a584a4c848898691c1b4b88dea8fdc4da360af153ebafcee62"
+          },
+          {
+            "path": "dist/assets/photos/lynx-skyranger35-07.webp",
+            "bytes": 136660,
+            "sha256": "cb870eb53e653c35dc21428552ec8501499a211249f43be9debb8a5e7647613e"
+          },
+          {
+            "path": "dist/assets/photos/pars-alpha-00.webp",
+            "bytes": 128670,
+            "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35"
+          },
+          {
+            "path": "dist/assets/photos/pars-alpha-11.webp",
+            "bytes": 143864,
+            "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855"
+          },
+          {
+            "path": "dist/assets/photos/patria-6x6-00.webp",
+            "bytes": 378042,
+            "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9"
+          },
+          {
+            "path": "dist/assets/photos/patria-6x6-01.webp",
+            "bytes": 156472,
+            "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54"
+          },
+          {
+            "path": "dist/assets/photos/patria-6x6-02.webp",
+            "bytes": 392676,
+            "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1"
+          },
+          {
+            "path": "dist/assets/photos/patria-6x6-04.webp",
+            "bytes": 239452,
+            "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363"
+          },
+          {
+            "path": "dist/assets/photos/patria-6x6-08.webp",
+            "bytes": 292640,
+            "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18"
+          },
+          {
+            "path": "dist/assets/photos/rch155-tracked-03.webp",
+            "bytes": 114518,
+            "sha256": "7a6b2344d0d3d38a3fb3a07a3d8da28898be4c2ab8c3e965e893cdfda3585ca3"
+          },
+          {
+            "path": "dist/assets/photos/rch155-tracked-05.webp",
+            "bytes": 146400,
+            "sha256": "49e650894bf87a3760fc6860be722e4d24e81155c0fac7bae232659e60cc68da"
+          },
+          {
+            "path": "dist/assets/photos/rch155-tracked-06.webp",
+            "bytes": 116634,
+            "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e"
+          },
+          {
+            "path": "dist/assets/photos/themis-k-00.webp",
+            "bytes": 448990,
+            "sha256": "81c4ea6179f5e2483bf1e8f5ca2f79874a46053d4804ea51ee8699f3660fcd13"
+          },
+          {
+            "path": "dist/assets/photos/themis-k-21.webp",
+            "bytes": 214990,
+            "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1"
+          },
+          {
+            "path": "dist/assets/photos/tulpar-00.webp",
+            "bytes": 251040,
+            "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8"
+          },
+          {
+            "path": "dist/data/v2/app/events/adex-2025.json",
+            "bytes": 887092,
+            "sha256": "0ecec4733fca101c6af4af10049b9e8c7558ef2e810b31f406caa0221714c903"
+          },
+          {
+            "path": "dist/data/v2/app/events/dsei-2025.json",
+            "bytes": 2323311,
+            "sha256": "4369f5bc17cc10e312713c65fc05ff1e7c73af67d71193d7371ad61d5b27e3e0"
+          },
+          {
+            "path": "dist/data/v2/app/events/eurosatory-2026.json",
+            "bytes": 163970,
+            "sha256": "f2b6063a1444e3c1d8223e6708d921f91e097ab2c54dda05e61210e11132fd6c"
+          },
+          {
+            "path": "dist/data/v2/app/events/idex-2025.json",
+            "bytes": 125561,
+            "sha256": "cc3f709e291a4898e56f30d3194bffa7944e1cbd64fd895ccf8a57a32b3eaa37"
+          },
+          {
+            "path": "dist/data/v2/app/events/saha-2026.json",
+            "bytes": 2059533,
+            "sha256": "ecc92117b80b6aa1179b7c8c4d0407570a2143189cf7c8de78c52f272f8a04b7"
+          },
+          {
+            "path": "dist/data/v2/app/index.json",
+            "bytes": 2998,
+            "sha256": "ff86e58ee72b61dc356a37013d26e349c7c652cd6dd85c868c200f280726f137"
+          },
+          {
+            "path": "dist/index.html",
+            "bytes": 3104,
+            "sha256": "23ff2d0b1e6e94f5391a0821743f1516d09498ed38005982b1014ade0035a4ad"
+          },
+          {
+            "path": "dist/src/v2/app.css",
+            "bytes": 11625,
+            "sha256": "e34d3766d9041184bac5d2e5a41967b0ac98b3a0e9c6335d11f2b7cfad476188"
+          },
+          {
+            "path": "dist/src/v2/app.js",
+            "bytes": 22247,
+            "sha256": "864d7a17f606ac8982b3af24209902d56d2f46c9276acda9b882b45ee92087f2"
+          },
+          {
+            "path": "dist/src/v2/data.js",
+            "bytes": 4929,
+            "sha256": "dce5cae03a3c5e201bead970bc51c8aa96c35e6364c5d6c54774b8dc62ff19f2"
+          },
+          {
+            "path": "dist/src/v2/details.css",
+            "bytes": 21922,
+            "sha256": "5908c81b13a33aba4b19dc9b9324206df5056dc99dc68fca987221260a14fab3"
+          },
+          {
+            "path": "dist/src/v2/details.js",
+            "bytes": 46571,
+            "sha256": "b60d010c7f758ee725db45afc7b36c627c0b594101ef05fafb1c0464151913c2"
+          },
+          {
+            "path": "dist/src/v2/map-view.css",
+            "bytes": 4562,
+            "sha256": "ba21e7659fee1748f904a8c9234d3fc0b8292235a2a01881c6b773af468a6540"
+          },
+          {
+            "path": "dist/src/v2/map-view.js",
+            "bytes": 26555,
+            "sha256": "ca8987d0a1dc9ae0243cec3ebca504298617192341e92f1ec0f599b050d2bb0d"
+          },
+          {
+            "path": "dist/src/v2/report.css",
+            "bytes": 7526,
+            "sha256": "6456e601ed3938c79f2481eddac77d146cf4f7b80059b24c7ec38681d0f321af"
+          },
+          {
+            "path": "dist/src/v2/report.js",
+            "bytes": 9607,
+            "sha256": "5b6a323d6af94537097d4e56bdbe3764aeff32838757b873aca6deed66f5b0d9"
+          },
+          {
+            "path": "dist/src/v2/state.js",
+            "bytes": 3424,
+            "sha256": "5b20029424b637254d68d5f523eeb24f7324fc3c4daf390d958605760cb88b02"
+          },
+          {
+            "path": "dist/version.json",
+            "bytes": 71,
+            "sha256": "4c73b2f52534d84f9379430e9d634f987c4eb1746afdce2497974846e43d868c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pure_compile_api_generated_and_distribution_validation",
+      "startedAt": "2026-11-15T13:05:47.477Z",
+      "finishedAt": "2026-11-15T13:05:49.120Z",
+      "exitCode": 0,
+      "command": {
+        "executable": "node",
+        "arguments": [
+          "--input-type=module",
+          "--eval",
+          "\nimport fs from 'node:fs';\nimport path from 'node:path';\nimport cp from 'node:child_process';\nimport crypto from 'node:crypto';\nconst walk=p=>fs.statSync(p).isDirectory()?fs.readdirSync(p,{withFileTypes:true}).filter(e=>e.isFile()||e.isDirectory()).flatMap(e=>walk(path.join(p,e.name))):[p.replaceAll('\\\\','/')];\nconst sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');\n\nimport {isDeepStrictEqual} from 'node:util';\nconst sameJSON=(actual,expected)=>isDeepStrictEqual(JSON.parse(JSON.stringify(actual)),expected);\nimport {compileRegistry,publicProjection} from './scripts/compile-v2-data.mjs';\nimport {compileAppData} from './scripts/compile-v2-app.mjs';\nimport {readResearchBundles} from './scripts/research-v2.mjs';\nconst read=file=>JSON.parse(fs.readFileSync(file,'utf8'));\nconst directory=dir=>fs.readdirSync(dir).filter(file=>file.endsWith('.json')).sort().map(file=>read(path.join(dir,file)));\nconst researchBundles=await readResearchBundles(process.cwd());\nconst registry=compileRegistry({catalog:read('data/catalog.json'),eventReports:read('data/event-reports.json'),review:read('data/review.json'),reviewPhotos:read('data/review-photos.json'),ledgers:directory('data/v2/collection'),mapBundles:directory('data/v2/maps'),identityAliases:read('data/v2/entity-aliases.json'),researchBundles});\nconst publicData=publicProjection(registry),narratives=read('data/v2/editorial/product-narratives.json'),reports=read('data/v2/editorial/event-reports.json');\nconst editorialBundles=fs.readdirSync('data/v2/editorial').filter(file=>file.endsWith('.json')&&!['product-narratives.json','event-reports.json'].includes(file)).sort().map(file=>read('data/v2/editorial/'+file));\nconst output=compileAppData({publicData,registry,taxonomy:read('data/v2/taxonomy.json'),mapDisplay:read('data/v2/map-display.json'),editorialBundles,researchBundles,productNarratives:narratives.narratives.map(item=>({asOf:narratives.asOf,...item})),reportContents:reports.reports.map(item=>({asOf:reports.asOf,...item}))});\nconst patterns=[{\"id\":\"retired_camel_field\",\"source\":\"workConnection\"},{\"id\":\"retired_snake_predicate\",\"source\":\"work_connection\"},{\"id\":\"first_person_company_ko\",\"source\":\"당사|우리\\\\s*회사\"},{\"id\":\"internal_work_relation_ko\",\"source\":\"업무\\\\s*(?:연결|관련|연계)|체계개발과의\\\\s*연결\"},{\"id\":\"internal_work_relation_en\",\"source\":\"Rotem\\\\s+work\\\\s+connection|our\\\\s+company|our\\\\s+work\"}];\nconst bannedMatches=[];\nfor(const [outputName,value] of Object.entries({registry,publicData,app:output})){const serialized=JSON.stringify(value);for(const pattern of patterns)if(new RegExp(pattern.source,'i').test(serialized))bannedMatches.push({output:outputName,patternId:pattern.id});}\nconst parity=[\n {file:'data/v2/registry.json',equal:sameJSON(registry,read('data/v2/registry.json'))},\n {file:'data/v2/public.json',equal:sameJSON(publicData,read('data/v2/public.json'))},\n {file:'data/v2/app/index.json',equal:sameJSON(output.index,read('data/v2/app/index.json'))},\n {file:'dist/data/v2/app/index.json',equal:sameJSON(output.index,read('dist/data/v2/app/index.json'))}\n];\nconst eventCounts=[];\nfor(const [eventId,event] of Object.entries(output.events)){\n for(const prefix of ['data/v2/app/events/','dist/data/v2/app/events/'])parity.push({file:prefix+eventId+'.json',equal:sameJSON(event,read(prefix+eventId+'.json'))});\n eventCounts.push({eventId,companies:event.companies.length,products:event.products.length,productsWithNarrative:event.products.filter(p=>p.narrative).length,narrativeSections:event.products.reduce((n,p)=>n+(p.narrative?.sections.length||0),0),photos:event.photos.length,eventPhotoIds:event.eventPhotoIds.length,eventPhotos:event.photos.filter(p=>p.context==='event').length,displayablePhotos:event.photos.filter(p=>Boolean(p.src)).length,displayableEventPhotos:event.photos.filter(p=>p.context==='event'&&p.src).length,localImageSrcs:event.photos.filter(p=>p.src?.startsWith('assets/')).length,remoteImageSrcs:event.photos.filter(p=>/^https?:\\/\\//.test(p.src||'')).length,uniqueImageSrcs:new Set(event.photos.map(p=>p.src).filter(Boolean)).size,sources:event.sources.length,hasEditorialReport:Boolean(event.report)});\n}\nconsole.log(JSON.stringify({result:bannedMatches.length||parity.some(item=>!item.equal)?'FAIL':'PASS',apiFunctions:['compileRegistry','publicProjection','compileAppData'],comparisonBoundary:'Compare JSON-serialized API values with parsed generated files; undefined object properties are omitted by the real compiler write boundary.',mutatingWrappersNotInvoked:['compileV2','compileApp','scripts/build.mjs'],bannedMatches,parity,eventCounts,allEventCount:eventCounts.length,narrativeCount:eventCounts.reduce((n,e)=>n+e.productsWithNarrative,0),narrativeSectionCount:eventCounts.reduce((n,e)=>n+e.narrativeSections,0),reportCount:eventCounts.filter(e=>e.hasEditorialReport).length,scopeNote:'Counts describe recorded entries and available evidence, not complete event coverage.'}));\n"
+        ],
+        "cwd": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence",
+        "readOnly": true
+      },
+      "result": {
+        "result": "PASS",
+        "apiFunctions": [
+          "compileRegistry",
+          "publicProjection",
+          "compileAppData"
+        ],
+        "comparisonBoundary": "Compare JSON-serialized API values with parsed generated files; undefined object properties are omitted by the real compiler write boundary.",
+        "mutatingWrappersNotInvoked": [
+          "compileV2",
+          "compileApp",
+          "scripts/build.mjs"
+        ],
+        "bannedMatches": [],
+        "parity": [
+          {
+            "file": "data/v2/registry.json",
+            "equal": true
+          },
+          {
+            "file": "data/v2/public.json",
+            "equal": true
+          },
+          {
+            "file": "data/v2/app/index.json",
+            "equal": true
+          },
+          {
+            "file": "dist/data/v2/app/index.json",
+            "equal": true
+          },
+          {
+            "file": "data/v2/app/events/adex-2025.json",
+            "equal": true
+          },
+          {
+            "file": "dist/data/v2/app/events/adex-2025.json",
+            "equal": true
+          },
+          {
+            "file": "data/v2/app/events/eurosatory-2026.json",
+            "equal": true
+          },
+          {
+            "file": "dist/data/v2/app/events/eurosatory-2026.json",
+            "equal": true
+          },
+          {
+            "file": "data/v2/app/events/dsei-2025.json",
+            "equal": true
+          },
+          {
+            "file": "dist/data/v2/app/events/dsei-2025.json",
+            "equal": true
+          },
+          {
+            "file": "data/v2/app/events/idex-2025.json",
+            "equal": true
+          },
+          {
+            "file": "dist/data/v2/app/events/idex-2025.json",
+            "equal": true
+          },
+          {
+            "file": "data/v2/app/events/saha-2026.json",
+            "equal": true
+          },
+          {
+            "file": "dist/data/v2/app/events/saha-2026.json",
+            "equal": true
+          }
+        ],
+        "eventCounts": [
+          {
+            "eventId": "adex-2025",
+            "companies": 375,
+            "products": 94,
+            "productsWithNarrative": 26,
+            "narrativeSections": 130,
+            "photos": 64,
+            "eventPhotoIds": 41,
+            "eventPhotos": 41,
+            "displayablePhotos": 30,
+            "displayableEventPhotos": 7,
+            "localImageSrcs": 30,
+            "remoteImageSrcs": 0,
+            "uniqueImageSrcs": 30,
+            "sources": 172,
+            "hasEditorialReport": true
+          },
+          {
+            "eventId": "eurosatory-2026",
+            "companies": 64,
+            "products": 9,
+            "productsWithNarrative": 0,
+            "narrativeSections": 0,
+            "photos": 28,
+            "eventPhotoIds": 22,
+            "eventPhotos": 22,
+            "displayablePhotos": 28,
+            "displayableEventPhotos": 22,
+            "localImageSrcs": 13,
+            "remoteImageSrcs": 15,
+            "uniqueImageSrcs": 28,
+            "sources": 38,
+            "hasEditorialReport": false
+          },
+          {
+            "eventId": "dsei-2025",
+            "companies": 1743,
+            "products": 7,
+            "productsWithNarrative": 0,
+            "narrativeSections": 0,
+            "photos": 26,
+            "eventPhotoIds": 6,
+            "eventPhotos": 6,
+            "displayablePhotos": 26,
+            "displayableEventPhotos": 6,
+            "localImageSrcs": 21,
+            "remoteImageSrcs": 5,
+            "uniqueImageSrcs": 26,
+            "sources": 53,
+            "hasEditorialReport": false
+          },
+          {
+            "eventId": "idex-2025",
+            "companies": 36,
+            "products": 10,
+            "productsWithNarrative": 0,
+            "narrativeSections": 0,
+            "photos": 18,
+            "eventPhotoIds": 14,
+            "eventPhotos": 14,
+            "displayablePhotos": 18,
+            "displayableEventPhotos": 14,
+            "localImageSrcs": 18,
+            "remoteImageSrcs": 0,
+            "uniqueImageSrcs": 18,
+            "sources": 32,
+            "hasEditorialReport": false
+          },
+          {
+            "eventId": "saha-2026",
+            "companies": 1467,
+            "products": 8,
+            "productsWithNarrative": 0,
+            "narrativeSections": 0,
+            "photos": 14,
+            "eventPhotoIds": 9,
+            "eventPhotos": 9,
+            "displayablePhotos": 5,
+            "displayableEventPhotos": 0,
+            "localImageSrcs": 5,
+            "remoteImageSrcs": 0,
+            "uniqueImageSrcs": 5,
+            "sources": 27,
+            "hasEditorialReport": false
+          }
+        ],
+        "allEventCount": 5,
+        "narrativeCount": 26,
+        "narrativeSectionCount": 130,
+        "reportCount": 1,
+        "scopeNote": "Counts describe recorded entries and available evidence, not complete event coverage."
+      }
+    },
+    {
+      "id": "non_public_validation_and_instruction_mentions",
+      "startedAt": "2026-11-15T13:05:49.120Z",
+      "finishedAt": "2026-11-15T13:05:49.273Z",
+      "exitCode": 0,
+      "command": {
+        "executable": "node",
+        "arguments": [
+          "--input-type=module",
+          "--eval",
+          "\nimport fs from 'node:fs';\nimport path from 'node:path';\nimport cp from 'node:child_process';\nimport crypto from 'node:crypto';\nconst walk=p=>fs.statSync(p).isDirectory()?fs.readdirSync(p,{withFileTypes:true}).filter(e=>e.isFile()||e.isDirectory()).flatMap(e=>walk(path.join(p,e.name))):[p.replaceAll('\\\\','/')];\nconst sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');\n\nconst patterns=[{\"id\":\"retired_camel_field\",\"source\":\"workConnection\"},{\"id\":\"retired_snake_predicate\",\"source\":\"work_connection\"},{\"id\":\"first_person_company_ko\",\"source\":\"당사|우리\\\\s*회사\"},{\"id\":\"internal_work_relation_ko\",\"source\":\"업무\\\\s*(?:연결|관련|연계)|체계개발과의\\\\s*연결\"},{\"id\":\"internal_work_relation_en\",\"source\":\"Rotem\\\\s+work\\\\s+connection|our\\\\s+company|our\\\\s+work\"}];\nconst files=[...walk('docs'),...walk('tests')].filter(file=>file!=='docs/evidence/REDESIGN_PUBLIC_AUDIT.json'&&/\\.(md|txt|json|mjs|js)$/i.test(file));\nconst locations=[];\nfor(const file of files){const lines=fs.readFileSync(file,'utf8').split(/\\r?\\n/);for(let i=0;i<lines.length;i++){const ids=patterns.filter(pattern=>new RegExp(pattern.source,'i').test(lines[i])).map(pattern=>pattern.id);if(ids.length)locations.push({file,line:i+1,patternIds:ids,classification:file.startsWith('tests/')?'test_fixture_or_validation_token':'non_public_development_document',includedInDist:fs.existsSync('dist/'+file)});}}\nconsole.log(JSON.stringify({result:locations.some(item=>item.includedInDist)?'FAIL':'PASS',locationCount:locations.length,fileCount:new Set(locations.map(item=>item.file)).size,locations,rule:'Validation tokens and non-public development/instruction documents are classified separately. No matched text is copied into this audit.',limitations:['This classification is deployment-scope exclusion, not a claim that every historical document is free of old wording.']}));\n"
+        ],
+        "cwd": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence",
+        "readOnly": true
+      },
+      "result": {
+        "result": "PASS",
+        "locationCount": 34,
+        "fileCount": 21,
+        "locations": [
+          {
+            "file": "docs/evidence/REDESIGN_AUDIT_DATA.json",
+            "line": 510,
+            "patternIds": [
+              "retired_camel_field",
+              "retired_snake_predicate"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/evidence/REDESIGN_AUDIT_DATA.json",
+            "line": 557,
+            "patternIds": [
+              "retired_camel_field"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/evidence/REDESIGN_AUDIT_DATA.json",
+            "line": 562,
+            "patternIds": [
+              "retired_camel_field"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/evidence/REDESIGN_AUDIT_DATA.json",
+            "line": 644,
+            "patternIds": [
+              "first_person_company_ko",
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/evidence/REDESIGN_AUDIT_DATA.json",
+            "line": 645,
+            "patternIds": [
+              "first_person_company_ko",
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/evidence/REDESIGN_AUDIT_DATA.json",
+            "line": 646,
+            "patternIds": [
+              "retired_camel_field"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_BRIEF.md",
+            "line": 19,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_BRIEF.md",
+            "line": 37,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_DATA_CONTRACT.md",
+            "line": 107,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_HANDOFF.md",
+            "line": 34,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_STAGE_2.md",
+            "line": 48,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_STAGE_3.md",
+            "line": 43,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_STAGE_3.md",
+            "line": 55,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_STAGE_3_DATA.md",
+            "line": 45,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_STAGE_4.md",
+            "line": 33,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXECUTIVE_V2_STAGE_4_DATA.md",
+            "line": 93,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXHIBITION_RESEARCH_PROTOCOL.md",
+            "line": 7,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/EXHIBITION_RESEARCH_PROTOCOL.md",
+            "line": 33,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
+            "line": 14,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/REDESIGN_REVIEW_2026-11-15.md",
+            "line": 57,
+            "patternIds": [
+              "retired_camel_field"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/REDESIGN_REVIEW_2026-11-15.md",
+            "line": 65,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/research-v2/idex-2025.md",
+            "line": 81,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/research-v2/redesign-content-rotem.json",
+            "line": 15,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/research-v2/REDESIGN_CONTENT_PLAN_2026-11-15.md",
+            "line": 35,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/research-v2/saha-2026.md",
+            "line": 65,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/research-v2/stage3-cases.md",
+            "line": 73,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/research-v2/stage4-mission-systems.md",
+            "line": 5,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "docs/research-v2/stage4-small-systems.md",
+            "line": 80,
+            "patternIds": [
+              "internal_work_relation_ko"
+            ],
+            "classification": "non_public_development_document",
+            "includedInDist": false
+          },
+          {
+            "file": "tests/v2-details.test.mjs",
+            "line": 9,
+            "patternIds": [
+              "retired_camel_field"
+            ],
+            "classification": "test_fixture_or_validation_token",
+            "includedInDist": false
+          },
+          {
+            "file": "tests/v2-details.test.mjs",
+            "line": 33,
+            "patternIds": [
+              "first_person_company_ko"
+            ],
+            "classification": "test_fixture_or_validation_token",
+            "includedInDist": false
+          },
+          {
+            "file": "tests/v2-details.test.mjs",
+            "line": 34,
+            "patternIds": [
+              "first_person_company_ko"
+            ],
+            "classification": "test_fixture_or_validation_token",
+            "includedInDist": false
+          },
+          {
+            "file": "tests/v2-details.test.mjs",
+            "line": 35,
+            "patternIds": [
+              "first_person_company_ko"
+            ],
+            "classification": "test_fixture_or_validation_token",
+            "includedInDist": false
+          },
+          {
+            "file": "tests/v2-research.test.mjs",
+            "line": 39,
+            "patternIds": [
+              "retired_camel_field"
+            ],
+            "classification": "test_fixture_or_validation_token",
+            "includedInDist": false
+          },
+          {
+            "file": "tests/v2-research.test.mjs",
+            "line": 42,
+            "patternIds": [
+              "retired_camel_field",
+              "retired_snake_predicate"
+            ],
+            "classification": "test_fixture_or_validation_token",
+            "includedInDist": false
+          }
+        ],
+        "rule": "Validation tokens and non-public development/instruction documents are classified separately. No matched text is copied into this audit.",
+        "limitations": [
+          "This classification is deployment-scope exclusion, not a claim that every historical document is free of old wording."
+        ]
+      }
+    },
+    {
+      "id": "history_object_preservation",
+      "startedAt": "2026-11-15T13:05:49.273Z",
+      "finishedAt": "2026-11-15T13:05:49.626Z",
+      "exitCode": 0,
+      "command": {
+        "executable": "node",
+        "arguments": [
+          "--input-type=module",
+          "--eval",
+          "\nimport cp from 'node:child_process';\nconst requested=['8cc0bcd','91dee14','546838f'];\nconst commits=requested.map(ref=>{const lines=cp.execFileSync('git',['show','-s','--format=%H%n%s',ref],{encoding:'utf8'}).trim().split('\\n');cp.execFileSync('git',['cat-file','-e',lines[0]+'^{commit}']);return {requestedRef:ref,commit:lines[0],subject:lines.slice(1).join('\\n'),objectExists:true};});\nconsole.log(JSON.stringify({result:'PASS',commits,meaning:'Existing history objects remain available. Public working-tree content cleanup is separate from history preservation.',historyRewrittenByAudit:false,originalFilesDeletedByAudit:false,remoteReachabilityNotChecked:true}));\n"
+        ],
+        "cwd": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence",
+        "readOnly": true
+      },
+      "result": {
+        "result": "PASS",
+        "commits": [
+          {
+            "requestedRef": "8cc0bcd",
+            "commit": "8cc0bcdac335221ce0f40bbc540d9a5baf76f3ec",
+            "subject": "feat: implement FIELDNOTE v2 exhibition maps and sourced company reports",
+            "objectExists": true
+          },
+          {
+            "requestedRef": "91dee14",
+            "commit": "91dee14bbd21c172cd127e18409ad9c582f5c9bc",
+            "subject": "feat: expand ADEX 2025 research with 18 companies and reusable evidence protocol",
+            "objectExists": true
+          },
+          {
+            "requestedRef": "546838f",
+            "commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41",
+            "subject": "Expand ADEX second research batch and verify Hall 8 labels",
+            "objectExists": true
+          }
+        ],
+        "meaning": "Existing history objects remain available. Public working-tree content cleanup is separate from history preservation.",
+        "historyRewrittenByAudit": false,
+        "originalFilesDeletedByAudit": false,
+        "remoteReachabilityNotChecked": true
+      }
+    },
+    {
+      "id": "regex_whitespace_escape_self_test",
+      "exitCode": 0,
+      "command": {
+        "executable": "node",
+        "arguments": [
+          "--input-type=module",
+          "--eval",
+          "import fs from 'node:fs'; const audit=JSON.parse(fs.readFileSync('docs/evidence/REDESIGN_PUBLIC_AUDIT.json','utf8')); const cases=[['retired_camel_field','workConnection'],['retired_snake_predicate','work_connection'],['first_person_company_ko','우리 회사'],['first_person_company_ko','우리\\t회사'],['first_person_company_ko','당사'],['internal_work_relation_ko','업무 연결'],['internal_work_relation_ko','업무관련'],['internal_work_relation_ko','업무 연계'],['internal_work_relation_en','Rotem work connection'],['internal_work_relation_en','our company']]; const checks=cases.map(([id,input])=>({patternId:id,input,matched:new RegExp(audit.prohibitedPatterns.find(p=>p.id===id).source,'i').test(input)})); const negatives=[['first_person_company_ko','우리s회사'],['internal_work_relation_ko','업무s연결']].map(([id,input])=>({patternId:id,input,matched:new RegExp(audit.prohibitedPatterns.find(p=>p.id===id).source,'i').test(input)})); console.log(JSON.stringify({result:checks.every(c=>c.matched)&&negatives.every(c=>!c.matched)?'PASS':'FAIL',positiveChecks:checks,negativeChecks:negatives,meaning:'The parsed source strings retain a single regex whitespace escape; JSON display escaping is not a doubled regex escape.'}));"
+        ],
+        "cwd": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence",
+        "readOnly": true
+      },
+      "result": {
+        "result": "PASS",
+        "positiveChecks": [
+          {
+            "patternId": "retired_camel_field",
+            "input": "workConnection",
+            "matched": true
+          },
+          {
+            "patternId": "retired_snake_predicate",
+            "input": "work_connection",
+            "matched": true
+          },
+          {
+            "patternId": "first_person_company_ko",
+            "input": "우리 회사",
+            "matched": true
+          },
+          {
+            "patternId": "first_person_company_ko",
+            "input": "우리\t회사",
+            "matched": true
+          },
+          {
+            "patternId": "first_person_company_ko",
+            "input": "당사",
+            "matched": true
+          },
+          {
+            "patternId": "internal_work_relation_ko",
+            "input": "업무 연결",
+            "matched": true
+          },
+          {
+            "patternId": "internal_work_relation_ko",
+            "input": "업무관련",
+            "matched": true
+          },
+          {
+            "patternId": "internal_work_relation_ko",
+            "input": "업무 연계",
+            "matched": true
+          },
+          {
+            "patternId": "internal_work_relation_en",
+            "input": "Rotem work connection",
+            "matched": true
+          },
+          {
+            "patternId": "internal_work_relation_en",
+            "input": "our company",
+            "matched": true
+          }
+        ],
+        "negativeChecks": [
+          {
+            "patternId": "first_person_company_ko",
+            "input": "우리s회사",
+            "matched": false
+          },
+          {
+            "patternId": "internal_work_relation_ko",
+            "input": "업무s연결",
+            "matched": false
+          }
+        ],
+        "meaning": "The parsed source strings retain a single regex whitespace escape; JSON display escaping is not a doubled regex escape."
+      }
+    }
+  ],
+  "readOnlyFileStateCheck": {
+    "result": "PASS",
+    "monitoredRoots": [
+      "scripts",
+      "data",
+      "src/v2",
+      "dist",
+      "assets",
+      "index.html",
+      "package.json"
+    ],
+    "filesBefore": 258,
+    "filesAfter": 258,
+    "changedFiles": [],
+    "method": "SHA256 plus complete path-set comparison immediately before and after all read-only checks",
+    "snapshotBeforeSHA256": "4c93e904518c837313efe6cfb126536b03fbc2e22e815b09043d2dc9cf223b03",
+    "snapshotAfterSHA256": "4c93e904518c837313efe6cfb126536b03fbc2e22e815b09043d2dc9cf223b03",
+    "auditOutputExcluded": "docs/evidence/REDESIGN_PUBLIC_AUDIT.json"
+  },
+  "filesWrittenByThisAudit": [
+    "docs/evidence/REDESIGN_PUBLIC_AUDIT.json"
+  ],
+  "auditMethodRevision": {
+    "initialAttemptResult": "FAIL",
+    "initialFailure": "Raw JavaScript API objects were compared directly to parsed JSON files with isDeepStrictEqual. Some in-memory properties disappear at the actual JSON.stringify write boundary, so public.json and every event shard failed that unsuitable comparison while registry/index and disk-to-dist byte checks passed.",
+    "initialFailedFiles": [
+      "data/v2/public.json",
+      "data/v2/app/events/adex-2025.json",
+      "dist/data/v2/app/events/adex-2025.json",
+      "data/v2/app/events/eurosatory-2026.json",
+      "dist/data/v2/app/events/eurosatory-2026.json",
+      "data/v2/app/events/dsei-2025.json",
+      "dist/data/v2/app/events/dsei-2025.json",
+      "data/v2/app/events/idex-2025.json",
+      "dist/data/v2/app/events/idex-2025.json",
+      "data/v2/app/events/saha-2026.json",
+      "dist/data/v2/app/events/saha-2026.json"
+    ],
+    "correction": "Compare JSON.parse(JSON.stringify(apiValue)) with the parsed generated file. This reproduces the real compiler serialization boundary; object key/order semantics remain deep-compared. No input, generated app or dist file was modified to satisfy the comparison.",
+    "verification": "All serialized API outputs now equal both generated and deployed JSON. All six original read-only checks and the added regex self-test pass. Source/runtime hashes are unchanged before/after.",
+    "initialFailureRetainedHere": true
+  }
+}

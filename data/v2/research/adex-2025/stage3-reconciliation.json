@@ -9,7 +9,7 @@
       "extendsEditorialId": "case-adex-2025-hyundai-rotem",
       "review": {
         "relevance": "confirmed",
-        "reason": "당사 차륜형장갑차 계열 개발에서 임무실 요구가 차체·공조·전원·정비 접근성에 미치는 변화를 비교할 기준 사례로 활용할 수 있습니다.",
+        "reason": "차륜장갑차의 임무별 파생과 무인 플랫폼을 함께 제시해, 공통 차체를 유지하면서 무엇을 바꾸어야 하는지 살펴볼 사례입니다.",
         "categories": [
           "complete_vehicle",
           "interiors_modules",
@@ -550,7 +550,7 @@
       "extendsEditorialId": "case-adex-2025-hyundai-wia",
       "review": {
         "relevance": "confirmed",
-        "reason": "당사 차륜형장갑차의 선택 임무장비 검토 시 차량의 전원·냉각·장착부·전자파 적합성 요구를 장비 구성별로 나누어 확인할 가치가 있습니다.",
+        "reason": "소형 RCWS와 대드론 장비를 각각 전시해, 차륜 플랫폼에서 임무장비의 탑재 범위와 차량 측 통합 부담을 구분해 볼 사례입니다.",
         "categories": [
           "unmanned_remote",
           "optics_awareness"

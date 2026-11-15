@@ -21,7 +21,7 @@ app 디렉터리는 생성물이므로 Git에서 제외하고 원천·컴파일�
 | 행사 파일 | `event`, `taxonomy`, `companies`, `products`, `photos`, `eventPhotoIds`, `catalogs`, `editorials`, `analyses`, `assertions`, `sources`, `booths`, `mapDocuments`, `mapGeometries`, `boothOccupancies` |
 | 업체 | `id`=`organizationId`, `name`, `aliases`, `countries`, `participationId`, `status`, `attendanceStatus`, `sourceLabelStatus`, `boothIds`, `mapBoothIds`, `productIds`, `photoIds`, `analysisIds`, `catalogIds`, `editorialId`, `categoryIds`, `rawCategories`, `sourceIds`, `profileUrls`, `relevanceNote`, `reason`, `highlights`, `exhibitStatus`, `interpretationNote`, `searchText` |
 | 사진 | `src`(표시 허용된 경우만), `delivery`(`local`/`remote`/`linked`), `sourceUrl`, `sourceIds`, `width`, `height`, `caption`, `credit`, `rights`, `context`, `variantNote`, `sourceDate` |
-| 사례 분석 | 한 문장 `reason`, `highlights` 3개, `exhibit`, `distinction`, `direction`, `workConnection`, `followUps` 2~3개, `sourceIds`, `photoIds`, `catalogIds` |
+| 사례 분석 | 한 문장 `reason`, `highlights` 3개, `exhibit`, `distinction`, `direction`, `followUps` 2~3개, `sourceIds`, `photoIds`, `catalogIds` |
 | 지도 문서 | 기존 문서 조건을 보존하고 확인된 원격 `background`와 `areas`를 추가. 정규화 도형은 기존 `mapGeometries` 그대로 |
 
 `searchCompanies(data,{query,category,hall,mappedOnly})`는 업체명·별칭·제품명과 명시된 기술분류를 검색합니다. 결과를 임의로 제한하지 않습니다. `getBoothCompanies(data,id)`는 공동부스 업체 전체를 반환합니다. `getCompanyPhotos`, `getCompanyProducts`, `getCompanyEditorial`은 같은 행사 파일의 ID 참조를 풉니다. `tourCompanies(data,{category,kind})`는 검증된 위치가 있는 사례 또는 기술분류 업체를 반환하며 통로·최단경로를 만들지 않습니다.
@@ -41,3 +41,5 @@ app 디렉터리는 생성물이므로 Git에서 제외하고 원천·컴파일�
 ## 검사
 
 `tests/v2-app-data.test.mjs`는 전 참가 레코드 보존, 없는 좌표 생성 금지, 공동관 다대다, 별칭/제품 검색, 기술분류 근거, 이미지 권리, 사진 각도 보존, 관리 데이터 제외, 사례 연결과 범위 오승격을 검사합니다. 실제 브라우저의 지도·사진·인쇄 동작은 별도 UI 검증 대상입니다.
+
+> 2026-11-15 공개용 정리: 과거의 내부 업무 연결 요구를 제거하고 공개 근거·해석 기준으로 갱신했다. 원문 이력은 Git에 보존하며 현재 실행은 승인된 개편 계획을 따른다.

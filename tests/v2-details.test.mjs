@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {companyPanelMarkup,companyPhotos,companySources,companyCatalogs,comparisonMarkup,printReportMarkup,preparePrintImages,renderCompanyPanel,renderCompare,printCompanyReport,photoUrl,safeExternalUrl} from '../src/v2/details.js';
+import {companyPanelMarkup,companyPhotos,productPhotos,companySources,companyCatalogs,comparisonMarkup,printReportMarkup,preparePrintImages,renderCompanyPanel,renderCompare,printCompanyReport,photoUrl,safeExternalUrl} from '../src/v2/details.js';
 
 function fixture(){
  const photos=Array.from({length:8},(_,index)=>({id:'p'+index,src:'assets/photos/angle-'+index+'.jpg',sourceUrl:'https://example.org/photo/'+index,caption:'현장 사진 '+index,context:'event',delivery:'local',credit:'촬영자',rights:{status:'reusable'}}));
@@ -27,9 +27,12 @@ test('detail distinguishes a listed company and general products from actual exh
  assert.match(html,/이번 회차 전시 확인과는 별개/);
  assert.doesNotMatch(html,/data-detail-action="locate"/);
 });
-test('detailed case retains seven requested topics and comparison conditions',()=>{
+test('detail keeps public exhibition analysis and removes internal work connections',()=>{
  const data=fixture();const html=companyPanelMarkup(data,data.companies[0]);
- for(const label of ['확인된 30 kW','이번 전시에서 보여준 것','차별점과 비교 조건','개발 방향 해석','당사 체계개발과의 연결','후속 확인','근거와 원문 자료'])assert.ok(html.includes(label),label);
+ for(const label of ['확인된 30 kW','이번 전시에서 보여준 것','차별점과 비교 조건','개발 방향 해석','공개자료의 확인 범위','근거와 원문 자료'])assert.ok(html.includes(label),label);
+ assert.doesNotMatch(html,/당사 체계개발|배선 및 냉각 인터페이스 검토/);
+ assert.doesNotMatch(comparisonMarkup(data,['o1']),/당사 검토 가치|배선 및 냉각 인터페이스 검토/);
+ assert.doesNotMatch(printReportMarkup(data,['o1']),/당사 체계개발|배선 및 냉각 인터페이스 검토/);
  assert.match(html,/서로 다른 시험조건/);assert.match(html,/일반 제품·회사 자료/);
  assert.equal(companyCatalogs(data,data.companies[0]).length,1);
  assert.equal(companySources(data,data.companies[0]).length,1);
@@ -187,4 +190,128 @@ test('comparison print failures show feedback and reenable the action',async()=>
  const cleanup=renderCompare(container,{data:fixture(),companyIds:['o1'],onPrint:async()=>{assert.equal(button.disabled,true);throw new Error('printing blocked');}});
  await events.get('click')({target:{closest(selector){return selector==='[data-compare-print]'?button:null;}}});
  assert.match(feedback.textContent,/준비하지 못했습니다/);assert.equal(button.disabled,false);cleanup();
+});
+
+function equipmentFixture(){
+ const data=fixture();
+ data.photos[0].caption='업체 부스 전경';
+ data.photos[1].productIds=['product'];
+ data.photos[2].productIds=['product'];data.photos[2].context='reference';
+ data.photos[3].productIds=['product'];data.photos[3].eventId='adex-2023';
+ data.photos[4].delivery='linked';data.photos[4].rights={status:'link_only'};data.photos[4].productIds=['product'];
+ data.products[0]={id:'product',name:'확인 장비',form:'실물',exhibitStatus:'exhibitor_event_statement',sourceIds:['s1'],narrative:{form:'실물·모형 자료 상충',eventEvidenceSourceIds:['s1'],generalSourceIds:['s2'],photoIds:['p6'],sections:[
+  {id:'overview',label:'장비명·세부 형상·용도',text:'수송을 위한 시험 형상입니다.',sourceIds:['s1'],claimType:'event_observation'},
+  {id:'features',label:'주요 특징·필요 제원',text:'일반 카탈로그 제원은 전시 형상과 구분합니다.',sourceIds:['s2'],claimType:'general_product_spec'},
+  {id:'exhibit',label:'이번 전시의 구성·변화',text:'전시 명판과 원문에 서로 다른 형상이 적혔습니다.',sourceIds:['s1'],claimType:'event_observation'},
+  {id:'development',label:'개발 방향',text:'발표 당시 계획이며 이행 완료는 미확인입니다.',sourceIds:['s1'],claimType:'official_plan'},
+  {id:'interpretation',label:'전략적 해석',text:'여러 임무에 대응하는 구성으로 읽힙니다.',sourceIds:['s1'],claimType:'analyst_interpretation'}
+ ],limitations:['형상별 제원과 실제 인도 여부는 미확인입니다.']}};
+ data.sources.push({id:'s2',url:'https://example.org/general',title:'일반 제품 카탈로그',date:'2026-11-15',note:'2025년 전시 제원을 소급 확정하지 않습니다.'});
+ data.products.push({id:'missing',name:'자료 보강 중 장비',form:'축소 모형',exhibitStatus:'exhibitor_event_statement',sourceIds:['s1']});
+ data.companies[0].productIds.push('missing');
+ return data;
+}
+
+test('equipment keeps five sections visible and marks official plans, interpretation and source scope',()=>{
+ const data=equipmentFixture(),html=companyPanelMarkup(data,data.companies[0],{productId:'product'});
+ const product=html.slice(html.indexOf('id="product-product"'),html.indexOf('id="product-missing"'));
+ assert.equal((product.match(/data-narrative-section=/g)||[]).length,5);
+ for(const id of ['overview','features','exhibit','development','interpretation'])assert.match(product,new RegExp('data-narrative-section="'+id+'"'));
+ assert.ok(product.indexOf('전략적 해석')<product.indexOf('<details'));
+ assert.match(product,/공식 발표 · 발표 당시 기준/);assert.match(product,/관찰 근거에 따른 추론/);
+ assert.match(product,/실물·모형 자료 상충/);assert.match(product,/형상별 제원과 실제 인도 여부는 미확인/);
+ assert.match(product,/출품 근거 \[1\]/);assert.match(product,/이후 발표 \(2026\) \[2\]/);
+ assert.match(product,/https:\/\/example.org\/general/);assert.match(product,/2025년 전시 제원을 소급 확정하지 않습니다/);
+ assert.match(html,/aria-current="location"/);assert.match(html,/fn-product-selected/);
+ const print=printReportMarkup(data,['o1']);assert.doesNotMatch(print,/<details/);assert.match(print,/전략적 해석/);assert.match(print,/https:\/\/example.org\/general/);
+});
+
+test('equipment galleries require product association and current event while viewer indices stay global',()=>{
+ const data=equipmentFixture(),company=data.companies[0],photos=companyPhotos(data,company);
+ assert.deepEqual(productPhotos(data,company,data.products[0],photos).map(p=>p.id),['p1','p6','p4']);
+ const html=companyPanelMarkup(data,company);
+ const product=html.slice(html.indexOf('id="product-product"'),html.indexOf('id="product-missing"'));
+ assert.ok(product.includes('angle-1.jpg'));assert.ok(product.includes('angle-6.jpg'));
+ assert.doesNotMatch(product,/angle-2.jpg|angle-3.jpg|angle-4.jpg/);
+ for(const id of ['p1','p6','p4'])assert.ok(product.includes(`data-photo-index="${photos.findIndex(photo=>photo.id===id)}"`),id);
+ assert.match(html,/비교 참고사진 · 다른 회차\/훈련 \(2\)/);
+ assert.ok(html.indexOf('업체 부스 전경')<html.indexOf('id="product-product"'));
+ assert.equal((html.match(/data-product-id="product"/g)||[]).length,1);
+});
+
+test('unexplained products remain with known form, evidence and truthful photograph gaps',()=>{
+ const data=equipmentFixture(),html=companyPanelMarkup(data,data.companies[0]);
+ const missing=html.slice(html.indexOf('id="product-missing"'));
+ assert.match(missing,/자료 보강 중 장비/);assert.match(missing,/축소 모형/);
+ assert.match(missing,/제조사의 해당 회차 출품 발표/);
+ assert.match(missing,/해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다/);
+ assert.match(missing,/공식 개발 계획을 확인할 자료가 부족합니다/);
+ assert.match(missing,/https:\/\/example.org\/evidence/);
+ assert.equal((html.match(/data-product-id=/g)||[]).length,2);
+});
+
+test('product and report actions preserve callback API and selected product focus',async()=>{
+ const data=equipmentFixture(),events=new Map(),calls=[];
+ const target={dataset:{productId:'product'},scrollIntoView(){calls.push('scroll');},focus(){calls.push('focus');}};
+ const container={innerHTML:'',querySelectorAll(selector){return selector==='[data-product-id]'?[target]:[];},querySelector(){return null;},addEventListener(type,fn){events.set(type,fn);},removeEventListener(type,fn){if(events.get(type)===fn)events.delete(type);}};
+ const cleanup=renderCompanyPanel(container,{data,company:data.companies[0],productId:'product',onProduct:id=>calls.push(id),onReport:company=>calls.push('report:'+company.id)});
+ assert.deepEqual(calls,['scroll','focus']);
+ await events.get('click')({target:{closest(selector){return selector==='[data-product-link]'?{dataset:{productLink:'missing'}}:null;}}});
+ await events.get('click')({target:{closest(selector){return selector==='[data-detail-action]'?{dataset:{detailAction:'report'}}:null;}}});
+ assert.deepEqual(calls,['scroll','focus','missing','report:o1']);cleanup();assert.equal(events.size,0);
+});
+
+test('numbered equipment references distinguish prior editions and later publications without repeating long titles',()=>{
+ const data=equipmentFixture(),p=data.products[0];
+ data.sources.push({id:'maker-adex2023',url:'https://example.org/2023',title:'서울 ADEX 2023의 긴 원문 제목',publishedAt:'2023-10-17'},
+  {id:'catalog-current',url:'https://example.org/current',title:'발행일 미상의 현재 제품 카탈로그',publishedAt:null},
+  {id:'duplicate-event',url:'https://example.org/evidence',title:'동일 원문의 중복 연결',note:'중복 출처의 추가 조건'});
+ p.narrative.generalSourceIds.push('maker-adex2023','catalog-current');p.sourceIds.push('duplicate-event');
+ p.narrative.sections[1].sourceIds=['s2','maker-adex2023','catalog-current','duplicate-event'];
+ const html=companyPanelMarkup(data,data.companies[0]);
+ const product=html.slice(html.indexOf('id="product-product"'),html.indexOf('id="product-missing"'));
+ const core=product.slice(0,product.indexOf('<details'));
+ assert.match(core,/직전 회차 비교 \(2023\) \[3\]/);
+ assert.match(core,/이후 발표 \(2026\) \[2\]/);assert.match(core,/일반자료 \[4\]/);
+ assert.match(core,/title="서울 ADEX 2023의 긴 원문 제목"/);
+ const visible=core.replace(/<[^>]+>/g,'');
+ assert.doesNotMatch(visible,/서울 ADEX 2023의 긴 원문 제목|발행일 미상의 현재 제품 카탈로그|동일 원문의 중복 연결/);
+ assert.equal((product.match(/>전시 근거<\/a>/g)||[]).length,1);
+ assert.equal((product.match(/<summary>상세 출처와 확인 범위<\/summary>/g)||[]).length,1);
+ assert.match(product,/중복 출처의 추가 조건/);assert.doesNotMatch(core,/data-source-number="5"/);
+ const printed=printReportMarkup(data,['o1']);assert.doesNotMatch(printed,/<details/);assert.match(printed,/서울 ADEX 2023의 긴 원문 제목/);assert.match(printed,/https:\/\/example.org\/2023/);
+});
+
+test('critical form conflicts and single-issuer limits remain visible while extended limitations collapse',()=>{
+ const data=equipmentFixture(),p=data.products[0];
+ data.sources[0].evidenceStatus='single_source';
+ p.narrative.limitations.push('현장 존재는 확인되지만 실차/모형 분류는 미해결이다.');
+ const html=companyPanelMarkup(data,data.companies[0]);
+ const product=html.slice(html.indexOf('id="product-product"'),html.indexOf('id="product-missing"'));
+ const core=product.slice(0,product.indexOf('<details'));
+ assert.match(core,/실차\/모형 분류는 미해결/);assert.match(core,/출품 설명은 발행사 단일 근거/);
+ assert.doesNotMatch(core,/형상별 제원과 실제 인도 여부는 미확인/);
+ assert.match(product.slice(product.indexOf('<details')),/형상별 제원과 실제 인도 여부는 미확인/);
+ assert.ok(core.includes('data-narrative-section="interpretation"'));
+});
+
+test('displayable equipment comes first without mutating product IDs, data order or viewer indexes',()=>{
+ const data=equipmentFixture(),company=data.companies[0];company.productIds.reverse();
+ const originalIds=[...company.productIds],originalProducts=data.products.map(p=>p.id),photos=companyPhotos(data,company).map(p=>p.id);
+ const html=companyPanelMarkup(data,company),printed=printReportMarkup(data,['o1']);
+ assert.ok(html.indexOf('id="product-product"')<html.indexOf('id="product-missing"'));
+ assert.ok(printed.indexOf('id="product-product"')<printed.indexOf('id="product-missing"'));
+ assert.deepEqual(company.productIds,originalIds);assert.deepEqual(data.products.map(p=>p.id),originalProducts);
+ assert.deepEqual(companyPhotos(data,company).map(p=>p.id),photos);
+});
+
+test('photo callbacks identify the clicked product while preserving the existing company-wide index contract',async()=>{
+ const data=equipmentFixture(),events=new Map(),calls=[],photos=companyPhotos(data,data.companies[0]);
+ const container={innerHTML:'',querySelectorAll(){return [];},querySelector(){return null;},addEventListener(type,fn){events.set(type,fn);},removeEventListener(type,fn){if(events.get(type)===fn)events.delete(type);}};
+ const cleanup=renderCompanyPanel(container,{data,company:data.companies[0],onPhoto:payload=>calls.push(payload)});
+ const index=photos.findIndex(p=>p.id==='p1');
+ await events.get('click')({target:{closest(selector){return selector==='[data-photo-index]'?{dataset:{photoIndex:String(index)}}:selector==='[data-product-id]'?{dataset:{productId:'product'}}:null;}}});
+ assert.equal(calls[0].productId,'product');assert.equal(calls[0].index,index);assert.equal(calls[0].photos.length,photos.length);assert.equal(calls[0].photos[calls[0].index].id,'p1');
+ await events.get('click')({target:{closest(selector){return selector==='[data-photo-index]'?{dataset:{photoIndex:'0'}}:null;}}});
+ assert.equal(calls[1].productId,'');assert.equal(calls[1].photos.length,photos.length);cleanup();
 });

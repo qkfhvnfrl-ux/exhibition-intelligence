@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-15",
+  "status": "retry_with_revision",
+  "commands": [
+    {
+      "command": "node scripts/prepare-redesign-content.mjs",
+      "exitCode": 0,
+      "narratives": 26,
+      "sections": 130,
+      "reports": 1
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "tests": 180,
+      "passed": 180,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0
+    }
+  ],
+  "browser": {
+    "testedSizes": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "mapReturnZoom": 1.35,
+    "sharedBoothChoices": 3,
+    "reportPhotosDecoded": 3,
+    "productDeepLinkReload": true,
+    "mobileHorizontalOverflow": false,
+    "actualPhone": false,
+    "lastViewerRevisionVerified": false,
+    "nestedPreviewPathVerified": false,
+    "savedPdfVerified": false,
+    "stopReason": "Computer Use stopped: unable to determine current Windows browser URL with sufficient confidence."
+  },
+  "publication": {
+    "target": "preview_only",
+    "deployed": false,
+    "requiresCompletedReview": true
+  },
+  "photos": {
+    "existingEventAssetsRechecked": 7,
+    "newDisplayableAssets": 0,
+    "narrativeProductsWithDisplayablePhotos": 7,
+    "narrativeProductsWithoutDisplayablePhotos": 19
+  }
+}

@@ -45,9 +45,11 @@ test('Pages composition refuses source overwrite, nested output and existing out
 
 test('Pages composition rejects symlink assets and source aliases',async t=>{
   const dirs=await fixture(t);
-  await symlink(path.join(dirs.productionDir,'index.html'),path.join(dirs.previewDir,'assets','linked.html'));
+  // Windows directory junctions exercise the same lstat rejection without Developer Mode.
+  const windows=process.platform==='win32';
+  await symlink(windows?path.join(dirs.productionDir,'assets'):path.join(dirs.productionDir,'index.html'),path.join(dirs.previewDir,'assets',windows?'linked-assets':'linked.html'),windows?'junction':'file');
   await assert.rejects(assemblePagesPreview(dirs),/Symlinks are not allowed/);
-  const alias=path.join(path.dirname(dirs.productionDir),'alias');await symlink(dirs.productionDir,alias);
+  const alias=path.join(path.dirname(dirs.productionDir),'alias');await symlink(dirs.productionDir,alias,windows?'junction':'dir');
   await assert.rejects(assemblePagesPreview({...dirs,productionDir:alias}),/Symlinks are not allowed/);
   await assert.rejects(readdir(dirs.outputDir),{code:'ENOENT'});
 });

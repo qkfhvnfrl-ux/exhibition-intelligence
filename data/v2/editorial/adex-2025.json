@@ -21,11 +21,11 @@
         "black-veil"
       ],
       "reviewStatus": "reviewed_case",
-      "reason": "차륜장갑차의 임무별 파생과 무인 플랫폼을 함께 제시해, 공통 차체를 유지하면서 무엇을 바꾸어야 하는지 살펴볼 사례입니다.",
+      "reason": "폴란드형 K2PL, 임무별 차륜장갑차와 수소 무인 플랫폼을 함께 소개한 전시입니다.",
       "highlights": [
-        "차륜장갑차 계열차량의 전시 소개를 확인했습니다. 개별 형식의 실차·모형 구분은 추가 확인이 필요합니다.",
-        "K2PL 전시실물과 현대로템 부스는 공식 사진·현장 취재를 대조했습니다.",
-        "관심은 제원 우위보다 임무별 공간·중량·전력 배분과 정비 공통성입니다."
+        "K2PL의 현장 존재는 확인되지만 제조사와 현장기사의 실물·모형 표현이 다릅니다.",
+        "30t급 차륜장갑차와 무인 차량은 2023에도 소개됐습니다. 2025 신규 등장으로 단정하지 않습니다.",
+        "지휘소·의무후송·페루형은 제조사 출품 발표를 확인했으며 개별 전시형상은 미확인입니다."
       ],
       "exhibit": {
         "summary": "ADEX 2025 공식 발표는 K2PL, 페루형 차륜장갑차와 지휘소·의무후송 계열, 블랙 베일을 소개합니다. 공개 사진으로 확인되는 실물과 발표에만 명시된 품목의 확인 수준을 나누었습니다.",
@@ -33,7 +33,7 @@
           {
             "name": "K2PL",
             "productId": "k2pl",
-            "form": "전시실물",
+            "form": "현장 전시품 · 실물/실물 모형 표현 충돌",
             "status": "event_photo_confirmed",
             "sourceIds": [
               "rotem-official",
@@ -79,14 +79,6 @@
         "interpretation": "한 차종의 성능 추가와 함께 임무 구성의 폭을 넓히려는 방향으로 읽힙니다. 이는 전시 구성에 대한 해석이며 양산 일정이나 운용 성숙도 판단은 아닙니다.",
         "sourceIds": [
           "rotem-official"
-        ]
-      },
-      "workConnection": {
-        "value": "당사 차륜형장갑차 계열 개발에서 임무실 요구가 차체·공조·전원·정비 접근성에 미치는 변화를 비교할 기준 사례로 활용할 수 있습니다.",
-        "conditions": [
-          "같은 승무원·탑재중량 조건으로 요구사항을 정리한 뒤 비교",
-          "의무후송·지휘소 형식의 내부 도면과 장비 인터페이스 자료 확보",
-          "공개 전시만으로 당사 채택·협력 여부를 추정하지 않음"
         ]
       },
       "followUps": [
@@ -187,15 +179,14 @@
         }
       ],
       "catalogs": [],
-      "verificationNote": "실제 부스와 K2PL 전시를 대조했습니다. 차륜장갑차 각 파생형의 실제 전시 형상은 제조사 발표에 한정해 표시합니다.",
+      "verificationNote": "K2PL의 제조사 ‘실물’과 독립 현장기사 ‘실물 모형’ 표현이 충돌합니다. 작동하는 양산 실차로 확정하지 않습니다.",
       "evidenceAsOf": "2026-11-11",
       "analysisScope": "selected_event_case",
       "claimKinds": {
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       }
     },
     {
@@ -211,11 +202,11 @@
         "kmtv"
       ],
       "reviewStatus": "reviewed_case",
-      "reason": "타스만 지휘차와 차대 전시를 함께 보면, 상용 기반 차량의 군용 임무 전환에서 추가되는 장비와 차체 여유를 구체적으로 질문할 수 있습니다.",
+      "reason": "타스만 지휘차와 베어샤시를 중심으로 소형·중형 임무차량군과 대형차 개발 모형을 함께 제시했습니다.",
       "highlights": [
-        "타스만 군용 지휘차와 베어샤시가 공식 현장 사진에 함께 보입니다.",
-        "KMTV 및 타스만 파생형 소개를 확인했습니다. 모든 파생형의 실차 전시를 뜻하지 않습니다.",
-        "차량 구매가격보다 통신장비·전원·탑재물 변경을 포함한 운용 조건 비교가 먼저입니다."
+        "타스만 군용 지휘차와 베어샤시는 같은 현장사진에서 확인됩니다.",
+        "KMTV 완성차 전시와 군용 임무별 파생형 소개를 구분했습니다.",
+        "KHTV는 축소 모형이며 25톤 이상 적재는 개발 목표입니다."
       ],
       "exhibit": {
         "summary": "기아는 타스만 군용 지휘차, 차세대 중형표준차 KMTV와 군용 차량 계열을 전시했습니다. 타스만 지휘차는 현장 취재 사진과 제조사 사진을 대조했고, 차대 노출 전시는 구조를 살피는 자료로 연결했습니다.",
@@ -268,14 +259,6 @@
         "sourceIds": [
           "kia-official",
           "kia-field-report"
-        ]
-      },
-      "workConnection": {
-        "value": "차륜형장갑차와 함께 운용될 지휘·지원 차량의 통신장비, 전원, 정비 장비 공통화 가능성을 검토할 때 참고할 수 있습니다.",
-        "conditions": [
-          "장갑차와 지원차량의 방호·환경 요구 차이를 유지한 비교",
-          "무전기·안테나·배터리 추가에 따른 차량 한계와 보증 범위 확인",
-          "군수 지원 체계와 부품 수급 조건을 별도 검토"
         ]
       },
       "followUps": [
@@ -371,15 +354,14 @@
         }
       ],
       "catalogs": [],
-      "verificationNote": "타스만 실차는 독립 현장 자료를 대조했습니다. KMTV 사진 및 나머지 파생형 소개는 제조사 근거입니다.",
+      "verificationNote": "타스만 지휘차는 제조사 사진과 독립 현장기사 캡션으로 대조했습니다. 다른 파생형의 세부 형상과 개별 사진은 일부 미확보입니다.",
       "evidenceAsOf": "2026-11-11",
       "analysisScope": "selected_event_case",
       "claimKinds": {
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       }
     },
     {
@@ -450,14 +432,6 @@
         "sourceIds": [
           "stx-official",
           "stx-issued-release"
-        ]
-      },
-      "workConnection": {
-        "value": "차륜형장갑차의 동력계 후보 검토에서 엔진 설치 공간, 변속기 결합, 냉각 요구, 제어 인터페이스를 묶어 공급사 질의서를 구성할 근거가 됩니다.",
-        "conditions": [
-          "차량 운전 주기와 환경 조건을 고정한 자료 요청",
-          "동력계 전체의 부피·중량·정비 동선 비교",
-          "수출 조건과 인증·시험 완료 범위는 별도 검토"
         ]
       },
       "followUps": [
@@ -538,8 +512,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       }
     },
     {
@@ -555,11 +528,11 @@
         "light-105"
       ],
       "reviewStatus": "reviewed_case",
-      "reason": "소형 RCWS와 대드론 장비를 각각 전시해, 차륜 플랫폼에서 임무장비의 탑재 범위와 차량 측 통합 부담을 구분해 볼 사례입니다.",
+      "reason": "구경별 RCWS 전시대, 경량화 105mm 차량, 차량형·일체형 ADS의 구성을 함께 소개했습니다.",
       "highlights": [
-        "7.62mm·12.7mm·40mm RCWS가 별도 전시대에 놓인 공식 현장 사진을 확인했습니다.",
-        "대드론 장비 소개를 대조했습니다. 전시 배치가 곧 차량 통합·운용 완료를 뜻하지 않습니다.",
-        "경량 105mm 실차 사진은 추가 전시 사례이며 RCWS의 차량 장착 사진으로 사용하지 않았습니다."
+        "7.62mm·12.7mm·40mm RCWS는 차량 위가 아닌 별도 전시대에서 확인됩니다.",
+        "차량형 ADS는 2023에도 전시됐으며 일체형의 첫 소개는 제조사 발표에 귀속합니다.",
+        "105mm 전시차 사진과 RCWS 전시대 사진을 별도 장비에 연결했습니다."
       ],
       "exhibit": {
         "summary": "현대위아는 소형·AI 기반 RCWS, 대드론 방어체계와 소형 전술차량 탑재 경량 105mm 체계를 전시했습니다. 사진에서 분리 전시된 RCWS와 실제 차량에 탑재된 다른 장비를 구분했습니다.",
@@ -613,14 +586,6 @@
         "sourceIds": [
           "wia-official",
           "wia-edr"
-        ]
-      },
-      "workConnection": {
-        "value": "당사 차륜형장갑차의 선택 임무장비 검토 시 차량의 전원·냉각·장착부·전자파 적합성 요구를 장비 구성별로 나누어 확인할 가치가 있습니다.",
-        "conditions": [
-          "전시형과 차량 탑재 검증형의 구성 차이 확인",
-          "동일 임무 조건의 질량·전력·환경 적합성 자료 요청",
-          "원격 장비의 운용·안전 책임과 차량 인터페이스 범위 확인"
         ]
       },
       "followUps": [
@@ -716,15 +681,14 @@
           "note": "MSPO 2025 주최사 참가업체 페이지에 연결된 3쪽 제조사 PDF입니다. ADEX 2025 카탈로그나 해당 회차 출품 증거로 사용하지 않습니다."
         }
       ],
-      "verificationNote": "현대위아 보도사진은 실제 회차 자료입니다. EDR은 별도 현장 취재이지만 성능 수치는 독립 시험이 아니며 원문 접근 제한을 표시했습니다.",
+      "verificationNote": "제조사 원문과 보도사진을 확인했습니다. EDR 현장기사의 현재 원문 접근은 403이므로 이번 재검증의 독립 근거로 세지 않습니다.",
       "evidenceAsOf": "2026-11-11",
       "analysisScope": "selected_event_case",
       "claimKinds": {
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       }
     },
     {
@@ -784,14 +748,6 @@
         "interpretation": "품번 공급에서 조합·적용 상담으로 역할을 넓혀 제안하는 방식으로 읽힙니다. PEI가 모든 전시 부품의 원제조사이거나 차량용 인증을 마쳤다는 뜻은 아닙니다.",
         "sourceIds": [
           "pei-live"
-        ]
-      },
-      "workConnection": {
-        "value": "임무장비 교체 때 전원·신호 접속부의 방수, 체결, 정비 호환성과 공급 책임을 묶어 확인할 후보 접점입니다.",
-        "conditions": [
-          "실제 전시 품번과 원제조사·유통·조립 역할을 먼저 구분",
-          "차량 환경과 필요한 시험 규격의 일치 여부 확인",
-          "대체품 호환성과 단종 대응·추적성 자료 확보 후 검토"
         ]
       },
       "followUps": [
@@ -872,8 +828,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       }
     }
   ]

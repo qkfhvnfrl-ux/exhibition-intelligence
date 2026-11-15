@@ -1,29 +1,16 @@
 # 작업 목록과 상태 전이
 
-기준일: 2026-11-15 (Asia/Seoul). 역사적 1~4단계 기록은 STATUS/HANDOFF에 보존하고 이번 A단계와 구분한다.
-
-| ID | 작업 | 상태 | 완료 조건/현재 범위 |
+| ID | 작업 | 상태 | 범위 |
 | --- | --- | --- | --- |
-| A-01 | 기준·원격·구조·데이터 감사 | completed | 최신 소스·배포 메타데이터·자료 수량 대조; 최종 검토안과 증거 통합 완료 |
-| A-02 | 지도·업체·한장 보고 로컬 초안 | completed | `review/` 독립 초안; 실제 화면과 조작 QA 완료 |
-| A-03 | 검토안·증거·프로젝트 메모리 | completed | 검토안 작성, 증거/상태 최신화; 최종 QA와 승인 대기 기록 완료 |
-| B-01 | 실제 관람 동선 개편 | needs_human | A단계 화면 방향 검토 후 구현; 미착수 |
-| B-02 | 장비별 사진·설명·공개 데이터 정리 | planned | 원천/컴파일러/산출물 일치, 내부 업무 내용 제거; 미완료 |
-| B-03 | 직전 회차 비교·종합보고·PDF | planned | 비교 원문 대조, 실제 저장 PDF 확인; 미완료 |
-| B-04 | ADEX 전체 관련 업체·다른 4회차 확장 | planned | 표본을 전체 완료로 간주하지 않음 |
-| B-05 | 고정 URL 공개 반영 | planned | 검증과 공개 범위 승인 필요; 미실행 |
-| V-01 | Windows 기준 검사 2건 | failed_with_evidence | 링크 fixture EPERM, allowlist 경로 구분자; 제품·검사 수정 없이 원인 기록 |
+| A-01~03 | 감사·3종 로컬 초안 | completed | 이전 a21b781 체크포인트 |
+| R-01 | 3사 및 한화 근거 보강 | completed | 4개 조사 packet, 26제품 서술 연결. 사진 완성·전수조사 아님 |
+| B-01 | 관람 흐름·장비 링크 | verifying | 실제 동선 확인; 마지막 수정 회귀와 하위경로 확인 잔여 |
+| B-02 | 장비별 설명·공개 정리 | verifying | 26제품·130항목 및 공개 원천/컴파일러 정리; 자료 공백 명시 |
+| B-03 | 종합보고·인쇄/PDF | retry_with_revision | 3사 비교 보고 구현, 실제 PDF 저장 검증 중 도구 중단 |
+| B-04 | 전체 관련 범위·다른4회차 | executing | 모든 기존 업체 접근·화면 구조 적용, 심층 자료 확장 미완료 |
+| B-05 | 고정 URL 공개 반영 | planned | /preview/만, 완성본 검토 뒤. push/배포 없음 |
+| V-01 | Windows 검사 2건 | completed | junction fixture+경로 정규화; 권한 허용 실행에서 실제 검증 성공 |
 
-## 이번 상태 전이
+## 전이
 
-- 2026-11-15 A단계: `new_task → interviewing → planned → executing → verifying`.
-- 명시적으로 요청된 감사·로컬 초안은 진행한다. 제품 개편의 미정 화면 방향과 공개 범위 결정은 최종 검토 결과와 함께 받는다.
-- A-03은 현재 문서 작성 중 `executing`; 최종 검증 후 상태를 갱신한다. `needs_human` 또는 최종 완료 판정은 초안 QA 후 주 작업에서 확정한다.
-
-## 보류·실패와 보존
-
-자료 부재는 제외 사유로 쓰지 않는다. 기존 조사 완료/미완료 큐, 원장, 개인 브라우저 기록을 보존한다. 실제 휴대폰, 저장 PDF, 전체 행사 조사, 공개 내용 정리, 배포는 완료로 표시하지 않는다.
-
-## 최종 판정
-
-2026-11-15 A-01/A-02/A-03: verifying → completed (감사·초안 범위). 전체 개편 B-01: planned → needs_human (화면 방향 결정 대기). 기준 검사 2건은 failed_with_evidence 유지. 7개 사진 decode/지도 복귀/장비 링크/모바일 시뮬레이션 확인. 보고서 대체 품질 목표는 아직 진행 중이다.
+2026-11-15 B-01 needs_human → planned → executing → verifying (사용자 구조 승인). B-02/B-03/B-04 planned → executing. R-01 executing → verifying → completed(제한 조사). V-01 failed_with_evidence → retry_with_revision → verifying → completed. B-03 executing → verifying → retry_with_revision(저장 PDF UI 검증 중단, 제품 실패로 단정하지 않음). 전체 목표는 미완료.

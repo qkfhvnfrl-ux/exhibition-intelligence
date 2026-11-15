@@ -1,0 +1,136 @@
+{
+  "asOf": "2026-11-15",
+  "reports": [
+    {
+      "eventId": "adex-2025",
+      "asOf": "2026-11-15",
+      "title": "서울 ADEX 2025",
+      "message": "플랫폼을 늘리는 전시에서, 임무와 고객 요구를 구체화하는 전시로",
+      "scopeNote": "현대로템·현대위아·기아의 확인된 출품 사례 기준",
+      "comparisonEvent": "서울 ADEX 2023",
+      "comparisonNote": "직전 회차 제조사 발표와 2025 공개자료 비교 · 동일 장비의 성능 향상 비교 아님",
+      "themes": [
+        {
+          "title": "고객별 구성의 구체화",
+          "summary": "K2PL은 폴란드 요구에 맞춘 구성을 설명한다. 전시품의 실차·모형 분류에는 자료 간 표현 차이가 남는다.",
+          "companyId": "org-bb5b014b7abb0359c75b",
+          "productId": "k2pl",
+          "photoId": "photo-f27315794918d9b8ddce",
+          "before": "K2EX 수출형 소개",
+          "after": "폴란드형 K2PL 구성 제시",
+          "sourceIds": [
+            "rotem-adex2023-official",
+            "rotem-adex2025-official",
+            "rotem-adex2025-field"
+          ]
+        },
+        {
+          "title": "통합과 형상 선택",
+          "summary": "RCWS 전시대는 3개 구경을 보여 준다. ADS는 기존 차량형과 새 일체형 소개를 구분해야 한다.",
+          "companyId": "org-b6b486fa375701e51329",
+          "productId": "adex25-wia-rcws-ai",
+          "photoId": "photo-406026b01ffa0009623a",
+          "before": "차량형 ADS 이미 전시",
+          "after": "일체형 ADS 추가 소개",
+          "sourceIds": [
+            "wia-adex-2023",
+            "wia-adex-2025"
+          ]
+        },
+        {
+          "title": "임무별 차량군의 전개",
+          "summary": "타스만 지휘차와 샤시, KMTV·KLTV 파생형을 함께 제시했다. KHTV는 개발 목표를 담은 모형이다.",
+          "companyId": "org-37268bb0020007468bbc",
+          "productId": "tasman-military",
+          "photoId": "photo-88508f17c41d264626d0",
+          "before": "EV9·수소 콘셉트와 중형 샤시",
+          "after": "타스만·중형·소형 임무차량군",
+          "sourceIds": [
+            "kia-adex-2023",
+            "kia-adex-2025"
+          ]
+        }
+      ],
+      "interpretation": "전시 구성에 따른 해석: 확인 사례에서는 새로운 플랫폼의 등장뿐 아니라 고객별 방호·임무 장비·차량 파생형을 구체화하는 방향이 보인다. 회사 전체 전략이나 시장 성과를 뜻하지 않는다.",
+      "limitations": [
+        "3사 비교 표본이며 전체 행사 조사·증감 통계가 아니다.",
+        "제조사 발표가 주된 근거다. 최초 공개·계획은 발표 주체와 당시 시점을 따른다.",
+        "사진은 모두 ADEX 2025 현장이다. 가운데 RCWS 사진은 ADS 사진이 아니다."
+      ],
+      "sourceIds": [
+        "rotem-adex2023-official",
+        "rotem-adex2025-official",
+        "rotem-adex2025-field",
+        "wia-adex-2023",
+        "wia-adex-2025",
+        "kia-adex-2023",
+        "kia-adex-2025"
+      ],
+      "sources": [
+        {
+          "id": "rotem-adex2025-official",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "title": "현대로템, ADEX서 ‘종합 방산’ 기업 비전 제시",
+          "publisher": "현대자동차그룹 / 현대로템",
+          "publishedAt": "2025-10-20",
+          "limitations": "개막일 제조사 발표. 현장 사진·독립 보도와 구별한다.",
+          "independence": "primary_single_origin"
+        },
+        {
+          "id": "rotem-adex2023-official",
+          "url": "https://blog.hyundai-rotem.co.kr/905",
+          "title": "[로템B] 현대로템 미래무기체계 만날 수 있는 ‘서울 ADEX 2023’",
+          "publisher": "현대로템 공식 블로그",
+          "publishedAt": "2023-10-20",
+          "limitations": "전시기간 중 제조사 자체 현장 소개. 독립 관찰로 세지 않는다.",
+          "independence": "primary_single_origin"
+        },
+        {
+          "id": "rotem-adex2025-field",
+          "url": "https://www.asiatime.co.kr/article/20251023500386",
+          "title": "[AT 현장] AI로 진화한 첨단 무기…ADEX 2025 가보니",
+          "publisher": "아시아타임즈",
+          "publishedAt": "2025-10-23",
+          "limitations": "기자가 현장 방문을 명시. K2PL 전시형태 표현은 제조사와 상충한다.",
+          "independence": "primary_single_origin"
+        },
+        {
+          "id": "wia-adex-2025",
+          "url": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016",
+          "title": "현대위아, ADEX 2025에서 육·해·공 방산 제품 라인업 공개",
+          "publisher": "hyundai-wia",
+          "publishedAt": "2025-10-20",
+          "limitations": "실물 전시와 양산·전력화·성능 검증은 별개다. 최초라는 표현은 제조사에 귀속한다.",
+          "independence": "primary_single_origin"
+        },
+        {
+          "id": "wia-adex-2023",
+          "url": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyCate=&keyField=&keyIdx=5102&keyWord=&page=",
+          "title": "현대위아, ADEX 2023에서 차량탑재형 ADS 및 신형 화포 공개",
+          "publisher": "hyundai-wia",
+          "publishedAt": "2023-10-17",
+          "limitations": "105mm는 전시품이라고만 적혀 있어 모형/실물 여부를 이 문장만으로 확정하지 않는다. 보도자료에서 다루지 않은 형상을 당시 부재로 처리하지 않는다.",
+          "independence": "primary_single_origin"
+        },
+        {
+          "id": "kia-adex-2023",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+          "title": "기아, ‘서울 ADEX 2023’ 참가",
+          "publisher": "Hyundai Motor Group / Kia",
+          "publishedAt": "2023-10-17",
+          "limitations": "제조사 발표이며 독립 성능시험이 아님. 본문에 없는 품목의 부재나 개발 중단을 뜻하지 않음.",
+          "independence": "primary_single_origin"
+        },
+        {
+          "id": "kia-adex-2025",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "title": "기아, '서울 ADEX 2025' 방산전시회 참가",
+          "publisher": "Hyundai Motor Group / Kia",
+          "publishedAt": "2025-10-20",
+          "limitations": "전시 품목과 제조사 설명의 근거. 모든 품목별 사진 식별·실물/모형 구분이 확보된 것은 아님.",
+          "independence": "primary_single_origin"
+        }
+      ]
+    }
+  ]
+}

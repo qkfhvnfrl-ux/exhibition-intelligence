@@ -138,8 +138,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "동일 임무·운용조건의 대체 장비",
@@ -157,13 +156,6 @@
         "sourceIds": [
           "pavilion-dapa-leaflet",
           "pavilion-dtaq-report"
-        ]
-      },
-      "workConnection": {
-        "value": "차량 운용부대의 훈련·군수지원 범위를 검토할 사례이며 차량 탑재 구성품으로 분류하지 않습니다.",
-        "conditions": [
-          "차량 탑재 유탄발사장치와의 호환성은 확인되지 않았습니다.",
-          "공개 근거와 차량 체계 요구의 추가 대조 필요"
         ]
       },
       "followUps": [
@@ -309,8 +301,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "동일 임무·운용조건의 대체 장비",
@@ -328,13 +319,6 @@
         "sourceIds": [
           "pavilion-dapa-leaflet",
           "pavilion-dtaq-report"
-        ]
-      },
-      "workConnection": {
-        "value": "드론과 운용단말을 함께 살펴볼 수 있어 지휘소 차량의 정찰정보 연계 검토에 참고됩니다.",
-        "conditions": [
-          "차량 탑재·주행 중 운용·연동 인터페이스는 공개 근거가 없습니다.",
-          "공개 근거와 차량 체계 요구의 추가 대조 필요"
         ]
       },
       "followUps": [
@@ -454,8 +438,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "동일 임무·운용조건의 대체 장비",
@@ -473,13 +456,6 @@
         "sourceIds": [
           "pavilion-dapa-leaflet",
           "pavilion-dtaq-report"
-        ]
-      },
-      "workConnection": {
-        "value": "시야 유지장치의 구성과 정비성을 비교할 항공 분야 사례입니다. 차량 적용품 출품으로 확대하지 않습니다.",
-        "conditions": [
-          "항공용 제품이며 장갑차 유리·와이퍼·세척액 계통과의 적용성은 미검증입니다.",
-          "공개 근거와 차량 체계 요구의 추가 대조 필요"
         ]
       },
       "followUps": [
@@ -597,8 +573,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "동일 임무·운용조건의 대체 장비",
@@ -616,13 +591,6 @@
         "sourceIds": [
           "pavilion-dapa-leaflet",
           "pavilion-dtaq-report"
-        ]
-      },
-      "workConnection": {
-        "value": "제동 마찰재와 제조·시험 역량을 검토할 항공용 사례입니다. 차량용 제동품과 구분합니다.",
-        "conditions": [
-          "동일 하중·온도·반복제동 조건의 비교자료가 없어 차량용 우수성을 판단할 수 없습니다.",
-          "공개 근거와 차량 체계 요구의 추가 대조 필요"
         ]
       },
       "followUps": [
@@ -718,8 +686,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "동일 임무·운용조건의 대체 장비",
@@ -735,13 +702,6 @@
         "interpretation": "핵심 소자 국산화 역량을 제시하는 것으로 해석할 수 있으나 차량시장 진출을 단정할 근거는 없습니다.",
         "sourceIds": [
           "pavilion-dapa-leaflet"
-        ]
-      },
-      "workConnection": {
-        "value": "SAR 안테나 소자의 전력증폭 기술은 센서 부품 후보로 검토하되 지상차량 적용은 미확인입니다.",
-        "conditions": [
-          "회차 리플릿의 출품 예정만 확인했으며 실제 현장 전시·성능·차량 적용 자료는 부족합니다.",
-          "공개 근거와 차량 체계 요구의 추가 대조 필요"
         ]
       },
       "followUps": [
@@ -849,8 +809,7 @@
         "exhibit": "fact_or_attributed_statement",
         "direction.observation": "observation",
         "direction.interpretation": "analyst_interpretation",
-        "distinction.judgment": "qualified_comparison",
-        "workConnection": "proposed_review_value"
+        "distinction.judgment": "qualified_comparison"
       },
       "distinction": {
         "comparator": "동일 임무·운용조건의 대체 장비",
@@ -866,13 +825,6 @@
         "interpretation": "감시체계의 독립·네트워크 운용을 강조한 행사 제안으로 해석되며 장갑차 출품 전략으로 확대하지 않습니다.",
         "sourceIds": [
           "patria-adex25"
-        ]
-      },
-      "workConnection": {
-        "value": "ADEX 발표 대상인 수동 감시체계를 지휘소·센서 정보 연계 관점에서 검토합니다. AMV 등 일반 차량 카탈로그를 이번 출품으로 추가하지 않습니다.",
-        "conditions": [
-          "제조사 사전 발표만 확인했습니다. 차량 탑재 형식과 실제 현장 전시품은 미확인입니다.",
-          "공개 근거와 차량 체계 요구의 추가 대조 필요"
         ]
       },
       "followUps": [

@@ -51,7 +51,7 @@ test('runtime module closure stays inside v2 and has no personal storage API or 
 
 const hasDist=await stat(path.join(root,'dist')).then(s=>s.isDirectory()).catch(()=>false);
 test('built app contains only the allowed runtime and no archived editing/data entry points',{skip:!hasDist},async()=>{
-  const files=(await filesWithin(path.join(root,'dist'))).map(file=>path.relative(path.join(root,'dist'),file));
+  const files=(await filesWithin(path.join(root,'dist'))).map(file=>path.relative(path.join(root,'dist'),file).split(path.sep).join('/'));
   for(const file of files)assert.ok(['index.html','version.json','.nojekyll'].includes(file)||/^(?:src\/v2\/|data\/v2\/app\/|assets\/)/.test(file),`unexpected deploy file: ${file}`);
   for(const file of ['legacy.html','src/app.js','src/review.js','src/review-state.js','src/field-records.js','data/review.json','data/v2/registry.json'])assert.ok(!files.includes(file),file);
   const html=await readFile(path.join(root,'dist/index.html'),'utf8');
