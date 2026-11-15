@@ -43,11 +43,11 @@
       "check_log": ".local-photo-coverage-check.log",
       "latest_copy_revision_recheck": "passed"
     },
-    "implementation_commit": null,
+    "implementation_commit": "49d846d0b80c6247db7bb3003c1ea008a874c9bd",
     "local_only": true,
-    "head_commit": "16e7e691f232eeee7951c15ef0ae4ea274aea57d",
-    "working_changes": true,
-    "implementation_commit_note": "현재 HEAD는 40개 서술 묶음의 저장점이다. 이후 46개 서술 묶음은 미커밋 작업 트리에 있으며 새 구현 커밋은 저장 후 기록한다. 6b2999b·137fa84는 과거 체크포인트다.",
+    "head_commit": "49d846d0b80c6247db7bb3003c1ea008a874c9bd",
+    "working_changes": false,
+    "implementation_commit_note": "46개 서술/230항목 구현 저장점. 직전40개/5보고/PDF 묶음은16e7e691f232eeee7951c15ef0ae4ea274aea57d. 이 필드는 후속 인계 문서 커밋의 자기SHA가 아니라 검증한 구현 커밋을 기록한다.",
     "task_states": {
       "B02": "executing",
       "B03": "completed",
@@ -175,7 +175,8 @@
       "ready": 0,
       "status": "bounded_research_completed_with_gaps",
       "note": "Commons·Flickr 공개 또는 임베드 경로와 주최사 자료를 확인했으나 표시 준비를 마친 2026 사진은 없다. 2024 사진을 현재 회차로 승격하지 않는다."
-    }
+    },
+    "evidence": "docs/evidence/REDESIGN_PHOTO_COVERAGE_2026-11-16.json"
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",

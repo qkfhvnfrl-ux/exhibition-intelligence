@@ -181,3 +181,5 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 - `tests/v2-app-data.test.mjs`
 - `tests/v2-details.test.mjs`
 - `tests/v2-report.test.mjs`
+
+로컬 구현 커밋: 16e7e691f232eeee7951c15ef0ae4ea274aea57d 및 49d846d0b80c6247db7bb3003c1ea008a874c9bd. 독립103검사, 기존보고5개 화면/인쇄마크업과최종PDF해시불변, 기존사진85자산바이트보존 확인. Git diff --cached --check 통과. 후속 인계 문서 커밋은 코드 변경 없이 구현 저장점을 기록한다.

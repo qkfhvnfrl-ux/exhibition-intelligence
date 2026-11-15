@@ -10,7 +10,7 @@
 - PDF: `output/pdf/final/`의 ADEX·Eurosatory·DSEI·IDEX·SAHA 최종 파일 5개가 자동 검사와 시각 검수를 통과했다. 모두 1쪽·약 320×180mm이며 본문·근거 링크·폰트 포함, 페이지 밖 글자·글자 겹침·사진과 글자 겹침 없음이 확인됐다. 이번 묶음에서 보고·PDF는 변경하지 않았다. [최종 PDF 검증 기록](evidence/REDESIGN_PDF_VALIDATION_2026-11-16.json) 참조. 실제 휴대폰 검증은 별도로 남아 있다.
 - 초안 통합: 이전에 미통합으로 기록한 `docs/research-v2/redesign-narratives-photo-coverage.json`의 6개 제품 서술을 앱에 연결했다. 현재 46개 서술·230개 항목에 포함한다.
 - SAHA 사진: [추가 대체 경로 조사](research-v2/redesign-photo-candidates-saha.json)의 세 보고 사례 모두 ready 0이다. 주최사·Commons의 2024 사진을 2026 현장사진으로 바꾸지 않는다.
-- Git: `codex/fieldnote-redesign-audit`, 현재 HEAD `16e7e691f232eeee7951c15ef0ae4ea274aea57d`는 40개 서술 묶음의 저장점이다. 이후 46개 서술 묶음은 미커밋 작업 트리에 있으며 새 커밋은 저장 후 기록한다. 이전 `6b2999b`·`137fa84`는 과거 체크포인트다.
+- Git: `codex/fieldnote-redesign-audit`, 구현 커밋 `49d846d0b80c6247db7bb3003c1ea008a874c9bd` 및 직전 보고/PDF 커밋 `16e7e691f232eeee7951c15ef0ae4ea274aea57d`. 로컬 저장 완료, 후속 인계 문서 커밋 별도. 원격 push·배포 없음.
 
 다음 작업은 남은 22개 제품의 사진 보강과 전체 회차 조사 → 후속 변경 범위의 화면·사진 검증이다. SAHA는 개별 회차·형상·사용 조건이 확인된 새 근거가 필요하다. 완료한 6개 제품 묶음과 5개 보고 검증을 전체 조사나 공개 반영 완료로 확대하지 않는다.
 
