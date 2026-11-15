@@ -1,6 +1,6 @@
 # 프로젝트 상태
 
-기준일: 2026-11-15 (Asia/Seoul)
+기준일: 2026-11-16 (Asia/Seoul)
 
 - 목적: 연구소 의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성.
 - 기술 스택: 기존 정적 HTML/CSS/JavaScript ES modules, Node 검사, GitHub Pages 유지.
@@ -16,3 +16,9 @@
 실제 저장소는 .이며 상세 계획은 docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md, 근거는 EVIDENCE.md를 따른다.
 
 로컬 후속 구현 저장점: `137fa841eedeaa6ef2d2d041744ad10e11c7cd8e`. 작업 트리의 최종 인계문서 커밋은 git log로 확인한다. 개발서버4174는 종료했다.
+
+## 2026-11-16 재개 — 4회차 자료 연결 검증
+
+- 이전 실행은 progress: 10개 기존 제품에 50개 설명을 추가하고 사진 7개를 새로 연결했다(새 이미지 다운로드 0). 총 36제품·180항목, 서술 제품 중 직접 표시 사진 보유 13제품·고유13자산이다.
+- build/check 189/189 통과. 최신 보고판 1440px/1280px에서16:9,390px세로·가로넘침없음. 기아Euro확대,AJBAN사진순환,DSEI/SAHA설명 확인. docs/evidence/REDESIGN_EDITION_EXPANSION.json 참조.
+- 전체 목표 미완료. 실제PDF·다른4회차보고·더많은현장사진·전체관련범위 보강이 남는다. 공개push/배포없음.

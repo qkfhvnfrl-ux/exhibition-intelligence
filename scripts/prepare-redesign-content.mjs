@@ -94,6 +94,11 @@ for(const equipment of hanwha.equipment){
  narrative.generalSourceIds=unique(sections.flatMap(s=>s.sourceIds)).filter(id=>!narrative.eventEvidenceSourceIds.includes(id));
  narratives.push(narrative);
 }
+for(const file of ['redesign-narratives-eurosatory-saha.json','redesign-narratives-dsei-idex.json']){
+ const supplement=await read('docs/research-v2/'+file);
+ if(!Array.isArray(supplement.narratives))throw new Error('Missing narrative list: '+file);
+ narratives.push(...supplement.narratives.map(item=>({asOf:supplement.asOf,...item})));
+}
 await write('data/v2/editorial/product-narratives.json',{asOf:'2026-11-15',narratives});
 const report={eventId:'adex-2025',asOf:'2026-11-15',title:'서울 ADEX 2025',message:'플랫폼을 늘리는 전시에서, 임무와 고객 요구를 구체화하는 전시로',scopeNote:'현대로템·현대위아·기아의 확인된 출품 사례 기준',comparisonEvent:'서울 ADEX 2023',comparisonNote:'직전 회차 제조사 발표와 2025 공개자료 비교 · 동일 장비의 성능 향상 비교 아님',themes:[
  {title:'고객별 구성의 구체화',summary:'K2PL은 폴란드 요구에 맞춘 구성을 설명한다. 전시품의 실차·모형 분류에는 자료 간 표현 차이가 남는다.',companyId:'org-bb5b014b7abb0359c75b',productId:'k2pl',photoId:'photo-f27315794918d9b8ddce',before:'K2EX 수출형 소개',after:'폴란드형 K2PL 구성 제시',sourceIds:['rotem-adex2023-official','rotem-adex2025-official','rotem-adex2025-field']},

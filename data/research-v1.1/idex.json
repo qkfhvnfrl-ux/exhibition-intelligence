@@ -47,7 +47,7 @@
           "reportRecommended": true,
           "visualCheck": "2026-11-11 · 원본 파일을 변환한 사진을 한 장씩 배열해 장비 형상·부스·명패·방향을 확인했습니다.",
           "sequenceGroup": "havoc-front-left-burst",
-          "variantNote": "동일 전시차의 같은 방향 연속촬영입니다. 다른 각도 또는 별도 장비로 세지 않습니다."
+          "variantNote": "동일 전시차의 같은 방향 연속촬영입니다. 다른 각도 또는 별도 장비로 세지 않습니다. 웹 표시용 축소·WebP 변환본입니다. 사진에 담긴 방향 외 전체 형상은 확인할 수 없습니다."
         },
         {
           "id": "idex2025-havoc-02",
@@ -151,7 +151,8 @@
           "height": 1350,
           "sha256": "5d48473cfdbcd757aceb18ca3f63eaf5d17ec05d02514ddf20420acfb0aa54ac",
           "reportRecommended": true,
-          "visualCheck": "2026-11-11 · 원본 파일을 변환한 사진을 한 장씩 배열해 장비 형상·부스·명패·방향을 확인했습니다."
+          "visualCheck": "2026-11-11 · 원본 파일을 변환한 사진을 한 장씩 배열해 장비 형상·부스·명패·방향을 확인했습니다.",
+          "variantNote": "웹 표시용 축소·WebP 변환본입니다. 사진에 담긴 방향 외 전체 형상은 확인할 수 없습니다."
         },
         {
           "id": "idex2025-ajban-442a",
@@ -207,7 +208,8 @@
           "height": 1800,
           "sha256": "6c923b1e3d2268d3d8b6afd42f8629130e7688d2566582f8d1d79eb1d802ec3c",
           "reportRecommended": true,
-          "visualCheck": "2026-11-11 · 원본 파일을 변환한 사진을 한 장씩 배열해 장비 형상·부스·명패·방향을 확인했습니다."
+          "visualCheck": "2026-11-11 · 원본 파일을 변환한 사진을 한 장씩 배열해 장비 형상·부스·명패·방향을 확인했습니다.",
+          "variantNote": "웹 표시용 축소·WebP 변환본입니다. 사진에 담긴 방향 외 전체 형상은 확인할 수 없습니다."
         }
       ]
     },

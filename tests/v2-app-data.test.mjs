@@ -180,6 +180,34 @@ test('product narrative evidence cannot silently lose sources or borrow another 
   assert.throws(()=>validateAppEvent(event),/dangling sources/);
 });
 
+test('narratives from four other editions preserve registered products and validated photo ownership',async()=>{
+  const supplements=await Promise.all(['eurosatory-saha','dsei-idex'].map(name=>read('docs/research-v2/redesign-narratives-'+name+'.json')));
+  const narratives=supplements.flatMap(packet=>packet.narratives),compiled=withNarratives(narratives);
+  assert.deepEqual([...new Set(narratives.map(n=>n.eventId))].sort(),['dsei-2025','eurosatory-2026','idex-2025','saha-2026']);
+  for(const [eventId,event] of Object.entries(compiled.events)){
+    assert.deepEqual(event.products.map(p=>p.id),output.events[eventId].products.map(p=>p.id));
+    for(const n of narratives.filter(n=>n.eventId===eventId)){
+      const p=event.products.find(p=>p.id===n.productId);
+      assert.equal(p.narrative.sections.length,5);
+      assert.equal(p.exhibitStatus,output.events[eventId].products.find(original=>original.id===p.id).exhibitStatus,'description must not silently promote exhibit verification');
+      for(const photoId of n.photoIds){
+        const photo=event.photos.find(photo=>photo.id===photoId);
+        assert.equal(photo.context,'event');assert.ok(photo.productIds.includes(p.id));
+        assert.ok(event.companies.find(company=>company.id===n.organizationId).photoIds.includes(photoId));
+      }
+    }
+  }
+});
+
+test('annotated evidence from another edition stays a reference rather than current exhibit proof',()=>{
+  const narrative=narrativeFixture();narrative.sources[0].eventEditionId='adex-2023';
+  assert.throws(()=>withNarratives([narrative]),/another edition/);
+  narrative.eventEvidenceSourceIds=[];narrative.generalSourceIds=['narrative-event','narrative-general'];
+  assert.doesNotThrow(()=>withNarratives([narrative]));
+  narrative.sources[0].eventEditionId='adex-2025';narrative.eventEvidenceSourceIds=['narrative-event'];
+  assert.throws(()=>withNarratives([narrative]),/both event evidence and general/);
+});
+
 test('optional event reports retain their own date, evidence and existing product/photo relations',()=>{
   const narrative=narrativeFixture();
   const report={eventId:adex.event.id,asOf:'2026-11-15',title:'관찰 보고',message:'확인된 사례만 비교',scopeNote:'전체 행사 결론 아님',comparisonEvent:'ADEX 2023',comparisonNote:'제조사 원문 대조',themes:[{title:'계열 구성',summary:'공개 내용의 비교',companyId:narrative.organizationId,productId:narrative.productId,photoId:narrative.photoIds[0],before:'이전 설명',after:'이번 설명',sourceIds:['report-source']}],interpretation:'관찰에 한정',limitations:['독립 확인 필요'],sourceIds:['report-source'],sources:[{id:'report-source',url:'https://example.org/adex2023',title:'직전 회차 자료',publishedAt:'2023-10-17'}]};

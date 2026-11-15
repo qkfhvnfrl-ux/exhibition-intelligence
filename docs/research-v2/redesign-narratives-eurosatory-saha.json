@@ -1,0 +1,498 @@
+{
+  "asOf": "2026-11-15",
+  "narratives": [
+    {
+      "eventId": "eurosatory-2026",
+      "organizationId": "org-b6b486fa375701e51329",
+      "productId": "eu-light-105",
+      "asOf": "2026-11-15",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "기존 105mm 곡사포를 소형전술차량에 탑재한 차량형 화력체계다.",
+          "sourceIds": [
+            "research-es-wia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "공식 소개는 사격지휘차·탄약운반차를 함께 포함하는 구성을 설명한다.",
+          "sourceIds": [
+            "research-es-wia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "현대위아는 실물 전시를 명시했다. 공식 사진 캡션도 이번 회차의 해당 자주포를 가리킨다.",
+          "sourceIds": [
+            "research-es-wia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "제조사는 신속시범사업을 통한 개발을 설명한다. 후속 양산·배치 일정까지 확인한 자료는 아니다.",
+          "sourceIds": [
+            "research-es-wia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 포와 차량 플랫폼을 함께 제시한 전시 사례로 읽을 수 있다.",
+          "sourceIds": [
+            "research-es-wia-eurosatory-2026"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "research-es-wia-eurosatory-2026"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-81610d7ae35d4bd5b354"
+      ],
+      "form": "제조사 실물 전시 발표 · 공식 캡션과 기존 현장사진의 제품 표지 대조",
+      "limitations": [
+        "제품 출품의 발행 근거는 제조사 1곳이다. 이전 회차와의 형상 동일성이나 성능 개선은 확정하지 않는다.",
+        "2026-11-15 사진을 직접 열어 차량과 105mm 자주포 전시 표지를 확인했다. 공식 개별 캡션과 대응하지만 원격 원본 파일 자체는 열람 오류로 대조하지 못했다.",
+        "기존 현장사진의 뉴스룸 사용 안내를 확인했다. 제3자 제공물 제한을 별도로 적용하며 CC나 퍼블릭도메인으로 표기하지 않는다.",
+        "전시 사진은 작동 성능이나 양산 상태의 확인 자료가 아니다."
+      ],
+      "sources": [
+        {
+          "id": "research-es-wia-eurosatory-2026",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+          "title": "현대위아, 유럽 최대 방위산업 전시회 유로사토리 2026 첫 참가",
+          "publisher": "현대위아 / 현대자동차그룹 뉴스룸",
+          "publishedAt": "2026-06-16",
+          "eventEditionId": "eurosatory-2026",
+          "type": "manufacturer_newsroom",
+          "independence": "primary_single_origin",
+          "supports": [
+            "eu-light-105: 제품 구성",
+            "실물 출품·개별 현장 캡션",
+            "신속시범사업 개발 설명"
+          ],
+          "limitations": "제조사 자체 발표이며 독립 현장 취재나 성능 검증으로 집계하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "organizationId": "org-b6b486fa375701e51329",
+      "productId": "eu-rcws",
+      "asOf": "2026-11-15",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "화면과 조작부로 제어하는 소형 원격무장장치다.",
+          "sourceIds": [
+            "research-es-wia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "제조사는 AI 기반 자동추적 기능을 소개한다. 성능은 독립 검증하지 않았다.",
+          "sourceIds": [
+            "research-es-wia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "공식 발표는 7.62mm형 실물과 관람객 조작 체험을 명시한다.",
+          "sourceIds": [
+            "research-es-wia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "확인한 자료에는 이후 제품 개량 일정이 제시되지 않았다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 장치와 조작 경험을 함께 소개한 전시 방식으로 읽힌다.",
+          "sourceIds": [
+            "research-es-wia-eurosatory-2026"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "research-es-wia-eurosatory-2026"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [],
+      "form": "제조사 7.62mm형 실물·체험 장치 전시 발표 · 제품별 사진 미연결",
+      "limitations": [
+        "제품별 사진 미확보: 기존 RCWS 현장사진을 열어 일반 RCWS 표지와 장비 일부를 확인했으나 인물 가림과 표지 범위 때문에 7.62mm 소형 전시형을 확정할 수 없었다.",
+        "기사의 사진 캡션도 방산 제품을 살펴보는 참관객을 설명할 뿐 개별 RCWS 형식을 명시하지 않는다.",
+        "같은 사진의 장비를 다른 구경형으로 추정하지 않는다. 기존 사진은 제품 전용 사진으로 연결하지 않았다.",
+        "AI 기능은 제조사 주장이다. 이번 전시의 실제 작동·성능이나 후속 개발 완료를 검증한 결과가 아니다."
+      ],
+      "sources": [
+        {
+          "id": "research-es-wia-eurosatory-2026",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+          "title": "현대위아, 유럽 최대 방위산업 전시회 유로사토리 2026 첫 참가",
+          "publisher": "현대위아 / 현대자동차그룹 뉴스룸",
+          "publishedAt": "2026-06-16",
+          "eventEditionId": "eurosatory-2026",
+          "type": "manufacturer_newsroom",
+          "independence": "primary_single_origin",
+          "supports": [
+            "eu-rcws: 7.62mm형 실물·체험 전시",
+            "제조사 기능 소개"
+          ],
+          "limitations": "제조사 자체 발표이며 독립 현장 취재나 성능 검증으로 집계하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "organizationId": "org-37268bb0020007468bbc",
+      "productId": "eu-tasman-c2",
+      "asOf": "2026-11-15",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "픽업 차체를 기반으로 한 군용 지휘차다.",
+          "sourceIds": [
+            "research-es-kia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "무전기와 등화관제 등 지휘차 특수사양을 소개한다.",
+          "sourceIds": [
+            "research-es-kia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "기아는 타스만 실차를 전시했다. 이번 회차의 개별 현장 캡션이 차량을 명시한다.",
+          "sourceIds": [
+            "research-es-kia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "회사는 고객별 맞춤형 모델 개발 방향을 밝혔다. 타스만의 후속 일정으로 구체화한 발표는 아니다.",
+          "sourceIds": [
+            "research-es-kia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 픽업 기반 차량을 군용 지휘 임무에 맞춰 제시한 사례다.",
+          "sourceIds": [
+            "research-es-kia-eurosatory-2026"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "research-es-kia-eurosatory-2026"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-999005f47b49d93d96ef"
+      ],
+      "form": "제조사 실차 전시 발표 · 공식 캡션과 기존 현장사진의 차명 대조",
+      "limitations": [
+        "2026-11-15 사진을 직접 열어 Tasman 차명과 부스 화면, 전시 차량 외형을 확인했다. 공식 개별 캡션과 대응하지만 원격 원본 파일 자체는 열람 오류로 대조하지 못했다.",
+        "이 사진으로 통신 장비의 실제 작동이나 군 납품 상태를 확인한 것은 아니다.",
+        "뉴스룸 사용 안내를 확인했다. 기존 이미지 표시의 출처·권리 조건을 유지하고 별도 제3자 제한을 무시하지 않는다.",
+        "개발 방향은 회사 차원의 설명이다. 이 차량의 별도 양산 일정·차기 개량 발표로 해석하지 않는다."
+      ],
+      "sources": [
+        {
+          "id": "research-es-kia-eurosatory-2026",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+          "title": "기아, Eurosatory 2026 방산전시회 참가",
+          "publisher": "기아 / 현대자동차그룹 뉴스룸",
+          "publishedAt": "2026-06-15",
+          "eventEditionId": "eurosatory-2026",
+          "type": "manufacturer_newsroom",
+          "independence": "primary_single_origin",
+          "supports": [
+            "eu-tasman-c2: 지휘차 사양",
+            "실차 출품·개별 현장 캡션",
+            "회사 차원의 맞춤형 모델 개발 방향"
+          ],
+          "limitations": "제조사 자체 발표이며 독립 현장 취재나 성능 검증으로 집계하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "organizationId": "org-37268bb0020007468bbc",
+      "productId": "eu-kltv-cargo",
+      "asOf": "2026-11-15",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "KLTV 계열의 2인용 카고형 차량이다.",
+          "sourceIds": [
+            "research-es-kia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "제조사는 전시형의 스노클과 엔진 냉각 구성을 소개한다.",
+          "sourceIds": [
+            "research-es-kia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "기아는 이 형식을 실차로 전시했다. 함께 소개한 중·대형 표준차 모형과 구분된다.",
+          "sourceIds": [
+            "research-es-kia-eurosatory-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "확인한 자료만으로 카고형의 추가 개량·완료 일정을 판단할 수 없다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 소형전술차량의 화물 수송 파생형을 강조한 전시로 읽힌다.",
+          "sourceIds": [
+            "research-es-kia-eurosatory-2026"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "research-es-kia-eurosatory-2026"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-ce3d7958065066487fe7"
+      ],
+      "form": "제조사 실차 전시 발표 · 공식 캡션과 기존 현장사진의 Cargo 표지 대조",
+      "limitations": [
+        "2026-11-15 사진을 직접 열어 KLTV Cargo 표지와 화물 적재부를 확인했다. 2인용 형식의 식별은 공식 캡션에 근거하며 좌석 내부를 사진으로 확인한 것은 아니다.",
+        "공식 개별 캡션과 대응하지만 원격 원본 파일 자체는 열람 오류로 대조하지 못했다.",
+        "뉴스룸 사용 안내를 확인했다. 표시 사진은 과거 ADEX 자료가 아니라 기존 Eurosatory 2026 현장 자산이다.",
+        "일반 KLTV 계열의 방호·주행 제원을 이 전시형의 검증 수치로 옮기지 않는다."
+      ],
+      "sources": [
+        {
+          "id": "research-es-kia-eurosatory-2026",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+          "title": "기아, Eurosatory 2026 방산전시회 참가",
+          "publisher": "기아 / 현대자동차그룹 뉴스룸",
+          "publishedAt": "2026-06-15",
+          "eventEditionId": "eurosatory-2026",
+          "type": "manufacturer_newsroom",
+          "independence": "primary_single_origin",
+          "supports": [
+            "eu-kltv-cargo: 2인용 카고형 식별",
+            "전시형 장비 설명",
+            "실차·모형 구분과 개별 현장 캡션"
+          ],
+          "limitations": "제조사 자체 발표이며 독립 현장 취재나 성능 검증으로 집계하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-261736017afc402204d0",
+      "productId": "tulpar-korhan",
+      "asOf": "2026-11-15",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "제조사가 소개한 TULPAR 궤도차와 ASELSAN KORHAN 포탑의 전시 구성이다.",
+          "sourceIds": [
+            "research-es-otokar-saha-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "차체와 포탑의 공급업체가 구분되는 통합 구성이다.",
+          "sourceIds": [
+            "research-es-otokar-saha-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "5월 5일 제조사 자료는 SAHA 2026 출품 구성을 설명한다. 독립 현장사진 대조는 미완료다.",
+          "sourceIds": [
+            "research-es-otokar-saha-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "확인한 자료만으로 통합시험 완료·양산 일정을 판단할 수 없다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 차량 계열에 외부 포탑을 조합한 제품 제안을 보여준다.",
+          "sourceIds": [
+            "research-es-otokar-saha-2026"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "research-es-otokar-saha-2026"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [],
+      "form": "제조사 회차 출품 구성 발표 · 현장 실물·모형 구분의 독립 확인 미완료",
+      "limitations": [
+        "해당 회차 제품별 표시 사진 미확보. 기존 Anadolu 현장사진 기록은 링크만 있으며 이번에 픽셀·형식·사용권을 대조하지 못했다.",
+        "DSEI 2019의 MIZRAK 30 탑재 참고사진을 KORHAN형 사진으로 사용하지 않는다.",
+        "개막일 자료에는 참가 예고와 전시 중이라는 표현이 함께 있다. 제조사 발표를 현장 독립 관찰로 바꾸지 않는다.",
+        "다른 TULPAR 포탑형의 후속 시험·계약을 이번 KORHAN 구성의 개발 성과로 옮기지 않는다."
+      ],
+      "sources": [
+        {
+          "id": "research-es-otokar-saha-2026",
+          "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "title": "Otokar Demonstrates Its Global Strength in Land Systems at SAHA 2026",
+          "publisher": "Otokar",
+          "publishedAt": "2026-05-05",
+          "eventEditionId": "saha-2026",
+          "type": "manufacturer_newsroom",
+          "independence": "primary_single_origin",
+          "supports": [
+            "tulpar-korhan: KORHAN 탑재 명시",
+            "해당 회차 제조사 출품 구성 발표"
+          ],
+          "limitations": "제조사 자체 발표이며 독립 현장 취재나 성능 검증으로 집계하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-d1f0494ffffe8855172b",
+      "productId": "cobra-ii-bee-eater",
+      "asOf": "2026-11-15",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "COBRA II 장갑차에 UAV 스테이션을 결합한 구성이다.",
+          "sourceIds": [
+            "research-es-otokar-saha-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "제조사 원문은 스테이션 공급사를 DASAL로 명시한다. BEE EATER 상표명은 명시하지 않는다.",
+          "sourceIds": [
+            "research-es-otokar-saha-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "5월 5일 공식 발표에 해당 구성의 SAHA 2026 전시가 등장한다. 현장 실물의 별도 대조는 미완료다.",
+          "sourceIds": [
+            "research-es-otokar-saha-2026"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "확인한 자료만으로 해당 조합의 개발 완료·납품 일정을 확정할 수 없다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 차량에 탑재하는 임무장비의 확장을 강조한 소개로 읽힌다.",
+          "sourceIds": [
+            "research-es-otokar-saha-2026"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "research-es-otokar-saha-2026"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [],
+      "form": "제조사 차량·UAV 스테이션 출품 구성 발표 · 현장 실물·모형 독립 확인 미완료",
+      "limitations": [
+        "해당 회차 제품별 표시 사진 미확보. 기존 외부 기사 사진은 링크만 있으며 이번에 픽셀·세부 형식·이용권을 검증하지 못했다.",
+        "기존 제품 ID에 포함된 상표명을 이번 공식 원문이 확인했다고 보지 않는다.",
+        "IDEF 2019 일반 COBRA II 사진은 이 UAV 구성의 현장사진이 아니다.",
+        "개막일 제조사 출품 설명과 현장 관찰을 구분한다. 주행 중 시연 여부·운용 성능·조달 성과는 검증하지 않았다."
+      ],
+      "sources": [
+        {
+          "id": "research-es-otokar-saha-2026",
+          "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "title": "Otokar Demonstrates Its Global Strength in Land Systems at SAHA 2026",
+          "publisher": "Otokar",
+          "publishedAt": "2026-05-05",
+          "eventEditionId": "saha-2026",
+          "type": "manufacturer_newsroom",
+          "independence": "primary_single_origin",
+          "supports": [
+            "cobra-ii-bee-eater: COBRA II와 DASAL UAV 스테이션 조합",
+            "해당 회차 제조사 출품 구성 발표"
+          ],
+          "limitations": "제조사 자체 발표이며 독립 현장 취재나 성능 검증으로 집계하지 않는다."
+        }
+      ]
+    }
+  ]
+}

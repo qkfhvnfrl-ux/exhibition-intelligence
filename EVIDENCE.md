@@ -90,3 +90,11 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 - 판정: retry_with_revision. 구현과코드검증체크포인트이며 전체보고대체목표·전수조사·공개배포완료아님.
 
 최종 공개 감사: docs/evidence/REDESIGN_PUBLIC_AUDIT.json의 7검사 PASS. 공개 금지문구0, dist allowlist와 원천산출물 대응, 추적 첨부93개(모두이미지; Office/PDF0), 기존 이력3개객체보존 확인. API의 undefined와JSON생략 차이는 직렬화 경계 비교로 정정하고 최초 결과와 원인을 보존했다. 마지막 root rg --hidden --no-ignore 공백정규식 scan도0매치.
+
+## 2026-11-16 기록 — 2026-11-15 자료 연결·최신 화면 검증
+
+- node scripts/prepare-redesign-content.mjs: 36서술/180항목/1보고. npm run build exit0, npm run check189/189pass,0skip. 로그SHA·수량·화면증거: docs/evidence/REDESIGN_EDITION_EXPANSION.json. lint스크립트없음; git diff --check통과.
+- 1440보고1365×767.8125,1280보고1205×677.8125(각16:9).390viewport/document375로가로넘침없음. 보고사진3로드/원문·권리링크6확인.
+- Euro기아사진확대1800px,모바일3이미지로드,IDEX AJBAN441AE→452A순환과CC BY4/변환표시확인. DSEI/SAHA5항목과근거구분확인. 실제휴대폰·PDF검증아님.
+- 독립리뷰2건수정: 신규source독립성enum표준화,Euro105mm현재회차캡션정정. 신규사진다운로드0,기존사진7연결.
+- 재개시서버handle74416은Unknown process id로종료확인. 새보고조사agent3개는중단되어출력파일없음확인후재시작.

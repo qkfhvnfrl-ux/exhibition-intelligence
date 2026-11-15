@@ -1,0 +1,162 @@
+{
+  "recordedAt": "2026-11-16",
+  "workPerformed": "2026-11-15",
+  "scope": "10 existing product narratives added across four editions; total includes earlier ADEX work. No new image downloaded in this bundle.",
+  "status": "verified_implementation_bundle_overall_goal_incomplete",
+  "counts": {
+    "companies": 3685,
+    "products": 128,
+    "narratives": 36,
+    "sections": 180,
+    "productsWithDisplayableEventPhotos": 13,
+    "uniqueEventPhotoAssets": 13
+  },
+  "eventCounts": [
+    {
+      "eventId": "adex-2025",
+      "companies": 375,
+      "products": 94,
+      "narratives": 26,
+      "narrativesWithPhotos": 7
+    },
+    {
+      "eventId": "dsei-2025",
+      "companies": 1743,
+      "products": 7,
+      "narratives": 2,
+      "narrativesWithPhotos": 1
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "companies": 64,
+      "products": 9,
+      "narratives": 4,
+      "narrativesWithPhotos": 3
+    },
+    {
+      "eventId": "idex-2025",
+      "companies": 36,
+      "products": 10,
+      "narratives": 2,
+      "narrativesWithPhotos": 2
+    },
+    {
+      "eventId": "saha-2026",
+      "companies": 1467,
+      "products": 8,
+      "narratives": 2,
+      "narrativesWithPhotos": 0
+    }
+  ],
+  "commands": [
+    {
+      "command": "node scripts/prepare-redesign-content.mjs",
+      "exit": 0,
+      "result": "36 narratives, 180 sections, 1 report"
+    },
+    {
+      "command": "npm run build",
+      "exit": 0,
+      "log": ".local-expansion-build.log",
+      "sha256": "eebaf8bc5e9466b47d08db6cae4f5cfb26d234ceb72d6184ac97d761fa607c5d"
+    },
+    {
+      "command": "npm run check",
+      "exit": 0,
+      "tests": 189,
+      "pass": 189,
+      "fail": 0,
+      "skipped": 0,
+      "log": ".local-expansion-check.log",
+      "sha256": "fb03b4dd5f65c234e5ca14967e2825a69ad6b69c606df34530e26e8640baac33"
+    },
+    {
+      "command": "git diff --check",
+      "exit": 0
+    }
+  ],
+  "lint": "No lint script; check includes syntax and data validation.",
+  "browser": {
+    "baseUrl": "http://127.0.0.1:4174/exhibition-intelligence/preview/",
+    "desktop": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "sheet": [
+        1365,
+        767.8125
+      ]
+    },
+    "laptop": {
+      "viewport": [
+        1280,
+        900
+      ],
+      "sheet": [
+        1205,
+        677.8125
+      ],
+      "footerInsideSheet": true
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "documentWidth": 375,
+      "sheetWidth": 347,
+      "horizontalOverflow": false
+    },
+    "reportPhotoLoads": 3,
+    "photoSourceAndRightsLinks": 6,
+    "kiaEuro": {
+      "productRoute": "eu-kltv-cargo",
+      "imagesLoaded": 3,
+      "tasmanLightboxWidth": 1800
+    },
+    "idexAjban": {
+      "lightboxSecondImageLoaded": true,
+      "previousReturns452A": true,
+      "creditAndLicenseAndTransformNoteVisible": true
+    },
+    "dseiAndSahaNarrativePagesRead": true,
+    "actualPhone": false,
+    "savedPdf": false
+  },
+  "reviewFixes": [
+    "Normalize manufacturer independence labels to primary_single_origin",
+    "Current Eurosatory 105mm caption no longer calls itself a subsequent-event reference",
+    "Narrative-backed companies no longer carry blanket unknown-product introduction",
+    "1280px desktop report fits 16:9 while 390px remains vertical"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/evidence/screenshots/report-current-desktop.png",
+      "sha256": "96c1788794a12aa92aec68da00d31f809ef54726ec72095b5a343435607eaebb"
+    },
+    {
+      "path": "docs/evidence/screenshots/report-current-laptop.png",
+      "sha256": "86c5fcd90ad3ff17bc9ec02c2a33331d9d8d3d43e0f0aad451895aa88bebc87d"
+    },
+    {
+      "path": "docs/evidence/screenshots/report-current-mobile.png",
+      "sha256": "20d334df3496ec4a196458221c86d199feff50966f2b718cb3e2a3724943915d"
+    },
+    {
+      "path": "docs/evidence/screenshots/edition-kia-mobile.png",
+      "sha256": "8602b03048ecf2d6cb1a2ff822059975d39f0863670b349bf5e26eccbcdcd98d"
+    }
+  ],
+  "remaining": [
+    "Actual saved PDF page count and clipping",
+    "Other four edition reports and wider detail coverage",
+    "More independently identified, reusable event photographs",
+    "Actual phone verification",
+    "Finished-version review before /preview/ publication"
+  ],
+  "publication": {
+    "push": false,
+    "deploy": false
+  }
+}

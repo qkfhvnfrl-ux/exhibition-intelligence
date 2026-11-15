@@ -152,6 +152,11 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
         return {id:section.id,label:section.label,text:section.text,sourceIds:unique(section.sourceIds),claimType:section.claimType};
       });
       const eventEvidenceSourceIds=unique(array(raw.eventEvidenceSourceIds)),generalSourceIds=unique(array(raw.generalSourceIds));
+      for(const id of eventEvidenceSourceIds){
+        const declaredSource=array(raw.sources).find(source=>source.id===id);
+        check(!declaredSource?.eventEditionId||declaredSource.eventEditionId===event.id,'narrative event evidence belongs to another edition '+id);
+        check(!generalSourceIds.includes(id),'narrative source is both event evidence and general reference '+id);
+      }
       const narrativeSourceIds=unique([...addedSourceIds,...eventEvidenceSourceIds,...generalSourceIds,...sections.flatMap(section=>section.sourceIds)]);
       for(const id of narrativeSourceIds){check(sources.has(id),'narrative dangling source '+id);relevantSourceIds.add(id);}
       const photoIds=unique(array(raw.photoIds));

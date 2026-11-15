@@ -26,10 +26,17 @@
  .event-report-print-root .report-photo-missing{height:32mm}.event-report-print-root .report-case-name{font-size:8pt;line-height:1.3}
 }
 @media screen and (min-width:1101px){
- .event-report-sheet{gap:12px}
+ .event-report-sheet{gap:10px;padding:24px 34px}
  .report-eyebrow{font-size:12px;line-height:1.4;margin-bottom:6px}
  .report-sheet-heading h1{font-size:clamp(24px,2.35vw,34px);line-height:1.25;margin-bottom:8px}
  .report-scope{font-size:13px;line-height:1.5}
  .report-theme img,.report-photo-missing{height:clamp(145px,12.5vw,180px)}
  .report-comparison{padding-top:12px}.report-comparison h2{margin-bottom:8px}
+}
+@media screen and (min-width:1201px) and (max-width:1359px){
+ .event-report-sheet{padding:16px 28px;gap:8px}
+ .report-theme img,.report-photo-missing{height:120px}
+ .report-theme-summary{font-size:15px;line-height:1.5;margin:8px 0}
+ .report-interpretation{font-size:13px;line-height:1.5}
+ .report-sheet-footer{padding-top:8px}
 }

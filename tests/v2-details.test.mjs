@@ -315,3 +315,32 @@ test('photo callbacks identify the clicked product while preserving the existing
  await events.get('click')({target:{closest(selector){return selector==='[data-photo-index]'?{dataset:{photoIndex:'0'}}:null;}}});
  assert.equal(calls[1].productId,'');assert.equal(calls[1].photos.length,photos.length);cleanup();
 });
+
+
+test('photo attribution keeps its license link and transformation note in the reader and detailed print',()=>{
+ const data=fixture();
+ data.photos[0].rights={status:'reusable',license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/'};
+ data.photos[0].variantNote='웹 표시용 축소·WebP 변환본';
+ for(const html of [companyPanelMarkup(data,data.companies[0]),printReportMarkup(data,['o1'])]){
+  assert.ok(html.includes('href="https://creativecommons.org/licenses/by/4.0/"'));
+  assert.match(html,/CC BY 4.0/);assert.match(html,/웹 표시용 축소·WebP 변환본/);
+ }
+});
+
+test('a narrative evidence label does not present an unconfirmed exhibition as visually verified',()=>{
+ const data=fixture();data.products[0].exhibitStatus='unconfirmed';
+ data.products[0].narrative={eventEvidenceSourceIds:['s1'],generalSourceIds:[],sections:[],photoIds:[],limitations:[]};
+ const html=companyPanelMarkup(data,data.companies[0]);
+ assert.match(html,/해당 회차 출품 관련 원문 확보 · 형상 설명 참조/);
+ assert.equal(data.products[0].exhibitStatus,'unconfirmed');
+});
+
+test('company copy recognizes current product evidence without treating remaining catalogs as exhibits',()=>{
+ const data=fixture();data.editorials=[];delete data.companies[0].editorialId;
+ data.products[0].narrative={eventId:data.event.id,eventEvidenceSourceIds:['s1'],sections:[],photoIds:[],limitations:[]};
+ const html=companyPanelMarkup(data,data.companies[0]);
+ assert.doesNotMatch(html,/실제 전시품목 미확인|이번 회차의 실제 출품품목은 아직 확인하지 못했습니다/);
+ assert.match(html,/출품 발표·사진·개발 계획의 확인 범위/);
+ const stale=structuredClone(data);stale.products[0].narrative.eventId='adex-2023';
+ assert.match(companyPanelMarkup(stale,stale.companies[0]),/실제 전시품목 미확인/);
+});
