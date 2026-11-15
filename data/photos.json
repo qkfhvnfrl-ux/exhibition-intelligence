@@ -1006,15 +1006,17 @@
     "angle": "측면",
     "context": "event",
     "eventId": "idex-2025",
-    "variantNote": "원본 사진 설명과 촬영일은 IDEX 2025를 가리킵니다. 해당 전시 차량의 임무형·세부 장비명은 별도 확인이 필요합니다.",
+    "variantNote": "원본 사진 설명과 촬영일은 IDEX 2025를 가리킵니다. 해당 전시 차량의 임무형·세부 장비명은 별도 확인이 필요합니다. 웹 표시용 축소·WebP 변환본입니다.",
     "sourceTitle": "File:Cobra II.jpg",
     "sourceDate": "2025-02-20",
-    "retrievedAt": "2026-11-10",
+    "retrievedAt": "2026-11-16",
     "width": 1600,
     "height": 1200,
     "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
     "mediaType": "photo",
-    "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd"
+    "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd",
+    "rightsStatus": "reusable",
+    "rightsBasis": "2026-11-16 Commons 원문에서 촬영자·CC BY 4.0·촬영일·IDEX 2025 설명을 대조했다. 저자·원문·라이선스 링크·변경 표시를 유지한다."
   },
   {
     "id": "pars-alpha-00",
@@ -1156,18 +1158,20 @@
     "author": "Cezary FIlip Krzymowski",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "caption": "THeMIS COMBAT — THeMIS-K와 다른 무장형 참고",
+    "caption": "IDEX 2025의 THeMIS COMBAT · ADEX THeMIS-K와 다른 구성",
     "angle": "측면 사선",
     "context": "reference",
     "eventId": null,
-    "variantNote": "기존 THeMIS COMBAT 참고사진입니다. THeMIS-K의 탑재체나 최종 형상을 나타내지 않습니다.",
+    "variantNote": "IDEX 2025 THeMIS COMBAT 사진입니다. ADEX의 THeMIS-K나 EOS 탑재체의 통합 완료를 보여주는 자료가 아닙니다. 웹 표시용 축소·WebP 변환본입니다. 원 게시본의 얼굴 흐림을 유지합니다.",
     "sourceTitle": "File:THeMIS COMBAT.jpg",
     "sourceDate": "2025-02-20",
-    "retrievedAt": "2026-11-10",
+    "retrievedAt": "2026-11-16",
     "width": 1200,
     "height": 1600,
     "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
     "mediaType": "photo",
-    "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1"
+    "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
+    "rightsStatus": "reusable",
+    "rightsBasis": "2026-11-16 Commons 원문에서 촬영자·CC BY 4.0·촬영일·IDEX 2025 설명을 대조했다. 저자·원문·라이선스 링크·변경 표시를 유지한다."
   }
 ]

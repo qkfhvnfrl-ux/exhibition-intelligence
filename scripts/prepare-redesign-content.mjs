@@ -94,7 +94,7 @@ for(const equipment of hanwha.equipment){
  narrative.generalSourceIds=unique(sections.flatMap(s=>s.sourceIds)).filter(id=>!narrative.eventEvidenceSourceIds.includes(id));
  narratives.push(narrative);
 }
-for(const file of ['redesign-narratives-eurosatory-saha.json','redesign-narratives-dsei-idex.json','redesign-narratives-patria.json']){
+for(const file of ['redesign-narratives-eurosatory-saha.json','redesign-narratives-dsei-idex.json','redesign-narratives-patria.json','redesign-narratives-photo-coverage.json']){
  const supplement=await read('docs/research-v2/'+file);
  if(!Array.isArray(supplement.narratives))throw new Error('Missing narrative list: '+file);
  narratives.push(...supplement.narratives.map(item=>({asOf:supplement.asOf,...item})));

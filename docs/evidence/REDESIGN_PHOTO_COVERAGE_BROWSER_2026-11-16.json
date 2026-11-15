@@ -1,0 +1,397 @@
+{
+  "asOf": "2026-11-16",
+  "status": "passed",
+  "baseUrl": "http://127.0.0.1:4174/exhibition-intelligence/preview/",
+  "physicalHandset": false,
+  "checks": [
+    {
+      "case": "acv-viewer",
+      "images": [],
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-8de7f844d3d235b7835b&photo=photo-ec57e567a5091a1ac1ac&product=acv",
+      "verification": "Viewer photograph and count 2/2 confirmed in AX snapshot and screenshot; earlier role-attribute selector returned no nodes, so that empty DOM measurement is not image evidence."
+    },
+    {
+      "case": "acv",
+      "viewport": "1440x1000",
+      "documentWidth": 1425,
+      "heading": "Amphibious Combat Vehicle (ACV)",
+      "images": [
+        {
+          "alt": "ACV · 전시차 후부 수상추진장치",
+          "complete": true,
+          "height": 1600,
+          "width": 1200
+        },
+        {
+          "alt": "ACV · 전시차 상부 원격무장장치",
+          "complete": true,
+          "height": 1200,
+          "width": 1600
+        }
+      ],
+      "innerWidth": 1440,
+      "sections": [
+        {
+          "id": "overview",
+          "text": "장비·형상·용도\n\nACV는 상륙 임무를 위해 소개된 8×8 장갑차 제품군이다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "features",
+          "text": "주요 특징\n\n후부 추진장치와 차체 상부의 임무장비를 서로 다른 근접 사진으로 볼 수 있다.\n\n출품 근거 [2]\n출품 근거 [3]"
+        },
+        {
+          "id": "exhibit",
+          "text": "이번 전시 구성\n\nBAE는 IDEX 2025 출품을 발표했다. 현장사진은 전체 차량보다 상부·후부 구성을 보여준다.\n\n출품 근거 [1]\n출품 근거 [2]\n출품 근거 [3]"
+        },
+        {
+          "id": "development",
+          "text": "개발 방향\n\n근거 미확보\n\n사진 속 전시형의 후속 개발·인도 일정은 확보하지 못했다."
+        },
+        {
+          "id": "interpretation",
+          "text": "전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 중동 첫 소개는 지역 고객을 향한 제품 제안 확대의 사례로 읽힌다. 계약 성과를 뜻하지 않는다.\n\n출품 근거 [1]"
+        }
+      ],
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-8de7f844d3d235b7835b&product=acv"
+    },
+    {
+      "case": "hafeet-mk2",
+      "viewport": "1440x1000",
+      "documentWidth": 1425,
+      "heading": "HAFEET MK2",
+      "images": [
+        {
+          "alt": "HAFEET MK2 · IDEX 2025 전시",
+          "complete": true,
+          "height": 1350,
+          "width": 1800
+        }
+      ],
+      "innerWidth": 1440,
+      "sections": [
+        {
+          "id": "overview",
+          "text": "장비·형상·용도\n\nEDGE가 6×6 병력수송용 장갑차로 소개한 HAFEET MK II 전시 기록이다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "features",
+          "text": "주요 특징\n\n전시 명판은 HAFEET MK2, 차체에는 HAFEET 632A가 적혀 있다.\n\n출품 근거 [2]"
+        },
+        {
+          "id": "exhibit",
+          "text": "이번 전시 구성\n\n사전 출품 안내와 IDEX 현장사진을 대조했다. AJBAN과 구별되는 HAFEET 전시차다.\n\n출품 근거 [1]\n출품 근거 [2]"
+        },
+        {
+          "id": "development",
+          "text": "개발 방향\n\n근거 미확보\n\n이 전시형의 별도 개발 완료·군 인도 일정은 미확인이다."
+        },
+        {
+          "id": "interpretation",
+          "text": "전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 순찰용 AJBAN과 병력수송용 HAFEET를 함께 제시한 구성은 임무별 차량 선택지를 보여준다.\n\n출품 근거 [1]"
+        }
+      ],
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-3a42e32a1f0025e58e14&product=hafeet-mk2"
+    },
+    {
+      "case": "themis-combat",
+      "viewport": "1440x1000",
+      "documentWidth": 1425,
+      "heading": "THeMIS COMBAT",
+      "images": [
+        {
+          "alt": "IDEX 2025의 THeMIS COMBAT · ADEX THeMIS-K와 다른 구성",
+          "complete": true,
+          "height": 1600,
+          "width": 1200
+        }
+      ],
+      "innerWidth": 1440,
+      "sections": [
+        {
+          "id": "overview",
+          "text": "장비·형상·용도\n\nTHeMIS COMBAT 차명이 있는 궤도형 무인지상차량 전시물이다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "features",
+          "text": "주요 특징\n\n사진에서는 궤도 차체와 상부 탑재물을 구별할 수 있다. 탑재체의 정확한 모델은 미확인이다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "exhibit",
+          "text": "이번 전시 구성\n\nIDEX 2025 사진과 EDGE의 THeMIS 출품 안내가 대응한다. ADEX의 THeMIS-K와 다른 기록이다.\n\n출품 근거 [1]\n출품 근거 [2]"
+        },
+        {
+          "id": "development",
+          "text": "개발 방향\n\n공식 발표 · 발표 당시 기준\n\nMilrem은 행사 중 EOS와 무인지상체계·탑재체의 공동 개발 협력을 발표했다. 사진 구성의 통합 완료를 뜻하지 않는다.\n\n출품 근거 [3]"
+        },
+        {
+          "id": "interpretation",
+          "text": "전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 무인 차체와 임무장비를 함께 소개하는 사례다. 이 사진만으로 자율성이나 운용 성숙도를 판단하지 않는다.\n\n출품 근거 [1]"
+        }
+      ],
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-c0aa5fd472a380a0d1d6&product=themis-combat"
+    },
+    {
+      "case": "cobra-ii",
+      "viewport": "1440x1000",
+      "documentWidth": 1425,
+      "heading": "COBRA II",
+      "images": [
+        {
+          "alt": "IDEX 2025의 COBRA II — 측면과 승하차 문 참고",
+          "complete": true,
+          "height": 1200,
+          "width": 1600
+        }
+      ],
+      "innerWidth": 1440,
+      "sections": [
+        {
+          "id": "overview",
+          "text": "장비·형상·용도\n\nCOBRA II는 Otokar가 IDEX 2025에 소개한 4×4 전술 장갑차다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "features",
+          "text": "주요 특징\n\n제조사는 이 회차의 Keskin RCWS 탑재 구성을 설명했다. 사진에서는 차명과 상부 장비가 보인다.\n\n출품 근거 [1]\n출품 근거 [2]"
+        },
+        {
+          "id": "exhibit",
+          "text": "이번 전시 구성\n\nCOBRA II 표기와 IDEX 2025 사진 캡션을 확인했다. 차량 측면과 승하차 문이 드러나는 구도다.\n\n출품 근거 [2]"
+        },
+        {
+          "id": "development",
+          "text": "개발 방향\n\n근거 미확보\n\n이 전시 구성의 별도 개발 완료·인도 일정은 확인하지 못했다."
+        },
+        {
+          "id": "interpretation",
+          "text": "전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: COBRA II를 포함한 차량군 출품은 걸프 지역 고객과의 협력 확대를 위한 제안으로 읽힌다. 계약 성과는 미확인이다.\n\n출품 근거 [1]"
+        }
+      ],
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-7b846c15951b021bf59b&product=cobra-ii"
+    },
+    {
+      "case": "eu-k2-export",
+      "viewport": "1440x1000",
+      "documentWidth": 1425,
+      "heading": "K2 수출형 콘셉트",
+      "images": [
+        {
+          "alt": "Eurosatory 2026 · 수출형 K2와 무인차량 계열을 함께 전시한 현대로템 부스",
+          "complete": true,
+          "height": 1013,
+          "width": 1800
+        }
+      ],
+      "innerWidth": 1440,
+      "sections": [
+        {
+          "id": "overview",
+          "text": "장비·형상·용도\n\n현대로템이 Eurosatory 2026에서 소개한 K2 수출형 콘셉트 모델이다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "features",
+          "text": "주요 특징\n\n제조사는 원격무장장치·방호장치 등 수출형의 구성 선택지를 설명했다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "exhibit",
+          "text": "이번 전시 구성\n\n부스사진에서 K2 명판과 현대로템 표지를 확인했다. 주변에는 무인차량 계열의 모형도 함께 놓여 있다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "development",
+          "text": "개발 방향\n\n공식 발표 · 발표 당시 기준\n\n회사는 무인·방호 기술과 제품군을 넓히는 방향을 밝혔다. 이 콘셉트의 별도 양산 일정은 미확인이다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "interpretation",
+          "text": "전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 고객 요구에 따른 구성 선택지를 보여주는 전시다. 특정 국가의 확정 도입형을 뜻하지 않는다.\n\n출품 근거 [1]"
+        }
+      ],
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=eurosatory-2026&company=org-bb5b014b7abb0359c75b&product=eu-k2-export"
+    },
+    {
+      "case": "t90ms",
+      "viewport": "1440x1000",
+      "documentWidth": 1425,
+      "heading": "T-90MS · IDEX 전시형",
+      "images": [
+        {
+          "alt": "T-90MS · IDEX 2025 측면",
+          "complete": true,
+          "height": 1200,
+          "width": 1600
+        },
+        {
+          "alt": "T-90MS · IDEX 2025 전면",
+          "complete": true,
+          "height": 1200,
+          "width": 1600
+        }
+      ],
+      "innerWidth": 1440,
+      "sections": [
+        {
+          "id": "overview",
+          "text": "장비·형상·용도\n\nIDEX 2025의 T-90MS 전시차를 기록한 사진이다.\n\n출품 근거 [1]\n출품 근거 [2]"
+        },
+        {
+          "id": "features",
+          "text": "주요 특징\n\n측면 사진에 T-90MS 명판과 UVZ·Rosoboronexport 표지가 함께 보인다.\n\n출품 근거 [1]"
+        },
+        {
+          "id": "exhibit",
+          "text": "이번 전시 구성\n\n전면과 측면의 두 사진을 연결했다. 외관과 부스 배치를 확인하는 자료다.\n\n출품 근거 [1]\n출품 근거 [2]"
+        },
+        {
+          "id": "development",
+          "text": "개발 방향\n\n근거 미확보\n\n확인한 사진에는 개발 일정 정보가 없다. 기존 제조사 PDF 본문은 이번 조사에서 확보하지 못했다."
+        },
+        {
+          "id": "interpretation",
+          "text": "전략적 해석\n\n근거 미확보\n\n사진만으로 개발 방향이나 시장 전략을 판단할 근거가 부족해 전략적 해석은 보류한다."
+        }
+      ],
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-2db746a8735131ebbf8e&product=t90ms"
+    },
+    {
+      "case": "t90ms-evidence-boundary",
+      "text": "T-90MS 현장 명판 확인 · IDEX 2025 전면·측면 사진\n\nT-90MS · IDEX 전시형\n\n해당 회차 출품 관련 원문 확보 · 형상 설명 참조\n\n장비 링크 ↗\nT-90MS · IDEX 2025 측면\n해당 회차 현장 · Mztourist · 자료 날짜 2025-02-19\n웹 표시용 WebP 변환본입니다.\n사진 원문\nCC BY 4.0\nT-90MS · IDEX 2025 전면\n장비·형상·용도\n\nIDEX 2025의 T-90MS 전시차를 기록한 사진이다.\n\n출품 근거 [1]\n출품 근거 [2]\n주요 특징\n\n측면 사진에 T-90MS 명판과 UVZ·Rosoboronexport 표지가 함께 보인다.\n\n출품 근거 [1]\n이번 전시 구성\n\n전면과 측면의 두 사진을 연결했다. 외관과 부스 배치를 확인하는 자료다.\n\n출품 근거 [1]\n출품 근거 [2]\n개발 방향\n\n근거 미확보\n\n확인한 사진에는 개발 일정 정보가 없다. 기존 제조사 PDF 본문은 이번 조사에서 확보하지 못했다.\n\n전략적 해석\n\n근거 미확보\n\n사진만으로 개발 방향이나 시장 전략을 판단할 근거가 부족해 전략적 해석은 보류한다.\n\n상세 출처와 확인 범위\n추가 확인 범위\n전시 외관과 촬영자의 회차 설명을 대조했다. 상세 사양·개량 내용·운용 성능을 확정한 기록이 아니다.\nROE 제품 PDF 본문은 확보하지 못해 이번 장비 설명의 근거로 사용하지 않았다. 출처 목록에서는 일반자료로 구분한다.\n촬영일·저자·CC BY 4.0은 확인했다. 제작 상태·양산 일정·군 배치 완료는 미확인이다.\n출품 근거\nhttps://commons.wikimedia.org/wiki/File:T-90MS_side_view_at_IDEX_2025.jpg\n출품 근거\nhttps://commons.wikimedia.org/wiki/File:T-90MS_front_view_at_IDEX_2025.jpg\n일반자료\nhttps://roe.ru/upload/pdf/41766_post.pdf"
+    },
+    {
+      "case": "acv",
+      "viewport": "390x844",
+      "documentWidth": 375,
+      "images": [
+        {
+          "alt": "ACV · 전시차 후부 수상추진장치",
+          "complete": true,
+          "height": 1600,
+          "width": 1200
+        },
+        {
+          "alt": "ACV · 전시차 상부 원격무장장치",
+          "complete": true,
+          "height": 1200,
+          "width": 1600
+        }
+      ],
+      "innerWidth": 390,
+      "productWidth": 307,
+      "sectionCount": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-8de7f844d3d235b7835b&product=acv"
+    },
+    {
+      "case": "hafeet-mk2",
+      "viewport": "390x844",
+      "documentWidth": 375,
+      "images": [
+        {
+          "alt": "HAFEET MK2 · IDEX 2025 전시",
+          "complete": true,
+          "height": 1350,
+          "width": 1800
+        }
+      ],
+      "innerWidth": 390,
+      "productWidth": 307,
+      "sectionCount": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-3a42e32a1f0025e58e14&product=hafeet-mk2"
+    },
+    {
+      "case": "themis-combat",
+      "viewport": "390x844",
+      "documentWidth": 375,
+      "images": [
+        {
+          "alt": "IDEX 2025의 THeMIS COMBAT · ADEX THeMIS-K와 다른 구성",
+          "complete": true,
+          "height": 1600,
+          "width": 1200
+        }
+      ],
+      "innerWidth": 390,
+      "productWidth": 307,
+      "sectionCount": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-c0aa5fd472a380a0d1d6&product=themis-combat"
+    },
+    {
+      "case": "cobra-ii",
+      "viewport": "390x844",
+      "documentWidth": 375,
+      "images": [
+        {
+          "alt": "IDEX 2025의 COBRA II — 측면과 승하차 문 참고",
+          "complete": true,
+          "height": 1200,
+          "width": 1600
+        }
+      ],
+      "innerWidth": 390,
+      "productWidth": 307,
+      "sectionCount": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-7b846c15951b021bf59b&product=cobra-ii"
+    },
+    {
+      "case": "eu-k2-export",
+      "viewport": "390x844",
+      "documentWidth": 375,
+      "images": [
+        {
+          "alt": "Eurosatory 2026 · 수출형 K2와 무인차량 계열을 함께 전시한 현대로템 부스",
+          "complete": true,
+          "height": 1013,
+          "width": 1800
+        }
+      ],
+      "innerWidth": 390,
+      "productWidth": 307,
+      "sectionCount": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=eurosatory-2026&company=org-bb5b014b7abb0359c75b&product=eu-k2-export"
+    },
+    {
+      "case": "t90ms",
+      "viewport": "390x844",
+      "documentWidth": 375,
+      "images": [
+        {
+          "alt": "T-90MS · IDEX 2025 측면",
+          "complete": true,
+          "height": 1200,
+          "width": 1600
+        },
+        {
+          "alt": "T-90MS · IDEX 2025 전면",
+          "complete": true,
+          "height": 1200,
+          "width": 1600
+        }
+      ],
+      "innerWidth": 390,
+      "productWidth": 307,
+      "sectionCount": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-2db746a8735131ebbf8e&product=t90ms"
+    },
+    {
+      "case": "themis-reload",
+      "activeId": "product-themis-combat",
+      "caption": "IDEX 2025의 THeMIS COMBAT · ADEX THeMIS-K와 다른 구성\n해당 회차 현장 · Cezary FIlip Krzymowski · 자료 날짜 2025-02-20\nIDEX 2025 THeMIS COMBAT 사진입니다. ADEX의 THeMIS-K나 EOS 탑재체의 통합 완료를 보여주는 자료가 아닙니다. 웹 표시용 축소·WebP 변환본입니다. 원 게시본의 얼굴 흐림을 유지합니다.\n사진 원문\nCC BY 4.0",
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-c0aa5fd472a380a0d1d6&product=themis-combat"
+    },
+    {
+      "case": "havoc-viewer",
+      "text": "사진 2 / 3\n사진 원문\n\nHAVOC 8×8 RCV · 현장사진 2\n\n해당 회차 현장 · Cezary Filip Krzymowski · 자료 날짜 2025-02-20\n동일 전시차의 같은 방향 연속촬영입니다. 다른 각도 또는 별도 장비로 세지 않습니다. 웹 표시용 축소·WebP 변환본입니다.\nCC BY 4.0",
+      "images": [
+        {
+          "alt": "HAVOC 8×8 RCV · 현장사진 2",
+          "height": 1350,
+          "width": 1800
+        }
+      ]
+    },
+    {
+      "case": "havoc-next",
+      "text": "사진 3 / 3\n사진 원문\n\nHAVOC 8×8 RCV · 현장사진 1\n\n해당 회차 현장 · Cezary Filip Krzymowski · 자료 날짜 2025-02-20\n동일 전시차의 같은 방향 연속촬영입니다. 다른 각도 또는 별도 장비로 세지 않습니다. 웹 표시용 축소·WebP 변환본입니다. 사진에 담긴 방향 외 전체 형상은 확인할 수 없습니다.\nCC BY 4.0"
+    }
+  ],
+  "screenshots": [
+    "docs/evidence/screenshots/acv-desktop-2026-11-16.jpg",
+    "docs/evidence/screenshots/themis-mobile-2026-11-16.jpg"
+  ]
+}

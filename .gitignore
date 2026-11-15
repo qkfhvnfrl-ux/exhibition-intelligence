@@ -23,3 +23,6 @@ tmp/photo-intake-2026-11-16/
 # Local PDF review artifacts and render scratch files; evidence records are tracked
 output/pdf/
 tmp/pdf-qa2026-11-16/
+
+# Existing Commons photo comparison download, not a new display asset
+tmp/THeMIS-COMBAT-review-original.jpg

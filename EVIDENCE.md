@@ -114,3 +114,70 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 - output/pdf/final의 5파일 각각1쪽, 319.955×179.917mm, 최소7.99pt(8pt 반올림), 모든 글꼴 임베드. 15개 주제의 본문·비교·캡션·출처 링크 일치. 사진12개 높이44.979mm. SAHA사진0/미확보안내3개 유지. 페이지밖글자0·글자간/사진본문겹침0, 150dpi 렌더5개 시각 검토 통과.
 - REDESIGN_PDF_VALIDATION_2026-11-16.json에 각 파일 SHA256·치수·명령·링크 검증 저장. baseline5개와 최종5개 구분. SAHA는 변경 없는 기준본을 복사한 파일로 해시 동일함을 기록.
 - 최신 build/check200은 최종 문구 압축 이후 실행한 결과다. 문서 갱신만으로 검사를 반복하지 않는다. B03범위 completed, 전체 목표와 자료 확장 B04는 진행 중. 공개 배포 없음.
+
+## 2026-11-16 기존 사진 10장 연결·6제품 설명 검증
+
+- node scripts/prepare-redesign-content.mjs: 46 narratives /230 sections /5 reports. npm run build exit0(.local-photo-coverage-build.log). npm run check exit0,201pass,0fail,0skip(.local-photo-coverage-check.log).
+- 독립검토의3지적 수정: evidence_gap을 추론으로 표시하던 분류를 수정하고 화면/인쇄 회귀 추가; 9CC사진변환/원본얼굴흐림고지; 미열람ROE PDF를 일반자료로분리·설명미사용명시.
+- 브라우저: 신규6제품 모두1440×1000 및390×844에서8이미지로드/5설명/가로넘침없음(document1425/375). ACV확대2장, HAVOC3사진순환(다른제품사진배제), THeMIS제품주소새로고침, T90일반자료/근거미확보라벨확인. 실제휴대폰검증아님.
+- 보고5개의PDF내용/사진/CSS변경없음. 앞선실제PDF검증유효. 이번묶음은기존사진10개추가연결/신규다운로드0/자산바이트불변.
+- 근거: docs/evidence/REDESIGN_PHOTO_COVERAGE_2026-11-16.json 및 REDESIGN_PHOTO_COVERAGE_BROWSER_2026-11-16.json. SAHA사진후보3사례대체경로조사는ready0으로유지.
+
+### 이번 두 구현 묶음의 수정 파일
+
+기준 6b2999b 이후 54개 추적 파일(로컬 PDF·원본 대조 파일 제외):
+
+- `.gitignore`
+- `CHANGELOG.md`
+- `DECISIONS.md`
+- `EVIDENCE.md`
+- `PROJECT_STATE.md`
+- `TASKS.md`
+- `assets/photos/dsei2025-patria-6x6-booth.jpg`
+- `assets/photos/dsei2025-patria-6x6-cavs.jpg`
+- `assets/photos/dsei2025-patria-trackx.jpg`
+- `assets/photos/dsei2025-patria-tremos.jpg`
+- `data/catalog.json`
+- `data/event-reports.json`
+- `data/photos.json`
+- `data/research-v1.1/idex.json`
+- `data/v2/editorial/event-reports.json`
+- `data/v2/editorial/product-narratives.json`
+- `data/v2/research/dsei-2025/patria-photos.json`
+- `docs/EXECUTIVE_V2_BRIEF.md`
+- `docs/EXECUTIVE_V2_HANDOFF.md`
+- `docs/EXECUTIVE_V2_STATUS.json`
+- `docs/evidence/REDESIGN_PDF_VALIDATION_2026-11-16.json`
+- `docs/evidence/REDESIGN_PHOTO_COVERAGE_2026-11-16.json`
+- `docs/evidence/REDESIGN_PHOTO_COVERAGE_BROWSER_2026-11-16.json`
+- `docs/evidence/REDESIGN_PHOTO_INTAKE_2026-11-16.json`
+- `docs/evidence/REDESIGN_REPORT_BROWSER_2026-11-16.json`
+- `docs/evidence/REDESIGN_REPORT_EXPANSION_2026-11-16.json`
+- `docs/evidence/screenshots/acv-desktop-2026-11-16.jpg`
+- `docs/evidence/screenshots/patria-mobile-2026-11-16.jpg`
+- `docs/evidence/screenshots/report-dsei-2026-11-16.jpg`
+- `docs/evidence/screenshots/report-dsei-desktop-2026-11-16.jpg`
+- `docs/evidence/screenshots/report-dsei-mobile-2026-11-16.jpg`
+- `docs/evidence/screenshots/report-eurosatory-2026-11-16.jpg`
+- `docs/evidence/screenshots/report-final-desktop-2026-11-16.jpg`
+- `docs/evidence/screenshots/report-idex-2026-11-16.jpg`
+- `docs/evidence/screenshots/report-saha-2026-11-16.jpg`
+- `docs/evidence/screenshots/themis-mobile-2026-11-16.jpg`
+- `docs/research-v2/redesign-narratives-dsei-idex.json`
+- `docs/research-v2/redesign-narratives-patria.json`
+- `docs/research-v2/redesign-narratives-photo-coverage.json`
+- `docs/research-v2/redesign-next-photo-coverage.json`
+- `docs/research-v2/redesign-photo-candidates-adex.json`
+- `docs/research-v2/redesign-photo-candidates-saha.json`
+- `docs/research-v2/redesign-report-dsei.json`
+- `docs/research-v2/redesign-report-eurosatory.json`
+- `docs/research-v2/redesign-report-idex.json`
+- `docs/research-v2/redesign-report-saha.json`
+- `scripts/compile-v2-app.mjs`
+- `scripts/prepare-redesign-content.mjs`
+- `src/v2/details.js`
+- `src/v2/report.css`
+- `src/v2/report.js`
+- `tests/v2-app-data.test.mjs`
+- `tests/v2-details.test.mjs`
+- `tests/v2-report.test.mjs`

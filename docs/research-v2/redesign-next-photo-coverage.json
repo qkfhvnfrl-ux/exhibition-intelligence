@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-16",
+  "status": "completed",
+  "scope": "5회차의 현재 앱 이벤트 JSON에 이미 존재하는 직접 표시 사진을 대상으로 한 연결 공백 조사. 전체 업체 조사나 전시회 전체 조사 아님.",
+  "plan": {
+    "goal": "적은 추가 조사로 사진·제품 설명 연결을 보강할 우선순위 6~10개 선정",
+    "editFiles": [
+      "docs/research-v2/redesign-next-photo-coverage.json"
+    ],
+    "impact": "조사 파일만 작성; 운영 data·사진 자산 변경 없음",
+    "risk": "다른 회차 혼용, 회사 사진에서 특정 형식 과잉 식별, 임베드 권리를 재배포 허용으로 오해",
+    "verification": "현행 JSON 교차 대조, 기존 로컬 픽셀 열람, Commons 메타데이터·제조사 원문·권리 확인"
+  },
+  "snapshot": {
+    "recordScope": "현재 앱 이벤트 파일의 이벤트별 레코드 수이며 법인·제품의 전 세계 고유 개수 아님",
+    "eventScopedProductRecords": 130,
+    "narrativeRecords": 40,
+    "eventPhotosWithSrc": 53,
+    "localEventPhotos": 33,
+    "providerEmbedEventPhotos": 20,
+    "localEventPhotosWithoutProductIds": 15,
+    "linkedLocalEventProductsMissingNarrative": 0,
+    "perEvent": [
+      {
+        "eventId": "adex-2025",
+        "products": 94,
+        "narratives": 26,
+        "eventPhotosWithSrc": 7,
+        "localEventPhotos": 7,
+        "providerEmbedEventPhotos": 0,
+        "localEventPhotosWithoutProductIds": 1
+      },
+      {
+        "eventId": "dsei-2025",
+        "products": 9,
+        "narratives": 5,
+        "eventPhotosWithSrc": 10,
+        "localEventPhotos": 5,
+        "providerEmbedEventPhotos": 5,
+        "localEventPhotosWithoutProductIds": 0
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "products": 9,
+        "narratives": 4,
+        "eventPhotosWithSrc": 22,
+        "localEventPhotos": 7,
+        "providerEmbedEventPhotos": 15,
+        "localEventPhotosWithoutProductIds": 4
+      },
+      {
+        "eventId": "idex-2025",
+        "products": 10,
+        "narratives": 3,
+        "eventPhotosWithSrc": 14,
+        "localEventPhotos": 14,
+        "providerEmbedEventPhotos": 0,
+        "localEventPhotosWithoutProductIds": 10
+      },
+      {
+        "eventId": "saha-2026",
+        "products": 8,
+        "narratives": 2,
+        "eventPhotosWithSrc": 0,
+        "localEventPhotos": 0,
+        "providerEmbedEventPhotos": 0,
+        "localEventPhotosWithoutProductIds": 0
+      }
+    ],
+    "finding": "직접 연결된 로컬 현장사진 제품에는 이미 narrative가 있다. 이번 우선순위는 제품 연결이 없는 회사 사진에서 발견했다.",
+    "caveat": "src 존재는 다운로드·재배포 허용의 자동 증거가 아니다. Flickr provider-embed 20장은 별도 조건 검토가 필요해 이번 낮은 조사비용 우선순위에서 제외했다."
+  },
+  "recommendation": {
+    "priorityCount": 7,
+    "existingPhotoCount": 10,
+    "newNarrativeProductCount": 6,
+    "existingNarrativeLinkRepairCount": 1,
+    "newImagesRequired": 0,
+    "publishingApproved": false
+  },
+  "priorities": [
+    {
+      "rank": 1,
+      "eventId": "idex-2025",
+      "companyId": "org-8de7f844d3d235b7835b",
+      "productId": "acv",
+      "title": "ACV의 구성품 사진과 제품 설명 연결",
+      "photoIds": [
+        "photo-68c423ede7bd55417d56",
+        "photo-ec57e567a5091a1ac1ac"
+      ],
+      "gap": "제품 narrative가 없고 두 근접 사진의 productIds도 비어 있다.",
+      "whyFeasible": "공식 출품 기사, Commons 행사 분류·사용권, 실제 장비 근접 사진이 이미 있다. 새 사진 없이 지상 구성품을 보여주는 설명을 만들 수 있다.",
+      "recommendedAction": "기존 acv 제품에 두 사진을 연결하고 '차체 후부 추진장치'·'상부 원격무장장치'라는 관찰 캡션을 분리한다. 개별 부품을 별도 제조사 제품으로 새로 등록하지 않는다.",
+      "safeDescription": "IDEX 2025의 ACV 전시차에서 후부 추진장치와 상부 임무장비를 촬영한 사진이다.",
+      "evidenceSourceIds": [
+        "source-b95dd1777d21dd410287",
+        "source-31e1a89128881b98068a",
+        "source-615f3dcca5c3757caee0"
+      ],
+      "primaryUrl": "https://www.baesystems.com/en-us/article/bae-systems-amphibious-combat-vehicle-makes-debut-in-middle-sast-at-idex",
+      "unverified": [
+        "상부 장비의 정확한 제조사·모델",
+        "전시차의 ACV-P/ACV-30 등 세부 형식",
+        "장비 작동·성능·양산 상태"
+      ],
+      "effort": "낮음",
+      "categoryFocus": [
+        "interiors_modules",
+        "mobility",
+        "mission_equipment"
+      ]
+    },
+    {
+      "rank": 2,
+      "eventId": "idex-2025",
+      "companyId": "org-3a42e32a1f0025e58e14",
+      "productId": "hafeet-mk2",
+      "title": "HAFEET MK2 전시 명판으로 사진 연결",
+      "photoIds": [
+        "photo-69dc76e63f40de3a4788"
+      ],
+      "gap": "기존 제품 narrative와 사진 연결이 모두 없다.",
+      "whyFeasible": "사진의 HAFEET MK2 명판과 HAFEET 632A 차체 글자가 명확하다. EDGE 사전 안내도 HAFEET MK II 출품을 명시한다.",
+      "recommendedAction": "hafeet-mk2에 사진을 연결하고 명판과 차체의 두 명칭을 함께 적는다. AJBAN 계열과 구분한다.",
+      "safeDescription": "HAFEET MK2 명판을 세운 6×6 전시차다. 사진 차체에는 HAFEET 632A가 표기돼 있다.",
+      "evidenceSourceIds": [
+        "source-88cc2991a2c2727fe63c",
+        "source-bbf2500d611afd667bb6"
+      ],
+      "primaryUrl": "https://edgegroup.ae/news/edge-showcase-200-disruptive-technology-and-defence-solutions-idex-2025",
+      "unverified": [
+        "MK2와 632A 명칭의 공식 형식 관계",
+        "사진 속 상부 임무장비의 상세 식별",
+        "사전 출품 안내 이후의 별도 개발 일정"
+      ],
+      "effort": "낮음",
+      "categoryFocus": [
+        "complete_vehicle"
+      ]
+    },
+    {
+      "rank": 3,
+      "eventId": "idex-2025",
+      "companyId": "org-c0aa5fd472a380a0d1d6",
+      "productId": "themis-combat",
+      "title": "IDEX THeMIS COMBAT를 해당 제품에 연결",
+      "photoIds": [
+        "photo-25e3c0aefc7efbbcfddc"
+      ],
+      "gap": "사진은 IDEX event로 표시되지만 productIds가 비어 있고 themis-combat narrative가 없다.",
+      "whyFeasible": "현장 차명·제조사 로고·Commons IDEX 캡션과 CC 조건이 일치한다. 기존 파일명에 themis-k가 있어도 사진은 COMBAT로 식별된다.",
+      "recommendedAction": "IDEX의 themis-combat에만 연결한다. ADEX의 themis-k에는 다른 형식 참고사진이라는 기존 구분을 유지한다. EOS 협력 발표는 별도 개발 계획으로만 요약한다.",
+      "safeDescription": "THeMIS COMBAT 표기가 있는 궤도형 무인지상차량 전시물이다.",
+      "evidenceSourceIds": [
+        "source-65ded7e5afc798e8e57e",
+        "source-88cc2991a2c2727fe63c",
+        "source-160f4e2f7a2c3baa1f32"
+      ],
+      "primaryUrl": "https://milremrobotics.com/milrem-robotics-and-electro-optic-systems-sign-agreement-to-advance-combat-ugs-solutions/",
+      "unverified": [
+        "사진의 탑재 장비가 협력 발표의 EOS R400인지",
+        "통합 완료·운용 성숙도",
+        "기존 WebP의 얼굴 흐림 등 변경 표기 범위"
+      ],
+      "effort": "낮음",
+      "categoryFocus": [
+        "unmanned_remote",
+        "mission_equipment"
+      ]
+    },
+    {
+      "rank": 4,
+      "eventId": "idex-2025",
+      "companyId": "org-7b846c15951b021bf59b",
+      "productId": "cobra-ii",
+      "title": "COBRA II의 해당 회차 출품 설명 추가",
+      "photoIds": [
+        "photo-cb87df5d135cfa3a2f1a"
+      ],
+      "gap": "제품 설명과 직접 사진 연결이 없다. 기존 제품 sourceIds에 다른 행사 원문도 섞여 있다.",
+      "whyFeasible": "차명 픽셀과 Commons 행사 캡션이 명확하며 Otokar의 2025-02-17 공식 기사에 동일 회차 출품이 명시된다.",
+      "recommendedAction": "해당 사진을 cobra-ii에 연결하고 이번 전시 설명의 sourceIds를 IDEX 2025 기사로 한정한다. SAHA 2026의 UAV 스테이션 형식과 혼동하지 않는다.",
+      "safeDescription": "COBRA II 차명이 보이는 IDEX 2025 전시차 측면이다. 제조사는 이 회차의 RCWS 탑재 구성을 소개했다.",
+      "evidenceSourceIds": [
+        "source-82d861723141822e2932",
+        "source-b950cabfd3e86bea2c56"
+      ],
+      "primaryUrl": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+      "unverified": [
+        "사진 속 상부 장비와 공식 Keskin 명칭의 개별 대응",
+        "차량 내부·작동 상태",
+        "SAHA 등 다른 회차와 동일한 사양 여부"
+      ],
+      "effort": "낮음",
+      "categoryFocus": [
+        "complete_vehicle",
+        "mission_equipment"
+      ]
+    },
+    {
+      "rank": 5,
+      "eventId": "eurosatory-2026",
+      "companyId": "org-bb5b014b7abb0359c75b",
+      "productId": "eu-k2-export",
+      "title": "K2 수출형 콘셉트 설명과 부스 사진 연결",
+      "photoIds": [
+        "photo-a305d72436108230a626"
+      ],
+      "gap": "eu-k2-export narrative가 없으며 차명이 보이는 회사 사진에 productIds가 없다.",
+      "whyFeasible": "K2 현장 표지와 공식 기사의 '수출형 콘셉트 모델' 설명이 대응한다. 뉴스룸 이미지 사용 안내도 재확인했다.",
+      "recommendedAction": "기존 제품에 부스 사진을 연결하되 '수출형 콘셉트' 표현을 유지한다. 주변 UGV 모형은 별도 형식 식별 전 제품별 사진으로 분할·확대 연결하지 않는다.",
+      "safeDescription": "K2 수출형 콘셉트와 주변 지상장비 모형을 함께 보여주는 Eurosatory 2026 현장 사진이다.",
+      "evidenceSourceIds": [
+        "source-1ee4b2afecce83063a7d"
+      ],
+      "primaryUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-rotem-advanced-protection-system-tech-global-debut",
+      "unverified": [
+        "전시차의 작동 가능한 실차·목업 구분",
+        "특정 수출 고객의 양산 형식",
+        "주변 UGV 모형별 세부 형식"
+      ],
+      "effort": "낮음",
+      "categoryFocus": [
+        "complete_vehicle",
+        "unmanned_remote"
+      ]
+    },
+    {
+      "rank": 6,
+      "eventId": "idex-2025",
+      "companyId": "org-2db746a8735131ebbf8e",
+      "productId": "t90ms",
+      "title": "T-90MS 두 방향 사진을 전시 기록에 연결",
+      "photoIds": [
+        "photo-6fe3dd99c161ed32ca7a",
+        "photo-5dd70cdd947e8d8264db"
+      ],
+      "gap": "제품 narrative가 없으며 전면·측면 사진 모두 제품 미연결.",
+      "whyFeasible": "측면 사진의 T-90MS·UVZ·Rosoboronexport 표지와 촬영자의 해당 회차 캡션이 일치한다. 두 사진 모두 CC BY 4.0을 재확인했다.",
+      "recommendedAction": "전시 사실과 두 방향 사진의 범위에 한해 짧은 설명을 작성한다. 읽지 못한 기존 PDF로 성능·개발 계획을 채우지 않는다.",
+      "safeDescription": "IDEX 2025에 전시된 T-90MS를 전면과 측면에서 촬영한 사진이다.",
+      "evidenceSourceIds": [
+        "source-09acaf2051f60b9a2564",
+        "source-46f946fb91b8be1a554d"
+      ],
+      "primaryUrl": "https://commons.wikimedia.org/wiki/File:T-90MS_side_view_at_IDEX_2025.jpg",
+      "unverified": [
+        "기존 제조사 PDF https://roe.ru/upload/pdf/41766_post.pdf 는 이번 web 조회 timeout",
+        "전시형의 상세 사양·개발 일정",
+        "사진의 외부 부착물 기능·효과"
+      ],
+      "effort": "낮음 — 전시기록 한정",
+      "categoryFocus": [
+        "complete_vehicle"
+      ]
+    },
+    {
+      "rank": 7,
+      "eventId": "idex-2025",
+      "companyId": "org-c0aa5fd472a380a0d1d6",
+      "productId": "havoc-8x8",
+      "title": "HAVOC 추가 사진의 누락 연결 보완",
+      "photoIds": [
+        "photo-985b49c2b185568fba9d",
+        "photo-0807aea6727cdd66f83c"
+      ],
+      "gap": "narrative와 01 사진 연결은 있으나 02·03 사진의 productIds가 없다.",
+      "whyFeasible": "두 사진에 HAVOC 차명과 Milrem 로고가 보이고 Commons 회차·사용권이 일치한다.",
+      "recommendedAction": "두 사진의 제품 연결을 보완한다. 거의 같은 구도이므로 대표 갤러리에는 한 장을 우선하고 다른 장은 보조 사진으로 둔다. 신규 제품·신규 업체 증가로 집계하지 않는다.",
+      "safeDescription": "IDEX 2025 HAVOC 전시차를 사선에서 촬영한 추가 사진이다.",
+      "evidenceSourceIds": [
+        "source-eb59daa7239416207c4a",
+        "source-743b1f2182fd8373d7f7",
+        "idex25-edge-platforms-official-followup"
+      ],
+      "primaryUrl": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "unverified": [
+        "두 파일은 거의 같은 구도이며 기술 정보의 추가 범위가 작음",
+        "신규 성능·기능에 대한 추가 근거 없음"
+      ],
+      "effort": "매우 낮음",
+      "categoryFocus": [
+        "unmanned_remote"
+      ]
+    }
+  ],
+  "photoEvidence": [
+    {
+      "photoId": "photo-68c423ede7bd55417d56",
+      "file": "assets/photos/idex2025-new-acv-thruster.webp",
+      "url": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_thruster.jpg",
+      "author": "Mztourist",
+      "date": "2025-02-19",
+      "observation": "전시 차체 뒤쪽의 프로펠러형 추진장치가 보인다.",
+      "eventBasis": "Commons IDEX 2025 분류와 촬영일; BAE의 해당 회차 ACV 출품 발표",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "requirements": "저자·원문·라이선스 링크 및 WebP 변환·크기 변경 여부를 표시한다."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "Commons 공개 imageinfo/extmetadata API HTTP 200",
+      "currentProductIds": []
+    },
+    {
+      "photoId": "photo-ec57e567a5091a1ac1ac",
+      "file": "assets/photos/idex2025-new-acv-rws.webp",
+      "url": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_remote_weapons_station.jpg",
+      "author": "Mztourist",
+      "date": "2025-02-19",
+      "observation": "BAE 부스 표지와 차체 상부 원격무장장치가 보인다.",
+      "eventBasis": "Commons IDEX 2025 분류와 촬영일; BAE의 해당 회차 ACV 출품 발표",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "requirements": "저자·원문·라이선스 링크 및 WebP 변환·크기 변경 여부를 표시한다."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "Commons 공개 imageinfo/extmetadata API HTTP 200",
+      "currentProductIds": []
+    },
+    {
+      "photoId": "photo-69dc76e63f40de3a4788",
+      "file": "assets/photos/idex2025-new-hafeet.webp",
+      "url": "https://commons.wikimedia.org/wiki/File:Hafeet_MK2.jpg",
+      "author": "Cezary Filip Krzymowski",
+      "date": "2025-02-20",
+      "observation": "차체 HAFEET 632A와 전시 명판 HAFEET MK2가 함께 읽힌다.",
+      "eventBasis": "Commons 설명에 IDEX 2025 명시",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "requirements": "저자·원문·라이선스 링크 및 WebP 변환·크기 변경 여부를 표시한다."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "Commons 공개 imageinfo/extmetadata API HTTP 200",
+      "currentProductIds": []
+    },
+    {
+      "photoId": "photo-25e3c0aefc7efbbcfddc",
+      "file": "assets/photos/themis-k-21.webp",
+      "url": "https://commons.wikimedia.org/wiki/File:THeMIS_COMBAT.jpg",
+      "author": "Cezary FIlip Krzymowski",
+      "date": "2025-02-20",
+      "observation": "THeMIS COMBAT 차체 글자, Milrem 로고, 궤도와 상부 탑재물이 보인다.",
+      "eventBasis": "Commons 설명에 IDEX 2025 명시",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "requirements": "저자·원문·라이선스 링크 및 WebP 변환·크기 변경 여부를 표시한다."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "Commons 공개 imageinfo/extmetadata API HTTP 200",
+      "currentProductIds": []
+    },
+    {
+      "photoId": "photo-cb87df5d135cfa3a2f1a",
+      "file": "assets/photos/cobra-ii-08.webp",
+      "url": "https://commons.wikimedia.org/wiki/File:Cobra_II.jpg",
+      "author": "Cezary Filip Krzymowski",
+      "date": "2025-02-20",
+      "observation": "COBRA II 차명과 차량 측면·상부 임무장비가 보인다.",
+      "eventBasis": "Commons 설명에 IDEX 2025 명시",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "requirements": "저자·원문·라이선스 링크 및 WebP 변환·크기 변경 여부를 표시한다."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "Commons 공개 imageinfo/extmetadata API HTTP 200",
+      "currentProductIds": []
+    },
+    {
+      "photoId": "photo-6fe3dd99c161ed32ca7a",
+      "file": "assets/photos/idex2025-new-t90ms-front.webp",
+      "url": "https://commons.wikimedia.org/wiki/File:T-90MS_front_view_at_IDEX_2025.jpg",
+      "author": "Mztourist",
+      "date": "2025-02-19",
+      "observation": "전시차 전면과 주변 전시대가 보인다.",
+      "eventBasis": "Commons 파일명·설명에 IDEX 2025 명시",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "requirements": "저자·원문·라이선스 링크 및 WebP 변환·크기 변경 여부를 표시한다."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "Commons 공개 imageinfo/extmetadata API HTTP 200",
+      "currentProductIds": []
+    },
+    {
+      "photoId": "photo-5dd70cdd947e8d8264db",
+      "file": "assets/photos/idex2025-new-t90ms-side.webp",
+      "url": "https://commons.wikimedia.org/wiki/File:T-90MS_side_view_at_IDEX_2025.jpg",
+      "author": "Mztourist",
+      "date": "2025-02-19",
+      "observation": "차량 측면과 UVZ·Rosoboronexport·T-90MS 표지가 함께 보인다.",
+      "eventBasis": "Commons 파일명·설명에 IDEX 2025 명시",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "requirements": "저자·원문·라이선스 링크 및 WebP 변환·크기 변경 여부를 표시한다."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "Commons 공개 imageinfo/extmetadata API HTTP 200",
+      "currentProductIds": []
+    },
+    {
+      "photoId": "photo-a305d72436108230a626",
+      "file": "assets/photos/eurosatory2026-new-rotem.jpg",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-rotem-advanced-protection-system-tech-global-debut",
+      "author": "현대로템 / 현대자동차그룹",
+      "date": "2026-06-15",
+      "observation": "K2 전시 명판·현대로템 부스 로고·전차 및 주변 소형 전시물들이 보인다.",
+      "eventBasis": "공식 2026-06-15 Eurosatory 2026 출품 기사",
+      "license": {
+        "name": "현대자동차그룹 뉴스룸 기사·이미지 자유 사용 안내",
+        "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-rotem-advanced-protection-system-tech-global-debut",
+        "requirements": "출처와 제조사 제공 표시 유지; 제3자 제공 자료의 별도 제한 예외 적용. CC로 표기하지 않음."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "공식 뉴스룸 본문·이용 안내 web 원문",
+      "currentProductIds": []
+    },
+    {
+      "photoId": "photo-985b49c2b185568fba9d",
+      "file": "assets/photos/idex2025-new-havoc-02.webp",
+      "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%282%29.jpg",
+      "author": "Cezary Filip Krzymowski",
+      "date": "2025-02-20",
+      "observation": "HAVOC 차명·Milrem 로고·한쪽 네 바퀴가 보이는 사선 사진.",
+      "eventBasis": "Commons 설명에 IDEX 2025 명시",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "requirements": "저자·원문·라이선스 링크 및 WebP 변환·크기 변경 여부를 표시한다."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "Commons 공개 imageinfo/extmetadata API HTTP 200",
+      "currentProductIds": []
+    },
+    {
+      "photoId": "photo-0807aea6727cdd66f83c",
+      "file": "assets/photos/idex2025-new-havoc-03.webp",
+      "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%283%29.jpg",
+      "author": "Cezary Filip Krzymowski",
+      "date": "2025-02-20",
+      "observation": "02번과 거의 같은 위치의 별도 촬영. 추가 장비로 세지 않는다.",
+      "eventBasis": "Commons 설명에 IDEX 2025 명시",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "requirements": "저자·원문·라이선스 링크 및 WebP 변환·크기 변경 여부를 표시한다."
+      },
+      "pixelReviewedAt": "2026-11-16",
+      "metadataReviewedAt": "2026-11-16",
+      "metadataMethod": "Commons 공개 imageinfo/extmetadata API HTTP 200",
+      "currentProductIds": []
+    }
+  ],
+  "heldMappings": [
+    {
+      "eventId": "eurosatory-2026",
+      "companyId": "org-b6b486fa375701e51329",
+      "photoIds": [
+        "photo-60cf5a2d603caa260f23",
+        "photo-0642e500330d08ea35be"
+      ],
+      "candidateProductId": "eu-rcws",
+      "reason": "첫 번째 로컬 사진을 직접 열어 Intelligent RCWS 표지와 장비 일부를 확인했지만 기존 eu-rcws는 소형 RCWS를 가리킨다. 인물에 가린 사진으로 동일 형식을 확정하지 않는다. 두 번째 사진은 이 조사에서 미열람.",
+      "primaryUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+      "rights": "뉴스룸 자유 사용 안내 확인",
+      "nextStep": "사진 속 명판·개별 모델을 재대조한 후 정확한 제품으로 연결하거나 회사 전시 맥락 사진으로 유지"
+    },
+    {
+      "eventId": "idex-2025",
+      "companyId": "org-3a42e32a1f0025e58e14",
+      "photoIds": [
+        "photo-12e23567663eba491f36"
+      ],
+      "candidateProductId": "ajban-family",
+      "reason": "Commons 제목은 442A이나 현재 narrative의 공식 발표는 452A·432AU·441AE를 다룬다. 기존 설명에 이름만 추가하지 않고 명판과 공식 파생형 자료를 대조해야 한다.",
+      "primaryUrl": "https://commons.wikimedia.org/wiki/File:Ajban_442A.jpg",
+      "nextStep": "명판 확인 및 같은 회차 파생형 설명 확보"
+    }
+  ],
+  "componentCoveragePreservation": {
+    "principle": "현장 사진 확보량이 업체·부품의 포함 여부를 결정하지 않도록 한다. 제조사 규모에 대한 법적 분류는 이 조사에서 확인하지 않았다.",
+    "priorityRepresentation": "우선순위 1에서 ACV 전체 차량뿐 아니라 후부 추진장치·상부 임무장비 사진을 독립 캡션으로 유지한다. 공급사나 부품 모델은 추정하지 않는다.",
+    "watchlist": [
+      {
+        "eventId": "adex-2025",
+        "companyId": "org-4ffe152337cf4eb1bae2",
+        "companyName": "FIBER PRO",
+        "productIds": [
+          "adex25-fiberpro-fog-ins",
+          "adex25-fiberpro-antijam-gnss",
+          "adex25-fiberpro-fog"
+        ],
+        "photoIds": [
+          "photo-adex25-fiber-1",
+          "photo-adex25-fiber-2",
+          "photo-adex25-fiber-3",
+          "photo-adex25-fiber-4"
+        ],
+        "sourceUrl": "https://fiberpro.co.kr/gallery/seoul-adex-2025/?page=2",
+        "gap": "기존 현장 사진 레코드 4개 모두 src=null. 제품 narrative 없음.",
+        "preserve": "FOG·INS·GNSS 제품군과 기존 출처 링크를 유지한다.",
+        "nextEvidence": "사진별 명판 대조와 명시적 재사용 조건",
+        "priorityEligibility": "현재 직접 표시 사진 조건을 충족하지 않으므로 이번 7개에 미포함"
+      },
+      {
+        "eventId": "adex-2025",
+        "companyId": "org-78adc7840c066c08ba6b",
+        "companyName": "STX ENGINE",
+        "productIds": [
+          "adex25-stx-smv520",
+          "adex25-stx-v199",
+          "adex25-stx-hybrid",
+          "adex25-stx-lithium-battery"
+        ],
+        "photoIds": [
+          "case-photo-stx-nurphoto",
+          "case-photo-stx-press"
+        ],
+        "sourceUrl": "https://m.stxengine.co.kr/mkor/html/pr/news/news_view.aspx?lang=mkor&listurl=%2Fmkor%2Fhtml%2Fpr%2Fnews%2Fnews_list.aspx&seq=636&startIndex=0",
+        "gap": "현장 사진 레코드의 src=null. 출품 발표 기반 제품은 이미 등록돼 있음.",
+        "preserve": "엔진·하이브리드·배터리 등 지상 동력원 제품 기록을 사진 부재 때문에 삭제·숨김 처리하지 않는다.",
+        "nextEvidence": "개별 전시품 형식·명판과 사진 재사용 허락",
+        "priorityEligibility": "직접 표시 사진 조건 미충족"
+      },
+      {
+        "eventId": "adex-2025",
+        "companyId": "org-41c20f9c2d55d1040a58",
+        "companyName": "RFcore",
+        "productIds": [
+          "adex25-rfcore-hpa-reference",
+          "adex25-rfcore-rffe-reference",
+          "adex25-rfcore-mmic-reference"
+        ],
+        "photoIds": [],
+        "sourceUrl": "https://www.rfcore.com/",
+        "gap": "현재 일반 제품자료이며 현장 제품 사진 없음.",
+        "preserve": "일반 제품자료 상태를 유지하고 회차 출품 확인으로 승격하지 않는다.",
+        "nextEvidence": "동일 회차 개별 전시 근거와 현장 사진·사용권",
+        "priorityEligibility": "행사 특정 근거와 직접 표시 사진 조건 미충족"
+      }
+    ]
+  },
+  "notPriorityThisPass": [
+    {
+      "eventId": "adex-2025",
+      "reason": "7개 로컬 현장사진 중 6개는 제품 설명에 이미 연결됐고 남은 현대로템 부스 전경은 추가 장비의 명판 식별 전 연결 유지가 적절하다."
+    },
+    {
+      "eventId": "dsei-2025",
+      "reason": "Patria·기아 로컬 5장은 이미 제품 및 narrative에 연결됐다. Roshel·Boxer 등의 Flickr 사진은 제공자 임베드 조건을 별도 확인해야 한다."
+    },
+    {
+      "eventId": "saha-2026",
+      "reason": "context=event이고 src가 있는 사진이 현재 파일에 없다. IDEF 2019·SAHA 2024 일반 참고사진으로 대체하지 않는다."
+    }
+  ],
+  "sourceReviews": [
+    {
+      "url": "https://www.baesystems.com/en-us/article/bae-systems-amphibious-combat-vehicle-makes-debut-in-middle-sast-at-idex",
+      "publishedAt": "2025-02-17",
+      "accessedAt": "2026-11-16",
+      "finding": "IDEX 2025 ACV 출품과 부스 03-C10을 확인. 공식 기사 표지의 사막 사진을 현장 사진으로 쓰지 않음."
+    },
+    {
+      "url": "https://edgegroup.ae/news/edge-showcase-200-disruptive-technology-and-defence-solutions-idex-2025",
+      "publishedAt": "2025-01-28",
+      "accessedAt": "2026-11-16",
+      "finding": "HAFEET MK II·THeMIS의 사전 출품 안내 확인. 실제 현장 존재는 별도 Commons 사진으로 대조."
+    },
+    {
+      "url": "https://milremrobotics.com/milrem-robotics-and-electro-optic-systems-sign-agreement-to-advance-combat-ugs-solutions/",
+      "publishedAt": "2025-02-19",
+      "accessedAt": "2026-11-16",
+      "finding": "IDEX에서의 EOS 협력 합의 확인. 사진 탑재체·통합 완료 여부의 증거로 자동 전환하지 않음."
+    },
+    {
+      "url": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+      "publishedAt": "2025-02-17",
+      "accessedAt": "2026-11-16",
+      "finding": "IDEX 2025 COBRA II 출품과 제조사 RCWS 구성 설명 확인."
+    },
+    {
+      "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-rotem-advanced-protection-system-tech-global-debut",
+      "publishedAt": "2026-06-15",
+      "accessedAt": "2026-11-16",
+      "finding": "K2 수출형 콘셉트의 회차 출품 및 뉴스룸 이미지 이용 안내 확인."
+    },
+    {
+      "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+      "publishedAt": "2026-06-16",
+      "accessedAt": "2026-11-16",
+      "finding": "소형 RCWS 실물·운용장치·포열 모크업·2속 ATC 출품 설명과 이미지 이용 안내 확인. 사진에 각 부품이 보인다고 추정하지 않음."
+    },
+    {
+      "url": "https://roe.ru/upload/pdf/41766_post.pdf",
+      "accessedAt": "2026-11-16",
+      "status": "web_timeout",
+      "finding": "본문 미확보. 기술·개발 주장에 사용하지 않음."
+    }
+  ],
+  "evidence": {
+    "stateTransitions": [
+      "planned",
+      "executing",
+      "verifying",
+      "completed"
+    ],
+    "methods": [
+      "이벤트 JSON 5개 읽기 및 사진·제품·회사 ID 교차 대조",
+      "기존 로컬 사진 11장 직접 열람(우선순위 10장, RCWS 보류 1장)",
+      "Commons 공개 API에서 후보 9장 촬영일·저자·라이선스 확인; ACV 2장 IDEX 2025 category 추가 확인",
+      "제조사·공식 뉴스룸 6건 원문 재조회"
+    ],
+    "validation": {
+      "status": "pass",
+      "verifiedAt": "2026-11-16",
+      "result": "Node assert exit 0: 우선순위 7개·사진 10개·신규 narrative 후보 6개·연결 보완 1개, 회사 소유 관계·출처 ID·event 문맥·로컬 파일·스냅샷 개수 PASS. git diff --check 오류 없음.",
+      "checks": [
+        "JSON parse",
+        "우선순위 7개·사진 10개·ID 존재·회사/제품 소유 관계",
+        "선정 사진 모두 src 있고 context=event이며 productIds 빈 값",
+        "각 narrative 유무와 snapshot 개수",
+        "로컬 사진 파일 존재"
+      ]
+    },
+    "operationalWrites": 0,
+    "newImageDownloads": 0,
+    "limits": [
+      "해당 전시의 제품·부품 기능을 최적화하거나 운용 성능을 검증한 작업이 아님",
+      "발표 당시 개발 계획과 실제 완료를 구분",
+      "등록 업체 전체 3,685개에 대한 전수 완료를 주장하지 않음",
+      "동시 작업으로 운영 이벤트 JSON이 갱신되면 이 스냅샷의 개수는 달라질 수 있음"
+    ]
+  }
+}

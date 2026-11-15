@@ -1,0 +1,1645 @@
+{
+  "asOf": "2026-11-16",
+  "status": "completed",
+  "scope": "Independent final validation of six added product narratives and ten direct links to existing photographs; no product code, source assets or saved PDFs modified by this audit.",
+  "baselineCommit": "16e7e691f232eeee7951c15ef0ae4ea274aea57d",
+  "counts": {
+    "authoredProducts": 46,
+    "authoredSections": 230,
+    "productsWithCurrentEventPhotos": 24,
+    "uniqueCurrentEventPhotos": 29,
+    "productPhotoAssociations": 32,
+    "remainingPhotoGaps": 22
+  },
+  "countingMethod": "Coverage is limited to the 46 authored product narratives. 29 unique current-event photographs are deduplicated by eventId/photoId; the same photograph may serve more than one product, producing 32 product/photo associations. No newly downloaded production photograph is claimed.",
+  "perEvent": [
+    {
+      "eventId": "adex-2025",
+      "authoredProducts": 26,
+      "sections": 130,
+      "productsWithCurrentEventPhotos": 7,
+      "photoAssociations": 9
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "authoredProducts": 5,
+      "sections": 25,
+      "productsWithCurrentEventPhotos": 4,
+      "photoAssociations": 4
+    },
+    {
+      "eventId": "dsei-2025",
+      "authoredProducts": 5,
+      "sections": 25,
+      "productsWithCurrentEventPhotos": 5,
+      "photoAssociations": 6
+    },
+    {
+      "eventId": "idex-2025",
+      "authoredProducts": 8,
+      "sections": 40,
+      "productsWithCurrentEventPhotos": 8,
+      "photoAssociations": 13
+    },
+    {
+      "eventId": "saha-2026",
+      "authoredProducts": 2,
+      "sections": 10,
+      "productsWithCurrentEventPhotos": 0,
+      "photoAssociations": 0
+    }
+  ],
+  "newNarrativeCount": 6,
+  "newNarrativeSections": 30,
+  "newDirectPhotoLinks": 10,
+  "newNarrativePhotoLinks": 8,
+  "additionalExistingHavocPhotoLinks": 2,
+  "photoLinks": [
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-8de7f844d3d235b7835b",
+      "productId": "acv",
+      "photoId": "photo-68c423ede7bd55417d56",
+      "src": "assets/photos/idex2025-new-acv-thruster.webp",
+      "sha256": "6a7aebbe81f0e8bbcf338a136b3cf29385187a4385350956e854f7fdd4b0b43e",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_thruster.jpg",
+      "context": "event",
+      "license": "CC BY 4.0",
+      "credit": "Mztourist",
+      "variantNote": "전시차 부위 사진이며 전체 차량 형상을 담은 사진은 아닙니다. 웹 표시용 WebP 변환본입니다."
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-8de7f844d3d235b7835b",
+      "productId": "acv",
+      "photoId": "photo-ec57e567a5091a1ac1ac",
+      "src": "assets/photos/idex2025-new-acv-rws.webp",
+      "sha256": "0f6030fd76a7db78166bc68cd9f13a86cd753dbd831744a7ea4493be41772333",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_remote_weapons_station.jpg",
+      "context": "event",
+      "license": "CC BY 4.0",
+      "credit": "Mztourist",
+      "variantNote": "전시차 부위 사진이며 전체 차량 형상을 담은 사진은 아닙니다. 웹 표시용 WebP 변환본입니다."
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-3a42e32a1f0025e58e14",
+      "productId": "hafeet-mk2",
+      "photoId": "photo-69dc76e63f40de3a4788",
+      "src": "assets/photos/idex2025-new-hafeet.webp",
+      "sha256": "0bef0345cec60c3e923b0f1f8098876c7d9de10b35c6e64e00b063587c59eb4f",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hafeet_MK2.jpg",
+      "context": "event",
+      "license": "CC BY 4.0",
+      "credit": "Cezary Filip Krzymowski",
+      "variantNote": "웹 표시용 축소·WebP 변환본입니다. 전시 명판의 MK2와 차체의 632A 표기는 공식 형식 관계가 미확인입니다."
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-c0aa5fd472a380a0d1d6",
+      "productId": "themis-combat",
+      "photoId": "photo-25e3c0aefc7efbbcfddc",
+      "src": "assets/photos/themis-k-21.webp",
+      "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:THeMIS_COMBAT.jpg",
+      "context": "event",
+      "license": "CC BY 4.0",
+      "credit": "Cezary FIlip Krzymowski",
+      "variantNote": "IDEX 2025 THeMIS COMBAT 사진입니다. ADEX의 THeMIS-K나 EOS 탑재체의 통합 완료를 보여주는 자료가 아닙니다. 웹 표시용 축소·WebP 변환본입니다. 원 게시본의 얼굴 흐림을 유지합니다."
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-7b846c15951b021bf59b",
+      "productId": "cobra-ii",
+      "photoId": "photo-cb87df5d135cfa3a2f1a",
+      "src": "assets/photos/cobra-ii-08.webp",
+      "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cobra_II.jpg",
+      "context": "event",
+      "license": "CC BY 4.0",
+      "credit": "Cezary Filip Krzymowski",
+      "variantNote": "원본 사진 설명과 촬영일은 IDEX 2025를 가리킵니다. 해당 전시 차량의 임무형·세부 장비명은 별도 확인이 필요합니다. 웹 표시용 축소·WebP 변환본입니다."
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "organizationId": "org-bb5b014b7abb0359c75b",
+      "productId": "eu-k2-export",
+      "photoId": "photo-a305d72436108230a626",
+      "src": "assets/photos/eurosatory2026-new-rotem.jpg",
+      "sha256": "62c5bdd392a2a63340697b73bb7717793a0f1fc85500f076a6530b22259301bd",
+      "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-rotem-advanced-protection-system-tech-global-debut",
+      "context": "event",
+      "license": "© 현대자동차그룹 · 뉴스룸 이미지 사용 안내",
+      "credit": "현대로템 / 현대자동차그룹",
+      "variantNote": null
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-2db746a8735131ebbf8e",
+      "productId": "t90ms",
+      "photoId": "photo-6fe3dd99c161ed32ca7a",
+      "src": "assets/photos/idex2025-new-t90ms-front.webp",
+      "sha256": "1163407c74001d71eb8104f9fd5375ce3268299b9099ab0cc48a6dc318607af9",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:T-90MS_front_view_at_IDEX_2025.jpg",
+      "context": "event",
+      "license": "CC BY 4.0",
+      "credit": "Mztourist",
+      "variantNote": "웹 표시용 WebP 변환본입니다."
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-2db746a8735131ebbf8e",
+      "productId": "t90ms",
+      "photoId": "photo-5dd70cdd947e8d8264db",
+      "src": "assets/photos/idex2025-new-t90ms-side.webp",
+      "sha256": "3c6e3bbc62b652030f69bf4f340f492391fad9f0c6165e7c99dd93cab76a2b63",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:T-90MS_side_view_at_IDEX_2025.jpg",
+      "context": "event",
+      "license": "CC BY 4.0",
+      "credit": "Mztourist",
+      "variantNote": "웹 표시용 WebP 변환본입니다."
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-c0aa5fd472a380a0d1d6",
+      "productId": "havoc-8x8",
+      "photoId": "photo-985b49c2b185568fba9d",
+      "src": "assets/photos/idex2025-new-havoc-02.webp",
+      "sha256": "caa14f707ff0bbd4a0f8eeebe9257fed2598bf0d7f0f242ddfce1785020afde9",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%282%29.jpg",
+      "context": "event",
+      "license": "CC BY 4.0",
+      "credit": "Cezary Filip Krzymowski",
+      "variantNote": "동일 전시차의 같은 방향 연속촬영입니다. 다른 각도 또는 별도 장비로 세지 않습니다. 웹 표시용 축소·WebP 변환본입니다."
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-c0aa5fd472a380a0d1d6",
+      "productId": "havoc-8x8",
+      "photoId": "photo-0807aea6727cdd66f83c",
+      "src": "assets/photos/idex2025-new-havoc-03.webp",
+      "sha256": "4a0e4e56c0c98f2cf6897161d96cc9ed2ddf3d089bf1ff93f60470d79ea17dda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%283%29.jpg",
+      "context": "event",
+      "license": "CC BY 4.0",
+      "credit": "Cezary Filip Krzymowski",
+      "variantNote": "동일 전시차의 같은 방향 연속촬영입니다. 다른 각도 또는 별도 장비로 세지 않습니다. 웹 표시용 축소·WebP 변환본입니다."
+    }
+  ],
+  "remainingPhotoGaps": [
+    {
+      "eventId": "adex-2025",
+      "productId": "k808-peru",
+      "name": "페루형 차륜장갑차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "k9a3",
+      "name": "K9A3 · 발전 로드맵"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-rotem-30t",
+      "name": "30t급 차륜형장갑차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kltv-ai",
+      "name": "KLTV AI 경계차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kltv-drone",
+      "name": "KLTV 드론 탑재차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kmtv-chassis",
+      "name": "중형표준차 베어샤시"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kltv-cargo",
+      "name": "KLTV 4인승 카고"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-khtv",
+      "name": "KHTV 대형표준차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-wia-ads-all-in-one",
+      "name": "일체형 ADS"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "themis-k",
+      "name": "THeMIS-K"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-rotem-mev",
+      "name": "차륜형의무후송차량"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kmtv-armored",
+      "name": "방탄 패널 적용 중형 전술차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-tasman-refrigerated",
+      "name": "타스만 냉동·냉장 부식 파생차량"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-rotem-hydrogen-wav",
+      "name": "수소 차륜형장갑차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "black-veil",
+      "name": "블랙 베일 무인 플랫폼"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-tasman-cargo-pair",
+      "name": "타스만 카고 파생차량 2종 — 개별 형식명 미공개"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-tasman-fuel",
+      "name": "타스만 유조 파생차량"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-wia-ads",
+      "name": "차량 탑재 ADS"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-rotem-cpv",
+      "name": "차륜형지휘소용차량"
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "productId": "eu-rcws",
+      "name": "소형 RCWS"
+    },
+    {
+      "eventId": "saha-2026",
+      "productId": "cobra-ii-bee-eater",
+      "name": "COBRA II · 차량탑재 UAV 구성"
+    },
+    {
+      "eventId": "saha-2026",
+      "productId": "tulpar-korhan",
+      "name": "TULPAR · KORHAN 통합형"
+    }
+  ],
+  "checks": [
+    {
+      "name": "current HEAD is the recorded baseline",
+      "status": "passed"
+    },
+    {
+      "name": "actual authored product/photo counts",
+      "status": "passed",
+      "actual": {
+        "authoredProducts": 46,
+        "authoredSections": 230,
+        "productsWithCurrentEventPhotos": 24,
+        "uniqueCurrentEventPhotos": 29,
+        "productPhotoAssociations": 32,
+        "remainingPhotoGaps": 22
+      }
+    },
+    {
+      "name": "acv company/product ownership",
+      "status": "passed"
+    },
+    {
+      "name": "acv narrative belongs to company",
+      "status": "passed"
+    },
+    {
+      "name": "acv narrative source IDs resolve",
+      "status": "passed"
+    },
+    {
+      "name": "acv photo-68c423ede7bd55417d56 current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "acv photo-68c423ede7bd55417d56 photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "acv photo-ec57e567a5091a1ac1ac current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "acv photo-ec57e567a5091a1ac1ac photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "hafeet-mk2 company/product ownership",
+      "status": "passed"
+    },
+    {
+      "name": "hafeet-mk2 narrative belongs to company",
+      "status": "passed"
+    },
+    {
+      "name": "hafeet-mk2 narrative source IDs resolve",
+      "status": "passed"
+    },
+    {
+      "name": "hafeet-mk2 photo-69dc76e63f40de3a4788 current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "hafeet-mk2 photo-69dc76e63f40de3a4788 photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "themis-combat company/product ownership",
+      "status": "passed"
+    },
+    {
+      "name": "themis-combat narrative belongs to company",
+      "status": "passed"
+    },
+    {
+      "name": "themis-combat narrative source IDs resolve",
+      "status": "passed"
+    },
+    {
+      "name": "themis-combat photo-25e3c0aefc7efbbcfddc current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "themis-combat photo-25e3c0aefc7efbbcfddc photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "cobra-ii company/product ownership",
+      "status": "passed"
+    },
+    {
+      "name": "cobra-ii narrative belongs to company",
+      "status": "passed"
+    },
+    {
+      "name": "cobra-ii narrative source IDs resolve",
+      "status": "passed"
+    },
+    {
+      "name": "cobra-ii photo-cb87df5d135cfa3a2f1a current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "cobra-ii photo-cb87df5d135cfa3a2f1a photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "eu-k2-export company/product ownership",
+      "status": "passed"
+    },
+    {
+      "name": "eu-k2-export narrative belongs to company",
+      "status": "passed"
+    },
+    {
+      "name": "eu-k2-export narrative source IDs resolve",
+      "status": "passed"
+    },
+    {
+      "name": "eu-k2-export photo-a305d72436108230a626 current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "eu-k2-export photo-a305d72436108230a626 photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "t90ms company/product ownership",
+      "status": "passed"
+    },
+    {
+      "name": "t90ms narrative belongs to company",
+      "status": "passed"
+    },
+    {
+      "name": "t90ms narrative source IDs resolve",
+      "status": "passed"
+    },
+    {
+      "name": "t90ms photo-6fe3dd99c161ed32ca7a current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "t90ms photo-6fe3dd99c161ed32ca7a photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "t90ms photo-5dd70cdd947e8d8264db current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "t90ms photo-5dd70cdd947e8d8264db photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "havoc-8x8 company/product ownership",
+      "status": "passed"
+    },
+    {
+      "name": "havoc-8x8 narrative belongs to company",
+      "status": "passed"
+    },
+    {
+      "name": "havoc-8x8 narrative source IDs resolve",
+      "status": "passed"
+    },
+    {
+      "name": "havoc-8x8 photo-985b49c2b185568fba9d current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "havoc-8x8 photo-985b49c2b185568fba9d photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "havoc-8x8 photo-0807aea6727cdd66f83c current-event gallery ownership",
+      "status": "passed"
+    },
+    {
+      "name": "havoc-8x8 photo-0807aea6727cdd66f83c photo/source URL consistency",
+      "status": "passed"
+    },
+    {
+      "name": "HAVOC has three existing photographs and one narrative",
+      "status": "passed",
+      "galleryIds": [
+        "photo-0807aea6727cdd66f83c",
+        "photo-985b49c2b185568fba9d",
+        "photo-d230f00bf90029fc0a2e"
+      ]
+    },
+    {
+      "name": "six new narratives and ten new direct links to existing photographs",
+      "status": "passed"
+    },
+    {
+      "name": "nine new IDEX CC BY 4.0 photo links",
+      "status": "passed"
+    },
+    {
+      "name": "photo-68c423ede7bd55417d56 attribution and conversion notice",
+      "status": "passed"
+    },
+    {
+      "name": "photo-68c423ede7bd55417d56 screen attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-68c423ede7bd55417d56 print attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-ec57e567a5091a1ac1ac attribution and conversion notice",
+      "status": "passed"
+    },
+    {
+      "name": "photo-ec57e567a5091a1ac1ac screen attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-ec57e567a5091a1ac1ac print attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-69dc76e63f40de3a4788 attribution and conversion notice",
+      "status": "passed"
+    },
+    {
+      "name": "photo-69dc76e63f40de3a4788 screen attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-69dc76e63f40de3a4788 print attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-25e3c0aefc7efbbcfddc attribution and conversion notice",
+      "status": "passed"
+    },
+    {
+      "name": "photo-25e3c0aefc7efbbcfddc screen attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-25e3c0aefc7efbbcfddc print attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-cb87df5d135cfa3a2f1a attribution and conversion notice",
+      "status": "passed"
+    },
+    {
+      "name": "photo-cb87df5d135cfa3a2f1a screen attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-cb87df5d135cfa3a2f1a print attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-6fe3dd99c161ed32ca7a attribution and conversion notice",
+      "status": "passed"
+    },
+    {
+      "name": "photo-6fe3dd99c161ed32ca7a screen attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-6fe3dd99c161ed32ca7a print attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-5dd70cdd947e8d8264db attribution and conversion notice",
+      "status": "passed"
+    },
+    {
+      "name": "photo-5dd70cdd947e8d8264db screen attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-5dd70cdd947e8d8264db print attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-985b49c2b185568fba9d attribution and conversion notice",
+      "status": "passed"
+    },
+    {
+      "name": "photo-985b49c2b185568fba9d screen attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-985b49c2b185568fba9d print attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-0807aea6727cdd66f83c attribution and conversion notice",
+      "status": "passed"
+    },
+    {
+      "name": "photo-0807aea6727cdd66f83c screen attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "photo-0807aea6727cdd66f83c print attribution markup",
+      "status": "passed"
+    },
+    {
+      "name": "THeMIS IDEX event versus ADEX reference boundary",
+      "status": "passed"
+    },
+    {
+      "name": "THeMIS inherited original face blur is disclosed",
+      "status": "passed"
+    },
+    {
+      "name": "T90 unread ROE PDF only a general source",
+      "status": "passed"
+    },
+    {
+      "name": "T90 unread source limitation explicit",
+      "status": "passed"
+    },
+    {
+      "name": "T90 development screen evidence gap",
+      "status": "passed"
+    },
+    {
+      "name": "T90 interpretation screen evidence gap",
+      "status": "passed"
+    },
+    {
+      "name": "T90 screen general reference label",
+      "status": "passed"
+    },
+    {
+      "name": "T90 development print evidence gap",
+      "status": "passed"
+    },
+    {
+      "name": "T90 interpretation print evidence gap",
+      "status": "passed"
+    },
+    {
+      "name": "T90 print general reference label",
+      "status": "passed"
+    },
+    {
+      "name": "adex-2025 existing event report PDF input unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "adex-2025 built event shard equals current application data",
+      "status": "passed"
+    },
+    {
+      "name": "eurosatory-2026 existing event report PDF input unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "eurosatory-2026 built event shard equals current application data",
+      "status": "passed"
+    },
+    {
+      "name": "dsei-2025 existing event report PDF input unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "dsei-2025 built event shard equals current application data",
+      "status": "passed"
+    },
+    {
+      "name": "idex-2025 existing event report PDF input unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "idex-2025 built event shard equals current application data",
+      "status": "passed"
+    },
+    {
+      "name": "saha-2026 existing event report PDF input unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "saha-2026 built event shard equals current application data",
+      "status": "passed"
+    },
+    {
+      "name": "report template style and curated input unchanged",
+      "status": "passed",
+      "paths": [
+        "src/v2/report.js",
+        "src/v2/report.css",
+        "data/v2/editorial/event-reports.json"
+      ]
+    },
+    {
+      "name": "five final saved PDF bytes unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "all existing asset bytes unchanged and no added asset",
+      "status": "passed",
+      "baselineAssetFiles": 85,
+      "addedAssets": [],
+      "changed": []
+    },
+    {
+      "name": "distribution asset bytes match source assets",
+      "status": "passed"
+    },
+    {
+      "name": "public/internal wording scan",
+      "status": "passed",
+      "files": 39,
+      "hits": []
+    },
+    {
+      "name": "distribution path allowlist",
+      "status": "passed",
+      "unexpectedDistFiles": []
+    },
+    {
+      "name": "public event shards omit internal registry keys",
+      "status": "passed"
+    },
+    {
+      "name": "retained build log completion",
+      "status": "passed"
+    },
+    {
+      "name": "retained npm check log 201 pass",
+      "status": "passed"
+    },
+    {
+      "name": "browser desktop/mobile evidence complete",
+      "status": "passed"
+    }
+  ],
+  "verification": {
+    "commands": [
+      {
+        "command": "node --test tests/v2-details.test.mjs tests/v2-report.test.mjs",
+        "execution": "independent child agent",
+        "exitCode": 0,
+        "tests": 48,
+        "pass": 48,
+        "fail": 0,
+        "durationMs": 224.4839
+      },
+      {
+        "command": "npm run build",
+        "execution": "retained parent log independently inspected",
+        "result": "completed; no deployment",
+        "log": {
+          "file": ".local-photo-coverage-build.log",
+          "bytes": 605,
+          "sha256": "e4891f73966c8680aecd28b17be5c4fd7097ee09b55bcd8c3e46e3d633e109a8",
+          "modifiedAt": "2026-11-15T23:29:19.030Z"
+        }
+      },
+      {
+        "command": "npm run check",
+        "execution": "retained parent log independently inspected",
+        "tests": 201,
+        "pass": 201,
+        "fail": 0,
+        "skipped": 0,
+        "durationMs": 3218.5441,
+        "log": {
+          "file": ".local-photo-coverage-check.log",
+          "bytes": 21398,
+          "sha256": "f3c24266ee4c9fc2eb503ea9a31524e6537895b0c2c143d89a53f3549066ba14",
+          "modifiedAt": "2026-11-15T23:29:29.493Z"
+        }
+      },
+      {
+        "command": "Node ESM audit via PowerShell here-string",
+        "execution": "independent child agent",
+        "result": "all assertions passed; only this evidence JSON written"
+      }
+    ]
+  },
+  "assets": {
+    "baselineFileCount": 85,
+    "byteIdenticalToBaseline": true,
+    "distributionMatchesSource": true,
+    "addedFiles": [],
+    "newProductionImageDownloads": 0,
+    "newDownloadsDuringThisAudit": 0,
+    "priorReadOnlyReferenceDownload": "One already-held THeMIS Commons original was downloaded to tmp for visual comparison during the preceding independent review; it is not a new asset or added coverage.",
+    "proof": "For every tracked asset, compute SHA1 of Git blob header plus current bytes and compare with baseline ls-tree object ID. Separately compare SHA256 of source versus dist bytes.",
+    "manifest": [
+      {
+        "file": "assets/adex2025/k2pl-event-01.jpg",
+        "gitBlobSha1": "9bdba77c4374c5533470c4f786a2e03957582d1b",
+        "bytes": 228154,
+        "sha256": "cf68e69710366d23dd41e3491000c4115565b2f26ebfcc4b3659730a5315ed0b",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/adex2025/light-105-eurosatory2026-01.jpg",
+        "gitBlobSha1": "ebd50f0f895c6a586f12905fefc501c0fd75ebc7",
+        "bytes": 304109,
+        "sha256": "5dd80611f9ad285068567420048071bec0e2a7bf419bda21c71ab195ee482438",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/adex2025/light-105-eurosatory2026-02.jpg",
+        "gitBlobSha1": "929e6aa9a38fb913d62ad135a8f5285df82ad012",
+        "bytes": 485042,
+        "sha256": "6604e9ce7273e5afd762fbc309624e7a51a1f2511b5dfaa2bfee2c1c49cbc10b",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/adex2025/light-105-event-01.jpg",
+        "gitBlobSha1": "1cfea8df8a7de2782457ef87f78ef77bcdf99dc5",
+        "bytes": 310237,
+        "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/adex2025/light-105-wds2026-01.jpg",
+        "gitBlobSha1": "9183ddc164258b918cb44ca877a1859bebdadd16",
+        "bytes": 287753,
+        "sha256": "ed5956e7bd51c1577b1e46df189711ee25ae2f5d4531f9370ad05080533b48c5",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/adex2025/rcws-eurosatory2026-01.jpg",
+        "gitBlobSha1": "0bf840eb52cc3f3357dbf739a40835d703acab6d",
+        "bytes": 275007,
+        "sha256": "f9e4611325b7f624ea9d56cee9399717e43544163a7f351e1cbcbd816c978941",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/adex2025/rcws-event-01.jpg",
+        "gitBlobSha1": "206d3c90828633660a4c12db8456c0c7e727c03e",
+        "bytes": 246948,
+        "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/adex2025-new-kia-family.jpg",
+        "gitBlobSha1": "3e825b722ce5909793fcb92a8fc63a087b551cf5",
+        "bytes": 452337,
+        "sha256": "a184930d3cff5ad8e49476cedcf8bed5e8b8674ddd99ab61b9d6a2dc218f7693",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/adex2025-new-kmtv-front.jpg",
+        "gitBlobSha1": "e2df6e9158a291cec005db6e1c71287ce47ebadd",
+        "bytes": 439007,
+        "sha256": "62a7c344970dbca6cd6dae82f3d532cdf1ba33636883811999b112fb5d1cc1d5",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/adex2025-new-rotem-booth.jpg",
+        "gitBlobSha1": "50b2290409e02b31b4b513a9308d9761bdca7bf3",
+        "bytes": 346351,
+        "sha256": "89be393f6aca5a8fae6b36e0f1191d03fc204fef12ee1778daf3b272729a0629",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/adex2025-new-tasman-front.jpg",
+        "gitBlobSha1": "5ad379f1b65045d677bf613e6b7b274b5f4a51da",
+        "bytes": 413934,
+        "sha256": "627548af6e2c960b4566e7257c2970c39a63b55664ed789460fef1195b69f3bc",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/arma-ii-00.webp",
+        "gitBlobSha1": "c3664c7d88ebb6c7e4027511318c3f1f934847bf",
+        "bytes": 352404,
+        "sha256": "addbf63377971d9381663c910b70f32e23c91c8f9443afcc17f1b50fe58dc35e",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/arma-ii-01.webp",
+        "gitBlobSha1": "928bccc632badaca428a646cb43cde35f13b985f",
+        "bytes": 475830,
+        "sha256": "ee7c1dff45819b2a7d3057f4685712d3b47f771846a09b172559d9c7d8776298",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-00.webp",
+        "gitBlobSha1": "58082ea2a94a92c5b41ac4556446cdf3fdc4203d",
+        "bytes": 351440,
+        "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-01.webp",
+        "gitBlobSha1": "6b99c149f1e8165d571201fa5e109f5a6d48c650",
+        "bytes": 133060,
+        "sha256": "bde53a504d88c2c4ad98a393539a2cd5162d615aef3590fa7e414cabda426547",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-02.webp",
+        "gitBlobSha1": "9a825a26d18d48b900b0814b577d7ca26a377c36",
+        "bytes": 105994,
+        "sha256": "dfa659889afcf61910663afec210b716d98d8c90014b5c2afe0cf24ca6238da3",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-07.webp",
+        "gitBlobSha1": "2c45abb4d5f3676532cee98c25d7d1cf0025035d",
+        "bytes": 124600,
+        "sha256": "d730fae4db1f5275fccdc3b94a5da71b2284dded268ead41da9d3ac4f5972661",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-08.webp",
+        "gitBlobSha1": "3707a2cd7b23e24fe2eb58d3b6eb47c88c5fee1e",
+        "bytes": 231962,
+        "sha256": "d69f2d5e1178ae5f40e705533fdbaecab10cee1907df3a64785497d4b59f419d",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-12.webp",
+        "gitBlobSha1": "f0b676cb13ee74f5279110b99e49a1d5918f0cd4",
+        "bytes": 158648,
+        "sha256": "77f87d835eb150a42a13dec3faf3805d620652374668b23b7d5527f29ae403d8",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-14.webp",
+        "gitBlobSha1": "e7624c26ddbe9909b786978066aaa60d917fd92d",
+        "bytes": 106926,
+        "sha256": "806e6803aa0a0370488fe8c052d26c1bb743bee2a29341c2dabc738f5a991f81",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-16.webp",
+        "gitBlobSha1": "046464eaae29fd27c1be0fdfbf4286cc769120b4",
+        "bytes": 130844,
+        "sha256": "c496d985a7713de8ba9842b6fe36dfacff4c51c6532723b34049c654a078e34d",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-18.webp",
+        "gitBlobSha1": "62214a12061c64a1363f34853f438ee369df065e",
+        "bytes": 212806,
+        "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-19.webp",
+        "gitBlobSha1": "3f5333c627197adac0e3c6844abc4690be09b31b",
+        "bytes": 597506,
+        "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-21.webp",
+        "gitBlobSha1": "70fe10a4ece520dc24ec7cc4ed83578e09a23017",
+        "bytes": 267276,
+        "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-22.webp",
+        "gitBlobSha1": "71abe86b17c2f8fa3e603b6983bd9a4ae3a19588",
+        "bytes": 265420,
+        "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/cobra-ii-00.webp",
+        "gitBlobSha1": "7550ffc016a90be7b3fa8425773835f7f8246ef1",
+        "bytes": 436416,
+        "sha256": "2120fb5b5c9317560c6cfc5861dc7dbad64ef858ed5ccbd4158bf05fedd6937b",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/cobra-ii-08.webp",
+        "gitBlobSha1": "e39ccc781528ba3b04d11214938e1d622d450c16",
+        "bytes": 143476,
+        "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/dsei2025-new-kia-booth.jpg",
+        "gitBlobSha1": "08bc5e200509f21cf09886f51fa5a048e296f558",
+        "bytes": 392836,
+        "sha256": "05ae2d39572f355278990fb628f6dac75e3b554574212e9823d4d1dd2dd6677f",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/dsei2025-patria-6x6-booth.jpg",
+        "gitBlobSha1": "5e5831e238b8fdb0df53d112d09a628834cd4602",
+        "bytes": 480064,
+        "sha256": "0c760053a3eb918cd3a2335fc6d4dc83f2ab3143ff0ce50f9425a5d6a9c57242",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/dsei2025-patria-6x6-cavs.jpg",
+        "gitBlobSha1": "a1fc776467a3b8bc1ad9dd9489822126f091c4fb",
+        "bytes": 533534,
+        "sha256": "772ef5351e69a756bb326e596a07c7ebe38ff24158f5a5e81b7f6bc525773a5b",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/dsei2025-patria-trackx.jpg",
+        "gitBlobSha1": "3206424b71b7490a41ed66a28fd85d4b26ad2ed6",
+        "bytes": 517394,
+        "sha256": "accf4aff6dd002ddf612a17b4450f6703b523a37316f01a8f52628042382aa9b",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/dsei2025-patria-tremos.jpg",
+        "gitBlobSha1": "30ff16e33bee70462c56ce5ce400ab80689d5242",
+        "bytes": 517742,
+        "sha256": "2a04dbaed61e31043edfbe127c562a41084bb013bdae5e4f5df5a7a3cc6e10a0",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/eurosatory2026-new-kia-booth.jpg",
+        "gitBlobSha1": "21e1b07756b8fe6fc88770aa3f27c5f3a725a547",
+        "bytes": 482730,
+        "sha256": "1a22e5316b518f0acd49228dc7e5a0fdbf4856b810b603e90d0092372d5ef62c",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/eurosatory2026-new-kia-kltv.jpg",
+        "gitBlobSha1": "53775293f41ba32c7607bca382089cbc0ca3ac66",
+        "bytes": 450823,
+        "sha256": "db31a7952f3a5ddaae43e48d5ac3f800c4065e3b0368d7bf0e9b79f2fa1c83d3",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/eurosatory2026-new-kia-tasman.jpg",
+        "gitBlobSha1": "653a92d66891a146730d71f92b1786de85e4ed99",
+        "bytes": 429522,
+        "sha256": "84ce8f414a08a8ad3b8000b55c4d4833da6ac805489e9e1f38d838408b5767e5",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/eurosatory2026-new-rotem.jpg",
+        "gitBlobSha1": "4fc97604835889b4b438637d2c7b6a79830f02b3",
+        "bytes": 549682,
+        "sha256": "62c5bdd392a2a63340697b73bb7717793a0f1fc85500f076a6530b22259301bd",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-acv-rws.webp",
+        "gitBlobSha1": "6db76084c62497b595588c89003aef17784ad454",
+        "bytes": 125102,
+        "sha256": "0f6030fd76a7db78166bc68cd9f13a86cd753dbd831744a7ea4493be41772333",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-acv-thruster.webp",
+        "gitBlobSha1": "3d58d9fd376ba93066f880521b667d5f7e0e7850",
+        "bytes": 131568,
+        "sha256": "6a7aebbe81f0e8bbcf338a136b3cf29385187a4385350956e854f7fdd4b0b43e",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-ajban-441ae.webp",
+        "gitBlobSha1": "c25fa03552839a21699e3ea5b946241ed011dc4f",
+        "bytes": 273456,
+        "sha256": "5d48473cfdbcd757aceb18ca3f63eaf5d17ec05d02514ddf20420acfb0aa54ac",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-ajban-442a.webp",
+        "gitBlobSha1": "5f0dd45d207f9e815c8f6e964ca3cb7802821abe",
+        "bytes": 263556,
+        "sha256": "b88053b5f20fdb3b4bc9b6242017e05bb66b1aa336fe340b70bc45c29aed91ac",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-ajban-452a.webp",
+        "gitBlobSha1": "527fe81c34db6958077f7f3835838b513bef167f",
+        "bytes": 276696,
+        "sha256": "6c923b1e3d2268d3d8b6afd42f8629130e7688d2566582f8d1d79eb1d802ec3c",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-cockerill-ix.webp",
+        "gitBlobSha1": "56d02d17f7eca4714bb55717e25adce30342ea76",
+        "bytes": 221340,
+        "sha256": "91b52fbd2b42f554083f88a45b5a516febb9a5929fe4f7ac953f4e123d71654f",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-hafeet.webp",
+        "gitBlobSha1": "0a68ae44097216f62337003f8bf9f0bf7196a785",
+        "bytes": 234206,
+        "sha256": "0bef0345cec60c3e923b0f1f8098876c7d9de10b35c6e64e00b063587c59eb4f",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-havoc-01.webp",
+        "gitBlobSha1": "523741a6e9e014d57b4771bb1c4048af15b259a3",
+        "bytes": 215038,
+        "sha256": "d76428520c370a61e8a05463bd05cc5954e5726166ab7e59ca7953fdfcbee3b2",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-havoc-02.webp",
+        "gitBlobSha1": "7bf103dec6c356710c9c88da50e9335a734be09a",
+        "bytes": 241978,
+        "sha256": "caa14f707ff0bbd4a0f8eeebe9257fed2598bf0d7f0f242ddfce1785020afde9",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-havoc-03.webp",
+        "gitBlobSha1": "ab9ecdf3cacdd3156c33bee6bdee0b82bae0c930",
+        "bytes": 231432,
+        "sha256": "4a0e4e56c0c98f2cf6897161d96cc9ed2ddf3d089bf1ff93f60470d79ea17dda",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-t90ms-front.webp",
+        "gitBlobSha1": "e5dba3b16a3374264fb05ff22d90f8117aa90127",
+        "bytes": 313620,
+        "sha256": "1163407c74001d71eb8104f9fd5375ce3268299b9099ab0cc48a6dc318607af9",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-t90ms-side.webp",
+        "gitBlobSha1": "cdb9f9a8e82bb2bad6553f551db7a7839cdfb4bc",
+        "bytes": 359098,
+        "sha256": "3c6e3bbc62b652030f69bf4f340f492391fad9f0c6165e7c99dd93cab76a2b63",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k2pl-00.webp",
+        "gitBlobSha1": "5a91ddb1409db26d70503c2e2754a0b91713e104",
+        "bytes": 170684,
+        "sha256": "d07c142cab7202e298968d83e0de9cbbb2c59a8a814a10ab4fbe3a8c40043309",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k2pl-01.webp",
+        "gitBlobSha1": "2be4f04a4041e9fca9056beb96ba9654d0babe3b",
+        "bytes": 122658,
+        "sha256": "735b97e00eae905e9fe53f2b23483dec5d21bb04edf5a2e6c145b313fe2465f6",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k2pl-05.webp",
+        "gitBlobSha1": "d3f6177310c808adc6a2686f47756f3f561a6ba0",
+        "bytes": 227336,
+        "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k2pl-08.webp",
+        "gitBlobSha1": "02084e49e606c438e78014bd9ac8ad2566258db0",
+        "bytes": 90994,
+        "sha256": "77b4e4a21dffca8e714884022b9c511566c2a0a296d66a6f54dc2ae79c5c1bbf",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k2pl-09.webp",
+        "gitBlobSha1": "77d40571b3ba92584b6b11293d7f91aafee97ee7",
+        "bytes": 183356,
+        "sha256": "aca6680ea2ff6b2c7a9159356848faa911e46769120b27a40057e7ff16b3514b",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k2pl-10.webp",
+        "gitBlobSha1": "8dd63f310b5259ca480b578cd4f0451677c0fd00",
+        "bytes": 101760,
+        "sha256": "74042ccaca9e680dd01b30393fa7b80d2bcd340160e798fe31f3d661b4848d0f",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k2pl-11.webp",
+        "gitBlobSha1": "035f3223c6ce7e25bd0c9986f42e35e861e386ba",
+        "bytes": 108854,
+        "sha256": "a6c55340ca54f4aba3f3031d87598c16645109db9d1f2fb32618b21cc5072454",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k2pl-17.webp",
+        "gitBlobSha1": "db7331db5ca3d1f46992e3036b61fc5ab5af7b2c",
+        "bytes": 266650,
+        "sha256": "3bfe15fb68e24993dc1b83c843583f3753fd9430941a14822150cd3c00927337",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k2pl-23.webp",
+        "gitBlobSha1": "ac6f488e156d0eae29aa778c72a0f7f9d140618a",
+        "bytes": 122256,
+        "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k808-peru-00.webp",
+        "gitBlobSha1": "3414cfc2257cd5eb51574606c6697ec6961c6e1c",
+        "bytes": 107834,
+        "sha256": "e2b6aca06dec2953da24a510d0f33cf73a5d5f411539a631e63d6e19549adf9b",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k808-peru-12.webp",
+        "gitBlobSha1": "cd5f957206ca8c8d8edd14af377e847db50364ce",
+        "bytes": 509296,
+        "sha256": "2b0f1f6bf39db012c28fa198cc43c1169a3de746fdb9ed72dbf4a3a85b0e0973",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k808-peru-14.webp",
+        "gitBlobSha1": "fdaeaf5287b4cf69d2191924163d8192ed7632aa",
+        "bytes": 390294,
+        "sha256": "b238205a6b0b8951d92d9f3709e77a03e2f025c2dad8044eb6fd8c72d1ec18cf",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k808-peru-15.webp",
+        "gitBlobSha1": "0d58d30ecbb5275a83c9a16680d1820c4aecbf3c",
+        "bytes": 439848,
+        "sha256": "8f63c7226570e1e5363d84fc4ce1997b4380df0dd3c0b80ff101a733e2e993a4",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k9a3-02.webp",
+        "gitBlobSha1": "3e59f5489d68553eec961bdbe2ec4e0cdb372dd6",
+        "bytes": 62706,
+        "sha256": "f9d30ff810da2c998ee3d07b215388bad3275fe866c7c3edb9f969834ab04d25",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k9a3-03.webp",
+        "gitBlobSha1": "1bfcb421e17be2ac9fe54274fcfbcc5e2d5af409",
+        "bytes": 191384,
+        "sha256": "aaf24af505a5b7b17d4a6faa30d2ff3332f9a98e408a752b95bbf8fccec56e5c",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k9a3-07.webp",
+        "gitBlobSha1": "40ead45bc87abda41304a9bc4977c8f6fecb7015",
+        "bytes": 104330,
+        "sha256": "41df7fff5d51af5e282bc138d54edaaa60267bb094db84a239fd7f61a4f341bc",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/k9a3-11.webp",
+        "gitBlobSha1": "9beed59417f331757abf2661e9d3a58f5e7c9ba7",
+        "bytes": 404398,
+        "sha256": "59473682382b3adc312870dfdf99d705f6208a947260ff1e031deb8ae06ee9ed",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/kaplan-hybrid-00.webp",
+        "gitBlobSha1": "22983873111fa9923eaf8c3e41c587a26d975d09",
+        "bytes": 167210,
+        "sha256": "2793449fd6e58feae4a17e4472e0724ffa55066248f37d3ced4c08c931c8d9d2",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/leopard-2a8-02.webp",
+        "gitBlobSha1": "c1dff3c383116ddc2513c55776765bb614b105bc",
+        "bytes": 309676,
+        "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/leopard-2a8-04.webp",
+        "gitBlobSha1": "178038446b6c93dddb5878c58707def381e61c50",
+        "bytes": 145892,
+        "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/leopard-2a8-07.webp",
+        "gitBlobSha1": "2f1b38df3ca185fcc1c3db930bd64075198b1985",
+        "bytes": 46876,
+        "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/lynx-skyranger35-03.webp",
+        "gitBlobSha1": "ed77c0b1e5f120615d31cd3c3c9f415bdd8d6d3b",
+        "bytes": 342876,
+        "sha256": "077aa8b758ffa16300320af3e9d9cec88dbe6bd64927aa6962ad07a7ac39878e",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/lynx-skyranger35-05.webp",
+        "gitBlobSha1": "f63a1a069cd36cb229a8f2a3d83df68368aae108",
+        "bytes": 158086,
+        "sha256": "d03a2e66b69b36a584a4c848898691c1b4b88dea8fdc4da360af153ebafcee62",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/lynx-skyranger35-07.webp",
+        "gitBlobSha1": "8267e576f9cb2cdb148859e96862fd957ee9df03",
+        "bytes": 136660,
+        "sha256": "cb870eb53e653c35dc21428552ec8501499a211249f43be9debb8a5e7647613e",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/pars-alpha-00.webp",
+        "gitBlobSha1": "b1a9c0cba0dc1904ecebd4ab3f0610ef3dfd275b",
+        "bytes": 128670,
+        "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/pars-alpha-11.webp",
+        "gitBlobSha1": "8c77d432af8f8261df3d054b3ac0dd0ec87d47a1",
+        "bytes": 143864,
+        "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-00.webp",
+        "gitBlobSha1": "0e898023a369e10be4f93fd014807001327f19cd",
+        "bytes": 378042,
+        "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-01.webp",
+        "gitBlobSha1": "15f7e1a89be8d00cc2dd0247ae2a346e2fd497dd",
+        "bytes": 156472,
+        "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-02.webp",
+        "gitBlobSha1": "f3de4e6080910979e8f2cba4dfdfd3c4979a527c",
+        "bytes": 392676,
+        "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-04.webp",
+        "gitBlobSha1": "2fd4ea307efcd3f33e60e32ae885c79f62860c42",
+        "bytes": 239452,
+        "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-08.webp",
+        "gitBlobSha1": "ea5c7b848b8332f87a09f3a6538cbea58bb44668",
+        "bytes": 292640,
+        "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/rch155-tracked-03.webp",
+        "gitBlobSha1": "2899da430456d1388e882c8b6afbee4475bea8f0",
+        "bytes": 114518,
+        "sha256": "7a6b2344d0d3d38a3fb3a07a3d8da28898be4c2ab8c3e965e893cdfda3585ca3",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/rch155-tracked-05.webp",
+        "gitBlobSha1": "31f0569c4ca25e38275786a17eddbf08d2ea3a4c",
+        "bytes": 146400,
+        "sha256": "49e650894bf87a3760fc6860be722e4d24e81155c0fac7bae232659e60cc68da",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/rch155-tracked-06.webp",
+        "gitBlobSha1": "4bd2d10817f94a7e94437d76fd46a971c9b80cb1",
+        "bytes": 116634,
+        "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/themis-k-00.webp",
+        "gitBlobSha1": "39ad5068cef9de5045fed721f0ae8b3a7f90a6c0",
+        "bytes": 448990,
+        "sha256": "81c4ea6179f5e2483bf1e8f5ca2f79874a46053d4804ea51ee8699f3660fcd13",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/themis-k-21.webp",
+        "gitBlobSha1": "35dddc957112f5719a91941b7e7f514200588cd7",
+        "bytes": 214990,
+        "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      },
+      {
+        "file": "assets/photos/tulpar-00.webp",
+        "gitBlobSha1": "2eecd42e27744ba4ef87869fc0dcfdd5ae0ec039",
+        "bytes": 251040,
+        "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8",
+        "baselineBytesMatch": true,
+        "distBytesMatch": true
+      }
+    ]
+  },
+  "themisBoundary": {
+    "idexContext": "event",
+    "adexContext": "reference",
+    "adexProductGalleryIncludesIdexImage": false,
+    "originalBlur": "The preceding pixel review confirmed the original Commons JPEG already contains face blur. The same blur is retained in the unchanged local WebP and disclosed in variantNote."
+  },
+  "t90Boundary": {
+    "unreadGeneralSource": {
+      "id": "source-1a7f66852f6d12a39dd2",
+      "url": "https://roe.ru/upload/pdf/41766_post.pdf",
+      "title": "https://roe.ru/upload/pdf/41766_post.pdf"
+    },
+    "usedAsNarrativeEvidence": false,
+    "evidenceGapSections": [
+      "development",
+      "interpretation"
+    ],
+    "remainingLimitation": "ROE PDF body was not acquired; no specification or development/market claim was inferred from it. The source ID/title is preserved, rendered as general material, with an explicit non-use notice."
+  },
+  "existingReportPdfPreservation": {
+    "status": "passed",
+    "method": "Reconstruct baseline registry and application data in memory from baseline catalog/event-reports/narratives, using unchanged remaining inputs. Compare screen and print event-report markup byte for byte for all five editions, then compare saved PDFs to their previous QA SHA256 values.",
+    "unchangedTemplateAndInputFiles": [
+      "src/v2/report.js",
+      "src/v2/report.css",
+      "data/v2/editorial/event-reports.json"
+    ],
+    "reportInputComparison": [
+      {
+        "eventId": "adex-2025",
+        "printMarkupEqual": true,
+        "screenMarkupEqual": true,
+        "baselinePrintMarkupSha256": "7a96559772bb7005d863cc028cb1552e999b6f8b91d7e2ceab8638180b752ca0",
+        "currentPrintMarkupSha256": "7a96559772bb7005d863cc028cb1552e999b6f8b91d7e2ceab8638180b752ca0",
+        "themeCount": 3
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "printMarkupEqual": true,
+        "screenMarkupEqual": true,
+        "baselinePrintMarkupSha256": "6612d0bd065dbcaa02ab384809ce6b7d38ee2e6892857ff9cf00df5affe3e8df",
+        "currentPrintMarkupSha256": "6612d0bd065dbcaa02ab384809ce6b7d38ee2e6892857ff9cf00df5affe3e8df",
+        "themeCount": 3
+      },
+      {
+        "eventId": "dsei-2025",
+        "printMarkupEqual": true,
+        "screenMarkupEqual": true,
+        "baselinePrintMarkupSha256": "17243ca9e78df4377c6552cfc9ac254ee2988f1dceacad8ae5a5aee77e6a32e5",
+        "currentPrintMarkupSha256": "17243ca9e78df4377c6552cfc9ac254ee2988f1dceacad8ae5a5aee77e6a32e5",
+        "themeCount": 3
+      },
+      {
+        "eventId": "idex-2025",
+        "printMarkupEqual": true,
+        "screenMarkupEqual": true,
+        "baselinePrintMarkupSha256": "bf19877c5aae79a83ea7e0ef3aa3a7534df3714ef5cfafdfbcf6763cb2fd5876",
+        "currentPrintMarkupSha256": "bf19877c5aae79a83ea7e0ef3aa3a7534df3714ef5cfafdfbcf6763cb2fd5876",
+        "themeCount": 3
+      },
+      {
+        "eventId": "saha-2026",
+        "printMarkupEqual": true,
+        "screenMarkupEqual": true,
+        "baselinePrintMarkupSha256": "c52a6e449ea5d136ba7bc2395b98dc2d6d599d709e2b962c3aebc926e92b8ba2",
+        "currentPrintMarkupSha256": "c52a6e449ea5d136ba7bc2395b98dc2d6d599d709e2b962c3aebc926e92b8ba2",
+        "themeCount": 3
+      }
+    ],
+    "finalPdfChecks": [
+      {
+        "eventId": "adex-2025",
+        "file": "output/pdf/final/fieldnote-adex-2025.pdf",
+        "priorSha256": "2283ce2375a7d872766d7236e7b4501d97994260dc883a694e7d0a6a4909265c",
+        "sha256": "2283ce2375a7d872766d7236e7b4501d97994260dc883a694e7d0a6a4909265c"
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "file": "output/pdf/final/fieldnote-eurosatory-2026.pdf",
+        "priorSha256": "bdc5b54a3b109c4dc9050213ee07002e3e678991302765290a0a2a3edba71ada",
+        "sha256": "bdc5b54a3b109c4dc9050213ee07002e3e678991302765290a0a2a3edba71ada"
+      },
+      {
+        "eventId": "dsei-2025",
+        "file": "output/pdf/final/fieldnote-dsei-2025.pdf",
+        "priorSha256": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1",
+        "sha256": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1"
+      },
+      {
+        "eventId": "idex-2025",
+        "file": "output/pdf/final/fieldnote-idex-2025.pdf",
+        "priorSha256": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501",
+        "sha256": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501"
+      },
+      {
+        "eventId": "saha-2026",
+        "file": "output/pdf/final/fieldnote-saha-2026.pdf",
+        "priorSha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91",
+        "sha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91"
+      }
+    ],
+    "priorQa": "docs/evidence/REDESIGN_PDF_VALIDATION_2026-11-16.json"
+  },
+  "publicScan": {
+    "status": "passed",
+    "roots": [
+      "src/v2",
+      "data/v2/app",
+      "dist"
+    ],
+    "compilerFiles": [
+      "scripts/compile-v2-data.mjs",
+      "scripts/compile-v2-app.mjs",
+      "scripts/research-v2.mjs",
+      "scripts/validate-v2-data.mjs",
+      "scripts/prepare-redesign-content.mjs"
+    ],
+    "textFilesScanned": 39,
+    "patterns": [
+      "workConnection",
+      "work_connection",
+      "first-person company wording",
+      "internal work connection wording",
+      "English internal work connection"
+    ],
+    "hits": [],
+    "distributionFiles": 104,
+    "unexpectedDistributionFiles": [],
+    "forbiddenTopLevelKeys": [
+      "collections",
+      "workQueue",
+      "metrics",
+      "rosterEntries",
+      "migration"
+    ],
+    "keyHits": []
+  },
+  "browserValidation": {
+    "status": "passed",
+    "owner": "parent agent Chrome UI validation",
+    "evidenceFile": "docs/evidence/REDESIGN_PHOTO_COVERAGE_BROWSER_2026-11-16.json",
+    "sha256": "062ea4b1049ac52088557ca694265b457ca261c1c20c9d370147c5f4b4b3e38f",
+    "desktopCases": 6,
+    "mobileCases": 6,
+    "uniqueNewProductPhotographsLoaded": 8,
+    "horizontalOverflowCases": 0,
+    "physicalHandset": false,
+    "screenshots": [
+      "docs/evidence/screenshots/acv-desktop-2026-11-16.jpg",
+      "docs/evidence/screenshots/themis-mobile-2026-11-16.jpg"
+    ],
+    "additionalChecks": [
+      "ACV viewer 2/2",
+      "THeMIS deep-link reload",
+      "HAVOC gallery with three existing photos",
+      "T90 general source label and evidence-gap qualifiers"
+    ]
+  },
+  "remainingRisks": [
+    "22 authored products still lack displayable current-event photographs; they remain explicit gaps.",
+    "This audit does not establish weapon performance, production, delivery or operational maturity.",
+    "HAFEET MK2/632A nomenclature relationship, ACV variant, THeMIS payload identity and K2 concept build status remain limited as stated in the narratives.",
+    "Browser mobile validation used a 390px viewport, not a physical handset.",
+    "Preview deployment remains withheld pending the user review already required by the project."
+  ],
+  "stateTransitions": [
+    "planned",
+    "verifying",
+    "completed"
+  ]
+}

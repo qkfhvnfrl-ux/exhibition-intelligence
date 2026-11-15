@@ -148,7 +148,7 @@ function productMarkup(data, company, product, photos, {print=false,productId=nu
   const sections=Object.entries(narrativeLabels).map(([id,label])=>{
     const entry=arr(narrative.sections).find(item=>item.id===id);
     const type=entry?.claimType || '';
-    const qualifier=/interpret|inference|analysis/.test(type)?'관찰 근거에 따른 추론':/official|plan|goal/.test(type)?'공식 발표 · 발표 당시 기준':id==='interpretation' && entry?.text?'관찰 근거에 따른 추론':'';
+    const qualifier=type==='evidence_gap'?'근거 미확보':/interpret|inference|analysis/.test(type)?'관찰 근거에 따른 추론':/official|plan|goal/.test(type)?'공식 발표 · 발표 당시 기준':id==='interpretation' && entry?.text?'관찰 근거에 따른 추론':'';
     const ids=entry?arr(entry.sourceIds):id==='exhibit'?(eventIds.length?eventIds:arr(product.sourceIds)):[];
     return `<section class="fn-product-topic" data-narrative-section="${id}"><h4>${escapeHTML(entry?.label || label)}</h4>${qualifier?`<p class="fn-claim-type">${escapeHTML(qualifier)}</p>`:''}${paragraph(entry?.text || fallback[id])}${sourceLinksMarkup(ids,allSources)}</section>`;
   }).join('');

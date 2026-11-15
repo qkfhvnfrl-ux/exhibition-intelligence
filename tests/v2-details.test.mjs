@@ -226,6 +226,17 @@ test('equipment keeps five sections visible and marks official plans, interpreta
  const print=printReportMarkup(data,['o1']);assert.doesNotMatch(print,/<details/);assert.match(print,/전략적 해석/);assert.match(print,/https:\/\/example.org\/general/);
 });
 
+test('an unsupported strategy remains an evidence gap on screen and in print',()=>{
+ const data=equipmentFixture(),entry=data.products[0].narrative.sections.find(section=>section.id==='interpretation');
+ entry.claimType='evidence_gap';entry.sourceIds=[];entry.text='사진만으로 개발 방향이나 시장 전략을 판단할 근거가 부족해 해석을 보류한다.';
+ for(const html of [companyPanelMarkup(data,data.companies[0]),printReportMarkup(data,['o1'])]){
+  const topic=html.match(/data-narrative-section="interpretation">([\s\S]*?)<\/section>/)?.[1];
+  assert.ok(topic);assert.match(topic,/근거 미확보/);assert.ok(topic.includes(entry.text));
+  assert.doesNotMatch(topic,/관찰 근거에 따른 추론|fn-source-link|href=/);
+  assert.match(html,/공식 발표 · 발표 당시 기준/);
+ }
+});
+
 test('equipment galleries require product association and current event while viewer indices stay global',()=>{
  const data=equipmentFixture(),company=data.companies[0],photos=companyPhotos(data,company);
  assert.deepEqual(productPhotos(data,company,data.products[0],photos).map(p=>p.id),['p1','p6','p4']);

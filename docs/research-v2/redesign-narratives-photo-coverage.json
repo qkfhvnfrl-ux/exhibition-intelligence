@@ -1,0 +1,715 @@
+{
+  "asOf": "2026-11-16",
+  "narratives": [
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-8de7f844d3d235b7835b",
+      "productId": "acv",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "ACV는 상륙 임무를 위해 소개된 8×8 장갑차 제품군이다.",
+          "sourceIds": [
+            "source-b95dd1777d21dd410287"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "후부 추진장치와 차체 상부의 임무장비를 서로 다른 근접 사진으로 볼 수 있다.",
+          "sourceIds": [
+            "source-31e1a89128881b98068a",
+            "source-615f3dcca5c3757caee0"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "BAE는 IDEX 2025 출품을 발표했다. 현장사진은 전체 차량보다 상부·후부 구성을 보여준다.",
+          "sourceIds": [
+            "source-b95dd1777d21dd410287",
+            "source-31e1a89128881b98068a",
+            "source-615f3dcca5c3757caee0"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "사진 속 전시형의 후속 개발·인도 일정은 확보하지 못했다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 중동 첫 소개는 지역 고객을 향한 제품 제안 확대의 사례로 읽힌다. 계약 성과를 뜻하지 않는다.",
+          "sourceIds": [
+            "source-b95dd1777d21dd410287"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-b95dd1777d21dd410287",
+        "source-31e1a89128881b98068a",
+        "source-615f3dcca5c3757caee0"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-68c423ede7bd55417d56",
+        "photo-ec57e567a5091a1ac1ac"
+      ],
+      "form": "IDEX 2025 전시차 상부·후부 근접사진 · 세부 파생형 미확인",
+      "limitations": [
+        "ACV-P·ACV-30 등 어느 파생형인지 확정하지 않는다. 공식 기사의 일반 제품군 설명을 사진 속 형식의 확정 사양으로 적용하지 않는다.",
+        "후부 장치와 상부 임무장비의 공급사·모델·작동 상태는 미확인이다. 두 근접 사진을 개별 부품 업체의 출품 실적으로 세지 않는다.",
+        "사진의 행사 분류·촬영일·저자·CC BY 4.0 및 로컬 픽셀을 확인했다. 성능·납품 완료 검증은 아니다."
+      ],
+      "sources": [
+        {
+          "id": "source-b95dd1777d21dd410287",
+          "url": "https://www.baesystems.com/en-us/article/bae-systems-amphibious-combat-vehicle-makes-debut-in-middle-sast-at-idex",
+          "title": "BAE Systems ACV의 IDEX 2025 출품 발표",
+          "publisher": "BAE Systems",
+          "publishedAt": "2025-02-17",
+          "eventEditionId": "idex-2025",
+          "independence": "primary_single_origin",
+          "limitations": "제조사 출품 발표다. 기사 표지의 사막 사진은 IDEX 현장 사진이 아니다. 전시차 세부 파생형은 별도 확인이 필요하다."
+        },
+        {
+          "id": "source-31e1a89128881b98068a",
+          "url": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_thruster.jpg",
+          "title": "ACV 후부 추진장치 현장 사진",
+          "publisher": "Mztourist / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-19. Commons의 IDEX 2025 분류와 CC BY 4.0 확인. 구성품의 공급사·모델·성능은 미확인."
+        },
+        {
+          "id": "source-615f3dcca5c3757caee0",
+          "url": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_remote_weapons_station.jpg",
+          "title": "ACV 상부 원격무장장치 현장 사진",
+          "publisher": "Mztourist / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-19. Commons의 IDEX 2025 분류와 CC BY 4.0 확인. 특정 RCWS 모델을 식별한 자료는 아니다."
+        }
+      ]
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-3a42e32a1f0025e58e14",
+      "productId": "hafeet-mk2",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "EDGE가 6×6 병력수송용 장갑차로 소개한 HAFEET MK II 전시 기록이다.",
+          "sourceIds": [
+            "source-88cc2991a2c2727fe63c"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "전시 명판은 HAFEET MK2, 차체에는 HAFEET 632A가 적혀 있다.",
+          "sourceIds": [
+            "source-bbf2500d611afd667bb6"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "사전 출품 안내와 IDEX 현장사진을 대조했다. AJBAN과 구별되는 HAFEET 전시차다.",
+          "sourceIds": [
+            "source-88cc2991a2c2727fe63c",
+            "source-bbf2500d611afd667bb6"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "이 전시형의 별도 개발 완료·군 인도 일정은 미확인이다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 순찰용 AJBAN과 병력수송용 HAFEET를 함께 제시한 구성은 임무별 차량 선택지를 보여준다.",
+          "sourceIds": [
+            "source-88cc2991a2c2727fe63c"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-88cc2991a2c2727fe63c",
+        "source-bbf2500d611afd667bb6"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-69dc76e63f40de3a4788"
+      ],
+      "form": "HAFEET MK2 명판·HAFEET 632A 차체 표기의 현장 전시품",
+      "limitations": [
+        "MK2와 632A의 공식 계열·형식 관계는 별도 확인이 필요하다. 두 표기를 숨기거나 동일한 공식 모델명으로 합치지 않는다.",
+        "사진 속 상부 장비의 모델과 통합 상태는 미확인이다. 명판 수치를 시험으로 확인된 성능값으로 사용하지 않는다.",
+        "제조사 사전 출품 안내와 독립 촬영자의 현장사진은 서로 다른 확인 범위를 가진다."
+      ],
+      "sources": [
+        {
+          "id": "source-88cc2991a2c2727fe63c",
+          "url": "https://edgegroup.ae/news/edge-showcase-200-disruptive-technology-and-defence-solutions-idex-2025",
+          "title": "EDGE의 IDEX 2025 사전 출품 안내",
+          "publisher": "EDGE",
+          "publishedAt": "2025-01-28",
+          "eventEditionId": "idex-2025",
+          "independence": "primary_single_origin",
+          "limitations": "개막 전 안내다. HAFEET MK II·THeMIS 제품군의 출품 계획을 확인하며 개별 현장 형상은 사진으로 대조한다."
+        },
+        {
+          "id": "source-bbf2500d611afd667bb6",
+          "url": "https://commons.wikimedia.org/wiki/File:Hafeet_MK2.jpg",
+          "title": "IDEX 2025 HAFEET MK2 전시 사진",
+          "publisher": "Cezary Filip Krzymowski / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-20. 사진의 전시 명판은 HAFEET MK2, 차체 표기는 HAFEET 632A다. 두 명칭의 공식 형식 관계는 미확인. CC BY 4.0."
+        }
+      ]
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-c0aa5fd472a380a0d1d6",
+      "productId": "themis-combat",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "THeMIS COMBAT 차명이 있는 궤도형 무인지상차량 전시물이다.",
+          "sourceIds": [
+            "source-65ded7e5afc798e8e57e"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "사진에서는 궤도 차체와 상부 탑재물을 구별할 수 있다. 탑재체의 정확한 모델은 미확인이다.",
+          "sourceIds": [
+            "source-65ded7e5afc798e8e57e"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "IDEX 2025 사진과 EDGE의 THeMIS 출품 안내가 대응한다. ADEX의 THeMIS-K와 다른 기록이다.",
+          "sourceIds": [
+            "source-65ded7e5afc798e8e57e",
+            "source-88cc2991a2c2727fe63c"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "Milrem은 행사 중 EOS와 무인지상체계·탑재체의 공동 개발 협력을 발표했다. 사진 구성의 통합 완료를 뜻하지 않는다.",
+          "sourceIds": [
+            "source-160f4e2f7a2c3baa1f32"
+          ],
+          "claimType": "official_plan"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 무인 차체와 임무장비를 함께 소개하는 사례다. 이 사진만으로 자율성이나 운용 성숙도를 판단하지 않는다.",
+          "sourceIds": [
+            "source-65ded7e5afc798e8e57e"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-65ded7e5afc798e8e57e",
+        "source-88cc2991a2c2727fe63c",
+        "source-160f4e2f7a2c3baa1f32"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-25e3c0aefc7efbbcfddc"
+      ],
+      "form": "THeMIS COMBAT 차명 확인 · IDEX 2025 현장 전시품",
+      "limitations": [
+        "사진의 차체 표기는 THeMIS COMBAT다. ADEX 2025의 THeMIS-K와 동일한 전시 구성이라는 근거는 없다.",
+        "EOS와의 협력은 발표됐지만, 사진 속 탑재체가 R400인지와 그 구성의 통합 완료 여부는 미확인이다.",
+        "전시 외관의 촬영 기록이며, 자율주행 성능이나 운용 성숙도를 입증하는 시험 자료는 아니다."
+      ],
+      "sources": [
+        {
+          "id": "source-88cc2991a2c2727fe63c",
+          "url": "https://edgegroup.ae/news/edge-showcase-200-disruptive-technology-and-defence-solutions-idex-2025",
+          "title": "EDGE의 IDEX 2025 사전 출품 안내",
+          "publisher": "EDGE",
+          "publishedAt": "2025-01-28",
+          "eventEditionId": "idex-2025",
+          "independence": "primary_single_origin",
+          "limitations": "개막 전 안내다. HAFEET MK II·THeMIS 제품군의 출품 계획을 확인하며 개별 현장 형상은 사진으로 대조한다."
+        },
+        {
+          "id": "source-65ded7e5afc798e8e57e",
+          "url": "https://commons.wikimedia.org/wiki/File:THeMIS_COMBAT.jpg",
+          "title": "IDEX 2025 THeMIS COMBAT 전시 사진",
+          "publisher": "Cezary FIlip Krzymowski / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-20. Commons 설명과 차체의 COMBAT 표기를 확인했다. ADEX의 THeMIS-K 사진이 아니다. CC BY 4.0."
+        },
+        {
+          "id": "source-160f4e2f7a2c3baa1f32",
+          "url": "https://milremrobotics.com/milrem-robotics-and-electro-optic-systems-sign-agreement-to-advance-combat-ugs-solutions/",
+          "title": "Milrem Robotics와 EOS의 IDEX 2025 협력 합의",
+          "publisher": "Milrem Robotics",
+          "publishedAt": "2025-02-19",
+          "eventEditionId": "idex-2025",
+          "independence": "primary_single_origin",
+          "limitations": "협력·공동 개발 방향 발표다. 별도 사진 속 탑재체가 EOS R400인지, 통합이 완료됐는지는 이 발표와 사진만으로 확정하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-7b846c15951b021bf59b",
+      "productId": "cobra-ii",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "COBRA II는 Otokar가 IDEX 2025에 소개한 4×4 전술 장갑차다.",
+          "sourceIds": [
+            "source-b950cabfd3e86bea2c56"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "제조사는 이 회차의 Keskin RCWS 탑재 구성을 설명했다. 사진에서는 차명과 상부 장비가 보인다.",
+          "sourceIds": [
+            "source-b950cabfd3e86bea2c56",
+            "source-82d861723141822e2932"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "COBRA II 표기와 IDEX 2025 사진 캡션을 확인했다. 차량 측면과 승하차 문이 드러나는 구도다.",
+          "sourceIds": [
+            "source-82d861723141822e2932"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "이 전시 구성의 별도 개발 완료·인도 일정은 확인하지 못했다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: COBRA II를 포함한 차량군 출품은 걸프 지역 고객과의 협력 확대를 위한 제안으로 읽힌다. 계약 성과는 미확인이다.",
+          "sourceIds": [
+            "source-b950cabfd3e86bea2c56"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-b950cabfd3e86bea2c56",
+        "source-82d861723141822e2932"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-cb87df5d135cfa3a2f1a"
+      ],
+      "form": "COBRA II 차명 확인 · IDEX 2025 측면 현장사진",
+      "limitations": [
+        "사진에서 Keskin의 세부 모델 표지를 직접 판독한 것은 아니다. RCWS 명칭은 제조사의 해당 회차 출품 발표에 귀속한다.",
+        "SAHA 2026의 UAV 스테이션 탑재형과 이 차량을 동일 구성으로 묶지 않는다. 다른 행사 제품자료의 수치를 가져오지 않는다.",
+        "사진의 CC BY 4.0과 촬영일·행사 설명은 확인했으나 내부 사양·작동·납품 상태는 확인하지 않았다."
+      ],
+      "sources": [
+        {
+          "id": "source-b950cabfd3e86bea2c56",
+          "url": "https://defense.otokar.com.tr/news/otokar-is-mission-ready-for-new-cooperation-opportunities",
+          "title": "Otokar의 IDEX 2025 출품 구성",
+          "publisher": "Otokar",
+          "publishedAt": "2025-02-17",
+          "eventEditionId": "idex-2025",
+          "independence": "primary_single_origin",
+          "limitations": "해당 회차 제조사 발표다. SAHA 2026 UAV 스테이션 구성이나 다른 행사의 사양을 가져오지 않는다."
+        },
+        {
+          "id": "source-82d861723141822e2932",
+          "url": "https://commons.wikimedia.org/wiki/File:Cobra_II.jpg",
+          "title": "IDEX 2025 COBRA II 측면 사진",
+          "publisher": "Cezary Filip Krzymowski / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-20. 차명과 행사 캡션·CC BY 4.0을 확인했다. 상부 장비의 상세 모델 식별은 미완료."
+        }
+      ]
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "organizationId": "org-bb5b014b7abb0359c75b",
+      "productId": "eu-k2-export",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "현대로템이 Eurosatory 2026에서 소개한 K2 수출형 콘셉트 모델이다.",
+          "sourceIds": [
+            "source-1ee4b2afecce83063a7d"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "제조사는 원격무장장치·방호장치 등 수출형의 구성 선택지를 설명했다.",
+          "sourceIds": [
+            "source-1ee4b2afecce83063a7d"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "부스사진에서 K2 명판과 현대로템 표지를 확인했다. 주변에는 무인차량 계열의 모형도 함께 놓여 있다.",
+          "sourceIds": [
+            "source-1ee4b2afecce83063a7d"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "회사는 무인·방호 기술과 제품군을 넓히는 방향을 밝혔다. 이 콘셉트의 별도 양산 일정은 미확인이다.",
+          "sourceIds": [
+            "source-1ee4b2afecce83063a7d"
+          ],
+          "claimType": "official_plan"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 고객 요구에 따른 구성 선택지를 보여주는 전시다. 특정 국가의 확정 도입형을 뜻하지 않는다.",
+          "sourceIds": [
+            "source-1ee4b2afecce83063a7d"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-1ee4b2afecce83063a7d"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-a305d72436108230a626"
+      ],
+      "form": "제조사 K2 수출형 콘셉트 소개 · 명판이 보이는 현장 부스사진",
+      "limitations": [
+        "공식 원문의 콘셉트 표현을 유지한다. 전시품이 작동 가능한 실차인지 목업인지 사진만으로 확정하지 않는다.",
+        "주변 무인차량 모형의 세부 형식은 미확인이다. 사진을 분할해 별도 제품의 식별 완료 근거로 사용하지 않는다.",
+        "뉴스룸 기사·이미지 자유 사용 안내와 제3자 자료 예외를 확인했다. CC 라이선스로 바꾸어 표기하지 않는다.",
+        "제조사 제공 사진과 발표이며 독립 성능 검증이나 수출 계약·납품 완료의 증거가 아니다."
+      ],
+      "sources": [
+        {
+          "id": "source-1ee4b2afecce83063a7d",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-rotem-advanced-protection-system-tech-global-debut",
+          "title": "현대로템의 Eurosatory 2026 K2 수출형 콘셉트 소개",
+          "publisher": "현대로템 / 현대자동차그룹",
+          "publishedAt": "2026-06-15",
+          "eventEditionId": "eurosatory-2026",
+          "independence": "primary_single_origin",
+          "limitations": "제조사 전시 소개와 제공 부스사진이다. 뉴스룸 이미지 사용 안내를 확인했다. 콘셉트를 특정 고객의 양산 형식으로 확정하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-2db746a8735131ebbf8e",
+      "productId": "t90ms",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "IDEX 2025의 T-90MS 전시차를 기록한 사진이다.",
+          "sourceIds": [
+            "source-09acaf2051f60b9a2564",
+            "source-46f946fb91b8be1a554d"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "측면 사진에 T-90MS 명판과 UVZ·Rosoboronexport 표지가 함께 보인다.",
+          "sourceIds": [
+            "source-09acaf2051f60b9a2564"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "전면과 측면의 두 사진을 연결했다. 외관과 부스 배치를 확인하는 자료다.",
+          "sourceIds": [
+            "source-09acaf2051f60b9a2564",
+            "source-46f946fb91b8be1a554d"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "확인한 사진에는 개발 일정 정보가 없다. 기존 제조사 PDF 본문은 이번 조사에서 확보하지 못했다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "사진만으로 개발 방향이나 시장 전략을 판단할 근거가 부족해 전략적 해석은 보류한다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-09acaf2051f60b9a2564",
+        "source-46f946fb91b8be1a554d"
+      ],
+      "generalSourceIds": [
+        "source-1a7f66852f6d12a39dd2"
+      ],
+      "photoIds": [
+        "photo-6fe3dd99c161ed32ca7a",
+        "photo-5dd70cdd947e8d8264db"
+      ],
+      "form": "T-90MS 현장 명판 확인 · IDEX 2025 전면·측면 사진",
+      "limitations": [
+        "전시 외관과 촬영자의 회차 설명을 대조했다. 상세 사양·개량 내용·운용 성능을 확정한 기록이 아니다.",
+        "ROE 제품 PDF 본문은 확보하지 못해 이번 장비 설명의 근거로 사용하지 않았다. 출처 목록에서는 일반자료로 구분한다.",
+        "촬영일·저자·CC BY 4.0은 확인했다. 제작 상태·양산 일정·군 배치 완료는 미확인이다."
+      ],
+      "sources": [
+        {
+          "id": "source-09acaf2051f60b9a2564",
+          "url": "https://commons.wikimedia.org/wiki/File:T-90MS_side_view_at_IDEX_2025.jpg",
+          "title": "IDEX 2025 T-90MS 측면 사진",
+          "publisher": "Mztourist / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-19. 현장 차명과 회사 표지·회차 설명·CC BY 4.0 확인. 전시 외관 관찰이며 성능 자료가 아니다."
+        },
+        {
+          "id": "source-46f946fb91b8be1a554d",
+          "url": "https://commons.wikimedia.org/wiki/File:T-90MS_front_view_at_IDEX_2025.jpg",
+          "title": "IDEX 2025 T-90MS 전면 사진",
+          "publisher": "Mztourist / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-19. 회차 설명과 CC BY 4.0 확인. 내부 구성·개발 상태를 확인한 사진은 아니다."
+        }
+      ]
+    }
+  ],
+  "photoAdditions": [
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-c0aa5fd472a380a0d1d6",
+      "productId": "havoc-8x8",
+      "photoIds": [
+        "photo-985b49c2b185568fba9d",
+        "photo-0807aea6727cdd66f83c"
+      ],
+      "sourceIds": [
+        "source-eb59daa7239416207c4a",
+        "source-743b1f2182fd8373d7f7"
+      ],
+      "sources": [
+        {
+          "id": "source-eb59daa7239416207c4a",
+          "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%282%29.jpg",
+          "title": "IDEX 2025 HAVOC 8×8 추가 사진 2",
+          "publisher": "Cezary Filip Krzymowski / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-20. HAVOC 차명·Milrem 로고·회차 설명·CC BY 4.0 확인. 3번 사진과 거의 같은 구도."
+        },
+        {
+          "id": "source-743b1f2182fd8373d7f7",
+          "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%283%29.jpg",
+          "title": "IDEX 2025 HAVOC 8×8 추가 사진 3",
+          "publisher": "Cezary Filip Krzymowski / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-20. HAVOC 차명·Milrem 로고·회차 설명·CC BY 4.0 확인. 추가 제품이나 다른 사양의 증거가 아님."
+        }
+      ],
+      "evidence": {
+        "observedAt": "2026-11-16",
+        "identity": "두 로컬 사진의 HAVOC 차명·Milrem Robotics 표지, Commons IDEX 2025 캡션을 대조했다.",
+        "rights": "두 사진 모두 Cezary Filip Krzymowski, CC BY 4.0. 원문·저자·라이선스·변경 표시 유지.",
+        "difference": "02·03은 거의 같은 구도의 별도 촬영이다. 새 제품·다른 사양으로 집계하지 않는다.",
+        "integration": "기존 HAVOC narrative를 유지하고 photoIds에만 추가한다. 회사·제품·사진 역방향 연결은 통합 단계에서 검증한다."
+      }
+    }
+  ],
+  "evidence": {
+    "status": "integrated_and_verified",
+    "plan": {
+      "goal": "기존 제품 6개에 5구간 설명 작성, HAVOC 사진 추가 연결 근거 제공",
+      "editFiles": [
+        "docs/research-v2/redesign-narratives-photo-coverage.json"
+      ],
+      "impact": "운영 데이터 변경 없이 조사 패킷만 작성",
+      "risk": "같은 차종의 다른 회차·형식 혼동, 미확인 기술 상태 단정, 출처별 파생 문구 과다",
+      "verification": "기존 스키마·ID·5구간·사진 문맥·출처 참조·원문별 분량 검사"
+    },
+    "researchBasis": "docs/research-v2/redesign-next-photo-coverage.json의 7개 우선순위와 이번 세션에서 확인한 공식 원문·Commons 메타데이터·로컬 픽셀",
+    "sourceScope": "공식 출품 발표는 발표 주체·시점에 귀속한다. 사진으로는 외관·명판·전시 존재만 설명한다.",
+    "sameEventBoundary": "IDEX THeMIS COMBAT와 ADEX THeMIS-K, IDEX COBRA II와 SAHA UAV 형식, Eurosatory K2 콘셉트를 서로 구분한다.",
+    "claimTypesUsed": [
+      "source_documented",
+      "official_plan",
+      "editorial_inference",
+      "evidence_gap"
+    ],
+    "sourceWordBudget": {
+      "status": "pass",
+      "method": "기존 운영 narrative와 report theme(summary·before·after), 새 sections의 문구를 source URL별로 합산. 같은 section의 sourceId 별칭은 URL로 합친다. 공백 기준 200단어 이하이며 직접 인용 없음.",
+      "verifiedAt": "2026-11-16",
+      "maximumCheckedWordsPerSourceUrl": 56,
+      "newSourceUrlTotals": [
+        {
+          "sourceId": "source-b95dd1777d21dd410287",
+          "words": 36
+        },
+        {
+          "sourceId": "source-31e1a89128881b98068a",
+          "words": 23
+        },
+        {
+          "sourceId": "source-615f3dcca5c3757caee0",
+          "words": 23
+        },
+        {
+          "sourceId": "source-88cc2991a2c2727fe63c",
+          "words": 45
+        },
+        {
+          "sourceId": "source-bbf2500d611afd667bb6",
+          "words": 19
+        },
+        {
+          "sourceId": "source-65ded7e5afc798e8e57e",
+          "words": 46
+        },
+        {
+          "sourceId": "source-160f4e2f7a2c3baa1f32",
+          "words": 15
+        },
+        {
+          "sourceId": "source-b950cabfd3e86bea2c56",
+          "words": 40
+        },
+        {
+          "sourceId": "source-82d861723141822e2932",
+          "words": 27
+        },
+        {
+          "sourceId": "source-1ee4b2afecce83063a7d",
+          "words": 56
+        },
+        {
+          "sourceId": "source-09acaf2051f60b9a2564",
+          "words": 24
+        },
+        {
+          "sourceId": "source-46f946fb91b8be1a554d",
+          "words": 16
+        }
+      ]
+    },
+    "validation": {
+      "status": "pass",
+      "verifiedAt": "2026-11-16",
+      "result": "Node assert exit 0: 6개 narrative·30구간·HAVOC photoAdditions 1개, 기존 40개와 event/product 중복 없음, 회사 소유 관계·출처·현장사진 ID·로컬 파일·URL별 분량 PASS. git diff --check 오류 없음.",
+      "revisionCheck": "전략적 해석 3건 수정 후 Node assert PASS: ACV는 BAE 중동 첫 소개·해외 제안 원문, HAFEET는 EDGE AJBAN·HAFEET 출품 원문에 귀속. T-90MS는 근거 부족으로 evidence_gap 및 sourceIds=[] 처리. URL별 최대 56단어 유지.",
+      "secondRevisionCheck": "COBRA II 해석을 Otokar IDEX 2025 공식 발표의 걸프 지역 관계·협력 기회 확대에 귀속했다. 회사 차량군 전시의 제한된 해석이며 수주 성과를 주장하지 않는다. THeMIS limitations 3개는 회차·탑재체 식별·사진 증거의 한계만 남겼다. Node assert 및 git diff --check PASS. COBRA 공식 원문 귀속 40단어·사진 귀속 27단어로 갱신; 전체 최대 56단어 유지.",
+      "checks": [
+        "narratives 6개×5구간=30구간",
+        "기존 event/product/organization/photo/source ID 참조",
+        "대상 사진 context=event·소유회사·로컬 파일 존재",
+        "HAVOC narrative 중복 없음·photoAdditions만 1개",
+        "URL별 기존+새 설명 분량"
+      ]
+    },
+    "unverified": [
+      "T-90MS 기존 제조사 PDF 본문",
+      "HAFEET MK2와 632A 공식 형식 관계",
+      "ACV 세부 파생형·개별 장비 공급사",
+      "THeMIS 사진의 탑재체가 EOS R400인지",
+      "COBRA II 사진의 RCWS 세부 표지",
+      "K2 콘셉트의 실차·목업 구분 및 특정 고객 도입형"
+    ],
+    "operationalWrites": "Parent integrated through existing narrative generator and upstream photo metadata; asset bytes unchanged.",
+    "newImageDownloads": 0,
+    "buildTestLint": "npm run build exit0; npm run check201/201 pass,fail0,skip0. No separate lint script. Browser desktop/mobile evidence recorded.",
+    "stateTransitions": [
+      "planned",
+      "executing",
+      "verifying",
+      "completed"
+    ],
+    "integration": {
+      "asOf": "2026-11-16",
+      "narratives": "Prepared through existing optional narrative generator",
+      "photoAdditions": "Applied to existing HAVOC narrative in redesign-narratives-dsei-idex.json, not duplicated",
+      "newImageDownloads": 0,
+      "assetBytesChanged": false,
+      "metadata": "Nine IDEX CC BY images retain visible conversion notices; THeMIS original already has face blur. Existing THeMIS/ADEX reference identity preserved.",
+      "independentReview": "Company, product, source, photos and claim scope checked. evidence_gap mislabeled as inference reproduced and fixed in details.js with screen/print regression. Unread ROE PDF remains a general reference, explicitly excluded from narrative evidence.",
+      "browserEvidence": "docs/evidence/REDESIGN_PHOTO_COVERAGE_BROWSER_2026-11-16.json"
+    }
+  }
+}

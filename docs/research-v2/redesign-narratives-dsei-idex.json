@@ -227,17 +227,22 @@
         }
       ],
       "eventEvidenceSourceIds": [
-        "idex25-edge-platforms-official-followup"
+        "idex25-edge-platforms-official-followup",
+        "source-eb59daa7239416207c4a",
+        "source-743b1f2182fd8373d7f7"
       ],
       "generalSourceIds": [],
       "photoIds": [
-        "photo-d230f00bf90029fc0a2e"
+        "photo-d230f00bf90029fc0a2e",
+        "photo-985b49c2b185568fba9d",
+        "photo-0807aea6727cdd66f83c"
       ],
       "form": "현장 전시 차량 식별 · 작동 상태·시제/모형 분류 미확인",
       "limitations": [
         "제조사 발표와 촬영자의 현장사진 기록을 대조했다. 사진은 외관·현장 존재를 확인하는 자료이며 성능 검증이 아니다.",
         "사진은 차체 측면 중심이며 포신 끝 등 전체 형상을 담지 못한다. 같은 방향 연속 사진을 별도 형상이나 추가 각도로 집계하지 않는다.",
-        "기존 웹 자산을 재사용했다. 원격 원본과 동일 바이트임을 검증한 것은 아니다."
+        "기존 웹 자산을 재사용했다. 원격 원본과 동일 바이트임을 검증한 것은 아니다.",
+        "추가 사진 2·3은 거의 같은 방향의 연속 촬영이다. 별도 제품이나 다른 형상으로 세지 않는다."
       ],
       "sources": [
         {
@@ -250,6 +255,26 @@
           "type": "manufacturer_event_launch_release",
           "independence": "primary_single_origin",
           "limitations": "NIMR·Milrem·EDGE는 이 자료에서 같은 그룹 발행 근거다. 독립 3건으로 세지 않는다. 공개·출시 표현만으로 양산·실전 배치·제조사 성능 주장 실증을 확정하지 않는다. AJBAN 432AU와 기존 사진 원장의 442A를 같은 형상으로 바꾸지 않는다."
+        },
+        {
+          "id": "source-eb59daa7239416207c4a",
+          "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%282%29.jpg",
+          "title": "IDEX 2025 HAVOC 8×8 추가 사진 2",
+          "publisher": "Cezary Filip Krzymowski / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-20. HAVOC 차명·Milrem 로고·회차 설명·CC BY 4.0 확인. 3번 사진과 거의 같은 구도."
+        },
+        {
+          "id": "source-743b1f2182fd8373d7f7",
+          "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%283%29.jpg",
+          "title": "IDEX 2025 HAVOC 8×8 추가 사진 3",
+          "publisher": "Cezary Filip Krzymowski / Wikimedia Commons",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-20. HAVOC 차명·Milrem 로고·회차 설명·CC BY 4.0 확인. 추가 제품이나 다른 사양의 증거가 아님."
         }
       ]
     },

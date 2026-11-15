@@ -27,28 +27,29 @@
     "public_cleanup": "implemented_current_sources_and_generators_final_audit_recorded_separately",
     "deployment_authorized": false,
     "pushed_this_work": false,
-    "final_status_note": "장비별 서술 40개·설명 항목 200개·종합보고 5개를 연결했다. 최종 보고 문구를 포함한 build/check 200/200과 최종 PDF 5개의 자동 검사·시각 검수가 통과했다. B03 완료는 이 보고 검증 범위에 한정하며 B04와 전체 목표는 진행 중이다.",
+    "final_status_note": "6개 제품 서술을 추가 통합하여 46개 서술·230개 설명 항목·5개 종합보고를 연결했다. 이번 묶음 build/check 201/201과 1440×1000·390×844 브라우저 검증이 통과했다. 보고·PDF는 변경하지 않아 B03 완료 범위를 유지하며 B02·B04와 전체 자료 목표는 진행 중이다.",
     "implementation_plan": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
     "ui_direction_approved": true,
     "first_publication_target": "preview_only",
     "last_checks": {
       "build": "passed",
       "check": "passed",
-      "tests": 200,
-      "passed": 200,
+      "tests": 201,
+      "passed": 201,
       "failed": 0,
       "skipped": 0,
-      "scope": "최신 Eurosatory·IDEX 보고 문구 압축을 포함한 최종 실행. 미통합 추가 6개 제품 초안은 검증 대상 앱 수량에 포함하지 않는다.",
-      "build_log": ".local-reports-build.log",
-      "check_log": ".local-reports-check.log",
+      "scope": "6개 제품 서술 통합과 기존 사진 10개 연결을 포함한 실행. 브라우저 검증 범위와 결과는 browser_verification에 별도로 기록했다.",
+      "build_log": ".local-photo-coverage-build.log",
+      "check_log": ".local-photo-coverage-check.log",
       "latest_copy_revision_recheck": "passed"
     },
     "implementation_commit": null,
     "local_only": true,
-    "head_commit": "6b2999bcafafbea1800e84547ce97a91f8a6e601",
+    "head_commit": "16e7e691f232eeee7951c15ef0ae4ea274aea57d",
     "working_changes": true,
-    "implementation_commit_note": "현재 HEAD 이후 구현 묶음은 작업 트리에 있다. 새 구현 커밋은 저장 후 기록한다. 137fa84는 과거 체크포인트다.",
+    "implementation_commit_note": "현재 HEAD는 40개 서술 묶음의 저장점이다. 이후 46개 서술 묶음은 미커밋 작업 트리에 있으며 새 구현 커밋은 저장 후 기록한다. 6b2999b·137fa84는 과거 체크포인트다.",
     "task_states": {
+      "B02": "executing",
       "B03": "completed",
       "B04": "executing"
     },
@@ -56,19 +57,28 @@
       "event_editions": 5,
       "company_labels": 3685,
       "product_service_records": 130,
-      "product_narratives": 40,
-      "narrative_fields": 200,
+      "product_narratives": 46,
+      "narrative_fields": 230,
       "event_reports": 5,
-      "counting_note": "업체 명칭·제품 기록 수는 실제 참가·실물 전시·독립 검증 완료 수가 아니다. 미통합 초안 6개는 서술 수에 포함하지 않는다."
+      "counting_note": "업체 명칭·제품 기록 수는 실제 참가·실물 전시·독립 검증 완료 수가 아니다. 이전 미통합 6개 제품 서술은 이번에 연결하여 현재 서술 수에 포함했다."
     },
     "photo_changes": {
-      "new_local_assets": 4,
-      "new_asset_scope": "Patria DSEI 2025 현장사진 4장",
-      "existing_photo_links_added": [
-        "Cockerill i-X",
-        "GDAMS"
-      ],
-      "limits": "기존 6×6 ID, Babcock 표기형과 C4 표지형, 일반 참고사진 구분을 유지한다. 사진 확보로 참석·심층 조사 완료를 일괄 확정하지 않는다."
+      "batch": "40개 서술 저장점 이후 46개 서술 묶음",
+      "new_local_assets": 0,
+      "new_downloads": 0,
+      "existing_photo_records_linked": 10,
+      "includes": "기존 HAVOC 사진 2개 연결 포함",
+      "limits": "새 사진 확보로 집계하지 않는다. 이전 6×6 형상 구분과 일반 참고사진·해당 회차 사진의 구분, 출처별 제약을 유지한다.",
+      "previous_batch": {
+        "scope": "직전 40개 서술 묶음",
+        "new_local_assets": 4,
+        "new_asset_scope": "Patria DSEI 2025 현장사진 4장",
+        "existing_photo_links_added": [
+          "Cockerill i-X",
+          "GDAMS"
+        ],
+        "limits": "기존 6×6 ID, Babcock 표기형과 C4 표지형, 일반 참고사진 구분을 유지한다. 사진 확보로 참석·심층 조사 완료를 일괄 확정하지 않는다."
+      }
     },
     "saved_pdf": {
       "files": [
@@ -107,25 +117,64 @@
         "saha-2026": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91"
       }
     },
-    "unintegrated_drafts": [
-      {
-        "file": "docs/research-v2/redesign-narratives-photo-coverage.json",
-        "product_narratives": 6,
-        "status": "not_integrated",
-        "next": "사진·제품·회차·출처와 표현의 확인 범위를 검토한 뒤 기존 생성기에 연결한다."
-      }
-    ],
+    "unintegrated_drafts": [],
     "deployment_note": "첫 공개 대상은 기존 /preview/만이다. 완성본 검토 전 push·merge·배포 워크플로를 실행하지 않는다.",
     "task_completion_scope": {
       "B03": "5개 종합보고의 화면·실제 저장 PDF 검증 범위에 한정한다. 전체 조사·사진 보강·실제 휴대폰·공개 배포 완료를 뜻하지 않는다.",
-      "B04": "자료 조사와 사진·서술 보강을 계속한다."
+      "B04": "자료 조사와 사진·서술 보강을 계속한다.",
+      "B02": "장비별 설명·사진 보강을 계속한다. 이번 6개 제품 묶음의 브라우저 검증은 통과했으나 전체 자료 목표는 완료하지 않았다."
     },
     "photo_coverage": {
-      "scope": "앱에 서술이 연결된 40개 제품 기준",
-      "products_with_displayable_event_photos": 18,
-      "unique_event_photo_records": 19,
+      "scope": "앱에 서술이 연결된 46개 제품 기준",
+      "products_with_displayable_event_photos": 24,
+      "unique_event_photo_records": 29,
       "products_without_displayable_event_photos": 22,
       "note": "제품별 사진 연결 범위이며 종합보고의 표시 사진 수와 구분한다."
+    },
+    "browser_verification": {
+      "status": "passed",
+      "scope": "이번 6개 제품 서술·사진 묶음과 관련 갤러리·자료 구분",
+      "evidence": "docs/evidence/REDESIGN_PHOTO_COVERAGE_BROWSER_2026-11-16.json",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "documentWidth": 1425
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "documentWidth": 375
+        }
+      ],
+      "products_checked": 6,
+      "displayable_photos_loaded": 8,
+      "horizontal_overflow": false,
+      "physical_phone_verified": false,
+      "interactions": [
+        "ACV 2/2 사진 확대",
+        "THeMIS 주소 새로고침 후 활성 제품 유지와 원본 흐림 고지",
+        "HAVOC 2/3→3/3 순환 및 다른 THeMIS 사진 배제",
+        "T-90MS 개발·전략 해석의 근거 미확보와 ROE 일반 자료 목록 구분"
+      ],
+      "note": "데스크톱 브라우저와 모바일 폭에서 확인한 결과다. 실제 휴대폰 검증은 아니며 이전 5개 보고 화면·PDF 검증과 범위를 구분한다."
+    },
+    "integrated_drafts": [
+      {
+        "file": "docs/research-v2/redesign-narratives-photo-coverage.json",
+        "product_narratives": 6,
+        "status": "integrated_browser_verified",
+        "next": "통합과 이번 브라우저 검증을 완료했다. 새로운 자료 변경 시 해당 범위를 다시 검증한다.",
+        "previous_status": "not_integrated",
+        "integrated_at": "2026-11-16"
+      }
+    ],
+    "saha_photo_followup": {
+      "evidence": "docs/research-v2/redesign-photo-candidates-saha.json",
+      "cases_reviewed": 3,
+      "ready": 0,
+      "status": "bounded_research_completed_with_gaps",
+      "note": "Commons·Flickr 공개 또는 임베드 경로와 주최사 자료를 확인했으나 표시 준비를 마친 2026 사진은 없다. 2024 사진을 현재 회차로 승격하지 않는다."
     }
   },
   "unslop": {
@@ -725,8 +774,8 @@
     }
   ],
   "unfinished": [
-    "서술 제품 40개 중 22개는 표시 가능한 해당 회차 사진이 없다. 남은 사진 공백과 독립 근거를 보강한다.",
-    "추가 6개 제품의 사진·서술 초안은 미통합이다. 원문·회차·사진·확인 범위를 검토한 뒤 연결한다.",
+    "서술 제품 46개 중 22개는 표시 가능한 해당 회차 사진이 없다. 남은 사진 공백과 독립 근거를 보강한다.",
+    "SAHA 세 보고 사례의 사진 ready는 0이다. 공개 재사용·임베드 조건과 2026 현장 형상을 함께 확인한 새 근거가 필요하다.",
     "ADEX 공식 2025 전체 디렉터리·야외·공동관 모집단은 미확보다. Hall8 024 / SANJU OPTICAL 이후 작은 글씨 112행과 기존 미착수 큐를 유지한다.",
     "PEI 부스 번호 18-20과 7-C11 상충을 유지하고 기존 ID·검증된 사전 도면 위치를 임의로 변경하지 않는다.",
     "Eurosatory는 LAB 부분 목록을 넘어 전체 카탈로그·부스 지도 조사가 남아 있다.",
@@ -738,7 +787,6 @@
     "전체 보고 대체 목표와 전수 조사는 미완료다. 완성본 검토 뒤 승인 범위인 기존 /preview/ 공개 반영을 진행한다."
   ],
   "next_start": [
-    "redesign-narratives-photo-coverage.json의 6개 제품 초안을 검토하고 검증한 범위만 기존 생성기에 연결한다.",
     "서술 제품 중 사진 공백이 남은 22개와 모든 회차의 기존 조사 큐를 이어간다.",
     "필요한 화면·사진·실제 휴대폰 검증과 전체 조사 큐를 이어간다. 공개 반영은 완성본 검토 뒤 진행한다.",
     "ADEX Hall8 024 / SANJU OPTICAL부터 나머지 작은 글씨 112행을 대조한다.",
@@ -843,8 +891,8 @@
     },
     "data_audit": "docs/evidence/REDESIGN_AUDIT_DATA.json",
     "remaining": [
-      "서술 제품 40개 중 22개는 표시 가능한 해당 회차 사진이 없다. 남은 사진 공백과 독립 근거를 보강한다.",
-      "추가 6개 제품의 사진·서술 초안은 미통합이다. 원문·회차·사진·확인 범위를 검토한 뒤 연결한다.",
+      "서술 제품 46개 중 22개는 표시 가능한 해당 회차 사진이 없다. 남은 사진 공백과 독립 근거를 보강한다.",
+      "SAHA 세 보고 사례의 사진 ready는 0이다. 공개 재사용·임베드 조건과 2026 현장 형상을 함께 확인한 새 근거가 필요하다.",
       "ADEX 공식 2025 전체 디렉터리·야외·공동관 모집단은 미확보다. Hall8 024 / SANJU OPTICAL 이후 작은 글씨 112행과 기존 미착수 큐를 유지한다.",
       "PEI 부스 번호 18-20과 7-C11 상충을 유지하고 기존 ID·검증된 사전 도면 위치를 임의로 변경하지 않는다.",
       "Eurosatory는 LAB 부분 목록을 넘어 전체 카탈로그·부스 지도 조사가 남아 있다.",
@@ -856,13 +904,15 @@
       "전체 보고 대체 목표와 전수 조사는 미완료다. 완성본 검토 뒤 승인 범위인 기존 /preview/ 공개 반영을 진행한다."
     ],
     "task_states": {
+      "B02": "executing",
       "B03": "completed",
       "B04": "executing"
     },
     "baseline_validation_scope": "아래 baseline_validation은 2026-11-15 A단계 기준검사 기록이다. 현재 검사는 work.last_checks를 참조한다.",
     "task_completion_scope": {
       "B03": "5개 종합보고의 화면·실제 저장 PDF 검증 범위에 한정한다. 전체 조사·사진 보강·실제 휴대폰·공개 배포 완료를 뜻하지 않는다.",
-      "B04": "자료 조사와 사진·서술 보강을 계속한다."
+      "B04": "자료 조사와 사진·서술 보강을 계속한다.",
+      "B02": "장비별 설명·사진 보강을 계속한다. 이번 6개 제품 묶음의 브라우저 검증은 통과했으나 전체 자료 목표는 완료하지 않았다."
     }
   },
   "redesign_audit_final": {
