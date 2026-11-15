@@ -26,48 +26,60 @@ for(const equipment of wia.equipment)narratives.push(record(wia,'org-b6b486fa375
 const kiaClaims=new Map(kia.claims.map(c=>[c.claimId,c]));
 const kiaText={
  'tasman-military':[
-  '타스만 픽업에 군용 무전기와 안테나를 더한 지휘 임무용 차량이다.',
-  '민수 픽업 기반의 군용 형상이다. 일반 타스만 제원을 전시 지휘차의 확정 사양으로 적용하지 않는다.',
-  '제조사는 군용 지휘차 실물 첫 공개로 소개했다. 현장 기자 사진 캡션도 출품을 확인하며, 부스에서는 베어샤시와 함께 전시했다.',
-  '2025년 10월 발표는 같은 해 9월 표준 지휘용 픽업 선정과 연내 전력화 계획을 설명했다. 실제 이행 완료는 별도 미확인이다.',
-  '완성차와 노출 샤시를 함께 보여 준 구성은 픽업 플랫폼을 여러 군용 임무차로 확장하려는 방향으로 읽힌다. 전시 구성에 따른 해석이다.'
+  '타스만 기반 군용 지휘차다. 무전기·안테나를 추가했다.',
+  '전시차의 별도 제원은 미확인이다. 일반 타스만 사양을 대신 적용하지 않는다.',
+  '제조사의 실물 첫 공개 발표와 현장 기자 사진을 대조했다.',
+  '2025년 9월 표준 지휘용 픽업 선정과 연내 전력화 계획을 발표했다. 이행 완료는 미확인이다.',
+  '민수 기반 차량을 임무별 군용차로 확장하려는 구성으로 해석한다.'
  ],
  'kmtv':[
-  'KMTV는 병력·물자 수송을 위한 중형표준차 계열이다. 전시 사진에는 KMTV 표지가 있는 차량 전면이 보인다.',
-  '2025년 6월 발표 기준 2.5톤형은 280PS, 5톤형은 330PS이며 8단 자동변속기를 적용한다. 전시차의 세부형이 확인되기 전 한 값을 붙일 수 없다.',
-  'ADEX에서는 완성차와 중형 베어샤시를 함께 소개했다. 제조사 연혁상 실물 최초 공개는 KADEX 2024로, 이번 전시가 최초는 아니다.',
-  '제조사는 2025년 6월 10일 양산식을 열고 같은 달 첫 군 인도를 예고했다. 양산 발표와 실제 인도 완료 증빙은 구분한다.',
-  '완성차와 플랫폼을 나란히 제시한 구성은 수송차량 갱신과 특수목적 파생형 확장을 함께 설명한다. 부품 공통화 효과의 정량 근거는 미확보다.'
+  '병력·물자 수송용 중형표준차다. 현장사진의 KMTV 표지를 확인했다.',
+  '2025년 6월 발표값은 2.5톤형 280PS·5톤형 330PS, 8단 자동변속기다. 전시차의 세부형은 미확인이다.',
+  '완성차와 베어샤시를 제시했다. 실물 최초 공개는 KADEX 2024였다.',
+  '2025년 6월 10일 양산식과 같은 달 군 인도 계획을 발표했다. 실제 인도 완료는 미확인이다.',
+  '공통 기반에서 수송·특장 선택지를 넓히는 구성으로 읽힌다. 공통화 효과의 정량 근거는 미확보다.'
  ],
  'adex25-kia-khtv':[
-  'KHTV는 대형 물자 수송을 위한 표준차 개발 항목이다. 이번 전시형태는 축소 모형이다.',
-  '25톤 이상 적재는 제조사가 제시한 개발 목표이며, 달성 제원이나 전시 실차의 시험 결과가 아니다.',
-  '다른 완성차 전시와 달리 모형으로 계획을 설명했다. 실제 차량이 전시된 것으로 분류하지 않는다.',
-  '제조사 개발 목표는 확인되지만 이번 근거에서 양산 일정과 전력화 완료는 확인되지 않는다.',
-  '소형·중형과 함께 대형 수송의 개발 방향을 제시한 구성으로 읽힌다. 서로 다른 차량의 개발 성숙도를 동일하게 볼 근거는 없다.'
+  '대형 물자 수송용 표준차 개발 항목으로, 축소 모형을 전시했다.',
+  '25톤 이상 적재는 개발 목표다. 달성 제원이나 실차 시험 결과가 아니다.',
+  '개발 단계를 구별한다.',
+  '양산 일정·전력화 완료는 미확인이다.',
+  '수송 범위를 넓히려는 방향으로 해석한다. 모형으로 기술 성숙도를 판단할 수는 없다.'
  ]
 };
 const kiaNames={
- 'adex25-kia-tasman-chassis':['타스만 베어샤시','상부 차체를 덜어낸 기반 구조','현장사진에서 TASMAN 표지 옆 노출 샤시를 확인할 수 있다.'],
- 'adex25-kia-kmtv-chassis':['중형표준차 베어샤시','중형 차량의 특수목적 차체 적용 기반','제조사 목록은 출품을 명시하지만 개별 사진에서 해당 샤시의 모델명은 확정하지 못했다.'],
- 'adex25-kia-kmtv-armored':['방탄 패널 적용 중형전술차','방호를 더한 중형 임무차 형상','중형표준차와 별도 항목으로 소개했다. 방탄 등급과 시험 결과는 확인되지 않았다.'],
- 'adex25-kia-kltv-cargo':['KLTV 4인승 카고','인원과 화물을 함께 운송하는 구성','제조사는 4인승 카고의 출품을 명시했다. 세부 적재량과 개별 전시사진은 미확보다.'],
- 'adex25-kia-kltv-drone':['KLTV 드론 탑재차','드론 임무를 차량에 결합한 구성','출품 목록에서 드론 탑재차를 확인했다. 탑재 드론의 형식·공급사·운용 성능은 확인되지 않았다.'],
- 'adex25-kia-kltv-ai':['KLTV AI 경계차','경계 임무용 장비를 결합한 구성','AI 경계차라는 출품 명칭은 확인됐다. 센서 구성·처리 성능·개별 전시형상은 추가 확인이 필요하다.'],
- 'adex25-kia-tasman-fuel':['타스만 유조 파생차량','유류 수송을 위한 특수목적 구성','제조사는 타스만 특수목적 차량군에 포함했다. 탱크 용량·세부형상·개별 사진은 미확보다.'],
- 'adex25-kia-tasman-refrigerated':['타스만 냉동·냉장 부식 파생차량','저온 식자재 수송을 위한 특수목적 구성','제조사 출품 목록에 냉동·냉장 부식 차량이 명시됐다. 온도 범위·적재량·개별 사진은 미확보다.'],
- 'adex25-kia-tasman-cargo-pair':['타스만 카고 파생차량 2종','화물 수송 임무를 위한 파생형 묶음','원문은 카고 2종을 명시하지만 개별 형식명을 공개하지 않았다. 두 개의 확정 모델명으로 나누지 않았다.']
+ 'adex25-kia-tasman-chassis':['타스만 베어샤시','상부 차체를 덜어낸 특장 기반','현장사진의 TASMAN 표지로 대조했다. 세부 제원은 미확인이다.'],
+ 'adex25-kia-kmtv-chassis':['중형표준차 베어샤시','중형차의 특장 기반','개별 사진의 모델명·축수·제원은 미확인이다.'],
+ 'adex25-kia-kmtv-armored':['방탄 패널 적용 중형전술차','방호형 파생차','방탄 등급·추가 중량·시험 결과는 미확인이다.'],
+ 'adex25-kia-kltv-cargo':['KLTV 4인승 카고','인원·화물 수송형','적재량과 개별 전시사진은 미확인이다.'],
+ 'adex25-kia-kltv-drone':['KLTV 드론 탑재차','드론 임무형','드론 형식·공급사·운용 성능은 미확인이다.'],
+ 'adex25-kia-kltv-ai':['KLTV AI 경계차','경계 임무형','센서·처리 성능·개별 전시형상은 미확인이다.'],
+ 'adex25-kia-tasman-fuel':['타스만 유조 파생차량','유류 수송용','탱크 용량·세부형상·개별 사진은 미확인이다.','은'],
+ 'adex25-kia-tasman-refrigerated':['타스만 냉동·냉장 부식 파생차량','저온 식자재 수송용','온도 범위·적재량·개별 사진은 미확인이다.','은'],
+ 'adex25-kia-tasman-cargo-pair':['타스만 카고 파생차량 2종','화물 수송형 묶음','개별 형식명·적재함·적재량은 미확인이다. 두 모델명을 만들지 않는다.','은']
+};
+const kiaExhibitNotes={
+ 'adex25-kia-tasman-chassis':'특장 선택지를 살핀다.',
+ 'adex25-kia-kmtv-chassis':'특장 기반을 보여준다.',
+ 'adex25-kia-kmtv-armored':'방호 선택지를 제시한다.',
+ 'adex25-kia-kltv-cargo':'기본 수송형을 비교한다.',
+ 'adex25-kia-kltv-drone':'드론 운용기반을 제시한다.',
+ 'adex25-kia-kltv-ai':'이동 경계용으로 제시한다.',
+ 'adex25-kia-tasman-fuel':'보급 역할을 넓혔다.',
+ 'adex25-kia-tasman-refrigerated':'보관 조건을 다룬다.',
+ 'adex25-kia-tasman-cargo-pair':'적재 선택지를 제시한다.'
 };
 for(const equipment of kia.equipmentDrafts){
  let texts=kiaText[equipment.productId];
- if(!texts){const [name,role,exhibit]=kiaNames[equipment.productId];texts=[`${name}는 ${role}이다.`,exhibit,exhibit,'해당 파생형의 별도 개발 완료일·양산 일정은 이번 공개 근거에서 확인되지 않는다.',equipment.sections[4].editorialText];texts[2]=/chassis/.test(equipment.productId)?'완성차와 기반 샤시를 함께 보여 주는 전시다. 샤시 구조를 공개했다는 사실이 모든 파생형의 완성·인증을 뜻하지는 않는다.':equipment.sections[2].editorialText;}
+ if(!texts){const [name,role,features,topic='는']=kiaNames[equipment.productId];texts=[`${name}${topic} ${role}이다.`,features,kiaExhibitNotes[equipment.productId],/chassis/.test(equipment.productId)?'샤시 공개만으로 파생형 완성·인증을 확정할 수 없다. 개발 완료일·양산 일정은 미확인이다.':'개별 개발 완료일·양산 일정은 미확인이다.',equipment.sections[4].editorialText];}
  const sections=equipment.sections.map((s,i)=>({id:ids[i],label:labels[i],text:texts[i],sourceIds:unique(s.claimIds.map(id=>kiaClaims.get(id).sourceId)),claimType:i===4?'editorial_inference':s.mode==='official_plan_with_time_boundary'?'official_plan':i===3?'evidence_gap':s.mode==='analyst_interpretation'?'editorial_inference':'source_documented'}));
  if(equipment.productId==='kmtv'){sections[1].sourceIds=['kia-kmtv-production-2025'];sections[1].claimType='general_product';sections[2].sourceIds=['kia-adex-2025','kia-military-history-2025'];sections[3].sourceIds=['kia-kmtv-production-2025'];sections[3].claimType='official_plan';}
- if(equipment.productId==='tasman-military')sections[2].sourceIds=['kia-adex-2025','asiatime-adex-2025-field'];
+ if(equipment.productId==='tasman-military'){sections[1].claimType='evidence_gap';sections[2].sourceIds=['kia-adex-2025','asiatime-adex-2025-field'];sections[2].claimType='source_documented';}
+ if(equipment.productId==='adex25-kia-khtv')sections[2].claimType='editorial_inference';
  if(kiaNames[equipment.productId]){
   // These concise paragraphs describe the 2025 exhibit list, not current catalogs.
   sections.forEach(section=>{section.sourceIds=['kia-adex-2025'];});
-  sections[0].claimType='source_documented';sections[1].claimType='source_documented';
+  sections[0].claimType='source_documented';sections[1].claimType=equipment.productId==='adex25-kia-tasman-chassis'?'source_documented':'evidence_gap';
   sections[2].claimType='editorial_inference';sections[3].claimType='evidence_gap';
  }
  const photoIds=kia.photoEvidence.filter(p=>p.localPath&&p.productIds.includes(equipment.productId)).map(p=>p.photoId);

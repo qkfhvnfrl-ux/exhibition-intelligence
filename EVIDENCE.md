@@ -1,5 +1,21 @@
 # 검증 증거
 
+## 후속 브라우저 확인 — 2026-11-15
+
+- 최종 후속 코드 검증: `node scripts/prepare-redesign-content.mjs`는 26제품·130항목·1보고 생성, `npm run build` exit 0, `npm run check` 184/184 통과·실패/skip 0. 마지막 기아 사실 분류 수정 후 다시 생성·빌드·검사했다. 로그 .local-followup-build.log 및 .local-followup-check.log. `git diff --check` 통과, lint 스크립트 없음.
+- 보고서 회귀 4건 추가: 화면/PDF 사진 원문·이용조건 보존, 사진 전용 출처 및 중복 URL 처리, 잘못된 URL 차단, 긴 문구 무손실. DOM stub/마크업 검사는 실제 페이지 맞춤을 보장하지 않음.
+- 기아 원천 문구를 압축하고 일부 ‘주요 특징’의 미확인 상태 및 타스만 출품 발표의 사실 분류를 바로잡았다. 제품 ID·12제품·5항목·사진 연결 유지. 출처를 임의로 분산하지 않음.
+- 다른4회차 조사 packet 2개 JSON parse 및 Eurosatory/SAHA 기존6제품 참조 검사 통과. 앱 내용에는 아직 연결하지 않음. GDAMS는 Babcock 통신 연동 시연과 별도 ST Engineering 개막전 플랫폼 전시 발표를 구분해 기록하고 기존 이름은 변경하지 않았다.
+- 후속 공개 검사: `rg -n -i --hidden --no-ignore 'workConnection|work_connection|당사|우리\s*회사|업무\s*(연결|관련|연계)' src/v2 data/v2/app dist` 매치 0(exit 1은 무매치). 이전 7항목 감사 전체를 이번에 재실행했다고 주장하지 않는다.
+
+- 실행: dist를 tmp/redesign-path-host/exhibition-intelligence/preview에 복사 후 `node scripts/serve.mjs --root tmp/redesign-path-host --host 127.0.0.1 --port 4174`. 로컬 서버이며 공개 반영 없음. 검증 후 해당 서버 종료.
+- 실제 IAB에서 `/exhibition-intelligence/preview/#report?event=adex-2025` 로딩과 사진 3개 decode 확인. 1440×1000의 보고판 1365×767.8125로 16:9 확인. 390×844에서 문서 폭 375, 가로 넘침 없음, 세로 보고판 높이 2265.265625. 임시 viewport 해제.
+- 타스만 사진 그룹: 표시 사진 2개와 원문 링크 1개로 총 3개. 다음 사진 두 번 이동, URL product 유지, 3번 원문 기록에서 새로고침 후 선택 유지. 닫은 뒤 장비 위치 24.27px/scrollY 4194 복원.
+- KMTV 사진 그룹: 1개, 다음 버튼 비활성. 닫기와 뒤로가기에서 KMTV product 및 장비 읽기 위치 유지. 마지막 갤러리 변경의 브라우저 회귀 확인 완료.
+- 데스크톱/모바일 캡처: docs/evidence/screenshots/report-implementation-desktop.png 및 report-implementation-mobile.png. 이 캡처는 이후 보고서 출처·인쇄 글자 크기 수정 이전 모습이며 해당 수정의 검증으로 사용하지 않는다. 실제 휴대폰 검증 아님.
+- PDF: Chrome 로컬 보고 페이지는 열렸으나 Windows 창 관찰 단계에서 도구가 브라우저 URL을 판정하지 못해 UI 조작을 중단했다. 이 후속 시도에서는 인쇄 실행 전 중단. 실제 파일 없음, 페이지수/한글/잘림 검증 미완료. 도구의 중단 후 추가 UI 입력 없음.
+- 상세 구조 기록: docs/evidence/REDESIGN_BROWSER_FOLLOWUP.json. 전체 목표는 미완료이며 B-01 탐색 구현 범위만 완료.
+
 기준일: 2026-11-15 (Asia/Seoul). A단계 감사·초안 검증 진행 중. 기존 기록은 역사적 증거이며 이번 재검증과 구분한다.
 
 ## 기준·배포 대조

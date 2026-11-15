@@ -13,3 +13,6 @@ data/v2/app/
 # Python collection cache
 __pycache__/
 *.pyc
+
+# Local nested-path browser verification fixture
+tmp/redesign-path-host/

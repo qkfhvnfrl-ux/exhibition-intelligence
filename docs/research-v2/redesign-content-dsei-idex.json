@@ -1,0 +1,819 @@
+{
+  "schemaVersion": "limited-research-packet-1",
+  "researchDate": "2026-11-15",
+  "scope": "DSEI 2025·IDEX 2025 기존 기록을 보강할 공식 근거 3건의 제한 조사",
+  "status": "research_only_not_compiled_or_published",
+  "boundaries": {
+    "allowedWrite": "docs/research-v2/redesign-content-dsei-idex.json",
+    "productDataChanged": false,
+    "codeChanged": false,
+    "photosDownloaded": false,
+    "coverageClaim": "전체 행사·전체 제품 조사 완료를 뜻하지 않는다.",
+    "factsPolicy": "주장은 아래 claims에서 한 번만 요약하고 후보 설명은 claimIds로 참조한다. 빈 제원·사진·개발 일정을 채워 넣지 않는다.",
+    "photoPolicy": "기존 기록의 라이선스와 이번 웹 원문의 조건을 구분하며 새 이미지 재사용을 승인한 것으로 취급하지 않는다."
+  },
+  "inventory": {
+    "events": [
+      {
+        "eventId": "dsei-2025",
+        "eventDates": "2025.09.09–12",
+        "venue": "영국 런던 · ExCeL",
+        "companyCount": 1743,
+        "productCount": 7,
+        "editorialCount": 0,
+        "photoCount": 26,
+        "eventPhotoCount": 6,
+        "referencePhotoCount": 20,
+        "productLinkedPhotoCount": 0,
+        "narrativeCount": 0,
+        "products": [
+          {
+            "productId": "boxer-miv",
+            "name": "BOXER MIV",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 5
+          },
+          {
+            "productId": "lynx-skyranger35",
+            "name": "Lynx KF41 Skyranger 35",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 4
+          },
+          {
+            "productId": "roshel-family-dsei2025",
+            "name": "Roshel Senator · Captain 계열",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 2
+          },
+          {
+            "productId": "kia-platforms-dsei2025",
+            "name": "타스만 특수목적 쇼카 · KLTV 베어샤시",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 1
+          },
+          {
+            "productId": "patria-6x6",
+            "name": "Patria 6×6",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 5
+          },
+          {
+            "productId": "boxer-dsei2025",
+            "name": "Boxer · 30mm 포탑 전시형",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 3
+          },
+          {
+            "productId": "gdams-dsei2025",
+            "name": "GDAMS · 전술차량 연동 전시",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 2
+          }
+        ],
+        "candidatePhotos": [
+          {
+            "photoId": "photo-759379832c8e0bb07807",
+            "caption": "Babcock 부스에 전시된 GDAMS 120mm 체계",
+            "sourceURL": "https://www.flickr.com/photos/dyvroeth/54783778059/",
+            "localPath": null,
+            "delivery": "remote",
+            "context": "event",
+            "rights": {
+              "status": "provider-embed",
+              "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+              "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+              "basis": null
+            },
+            "sourceDate": "2025-09-09",
+            "productIds": []
+          },
+          {
+            "photoId": "photo-648d50af60ebb4f3032a",
+            "caption": "DSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시",
+            "sourceURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+            "localPath": "assets/photos/dsei2025-new-kia-booth.jpg",
+            "delivery": "local",
+            "context": "event",
+            "rights": {
+              "status": "reusable",
+              "license": "현대자동차그룹 뉴스룸 자유 이용 고지",
+              "licenseUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+              "basis": null
+            },
+            "sourceDate": "2025-09-09",
+            "productIds": []
+          }
+        ]
+      },
+      {
+        "eventId": "idex-2025",
+        "eventDates": "2025.02.17–21",
+        "venue": "UAE 아부다비 · ADNEC",
+        "companyCount": 36,
+        "productCount": 10,
+        "editorialCount": 0,
+        "photoCount": 18,
+        "eventPhotoCount": 14,
+        "referencePhotoCount": 4,
+        "productLinkedPhotoCount": 0,
+        "narrativeCount": 0,
+        "products": [
+          {
+            "productId": "t90ms",
+            "name": "T-90MS · IDEX 전시형",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 1
+          },
+          {
+            "productId": "hafeet-mk2",
+            "name": "HAFEET MK2",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 1
+          },
+          {
+            "productId": "themis-combat",
+            "name": "THeMIS COMBAT",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 2
+          },
+          {
+            "productId": "acv",
+            "name": "Amphibious Combat Vehicle (ACV)",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 1
+          },
+          {
+            "productId": "cobra-ii",
+            "name": "COBRA II",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 4
+          },
+          {
+            "productId": "cockerill-ix",
+            "name": "Cockerill i-X",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 1
+          },
+          {
+            "productId": "ajban-family",
+            "name": "AJBAN 계열",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 1
+          },
+          {
+            "productId": "tulpar",
+            "name": "TULPAR",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 4
+          },
+          {
+            "productId": "havoc-8x8",
+            "name": "HAVOC 8×8 RCV",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 1
+          },
+          {
+            "productId": "arma-ii",
+            "name": "ARMA II 8×8",
+            "exhibitStatus": "unconfirmed",
+            "form": null,
+            "sourceCount": 2
+          }
+        ],
+        "candidatePhotos": [
+          {
+            "photoId": "photo-0807aea6727cdd66f83c",
+            "caption": "HAVOC 8×8 RCV · 현장사진 3",
+            "sourceURL": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%283%29.jpg",
+            "localPath": "assets/photos/idex2025-new-havoc-03.webp",
+            "delivery": "local",
+            "context": "event",
+            "rights": {
+              "status": "reusable",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "basis": null
+            },
+            "sourceDate": "2025-02-20",
+            "productIds": []
+          },
+          {
+            "photoId": "photo-985b49c2b185568fba9d",
+            "caption": "HAVOC 8×8 RCV · 현장사진 2",
+            "sourceURL": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV_%282%29.jpg",
+            "localPath": "assets/photos/idex2025-new-havoc-02.webp",
+            "delivery": "local",
+            "context": "event",
+            "rights": {
+              "status": "reusable",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "basis": null
+            },
+            "sourceDate": "2025-02-20",
+            "productIds": []
+          },
+          {
+            "photoId": "photo-d230f00bf90029fc0a2e",
+            "caption": "HAVOC 8×8 RCV · 현장사진 1",
+            "sourceURL": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV.jpg",
+            "localPath": "assets/photos/idex2025-new-havoc-01.webp",
+            "delivery": "local",
+            "context": "event",
+            "rights": {
+              "status": "reusable",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "basis": null
+            },
+            "sourceDate": "2025-02-20",
+            "productIds": []
+          },
+          {
+            "photoId": "photo-954ad88a75d6531185e2",
+            "caption": "AJBAN 452A · IDEX 2025 전시",
+            "sourceURL": "https://commons.wikimedia.org/wiki/File:Ajban_452A.jpg",
+            "localPath": "assets/photos/idex2025-new-ajban-452a.webp",
+            "delivery": "local",
+            "context": "event",
+            "rights": {
+              "status": "reusable",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "basis": null
+            },
+            "sourceDate": "2025-02-20",
+            "productIds": []
+          },
+          {
+            "photoId": "photo-37412350e639440f3d71",
+            "caption": "AJBAN 441AE · IDEX 2025 전시",
+            "sourceURL": "https://commons.wikimedia.org/wiki/File:Ajban_441_AE.jpg",
+            "localPath": "assets/photos/idex2025-new-ajban-441ae.webp",
+            "delivery": "local",
+            "context": "event",
+            "rights": {
+              "status": "reusable",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "basis": null
+            },
+            "sourceDate": "2025-02-20",
+            "productIds": []
+          },
+          {
+            "photoId": "photo-12e23567663eba491f36",
+            "caption": "AJBAN 442A · IDEX 2025 전시",
+            "sourceURL": "https://commons.wikimedia.org/wiki/File:Ajban_442A.jpg",
+            "localPath": "assets/photos/idex2025-new-ajban-442a.webp",
+            "delivery": "local",
+            "context": "event",
+            "rights": {
+              "status": "reusable",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "basis": null
+            },
+            "sourceDate": "2025-02-20",
+            "productIds": []
+          }
+        ]
+      }
+    ],
+    "editorialFiles": [
+      "adex-2025.json",
+      "event-reports.json",
+      "product-narratives.json"
+    ],
+    "checkedFiles": [
+      "data/v2/app/events/dsei-2025.json",
+      "data/v2/app/events/idex-2025.json",
+      "data/v2/editorial"
+    ],
+    "finding": "17개 제품 모두 현재 공개 데이터에서 unconfirmed이며 장비 서술이 없다. 두 회차 사진 모두 productIds가 비어 있어, 장비별 표시에는 검증된 소유 관계 연결이 필요하다. 이것은 기존 현장사진 자체가 없다는 뜻은 아니다."
+  },
+  "sources": [
+    {
+      "sourceId": "dsei25-kia-official-followup",
+      "existingSourceId": "source-2153e05f67a8183a8c27",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+      "title": "기아, '영국 DSEI 2025' 방산전시회 첫 참가",
+      "publisher": "기아 / 현대자동차그룹",
+      "publishedAt": "2025-09-09",
+      "eventId": "dsei-2025",
+      "type": "manufacturer_event_release",
+      "eventOrGeneral": "event",
+      "independence": "single_manufacturer_origin",
+      "confidence": "high_for_announced_exhibit_description",
+      "limitations": [
+        "당일 제조사 전시 발표다. 독립 현장 확인으로 세지 않는다.",
+        "이 기사에서 KLTV 계열의 일반 성능과 베어샤시 전시품의 형상을 구분한다.",
+        "쇼카는 ADEX 2025 군용 지휘차 실물과 같은 전시품으로 확정하지 않는다."
+      ],
+      "rights": {
+        "status": "publisher_newsroom_reuse_statement_with_exception",
+        "basis": "기사 하단에서 기사·이미지 이용 안내와 외부 제공물의 제한 예외를 확인했다.",
+        "license": "별도 Creative Commons 표시 없음",
+        "requires": "개별 이미지 크레딧·제3자 제한과 기존 저장 파일의 원본 대응 확인"
+      },
+      "retrievedAt": "2026-11-15",
+      "verification": "official_full_page_opened_and_read",
+      "summaryBudgetWords": 200
+    },
+    {
+      "sourceId": "dsei25-babcock-gdams-official-followup",
+      "existingSourceId": "source-893b38bfd733982012dd",
+      "exactURL": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+      "title": "Babcock is first to integrate mortar with UK Army’s communications system",
+      "publisher": "Babcock International",
+      "publishedAt": "2025-09-10",
+      "eventId": "dsei-2025",
+      "type": "manufacturer_event_demonstration_release",
+      "eventOrGeneral": "event_and_announced_development",
+      "independence": "single_manufacturer_origin",
+      "confidence": "high_for_manufacturer_demonstration_statement",
+      "limitations": [
+        "게시일은 9월 10일이나 본문은 'today (Tuesday)'라고 적혀 있어 정확한 시연일은 확정하지 않는다.",
+        "제조사 통합·시연 발표이지 군 채택·납품·실전 운용 완료 증거가 아니다.",
+        "전술차량에 탑재된 형상 또는 차량 통합 완료를 이 기사만으로 확정할 수 없다."
+      ],
+      "rights": {
+        "status": "permission_not_verified_link_only",
+        "basis": "페이지에 Babcock 저작권 표기가 있다. 재사용 허가를 확인하지 못했다.",
+        "license": null,
+        "requires": "사진의 별도 사용 조건과 촬영 설명 확인"
+      },
+      "retrievedAt": "2026-11-15",
+      "verification": "official_full_page_opened_and_read",
+      "summaryBudgetWords": 200
+    },
+    {
+      "sourceId": "idex25-edge-platforms-official-followup",
+      "existingSourceId": "source-bcac40e6a1d12cc8b578",
+      "exactURL": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "title": "EDGE Launches New Armoured and Robotic Combat Vehicle at IDEX 2025",
+      "publisher": "EDGE Group",
+      "publishedAt": "2025-02-19",
+      "eventId": "idex-2025",
+      "type": "manufacturer_event_launch_release",
+      "eventOrGeneral": "event",
+      "independence": "single_manufacturer_group_origin",
+      "confidence": "high_for_announced_launch_and_variant_names",
+      "limitations": [
+        "NIMR·Milrem·EDGE는 이 자료에서 같은 그룹 발행 근거다. 독립 3건으로 세지 않는다.",
+        "공개·출시 표현만으로 양산·실전 배치·제조사 성능 주장 실증을 확정하지 않는다.",
+        "AJBAN 432AU와 기존 사진 원장의 442A를 같은 형상으로 바꾸지 않는다."
+      ],
+      "rights": {
+        "status": "all_rights_reserved_link_only",
+        "basis": "기사 하단의 EDGE Group 저작권 및 All rights reserved 표기를 확인했다. 개별 이미지 재사용 허가 미확인.",
+        "license": null,
+        "requires": "공식 이미지 사용 허가 또는 독립 현장사진의 개별 라이선스 확인"
+      },
+      "retrievedAt": "2026-11-15",
+      "verification": "official_full_page_opened_and_read",
+      "summaryBudgetWords": 200
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "DI01",
+      "sourceId": "dsei25-kia-official-followup",
+      "text": "DSEI UK 2025는 런던 ExCeL에서 2025년 9월 9~12일 개최됐다.",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+      "date": "2025-09-09",
+      "type": "manufacturer_event_release",
+      "eventId": "dsei-2025",
+      "eventOrGeneral": "event",
+      "claimType": "event_date",
+      "confidence": "high"
+    },
+    {
+      "claimId": "DI02",
+      "sourceId": "dsei25-kia-official-followup",
+      "text": "기아는 타스만 특수목적 쇼카와 KLTV 베어샤시를 전시한다고 발표했다.",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+      "date": "2025-09-09",
+      "type": "manufacturer_event_release",
+      "eventId": "dsei-2025",
+      "eventOrGeneral": "event",
+      "claimType": "manufacturer_exhibit_statement",
+      "confidence": "high"
+    },
+    {
+      "claimId": "DI03",
+      "sourceId": "dsei25-kia-official-followup",
+      "text": "쇼카의 공개 구성은 불바·스노클·택티컬 랙이다.",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+      "date": "2025-09-09",
+      "type": "manufacturer_event_release",
+      "eventId": "dsei-2025",
+      "eventOrGeneral": "event",
+      "claimType": "manufacturer_exhibit_configuration",
+      "confidence": "high"
+    },
+    {
+      "claimId": "DI04",
+      "sourceId": "dsei25-kia-official-followup",
+      "text": "KLTV 기반 4인승 지휘차·통신장비 탑재차는 축소 모형으로 소개됐다.",
+      "exactURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+      "date": "2025-09-09",
+      "type": "manufacturer_event_release",
+      "eventId": "dsei-2025",
+      "eventOrGeneral": "event",
+      "claimType": "manufacturer_scale_model_statement",
+      "confidence": "high"
+    },
+    {
+      "claimId": "DI05",
+      "sourceId": "dsei25-babcock-gdams-official-followup",
+      "text": "Babcock은 BABEL을 통한 120mm GDAMS와 영국군 BCIP 전술통신체계의 연동을 DSEI에서 시연했다고 발표했다.",
+      "exactURL": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+      "date": "2025-09-10",
+      "type": "manufacturer_event_demonstration_release",
+      "eventId": "dsei-2025",
+      "eventOrGeneral": "event",
+      "claimType": "manufacturer_demonstration_statement",
+      "confidence": "high_for_announcement"
+    },
+    {
+      "claimId": "DI06",
+      "sourceId": "dsei25-babcock-gdams-official-followup",
+      "text": "개발 참여사는 Babcock, GDMS–UK, ShieldOps로 명시됐다.",
+      "exactURL": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+      "date": "2025-09-10",
+      "type": "manufacturer_event_demonstration_release",
+      "eventId": "dsei-2025",
+      "eventOrGeneral": "event_and_development",
+      "claimType": "manufacturer_collaboration_statement",
+      "confidence": "high"
+    },
+    {
+      "claimId": "DI07",
+      "sourceId": "dsei25-babcock-gdams-official-followup",
+      "text": "GDAMS의 Devonport 생산은 향후 계획으로 서술됐다.",
+      "exactURL": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+      "date": "2025-09-10",
+      "type": "manufacturer_event_demonstration_release",
+      "eventId": "dsei-2025",
+      "eventOrGeneral": "general_development_as_of_publication",
+      "claimType": "official_future_plan",
+      "confidence": "high_for_announcement"
+    },
+    {
+      "claimId": "DI08",
+      "sourceId": "idex25-edge-platforms-official-followup",
+      "text": "IDEX 2025의 개최 기간은 2025년 2월 17~21일, 장소는 아부다비 ADNEC다.",
+      "exactURL": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "date": "2025-02-19",
+      "type": "manufacturer_event_launch_release",
+      "eventId": "idex-2025",
+      "eventOrGeneral": "event",
+      "claimType": "event_date",
+      "confidence": "high"
+    },
+    {
+      "claimId": "DI09",
+      "sourceId": "idex25-edge-platforms-official-followup",
+      "text": "EDGE는 행사 중 HAVOC 8×8 RCV와 AJBAN MK2 파생형 452A·432AU·441AE를 공개했다고 발표했다.",
+      "exactURL": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "date": "2025-02-19",
+      "type": "manufacturer_event_launch_release",
+      "eventId": "idex-2025",
+      "eventOrGeneral": "event",
+      "claimType": "manufacturer_event_launch",
+      "confidence": "high"
+    },
+    {
+      "claimId": "DI10",
+      "sourceId": "idex25-edge-platforms-official-followup",
+      "text": "HAVOC은 하이브리드 전기 구동 무인지상차량으로 설명됐다.",
+      "exactURL": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "date": "2025-02-19",
+      "type": "manufacturer_event_launch_release",
+      "eventId": "idex-2025",
+      "eventOrGeneral": "general_product_in_event_release",
+      "claimType": "manufacturer_product_description",
+      "confidence": "high_for_manufacturer_description"
+    },
+    {
+      "claimId": "DI11",
+      "sourceId": "idex25-edge-platforms-official-followup",
+      "text": "AJBAN의 발표 탑승 인원은 452A 최대 11명, 432AU 3명, 441AE 5명이다.",
+      "exactURL": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "date": "2025-02-19",
+      "type": "manufacturer_event_launch_release",
+      "eventId": "idex-2025",
+      "eventOrGeneral": "general_product_in_event_release",
+      "claimType": "manufacturer_variant_spec",
+      "confidence": "high_for_manufacturer_description"
+    },
+    {
+      "claimId": "DI12",
+      "sourceId": "idex25-edge-platforms-official-followup",
+      "text": "AJBAN 계열의 공통 플랫폼·부체계와 임무별 파생이 강조됐다.",
+      "exactURL": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "date": "2025-02-19",
+      "type": "manufacturer_event_launch_release",
+      "eventId": "idex-2025",
+      "eventOrGeneral": "event_and_product_family",
+      "claimType": "official_product_family_direction",
+      "confidence": "high_for_announcement"
+    }
+  ],
+  "candidates": [
+    {
+      "priority": 1,
+      "eventId": "dsei-2025",
+      "existingProductIds": [
+        "kia-platforms-dsei2025"
+      ],
+      "workingTitle": "타스만 특수목적 쇼카·KLTV 베어샤시",
+      "supportedNextStep": "같은 기록 안에서 쇼카·베어샤시·축소 모형의 전시 단위를 구분하고 5항목 설명을 보강한다.",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비명·세부 형상·용도",
+          "claimIds": [
+            "DI02",
+            "DI04"
+          ],
+          "editorialNote": "세부 형태가 서로 다르므로 하나의 실차로 합치지 않는다.",
+          "mode": "evidence_boundary"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징·필요 제원",
+          "claimIds": [
+            "DI03"
+          ],
+          "editorialNote": "스노클 장착만으로 특정 도하 수심을 이 쇼카의 검증 제원으로 쓰지 않는다.",
+          "mode": "evidence_boundary"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시의 구성·차별점",
+          "claimIds": [
+            "DI02",
+            "DI04"
+          ],
+          "editorialNote": "완성 쇼카·노출 기반·축소 모형을 함께 제시한 구성을 구분해 읽을 수 있다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "claimIds": [],
+          "editorialNote": "형상별 군 채택·양산·납품 일정은 이번 확인 자료로 확정하지 않는다.",
+          "mode": "evidence_boundary"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "claimIds": [
+            "DI02",
+            "DI04"
+          ],
+          "editorialNote": "용도별 차체와 임무 장비를 적용하는 선택 폭을 보여주는 전시로 해석할 수 있다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "photoCandidates": [
+        "photo-648d50af60ebb4f3032a"
+      ],
+      "missing": [
+        "해당 사진의 장비별 식별과 원본 대응 재확인.",
+        "축소 모형 각각의 사진·명판.",
+        "ADEX 2025 타스만 군용 지휘차와의 형상 차이 직접 대조."
+      ]
+    },
+    {
+      "priority": 2,
+      "eventId": "dsei-2025",
+      "existingProductIds": [
+        "gdams-dsei2025"
+      ],
+      "workingTitle": "GDAMS·BABEL 통신체계 연동 시연",
+      "supportedNextStep": "현재 이름의 '전술차량 연동'을 근거와 대조하고, 확인된 통신 연동과 미확인 차량 탑재를 분리한다.",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비명·세부 형상·용도",
+          "claimIds": [
+            "DI05"
+          ],
+          "editorialNote": "물리적 전시품과 통신 연동 시연을 별개의 확인 항목으로 다룬다.",
+          "mode": "evidence_boundary"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징·필요 제원",
+          "claimIds": [
+            "DI05"
+          ],
+          "editorialNote": "성능 우열·정량 지연시간·차량 인터페이스 제원은 미확인이다.",
+          "mode": "evidence_boundary"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시의 구성·차별점",
+          "claimIds": [
+            "DI05",
+            "DI06"
+          ],
+          "editorialNote": "임무장비와 기존 통신 기반의 연결을 제시한 점에 초점을 둘 수 있다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "claimIds": [
+            "DI07"
+          ],
+          "editorialNote": "생산 계획과 실제 양산·군 채택을 분리해 표시한다.",
+          "mode": "official_plan_boundary"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "claimIds": [
+            "DI05"
+          ],
+          "editorialNote": "기존 운용 기반과의 호환성을 설명하는 전시로 읽을 수 있다. 차량 탑재 완료나 군 운용 효과를 결론 내리지 않는다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "photoCandidates": [
+        "photo-759379832c8e0bb07807"
+      ],
+      "missing": [
+        "DSEI 실제 시연일 확인: 게시일과 본문 요일 불일치.",
+        "Flickr 현장사진의 장비·명판 재확인 및 외부 임베드 조건 재검토.",
+        "제조사 외 독립 시연 관찰, 군의 채택·납품 발표."
+      ]
+    },
+    {
+      "priority": 3,
+      "eventId": "idex-2025",
+      "existingProductIds": [
+        "havoc-8x8",
+        "ajban-family"
+      ],
+      "workingTitle": "HAVOC 8×8 RCV와 AJBAN MK2 파생형",
+      "supportedNextStep": "기존 현장사진과 제조사 형상명을 대조해 제품별 사진 연결과 5항목 설명을 준비한다.",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비명·세부 형상·용도",
+          "claimIds": [
+            "DI09"
+          ],
+          "editorialNote": "HAVOC과 AJBAN 계열을 별도 장비 설명 단위로 유지한다.",
+          "mode": "evidence_boundary"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징·필요 제원",
+          "claimIds": [
+            "DI10",
+            "DI11"
+          ],
+          "editorialNote": "계열 사양을 다른 형상에 전파하지 않는다. 보호 등급과 실증 성능은 미확인이다.",
+          "mode": "evidence_boundary"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시의 구성·차별점",
+          "claimIds": [
+            "DI09"
+          ],
+          "editorialNote": "같은 그룹의 공개 차량군을 유인 파생차와 무인 플랫폼으로 나누어 읽을 수 있다.",
+          "mode": "analyst_interpretation"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "claimIds": [
+            "DI12"
+          ],
+          "editorialNote": "공통 기반 전개라는 공식 설명 범위에서만 정리한다. 양산·배치 일정은 확인하지 못했다.",
+          "mode": "evidence_boundary"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "claimIds": [
+            "DI09",
+            "DI12"
+          ],
+          "editorialNote": "운용 임무와 승무 인원에 따른 선택 폭을 넓히는 구성이 드러난다. 전체 IDEX의 추세로 일반화하지 않는다.",
+          "mode": "analyst_interpretation"
+        }
+      ],
+      "photoCandidates": [
+        "photo-0807aea6727cdd66f83c",
+        "photo-985b49c2b185568fba9d",
+        "photo-d230f00bf90029fc0a2e",
+        "photo-954ad88a75d6531185e2",
+        "photo-37412350e639440f3d71"
+      ],
+      "excludeFromVariantMatch": [
+        "photo-12e23567663eba491f36: 442A 표기는 원문 신규 432AU와 다름"
+      ],
+      "missing": [
+        "기존 Commons 사진의 실제 명판·원본 설명과 개별 라이선스 재확인.",
+        "같은 방향 연속 HAVOC 사진 3장을 서로 다른 형상으로 집계하지 않기.",
+        "HAVOC 자율 기능·차량 성능·전력화 상태의 별도 공식 근거."
+      ]
+    }
+  ],
+  "officialImageLinks": [
+    {
+      "sourceId": "dsei25-kia-official-followup",
+      "pageURL": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+      "imageURL": "https://www.hyundaimotorgroup.com/image/upload/asset_library/MDA00000000000068655/9ac92e316bf7441bb69ff84f57c0f9e6.jpg",
+      "imageRole": "기사 대표 이미지",
+      "eventContext": "DSEI 2025 기사에 연결; 기존 캡션은 해당 회차 부스 전경으로 기록",
+      "freshVisualVerification": false,
+      "fetchOutcome": "웹 도구가 Internal Error를 반환. 파일 다운로드하지 않음.",
+      "rightsStatus": "publisher_newsroom_reuse_statement_with_exception",
+      "photoCredit": "기아 / 현대자동차그룹; 개별 이미지의 별도 권리 표기 미확인"
+    },
+    {
+      "sourceId": "dsei25-babcock-gdams-official-followup",
+      "pageURL": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+      "imageURL": "https://www.babcockinternational.com/wp-content/uploads/2025/09/GDAMS-Social-02-lores-1024x683.jpg",
+      "imageRole": "기사 대표 이미지",
+      "eventContext": "DSEI 시연 기사 이미지; 실제 현장사진인지 홍보 도해인지는 미확인",
+      "freshVisualVerification": false,
+      "fetchOutcome": "웹 도구가 Cache miss를 반환. 파일 다운로드하지 않음.",
+      "rightsStatus": "permission_not_verified_link_only",
+      "photoCredit": "별도 촬영자·라이선스 미확인"
+    },
+    {
+      "sourceId": "idex25-edge-platforms-official-followup",
+      "pageURL": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "imageURL": "https://mediacenter-webfiles.edgegroup.ae/s3fs-public/2025-02/havoc-rcv.webp",
+      "imageRole": "본문 Havoc RCV 이미지 링크",
+      "eventContext": "IDEX 공개 기사에 연결; 현장 촬영/제품 사진/CG 구분 미확인",
+      "freshVisualVerification": false,
+      "fetchOutcome": "직접 이미지 주소 확인. 이 조사에서 픽셀 내용 확인·다운로드하지 않음.",
+      "rightsStatus": "all_rights_reserved_link_only",
+      "photoCredit": "별도 촬영자·라이선스 미확인"
+    }
+  ],
+  "dateAndIdentityWarnings": [
+    "DSEI 2025는 9월 9~12일 런던 행사다. ADEX 2025의 10월 발표·사진으로 이 회차 실출품을 대체하지 않는다.",
+    "IDEX 2025는 2월 17~21일 아부다비 행사다. IDEF·SAHA·DSEI의 다른 연도 사진은 비교 참고로 남긴다.",
+    "Babcock 게시일 2025-09-10과 본문의 'Tuesday'가 맞지 않아 정확한 시연 날짜를 임의 보정하지 않는다.",
+    "AJBAN 432AU와 442A를 자동 통합하지 않는다. 같은 업체·계열이어도 형상명 일치가 필요하다."
+  ],
+  "parentFollowupMemo": {
+    "reportedBy": "상위 작업 에이전트 / 공식 원문 재열람 결과 전달",
+    "reportedAt": "2026-11-15",
+    "publisher": "ST Engineering",
+    "publishedAt": "2025-09-08",
+    "exactURL": "https://www.stengg.com/en/newsroom/news-releases/st-engineering-showcases-defence-innovations-and-expands-global-partnerships-at-dsei-2025/",
+    "scope": "DSEI 2025 개막 전 출품 발표",
+    "note": "별도 기존 공식 출처는 GDAMS를 세 파트너 플랫폼에 전시한다고 발표한다. Babcock 기사만으로 차량 탑재 완료를 확정할 수 없다는 제한은 유지하되, 그 기사 하나만으로 현재 제품명의 오류를 단정하지 않는다.",
+    "dataAction": "앱의 기존 명칭은 변경하지 않음. 다음 보강 묶음에서 별도 발표와 실제 현장 형상을 대조.",
+    "verificationBoundary": "이 하위 조사에서 추가로 웹 원문을 열지는 않았으며, 위 내용은 상위 작업의 재확인 메모다. 직접 확인한 3개 출처 집계에 추가하지 않는다."
+  },
+  "nextDecision": "3건의 원문을 후속 편집 근거로 채택할 수 있다. 실제 제품 설명·상태 승격·사진 productIds 연결은 사진 식별·조건 검토 후 별도 구현 범위다.",
+  "verification": {
+    "status": "passed_local_research_integrity_check",
+    "officialSourcePagesRead": 3,
+    "newDownloads": 0,
+    "productCodeTests": "해당 없음: 조사 packet만 생성",
+    "checks": [
+      {
+        "command": "Node JSON.parse and source/claim reference + five-section integrity assertions",
+        "result": "PASS: 3 official sources, 12 claims, 3 candidates; all source/claim references resolve"
+      },
+      {
+        "command": "Whitespace word count of unique claim summaries by official source",
+        "result": "Kia 30; Babcock 24; EDGE 46. No long quotation or full-page copy stored. Candidate sections reference the fact bank."
+      },
+      {
+        "command": "Official web pages opened directly",
+        "result": "PASS: all 3 article bodies and publication dates read; photo fetch/rights limitations recorded separately; downloads 0"
+      }
+    ]
+  }
+}

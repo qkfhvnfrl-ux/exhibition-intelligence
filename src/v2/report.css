@@ -1,32 +1,35 @@
 .event-report-page{max-width:1600px;margin:0 auto;padding:24px 30px 64px}.report-toolbar{display:flex;justify-content:space-between;gap:16px;margin-bottom:18px}.report-toolbar>div{display:flex;gap:8px}.report-toolbar button{padding:10px 14px}.event-report-sheet{background:#fff;color:#172b31;border:1px solid #d4dddb;aspect-ratio:16/9;padding:28px 34px;display:grid;grid-template-rows:auto 1fr auto auto;gap:18px}.report-eyebrow{margin:0 0 8px;font-size:13px;letter-spacing:.08em;font-weight:600;color:#32625b}.report-sheet-heading h1{font-size:clamp(24px,2.5vw,37px);font-weight:600;line-height:1.35;letter-spacing:-.04em;margin:0 0 9px}.report-scope{font-size:14px;margin:0;color:#5c6c70}.report-theme-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}.report-theme{min-width:0;display:flex;flex-direction:column}.report-theme-heading{display:flex;align-items:baseline;gap:10px;margin-bottom:9px}.report-theme-heading span{color:#68817b;font-size:13px}.report-theme h2{font-size:clamp(17px,1.5vw,22px);margin:0;letter-spacing:-.03em}.report-theme figure{margin:0}.report-theme img{width:100%;height:clamp(145px,15vw,224px);object-fit:contain;display:block;background:#edf0ed}.report-theme figcaption{font-size:11px;line-height:1.45;color:#657273;margin-top:6px}.report-theme figcaption small{display:block;font-size:10px}.report-theme-summary{font-size:clamp(14px,1.25vw,18px);line-height:1.65;margin:10px 0}.report-case-link{border:0;border-bottom:1px solid #afc4bd;border-radius:0;background:transparent;align-self:flex-start;font-size:14px;font-weight:600;color:#215c50;padding:4px 0;margin-top:auto}.report-case-link span{margin-left:8px}.report-comparison{padding-top:14px;border-top:1px solid #bfcfca}.report-comparison h2{font-size:16px;margin:0 0 10px}.report-change-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}.report-change-grid p{display:flex;gap:8px;margin:4px 0;font-size:14px;line-height:1.5}.report-change-grid p span{font-size:11px;color:#567269;padding-top:2px;flex:0 0 24px}.report-change-grid p:last-child{font-weight:600}.report-comparison-note{font-size:11px;color:#687674;margin:9px 0 0}.report-sheet-footer{border-top:1px solid #d4dddb;padding-top:12px}.report-interpretation{font-size:14px;line-height:1.55;margin:0 0 6px}.report-limits{font-size:10px;line-height:1.5;color:#6c7978;margin:0}.report-photo-missing{height:clamp(145px,15vw,224px);background:#edf0ed;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px;color:#61716e}.report-photo-missing small{margin-top:8px}.report-sources{margin-top:20px;padding:16px 0;border-bottom:1px solid #d4dddb}.report-sources summary{cursor:pointer;font-size:15px}.report-sources li{margin-bottom:12px;max-width:900px;font-size:14px}.report-sources small{display:block;color:#697572}.report-sources li p{font-size:13px;margin:4px 0}.report-more{margin-top:32px}.report-more h2{font-size:21px;margin-bottom:6px}.report-more p{font-size:14px;color:#657273}.report-more>div{display:flex;flex-wrap:wrap;gap:8px}.report-more button{padding:8px 12px}.event-report-sheet:fullscreen{height:100vh;width:100vw;border:0;aspect-ratio:auto;padding:3vh 4vw;overflow:auto}.event-report-print-root{display:none}.report-case-name{font-size:12px;color:#215c50;margin:0}
 @media(max-width:1000px){.event-report-page{padding:18px}.event-report-sheet{padding:24px;aspect-ratio:auto;gap:20px}.report-theme-grid,.report-change-grid{gap:18px}.report-theme-summary{font-size:16px}.report-interpretation{font-size:15px}}
 @media(max-width:700px){.event-report-page{padding:12px 14px 40px}.report-toolbar{align-items:flex-start}.report-toolbar>div{flex-direction:column}.report-toolbar button{padding:9px;font-size:13px}.event-report-sheet{padding:22px 18px;display:block}.report-sheet-heading h1{font-size:27px}.report-scope{font-size:13px}.report-theme-grid{display:block;margin-top:24px}.report-theme{margin-bottom:28px}.report-theme h2{font-size:22px}.report-theme img{height:auto;max-height:390px;aspect-ratio:3/2}.report-theme-summary{font-size:18px;line-height:1.7}.report-theme figcaption{font-size:12px}.report-case-link{font-size:16px}.report-comparison{margin-top:26px}.report-change-grid{grid-template-columns:1fr;gap:13px}.report-change-grid>div{border-bottom:1px solid #e1e7e4;padding-bottom:10px}.report-change-grid p{font-size:16px}.report-comparison h2{font-size:19px}.report-comparison-note{font-size:12px}.report-sheet-footer{margin-top:20px}.report-interpretation{font-size:16px;line-height:1.7}.report-limits{font-size:12px;line-height:1.7}.report-photo-missing{height:220px}}
+.report-photo-links{display:block;margin-top:3px;font-size:11px;line-height:1.4}.report-photo-links a,.report-print-sources a{color:#215c50;text-decoration:underline;text-underline-offset:2px}.report-print-sources{margin:6px 0 0;line-height:1.35}.report-print-sources>span{font-weight:600;margin-right:6px}.report-print-sources a{white-space:nowrap}
 @media print{
  @page event-summary{size:320mm 180mm;margin:0}
  body.printing-event-report{margin:0!important;padding:0!important;background:#fff!important}
  body.printing-event-report>*{display:none!important}
  body.printing-event-report>.event-report-print-root{display:block!important;page:event-summary}
- .event-report-print-root .event-report-sheet{width:320mm;height:180mm;min-height:0;aspect-ratio:auto;border:0;padding:8mm 10mm;gap:4mm;box-sizing:border-box;break-inside:avoid;grid-template-rows:auto 1fr auto auto;display:grid;print-color-adjust:exact;-webkit-print-color-adjust:exact}
- .event-report-print-root .report-eyebrow{font-size:9pt;margin-bottom:2mm}
- .event-report-print-root .report-sheet-heading h1{font-size:22pt;line-height:1.25;margin-bottom:2mm}
- .event-report-print-root .report-scope{font-size:9pt}
+ .event-report-print-root .event-report-sheet{width:320mm;height:180mm;min-height:0;aspect-ratio:auto;border:0;padding:6mm 9mm;gap:3mm;box-sizing:border-box;break-inside:avoid;grid-template-rows:auto 1fr auto auto;display:grid;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ .event-report-print-root .report-eyebrow{font-size:9pt;line-height:1.25;margin-bottom:1.3mm}
+ .event-report-print-root .report-sheet-heading h1{font-size:20pt;line-height:1.18;margin-bottom:1.5mm}
+ .event-report-print-root .report-scope{font-size:9pt;line-height:1.3}
  .event-report-print-root .report-theme-grid,.event-report-print-root .report-change-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7mm;margin:0}
- .event-report-print-root .report-theme{margin:0}.event-report-print-root .report-theme-heading{margin-bottom:2mm}
- .event-report-print-root .report-theme h2{font-size:14pt}.event-report-print-root .report-theme-heading span{font-size:8pt}
- .event-report-print-root .report-theme img{height:40mm;width:100%;object-fit:contain;aspect-ratio:auto;max-height:none}
- .event-report-print-root .report-theme figcaption{font-size:6.7pt;line-height:1.35;margin-top:1mm}.event-report-print-root .report-theme figcaption small{font-size:6pt}
- .event-report-print-root .report-theme-summary{font-size:10pt;line-height:1.5;margin:2mm 0}
- .event-report-print-root .report-comparison{padding-top:3mm;margin:0}.event-report-print-root .report-comparison h2{font-size:10pt;margin:0 0 1.5mm}
- .event-report-print-root .report-change-grid>div{border:0;padding:0}.event-report-print-root .report-change-grid p{font-size:9pt;margin:1mm 0}.event-report-print-root .report-change-grid p span{font-size:7pt;flex-basis:7mm;padding:0}
- .event-report-print-root .report-comparison-note{font-size:6.7pt;margin-top:2mm}
- .event-report-print-root .report-sheet-footer{padding-top:2mm;margin:0}.event-report-print-root .report-interpretation{font-size:9pt;line-height:1.4;margin-bottom:1.5mm}.event-report-print-root .report-limits{font-size:6.5pt;line-height:1.4}
- .event-report-print-root .report-photo-missing{height:40mm}.event-report-print-root .report-case-name{font-size:8pt}
+ .event-report-print-root .report-theme{margin:0}.event-report-print-root .report-theme-heading{margin-bottom:1.5mm}
+ .event-report-print-root .report-theme h2{font-size:14pt;line-height:1.25}.event-report-print-root .report-theme-heading span{font-size:8pt}
+ .event-report-print-root .report-theme img{height:32mm;width:100%;object-fit:contain;aspect-ratio:auto;max-height:none}
+ .event-report-print-root .report-theme figcaption{font-size:8pt;line-height:1.25;margin-top:1mm}.event-report-print-root .report-theme figcaption small{font-size:8pt}
+ .event-report-print-root .report-photo-links{font-size:8pt;line-height:1.25;margin-top:.5mm}
+ .event-report-print-root .report-theme-summary{font-size:10pt;line-height:1.4;margin:1.5mm 0}
+ .event-report-print-root .report-comparison{padding-top:2mm;margin:0}.event-report-print-root .report-comparison h2{font-size:10pt;line-height:1.3;margin:0 0 1mm}
+ .event-report-print-root .report-change-grid>div{border:0;padding:0}.event-report-print-root .report-change-grid p{font-size:9pt;line-height:1.35;margin:1mm 0}.event-report-print-root .report-change-grid p span{font-size:8pt;flex-basis:7mm;padding:0}
+ .event-report-print-root .report-comparison-note{font-size:8pt;line-height:1.3;margin-top:1mm}
+ .event-report-print-root .report-sheet-footer{padding-top:1.5mm;margin:0}.event-report-print-root .report-interpretation{font-size:9pt;line-height:1.35;margin-bottom:1.2mm}.event-report-print-root .report-limits{font-size:8pt;line-height:1.3}
+ .event-report-print-root .report-print-sources{font-size:8pt;line-height:1.3;margin:1.5mm 0 0}
+ .event-report-print-root .report-photo-missing{height:32mm}.event-report-print-root .report-case-name{font-size:8pt;line-height:1.3}
 }
 @media screen and (min-width:1101px){
- .event-report-sheet{gap:14px}
+ .event-report-sheet{gap:12px}
  .report-eyebrow{font-size:12px;line-height:1.4;margin-bottom:6px}
  .report-sheet-heading h1{font-size:clamp(24px,2.35vw,34px);line-height:1.25;margin-bottom:8px}
  .report-scope{font-size:13px;line-height:1.5}
- .report-theme img,.report-photo-missing{height:clamp(145px,12.5vw,190px)}
+ .report-theme img,.report-photo-missing{height:clamp(145px,12.5vw,180px)}
  .report-comparison{padding-top:12px}.report-comparison h2{margin-bottom:8px}
 }

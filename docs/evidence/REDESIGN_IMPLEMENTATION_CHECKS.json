@@ -11,15 +11,17 @@
     },
     {
       "command": "npm run build",
-      "exitCode": 0
+      "exitCode": 0,
+      "log": ".local-followup-build.log"
     },
     {
       "command": "npm run check",
       "exitCode": 0,
-      "tests": 180,
-      "passed": 180,
+      "tests": 184,
+      "passed": 184,
       "failed": 0,
-      "skipped": 0
+      "skipped": 0,
+      "log": ".local-followup-check.log"
     },
     {
       "command": "git diff --check",
@@ -43,10 +45,12 @@
     "productDeepLinkReload": true,
     "mobileHorizontalOverflow": false,
     "actualPhone": false,
-    "lastViewerRevisionVerified": false,
-    "nestedPreviewPathVerified": false,
+    "lastViewerRevisionVerified": true,
+    "nestedPreviewPathVerified": true,
     "savedPdfVerified": false,
-    "stopReason": "Computer Use stopped: unable to determine current Windows browser URL with sufficient confidence."
+    "stopReason": "Computer Use stopped: unable to determine current Windows browser URL with sufficient confidence.",
+    "lastReportCitationRevisionVerified": false,
+    "followupEvidence": "docs/evidence/REDESIGN_BROWSER_FOLLOWUP.json"
   },
   "publication": {
     "target": "preview_only",

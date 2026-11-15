@@ -27,15 +27,15 @@
     "public_cleanup": "implemented_current_sources_and_generators_final_audit_recorded_separately",
     "deployment_authorized": false,
     "pushed_this_work": false,
-    "final_status_note": "Final build and check: 180/180 passed, no skips. Saved PDF, last gallery browser regression and nested preview path browser verification incomplete after Computer Use stopped on Windows URL determination.",
+    "final_status_note": "Follow-up build/check: 184/184 passed. Last gallery regression and nested preview path verified. Report photo/rights/PDF citations and 8pt print notes implemented; latest report visual QA and saved PDF remain unverified after repeated Windows URL determination stop. New other-event research packets are not yet compiled into app content.",
     "implementation_plan": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
     "ui_direction_approved": true,
     "first_publication_target": "preview_only",
     "last_checks": {
       "build": "passed",
       "check": "passed",
-      "tests": 180,
-      "passed": 180,
+      "tests": 184,
+      "passed": 184,
       "failed": 0,
       "skipped": 0
     },

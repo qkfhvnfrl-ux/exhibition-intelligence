@@ -32,6 +32,59 @@ function containerFor(doc){
 }
 const clickTarget=(selector,element)=>({target:{closest:value=>value===selector?element:null}});
 
+test('every displayed report photo keeps its original and rights links on screen and in print',()=>{
+ for(const data of [adex,...laterEvents]){
+  const model=reportModel(data),screen=eventReportMarkup(data),printed=eventReportMarkup(data,{print:true});
+  for(const theme of model.themes){
+   const photo=data.photos.find(photo=>photo.id===theme.photoId);
+   if(!photo?.src)continue;
+   for(const url of [photo.sourceUrl,photo.rights?.licenseUrl].filter(Boolean)){
+    const href='href="'+url.replaceAll('&','&amp;')+'"';
+    assert.ok(screen.includes(href),data.event.id+': missing screen photo link '+url);
+    assert.ok(printed.includes(href),data.event.id+': missing printed photo link '+url);
+   }
+  }
+  assert.match(printed,/class="report-print-sources"/);
+ }
+});
+
+test('photo-only source IDs join report evidence and duplicate URLs receive one compact citation',()=>{
+ const data=structuredClone(adex),photo=data.photos.find(photo=>photo.id===data.report.themes[0].photoId);
+ const url='https://example.org/photo-evidence?event=2025&view=original',title='사진에만 연결된 현장 원문';
+ data.sources.push({id:'photo-only-source',url,title,publisher:'촬영기관',publishedAt:'2025-10-20'});
+ data.sources.push({id:'same-photo-origin',url,title:'동일 원문'});
+ photo.sourceIds.push('photo-only-source','same-photo-origin');
+ const container=containerFor();const cleanup=renderEventReport(container,{data});
+ const details=container.innerHTML.match(/<details class="report-sources">[\s\S]*?<\/details>/)[0];
+ assert.ok(details.includes(title));
+ assert.equal(details.split('href="'+url.replaceAll('&','&amp;')+'"').length-1,1);
+ const printed=eventReportMarkup(data,{print:true}),citations=printed.match(/<p class="report-print-sources">[\s\S]*?<\/p>/)[0];
+ assert.ok(citations.includes('href="'+url.replaceAll('&','&amp;')+'"'));
+ assert.equal(citations.split('href="'+url.replaceAll('&','&amp;')+'"').length-1,1);
+ cleanup();
+});
+
+test('unsafe photo references and rights URLs cannot become screen or PDF links',()=>{
+ const data=structuredClone(adex),photo=data.photos.find(photo=>photo.id===data.report.themes[0].photoId);
+ photo.sourceUrl='javascript:alert(1)';photo.rights.licenseUrl='data:text/html,unsafe';
+ photo.rights.license='<img src=x onerror="alert(1)">';
+ for(const print of [false,true]){
+  const html=eventReportMarkup(data,{print});
+  assert.doesNotMatch(html,/href="(?:javascript:|data:)|<img src=x/);
+  assert.match(html,/사진 원문·이용조건 주소 미확인/);
+ }
+});
+
+test('long captions and limitations remain complete in compact print markup',()=>{
+ const data=structuredClone(adex),photo=data.photos.find(photo=>photo.id===data.report.themes[0].photoId);
+ const caption='현장사진의 구성과 확인 한계를 설명하는 긴 문장입니다. '.repeat(12)+'캡션 마지막 문장';
+ const limitation='비교 근거와 적용 조건을 모두 검토해야 합니다. '.repeat(8)+'한계 마지막 문장';
+ photo.caption=caption;data.report.limitations=[limitation];
+ const html=eventReportMarkup(data,{print:true});
+ assert.ok(html.includes(caption));assert.ok(html.includes(limitation));
+});
+
+
 test('the reviewed report keeps its three company/product/photo links and source links',()=>{
  const model=reportModel(adex),html=eventReportMarkup(adex),printed=eventReportMarkup(adex,{print:true});
  assert.equal(model.themes.length,3);

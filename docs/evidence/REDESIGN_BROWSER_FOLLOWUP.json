@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-15",
+  "implementationCommitObserved": "54ca6450aeaa3426d1a55e8926c723ab3577d72d",
+  "baseUrl": "http://127.0.0.1:4174/exhibition-intelligence/preview/",
+  "fixture": "Copy of the built dist in tmp/redesign-path-host/exhibition-intelligence/preview; local server only",
+  "checks": {
+    "nestedPathReportLoaded": true,
+    "reportPhotosDecoded": 3,
+    "desktopViewport": [1440, 1000],
+    "desktopSheet": {"width": 1365, "height": 767.8125, "aspectRatio": "16:9"},
+    "mobileViewport": [390, 844],
+    "mobileDocumentWidth": 375,
+    "mobileSheet": {"width": 347, "height": 2265.265625},
+    "mobileHorizontalOverflow": false,
+    "actualPhone": false,
+    "tasmanGallery": {"records": 3, "displayable": 2, "sourceLinkOnly": 1, "nextTransitionsVerified": true, "reloadRetainsThirdRecord": true},
+    "kmtvGallery": {"records": 1, "nextDisabled": true},
+    "productUrlRetainedDuringPhotoChanges": true,
+    "closeRetainsTasmanReadingPosition": {"scrollY": 4194, "productTop": 24.265625},
+    "backAfterKmtvPhotoClose": {"product": "kmtv", "dialogOpen": false, "scrollY": 2887},
+    "temporaryViewportReset": true,
+    "savedPdfVerified": false
+  },
+  "screenshots": [
+    "docs/evidence/screenshots/report-implementation-desktop.png",
+    "docs/evidence/screenshots/report-implementation-mobile.png"
+  ],
+  "screenshotScope": "Captures precede the subsequent report citation and print typography revision. They do not verify that later revision or actual PDF output.",
+  "pdfBlock": {
+    "attempt": 2,
+    "stage": "Windows Chrome window observation before invoking print in this follow-up",
+    "reason": "Computer Use could not determine current browser URL on Windows with sufficient confidence and stopped UI control for this turn.",
+    "furtherUiActions": false,
+    "fileSaved": false
+  },
+  "remaining": ["Latest report citation/typography revision browser QA", "Saved PDF page count, dimensions, Korean glyphs, images and clipping", "Actual mobile device", "Other four event detail and comparison coverage"]
+}
