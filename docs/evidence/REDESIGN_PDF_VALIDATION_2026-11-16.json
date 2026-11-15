@@ -1,0 +1,4667 @@
+{
+  "asOf": "2026-11-16",
+  "task": "Read-only QA of Chrome-saved 16:9 event report PDFs",
+  "status": "completed",
+  "tools": {
+    "python": "3.12.14",
+    "pythonExecutable": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+    "pypdf": "6.21.4",
+    "pdfplumber": "0.11.9",
+    "popplerExecutable": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe"
+  },
+  "method": [
+    "Read original PDFs without modification",
+    "Extract page geometry, text, font sizes, image geometry and link annotations",
+    "Check full report strings and source URLs against compiled event JSON",
+    "Flag text outside page and character/image intersections over 25 percent of the smaller bounding box",
+    "Render every page with Poppler at 150 DPI for separate visual inspection"
+  ],
+  "limitations": [
+    "Bounding-box overlap is a heuristic; glyph ink can differ from PDF character boxes.",
+    "Full-width whitespace measurements exclude decorative rules and backgrounds.",
+    "Image presence and visible source attribution do not independently re-establish photo rights or subject identity."
+  ],
+  "stage": "final",
+  "reports": [
+    {
+      "eventId": "adex-2025",
+      "status": "passed_automated_and_visual_review",
+      "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-adex-2025.pdf",
+      "bytes": 1029551,
+      "sha256": "2283ce2375a7d872766d7236e7b4501d97994260dc883a694e7d0a6a4909265c",
+      "pageCount": 1,
+      "expectedPageCount": 1,
+      "expectedPhotoCount": 3,
+      "totalImageCount": 3,
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 906.95996,
+          "heightPt": 510,
+          "widthMM": 319.955,
+          "heightMM": 179.917,
+          "aspectRatio": 1.778353,
+          "sizeWithinHalfMillimeterOf320x180": true,
+          "characterCount": 972,
+          "koreanSyllableCount": 603,
+          "replacementCharacterCount": 0,
+          "fontSizesPt": [
+            {
+              "size": 7.99,
+              "characterCount": 573
+            },
+            {
+              "size": 9.0,
+              "characterCount": 190
+            },
+            {
+              "size": 10.0,
+              "characterCount": 156
+            },
+            {
+              "size": 13.99,
+              "characterCount": 25
+            },
+            {
+              "size": 19.99,
+              "characterCount": 28
+            }
+          ],
+          "fontNames": [
+            "AAAAAA+IBMPlexSansKR-SemiBold",
+            "BAAAAA+IBMPlexSansKR-SemiBold",
+            "CAAAAA+IBMPlexSansKR-SemiBold",
+            "DAAAAA+IBMPlexSansKR-SemiBold",
+            "EAAAAA+IBMPlexSansKR-SemiBold",
+            "FAAAAA+IBMPlexSansKR-SemiBold",
+            "GAAAAA+IBMPlexSansKR-SemiBold",
+            "HAAAAA+IBMPlexSansKR-Regular",
+            "IAAAAA+IBMPlexSansKR-Regular",
+            "JAAAAA+IBMPlexSansKR-Regular",
+            "KAAAAA+IBMPlexSansKR-Regular",
+            "LAAAAA+IBMPlexSansKR-Regular",
+            "MAAAAA+IBMPlexSansKR-Regular",
+            "NAAAAA+IBMPlexSansKR-Regular",
+            "OAAAAA+IBMPlexSansKR-Regular",
+            "PAAAAA+IBMPlexSansKR-Regular",
+            "QAAAAA+IBMPlexSansKR-SemiBold",
+            "RAAAAA+IBMPlexSansKR-Regular",
+            "SAAAAA+IBMPlexSansKR-SemiBold",
+            "TAAAAA+IBMPlexSansKR-Regular"
+          ],
+          "embeddedFonts": [
+            {
+              "resource": "/F4",
+              "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F5",
+              "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F6",
+              "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F7",
+              "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F8",
+              "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F9",
+              "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F10",
+              "name": "/GAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F11",
+              "name": "/HAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F12",
+              "name": "/IAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F13",
+              "name": "/JAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F14",
+              "name": "/KAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F15",
+              "name": "/LAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F16",
+              "name": "/MAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F17",
+              "name": "/NAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F20",
+              "name": "/OAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F21",
+              "name": "/PAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F23",
+              "name": "/QAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F25",
+              "name": "/RAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F26",
+              "name": "/SAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F27",
+              "name": "/TAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            }
+          ],
+          "characterBoundsPt": [
+            25.512,
+            20.235,
+            878.166,
+            493.818
+          ],
+          "outsidePageCharacterCount": 0,
+          "outsidePageExamples": [],
+          "overlappingCharacterPairCount": 0,
+          "overlapExamples": [],
+          "imageTextOverlaps": [],
+          "imageCount": 3,
+          "images": [
+            {
+              "boxPt": [
+                66.0,
+                102.0,
+                257.25,
+                229.5
+              ],
+              "widthMM": 67.469,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1616,
+                1080
+              ],
+              "name": "X18"
+            },
+            {
+              "boxPt": [
+                357.75,
+                102.0,
+                549.0,
+                229.5
+              ],
+              "widthMM": 67.469,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1800,
+                1200
+              ],
+              "name": "X22"
+            },
+            {
+              "boxPt": [
+                649.5,
+                102.0,
+                841.5,
+                229.5
+              ],
+              "widthMM": 67.733,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1800,
+                1200
+              ],
+              "name": "X24"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+              "rectPt": [
+                25.5,
+                246.0,
+                56.25,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+              "rectPt": [
+                62.25,
+                246.0,
+                90.75,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+              "rectPt": [
+                317.25,
+                236.25,
+                348.0,
+                248.25
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+              "rectPt": [
+                354.0,
+                236.25,
+                382.5,
+                248.25
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+              "rectPt": [
+                609.75,
+                246.0,
+                639.75,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+              "rectPt": [
+                646.5,
+                246.0,
+                675.0,
+                258.0
+              ]
+            },
+            {
+              "url": "https://blog.hyundai-rotem.co.kr/905",
+              "rectPt": [
+                62.25,
+                27.0,
+                163.5,
+                39.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+              "rectPt": [
+                169.5,
+                27.0,
+                288.0,
+                39.0
+              ]
+            },
+            {
+              "url": "https://www.asiatime.co.kr/article/20251023500386",
+              "rectPt": [
+                294.0,
+                27.0,
+                369.75,
+                39.0
+              ]
+            },
+            {
+              "url": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyCate=&keyField=&keyIdx=5102&keyWord=&page=",
+              "rectPt": [
+                375.75,
+                27.0,
+                453.0,
+                39.0
+              ]
+            },
+            {
+              "url": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016",
+              "rectPt": [
+                459.0,
+                27.0,
+                536.25,
+                39.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+              "rectPt": [
+                542.25,
+                27.0,
+                670.5,
+                39.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+              "rectPt": [
+                676.5,
+                27.0,
+                804.0,
+                39.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+              "rectPt": [
+                25.5,
+                16.5,
+                144.0,
+                28.5
+              ]
+            }
+          ],
+          "fullWidthTextAndImageFreeBands": [
+            {
+              "topMM": 10.31,
+              "bottomMM": 13.6,
+              "heightMM": 3.29
+            },
+            {
+              "topMM": 25.39,
+              "bottomMM": 29.92,
+              "heightMM": 4.53
+            },
+            {
+              "topMM": 113.09,
+              "bottomMM": 126.79,
+              "heightMM": 13.7
+            },
+            {
+              "topMM": 130.32,
+              "bottomMM": 133.55,
+              "heightMM": 3.24
+            },
+            {
+              "topMM": 147.75,
+              "bottomMM": 153.72,
+              "heightMM": 5.97
+            }
+          ],
+          "themeTextBottomMM": 113.09,
+          "comparisonRuleTopMM": 123.56,
+          "themeToComparisonRuleGapMM": 10.47
+        }
+      ],
+      "themes": [
+        {
+          "title": "고객별 구성의 구체화",
+          "productId": "k2pl",
+          "photoId": "photo-f27315794918d9b8ddce",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true
+          },
+          "extractedColumnText": "고객별 구성의 구체화\n01\n서울 ADEX 2025 현대로템 전시관의 K2PL — 앞쪽 램제트 엔진 모형과 함께 전시\n현대로템 / 현대자동차그룹 · 2025 현장사진\n사진 원문 · 이용조건\nK2PL은 폴란드 요구에 맞춘 구성을 설명한다. 전시품의 실차·모형 분\n류에는 자료 간 표현 차이가 남는다.\n현대로템 · K2PL",
+          "expectedSummaryAtCheck": "K2PL은 폴란드 요구에 맞춘 구성을 설명한다. 전시품의 실차·모형 분류에는 자료 간 표현 차이가 남는다."
+        },
+        {
+          "title": "통합과 형상 선택",
+          "productId": "adex25-wia-rcws-ai",
+          "photoId": "photo-406026b01ffa0009623a",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true
+          },
+          "extractedColumnText": "통합과 형상 선택\n02\n서울 ADEX 2025 현대위아 부스의 RCWS 3종 — 40mm·12.7mm·7.62mm 전시대\n실물\n현대위아 / 현대자동차그룹 · 2025 현장사진\n사진 원문 · 이용조건\nRCWS 전시대는 3개 구경을 보여 준다. ADS는 기존 차량형과 새 일\n체형 소개를 구분해야 한다.\n현대위아 · 12.7mm/40mm AI 기반 RCWS",
+          "expectedSummaryAtCheck": "RCWS 전시대는 3개 구경을 보여 준다. ADS는 기존 차량형과 새 일체형 소개를 구분해야 한다."
+        },
+        {
+          "title": "임무별 차량군의 전개",
+          "productId": "tasman-military",
+          "photoId": "photo-88508f17c41d264626d0",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true
+          },
+          "extractedColumnText": "임무별 차량군의 전개\n03\nADEX 2025 타스만 군용 지휘차와 베어샤시 전시\n기아 / 현대자동차그룹 · 2025 현장사진\n사진 원문 · 이용조건\n타스만 지휘차와 샤시, KMTV·KLTV 파생형을 함께 제시했다. KHTV\n는 개발 목표를 담은 모형이다.\n기아 · 타스만 군용 지휘차",
+          "expectedSummaryAtCheck": "타스만 지휘차와 샤시, KMTV·KLTV 파생형을 함께 제시했다. KHTV는 개발 목표를 담은 모형이다."
+        }
+      ],
+      "headingPresent": true,
+      "scopePresent": true,
+      "interpretationPresent": true,
+      "limitationsPresent": [
+        true,
+        true,
+        true
+      ],
+      "comparisonNotePresent": true,
+      "missingExpectedLinkUrls": [],
+      "uniqueLinkUrlCount": 8,
+      "render": {
+        "command": [
+          "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+          "-r",
+          "150",
+          "-png",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-adex-2025.pdf",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-adex-2025"
+        ],
+        "exitCode": 0,
+        "stderr": "",
+        "resolutionDpi": 150,
+        "files": [
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-adex-2025-1.png"
+        ]
+      },
+      "visualReview": {
+        "checked": true,
+        "clippedText": false,
+        "overlappingText": false,
+        "brokenKoreanGlyphs": false,
+        "missingExpectedPhotos": false,
+        "imageFit": "contain; no new display cropping observed",
+        "layoutAccepted": true
+      },
+      "contentDriftFromCurrentCompiledData": [],
+      "bottomTextClearanceMM": 5.71,
+      "comparisonToBaseline": {
+        "baselineSha256": "be587ef25b5f7a717143a5ecd1a4942baf33bd8f7785e4bf94b8fa7c0340194e",
+        "sameBytesAsBaseline": false,
+        "baselineGapToComparisonRuleMM": 23.44,
+        "finalGapToComparisonRuleMM": 10.47
+      }
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "status": "passed_automated_and_visual_review",
+      "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-eurosatory-2026.pdf",
+      "bytes": 1320006,
+      "sha256": "bdc5b54a3b109c4dc9050213ee07002e3e678991302765290a0a2a3edba71ada",
+      "pageCount": 1,
+      "expectedPageCount": 1,
+      "expectedPhotoCount": 3,
+      "totalImageCount": 3,
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 906.95996,
+          "heightPt": 510,
+          "widthMM": 319.955,
+          "heightMM": 179.917,
+          "aspectRatio": 1.778353,
+          "sizeWithinHalfMillimeterOf320x180": true,
+          "characterCount": 858,
+          "koreanSyllableCount": 572,
+          "replacementCharacterCount": 0,
+          "fontSizesPt": [
+            {
+              "size": 7.99,
+              "characterCount": 480
+            },
+            {
+              "size": 9.0,
+              "characterCount": 177
+            },
+            {
+              "size": 10.0,
+              "characterCount": 152
+            },
+            {
+              "size": 13.99,
+              "characterCount": 27
+            },
+            {
+              "size": 19.99,
+              "characterCount": 22
+            }
+          ],
+          "fontNames": [
+            "AAAAAA+IBMPlexSansKR-SemiBold",
+            "BAAAAA+IBMPlexSansKR-SemiBold",
+            "CAAAAA+IBMPlexSansKR-SemiBold",
+            "DAAAAA+IBMPlexSansKR-SemiBold",
+            "EAAAAA+IBMPlexSansKR-SemiBold",
+            "FAAAAA+IBMPlexSansKR-SemiBold",
+            "GAAAAA+IBMPlexSansKR-SemiBold",
+            "HAAAAA+IBMPlexSansKR-SemiBold",
+            "IAAAAA+IBMPlexSansKR-SemiBold",
+            "JAAAAA+IBMPlexSansKR-Regular",
+            "KAAAAA+IBMPlexSansKR-Regular",
+            "LAAAAA+IBMPlexSansKR-Regular",
+            "MAAAAA+IBMPlexSansKR-Regular",
+            "NAAAAA+IBMPlexSansKR-Regular",
+            "OAAAAA+IBMPlexSansKR-Regular",
+            "PAAAAA+IBMPlexSansKR-SemiBold",
+            "QAAAAA+IBMPlexSansKR-Regular",
+            "RAAAAA+IBMPlexSansKR-Regular",
+            "SAAAAA+IBMPlexSansKR-Regular",
+            "TAAAAA+IBMPlexSansKR-SemiBold",
+            "UAAAAA+IBMPlexSansKR-Regular"
+          ],
+          "embeddedFonts": [
+            {
+              "resource": "/F4",
+              "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F5",
+              "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F6",
+              "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F7",
+              "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F8",
+              "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F9",
+              "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F10",
+              "name": "/GAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F11",
+              "name": "/HAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F12",
+              "name": "/IAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F13",
+              "name": "/JAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F14",
+              "name": "/KAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F15",
+              "name": "/LAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F16",
+              "name": "/MAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F17",
+              "name": "/NAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F18",
+              "name": "/OAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F19",
+              "name": "/PAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F22",
+              "name": "/QAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F23",
+              "name": "/RAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F24",
+              "name": "/SAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F27",
+              "name": "/TAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F28",
+              "name": "/UAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            }
+          ],
+          "characterBoundsPt": [
+            25.512,
+            20.235,
+            881.405,
+            493.818
+          ],
+          "outsidePageCharacterCount": 0,
+          "outsidePageExamples": [],
+          "overlappingCharacterPairCount": 0,
+          "overlapExamples": [],
+          "imageTextOverlaps": [],
+          "imageCount": 3,
+          "images": [
+            {
+              "boxPt": [
+                48.0,
+                102.0,
+                275.25,
+                229.5
+              ],
+              "widthMM": 80.169,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1800,
+                1013
+              ],
+              "name": "X20"
+            },
+            {
+              "boxPt": [
+                340.5,
+                102.0,
+                567.0,
+                229.5
+              ],
+              "widthMM": 79.904,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1800,
+                1013
+              ],
+              "name": "X25"
+            },
+            {
+              "boxPt": [
+                649.5,
+                102.0,
+                841.5,
+                229.5
+              ],
+              "widthMM": 67.733,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1800,
+                1200
+              ],
+              "name": "X26"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+              "rectPt": [
+                25.5,
+                246.0,
+                56.25,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+              "rectPt": [
+                62.25,
+                246.0,
+                90.75,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+              "rectPt": [
+                317.25,
+                246.0,
+                348.0,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+              "rectPt": [
+                354.0,
+                246.0,
+                382.5,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+              "rectPt": [
+                609.75,
+                246.0,
+                639.75,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+              "rectPt": [
+                646.5,
+                246.0,
+                675.0,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+              "rectPt": [
+                62.25,
+                16.5,
+                189.75,
+                28.5
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+              "rectPt": [
+                195.75,
+                16.5,
+                337.5,
+                28.5
+              ]
+            },
+            {
+              "url": "https://www.eurosatory.com/wp-content/uploads/2025/02/EN-CP_Bilan_EUROSATORY_July24.pdf",
+              "rectPt": [
+                343.5,
+                16.5,
+                474.0,
+                28.5
+              ]
+            }
+          ],
+          "fullWidthTextAndImageFreeBands": [
+            {
+              "topMM": 10.31,
+              "bottomMM": 13.6,
+              "heightMM": 3.29
+            },
+            {
+              "topMM": 25.39,
+              "bottomMM": 29.92,
+              "heightMM": 4.53
+            },
+            {
+              "topMM": 109.65,
+              "bottomMM": 130.49,
+              "heightMM": 20.84
+            },
+            {
+              "topMM": 134.02,
+              "bottomMM": 137.26,
+              "heightMM": 3.24
+            },
+            {
+              "topMM": 151.45,
+              "bottomMM": 157.42,
+              "heightMM": 5.97
+            }
+          ],
+          "themeTextBottomMM": 109.65,
+          "comparisonRuleTopMM": 127.26,
+          "themeToComparisonRuleGapMM": 17.61
+        }
+      ],
+      "themes": [
+        {
+          "title": "픽업의 지휘 임무형",
+          "productId": "eu-tasman-c2",
+          "photoId": "photo-999005f47b49d93d96ef",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true
+          },
+          "extractedColumnText": "픽업의 지휘 임무형\n01\nEurosatory 2026 · 타스만 군용 지휘차 실차\n기아 / 현대자동차그룹 · 2026 현장사진\n사진 원문 · 이용조건\n타스만 군용 지휘차 실차를 제시했다. 픽업 기반에 지휘차 특수사양을\n더한 구성을 보여준다.\nKia · 타스만 군용 지휘차",
+          "expectedSummaryAtCheck": "타스만 군용 지휘차 실차를 제시했다. 픽업 기반에 지휘차 특수사양을 더한 구성을 보여준다."
+        },
+        {
+          "title": "수송용 파생형의 제시",
+          "productId": "eu-kltv-cargo",
+          "photoId": "photo-ce3d7958065066487fe7",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true
+          },
+          "extractedColumnText": "수송용 파생형의 제시\n02\nEurosatory 2026 · KLTV 2인용 카고 전면·측면 실차\n기아 / 현대자동차그룹 · 2026 현장사진\n사진 원문 · 이용조건\nKLTV 2인용 카고는 실차로 소개됐다. 함께 출품한 중·대형 표준차 모\n형과 전시 형태를 구분한다.\nKia · KLTV 2인용 카고",
+          "expectedSummaryAtCheck": "KLTV 2인용 카고는 실차로 소개됐다. 함께 출품한 중·대형 표준차 모형과 전시 형태를 구분한다."
+        },
+        {
+          "title": "차량과 탑재체계의 결합",
+          "productId": "eu-light-105",
+          "photoId": "photo-81610d7ae35d4bd5b354",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true
+          },
+          "extractedColumnText": "차량과 탑재체계의 결합\n03\nEurosatory 2026의 경량화 105mm 자주포 — 전시 현장\n현대위아 / 현대자동차그룹 · 2026 현장사진\n사진 원문 · 이용조건\n현대위아는 경량화 105mm 자주포의 실물 전시를 발표했다. 양산·배\n치 완료는 미확인이다.\nHyundai WIA · 경량화 105mm 자주포",
+          "expectedSummaryAtCheck": "현대위아는 경량화 105mm 자주포의 실물 전시를 발표했다. 양산·배치 완료는 미확인이다."
+        }
+      ],
+      "headingPresent": true,
+      "scopePresent": true,
+      "interpretationPresent": true,
+      "limitationsPresent": [
+        true,
+        true,
+        true
+      ],
+      "comparisonNotePresent": true,
+      "missingExpectedLinkUrls": [],
+      "uniqueLinkUrlCount": 3,
+      "render": {
+        "command": [
+          "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+          "-r",
+          "150",
+          "-png",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-eurosatory-2026.pdf",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-eurosatory-2026"
+        ],
+        "exitCode": 0,
+        "stderr": "",
+        "resolutionDpi": 150,
+        "files": [
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-eurosatory-2026-1.png"
+        ]
+      },
+      "visualReview": {
+        "checked": true,
+        "clippedText": false,
+        "overlappingText": false,
+        "brokenKoreanGlyphs": false,
+        "missingExpectedPhotos": false,
+        "imageFit": "contain; no new display cropping observed",
+        "layoutAccepted": true
+      },
+      "contentDriftFromCurrentCompiledData": [],
+      "bottomTextClearanceMM": 5.71,
+      "comparisonToBaseline": {
+        "baselineSha256": "d0af8642a40d53c07b87a842ab1f2c4e8bdb639d8770300ea2885aad0d75a30a",
+        "sameBytesAsBaseline": false,
+        "baselineGapToComparisonRuleMM": 30.58,
+        "finalGapToComparisonRuleMM": 17.61
+      }
+    },
+    {
+      "eventId": "dsei-2025",
+      "status": "passed_automated_and_visual_review",
+      "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-dsei-2025.pdf",
+      "bytes": 1219253,
+      "sha256": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1",
+      "pageCount": 1,
+      "expectedPageCount": 1,
+      "expectedPhotoCount": 3,
+      "totalImageCount": 3,
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 906.95996,
+          "heightPt": 510,
+          "widthMM": 319.955,
+          "heightMM": 179.917,
+          "aspectRatio": 1.778353,
+          "sizeWithinHalfMillimeterOf320x180": true,
+          "characterCount": 1036,
+          "koreanSyllableCount": 587,
+          "replacementCharacterCount": 0,
+          "fontSizesPt": [
+            {
+              "size": 7.99,
+              "characterCount": 616
+            },
+            {
+              "size": 9.0,
+              "characterCount": 202
+            },
+            {
+              "size": 10.0,
+              "characterCount": 172
+            },
+            {
+              "size": 13.99,
+              "characterCount": 28
+            },
+            {
+              "size": 19.99,
+              "characterCount": 18
+            }
+          ],
+          "fontNames": [
+            "AAAAAA+IBMPlexSansKR-SemiBold",
+            "BAAAAA+IBMPlexSansKR-SemiBold",
+            "CAAAAA+IBMPlexSansKR-SemiBold",
+            "DAAAAA+IBMPlexSansKR-SemiBold",
+            "EAAAAA+IBMPlexSansKR-SemiBold",
+            "FAAAAA+IBMPlexSansKR-SemiBold",
+            "GAAAAA+IBMPlexSansKR-SemiBold",
+            "HAAAAA+IBMPlexSansKR-Regular",
+            "IAAAAA+IBMPlexSansKR-Regular",
+            "JAAAAA+IBMPlexSansKR-Regular",
+            "KAAAAA+IBMPlexSansKR-Regular",
+            "LAAAAA+IBMPlexSansKR-Regular",
+            "MAAAAA+IBMPlexSansKR-Regular",
+            "NAAAAA+IBMPlexSansKR-Regular",
+            "OAAAAA+IBMPlexSansKR-Regular",
+            "PAAAAA+IBMPlexSansKR-Regular",
+            "QAAAAA+IBMPlexSansKR-Regular",
+            "RAAAAA+IBMPlexSansKR-SemiBold",
+            "SAAAAA+IBMPlexSansKR-SemiBold",
+            "TAAAAA+IBMPlexSansKR-SemiBold"
+          ],
+          "embeddedFonts": [
+            {
+              "resource": "/F4",
+              "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F5",
+              "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F6",
+              "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F7",
+              "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F8",
+              "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F9",
+              "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F10",
+              "name": "/GAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F11",
+              "name": "/HAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F12",
+              "name": "/IAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F13",
+              "name": "/JAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F14",
+              "name": "/KAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F15",
+              "name": "/LAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F16",
+              "name": "/MAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F19",
+              "name": "/NAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F20",
+              "name": "/OAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F23",
+              "name": "/PAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F24",
+              "name": "/QAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F25",
+              "name": "/RAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F26",
+              "name": "/SAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F27",
+              "name": "/TAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            }
+          ],
+          "characterBoundsPt": [
+            25.512,
+            20.235,
+            878.626,
+            493.818
+          ],
+          "outsidePageCharacterCount": 0,
+          "outsidePageExamples": [],
+          "overlappingCharacterPairCount": 0,
+          "overlapExamples": [],
+          "imageTextOverlaps": [],
+          "imageCount": 3,
+          "images": [
+            {
+              "boxPt": [
+                48.0,
+                102.0,
+                275.25,
+                229.5
+              ],
+              "widthMM": 80.169,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1920,
+                1080
+              ],
+              "name": "X17"
+            },
+            {
+              "boxPt": [
+                357.75,
+                102.0,
+                549.0,
+                229.5
+              ],
+              "widthMM": 67.469,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1024,
+                683
+              ],
+              "name": "X21"
+            },
+            {
+              "boxPt": [
+                649.5,
+                102.0,
+                841.5,
+                229.5
+              ],
+              "widthMM": 67.733,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1800,
+                1200
+              ],
+              "name": "X22"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+              "rectPt": [
+                25.5,
+                246.0,
+                56.25,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+              "rectPt": [
+                62.25,
+                246.0,
+                90.75,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.flickr.com/photos/dyvroeth/54783778059/",
+              "rectPt": [
+                317.25,
+                246.0,
+                348.0,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+              "rectPt": [
+                354.0,
+                246.0,
+                382.5,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025",
+              "rectPt": [
+                609.75,
+                246.0,
+                639.75,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.patriagroup.com/newsroom/images?page=1",
+              "rectPt": [
+                646.5,
+                246.0,
+                675.0,
+                258.0
+              ]
+            },
+            {
+              "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+              "rectPt": [
+                62.25,
+                16.5,
+                166.5,
+                28.5
+              ]
+            },
+            {
+              "url": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+              "rectPt": [
+                172.5,
+                16.5,
+                285.0,
+                28.5
+              ]
+            },
+            {
+              "url": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
+              "rectPt": [
+                291.75,
+                16.5,
+                345.0,
+                28.5
+              ]
+            },
+            {
+              "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+              "rectPt": [
+                351.75,
+                16.5,
+                405.75,
+                28.5
+              ]
+            },
+            {
+              "url": "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom",
+              "rectPt": [
+                411.75,
+                16.5,
+                465.75,
+                28.5
+              ]
+            },
+            {
+              "url": "https://www.patriagroup.com/newsroom/images?page=1",
+              "rectPt": [
+                472.5,
+                16.5,
+                507.0,
+                28.5
+              ]
+            },
+            {
+              "url": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025",
+              "rectPt": [
+                511.5,
+                16.5,
+                571.5,
+                28.5
+              ]
+            },
+            {
+              "url": "https://www.flickr.com/photos/dyvroeth/54783778059/",
+              "rectPt": [
+                576.0,
+                16.5,
+                602.25,
+                28.5
+              ]
+            }
+          ],
+          "fullWidthTextAndImageFreeBands": [
+            {
+              "topMM": 10.31,
+              "bottomMM": 13.6,
+              "heightMM": 3.29
+            },
+            {
+              "topMM": 25.39,
+              "bottomMM": 29.92,
+              "heightMM": 4.53
+            },
+            {
+              "topMM": 109.65,
+              "bottomMM": 126.79,
+              "heightMM": 17.14
+            },
+            {
+              "topMM": 130.32,
+              "bottomMM": 133.55,
+              "heightMM": 3.24
+            },
+            {
+              "topMM": 147.75,
+              "bottomMM": 153.72,
+              "heightMM": 5.97
+            }
+          ],
+          "themeTextBottomMM": 109.65,
+          "comparisonRuleTopMM": 123.56,
+          "themeToComparisonRuleGapMM": 13.91
+        }
+      ],
+      "themes": [
+        {
+          "title": "특장 기반을 함께 제시",
+          "productId": "kia-platforms-dsei2025",
+          "photoId": "photo-648d50af60ebb4f3032a",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true
+          },
+          "extractedColumnText": "특장 기반을 함께 제시\n01\nDSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시\n기아 / 현대자동차그룹 · 2025 현장사진\n사진 원문 · 이용조건\n기아는 타스만 쇼카와 KLTV 베어샤시·축소 모형을 소개했다. 쇼카의\n양산 일정은 이 발표에서 확인되지 않는다.\nKia · 타스만 특수목적 쇼카 · KLTV 베어샤시",
+          "expectedSummaryAtCheck": "기아는 타스만 쇼카와 KLTV 베어샤시·축소 모형을 소개했다. 쇼카의 양산 일정은 이 발표에서 확인되지 않는다."
+        },
+        {
+          "title": "기존 통신체계와의 연동",
+          "productId": "gdams-dsei2025",
+          "photoId": "photo-759379832c8e0bb07807",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true
+          },
+          "extractedColumnText": "기존 통신체계와의 연동\n02\nBabcock 부스에 전시된 GDAMS 120mm 체계\ndyvroeth · 2025 현장사진\n사진 원문 · 이용조건\nBabcock은 GDAMS와 BCIP의 통신 연동 시연을 발표했다. 차량별\n통합 완료나 군 채택을 입증한 자료는 아니다.\nST Engineering / Babcock · GDAMS · 전술차량 연동 전시",
+          "expectedSummaryAtCheck": "Babcock은 GDAMS와 BCIP의 통신 연동 시연을 발표했다. 차량별 통합 완료나 군 채택을 입증한 자료는 아니다."
+        },
+        {
+          "title": "차량 계열과 현지 협력",
+          "productId": "patria-6x6",
+          "photoId": "dsei25-patria-6x6-c4",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true,
+            "conversionNotice": true
+          },
+          "extractedColumnText": "차량 계열과 현지 협력\n03\nDSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형\nPhoto: Patria · 2025 현장사진\n사진 원문 · 이용조건 · 웹 표시용 축소·JPEG 압축본\nPatria는 6×6 지휘형·병력수송형을 각각 안내하고 영국 생산 협력을\n발표했다. 전시 구성과 생산 계획을 구분한다.\nPatria · Patria 6×6",
+          "expectedSummaryAtCheck": "Patria는 6×6 지휘형·병력수송형을 각각 안내하고 영국 생산 협력을 발표했다. 전시 구성과 생산 계획을 구분한다."
+        }
+      ],
+      "headingPresent": true,
+      "scopePresent": true,
+      "interpretationPresent": true,
+      "limitationsPresent": [
+        true,
+        true,
+        true
+      ],
+      "comparisonNotePresent": true,
+      "missingExpectedLinkUrls": [],
+      "uniqueLinkUrlCount": 9,
+      "render": {
+        "command": [
+          "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+          "-r",
+          "150",
+          "-png",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-dsei-2025.pdf",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-dsei-2025"
+        ],
+        "exitCode": 0,
+        "stderr": "",
+        "resolutionDpi": 150,
+        "files": [
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-dsei-2025-1.png"
+        ]
+      },
+      "visualReview": {
+        "checked": true,
+        "clippedText": false,
+        "overlappingText": false,
+        "brokenKoreanGlyphs": false,
+        "missingExpectedPhotos": false,
+        "imageFit": "contain; no new display cropping observed",
+        "layoutAccepted": true
+      },
+      "contentDriftFromCurrentCompiledData": [],
+      "bottomTextClearanceMM": 5.71,
+      "comparisonToBaseline": {
+        "baselineSha256": "6d82356dd1093c81839ccb936cba23b14b06c7d009bc5fa28d92d7c9943a4835",
+        "sameBytesAsBaseline": false,
+        "baselineGapToComparisonRuleMM": 26.88,
+        "finalGapToComparisonRuleMM": 13.91
+      }
+    },
+    {
+      "eventId": "idex-2025",
+      "status": "passed_automated_and_visual_review",
+      "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-idex-2025.pdf",
+      "bytes": 8831368,
+      "sha256": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501",
+      "pageCount": 1,
+      "expectedPageCount": 1,
+      "expectedPhotoCount": 3,
+      "totalImageCount": 3,
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 906.95996,
+          "heightPt": 510,
+          "widthMM": 319.955,
+          "heightMM": 179.917,
+          "aspectRatio": 1.778353,
+          "sizeWithinHalfMillimeterOf320x180": true,
+          "characterCount": 1027,
+          "koreanSyllableCount": 443,
+          "replacementCharacterCount": 0,
+          "fontSizesPt": [
+            {
+              "size": 7.99,
+              "characterCount": 584
+            },
+            {
+              "size": 9.0,
+              "characterCount": 227
+            },
+            {
+              "size": 10.0,
+              "characterCount": 167
+            },
+            {
+              "size": 13.99,
+              "characterCount": 28
+            },
+            {
+              "size": 19.99,
+              "characterCount": 21
+            }
+          ],
+          "fontNames": [
+            "AAAAAA+IBMPlexSansKR-SemiBold",
+            "BAAAAA+IBMPlexSansKR-SemiBold",
+            "CAAAAA+IBMPlexSansKR-SemiBold",
+            "DAAAAA+IBMPlexSansKR-SemiBold",
+            "EAAAAA+IBMPlexSansKR-SemiBold",
+            "FAAAAA+IBMPlexSansKR-SemiBold",
+            "GAAAAA+IBMPlexSansKR-SemiBold",
+            "HAAAAA+IBMPlexSansKR-SemiBold",
+            "IAAAAA+IBMPlexSansKR-Regular",
+            "JAAAAA+IBMPlexSansKR-Regular",
+            "KAAAAA+IBMPlexSansKR-Regular",
+            "LAAAAA+IBMPlexSansKR-Regular",
+            "MAAAAA+IBMPlexSansKR-Regular",
+            "NAAAAA+IBMPlexSansKR-Regular",
+            "OAAAAA+IBMPlexSansKR-Regular",
+            "PAAAAA+IBMPlexSansKR-Regular",
+            "QAAAAA+IBMPlexSansKR-SemiBold",
+            "RAAAAA+IBMPlexSansKR-Regular",
+            "SAAAAA+IBMPlexSansKR-SemiBold",
+            "TAAAAA+IBMPlexSansKR-Regular",
+            "UAAAAA+IBMPlexSansKR-Regular",
+            "VAAAAA+IBMPlexSansKR-Regular"
+          ],
+          "embeddedFonts": [
+            {
+              "resource": "/F4",
+              "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F5",
+              "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F6",
+              "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F7",
+              "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F8",
+              "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F9",
+              "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F10",
+              "name": "/GAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F11",
+              "name": "/HAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F12",
+              "name": "/IAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F13",
+              "name": "/JAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F14",
+              "name": "/KAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F15",
+              "name": "/LAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F16",
+              "name": "/MAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F19",
+              "name": "/NAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F20",
+              "name": "/OAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F21",
+              "name": "/PAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F23",
+              "name": "/QAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F25",
+              "name": "/RAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F26",
+              "name": "/SAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F27",
+              "name": "/TAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F28",
+              "name": "/UAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F29",
+              "name": "/VAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            }
+          ],
+          "characterBoundsPt": [
+            25.512,
+            20.235,
+            877.416,
+            493.818
+          ],
+          "outsidePageCharacterCount": 0,
+          "outsidePageExamples": [],
+          "overlappingCharacterPairCount": 0,
+          "overlapExamples": [],
+          "imageTextOverlaps": [],
+          "imageCount": 3,
+          "images": [
+            {
+              "boxPt": [
+                76.5,
+                102.0,
+                246.75,
+                229.5
+              ],
+              "widthMM": 60.06,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1800,
+                1350
+              ],
+              "name": "X17"
+            },
+            {
+              "boxPt": [
+                405.75,
+                102.0,
+                501.0,
+                229.5
+              ],
+              "widthMM": 33.602,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1350,
+                1800
+              ],
+              "name": "X22"
+            },
+            {
+              "boxPt": [
+                660.75,
+                102.0,
+                830.25,
+                229.5
+              ],
+              "widthMM": 59.796,
+              "heightMM": 44.979,
+              "sourcePixels": [
+                1600,
+                1200
+              ],
+              "name": "X24"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV.jpg",
+              "rectPt": [
+                25.5,
+                246.0,
+                56.25,
+                258.0
+              ]
+            },
+            {
+              "url": "https://creativecommons.org/licenses/by/4.0/",
+              "rectPt": [
+                62.25,
+                246.0,
+                97.5,
+                258.0
+              ]
+            },
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:Ajban_452A.jpg",
+              "rectPt": [
+                317.25,
+                246.0,
+                348.0,
+                258.0
+              ]
+            },
+            {
+              "url": "https://creativecommons.org/licenses/by/4.0/",
+              "rectPt": [
+                354.0,
+                246.0,
+                389.25,
+                258.0
+              ]
+            },
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:Cockerill_i-X_at_IDEX_2025.jpg",
+              "rectPt": [
+                609.75,
+                246.0,
+                639.75,
+                258.0
+              ]
+            },
+            {
+              "url": "https://creativecommons.org/licenses/by/4.0/",
+              "rectPt": [
+                646.5,
+                246.0,
+                681.0,
+                258.0
+              ]
+            },
+            {
+              "url": "https://edgegroup.ae/share/pdf/news/576",
+              "rectPt": [
+                62.25,
+                16.5,
+                139.5,
+                28.5
+              ]
+            },
+            {
+              "url": "https://edgegroup.ae/news/edge-showcase-large-portfolio-advanced-technology-and-defence-solutions-idex-2023-0",
+              "rectPt": [
+                145.5,
+                16.5,
+                222.75,
+                28.5
+              ]
+            },
+            {
+              "url": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+              "rectPt": [
+                229.5,
+                16.5,
+                306.0,
+                28.5
+              ]
+            },
+            {
+              "url": "https://johncockerill.com/en/press-and-news/news/idex-2023-cockerill-i-x-innovative-turrets-and-simulation-in-the-spotlight-of-john-cockerill-defense/",
+              "rectPt": [
+                312.75,
+                16.5,
+                396.0,
+                28.5
+              ]
+            },
+            {
+              "url": "https://johncockerill.com/en/press-and-news/news/john-cockerill-defense-idex-2025/",
+              "rectPt": [
+                402.75,
+                16.5,
+                486.0,
+                28.5
+              ]
+            },
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV.jpg",
+              "rectPt": [
+                492.75,
+                16.5,
+                520.5,
+                28.5
+              ]
+            },
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:Ajban_452A.jpg",
+              "rectPt": [
+                525.0,
+                16.5,
+                552.75,
+                28.5
+              ]
+            },
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:Cockerill_i-X_at_IDEX_2025.jpg",
+              "rectPt": [
+                557.25,
+                16.5,
+                583.5,
+                28.5
+              ]
+            }
+          ],
+          "fullWidthTextAndImageFreeBands": [
+            {
+              "topMM": 10.31,
+              "bottomMM": 13.6,
+              "heightMM": 3.29
+            },
+            {
+              "topMM": 25.39,
+              "bottomMM": 29.92,
+              "heightMM": 4.53
+            },
+            {
+              "topMM": 109.65,
+              "bottomMM": 130.49,
+              "heightMM": 20.84
+            },
+            {
+              "topMM": 134.02,
+              "bottomMM": 137.26,
+              "heightMM": 3.24
+            },
+            {
+              "topMM": 151.45,
+              "bottomMM": 157.42,
+              "heightMM": 5.97
+            }
+          ],
+          "themeTextBottomMM": 109.65,
+          "comparisonRuleTopMM": 127.26,
+          "themeToComparisonRuleGapMM": 17.61
+        }
+      ],
+      "themes": [
+        {
+          "title": "무인 플랫폼 선택지",
+          "productId": "havoc-8x8",
+          "photoId": "photo-d230f00bf90029fc0a2e",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true,
+            "visibleLicense": true,
+            "conversionNotice": true
+          },
+          "extractedColumnText": "무인 플랫폼 선택지\n01\nHAVOC 8×8 RCV · 현장사진 1\nCezary Filip Krzymowski · 2025 현장사진\n사진 원문 · CC BY 4.0 · 웹 표시용 축소·WebP 변환본\n2025 HAVOC은 무인차 선택지 확장 사례다. 2023 NIMR 개념차의\n직접 후속형인지는 미확인이다.\nMilrem Robotics · EDGE · HAVOC 8×8 RCV",
+          "expectedSummaryAtCheck": "2025 HAVOC은 무인차 선택지 확장 사례다. 2023 NIMR 개념차의 직접 후속형인지는 미확인이다."
+        },
+        {
+          "title": "임무별 파생형의 구체화",
+          "productId": "ajban-family",
+          "photoId": "photo-954ad88a75d6531185e2",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true,
+            "visibleLicense": true,
+            "conversionNotice": true
+          },
+          "extractedColumnText": "임무별 파생형의 구체화\n02\nAJBAN 452A · IDEX 2025 전시\nCezary Filip Krzymowski · 2025 현장사진\n사진 원문 · CC BY 4.0 · 웹 표시용 축소·WebP 변환본\nAJBAN MK2의 452A·432AU·441AE를 공개했다. 사진의 452A\n와 다른 파생형을 구분한다.\nNIMR · EDGE · AJBAN 계열",
+          "expectedSummaryAtCheck": "AJBAN MK2의 452A·432AU·441AE를 공개했다. 사진의 452A와 다른 파생형을 구분한다."
+        },
+        {
+          "title": "차량과 운용 지원의 묶음",
+          "productId": "cockerill-ix",
+          "photoId": "photo-77eec4976f1654c14cd9",
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true,
+            "photoCaption": true,
+            "photoCredit": true,
+            "visibleLicense": true,
+            "conversionNotice": true
+          },
+          "extractedColumnText": "차량과 운용 지원의 묶음\n03\nCockerill i-X · IDEX 2025 현장\nMztourist · 2025 현장사진\n사진 원문 · CC BY 4.0 · 웹 표시용 WebP 변환본\ni-X와 OPTIMIS·Arquus 제품군을 함께 소개했다. 소개 범위의 확대\n이며 통합시험 완료를 뜻하지 않는다.\nJohn Cockerill Defense · Cockerill i-X",
+          "expectedSummaryAtCheck": "i-X와 OPTIMIS·Arquus 제품군을 함께 소개했다. 소개 범위의 확대이며 통합시험 완료를 뜻하지 않는다."
+        }
+      ],
+      "headingPresent": true,
+      "scopePresent": true,
+      "interpretationPresent": true,
+      "limitationsPresent": [
+        true,
+        true,
+        true
+      ],
+      "comparisonNotePresent": true,
+      "missingExpectedLinkUrls": [],
+      "uniqueLinkUrlCount": 9,
+      "render": {
+        "command": [
+          "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+          "-r",
+          "150",
+          "-png",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-idex-2025.pdf",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-idex-2025"
+        ],
+        "exitCode": 0,
+        "stderr": "",
+        "resolutionDpi": 150,
+        "files": [
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-idex-2025-1.png"
+        ]
+      },
+      "visualReview": {
+        "checked": true,
+        "clippedText": false,
+        "overlappingText": false,
+        "brokenKoreanGlyphs": false,
+        "missingExpectedPhotos": false,
+        "imageFit": "contain; no new display cropping observed",
+        "layoutAccepted": true
+      },
+      "contentDriftFromCurrentCompiledData": [],
+      "bottomTextClearanceMM": 5.71,
+      "comparisonToBaseline": {
+        "baselineSha256": "f297fd37a883f7533149c07396cd0bd19901cae0bc846e89a6196403647a3df2",
+        "sameBytesAsBaseline": false,
+        "baselineGapToComparisonRuleMM": 30.58,
+        "finalGapToComparisonRuleMM": 17.61
+      }
+    },
+    {
+      "eventId": "saha-2026",
+      "status": "passed_automated_and_visual_review",
+      "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-saha-2026.pdf",
+      "bytes": 132750,
+      "sha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91",
+      "pageCount": 1,
+      "expectedPageCount": 1,
+      "expectedPhotoCount": 0,
+      "totalImageCount": 0,
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 906.95996,
+          "heightPt": 510,
+          "widthMM": 319.955,
+          "heightMM": 179.917,
+          "aspectRatio": 1.778353,
+          "sizeWithinHalfMillimeterOf320x180": true,
+          "characterCount": 1006,
+          "koreanSyllableCount": 514,
+          "replacementCharacterCount": 0,
+          "fontSizesPt": [
+            {
+              "size": 7.99,
+              "characterCount": 455
+            },
+            {
+              "size": 9.0,
+              "characterCount": 207
+            },
+            {
+              "size": 9.75,
+              "characterCount": 69
+            },
+            {
+              "size": 10.0,
+              "characterCount": 206
+            },
+            {
+              "size": 12.0,
+              "characterCount": 21
+            },
+            {
+              "size": 13.99,
+              "characterCount": 28
+            },
+            {
+              "size": 19.99,
+              "characterCount": 20
+            }
+          ],
+          "fontNames": [
+            "AAAAAA+IBMPlexSansKR-SemiBold",
+            "BAAAAA+IBMPlexSansKR-SemiBold",
+            "CAAAAA+IBMPlexSansKR-SemiBold",
+            "DAAAAA+IBMPlexSansKR-SemiBold",
+            "EAAAAA+IBMPlexSansKR-SemiBold",
+            "FAAAAA+IBMPlexSansKR-SemiBold",
+            "GAAAAA+IBMPlexSansKR-Regular",
+            "HAAAAA+IBMPlexSansKR-Regular",
+            "IAAAAA+IBMPlexSansKR-Regular",
+            "JAAAAA+IBMPlexSansKR-Regular",
+            "KAAAAA+IBMPlexSansKR-Regular",
+            "LAAAAA+IBMPlexSansKR-Regular",
+            "MAAAAA+IBMPlexSansKR-SemiBold",
+            "NAAAAA+IBMPlexSansKR-Regular",
+            "OAAAAA+IBMPlexSansKR-Regular",
+            "PAAAAA+IBMPlexSansKR-SemiBold",
+            "QAAAAA+IBMPlexSansKR-SemiBold",
+            "RAAAAA+IBMPlexSansKR-Regular",
+            "SAAAAA+TimesNewRomanPSMT"
+          ],
+          "embeddedFonts": [
+            {
+              "resource": "/F4",
+              "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F5",
+              "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F6",
+              "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F7",
+              "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F8",
+              "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F9",
+              "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F10",
+              "name": "/GAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F11",
+              "name": "/HAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F12",
+              "name": "/IAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F13",
+              "name": "/JAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F14",
+              "name": "/KAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F15",
+              "name": "/LAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F16",
+              "name": "/MAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F17",
+              "name": "/NAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F18",
+              "name": "/OAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F19",
+              "name": "/PAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F20",
+              "name": "/QAAAAA+IBMPlexSansKR-SemiBold",
+              "embedded": true
+            },
+            {
+              "resource": "/F21",
+              "name": "/RAAAAA+IBMPlexSansKR-Regular",
+              "embedded": true
+            },
+            {
+              "resource": "/F22",
+              "name": "/SAAAAA+TimesNewRomanPSMT",
+              "embedded": true
+            }
+          ],
+          "characterBoundsPt": [
+            25.512,
+            20.235,
+            881.225,
+            493.818
+          ],
+          "outsidePageCharacterCount": 0,
+          "outsidePageExamples": [],
+          "overlappingCharacterPairCount": 0,
+          "overlapExamples": [],
+          "imageTextOverlaps": [],
+          "imageCount": 0,
+          "images": [],
+          "links": [
+            {
+              "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+              "rectPt": [
+                62.25,
+                27.0,
+                119.25,
+                39.0
+              ]
+            },
+            {
+              "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+              "rectPt": [
+                126.0,
+                27.0,
+                183.0,
+                39.0
+              ]
+            },
+            {
+              "url": "https://www.fnss.com.tr/en/media/press-releases/fnss-showcases-pars-alpha-8x8-and-marine-assault-vehicle-mav-saha-expo-2024-1833",
+              "rectPt": [
+                189.0,
+                27.0,
+                241.5,
+                39.0
+              ]
+            },
+            {
+              "url": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+              "rectPt": [
+                248.25,
+                27.0,
+                462.75,
+                39.0
+              ]
+            },
+            {
+              "url": "https://sahaexpo.com/showday/saha-day-3.pdf",
+              "rectPt": [
+                468.75,
+                27.0,
+                676.5,
+                39.0
+              ]
+            },
+            {
+              "url": "https://sahaexpo.com/showday/saha-day-2.pdf",
+              "rectPt": [
+                25.5,
+                16.5,
+                233.25,
+                28.5
+              ]
+            }
+          ],
+          "fullWidthTextAndImageFreeBands": [
+            {
+              "topMM": 10.31,
+              "bottomMM": 13.6,
+              "heightMM": 3.29
+            },
+            {
+              "topMM": 25.39,
+              "bottomMM": 29.92,
+              "heightMM": 4.53
+            },
+            {
+              "topMM": 34.86,
+              "bottomMM": 46.74,
+              "heightMM": 11.88
+            },
+            {
+              "topMM": 50.97,
+              "bottomMM": 55.67,
+              "heightMM": 4.7
+            },
+            {
+              "topMM": 59.11,
+              "bottomMM": 70.7,
+              "heightMM": 11.59
+            },
+            {
+              "topMM": 89.54,
+              "bottomMM": 126.79,
+              "heightMM": 37.25
+            },
+            {
+              "topMM": 130.32,
+              "bottomMM": 133.55,
+              "heightMM": 3.24
+            },
+            {
+              "topMM": 147.75,
+              "bottomMM": 153.72,
+              "heightMM": 5.97
+            }
+          ],
+          "themeTextBottomMM": 89.54,
+          "comparisonRuleTopMM": 123.56,
+          "themeToComparisonRuleGapMM": 34.02
+        }
+      ],
+      "themes": [
+        {
+          "title": "궤도차량·포탑 조합",
+          "productId": "tulpar-korhan",
+          "photoId": null,
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true
+          },
+          "extractedColumnText": "궤도차량·포탑 조합\n01\n현장사진 미확보\n해당 회차에서 식별·표시 가능한 사진이 필요합니다.\n2026 제조사는 TULPAR·KORHAN 구성을 소개했다. 2024 발표 목\n록만으로 이 형상의 현장 부재를 단정하지 않는다.\nOtokar · ASELSAN · TULPAR · KORHAN 통합형",
+          "expectedSummaryAtCheck": "2026 제조사는 TULPAR·KORHAN 구성을 소개했다. 2024 발표 목록만으로 이 형상의 현장 부재를 단정하지 않는다."
+        },
+        {
+          "title": "차체의 임무장비 선택",
+          "productId": "cobra-ii-bee-eater",
+          "photoId": null,
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true
+          },
+          "extractedColumnText": "차체의 임무장비 선택\n02\n현장사진 미확보\n해당 회차에서 식별·표시 가능한 사진이 필요합니다.\nCOBRA II는 2024 KESKIN형, 2026 DASAL UAV형으로 소개됐\n다. 탑재 구성의 차이를 보여주며 성능 우열을 뜻하지 않는다.\nOtokar · DASAL · COBRA II · 차량탑재 UAV 구성",
+          "expectedSummaryAtCheck": "COBRA II는 2024 KESKIN형, 2026 DASAL UAV형으로 소개됐다. 탑재 구성의 차이를 보여주며 성능 우열을 뜻하지 않는다."
+        },
+        {
+          "title": "같은 조합의 전시 연속성",
+          "productId": "pars-alpha",
+          "photoId": null,
+          "checks": {
+            "title": true,
+            "summary": true,
+            "before": true,
+            "after": true,
+            "productName": true
+          },
+          "extractedColumnText": "같은 조합의 전시 연속성\n03\n현장사진 미확보\n해당 회차에서 식별·표시 가능한 사진이 필요합니다.\nPARS ALPHA·TEBER-II는 2024 사전 발표와 2026 제조사 회고에\n모두 등장한다. 같은 명칭만으로 세부 형상의 동일성은 확정할 수 없\n다.\nFNSS · PARS ALPHA 8×8",
+          "expectedSummaryAtCheck": "PARS ALPHA·TEBER-II는 2024 사전 발표와 2026 제조사 회고에 모두 등장한다. 같은 명칭만으로 세부 형상의 동일성은 확정할 수 없다."
+        }
+      ],
+      "headingPresent": true,
+      "scopePresent": true,
+      "interpretationPresent": true,
+      "limitationsPresent": [
+        true,
+        true,
+        true
+      ],
+      "comparisonNotePresent": true,
+      "missingExpectedLinkUrls": [],
+      "uniqueLinkUrlCount": 6,
+      "render": {
+        "command": [
+          "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+          "-r",
+          "150",
+          "-png",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\final\\fieldnote-saha-2026.pdf",
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-saha-2026"
+        ],
+        "exitCode": 0,
+        "stderr": "",
+        "resolutionDpi": 150,
+        "files": [
+          "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\final\\fieldnote-saha-2026-1.png"
+        ]
+      },
+      "visualReview": {
+        "checked": true,
+        "clippedText": false,
+        "overlappingText": false,
+        "brokenKoreanGlyphs": false,
+        "missingExpectedPhotos": false,
+        "imageFit": "contain; no new display cropping observed",
+        "layoutAccepted": true
+      },
+      "contentDriftFromCurrentCompiledData": [],
+      "bottomTextClearanceMM": 5.71,
+      "comparisonToBaseline": {
+        "baselineSha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91",
+        "sameBytesAsBaseline": true,
+        "baselineGapToComparisonRuleMM": 34.02,
+        "finalGapToComparisonRuleMM": 34.02
+      }
+    }
+  ],
+  "baseline": {
+    "reports": [
+      {
+        "eventId": "adex-2025",
+        "status": "baseline_visual_review_complete",
+        "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-adex-2025.pdf",
+        "bytes": 1029547,
+        "sha256": "be587ef25b5f7a717143a5ecd1a4942baf33bd8f7785e4bf94b8fa7c0340194e",
+        "pageCount": 1,
+        "expectedPageCount": 1,
+        "expectedPhotoCount": 3,
+        "totalImageCount": 3,
+        "pages": [
+          {
+            "page": 1,
+            "widthPt": 906.95996,
+            "heightPt": 510,
+            "widthMM": 319.955,
+            "heightMM": 179.917,
+            "aspectRatio": 1.778353,
+            "sizeWithinHalfMillimeterOf320x180": true,
+            "characterCount": 972,
+            "koreanSyllableCount": 603,
+            "replacementCharacterCount": 0,
+            "fontSizesPt": [
+              {
+                "size": 7.99,
+                "characterCount": 573
+              },
+              {
+                "size": 9.0,
+                "characterCount": 190
+              },
+              {
+                "size": 10.0,
+                "characterCount": 156
+              },
+              {
+                "size": 13.99,
+                "characterCount": 25
+              },
+              {
+                "size": 19.99,
+                "characterCount": 28
+              }
+            ],
+            "fontNames": [
+              "AAAAAA+IBMPlexSansKR-SemiBold",
+              "BAAAAA+IBMPlexSansKR-SemiBold",
+              "CAAAAA+IBMPlexSansKR-SemiBold",
+              "DAAAAA+IBMPlexSansKR-SemiBold",
+              "EAAAAA+IBMPlexSansKR-SemiBold",
+              "FAAAAA+IBMPlexSansKR-SemiBold",
+              "GAAAAA+IBMPlexSansKR-SemiBold",
+              "HAAAAA+IBMPlexSansKR-Regular",
+              "IAAAAA+IBMPlexSansKR-Regular",
+              "JAAAAA+IBMPlexSansKR-Regular",
+              "KAAAAA+IBMPlexSansKR-Regular",
+              "LAAAAA+IBMPlexSansKR-Regular",
+              "MAAAAA+IBMPlexSansKR-Regular",
+              "NAAAAA+IBMPlexSansKR-Regular",
+              "OAAAAA+IBMPlexSansKR-Regular",
+              "PAAAAA+IBMPlexSansKR-Regular",
+              "QAAAAA+IBMPlexSansKR-SemiBold",
+              "RAAAAA+IBMPlexSansKR-Regular",
+              "SAAAAA+IBMPlexSansKR-SemiBold",
+              "TAAAAA+IBMPlexSansKR-Regular"
+            ],
+            "embeddedFonts": [
+              {
+                "resource": "/F4",
+                "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F5",
+                "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F6",
+                "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F7",
+                "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F8",
+                "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F9",
+                "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F10",
+                "name": "/GAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F11",
+                "name": "/HAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F12",
+                "name": "/IAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F13",
+                "name": "/JAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F14",
+                "name": "/KAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F15",
+                "name": "/LAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F16",
+                "name": "/MAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F17",
+                "name": "/NAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F20",
+                "name": "/OAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F21",
+                "name": "/PAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F23",
+                "name": "/QAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F25",
+                "name": "/RAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F26",
+                "name": "/SAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F27",
+                "name": "/TAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              }
+            ],
+            "characterBoundsPt": [
+              25.512,
+              20.235,
+              878.166,
+              493.818
+            ],
+            "outsidePageCharacterCount": 0,
+            "outsidePageExamples": [],
+            "overlappingCharacterPairCount": 0,
+            "overlapExamples": [],
+            "imageTextOverlaps": [],
+            "imageCount": 3,
+            "images": [
+              {
+                "boxPt": [
+                  93.75,
+                  102.0,
+                  229.5,
+                  192.75
+                ],
+                "widthMM": 47.89,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1616,
+                  1080
+                ],
+                "name": "X18"
+              },
+              {
+                "boxPt": [
+                  385.5,
+                  102.0,
+                  521.25,
+                  192.75
+                ],
+                "widthMM": 47.89,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1800,
+                  1200
+                ],
+                "name": "X22"
+              },
+              {
+                "boxPt": [
+                  677.25,
+                  102.0,
+                  813.75,
+                  192.75
+                ],
+                "widthMM": 48.154,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1800,
+                  1200
+                ],
+                "name": "X24"
+              }
+            ],
+            "links": [
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+                "rectPt": [
+                  25.5,
+                  282.75,
+                  56.25,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+                "rectPt": [
+                  62.25,
+                  282.75,
+                  90.75,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+                "rectPt": [
+                  317.25,
+                  273.0,
+                  348.0,
+                  285.0
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+                "rectPt": [
+                  354.0,
+                  273.0,
+                  382.5,
+                  285.0
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+                "rectPt": [
+                  609.75,
+                  282.75,
+                  639.75,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+                "rectPt": [
+                  646.5,
+                  282.75,
+                  675.0,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://blog.hyundai-rotem.co.kr/905",
+                "rectPt": [
+                  62.25,
+                  27.0,
+                  163.5,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+                "rectPt": [
+                  169.5,
+                  27.0,
+                  288.0,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://www.asiatime.co.kr/article/20251023500386",
+                "rectPt": [
+                  294.0,
+                  27.0,
+                  369.75,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyCate=&keyField=&keyIdx=5102&keyWord=&page=",
+                "rectPt": [
+                  375.75,
+                  27.0,
+                  453.0,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016",
+                "rectPt": [
+                  459.0,
+                  27.0,
+                  536.25,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+                "rectPt": [
+                  542.25,
+                  27.0,
+                  670.5,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+                "rectPt": [
+                  676.5,
+                  27.0,
+                  804.0,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+                "rectPt": [
+                  25.5,
+                  16.5,
+                  144.0,
+                  28.5
+                ]
+              }
+            ],
+            "fullWidthTextAndImageFreeBands": [
+              {
+                "topMM": 10.31,
+                "bottomMM": 13.6,
+                "heightMM": 3.29
+              },
+              {
+                "topMM": 25.39,
+                "bottomMM": 29.92,
+                "heightMM": 4.53
+              },
+              {
+                "topMM": 100.12,
+                "bottomMM": 126.79,
+                "heightMM": 26.66
+              },
+              {
+                "topMM": 130.32,
+                "bottomMM": 133.55,
+                "heightMM": 3.24
+              },
+              {
+                "topMM": 147.75,
+                "bottomMM": 153.72,
+                "heightMM": 5.97
+              }
+            ],
+            "themeTextBottomMM": 100.12,
+            "comparisonRuleTopMM": 123.56,
+            "themeToComparisonRuleGapMM": 23.44
+          }
+        ],
+        "themes": [
+          {
+            "title": "고객별 구성의 구체화",
+            "productId": "k2pl",
+            "photoId": "photo-f27315794918d9b8ddce",
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true
+            },
+            "extractedColumnText": "고객별 구성의 구체화\n01\n서울 ADEX 2025 현대로템 전시관의 K2PL — 앞쪽 램제트 엔진 모형과 함께 전시\n현대로템 / 현대자동차그룹 · 2025 현장사진\n사진 원문 · 이용조건\nK2PL은 폴란드 요구에 맞춘 구성을 설명한다. 전시품의 실차·모형 분\n류에는 자료 간 표현 차이가 남는다.\n현대로템 · K2PL",
+            "expectedSummaryAtCheck": "K2PL은 폴란드 요구에 맞춘 구성을 설명한다. 전시품의 실차·모형 분류에는 자료 간 표현 차이가 남는다."
+          },
+          {
+            "title": "통합과 형상 선택",
+            "productId": "adex25-wia-rcws-ai",
+            "photoId": "photo-406026b01ffa0009623a",
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true
+            },
+            "extractedColumnText": "통합과 형상 선택\n02\n서울 ADEX 2025 현대위아 부스의 RCWS 3종 — 40mm·12.7mm·7.62mm 전시대\n실물\n현대위아 / 현대자동차그룹 · 2025 현장사진\n사진 원문 · 이용조건\nRCWS 전시대는 3개 구경을 보여 준다. ADS는 기존 차량형과 새 일\n체형 소개를 구분해야 한다.\n현대위아 · 12.7mm/40mm AI 기반 RCWS",
+            "expectedSummaryAtCheck": "RCWS 전시대는 3개 구경을 보여 준다. ADS는 기존 차량형과 새 일체형 소개를 구분해야 한다."
+          },
+          {
+            "title": "임무별 차량군의 전개",
+            "productId": "tasman-military",
+            "photoId": "photo-88508f17c41d264626d0",
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true
+            },
+            "extractedColumnText": "임무별 차량군의 전개\n03\nADEX 2025 타스만 군용 지휘차와 베어샤시 전시\n기아 / 현대자동차그룹 · 2025 현장사진\n사진 원문 · 이용조건\n타스만 지휘차와 샤시, KMTV·KLTV 파생형을 함께 제시했다. KHTV\n는 개발 목표를 담은 모형이다.\n기아 · 타스만 군용 지휘차",
+            "expectedSummaryAtCheck": "타스만 지휘차와 샤시, KMTV·KLTV 파생형을 함께 제시했다. KHTV는 개발 목표를 담은 모형이다."
+          }
+        ],
+        "headingPresent": true,
+        "scopePresent": true,
+        "interpretationPresent": true,
+        "limitationsPresent": [
+          true,
+          true,
+          true
+        ],
+        "comparisonNotePresent": true,
+        "missingExpectedLinkUrls": [],
+        "uniqueLinkUrlCount": 8,
+        "render": {
+          "command": [
+            "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+            "-r",
+            "150",
+            "-png",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-adex-2025.pdf",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-adex-2025"
+          ],
+          "exitCode": 0,
+          "stderr": "",
+          "resolutionDpi": 150,
+          "files": [
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-adex-2025-1.png"
+          ]
+        },
+        "contentDriftSinceBaseline": [],
+        "visualReview": {
+          "checked": true,
+          "clippedText": false,
+          "overlappingText": false,
+          "brokenKoreanGlyphs": false,
+          "missingExpectedPhotos": false,
+          "needsLargerPhotos": true
+        }
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "status": "baseline_visual_review_complete",
+        "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-eurosatory-2026.pdf",
+        "bytes": 1321106,
+        "sha256": "d0af8642a40d53c07b87a842ab1f2c4e8bdb639d8770300ea2885aad0d75a30a",
+        "pageCount": 1,
+        "expectedPageCount": 1,
+        "expectedPhotoCount": 3,
+        "totalImageCount": 3,
+        "pages": [
+          {
+            "page": 1,
+            "widthPt": 906.95996,
+            "heightPt": 510,
+            "widthMM": 319.955,
+            "heightMM": 179.917,
+            "aspectRatio": 1.778353,
+            "sizeWithinHalfMillimeterOf320x180": true,
+            "characterCount": 869,
+            "koreanSyllableCount": 583,
+            "replacementCharacterCount": 0,
+            "fontSizesPt": [
+              {
+                "size": 7.99,
+                "characterCount": 480
+              },
+              {
+                "size": 9.0,
+                "characterCount": 177
+              },
+              {
+                "size": 10.0,
+                "characterCount": 163
+              },
+              {
+                "size": 13.99,
+                "characterCount": 27
+              },
+              {
+                "size": 19.99,
+                "characterCount": 22
+              }
+            ],
+            "fontNames": [
+              "AAAAAA+IBMPlexSansKR-SemiBold",
+              "BAAAAA+IBMPlexSansKR-SemiBold",
+              "CAAAAA+IBMPlexSansKR-SemiBold",
+              "DAAAAA+IBMPlexSansKR-SemiBold",
+              "EAAAAA+IBMPlexSansKR-SemiBold",
+              "FAAAAA+IBMPlexSansKR-SemiBold",
+              "GAAAAA+IBMPlexSansKR-SemiBold",
+              "HAAAAA+IBMPlexSansKR-SemiBold",
+              "IAAAAA+IBMPlexSansKR-SemiBold",
+              "JAAAAA+IBMPlexSansKR-Regular",
+              "KAAAAA+IBMPlexSansKR-Regular",
+              "LAAAAA+IBMPlexSansKR-Regular",
+              "MAAAAA+IBMPlexSansKR-Regular",
+              "NAAAAA+IBMPlexSansKR-Regular",
+              "OAAAAA+IBMPlexSansKR-Regular",
+              "PAAAAA+IBMPlexSansKR-SemiBold",
+              "QAAAAA+IBMPlexSansKR-Regular",
+              "RAAAAA+IBMPlexSansKR-Regular",
+              "SAAAAA+IBMPlexSansKR-Regular",
+              "TAAAAA+IBMPlexSansKR-SemiBold",
+              "UAAAAA+IBMPlexSansKR-Regular"
+            ],
+            "embeddedFonts": [
+              {
+                "resource": "/F4",
+                "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F5",
+                "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F6",
+                "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F7",
+                "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F8",
+                "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F9",
+                "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F10",
+                "name": "/GAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F11",
+                "name": "/HAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F12",
+                "name": "/IAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F13",
+                "name": "/JAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F14",
+                "name": "/KAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F15",
+                "name": "/LAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F16",
+                "name": "/MAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F17",
+                "name": "/NAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F18",
+                "name": "/OAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F19",
+                "name": "/PAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F22",
+                "name": "/QAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F23",
+                "name": "/RAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F24",
+                "name": "/SAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F27",
+                "name": "/TAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F28",
+                "name": "/UAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              }
+            ],
+            "characterBoundsPt": [
+              25.512,
+              20.235,
+              878.146,
+              493.818
+            ],
+            "outsidePageCharacterCount": 0,
+            "outsidePageExamples": [],
+            "overlappingCharacterPairCount": 0,
+            "overlapExamples": [],
+            "imageTextOverlaps": [],
+            "imageCount": 3,
+            "images": [
+              {
+                "boxPt": [
+                  81.0,
+                  102.0,
+                  242.25,
+                  192.75
+                ],
+                "widthMM": 56.885,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1800,
+                  1013
+                ],
+                "name": "X20"
+              },
+              {
+                "boxPt": [
+                  372.75,
+                  102.0,
+                  534.0,
+                  192.75
+                ],
+                "widthMM": 56.885,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1800,
+                  1013
+                ],
+                "name": "X25"
+              },
+              {
+                "boxPt": [
+                  677.25,
+                  102.0,
+                  813.75,
+                  192.75
+                ],
+                "widthMM": 48.154,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1800,
+                  1200
+                ],
+                "name": "X26"
+              }
+            ],
+            "links": [
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+                "rectPt": [
+                  25.5,
+                  282.75,
+                  56.25,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+                "rectPt": [
+                  62.25,
+                  282.75,
+                  90.75,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+                "rectPt": [
+                  317.25,
+                  282.75,
+                  348.0,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+                "rectPt": [
+                  354.0,
+                  282.75,
+                  382.5,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+                "rectPt": [
+                  609.75,
+                  282.75,
+                  639.75,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+                "rectPt": [
+                  646.5,
+                  282.75,
+                  675.0,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+                "rectPt": [
+                  62.25,
+                  16.5,
+                  189.75,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+                "rectPt": [
+                  195.75,
+                  16.5,
+                  337.5,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://www.eurosatory.com/wp-content/uploads/2025/02/EN-CP_Bilan_EUROSATORY_July24.pdf",
+                "rectPt": [
+                  343.5,
+                  16.5,
+                  474.0,
+                  28.5
+                ]
+              }
+            ],
+            "fullWidthTextAndImageFreeBands": [
+              {
+                "topMM": 10.31,
+                "bottomMM": 13.6,
+                "heightMM": 3.29
+              },
+              {
+                "topMM": 25.39,
+                "bottomMM": 29.92,
+                "heightMM": 4.53
+              },
+              {
+                "topMM": 96.69,
+                "bottomMM": 130.49,
+                "heightMM": 33.81
+              },
+              {
+                "topMM": 134.02,
+                "bottomMM": 137.26,
+                "heightMM": 3.24
+              },
+              {
+                "topMM": 151.45,
+                "bottomMM": 157.42,
+                "heightMM": 5.97
+              }
+            ],
+            "themeTextBottomMM": 96.69,
+            "comparisonRuleTopMM": 127.26,
+            "themeToComparisonRuleGapMM": 30.58
+          }
+        ],
+        "themes": [
+          {
+            "title": "픽업의 지휘 임무형",
+            "productId": "eu-tasman-c2",
+            "photoId": "photo-999005f47b49d93d96ef",
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true
+            },
+            "extractedColumnText": "픽업의 지휘 임무형\n01\nEurosatory 2026 · 타스만 군용 지휘차 실차\n기아 / 현대자동차그룹 · 2026 현장사진\n사진 원문 · 이용조건\n타스만 군용 지휘차 실차를 제시했다. 픽업 기반에 지휘차 특수사양을\n더한 구성을 보여준다.\nKia · 타스만 군용 지휘차",
+            "expectedSummaryAtCheck": "타스만 군용 지휘차 실차를 제시했다. 픽업 기반에 지휘차 특수사양을 더한 구성을 보여준다."
+          },
+          {
+            "title": "수송용 파생형의 제시",
+            "productId": "eu-kltv-cargo",
+            "photoId": "photo-ce3d7958065066487fe7",
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true
+            },
+            "extractedColumnText": "수송용 파생형의 제시\n02\nEurosatory 2026 · KLTV 2인용 카고 전면·측면 실차\n기아 / 현대자동차그룹 · 2026 현장사진\n사진 원문 · 이용조건\nKLTV 2인용 카고는 실차로 소개됐다. 함께 출품한 중·대형 표준차 모\n형과 전시 형태를 구분한다.\nKia · KLTV 2인용 카고",
+            "expectedSummaryAtCheck": "KLTV 2인용 카고는 실차로 소개됐다. 함께 출품한 중·대형 표준차 모형과 전시 형태를 구분한다."
+          },
+          {
+            "title": "차량과 탑재체계의 결합",
+            "productId": "eu-light-105",
+            "photoId": "photo-81610d7ae35d4bd5b354",
+            "checks": {
+              "title": true,
+              "summary": false,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true
+            },
+            "extractedColumnText": "차량과 탑재체계의 결합\n03\nEurosatory 2026의 경량화 105mm 자주포 — 전시 현장\n현대위아 / 현대자동차그룹 · 2026 현장사진\n사진 원문 · 이용조건\n현대위아는 경량화 105mm 자주포를 실물로 전시했다고 밝혔다. 전\n시 사진만으로 양산·배치 완료를 판단하지 않는다.\nHyundai WIA · 경량화 105mm 자주포",
+            "expectedSummaryAtCheck": "현대위아는 경량화 105mm 자주포의 실물 전시를 발표했다. 양산·배치 완료는 미확인이다."
+          }
+        ],
+        "headingPresent": true,
+        "scopePresent": true,
+        "interpretationPresent": true,
+        "limitationsPresent": [
+          true,
+          true,
+          true
+        ],
+        "comparisonNotePresent": true,
+        "missingExpectedLinkUrls": [],
+        "uniqueLinkUrlCount": 3,
+        "render": {
+          "command": [
+            "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+            "-r",
+            "150",
+            "-png",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-eurosatory-2026.pdf",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-eurosatory-2026"
+          ],
+          "exitCode": 0,
+          "stderr": "",
+          "resolutionDpi": 150,
+          "files": [
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-eurosatory-2026-1.png"
+          ]
+        },
+        "contentDriftSinceBaseline": [
+          {
+            "productId": "eu-light-105",
+            "field": "summary"
+          }
+        ],
+        "visualReview": {
+          "checked": true,
+          "clippedText": false,
+          "overlappingText": false,
+          "brokenKoreanGlyphs": false,
+          "missingExpectedPhotos": false,
+          "needsLargerPhotos": true
+        }
+      },
+      {
+        "eventId": "dsei-2025",
+        "status": "baseline_visual_review_complete",
+        "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-dsei-2025.pdf",
+        "bytes": 1219286,
+        "sha256": "6d82356dd1093c81839ccb936cba23b14b06c7d009bc5fa28d92d7c9943a4835",
+        "pageCount": 1,
+        "expectedPageCount": 1,
+        "expectedPhotoCount": 3,
+        "totalImageCount": 3,
+        "pages": [
+          {
+            "page": 1,
+            "widthPt": 906.95996,
+            "heightPt": 510,
+            "widthMM": 319.955,
+            "heightMM": 179.917,
+            "aspectRatio": 1.778353,
+            "sizeWithinHalfMillimeterOf320x180": true,
+            "characterCount": 1036,
+            "koreanSyllableCount": 587,
+            "replacementCharacterCount": 0,
+            "fontSizesPt": [
+              {
+                "size": 7.99,
+                "characterCount": 616
+              },
+              {
+                "size": 9.0,
+                "characterCount": 202
+              },
+              {
+                "size": 10.0,
+                "characterCount": 172
+              },
+              {
+                "size": 13.99,
+                "characterCount": 28
+              },
+              {
+                "size": 19.99,
+                "characterCount": 18
+              }
+            ],
+            "fontNames": [
+              "AAAAAA+IBMPlexSansKR-SemiBold",
+              "BAAAAA+IBMPlexSansKR-SemiBold",
+              "CAAAAA+IBMPlexSansKR-SemiBold",
+              "DAAAAA+IBMPlexSansKR-SemiBold",
+              "EAAAAA+IBMPlexSansKR-SemiBold",
+              "FAAAAA+IBMPlexSansKR-SemiBold",
+              "GAAAAA+IBMPlexSansKR-SemiBold",
+              "HAAAAA+IBMPlexSansKR-Regular",
+              "IAAAAA+IBMPlexSansKR-Regular",
+              "JAAAAA+IBMPlexSansKR-Regular",
+              "KAAAAA+IBMPlexSansKR-Regular",
+              "LAAAAA+IBMPlexSansKR-Regular",
+              "MAAAAA+IBMPlexSansKR-Regular",
+              "NAAAAA+IBMPlexSansKR-Regular",
+              "OAAAAA+IBMPlexSansKR-Regular",
+              "PAAAAA+IBMPlexSansKR-Regular",
+              "QAAAAA+IBMPlexSansKR-Regular",
+              "RAAAAA+IBMPlexSansKR-SemiBold",
+              "SAAAAA+IBMPlexSansKR-SemiBold",
+              "TAAAAA+IBMPlexSansKR-SemiBold"
+            ],
+            "embeddedFonts": [
+              {
+                "resource": "/F4",
+                "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F5",
+                "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F6",
+                "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F7",
+                "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F8",
+                "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F9",
+                "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F10",
+                "name": "/GAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F11",
+                "name": "/HAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F12",
+                "name": "/IAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F13",
+                "name": "/JAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F14",
+                "name": "/KAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F15",
+                "name": "/LAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F16",
+                "name": "/MAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F19",
+                "name": "/NAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F20",
+                "name": "/OAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F23",
+                "name": "/PAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F24",
+                "name": "/QAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F25",
+                "name": "/RAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F26",
+                "name": "/SAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F27",
+                "name": "/TAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              }
+            ],
+            "characterBoundsPt": [
+              25.512,
+              20.235,
+              878.626,
+              493.818
+            ],
+            "outsidePageCharacterCount": 0,
+            "outsidePageExamples": [],
+            "overlappingCharacterPairCount": 0,
+            "overlapExamples": [],
+            "imageTextOverlaps": [],
+            "imageCount": 3,
+            "images": [
+              {
+                "boxPt": [
+                  81.0,
+                  102.0,
+                  242.25,
+                  192.75
+                ],
+                "widthMM": 56.885,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1920,
+                  1080
+                ],
+                "name": "X17"
+              },
+              {
+                "boxPt": [
+                  385.5,
+                  102.0,
+                  521.25,
+                  192.75
+                ],
+                "widthMM": 47.89,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1024,
+                  683
+                ],
+                "name": "X21"
+              },
+              {
+                "boxPt": [
+                  677.25,
+                  102.0,
+                  813.75,
+                  192.75
+                ],
+                "widthMM": 48.154,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1800,
+                  1200
+                ],
+                "name": "X22"
+              }
+            ],
+            "links": [
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+                "rectPt": [
+                  25.5,
+                  282.75,
+                  56.25,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+                "rectPt": [
+                  62.25,
+                  282.75,
+                  90.75,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.flickr.com/photos/dyvroeth/54783778059/",
+                "rectPt": [
+                  317.25,
+                  282.75,
+                  348.0,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+                "rectPt": [
+                  354.0,
+                  282.75,
+                  382.5,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025",
+                "rectPt": [
+                  609.75,
+                  282.75,
+                  639.75,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.patriagroup.com/newsroom/images?page=1",
+                "rectPt": [
+                  646.5,
+                  282.75,
+                  675.0,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+                "rectPt": [
+                  62.25,
+                  16.5,
+                  166.5,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+                "rectPt": [
+                  172.5,
+                  16.5,
+                  285.0,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
+                "rectPt": [
+                  291.75,
+                  16.5,
+                  345.0,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+                "rectPt": [
+                  351.75,
+                  16.5,
+                  405.75,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom",
+                "rectPt": [
+                  411.75,
+                  16.5,
+                  465.75,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://www.patriagroup.com/newsroom/images?page=1",
+                "rectPt": [
+                  472.5,
+                  16.5,
+                  507.0,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025",
+                "rectPt": [
+                  511.5,
+                  16.5,
+                  571.5,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://www.flickr.com/photos/dyvroeth/54783778059/",
+                "rectPt": [
+                  576.0,
+                  16.5,
+                  602.25,
+                  28.5
+                ]
+              }
+            ],
+            "fullWidthTextAndImageFreeBands": [
+              {
+                "topMM": 10.31,
+                "bottomMM": 13.6,
+                "heightMM": 3.29
+              },
+              {
+                "topMM": 25.39,
+                "bottomMM": 29.92,
+                "heightMM": 4.53
+              },
+              {
+                "topMM": 96.69,
+                "bottomMM": 126.79,
+                "heightMM": 30.1
+              },
+              {
+                "topMM": 130.32,
+                "bottomMM": 133.55,
+                "heightMM": 3.24
+              },
+              {
+                "topMM": 147.75,
+                "bottomMM": 153.72,
+                "heightMM": 5.97
+              }
+            ],
+            "themeTextBottomMM": 96.69,
+            "comparisonRuleTopMM": 123.56,
+            "themeToComparisonRuleGapMM": 26.88
+          }
+        ],
+        "themes": [
+          {
+            "title": "특장 기반을 함께 제시",
+            "productId": "kia-platforms-dsei2025",
+            "photoId": "photo-648d50af60ebb4f3032a",
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true
+            },
+            "extractedColumnText": "특장 기반을 함께 제시\n01\nDSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시\n기아 / 현대자동차그룹 · 2025 현장사진\n사진 원문 · 이용조건\n기아는 타스만 쇼카와 KLTV 베어샤시·축소 모형을 소개했다. 쇼카의\n양산 일정은 이 발표에서 확인되지 않는다.\nKia · 타스만 특수목적 쇼카 · KLTV 베어샤시",
+            "expectedSummaryAtCheck": "기아는 타스만 쇼카와 KLTV 베어샤시·축소 모형을 소개했다. 쇼카의 양산 일정은 이 발표에서 확인되지 않는다."
+          },
+          {
+            "title": "기존 통신체계와의 연동",
+            "productId": "gdams-dsei2025",
+            "photoId": "photo-759379832c8e0bb07807",
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true
+            },
+            "extractedColumnText": "기존 통신체계와의 연동\n02\nBabcock 부스에 전시된 GDAMS 120mm 체계\ndyvroeth · 2025 현장사진\n사진 원문 · 이용조건\nBabcock은 GDAMS와 BCIP의 통신 연동 시연을 발표했다. 차량별\n통합 완료나 군 채택을 입증한 자료는 아니다.\nST Engineering / Babcock · GDAMS · 전술차량 연동 전시",
+            "expectedSummaryAtCheck": "Babcock은 GDAMS와 BCIP의 통신 연동 시연을 발표했다. 차량별 통합 완료나 군 채택을 입증한 자료는 아니다."
+          },
+          {
+            "title": "차량 계열과 현지 협력",
+            "productId": "patria-6x6",
+            "photoId": "dsei25-patria-6x6-c4",
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true,
+              "conversionNotice": true
+            },
+            "extractedColumnText": "차량 계열과 현지 협력\n03\nDSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형\nPhoto: Patria · 2025 현장사진\n사진 원문 · 이용조건 · 웹 표시용 축소·JPEG 압축본\nPatria는 6×6 지휘형·병력수송형을 각각 안내하고 영국 생산 협력을\n발표했다. 전시 구성과 생산 계획을 구분한다.\nPatria · Patria 6×6",
+            "expectedSummaryAtCheck": "Patria는 6×6 지휘형·병력수송형을 각각 안내하고 영국 생산 협력을 발표했다. 전시 구성과 생산 계획을 구분한다."
+          }
+        ],
+        "headingPresent": true,
+        "scopePresent": true,
+        "interpretationPresent": true,
+        "limitationsPresent": [
+          true,
+          true,
+          true
+        ],
+        "comparisonNotePresent": true,
+        "missingExpectedLinkUrls": [],
+        "uniqueLinkUrlCount": 9,
+        "render": {
+          "command": [
+            "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+            "-r",
+            "150",
+            "-png",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-dsei-2025.pdf",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-dsei-2025"
+          ],
+          "exitCode": 0,
+          "stderr": "",
+          "resolutionDpi": 150,
+          "files": [
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-dsei-2025-1.png"
+          ]
+        },
+        "contentDriftSinceBaseline": [],
+        "visualReview": {
+          "checked": true,
+          "clippedText": false,
+          "overlappingText": false,
+          "brokenKoreanGlyphs": false,
+          "missingExpectedPhotos": false,
+          "needsLargerPhotos": true
+        }
+      },
+      {
+        "eventId": "idex-2025",
+        "status": "baseline_visual_review_complete",
+        "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-idex-2025.pdf",
+        "bytes": 8833099,
+        "sha256": "f297fd37a883f7533149c07396cd0bd19901cae0bc846e89a6196403647a3df2",
+        "pageCount": 1,
+        "expectedPageCount": 1,
+        "expectedPhotoCount": 3,
+        "totalImageCount": 3,
+        "pages": [
+          {
+            "page": 1,
+            "widthPt": 906.95996,
+            "heightPt": 510,
+            "widthMM": 319.955,
+            "heightMM": 179.917,
+            "aspectRatio": 1.778353,
+            "sizeWithinHalfMillimeterOf320x180": true,
+            "characterCount": 1058,
+            "koreanSyllableCount": 476,
+            "replacementCharacterCount": 0,
+            "fontSizesPt": [
+              {
+                "size": 7.99,
+                "characterCount": 584
+              },
+              {
+                "size": 9.0,
+                "characterCount": 227
+              },
+              {
+                "size": 10.0,
+                "characterCount": 198
+              },
+              {
+                "size": 13.99,
+                "characterCount": 28
+              },
+              {
+                "size": 19.99,
+                "characterCount": 21
+              }
+            ],
+            "fontNames": [
+              "AAAAAA+IBMPlexSansKR-SemiBold",
+              "BAAAAA+IBMPlexSansKR-SemiBold",
+              "CAAAAA+IBMPlexSansKR-SemiBold",
+              "DAAAAA+IBMPlexSansKR-SemiBold",
+              "EAAAAA+IBMPlexSansKR-SemiBold",
+              "FAAAAA+IBMPlexSansKR-SemiBold",
+              "GAAAAA+IBMPlexSansKR-SemiBold",
+              "HAAAAA+IBMPlexSansKR-SemiBold",
+              "IAAAAA+IBMPlexSansKR-Regular",
+              "JAAAAA+IBMPlexSansKR-Regular",
+              "KAAAAA+IBMPlexSansKR-Regular",
+              "LAAAAA+IBMPlexSansKR-Regular",
+              "MAAAAA+IBMPlexSansKR-Regular",
+              "NAAAAA+IBMPlexSansKR-Regular",
+              "OAAAAA+IBMPlexSansKR-Regular",
+              "PAAAAA+IBMPlexSansKR-Regular",
+              "QAAAAA+IBMPlexSansKR-SemiBold",
+              "RAAAAA+IBMPlexSansKR-SemiBold",
+              "SAAAAA+IBMPlexSansKR-Regular",
+              "TAAAAA+IBMPlexSansKR-Regular",
+              "UAAAAA+IBMPlexSansKR-Regular",
+              "VAAAAA+IBMPlexSansKR-Regular"
+            ],
+            "embeddedFonts": [
+              {
+                "resource": "/F4",
+                "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F5",
+                "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F6",
+                "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F7",
+                "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F8",
+                "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F9",
+                "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F10",
+                "name": "/GAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F11",
+                "name": "/HAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F12",
+                "name": "/IAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F13",
+                "name": "/JAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F14",
+                "name": "/KAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F15",
+                "name": "/LAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F16",
+                "name": "/MAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F19",
+                "name": "/NAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F20",
+                "name": "/OAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F21",
+                "name": "/PAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F23",
+                "name": "/QAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F25",
+                "name": "/RAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F26",
+                "name": "/SAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F27",
+                "name": "/TAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F28",
+                "name": "/UAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F29",
+                "name": "/VAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              }
+            ],
+            "characterBoundsPt": [
+              25.512,
+              20.235,
+              881.255,
+              493.818
+            ],
+            "outsidePageCharacterCount": 0,
+            "outsidePageExamples": [],
+            "overlappingCharacterPairCount": 0,
+            "overlapExamples": [],
+            "imageTextOverlaps": [],
+            "imageCount": 3,
+            "images": [
+              {
+                "boxPt": [
+                  101.25,
+                  102.0,
+                  222.0,
+                  192.75
+                ],
+                "widthMM": 42.598,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1800,
+                  1350
+                ],
+                "name": "X17"
+              },
+              {
+                "boxPt": [
+                  419.25,
+                  102.0,
+                  487.5,
+                  192.75
+                ],
+                "widthMM": 24.077,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1350,
+                  1800
+                ],
+                "name": "X22"
+              },
+              {
+                "boxPt": [
+                  684.75,
+                  102.0,
+                  806.25,
+                  192.75
+                ],
+                "widthMM": 42.862,
+                "heightMM": 32.015,
+                "sourcePixels": [
+                  1600,
+                  1200
+                ],
+                "name": "X24"
+              }
+            ],
+            "links": [
+              {
+                "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV.jpg",
+                "rectPt": [
+                  25.5,
+                  282.75,
+                  56.25,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://creativecommons.org/licenses/by/4.0/",
+                "rectPt": [
+                  62.25,
+                  282.75,
+                  97.5,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://commons.wikimedia.org/wiki/File:Ajban_452A.jpg",
+                "rectPt": [
+                  317.25,
+                  282.75,
+                  348.0,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://creativecommons.org/licenses/by/4.0/",
+                "rectPt": [
+                  354.0,
+                  282.75,
+                  389.25,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://commons.wikimedia.org/wiki/File:Cockerill_i-X_at_IDEX_2025.jpg",
+                "rectPt": [
+                  609.75,
+                  282.75,
+                  639.75,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://creativecommons.org/licenses/by/4.0/",
+                "rectPt": [
+                  646.5,
+                  282.75,
+                  681.0,
+                  294.75
+                ]
+              },
+              {
+                "url": "https://edgegroup.ae/share/pdf/news/576",
+                "rectPt": [
+                  62.25,
+                  16.5,
+                  139.5,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://edgegroup.ae/news/edge-showcase-large-portfolio-advanced-technology-and-defence-solutions-idex-2023-0",
+                "rectPt": [
+                  145.5,
+                  16.5,
+                  222.75,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+                "rectPt": [
+                  229.5,
+                  16.5,
+                  306.0,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://johncockerill.com/en/press-and-news/news/idex-2023-cockerill-i-x-innovative-turrets-and-simulation-in-the-spotlight-of-john-cockerill-defense/",
+                "rectPt": [
+                  312.75,
+                  16.5,
+                  396.0,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://johncockerill.com/en/press-and-news/news/john-cockerill-defense-idex-2025/",
+                "rectPt": [
+                  402.75,
+                  16.5,
+                  486.0,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://commons.wikimedia.org/wiki/File:Havoc_8x8_RCV.jpg",
+                "rectPt": [
+                  492.75,
+                  16.5,
+                  520.5,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://commons.wikimedia.org/wiki/File:Ajban_452A.jpg",
+                "rectPt": [
+                  525.0,
+                  16.5,
+                  552.75,
+                  28.5
+                ]
+              },
+              {
+                "url": "https://commons.wikimedia.org/wiki/File:Cockerill_i-X_at_IDEX_2025.jpg",
+                "rectPt": [
+                  557.25,
+                  16.5,
+                  583.5,
+                  28.5
+                ]
+              }
+            ],
+            "fullWidthTextAndImageFreeBands": [
+              {
+                "topMM": 10.31,
+                "bottomMM": 13.6,
+                "heightMM": 3.29
+              },
+              {
+                "topMM": 25.39,
+                "bottomMM": 29.92,
+                "heightMM": 4.53
+              },
+              {
+                "topMM": 96.69,
+                "bottomMM": 130.49,
+                "heightMM": 33.81
+              },
+              {
+                "topMM": 134.02,
+                "bottomMM": 137.26,
+                "heightMM": 3.24
+              },
+              {
+                "topMM": 151.45,
+                "bottomMM": 157.42,
+                "heightMM": 5.97
+              }
+            ],
+            "themeTextBottomMM": 96.69,
+            "comparisonRuleTopMM": 127.26,
+            "themeToComparisonRuleGapMM": 30.58
+          }
+        ],
+        "themes": [
+          {
+            "title": "무인 플랫폼 선택지",
+            "productId": "havoc-8x8",
+            "photoId": "photo-d230f00bf90029fc0a2e",
+            "checks": {
+              "title": true,
+              "summary": false,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true,
+              "visibleLicense": true,
+              "conversionNotice": true
+            },
+            "extractedColumnText": "무인 플랫폼 선택지\n01\nHAVOC 8×8 RCV · 현장사진 1\nCezary Filip Krzymowski · 2025 현장사진\n사진 원문 · CC BY 4.0 · 웹 표시용 축소·WebP 변환본\n무인차는 2023에도 소개됐다. 2025 HAVOC 공개는 선택지 확장 사\n례이며, 이전 개념차의 직접 후속형인지는 미확인이다.\nMilrem Robotics · EDGE · HAVOC 8×8 RCV",
+            "expectedSummaryAtCheck": "2025 HAVOC은 무인차 선택지 확장 사례다. 2023 NIMR 개념차의 직접 후속형인지는 미확인이다."
+          },
+          {
+            "title": "임무별 파생형의 구체화",
+            "productId": "ajban-family",
+            "photoId": "photo-954ad88a75d6531185e2",
+            "checks": {
+              "title": true,
+              "summary": false,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true,
+              "visibleLicense": true,
+              "conversionNotice": true
+            },
+            "extractedColumnText": "임무별 파생형의 구체화\n02\nAJBAN 452A · IDEX 2025 전시\nCezary Filip Krzymowski · 2025 현장사진\n사진 원문 · CC BY 4.0 · 웹 표시용 축소·WebP 변환본\nAJBAN MK2의 452A·432AU·441AE를 공개했다. 사진은 452A\n이며, 다른 파생형과 동일 차량으로 취급하지 않는다.\nNIMR · EDGE · AJBAN 계열",
+            "expectedSummaryAtCheck": "AJBAN MK2의 452A·432AU·441AE를 공개했다. 사진의 452A와 다른 파생형을 구분한다."
+          },
+          {
+            "title": "차량과 운용 지원의 묶음",
+            "productId": "cockerill-ix",
+            "photoId": "photo-77eec4976f1654c14cd9",
+            "checks": {
+              "title": true,
+              "summary": false,
+              "before": true,
+              "after": true,
+              "productName": true,
+              "photoCaption": true,
+              "photoCredit": true,
+              "visibleLicense": true,
+              "conversionNotice": true
+            },
+            "extractedColumnText": "차량과 운용 지원의 묶음\n03\nCockerill i-X · IDEX 2025 현장\nMztourist · 2025 현장사진\n사진 원문 · CC BY 4.0 · 웹 표시용 WebP 변환본\n제조사는 i-X 재출품과 OPTIMIS 인터페이스·Arquus 제품군을 함께\n소개했다. 소개 범위의 변화이며 통합시험 완료 판정은 아니다.\nJohn Cockerill Defense · Cockerill i-X",
+            "expectedSummaryAtCheck": "i-X와 OPTIMIS·Arquus 제품군을 함께 소개했다. 소개 범위의 확대이며 통합시험 완료를 뜻하지 않는다."
+          }
+        ],
+        "headingPresent": true,
+        "scopePresent": true,
+        "interpretationPresent": true,
+        "limitationsPresent": [
+          true,
+          true,
+          true
+        ],
+        "comparisonNotePresent": true,
+        "missingExpectedLinkUrls": [],
+        "uniqueLinkUrlCount": 9,
+        "render": {
+          "command": [
+            "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+            "-r",
+            "150",
+            "-png",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-idex-2025.pdf",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-idex-2025"
+          ],
+          "exitCode": 0,
+          "stderr": "",
+          "resolutionDpi": 150,
+          "files": [
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-idex-2025-1.png"
+          ]
+        },
+        "contentDriftSinceBaseline": [
+          {
+            "productId": "havoc-8x8",
+            "field": "summary"
+          },
+          {
+            "productId": "ajban-family",
+            "field": "summary"
+          },
+          {
+            "productId": "cockerill-ix",
+            "field": "summary"
+          }
+        ],
+        "visualReview": {
+          "checked": true,
+          "clippedText": false,
+          "overlappingText": false,
+          "brokenKoreanGlyphs": false,
+          "missingExpectedPhotos": false,
+          "needsLargerPhotos": true
+        }
+      },
+      {
+        "eventId": "saha-2026",
+        "status": "baseline_visual_review_complete",
+        "file": "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-saha-2026.pdf",
+        "bytes": 132750,
+        "sha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91",
+        "pageCount": 1,
+        "expectedPageCount": 1,
+        "expectedPhotoCount": 0,
+        "totalImageCount": 0,
+        "pages": [
+          {
+            "page": 1,
+            "widthPt": 906.95996,
+            "heightPt": 510,
+            "widthMM": 319.955,
+            "heightMM": 179.917,
+            "aspectRatio": 1.778353,
+            "sizeWithinHalfMillimeterOf320x180": true,
+            "characterCount": 1006,
+            "koreanSyllableCount": 514,
+            "replacementCharacterCount": 0,
+            "fontSizesPt": [
+              {
+                "size": 7.99,
+                "characterCount": 455
+              },
+              {
+                "size": 9.0,
+                "characterCount": 207
+              },
+              {
+                "size": 9.75,
+                "characterCount": 69
+              },
+              {
+                "size": 10.0,
+                "characterCount": 206
+              },
+              {
+                "size": 12.0,
+                "characterCount": 21
+              },
+              {
+                "size": 13.99,
+                "characterCount": 28
+              },
+              {
+                "size": 19.99,
+                "characterCount": 20
+              }
+            ],
+            "fontNames": [
+              "AAAAAA+IBMPlexSansKR-SemiBold",
+              "BAAAAA+IBMPlexSansKR-SemiBold",
+              "CAAAAA+IBMPlexSansKR-SemiBold",
+              "DAAAAA+IBMPlexSansKR-SemiBold",
+              "EAAAAA+IBMPlexSansKR-SemiBold",
+              "FAAAAA+IBMPlexSansKR-SemiBold",
+              "GAAAAA+IBMPlexSansKR-Regular",
+              "HAAAAA+IBMPlexSansKR-Regular",
+              "IAAAAA+IBMPlexSansKR-Regular",
+              "JAAAAA+IBMPlexSansKR-Regular",
+              "KAAAAA+IBMPlexSansKR-Regular",
+              "LAAAAA+IBMPlexSansKR-Regular",
+              "MAAAAA+IBMPlexSansKR-SemiBold",
+              "NAAAAA+IBMPlexSansKR-Regular",
+              "OAAAAA+IBMPlexSansKR-Regular",
+              "PAAAAA+IBMPlexSansKR-SemiBold",
+              "QAAAAA+IBMPlexSansKR-SemiBold",
+              "RAAAAA+IBMPlexSansKR-Regular",
+              "SAAAAA+TimesNewRomanPSMT"
+            ],
+            "embeddedFonts": [
+              {
+                "resource": "/F4",
+                "name": "/AAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F5",
+                "name": "/BAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F6",
+                "name": "/CAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F7",
+                "name": "/DAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F8",
+                "name": "/EAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F9",
+                "name": "/FAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F10",
+                "name": "/GAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F11",
+                "name": "/HAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F12",
+                "name": "/IAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F13",
+                "name": "/JAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F14",
+                "name": "/KAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F15",
+                "name": "/LAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F16",
+                "name": "/MAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F17",
+                "name": "/NAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F18",
+                "name": "/OAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F19",
+                "name": "/PAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F20",
+                "name": "/QAAAAA+IBMPlexSansKR-SemiBold",
+                "embedded": true
+              },
+              {
+                "resource": "/F21",
+                "name": "/RAAAAA+IBMPlexSansKR-Regular",
+                "embedded": true
+              },
+              {
+                "resource": "/F22",
+                "name": "/SAAAAA+TimesNewRomanPSMT",
+                "embedded": true
+              }
+            ],
+            "characterBoundsPt": [
+              25.512,
+              20.235,
+              881.225,
+              493.818
+            ],
+            "outsidePageCharacterCount": 0,
+            "outsidePageExamples": [],
+            "overlappingCharacterPairCount": 0,
+            "overlapExamples": [],
+            "imageTextOverlaps": [],
+            "imageCount": 0,
+            "images": [],
+            "links": [
+              {
+                "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+                "rectPt": [
+                  62.25,
+                  27.0,
+                  119.25,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+                "rectPt": [
+                  126.0,
+                  27.0,
+                  183.0,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://www.fnss.com.tr/en/media/press-releases/fnss-showcases-pars-alpha-8x8-and-marine-assault-vehicle-mav-saha-expo-2024-1833",
+                "rectPt": [
+                  189.0,
+                  27.0,
+                  241.5,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+                "rectPt": [
+                  248.25,
+                  27.0,
+                  462.75,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://sahaexpo.com/showday/saha-day-3.pdf",
+                "rectPt": [
+                  468.75,
+                  27.0,
+                  676.5,
+                  39.0
+                ]
+              },
+              {
+                "url": "https://sahaexpo.com/showday/saha-day-2.pdf",
+                "rectPt": [
+                  25.5,
+                  16.5,
+                  233.25,
+                  28.5
+                ]
+              }
+            ],
+            "fullWidthTextAndImageFreeBands": [
+              {
+                "topMM": 10.31,
+                "bottomMM": 13.6,
+                "heightMM": 3.29
+              },
+              {
+                "topMM": 25.39,
+                "bottomMM": 29.92,
+                "heightMM": 4.53
+              },
+              {
+                "topMM": 34.86,
+                "bottomMM": 46.74,
+                "heightMM": 11.88
+              },
+              {
+                "topMM": 50.97,
+                "bottomMM": 55.67,
+                "heightMM": 4.7
+              },
+              {
+                "topMM": 59.11,
+                "bottomMM": 70.7,
+                "heightMM": 11.59
+              },
+              {
+                "topMM": 89.54,
+                "bottomMM": 126.79,
+                "heightMM": 37.25
+              },
+              {
+                "topMM": 130.32,
+                "bottomMM": 133.55,
+                "heightMM": 3.24
+              },
+              {
+                "topMM": 147.75,
+                "bottomMM": 153.72,
+                "heightMM": 5.97
+              }
+            ],
+            "themeTextBottomMM": 89.54,
+            "comparisonRuleTopMM": 123.56,
+            "themeToComparisonRuleGapMM": 34.02
+          }
+        ],
+        "themes": [
+          {
+            "title": "궤도차량·포탑 조합",
+            "productId": "tulpar-korhan",
+            "photoId": null,
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true
+            },
+            "extractedColumnText": "궤도차량·포탑 조합\n01\n현장사진 미확보\n해당 회차에서 식별·표시 가능한 사진이 필요합니다.\n2026 제조사는 TULPAR·KORHAN 구성을 소개했다. 2024 발표 목\n록만으로 이 형상의 현장 부재를 단정하지 않는다.\nOtokar · ASELSAN · TULPAR · KORHAN 통합형",
+            "expectedSummaryAtCheck": "2026 제조사는 TULPAR·KORHAN 구성을 소개했다. 2024 발표 목록만으로 이 형상의 현장 부재를 단정하지 않는다."
+          },
+          {
+            "title": "차체의 임무장비 선택",
+            "productId": "cobra-ii-bee-eater",
+            "photoId": null,
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true
+            },
+            "extractedColumnText": "차체의 임무장비 선택\n02\n현장사진 미확보\n해당 회차에서 식별·표시 가능한 사진이 필요합니다.\nCOBRA II는 2024 KESKIN형, 2026 DASAL UAV형으로 소개됐\n다. 탑재 구성의 차이를 보여주며 성능 우열을 뜻하지 않는다.\nOtokar · DASAL · COBRA II · 차량탑재 UAV 구성",
+            "expectedSummaryAtCheck": "COBRA II는 2024 KESKIN형, 2026 DASAL UAV형으로 소개됐다. 탑재 구성의 차이를 보여주며 성능 우열을 뜻하지 않는다."
+          },
+          {
+            "title": "같은 조합의 전시 연속성",
+            "productId": "pars-alpha",
+            "photoId": null,
+            "checks": {
+              "title": true,
+              "summary": true,
+              "before": true,
+              "after": true,
+              "productName": true
+            },
+            "extractedColumnText": "같은 조합의 전시 연속성\n03\n현장사진 미확보\n해당 회차에서 식별·표시 가능한 사진이 필요합니다.\nPARS ALPHA·TEBER-II는 2024 사전 발표와 2026 제조사 회고에\n모두 등장한다. 같은 명칭만으로 세부 형상의 동일성은 확정할 수 없\n다.\nFNSS · PARS ALPHA 8×8",
+            "expectedSummaryAtCheck": "PARS ALPHA·TEBER-II는 2024 사전 발표와 2026 제조사 회고에 모두 등장한다. 같은 명칭만으로 세부 형상의 동일성은 확정할 수 없다."
+          }
+        ],
+        "headingPresent": true,
+        "scopePresent": true,
+        "interpretationPresent": true,
+        "limitationsPresent": [
+          true,
+          true,
+          true
+        ],
+        "comparisonNotePresent": true,
+        "missingExpectedLinkUrls": [],
+        "uniqueLinkUrlCount": 6,
+        "render": {
+          "command": [
+            "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+            "-r",
+            "150",
+            "-png",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\output\\pdf\\fieldnote-saha-2026.pdf",
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-saha-2026"
+          ],
+          "exitCode": 0,
+          "stderr": "",
+          "resolutionDpi": 150,
+          "files": [
+            "C:\\Users\\qkfhv\\Documents\\ChatGPT\\방산 전시회 웹앱\\exhibition-intelligence\\tmp\\pdf-qa2026-11-16\\baseline\\fieldnote-saha-2026-1.png"
+          ]
+        },
+        "contentDriftSinceBaseline": [],
+        "visualReview": {
+          "checked": true,
+          "clippedText": false,
+          "overlappingText": false,
+          "brokenKoreanGlyphs": false,
+          "missingExpectedPhotos": false,
+          "needsLargerPhotos": false
+        }
+      }
+    ],
+    "visualReview": {
+      "reviewedAllFiveRenderedPages": true,
+      "renderResolutionDpi": 150,
+      "observations": [
+        "All five PDFs have one 319.955 x 179.917 mm page; this is the expected 320 x 180 mm layout within browser rounding.",
+        "The three columns, headings, comparisons and footer remain aligned. Korean glyphs render normally; no visible clipping, text overlap or image/text collisions were found.",
+        "ADEX, Eurosatory, DSEI and IDEX each show three distinct report photos. SAHA intentionally shows three missing-photo placeholders and embeds no photo.",
+        "Captions and source links are small but readable at the intended page size. The smallest measured size is 7.99 pt, corresponding to the 8 pt print CSS after PDF rounding; all referenced fonts are embedded.",
+        "The 32 mm photo row occupies less visual area than the available space allows. Large empty bands separate theme content from the comparison section.",
+        "IDEX has visible CC BY 4.0, photographer credits and WebP conversion notices. DSEI Patria has its credit and JPEG conversion notice.",
+        "Portrait AJBAN is especially small at approximately 24.08 mm wide; photo enlargement should help subject inspection without cropping.",
+        "SAHA has no visual evidence to enlarge; retaining its 32 mm placeholders is reasonable."
+      ],
+      "defects": [],
+      "improvement": "Increase photo height to 45 mm while retaining contain fitting, current fonts, and 32 mm missing-photo placeholders."
+    },
+    "recommendation": {
+      "baselinePhotoHeightMM": 32,
+      "proposedPhotoHeightMM": 45,
+      "additionalHeightMM": 13,
+      "linearPhotoEnlargementPercent": 40.625,
+      "assessment": "The baseline has enough measured whitespace for this change; final regenerated PDFs still require verification.",
+      "clearanceProjection": [
+        {
+          "eventId": "adex-2025",
+          "baselineGapToComparisonRuleMM": 23.44,
+          "projectedGapAfterPhotoEnlargementMM": 10.44
+        },
+        {
+          "eventId": "eurosatory-2026",
+          "baselineGapToComparisonRuleMM": 30.58,
+          "projectedGapAfterPhotoEnlargementMM": 17.58
+        },
+        {
+          "eventId": "dsei-2025",
+          "baselineGapToComparisonRuleMM": 26.88,
+          "projectedGapAfterPhotoEnlargementMM": 13.88
+        },
+        {
+          "eventId": "idex-2025",
+          "baselineGapToComparisonRuleMM": 30.58,
+          "projectedGapAfterPhotoEnlargementMM": 17.58
+        },
+        {
+          "eventId": "saha-2026",
+          "baselineGapToComparisonRuleMM": 34.02,
+          "projectedGapAfterPhotoEnlargementMM": 34.02
+        }
+      ],
+      "minimumFontSizeCSSPt": 8,
+      "keepPhotoFit": "contain",
+      "finalVerificationRequired": [
+        "One page per report",
+        "All image heights approximately 45 mm for four photo reports",
+        "No text outside page or overlap",
+        "All footers, Korean strings, source links, credits and change notices intact"
+      ]
+    }
+  },
+  "verificationCommand": "bundled-python -X utf8 tmp/pdf-qa2026-11-16/inspect_reports.py final",
+  "visualReview": {
+    "reviewedAllFiveRenderedPages": true,
+    "resolutionDpi": 150,
+    "result": "accepted",
+    "observations": [
+      "All five final PDFs were opened as Poppler-rendered page images and inspected in full.",
+      "Four photo reports now display three approximately 44.979 mm-high photos each. Subject details are easier to inspect, especially the portrait AJBAN image, and the large unused middle band is reduced.",
+      "Photos retain their aspect ratios and remain fully inside the page. No new crop, overlap, broken glyph or clipped paragraph is visible.",
+      "The smallest measured text is 7.99 pt, corresponding to 8 pt CSS after browser rounding. Body text is 10 pt, comparison text 9 pt, section headings 13.99 pt and the main message 19.99 pt.",
+      "ADEX has the narrowest remaining theme-to-comparison clearance at 10.47 mm; DSEI has 13.91 mm and Eurosatory/IDEX have 17.61 mm. These gaps preserve a clear separation.",
+      "The lowest character ends approximately 5.71 mm above the page edge in every report. Footer limitations and evidence links remain visible.",
+      "All current report summaries and three-theme labels match compiled data, including the shortened Eurosatory and IDEX copy.",
+      "IDEX license names, photographer credits and WebP notices remain visibly readable. DSEI Patria credit and JPEG conversion notice remain visible.",
+      "SAHA retains its three 32 mm placeholders and explicitly describes missing usable event photos. Its final PDF is byte-identical to the accepted baseline."
+    ],
+    "defects": [],
+    "remainingContentLimitation": "SAHA has no displayable event photo in the approved dataset; this is disclosed in the report rather than filled with an unrelated image."
+  },
+  "summary": {
+    "pdfCount": 5,
+    "allOnePage": true,
+    "all320x180MMWithinBrowserRounding": true,
+    "allExpectedTextAndLinksPresent": true,
+    "allFontsEmbedded": true,
+    "outOfPageCharacterCount": 0,
+    "overlappingCharacterPairCount": 0,
+    "imageTextOverlapCount": 0,
+    "visiblePhotosTotal": 12,
+    "missingPhotoPlaceholders": 3,
+    "photoHeightMM": 44.979,
+    "smallestMeasuredFontPt": 7.99,
+    "lowestTextPageEdgeClearanceMM": 5.71
+  }
+}

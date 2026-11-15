@@ -1,0 +1,427 @@
+{
+  "asOf": "2026-11-16",
+  "baseUrl": "http://127.0.0.1:4174/exhibition-intelligence/preview/",
+  "environment": "IAB viewport simulation; not a physical handset",
+  "reportLayouts": [
+    {
+      "documentWidth": 1265,
+      "event": "dsei-2025",
+      "footerInside": true,
+      "height": 677.8125,
+      "images": [
+        {
+          "alt": "DSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시",
+          "loaded": true
+        },
+        {
+          "alt": "Babcock 부스에 전시된 GDAMS 120mm 체계",
+          "loaded": true
+        },
+        {
+          "alt": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1280,
+      "width": 1205
+    },
+    {
+      "documentWidth": 1265,
+      "event": "idex-2025",
+      "footerInside": true,
+      "height": 688.125,
+      "images": [
+        {
+          "alt": "HAVOC 8×8 RCV · 현장사진 1",
+          "loaded": true
+        },
+        {
+          "alt": "AJBAN 452A · IDEX 2025 전시",
+          "loaded": true
+        },
+        {
+          "alt": "Cockerill i-X · IDEX 2025 현장",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1280,
+      "width": 1205
+    },
+    {
+      "documentWidth": 1265,
+      "event": "eurosatory-2026",
+      "footerInside": true,
+      "height": 677.8125,
+      "images": [
+        {
+          "alt": "Eurosatory 2026 · 타스만 군용 지휘차 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026 · KLTV 2인용 카고 전면·측면 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026의 경량화 105mm 자주포 — 전시 현장",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1280,
+      "width": 1205
+    },
+    {
+      "documentWidth": 1265,
+      "event": "saha-2026",
+      "footerInside": true,
+      "height": 677.8125,
+      "images": [],
+      "sourceLinks": 0,
+      "viewport": 1280,
+      "width": 1205
+    },
+    {
+      "documentWidth": 375,
+      "event": "saha-2026",
+      "footerInside": true,
+      "height": 2205,
+      "images": [],
+      "sourceLinks": 0,
+      "viewport": 390,
+      "width": 347
+    },
+    {
+      "documentWidth": 375,
+      "event": "eurosatory-2026",
+      "footerInside": true,
+      "height": 2248.625,
+      "images": [
+        {
+          "alt": "Eurosatory 2026 · 타스만 군용 지휘차 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026 · KLTV 2인용 카고 전면·측면 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026의 경량화 105mm 자주포 — 전시 현장",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 390,
+      "width": 347
+    },
+    {
+      "documentWidth": 375,
+      "event": "idex-2025",
+      "footerInside": true,
+      "height": 2352.234375,
+      "images": [
+        {
+          "alt": "HAVOC 8×8 RCV · 현장사진 1",
+          "loaded": true
+        },
+        {
+          "alt": "AJBAN 452A · IDEX 2025 전시",
+          "loaded": true
+        },
+        {
+          "alt": "Cockerill i-X · IDEX 2025 현장",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 390,
+      "width": 347
+    },
+    {
+      "documentWidth": 375,
+      "event": "dsei-2025",
+      "footerInside": true,
+      "height": 2291.046875,
+      "images": [
+        {
+          "alt": "DSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시",
+          "loaded": true
+        },
+        {
+          "alt": "Babcock 부스에 전시된 GDAMS 120mm 체계",
+          "loaded": true
+        },
+        {
+          "alt": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 390,
+      "width": 347
+    },
+    {
+      "documentWidth": 1265,
+      "event": "idex-2025",
+      "footerInside": true,
+      "height": 677.8125,
+      "images": [
+        {
+          "alt": "HAVOC 8×8 RCV · 현장사진 1",
+          "loaded": true
+        },
+        {
+          "alt": "AJBAN 452A · IDEX 2025 전시",
+          "loaded": true
+        },
+        {
+          "alt": "Cockerill i-X · IDEX 2025 현장",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1280,
+      "width": 1205,
+      "revision": "shortened limitations"
+    },
+    {
+      "documentWidth": 1425,
+      "event": "dsei-2025",
+      "footerInside": true,
+      "height": 767.8125,
+      "images": [
+        {
+          "alt": "DSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시",
+          "loaded": true
+        },
+        {
+          "alt": "Babcock 부스에 전시된 GDAMS 120mm 체계",
+          "loaded": true
+        },
+        {
+          "alt": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1440,
+      "width": 1365
+    },
+    {
+      "documentWidth": 1425,
+      "event": "adex-2025",
+      "footerInside": true,
+      "height": 767.8125,
+      "images": [
+        {
+          "alt": "서울 ADEX 2025 현대로템 전시관의 K2PL — 앞쪽 램제트 엔진 모형과 함께 전시",
+          "loaded": true
+        },
+        {
+          "alt": "서울 ADEX 2025 현대위아 부스의 RCWS 3종 — 40mm·12.7mm·7.62mm 전시대 실물",
+          "loaded": true
+        },
+        {
+          "alt": "ADEX 2025 타스만 군용 지휘차와 베어샤시 전시",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1440,
+      "width": 1365
+    },
+    {
+      "documentWidth": 1425,
+      "event": "eurosatory-2026",
+      "footerInside": true,
+      "height": 794.921875,
+      "images": [
+        {
+          "alt": "Eurosatory 2026 · 타스만 군용 지휘차 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026 · KLTV 2인용 카고 전면·측면 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026의 경량화 105mm 자주포 — 전시 현장",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1440,
+      "width": 1365
+    },
+    {
+      "documentWidth": 1425,
+      "event": "idex-2025",
+      "footerInside": true,
+      "height": 794.921875,
+      "images": [
+        {
+          "alt": "HAVOC 8×8 RCV · 현장사진 1",
+          "loaded": true
+        },
+        {
+          "alt": "AJBAN 452A · IDEX 2025 전시",
+          "loaded": true
+        },
+        {
+          "alt": "Cockerill i-X · IDEX 2025 현장",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1440,
+      "width": 1365
+    },
+    {
+      "documentWidth": 1425,
+      "event": "saha-2026",
+      "footerInside": true,
+      "height": 767.8125,
+      "images": [],
+      "sourceLinks": 0,
+      "viewport": 1440,
+      "width": 1365
+    },
+    {
+      "documentWidth": 1425,
+      "event": "eurosatory-2026",
+      "footerInside": true,
+      "height": 767.8125,
+      "images": [
+        {
+          "alt": "Eurosatory 2026 · 타스만 군용 지휘차 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026 · KLTV 2인용 카고 전면·측면 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026의 경량화 105mm 자주포 — 전시 현장",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1440,
+      "width": 1365,
+      "revision": "shortened theme summaries"
+    },
+    {
+      "documentWidth": 1425,
+      "event": "idex-2025",
+      "footerInside": true,
+      "height": 767.8125,
+      "images": [
+        {
+          "alt": "HAVOC 8×8 RCV · 현장사진 1",
+          "loaded": true
+        },
+        {
+          "alt": "AJBAN 452A · IDEX 2025 전시",
+          "loaded": true
+        },
+        {
+          "alt": "Cockerill i-X · IDEX 2025 현장",
+          "loaded": true
+        }
+      ],
+      "sourceLinks": 6,
+      "viewport": 1440,
+      "width": 1365,
+      "revision": "shortened theme summaries"
+    }
+  ],
+  "patriaMobile": {
+    "documentWidth": 375,
+    "photos": [
+      {
+        "alt": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+        "loaded": true,
+        "width": 1800
+      },
+      {
+        "alt": "DSEI 2025 Patria TREMOS 전시대",
+        "loaded": true,
+        "width": 1800
+      },
+      {
+        "alt": "DSEI 2025 Patria TRACKX 측면 전시사진",
+        "loaded": true,
+        "width": 1800
+      },
+      {
+        "alt": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+        "loaded": true,
+        "width": 1800
+      },
+      {
+        "alt": "DSEI 2025 Patria 6×6 — Babcock 표기·CAVS 국기 전시형",
+        "loaded": true,
+        "width": 1800
+      }
+    ],
+    "productHeadings": [
+      "Patria TREMOS",
+      "Patria TRACKX",
+      "Patria 6×6"
+    ],
+    "viewport": 390
+  },
+  "productNavigation": {
+    "patria6x6Gallery": "CAVS 2/2 -> C4 1/2, separate configurations labelled, rights and processing notes visible",
+    "trackxReload": "URL product=dsei25-patria-trackx; activeElement product-dsei25-patria-trackx after reload"
+  },
+  "nativePdf": {
+    "browser": "Chrome guest, Windows CUA UI",
+    "destination": "Save as PDF",
+    "reports": [
+      "adex-2025",
+      "dsei-2025",
+      "idex-2025",
+      "eurosatory-2026",
+      "saha-2026"
+    ],
+    "previewPages": 1,
+    "savedFolder": "output/pdf",
+    "fileValidation": "See REDESIGN_PDF_VALIDATION_2026-11-16.json",
+    "finalFolder": "output/pdf/final",
+    "finalFiles": [
+      {
+        "event": "adex-2025",
+        "bytes": 1029551
+      },
+      {
+        "event": "eurosatory-2026",
+        "bytes": 1320006
+      },
+      {
+        "event": "dsei-2025",
+        "bytes": 1219253
+      },
+      {
+        "event": "idex-2025",
+        "bytes": 8831368
+      },
+      {
+        "event": "saha-2026",
+        "bytes": 132750
+      }
+    ],
+    "printImageHeightMm": 45,
+    "sahaNote": "Baseline PDF copied byte-for-byte: no report image, no text change, placeholder remains 32mm."
+  },
+  "screenshots": [
+    "report-dsei-desktop-2026-11-16.jpg",
+    "report-dsei-2026-11-16.jpg",
+    "report-idex-2026-11-16.jpg",
+    "report-eurosatory-2026-11-16.jpg",
+    "report-saha-2026-11-16.jpg",
+    "report-dsei-mobile-2026-11-16.jpg",
+    "patria-mobile-2026-11-16.jpg"
+  ]
+}

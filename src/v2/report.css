@@ -14,7 +14,7 @@
  .event-report-print-root .report-theme-grid,.event-report-print-root .report-change-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7mm;margin:0}
  .event-report-print-root .report-theme{margin:0}.event-report-print-root .report-theme-heading{margin-bottom:1.5mm}
  .event-report-print-root .report-theme h2{font-size:14pt;line-height:1.25}.event-report-print-root .report-theme-heading span{font-size:8pt}
- .event-report-print-root .report-theme img{height:32mm;width:100%;object-fit:contain;aspect-ratio:auto;max-height:none}
+ .event-report-print-root .report-theme img{height:45mm;width:100%;object-fit:contain;aspect-ratio:auto;max-height:none}
  .event-report-print-root .report-theme figcaption{font-size:8pt;line-height:1.25;margin-top:1mm}.event-report-print-root .report-theme figcaption small{font-size:8pt}
  .event-report-print-root .report-photo-links{font-size:8pt;line-height:1.25;margin-top:.5mm}
  .event-report-print-root .report-theme-summary{font-size:10pt;line-height:1.4;margin:1.5mm 0}

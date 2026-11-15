@@ -1,0 +1,166 @@
+{
+  "asOf": "2026-11-16",
+  "status": "verified_bundle_overall_goal_incomplete",
+  "scope": "40 product narratives and five bounded event reports; not all-company research completion",
+  "counts": {
+    "companies": 3685,
+    "products": 130,
+    "narratives": 40,
+    "sections": 200,
+    "productsWithDisplayEventPhotos": 18,
+    "narrativePhotoAssets": 19,
+    "allDisplayEventPhotos": 53,
+    "newAssets": 4,
+    "reports": 5
+  },
+  "eventCounts": [
+    {
+      "eventId": "adex-2025",
+      "companies": 375,
+      "products": 94,
+      "narratives": 26,
+      "narrativesWithDisplayPhotos": 7,
+      "narrativePhotoAssets": 6,
+      "allDisplayEventPhotos": 7,
+      "reportPhotos": 3
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "companies": 64,
+      "products": 9,
+      "narratives": 4,
+      "narrativesWithDisplayPhotos": 3,
+      "narrativePhotoAssets": 3,
+      "allDisplayEventPhotos": 22,
+      "reportPhotos": 3
+    },
+    {
+      "eventId": "dsei-2025",
+      "companies": 1743,
+      "products": 9,
+      "narratives": 5,
+      "narrativesWithDisplayPhotos": 5,
+      "narrativePhotoAssets": 6,
+      "allDisplayEventPhotos": 10,
+      "reportPhotos": 3
+    },
+    {
+      "eventId": "idex-2025",
+      "companies": 36,
+      "products": 10,
+      "narratives": 3,
+      "narrativesWithDisplayPhotos": 3,
+      "narrativePhotoAssets": 4,
+      "allDisplayEventPhotos": 14,
+      "reportPhotos": 3
+    },
+    {
+      "eventId": "saha-2026",
+      "companies": 1467,
+      "products": 8,
+      "narratives": 2,
+      "narrativesWithDisplayPhotos": 0,
+      "narrativePhotoAssets": 0,
+      "allDisplayEventPhotos": 0,
+      "reportPhotos": 0
+    }
+  ],
+  "commands": [
+    {
+      "command": "node scripts/prepare-redesign-content.mjs",
+      "exit": 0,
+      "result": "40 narratives, 200 sections, 5 reports"
+    },
+    {
+      "command": "npm run build",
+      "exit": 0,
+      "log": ".local-reports-build.log",
+      "sha256": "e4891f73966c8680aecd28b17be5c4fd7097ee09b55bcd8c3e46e3d633e109a8"
+    },
+    {
+      "command": "npm run check",
+      "exit": 0,
+      "tests": 200,
+      "pass": 200,
+      "fail": 0,
+      "skipped": 0,
+      "log": ".local-reports-check.log",
+      "sha256": "7a673f3d20c02d7f7ea18831aeba8f100dd6ee408e13f6881c7cc9e22f52452c"
+    }
+  ],
+  "lint": "No separate lint script; check includes JS syntax and data validation.",
+  "resolvedFailures": [
+    {
+      "issue": "Two tests assumed no reviewed report in later editions.",
+      "resolution": "Explicit report=null fallback fixture, new reviewed-report ownership and print race checks."
+    },
+    {
+      "issue": "Report source.note was discarded.",
+      "resolution": "sourceRecord preserves note or limitations; regression checked."
+    },
+    {
+      "issue": "CC BY image conversion notices absent in report.",
+      "resolution": "Visible CC license link and recorded conversion notice in screen and print."
+    },
+    {
+      "issue": "IDEX 1280px height +10px; Euro/IDEX 1440px height +27px.",
+      "resolution": "Concise summary/limits; measured 1205×677.8125 and 1365×767.8125 without clipping."
+    }
+  ],
+  "publicTextAudit": {
+    "files": 78,
+    "matches": 0,
+    "patterns": [
+      {
+        "id": "retired_camel_field",
+        "source": "workConnection"
+      },
+      {
+        "id": "retired_snake_predicate",
+        "source": "work_connection"
+      },
+      {
+        "id": "first_person_company_ko",
+        "source": "당사|우리\\s*회사"
+      },
+      {
+        "id": "internal_work_relation_ko",
+        "source": "업무\\s*(?:연결|관련|연계)|체계개발과의\\s*연결"
+      },
+      {
+        "id": "internal_work_relation_en",
+        "source": "Rotem\\s+work\\s+connection|our\\s+company|our\\s+work"
+      }
+    ],
+    "binaryPixelOcr": false
+  },
+  "browserEvidence": "docs/evidence/REDESIGN_REPORT_BROWSER_2026-11-16.json",
+  "photoEvidence": "docs/evidence/REDESIGN_PHOTO_INTAKE_2026-11-16.json",
+  "pdfEvidence": "docs/evidence/REDESIGN_PDF_VALIDATION_2026-11-16.json",
+  "remaining": [
+    "SAHA three report photos: field identity and reuse conditions not secured",
+    "Further narrative/photo coverage, including six reviewed research drafts not yet compiled",
+    "Full relevant-company research, official map/roster gaps, physical handset verification",
+    "Finished-version review before /preview/ publication"
+  ],
+  "publication": {
+    "pushed": false,
+    "deployed": false
+  },
+  "pdfValidation": {
+    "status": "passed",
+    "files": 5,
+    "pagesPerFile": 1,
+    "pageSizeMM": [
+      319.955,
+      179.917
+    ],
+    "minimumFontPt": 7.99,
+    "photoHeightMM": 44.979,
+    "photos": 12,
+    "clipping": 0,
+    "overlaps": 0,
+    "renderedVisualReview": 5,
+    "physicalHandset": false
+  }
+}

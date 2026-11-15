@@ -1,0 +1,212 @@
+{
+  "eventId": "saha-2026",
+  "asOf": "2026-11-16",
+  "title": "SAHA 2026",
+  "message": "차량·임무장비의 조합에서 읽는 변화와 연속성",
+  "scopeNote": "Otokar·FNSS의 세 출품 사례 기준 · 제조사 발표와 행사 기록 대조",
+  "comparisonEvent": "SAHA 2024",
+  "comparisonNote": "직전 회차의 발표 구성과 2026 소개를 비교했다. 동일 실차의 개선·성능 향상 비교가 아니며, 예고와 행사 후 회고를 구분한다.",
+  "themes": [
+    {
+      "title": "궤도차량·포탑 조합",
+      "summary": "2026 제조사는 TULPAR·KORHAN 구성을 소개했다. 2024 발표 목록만으로 이 형상의 현장 부재를 단정하지 않는다.",
+      "companyId": "org-261736017afc402204d0",
+      "productId": "tulpar-korhan",
+      "photoId": "",
+      "before": "동일 형상 비교 근거 미확보",
+      "after": "TULPAR·KORHAN 출품 발표",
+      "sourceIds": [
+        "report-saha-otokar-2024",
+        "research-es-otokar-saha-2026",
+        "report-saha-showdaily-day3"
+      ]
+    },
+    {
+      "title": "차체의 임무장비 선택",
+      "summary": "COBRA II는 2024 KESKIN형, 2026 DASAL UAV형으로 소개됐다. 탑재 구성의 차이를 보여주며 성능 우열을 뜻하지 않는다.",
+      "companyId": "org-d1f0494ffffe8855172b",
+      "productId": "cobra-ii-bee-eater",
+      "photoId": "",
+      "before": "COBRA II·KESKIN 발표",
+      "after": "COBRA II·DASAL UAV 구성",
+      "sourceIds": [
+        "report-saha-otokar-2024",
+        "research-es-otokar-saha-2026",
+        "report-saha-showdaily-day3"
+      ]
+    },
+    {
+      "title": "같은 조합의 전시 연속성",
+      "summary": "PARS ALPHA·TEBER-II는 2024 사전 발표와 2026 제조사 회고에 모두 등장한다. 같은 명칭만으로 세부 형상의 동일성은 확정할 수 없다.",
+      "companyId": "org-2dffde2d6bd01e4eaf2d",
+      "productId": "pars-alpha",
+      "photoId": "",
+      "before": "PARS ALPHA·TEBER-II 예고",
+      "after": "동일 명칭 조합의 전시 회고",
+      "sourceIds": [
+        "report-saha-fnss-2024",
+        "report-saha-fnss-2026-retrospective",
+        "report-saha-showdaily-day2"
+      ]
+    }
+  ],
+  "interpretation": "전시 구성에 따른 해석: 새로운 탑재 조합과 기존 조합의 재등장이 함께 보인다. 이번 사례만으로 행사 전체의 기술 진보나 군 채택 성과를 판단하지 않는다.",
+  "limitations": [
+    "현재 세 사례 모두 표시·재사용 조건까지 확인한 해당 회차 사진이 없다.",
+    "제조사 설명과 행사 매체의 재인용을 독립 성능 검증으로 집계하지 않는다.",
+    "TULPAR의 다른 포탑형, 일반 PARS ALPHA 사진을 이번 전시형 사진으로 대체하지 않는다."
+  ],
+  "sourceIds": [
+    "report-saha-otokar-2024",
+    "research-es-otokar-saha-2026",
+    "report-saha-fnss-2024",
+    "report-saha-fnss-2026-retrospective",
+    "report-saha-showdaily-day3",
+    "report-saha-showdaily-day2"
+  ],
+  "sources": [
+    {
+      "id": "report-saha-otokar-2024",
+      "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+      "title": "Otokar to Showcase 5 Armored Vehicles at SAHA EXPO 2024",
+      "publisher": "Otokar",
+      "publishedAt": "2024-10-21",
+      "eventEditionId": "saha-2024",
+      "type": "manufacturer_newsroom",
+      "independence": "primary_single_origin",
+      "note": "개막 전 제조사 발표. COBRA II의 KESKIN 구성을 명시한다. 목록의 누락만으로 다른 제품의 현장 부재를 확정하지 않는다."
+    },
+    {
+      "id": "research-es-otokar-saha-2026",
+      "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+      "title": "Otokar Demonstrates Its Global Strength in Land Systems at SAHA 2026",
+      "publisher": "Otokar",
+      "publishedAt": "2026-05-05",
+      "eventEditionId": "saha-2026",
+      "type": "manufacturer_newsroom",
+      "independence": "primary_single_origin",
+      "note": "개막일 발표에 예고와 현재 전시 표현이 함께 있다. 제품별 현장 실물·모형 및 작동 상태의 독립 검증은 아니다."
+    },
+    {
+      "id": "report-saha-fnss-2024",
+      "url": "https://www.fnss.com.tr/en/media/press-releases/fnss-showcases-pars-alpha-8x8-and-marine-assault-vehicle-mav-saha-expo-2024-1833",
+      "title": "FNSS showcases PARS ALPHA and MAV at SAHA EXPO 2024",
+      "publisher": "FNSS",
+      "publishedAt": "2024-10-18",
+      "eventEditionId": "saha-2024",
+      "type": "manufacturer_newsroom",
+      "independence": "primary_single_origin",
+      "note": "개막 전 출품 예고. 이번 조회에서 직접 열람은 timeout/502였으며 검색에 수록된 공식 본문과 동일 공식 PDF 발췌로 구성을 확인했다. 실제 전시·성능 검증으로 취급하지 않는다."
+    },
+    {
+      "id": "report-saha-fnss-2026-retrospective",
+      "url": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+      "title": "FNSS Focus Q2 2026 Newsletter",
+      "publisher": "FNSS Savunma Sistemleri A.Ş. — 회사 LinkedIn 발행",
+      "publishedAt": "2026-07-27",
+      "eventEditionId": "saha-2026",
+      "type": "manufacturer_retrospective",
+      "independence": "primary_single_origin",
+      "note": "행사 후 제조사 회고에서 PARS ALPHA·TEBER-II 전시를 명시한다. FNSS 사이트 뉴스레터 주소의 직접 열람 실패 후 회사 명의 공개 게시 본문을 확인했다."
+    },
+    {
+      "id": "report-saha-showdaily-day3",
+      "url": "https://sahaexpo.com/showday/saha-day-3.pdf",
+      "title": "SAHA 2026 Official Show Daily — Day 3, Otokar Showcases Land Systems, p.20",
+      "publisher": "Global Business Press / SAHA Official Show Daily",
+      "publishedAt": "2026-05-07",
+      "eventEditionId": "saha-2026",
+      "type": "official_show_daily",
+      "note": "Otokar 담당자 취재와 제조사 발표 재인용이 섞여 있다. PDF 쪽머리 일부에 MARCH가 있으나 인접 면의 MAY와 본문 행사 날짜가 일치한다. 날짜 표기 오류를 제한으로 남기며 기술 수치는 사용하지 않는다."
+    },
+    {
+      "id": "report-saha-showdaily-day2",
+      "url": "https://sahaexpo.com/showday/saha-day-2.pdf",
+      "title": "SAHA 2026 Official Show Daily — Day 2, FNSS Highlights, p.16",
+      "publisher": "Global Business Press / SAHA Official Show Daily",
+      "publishedAt": "2026-05-06",
+      "eventEditionId": "saha-2026",
+      "type": "official_show_daily",
+      "note": "FNSS 출품 조합을 행사 기사로 대조했다. 기사 안의 현재 전시·향후 전시 표현을 구분한다. PDF 일부 쪽머리의 MARCH/MAY 표기 불일치는 독립 검증 완료로 간주하지 않는다."
+    }
+  ],
+  "evidence": {
+    "status": "researched_local_draft_not_compiled_or_published",
+    "checkedAt": "2026-11-16",
+    "validation": {
+      "jsonParse": "pass",
+      "existingCompanyProductRelations": "3/3 pass",
+      "photoIds": "3개 모두 빈값 유지 — 참고사진 승격 없음",
+      "sourceReferences": "6개 sourceId 해석 성공, 중복 ID 없음",
+      "trailingWhitespace": "none",
+      "otokarExistingNarrativeAndNewThemeWordCount": 130,
+      "wordCountMethod": "공백 기준 어절수; 기존 Otokar narrative와 두 theme 제목·요약·before·after 합계. 공통 문구·근거 메타데이터는 별도 검토 대상.",
+      "applicationBuildOrBrowserQA": "미연결 조사 초안이므로 미실행"
+    },
+    "plan": {
+      "goal": "기존 세 제품의 이번 전시 구성을 직전 회차 자료와 제한적으로 비교한다.",
+      "writeScope": "docs/research-v2/redesign-report-saha.json만 작성",
+      "impact": "기존 회사·제품·사진·출품 상태 및 src/data 변경 없음",
+      "risks": ["사전 발표를 현장 관찰로 승격", "목록 누락으로 부재 단정", "다른 회차 참고사진 혼용", "재사용권 미확정 사진 표시"],
+      "verification": "공식 본문/행사 매체 대조, JSON 구문, 기존 회사·제품 소유 관계와 출처 참조 검사"
+    },
+    "sourceChecks": [
+      {
+        "sourceIds": ["report-saha-otokar-2024", "research-es-otokar-saha-2026"],
+        "result": "공식 본문·발행일 열람. 공개 구성 명칭만 요약하고 운용 수치·성능 주장은 보고에서 제외.",
+        "comparisonDisposition": "COBRA II의 탑재 구성만 비교. TULPAR의 2024 부재 또는 2026 최초 공개 주장은 하지 않음."
+      },
+      {
+        "sourceId": "report-saha-fnss-2024",
+        "result": "공식 검색 본문·공식 PDF 발췌 확인. 직접 페이지와 PDF 열람은 timeout/502.",
+        "alternateOfficialUrls": [
+          "https://www.fnss.com.tr/tr/medya/haberler/fnss-pars-alpha-8x8-ve-zaha-ile-saha-expo-2024te-yerini-aldi",
+          "https://www.fnss.com.tr/uploads/PRESS_RELEASES/SAHA-EXPO-24/1729250197_fnss-is-ready-for-saha-expo-2024.pdf"
+        ],
+        "comparisonDisposition": "확인한 내용의 시점은 출품 예고다. 현장 실물 확인을 주장하지 않음."
+      },
+      {
+        "sourceId": "report-saha-fnss-2026-retrospective",
+        "result": "FNSS 회사 명의 LinkedIn 기사 전체 본문과 발행일 열람. SAHA 행사 회고 절 확인.",
+        "comparisonDisposition": "행사 후 제조사 기록으로 사용하며 독립 취재·전수 검증으로 집계하지 않음."
+      },
+      {
+        "sourceIds": ["report-saha-showdaily-day3", "report-saha-showdaily-day2"],
+        "result": "공식 행사 웹사이트가 제공한 24쪽 PDF 각각의 관련 기사 텍스트 확인.",
+        "comparisonDisposition": "관련 조합 명칭의 보조 대조. 제공자 발표와의 실질적 독립성은 일부 제한됨. 사진 픽셀·사용권 검증 미완료."
+      }
+    ],
+    "photoCandidates": [
+      {
+        "sourceUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+        "assetUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/news/otokar-880x460.jpg?ext=.jpg",
+        "caption": "공식 SAHA 2026 기사 대표 이미지",
+        "reviewStatus": "링크 확인. 픽셀·개별 형상·실제 촬영 회차 미검증.",
+        "rightsStatus": "공식 사이트의 서면 허가 제한 확인. 공개 복제·표시 승인 후보가 아님.",
+        "use": "별도 허가나 허용 조건 확보 전 원문 링크만 유지"
+      },
+      {
+        "sourceUrl": "https://sahaexpo.com/showday/saha-day-3.pdf",
+        "pageNumber": 20,
+        "caption": "Otokar 기사에 수록된 부스 전경 후보",
+        "reviewStatus": "검색 문서의 이미지 설명만 확인. PDF 픽셀과 세부 차량 형상은 미검증.",
+        "rightsStatus": "Global Business Press 자료의 공개 사진 재사용 허용 미확인",
+        "use": "출판사 권리 및 촬영자 확인 후 판단. PDF 추출 이미지를 자동 재게시하지 않음."
+      },
+      {
+        "sourceUrl": "https://www.reutersconnect.com/item/saha-2026-defense-expo-continues-in-istanbul/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwUEZDQU5Y",
+        "possibleExistingPhotoId": "photo-cf26216591f376dad8f8",
+        "caption": "기존 TULPAR 현장사진 링크",
+        "reviewStatus": "기존 원장 후보를 계승. 이번 원문·픽셀 재검증 없음.",
+        "rightsStatus": "기존 link-only 기록. 별도 라이선스 필요 여부 확인 전 직접 표시하지 않음."
+      }
+    ],
+    "photoSearchLimit": "이번 공식·공개 검색에서 세 제품의 SAHA 2026 현장사진에 적용할 공개 재사용 허용 조건을 확보하지 못했다. 일반 PARS ALPHA CC0 사진은 회차가 달라 대체하지 않았다.",
+    "downloadedPhotos": 0,
+    "remaining": [
+      "FNSS 2024 원문 직접 열람 재확인",
+      "세 제품의 해당 회차 사진 식별·권리·로딩 검증",
+      "보고서 앱 연결 및 16:9·모바일·실제 PDF 검증"
+    ]
+  }
+}

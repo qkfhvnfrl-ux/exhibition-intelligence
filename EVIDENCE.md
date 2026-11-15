@@ -98,3 +98,19 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 - Euro기아사진확대1800px,모바일3이미지로드,IDEX AJBAN441AE→452A순환과CC BY4/변환표시확인. DSEI/SAHA5항목과근거구분확인. 실제휴대폰·PDF검증아님.
 - 독립리뷰2건수정: 신규source독립성enum표준화,Euro105mm현재회차캡션정정. 신규사진다운로드0,기존사진7연결.
 - 재개시서버handle74416은Unknown process id로종료확인. 새보고조사agent3개는중단되어출력파일없음확인후재시작.
+
+## 2026-11-16 보고·사진 확대 검증
+
+- node scripts/prepare-redesign-content.mjs: 40서술/200항목/5보고. npm run build: exit0. 최종 npm run check: 200/200 pass, fail0, skipped0. 로그 .local-reports-build.log/.local-reports-check.log, SHA는 REDESIGN_REPORT_EXPANSION_2026-11-16.json에 기록.
+- 최초 검사 187/189: 나머지4회차에 보고가 없다고 전제한 fallback/인쇄 경합 fixture 2건 실패. fallback을 명시하고 5회차 보고 소유관계·인쇄 경쟁취소·CC변환고지 회귀 추가. Patria 회귀 초기 fixture의 기존 기아 서술 누락도 수정.
+- 출처 note 누락, CC 사진 변환 고지 누락, NIMR 개념차 제조사 생략을 독립 검토로 수정했다.
+- 브라우저: 1440/1280/390 검증. IDEX +10px, Euro/IDEX +27px 높이 넘침을 본문 압축으로 해결했다. 최종 16:9·footer 내부·사진 로딩·제품 링크 확인. REDESIGN_REPORT_BROWSER_2026-11-16.json 참조.
+- PDF: 기존 Windows 주소 판정 문제를 이번 Chrome 게스트/native CUA 경로에서 해결했다. 실제 Save as PDF로 5파일 저장. baseline 각1페이지, 약320×180mm, 한글·임베드폰트·모든필수링크, 페이지밖글자/겹침0 확인. 사진32→45mm 최종판 저장 후 별도 QA 중. 버튼 호출을 저장 성공으로 대신 집계하지 않았다.
+- 신규 Patria4장은 원문200·권리·픽셀·원본/표시본SHA/치수를 기록했다. ADEX 추가후보8건은 재사용허용 미확보로 표시 수에 포함하지 않았다.
+- 공개텍스트스캔0. 실제휴대폰·전체회사조사·SAHA보고사진·공개배포는 미완료. 사진/보고 묶음 증거는 docs/evidence/REDESIGN_REPORT_EXPANSION_2026-11-16.json.
+
+### 최종 PDF 판정 — 2026-11-16
+
+- output/pdf/final의 5파일 각각1쪽, 319.955×179.917mm, 최소7.99pt(8pt 반올림), 모든 글꼴 임베드. 15개 주제의 본문·비교·캡션·출처 링크 일치. 사진12개 높이44.979mm. SAHA사진0/미확보안내3개 유지. 페이지밖글자0·글자간/사진본문겹침0, 150dpi 렌더5개 시각 검토 통과.
+- REDESIGN_PDF_VALIDATION_2026-11-16.json에 각 파일 SHA256·치수·명령·링크 검증 저장. baseline5개와 최종5개 구분. SAHA는 변경 없는 기준본을 복사한 파일로 해시 동일함을 기록.
+- 최신 build/check200은 최종 문구 압축 이후 실행한 결과다. 문서 갱신만으로 검사를 반복하지 않는다. B03범위 completed, 전체 목표와 자료 확장 B04는 진행 중. 공개 배포 없음.

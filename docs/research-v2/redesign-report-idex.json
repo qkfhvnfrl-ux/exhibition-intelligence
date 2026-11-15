@@ -1,0 +1,257 @@
+{
+  "eventId": "idex-2025",
+  "asOf": "2026-11-16",
+  "title": "IDEX 2025",
+  "message": "무인 플랫폼과 임무별 파생형, 함께 제시한 제품군",
+  "scopeNote": "EDGE 계열 2사와 John Cockerill의 공개 발표 비교 · 행사 전체 조사 아님",
+  "comparisonEvent": "IDEX 2023",
+  "comparisonNote": "직전 회차의 전시·사전 발표를 구분해 비교 · 동일 차량의 성능 향상 비교 아님",
+  "themes": [
+    {
+      "title": "무인 플랫폼 선택지",
+      "summary": "2025 HAVOC은 무인차 선택지 확장 사례다. 2023 NIMR 개념차의 직접 후속형인지는 미확인이다.",
+      "companyId": "org-c0aa5fd472a380a0d1d6",
+      "productId": "havoc-8x8",
+      "photoId": "photo-d230f00bf90029fc0a2e",
+      "before": "THeMIS·Type X·NIMR 8×8 개념",
+      "after": "HAVOC 8×8 추가 공개",
+      "sourceIds": [
+        "report-idex23-edge-unmanned",
+        "idex25-edge-platforms-official-followup"
+      ]
+    },
+    {
+      "title": "임무별 파생형의 구체화",
+      "summary": "AJBAN MK2의 452A·432AU·441AE를 공개했다. 사진의 452A와 다른 파생형을 구분한다.",
+      "companyId": "org-3a42e32a1f0025e58e14",
+      "productId": "ajban-family",
+      "photoId": "photo-954ad88a75d6531185e2",
+      "before": "사전 발표: AJBAN·HAFEET 계열",
+      "after": "AJBAN MK2 파생형 3종 명시",
+      "sourceIds": [
+        "report-idex23-edge-preview",
+        "idex25-edge-platforms-official-followup"
+      ]
+    },
+    {
+      "title": "차량과 운용 지원의 묶음",
+      "summary": "i-X와 OPTIMIS·Arquus 제품군을 함께 소개했다. 소개 범위의 확대이며 통합시험 완료를 뜻하지 않는다.",
+      "companyId": "org-1417fcb4283b65d754c3",
+      "productId": "cockerill-ix",
+      "photoId": "photo-77eec4976f1654c14cd9",
+      "before": "i-X·포탑·시뮬레이터 소개",
+      "after": "i-X·OPTIMIS·Arquus 제품군",
+      "sourceIds": [
+        "report-idex23-cockerill",
+        "report-idex25-cockerill"
+      ]
+    }
+  ],
+  "interpretation": "전시 구성에 따른 해석: 확인 표본에서는 새 플랫폼과 함께 임무별 차량형·인터페이스·지원 제품군을 넓혀 제시한다. 판매 성과나 기술 성숙도를 뜻하지 않는다.",
+  "limitations": [
+    "제조사 발표 비교다. EDGE 계열은 단일 발행사 근거이며 독립 성능 검증이 아니다.",
+    "2023 AJBAN은 사전 발표다. 목록의 상세도 차이를 제품 수 증가로 환산하지 않는다.",
+    "사진은 해당 회차 외관만 보여 준다. 작동·성능·양산 여부는 미검증이다."
+  ],
+  "sourceIds": [
+    "report-idex23-edge-unmanned",
+    "report-idex23-edge-preview",
+    "idex25-edge-platforms-official-followup",
+    "report-idex23-cockerill",
+    "report-idex25-cockerill"
+  ],
+  "sources": [
+    {
+      "id": "report-idex23-edge-unmanned",
+      "url": "https://edgegroup.ae/share/pdf/news/576",
+      "title": "EDGE의 IDEX 2023 무인체계 발표",
+      "publisher": "EDGE Group",
+      "publishedAt": "2023-02-19",
+      "eventEditionId": "idex-2023",
+      "type": "manufacturer_release_pdf",
+      "independence": "primary_single_origin",
+      "note": "공식 PDF 2~3쪽의 Land 항목. HTML 원문은 조회 시간초과였으며 같은 발행사 PDF 본문으로 확인했다. PDF에 개막일 표현과 날짜가 맞지 않는 부분이 있어 발표일은 표기값만 기록한다."
+    },
+    {
+      "id": "report-idex23-edge-preview",
+      "url": "https://edgegroup.ae/news/edge-showcase-large-portfolio-advanced-technology-and-defence-solutions-idex-2023-0",
+      "title": "EDGE의 IDEX 2023 사전 출품 안내",
+      "publisher": "EDGE Group",
+      "publishedAt": "2023-02-07",
+      "eventEditionId": "idex-2023",
+      "type": "manufacturer_pre_event_release",
+      "independence": "primary_single_origin",
+      "note": "개막 전 발표. AJBAN·HAFEET 계열의 참가 예고만 비교하며 개별 형식의 현장 존재를 확정하지 않는다."
+    },
+    {
+      "id": "idex25-edge-platforms-official-followup",
+      "url": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "title": "EDGE Launches New Armoured and Robotic Combat Vehicle at IDEX 2025",
+      "publisher": "EDGE Group",
+      "publishedAt": "2025-02-19",
+      "eventEditionId": "idex-2025",
+      "type": "manufacturer_event_launch_release",
+      "independence": "primary_single_origin",
+      "note": "기존 제품 서술과 같은 발행 근거. 전시·공개 발표를 양산·군 배치 완료로 바꾸지 않는다."
+    },
+    {
+      "id": "report-idex23-cockerill",
+      "url": "https://johncockerill.com/en/press-and-news/news/idex-2023-cockerill-i-x-innovative-turrets-and-simulation-in-the-spotlight-of-john-cockerill-defense/",
+      "title": "John Cockerill의 IDEX 2023 출품 소개",
+      "publisher": "John Cockerill",
+      "publishedAt": "2023-02-20",
+      "eventEditionId": "idex-2023",
+      "type": "manufacturer_event_release",
+      "independence": "primary_single_origin",
+      "note": "전시 제품군만 비교한다. 최초·우월성 등 홍보 주장을 검증된 성능으로 사용하지 않는다."
+    },
+    {
+      "id": "report-idex25-cockerill",
+      "url": "https://johncockerill.com/en/press-and-news/news/john-cockerill-defense-idex-2025/",
+      "title": "John Cockerill의 IDEX 2025 출품 소개",
+      "publisher": "John Cockerill",
+      "publishedAt": "2025-02-17",
+      "eventEditionId": "idex-2025",
+      "type": "manufacturer_event_release",
+      "independence": "primary_single_origin",
+      "note": "i-X, OPTIMIS 및 Arquus 제품 소개의 병치를 다룬다. 모든 제품이 동일 부스·동일 차량에 통합되었다는 의미가 아니다."
+    }
+  ],
+  "evidence": {
+    "checkedAt": "2026-11-16",
+    "status": "local_report_draft_verified_sources_not_compiled",
+    "plan": {
+      "goal": "기존 3개 차량 기록의 2025 전시와 2023 회차의 공개 구성을 비교하는 종합보고 초안",
+      "files": [
+        "docs/research-v2/redesign-report-idex.json"
+      ],
+      "impact": "조사 초안 한 파일만 작성하며 원천 데이터·컴파일러·배포는 변경하지 않음",
+      "risks": [
+        "사전 발표와 현장 확인 혼동",
+        "그룹 산하 발행사를 독립 근거로 집계",
+        "제품군과 개별 형상 오연결"
+      ],
+      "verification": "공식 원문 본문 조회, 기존 제품·회사·사진 ID 및 소유관계 확인, JSON 구문 확인"
+    },
+    "transitions": [
+      "new_task → planned",
+      "planned → executing",
+      "executing → verifying",
+      "verifying → completed (로컬 조사 초안만)"
+    ],
+    "sourceChecks": [
+      {
+        "sourceId": "report-idex23-edge-unmanned",
+        "result": "공식 PDF 본문 Land 항목 확인",
+        "scope": "원문 HTML 2회 시간초과 후 발행사 PDF 사용"
+      },
+      {
+        "sourceId": "report-idex23-edge-preview",
+        "result": "공식 HTML 본문 확인",
+        "scope": "사전 발표로 한정"
+      },
+      {
+        "sourceId": "idex25-edge-platforms-official-followup",
+        "result": "공식 HTML 본문과 발행일 확인",
+        "scope": "기존 5항목 서술과 같은 원문"
+      },
+      {
+        "sourceId": "report-idex23-cockerill",
+        "result": "공식 HTML 본문과 발행일 확인",
+        "scope": "제품군 소개"
+      },
+      {
+        "sourceId": "report-idex25-cockerill",
+        "result": "공식 HTML 본문과 발행일 확인",
+        "scope": "행사 소개와 관련 제품군, 개별 현장사진 검수와 별개"
+      }
+    ],
+    "excludedEvidence": [
+      {
+        "url": "https://www.idexuae.ae/app/uploads/2023/02/2.-IDEX-2023_Live-Demo-Brochure.pdf",
+        "reason": "공식 PDF 요청이 403으로 실패. 검색 요약만으로 2023 세부 형식을 확정하지 않아 보고 근거에서 제외"
+      }
+    ],
+    "photoCandidates": [
+      {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cockerill_i-X_at_IDEX_2025.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Cockerill_i-X_at_IDEX_2025.jpg",
+        "caption": "IDEX 2025의 Cockerill i-X",
+        "eventId": "idex-2025",
+        "productId": "cockerill-ix",
+        "existingPhotoId": "photo-77eec4976f1654c14cd9",
+        "existingSrc": "assets/photos/idex2025-new-cockerill-ix.webp",
+        "author": "Mztourist",
+        "sourceDate": "2025-02-19",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "verification": "Commons 설명·날짜·촬영자·라이선스와 원본 링크 확인. 픽셀 검수 미수행. 이미 저장된 사진이므로 신규 수집으로 집계하지 않음; 2026-11-16 root: local WebP pixel viewed; Cockerill i-X vehicle text and source/credit/license reconfirmed; existing asset linked."
+      },
+      {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:THeMIS_COMBAT.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/THeMIS_COMBAT.jpg",
+        "caption": "IDEX 2025의 THeMIS COMBAT",
+        "eventId": "idex-2025",
+        "productId": "themis-combat",
+        "existingPhotoId": "photo-25e3c0aefc7efbbcfddc",
+        "existingSrc": "assets/photos/themis-k-21.webp",
+        "author": "Cezary Filip Krzymowski",
+        "sourceDate": "2025-02-20",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "verification": "Commons 설명·촬영일·촬영자·라이선스·원본 링크 확인. 제품별 픽셀 및 무장형 식별 미검수. ADEX THeMIS-K 현장사진으로 사용 금지. 기존 저장 사진"
+      },
+      {
+        "sourceUrl": "https://johncockerill.com/en/press-and-news/news/john-cockerill-defense-idex-2025/",
+        "imageUrls": [
+          "https://johncockerill.com/wp-content/uploads/2025/02/idex-20250217-1-980x735.jpg",
+          "https://johncockerill.com/wp-content/uploads/2025/02/idex-20250217-3-980x735.jpg",
+          "https://johncockerill.com/wp-content/uploads/2025/02/idex-20250217-4-980x1307.jpg",
+          "https://johncockerill.com/wp-content/uploads/2025/02/idex-20250217-2-980x735.jpg",
+          "https://johncockerill.com/wp-content/uploads/2025/02/idex-20250217-13-980x1307.jpg",
+          "https://johncockerill.com/wp-content/uploads/2025/02/idex-20250217-5-980x735.jpg"
+        ],
+        "caption": "공식 IDEX 2025 기사 갤러리",
+        "eventId": "idex-2025",
+        "productId": null,
+        "author": "개별 촬영자 미확인",
+        "license": "사용권 미검증 · 사이트는 All rights reserved 표기",
+        "verification": "기사의 실제 링크 주소만 확인. 일부 클릭은 캐시 오류. 개별 사진의 장비·현장·각도 및 재사용 조건 확인 전 표시하지 않음"
+      },
+      {
+        "sourceUrl": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+        "imageUrls": [
+          "https://mediacenter-webfiles.edgegroup.ae/s3fs-public/2025-02/nimr.jpg",
+          "https://mediacenter-webfiles.edgegroup.ae/s3fs-public/2025-02/havoc-rcv.webp"
+        ],
+        "caption": "EDGE의 2025 공개 발표 첨부 이미지",
+        "eventId": null,
+        "relatedEventId": "idex-2025",
+        "productId": null,
+        "author": "개별 촬영자 미확인",
+        "license": "사용권 미검증 · 사이트는 All rights reserved 표기",
+        "verification": "기사 링크 주소 확인. 전시장 현장사진인지 제품 홍보 이미지인지 픽셀 미검수. 해당 회차 사진으로 분류하지 않음"
+      }
+    ],
+    "validation": {
+      "json": "pass: Node JSON.parse",
+      "registeredIds": "pass: 3개 기존 제품·회사 및 2개 해당 회차 사진 소유·제품 연결 확인",
+      "sourceLinks": "five official publications read",
+      "imagesDownloaded": 0,
+      "imagesPixelVerified": 0,
+      "newImagesClaimed": 0,
+      "sourceWordBudget": "검사 결과 기존 EDGE 2025 제품 서술 139어절 + 보고 요약·이번 비교 35어절 = 174어절. 그 외 각 출처 요약도 200어절 미만. 원문 인용 없음",
+      "commands": [
+        "node --input-type=module: JSON.parse + 기존 제품/회사/사진 관계 assert + 파생 서술 어절 집계",
+        "git diff --check -- docs/research-v2/redesign-report-idex.json"
+      ],
+      "result": "두 검사 exit 0. 앱 build/check/브라우저는 부모 통합 단계에서 수행"
+    },
+    "remaining": [
+      "Cockerill i-X 사진 픽셀·변환 고지 검수 및 장비 연결",
+      "컴파일·화면·PDF 검증",
+      "독립 현장 자료 대조",
+      "공식 갤러리 사진의 권리·중복·형상 조사"
+    ]
+  }
+}

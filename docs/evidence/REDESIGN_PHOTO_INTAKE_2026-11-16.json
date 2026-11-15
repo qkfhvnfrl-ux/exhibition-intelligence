@@ -1,0 +1,156 @@
+{
+  "asOf": "2026-11-16",
+  "scope": "New Patria DSEI 2025 field-photo intake; not all-event photo completion",
+  "downloadedPhotos": 4,
+  "addedDisplayAssets": 4,
+  "rights": {
+    "sourceUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+    "reviewedAt": "2026-11-16",
+    "status": "Non-commercial use with Photo: Patria attribution; not a CC license",
+    "appliesTo": "manufacturer image bank downloads"
+  },
+  "visualReview": {
+    "method": "Root agent viewed all four original local image files with view_image.",
+    "observations": [
+      {
+        "name": "patria-6x6-cavs",
+        "observed": "Patria 6×6, Babcock marking, CAVS flags; distinct exhibit configuration from C4."
+      },
+      {
+        "name": "patria-6x6-booth",
+        "observed": "C4 Concept Vehicle plate visible at Patria booth. Pre-event source calls C2; configuration details not equated."
+      },
+      {
+        "name": "patria-tremos",
+        "observed": "TREMOS nameplate and separate display stand, not an integrated vehicle."
+      },
+      {
+        "name": "patria-trackx",
+        "observed": "TRACKX side marking and tracked vehicle exterior; one angle only."
+      }
+    ]
+  },
+  "processing": {
+    "tool": "Pillow",
+    "steps": "Image.open(...).convert(RGB); thumbnail((1800,1800), Image.Resampling.LANCZOS); save(..., quality=90, optimize=True)",
+    "changes": "Full-frame resize and JPEG compression. No crop, retouching, composition change or image generation."
+  },
+  "assets": [
+    {
+      "name": "patria-6x6-cavs",
+      "url": "https://www.patriagroup.com/download/patria-6x6-vehicle-cavs",
+      "resolvedUrl": "https://www.patriagroup.com/download/patria-6x6-vehicle-cavs",
+      "type": "image/jpeg",
+      "status": 200,
+      "bytes": 6259314,
+      "path": "tmp/photo-intake-2026-11-16/patria-6x6-cavs.jpg",
+      "sha256": "ca5ffe93d625b47231b0896ef364b59a6a1d5a5f2dfa9a1540a3b19d0c977e9c",
+      "originalSize": [
+        5000,
+        3333
+      ],
+      "displaySize": [
+        1800,
+        1200
+      ],
+      "assetPath": "assets/photos/dsei2025-patria-6x6-cavs.jpg",
+      "assetBytes": 533534,
+      "assetSha256": "772ef5351e69a756bb326e596a07c7ebe38ff24158f5a5e81b7f6bc525773a5b",
+      "changes": "Full-frame resize to max 1800px and JPEG compression; no crop, composition change, retouching or generation."
+    },
+    {
+      "name": "patria-6x6-booth",
+      "url": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025",
+      "resolvedUrl": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025",
+      "type": "image/jpeg",
+      "status": 200,
+      "bytes": 5797242,
+      "path": "tmp/photo-intake-2026-11-16/patria-6x6-booth.jpg",
+      "sha256": "9004b632caf65cacdb435a262c2dd43fccc6fee76750fddbb900cf8b5846f096",
+      "originalSize": [
+        5000,
+        3333
+      ],
+      "displaySize": [
+        1800,
+        1200
+      ],
+      "assetPath": "assets/photos/dsei2025-patria-6x6-booth.jpg",
+      "assetBytes": 480064,
+      "assetSha256": "0c760053a3eb918cd3a2335fc6d4dc83f2ab3143ff0ce50f9425a5d6a9c57242",
+      "changes": "Full-frame resize to max 1800px and JPEG compression; no crop, composition change, retouching or generation."
+    },
+    {
+      "name": "patria-tremos",
+      "url": "https://www.patriagroup.com/download/patria-tremos-at-dsei-uk-2025",
+      "resolvedUrl": "https://www.patriagroup.com/download/patria-tremos-at-dsei-uk-2025",
+      "type": "image/jpeg",
+      "status": 200,
+      "bytes": 2029118,
+      "path": "tmp/photo-intake-2026-11-16/patria-tremos.jpg",
+      "sha256": "41e21fdf81a9e29498f4dd04116762030d826ed51711476a408cc155301af4e9",
+      "originalSize": [
+        3763,
+        2509
+      ],
+      "displaySize": [
+        1800,
+        1200
+      ],
+      "assetPath": "assets/photos/dsei2025-patria-tremos.jpg",
+      "assetBytes": 517742,
+      "assetSha256": "2a04dbaed61e31043edfbe127c562a41084bb013bdae5e4f5df5a7a3cc6e10a0",
+      "changes": "Full-frame resize to max 1800px and JPEG compression; no crop, composition change, retouching or generation."
+    },
+    {
+      "name": "patria-trackx",
+      "url": "https://www.patriagroup.com/download/patria-trackx-at-dsei-uk-2025",
+      "resolvedUrl": "https://www.patriagroup.com/download/patria-trackx-at-dsei-uk-2025",
+      "type": "image/jpeg",
+      "status": 200,
+      "bytes": 2648936,
+      "path": "tmp/photo-intake-2026-11-16/patria-trackx.jpg",
+      "sha256": "7beea7df0190fc132ad6fd379f82ef135c173f446ce1212b27fca0c320f4fa1d",
+      "originalSize": [
+        4399,
+        2931
+      ],
+      "displaySize": [
+        1800,
+        1199
+      ],
+      "assetPath": "assets/photos/dsei2025-patria-trackx.jpg",
+      "assetBytes": 517394,
+      "assetSha256": "accf4aff6dd002ddf612a17b4450f6703b523a37316f01a8f52628042382aa9b",
+      "changes": "Full-frame resize to max 1800px and JPEG compression; no crop, composition change, retouching or generation."
+    }
+  ],
+  "remaining": [
+    "Further event-photo research, especially SAHA; this packet does not establish complete coverage."
+  ],
+  "existingPhotoLinkage": [
+    {
+      "photoId": "photo-759379832c8e0bb07807",
+      "productId": "gdams-dsei2025",
+      "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54783778059/",
+      "delivery": "Existing Flickr provider embed; no asset download",
+      "sourceChecked": "HTTP200 title GDAMS120mm mortar, DSEI2025/Babcock context present",
+      "visualChecked": "Actual app enlarged photo showed vehicle/exhibit and Babcock branding; not proof of communications operation",
+      "reportLinked": true
+    },
+    {
+      "photoId": "photo-77eec4976f1654c14cd9",
+      "productId": "cockerill-ix",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cockerill_i-X_at_IDEX_2025.jpg",
+      "sourceChecked": "Commons original, photographer Mztourist, CC BY4.0, dated2025-02-19",
+      "visualChecked": "Local image Cockerill i-X marking and exhibition booth inspected",
+      "reportLinked": true
+    }
+  ],
+  "verification": {
+    "browser": "4 Patria unique images loaded; gallery, captions and TRACKX product URL/reload checked.",
+    "pdf": "Five actual final PDF files validated; photos, credits and conversion notices retained.",
+    "browserEvidence": "docs/evidence/REDESIGN_REPORT_BROWSER_2026-11-16.json",
+    "pdfEvidence": "docs/evidence/REDESIGN_PDF_VALIDATION_2026-11-16.json"
+  }
+}

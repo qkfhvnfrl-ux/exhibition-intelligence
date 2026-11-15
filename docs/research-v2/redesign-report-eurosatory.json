@@ -1,0 +1,190 @@
+{
+  "eventId": "eurosatory-2026",
+  "asOf": "2026-11-16",
+  "title": "Eurosatory 2026",
+  "message": "지휘·수송·차량 탑재체계로 읽는 세 가지 전시 사례",
+  "scopeNote": "기아 2개·현대위아 1개 사례 기준 · 행사 전체 조사 아님",
+  "comparisonEvent": "Eurosatory 2024",
+  "comparisonNote": "기아는 10년 만 참가, 현대위아는 첫 참가라고 발표했다. 직전 회차의 동일 장비·성능 비교는 보류한다.",
+  "themes": [
+    {
+      "title": "픽업의 지휘 임무형",
+      "summary": "타스만 군용 지휘차 실차를 제시했다. 픽업 기반에 지휘차 특수사양을 더한 구성을 보여준다.",
+      "companyId": "org-37268bb0020007468bbc",
+      "productId": "eu-tasman-c2",
+      "photoId": "photo-999005f47b49d93d96ef",
+      "before": "직전 회차 대응 자료 미확보",
+      "after": "타스만 지휘차 실차",
+      "sourceIds": [
+        "research-es-kia-eurosatory-2026"
+      ]
+    },
+    {
+      "title": "수송용 파생형의 제시",
+      "summary": "KLTV 2인용 카고는 실차로 소개됐다. 함께 출품한 중·대형 표준차 모형과 전시 형태를 구분한다.",
+      "companyId": "org-37268bb0020007468bbc",
+      "productId": "eu-kltv-cargo",
+      "photoId": "photo-ce3d7958065066487fe7",
+      "before": "직전 회차 동일 형상 대조 보류",
+      "after": "KLTV 카고 실차·다른 차량 모형",
+      "sourceIds": [
+        "research-es-kia-eurosatory-2026"
+      ]
+    },
+    {
+      "title": "차량과 탑재체계의 결합",
+      "summary": "현대위아는 경량화 105mm 자주포의 실물 전시를 발표했다. 양산·배치 완료는 미확인이다.",
+      "companyId": "org-b6b486fa375701e51329",
+      "productId": "eu-light-105",
+      "photoId": "photo-81610d7ae35d4bd5b354",
+      "before": "직전 회차 대응 자료 미확보",
+      "after": "첫 참가 발표·차량형 체계 실물",
+      "sourceIds": [
+        "research-es-wia-eurosatory-2026"
+      ]
+    }
+  ],
+  "interpretation": "전시 구성에 따른 해석: 확인 사례는 차량 기반을 지휘·수송·탑재체계로 구체화한다. 회차 간 성능 진보나 회사 전체 전략을 뜻하지 않는다.",
+  "limitations": [
+    "두 제조사의 세 사례이며 전체 행사·유럽 시장을 대표하지 않는다.",
+    "제조사 발표가 주된 근거다. 독립 성능 검증과 구분한다.",
+    "세 사진은 Eurosatory 2026 현장 자산이다. 카고 사진에 다른 중·대형 차량 모형이 담겼다고 뜻하지 않는다."
+  ],
+  "sourceIds": [
+    "research-es-kia-eurosatory-2026",
+    "research-es-wia-eurosatory-2026",
+    "report-eurosatory-2024-organizer-review"
+  ],
+  "sources": [
+    {
+      "id": "research-es-kia-eurosatory-2026",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+      "title": "기아, Eurosatory 2026 방산전시회 참가",
+      "publisher": "기아 / 현대자동차그룹 뉴스룸",
+      "publishedAt": "2026-06-15",
+      "eventEditionId": "eurosatory-2026",
+      "type": "manufacturer_newsroom",
+      "independence": "primary_single_origin",
+      "note": "2026 발표의 참가 이력·전시 구성 근거다. 2024의 개별 출품 명단이나 동일 형상 비교 근거로 사용하지 않는다."
+    },
+    {
+      "id": "research-es-wia-eurosatory-2026",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+      "title": "현대위아, 유럽 최대 방위산업 전시회 유로사토리 2026 첫 참가",
+      "publisher": "현대위아 / 현대자동차그룹 뉴스룸",
+      "publishedAt": "2026-06-16",
+      "eventEditionId": "eurosatory-2026",
+      "type": "manufacturer_newsroom",
+      "independence": "primary_single_origin",
+      "note": "첫 참가와 실물 전시의 제조사 발표다. 기존의 다른 회차 전시, 군 운용 성과 또는 2024 대비 개선을 입증하지 않는다."
+    },
+    {
+      "id": "report-eurosatory-2024-organizer-review",
+      "url": "https://www.eurosatory.com/wp-content/uploads/2025/02/EN-CP_Bilan_EUROSATORY_July24.pdf",
+      "title": "EUROSATORY 2024: A RECORD-BREAKING EDITION — July 2024",
+      "publisher": "COGES Events / Eurosatory",
+      "publishedAt": "2024-07",
+      "eventEditionId": "eurosatory-2024",
+      "type": "organizer_report",
+      "note": "직전 회차의 행사 종합자료만 확인했다. 본 보고의 세 장비별 대응 출품을 확인할 자료는 아니다. 업로드 경로의 2025년과 본문 발행월을 구분한다."
+    }
+  ],
+  "evidence": {
+    "status": "researched_local_draft_not_compiled_or_published",
+    "checkedAt": "2026-11-16",
+    "validation": {
+      "jsonParse": "pass",
+      "existingCompanyProductPhotoRelations": "3/3 pass — current Eurosatory shard, context=event, productIds ownership",
+      "sourceReferences": "all report and theme sourceIds resolve; no duplicate source IDs",
+      "trailingWhitespace": "none",
+      "applicationBuildOrBrowserQA": "not run for this uncompiled research draft",
+      "publicThemeAndExistingNarrativeWordCounts": {
+        "research-es-kia-eurosatory-2026": 129,
+        "research-es-wia-eurosatory-2026": 108,
+        "method": "공백 기준 어절수. 기존 narrative 본문과 새 theme 제목·요약·before·after 합계; 공통 비교문·제약·근거 설명은 별도 포함 검토 필요."
+      }
+    },
+    "plan": {
+      "goal": "기존 세 제품·세 사진으로 이번 회차의 전시 구성을 요약하고 직전 회차 비교 한계를 명시한다.",
+      "writeScope": "docs/research-v2/redesign-report-eurosatory.json만 작성",
+      "impact": "src/data·제품 ID·사진 파일·기존 출품 상태 변경 없음",
+      "risk": "참가 이력을 제품 최초 공개·성능 개선으로 오해하거나 제조사 자료를 독립 근거로 중복 집계하는 문제",
+      "verification": "공식 본문 열람, 기존 shard의 회사·제품·현장사진 소유 연결 검사, JSON 구문 검사"
+    },
+    "sourceChecks": [
+      {
+        "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+        "result": "공식 본문 및 발행일 확인. AI 요약 대신 본문과 개별 이미지 캡션을 사용.",
+        "checkedClaims": [
+          "2016년 이후 참가 이력",
+          "타스만·KLTV의 실물과 중·대형 표준차 모형 구분"
+        ],
+        "comparisonDisposition": "제조사 회고를 출처와 함께 표시. 2024의 개별 출품 부재나 제3자 전시 부재를 확정하지 않음."
+      },
+      {
+        "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+        "result": "공식 본문·발행일·개별 사진 캡션 확인. AI 요약의 성능 수치는 사용하지 않음.",
+        "checkedClaims": [
+          "첫 참가 발표",
+          "경량 105mm 체계 실물 전시"
+        ],
+        "comparisonDisposition": "전시 참가 이력과 장비 개발 이력을 분리. 같은 회사의 2024 대응 형상 비교 보류."
+      },
+      {
+        "url": "https://www.eurosatory.com/wp-content/uploads/2025/02/EN-CP_Bilan_EUROSATORY_July24.pdf",
+        "result": "3쪽 공식 PDF의 텍스트 열람. 본문 발행월 July 2024와 17–21 June 2024 행사 표기 확인.",
+        "comparisonDisposition": "행사 총괄 설명을 세 장비의 직전 회차 제원·형상 자료로 전용하지 않음."
+      }
+    ],
+    "verificationLimits": [
+      "2024 같은 업체의 동일 장비·형상 전시 자료를 이번 조사에서 확보하지 못했다.",
+      "언론 검색결과의 제조사 발표 재인용은 독립 현장 관찰로 추가 집계하지 않았다.",
+      "사진 연결은 기존 검증 packet의 식별 결과를 계승한다. 이번 작업에서 픽셀·다운로드 원본·네트워크 로딩은 재검증하지 않았다.",
+      "원문 사진 5개 링크를 열었으나 web 이미지 fetch 오류가 발생했다. 아래 후보는 다운로드·표시 성공을 뜻하지 않는다."
+    ],
+    "photoCandidates": [
+      {
+        "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+        "assetUrl": "https://www.hyundaimotorgroup.com/image/upload/asset_library/MDA00000000000080729/92dd6e6dcc0b4c3a9b51b86e42239004.jpg",
+        "caption": "Eurosatory 2026 기아 전시관",
+        "use": "업체 현장 전경 후보. 개별 장비 사진으로 자동 분류하지 않음.",
+        "reviewStatus": "원문 링크·캡션 확인, 이미지 fetch 오류, 기존 자산 중복 점검 필요"
+      },
+      {
+        "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+        "assetUrl": "https://www.hyundaimotorgroup.com/image/upload/asset_library/MDA00000000000080730/9fff1832b3224f2da0226e7b6199077b.jpg",
+        "caption": "Eurosatory 2026 타스만 군용 지휘차",
+        "possibleExistingPhotoId": "photo-999005f47b49d93d96ef",
+        "reviewStatus": "원문 링크·캡션 확인, 이미지 fetch 오류. 기존 제품 사진의 원본 후보이며 신규 고유 사진으로 집계하지 않음."
+      },
+      {
+        "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+        "assetUrl": "https://www.hyundaimotorgroup.com/image/upload/asset_library/MDA00000000000080732/b6a43eae017340329ca69d0a45891da1.jpg",
+        "caption": "Eurosatory 2026 KLTV 2인용 카고",
+        "possibleExistingPhotoId": "photo-ce3d7958065066487fe7",
+        "reviewStatus": "원문 링크·캡션 확인, 이미지 fetch 오류. 기존 제품 사진의 원본 후보이며 신규 고유 사진으로 집계하지 않음."
+      },
+      {
+        "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+        "assetUrl": "https://www.hyundaimotorgroup.com/image/upload/asset_library/MDA00000000000080748/a97c2b866201456a902214a3db157a4e.jpg",
+        "caption": "Eurosatory 2026 현대위아 경량화 105mm 자주포",
+        "possibleExistingPhotoId": "photo-81610d7ae35d4bd5b354",
+        "reviewStatus": "원문 링크·캡션 확인, 이미지 fetch 오류. 기존 제품 사진의 원본 후보이며 신규 고유 사진으로 집계하지 않음."
+      },
+      {
+        "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+        "assetUrl": "https://www.hyundaimotorgroup.com/image/upload/asset_library/MDA00000000000080749/149eccca0aa0498d9088dde8e4967140.jpg",
+        "caption": "Eurosatory 2026 현대위아 전시관에서 제품을 살펴보는 참관객",
+        "use": "업체 전경 후보. 특정 RCWS 구경·형식은 캡션만으로 식별 불가.",
+        "reviewStatus": "원문 링크·캡션 확인, 이미지 fetch 오류, 기존 자산 중복 점검 필요"
+      }
+    ],
+    "photoRights": {
+      "publisher": "현대자동차그룹 뉴스룸",
+      "basis": "두 원문 하단은 기사·이미지 자유 사용을 안내하되 제공받은 일부 자료의 제한을 명시한다.",
+      "status": "후보 확인 단계. 원본별 제3자 권리·제공기관·크레딧 및 기존 권리 기록 대조 후 사용 판단",
+      "licenseClassification": "CC 또는 퍼블릭도메인 아님",
+      "downloaded": 0
+    }
+  }
+}

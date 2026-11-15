@@ -2,10 +2,17 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {eventReportMarkup,printEventReport,renderEventReport,reportModel} from '../src/v2/report.js';
+import {escapeHTML} from '../src/v2/details.js';
 
 const readEvent=id=>readFile(new URL(`../data/v2/app/events/${id}.json`,import.meta.url),'utf8').then(JSON.parse);
 const adex=await readEvent('adex-2025');
 const laterEvents=await Promise.all(['eurosatory-2026','dsei-2025','idex-2025','saha-2026'].map(readEvent));
+function fallbackFixture(data){
+ const fixture=structuredClone(data);
+ fixture.report=null;
+ for(const product of fixture.products)product.exhibitStatus='unconfirmed';
+ return fixture;
+}
 
 function printEnvironment(imageBatches=[]){
  const nodes=[],classes=new Set(),listeners=new Map(),printed=[];
@@ -85,45 +92,116 @@ test('long captions and limitations remain complete in compact print markup',()=
 });
 
 
-test('the reviewed report keeps its three company/product/photo links and source links',()=>{
- const model=reportModel(adex),html=eventReportMarkup(adex),printed=eventReportMarkup(adex,{print:true});
+for(const data of [adex,...laterEvents])test(`${data.event.id} keeps three reviewed themes with owned products, event photos and evidence links`,()=>{
+ assert.ok(data.report,'this edition must have an authored report, not a fallback');
+ const model=reportModel(data),html=eventReportMarkup(data),printed=eventReportMarkup(data,{print:true});
+ assert.equal(model,data.report);
+ assert.equal(model.eventId,data.event.id);
  assert.equal(model.themes.length,3);
- assert.equal((html.match(/<img\s/g)||[]).length,3);
+ assert.equal(new Set(model.themes.map(theme=>theme.productId)).size,3);
+ assert.equal((html.match(/class="report-theme"/g)||[]).length,3);
  assert.equal((html.match(/class="report-case-link"/g)||[]).length,3);
+ const sourceIds=new Set(model.sourceIds);
+ let photoCount=0;
  for(const theme of model.themes){
-  const company=adex.companies.find(company=>company.id===theme.companyId);
-  const product=adex.products.find(product=>product.id===theme.productId);
-  const photo=adex.photos.find(photo=>photo.id===theme.photoId);
-  assert.ok(company.productIds.includes(product.id));
-  assert.ok(company.photoIds.includes(photo.id));
-  assert.ok(photo.productIds.includes(product.id));
-  assert.equal(photo.context,'event');
+  const company=data.companies.find(company=>company.id===theme.companyId);
+  const product=data.products.find(product=>product.id===theme.productId);
+  assert.ok(company,`missing company for ${theme.title}`);
+  assert.ok(product,`missing product for ${theme.title}`);
+  assert.ok(company.productIds.includes(product.id),`${company.id} does not own ${product.id}`);
+  assert.ok(product.organizationIds.includes(company.id),`${product.id} does not link back to ${company.id}`);
+  assert.ok(theme.sourceIds.length,`${theme.title} has no evidence`);
+  for(const id of theme.sourceIds)sourceIds.add(id);
+  for(const field of ['title','summary','before','after']){
+   assert.ok(theme[field]?.trim(),`${theme.title} is missing ${field}`);
+   assert.ok(html.includes(escapeHTML(theme[field])));
+   assert.ok(printed.includes(escapeHTML(theme[field])));
+  }
   assert.ok(html.includes(`data-report-case="${company.id}" data-product="${product.id}"`));
-  assert.ok(html.includes(`src="${photo.src}"`));
-  assert.ok(printed.includes(product.name));
+  assert.ok(printed.includes(escapeHTML(product.name)));
+  if(!theme.photoId)continue;
+  const photo=data.photos.find(photo=>photo.id===theme.photoId);
+  assert.ok(photo,`missing photo ${theme.photoId}`);
+  assert.ok(company.photoIds.includes(photo.id),`${company.id} does not own ${photo.id}`);
+  assert.ok(photo.productIds.includes(product.id),`${photo.id} does not depict ${product.id}`);
+  assert.equal(photo.context,'event');
+  assert.ok(photo.sourceIds.length,`${photo.id} has no evidence`);
+  for(const id of photo.sourceIds)sourceIds.add(id);
+  assert.ok(photo.src,`${photo.id} has no display asset`);
+  assert.ok(html.includes(`src="${escapeHTML(photo.src)}"`));
+  assert.ok(printed.includes(`src="${escapeHTML(photo.src)}"`));
+  photoCount++;
+ }
+ for(const markup of [html,printed]){
+  assert.equal((markup.match(/<img\s/g)||[]).length,photoCount);
+  assert.equal((markup.match(/class="report-photo-missing"/g)||[]).length,3-photoCount,'missing theme photos must remain explicit gaps');
  }
  assert.doesNotMatch(printed,/data-report-case=/);
  const container=containerFor();
- const cleanup=renderEventReport(container,{data:adex});
- for(const id of model.sourceIds){const source=adex.sources.find(source=>source.id===id);assert.ok(container.innerHTML.includes(source.url.replaceAll('&','&amp;')));}
+ const cleanup=renderEventReport(container,{data});
+ assert.ok(sourceIds.size);
+ for(const id of sourceIds){
+  const source=data.sources.find(source=>source.id===id);
+  assert.ok(source,`unresolved evidence ${id}`);
+  assert.ok(source.title?.trim(),`${id} has no source title`);
+  const url=new URL(source.url);
+  assert.ok(['https:','http:'].includes(url.protocol),`${id} has an unsafe URL`);
+  const href=`href="${escapeHTML(url.href)}"`;
+  assert.ok(container.innerHTML.includes(href),`screen is missing evidence ${id}`);
+  assert.ok(printed.includes(href),`print is missing evidence ${id}`);
+ }
  assert.match(container.innerHTML,/rel="noopener noreferrer"/);
  cleanup();
 });
 
-test('the four unreviewed editions use company-only report cases without promoting exhibit status',()=>{
- for(const data of laterEvents){
-  assert.ok(data.products.every(product=>product.exhibitStatus==='unconfirmed'));
+test('editions without an authored report use company-only cases without promoting exhibit status',()=>{
+ for(const edition of laterEvents){
+  const data=fallbackFixture(edition),before=structuredClone(data);
   const model=reportModel(data),html=eventReportMarkup(data),printed=eventReportMarkup(data,{print:true});
   assert.equal(model.message,'수록된 업체 자료와 확인 범위');
   assert.match(model.scopeNote,/출품은 확인 중/);
   assert.ok(model.themes.every(theme=>theme.productId===''));
   assert.doesNotMatch(html,/확인된 출품 사례|확인된 제품·서비스 자료/);
   assert.equal((printed.match(/ · 업체 자료<\/p>/g)||[]).length,model.themes.length);
+  assert.deepEqual(data,before,'fallback rendering must not change product status or source data');
  }
- const eurosatory=laterEvents[0],wia=reportModel(eurosatory).themes.find(theme=>eurosatory.companies.find(company=>company.id===theme.companyId).name==='Hyundai WIA');
- assert.equal(wia.productId,'');
- assert.match(eurosatory.photos.find(photo=>photo.id===wia.photoId).caption,/RCWS/);
- assert.doesNotMatch(eventReportMarkup(eurosatory,{print:true}),/경량화 105mm 자주포/);
+});
+
+test('a fallback company booth photo is never assigned to its unrelated unconfirmed product',()=>{
+ const data={
+  event:{id:'fallback-2026',name:'Fallback fixture',year:2026},dataAsOf:'2026-11-16',report:null,
+  companies:[{id:'company',name:'Fixture company',productIds:['unconfirmed-product'],photoIds:['booth-photo'],sourceIds:[]}],
+  products:[{id:'unconfirmed-product',name:'경량화 105mm 자주포',exhibitStatus:'unconfirmed'}],
+  photos:[{id:'booth-photo',caption:'업체 부스의 RCWS 전시대',src:'assets/fallback-booth.jpg',context:'event',productIds:[]}],sources:[]
+ };
+ const model=reportModel(data),printed=eventReportMarkup(data,{print:true});
+ assert.equal(model.themes[0].productId,'');
+ assert.equal(model.themes[0].photoId,'booth-photo');
+ assert.match(printed,/업체 부스의 RCWS 전시대/);
+ assert.doesNotMatch(printed,/경량화 105mm 자주포/);
+ assert.equal(data.products[0].exhibitStatus,'unconfirmed');
+});
+
+test('all three IDEX report photos visibly credit CC BY 4.0 and WebP changes on screen and in print',()=>{
+ const data=laterEvents.find(event=>event.event.id==='idex-2025');
+ const changeNotices={
+  'havoc-8x8':'웹 표시용 축소·WebP 변환본',
+  'ajban-family':'웹 표시용 축소·WebP 변환본',
+  'cockerill-ix':'웹 표시용 WebP 변환본'
+ };
+ for(const print of [false,true]){
+  const figures=eventReportMarkup(data,{print}).match(/<figure>[\s\S]*?<\/figure>/g)||[];
+  assert.equal(figures.length,3);
+  for(const theme of data.report.themes){
+   const photo=data.photos.find(photo=>photo.id===theme.photoId);
+   const figure=figures.find(markup=>markup.includes(`src="${escapeHTML(photo.src)}"`));
+   assert.ok(figure,`missing ${theme.productId} figure`);
+   assert.equal(photo.rights.license,'CC BY 4.0');
+   assert.match(figure,/>CC BY 4\.0<\/a>/,'the license must be visible, not only a link title');
+   assert.ok(figure.includes(escapeHTML(photo.credit)),`missing ${theme.productId} photographer credit`);
+   assert.ok(figure.includes(changeNotices[theme.productId]),`missing ${theme.productId} conversion notice`);
+  }
+ }
 });
 
 test('report case navigation opens companies for fallback cases and products for reviewed cases',async()=>{
@@ -164,10 +242,11 @@ test('a newer report print request cancels the old job without clearing the new 
  const image={complete:true,naturalWidth:100,decode:()=>new Promise(resolve=>{finishDecode=resolve;})};
  const env=printEnvironment([[image],[]]);
  const first=printEventReport({data:adex,document:env.doc,window:env.win});await Promise.resolve();
- const second=printEventReport({data:laterEvents[0],document:env.doc,window:env.win});
+ const second=printEventReport({data:fallbackFixture(laterEvents[0]),document:env.doc,window:env.win});
  const [cancelled,ready]=await Promise.all([first,second]);
  assert.equal(cancelled.cancelled,true);assert.equal(ready.cancelled,undefined);
  assert.equal(env.printed.length,1);assert.match(env.printed[0],/수록된 업체 자료와 확인 범위/);
+ assert.ok(!env.printed[0].includes(escapeHTML(adex.report.message)),'the cancelled report must not enter the new print layout');
  assert.equal(env.classes.has('printing-event-report'),true);
  assert.equal(env.nodes[0].removed,true);assert.equal(env.nodes[1].removed,false);
  finishDecode();await Promise.resolve();assert.equal(env.printed.length,1);

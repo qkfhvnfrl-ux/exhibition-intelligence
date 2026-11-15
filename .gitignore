@@ -16,3 +16,10 @@ __pycache__/
 
 # Local nested-path browser verification fixture
 tmp/redesign-path-host/
+
+# Original downloads and processing manifests stay local; display assets are tracked
+tmp/photo-intake-2026-11-16/
+
+# Local PDF review artifacts and render scratch files; evidence records are tracked
+output/pdf/
+tmp/pdf-qa2026-11-16/

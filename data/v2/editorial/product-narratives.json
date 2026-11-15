@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-16",
   "narratives": [
     {
       "eventId": "adex-2025",
@@ -2880,12 +2880,15 @@
         "dsei25-ste-platforms-followup"
       ],
       "generalSourceIds": [],
-      "photoIds": [],
-      "form": "통신 연동 시연 발표 · 플랫폼 전시는 개막전 별도 발표",
+      "photoIds": [
+        "photo-759379832c8e0bb07807"
+      ],
+      "form": "통신 연동 시연 발표 · Babcock 부스의 전시 외관 사진 대조",
       "limitations": [
         "제조사 발표만 확인했으며 기존 Flickr 사진의 형상·이용조건을 이번에 재검증하지 못해 제품 사진에 연결하지 않았다.",
         "Babcock 게시일은 2025-09-10이나 본문의 요일 표기와 일치하지 않는다. 정확한 시연일은 미확인이다.",
-        "ST Engineering 발표는 2025-09-08이다. 사전 설명을 독립 현장 관찰로 세지 않는다."
+        "ST Engineering 발표는 2025-09-08이다. 사전 설명을 독립 현장 관찰로 세지 않는다.",
+        "연결한 현장사진은 전시 외관의 근거이며 통신 연동·작동 성공을 사진만으로 판단하지 않는다."
       ],
       "sources": [
         {
@@ -3068,6 +3071,358 @@
           "type": "manufacturer_event_launch_release",
           "independence": "primary_single_origin",
           "limitations": "NIMR·Milrem·EDGE는 이 자료에서 같은 그룹 발행 근거다. 독립 3건으로 세지 않는다. 공개·출시 표현만으로 양산·실전 배치·제조사 성능 주장 실증을 확정하지 않는다. AJBAN 432AU와 기존 사진 원장의 442A를 같은 형상으로 바꾸지 않는다."
+        }
+      ]
+    },
+    {
+      "asOf": "2026-11-16",
+      "eventId": "idex-2025",
+      "organizationId": "org-1417fcb4283b65d754c3",
+      "productId": "cockerill-ix",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "IDEX 2025에 소개된 Cockerill i-X 차량 전시물이다.",
+          "sourceIds": [
+            "report-idex25-cockerill",
+            "idex25-cockerill-commons-photo"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "차체와 탑재체계를 결합한 형상을 보여준다. 사진으로 작동 상태·인증을 판단하지 않는다.",
+          "sourceIds": [
+            "idex25-cockerill-commons-photo"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "현장사진의 차명 표기와 제조사 출품 소개를 대조했다.",
+          "sourceIds": [
+            "report-idex25-cockerill",
+            "idex25-cockerill-commons-photo"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "개별 전시형의 양산·납품 일정을 이 자료에서 확인하지 못했다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 차량과 지원 제품군을 함께 제안하는 구성이다. 통합시험 성과와 구별한다.",
+          "sourceIds": [
+            "report-idex25-cockerill"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "report-idex25-cockerill",
+        "idex25-cockerill-commons-photo"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-77eec4976f1654c14cd9"
+      ],
+      "form": "현장사진의 차명 대조 · 작동·양산 상태 미확인",
+      "limitations": [
+        "사진은 사선 한 방향이다. 다른 탑재 형식이나 전체 외관을 모두 보여주는 자료가 아니다."
+      ],
+      "sources": [
+        {
+          "id": "report-idex25-cockerill",
+          "url": "https://johncockerill.com/en/press-and-news/news/john-cockerill-defense-idex-2025/",
+          "title": "John Cockerill의 IDEX 2025 출품 소개",
+          "publisher": "John Cockerill",
+          "publishedAt": "2025-02-17",
+          "eventEditionId": "idex-2025",
+          "type": "manufacturer_event_release",
+          "independence": "primary_single_origin",
+          "note": "i-X, OPTIMIS 및 Arquus 제품 소개의 병치를 다룬다. 모든 제품이 동일 부스·동일 차량에 통합되었다는 의미가 아니다."
+        },
+        {
+          "id": "idex25-cockerill-commons-photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Cockerill_i-X_at_IDEX_2025.jpg",
+          "title": "Cockerill i-X at IDEX 2025",
+          "publisher": "Mztourist / Wikimedia Commons",
+          "publishedAt": "2025-02-19",
+          "eventEditionId": "idex-2025",
+          "type": "onsite_photo",
+          "independence": "independent_photographer",
+          "limitations": "촬영자 설명과 사진 속 차명을 대조했다. 외관과 현장 존재의 근거이며 작동·양산 상태 검증은 아니다."
+        }
+      ]
+    },
+    {
+      "asOf": "2026-11-16",
+      "eventId": "dsei-2025",
+      "organizationId": "org-b2e821937e2348e31631",
+      "productId": "patria-6x6",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "임무에 따라 구성을 달리하는 차륜형 차량이다.",
+          "sourceIds": [
+            "dsei25-patria-report"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "두 사진에서 Babcock 표기형과 C4 Concept Vehicle 표지형을 구분한다.",
+          "sourceIds": [
+            "patria-dsei25-material-bank"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "사전 안내는 지휘형·병력수송형을 명시했다. 사진을 같은 차량의 다른 각도로 묶지 않는다.",
+          "sourceIds": [
+            "dsei25-patria-report",
+            "patria-dsei25-material-bank"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "전시 표지형의 개발 완료·인도 일정은 미확인이다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 공통 차종의 임무별 선택지를 보여준다.",
+          "sourceIds": [
+            "dsei25-patria-report"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "dsei25-patria-report",
+        "patria-dsei25-material-bank"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "dsei25-patria-6x6-cavs",
+        "dsei25-patria-6x6-c4"
+      ],
+      "form": "제조사 현장사진 · 서로 다른 6×6 전시 형상",
+      "limitations": [
+        "C4 표지와 사전 안내의 C2 표현을 구분한다. 두 사진만으로 탑재 사양을 확정하지 않는다.",
+        "사진은 제조사 제공이며 독립 성능 검증이 아니다."
+      ],
+      "sources": [
+        {
+          "id": "dsei25-patria-report",
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+          "title": "Patria DSEI 2025 전시 안내",
+          "publisher": "Patria",
+          "publishedAt": "2025-08-28",
+          "eventEditionId": "dsei-2025",
+          "independence": "primary_single_origin",
+          "limitations": "개막 전 안내이며 실제 형상은 현장사진과 별도 대조한다."
+        },
+        {
+          "id": "patria-dsei25-material-bank",
+          "url": "https://www.patriagroup.com/newsroom/images?page=1",
+          "title": "Patria DSEI 2025 현장사진·이용 안내",
+          "publisher": "Patria",
+          "publishedAt": null,
+          "eventEditionId": "dsei-2025",
+          "independence": "primary_single_origin",
+          "limitations": "회사 제공 사진이다. 개별 촬영일·성능 검증 자료는 아니다."
+        }
+      ]
+    },
+    {
+      "asOf": "2026-11-16",
+      "eventId": "dsei-2025",
+      "organizationId": "org-b2e821937e2348e31631",
+      "productId": "dsei25-patria-trackx",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "FAMOUS 사업에서 개발한 궤도형 수송 플랫폼이다.",
+          "sourceIds": [
+            "dsei25-patria-trackx-release"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "제조사는 여러 임무의 파생형 기반으로 소개했다.",
+          "sourceIds": [
+            "dsei25-patria-trackx-release"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "측면 차명을 확인했다. 공개 발표와 현장사진을 대조했다.",
+          "sourceIds": [
+            "dsei25-patria-trackx-release",
+            "patria-dsei25-material-bank"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "2027년 양산 준비는 2025년 발표 당시 목표다.",
+          "sourceIds": [
+            "dsei25-patria-trackx-release"
+          ],
+          "claimType": "official_plan"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 궤도형 차량의 제안 범위를 넓히는 공개다.",
+          "sourceIds": [
+            "dsei25-patria-trackx-release"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "dsei25-patria-trackx-release",
+        "patria-dsei25-material-bank"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "dsei25-patria-trackx"
+      ],
+      "form": "제조사 현장사진 · TRACKX 측면 식별",
+      "limitations": [
+        "한 방향 사진이며 내부와 전후면 전체 형상은 미확인이다.",
+        "제조사 목표를 양산 달성·군 인도 완료로 바꾸지 않는다."
+      ],
+      "sources": [
+        {
+          "id": "dsei25-patria-trackx-release",
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-trackx-the-ultimate-all-terrain-tracked-vehicle-launched-at-dsei-uk-in-london",
+          "title": "Patria TRACKX DSEI 2025 공개",
+          "publisher": "Patria",
+          "publishedAt": "2025-09-09",
+          "eventEditionId": "dsei-2025",
+          "independence": "primary_single_origin",
+          "limitations": "제조사 발표이며 목표 일정의 달성 확인이 아니다."
+        },
+        {
+          "id": "patria-dsei25-material-bank",
+          "url": "https://www.patriagroup.com/newsroom/images?page=1",
+          "title": "Patria DSEI 2025 현장사진·이용 안내",
+          "publisher": "Patria",
+          "publishedAt": null,
+          "eventEditionId": "dsei-2025",
+          "independence": "primary_single_origin",
+          "limitations": "회사 제공 사진이다. 개별 촬영일·성능 검증 자료는 아니다."
+        }
+      ]
+    },
+    {
+      "asOf": "2026-11-16",
+      "eventId": "dsei-2025",
+      "organizationId": "org-b2e821937e2348e31631",
+      "productId": "dsei25-patria-tremos",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "차량 탑재용 박격포 체계 전시품이다.",
+          "sourceIds": [
+            "dsei25-patria-report"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "제조사는 여러 차량에 적용하는 구성을 설명했다.",
+          "sourceIds": [
+            "dsei25-patria-report"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "별도 전시대의 TREMOS 명판을 확인했다. 현장 작동 여부는 미확인이다.",
+          "sourceIds": [
+            "patria-dsei25-material-bank"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "확인한 자료에는 이 전시품의 완료 일정이 없다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 차체와 임무장비를 나눠 제안하는 사례다.",
+          "sourceIds": [
+            "dsei25-patria-report"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "dsei25-patria-report",
+        "patria-dsei25-material-bank"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "dsei25-patria-tremos"
+      ],
+      "form": "제조사 현장사진 · 별도 전시대와 TREMOS 명판",
+      "limitations": [
+        "전시대 사진을 특정 6×6 차량의 통합 완료 근거로 쓰지 않는다.",
+        "전시 실물의 명판 대조이며 성능·작동·양산 상태 검증은 아니다."
+      ],
+      "sources": [
+        {
+          "id": "dsei25-patria-report",
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+          "title": "Patria DSEI 2025 전시 안내",
+          "publisher": "Patria",
+          "publishedAt": "2025-08-28",
+          "eventEditionId": "dsei-2025",
+          "independence": "primary_single_origin",
+          "limitations": "개막 전 안내이며 실제 형상은 현장사진과 별도 대조한다."
+        },
+        {
+          "id": "patria-dsei25-material-bank",
+          "url": "https://www.patriagroup.com/newsroom/images?page=1",
+          "title": "Patria DSEI 2025 현장사진·이용 안내",
+          "publisher": "Patria",
+          "publishedAt": null,
+          "eventEditionId": "dsei-2025",
+          "independence": "primary_single_origin",
+          "limitations": "회사 제공 사진이다. 개별 촬영일·성능 검증 자료는 아니다."
         }
       ]
     }

@@ -5,8 +5,8 @@
 | A-01~03 | 감사·3종 로컬 초안 | completed | 이전 a21b781 체크포인트 |
 | R-01 | 3사 및 한화 근거 보강 | completed | 4개 조사 packet, 26제품 서술 연결. 사진 완성·전수조사 아님 |
 | B-01 | 관람 흐름·장비 링크 | completed | 해당 구현 범위: 지도 동선과 마지막 사진 그룹·하위경로 회귀 확인. 전체 자료 완성 의미 아님 |
-| B-02 | 장비별 설명·공개 정리 | verifying | 26제품·130항목 및 공개 원천/컴파일러 정리; 자료 공백 명시 |
-| B-03 | 종합보고·인쇄/PDF | retry_with_revision | 16:9 화면 확인. 사진 원문 링크·인쇄 글자 크기 보완 중. 실제 PDF 검증은 Windows URL 확인 실패로 중단 |
+| B-02 | 장비별 설명·공개 정리 | executing | 40제품·200항목 검증, 사진 없는 22제품과 추가 자료 확장 진행 |
+| B-03 | 종합보고·인쇄/PDF | completed | 5회차 화면·반응형·실제 한 장 PDF 검증 완료. 전체 자료 완성 의미 아님 |
 | B-04 | 전체 관련 범위·다른4회차 | executing | 모든 기존 업체 접근·화면 구조 적용, 심층 자료 확장 미완료 |
 | B-05 | 고정 URL 공개 반영 | planned | /preview/만, 완성본 검토 뒤. push/배포 없음 |
 | V-01 | Windows 검사 2건 | completed | junction fixture+경로 정규화; 권한 허용 실행에서 실제 검증 성공 |
@@ -49,3 +49,15 @@
 - 위험: 다른회차사진·모형·일반제품사진오인, 저작권조건누락, 긴보고문구의넘침. 원문/픽셀/권리/사진중복을검사한다.
 - 검증: 원문조사 → 사진픽셀/출처대조 → build → check → 브라우저이미지로딩·제품링크·반응형 → 증거저장. 실제PDF는실파일이없으면미완료로유지.
 - 상태: B-04 executing → verifying(10제품자료연결) → executing(보고·사진확장). B-03 retry_with_revision 유지(PDF미검증); 공개반영 B-05 planned.
+
+## 2026-11-16 보고·사진 확대 묶음
+
+- B02: verifying → executing. 40제품·200항목 연결, 전체 내용 조사 완료 아님.
+- B03: retry_with_revision → executing → verifying. 5회차 보고 연결, 실제 Chrome PDF 5개 저장, baseline 한 장·한국어·사진·링크 확인. 45mm 사진 최종판 QA 진행.
+- B04: executing → verifying(이번 묶음) → executing(다음 자료 확장). 신규 Patria 사진 4장·2제품, i-X/GDAMS 기존 사진 연결. 6제품·30항목 + HAVOC 사진2장 초안은 아직 미통합.
+- B05: planned 유지. 완성본 검토 전 공개 갱신 없음.
+- 검증: prepare 40/200/5, build pass, check 200/200, 공개문구 0건, 실제 하위경로 브라우저 확인.
+
+다음 계획: docs/research-v2/redesign-narratives-photo-coverage.json을 원문·사진·사용권·형상 대조 후 prepare-redesign-content.mjs로 연결한다. 영향은 기존6제품의 설명과 사진 연결이며 ID·참석상태·지도좌표는 유지한다. T-90MS 해석은 evidence_gap으로 보류한다. 잘못된 형식/다른 회차 사진 혼합과 권리 고지 누락을 주의하고 build → check → 해당 제품 브라우저 순으로 검증한다.
+
+2026-11-16 최종 PDF: B03 verifying → completed(5회차 보고/실제 PDF 검증 범위). 최종5개 각각1쪽·약320×180mm·최소8pt·사진45mm(12개), 페이지밖글자/겹침0. SAHA는 현장사진 미확보 안내 유지. B02/B04 executing, 전체 목표 미완료.

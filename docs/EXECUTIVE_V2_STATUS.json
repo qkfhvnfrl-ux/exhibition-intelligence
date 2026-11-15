@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -18,29 +18,115 @@
     "branch": "codex/fieldnote-redesign-audit",
     "baseline_branch": "work/fieldnote-v2",
     "baseline_commit": "7040964ccc6af9e3ecfd355cb9be53de33ee6ef6",
-    "state": "retry_with_revision",
+    "state": "executing",
     "phase": "redesign_B_implementation_and_verification",
     "review": "docs/REDESIGN_REVIEW_2026-11-15.md",
     "local_preview_entry": "index.html",
-    "scope": "Approved local implementation; full research, saved PDF verification and publication remain incomplete.",
+    "scope": "승인된 로컬 본 구현을 진행 중이다. 5개 종합보고의 화면·실제 PDF 검증은 완료했으며 전체 조사·사진 보강·공개 반영은 남아 있다.",
     "quality_target": "의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성",
     "public_cleanup": "implemented_current_sources_and_generators_final_audit_recorded_separately",
     "deployment_authorized": false,
     "pushed_this_work": false,
-    "final_status_note": "Follow-up build/check: 184/184 passed. Last gallery regression and nested preview path verified. Report photo/rights/PDF citations and 8pt print notes implemented; latest report visual QA and saved PDF remain unverified after repeated Windows URL determination stop. New other-event research packets are not yet compiled into app content.",
+    "final_status_note": "장비별 서술 40개·설명 항목 200개·종합보고 5개를 연결했다. 최종 보고 문구를 포함한 build/check 200/200과 최종 PDF 5개의 자동 검사·시각 검수가 통과했다. B03 완료는 이 보고 검증 범위에 한정하며 B04와 전체 목표는 진행 중이다.",
     "implementation_plan": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
     "ui_direction_approved": true,
     "first_publication_target": "preview_only",
     "last_checks": {
       "build": "passed",
       "check": "passed",
-      "tests": 184,
-      "passed": 184,
+      "tests": 200,
+      "passed": 200,
       "failed": 0,
-      "skipped": 0
+      "skipped": 0,
+      "scope": "최신 Eurosatory·IDEX 보고 문구 압축을 포함한 최종 실행. 미통합 추가 6개 제품 초안은 검증 대상 앱 수량에 포함하지 않는다.",
+      "build_log": ".local-reports-build.log",
+      "check_log": ".local-reports-check.log",
+      "latest_copy_revision_recheck": "passed"
     },
-    "implementation_commit": "137fa841eedeaa6ef2d2d041744ad10e11c7cd8e",
-    "local_only": true
+    "implementation_commit": null,
+    "local_only": true,
+    "head_commit": "6b2999bcafafbea1800e84547ce97a91f8a6e601",
+    "working_changes": true,
+    "implementation_commit_note": "현재 HEAD 이후 구현 묶음은 작업 트리에 있다. 새 구현 커밋은 저장 후 기록한다. 137fa84는 과거 체크포인트다.",
+    "task_states": {
+      "B03": "completed",
+      "B04": "executing"
+    },
+    "integrated_content": {
+      "event_editions": 5,
+      "company_labels": 3685,
+      "product_service_records": 130,
+      "product_narratives": 40,
+      "narrative_fields": 200,
+      "event_reports": 5,
+      "counting_note": "업체 명칭·제품 기록 수는 실제 참가·실물 전시·독립 검증 완료 수가 아니다. 미통합 초안 6개는 서술 수에 포함하지 않는다."
+    },
+    "photo_changes": {
+      "new_local_assets": 4,
+      "new_asset_scope": "Patria DSEI 2025 현장사진 4장",
+      "existing_photo_links_added": [
+        "Cockerill i-X",
+        "GDAMS"
+      ],
+      "limits": "기존 6×6 ID, Babcock 표기형과 C4 표지형, 일반 참고사진 구분을 유지한다. 사진 확보로 참석·심층 조사 완료를 일괄 확정하지 않는다."
+    },
+    "saved_pdf": {
+      "files": [
+        "output/pdf/final/fieldnote-adex-2025.pdf",
+        "output/pdf/final/fieldnote-eurosatory-2026.pdf",
+        "output/pdf/final/fieldnote-dsei-2025.pdf",
+        "output/pdf/final/fieldnote-idex-2025.pdf",
+        "output/pdf/final/fieldnote-saha-2026.pdf"
+      ],
+      "save_status": "saved",
+      "qa_status": "passed_automated_and_visual_review",
+      "pagination_verified": true,
+      "regenerate_after_copy_revision": [],
+      "evidence": "docs/evidence/REDESIGN_PDF_VALIDATION_2026-11-16.json",
+      "note": "최신 문구를 반영한 최종 5개 보고 PDF가 자동 검사와 시각 검수를 통과했다. 모두 1쪽·약 320×180mm이며 본문·링크·폰트 포함과 잘림·겹침 없음이 확인됐다.",
+      "summary": {
+        "pdfCount": 5,
+        "allOnePage": true,
+        "all320x180MMWithinBrowserRounding": true,
+        "allExpectedTextAndLinksPresent": true,
+        "allFontsEmbedded": true,
+        "outOfPageCharacterCount": 0,
+        "overlappingCharacterPairCount": 0,
+        "imageTextOverlapCount": 0,
+        "visiblePhotosTotal": 12,
+        "missingPhotoPlaceholders": 3,
+        "photoHeightMM": 44.979,
+        "smallestMeasuredFontPt": 7.99,
+        "lowestTextPageEdgeClearanceMM": 5.71
+      },
+      "sha256_by_event": {
+        "adex-2025": "2283ce2375a7d872766d7236e7b4501d97994260dc883a694e7d0a6a4909265c",
+        "eurosatory-2026": "bdc5b54a3b109c4dc9050213ee07002e3e678991302765290a0a2a3edba71ada",
+        "dsei-2025": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1",
+        "idex-2025": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501",
+        "saha-2026": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91"
+      }
+    },
+    "unintegrated_drafts": [
+      {
+        "file": "docs/research-v2/redesign-narratives-photo-coverage.json",
+        "product_narratives": 6,
+        "status": "not_integrated",
+        "next": "사진·제품·회차·출처와 표현의 확인 범위를 검토한 뒤 기존 생성기에 연결한다."
+      }
+    ],
+    "deployment_note": "첫 공개 대상은 기존 /preview/만이다. 완성본 검토 전 push·merge·배포 워크플로를 실행하지 않는다.",
+    "task_completion_scope": {
+      "B03": "5개 종합보고의 화면·실제 저장 PDF 검증 범위에 한정한다. 전체 조사·사진 보강·실제 휴대폰·공개 배포 완료를 뜻하지 않는다.",
+      "B04": "자료 조사와 사진·서술 보강을 계속한다."
+    },
+    "photo_coverage": {
+      "scope": "앱에 서술이 연결된 40개 제품 기준",
+      "products_with_displayable_event_photos": 18,
+      "unique_event_photo_records": 19,
+      "products_without_displayable_event_photos": 22,
+      "note": "제품별 사진 연결 범위이며 종합보고의 표시 사진 수와 구분한다."
+    }
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -639,20 +725,25 @@
     }
   ],
   "unfinished": [
-    "ADEX full official 2025 directory/outdoor and pavilion populations remain incomplete; 135 Hall 8 transcriptions and 346 registered names not started. Batch 1 is not stage completion.",
-    "PEI booth-number conflict 18-20 versus 7-C11 remains unresolved; preserve stable ID and verified pre-event geometry pending onsite cross-check (stage 4)",
-    "Eurosatory full catalogue and booth maps beyond LAB partial list (stage 5)",
-    "DSEI identity/relevance/exhibit review and original 2025 map (stage 6)",
-    "IDEX 2025 organizer full roster/guide/map beyond BDSV partial list (stage 7)",
-    "SAHA profile/relevance review, truncated categories, population reconciliation and original maps (stage 8)",
-    "Original-map redistribution permission unresolved; remote reference only, no local rehosting or open-license claim",
-    "Physical phone touch/hit testing and saved-PDF pagination remain unverified; managed validation browser disabled printing and DevTools",
-    "Full report consolidation, cross-event review and production deployment (stage 9)"
+    "서술 제품 40개 중 22개는 표시 가능한 해당 회차 사진이 없다. 남은 사진 공백과 독립 근거를 보강한다.",
+    "추가 6개 제품의 사진·서술 초안은 미통합이다. 원문·회차·사진·확인 범위를 검토한 뒤 연결한다.",
+    "ADEX 공식 2025 전체 디렉터리·야외·공동관 모집단은 미확보다. Hall8 024 / SANJU OPTICAL 이후 작은 글씨 112행과 기존 미착수 큐를 유지한다.",
+    "PEI 부스 번호 18-20과 7-C11 상충을 유지하고 기존 ID·검증된 사전 도면 위치를 임의로 변경하지 않는다.",
+    "Eurosatory는 LAB 부분 목록을 넘어 전체 카탈로그·부스 지도 조사가 남아 있다.",
+    "DSEI 명칭·관련성·실출품 검토와 원본 2025 지도 조사를 계속한다.",
+    "IDEX 2025 주최사 전체 명단·안내서·지도 조사가 남아 있다. BDSV 부분 목록으로 전체 모집단을 확정하지 않는다.",
+    "SAHA 업체 프로필·관련성·잘린 분류·모집단 대조와 원본 지도 조사를 계속한다.",
+    "원본 지도 재배포 허가는 미확정이다. 원격 참조를 유지하고 임의 로컬 재게시·개방형 라이선스 주장을 하지 않는다.",
+    "실제 휴대폰의 터치·선택 영역 검증은 남아 있다.",
+    "전체 보고 대체 목표와 전수 조사는 미완료다. 완성본 검토 뒤 승인 범위인 기존 /preview/ 공개 반영을 진행한다."
   ],
   "next_start": [
-    "Hall8 / scanned label024 / SANJU OPTICAL; remaining 112 dense labels",
-    "Remaining DAPA constituents; 브로던 country/identity and onsite evidence",
-    "Finland pavilion other companies; USA pavilion full 37-name list"
+    "redesign-narratives-photo-coverage.json의 6개 제품 초안을 검토하고 검증한 범위만 기존 생성기에 연결한다.",
+    "서술 제품 중 사진 공백이 남은 22개와 모든 회차의 기존 조사 큐를 이어간다.",
+    "필요한 화면·사진·실제 휴대폰 검증과 전체 조사 큐를 이어간다. 공개 반영은 완성본 검토 뒤 진행한다.",
+    "ADEX Hall8 024 / SANJU OPTICAL부터 나머지 작은 글씨 112행을 대조한다.",
+    "방위사업청 공동관 나머지 업체와 브로던의 국가·법인·현장 출품 근거를 확인한다.",
+    "핀란드관 나머지 업체와 미국관 전체 37개 명칭을 확인한다."
   ],
   "research_protocol": "docs/EXHIBITION_RESEARCH_PROTOCOL.md",
   "progress_preview": {
@@ -727,8 +818,8 @@
     }
   },
   "redesign": {
-    "phase": "A",
-    "status": "verifying",
+    "phase": "B",
+    "status": "executing",
     "instructions_received": true,
     "review_document": "docs/REDESIGN_REVIEW_2026-11-15.md",
     "state_files": [
@@ -738,9 +829,9 @@
       "EVIDENCE.md",
       "CHANGELOG.md"
     ],
-    "prior_stage_records": "stages and historical_work_2026_11_12 retained as historical evidence",
-    "current_policy": "Latest public-facing requirements supersede prior internal-work relevance and automatic remote-push instructions.",
-    "approved_scope": "audit, research verification, local screen drafts and evidence",
+    "prior_stage_records": "과거 A단계와 1~9단계 기록 및 모든 회차의 조사 큐를 보존했다. 현재 상태는 work를 따른다.",
+    "current_policy": "최신 공개용 요구와 본 구현 승인이 과거 A단계 한정·자동 원격 반영 지시보다 우선한다.",
+    "approved_scope": "큰 지도 → 별도 업체 메인 → 장비별 설명 → 16:9 종합보고(모바일 세로) 로컬 본 구현과 검증. 첫 공개 대상은 /preview/이며 완성본 검토 전 배포 금지.",
     "baseline_validation": {
       "build": "pass",
       "check": "fail",
@@ -752,14 +843,27 @@
     },
     "data_audit": "docs/evidence/REDESIGN_AUDIT_DATA.json",
     "remaining": [
-      "local draft QA and final decision report",
-      "product implementation and equipment-level photo/content association",
-      "public source/generated data/document/asset cleanup",
-      "previous-edition evidence comparison",
-      "saved PDF and physical phone verification",
-      "full relevant-company research across five editions",
-      "authorized public deployment"
-    ]
+      "서술 제품 40개 중 22개는 표시 가능한 해당 회차 사진이 없다. 남은 사진 공백과 독립 근거를 보강한다.",
+      "추가 6개 제품의 사진·서술 초안은 미통합이다. 원문·회차·사진·확인 범위를 검토한 뒤 연결한다.",
+      "ADEX 공식 2025 전체 디렉터리·야외·공동관 모집단은 미확보다. Hall8 024 / SANJU OPTICAL 이후 작은 글씨 112행과 기존 미착수 큐를 유지한다.",
+      "PEI 부스 번호 18-20과 7-C11 상충을 유지하고 기존 ID·검증된 사전 도면 위치를 임의로 변경하지 않는다.",
+      "Eurosatory는 LAB 부분 목록을 넘어 전체 카탈로그·부스 지도 조사가 남아 있다.",
+      "DSEI 명칭·관련성·실출품 검토와 원본 2025 지도 조사를 계속한다.",
+      "IDEX 2025 주최사 전체 명단·안내서·지도 조사가 남아 있다. BDSV 부분 목록으로 전체 모집단을 확정하지 않는다.",
+      "SAHA 업체 프로필·관련성·잘린 분류·모집단 대조와 원본 지도 조사를 계속한다.",
+      "원본 지도 재배포 허가는 미확정이다. 원격 참조를 유지하고 임의 로컬 재게시·개방형 라이선스 주장을 하지 않는다.",
+      "실제 휴대폰의 터치·선택 영역 검증은 남아 있다.",
+      "전체 보고 대체 목표와 전수 조사는 미완료다. 완성본 검토 뒤 승인 범위인 기존 /preview/ 공개 반영을 진행한다."
+    ],
+    "task_states": {
+      "B03": "completed",
+      "B04": "executing"
+    },
+    "baseline_validation_scope": "아래 baseline_validation은 2026-11-15 A단계 기준검사 기록이다. 현재 검사는 work.last_checks를 참조한다.",
+    "task_completion_scope": {
+      "B03": "5개 종합보고의 화면·실제 저장 PDF 검증 범위에 한정한다. 전체 조사·사진 보강·실제 휴대폰·공개 배포 완료를 뜻하지 않는다.",
+      "B04": "자료 조사와 사진·서술 보강을 계속한다."
+    }
   },
   "redesign_audit_final": {
     "date": "2026-11-15",
@@ -780,6 +884,91 @@
       "testsTotal": 152,
       "testsFailed": 2
     },
-    "next": "Apply user decisions, then implement approved product flow and data cleanup; preserve historical research queue."
-  }
+    "next": "Apply user decisions, then implement approved product flow and data cleanup; preserve historical research queue.",
+    "record_scope": "2026-11-15 본 구현 승인 전 A단계 종료 기록이다. 당시 pending/needs_human은 현재 대기 상태가 아니다.",
+    "superseded_by": "2026-11-15 본 구현 승인 및 2026-11-16 work/redesign 상태"
+  },
+  "historical_redesign_checkpoint_2026_11_15": {
+    "record_scope": "2026-11-15 당시 기록. 현재 승인 범위·검증 상태는 work와 redesign을 따른다.",
+    "work": {
+      "branch": "codex/fieldnote-redesign-audit",
+      "baseline_branch": "work/fieldnote-v2",
+      "baseline_commit": "7040964ccc6af9e3ecfd355cb9be53de33ee6ef6",
+      "state": "retry_with_revision",
+      "phase": "redesign_B_implementation_and_verification",
+      "review": "docs/REDESIGN_REVIEW_2026-11-15.md",
+      "local_preview_entry": "index.html",
+      "scope": "Approved local implementation; full research, saved PDF verification and publication remain incomplete.",
+      "quality_target": "의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성",
+      "public_cleanup": "implemented_current_sources_and_generators_final_audit_recorded_separately",
+      "deployment_authorized": false,
+      "pushed_this_work": false,
+      "final_status_note": "Follow-up build/check: 184/184 passed. Last gallery regression and nested preview path verified. Report photo/rights/PDF citations and 8pt print notes implemented; latest report visual QA and saved PDF remain unverified after repeated Windows URL determination stop. New other-event research packets are not yet compiled into app content.",
+      "implementation_plan": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
+      "ui_direction_approved": true,
+      "first_publication_target": "preview_only",
+      "last_checks": {
+        "build": "passed",
+        "check": "passed",
+        "tests": 184,
+        "passed": 184,
+        "failed": 0,
+        "skipped": 0
+      },
+      "implementation_commit": "137fa841eedeaa6ef2d2d041744ad10e11c7cd8e",
+      "local_only": true
+    },
+    "redesign": {
+      "phase": "A",
+      "status": "verifying",
+      "instructions_received": true,
+      "review_document": "docs/REDESIGN_REVIEW_2026-11-15.md",
+      "state_files": [
+        "PROJECT_STATE.md",
+        "TASKS.md",
+        "DECISIONS.md",
+        "EVIDENCE.md",
+        "CHANGELOG.md"
+      ],
+      "prior_stage_records": "stages and historical_work_2026_11_12 retained as historical evidence",
+      "current_policy": "Latest public-facing requirements supersede prior internal-work relevance and automatic remote-push instructions.",
+      "approved_scope": "audit, research verification, local screen drafts and evidence",
+      "baseline_validation": {
+        "build": "pass",
+        "check": "fail",
+        "tests": 152,
+        "passed": 150,
+        "failed": 2,
+        "lint": "script_not_defined",
+        "evidence": "docs/evidence/REDESIGN_BASELINE_CHECKS.md"
+      },
+      "data_audit": "docs/evidence/REDESIGN_AUDIT_DATA.json",
+      "remaining": [
+        "local draft QA and final decision report",
+        "product implementation and equipment-level photo/content association",
+        "public source/generated data/document/asset cleanup",
+        "previous-edition evidence comparison",
+        "saved PDF and physical phone verification",
+        "full relevant-company research across five editions",
+        "authorized public deployment"
+      ]
+    },
+    "unfinished": [
+      "ADEX full official 2025 directory/outdoor and pavilion populations remain incomplete; 135 Hall 8 transcriptions and 346 registered names not started. Batch 1 is not stage completion.",
+      "PEI booth-number conflict 18-20 versus 7-C11 remains unresolved; preserve stable ID and verified pre-event geometry pending onsite cross-check (stage 4)",
+      "Eurosatory full catalogue and booth maps beyond LAB partial list (stage 5)",
+      "DSEI identity/relevance/exhibit review and original 2025 map (stage 6)",
+      "IDEX 2025 organizer full roster/guide/map beyond BDSV partial list (stage 7)",
+      "SAHA profile/relevance review, truncated categories, population reconciliation and original maps (stage 8)",
+      "Original-map redistribution permission unresolved; remote reference only, no local rehosting or open-license claim",
+      "Physical phone touch/hit testing and saved-PDF pagination remain unverified; managed validation browser disabled printing and DevTools",
+      "Full report consolidation, cross-event review and production deployment (stage 9)"
+    ],
+    "next_start": [
+      "Hall8 / scanned label024 / SANJU OPTICAL; remaining 112 dense labels",
+      "Remaining DAPA constituents; 브로던 country/identity and onsite evidence",
+      "Finland pavilion other companies; USA pavilion full 37-name list"
+    ]
+  },
+  "historical_stage_records_note": "stages와 과거 실행·배포 기록은 삭제하지 않는다. 현재 본 구현 승인과 상태는 work·redesign이 우선하며 5개 회차의 prepared_queue_file/ids는 그대로 유지한다."
 }

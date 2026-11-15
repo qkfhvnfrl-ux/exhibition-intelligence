@@ -1,0 +1,238 @@
+{
+  "eventId": "dsei-2025",
+  "asOf": "2026-11-16",
+  "title": "DSEI 2025",
+  "message": "차량 선택지에서 통신 연동과 현지 협력까지",
+  "scopeNote": "기아·Babcock·Patria의 공개 발표 3사례 · 행사 전체 추세 아님",
+  "comparisonEvent": "DSEI 2023",
+  "comparisonNote": "Patria의 직전 회차 전시 구성을 대조했다. 기아는 첫 참가 발표에 따라 비교를 제외하며, GDAMS의 2023 원문 대조는 보류한다.",
+  "themes": [
+    {
+      "title": "특장 기반을 함께 제시",
+      "summary": "기아는 타스만 쇼카와 KLTV 베어샤시·축소 모형을 소개했다. 쇼카의 양산 일정은 이 발표에서 확인되지 않는다.",
+      "companyId": "org-37268bb0020007468bbc",
+      "productId": "kia-platforms-dsei2025",
+      "photoId": "photo-648d50af60ebb4f3032a",
+      "before": "첫 참가 발표 · 직전 비교 제외",
+      "after": "쇼카·베어샤시·축소 모형",
+      "sourceIds": [
+        "dsei25-kia-official-followup"
+      ]
+    },
+    {
+      "title": "기존 통신체계와의 연동",
+      "summary": "Babcock은 GDAMS와 BCIP의 통신 연동 시연을 발표했다. 차량별 통합 완료나 군 채택을 입증한 자료는 아니다.",
+      "companyId": "org-c7eb14a21ab8df05af0f",
+      "productId": "gdams-dsei2025",
+      "photoId": "photo-759379832c8e0bb07807",
+      "before": "2023 비교 원문 대조 보류",
+      "after": "통신체계 연동 시연 발표",
+      "sourceIds": [
+        "dsei25-babcock-gdams-official-followup"
+      ]
+    },
+    {
+      "title": "차량 계열과 현지 협력",
+      "summary": "Patria는 6×6 지휘형·병력수송형을 각각 안내하고 영국 생산 협력을 발표했다. 전시 구성과 생산 계획을 구분한다.",
+      "companyId": "org-b2e821937e2348e31631",
+      "productId": "patria-6x6",
+      "photoId": "dsei25-patria-6x6-c4",
+      "before": "6×6 NEMO·RS4 구성 소개",
+      "after": "지휘형·병력수송형 안내",
+      "sourceIds": [
+        "dsei23-patria-report",
+        "dsei25-patria-report",
+        "dsei25-patria-teaming-report"
+      ]
+    }
+  ],
+  "interpretation": "전시 구성에 따른 해석: 확인한 사례는 차체의 파생형, 기존 체계와의 호환성, 현지 협력을 함께 제안하는 방향을 보여준다. 세 사례의 제품 성숙도나 성능을 같은 척도로 비교하지 않는다.",
+  "limitations": [
+    "제조사·사업 참여자의 발표가 주된 근거다. 행사 전체 조사나 독립 성능 검증이 아니다.",
+    "세 사진은 해당 회차 전시 외관의 근거다. GDAMS 사진은 통신 시연 성공을 입증하지 않으며, Patria는 C4 표지형이다.",
+    "2023·2025 전시 구성 비교이며 개발 완료·군 납품·성능 향상을 뜻하지 않는다."
+  ],
+  "sourceIds": [
+    "dsei25-kia-official-followup",
+    "dsei25-babcock-gdams-official-followup",
+    "dsei23-patria-report",
+    "dsei25-patria-report",
+    "dsei25-patria-teaming-report"
+  ],
+  "sources": [
+    {
+      "id": "dsei25-kia-official-followup",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+      "title": "기아, '영국 DSEI 2025' 방산전시회 첫 참가",
+      "publisher": "기아 / 현대자동차그룹",
+      "publishedAt": "2025-09-09",
+      "eventEditionId": "dsei-2025",
+      "independence": "primary_single_origin",
+      "note": "제조사의 첫 참가 발표다. 2023년 참가 명부를 전수 대조한 부재 판정으로 사용하지 않는다. 쇼카·베어샤시·모형의 형상을 구분한다."
+    },
+    {
+      "id": "dsei25-babcock-gdams-official-followup",
+      "url": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+      "title": "Babcock is first to integrate mortar with UK Army’s communications system",
+      "publisher": "Babcock International",
+      "publishedAt": "2025-09-10",
+      "eventEditionId": "dsei-2025",
+      "independence": "primary_single_origin",
+      "note": "시연·통신 연동에 관한 제조사 발표다. 게시일과 본문 요일 표기가 달라 정확한 시연일을 확정하지 않는다. 군 채택이나 납품 완료 근거로 사용하지 않는다."
+    },
+    {
+      "id": "dsei23-patria-report",
+      "url": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
+      "title": "Patria showcasing its wide offering at DSEI London on 12 - 15 September 2023",
+      "publisher": "Patria",
+      "publishedAt": "2023-08-28",
+      "eventEditionId": "dsei-2023",
+      "independence": "primary_single_origin",
+      "note": "2023 개막 전 출품 안내의 6×6 NEMO·RS4 구성만 비교한다. 같은 회사 이미지 자료실의 DSEI 2023 캡션으로 보조 대조했으며 독립 출처는 아니다."
+    },
+    {
+      "id": "dsei25-patria-report",
+      "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+      "title": "Patria to launch a new tracked vehicle at DSEI UK 2025",
+      "publisher": "Patria",
+      "publishedAt": "2025-08-28",
+      "eventEditionId": "dsei-2025",
+      "independence": "primary_single_origin",
+      "note": "개막 전 안내는 지휘형·병력수송형을 구분한다. 후속 현장사진의 Babcock 표기형·C4 표지형을 대조했으며 C2/C4 표현과 실제 탑재 사양을 동일시하지 않는다."
+    },
+    {
+      "id": "dsei25-patria-teaming-report",
+      "url": "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom",
+      "title": "Patria and Babcock agree on teaming in CAVS 6x6 armoured vehicle manufacturing in the United Kingdom",
+      "publisher": "Patria",
+      "publishedAt": "2025-09-09",
+      "eventEditionId": "dsei-2025",
+      "independence": "primary_single_origin",
+      "note": "생산 협력 발표와 DSEI 2025 현장사진 캡션을 확인했다. 영국 내 생산·군 인도 완료로 표현하지 않는다."
+    }
+  ],
+  "evidence": {
+    "status": "research_draft_not_compiled",
+    "checkedAt": "2026-11-16",
+    "plan": {
+      "goal": "기존 DSEI 3제품의 종합보고와 직전 회차 비교 초안",
+      "writeScope": "docs/research-v2/redesign-report-dsei.json only",
+      "impact": "기존 제품·회사·사진 ID 참조만 작성; src/data/배포 변경 없음",
+      "risks": [
+        "사전 발표와 실제 현장 확인 혼동",
+        "계열 다른 형상의 제원·사진 오연결",
+        "2023 검색 결과만으로 비교 확정"
+      ],
+      "verification": "공식 원문 읽기, 기존 ID·소유관계와 JSON 구조 검사; 이미지 재다운로드·픽셀 검수는 미수행"
+    },
+    "stateTransitions": [
+      "planned",
+      "executing",
+      "verifying",
+      "completed"
+    ],
+    "verifiedPrimarySources": [
+      {
+        "sourceId": "dsei25-kia-official-followup",
+        "method": "official page body",
+        "locator": "2025-09-09 heading; show car, KLTV bare chassis, scale models, first participation paragraphs"
+      },
+      {
+        "sourceId": "dsei25-babcock-gdams-official-followup",
+        "method": "official page body",
+        "locator": "2025-09-10 article; demonstrated integration; future Devonport production"
+      },
+      {
+        "sourceId": "dsei23-patria-report",
+        "method": "official page body plus same-publisher photo caption",
+        "locator": "Patria 6x6/Nemo/RS4 paragraph; https://www.patriagroup.com/newsroom/images?page=3"
+      },
+      {
+        "sourceId": "dsei25-patria-report",
+        "method": "official page body",
+        "locator": "two Patria 6x6 vehicles; C2 at own stand and troop transport at Babcock stand"
+      },
+      {
+        "sourceId": "dsei25-patria-teaming-report",
+        "method": "official page body and image caption",
+        "locator": "teaming agreement; Patria 6x6 vehicle at DSEI UK 2025"
+      }
+    ],
+    "pendingComparison": [
+      {
+        "productId": "gdams-dsei2025",
+        "url": "https://www.stengg.com/getContentAsset/d45def00-a71a-4a11-bcc4-b9ddbd105939/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/st-engineering-annual-report-2023.pdf",
+        "publisher": "ST Engineering",
+        "candidatePage": "printed page 40",
+        "observed": "Official annual-report index links this PDF. Search index returned a DSEI 2023 GDAMS image caption.",
+        "failure": "web.open and official-index click both refused the 13,194,603-byte PDF as too large.",
+        "decision": "Full original page not inspected; before/after publication remains pending. Do not replace this with a 2024 DVD comparison."
+      }
+    ],
+    "photoCandidates": [
+      {
+        "candidateId": "dsei25-patria-cavs-flags",
+        "productId": "patria-6x6",
+        "eventId": "dsei-2025",
+        "sourceUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+        "downloadUrl": "https://www.patriagroup.com/download/patria-6x6-vehicle-cavs",
+        "articleImageUrl": "https://www.patriagroup.com/sites/default/files/styles/content_medium/public/images/Patria_DSEI_2025_0197.jpg?itok=esoikszX",
+        "caption": "Patria 6x6 vehicle at DSEI UK 2025 (CAVS)",
+        "credit": "Patria",
+        "rightsUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+        "rightsNote": "Material-bank page permits free non-commercial use with Patria credit. Same page lists this exact event-labelled image; not CC.",
+        "status": "download_endpoint_observed_pixel_validation_pending",
+        "limits": "Do not identify C2 versus troop-transport variant from this caption alone. Root must inspect pixels, original response, rights context and file provenance."
+      },
+      {
+        "candidateId": "dsei25-patria-sixwheel-event",
+        "productId": "patria-6x6",
+        "eventId": "dsei-2025",
+        "sourceUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+        "downloadUrl": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025",
+        "caption": "Patria 6x6 at DSEI UK 2025",
+        "credit": "Patria",
+        "rightsUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+        "rightsNote": "Material-bank page permits free non-commercial use with Patria credit and directly lists this event image; not CC.",
+        "status": "download_endpoint_observed_pixel_validation_pending",
+        "limits": "Exact variant and viewpoint require pixel inspection; no screenshot or downloaded asset was created by this research task."
+      },
+      {
+        "candidateId": "dsei25-babcock-gdams-news",
+        "productId": "gdams-dsei2025",
+        "eventId": "dsei-2025",
+        "sourceUrl": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+        "downloadUrl": "https://www.babcockinternational.com/wp-content/uploads/2025/09/GDAMS-Social-02-lores-1024x683.jpg",
+        "caption": "Image attached to the DSEI communication-integration announcement; the page does not provide an event-specific image caption.",
+        "credit": "Babcock International, image credit requires confirmation",
+        "rightsUrl": "https://www.babcockinternational.com/terms/",
+        "rightsNote": "Terms section 3 reserves reproduction/publication rights; no image-specific reuse permission found.",
+        "status": "link_only_rights_and_event_identity_unverified",
+        "limits": "web image fetch returned cache miss; no pixel inspection. Article timing alone does not prove this photograph depicts DSEI 2025."
+      },
+      {
+        "candidateId": "dsei25-patria-additional-equipment",
+        "eventId": "dsei-2025",
+        "sourceUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+        "downloadUrls": [
+          "https://www.patriagroup.com/download/patria-tremos-at-dsei-uk-2025",
+          "https://www.patriagroup.com/download/patria-trackx-at-dsei-uk-2025"
+        ],
+        "caption": "Separate TREMOS and TRACKX event photographs in the same material bank",
+        "credit": "Patria",
+        "rightsUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+        "status": "separate_equipment_candidates_not_report_photos",
+        "limits": "Not Patria 6x6 photographs and must not be attached to that product. TRACKX download lookup returned cache miss; pixels and product-record scope remain unverified."
+      }
+    ],
+    "independence": "Manufacturer and participating-partner publications only. Same-publisher image captions are corroborating presentation metadata, not an independent source.",
+    "validation": {
+      "json": "passed",
+      "existingIds": "passed: 3 companies, 3 products, 1 current-event product photo",
+      "browser": "not_run",
+      "newImagesDownloaded": 0,
+      "deployment": "not_run"
+    },
+    "completionScope": "Research draft only; not app publication or full report completion"
+  }
+}

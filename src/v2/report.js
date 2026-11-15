@@ -17,8 +17,10 @@ function photoMarkup(data,theme,{print=false}={}){
  const src=photo&&photoUrl(photo);
  if(!src)return '<div class="report-photo-missing"><span>현장사진 미확보</span><small>해당 회차에서 식별·표시 가능한 사진이 필요합니다.</small></div>';
  const original=safeUrl(photo.sourceUrl),rights=safeUrl(photo.rights?.licenseUrl)||original;
- const links=[original?`<a href="${esc(original)}" target="_blank" rel="noopener noreferrer">사진 원문</a>`:'',rights?`<a href="${esc(rights)}" target="_blank" rel="noopener noreferrer" title="${esc(photo.rights?.license||'원문 이용 안내 확인')}">이용조건</a>`:''].filter(Boolean).join('<span aria-hidden="true"> · </span>');
- return `<figure><img src="${esc(src)}" alt="${esc(photo.caption)}" loading="${print?'eager':'lazy'}" decoding="async"><figcaption>${esc(photo.caption)}<small>${esc(photo.credit||'제공기관 미확인')} · ${esc(data.event.year)} 현장사진</small><span class="report-photo-links">${links||'사진 원문·이용조건 주소 미확인'}</span></figcaption></figure>`;
+ const license=photo.rights?.license||'',rightsLabel=/^CC(?:0| BY)/.test(license)?license:'이용조건';
+ const changes=photo.variantNote?.match(/웹 표시용 [^.!?\n]*?본/)?.[0]||'';
+ const links=[original?`<a href="${esc(original)}" target="_blank" rel="noopener noreferrer">사진 원문</a>`:'',rights?`<a href="${esc(rights)}" target="_blank" rel="noopener noreferrer" title="${esc(license||'원문 이용 안내 확인')}">${esc(rightsLabel)}</a>`:''].filter(Boolean).join('<span aria-hidden="true"> · </span>');
+ return `<figure><img src="${esc(src)}" alt="${esc(photo.caption)}" loading="${print?'eager':'lazy'}" decoding="async"><figcaption>${esc(photo.caption)}<small>${esc(photo.credit||'제공기관 미확인')} · ${esc(data.event.year)} 현장사진</small><span class="report-photo-links">${links||'사진 원문·이용조건 주소 미확인'}${changes?` · ${esc(changes)}`:''}</span></figcaption></figure>`;
 }
 function reportSources(data,model){
  const photoIds=model.themes.map(theme=>theme.photoId).filter(Boolean);

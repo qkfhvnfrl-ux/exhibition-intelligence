@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-16",
+  "eventId": "adex-2025",
+  "status": "completed",
+  "scope": "ADEX 2025의 현대로템·현대위아·기아·한화 지상차량 및 임무장비 현장 사진 추가 조사. SAHA 2026은 제한적으로 보조 조사.",
+  "result": {
+    "qualifiedNewPhotoCount": 0,
+    "heldPhotoCandidateCount": 8,
+    "downloadedImageCount": 0,
+    "pixelReviewedImageCount": 0,
+    "message": "신규 사용 가능 사진은 미확보. 공식 현장 원문의 사진 주소 8건은 확보했으나 재사용 권리 또는 사진 내용의 추가 확인이 필요하다. 희망 수량을 맞추기 위해 다른 회차나 일반 제품 이미지를 포함하지 않았다."
+  },
+  "plan": {
+    "goal": "회차·출처·재사용 조건이 확인되는 신규 사진 후보 확보",
+    "editFiles": ["docs/research-v2/redesign-photo-candidates-adex.json"],
+    "impact": "조사 기록만 작성하며 앱·배포 데이터·이미지 자산은 변경하지 않음",
+    "risks": ["사이트 전체 공개 라이선스와 사진별 이용 조건의 불일치", "원문 부근의 장비 설명만으로 사진 속 파생형을 단정할 위험", "기존 사진의 크기 변경본을 신규 사진으로 중복 계산할 위험"],
+    "verification": ["원문 및 공개 기사 API에서 날짜·이미지 주소 확인", "권리 문구와 기존 자산의 출처 대조", "JSON 구문·개수·중복 URL 검증"]
+  },
+  "acceptanceRules": {
+    "allowedRights": ["CC0", "CC BY", "CC BY-SA", "권리자가 명시한 보도 재사용 허용", "해당 사진에 적용되는 명확한 공공저작물 이용 허용"],
+    "excluded": ["일반 제품 사진", "다른 회차", "생성 이미지", "광고 이미지", "항공기·함정·우주 장비", "기존 자산의 단순 해상도 변경본"],
+    "qualifiedRequires": "회차 확인, 이미지별 권리 확인, 기존 자산 중복 확인, 원본 픽셀 검수 모두 완료",
+    "heldMeans": "조사 후속 후보이며 다운로드·화면 게재가 승인된 사진이 아님"
+  },
+  "qualifiedCandidates": [],
+  "heldCandidates": [
+    {
+      "id": "adex25-hanwha-land-1-5",
+      "eventId": "adex-2025",
+      "sourceId": "hanwha-adex25-part1",
+      "imageUrl": "https://www.hanwha.co.kr/upload/news/mediaLogPart/2025/10/22/1761116810571_69.png",
+      "originalAlt": "1-5",
+      "sourceCaption": "",
+      "proposedCaption": "한화 LAND 전시 구역 · ADEX 2025",
+      "identityBasis": "LAND 구역 설명에 연결된 이미지. 개별 장비 식별은 미확인.",
+      "companyId": "org-c919e0346aa5a11fd7a0",
+      "productId": "",
+      "creditCandidate": "한화그룹",
+      "rightsStatus": "explicit_reuse_permission_not_found",
+      "status": "hold_rights_and_pixels",
+      "blockers": ["공개 재사용 허용 문구 미확보", "현장 사진·장비·기존 사진과의 중복을 픽셀로 확인해야 함"]
+    },
+    {
+      "id": "adex25-hanwha-knifv-1-6",
+      "eventId": "adex-2025",
+      "sourceId": "hanwha-adex25-part1",
+      "imageUrl": "https://www.hanwha.co.kr/upload/news/mediaLogPart/2025/10/22/1761116932168_16.png",
+      "originalAlt": "1-6",
+      "sourceCaption": "",
+      "proposedCaption": "K-NIFV 소개 구간의 전시 이미지 · ADEX 2025",
+      "identityBasis": "같은 기사 블록에서 K-NIFV 실물 크기 전시물을 설명함. 사진의 장비 식별은 미검수.",
+      "companyId": "org-c919e0346aa5a11fd7a0",
+      "productId": "",
+      "creditCandidate": "한화그룹",
+      "rightsStatus": "explicit_reuse_permission_not_found",
+      "status": "hold_rights_and_pixels",
+      "blockers": ["공개 재사용 허용 문구 미확보", "사진과 전시물 식별·기존 사진 중복 검수 필요"]
+    },
+    {
+      "id": "adex25-hanwha-mumt-2-5",
+      "eventId": "adex-2025",
+      "sourceId": "hanwha-adex25-part2",
+      "imageUrl": "https://www.hanwha.co.kr/upload/news/mediaLogPart/2025/10/22/1761118194682_66.png",
+      "originalAlt": "2-5",
+      "sourceCaption": "",
+      "proposedCaption": "한화 MUM-T 전시 구역 · ADEX 2025",
+      "identityBasis": "이어지는 문단에 THeMIS-K·아리온스멧·그룬트가 소개됨. 어떤 차량이 이 사진에 담겼는지는 미확인.",
+      "companyId": "org-c919e0346aa5a11fd7a0",
+      "productId": "",
+      "creditCandidate": "한화그룹",
+      "rightsStatus": "explicit_reuse_permission_not_found",
+      "status": "hold_rights_and_pixels",
+      "blockers": ["공개 재사용 허용 문구 미확보", "차량별 식별과 기존 사진 중복 검수 필요"]
+    },
+    {
+      "id": "adex25-hanwha-mumt-2-6",
+      "eventId": "adex-2025",
+      "sourceId": "hanwha-adex25-part2",
+      "imageUrl": "https://www.hanwha.co.kr/upload/news/mediaLogPart/2025/10/22/1761118297598_38.png",
+      "originalAlt": "2-6",
+      "sourceCaption": "",
+      "proposedCaption": "한화 무인지상차량 소개 구간의 전시 이미지 · ADEX 2025",
+      "identityBasis": "MUM-T 구역의 두 번째 이미지. 특정 UGV로 연결하지 않음.",
+      "companyId": "org-c919e0346aa5a11fd7a0",
+      "productId": "",
+      "creditCandidate": "한화그룹",
+      "rightsStatus": "explicit_reuse_permission_not_found",
+      "status": "hold_rights_and_pixels",
+      "blockers": ["공개 재사용 허용 문구 미확보", "차량별 식별과 기존 사진 중복 검수 필요"]
+    },
+    {
+      "id": "adex25-sitta-k9",
+      "eventId": "adex-2025",
+      "sourceId": "sitta-adex25",
+      "imageUrl": "http://www.defense.gouv.fr/sites/default/files/sitta/KOR-K9%20THUNDER.JPG",
+      "sourceCaption": "KOR-K9 THUNDER",
+      "proposedCaption": "K9 전시 이미지 · ADEX 2025",
+      "identityBasis": "원문 이미지 캡션. K9A3라는 별도 식별은 없음.",
+      "companyId": "org-c919e0346aa5a11fd7a0",
+      "productId": "",
+      "creditCandidate": "© SITTA / Ministère des Armées",
+      "rightsStatus": "photo_permission_required_by_site_terms",
+      "rightsSourceId": "fr-defense-terms",
+      "status": "hold_rights_and_pixels",
+      "blockers": ["상세 약관이 사진의 명시적 허락을 요구함", "실물·모형·패널 구분 및 기존 사진 중복 검수 필요", "원문이 제공한 HTTP 원본 링크의 HTTPS 도달성 미확인"]
+    },
+    {
+      "id": "adex25-sitta-chunmoo",
+      "eventId": "adex-2025",
+      "sourceId": "sitta-adex25",
+      "imageUrl": "http://www.defense.gouv.fr/sites/default/files/sitta/CHUNMOO%203.0.JPG",
+      "sourceCaption": "CHUNMOO 3.0",
+      "proposedCaption": "천무 3.0 소개 전시물 · ADEX 2025",
+      "identityBasis": "원문 이미지 캡션. 차량이 실제 포함되는지 미검수.",
+      "companyId": "org-c919e0346aa5a11fd7a0",
+      "productId": "",
+      "creditCandidate": "© SITTA / Ministère des Armées",
+      "rightsStatus": "photo_permission_required_by_site_terms",
+      "rightsSourceId": "fr-defense-terms",
+      "status": "hold_rights_and_pixels",
+      "blockers": ["상세 약관이 사진의 명시적 허락을 요구함", "지상차량이 없는 유도무기 단독 전시 사진이면 범위 밖으로 제외", "원본 링크 도달성·기존 사진 중복 검수 필요"]
+    },
+    {
+      "id": "adex25-sitta-k9a3-panel",
+      "eventId": "adex-2025",
+      "sourceId": "sitta-adex25",
+      "imageUrl": "http://www.defense.gouv.fr/sites/default/files/sitta/K9A3.jpg",
+      "sourceCaption": "PLANCHE K9A3",
+      "proposedCaption": "K9A3 소개 패널 후보 · ADEX 2025",
+      "identityBasis": "원문이 패널을 뜻하는 PLANCHE로 명명. 현장 촬영인지 홍보 도판인지 미확인.",
+      "companyId": "org-c919e0346aa5a11fd7a0",
+      "productId": "k9a3",
+      "creditCandidate": "© SITTA / Ministère des Armées",
+      "rightsStatus": "photo_permission_required_by_site_terms",
+      "rightsSourceId": "fr-defense-terms",
+      "status": "hold_rights_and_medium",
+      "blockers": ["상세 약관이 사진의 명시적 허락을 요구함", "현장 사진이 아닌 도판·CG·광고 이미지는 제외", "원본 링크 도달성·기존 사진 중복 검수 필요"]
+    },
+    {
+      "id": "adex25-sitta-wave",
+      "eventId": "adex-2025",
+      "sourceId": "sitta-adex25",
+      "imageUrl": "http://www.defense.gouv.fr/sites/default/files/sitta/WAVe%20hydrogen.jpg",
+      "sourceCaption": "WAVe hydrogen",
+      "proposedCaption": "수소 차륜형차량 소개 전시물 · ADEX 2025",
+      "identityBasis": "현대로템 지상차량 문단에 배치된 원문 캡션. 블랙 베일이나 HR-셰르파로 연결하지 않음.",
+      "companyId": "",
+      "productId": "",
+      "creditCandidate": "© SITTA / Ministère des Armées",
+      "rightsStatus": "photo_permission_required_by_site_terms",
+      "rightsSourceId": "fr-defense-terms",
+      "status": "hold_rights_and_pixels",
+      "blockers": ["상세 약관이 사진의 명시적 허락을 요구함", "실물·모형·패널 구분 및 기존 사진 중복 검수 필요", "원본 링크 도달성 미확인"]
+    }
+  ],
+  "rightsFindings": [
+    {
+      "sourceId": "hanwha-site-js",
+      "finding": "공식 뉴스룸의 공개 스크립트에서 한화그룹 권리 유보 푸터를 확인했다. 기사 API에는 사진 재사용 허용 조건이 없었다. 뉴스룸에 게재됐다는 이유만으로 허용을 추정하지 않았다.",
+      "shortQuote": "Copyright Hanwha Group. All rights reserved."
+    },
+    {
+      "sourceId": "fr-defense-terms",
+      "finding": "사이트 푸터는 Etalab 2.0을 표시하지만 상세 약관은 사진·그래픽·시청각 자료의 권리 보호와 명시적 허락 필요를 별도로 명시한다. SITTA 크레디트만으로 사진별 허락이 완료됐다고 보지 않았다.",
+      "shortQuote": "ne sont pas réutilisables sans accord exprès"
+    },
+    {
+      "sourceId": "korea-policy-photo",
+      "finding": "ADEX 개막식 사진 7장의 날짜·장소는 확인되지만 공공누리 표시는 텍스트에 한정된다. 사진 이용은 해당 권리자의 허락을 요구하므로 신규 사용 가능 사진으로 세지 않았다."
+    }
+  ],
+  "documentLeads": [
+    {
+      "sourceId": "daejeon-adex25",
+      "title": "대전시 ADEX 2025 대전기업관 운영 첨부 HWP",
+      "attachmentPathAsPublished": "FileUpload/CommonBoard/normal_0189/20251022061000039.hwp",
+      "attachmentBytesLabel": "716.5KB",
+      "licenseOnArticle": "공공누리 제1유형(출처표시)",
+      "status": "uninspected_document_not_photo_candidate",
+      "limitation": "공개 본문에는 사진이 없고 첨부 HWP만 제공된다. 첨부 내부 사진 유무·별도 권리·지상장비 관련성은 확인하지 않았다. 직접 사진 URL을 추정하지 않았다."
+    }
+  ],
+  "excludedSources": [
+    {"url":"https://commons.wikimedia.org/wiki/Category:ADEX_2025","reason":"분류에 확인되는 파일 1건은 미르온 헬기 영상. 지상장비 범위 밖이며 신규 사진 없음."},
+    {"url":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160","reason":"기존 현대로템 부스·K2PL 사진과 중복. 메탄엔진 사진은 항공우주 범위 밖."},
+    {"url":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126","reason":"기존 경량 105·RCWS 사진과 중복. 추가 ADS 사진 미확보."},
+    {"url":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141","reason":"기존 기아 전시관 사진 3장과 중복. 모형별 신규 사진 미확보."},
+    {"url":"https://blog.hyundai-rotem.co.kr/1129","reason":"HMG 보도 사진과 중복. 이 블로그 자체 조건은 CC BY-NC-ND이며 이번 허용 라이선스 범위 밖."},
+    {"url":"https://blog.hyundai-rotem.co.kr/1130","reason":"ADEX 2025 영상 게시물. 독립 현장 사진 없음. CC BY-NC-ND."},
+    {"url":"https://www.hyundaimotorgroup.com/ko/story/hyundai-wia-hyundai-rotem-wds-2026-mobility-defense-solution","reason":"HR-셰르파·블랙 베일 사진은 WDS 2026으로 다른 행사."},
+    {"url":"https://hanwha-aerospace.eu/adex-2025-2/","reason":"공식 ADEX 기사와 한화 사진 크레디트는 있으나 명시적 사진 재사용 허용 미확보. 표지 사진은 장비 식별 미검수."},
+    {"url":"https://www.yna.co.kr/view/AKR20251020079300504","reason":"언론사 재배포 금지 및 일부 제공 사진의 재판매·DB 금지. 사용 가능한 직접 제조사 원문 사진으로 전환하지 못함."},
+    {"url":"https://www.meconomynews.com/news/articleView.html?idxno=121735","reason":"한화 현장 사진이 있으나 무단 전재·재배포 금지."},
+    {"url":"https://commons.wikimedia.org/wiki/File:FNSS_-_PARS_ALPHA_8x8.jpg","reason":"CC0이나 SAHA 2024 사진. 기존 pars-alpha-00.webp와 중복이며 SAHA 2026 현장 사진으로 사용할 수 없음."},
+    {"url":"https://commons.wikimedia.org/wiki/File:Turkish_Army_155mm_F%C4%B1rt%C4%B1na_Howitzer_at_SAHA_Expo_2024.jpg","reason":"CC0이나 SAHA 2024 사진으로 다른 회차."}
+  ],
+  "existingPhotoIdsExcludedAsDuplicates": [
+    "photo-406026b01ffa0009623a",
+    "photo-f07b18031de173091dff",
+    "photo-88508f17c41d264626d0",
+    "photo-af0b79b5b51a37df0ab9",
+    "photo-c9b10caa412b9d19d1ef",
+    "photo-e0774b19c4805c2bb425",
+    "photo-f27315794918d9b8ddce"
+  ],
+  "sources": [
+    {"id":"hanwha-adex25-part1","url":"https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15193","apiUrl":"https://www.hanwha.co.kr/api/v1/news/media/view-ajax.do?seq=15193","title":"ADEX 2025, 한화 AI Defense for Tomorrow 1부","publisher":"한화그룹","publishedAt":"2025-10-22","accessedAt":"2026-11-16","method":"공식 HTML과 공개 기사 API를 HTTP 200으로 직접 읽음"},
+    {"id":"hanwha-adex25-part2","url":"https://www.hanwha.co.kr/newsroom/media_center/news/article.do?seq=15194","apiUrl":"https://www.hanwha.co.kr/api/v1/news/media/view-ajax.do?seq=15194","title":"ADEX 2025, 한화 AI Defense for Tomorrow 2부","publisher":"한화그룹","publishedAt":"2025-10-22","accessedAt":"2026-11-16","method":"공식 HTML과 공개 기사 API를 HTTP 200으로 직접 읽음"},
+    {"id":"hanwha-site-js","url":"https://www.hanwha.co.kr/assets/js/newsroom.js","title":"한화 공식 뉴스룸 공개 페이지 스크립트","publisher":"한화그룹","publishedAt":"","accessedAt":"2026-11-16","method":"공개 기사 조회 주소 및 푸터 권리 문구만 확인"},
+    {"id":"sitta-adex25","url":"https://www.defense.gouv.fr/sitta/salons-du-sitta/salons-larmement-2025/adex-2025","title":"ADEX 2025","publisher":"SITTA / Ministère des Armées","publishedAt":"2025-10-24","dateBasis":"본문 첫머리 날짜. 별도 게시 시각 없음.","accessedAt":"2026-11-16","method":"공식 HTML HTTP 200, 사진 캡션·크레디트·원본 다운로드 href 확인"},
+    {"id":"fr-defense-terms","url":"https://www.defense.gouv.fr/mentions-legales-conditions-dutilisation-du-site","title":"Mentions légales et conditions d’utilisation du site","publisher":"Ministère des Armées","publishedAt":"","accessedAt":"2026-11-16","method":"공식 HTML HTTP 200의 Réutilisation des contenus 항목 확인"},
+    {"id":"korea-policy-photo","url":"https://www.korea.kr/multi/policyPhotoView.do?bbsKey=67570&themekey=president","title":"서울 ADEX 2025 개막식","publisher":"대한민국 정책브리핑 / 대통령실","publishedAt":"2025-10-20","dateBasis":"사진 촬영일","accessedAt":"2026-11-16","method":"원문 날짜·장소·사진 캡션·텍스트 한정 이용 조건 확인"},
+    {"id":"daejeon-adex25","url":"https://www.daejeon.go.kr/drh/board/boardNormalView.do?boardId=normal_0189&menuSeq=1632&ntatcSeq=1500323548","title":"대전시‘서울 ADEX 2025’대전기업관 운영","publisher":"대전광역시 국방우주산업과","publishedAt":"2025-10-22","accessedAt":"2026-11-16","method":"공식 HTML HTTP 200, 공공누리 1유형·HWP 첨부 경로 확인"}
+  ],
+  "evidence": {
+    "stateTransitions": ["planned", "executing", "verifying", "completed"],
+    "researchMethods": ["web 원문 조회·제조사 및 Commons 도메인 검색", "Node fetch로 접근 가능한 공식 공개 HTML·기사 API 읽기", "기존 data/v2/app/events/adex-2025.json 및 saha-2026.json의 사진 출처 대조"],
+    "accessLimitations": ["일부 한화·프랑스 국방부 페이지는 web 도구에서 timeout이었으나 허용된 네트워크의 읽기 전용 Node fetch로 HTTP 200 원문 확인", "추가 사진은 일절 다운로드하지 않았으며 이미지 크기·EXIF·픽셀·해시 검증은 미실시", "Commons 분류와 검색의 발견 범위이지 인터넷 전체의 사진 부재를 입증하는 기록은 아님"],
+    "validationCommand": "node: JSON.parse; sourceId 참조·8개 후보 URL 고유성·개수·기존 사진 ID 확인",
+    "validationResult": "2026-11-16 PASS, exit 0: JSON 구문, 출처 참조, 고유 URL 8개, 기존 사진 ID 7개 확인. git diff --check 오류 없음.",
+    "buildTestLint": "앱 코드·운영 데이터 변경이 없는 조사 JSON 파일이므로 앱 빌드·테스트·린트는 부모 작업에서 통합 수행",
+    "remainingRisks": ["한화 사진 재사용 허가 확보 전 게시 불가", "프랑스 국방부의 사진별 허락 확보 전 게시 불가", "현장 촬영·정확한 장비·중복 여부가 확인되지 않은 후보를 검증 완료로 승격하면 안 됨", "희망한 신규 15~25장 목표는 이번 조사에서 충족하지 못함"]
+  }
+}

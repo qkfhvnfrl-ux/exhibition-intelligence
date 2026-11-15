@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "eventId": "dsei-2025",
+  "batchId": "redesign-patria-photos-2026-11-16",
+  "checkedAt": "2026-11-16",
+  "scopeNote": "Patria 3제품과 제조사 현장사진 4장의 한정 보강. 업체 참석 상태·전체 조사 완료를 일괄 변경하지 않는다.",
+  "cases": [
+    {
+      "id": "case-dsei25-patria-photos",
+      "organizationId": "org-b2e821937e2348e31631",
+      "displayName": "Patria",
+      "categoryIds": [
+        "complete_vehicle",
+        "interiors_modules"
+      ],
+      "productIds": [
+        "patria-6x6",
+        "dsei25-patria-trackx",
+        "dsei25-patria-tremos"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "차륜·궤도 차량과 별도 임무장비를 구분해 살펴볼 수 있는 사례다.",
+      "highlights": [
+        "6×6 두 사진은 서로 다른 전시 형상이다.",
+        "TRACKX와 TREMOS를 각각 독립 장비로 연결했다.",
+        "회사 제공 현장사진과 발표의 확인 범위를 구분한다."
+      ],
+      "exhibit": {
+        "summary": "제조사의 해당 회차 사진 4장에서 3개 제품을 식별했다. 사진과 개막 전 안내의 표현 차이는 그대로 남겼다.",
+        "items": [
+          {
+            "productId": "patria-6x6",
+            "name": "Patria 6×6",
+            "category": "차륜형 장갑차",
+            "status": "exhibitor_event_photo_confirmed",
+            "form": "제조사 현장사진 · Babcock 표기형과 C4 표지형 구분",
+            "sourceIds": [
+              "patria-dsei25-material-bank",
+              "dsei25-patria-report"
+            ]
+          },
+          {
+            "productId": "dsei25-patria-trackx",
+            "name": "Patria TRACKX",
+            "category": "장갑차",
+            "status": "exhibitor_event_photo_confirmed",
+            "form": "제조사 현장사진 · 측면 차명 식별",
+            "sourceIds": [
+              "patria-dsei25-material-bank",
+              "dsei25-patria-trackx-release"
+            ]
+          },
+          {
+            "productId": "dsei25-patria-tremos",
+            "name": "Patria TREMOS",
+            "category": "지상 임무체계",
+            "status": "exhibitor_event_photo_confirmed",
+            "form": "제조사 현장사진 · 별도 전시대와 명판 식별",
+            "sourceIds": [
+              "patria-dsei25-material-bank",
+              "dsei25-patria-report"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "patria-dsei25-material-bank",
+          "dsei25-patria-report",
+          "dsei25-patria-trackx-release"
+        ]
+      },
+      "distinction": {
+        "comparator": "차륜형 6×6, 궤도형 TRACKX, 별도 TREMOS 전시품",
+        "conditions": "같은 조건의 성능 시험을 비교하지 않는다.",
+        "judgment": "서로 다른 용도와 전시 형상을 보여주는 제품군이다.",
+        "status": "qualified_comparison_only",
+        "sourceIds": [
+          "patria-dsei25-material-bank",
+          "dsei25-patria-report",
+          "dsei25-patria-trackx-release"
+        ]
+      },
+      "direction": {
+        "observation": "TRACKX의 2027년 생산 준비는 2025년 발표 당시 목표다.",
+        "interpretation": "차량 계열과 임무장비의 제안 범위를 함께 보여주는 구성으로 읽힌다.",
+        "sourceIds": [
+          "dsei25-patria-trackx-release",
+          "dsei25-patria-report"
+        ]
+      },
+      "followUps": [
+        "6×6 C4 표지형의 구체적인 전시 탑재 사양은 무엇인가?",
+        "전시품별 추가 방향 사진과 개발 일정 확인 자료가 있는가?"
+      ],
+      "sources": [
+        {
+          "id": "patria-dsei25-material-bank",
+          "url": "https://www.patriagroup.com/newsroom/images?page=1",
+          "title": "Patria DSEI 2025 현장사진·이용 안내",
+          "publisher": "Patria",
+          "date": null,
+          "role": "manufacturer_event_photo",
+          "originGroup": "patria-dsei2025",
+          "support": "해당 회차 사진의 장비명 캡션과 비상업 이용 안내",
+          "limitations": "회사 제공 사진이다. 개별 촬영일·성능 검증 자료는 아니다.",
+          "independence": "primary_single_origin",
+          "eventId": "dsei-2025",
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "dsei25-patria-report",
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+          "title": "Patria DSEI 2025 전시 안내",
+          "publisher": "Patria",
+          "date": "2025-08-28",
+          "role": "manufacturer_pre_event_release",
+          "originGroup": "patria-dsei2025",
+          "support": "6×6의 전시 구성과 TREMOS 출품 안내",
+          "limitations": "개막 전 안내이며 실제 형상은 현장사진과 별도 대조한다.",
+          "independence": "primary_single_origin",
+          "eventId": "dsei-2025",
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "dsei25-patria-trackx-release",
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-trackx-the-ultimate-all-terrain-tracked-vehicle-launched-at-dsei-uk-in-london",
+          "title": "Patria TRACKX DSEI 2025 공개",
+          "publisher": "Patria",
+          "date": "2025-09-09",
+          "role": "manufacturer_event_release",
+          "originGroup": "patria-dsei2025",
+          "support": "TRACKX 공개 및 당시 생산 준비 목표",
+          "limitations": "제조사 발표이며 목표 일정의 달성 확인이 아니다.",
+          "independence": "primary_single_origin",
+          "eventId": "dsei-2025",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "photos": [
+        {
+          "id": "dsei25-patria-6x6-cavs",
+          "src": "assets/photos/dsei2025-patria-6x6-cavs.jpg",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-vehicle-cavs",
+          "originalImageUrl": "https://www.patriagroup.com/download/patria-6x6-vehicle-cavs",
+          "caption": "DSEI 2025 Patria 6×6 — Babcock 표기·CAVS 국기 전시형",
+          "credit": "Photo: Patria",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rights": {
+            "status": "reusable",
+            "license": "© Patria · 출처 표기·비상업 이용",
+            "licenseUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+            "basis": "공식 자료실의 해당 이미지와 비상업 이용·Photo: Patria 출처 표기 고지를 2026-11-16 확인했다. CC 라이선스가 아니다."
+          },
+          "context": "event",
+          "eventId": "dsei-2025",
+          "eventYear": 2025,
+          "productIds": [
+            "patria-6x6"
+          ],
+          "sourceDate": null,
+          "capturedAt": null,
+          "sourceIds": [
+            "patria-dsei25-material-bank"
+          ],
+          "variantNote": "사진의 Patria 6×6·Babcock 표기와 국기를 대조했다. C4 Concept Vehicle 사진과 다른 전시 형상이다. 웹 표시용 축소·JPEG 압축본이며 원문은 사진 링크로 확인할 수 있다.",
+          "width": 1800,
+          "height": 1200,
+          "sha256": "772ef5351e69a756bb326e596a07c7ebe38ff24158f5a5e81b7f6bc525773a5b",
+          "originalSha256": "ca5ffe93d625b47231b0896ef364b59a6a1d5a5f2dfa9a1540a3b19d0c977e9c"
+        },
+        {
+          "id": "dsei25-patria-6x6-c4",
+          "src": "assets/photos/dsei2025-patria-6x6-booth.jpg",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025",
+          "originalImageUrl": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025",
+          "caption": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+          "credit": "Photo: Patria",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rights": {
+            "status": "reusable",
+            "license": "© Patria · 출처 표기·비상업 이용",
+            "licenseUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+            "basis": "공식 자료실의 해당 이미지와 비상업 이용·Photo: Patria 출처 표기 고지를 2026-11-16 확인했다. CC 라이선스가 아니다."
+          },
+          "context": "event",
+          "eventId": "dsei-2025",
+          "eventYear": 2025,
+          "productIds": [
+            "patria-6x6"
+          ],
+          "sourceDate": null,
+          "capturedAt": null,
+          "sourceIds": [
+            "patria-dsei25-material-bank"
+          ],
+          "variantNote": "현장 명판의 C4 Concept Vehicle 표기를 확인했다. 사전 안내의 C2 표현과 표기 수준이 다르며, 세부 탑재 사양은 확정하지 않는다. 웹 표시용 축소·JPEG 압축본이며 원문은 사진 링크로 확인할 수 있다.",
+          "width": 1800,
+          "height": 1200,
+          "sha256": "0c760053a3eb918cd3a2335fc6d4dc83f2ab3143ff0ce50f9425a5d6a9c57242",
+          "originalSha256": "9004b632caf65cacdb435a262c2dd43fccc6fee76750fddbb900cf8b5846f096"
+        },
+        {
+          "id": "dsei25-patria-tremos",
+          "src": "assets/photos/dsei2025-patria-tremos.jpg",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-tremos-at-dsei-uk-2025",
+          "originalImageUrl": "https://www.patriagroup.com/download/patria-tremos-at-dsei-uk-2025",
+          "caption": "DSEI 2025 Patria TREMOS 전시대",
+          "credit": "Photo: Patria",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rights": {
+            "status": "reusable",
+            "license": "© Patria · 출처 표기·비상업 이용",
+            "licenseUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+            "basis": "공식 자료실의 해당 이미지와 비상업 이용·Photo: Patria 출처 표기 고지를 2026-11-16 확인했다. CC 라이선스가 아니다."
+          },
+          "context": "event",
+          "eventId": "dsei-2025",
+          "eventYear": 2025,
+          "productIds": [
+            "dsei25-patria-tremos"
+          ],
+          "sourceDate": null,
+          "capturedAt": null,
+          "sourceIds": [
+            "patria-dsei25-material-bank"
+          ],
+          "variantNote": "TREMOS 명판과 별도 전시대를 대조했다. 차량 통합 상태나 현장에서의 작동 여부는 이 사진으로 판단하지 않는다. 웹 표시용 축소·JPEG 압축본이며 원문은 사진 링크로 확인할 수 있다.",
+          "width": 1800,
+          "height": 1200,
+          "sha256": "2a04dbaed61e31043edfbe127c562a41084bb013bdae5e4f5df5a7a3cc6e10a0",
+          "originalSha256": "41e21fdf81a9e29498f4dd04116762030d826ed51711476a408cc155301af4e9"
+        },
+        {
+          "id": "dsei25-patria-trackx",
+          "src": "assets/photos/dsei2025-patria-trackx.jpg",
+          "sourceUrl": "https://www.patriagroup.com/download/patria-trackx-at-dsei-uk-2025",
+          "originalImageUrl": "https://www.patriagroup.com/download/patria-trackx-at-dsei-uk-2025",
+          "caption": "DSEI 2025 Patria TRACKX 측면 전시사진",
+          "credit": "Photo: Patria",
+          "photographer": null,
+          "photographerStatus": "individual_not_identified",
+          "rights": {
+            "status": "reusable",
+            "license": "© Patria · 출처 표기·비상업 이용",
+            "licenseUrl": "https://www.patriagroup.com/newsroom/images?page=1",
+            "basis": "공식 자료실의 해당 이미지와 비상업 이용·Photo: Patria 출처 표기 고지를 2026-11-16 확인했다. CC 라이선스가 아니다."
+          },
+          "context": "event",
+          "eventId": "dsei-2025",
+          "eventYear": 2025,
+          "productIds": [
+            "dsei25-patria-trackx"
+          ],
+          "sourceDate": null,
+          "capturedAt": null,
+          "sourceIds": [
+            "patria-dsei25-material-bank"
+          ],
+          "variantNote": "측면 TRACKX 차명을 대조했다. 단일 방향 사진이며 내부 구성·전후면 전체 형상은 확인하지 못했다. 웹 표시용 축소·JPEG 압축본이며 원문은 사진 링크로 확인할 수 있다.",
+          "width": 1800,
+          "height": 1199,
+          "sha256": "accf4aff6dd002ddf612a17b4450f6703b523a37316f01a8f52628042382aa9b",
+          "originalSha256": "7beea7df0190fc132ad6fd379f82ef135c173f446ce1212b27fca0c320f4fa1d"
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "제조사 제공 사진·발표를 교차 대조했으며 독립 취재·성능 검증으로 세지 않는다.",
+      "evidenceAsOf": "2026-11-16",
+      "analysisScope": "bounded_event_case",
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차량 플랫폼과 탑재 임무장비를 구분한 공개 전시자료다.",
+        "categories": [
+          "complete_vehicle",
+          "interiors_modules"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-16",
+        "sourceIds": [
+          "patria-dsei25-material-bank",
+          "dsei25-patria-report",
+          "dsei25-patria-trackx-release"
+        ],
+        "statusReason": "사진 4장의 제품명은 확인했으나 개별 형상의 완전한 사양·독립 근거·전체 전시품 조사는 미완료다."
+      }
+    }
+  ]
+}

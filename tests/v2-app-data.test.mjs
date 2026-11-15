@@ -4,6 +4,7 @@ import {readFile} from 'node:fs/promises';
 import {compileAppData,normalizePhoto,validateAppEvent} from '../scripts/compile-v2-app.mjs';
 import {getBoothCompanies,getCompanyPhotos,getPhotoViewerSelection,searchCompanies,safeAssetPath,safeUrl,tourCompanies,tourSelection} from '../src/v2/data.js';
 import {parseState,serializeState,patchState,DEFAULT_STATE} from '../src/v2/state.js';
+import {companyPanelMarkup,productPhotos} from '../src/v2/details.js';
 
 const read=file=>readFile(new URL('../'+file,import.meta.url),'utf8').then(JSON.parse);
 const [publicData,registry,taxonomy,mapDisplay]=await Promise.all([read('data/v2/public.json'),read('data/v2/registry.json'),read('data/v2/taxonomy.json'),read('data/v2/map-display.json')]);
@@ -222,4 +223,115 @@ test('optional event reports retain their own date, evidence and existing produc
   assert.throws(()=>withNarratives([narrative],{reportContents:[{...report,sourceIds:['missing-source']}]}),/report dangling source/);
   const broken=structuredClone(event);broken.report.themes[0].photoId=adex.photos.find(photo=>photo.context==='reference').id;
   assert.throws(()=>validateAppEvent(broken),/report company\/photo mismatch/);
+});
+
+const [patriaResearch,patriaNarratives,patriaReport,dseiNarratives]=await Promise.all([
+  read('data/v2/research/dsei-2025/patria-photos.json'),
+  read('docs/research-v2/redesign-narratives-patria.json'),
+  read('docs/research-v2/redesign-report-dsei.json'),
+  read('docs/research-v2/redesign-narratives-dsei-idex.json')
+]);
+const patriaOrganizationId='org-b2e821937e2348e31631';
+const patriaCompilation=withNarratives([...dseiNarratives.narratives.filter(item=>item.eventId==='dsei-2025'),...patriaNarratives.narratives],{researchBundles:[patriaResearch],reportContents:[patriaReport]});
+const patriaEvent=patriaCompilation.events['dsei-2025'];
+const patriaCompany=patriaEvent.companies.find(company=>company.id===patriaOrganizationId);
+const patriaPhotoGroups={
+  'patria-6x6':['dsei25-patria-6x6-cavs','dsei25-patria-6x6-c4'],
+  'dsei25-patria-trackx':['dsei25-patria-trackx'],
+  'dsei25-patria-tremos':['dsei25-patria-tremos']
+};
+
+test('Patria enrichment retains the legacy 6x6 identity and adds two separately addressable DSEI products',()=>{
+  assert.deepEqual([...patriaCompany.productIds].sort(),Object.keys(patriaPhotoGroups).sort());
+  const legacy=registry.products.find(product=>product.id==='patria-6x6');
+  assert.ok(legacy.legacyRefs.some(ref=>ref.namespace==='data/catalog.json'&&ref.oldId==='patria-6x6'));
+  for(const id of Object.keys(patriaPhotoGroups)){
+    const products=patriaEvent.products.filter(product=>product.id===id);
+    assert.equal(products.length,1,id+' must remain a single product');
+    assert.deepEqual(products[0].organizationIds,[patriaOrganizationId]);
+    assert.equal(products[0].narrative.sections.length,5);
+  }
+  for(const [eventId,event] of Object.entries(patriaCompilation.events))if(eventId!=='dsei-2025'){
+    assert.ok(event.products.every(product=>!['dsei25-patria-trackx','dsei25-patria-tremos'].includes(product.id)),eventId);
+  }
+});
+
+test('Patria product galleries expose exactly their four verified event photos without borrowing another product',()=>{
+  for(const [productId,photoIds] of Object.entries(patriaPhotoGroups)){
+    const product=patriaEvent.products.find(product=>product.id===productId);
+    const photos=productPhotos(patriaEvent,patriaCompany,product);
+    assert.deepEqual(photos.map(photo=>photo.id).sort(),[...photoIds].sort(),productId);
+    for(const photo of photos){
+      assert.equal(photo.context,'event');
+      assert.deepEqual(photo.productIds,[productId]);
+      assert.ok(patriaCompany.photoIds.includes(photo.id));
+      assert.ok(photo.src?.startsWith('assets/photos/dsei2025-patria-'));
+      assert.equal(photo.rights.status,'reusable');
+      assert.match(photo.rights.license,/비상업/);
+      assert.equal(photo.credit,'Photo: Patria');
+      assert.ok(photo.sourceIds.every(id=>patriaEvent.sources.some(source=>source.id===id)));
+    }
+  }
+  const selected=getPhotoViewerSelection(patriaEvent,{company:patriaOrganizationId,product:'patria-6x6',photo:'dsei25-patria-6x6-c4'});
+  assert.equal(selected.productId,'patria-6x6');
+  assert.deepEqual(selected.photos.map(photo=>photo.id).sort(),[...patriaPhotoGroups['patria-6x6']].sort());
+  assert.equal(selected.photos[selected.index].id,'dsei25-patria-6x6-c4');
+});
+
+test('the two Patria 6x6 photos retain distinct Babcock and C4 captions and the C2/C4 evidence limitation',()=>{
+  const [cavs,c4]=patriaPhotoGroups['patria-6x6'].map(id=>patriaEvent.photos.find(photo=>photo.id===id));
+  assert.notEqual(cavs.src,c4.src);
+  assert.notEqual(cavs.originalImageUrl,c4.originalImageUrl);
+  assert.match(cavs.caption,/Babcock/);
+  assert.match(c4.caption,/C4 Concept Vehicle/);
+  assert.match(cavs.variantNote,/다른 전시 형상/);
+  assert.match(c4.variantNote,/C2/);
+  const html=companyPanelMarkup(patriaEvent,patriaCompany,{productId:'patria-6x6'});
+  assert.ok(html.includes(cavs.caption));
+  assert.ok(html.includes(c4.caption));
+  assert.match(html,/같은 차량의 다른 각도로 묶지 않는다/);
+  assert.match(html,/C4 표지와 사전 안내의 C2 표현을 구분/);
+});
+
+test('Patria event photos do not promote existing references, attendance or research completion',()=>{
+  const baseline=output.events['dsei-2025'];
+  const previous=baseline.companies.find(company=>company.id===patriaOrganizationId);
+  assert.equal(patriaCompany.attendanceStatus,previous.attendanceStatus);
+  assert.equal(patriaCompany.attendanceStatus,'unverified');
+  assert.equal(patriaCompany.status,previous.status);
+  const participation=registry.participations.find(item=>item.id===patriaCompany.participationId);
+  assert.equal(patriaResearch.cases[0].review.status,'insufficient_data');
+  assert.equal(participation.researchStatus,'insufficient_data');
+  assert.equal(participation.deepAnalysisStatus,'not_complete');
+  assert.equal(patriaResearch.cases[0].attendanceStatus,undefined);
+  const references=baseline.photos.filter(photo=>previous.photoIds.includes(photo.id)&&photo.context==='reference');
+  assert.ok(references.length>=5,'pre-existing general Patria photos must remain available');
+  for(const reference of references){
+    assert.ok(patriaCompany.photoIds.includes(reference.id));
+    assert.equal(patriaEvent.photos.find(photo=>photo.id===reference.id).context,'reference');
+    for(const productId of Object.keys(patriaPhotoGroups)){
+      const product=patriaEvent.products.find(product=>product.id===productId);
+      assert.ok(productPhotos(patriaEvent,patriaCompany,product).every(photo=>photo.id!==reference.id));
+    }
+  }
+  for(const productId of Object.keys(patriaPhotoGroups)){
+    assert.equal(patriaEvent.products.find(product=>product.id===productId).exhibitStatus,'exhibitor_event_photo_confirmed');
+    const exhibit=registry.exhibits.find(item=>item.eventId==='dsei-2025'&&item.productId===productId);
+    assert.equal(exhibit.evidenceStatus,'exhibitor_event_photo_confirmed');
+  }
+});
+
+test('Patria source limitations and report-only notes survive compilation into the public evidence panel',()=>{
+  for(const source of patriaResearch.cases[0].sources){
+    const compiled=patriaEvent.sources.find(item=>item.id===source.id);
+    assert.equal(compiled.note,source.limitations);
+    assert.equal(compiled.evidenceStatus,'single_source');
+  }
+  for(const id of ['dsei23-patria-report','dsei25-patria-teaming-report']){
+    const source=patriaReport.sources.find(item=>item.id===id);
+    assert.ok(source.note);
+    assert.equal(patriaEvent.sources.find(item=>item.id===id).note,source.note);
+  }
+  const html=companyPanelMarkup(patriaEvent,patriaCompany);
+  for(const source of patriaResearch.cases[0].sources)assert.ok(html.includes(source.limitations),source.id);
 });
