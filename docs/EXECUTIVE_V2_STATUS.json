@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product": "FIELDNOTE v2",
-  "updated_at": "2026-11-12T00:39:06.510603+00:00",
+  "updated_at": "2026-11-15",
   "timezone": "Asia/Seoul",
   "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
   "production_url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
@@ -15,16 +15,19 @@
     "recovery_remote_verified": true
   },
   "work": {
-    "branch": "work/fieldnote-v2",
-    "remote_branch": "origin/work/fieldnote-v2",
-    "implementation_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41",
-    "remote_verified_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41",
-    "state": "stage_4_batch_2_saved_continue_research",
-    "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response.",
-    "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
-    "implementation_tree": "bac351fbb758c7729565093d8e884b1df2bd54c4",
-    "resume_start_commit": "f6a89fcf07aa09dcd8060359e8ebec942f543b85",
-    "stage4_implementation_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41"
+    "branch": "codex/fieldnote-redesign-audit",
+    "baseline_branch": "work/fieldnote-v2",
+    "baseline_commit": "7040964ccc6af9e3ecfd355cb9be53de33ee6ef6",
+    "state": "needs_human",
+    "phase": "redesign_A_audit_and_local_drafts",
+    "review": "docs/REDESIGN_REVIEW_2026-11-15.md",
+    "local_preview_entry": "review/index.html",
+    "scope": "Current-state audit and three local screen drafts; product implementation, full research and deployment are incomplete.",
+    "quality_target": "의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성",
+    "public_cleanup": "pending_source_compiler_generated_data_documents_and_assets_review",
+    "deployment_authorized": false,
+    "pushed_this_work": false,
+    "final_status_note": "Local draft QA in progress. The owning task records the final QA and decision status."
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -645,6 +648,39 @@
     "provider": "github_pages",
     "sourceRepository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
     "sourceBranch": "work/fieldnote-v2",
+    "sourceCommit": "7040964ccc6af9e3ecfd355cb9be53de33ee6ef6",
+    "productionCommit": "a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7",
+    "url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/",
+    "audience": "public_no_login",
+    "status": "existing_deployment_observed",
+    "deploymentRunId": 43128930795,
+    "deploymentRunUrl": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43128930795",
+    "observedAt": "2026-11-15",
+    "deployedThisWork": false,
+    "updatePolicy": "Keep fixed URL. A work/fieldnote-v2 push can publish after CI; do not trigger publication before the current review and deployment-scope approval.",
+    "verification": {
+      "metadata": "Observed preview/deployment.json and remote development HEAD agree.",
+      "evidence": "docs/REDESIGN_REVIEW_2026-11-15.md"
+    }
+  },
+  "historical_work_2026_11_12": {
+    "branch": "work/fieldnote-v2",
+    "remote_branch": "origin/work/fieldnote-v2",
+    "implementation_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41",
+    "remote_verified_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41",
+    "state": "stage_4_batch_2_saved_continue_research",
+    "handoff_commit_note": "This status-only follow-up records the independently verified implementation commit. Resolve the containing handoff commit with git log -1 --format=%H -- docs/EXECUTIVE_V2_HANDOFF.md; its final remote SHA is reported in the task response.",
+    "collection_commit": "faa792b99c74219d9beb58da0159494b7778739a",
+    "implementation_tree": "bac351fbb758c7729565093d8e884b1df2bd54c4",
+    "resume_start_commit": "f6a89fcf07aa09dcd8060359e8ebec942f543b85",
+    "stage4_implementation_commit": "546838f9556e7441b74dd8e6e6c4b138bb178d41"
+  },
+  "historical_progress_preview_2026_11_12": {
+    "schemaVersion": 2,
+    "purpose": "persistent_work_in_progress_preview",
+    "provider": "github_pages",
+    "sourceRepository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
+    "sourceBranch": "work/fieldnote-v2",
     "sourceCommit": "a2e518f84f95e5de51f4cfadcf70841992ac36fe",
     "url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/",
     "audience": "public_no_login",
@@ -676,5 +712,61 @@
       "localChecks": 152,
       "stableBuildFilesPreserved": 100
     }
+  },
+  "redesign": {
+    "phase": "A",
+    "status": "verifying",
+    "instructions_received": true,
+    "review_document": "docs/REDESIGN_REVIEW_2026-11-15.md",
+    "state_files": [
+      "PROJECT_STATE.md",
+      "TASKS.md",
+      "DECISIONS.md",
+      "EVIDENCE.md",
+      "CHANGELOG.md"
+    ],
+    "prior_stage_records": "stages and historical_work_2026_11_12 retained as historical evidence",
+    "current_policy": "Latest public-facing requirements supersede prior internal-work relevance and automatic remote-push instructions.",
+    "approved_scope": "audit, research verification, local screen drafts and evidence",
+    "baseline_validation": {
+      "build": "pass",
+      "check": "fail",
+      "tests": 152,
+      "passed": 150,
+      "failed": 2,
+      "lint": "script_not_defined",
+      "evidence": "docs/evidence/REDESIGN_BASELINE_CHECKS.md"
+    },
+    "data_audit": "docs/evidence/REDESIGN_AUDIT_DATA.json",
+    "remaining": [
+      "local draft QA and final decision report",
+      "product implementation and equipment-level photo/content association",
+      "public source/generated data/document/asset cleanup",
+      "previous-edition evidence comparison",
+      "saved PDF and physical phone verification",
+      "full relevant-company research across five editions",
+      "authorized public deployment"
+    ]
+  },
+  "redesign_audit_final": {
+    "date": "2026-11-15",
+    "stage": "A",
+    "scope": "audit and isolated local proposal",
+    "state": "needs_human",
+    "auditDelivered": true,
+    "productImplementationComplete": false,
+    "researchComplete": false,
+    "publicDeploymentComplete": false,
+    "uiDecision": "pending",
+    "publicationScope": "pending",
+    "prototypeEvidence": "review/verification.json",
+    "review": "docs/REDESIGN_REVIEW_2026-11-15.md",
+    "baselineChecks": {
+      "build": "pass",
+      "testsPassed": 150,
+      "testsTotal": 152,
+      "testsFailed": 2
+    },
+    "next": "Apply user decisions, then implement approved product flow and data cleanup; preserve historical research queue."
   }
 }

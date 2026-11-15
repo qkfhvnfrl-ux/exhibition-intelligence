@@ -1,5 +1,29 @@
 # FIELDNOTE v2 — 다음 실행 인수인계
 
+## 현재 재개 지점 — 2026-11-15 개편 A단계
+
+### 최종 A단계 결과
+
+감사·3화면 초안·브라우저 QA를 마쳤다. 전체 개편 상태는 `needs_human`: 별도 업체 메인/16:9 보고 방향 및 향후 첫 공개 범위 질문 2개를 제출했다. 답변이 오면 DECISIONS/TASKS에 반영하고 승인된 구현을 이어간다. 완료된 요구사항 자체를 재질문하지 않는다.
+
+`review/verification.json`에 표본 7개 사진 decode, 지도/공동부스/검색/복귀, 장비 링크/새로고침, 1440×1000·390×844 검수 결과가 있다. 실제 휴대폰/PDF와 IAB 전체화면은 성공 검증하지 않았다. `review/screenshots/`의 화면 4개가 검토 증거다. 마지막 로컬 저장 커밋은 `git log -1 --format=%H`로 확인한다. 공개 원격 반영은 의도적으로 하지 않았다.
+
+재개 명령: `npm run build`, `node review/build-review.mjs`, `node scripts/serve.mjs --root . --host 127.0.0.1 --port 4174`. 이번 기준검사 2건 실패는 제품 구현 중 Windows 이식성/fixture 권한을 별도로 해결하고 전체 검사 성공을 재확인할 것.
+
+다음 실제 수정 시작점: `src/v2/app.js`, `state.js`, `details.js`, CSS와 `scripts/compile-v2-app.mjs`. 제품 사진 연결은 현대로템·현대위아·기아의 7장부터 원문/형상 대조. 다음 조사 표본 확장은 이오시스템/STX와 한화 계열을 포함하며 전체 원장의 기존 다음 큐(Hall8 024/SANJU OPTICAL)도 보존한다.
+
+- 현재 목표: 의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성을 갖춘 관람 흐름. 이번 실행은 감사·로컬 초안·검증까지다.
+- 작업: `codex/fieldnote-redesign-audit`; 기준 `7040964ccc6af9e3ecfd355cb9be53de33ee6ef6`. `review/index.html`의 지도/업체/종합보고 초안은 QA 완료했으며 최종 판정은 `PROJECT_STATE.md`, `TASKS.md`, `EVIDENCE.md`를 확인한다.
+- 검토안: `docs/REDESIGN_REVIEW_2026-11-15.md`. 기존 3사 사진·공식 도면을 활용한 초안이며 신규 사진 확보나 전수 조사 완료가 아니다. 기존 보고서 참고 파일은 미제공이다.
+- 최신 확인된 기존 배포: preview `7040964ccc6af9e3ecfd355cb9be53de33ee6ef6`, production `a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7`, run `43128930795`. 이번 작업에서 배포하지 않았다.
+- 기준 검증: `npm run build` 성공; `npm run check` 150/152 통과·2 실패. `docs/evidence/REDESIGN_BASELINE_CHECKS.md`에 Windows symlink fixture EPERM/경로 구분자 문제 재현. lint 스크립트 없음.
+- 원장 감사: `docs/evidence/REDESIGN_AUDIT_DATA.json`. ADEX 해당 회차 사진 41건 중 src 있는 기록 7건/링크34건; 이 숫자는 모든 이미지 현재 로딩 성공을 뜻하지 않는다.
+- 다음: 저장된 QA 증거/검토 보고 확인 → 필요한 결정 반영 → 승인된 화면 방향에서 실제 src/data 개편. 공개 범위·시점 승인 전 push/merge/workflow를 실행하지 않는다.
+- 과거 내부 업무 관련성 작성 지시는 중지한다. 공개용 원천·컴파일러·JSON·문서·첨부 정리는 후속 미완료다. 데이터 보존과 공개용 재작성을 함께 검토하고 원본 영구 삭제·Git 이력 재작성·사용자 저장소 삭제를 하지 않는다.
+- 아래 ADEX 4단계 큐/완료 기록은 재개 가능한 역사적 상태로 보존한다. 이를 이번 A단계 신규 완료나 자동 원격 반영 지시로 해석하지 않는다.
+
+## 이전 실행 기록 — 2026-11-12
+
 기준일 2026-11-12 (Asia/Seoul). **4단계 ADEX 두 번째 조사 묶음 저장·검증. ADEX 전체 조사는 진행 중.** 추가 승인이나 같은 지시 재입력 없이 4단계를 계속한다.
 
 ## 기준·원문

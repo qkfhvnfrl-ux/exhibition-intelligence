@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-11-15",
+  "timezone": "Asia/Seoul",
+  "scope": "A-stage read-only baseline data audit; one audit JSON output only",
+  "sourceCommit": "7040964ccc6af9e3ecfd355cb9be53de33ee6ef6",
+  "currentBranch": "codex/fieldnote-redesign-audit",
+  "dataAsOf": "2026-11-12T07:03:55+09:00",
+  "verificationMeaning": {
+    "displayable": "src present after rights-aware normalizePhoto; NOT proof of current browser loading or independent event identification",
+    "company": "registered organization label, not verified legal entity or full population",
+    "product": "product/service/family records, not unique physical vehicle models",
+    "photo": "per-event record counts; reference records may recur across events, do not sum as unique assets",
+    "localFileCheck": "All referenced local paths exist; image visual/caption matching not revalidated by this audit"
+  },
+  "dataFlow": [
+    {
+      "inputs": [
+        "data/catalog.json",
+        "data/event-reports.json",
+        "data/review.json",
+        "data/review-photos.json",
+        "data/v2/collection/*.json",
+        "data/v2/maps/*.json",
+        "data/v2/entity-aliases.json",
+        "data/v2/research/**/*.json"
+      ],
+      "process": "scripts/compile-v2-data.mjs + scripts/research-v2.mjs",
+      "outputs": [
+        "data/v2/registry.json",
+        "data/v2/public.json",
+        "data/v2/legacy-mapping.json"
+      ]
+    },
+    {
+      "inputs": [
+        "data/v2/public.json",
+        "data/v2/registry.json",
+        "data/v2/taxonomy.json",
+        "data/v2/editorial/*.json",
+        "data/v2/research/**/*.json",
+        "data/v2/map-display.json"
+      ],
+      "process": "scripts/compile-v2-app.mjs",
+      "outputs": [
+        "data/v2/app/index.json",
+        "data/v2/app/events/*.json"
+      ]
+    },
+    {
+      "process": "scripts/build.mjs",
+      "published": [
+        "index.html",
+        "src/v2/**",
+        "assets/**",
+        "data/v2/app/**",
+        "version.json",
+        ".nojekyll"
+      ],
+      "notInDist": [
+        "data/v2/collection",
+        "data/v2/research",
+        "docs"
+      ],
+      "warning": "Excluded from dist does not mean private: tracked source/docs remain public GitHub repository content."
+    }
+  ],
+  "events": [
+    {
+      "eventId": "adex-2025",
+      "registeredOrganizationLabels": 375,
+      "productAndServiceRecords": 94,
+      "productEvidenceStatuses": {
+        "exhibitor_event_statement": 58,
+        "event_photo_confirmed": 19,
+        "unconfirmed": 2,
+        "onsite_report_confirmed": 7,
+        "exhibitor_event_photo_confirmed": 4,
+        "event_report_confirmed": 1,
+        "background_reference": 3
+      },
+      "editorialCases": 29,
+      "photoRecords": 64,
+      "eventPhotoRecords": 41,
+      "eventDisplayableByMetadata": 7,
+      "eventLinkOnly": 34,
+      "eventDelivery": {
+        "linked": 34,
+        "local": 7
+      },
+      "eventRights": {
+        "link-only": 33,
+        "reusable": 7,
+        "link_only": 1
+      },
+      "referencePhotoRecords": 23,
+      "referenceDisplayableByMetadata": 23,
+      "allDelivery": {
+        "linked": 34,
+        "local": 30
+      },
+      "allRights": {
+        "link-only": 33,
+        "reusable": 7,
+        "legacy_unreviewed": 23,
+        "link_only": 1
+      },
+      "localAssetPaths": 30,
+      "missingLocalAssets": [],
+      "mappedOrganizationLabels": 35,
+      "verifiedMapRegions": 32,
+      "registryMetrics": {
+        "eventId": "adex-2025",
+        "populationRows": 371,
+        "deduplicatedRosterOrganizations": 374,
+        "deduplicatedCompanyCandidateNames": 338,
+        "confirmedCompanyIdentities": 4,
+        "unresolvedCompositeIdentities": 8,
+        "registeredOrganizations": 375,
+        "collectiveOrganizations": 1,
+        "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+        "relevanceReviewed": 27,
+        "relevantOrganizations": 27,
+        "excludedOrganizations": 0,
+        "deepAnalysisComplete": 14,
+        "mapLinkedOrganizations": 35,
+        "numberLinkedOrganizations": 4,
+        "insufficientData": 15,
+        "notStarted": 346,
+        "underReviewOrganizations": 348,
+        "insufficientDataDefinition": "Explicitly researched cases whose review status is insufficient_data; untouched organizations are counted separately as notStarted.",
+        "withoutVerifiedExhibitEvidence": 357,
+        "directoryTraversalComplete": false,
+        "populationComplete": false,
+        "overallCompletionPercent": null
+      }
+    },
+    {
+      "eventId": "dsei-2025",
+      "registeredOrganizationLabels": 1743,
+      "productAndServiceRecords": 7,
+      "productEvidenceStatuses": {
+        "unconfirmed": 7
+      },
+      "editorialCases": 0,
+      "photoRecords": 26,
+      "eventPhotoRecords": 6,
+      "eventDisplayableByMetadata": 6,
+      "eventLinkOnly": 0,
+      "eventDelivery": {
+        "remote": 5,
+        "local": 1
+      },
+      "eventRights": {
+        "provider-embed": 5,
+        "reusable": 1
+      },
+      "referencePhotoRecords": 20,
+      "referenceDisplayableByMetadata": 20,
+      "allDelivery": {
+        "local": 21,
+        "remote": 5
+      },
+      "allRights": {
+        "legacy_unreviewed": 20,
+        "provider-embed": 5,
+        "reusable": 1
+      },
+      "localAssetPaths": 21,
+      "missingLocalAssets": [],
+      "mappedOrganizationLabels": 0,
+      "verifiedMapRegions": 0,
+      "registryMetrics": {
+        "eventId": "dsei-2025",
+        "populationRows": 1754,
+        "deduplicatedRosterOrganizations": 1738,
+        "deduplicatedCompanyCandidateNames": 1730,
+        "confirmedCompanyIdentities": 1,
+        "unresolvedCompositeIdentities": 7,
+        "registeredOrganizations": 1743,
+        "collectiveOrganizations": 10,
+        "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+        "relevanceReviewed": 0,
+        "relevantOrganizations": 0,
+        "excludedOrganizations": 0,
+        "deepAnalysisComplete": 0,
+        "mapLinkedOrganizations": 0,
+        "numberLinkedOrganizations": 1738,
+        "insufficientData": 0,
+        "notStarted": 1743,
+        "underReviewOrganizations": 1743,
+        "insufficientDataDefinition": "Explicitly researched cases whose review status is insufficient_data; untouched organizations are counted separately as notStarted.",
+        "withoutVerifiedExhibitEvidence": 1743,
+        "directoryTraversalComplete": true,
+        "populationComplete": false,
+        "overallCompletionPercent": null
+      }
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "registeredOrganizationLabels": 64,
+      "productAndServiceRecords": 9,
+      "productEvidenceStatuses": {
+        "unconfirmed": 9
+      },
+      "editorialCases": 0,
+      "photoRecords": 28,
+      "eventPhotoRecords": 22,
+      "eventDisplayableByMetadata": 22,
+      "eventLinkOnly": 0,
+      "eventDelivery": {
+        "local": 7,
+        "remote": 15
+      },
+      "eventRights": {
+        "legacy_unreviewed": 3,
+        "provider-embed": 15,
+        "reusable": 4
+      },
+      "referencePhotoRecords": 6,
+      "referenceDisplayableByMetadata": 6,
+      "allDelivery": {
+        "local": 13,
+        "remote": 15
+      },
+      "allRights": {
+        "legacy_unreviewed": 9,
+        "provider-embed": 15,
+        "reusable": 4
+      },
+      "localAssetPaths": 13,
+      "missingLocalAssets": [],
+      "mappedOrganizationLabels": 0,
+      "verifiedMapRegions": 0,
+      "registryMetrics": {
+        "eventId": "eurosatory-2026",
+        "populationRows": 58,
+        "deduplicatedRosterOrganizations": 58,
+        "deduplicatedCompanyCandidateNames": 58,
+        "confirmedCompanyIdentities": 0,
+        "unresolvedCompositeIdentities": 0,
+        "registeredOrganizations": 64,
+        "collectiveOrganizations": 1,
+        "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+        "relevanceReviewed": 0,
+        "relevantOrganizations": 0,
+        "excludedOrganizations": 0,
+        "deepAnalysisComplete": 0,
+        "mapLinkedOrganizations": 0,
+        "numberLinkedOrganizations": 58,
+        "insufficientData": 0,
+        "notStarted": 64,
+        "underReviewOrganizations": 64,
+        "insufficientDataDefinition": "Explicitly researched cases whose review status is insufficient_data; untouched organizations are counted separately as notStarted.",
+        "withoutVerifiedExhibitEvidence": 64,
+        "directoryTraversalComplete": false,
+        "populationComplete": false,
+        "overallCompletionPercent": null
+      }
+    },
+    {
+      "eventId": "idex-2025",
+      "registeredOrganizationLabels": 36,
+      "productAndServiceRecords": 10,
+      "productEvidenceStatuses": {
+        "unconfirmed": 10
+      },
+      "editorialCases": 0,
+      "photoRecords": 18,
+      "eventPhotoRecords": 14,
+      "eventDisplayableByMetadata": 14,
+      "eventLinkOnly": 0,
+      "eventDelivery": {
+        "local": 14
+      },
+      "eventRights": {
+        "legacy_unreviewed": 2,
+        "reusable": 12
+      },
+      "referencePhotoRecords": 4,
+      "referenceDisplayableByMetadata": 4,
+      "allDelivery": {
+        "local": 18
+      },
+      "allRights": {
+        "legacy_unreviewed": 6,
+        "reusable": 12
+      },
+      "localAssetPaths": 18,
+      "missingLocalAssets": [],
+      "mappedOrganizationLabels": 0,
+      "verifiedMapRegions": 0,
+      "registryMetrics": {
+        "eventId": "idex-2025",
+        "populationRows": 30,
+        "deduplicatedRosterOrganizations": 30,
+        "deduplicatedCompanyCandidateNames": 30,
+        "confirmedCompanyIdentities": 0,
+        "unresolvedCompositeIdentities": 0,
+        "registeredOrganizations": 36,
+        "collectiveOrganizations": 4,
+        "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+        "relevanceReviewed": 10,
+        "relevantOrganizations": 10,
+        "excludedOrganizations": 0,
+        "deepAnalysisComplete": 0,
+        "mapLinkedOrganizations": 0,
+        "numberLinkedOrganizations": 30,
+        "insufficientData": 0,
+        "notStarted": 36,
+        "underReviewOrganizations": 26,
+        "insufficientDataDefinition": "Explicitly researched cases whose review status is insufficient_data; untouched organizations are counted separately as notStarted.",
+        "withoutVerifiedExhibitEvidence": 36,
+        "directoryTraversalComplete": false,
+        "populationComplete": false,
+        "overallCompletionPercent": null
+      }
+    },
+    {
+      "eventId": "saha-2026",
+      "registeredOrganizationLabels": 1467,
+      "productAndServiceRecords": 8,
+      "productEvidenceStatuses": {
+        "unconfirmed": 8
+      },
+      "editorialCases": 0,
+      "photoRecords": 14,
+      "eventPhotoRecords": 9,
+      "eventDisplayableByMetadata": 0,
+      "eventLinkOnly": 9,
+      "eventDelivery": {
+        "linked": 9
+      },
+      "eventRights": {
+        "link-only": 9
+      },
+      "referencePhotoRecords": 5,
+      "referenceDisplayableByMetadata": 5,
+      "allDelivery": {
+        "linked": 9,
+        "local": 5
+      },
+      "allRights": {
+        "link-only": 9,
+        "legacy_unreviewed": 5
+      },
+      "localAssetPaths": 5,
+      "missingLocalAssets": [],
+      "mappedOrganizationLabels": 0,
+      "verifiedMapRegions": 0,
+      "registryMetrics": {
+        "eventId": "saha-2026",
+        "populationRows": 1466,
+        "deduplicatedRosterOrganizations": 1463,
+        "deduplicatedCompanyCandidateNames": 1461,
+        "confirmedCompanyIdentities": 0,
+        "unresolvedCompositeIdentities": 2,
+        "registeredOrganizations": 1467,
+        "collectiveOrganizations": 5,
+        "identityBasis": "Exact normalized labels and explicitly evidenced aliases only; not a count of legally verified companies.",
+        "relevanceReviewed": 0,
+        "relevantOrganizations": 0,
+        "excludedOrganizations": 0,
+        "deepAnalysisComplete": 0,
+        "mapLinkedOrganizations": 0,
+        "numberLinkedOrganizations": 1462,
+        "insufficientData": 0,
+        "notStarted": 1467,
+        "underReviewOrganizations": 1467,
+        "insufficientDataDefinition": "Explicitly researched cases whose review status is insufficient_data; untouched organizations are counted separately as notStarted.",
+        "withoutVerifiedExhibitEvidence": 1467,
+        "directoryTraversalComplete": true,
+        "populationComplete": false,
+        "overallCompletionPercent": null
+      }
+    }
+  ],
+  "sampleCompanies": [
+    {
+      "organizationId": "org-bb5b014b7abb0359c75b",
+      "name": "현대로템",
+      "productAndServiceRecords": 8,
+      "eventPhotoRecords": 5,
+      "displayableEventPhotos": [
+        {
+          "id": "photo-e0774b19c4805c2bb425",
+          "src": "assets/photos/adex2025-new-rotem-booth.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "credit": "현대로템 / 현대자동차그룹",
+          "sourceDate": "2025-10-20",
+          "width": 1506,
+          "height": 1004,
+          "productIds": [],
+          "rightsStatus": "reusable",
+          "variantNote": null
+        },
+        {
+          "id": "photo-f27315794918d9b8ddce",
+          "src": "assets/adex2025/k2pl-event-01.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "credit": "현대로템 / 현대자동차그룹",
+          "sourceDate": "2025-10-20",
+          "width": 1616,
+          "height": 1080,
+          "productIds": [],
+          "rightsStatus": "reusable",
+          "variantNote": "제조사 다운로드 원본 캡션이 K2PL을 명시합니다. 전차가 사진 뒤쪽에 있고 전면은 엔진 모형에 일부 가려져 있어, 개별 부품의 명칭·기능을 사진만으로 확정할 수 없습니다."
+        }
+      ],
+      "mapBoothIds": [
+        "adex-2025-region-hyundai-south",
+        "adex-2025-region-hyundai-north"
+      ]
+    },
+    {
+      "organizationId": "org-b6b486fa375701e51329",
+      "name": "현대위아",
+      "productAndServiceRecords": 5,
+      "eventPhotoRecords": 4,
+      "displayableEventPhotos": [
+        {
+          "id": "photo-406026b01ffa0009623a",
+          "src": "assets/adex2025/rcws-event-01.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "credit": "현대위아 / 현대자동차그룹",
+          "sourceDate": "2025-10-20",
+          "width": 1800,
+          "height": 1200,
+          "productIds": [],
+          "rightsStatus": "reusable",
+          "variantNote": "RCWS가 차량 위에 장착된 사진이 아니라 전시대에 분리 전시된 실물 사진입니다. 전시 표지의 40mm·12.7mm·7.62mm 구분은 확인되지만 자동추적 성능이나 운용 완성도는 사진만으로 확정할 수 없습니다."
+        },
+        {
+          "id": "photo-f07b18031de173091dff",
+          "src": "assets/adex2025/light-105-event-01.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+          "credit": "현대위아 / 현대자동차그룹",
+          "sourceDate": "2025-10-20",
+          "width": 1800,
+          "height": 1201,
+          "productIds": [],
+          "rightsStatus": "reusable",
+          "variantNote": "사진 속 전면 표지와 제조사 원문이 경량화 105mm 자주포를 명시합니다. 전시 형상이며 양산·배치 완료를 뜻하지 않습니다."
+        }
+      ],
+      "mapBoothIds": [
+        "adex-2025-region-hyundai-north",
+        "adex-2025-region-hyundai-south"
+      ]
+    },
+    {
+      "organizationId": "org-37268bb0020007468bbc",
+      "name": "기아",
+      "productAndServiceRecords": 12,
+      "eventPhotoRecords": 4,
+      "displayableEventPhotos": [
+        {
+          "id": "photo-88508f17c41d264626d0",
+          "src": "assets/photos/adex2025-new-tasman-front.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "credit": "기아 / 현대자동차그룹",
+          "sourceDate": "2025-10-20",
+          "width": 1800,
+          "height": 1200,
+          "productIds": [],
+          "rightsStatus": "reusable",
+          "variantNote": null
+        },
+        {
+          "id": "photo-af0b79b5b51a37df0ab9",
+          "src": "assets/photos/adex2025-new-kia-family.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "credit": "기아 / 현대자동차그룹",
+          "sourceDate": "2025-10-20",
+          "width": 1800,
+          "height": 1200,
+          "productIds": [],
+          "rightsStatus": "reusable",
+          "variantNote": null
+        },
+        {
+          "id": "photo-c9b10caa412b9d19d1ef",
+          "src": "assets/photos/adex2025-new-kmtv-front.jpg",
+          "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "credit": "기아 / 현대자동차그룹",
+          "sourceDate": "2025-10-20",
+          "width": 1800,
+          "height": 1200,
+          "productIds": [],
+          "rightsStatus": "reusable",
+          "variantNote": null
+        }
+      ],
+      "mapBoothIds": [
+        "adex-2025-region-hyundai-south",
+        "adex-2025-region-hyundai-north"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "photo_product_links",
+      "severity": "high",
+      "fact": "All seven ADEX displayable event photos have empty productIds in generated app data.",
+      "implication": "Reconcile event-specific product/photo associations in source/compiler before product galleries; do not infer all products from a booth photo."
+    },
+    {
+      "id": "internal_fields",
+      "severity": "high",
+      "fact": "ADEX generated public app shard includes workConnection in 29 editorials and 29 analyses plus 29 work_connection assertions; 21 matches of legacy internal-relevance marker.",
+      "paths": [
+        "src/v2/details.js",
+        "src/v2/app.js",
+        "scripts/compile-v2-app.mjs",
+        "scripts/compile-v2-data.mjs",
+        "scripts/research-v2.mjs",
+        "scripts/validate-v2-data.mjs",
+        "data/v2/editorial/adex-2025.json",
+        "data/v2/research/adex-2025/mission-systems.json",
+        "data/v2/research/adex-2025/pavilion-components.json",
+        "data/v2/research/adex-2025/small-systems.json",
+        "data/v2/research/adex-2025/stage3-reconciliation.json"
+      ],
+      "implication": "Remove/rewrite source fields, reasons, generated assertions and public projection together; validator and tests currently require old fields. UI hiding alone insufficient."
+    },
+    {
+      "id": "public_docs",
+      "severity": "high",
+      "paths": [
+        "docs/EXECUTIVE_V2_BRIEF.md",
+        "docs/EXECUTIVE_V2_DATA_CONTRACT.md",
+        "docs/EXHIBITION_RESEARCH_PROTOCOL.md",
+        "docs/EXECUTIVE_V2_STAGE_1.md",
+        "docs/EXECUTIVE_V2_STAGE_2.md",
+        "docs/EXECUTIVE_V2_STAGE_3.md",
+        "docs/EXECUTIVE_V2_STAGE_4.md",
+        "docs/EXECUTIVE_V2_STAGE_4_DATA.md",
+        "docs/research-v2/idex-2025.md",
+        "docs/research-v2/saha-2026.md",
+        "docs/research-v2/stage3-cases.md",
+        "docs/research-v2/stage4-small-systems.md"
+      ],
+      "implication": "Existing instructions and retrospective docs carry superseded internal-use criteria. Prepare public-safe replacement without erasing investigation counts; preserve any necessary private original outside tracked repository before changing public files."
+    },
+    {
+      "id": "git_history",
+      "severity": "high",
+      "commits": [
+        {
+          "sha": "8cc0bcd",
+          "date": "2026-11-12",
+          "scope": "UI field and editorial internal relevance introduced"
+        },
+        {
+          "sha": "91dee14",
+          "date": "2026-11-12",
+          "scope": "ADEX research expansion includes workConnection"
+        },
+        {
+          "sha": "546838f",
+          "date": "2026-11-12",
+          "scope": "ADEX second research expansion includes workConnection"
+        }
+      ],
+      "limitation": "Targeted git log -S audit, not full forensic Git history scan. No history rewriting performed."
+    },
+    {
+      "id": "binary_attachments",
+      "severity": "note",
+      "fact": "git ls-files for ppt,pptx,docx,pdf,xlsx returned no tracked files; assets contains 16 jpg and 65 webp files.",
+      "limitation": "No office/reference presentation available in this checkout; binary image metadata/content privacy audit not completed."
+    },
+    {
+      "id": "map_rights",
+      "severity": "medium",
+      "fact": "ADEX official pre-event map is remote-reference-only; redistribution permission not established. No local map PDF/PNG shipped.",
+      "sourceUrl": "https://adex.bciaerospace.com/images/pdf/SEOUL_ADEX_FLOOR_PLAN_EN.pdf",
+      "implication": "Keep verified geometry and official-source attribution; do not silently rehost original map."
+    },
+    {
+      "id": "research_scope",
+      "severity": "high",
+      "fact": "No event populationComplete. ADEX 14 analysis-complete, 15 insufficient-data, 346 not-started; remaining 112 dense Hall8 transcription rows per current handoff. Other four events have no v2 editorials.",
+      "implication": "Do not report full-event completion or calculate overall completion rate."
+    }
+  ],
+  "sourceRechecks": [
+    {
+      "company": "현대로템",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+      "publishedAt": "2025-10-20",
+      "checkedAt": "2026-11-15",
+      "result": "Primary ADEX 2025 article and newsroom general reuse notice with third-party exceptions re-read.",
+      "remaining": "Seven local assets collectively require individual original-download/caption matching; K2PL partially occluded."
+    },
+    {
+      "company": "현대위아",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190126",
+      "publishedAt": "2025-10-20",
+      "checkedAt": "2026-11-15",
+      "result": "Primary article confirms event context and equipment; newsroom notice with third-party exceptions re-read.",
+      "remaining": "Confirm separate RCWS forms, event image identity and available booth-wide image."
+    },
+    {
+      "company": "기아",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "publishedAt": "2025-10-20",
+      "checkedAt": "2026-11-15",
+      "result": "Primary ADEX article and newsroom notice with third-party exceptions re-read.",
+      "remaining": "Keep physical vehicles, bare chassis, and KHTV model distinct; verify all original photos individually."
+    }
+  ],
+  "nextPhotoWork": [
+    {
+      "priority": 1,
+      "scope": "ADEX current seven displayable photos",
+      "action": "Match original files and captions, verify per-asset restrictions, repair product associations, browser-load and enlargement checks."
+    },
+    {
+      "priority": 2,
+      "scope": "ADEX 34 event link-only records",
+      "action": "Secure recorded reusable assets/allowed embed/alternative original onsite sources; prioritize EO SYSTEM/STX mission-system examples without dropping other companies."
+    },
+    {
+      "priority": 3,
+      "scope": "SAHA nine event link-only records",
+      "action": "Find authorized display method; preserve exact missing-photo state until resolved."
+    },
+    {
+      "priority": 4,
+      "scope": "Eurosatory/DSEI 20 remote Flickr displays plus legacy local media",
+      "action": "Verify current loading, source caption/event identity and provider terms; metadata allowance is not fresh verification."
+    },
+    {
+      "priority": 5,
+      "scope": "Same-show previous editions",
+      "action": "Research predecessor editions and evidence-backed comparison before writing one-page overall change conclusions."
+    }
+  ],
+  "commands": [
+    "git status --short --branch",
+    "node --input-type=module (pure compileRegistry + publicProjection + compileAppData audit; no writes)",
+    "node --input-type=module (read generated shards, count records, fs.access referenced local image paths)",
+    "rg -n '당사|업무 연결|업무연결|내부 평가|내부평가|사내|체계개발' data src docs README.md",
+    "git log --all --format='%h %ad %s' --date=short -S '당사 체계개발과의 연결' -- src/v2/details.js",
+    "git log --all --format='%h %ad %s' --date=short -S 'workConnection' -- data/v2/editorial/adex-2025.json data/v2/research scripts/compile-v2-app.mjs scripts/research-v2.mjs",
+    "git ls-files '*.ppt' '*.pptx' '*.docx' '*.pdf' '*.xlsx'",
+    "web.run open three Hyundai Motor Group primary ADEX articles"
+  ],
+  "limits": [
+    "This audit is not a full asset-by-asset rights clearance or independent equipment verification.",
+    "No live browser imagery verification, PDF save/pagination, physical phone checks, or deployment performed by this audit subtask.",
+    "No repository product source or historical evidence files modified."
+  ]
+}

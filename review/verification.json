@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-15",
+  "scope": "Local A-stage UI proposal only",
+  "checks": [
+    {
+      "command": "node review/build-review.mjs",
+      "result": "pass",
+      "organizationLabels": 375,
+      "eventPhotos": 7,
+      "verifiedMapRegions": 32
+    },
+    {
+      "command": "node --check review/review.js",
+      "result": "pass"
+    },
+    {
+      "command": "node --check review/build-review.mjs",
+      "result": "pass"
+    },
+    {
+      "command": "local photo file existence and source/credit fields",
+      "result": "pass",
+      "localFiles": 7
+    },
+    {
+      "command": "explicit public-field allowlist and forbidden-content scan",
+      "result": "pass",
+      "excluded": [
+        "internal relevance fields",
+        "internal company task text"
+      ]
+    }
+  ],
+  "unverified": [
+    "Physical mobile device",
+    "Saved PDF pagination",
+    "New source and image rights revalidation",
+    "ADEX 2023 equipment comparison"
+  ],
+  "dataSizeBytes": 263340,
+  "qaRevision": {
+    "scope": "Review wording only; no production data or photo mappings changed",
+    "changes": [
+      "Replace unverified expansion framing with diverse configurations",
+      "Mark AI RCWS shared photograph available and per-form description/mapping pending"
+    ],
+    "syntax": "pass",
+    "browserReload": "pass: revised theme and shared RCWS photo status observed"
+  },
+  "browser": {
+    "date": "2026-11-15",
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobileSimulation": [
+      390,
+      844
+    ],
+    "actualPhone": false,
+    "url": "http://127.0.0.1:4174/review/",
+    "officialMap": "original PNG visible; initial remote delay noted",
+    "eventPhotosDecoded": 7,
+    "checks": [
+      "3 sample company pages",
+      "shared booth choice",
+      "Hanwha search",
+      "image dialog",
+      "map zoom 1.35 preserved on company return",
+      "equipment hash survives reload",
+      "browser back to map",
+      "mobile equipment and report without horizontal overflow",
+      "report 3 photos decoded"
+    ],
+    "fullscreen": "unsupported in in-app browser; honest fallback observed",
+    "savedPdf": "not implemented or verified in A-stage",
+    "screenshots": [
+      "screenshots/map-desktop.jpg",
+      "screenshots/company-desktop.jpg",
+      "screenshots/report-desktop.jpg",
+      "screenshots/equipment-mobile.jpg"
+    ]
+  }
+}

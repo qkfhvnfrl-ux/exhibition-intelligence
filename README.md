@@ -1,6 +1,8 @@
 # FIELDNOTE — 전시회 개발전략 보고
 
-> FIELDNOTE v2 개발은 `work/fieldnote-v2`에서 이어갑니다. [공통 기준](docs/EXECUTIVE_V2_BRIEF.md) · [상태](docs/EXECUTIVE_V2_STATUS.json) · [인수인계](docs/EXECUTIVE_V2_HANDOFF.md). 현재 1단계 작업 기반을 마련했으며 아래 공개 앱은 1.1.0입니다. v2 UI와 기능 제거·최종 배포는 아직 완료되지 않았습니다.
+> **현재 상태 — 2026-11-15:** 기존 루트 공개본은 1.1.0, `/preview/`는 지도·업체 UI를 갖춘 2.0.0-stage.4이며 ADEX 전체 조사는 진행 중입니다. 현재 `codex/fieldnote-redesign-audit`에서 개편 A단계 감사와 3종 로컬 초안을 검증하고 있습니다. 목표는 의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성입니다. [프로젝트 상태](PROJECT_STATE.md) · [검토안](docs/REDESIGN_REVIEW_2026-11-15.md) · [인수인계](docs/EXECUTIVE_V2_HANDOFF.md). 이번 제품 개편·공개 갱신은 완료되지 않았습니다.
+
+이하 1.1.0 설명·수량·개인 기록 기능은 기존 루트 공개본의 역사적 안내입니다. v2 현재 기능/수량은 위 상태와 검토안을 기준으로 합니다. `work/fieldnote-v2` push는 검증 후 공개 진행본을 갱신하므로 로컬 백업처럼 사용하지 않습니다.
 
 실제 전시 장비와 현장사진을 살펴보고, 장비별 개발 방향을 짧은 전략 요약으로 읽는 웹앱입니다. 전시회별 보고, 현장사진 탐색·비교, 인쇄/PDF 보고서와 개인 현장사진 등록을 제공합니다.
 
