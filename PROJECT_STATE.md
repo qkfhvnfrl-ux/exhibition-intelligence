@@ -15,4 +15,4 @@
 
 실제 저장소는 .이며 상세 계획은 docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md, 근거는 EVIDENCE.md를 따른다.
 
-로컬 구현 저장점: `54ca6450aeaa3426d1a55e8926c723ab3577d72d`. 작업 트리의 최종 인계문서 커밋은 git log로 확인한다. 개발서버4174는 종료했다.
+로컬 후속 구현 저장점: `137fa841eedeaa6ef2d2d041744ad10e11c7cd8e`. 작업 트리의 최종 인계문서 커밋은 git log로 확인한다. 개발서버4174는 종료했다.
