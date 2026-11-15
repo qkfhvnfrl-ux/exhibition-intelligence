@@ -12,7 +12,7 @@
 - PDF: `output/pdf/final/`의 기존 최종 5개가 자동·시각 검수를 통과했다. 이번 보고 화면의 본문·이미지·링크 주소·배치는 동일하고 DSEI 출처 링크 도움말만 변경돼 재저장하지 않는다. [PDF 검증 기록](evidence/REDESIGN_PDF_VALIDATION_2026-11-16.json)의 범위를 유지한다.
 - 이전 묶음: 46개 서술 묶음의 기존 사진 10개 연결(HAVOC 2개 포함), 그 이전 Patria 신규 사진 4장과 TRACKX·TREMOS 추가, i-X·GDAMS 연결을 보존한다. 6×6 두 형상 및 일반 참고사진·해당 회차 사진의 구분을 유지한다. 이전 6개 제품 브라우저 기록은 별도 증거다.
 - SAHA: [대체 경로 조사](research-v2/redesign-photo-candidates-saha.json)의 보고 3사례 모두 ready 0. 2024 사진을 2026 사진으로 승격하지 않는다.
-- Git: `codex/fieldnote-redesign-audit`, 확인한 HEAD `7c57ddaf2abfe54cd0007cbabcd67c20bbbc77b7`. 이번 53개 묶음은 이후 작업 중 변경이다. 직전 구현 `49d846d0b80c6247db7bb3003c1ea008a874c9bd`, 보고/PDF `16e7e691f232eeee7951c15ef0ae4ea274aea57d`. 원격 push·배포 없음.
+- Git: `codex/fieldnote-redesign-audit`, 53개 서술 구현 저장점 `7fa59fa2364ca6b5f08d7eb6b584946bdc0f10ea`. 후속 인계 문서 커밋과 구분한다. 직전 구현 `49d846d0b80c6247db7bb3003c1ea008a874c9bd`, 보고/PDF `16e7e691f232eeee7951c15ef0ae4ea274aea57d`. 원격 push·배포 없음.
 
 다음 작업은 직접 표시 사진이 없는 29개 제품과 전체 관련 업체 조사다. 사진 사용 조건과 해당 회차·형상이 확인된 근거만 연결한다. 이번 서술 확대·브라우저 검증과 기존 PDF 검증을 전체 조사 완료로 확대하지 않는다.
 
@@ -132,3 +132,5 @@ git diff --check
 ## 과거 본 구현 저장점 — 2026-11-15
 
 로컬 구현 커밋 `54ca6450aeaa3426d1a55e8926c723ab3577d72d`. 최종 build/check180개 통과와 공개감사7검사 통과를 포함한다. 실제 저장 PDF/마지막뷰어/preview하위경로의 브라우저검증은 미완료다. 개발서버4174는검증종료후중단했다. 다시검토하려면 `npm run build`, `npm run dev`로 로컬 실행한다. 공개push는하지않았다.
+
+다음 조사 후보는 [10제품 큐](research-v2/redesign-next-narrative-queue.json)를 따른다. 아직 서술 없는77제품 중10개를 선정했으며, 회사사진19장은 식별 후보이고 직접 제품 연결사진으로 세지 않는다. 새 원문 조사·내용 작성은 다음 구현 범위다.

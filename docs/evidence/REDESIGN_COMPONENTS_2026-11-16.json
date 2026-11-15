@@ -224,5 +224,40 @@
     "publish": false,
     "firstPublicTarget": "/preview/",
     "reviewRequired": true
-  }
+  },
+  "implementationCommit": "7fa59fa2364ca6b5f08d7eb6b584946bdc0f10ea",
+  "modifiedFiles": [
+    ".gitignore",
+    "CHANGELOG.md",
+    "DECISIONS.md",
+    "EVIDENCE.md",
+    "PROJECT_STATE.md",
+    "TASKS.md",
+    "data/v2/editorial/product-narratives.json",
+    "docs/EXECUTIVE_V2_BRIEF.md",
+    "docs/EXECUTIVE_V2_HANDOFF.md",
+    "docs/EXECUTIVE_V2_STATUS.json",
+    "docs/EXHIBITION_RESEARCH_PROTOCOL.md",
+    "docs/evidence/REDESIGN_COMPONENTS_2026-11-16.json",
+    "docs/evidence/REDESIGN_COMPONENTS_AUDIT_2026-11-16.json",
+    "docs/evidence/REDESIGN_COMPONENTS_BROWSER_2026-11-16.json",
+    "docs/evidence/REDESIGN_SOURCE_METADATA_2026-11-16.json",
+    "docs/evidence/screenshots/fiberpro-desktop-2026-11-16.jpg",
+    "docs/evidence/screenshots/soosung-mobile-2026-11-16.jpg",
+    "docs/research-v2/redesign-narratives-components-adex.json",
+    "docs/research-v2/redesign-photo-candidates-components.json",
+    "docs/research-v2/redesign-photo-candidates-hanwha.json",
+    "scripts/compile-v2-app.mjs",
+    "scripts/prepare-redesign-content.mjs",
+    "src/v2/details.js",
+    "tests/v2-app-data.test.mjs"
+  ],
+  "harnessCopiesOutsideRepo": [
+    "../PROJECT_STATE.md",
+    "../TASKS.md",
+    "../DECISIONS.md",
+    "../EVIDENCE.md",
+    "../CHANGELOG.md"
+  ],
+  "nextResearchQueue": "docs/research-v2/redesign-next-narrative-queue.json"
 }

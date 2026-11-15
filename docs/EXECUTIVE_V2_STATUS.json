@@ -43,11 +43,11 @@
       "check_log": ".local-components-check.log",
       "latest_copy_revision_recheck": "passed"
     },
-    "implementation_commit": "49d846d0b80c6247db7bb3003c1ea008a874c9bd",
+    "implementation_commit": "7fa59fa2364ca6b5f08d7eb6b584946bdc0f10ea",
     "local_only": true,
-    "head_commit": "7c57ddaf2abfe54cd0007cbabcd67c20bbbc77b7",
-    "working_changes": true,
-    "implementation_commit_note": "implementation_commit은 직전 46개 서술 구현 저장점이다. 현재 53개 서술·265항목 묶음은 확인한 HEAD 이후 작업 중 변경이며 새 구현 커밋으로 표시하지 않는다.",
+    "head_commit": "7fa59fa2364ca6b5f08d7eb6b584946bdc0f10ea",
+    "working_changes": false,
+    "implementation_commit_note": "53개 서술·265항목·202검사·브라우저·독립감사를 저장한 구현 커밋. head_commit은 이 구현 저장 시점이며 후속 인계 문서 커밋과 구분한다.",
     "task_states": {
       "B02": "executing",
       "B03": "completed",
@@ -284,7 +284,9 @@
       "products_reviewed": 7,
       "scope": "이번 구성품·중소업체 7개 서술",
       "reported_by": "상위 작업자",
-      "evidence": "docs/evidence/REDESIGN_COMPONENTS_2026-11-16.json"
+      "evidence": "docs/evidence/REDESIGN_COMPONENTS_2026-11-16.json",
+      "audit": "docs/evidence/REDESIGN_COMPONENTS_AUDIT_2026-11-16.json",
+      "audit_checks": 1179
     },
     "components_photo_followup": {
       "evidence": "docs/research-v2/redesign-photo-candidates-components.json",
@@ -296,7 +298,16 @@
       "event_photos_in_attachments": 0,
       "note": "첨부 문서의 허용을 문서 밖 사진에 적용하지 않는다. 초기 HTML 조사와 후속 PDF 검토를 구분한다."
     },
-    "current_evidence_note": "종합 증거와 build/check 로그, 별도 브라우저 검증 기록을 연결했다. 모두 이번 53개 서술 묶음의 로컬 검증이며 공개 반영은 하지 않았다."
+    "current_evidence_note": "종합 증거와 build/check 로그, 별도 브라우저 검증 기록을 연결했다. 모두 이번 53개 서술 묶음의 로컬 검증이며 공개 반영은 하지 않았다.",
+    "next_narrative_queue": {
+      "file": "docs/research-v2/redesign-next-narrative-queue.json",
+      "status": "candidate_selection_complete",
+      "products": 10,
+      "event_editions": 3,
+      "new_research_completed": false,
+      "direct_product_display_photos": 0,
+      "company_photo_candidates": 19
+    }
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",

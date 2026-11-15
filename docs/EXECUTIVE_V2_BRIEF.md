@@ -14,7 +14,7 @@
 
 SAHA 보고 3사례는 대체 경로 조사 후에도 ready 사진 0개다. 다른 회차 사진으로 대체하지 않는다. 기존 5개 회차 조사 원장과 큐, 이전 6개 제품 통합·검증 기록을 보존한다. 다음은 직접 표시 사진이 없는 29개 제품과 전체 관련 업체 조사다.
 
-작업 브랜치는 `codex/fieldnote-redesign-audit`다. 확인한 현재 HEAD는 `7c57ddaf2abfe54cd0007cbabcd67c20bbbc77b7`이며 이번 53개 서술 묶음은 그 이후 작업 중 변경이다. 직전 구현 저장점은 `49d846d0b80c6247db7bb3003c1ea008a874c9bd`(46개 서술), 보고/PDF 저장점은 `16e7e691f232eeee7951c15ef0ae4ea274aea57d`다. 원격 push·배포는 하지 않았다. 재개는 [HANDOFF](EXECUTIVE_V2_HANDOFF.md)와 [STATUS](EXECUTIVE_V2_STATUS.json)를 따른다.
+작업 브랜치는 `codex/fieldnote-redesign-audit`다. 이번 53개 서술·265항목 구현 저장점은 `7fa59fa2364ca6b5f08d7eb6b584946bdc0f10ea`이다. 후속 인계 문서 커밋은 구현 저장점과 구분한다. 직전 구현 저장점은 `49d846d0b80c6247db7bb3003c1ea008a874c9bd`(46개 서술), 보고/PDF 저장점은 `16e7e691f232eeee7951c15ef0ae4ea274aea57d`다. 원격 push·배포는 하지 않았다. 재개는 [HANDOFF](EXECUTIVE_V2_HANDOFF.md)와 [STATUS](EXECUTIVE_V2_STATUS.json)를 따른다.
 
 [53개 서술 묶음의 통합 검증 기록](evidence/REDESIGN_COMPONENTS_2026-11-16.json)에 코드·내용·브라우저·사진 조사와 보고 영향 근거를 모았다.
 
