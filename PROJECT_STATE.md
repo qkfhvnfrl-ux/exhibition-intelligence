@@ -14,3 +14,5 @@
 - 다음: 저장 PDF 실파일 QA → 최종 변경 브라우저 회귀/preview 하위경로 → 남은 자료·회차별 비교 보강 → 완성본 검토 → 승인 범위 /preview/ 반영.
 
 실제 저장소는 .이며 상세 계획은 docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md, 근거는 EVIDENCE.md를 따른다.
+
+로컬 구현 저장점: `54ca6450aeaa3426d1a55e8926c723ab3577d72d`. 작업 트리의 최종 인계문서 커밋은 git log로 확인한다. 개발서버4174는 종료했다.

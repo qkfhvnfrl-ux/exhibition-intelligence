@@ -38,7 +38,9 @@
       "passed": 180,
       "failed": 0,
       "skipped": 0
-    }
+    },
+    "implementation_commit": "54ca6450aeaa3426d1a55e8926c723ab3577d72d",
+    "local_only": true
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
