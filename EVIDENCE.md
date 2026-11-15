@@ -46,3 +46,11 @@
 - 실제 PDF 파일, 사진 7장 개별 원본의 새 독립 대조, 2023 동일 형상 비교는 이번에 완료하지 않았다.
 
 A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결정 대기이며 전체 목표 달성으로 표시하지 않는다. 공개 push/merge/workflow 실행 없음.
+
+## 로컬 저장
+
+- 초안·감사·검증 커밋: `056c2bb4ad6b28644d13277e1f88879991f54b9c`.
+- `git diff --cached --check`: 성공. 기존 src/data/scripts/tests/package/index의 커밋 차이 0개.
+- 최초 commit은 작성자 미설정으로 실패. `git -c user.name=Codex -c user.email=codex@local.invalid commit ...`으로 해당 명령에만 작성자 지정, 전역 설정 변경 없이 성공.
+- `git status --short --branch`: 로컬 작업 트리 clean 확인. 원격 push 없음.
+- 문서 정리용 Python 실행은 설치 별칭 접근 실패. 같은 파일 작업을 Node로 수행하고 JSON parse로 확인했다. 제품 실행 오류와 구분한다.
