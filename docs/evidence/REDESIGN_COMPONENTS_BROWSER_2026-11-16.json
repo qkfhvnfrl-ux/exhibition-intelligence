@@ -1,0 +1,201 @@
+{
+  "asOf": "2026-11-16",
+  "status": "PASS",
+  "scope": "Seven added component narratives at desktop/mobile plus source metadata/country header",
+  "observations": [
+    {
+      "clientWidth": 1425,
+      "id": "adex25-fiberpro-fog-ins",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 1425,
+      "text": "관성항법 진열장 현장사진 · 개별 모델 미확인\n\nFOG 기반 관성항법장치(INS) 제품군\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 1\nADEX 2025 관성항법 솔루션 진열장\n원문 열기\n장비·형상·용도\n\n위치·항법 정보를 제공하는 관성항법장치다. 일반 제품 안내의 INS 용도이며, 개별 전시형의 사양 설명은 아니다.\n\n일반자료 [3]\n주요 특징\n\n관성항법 진열장에는 외형과 크기가 다른 장치들이 놓였다. 개별 모델과 성능 차이는 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\n공식 현장사진의 관성항법 솔루션 표지와 제품 진열을 확인했다. 항재밍 GNSS 진열장도 별도로 구성했다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n전시한 INS의 후속 개발 단계와 모델별 양산 일정은 확인되지 않았다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 첫 단독 부스의 INS 전시는 항법장치 공급사로서 독자적인 제품 제안을 강조한 구성으로 읽힌다.\n\n출품 근거 [2]\n출품 근거 [1]\n상세 출처와 확인 범위",
+      "title": "FOG 기반 관성항법장치(INS) 제품군",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-4ffe152337cf4eb1bae2&product=adex25-fiberpro-fog-ins",
+      "viewport": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "id": "adex25-fiberpro-antijam-gnss",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 1425,
+      "text": "항재밍 GNSS 진열장 현장사진 · 개별 모델 미확인\n\n항재밍 GNSS 수신기 제품군\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 1\nADEX 2025 항재밍 GNSS 솔루션 진열장\n원문 열기\n장비·형상·용도\n\n위성 신호를 받아 위치·항법 정보를 제공하는 수신 장치다. 일반 PNT 제품 안내에 따른 용도다.\n\n일반자료 [2]\n주요 특징\n\n보드형과 외장 케이스형 전시품이 함께 놓였다. 개별 모델과 완제품·부품의 관계는 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\n공식 현장사진에서 항재밍 GNSS 전용 진열장을 확인했다. 특정 차량에 장착한 시연은 확인하지 못했다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n전시 수신기의 후속 개발·인증·인도 일정은 확보하지 못했다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: INS와 별도로 GNSS 수신기를 제시한 구성은 고객에게 여러 항법 제품군의 선택지를 제안하는 접근으로 읽힌다.\n\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "항재밍 GNSS 수신기 제품군",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-4ffe152337cf4eb1bae2&product=adex25-fiberpro-antijam-gnss",
+      "viewport": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "id": "adex25-fiberpro-fog",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 1425,
+      "text": "제조사 회차 출품 목록 · 개별 실물 식별 미완료\n\n고정밀 광섬유 자이로스코프(FOG) 제품군\n\n제조사의 해당 회차 출품 발표\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n장비·형상·용도\n\n제조사가 고정밀 광섬유 자이로스코프(FOG)로 명명한 제품군이다.\n\n출품 근거 [1]\n주요 특징\n\n일반 제품 안내에서 FOG는 회전운동을 측정하는 센서로 설명된다. 전시품의 정확도와 모델별 제원은 미확인이다.\n\n일반자료 [2]\n이번 전시 구성\n\nFOG는 INS·항재밍 GNSS와 함께 목록에 명시됐다. 개별 FOG 실물과 표찰을 대응시킬 사진 근거는 부족하다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n해당 회차 FOG의 후속 개발 계획과 제품별 공급 일정은 확인되지 않았다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: FOG와 FOG 기반 INS를 함께 제시한 것은 센서 단품부터 항법장치까지 공급 범위를 보여주는 구성으로 읽힌다.\n\n출품 근거 [1]\n일반자료 [2]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "고정밀 광섬유 자이로스코프(FOG) 제품군",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-4ffe152337cf4eb1bae2&product=adex25-fiberpro-fog",
+      "viewport": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "id": "adex25-cots-sbc-family",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 1425,
+      "text": "실물 보드 전시 사진 · 개별 모델 대응 미확정\n\n무기체계용 SBC 기반 임베디드 제품군\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 1\nADEX 2025 코츠테크놀로지 부스와 전시 보드\n원문 열기\n장비·형상·용도\n\n무기체계의 연산·제어에 쓰이는 SBC 기반 임베디드 제품군이다. 코츠는 천마 적용 사례를 포함해 소개했다.\n\n출품 근거 [1]\n주요 특징\n\nSBC와 임베디드 시스템을 함께 제시했다. 전시 모델별 제원과 독립 비교시험 결과는 확보하지 못했다.\n\n출품 근거 [1]\n이번 전시 구성\n\n회사 제공 ADEX 2025 부스 사진에는 보드별 투명 전시함과 설명판이 보인다. 개별 모델 대응은 미확정이다.\n\n출품 근거 [2]\n개발 방향\n\n공식 발표 · 발표 당시 기준\n\n회사는 AI·자율체계·차세대 통합 전장 분야로 적용을 넓히겠다고 발표했다. 제품별 완료 일정은 미확인이다.\n\n출품 근거 [1]\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 기존 적용 사례와 확장 계획을 함께 제시해, 국산 보드 공급사의 참여 범위를 후속 시스템 사업으로 넓히려는 제안으로 읽힌다.\n\n출품 근거 [1]\n상세 출처와 확인 범위",
+      "title": "무기체계용 SBC 기반 임베디드 제품군",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-53dca27d6bb21ebea782&product=adex25-cots-sbc-family",
+      "viewport": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "id": "adex25-hkc-crew-helmet",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 1425,
+      "text": "마네킹에 착용한 전시실물 · 세부 모델 미확인\n\n전투차량 승무원용 헬멧\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 3\nADEX 2025 DQ마크 전시대 사선 시점 — 포구 청소기·승무원 헬멧과 관람객\n원문 열기\nADEX 2025 DTaQ 공동 전시대 전경\n원문 열기\nADEX 2025 수성 포구 자동청소기와 뒤쪽 HKC 승무원 헬멧\n원문 열기\n장비·형상·용도\n\n전투차량 승무원이 착용하는 헬멧이다. ADEX 2025의 DQ마크 공동 전시품으로 소개됐다.\n\n출품 근거 [1]\n주요 특징\n\n일반 제품 소개는 무전기·인터컴 연결과 소음제어 기능을 설명한다. 전시형의 세부 사양은 미확인이다.\n\n일반자료 [2]\n이번 전시 구성\n\n현장사진에는 마네킹에 착용한 헬멧과 부착 통신장비가 보인다. 세부 모델은 식별되지 않는다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n이번 전시형의 후속 개발과 납품 일정은 확보하지 못했다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: DQ마크 공동전시는 승무원 장비를 품질인증과 함께 해외 바이어에게 제안하는 접근으로 읽힌다.\n\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "전투차량 승무원용 헬멧",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-52aa211bb99d6c505361&product=adex25-hkc-crew-helmet",
+      "viewport": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "id": "adex25-hkc-radiation-meter",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 1425,
+      "text": "사후 현장 기사로 출품 확인 · 개별 모델·사진 미식별\n\n방사능 측정기\n\n현장 취재로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n장비·형상·용도\n\n인원·장비·시설 등의 방사능 오염을 측정하고 경보를 알리는 휴대형 장비로 소개된다.\n\n일반자료 [2]\n주요 특징\n\n일반 제품 자료는 측정값·배터리 상태 표시와 자체 진단을 설명한다. 전시 모델의 세부 구성은 미확인이다.\n\n일반자료 [2]\n이번 전시 구성\n\n국방기술품질원 사후 기사는 HKC 방사능 측정기의 출품을 명시한다. 개별 전시 모델과 사진 대응은 확인하지 못했다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n전시 모델의 개량 계획·인증 변경·공급 일정은 확인되지 않았다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 헬멧과 측정기를 함께 소개한 구성은 HKC의 제안 범위가 승무원 착용품과 안전 측정장비에 걸쳐 있음을 보여준다.\n\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "방사능 측정기",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-52aa211bb99d6c505361&product=adex25-hkc-radiation-meter",
+      "viewport": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "id": "adex25-soosung-bore-cleaner",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 1425,
+      "text": "별도 전시대 실물 · 105MM ABC SYSTEM 표지\n\n포구 자동청소기\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 3\nADEX 2025 수성 포구 자동청소기와 뒤쪽 HKC 승무원 헬멧\n원문 열기\nADEX 2025 DTaQ 공동 전시대 전경\n원문 열기\nADEX 2025 DQ마크 전시대 사선 시점 — 포구 청소기·승무원 헬멧과 관람객\n원문 열기\n장비·형상·용도\n\n포구 내부 청소용 정비장비다. 현장사진에서는 차량에 장착하지 않고 별도 전시대에 제시했다.\n\n출품 근거 [1]\n주요 특징\n\n사진의 표지는 105MM ABC SYSTEM이다. 다른 구경 형식의 출품 여부는 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\nDQ마크 공동전시에 포함됐으며 HKC 승무원 헬멧과 같은 전시대의 사진으로 확인된다.\n\n출품 근거 [1]\n개발 방향\n\n공식 발표 · 발표 당시 기준\n\n2025년 11월 기관 기사는 K9과 연계한 패키지 수출을 검토 중이라고 밝혔다. 계약·인도 완료는 미확인이다.\n\n출품 근거 [1]\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 패키지 수출 검토는 완성 장비의 해외 제안에 정비 지원장비를 함께 묶으려는 접근으로 읽힌다.\n\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "포구 자동청소기",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-1aaf2c2c6edaa0818a73&product=adex25-soosung-bore-cleaner",
+      "viewport": 1440
+    },
+    {
+      "clientWidth": 375,
+      "id": "adex25-fiberpro-fog-ins",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 375,
+      "text": "관성항법 진열장 현장사진 · 개별 모델 미확인\n\nFOG 기반 관성항법장치(INS) 제품군\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 1\nADEX 2025 관성항법 솔루션 진열장\n원문 열기\n장비·형상·용도\n\n위치·항법 정보를 제공하는 관성항법장치다. 일반 제품 안내의 INS 용도이며, 개별 전시형의 사양 설명은 아니다.\n\n일반자료 [3]\n주요 특징\n\n관성항법 진열장에는 외형과 크기가 다른 장치들이 놓였다. 개별 모델과 성능 차이는 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\n공식 현장사진의 관성항법 솔루션 표지와 제품 진열을 확인했다. 항재밍 GNSS 진열장도 별도로 구성했다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n전시한 INS의 후속 개발 단계와 모델별 양산 일정은 확인되지 않았다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 첫 단독 부스의 INS 전시는 항법장치 공급사로서 독자적인 제품 제안을 강조한 구성으로 읽힌다.\n\n출품 근거 [2]\n출품 근거 [1]\n상세 출처와 확인 범위",
+      "title": "FOG 기반 관성항법장치(INS) 제품군",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-4ffe152337cf4eb1bae2&product=adex25-fiberpro-fog-ins",
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "id": "adex25-fiberpro-antijam-gnss",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 375,
+      "text": "항재밍 GNSS 진열장 현장사진 · 개별 모델 미확인\n\n항재밍 GNSS 수신기 제품군\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 1\nADEX 2025 항재밍 GNSS 솔루션 진열장\n원문 열기\n장비·형상·용도\n\n위성 신호를 받아 위치·항법 정보를 제공하는 수신 장치다. 일반 PNT 제품 안내에 따른 용도다.\n\n일반자료 [2]\n주요 특징\n\n보드형과 외장 케이스형 전시품이 함께 놓였다. 개별 모델과 완제품·부품의 관계는 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\n공식 현장사진에서 항재밍 GNSS 전용 진열장을 확인했다. 특정 차량에 장착한 시연은 확인하지 못했다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n전시 수신기의 후속 개발·인증·인도 일정은 확보하지 못했다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: INS와 별도로 GNSS 수신기를 제시한 구성은 고객에게 여러 항법 제품군의 선택지를 제안하는 접근으로 읽힌다.\n\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "항재밍 GNSS 수신기 제품군",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-4ffe152337cf4eb1bae2&product=adex25-fiberpro-antijam-gnss",
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "id": "adex25-fiberpro-fog",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 375,
+      "text": "제조사 회차 출품 목록 · 개별 실물 식별 미완료\n\n고정밀 광섬유 자이로스코프(FOG) 제품군\n\n제조사의 해당 회차 출품 발표\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n장비·형상·용도\n\n제조사가 고정밀 광섬유 자이로스코프(FOG)로 명명한 제품군이다.\n\n출품 근거 [1]\n주요 특징\n\n일반 제품 안내에서 FOG는 회전운동을 측정하는 센서로 설명된다. 전시품의 정확도와 모델별 제원은 미확인이다.\n\n일반자료 [2]\n이번 전시 구성\n\nFOG는 INS·항재밍 GNSS와 함께 목록에 명시됐다. 개별 FOG 실물과 표찰을 대응시킬 사진 근거는 부족하다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n해당 회차 FOG의 후속 개발 계획과 제품별 공급 일정은 확인되지 않았다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: FOG와 FOG 기반 INS를 함께 제시한 것은 센서 단품부터 항법장치까지 공급 범위를 보여주는 구성으로 읽힌다.\n\n출품 근거 [1]\n일반자료 [2]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "고정밀 광섬유 자이로스코프(FOG) 제품군",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-4ffe152337cf4eb1bae2&product=adex25-fiberpro-fog",
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "id": "adex25-cots-sbc-family",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 375,
+      "text": "실물 보드 전시 사진 · 개별 모델 대응 미확정\n\n무기체계용 SBC 기반 임베디드 제품군\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 1\nADEX 2025 코츠테크놀로지 부스와 전시 보드\n원문 열기\n장비·형상·용도\n\n무기체계의 연산·제어에 쓰이는 SBC 기반 임베디드 제품군이다. 코츠는 천마 적용 사례를 포함해 소개했다.\n\n출품 근거 [1]\n주요 특징\n\nSBC와 임베디드 시스템을 함께 제시했다. 전시 모델별 제원과 독립 비교시험 결과는 확보하지 못했다.\n\n출품 근거 [1]\n이번 전시 구성\n\n회사 제공 ADEX 2025 부스 사진에는 보드별 투명 전시함과 설명판이 보인다. 개별 모델 대응은 미확정이다.\n\n출품 근거 [2]\n개발 방향\n\n공식 발표 · 발표 당시 기준\n\n회사는 AI·자율체계·차세대 통합 전장 분야로 적용을 넓히겠다고 발표했다. 제품별 완료 일정은 미확인이다.\n\n출품 근거 [1]\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 기존 적용 사례와 확장 계획을 함께 제시해, 국산 보드 공급사의 참여 범위를 후속 시스템 사업으로 넓히려는 제안으로 읽힌다.\n\n출품 근거 [1]\n상세 출처와 확인 범위",
+      "title": "무기체계용 SBC 기반 임베디드 제품군",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-53dca27d6bb21ebea782&product=adex25-cots-sbc-family",
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "id": "adex25-hkc-crew-helmet",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 375,
+      "text": "마네킹에 착용한 전시실물 · 세부 모델 미확인\n\n전투차량 승무원용 헬멧\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 3\nADEX 2025 DQ마크 전시대 사선 시점 — 포구 청소기·승무원 헬멧과 관람객\n원문 열기\nADEX 2025 DTaQ 공동 전시대 전경\n원문 열기\nADEX 2025 수성 포구 자동청소기와 뒤쪽 HKC 승무원 헬멧\n원문 열기\n장비·형상·용도\n\n전투차량 승무원이 착용하는 헬멧이다. ADEX 2025의 DQ마크 공동 전시품으로 소개됐다.\n\n출품 근거 [1]\n주요 특징\n\n일반 제품 소개는 무전기·인터컴 연결과 소음제어 기능을 설명한다. 전시형의 세부 사양은 미확인이다.\n\n일반자료 [2]\n이번 전시 구성\n\n현장사진에는 마네킹에 착용한 헬멧과 부착 통신장비가 보인다. 세부 모델은 식별되지 않는다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n이번 전시형의 후속 개발과 납품 일정은 확보하지 못했다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: DQ마크 공동전시는 승무원 장비를 품질인증과 함께 해외 바이어에게 제안하는 접근으로 읽힌다.\n\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "전투차량 승무원용 헬멧",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-52aa211bb99d6c505361&product=adex25-hkc-crew-helmet",
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "id": "adex25-hkc-radiation-meter",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 375,
+      "text": "사후 현장 기사로 출품 확인 · 개별 모델·사진 미식별\n\n방사능 측정기\n\n현장 취재로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n장비·형상·용도\n\n인원·장비·시설 등의 방사능 오염을 측정하고 경보를 알리는 휴대형 장비로 소개된다.\n\n일반자료 [2]\n주요 특징\n\n일반 제품 자료는 측정값·배터리 상태 표시와 자체 진단을 설명한다. 전시 모델의 세부 구성은 미확인이다.\n\n일반자료 [2]\n이번 전시 구성\n\n국방기술품질원 사후 기사는 HKC 방사능 측정기의 출품을 명시한다. 개별 전시 모델과 사진 대응은 확인하지 못했다.\n\n출품 근거 [1]\n개발 방향\n\n근거 미확보\n\n전시 모델의 개량 계획·인증 변경·공급 일정은 확인되지 않았다.\n\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 헬멧과 측정기를 함께 소개한 구성은 HKC의 제안 범위가 승무원 착용품과 안전 측정장비에 걸쳐 있음을 보여준다.\n\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "방사능 측정기",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-52aa211bb99d6c505361&product=adex25-hkc-radiation-meter",
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "id": "adex25-soosung-bore-cleaner",
+      "images": 0,
+      "photoUnavailable": true,
+      "scrollWidth": 375,
+      "text": "별도 전시대 실물 · 105MM ABC SYSTEM 표지\n\n포구 자동청소기\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n현장사진 원문 3\nADEX 2025 수성 포구 자동청소기와 뒤쪽 HKC 승무원 헬멧\n원문 열기\nADEX 2025 DTaQ 공동 전시대 전경\n원문 열기\nADEX 2025 DQ마크 전시대 사선 시점 — 포구 청소기·승무원 헬멧과 관람객\n원문 열기\n장비·형상·용도\n\n포구 내부 청소용 정비장비다. 현장사진에서는 차량에 장착하지 않고 별도 전시대에 제시했다.\n\n출품 근거 [1]\n주요 특징\n\n사진의 표지는 105MM ABC SYSTEM이다. 다른 구경 형식의 출품 여부는 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\nDQ마크 공동전시에 포함됐으며 HKC 승무원 헬멧과 같은 전시대의 사진으로 확인된다.\n\n출품 근거 [1]\n개발 방향\n\n공식 발표 · 발표 당시 기준\n\n2025년 11월 기관 기사는 K9과 연계한 패키지 수출을 검토 중이라고 밝혔다. 계약·인도 완료는 미확인이다.\n\n출품 근거 [1]\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 패키지 수출 검토는 완성 장비의 해외 제안에 정비 지원장비를 함께 묶으려는 접근으로 읽힌다.\n\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "title": "포구 자동청소기",
+      "topics": 5,
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-1aaf2c2c6edaa0818a73&product=adex25-soosung-bore-cleaner",
+      "viewport": 390
+    }
+  ],
+  "metadataObservations": [
+    {
+      "case": "t90ms-reviewed-sources",
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=idex-2025&company=org-2db746a8735131ebbf8e&product=t90ms",
+      "text": "상세 출처와 확인 범위\n추가 확인 범위\n전시 외관과 촬영자의 회차 설명을 대조했다. 상세 사양·개량 내용·운용 성능을 확정한 기록이 아니다.\nROE 제품 PDF 본문은 확보하지 못해 이번 장비 설명의 근거로 사용하지 않았다. 출처 목록에서는 일반자료로 구분한다.\n촬영일·저자·CC BY 4.0은 확인했다. 제작 상태·양산 일정·군 배치 완료는 미확인이다.\n출품 근거\nIDEX 2025 T-90MS 측면 사진\nMztourist / Wikimedia Commons\n촬영일 2025-02-19. 현장 차명과 회사 표지·회차 설명·CC BY 4.0 확인. 전시 외관 관찰이며 성능 자료가 아니다.\n독립 현장 관찰 · 성능 검증 아님\n출품 근거\nIDEX 2025 T-90MS 전면 사진\nMztourist / Wikimedia Commons\n촬영일 2025-02-19. 회차 설명과 CC BY 4.0 확인. 내부 구성·개발 상태를 확인한 사진은 아니다.\n독립 현장 관찰 · 성능 검증 아님\n일반자료\nhttps://roe.ru/upload/pdf/41766_post.pdf"
+    },
+    {
+      "case": "country-without-editorial",
+      "url": "http://127.0.0.1:4174/exhibition-intelligence/preview/#company?event=adex-2025&company=org-f59a1086debbc920179b",
+      "header": "서울 ADEX 2025\n한화에어로스페이스 · Milrem Robotics\n\n지도 좌표 미확인 · 업체 목록에서 탐색\n\n국가 표기 · 대한민국·에스토니아\n\nTHeMIS-K의 전시 형상과 공개 설명을 살펴봅니다."
+    }
+  ],
+  "soosungExpandedLimits": "추가 확인 범위\n105MM 표지와 K9 연계 검토는 별개 사실이며, 사진 속 장비가 K9용이라는 뜻은 아니다.\n출품 근거\nK-방산의 품질 자신감, ADEX 2025에서 빛나다\n국방기술품질원 / 글 정소야 · 2025-11-10\n전시 주체의 결과보고입니다. 작성자와 사진 촬영자는 동일인으로 추정하지 않습니다. 전시 주체의 사후 현장 기사다. 사진 촬영일·촬영자는 미기재이며 게시일과 글쓴이로 대신하지 않는다. 수성의 패키지 수출은 당시 검토 상태다.\n기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.\n발행사 단일 근거\n설명 근거\n서울 ADEX 2025 통합홍보관 리플릿\n방위사업청·출연기관 / 경상국립대학교 공개 첨부\nPre-event institutional exhibit list; images are product reference illustrations, not onsite photographs. Page 1 map was not independently reconciled against the acquired 2025-10-11 floorplan; no geometry imported.\n공식 출품 목록이며 모든 품목의 실제 현장 설치 또는 모델을 독립 확인한 자료는 아닙니다. PDF 제작일 2025-10-15는 배포일과 구별합니다.\n발행사 단일 근거",
+  "reload": {
+    "productId": "adex25-soosung-bore-cleaner",
+    "selectedTitle": "포구 자동청소기",
+    "passed": true
+  },
+  "screenshots": [
+    "docs/evidence/screenshots/fiberpro-desktop-2026-11-16.jpg",
+    "docs/evidence/screenshots/soosung-mobile-2026-11-16.jpg"
+  ],
+  "limitations": [
+    "Viewport emulation, not a physical phone.",
+    "Link-only images remain undisplayed; no new image download or permission elevation."
+  ]
+}

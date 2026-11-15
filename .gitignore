@@ -26,3 +26,8 @@ tmp/pdf-qa2026-11-16/
 
 # Existing Commons photo comparison download, not a new display asset
 tmp/THeMIS-COMBAT-review-original.jpg
+
+# Local source comparison and licensed photo intake; evidence is tracked separately
+tmp/source-metadata-before/
+tmp/components-photo-intake/
+tmp/hanwha-photo-intake/

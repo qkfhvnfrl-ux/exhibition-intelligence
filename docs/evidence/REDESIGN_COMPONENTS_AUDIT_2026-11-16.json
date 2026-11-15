@@ -1,0 +1,5625 @@
+{
+  "asOf": "2026-11-16",
+  "status": "completed",
+  "auditResult": "PASS",
+  "scope": "Independent read-only audit of the 53-narrative component bundle. Full tests/build were already run by the parent and were not repeated.",
+  "baseline": {
+    "headCommit": "7c57ddaf2abfe54cd0007cbabcd67c20bbbc77b7",
+    "eventSnapshotDirectory": "tmp/source-metadata-before",
+    "snapshotFilesAreUntracked": true,
+    "method": "Compare the five preserved pre-metadata JSON event shards to current generated JSON. Snapshot SHA256 values are retained below."
+  },
+  "counts": {
+    "eventCompanyRecords": 3685,
+    "eventProductRecords": 130,
+    "authoredProducts": 53,
+    "narrativeSections": 265,
+    "productsWithDisplayableCurrentEventPhotos": 24,
+    "uniqueDisplayableCurrentEventPhotos": 29,
+    "productPhotoAssociations": 32,
+    "authoredProductsWithoutDisplayableCurrentEventPhotos": 29
+  },
+  "perEventCoverage": [
+    {
+      "eventId": "adex-2025",
+      "authoredProducts": 33,
+      "sections": 165,
+      "productsWithDisplayableCurrentEventPhotos": 7,
+      "photoAssociations": 9
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "authoredProducts": 5,
+      "sections": 25,
+      "productsWithDisplayableCurrentEventPhotos": 4,
+      "photoAssociations": 4
+    },
+    {
+      "eventId": "dsei-2025",
+      "authoredProducts": 5,
+      "sections": 25,
+      "productsWithDisplayableCurrentEventPhotos": 5,
+      "photoAssociations": 6
+    },
+    {
+      "eventId": "idex-2025",
+      "authoredProducts": 8,
+      "sections": 40,
+      "productsWithDisplayableCurrentEventPhotos": 8,
+      "photoAssociations": 13
+    },
+    {
+      "eventId": "saha-2026",
+      "authoredProducts": 2,
+      "sections": 10,
+      "productsWithDisplayableCurrentEventPhotos": 0,
+      "photoAssociations": 0
+    }
+  ],
+  "remainingPhotoGaps": [
+    {
+      "eventId": "adex-2025",
+      "productId": "k808-peru",
+      "name": "페루형 차륜장갑차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "k9a3",
+      "name": "K9A3 · 발전 로드맵"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-rotem-30t",
+      "name": "30t급 차륜형장갑차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kltv-ai",
+      "name": "KLTV AI 경계차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-fiberpro-fog-ins",
+      "name": "FOG 기반 관성항법장치(INS) 제품군"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kltv-drone",
+      "name": "KLTV 드론 탑재차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kmtv-chassis",
+      "name": "중형표준차 베어샤시"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kltv-cargo",
+      "name": "KLTV 4인승 카고"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-fiberpro-antijam-gnss",
+      "name": "항재밍 GNSS 수신기 제품군"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-khtv",
+      "name": "KHTV 대형표준차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-wia-ads-all-in-one",
+      "name": "일체형 ADS"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "themis-k",
+      "name": "THeMIS-K"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-rotem-mev",
+      "name": "차륜형의무후송차량"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-cots-sbc-family",
+      "name": "무기체계용 SBC 기반 임베디드 제품군"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-kmtv-armored",
+      "name": "방탄 패널 적용 중형 전술차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-soosung-bore-cleaner",
+      "name": "포구 자동청소기"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-tasman-refrigerated",
+      "name": "타스만 냉동·냉장 부식 파생차량"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-rotem-hydrogen-wav",
+      "name": "수소 차륜형장갑차"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "black-veil",
+      "name": "블랙 베일 무인 플랫폼"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-tasman-cargo-pair",
+      "name": "타스만 카고 파생차량 2종 — 개별 형식명 미공개"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-hkc-radiation-meter",
+      "name": "방사능 측정기"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-kia-tasman-fuel",
+      "name": "타스만 유조 파생차량"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-wia-ads",
+      "name": "차량 탑재 ADS"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-rotem-cpv",
+      "name": "차륜형지휘소용차량"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-hkc-crew-helmet",
+      "name": "전투차량 승무원용 헬멧"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "adex25-fiberpro-fog",
+      "name": "고정밀 광섬유 자이로스코프(FOG) 제품군"
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "productId": "eu-rcws",
+      "name": "소형 RCWS"
+    },
+    {
+      "eventId": "saha-2026",
+      "productId": "cobra-ii-bee-eater",
+      "name": "COBRA II · 차량탑재 UAV 구성"
+    },
+    {
+      "eventId": "saha-2026",
+      "productId": "tulpar-korhan",
+      "name": "TULPAR · KORHAN 통합형"
+    }
+  ],
+  "eventComparisons": [
+    {
+      "eventId": "adex-2025",
+      "baselineFile": "tmp/source-metadata-before/adex-2025.json",
+      "baselineSha256": "e2267d5db3bae40787c31f8eab5031e5558dda4ce165212b7279ac2770105388",
+      "currentFile": "data/v2/app/events/adex-2025.json",
+      "currentSha256": "8c99286e926ec66665ba8f519eeea2927233b782ec53159eeafcca7f55c1eab6",
+      "companyRecords": 375,
+      "productRecords": 94,
+      "photoRecords": 64,
+      "invariants": {
+        "companyIdentity": true,
+        "companyProductPhotoOwnership": true,
+        "attendanceAndListing": true,
+        "countryData": true,
+        "productIdentityOwnershipAndExhibitState": true,
+        "mapGeometries": true,
+        "mapDocuments": true,
+        "boothsAndOccupancies": true,
+        "companyBoothLinks": true,
+        "photoRecords": true,
+        "eventPhotoIds": true,
+        "reportModel": true
+      }
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "baselineFile": "tmp/source-metadata-before/eurosatory-2026.json",
+      "baselineSha256": "e56327fd83019cc60cc92112ff516a68d4526b1d1e99e5a3f4af43efe0980c3d",
+      "currentFile": "data/v2/app/events/eurosatory-2026.json",
+      "currentSha256": "c519bd4dec61cac058711b1f8c6f9747b0cc550b8afecdc434e52e29102fdcbf",
+      "companyRecords": 64,
+      "productRecords": 9,
+      "photoRecords": 28,
+      "invariants": {
+        "companyIdentity": true,
+        "companyProductPhotoOwnership": true,
+        "attendanceAndListing": true,
+        "countryData": true,
+        "productIdentityOwnershipAndExhibitState": true,
+        "mapGeometries": true,
+        "mapDocuments": true,
+        "boothsAndOccupancies": true,
+        "companyBoothLinks": true,
+        "photoRecords": true,
+        "eventPhotoIds": true,
+        "reportModel": true
+      }
+    },
+    {
+      "eventId": "dsei-2025",
+      "baselineFile": "tmp/source-metadata-before/dsei-2025.json",
+      "baselineSha256": "ca1352d51a660a868d94bff3bf674d00535b8563fcfa7f96de9f9e06bb0b0694",
+      "currentFile": "data/v2/app/events/dsei-2025.json",
+      "currentSha256": "52eba6da089298be95c7ba607ee0dcb056b66f4dbddf3b55160aa59e9e2d8308",
+      "companyRecords": 1743,
+      "productRecords": 9,
+      "photoRecords": 30,
+      "invariants": {
+        "companyIdentity": true,
+        "companyProductPhotoOwnership": true,
+        "attendanceAndListing": true,
+        "countryData": true,
+        "productIdentityOwnershipAndExhibitState": true,
+        "mapGeometries": true,
+        "mapDocuments": true,
+        "boothsAndOccupancies": true,
+        "companyBoothLinks": true,
+        "photoRecords": true,
+        "eventPhotoIds": true,
+        "reportModel": true
+      }
+    },
+    {
+      "eventId": "idex-2025",
+      "baselineFile": "tmp/source-metadata-before/idex-2025.json",
+      "baselineSha256": "e6bacbf02e7d22ed81940622db3c08e888b1178a976a5d660e7c037781ed4cd4",
+      "currentFile": "data/v2/app/events/idex-2025.json",
+      "currentSha256": "0581bafc7be13f0dbb39a2e2b4d3385c46cf223f4e89e4367eec7b434a33d268",
+      "companyRecords": 36,
+      "productRecords": 10,
+      "photoRecords": 18,
+      "invariants": {
+        "companyIdentity": true,
+        "companyProductPhotoOwnership": true,
+        "attendanceAndListing": true,
+        "countryData": true,
+        "productIdentityOwnershipAndExhibitState": true,
+        "mapGeometries": true,
+        "mapDocuments": true,
+        "boothsAndOccupancies": true,
+        "companyBoothLinks": true,
+        "photoRecords": true,
+        "eventPhotoIds": true,
+        "reportModel": true
+      }
+    },
+    {
+      "eventId": "saha-2026",
+      "baselineFile": "tmp/source-metadata-before/saha-2026.json",
+      "baselineSha256": "3dcdf01cda920e49f8f00dd9e67c9a68edf9bc7ec6ec8cafccf9100f03c2ebf5",
+      "currentFile": "data/v2/app/events/saha-2026.json",
+      "currentSha256": "4ac69eaa095ad0d7ea71f331410679acbfb3f6cc4efd8046b61f07b49ebb6934",
+      "companyRecords": 1467,
+      "productRecords": 8,
+      "photoRecords": 14,
+      "invariants": {
+        "companyIdentity": true,
+        "companyProductPhotoOwnership": true,
+        "attendanceAndListing": true,
+        "countryData": true,
+        "productIdentityOwnershipAndExhibitState": true,
+        "mapGeometries": true,
+        "mapDocuments": true,
+        "boothsAndOccupancies": true,
+        "companyBoothLinks": true,
+        "photoRecords": true,
+        "eventPhotoIds": true,
+        "reportModel": true
+      }
+    }
+  ],
+  "reportComparisons": [
+    {
+      "eventId": "adex-2025",
+      "screenMarkupSame": true,
+      "printMarkupSame": true,
+      "printMarkupExceptTitleAttributesSame": true,
+      "screenSha256": "bcc0a84a96b93b5128f47d206ce4223b84df653821fa0d9f925f48b3c63b4fe9",
+      "baselinePrintSha256": "7a96559772bb7005d863cc028cb1552e999b6f8b91d7e2ceab8638180b752ca0",
+      "currentPrintSha256": "7a96559772bb7005d863cc028cb1552e999b6f8b91d7e2ceab8638180b752ca0",
+      "changedTitleAttributes": []
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "screenMarkupSame": true,
+      "printMarkupSame": true,
+      "printMarkupExceptTitleAttributesSame": true,
+      "screenSha256": "61ba216647e9a74b7cc1f1b2f7ea3a4285784c33c8e1bb8d835df79c66a78943",
+      "baselinePrintSha256": "6612d0bd065dbcaa02ab384809ce6b7d38ee2e6892857ff9cf00df5affe3e8df",
+      "currentPrintSha256": "6612d0bd065dbcaa02ab384809ce6b7d38ee2e6892857ff9cf00df5affe3e8df",
+      "changedTitleAttributes": []
+    },
+    {
+      "eventId": "dsei-2025",
+      "screenMarkupSame": true,
+      "printMarkupSame": false,
+      "printMarkupExceptTitleAttributesSame": true,
+      "screenSha256": "362c4650fa76e02564da34b91e47b7eab20660a4eac970e33eb4ec3303572dd9",
+      "baselinePrintSha256": "17243ca9e78df4377c6552cfc9ac254ee2988f1dceacad8ae5a5aee77e6a32e5",
+      "currentPrintSha256": "0cf8d0bcd517f848d5d985668724172e0d016fc26747c9a0c9fead0a91c998b2",
+      "changedTitleAttributes": [
+        {
+          "before": "https://www.patriagroup.com/download/patria-6x6-at-dsei-uk-2025 · Photo: Patria",
+          "after": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형 · Photo: Patria"
+        }
+      ]
+    },
+    {
+      "eventId": "idex-2025",
+      "screenMarkupSame": true,
+      "printMarkupSame": true,
+      "printMarkupExceptTitleAttributesSame": true,
+      "screenSha256": "04607db5e6f1cd9c8a079a71f6d0a352f415af2ff8a5afe70ef20117b7e7e162",
+      "baselinePrintSha256": "bf19877c5aae79a83ea7e0ef3aa3a7534df3714ef5cfafdfbcf6763cb2fd5876",
+      "currentPrintSha256": "bf19877c5aae79a83ea7e0ef3aa3a7534df3714ef5cfafdfbcf6763cb2fd5876",
+      "changedTitleAttributes": []
+    },
+    {
+      "eventId": "saha-2026",
+      "screenMarkupSame": true,
+      "printMarkupSame": true,
+      "printMarkupExceptTitleAttributesSame": true,
+      "screenSha256": "55ce63395c2e689e77594a089c84fb68ac289f2e48647a84440e396c39624928",
+      "baselinePrintSha256": "c52a6e449ea5d136ba7bc2395b98dc2d6d599d709e2b962c3aebc926e92b8ba2",
+      "currentPrintSha256": "c52a6e449ea5d136ba7bc2395b98dc2d6d599d709e2b962c3aebc926e92b8ba2",
+      "changedTitleAttributes": []
+    }
+  ],
+  "sourceMetadataChanges": [
+    {
+      "eventId": "adex-2025",
+      "updated": [
+        {
+          "id": "source-a3c6cd9c4c16f8263aa9",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 2
+        },
+        {
+          "id": "source-a054039a60d396e259d2",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-f901f0a244024ddbfcac",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-b39935309e4b1397b825",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 2
+        },
+        {
+          "id": "source-e24b3ca3759e36ff46e5",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 2
+        },
+        {
+          "id": "source-d97630c953e06bea917d",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 2
+        },
+        {
+          "id": "source-7e1bb68339508b3b8881",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 2
+        },
+        {
+          "id": "source-402d941f0c801162f6d4",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-65ded7e5afc798e8e57e",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        }
+      ],
+      "added": [
+        {
+          "id": "fiberpro-pnt-general",
+          "url": "https://fiberpro.co.kr/products/PNTSolutions/PNTSolutions.php",
+          "title": "PNT Solutions — 일반 제품 소개"
+        },
+        {
+          "id": "dtaq-hkc-general-20250717",
+          "url": "https://dtaq-media.kr/tech-and-quality?id=368",
+          "title": "DQ마크 시리즈 — 에이치케이씨 전투차량 승무원용 헬멧 등"
+        }
+      ]
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "updated": [
+        {
+          "id": "source-1ee4b2afecce83063a7d",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": true,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "research-es-wia-eurosatory-2026",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 2
+        },
+        {
+          "id": "research-es-kia-eurosatory-2026",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 2
+        }
+      ],
+      "added": []
+    },
+    {
+      "eventId": "dsei-2025",
+      "updated": [
+        {
+          "id": "dsei25-patria-report",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 2
+        },
+        {
+          "id": "dsei25-kia-official-followup",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 2
+        },
+        {
+          "id": "dsei25-babcock-gdams-official-followup",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 2
+        },
+        {
+          "id": "source-ba48d9f5dd665e92c85a",
+          "titleChanged": true,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 0
+        },
+        {
+          "id": "source-d182407a01f95cebd1dd",
+          "titleChanged": true,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 0
+        },
+        {
+          "id": "source-54711a6ccd38494ef6cc",
+          "titleChanged": true,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 0
+        },
+        {
+          "id": "source-984bbf26d1f36d54e363",
+          "titleChanged": true,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 0
+        }
+      ],
+      "added": []
+    },
+    {
+      "eventId": "idex-2025",
+      "updated": [
+        {
+          "id": "source-b950cabfd3e86bea2c56",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-b95dd1777d21dd410287",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": true,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-88cc2991a2c2727fe63c",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": true,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-160f4e2f7a2c3baa1f32",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": true,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "idex25-edge-platforms-official-followup",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 2
+        },
+        {
+          "id": "source-eb59daa7239416207c4a",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-743b1f2182fd8373d7f7",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-31e1a89128881b98068a",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-615f3dcca5c3757caee0",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-bbf2500d611afd667bb6",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-65ded7e5afc798e8e57e",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-82d861723141822e2932",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-09acaf2051f60b9a2564",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "source-46f946fb91b8be1a554d",
+          "titleChanged": true,
+          "publisherFilled": true,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        }
+      ],
+      "added": []
+    },
+    {
+      "eventId": "saha-2026",
+      "updated": [
+        {
+          "id": "source-b950cabfd3e86bea2c56",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": true,
+          "noteLines": 1
+        },
+        {
+          "id": "research-es-otokar-saha-2026",
+          "titleChanged": false,
+          "publisherFilled": false,
+          "dateFilled": false,
+          "evidenceStatusFilled": false,
+          "noteLines": 2
+        }
+      ],
+      "added": []
+    }
+  ],
+  "sourceAndCountryCodeReview": {
+    "result": "Reviewed current git diff and the final normalization fix. No unresolved actionable issue identified.",
+    "establishedMetadata": "Meaningful existing titles, publisher, dates and evidenceStatus are preserved. URL-placeholder titles may be enriched. Both old and new note lines are retained and deduplicated.",
+    "security": "URL collisions still throw; new display metadata remains escaped by the existing renderers; no photo rights, participant attendance, or map evidence is promoted.",
+    "resolvedPriorFinding": "Multiline entries in note arrays now split CRLF/LF and trim before uniqueness. The new regression repeats the same array source three times and checks exact note lines.",
+    "country": "Existing country data is unchanged. Header display now also applies to companies without a separate editorial; rendered value remains escaped.",
+    "countryHeaderScreenAndPrintSpotChecks": 10
+  },
+  "componentNarrativeReview": {
+    "packet": "docs/research-v2/redesign-narratives-components-adex.json",
+    "narratives": 7,
+    "sections": 35,
+    "uniqueLinkOnlyPhotos": 4,
+    "linkOnlyPhotoIds": [
+      "photo-adex25-fiber-4",
+      "photo-adex25-fiber-3",
+      "photo-adex25-cots-booth",
+      "adex25-photo-dtaq-03"
+    ],
+    "review": "Previous independent review re-read seven source pages and visually checked four public images in memory. General PNT/HKC functions remain separate from exhibition specifications; 105MM exhibit identification is distinct from the later K9 package-export plan. No new image or reuse right claimed."
+  },
+  "publicScan": {
+    "policySource": "docs/evidence/REDESIGN_PUBLIC_AUDIT.json",
+    "prohibitedPatterns": [
+      {
+        "id": "retired_camel_field",
+        "source": "workConnection"
+      },
+      {
+        "id": "retired_snake_predicate",
+        "source": "work_connection"
+      },
+      {
+        "id": "first_person_company_ko",
+        "source": "당사|우리\\s*회사"
+      },
+      {
+        "id": "internal_work_relation_ko",
+        "source": "업무\\s*(?:연결|관련|연계)|체계개발과의\\s*연결"
+      },
+      {
+        "id": "internal_work_relation_en",
+        "source": "Rotem\\s+work\\s+connection|our\\s+company|our\\s+work"
+      }
+    ],
+    "targets": [
+      "scripts/compile-v2-data.mjs",
+      "scripts/compile-v2-app.mjs",
+      "scripts/research-v2.mjs",
+      "scripts/validate-v2-data.mjs",
+      "scripts/prepare-redesign-content.mjs",
+      "data",
+      "src/v2",
+      "dist"
+    ],
+    "textFilesScanned": 81,
+    "hits": [],
+    "excluded": "Documentation/evidence, tests, tmp, output PDFs and Git historical objects are excluded from the public wording scan.",
+    "limitations": "No OCR of image pixels or PDF text scan performed in this audit.",
+    "distributionFiles": 104,
+    "unexpectedDistributionPaths": [],
+    "forbiddenPublicTopLevelKeys": [
+      "collections",
+      "workQueue",
+      "metrics",
+      "rosterEntries",
+      "migration"
+    ]
+  },
+  "assets": {
+    "baselineCommit": "7c57ddaf2abfe54cd0007cbabcd67c20bbbc77b7",
+    "filesChecked": 85,
+    "allBytesUnchanged": true,
+    "allDistCopiesMatch": true,
+    "newAssetFiles": [],
+    "newProductionBinaryImages": 0,
+    "newImageDownloadsByAudit": 0,
+    "manifestSha256": "affb0026c76092f1f7f25b18214b8892c38830eb6e9828c3f7a858547e59d656",
+    "proof": "Each tracked source asset is compared to its baseline Git blob SHA1 including the blob header; source/dist copies compared by SHA256.",
+    "changes": []
+  },
+  "savedPdfs": {
+    "status": "preserved",
+    "files": [
+      {
+        "eventId": "adex-2025",
+        "file": "output/pdf/final/fieldnote-adex-2025.pdf",
+        "baselineSha256": "2283ce2375a7d872766d7236e7b4501d97994260dc883a694e7d0a6a4909265c",
+        "sha256": "2283ce2375a7d872766d7236e7b4501d97994260dc883a694e7d0a6a4909265c"
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "file": "output/pdf/final/fieldnote-eurosatory-2026.pdf",
+        "baselineSha256": "bdc5b54a3b109c4dc9050213ee07002e3e678991302765290a0a2a3edba71ada",
+        "sha256": "bdc5b54a3b109c4dc9050213ee07002e3e678991302765290a0a2a3edba71ada"
+      },
+      {
+        "eventId": "dsei-2025",
+        "file": "output/pdf/final/fieldnote-dsei-2025.pdf",
+        "baselineSha256": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1",
+        "sha256": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1"
+      },
+      {
+        "eventId": "idex-2025",
+        "file": "output/pdf/final/fieldnote-idex-2025.pdf",
+        "baselineSha256": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501",
+        "sha256": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501"
+      },
+      {
+        "eventId": "saha-2026",
+        "file": "output/pdf/final/fieldnote-saha-2026.pdf",
+        "baselineSha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91",
+        "sha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91"
+      }
+    ],
+    "referenceAudit": "docs/evidence/REDESIGN_PDF_VALIDATION_2026-11-16.json",
+    "resaveRequiredForThisBundle": false,
+    "reason": "All five report sheets retain visible content, links, images and CSS. Only one DSEI source-link title tooltip changes. Earlier read-only PDF inspection found no tooltip/Contents field in its 14 link annotations; structure Alt entries are the three unchanged image captions.",
+    "noNewPdfSaved": true
+  },
+  "validation": {
+    "commands": [
+      {
+        "command": "git diff -- scripts/compile-v2-app.mjs src/v2/details.js tests/v2-app-data.test.mjs",
+        "result": "Final merge normalization and country guard diff reviewed; no writes."
+      },
+      {
+        "command": "PowerShell here-string | node --input-type=module",
+        "result": "Baseline/current structured comparisons, report rendering comparison, ownership/rights checks, public regex scan, Git blob asset checks, PDF/log SHA256 and read-only snapshot."
+      },
+      {
+        "command": "npm run build",
+        "execution": "parent-run retained log, not rerun",
+        "result": "completed, no deployment",
+        "log": {
+          "file": ".local-components-build.log",
+          "bytes": 605,
+          "sha256": "e4891f73966c8680aecd28b17be5c4fd7097ee09b55bcd8c3e46e3d633e109a8"
+        }
+      },
+      {
+        "command": "npm run check",
+        "execution": "parent-run retained log, not rerun",
+        "tests": 202,
+        "pass": 202,
+        "fail": 0,
+        "skip": 0,
+        "durationMs": 3794.3512,
+        "log": {
+          "file": ".local-components-check.log",
+          "bytes": 21514,
+          "sha256": "d9c24227fadc2c5cca0067ebe821bfd5e6ea5190a3e1e1ffda859f56e5e67262"
+        }
+      }
+    ],
+    "independentCheckCount": 1179,
+    "failedCheckCount": 0,
+    "checks": [
+      {
+        "id": "adex-2025.companyIdentity",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.companyProductPhotoOwnership",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.attendanceAndListing",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.countryData",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.productIdentityOwnershipAndExhibitState",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.mapGeometries",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.mapDocuments",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.boothsAndOccupancies",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.companyBoothLinks",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.photoRecords",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.eventPhotoIds",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.reportModel",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.distMatchesRuntime",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.screenReportSame",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.printVisibleContentSame",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.expectedPrintDifference",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-a553fc81516ad6ad45d8",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-a553fc81516ad6ad45d8",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-a553fc81516ad6ad45d8",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-6006828d0942f9a02e18",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-6006828d0942f9a02e18",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-6006828d0942f9a02e18",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-e11ea82bbf5d3447fe4d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-e11ea82bbf5d3447fe4d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-e11ea82bbf5d3447fe4d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-ecea5527601fa8995cb4",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-ecea5527601fa8995cb4",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-ecea5527601fa8995cb4",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-433f866f7fda3130ab76",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-433f866f7fda3130ab76",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-433f866f7fda3130ab76",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-a3c6cd9c4c16f8263aa9",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-a3c6cd9c4c16f8263aa9",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-a3c6cd9c4c16f8263aa9",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-b1005b70008099b05a7f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-b1005b70008099b05a7f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-b1005b70008099b05a7f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-a054039a60d396e259d2",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-a054039a60d396e259d2",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-a054039a60d396e259d2",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-a556071f484e0f8d490a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-a556071f484e0f8d490a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-a556071f484e0f8d490a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-f9c239d1b5fa9dbacd37",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-f9c239d1b5fa9dbacd37",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-f9c239d1b5fa9dbacd37",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-6958ba9e1f1f2b075b60",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-6958ba9e1f1f2b075b60",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-6958ba9e1f1f2b075b60",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-0682192f8da15aaa9e4b",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-0682192f8da15aaa9e4b",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-0682192f8da15aaa9e4b",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-7d0d63118326427974ff",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-7d0d63118326427974ff",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-7d0d63118326427974ff",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-d4d428383a38d52dd1b9",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-d4d428383a38d52dd1b9",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-d4d428383a38d52dd1b9",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-07af174202b676b1721d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-07af174202b676b1721d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-07af174202b676b1721d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-ec23e64c2577f11db2a6",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-ec23e64c2577f11db2a6",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-ec23e64c2577f11db2a6",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-57de04f400fa82b0d3dd",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-57de04f400fa82b0d3dd",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-57de04f400fa82b0d3dd",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-f901f0a244024ddbfcac",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-f901f0a244024ddbfcac",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-f901f0a244024ddbfcac",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-55a95d4c39387a8547f7",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-55a95d4c39387a8547f7",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-55a95d4c39387a8547f7",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-79e26808a9fa39a11e6b",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-79e26808a9fa39a11e6b",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-79e26808a9fa39a11e6b",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-a2f807ce388d13d40e4e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-a2f807ce388d13d40e4e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-a2f807ce388d13d40e4e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-578efcb365795652c487",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-578efcb365795652c487",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-578efcb365795652c487",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-dbc35474c1c1572d1246",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-dbc35474c1c1572d1246",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-dbc35474c1c1572d1246",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-0e22a464a7aacd28bc1e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-0e22a464a7aacd28bc1e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-0e22a464a7aacd28bc1e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-951832f99ad64693b7d7",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-951832f99ad64693b7d7",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-951832f99ad64693b7d7",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-f6ee9c05b5a326e6d791",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-f6ee9c05b5a326e6d791",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-f6ee9c05b5a326e6d791",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-12fe24f07c46e9d78d92",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-12fe24f07c46e9d78d92",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-12fe24f07c46e9d78d92",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-5eb85bef42fdcd856db8",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-5eb85bef42fdcd856db8",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-5eb85bef42fdcd856db8",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-3ca8a50239da1f3f9ad6",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-3ca8a50239da1f3f9ad6",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-3ca8a50239da1f3f9ad6",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-b39935309e4b1397b825",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-b39935309e4b1397b825",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-b39935309e4b1397b825",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-e24b3ca3759e36ff46e5",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-e24b3ca3759e36ff46e5",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-e24b3ca3759e36ff46e5",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-3f7da25dbd6c7c9e5c85",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-3f7da25dbd6c7c9e5c85",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-3f7da25dbd6c7c9e5c85",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-42b6a2fab72997a3834c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-42b6a2fab72997a3834c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-42b6a2fab72997a3834c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-60bc62454dab300e5001",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-60bc62454dab300e5001",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-60bc62454dab300e5001",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-c5323c9bf59a5c78a682",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-c5323c9bf59a5c78a682",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-c5323c9bf59a5c78a682",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-55f6f547483a24ea6456",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-55f6f547483a24ea6456",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-55f6f547483a24ea6456",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-db787ea8f2bb68f53382",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-db787ea8f2bb68f53382",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-db787ea8f2bb68f53382",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-1c82dda6b93169b5b956",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-1c82dda6b93169b5b956",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-1c82dda6b93169b5b956",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-5e6daaaac8a8c83337e2",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-5e6daaaac8a8c83337e2",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-5e6daaaac8a8c83337e2",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-1c3ab15e2a98594246c5",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-1c3ab15e2a98594246c5",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-1c3ab15e2a98594246c5",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-335180e6bdc7da035e6e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-335180e6bdc7da035e6e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-335180e6bdc7da035e6e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-1515fc3a872f5dcb7c22",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-1515fc3a872f5dcb7c22",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-1515fc3a872f5dcb7c22",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-8b6a28089365ed22bd24",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-8b6a28089365ed22bd24",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-8b6a28089365ed22bd24",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-b8fbe2768b462e407b91",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-b8fbe2768b462e407b91",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-b8fbe2768b462e407b91",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-93976de54092b8a98474",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-93976de54092b8a98474",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-93976de54092b8a98474",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-b6d968ec4047a5bad798",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-b6d968ec4047a5bad798",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-b6d968ec4047a5bad798",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-833c02ee574f6ce76cc0",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-833c02ee574f6ce76cc0",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-833c02ee574f6ce76cc0",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-716dc61175cc2bdc0ab1",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-716dc61175cc2bdc0ab1",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-716dc61175cc2bdc0ab1",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-deeb4d3c47260d384294",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-deeb4d3c47260d384294",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-deeb4d3c47260d384294",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-df6b37fbacb74939b448",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-df6b37fbacb74939b448",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-df6b37fbacb74939b448",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-ab3f558b354a832dfafa",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-ab3f558b354a832dfafa",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-ab3f558b354a832dfafa",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-e4da8b46162faac96896",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-e4da8b46162faac96896",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-e4da8b46162faac96896",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-c48f98c0e136eb6211d2",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-c48f98c0e136eb6211d2",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-c48f98c0e136eb6211d2",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-e7bb34db1f3e10bb9f5c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-e7bb34db1f3e10bb9f5c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-e7bb34db1f3e10bb9f5c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-645fd18bac06a3ecba54",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-645fd18bac06a3ecba54",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-645fd18bac06a3ecba54",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-e5cc1def1589b398e705",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-e5cc1def1589b398e705",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-e5cc1def1589b398e705",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-77886bd2f354a6b1b46b",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-77886bd2f354a6b1b46b",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-77886bd2f354a6b1b46b",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-c5608bd514a9c40e6509",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-c5608bd514a9c40e6509",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-c5608bd514a9c40e6509",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-6540ed61e96d17743548",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-6540ed61e96d17743548",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-6540ed61e96d17743548",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-269ab488f066d08d60b4",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-269ab488f066d08d60b4",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-269ab488f066d08d60b4",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-d97630c953e06bea917d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-d97630c953e06bea917d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-d97630c953e06bea917d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-7e1bb68339508b3b8881",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-7e1bb68339508b3b8881",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-7e1bb68339508b3b8881",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-fff352d5fccc23dbbd2f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-fff352d5fccc23dbbd2f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-fff352d5fccc23dbbd2f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-c578ead2df1a258b0fe0",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-c578ead2df1a258b0fe0",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-c578ead2df1a258b0fe0",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-ae9cfefd1089ec5c1a2a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-ae9cfefd1089ec5c1a2a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-ae9cfefd1089ec5c1a2a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-87942ef110a72ed006a7",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-87942ef110a72ed006a7",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-87942ef110a72ed006a7",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-3b6b7551f099eaadc17f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-3b6b7551f099eaadc17f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-3b6b7551f099eaadc17f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-d93907e495d2c252fa61",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-d93907e495d2c252fa61",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-d93907e495d2c252fa61",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rotem-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rotem-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rotem-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rotem-field-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rotem-field-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rotem-field-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rotem-nurphoto",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rotem-nurphoto",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rotem-nurphoto",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.population-dapa-leaflet",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.population-dapa-leaflet",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.population-dapa-leaflet",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.kia-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.kia-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.kia-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.kia-field-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.kia-field-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.kia-field-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.stx-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.stx-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.stx-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.stx-issued-release",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.stx-issued-release",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.stx-issued-release",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.stx-nurphoto",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.stx-nurphoto",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.stx-nurphoto",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.wia-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.wia-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.wia-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.wia-edr",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.wia-edr",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.wia-edr",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-307fd9374eefab572a3c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-307fd9374eefab572a3c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-307fd9374eefab572a3c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.pei-live",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.pei-live",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.pei-live",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.pei-recap",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.pei-recap",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.pei-recap",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.pei-pre-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.pei-pre-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.pei-pre-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.cots-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.cots-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.cots-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.cots-photo",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.cots-photo",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.cots-photo",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.cots-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.cots-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.cots-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.huneed-release",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.huneed-release",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.huneed-release",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.huneed-partner",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.huneed-partner",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.huneed-partner",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.huneed-country",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.huneed-country",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.huneed-country",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.huneed-photo",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.huneed-photo",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.huneed-photo",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.huneed-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.huneed-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.huneed-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.eo-release",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.eo-release",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.eo-release",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.eo-field",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.eo-field",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.eo-field",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.eo-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.eo-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.eo-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.eo-name",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.eo-name",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.eo-name",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.eo-system-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.eo-system-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.eo-system-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.solvit-atdi",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.solvit-atdi",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.solvit-atdi",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.solvit-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.solvit-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.solvit-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.solvit-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.solvit-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.solvit-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.konan-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.konan-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.konan-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.konan-reprint",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.konan-reprint",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.konan-reprint",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.konan-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.konan-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.konan-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.konan-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.konan-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.konan-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rfcore-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rfcore-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rfcore-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rfcore-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rfcore-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rfcore-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.pavilion-dapa-leaflet",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.pavilion-dapa-leaflet",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.pavilion-dapa-leaflet",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.pavilion-dtaq-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.pavilion-dtaq-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.pavilion-dtaq-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.pavilion-edel-successor",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.pavilion-edel-successor",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.pavilion-edel-successor",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.pavilion-pixoneer-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.pavilion-pixoneer-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.pavilion-pixoneer-profile",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.pavilion-funzin-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.pavilion-funzin-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.pavilion-funzin-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.pavilion-funzin-recap",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.pavilion-funzin-recap",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.pavilion-funzin-recap",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.patria-adex25",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.patria-adex25",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.patria-adex25",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.official-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.official-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.official-map",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.mnc-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.mnc-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.mnc-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.mnc-photo-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.mnc-photo-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.mnc-photo-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.mnc-location",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.mnc-location",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.mnc-location",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.yeonhab-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.yeonhab-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.yeonhab-report",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.dtaq-onsite",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.dtaq-onsite",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.dtaq-onsite",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.dapa-leaflet",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.dapa-leaflet",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.dapa-leaflet",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.vitz-observer",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.vitz-observer",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.vitz-observer",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.vitz-company",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.vitz-company",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.vitz-company",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.cm-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.cm-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.cm-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.cm-insulation",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.cm-insulation",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.cm-insulation",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.cm-heater",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.cm-heater",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.cm-heater",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.cm-postevent",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.cm-postevent",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.cm-postevent",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.fire-if",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.fire-if",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.fire-if",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.fire-skt",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.fire-skt",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.fire-skt",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.fiber-gallery",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.fiber-gallery",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.fiber-gallery",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.fiber-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.fiber-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.fiber-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.ktc-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.ktc-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.ktc-event",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rotem-adex2025-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rotem-adex2025-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rotem-adex2025-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rotem-adex2023-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rotem-adex2023-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rotem-adex2023-official",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rotem-adex2025-field",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rotem-adex2025-field",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rotem-adex2025-field",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rotem-cpv-background",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rotem-cpv-background",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rotem-cpv-background",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rotem-mev-later",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rotem-mev-later",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rotem-mev-later",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.rotem-hydrogen-background",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.rotem-hydrogen-background",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.rotem-hydrogen-background",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.wia-adex-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.wia-adex-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.wia-adex-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.wia-adex-2023",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.wia-adex-2023",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.wia-adex-2023",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.wia-rcws-current",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.wia-rcws-current",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.wia-rcws-current",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.wia-105-current",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.wia-105-current",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.wia-105-current",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.wia-ads-current",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.wia-ads-current",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.wia-ads-current",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.kia-adex-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.kia-adex-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.kia-adex-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.asiatime-adex-2025-field",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.asiatime-adex-2025-field",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.asiatime-adex-2025-field",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.kia-kmtv-production-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.kia-kmtv-production-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.kia-kmtv-production-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.kia-military-history-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.kia-military-history-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.kia-military-history-2025",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.hanwha-adex2025-asiatime",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.hanwha-adex2025-asiatime",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.hanwha-adex2025-asiatime",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-402d941f0c801162f6d4",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-402d941f0c801162f6d4",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-402d941f0c801162f6d4",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.hanwha-adex2025-ceoscore",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.hanwha-adex2025-ceoscore",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.hanwha-adex2025-ceoscore",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.kia-adex-2023",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.kia-adex-2023",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.kia-adex-2023",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-4293f3879cefbeea2cfd",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-4293f3879cefbeea2cfd",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-4293f3879cefbeea2cfd",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-09808f9363d78023cc3a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-09808f9363d78023cc3a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-09808f9363d78023cc3a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-78e7a18b80ffcde92c87",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-78e7a18b80ffcde92c87",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-78e7a18b80ffcde92c87",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-8a506887c7cfb793a82f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-8a506887c7cfb793a82f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-8a506887c7cfb793a82f",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-1d799ebde21599cf225a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-1d799ebde21599cf225a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-1d799ebde21599cf225a",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-b5d9ae4d404f97b75d56",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-b5d9ae4d404f97b75d56",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-b5d9ae4d404f97b75d56",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-e473e8a913ec0af2cd85",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-e473e8a913ec0af2cd85",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-e473e8a913ec0af2cd85",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-bcb2fe1a92f5a5e641e9",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-bcb2fe1a92f5a5e641e9",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-bcb2fe1a92f5a5e641e9",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-a1efd676f25d88aaf851",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-a1efd676f25d88aaf851",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-a1efd676f25d88aaf851",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-4ffc900da8b9d2fbbe80",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-4ffc900da8b9d2fbbe80",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-4ffc900da8b9d2fbbe80",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-a24da8c6ce7a5443f776",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-a24da8c6ce7a5443f776",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-a24da8c6ce7a5443f776",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-9821ebb8989ebf6a226d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-9821ebb8989ebf6a226d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-9821ebb8989ebf6a226d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-3fb153ee7a668327af23",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-3fb153ee7a668327af23",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-3fb153ee7a668327af23",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-ac855375eee630de1cbf",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-ac855375eee630de1cbf",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-ac855375eee630de1cbf",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-3e1e9366276dd2bd15e3",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-3e1e9366276dd2bd15e3",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-3e1e9366276dd2bd15e3",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-9070d6a933521f39728c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-9070d6a933521f39728c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-9070d6a933521f39728c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-ee5062462e6c9fd7dd7c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-ee5062462e6c9fd7dd7c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-ee5062462e6c9fd7dd7c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-ab313c7fa870a424362c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-ab313c7fa870a424362c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-ab313c7fa870a424362c",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-65ded7e5afc798e8e57e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-65ded7e5afc798e8e57e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-65ded7e5afc798e8e57e",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-d661b0d7f7ba0fbc9a68",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-d661b0d7f7ba0fbc9a68",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-d661b0d7f7ba0fbc9a68",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-e60ea686b02583f11741",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-e60ea686b02583f11741",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-e60ea686b02583f11741",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-bf07c754d3f807f2dd62",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-bf07c754d3f807f2dd62",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-bf07c754d3f807f2dd62",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourcePreserved.source-82ef1727112ff7a0f12d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.establishedMetadataPreserved.source-82ef1727112ff7a0f12d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.oldRestrictionsPreserved.source-82ef1727112ff7a0f12d",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.sourceNotesUnique",
+        "status": "passed",
+        "duplicateIds": []
+      },
+      {
+        "id": "eurosatory-2026.companyIdentity",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.companyProductPhotoOwnership",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.attendanceAndListing",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.countryData",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.productIdentityOwnershipAndExhibitState",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.mapGeometries",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.mapDocuments",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.boothsAndOccupancies",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.companyBoothLinks",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.photoRecords",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.eventPhotoIds",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.reportModel",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.distMatchesRuntime",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.screenReportSame",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.printVisibleContentSame",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.expectedPrintDifference",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-573a5928b4bf16667fcb",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-573a5928b4bf16667fcb",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-573a5928b4bf16667fcb",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-0f4c9b3684f822e66ac8",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-0f4c9b3684f822e66ac8",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-0f4c9b3684f822e66ac8",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-fb46e20187cf8e3ef0ee",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-fb46e20187cf8e3ef0ee",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-fb46e20187cf8e3ef0ee",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-97e42a9a72c2de3a61c0",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-97e42a9a72c2de3a61c0",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-97e42a9a72c2de3a61c0",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-b6d741c396ba17989449",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-b6d741c396ba17989449",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-b6d741c396ba17989449",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-d780559d6ec088a8b855",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-d780559d6ec088a8b855",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-d780559d6ec088a8b855",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-84b58b929dbfa48a2b92",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-84b58b929dbfa48a2b92",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-84b58b929dbfa48a2b92",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-e2061dad050c35e43e36",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-e2061dad050c35e43e36",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-e2061dad050c35e43e36",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-36f4b56eae248699c23f",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-36f4b56eae248699c23f",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-36f4b56eae248699c23f",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-bef4bb057210357ff9d6",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-bef4bb057210357ff9d6",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-bef4bb057210357ff9d6",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-57de04f400fa82b0d3dd",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-57de04f400fa82b0d3dd",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-57de04f400fa82b0d3dd",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-1ee4b2afecce83063a7d",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-1ee4b2afecce83063a7d",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-1ee4b2afecce83063a7d",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-6232e53730be6ef9cc94",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-6232e53730be6ef9cc94",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-6232e53730be6ef9cc94",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-46f29ae0936ac9976f49",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-46f29ae0936ac9976f49",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-46f29ae0936ac9976f49",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-a9682a2ebb04f1766510",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-a9682a2ebb04f1766510",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-a9682a2ebb04f1766510",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-3e00fcfdcc3ccf2ba269",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-3e00fcfdcc3ccf2ba269",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-3e00fcfdcc3ccf2ba269",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.research-es-wia-eurosatory-2026",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.research-es-wia-eurosatory-2026",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.research-es-wia-eurosatory-2026",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.research-es-kia-eurosatory-2026",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.research-es-kia-eurosatory-2026",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.research-es-kia-eurosatory-2026",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.report-eurosatory-2024-organizer-review",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.report-eurosatory-2024-organizer-review",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.report-eurosatory-2024-organizer-review",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-320f6b20062f763c20f4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-320f6b20062f763c20f4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-320f6b20062f763c20f4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-39be5df02d7c473d7521",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-39be5df02d7c473d7521",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-39be5df02d7c473d7521",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-7d52002656d9e41de4b8",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-7d52002656d9e41de4b8",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-7d52002656d9e41de4b8",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-6711d1edfd79ad1cec2b",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-6711d1edfd79ad1cec2b",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-6711d1edfd79ad1cec2b",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-fb20c4a78c457e168adb",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-fb20c4a78c457e168adb",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-fb20c4a78c457e168adb",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-0c01210ae9309d859a78",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-0c01210ae9309d859a78",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-0c01210ae9309d859a78",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-0694515401bc6f356be4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-0694515401bc6f356be4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-0694515401bc6f356be4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-ea1c4b7217bea7efbee4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-ea1c4b7217bea7efbee4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-ea1c4b7217bea7efbee4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-e607084b279f5b653b23",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-e607084b279f5b653b23",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-e607084b279f5b653b23",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-887164fe3e21462e046d",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-887164fe3e21462e046d",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-887164fe3e21462e046d",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-6873ab1c66cf20def7d9",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-6873ab1c66cf20def7d9",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-6873ab1c66cf20def7d9",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-1ee98c23c9fdd17a6cdc",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-1ee98c23c9fdd17a6cdc",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-1ee98c23c9fdd17a6cdc",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-4084a7f92fcf6b421834",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-4084a7f92fcf6b421834",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-4084a7f92fcf6b421834",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-b9b6a4453717e8493b4c",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-b9b6a4453717e8493b4c",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-b9b6a4453717e8493b4c",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-d3f36a91aa8807168240",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-d3f36a91aa8807168240",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-d3f36a91aa8807168240",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-c8fd260bc32c625ebe17",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-c8fd260bc32c625ebe17",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-c8fd260bc32c625ebe17",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-456eb87a255d3e9576fb",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-456eb87a255d3e9576fb",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-456eb87a255d3e9576fb",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-e45c0dcdd844309aa57d",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-e45c0dcdd844309aa57d",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-e45c0dcdd844309aa57d",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-7bd4499efe3f17d3eca4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-7bd4499efe3f17d3eca4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-7bd4499efe3f17d3eca4",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-4533e3000b2a21a62b87",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-4533e3000b2a21a62b87",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-4533e3000b2a21a62b87",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-93aa95caae0dd714dcb6",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-93aa95caae0dd714dcb6",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-93aa95caae0dd714dcb6",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourcePreserved.source-a83fb8c4510011ffefe1",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.establishedMetadataPreserved.source-a83fb8c4510011ffefe1",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.oldRestrictionsPreserved.source-a83fb8c4510011ffefe1",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.sourceNotesUnique",
+        "status": "passed",
+        "duplicateIds": []
+      },
+      {
+        "id": "dsei-2025.companyIdentity",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.companyProductPhotoOwnership",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.attendanceAndListing",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.countryData",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.productIdentityOwnershipAndExhibitState",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.mapGeometries",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.mapDocuments",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.boothsAndOccupancies",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.companyBoothLinks",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.photoRecords",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.eventPhotoIds",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.reportModel",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.distMatchesRuntime",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.screenReportSame",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.printVisibleContentSame",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.expectedPrintDifference",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-988ba7d6871c3a492dc1",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-988ba7d6871c3a492dc1",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-988ba7d6871c3a492dc1",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-6585fa5654bd2caad88b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-6585fa5654bd2caad88b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-6585fa5654bd2caad88b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-6745318a7e1d8b814b10",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-6745318a7e1d8b814b10",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-6745318a7e1d8b814b10",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-3682c233eba0e7a9cbcb",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-3682c233eba0e7a9cbcb",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-3682c233eba0e7a9cbcb",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-65481c0af35143fe4af4",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-65481c0af35143fe4af4",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-65481c0af35143fe4af4",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-dcd1f2f98838b9a316fc",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-dcd1f2f98838b9a316fc",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-dcd1f2f98838b9a316fc",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-86db1d95a3ccb95f0830",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-86db1d95a3ccb95f0830",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-86db1d95a3ccb95f0830",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-2d058b8f231940135a72",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-2d058b8f231940135a72",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-2d058b8f231940135a72",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-f56f2155b6e9d593da06",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-f56f2155b6e9d593da06",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-f56f2155b6e9d593da06",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-2153e05f67a8183a8c27",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-2153e05f67a8183a8c27",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-2153e05f67a8183a8c27",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-fd6f1ed1fbc31771e61b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-fd6f1ed1fbc31771e61b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-fd6f1ed1fbc31771e61b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-1d29bb2656d281c7fe54",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-1d29bb2656d281c7fe54",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-1d29bb2656d281c7fe54",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-3cc5c419d75ce0b4ec08",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-3cc5c419d75ce0b4ec08",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-3cc5c419d75ce0b4ec08",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-712be1549ae345b889db",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-712be1549ae345b889db",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-712be1549ae345b889db",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-f982cec4d0c3c61223f3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-f982cec4d0c3c61223f3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-f982cec4d0c3c61223f3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-f11d8cab22a3b1f5a5b3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-f11d8cab22a3b1f5a5b3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-f11d8cab22a3b1f5a5b3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-bd0c1c007adde2112efb",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-bd0c1c007adde2112efb",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-bd0c1c007adde2112efb",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-432c799feef80ffb0525",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-432c799feef80ffb0525",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-432c799feef80ffb0525",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-c78f4fbc06933bd72ece",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-c78f4fbc06933bd72ece",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-c78f4fbc06933bd72ece",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-42dcc08b21bfe445af9f",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-42dcc08b21bfe445af9f",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-42dcc08b21bfe445af9f",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-c6dade1f14642d9db79a",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-c6dade1f14642d9db79a",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-c6dade1f14642d9db79a",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-59e3ce621588fb8633d3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-59e3ce621588fb8633d3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-59e3ce621588fb8633d3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-10f38f26217ddade000c",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-10f38f26217ddade000c",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-10f38f26217ddade000c",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-e6c03d0a814e2e7cf902",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-e6c03d0a814e2e7cf902",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-e6c03d0a814e2e7cf902",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-893b38bfd733982012dd",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-893b38bfd733982012dd",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-893b38bfd733982012dd",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-1d56590d2f348debbc2b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-1d56590d2f348debbc2b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-1d56590d2f348debbc2b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-5d19935b170d470bb798",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-5d19935b170d470bb798",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-5d19935b170d470bb798",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-ccfa2e88d8a2c995da5e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-ccfa2e88d8a2c995da5e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-ccfa2e88d8a2c995da5e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-044311bf8920a77b09f0",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-044311bf8920a77b09f0",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-044311bf8920a77b09f0",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-af2c87eecfb1403753f9",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-af2c87eecfb1403753f9",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-af2c87eecfb1403753f9",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-5ee2edb3e1204a01d582",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-5ee2edb3e1204a01d582",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-5ee2edb3e1204a01d582",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.patria-dsei25-material-bank",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.patria-dsei25-material-bank",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.patria-dsei25-material-bank",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.dsei25-patria-report",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.dsei25-patria-report",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.dsei25-patria-report",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.dsei25-patria-trackx-release",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.dsei25-patria-trackx-release",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.dsei25-patria-trackx-release",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.dsei25-kia-official-followup",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.dsei25-kia-official-followup",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.dsei25-kia-official-followup",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.dsei25-babcock-gdams-official-followup",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.dsei25-babcock-gdams-official-followup",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.dsei25-babcock-gdams-official-followup",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.dsei25-ste-platforms-followup",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.dsei25-ste-platforms-followup",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.dsei25-ste-platforms-followup",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.dsei23-patria-report",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.dsei23-patria-report",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.dsei23-patria-report",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.dsei25-patria-teaming-report",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.dsei25-patria-teaming-report",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.dsei25-patria-teaming-report",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-e738ba8d26025e53eaa7",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-e738ba8d26025e53eaa7",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-e738ba8d26025e53eaa7",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-3356f2c92ff7d576b30a",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-3356f2c92ff7d576b30a",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-3356f2c92ff7d576b30a",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-4eaa011053f4878334cf",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-4eaa011053f4878334cf",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-4eaa011053f4878334cf",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-95b5815f1d98ab6b13af",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-95b5815f1d98ab6b13af",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-95b5815f1d98ab6b13af",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-fb6f73bb9a0029ec4e92",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-fb6f73bb9a0029ec4e92",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-fb6f73bb9a0029ec4e92",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-ba48d9f5dd665e92c85a",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-ba48d9f5dd665e92c85a",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-ba48d9f5dd665e92c85a",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-f78c98cf9935dd198abf",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-f78c98cf9935dd198abf",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-f78c98cf9935dd198abf",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-ed50dca92139008a0fa4",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-ed50dca92139008a0fa4",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-ed50dca92139008a0fa4",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-5f957862458ed07ed895",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-5f957862458ed07ed895",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-5f957862458ed07ed895",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-674ece171f3239b896dc",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-674ece171f3239b896dc",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-674ece171f3239b896dc",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-d182407a01f95cebd1dd",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-d182407a01f95cebd1dd",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-d182407a01f95cebd1dd",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-7fa7cbff617dccc4a08d",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-7fa7cbff617dccc4a08d",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-7fa7cbff617dccc4a08d",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-cb1fb6e007b5d7a5261e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-cb1fb6e007b5d7a5261e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-cb1fb6e007b5d7a5261e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-4f6d4a03ac138e99981e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-4f6d4a03ac138e99981e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-4f6d4a03ac138e99981e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-6e8a1b8af3568d0d5e05",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-6e8a1b8af3568d0d5e05",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-6e8a1b8af3568d0d5e05",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-df08d809d5ffda92f52b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-df08d809d5ffda92f52b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-df08d809d5ffda92f52b",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-76f240df0c6bc843f30d",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-76f240df0c6bc843f30d",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-76f240df0c6bc843f30d",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-7299af5f6480a552e7ee",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-7299af5f6480a552e7ee",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-7299af5f6480a552e7ee",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-582ecbbd300032869839",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-582ecbbd300032869839",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-582ecbbd300032869839",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-b66d2bc5911618547f33",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-b66d2bc5911618547f33",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-b66d2bc5911618547f33",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-90e85857c373ea926f8d",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-90e85857c373ea926f8d",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-90e85857c373ea926f8d",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-1c731eeeb3c27f67c6c3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-1c731eeeb3c27f67c6c3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-1c731eeeb3c27f67c6c3",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-0efb766b007b62cca6ce",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-0efb766b007b62cca6ce",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-0efb766b007b62cca6ce",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-0c808f9e3ebe4756c0be",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-0c808f9e3ebe4756c0be",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-0c808f9e3ebe4756c0be",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-42de93ea746110a67b4e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-42de93ea746110a67b4e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-42de93ea746110a67b4e",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-54711a6ccd38494ef6cc",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-54711a6ccd38494ef6cc",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-54711a6ccd38494ef6cc",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-bc84c2d342dfc0b1704f",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-bc84c2d342dfc0b1704f",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-bc84c2d342dfc0b1704f",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourcePreserved.source-984bbf26d1f36d54e363",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.establishedMetadataPreserved.source-984bbf26d1f36d54e363",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.oldRestrictionsPreserved.source-984bbf26d1f36d54e363",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.sourceNotesUnique",
+        "status": "passed",
+        "duplicateIds": []
+      },
+      {
+        "id": "idex-2025.companyIdentity",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.companyProductPhotoOwnership",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.attendanceAndListing",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.countryData",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.productIdentityOwnershipAndExhibitState",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.mapGeometries",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.mapDocuments",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.boothsAndOccupancies",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.companyBoothLinks",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.photoRecords",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.eventPhotoIds",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.reportModel",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.distMatchesRuntime",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.screenReportSame",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.printVisibleContentSame",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.expectedPrintDifference",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-dfe1236b534c6202e955",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-dfe1236b534c6202e955",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-dfe1236b534c6202e955",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-d5a56547573a3fe855ee",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-d5a56547573a3fe855ee",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-d5a56547573a3fe855ee",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-6260d23aef0b96003d56",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-6260d23aef0b96003d56",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-6260d23aef0b96003d56",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-b950cabfd3e86bea2c56",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-b950cabfd3e86bea2c56",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-b950cabfd3e86bea2c56",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-cadfdcb525401ec1a3c6",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-cadfdcb525401ec1a3c6",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-cadfdcb525401ec1a3c6",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-c9e68b6487618a67a6e0",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-c9e68b6487618a67a6e0",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-c9e68b6487618a67a6e0",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-b95dd1777d21dd410287",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-b95dd1777d21dd410287",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-b95dd1777d21dd410287",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-54d33b2335251bfc706c",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-54d33b2335251bfc706c",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-54d33b2335251bfc706c",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-bbd6c968125a1c7f33ac",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-bbd6c968125a1c7f33ac",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-bbd6c968125a1c7f33ac",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-1a7f66852f6d12a39dd2",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-1a7f66852f6d12a39dd2",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-1a7f66852f6d12a39dd2",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-dfb55da99a3e0e13f9c3",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-dfb55da99a3e0e13f9c3",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-dfb55da99a3e0e13f9c3",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-bcac40e6a1d12cc8b578",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-bcac40e6a1d12cc8b578",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-bcac40e6a1d12cc8b578",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-88cc2991a2c2727fe63c",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-88cc2991a2c2727fe63c",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-88cc2991a2c2727fe63c",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-160f4e2f7a2c3baa1f32",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-160f4e2f7a2c3baa1f32",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-160f4e2f7a2c3baa1f32",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.idex25-edge-platforms-official-followup",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.idex25-edge-platforms-official-followup",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.idex25-edge-platforms-official-followup",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-eb59daa7239416207c4a",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-eb59daa7239416207c4a",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-eb59daa7239416207c4a",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-743b1f2182fd8373d7f7",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-743b1f2182fd8373d7f7",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-743b1f2182fd8373d7f7",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.report-idex25-cockerill",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.report-idex25-cockerill",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.report-idex25-cockerill",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.idex25-cockerill-commons-photo",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.idex25-cockerill-commons-photo",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.idex25-cockerill-commons-photo",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-31e1a89128881b98068a",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-31e1a89128881b98068a",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-31e1a89128881b98068a",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-615f3dcca5c3757caee0",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-615f3dcca5c3757caee0",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-615f3dcca5c3757caee0",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-bbf2500d611afd667bb6",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-bbf2500d611afd667bb6",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-bbf2500d611afd667bb6",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-65ded7e5afc798e8e57e",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-65ded7e5afc798e8e57e",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-65ded7e5afc798e8e57e",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-82d861723141822e2932",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-82d861723141822e2932",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-82d861723141822e2932",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-09acaf2051f60b9a2564",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-09acaf2051f60b9a2564",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-09acaf2051f60b9a2564",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-46f946fb91b8be1a554d",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-46f946fb91b8be1a554d",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-46f946fb91b8be1a554d",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.report-idex23-edge-unmanned",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.report-idex23-edge-unmanned",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.report-idex23-edge-unmanned",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.report-idex23-edge-preview",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.report-idex23-edge-preview",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.report-idex23-edge-preview",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.report-idex23-cockerill",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.report-idex23-cockerill",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.report-idex23-cockerill",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-92ecf28b2713baf5899b",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-92ecf28b2713baf5899b",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-92ecf28b2713baf5899b",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-20ce54c1519f3872f853",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-20ce54c1519f3872f853",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-20ce54c1519f3872f853",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-7788669b858a6ffb41ce",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-7788669b858a6ffb41ce",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-7788669b858a6ffb41ce",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-ecd3630b3ed9f978f90d",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-ecd3630b3ed9f978f90d",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-ecd3630b3ed9f978f90d",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-573879913feee9f9b8e7",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-573879913feee9f9b8e7",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-573879913feee9f9b8e7",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-900f3e40c02cf36cfe6d",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-900f3e40c02cf36cfe6d",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-900f3e40c02cf36cfe6d",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-0d2fbbc2da32db7c5ec3",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-0d2fbbc2da32db7c5ec3",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-0d2fbbc2da32db7c5ec3",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-2192b8269fe70513cb44",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-2192b8269fe70513cb44",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-2192b8269fe70513cb44",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourcePreserved.source-b059479e9362520318ec",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.establishedMetadataPreserved.source-b059479e9362520318ec",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.oldRestrictionsPreserved.source-b059479e9362520318ec",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.sourceNotesUnique",
+        "status": "passed",
+        "duplicateIds": []
+      },
+      {
+        "id": "saha-2026.companyIdentity",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.companyProductPhotoOwnership",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.attendanceAndListing",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.countryData",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.productIdentityOwnershipAndExhibitState",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.mapGeometries",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.mapDocuments",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.boothsAndOccupancies",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.companyBoothLinks",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.photoRecords",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.eventPhotoIds",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.reportModel",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.distMatchesRuntime",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.screenReportSame",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.printVisibleContentSame",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.expectedPrintDifference",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-b961eb3c01a04ec69d3d",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-b961eb3c01a04ec69d3d",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-b961eb3c01a04ec69d3d",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-550c75d211ecf306ad23",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-550c75d211ecf306ad23",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-550c75d211ecf306ad23",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-6260d23aef0b96003d56",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-6260d23aef0b96003d56",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-6260d23aef0b96003d56",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-b950cabfd3e86bea2c56",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-b950cabfd3e86bea2c56",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-b950cabfd3e86bea2c56",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-cadfdcb525401ec1a3c6",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-cadfdcb525401ec1a3c6",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-cadfdcb525401ec1a3c6",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-c9e68b6487618a67a6e0",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-c9e68b6487618a67a6e0",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-c9e68b6487618a67a6e0",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-90964eecd9e5ed82589c",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-90964eecd9e5ed82589c",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-90964eecd9e5ed82589c",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-5876fd8e2bbf07d63d4a",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-5876fd8e2bbf07d63d4a",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-5876fd8e2bbf07d63d4a",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-54d33b2335251bfc706c",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-54d33b2335251bfc706c",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-54d33b2335251bfc706c",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-b4f3c786aa6a203d7d13",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-b4f3c786aa6a203d7d13",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-b4f3c786aa6a203d7d13",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-383c48dc9d32d8d04a38",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-383c48dc9d32d8d04a38",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-383c48dc9d32d8d04a38",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-5709226b249758726176",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-5709226b249758726176",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-5709226b249758726176",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-7efa9d2ef4aa97d8af32",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-7efa9d2ef4aa97d8af32",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-7efa9d2ef4aa97d8af32",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-f911772495713dd94ade",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-f911772495713dd94ade",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-f911772495713dd94ade",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-a07c2b1dcf9e0b87e318",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-a07c2b1dcf9e0b87e318",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-a07c2b1dcf9e0b87e318",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-9547b59d46407528bdfc",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-9547b59d46407528bdfc",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-9547b59d46407528bdfc",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-7002ecf6d4351b5121a5",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-7002ecf6d4351b5121a5",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-7002ecf6d4351b5121a5",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-db7f42bde5e27e949df4",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-db7f42bde5e27e949df4",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-db7f42bde5e27e949df4",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-8dac8bd549a63e7f78ce",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-8dac8bd549a63e7f78ce",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-8dac8bd549a63e7f78ce",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-8d1ff40cae8b95f6e36c",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-8d1ff40cae8b95f6e36c",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-8d1ff40cae8b95f6e36c",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-efb4d9a3582519b7a0ca",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-efb4d9a3582519b7a0ca",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-efb4d9a3582519b7a0ca",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-08db4244719521bbcae4",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-08db4244719521bbcae4",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-08db4244719521bbcae4",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.research-es-otokar-saha-2026",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.research-es-otokar-saha-2026",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.research-es-otokar-saha-2026",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.report-saha-otokar-2024",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.report-saha-otokar-2024",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.report-saha-otokar-2024",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.report-saha-fnss-2024",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.report-saha-fnss-2024",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.report-saha-fnss-2024",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.report-saha-fnss-2026-retrospective",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.report-saha-fnss-2026-retrospective",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.report-saha-fnss-2026-retrospective",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.report-saha-showdaily-day3",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.report-saha-showdaily-day3",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.report-saha-showdaily-day3",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.report-saha-showdaily-day2",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.report-saha-showdaily-day2",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.report-saha-showdaily-day2",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-b27dde86136d2432a9b6",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-b27dde86136d2432a9b6",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-b27dde86136d2432a9b6",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-56c1fa466102e665f4bd",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-56c1fa466102e665f4bd",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-56c1fa466102e665f4bd",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-d5bf02fa656b091a8efb",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-d5bf02fa656b091a8efb",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-d5bf02fa656b091a8efb",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-2192b8269fe70513cb44",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-2192b8269fe70513cb44",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-2192b8269fe70513cb44",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourcePreserved.source-b059479e9362520318ec",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.establishedMetadataPreserved.source-b059479e9362520318ec",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.oldRestrictionsPreserved.source-b059479e9362520318ec",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.sourceNotesUnique",
+        "status": "passed",
+        "duplicateIds": []
+      },
+      {
+        "id": "expected53Narratives265Sections",
+        "status": "passed"
+      },
+      {
+        "id": "displayablePhotoCoverageUnchanged",
+        "status": "passed"
+      },
+      {
+        "id": "adex25-fiberpro-fog-ins.narrativeIntegrated",
+        "status": "passed"
+      },
+      {
+        "id": "photo-adex25-fiber-4.remainsLinkOnly",
+        "status": "passed"
+      },
+      {
+        "id": "adex25-fiberpro-antijam-gnss.narrativeIntegrated",
+        "status": "passed"
+      },
+      {
+        "id": "photo-adex25-fiber-3.remainsLinkOnly",
+        "status": "passed"
+      },
+      {
+        "id": "adex25-fiberpro-fog.narrativeIntegrated",
+        "status": "passed"
+      },
+      {
+        "id": "adex25-cots-sbc-family.narrativeIntegrated",
+        "status": "passed"
+      },
+      {
+        "id": "photo-adex25-cots-booth.remainsLinkOnly",
+        "status": "passed"
+      },
+      {
+        "id": "adex25-hkc-crew-helmet.narrativeIntegrated",
+        "status": "passed"
+      },
+      {
+        "id": "adex25-photo-dtaq-03.remainsLinkOnly",
+        "status": "passed"
+      },
+      {
+        "id": "adex25-hkc-radiation-meter.narrativeIntegrated",
+        "status": "passed"
+      },
+      {
+        "id": "adex25-soosung-bore-cleaner.narrativeIntegrated",
+        "status": "passed"
+      },
+      {
+        "id": "adex25-photo-dtaq-03.remainsLinkOnly",
+        "status": "passed"
+      },
+      {
+        "id": "fourUniqueLinkOnlyComponentPhotos",
+        "status": "passed"
+      },
+      {
+        "id": "FOGAndRadiationMeterHaveNoInventedPhoto",
+        "status": "passed"
+      },
+      {
+        "id": "sourceMergeKeepsURLCollisionCheck",
+        "status": "passed"
+      },
+      {
+        "id": "sourceMergeNormalizesArrayAndStringLines",
+        "status": "passed"
+      },
+      {
+        "id": "sourceMergeRegressionCoversRepeatedArrayNotes",
+        "status": "passed"
+      },
+      {
+        "id": "countryHeaderIsEscapedAndNoEditorialGuard",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.countryHeader.false",
+        "status": "passed"
+      },
+      {
+        "id": "adex-2025.countryHeader.true",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.countryHeader.false",
+        "status": "passed"
+      },
+      {
+        "id": "eurosatory-2026.countryHeader.true",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.countryHeader.false",
+        "status": "passed"
+      },
+      {
+        "id": "dsei-2025.countryHeader.true",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.countryHeader.false",
+        "status": "passed"
+      },
+      {
+        "id": "idex-2025.countryHeader.true",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.countryHeader.false",
+        "status": "passed"
+      },
+      {
+        "id": "saha-2026.countryHeader.true",
+        "status": "passed"
+      },
+      {
+        "id": "publicProhibitedPatternsZero",
+        "status": "passed",
+        "filesScanned": 81,
+        "hits": []
+      },
+      {
+        "id": "prohibitedRegexWhitespaceSelfTest",
+        "status": "passed"
+      },
+      {
+        "id": "distAllowlist",
+        "status": "passed",
+        "unexpected": []
+      },
+      {
+        "id": "publicShardsNoPrivateWorkflow",
+        "status": "passed"
+      },
+      {
+        "id": "assetBytesAndPathSetPreserved",
+        "status": "passed",
+        "files": 85,
+        "addedAssets": []
+      },
+      {
+        "id": "distAssetBytesMatchSource",
+        "status": "passed"
+      },
+      {
+        "id": "fiveSavedPDFHashesPreserved",
+        "status": "passed"
+      },
+      {
+        "id": "eventReportTemplateCSSAndCuratedModelUnchanged",
+        "status": "passed"
+      },
+      {
+        "id": "retainedParentBuildComplete",
+        "status": "passed"
+      },
+      {
+        "id": "retainedParentCheck202Pass",
+        "status": "passed"
+      },
+      {
+        "id": "readOnlyMonitoredFilesUnchangedDuringAudit",
+        "status": "passed",
+        "changed": []
+      }
+    ]
+  },
+  "readOnlyProof": {
+    "monitoredRoots": [
+      "scripts",
+      "data",
+      "src/v2",
+      "dist",
+      "assets",
+      "index.html",
+      "package.json"
+    ],
+    "fileCountBefore": 267,
+    "fileCountAfter": 267,
+    "beforeManifestSha256": "0c52ec327eee22e3c99651b593b605acc886c54b171dd516255e5c9a7d4c2530",
+    "afterManifestSha256": "0c52ec327eee22e3c99651b593b605acc886c54b171dd516255e5c9a7d4c2530",
+    "changedFiles": [],
+    "onlyAuditOutputWritten": "docs/evidence/REDESIGN_COMPONENTS_AUDIT_2026-11-16.json"
+  },
+  "limitations": [
+    "The pre-change event snapshots are local untracked files, not independently signed artifacts; their current hashes are recorded for reproducibility.",
+    "Full 202-test run is parent evidence verified from its retained log; this audit deliberately did not rerun it.",
+    "No browser interaction or physical handset validation was performed by this audit. Parent browser verification remains separate.",
+    "No new saved PDF rendering was required or performed; saved hashes and inputs were checked.",
+    "29 authored products lack directly displayable current-event photographs, including all seven newly narrated component products. Link-only references do not increase photograph coverage.",
+    "No deployment, push, commit or history modification performed."
+  ],
+  "stateTransitions": [
+    "planned",
+    "verifying",
+    "completed"
+  ]
+}

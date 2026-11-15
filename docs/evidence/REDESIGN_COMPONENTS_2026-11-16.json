@@ -1,0 +1,228 @@
+{
+  "asOf": "2026-11-16",
+  "status": "verified_local_bundle",
+  "overallGoalStatus": "executing",
+  "baselineCommit": "7c57dda",
+  "scope": "Seven ADEX SME/component narratives plus preservation of source metadata and known company countries.",
+  "totals": {
+    "companies": 3685,
+    "products": 130,
+    "narratives": 53,
+    "sections": 265,
+    "withDirectPhoto": 24,
+    "uniqueDirectPhotos": 29,
+    "photoGaps": 29,
+    "displayEventPhotos": 53
+  },
+  "perEvent": [
+    {
+      "event": "adex-2025",
+      "companies": 375,
+      "products": 94,
+      "narratives": 33,
+      "sections": 165,
+      "withDirectPhoto": 7,
+      "uniqueDirectPhotos": 6,
+      "photoGaps": 26,
+      "displayEventPhotos": 7
+    },
+    {
+      "event": "dsei-2025",
+      "companies": 1743,
+      "products": 9,
+      "narratives": 5,
+      "sections": 25,
+      "withDirectPhoto": 5,
+      "uniqueDirectPhotos": 6,
+      "photoGaps": 0,
+      "displayEventPhotos": 10
+    },
+    {
+      "event": "eurosatory-2026",
+      "companies": 64,
+      "products": 9,
+      "narratives": 5,
+      "sections": 25,
+      "withDirectPhoto": 4,
+      "uniqueDirectPhotos": 4,
+      "photoGaps": 1,
+      "displayEventPhotos": 22
+    },
+    {
+      "event": "idex-2025",
+      "companies": 36,
+      "products": 10,
+      "narratives": 8,
+      "sections": 40,
+      "withDirectPhoto": 8,
+      "uniqueDirectPhotos": 13,
+      "photoGaps": 0,
+      "displayEventPhotos": 14
+    },
+    {
+      "event": "saha-2026",
+      "companies": 1467,
+      "products": 8,
+      "narratives": 2,
+      "sections": 10,
+      "withDirectPhoto": 0,
+      "uniqueDirectPhotos": 0,
+      "photoGaps": 2,
+      "displayEventPhotos": 0
+    }
+  ],
+  "addedProducts": [
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-4ffe152337cf4eb1bae2",
+      "productId": "adex25-fiberpro-fog-ins",
+      "sections": 5,
+      "linkOnlyPhotoIds": [
+        "photo-adex25-fiber-4"
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-4ffe152337cf4eb1bae2",
+      "productId": "adex25-fiberpro-antijam-gnss",
+      "sections": 5,
+      "linkOnlyPhotoIds": [
+        "photo-adex25-fiber-3"
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-4ffe152337cf4eb1bae2",
+      "productId": "adex25-fiberpro-fog",
+      "sections": 5,
+      "linkOnlyPhotoIds": []
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-53dca27d6bb21ebea782",
+      "productId": "adex25-cots-sbc-family",
+      "sections": 5,
+      "linkOnlyPhotoIds": [
+        "photo-adex25-cots-booth"
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-52aa211bb99d6c505361",
+      "productId": "adex25-hkc-crew-helmet",
+      "sections": 5,
+      "linkOnlyPhotoIds": [
+        "adex25-photo-dtaq-03"
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-52aa211bb99d6c505361",
+      "productId": "adex25-hkc-radiation-meter",
+      "sections": 5,
+      "linkOnlyPhotoIds": []
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-1aaf2c2c6edaa0818a73",
+      "productId": "adex25-soosung-bore-cleaner",
+      "sections": 5,
+      "linkOnlyPhotoIds": [
+        "adex25-photo-dtaq-03"
+      ]
+    }
+  ],
+  "changes": [
+    "Added 7 narratives and 35 explanatory sections to existing product identities.",
+    "Preserved reviewed attribution, evidence status and limitations when a source ID already exists as a URL-only record.",
+    "Displayed known company countries in the header without requiring a separate editorial.",
+    "Updated historical protocol boundary to reflect approved local implementation."
+  ],
+  "verification": {
+    "build": {
+      "command": "npm run build",
+      "exitCode": 0,
+      "log": ".local-components-build.log",
+      "sha256": "e4891f73966c8680aecd28b17be5c4fd7097ee09b55bcd8c3e46e3d633e109a8"
+    },
+    "check": {
+      "command": "npm run check",
+      "exitCode": 0,
+      "pass": 202,
+      "fail": 0,
+      "skipped": 0,
+      "log": ".local-components-check.log",
+      "sha256": "d9c24227fadc2c5cca0067ebe821bfd5e6ea5190a3e1e1ffda859f56e5e67262",
+      "lint": "No separate lint script; check runs syntax, schema/data validation and Node tests."
+    }
+  },
+  "independentReview": {
+    "status": "PASS",
+    "scope": "Seven original sources, four photo pixel observations, product/company/photo ownership, general versus event claims and 105MM/K9 boundary.",
+    "codeReview": "Multiline limitation-array deduplication issue was fixed before final build/check.",
+    "audit": "docs/evidence/REDESIGN_COMPONENTS_AUDIT_2026-11-16.json",
+    "auditResult": "PASS",
+    "auditChecks": 1179,
+    "failedAuditChecks": 0,
+    "publicTextFilesScanned": 81,
+    "prohibitedMatches": 0,
+    "preservedAssetFiles": 85,
+    "preservedSavedPdfFiles": 5
+  },
+  "browser": {
+    "status": "PASS",
+    "evidence": "docs/evidence/REDESIGN_COMPONENTS_BROWSER_2026-11-16.json",
+    "products": 7,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "observations": 14,
+    "horizontalOverflow": 0,
+    "topicsPerProduct": 5,
+    "displayImagesInNewProducts": 0,
+    "photoGapLabel": true,
+    "reloadAndProductLink": "Soosung product remains selected after reload and link navigation.",
+    "additionalChecks": [
+      "T90 reviewed source title/publisher/restrictions",
+      "Hanwha/Milrem known countries without company editorial",
+      "Soosung 105MM and K9 distinction in expanded limitations"
+    ],
+    "physicalPhoneTest": false
+  },
+  "photoResearch": {
+    "components": "docs/research-v2/redesign-photo-candidates-components.json",
+    "hanwha": "docs/research-v2/redesign-photo-candidates-hanwha.json",
+    "newImageDownloads": 0,
+    "newDisplayAssets": 0,
+    "narrativeLinkOnlyPhotoIds": 4,
+    "narrativeLinkOnlyProductRelations": 5,
+    "readOnlyGovernmentPdfDownloads": 2,
+    "governmentPdfFinding": "KOGL type 1 shown on both PDFs; all four pages contain no onsite photographs. Permission does not extend to external DTaQ or manufacturer images.",
+    "hanwhaFinding": "Three held government image URLs; target product identification and per-image permission remain unconfirmed."
+  },
+  "reportImpact": {
+    "screen": "Five reports byte-identical markup.",
+    "print": "Four reports byte-identical. DSEI differs only in the source link title attribute; all five are identical after removing title attributes, including visible strings/image URLs/links/layout.",
+    "pdf": "No new saved PDF claimed. Prior validated files retained; content and CSS are unchanged."
+  },
+  "remaining": [
+    "29 narrated products lack directly displayable event photos.",
+    "All relevant companies/products, official event maps and participant verification remain incomplete.",
+    "SAHA event-photo identification and reuse permissions remain missing.",
+    "Physical mobile-device review and final completed-version review remain outstanding."
+  ],
+  "deployment": {
+    "push": false,
+    "merge": false,
+    "publish": false,
+    "firstPublicTarget": "/preview/",
+    "reviewRequired": true
+  }
+}

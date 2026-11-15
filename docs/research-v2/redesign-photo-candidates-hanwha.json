@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-16",
+  "eventId": "adex-2025",
+  "companyGroup": "Hanwha",
+  "status": "bounded_research_complete_with_gaps",
+  "productionIntegrated": false,
+  "scope": "Second bounded search for directly displayable ADEX 2025 Hanwha ground-platform photographs, using three alternative discovery paths. No operating data, image assets or product code is changed.",
+  "plan": {
+    "goal": "Find 1–5 new event/shape/rights-verified photographs, prioritizing existing k9a3 and themis-k records.",
+    "editFiles": [
+      "docs/research-v2/redesign-photo-candidates-hanwha.json"
+    ],
+    "impact": "Research evidence only; image downloads permitted only after an explicit applicable allowance and held under tmp/hanwha-photo-intake/.",
+    "risks": [
+      "Confusing K9 general vehicles with the K9A3 roadmap",
+      "Confusing a Redback-related component or K-NIFV mock-up with an existing Redback product",
+      "Treating a media download button or site footer as photo reuse permission",
+      "Using Seoul Air Base, other-year or overseas photos as KINTEX exhibit evidence"
+    ],
+    "verification": [
+      "Read baseline and existing rights gaps",
+      "Read publisher source and work-specific rights conditions",
+      "Require pixel/identity/date/credit checks for any ready candidate",
+      "Validate JSON/source IDs/product ownership and record zero acquisitions honestly"
+    ]
+  },
+  "baselineReviewed": [
+    "PROJECT_STATE.md",
+    "TASKS.md",
+    "DECISIONS.md",
+    "EVIDENCE.md",
+    "CHANGELOG.md",
+    "docs/research-v2/redesign-content-hanwha.json",
+    "docs/research-v2/redesign-photo-candidates-adex.json",
+    "data/v2/app/events/adex-2025.json"
+  ],
+  "targetProducts": [
+    {
+      "productId": "k9a3",
+      "organizationId": "org-c919e0346aa5a11fd7a0",
+      "name": "K9A3 · 발전 로드맵",
+      "requiredForm": "ADEX 2025 roadmap/display with explicit K9A3 identification. Do not substitute a generic K9 vehicle."
+    },
+    {
+      "productId": "themis-k",
+      "organizationId": "org-f59a1086debbc920179b",
+      "name": "THeMIS-K",
+      "requiredForm": "ADEX 2025 Hanwha/Milrem exhibit; preserve collective identity and distinguish IDEX THeMIS COMBAT."
+    }
+  ],
+  "identityCorrection": {
+    "redback": "No Hanwha Redback product ID exists in the inspected ADEX runtime. adex25-mnc-redback-isu belongs to MNC and describes a Redback-related suspension component; it was not reassigned or treated as a vehicle.",
+    "kNifv": "A new candidate would need its own explicitly identified mock-up/full-size display relation; no Redback or K9A3 substitution is allowed."
+  },
+  "result": {
+    "targetPhotoCount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "qualifiedNewPhotoCount": 0,
+    "heldNewPhotoUrlCount": 3,
+    "downloadedImageCount": 0,
+    "pixelReviewedImageCount": 0,
+    "operatingAssetsAdded": 0,
+    "targetMet": false,
+    "message": "Three newly located government image URLs remain unqualified. No new reusable target photograph was acquired; this is a bounded search result, not a claim that none exists online."
+  },
+  "routes": [
+    {
+      "id": "manufacturer-media-libraries",
+      "status": "no_qualifying_event_photo",
+      "sourceIds": [
+        "hanwha-global-media-assets",
+        "hanwha-global-media-search",
+        "hanwha-global-terms",
+        "hanwha-aerospace-library",
+        "hanwha-aerospace-terms"
+      ],
+      "finding": "ADEX-specific global library search returned no results. Aerospace library offers general brochures/brand files. Detailed terms did not yield a public-reuse exception; existing newsroom photographs remain held."
+    },
+    {
+      "id": "government-kogl",
+      "status": "three_urls_held",
+      "sourceIds": [
+        "mnd-adex25-future-weapons",
+        "mnd-copyright",
+        "mnd-broken-copyright-footer",
+        "dapa-adex25-pavilion",
+        "dapa-copyright"
+      ],
+      "finding": "MND article yielded three image URLs with generic event captions and no work-specific Type 1 mark. DAPA release is a pre-event pavilion announcement without a body photograph."
+    },
+    {
+      "id": "commons-and-official-flickr",
+      "status": "no_target_identified",
+      "sourceIds": [
+        "commons-search-adex25",
+        "commons-search-k9a3",
+        "commons-search-themisk",
+        "flickr-koreanet-adex25",
+        "flickr-kallman-adex25",
+        "flickr-kallman-booths",
+        "flickr-kallman-pavilion"
+      ],
+      "finding": "Commons broader file search found air-show material but no Hanwha ground exhibit. Korea.net source is Seoul Air Base; Kallman albums identify the USA Pavilion and have no target metadata matches. Individual Kallman pixels were not reviewed, and no license/embedding eligibility was assumed."
+    }
+  ],
+  "qualifiedCandidates": [],
+  "heldCandidates": [
+    {
+      "id": "hanwha-followup-mnd-adex25-1",
+      "eventId": "adex-2025",
+      "sourceId": "mnd-adex25-future-weapons",
+      "imageUrl": "https://mnd.go.kr/user/mndEN/innoetc/mndEN1761631071558_b_img.jpg",
+      "originalAlt": "During the business days of Seoul ADEX 2025, held ",
+      "sourceCaptionSummary": "ADEX 2025 business-day visitors touring the KINTEX exhibition halls, October 20–24.",
+      "proposedCaption": null,
+      "companyId": null,
+      "productId": null,
+      "publishedAt": "2025-10-28",
+      "captureDate": null,
+      "captureDateNote": "The caption gives an event interval, not a verified image-specific date.",
+      "htmlDimensions": {
+        "width": 699,
+        "height": 466
+      },
+      "credit": null,
+      "rights": {
+        "status": "image_specific_permission_not_established",
+        "license": null,
+        "sourceId": "mnd-copyright",
+        "reason": "No image/article-specific KOGL Type 1 mark was found. The generic footer logo is insufficient."
+      },
+      "status": "hold_rights_and_identity",
+      "downloaded": false,
+      "pixelReviewed": false,
+      "duplicateStatus": "New source URLs relative to the two reviewed packets; pixel duplication not assessed.",
+      "blockers": [
+        "No applicable photo-specific reuse grant established",
+        "Generic caption does not identify Hanwha or a specific vehicle",
+        "Original pixels, photographer and image-specific date unverified"
+      ]
+    },
+    {
+      "id": "hanwha-followup-mnd-adex25-2",
+      "eventId": "adex-2025",
+      "sourceId": "mnd-adex25-future-weapons",
+      "imageUrl": "https://mnd.go.kr/user/mndEN/innoetc/mndEN1761631088210_b_img.jpg",
+      "originalAlt": "During the business days of Seoul ADEX 2025, held ",
+      "sourceCaptionSummary": "ADEX 2025 business-day visitors touring the KINTEX exhibition halls, October 20–24.",
+      "proposedCaption": null,
+      "companyId": null,
+      "productId": null,
+      "publishedAt": "2025-10-28",
+      "captureDate": null,
+      "captureDateNote": "The caption gives an event interval, not a verified image-specific date.",
+      "htmlDimensions": {
+        "width": 699,
+        "height": 466
+      },
+      "credit": null,
+      "rights": {
+        "status": "image_specific_permission_not_established",
+        "license": null,
+        "sourceId": "mnd-copyright",
+        "reason": "No image/article-specific KOGL Type 1 mark was found. The generic footer logo is insufficient."
+      },
+      "status": "hold_rights_and_identity",
+      "downloaded": false,
+      "pixelReviewed": false,
+      "duplicateStatus": "New source URLs relative to the two reviewed packets; pixel duplication not assessed.",
+      "blockers": [
+        "No applicable photo-specific reuse grant established",
+        "Generic caption does not identify Hanwha or a specific vehicle",
+        "Original pixels, photographer and image-specific date unverified"
+      ]
+    },
+    {
+      "id": "hanwha-followup-mnd-adex25-3",
+      "eventId": "adex-2025",
+      "sourceId": "mnd-adex25-future-weapons",
+      "imageUrl": "https://mnd.go.kr/user/mndEN/innoetc/mndEN1761631104057_b_img.jpg",
+      "originalAlt": "During the business days of Seoul ADEX 2025, held ",
+      "sourceCaptionSummary": "ADEX 2025 business-day visitors touring the KINTEX exhibition halls, October 20–24.",
+      "proposedCaption": null,
+      "companyId": null,
+      "productId": null,
+      "publishedAt": "2025-10-28",
+      "captureDate": null,
+      "captureDateNote": "The caption gives an event interval, not a verified image-specific date.",
+      "htmlDimensions": {
+        "width": 699,
+        "height": 466
+      },
+      "credit": null,
+      "rights": {
+        "status": "image_specific_permission_not_established",
+        "license": null,
+        "sourceId": "mnd-copyright",
+        "reason": "No image/article-specific KOGL Type 1 mark was found. The generic footer logo is insufficient."
+      },
+      "status": "hold_rights_and_identity",
+      "downloaded": false,
+      "pixelReviewed": false,
+      "duplicateStatus": "New source URLs relative to the two reviewed packets; pixel duplication not assessed.",
+      "blockers": [
+        "No applicable photo-specific reuse grant established",
+        "Generic caption does not identify Hanwha or a specific vehicle",
+        "Original pixels, photographer and image-specific date unverified"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "accessedAt": "2026-11-16",
+      "id": "hanwha-global-media-assets",
+      "url": "https://www.hanwha.com/newsroom/media-library/media-assets.do",
+      "title": "Media Library - Media Assets",
+      "publisher": "Hanwha Group",
+      "method": "Official HTML HTTP 200; observed public JSON POST search endpoint and request fields."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "hanwha-global-media-search",
+      "url": "https://www.hanwha.com/newsroom/media-library/search-list-ajax.do",
+      "title": "Media Assets public search response for ADEX",
+      "publisher": "Hanwha Group",
+      "method": "Read-only search POST, HTTP 200. Response: Sorry, no results were found.",
+      "request": {
+        "method": "POST",
+        "contentType": "application/json",
+        "body": {
+          "pageNum": 1,
+          "pageRow": 9,
+          "pageCnt": 5,
+          "searchText": "ADEX",
+          "category": null,
+          "categories": null,
+          "type": null,
+          "types": null
+        }
+      }
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "hanwha-global-terms",
+      "url": "https://www.hanwha.com/terms-conditions.do",
+      "title": "Terms & Conditions",
+      "publisher": "Hanwha Group",
+      "publishedAt": "2024-05-20",
+      "method": "Official HTML HTTP 200; Intellectual Property Information section read.",
+      "finding": "The general terms permit one personal copy and require prior written permission for republication/distribution unless separately authorized. No applicable ADEX media-specific exception was found."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "hanwha-aerospace-library",
+      "url": "https://www.hanwhaaerospace.com/eng/media/library/list.do",
+      "title": "Library",
+      "publisher": "Hanwha Aerospace",
+      "method": "Official HTML HTTP 200. Download links cover company/product brochures, brand signature and fonts. No ADEX 2025 field-photo package identified."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "hanwha-aerospace-terms",
+      "url": "https://www.hanwhaaerospace.com/eng/terms-of-service.do",
+      "title": "Terms of Use",
+      "publisher": "Hanwha Aerospace",
+      "method": "Official HTML HTTP 200; Korean use-restriction text read.",
+      "finding": "Private noncommercial viewing/download permission does not authorize public republication. No applicable event-photo reuse permission was identified."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "mnd-adex25-future-weapons",
+      "url": "https://mnd.go.kr/mndEN/361/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGbW5kRU4lMkY0NzI2MSUyRk9fMzk4MTk0JTJGYXJ0Y2xWaWV3LmRvJTNG",
+      "title": "All Future Weapons on Display at Seoul ADEX 2025",
+      "publisher": "Ministry of National Defense",
+      "publishedAt": "2025-10-28",
+      "method": "Official HTML HTTP 200 via read-only Node fetch after web timeout. Extracted three img src values, generic captions, dimensions and article text.",
+      "finding": "Article describes the KINTEX exhibition and THeMIS-K. Its three image captions do not individually name Hanwha products. Only the global footer KOGL logo was found; no article-level Type 1 reuse mark was located."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "mnd-copyright",
+      "url": "https://www.mnd.go.kr/mnd/345/subview.do",
+      "title": "홈페이지 저작권 보호정책",
+      "publisher": "Ministry of National Defense",
+      "method": "Official HTML HTTP 200 via read-only Node fetch after web access error.",
+      "finding": "The policy directs users to check the KOGL Type 1 mark on the particular work. The global footer is not an image-specific grant. Unmarked material is not promoted to reusable here."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "mnd-broken-copyright-footer",
+      "url": "https://www.mnd.go.kr/mnd/4780/subview.do",
+      "title": "알림메세지",
+      "publisher": "Ministry of National Defense",
+      "method": "The article footer links here. HTTP 200 response states that the menu does not exist. The separately found /345/ policy above was used instead."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "dapa-adex25-pavilion",
+      "url": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?docSeq=57595&menuSeq=3069&bbsSeq=326&currentPageNo=1&recordCountPerPage=10",
+      "title": "통합홍보관, 세계 4대 방산강국 도약의 교두보 마련",
+      "publisher": "Defense Acquisition Program Administration",
+      "publishedAt": "2025-10-16",
+      "method": "Official HTML HTTP 200 after recovering the original link from a public reproduction. The body is a pre-event pavilion announcement with PDF/HWPX attachments and no article image.",
+      "finding": "The K9 mention concerns a block-assembly activity. It is not a K9A3 field-photo identification. No attachment was downloaded or promoted to a photo candidate."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "dapa-copyright",
+      "url": "https://www.dapa.go.kr/dapa/contents.do?menuSeq=3656",
+      "title": "저작권정책",
+      "publisher": "Defense Acquisition Program Administration",
+      "method": "Official policy retrieved via web search.",
+      "finding": "Free reuse is tied to marked works; no Type 1 photograph of the target products was identified in this bounded search."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "commons-search-adex25",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=%22ADEX%202025%22&srnamespace=6&srlimit=30&format=json",
+      "title": "Commons file search: ADEX 2025",
+      "publisher": "Wikimedia Commons",
+      "method": "Public API HTTP 200, 17 file results inspected by titles and descriptions. This expands beyond the category-only search in the previous packet.",
+      "finding": "Fifteen Seoul Air Base/US military air-show files, one KF-21 image and one LAH video; none identifies the requested Hanwha ground exhibit."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "commons-search-k9a3",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=intitle%3AK9A3&srnamespace=6&srlimit=30&format=json",
+      "title": "Commons file-title search: K9A3",
+      "publisher": "Wikimedia Commons",
+      "method": "Public API HTTP 200, totalhits 0."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "commons-search-themisk",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=%22THeMIS-K%22&srnamespace=6&srlimit=30&format=json",
+      "title": "Commons file search: THeMIS-K",
+      "publisher": "Wikimedia Commons",
+      "method": "Public API HTTP 200, three unrelated historical scanned documents returned; zero identifiable vehicle results."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "flickr-koreanet-adex25",
+      "url": "https://www.flickr.com/photos/koreanet/54860217221",
+      "title": "Seoul ADEX 2025",
+      "publisher": "KOREA.NET / Republic of Korea official account",
+      "publishedAt": "2025-10-17",
+      "method": "Photo description and usage text read via web.",
+      "finding": "Explicit news/public-purpose conditions require attribution and restrict modifications. This record is dated October 17 at Seoul Air Base, not evidence for the KINTEX Hanwha target. Not accepted merely because it is official."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "flickr-kallman-adex25",
+      "url": "https://www.flickr.com/photos/kallman_worldwide/collections/72157724468953047/",
+      "title": "Seoul ADEX 2025 collection",
+      "publisher": "Kallman Worldwide",
+      "method": "Public collection read: USA Partnership Pavilion; two linked albums."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "flickr-kallman-booths",
+      "url": "https://www.flickr.com/photos/kallman_worldwide/sets/72177720330252319/",
+      "title": "Booths & Builds - Seoul ADEX 2025",
+      "publisher": "Kallman Worldwide",
+      "method": "Public HTML HTTP 200; 23-photo album. Titles are generic booth/build labels; no Hanwha, K9A3, THeMIS, K-NIFV or Redback metadata match found.",
+      "finding": "No target product was identified. Individual pixels and provider-embed eligibility were not verified, so this is a discovery lead only."
+    },
+    {
+      "accessedAt": "2026-11-16",
+      "id": "flickr-kallman-pavilion",
+      "url": "https://www.flickr.com/photos/kallman_worldwide/sets/72177720329873021/",
+      "title": "USA Partnership Pavilion at Seoul ADEX 2025",
+      "publisher": "Kallman Worldwide",
+      "method": "Public HTML HTTP 200; collection labels 36 photos. No Hanwha target-product metadata match found.",
+      "finding": "No target product was identified. Public album availability is not a download/republication license; provider-embed eligibility was not established for a qualifying image."
+    }
+  ],
+  "notRepeated": [
+    "No re-download of existing Hanwha newsroom candidates",
+    "No repeated generic Hanwha footer check used as the finding; detailed media library and terms were checked",
+    "No substitution with KADEX 2024, ADEX 2023, overseas exhibits or general product imagery"
+  ],
+  "limitations": [
+    "No candidate passed both image-specific rights and target identity gates, therefore no photo was downloaded or pixel-reviewed.",
+    "Kallman album metadata review does not establish the absence of Hanwha equipment in every background; it yielded no qualifying target image.",
+    "Search results and available public pages are not an exhaustive internet or manufacturer archive audit.",
+    "The previously recorded K9A3 roadmap and THeMIS-K direct-photo gaps remain.",
+    "No messages, rights inquiries, account registrations or publishing actions were performed."
+  ],
+  "evidence": {
+    "stateTransitions": [
+      "planned",
+      "executing",
+      "verifying",
+      "completed"
+    ],
+    "completionScope": "Bounded research packet complete; 1–5 ready-photo objective unmet.",
+    "networkMethod": "web source retrieval plus approved read-only Node fetch; public search POST only, no account or communication writes.",
+    "newImageDownloads": 0,
+    "productCodeChanged": false,
+    "operatingDataChanged": false,
+    "assetBytesChanged": false,
+    "validationCommand": "Node JSON parse/assert: three routes, 17 sources, three unique held URLs, reference IDs, existing product/company ownership and zero ready/download counts.",
+    "validationResult": "PASS: all assertions; no ready candidate, image download, pixel review or production change claimed.",
+    "buildTestLint": "Not applicable to a research-only JSON; no product behavior or build inputs changed."
+  }
+}

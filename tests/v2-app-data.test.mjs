@@ -160,6 +160,26 @@ test('optional product narratives enrich only an existing product and its own ev
   assert.ok(adex.products.every(product=>!product.narrative),'compiler must not mutate shared input');
 });
 
+test('reviewed source metadata enriches a legacy URL without losing restrictions or mutating inputs',()=>{
+  const narrative=narrativeFixture(),reviewed=narrative.sources[0];
+  reviewed.limitations=['전시 발표이며 납품 완료 근거가 아니다.\r\n사진만으로 성능을 확인하지 않는다.'];
+  narrative.sources.push(structuredClone(reviewed),structuredClone(reviewed));
+  reviewed.independence='primary_single_origin';
+  const legacy={id:reviewed.id,url:reviewed.url,title:reviewed.url,publisher:null,publishedAt:null,limitations:'기존 사진의 형상 식별은 미확인이다.'};
+  const input={...publicData,sources:[...publicData.sources,legacy]},before=structuredClone(input);
+  const event=withNarratives([narrative],{publicData:input}).events[adex.event.id];
+  const source=event.sources.find(source=>source.id===reviewed.id);
+  assert.equal(source.title,reviewed.title);assert.equal(source.publisher,reviewed.publisher);
+  assert.equal(source.publishedAt,reviewed.publishedAt);assert.equal(source.evidenceStatus,'single_source');
+  assert.deepEqual(source.note.split('\n'),[legacy.limitations,'전시 발표이며 납품 완료 근거가 아니다.','사진만으로 성능을 확인하지 않는다.']);
+  assert.deepEqual(input,before);
+  legacy.title='기존 원문 제목';legacy.publisher='기존 발행자';
+  const retained=withNarratives([narrative],{publicData:input}).events[adex.event.id].sources.find(source=>source.id===reviewed.id);
+  assert.equal(retained.title,legacy.title);assert.equal(retained.publisher,legacy.publisher);
+  reviewed.url='https://example.org/different-document';
+  assert.throws(()=>withNarratives([narrative],{publicData:input}),/source ID points to two URLs/);
+});
+
 test('product narratives reject invented products, wrong companies, unknown editions and duplicate records',()=>{
   const narrative=narrativeFixture();
   assert.throws(()=>withNarratives([{...narrative,productId:'invented-product'}]),/does not belong/);
@@ -324,8 +344,12 @@ test('Patria event photos do not promote existing references, attendance or rese
 test('Patria source limitations and report-only notes survive compilation into the public evidence panel',()=>{
   for(const source of patriaResearch.cases[0].sources){
     const compiled=patriaEvent.sources.find(item=>item.id===source.id);
-    assert.equal(compiled.note,source.limitations);
+    assert.ok(compiled.note.includes(source.limitations),source.id);
     assert.equal(compiled.evidenceStatus,'single_source');
+  }
+  for(const narrative of patriaNarratives.narratives)for(const source of narrative.sources){
+    const compiled=patriaEvent.sources.find(item=>item.id===source.id);
+    if(source.limitations)assert.ok(compiled.note.includes(source.limitations),source.id+' narrative limitation');
   }
   for(const id of ['dsei23-patria-report','dsei25-patria-teaming-report']){
     const source=patriaReport.sources.find(item=>item.id===id);

@@ -183,3 +183,18 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 - `tests/v2-report.test.mjs`
 
 로컬 구현 커밋: 16e7e691f232eeee7951c15ef0ae4ea274aea57d 및 49d846d0b80c6247db7bb3003c1ea008a874c9bd. 독립103검사, 기존보고5개 화면/인쇄마크업과최종PDF해시불변, 기존사진85자산바이트보존 확인. Git diff --cached --check 통과. 후속 인계 문서 커밋은 코드 변경 없이 구현 저장점을 기록한다.
+
+## 2026-11-16 구성품 설명·출처 보강
+
+- `node scripts/prepare-redesign-content.mjs`: 53 narratives / 265 sections / 5 reports.
+- `npm run build`: exit 0, `.local-components-build.log`.
+- `npm run check`: exit 0, 202 pass / 0 fail / 0 skip, `.local-components-check.log`. 별도 lint 명령은 없으며 check에 문법/스키마/데이터 검사 포함. 로그 SHA256은 REDESIGN_COMPONENTS_2026-11-16.json에 기록.
+- 초기 출처 수정의 Patria 기대 문자열 검사 실패는 이전+새 제약 보존을 모두 검증하도록 수정했고, 52개 표적 검사 및 최종202검사를 통과했다. 여러 줄 배열 제약의 중복 문제를 수정하고 3회 병합 회귀검사를 추가했다.
+- 독립검토: 새7제품 원문7개/사진4개·일반자료 구분·소유관계·105MM/K9 구분 PASS.
+- 브라우저: 7제품 × 1440/390 폭, 설명5항목·미확보표시·넘침0. 수성 링크/새로고침, 출처 메타데이터, 한화/밀렘 국가 표시 확인. 실제 휴대폰 검증 아님.
+- 증거: docs/evidence/REDESIGN_COMPONENTS_2026-11-16.json, REDESIGN_COMPONENTS_BROWSER_2026-11-16.json, REDESIGN_SOURCE_METADATA_2026-11-16.json 및 fiberpro-desktop/soosung-mobile 캡처. 독립 공개/회귀 감사는 REDESIGN_COMPONENTS_AUDIT_2026-11-16.json 참조.
+- 사진 연구: 새 이미지0, 직접 사진24제품/29고유자산 유지, 서술사진공백29제품. 정부PDF2개 다운로드는 읽기 검토용이며 사진 자산이 아니다.
+- PDF: 5보고 화면 동일, 인쇄 DSEI 툴팁만 변경; 기존5PDF 유지. 공개 push/merge/deploy 없음.
+- 남은 위험: 사진 권리·개별 모델·전체 관련 범위·공식 지도/명단·실기기 검증 미완료.
+
+최종 독립 감사: 1,179개 비교 항목 PASS(전체202테스트 재실행과 구분), 공개81파일 금지문구0, 기존85자산 바이트·5PDF 해시 보존. 업체/제품ID·참석상태·사진원장·지도정보 보존. 증거 REDESIGN_COMPONENTS_AUDIT_2026-11-16.json. 문서 EOF 공백2건을 정리한 뒤 git diff --check exit 0 확인.

@@ -27,27 +27,27 @@
     "public_cleanup": "implemented_current_sources_and_generators_final_audit_recorded_separately",
     "deployment_authorized": false,
     "pushed_this_work": false,
-    "final_status_note": "6개 제품 서술을 추가 통합하여 46개 서술·230개 설명 항목·5개 종합보고를 연결했다. 이번 묶음 build/check 201/201과 1440×1000·390×844 브라우저 검증이 통과했다. 보고·PDF는 변경하지 않아 B03 완료 범위를 유지하며 B02·B04와 전체 자료 목표는 진행 중이다.",
+    "final_status_note": "ADEX 구성품·중소업체 7개 장비를 추가해 53개 서술·265항목·5보고를 연결했다. build/check 202/202, 독립 내용 검토 7개, 1440×1000·390×844 브라우저 검증 모두 통과했다. B02·B04 및 전체 자료 목표는 진행 중이다.",
     "implementation_plan": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
     "ui_direction_approved": true,
     "first_publication_target": "preview_only",
     "last_checks": {
       "build": "passed",
       "check": "passed",
-      "tests": 201,
-      "passed": 201,
+      "tests": 202,
+      "passed": 202,
       "failed": 0,
       "skipped": 0,
-      "scope": "6개 제품 서술 통합과 기존 사진 10개 연결을 포함한 실행. 브라우저 검증 범위와 결과는 browser_verification에 별도로 기록했다.",
-      "build_log": ".local-photo-coverage-build.log",
-      "check_log": ".local-photo-coverage-check.log",
+      "scope": "구성품·중소업체 7개 서술, 출처 메타데이터 보존, 업체 국가 헤더를 포함한다.",
+      "build_log": ".local-components-build.log",
+      "check_log": ".local-components-check.log",
       "latest_copy_revision_recheck": "passed"
     },
     "implementation_commit": "49d846d0b80c6247db7bb3003c1ea008a874c9bd",
     "local_only": true,
-    "head_commit": "49d846d0b80c6247db7bb3003c1ea008a874c9bd",
-    "working_changes": false,
-    "implementation_commit_note": "46개 서술/230항목 구현 저장점. 직전40개/5보고/PDF 묶음은16e7e691f232eeee7951c15ef0ae4ea274aea57d. 이 필드는 후속 인계 문서 커밋의 자기SHA가 아니라 검증한 구현 커밋을 기록한다.",
+    "head_commit": "7c57ddaf2abfe54cd0007cbabcd67c20bbbc77b7",
+    "working_changes": true,
+    "implementation_commit_note": "implementation_commit은 직전 46개 서술 구현 저장점이다. 현재 53개 서술·265항목 묶음은 확인한 HEAD 이후 작업 중 변경이며 새 구현 커밋으로 표시하지 않는다.",
     "task_states": {
       "B02": "executing",
       "B03": "completed",
@@ -57,27 +57,37 @@
       "event_editions": 5,
       "company_labels": 3685,
       "product_service_records": 130,
-      "product_narratives": 46,
-      "narrative_fields": 230,
+      "product_narratives": 53,
+      "narrative_fields": 265,
       "event_reports": 5,
-      "counting_note": "업체 명칭·제품 기록 수는 실제 참가·실물 전시·독립 검증 완료 수가 아니다. 이전 미통합 6개 제품 서술은 이번에 연결하여 현재 서술 수에 포함했다."
+      "counting_note": "7개 구성품·중소업체 장비를 추가 통합했다. 명칭·제품 기록 수는 실제 참가·실물 전시·독립 검증 완료 수가 아니다."
     },
     "photo_changes": {
-      "batch": "40개 서술 저장점 이후 46개 서술 묶음",
+      "batch": "46개 서술 저장점 이후 53개 서술 묶음",
       "new_local_assets": 0,
       "new_downloads": 0,
-      "existing_photo_records_linked": 10,
-      "includes": "기존 HAVOC 사진 2개 연결 포함",
-      "limits": "새 사진 확보로 집계하지 않는다. 이전 6×6 형상 구분과 일반 참고사진·해당 회차 사진의 구분, 출처별 제약을 유지한다.",
+      "link_only_unique_photos": 4,
+      "link_only_photo_assignments": 5,
+      "review_attachment_downloads": 2,
+      "review_attachment_note": "정부 PDF 문서 2개는 원문 검토용이며 사진 다운로드로 세지 않는다.",
+      "limits": "두 PDF의 공공누리 제1유형은 확인했으나 현장 사진 0이다. 문서 밖 사진의 허용으로 확대하지 않는다.",
       "previous_batch": {
-        "scope": "직전 40개 서술 묶음",
-        "new_local_assets": 4,
-        "new_asset_scope": "Patria DSEI 2025 현장사진 4장",
-        "existing_photo_links_added": [
-          "Cockerill i-X",
-          "GDAMS"
-        ],
-        "limits": "기존 6×6 ID, Babcock 표기형과 C4 표지형, 일반 참고사진 구분을 유지한다. 사진 확보로 참석·심층 조사 완료를 일괄 확정하지 않는다."
+        "batch": "40개 서술 저장점 이후 46개 서술 묶음",
+        "new_local_assets": 0,
+        "new_downloads": 0,
+        "existing_photo_records_linked": 10,
+        "includes": "기존 HAVOC 사진 2개 연결 포함",
+        "limits": "새 사진 확보로 집계하지 않는다. 이전 6×6 형상 구분과 일반 참고사진·해당 회차 사진의 구분, 출처별 제약을 유지한다.",
+        "previous_batch": {
+          "scope": "직전 40개 서술 묶음",
+          "new_local_assets": 4,
+          "new_asset_scope": "Patria DSEI 2025 현장사진 4장",
+          "existing_photo_links_added": [
+            "Cockerill i-X",
+            "GDAMS"
+          ],
+          "limits": "기존 6×6 ID, Babcock 표기형과 C4 표지형, 일반 참고사진 구분을 유지한다. 사진 확보로 참석·심층 조사 완료를 일괄 확정하지 않는다."
+        }
       }
     },
     "saved_pdf": {
@@ -115,6 +125,14 @@
         "dsei-2025": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1",
         "idex-2025": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501",
         "saha-2026": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91"
+      },
+      "current_batch_effect": {
+        "regeneration_required": false,
+        "body_unchanged": true,
+        "images_unchanged": true,
+        "hrefs_unchanged": true,
+        "layout_unchanged": true,
+        "change": "DSEI 출처 링크 도움말만 변경. 기존 최종 PDF 5개 검증 범위 유지."
       }
     },
     "unintegrated_drafts": [],
@@ -122,19 +140,20 @@
     "task_completion_scope": {
       "B03": "5개 종합보고의 화면·실제 저장 PDF 검증 범위에 한정한다. 전체 조사·사진 보강·실제 휴대폰·공개 배포 완료를 뜻하지 않는다.",
       "B04": "자료 조사와 사진·서술 보강을 계속한다.",
-      "B02": "장비별 설명·사진 보강을 계속한다. 이번 6개 제품 묶음의 브라우저 검증은 통과했으나 전체 자료 목표는 완료하지 않았다."
+      "B02": "장비별 설명·사진 보강을 계속한다. 이번 7개 제품의 코드·내용·브라우저 검증은 통과했지만 전체 자료 목표는 미완료다."
     },
     "photo_coverage": {
-      "scope": "앱에 서술이 연결된 46개 제품 기준",
+      "scope": "앱에 서술이 연결된 53개 제품 기준",
       "products_with_displayable_event_photos": 24,
       "unique_event_photo_records": 29,
-      "products_without_displayable_event_photos": 22,
-      "note": "제품별 사진 연결 범위이며 종합보고의 표시 사진 수와 구분한다."
+      "products_without_displayable_event_photos": 29,
+      "note": "제품별 사진 연결 범위이며 종합보고의 표시 사진 수와 구분한다.",
+      "all_app_displayable_event_photo_records": 53
     },
     "browser_verification": {
       "status": "passed",
-      "scope": "이번 6개 제품 서술·사진 묶음과 관련 갤러리·자료 구분",
-      "evidence": "docs/evidence/REDESIGN_PHOTO_COVERAGE_BROWSER_2026-11-16.json",
+      "scope": "이번 구성품·중소업체 7개 제품 및 출처 메타데이터·업체 국가 표시",
+      "evidence": "docs/evidence/REDESIGN_COMPONENTS_BROWSER_2026-11-16.json",
       "viewports": [
         {
           "width": 1440,
@@ -147,17 +166,19 @@
           "documentWidth": 375
         }
       ],
-      "products_checked": 6,
-      "displayable_photos_loaded": 8,
+      "products_checked": 7,
+      "topics_per_product": 5,
+      "displayable_photos_loaded": 0,
+      "photo_unavailable_labels_verified": true,
       "horizontal_overflow": false,
       "physical_phone_verified": false,
       "interactions": [
-        "ACV 2/2 사진 확대",
-        "THeMIS 주소 새로고침 후 활성 제품 유지와 원본 흐림 고지",
-        "HAVOC 2/3→3/3 순환 및 다른 THeMIS 사진 배제",
-        "T-90MS 개발·전략 해석의 근거 미확보와 ROE 일반 자료 목록 구분"
+        "수성 제품 링크·새로고침 후 선택 유지",
+        "105MM 전시형과 K9 패키지 검토 설명의 구분",
+        "T-90MS 출처 메타데이터",
+        "Hanwha·Milrem 업체 국가 헤더"
       ],
-      "note": "데스크톱 브라우저와 모바일 폭에서 확인한 결과다. 실제 휴대폰 검증은 아니며 이전 5개 보고 화면·PDF 검증과 범위를 구분한다."
+      "note": "데스크톱 브라우저와 모바일 폭 검증이며 실제 휴대폰 검증이 아니다. 직접 표시 사진이 없는 상태를 검증했다."
     },
     "integrated_drafts": [
       {
@@ -166,6 +187,13 @@
         "status": "integrated_browser_verified",
         "next": "통합과 이번 브라우저 검증을 완료했다. 새로운 자료 변경 시 해당 범위를 다시 검증한다.",
         "previous_status": "not_integrated",
+        "integrated_at": "2026-11-16"
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "product_narratives": 7,
+        "status": "integrated_browser_verified",
+        "next": "새 근거가 확보되면 사진·내용을 보강하고 해당 변경 범위를 검증한다.",
         "integrated_at": "2026-11-16"
       }
     ],
@@ -176,7 +204,99 @@
       "status": "bounded_research_completed_with_gaps",
       "note": "Commons·Flickr 공개 또는 임베드 경로와 주최사 자료를 확인했으나 표시 준비를 마친 2026 사진은 없다. 2024 사진을 현재 회차로 승격하지 않는다."
     },
-    "evidence": "docs/evidence/REDESIGN_PHOTO_COVERAGE_2026-11-16.json"
+    "evidence": "docs/evidence/REDESIGN_COMPONENTS_2026-11-16.json",
+    "previous_implementation_batches": [
+      {
+        "label": "46개 서술·230항목 묶음",
+        "implementation_commit": "49d846d0b80c6247db7bb3003c1ea008a874c9bd",
+        "content": {
+          "event_editions": 5,
+          "company_labels": 3685,
+          "product_service_records": 130,
+          "product_narratives": 46,
+          "narrative_fields": 230,
+          "event_reports": 5,
+          "counting_note": "업체 명칭·제품 기록 수는 실제 참가·실물 전시·독립 검증 완료 수가 아니다. 이전 미통합 6개 제품 서술은 이번에 연결하여 현재 서술 수에 포함했다."
+        },
+        "last_checks": {
+          "build": "passed",
+          "check": "passed",
+          "tests": 201,
+          "passed": 201,
+          "failed": 0,
+          "skipped": 0,
+          "scope": "6개 제품 서술 통합과 기존 사진 10개 연결을 포함한 실행. 브라우저 검증 범위와 결과는 browser_verification에 별도로 기록했다.",
+          "build_log": ".local-photo-coverage-build.log",
+          "check_log": ".local-photo-coverage-check.log",
+          "latest_copy_revision_recheck": "passed"
+        },
+        "browser_verification": {
+          "status": "passed",
+          "scope": "이번 6개 제품 서술·사진 묶음과 관련 갤러리·자료 구분",
+          "evidence": "docs/evidence/REDESIGN_PHOTO_COVERAGE_BROWSER_2026-11-16.json",
+          "viewports": [
+            {
+              "width": 1440,
+              "height": 1000,
+              "documentWidth": 1425
+            },
+            {
+              "width": 390,
+              "height": 844,
+              "documentWidth": 375
+            }
+          ],
+          "products_checked": 6,
+          "displayable_photos_loaded": 8,
+          "horizontal_overflow": false,
+          "physical_phone_verified": false,
+          "interactions": [
+            "ACV 2/2 사진 확대",
+            "THeMIS 주소 새로고침 후 활성 제품 유지와 원본 흐림 고지",
+            "HAVOC 2/3→3/3 순환 및 다른 THeMIS 사진 배제",
+            "T-90MS 개발·전략 해석의 근거 미확보와 ROE 일반 자료 목록 구분"
+          ],
+          "note": "데스크톱 브라우저와 모바일 폭에서 확인한 결과다. 실제 휴대폰 검증은 아니며 이전 5개 보고 화면·PDF 검증과 범위를 구분한다."
+        },
+        "photo_changes": {
+          "batch": "40개 서술 저장점 이후 46개 서술 묶음",
+          "new_local_assets": 0,
+          "new_downloads": 0,
+          "existing_photo_records_linked": 10,
+          "includes": "기존 HAVOC 사진 2개 연결 포함",
+          "limits": "새 사진 확보로 집계하지 않는다. 이전 6×6 형상 구분과 일반 참고사진·해당 회차 사진의 구분, 출처별 제약을 유지한다.",
+          "previous_batch": {
+            "scope": "직전 40개 서술 묶음",
+            "new_local_assets": 4,
+            "new_asset_scope": "Patria DSEI 2025 현장사진 4장",
+            "existing_photo_links_added": [
+              "Cockerill i-X",
+              "GDAMS"
+            ],
+            "limits": "기존 6×6 ID, Babcock 표기형과 C4 표지형, 일반 참고사진 구분을 유지한다. 사진 확보로 참석·심층 조사 완료를 일괄 확정하지 않는다."
+          }
+        },
+        "evidence": "docs/evidence/REDESIGN_PHOTO_COVERAGE_2026-11-16.json"
+      }
+    ],
+    "independent_content_review": {
+      "status": "passed",
+      "products_reviewed": 7,
+      "scope": "이번 구성품·중소업체 7개 서술",
+      "reported_by": "상위 작업자",
+      "evidence": "docs/evidence/REDESIGN_COMPONENTS_2026-11-16.json"
+    },
+    "components_photo_followup": {
+      "evidence": "docs/research-v2/redesign-photo-candidates-components.json",
+      "ready": 0,
+      "new_image_downloads": 0,
+      "review_attachment_downloads": 2,
+      "reviewed_pdf_pages": 4,
+      "documents_with_kogl_type1": 2,
+      "event_photos_in_attachments": 0,
+      "note": "첨부 문서의 허용을 문서 밖 사진에 적용하지 않는다. 초기 HTML 조사와 후속 PDF 검토를 구분한다."
+    },
+    "current_evidence_note": "종합 증거와 build/check 로그, 별도 브라우저 검증 기록을 연결했다. 모두 이번 53개 서술 묶음의 로컬 검증이며 공개 반영은 하지 않았다."
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",

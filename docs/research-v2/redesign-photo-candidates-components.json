@@ -1,0 +1,711 @@
+{
+  "schemaVersion": 1,
+  "eventId": "adex-2025",
+  "asOf": "2026-11-16",
+  "title": "ADEX 2025 구성품·중소업체 현장사진 재사용 조건 재확인",
+  "status": "completed",
+  "completionScope": "4기관의 공개 원문·이용 안내를 확인한 제한 조사만 완료. 사진 확보 및 전체 조사 완료를 뜻하지 않는다.",
+  "summary": {
+    "readyPhotoCount": 0,
+    "newDownloadCount": 0,
+    "newDisplayAssetCount": 0,
+    "existingLinkOnlyPhotoCount": 10,
+    "primaryInstitutionsChecked": [
+      "국방기술품질원(DTaQ)",
+      "방위사업청(DAPA)",
+      "FIBERPRO",
+      "CMTECHRON"
+    ],
+    "conclusion": "해당 사진에 적용되는 명시적 재사용 허용을 확인하지 못했다. 기존 link-only 상태를 유지한다.",
+    "recordScope": "최초 HTML·공식 갤러리 조사 기록. 이후 첨부 2개 검토 결과는 currentResult 및 attachmentReviewFollowup을 따른다."
+  },
+  "plan": {
+    "goal": "DTaQ의 수성 포구 청소기·HKC 승무원 헬멧 사진을 우선으로 같은 회차의 직접 표시 가능 경로를 찾는다.",
+    "files": [
+      "docs/research-v2/redesign-photo-candidates-components.json"
+    ],
+    "impact": "조사 기록만 추가. 운영 데이터·표시 자산·기존 보고·인계 문서 변경 없음.",
+    "risk": "정부기관의 공개 게시나 다운로드 링크를 사진 재사용 허용으로 오인하거나 행사 연도·구성품을 오연결할 수 있음.",
+    "verification": "공식 HTML의 제목·게시일·사진 URL·권리 표기를 대조하고 JSON 구조·기존 사진 및 제품 ID를 검사한다. ready 사진에 한해 다운로드·픽셀·크기·해시를 검증한다."
+  },
+  "candidates": [
+    {
+      "id": "adex25-components-dtaq-dq-display",
+      "publisher": "국방기술품질원",
+      "companyIds": [
+        "org-1aaf2c2c6edaa0818a73",
+        "org-52aa211bb99d6c505361"
+      ],
+      "productIds": [
+        "adex25-soosung-bore-cleaner",
+        "adex25-hkc-crew-helmet"
+      ],
+      "sourceIds": [
+        "components-dtaq-adex25",
+        "components-dtaq-home"
+      ],
+      "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+      "publishedAt": "2025-11-10",
+      "eventIdentity": "본문이 서울 ADEX 2025, 킨텍스, 10월 20~24일을 특정하고 두 제품의 전시를 서술한다. 촬영일은 미기재.",
+      "productIdentityLimitation": "기존 픽셀 검수 기록을 참조했다. 전시 표지의 SOOSUNG DEFENSE INDUSTRIES를 수성정밀기계의 법인명 변경 근거로 쓰지 않는다. HKC 방사능 측정기 사진으로 확대 연결하지 않는다.",
+      "rights": {
+        "status": "link-only",
+        "license": null,
+        "licenseUrl": null,
+        "shortQuote": "Copyright© DTaQ All Right Reserved.",
+        "finding": "기사의 사진 주변과 푸터에 공공누리·재사용 허용 조건이 없다. DTaQ 본원 홈페이지에도 해당 미디어룸 사진까지 포괄하는 허용 안내를 찾지 못했다. DAPA 정책을 다른 기관 사진에 전이하지 않는다."
+      },
+      "photos": [
+        {
+          "existingPhotoId": "adex25-photo-dtaq-01",
+          "imageUrl": "https://dtaq-media.kr/image/asset/a05950017fb18cd16cc1ffac9df777dda9188dcd06c56cb40221cb532ef67595",
+          "caption": "ADEX 2025 DQ마크 전시대 전경 — 왼쪽의 수성 포구 청소기와 HKC 승무원 헬멧",
+          "productIds": [
+            "adex25-soosung-bore-cleaner",
+            "adex25-hkc-crew-helmet"
+          ],
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "실제 픽셀과 2025년 현장 기사 문맥을 확인했습니다. 촬영일 미기재; sourceDate는 게시일입니다.",
+            "basisFile": "data/v2/research/adex-2025/pavilion-components.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        },
+        {
+          "existingPhotoId": "adex25-photo-dtaq-02",
+          "imageUrl": "https://dtaq-media.kr/image/asset/129479bb76256f343ea3243fe74c4c5635df2c15815bafd12b78ace904c4d3c6",
+          "caption": "ADEX 2025 DQ마크 전시대 사선 시점 — 포구 청소기·승무원 헬멧과 관람객",
+          "productIds": [
+            "adex25-soosung-bore-cleaner",
+            "adex25-hkc-crew-helmet"
+          ],
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "실제 픽셀과 2025년 현장 기사 문맥을 확인했습니다. 촬영일 미기재; sourceDate는 게시일입니다.",
+            "basisFile": "data/v2/research/adex-2025/pavilion-components.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        },
+        {
+          "existingPhotoId": "adex25-photo-dtaq-03",
+          "imageUrl": "https://dtaq-media.kr/image/asset/d76d33d782645c8c5398bd6fbf30e4c239298aa92453ae3dcecd1527868c04b0",
+          "caption": "ADEX 2025 수성 포구 자동청소기와 뒤쪽 HKC 승무원 헬멧",
+          "productIds": [
+            "adex25-soosung-bore-cleaner",
+            "adex25-hkc-crew-helmet"
+          ],
+          "credit": "국방기술품질원 미디어룸 / 촬영자 미기재",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "실제 픽셀과 2025년 현장 기사 문맥을 확인했습니다. 촬영일 미기재; sourceDate는 게시일입니다. 전시 표지의 SOOSUNG DEFENSE INDUSTRIES는 법인명 변경 근거로 사용하지 않습니다.",
+            "basisFile": "data/v2/research/adex-2025/pavilion-components.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        }
+      ],
+      "retryCondition": "동일 이미지에 적용되는 DTaQ의 공공누리 유형 또는 명시적 웹 재게시 허용 원문이 공개되면 원본 다운로드 후 픽셀·크기·해시를 검증한다."
+    },
+    {
+      "id": "adex25-components-fiberpro",
+      "publisher": "FIBERPRO",
+      "companyIds": [
+        "org-4ffe152337cf4eb1bae2"
+      ],
+      "productIds": [
+        "adex25-fiberpro-fog-ins",
+        "adex25-fiberpro-antijam-gnss",
+        "adex25-fiberpro-fog"
+      ],
+      "sourceIds": [
+        "components-fiberpro-adex25"
+      ],
+      "sourceUrl": "https://fiberpro.co.kr/gallery/seoul-adex-2025/?page=2",
+      "publishedAt": "2025-10-20",
+      "eventIdentity": "공식 갤러리가 Seoul ADEX 2025, KINTEX 제2전시장, 2025-10-20~24를 명시한다.",
+      "productIdentityLimitation": "기존 검수에서 읽힌 진열장 분류와 공식 목록만 유지한다. 개별 모델·세부 형상은 확정하지 않는다. 사진 1·2는 업체 전경이다.",
+      "rights": {
+        "status": "link-only",
+        "license": null,
+        "licenseUrl": null,
+        "shortQuote": "Copyright＠FIBERPRO, Inc. All Rights Reserved",
+        "finding": "갤러리 원문과 공개 안내 링크에서 사진 재게시 허용을 찾지 못했다. 검색에서 추가 이용 안내를 발견하지 못한 사실이 권리 자체의 부재를 입증하지는 않는다."
+      },
+      "photos": [
+        {
+          "existingPhotoId": "photo-adex25-fiber-1",
+          "imageUrl": "https://fiberpro.co.kr/data/editor/2510/thumb-b482259f99af7c8042f9cdef50e8d68d_1760923486_2146_600x498.jpg",
+          "caption": "파이버프로 ADEX 2025 부스 전경",
+          "productIds": [],
+          "credit": "파이버프로 제공·개별 촬영자 미표기",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "실제 사진을 시각 확인했습니다. 진열장 분류는 읽히지만 개별 모델 표찰은 확정하지 않았습니다.",
+            "basisFile": "data/v2/research/adex-2025/small-systems.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        },
+        {
+          "existingPhotoId": "photo-adex25-fiber-2",
+          "imageUrl": "https://fiberpro.co.kr/data/editor/2510/thumb-b482259f99af7c8042f9cdef50e8d68d_1760923491_4617_600x800.jpg",
+          "caption": "파이버프로 ADEX 2025 부스 정면",
+          "productIds": [],
+          "credit": "파이버프로 제공·개별 촬영자 미표기",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "실제 사진을 시각 확인했습니다. 진열장 분류는 읽히지만 개별 모델 표찰은 확정하지 않았습니다.",
+            "basisFile": "data/v2/research/adex-2025/small-systems.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        },
+        {
+          "existingPhotoId": "photo-adex25-fiber-3",
+          "imageUrl": "https://fiberpro.co.kr/data/editor/2510/thumb-b482259f99af7c8042f9cdef50e8d68d_1760923496_9087_600x778.jpg",
+          "caption": "ADEX 2025 항재밍 GNSS 솔루션 진열장",
+          "productIds": [
+            "adex25-fiberpro-antijam-gnss"
+          ],
+          "credit": "파이버프로 제공·개별 촬영자 미표기",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "실제 사진을 시각 확인했습니다. 진열장 분류는 읽히지만 개별 모델 표찰은 확정하지 않았습니다.",
+            "basisFile": "data/v2/research/adex-2025/small-systems.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        },
+        {
+          "existingPhotoId": "photo-adex25-fiber-4",
+          "imageUrl": "https://fiberpro.co.kr/data/editor/2510/thumb-b482259f99af7c8042f9cdef50e8d68d_1760923501_8026_600x800.jpg",
+          "caption": "ADEX 2025 관성항법 솔루션 진열장",
+          "productIds": [
+            "adex25-fiberpro-fog-ins"
+          ],
+          "credit": "파이버프로 제공·개별 촬영자 미표기",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "실제 사진을 시각 확인했습니다. 진열장 분류는 읽히지만 개별 모델 표찰은 확정하지 않았습니다.",
+            "basisFile": "data/v2/research/adex-2025/small-systems.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        }
+      ],
+      "retryCondition": "공식 갤러리 이미지별 재사용 조건 또는 미디어 이용 안내가 공개될 때 재검토. 썸네일 파일명을 바꿔 원본 URL을 추정하지 않는다."
+    },
+    {
+      "id": "adex25-components-cmtechron",
+      "publisher": "CMTECHRON",
+      "companyIds": [
+        "org-1273e8383e083821a303"
+      ],
+      "productIds": [
+        "adex25-cm-metal-fiber",
+        "adex25-cm-rcws-target",
+        "adex25-cm-e-target"
+      ],
+      "sourceIds": [
+        "components-cmtechron-adex25"
+      ],
+      "sourceUrl": "https://www.cmtechron.com/support/notice?board_code=4&code=357&tpf=board%2Fview",
+      "publishedAt": "2026-01-19",
+      "eventIdentity": "2026년 게시물이지만 제목과 본문은 Seoul ADEX 2025 현장 회고다. 게시 연도를 행사 연도로 바꾸지 않는다.",
+      "productIdentityLimitation": "기존 전시대·표지 검수 기록을 참조했다. 제3 사진은 업체 전경으로만 유지한다.",
+      "rights": {
+        "status": "link-only",
+        "license": null,
+        "licenseUrl": null,
+        "shortQuote": "Copyright © 2018 CMTECHRON. All right reserved.",
+        "finding": "공식 공지의 다운로드 링크는 존재하지만 재사용 허용 문구는 없다. 다운로드 가능 여부를 복제·재게시 허용으로 해석하지 않는다."
+      },
+      "photos": [
+        {
+          "existingPhotoId": "adex25-photo-cm-1",
+          "imageUrl": "https://www.cmtechron.com/user/attachment/202601/1768828352873640.jpg",
+          "caption": "씨엠테크론 ADEX 2025 10-M1 전시대 전경",
+          "productIds": [
+            "adex25-cm-e-target",
+            "adex25-cm-rcws-target",
+            "adex25-cm-metal-fiber"
+          ],
+          "credit": "씨엠테크론 / 촬영자 미기재",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "2026-11-12 원본 픽셀 대조; 제3 사진은 업체 전경으로만 연결",
+            "basisFile": "data/v2/research/adex-2025/small-systems.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        },
+        {
+          "existingPhotoId": "adex25-photo-cm-2",
+          "imageUrl": "https://www.cmtechron.com/user/attachment/202601/1768828353681733.jpg",
+          "caption": "E형 열상표적 실물과 표지",
+          "productIds": [
+            "adex25-cm-e-target"
+          ],
+          "credit": "씨엠테크론 / 촬영자 미기재",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "2026-11-12 원본 픽셀 대조; 제3 사진은 업체 전경으로만 연결",
+            "basisFile": "data/v2/research/adex-2025/small-systems.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        },
+        {
+          "existingPhotoId": "adex25-photo-cm-3",
+          "imageUrl": "https://www.cmtechron.com/user/attachment/202601/1768828354069099.jpg",
+          "caption": "씨엠테크론 전시대 방문객과 장비 전경",
+          "productIds": [],
+          "credit": "씨엠테크론 / 촬영자 미기재",
+          "ready": false,
+          "rightsStatus": "link-only",
+          "downloaded": false,
+          "localPath": null,
+          "bytes": null,
+          "width": null,
+          "height": null,
+          "sha256": null,
+          "pixelCheck": {
+            "performedInThisPass": false,
+            "priorRecord": "2026-11-12 원본 픽셀 대조; 제3 사진은 업체 전경으로만 연결",
+            "basisFile": "data/v2/research/adex-2025/small-systems.json"
+          },
+          "urlVerification": "2026-11-16 원문 HTML의 img src와 기존 URL 대조. 이미지 바이트는 요청하지 않음."
+        }
+      ],
+      "excludedImage": {
+        "imageUrl": "https://www.cmtechron.com/user/attachment/202601/1768828353277171.jpg",
+        "reason": "기존 조사에서 AI 생성 표시가 확인돼 제외된 이미지. 이번에 다운로드·재검수하지 않았으며 신규 현장 증거로 사용하지 않는다."
+      },
+      "retryCondition": "기존 채택 3개 이미지에 적용되는 제조사의 명시적 재사용 안내를 확인한 뒤 원본·권리·비생성 현장사진 여부를 다시 검증한다."
+    }
+  ],
+  "alternativeRoutes": [
+    {
+      "id": "dapa-policy-scope",
+      "sourceIds": [
+        "components-dapa-copyright"
+      ],
+      "status": "policy_verified_no_matching_photo_permission",
+      "finding": "DAPA 정책은 공공누리 제1유형 표시가 있는 저작물의 자유이용과 구체적 출처 표시를 안내한다. 표시 없는 자료는 사전 협의를 요구한다. DTaQ 미디어룸의 개별 사진에 적용된다는 근거는 없다.",
+      "contactAttempted": false
+    },
+    {
+      "id": "dapa-pre-event-pavilion",
+      "sourceIds": [
+        "components-dapa-pavilion"
+      ],
+      "url": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=57595&menuSeq=3069",
+      "status": "excluded_as_event_photo",
+      "finding": "2025-10-16 개막 전 홍보관 운영 안내. 읽은 HTML에 본문 사진 및 공공누리 표시가 없었다. PDF/HWPX 첨부는 있으나 내부 사진과 권리는 미검사. 현장 촬영 증거로 사용하지 않는다.",
+      "attachmentUrls": [
+        "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=57595&fileNum=1",
+        "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=57595&fileNum=2"
+      ],
+      "downloaded": false
+    },
+    {
+      "id": "dapa-dq-award",
+      "sourceIds": [
+        "components-dapa-dq-award"
+      ],
+      "url": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=57623&menuSeq=3069",
+      "status": "no_matching_licensed_photo_identified",
+      "finding": "2025-10-24 게재된 DTaQ 인증 수여식 재게시. 읽은 HTML에 본문 사진 및 공공누리 표시가 없었다. PDF/HWPX 내부 사진·권리는 미검사이며 수성/HKC 전시대와 동일한 사진으로 볼 근거도 없다.",
+      "attachmentUrls": [
+        "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=57623&fileNum=1",
+        "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=57623&fileNum=2"
+      ],
+      "downloaded": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "components-dtaq-adex25",
+      "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+      "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+      "publisher": "국방기술품질원 미디어룸",
+      "publishedAt": "2025-11-10",
+      "accessedAt": "2026-11-16",
+      "method": "web 원문 및 HTTP 200 HTML의 본문·사진 src·권리 푸터 확인"
+    },
+    {
+      "id": "components-dtaq-home",
+      "url": "https://www.dtaq.re.kr",
+      "title": "국방기술품질원 홈페이지",
+      "publisher": "국방기술품질원",
+      "publishedAt": null,
+      "accessedAt": "2026-11-16",
+      "method": "HTTP 200 공개 홈페이지·푸터 링크 확인. 사진 이용을 포괄 허용하는 정책 미발견"
+    },
+    {
+      "id": "components-dapa-copyright",
+      "url": "https://www.dapa.go.kr/dapa/contents.do?menuSeq=3656",
+      "title": "저작권정책",
+      "publisher": "방위사업청",
+      "publishedAt": null,
+      "accessedAt": "2026-11-16",
+      "method": "공식 홈페이지 푸터에서 연결된 정책 본문을 HTTP 200으로 읽음"
+    },
+    {
+      "id": "components-dapa-search",
+      "url": "https://www.dapa.go.kr/dapa/doc/selectDocList.do?bbsSeq=326&menuSeq=3069&searchSelect=all&searchValue=ADEX&recordCountPerPage=30",
+      "title": "보도자료 ADEX 검색 결과",
+      "publisher": "방위사업청",
+      "publishedAt": null,
+      "accessedAt": "2026-11-16",
+      "method": "공개 게시판 검색 폼의 GET 매개변수 사용. 결과 9건 중 관련 원문 2건 확인"
+    },
+    {
+      "id": "components-dapa-pavilion",
+      "url": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=57595&menuSeq=3069",
+      "title": "통합홍보관, 세계 4대 방산강국 도약의 교두보 마련",
+      "publisher": "방위사업청",
+      "publishedAt": "2025-10-16",
+      "accessedAt": "2026-11-16",
+      "method": "HTTP 200 HTML 본문·첨부 href·공공누리 표시 여부 검사"
+    },
+    {
+      "id": "components-dapa-dq-award",
+      "url": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=57623&menuSeq=3069",
+      "title": "[국방기술품질원] K2전차 주요 부품에 DQ마크 인증 수여",
+      "publisher": "방위사업청 / 국방기술품질원",
+      "publishedAt": "2025-10-24",
+      "accessedAt": "2026-11-16",
+      "method": "HTTP 200 HTML 본문·첨부 href·공공누리 표시 여부 검사"
+    },
+    {
+      "id": "components-fiberpro-adex25",
+      "url": "https://fiberpro.co.kr/gallery/seoul-adex-2025/?page=2",
+      "title": "Seoul ADEX 2025",
+      "publisher": "FIBERPRO",
+      "publishedAt": "2025-10-20",
+      "accessedAt": "2026-11-16",
+      "method": "web 원문과 HTTP 200 HTML 사진 src·권리 푸터 대조"
+    },
+    {
+      "id": "components-cmtechron-adex25",
+      "url": "https://www.cmtechron.com/support/notice?board_code=4&code=357&tpf=board%2Fview",
+      "title": "CMTECHRON Wraps Up Seoul ADEX 2025 — On-Site Highlights",
+      "publisher": "CMTECHRON",
+      "publishedAt": "2026-01-19",
+      "accessedAt": "2026-11-16",
+      "method": "web 원문과 HTTP 200 HTML 사진 src·첨부·권리 푸터 대조. 가변 dummy 쿼리는 기존 원본 URL 정체성을 바꾸지 않음"
+    }
+  ],
+  "evidence": {
+    "stateTransitions": [
+      "planned",
+      "executing",
+      "verifying",
+      "completed"
+    ],
+    "queries": [
+      "site:dtaq-media.kr 저작권 공공누리",
+      "국방기술품질원 저작권보호정책 공공누리",
+      "site:dtaq.re.kr \"저작권\"",
+      "site:dapa.go.kr \"ADEX 2025\" \"통합홍보관\"",
+      "DAPA 보도자료 검색: ADEX (전체, 30개/페이지)",
+      "site:fiberpro.co.kr \"사진\" \"이용\"",
+      "site:cmtechron.com \"copyright\" \"permission\""
+    ],
+    "researchMethods": [
+      "기존 ADEX 조사 묶음과 선행 사진 후보 문서 대조",
+      "web 검색·공식 원문 확인",
+      "허용된 읽기 전용 Node fetch로 공개 HTML 확인; 사진 바이트·첨부 파일 요청 없음"
+    ],
+    "accessLimitations": [
+      "web 도구에서 DTaQ·DAPA 홈페이지 timeout. 네트워크 허용 실행으로 같은 공개 URL의 HTTP 200 HTML 확인.",
+      "이번 패스에서 원본 이미지 다운로드·화상 재검수·크기·해시 검증 미실시. 기존 검수 메모는 상속 근거로만 표기했다.",
+      "검색·HTML 확인 범위의 결과이며 인터넷 전체에 허용 사진이 없다는 뜻은 아니다.",
+      "DAPA 문서 첨부 내부의 사진·권리 표시는 검사하지 않았다. 해당 첨부를 ready로 세지 않았다."
+    ],
+    "excludedByScope": [
+      "COTS Technology: 4기관 제한에 따라 이번 재조사 제외. 기존 언론사 사진의 link-only 상태 유지.",
+      "선행 ADEX 조사에서 확인한 정책브리핑 개막식 사진의 텍스트 한정 공공누리 표시는 사진 허용 근거로 재사용하지 않음.",
+      "대전기업관 HWP 선행 후보는 별도 지자체·첨부 내부 조사로 남겨 4기관 범위를 넓히지 않음."
+    ],
+    "validation": {
+      "jsonParse": "passed",
+      "existingPhotoAndProductIds": "passed: 3 candidate groups / 10 existing photo IDs / product links preserved / company and source IDs resolved",
+      "build": "not_run_document_only",
+      "tests": "not_run_document_only",
+      "assetsDownloaded": 0,
+      "externalContacts": 0,
+      "accountCreations": 0,
+      "generatedImages": 0,
+      "operationalFilesChanged": false,
+      "commitCreated": false,
+      "command": "node --input-type=module (JSON parse, 4-institution scope, candidate readiness, app photo/product/company mapping and source URL assertions)"
+    },
+    "retryConditions": [
+      "사진별 공공누리 표시 또는 권리자의 명시적 재게시 허용 원문이 공개되면 재검토한다.",
+      "DAPA 첨부를 다시 볼 경우 해당 사진의 기관 권리·공공누리 적용 범위와 ADEX 2025 구성품 식별을 함께 확인한다.",
+      "허용 확인 후에만 tmp/components-photo-intake/에 원본을 받아 픽셀·size·SHA-256을 기록하고 ready로 승격한다."
+    ]
+  },
+  "attachmentReviewFollowup": {
+    "asOf": "2026-11-16",
+    "status": "completed",
+    "authorizationScope": "DAPA PDF 첨부 2개를 검토 목적으로 임시 저장하고 모든 페이지를 읽기 전용으로 확인. 재게시나 운영 자산 편입은 하지 않음.",
+    "historicalRecordPolicy": "기존 summary.newDownloadCount=0 및 evidence의 첨부 미검사 기록은 최초 조사 시점의 사실로 보존한다. 현재 첨부 검사 범위와 결과는 이 후속 절을 우선한다.",
+    "stateTransitions": [
+      "planned",
+      "executing",
+      "verifying",
+      "completed"
+    ],
+    "summary": {
+      "reviewAttachmentDownloadCount": 2,
+      "reviewAttachmentPageCount": 4,
+      "renderedAndVisuallyInspectedPages": 4,
+      "documentKoglType1MarksFound": 2,
+      "eventPhotographsFound": 0,
+      "readyPhotoCount": 0,
+      "displayAssetDownloadCount": 0,
+      "newDisplayAssetCount": 0,
+      "conclusion": "두 첨부 PDF 모두 공공누리 제1유형 표시가 있다. 그러나 전시 현장 사진이 전혀 없어 구성품 사진 후보를 확보하지 못했다. DTaQ 미디어룸 사진 권리는 여전히 미확보다."
+    },
+    "attachments": [
+      {
+        "id": "components-dapa-pavilion-pdf",
+        "sourceId": "components-dapa-pavilion",
+        "sourceUrl": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=57595&menuSeq=3069",
+        "downloadUrl": "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=57595&fileNum=1",
+        "localPath": "tmp/components-photo-intake/dapa-57595-pavilion-20251016.pdf",
+        "title": "통합홍보관, 세계 4대 방산강국 도약의 교두보 마련",
+        "articlePublishedAt": "2025-10-16",
+        "documentDistributionDate": "2025-10-16",
+        "pageCount": 2,
+        "pageFindings": [
+          {
+            "page": 1,
+            "renderPath": "tmp/components-photo-intake/dapa-57595-page-1.png",
+            "finding": "배포일과 개막 전 운영 안내. 기관·APEC 로고가 있고 현장 사진은 없음."
+          },
+          {
+            "page": 2,
+            "renderPath": "tmp/components-photo-intake/dapa-57595-page-2.png",
+            "finding": "보도문 끝·담당 부서 표·정책브리핑/APEC 배너·공공누리 표식. 현장 사진 및 사진 캡션 없음."
+          }
+        ],
+        "embeddedRasterObjectsByPage": [
+          3,
+          3
+        ],
+        "eventPhotoCount": 0,
+        "photoCaptions": [],
+        "licenseMark": {
+          "type": "공공누리 제1유형(출처표시)",
+          "page": 2,
+          "position": "담당 부서 표 아래 오른쪽",
+          "visualEvidence": "OPEN 표식 오른쪽에 사람 아이콘과 출처표시가 있으며 비상업·변경금지 아이콘은 없다.",
+          "scope": "이 PDF의 이용 표식을 확인한 것. 다른 URL의 DTaQ 미디어룸 사진에는 적용하지 않는다.",
+          "separatePhotoLicenseFound": false
+        },
+        "status": "reviewed_no_event_photograph",
+        "ready": false,
+        "httpStatus": 200,
+        "downloadedAt": "2026-11-16",
+        "downloadPurpose": "원문 첨부 검토만. 표시용 사진 자산 수집 아님.",
+        "bytes": 157094,
+        "sha256": "75d97bed9ea2ddd8f94c9632e3ca76183ae10031e34cf01158c82ab807f0a115"
+      },
+      {
+        "id": "components-dapa-dq-award-pdf",
+        "sourceId": "components-dapa-dq-award",
+        "sourceUrl": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=57623&menuSeq=3069",
+        "downloadUrl": "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=57623&fileNum=1",
+        "localPath": "tmp/components-photo-intake/dapa-57623-dq-award-20251024.pdf",
+        "title": "K2전차 주요 부품에 DQ마크 인증 수여",
+        "articlePublishedAt": "2025-10-24",
+        "documentDistributionDate": "2025-10-23",
+        "pageCount": 2,
+        "pageFindings": [
+          {
+            "page": 1,
+            "renderPath": "tmp/components-photo-intake/dapa-57623-page-1.png",
+            "finding": "10월 23일 보도·배포 시각, 인증 수여식 보도문, DAPA·DTaQ 로고. 행사 사진 없음."
+          },
+          {
+            "page": 2,
+            "renderPath": "tmp/components-photo-intake/dapa-57623-page-2.png",
+            "finding": "공공누리 표식과 [참고] DQ마크 신규 인증 업체(30개사) 표. 사진·구성품 형상·사진 캡션 없음."
+          }
+        ],
+        "embeddedRasterObjectsByPage": [
+          3,
+          3
+        ],
+        "eventPhotoCount": 0,
+        "photoCaptions": [],
+        "licenseMark": {
+          "type": "공공누리 제1유형(출처표시)",
+          "page": 2,
+          "position": "인증 업체 표 위 오른쪽",
+          "visualEvidence": "OPEN 표식 오른쪽의 출처표시 단일 아이콘을 확인했다. 비상업·변경금지 아이콘 없음.",
+          "scope": "이 PDF에 표시된 이용 유형. 문서 밖의 DTaQ 사진이나 같은 업체의 다른 사진으로 권리를 확대하지 않는다.",
+          "separatePhotoLicenseFound": false
+        },
+        "status": "reviewed_no_event_photograph",
+        "ready": false,
+        "httpStatus": 200,
+        "downloadedAt": "2026-11-16",
+        "downloadPurpose": "원문 첨부 검토만. 표시용 사진 자산 수집 아님.",
+        "bytes": 182255,
+        "sha256": "96547641f87e9e501e35863dea66cf5ae7e5cee33270f2a2d5f654ec60df8623"
+      }
+    ],
+    "validation": {
+      "tools": [
+        "pypdf: 페이지·텍스트·래스터 객체 확인",
+        "Poppler pdftoppm: 전체 페이지를 120dpi PNG로 렌더",
+        "view_image: 4쪽 전부 화상 확인",
+        "Node: PDF 시그니처·바이트·SHA-256·JSON 및 파일 경로 검증"
+      ],
+      "commands": [
+        "Node fetch: DAPA fileTypeSeq 57595 / 57623, fileNum 1 PDF를 tmp/components-photo-intake/에 저장",
+        "pypdf PdfReader: 2개 PDF 각 2쪽 및 페이지별 image 객체 확인",
+        "pdftoppm -r 120 -png tmp/components-photo-intake/dapa-57595-pavilion-20251016.pdf tmp/components-photo-intake/dapa-57595-page",
+        "pdftoppm -r 120 -png tmp/components-photo-intake/dapa-57623-dq-award-20251024.pdf tmp/components-photo-intake/dapa-57623-page"
+      ],
+      "outcome": "통과: PDF 2개 정상 파싱·4쪽 렌더·4쪽 직접 확인. ready 승격 없음.",
+      "technicalNotes": [
+        "최초 Python 콘솔 출력에 한글 인코딩 불일치가 있었으나 stdout UTF-8 설정 후 정상 텍스트 추출을 확인했다. PDF 파싱 실패가 아니다.",
+        "공공누리 표식은 이미지에 포함되어 텍스트 추출에 나타나지 않았다. 래스터 객체 수를 행사 사진 수로 세지 않았고 전체 렌더에서 로고·배너·이용 표시임을 확인했다."
+      ],
+      "jsonAndFiles": "passed",
+      "operationalFilesChanged": false,
+      "commitCreated": false
+    },
+    "remainingScope": [
+      "동일 게시물 HWPX는 별도 다운로드하지 않았다. 이번 요청의 첨부 1~2개 범위에서 PDF 2개를 전수 확인했다.",
+      "사진이 실린 별도 첨부·기사와 그 사진에 적용되는 이용 조건이 제시될 때만 후보를 재검토한다.",
+      "이 문서의 공공누리 표식을 DTaQ 미디어룸·FIBERPRO·CMTECHRON 사진의 허용 근거로 쓰지 않는다."
+    ],
+    "researchLeads": [
+      {
+        "id": "dapa-adex25-pavilion-institutions",
+        "kind": "organizer-announced-participation-plan",
+        "localPath": "tmp/components-photo-intake/dapa-57595-pavilion-20251016.pdf",
+        "page": 1,
+        "sourceUrl": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=57595&menuSeq=3069",
+        "attachmentUrl": "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=57595&fileNum=1",
+        "documentDate": "2025-10-16",
+        "entities": [
+          "방위사업청",
+          "국방과학연구소",
+          "국방신속획득기술연구원",
+          "국방기술품질원",
+          "국방기술진흥연구소"
+        ],
+        "basis": "개막 전 통합홍보관 공동 운영 안내.",
+        "limitation": "사전 운영 발표이므로 각 기관·제품의 실제 현장 존재나 납품·성능을 확정하는 근거로 쓰지 않는다."
+      },
+      {
+        "id": "dapa-adex25-dq-certified-suppliers",
+        "kind": "official-certification-company-list",
+        "localPath": "tmp/components-photo-intake/dapa-57623-dq-award-20251024.pdf",
+        "page": 2,
+        "sourceUrl": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=57623&menuSeq=3069",
+        "attachmentUrl": "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=57623&fileNum=1",
+        "documentDate": "2025-10-23",
+        "articlePublishedAt": "2025-10-24",
+        "tableTitle": "[참고] DQ마크 신규 인증 업체 (30개사)",
+        "columns": [
+          "순번",
+          "업체명",
+          "인증제품 수"
+        ],
+        "listedCompanyCount": 30,
+        "examplesAsPrinted": [
+          "현대로템",
+          "경성엠티",
+          "명진TSR"
+        ],
+        "basis": "표의 업체명과 인증제품 수는 후속 업체 조사 대조 자료. 원문 전체 표는 지정 PDF 2쪽에 보존.",
+        "limitation": "인증 업체 목록이며 전시 참가업체 명단이 아니다. 각 업체의 부스·구성품 실물 전시·수여식 참석·계약·납품 완료를 이 표만으로 확정하지 않는다. 기업명은 별도 동정 후 기존 organizationId와 연결한다."
+      }
+    ]
+  },
+  "currentResult": {
+    "asOf": "2026-11-16",
+    "finding": "DAPA 첨부 PDF 2개는 공공누리 제1유형 확인. 두 문서의 현장 사진이 0장이므로 대상 구성품 사진 공백은 해결되지 않았다.",
+    "reviewAttachmentDownloadCount": 2,
+    "displayAssetDownloadCount": 0,
+    "readyPhotoCount": 0,
+    "details": "attachmentReviewFollowup",
+    "rightsBoundary": "이용 표시는 검토한 PDF에 한정해 기록한다. DTaQ 미디어룸이나 문서 밖 이미지의 재사용 허용으로 확대하지 않는다."
+  }
+}

@@ -66,7 +66,16 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
   const appendSource=source=>{
     check(safeUrl(source.url),'invalid source URL '+source.id);
     const id=source.id||'source-'+hash(source.url);const record=sourceRecord({...source,id});
-    if(sources.has(id))check(sources.get(id).url===record.url,'source ID points to two URLs '+id);else sources.set(id,record);
+    if(sources.has(id)){
+      const existing=sources.get(id);
+      check(existing.url===record.url,'source ID points to two URLs '+id);
+      // Legacy imports often know only the URL. Keep later reviewed attribution
+      // and both sets of limitations without replacing established identity.
+      if(!existing.title||safeUrl(existing.title)===existing.url)existing.title=record.title;
+      for(const key of ['publisher','publishedAt','evidenceStatus'])if(!existing[key]&&record[key])existing[key]=record[key];
+      const notes=unique([existing.note,record.note].flatMap(value=>Array.isArray(value)?value:[value]).filter(value=>typeof value==='string').flatMap(value=>value.split(/\r?\n/)).map(value=>value.trim()));
+      if(notes.length)existing.note=notes.join('\n');
+    }else sources.set(id,record);
     return id;
   };
   const taxonomyPublic={note:taxonomy.note,categories:taxonomy.categories.map(({id,label})=>({id,label}))};

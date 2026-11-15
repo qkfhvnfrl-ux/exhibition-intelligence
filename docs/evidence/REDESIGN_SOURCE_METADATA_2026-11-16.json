@@ -1,0 +1,100 @@
+{
+  "asOf": "2026-11-16",
+  "status": "integrated_build_check_and_browser_passed",
+  "scope": "Preserve reviewed source attribution/limitations and known country in company header; product/attendance identity unchanged.",
+  "baselineCommit": "7c57dda",
+  "sourceMetadataExamples": [
+    {
+      "id": "source-09acaf2051f60b9a2564",
+      "before": {
+        "id": "source-09acaf2051f60b9a2564",
+        "url": "https://commons.wikimedia.org/wiki/File:T-90MS_side_view_at_IDEX_2025.jpg",
+        "title": "https://commons.wikimedia.org/wiki/File:T-90MS_side_view_at_IDEX_2025.jpg",
+        "publisher": null,
+        "publishedAt": null
+      },
+      "after": {
+        "id": "source-09acaf2051f60b9a2564",
+        "url": "https://commons.wikimedia.org/wiki/File:T-90MS_side_view_at_IDEX_2025.jpg",
+        "title": "IDEX 2025 T-90MS 측면 사진",
+        "publisher": "Mztourist / Wikimedia Commons",
+        "publishedAt": null,
+        "evidenceStatus": "independent_observation_only",
+        "note": "촬영일 2025-02-19. 현장 차명과 회사 표지·회차 설명·CC BY 4.0 확인. 전시 외관 관찰이며 성능 자료가 아니다."
+      }
+    },
+    {
+      "id": "source-46f946fb91b8be1a554d",
+      "before": {
+        "id": "source-46f946fb91b8be1a554d",
+        "url": "https://commons.wikimedia.org/wiki/File:T-90MS_front_view_at_IDEX_2025.jpg",
+        "title": "https://commons.wikimedia.org/wiki/File:T-90MS_front_view_at_IDEX_2025.jpg",
+        "publisher": null,
+        "publishedAt": null
+      },
+      "after": {
+        "id": "source-46f946fb91b8be1a554d",
+        "url": "https://commons.wikimedia.org/wiki/File:T-90MS_front_view_at_IDEX_2025.jpg",
+        "title": "IDEX 2025 T-90MS 전면 사진",
+        "publisher": "Mztourist / Wikimedia Commons",
+        "publishedAt": null,
+        "evidenceStatus": "independent_observation_only",
+        "note": "촬영일 2025-02-19. 회차 설명과 CC BY 4.0 확인. 내부 구성·개발 상태를 확인한 사진은 아니다."
+      }
+    }
+  ],
+  "idexSourceNotes": {
+    "before": 7,
+    "after": 20
+  },
+  "verification": {
+    "build": {
+      "exitCode": 0,
+      "log": ".local-source-metadata-build.log",
+      "sha256": "e4891f73966c8680aecd28b17be5c4fd7097ee09b55bcd8c3e46e3d633e109a8"
+    },
+    "targetedTests": {
+      "command": "node --test tests/v2-app-data.test.mjs tests/v2-details.test.mjs",
+      "exitCode": 0,
+      "pass": 52,
+      "fail": 0,
+      "skipped": 0,
+      "log": ".local-source-metadata-test.log",
+      "sha256": "e1642abeec60701ba92ccea112f7a2068f02d02abc0256a444fde8cc926cb31b"
+    },
+    "fullBundle": {
+      "build": {
+        "command": "npm run build",
+        "exitCode": 0,
+        "log": ".local-components-build.log",
+        "sha256": "e4891f73966c8680aecd28b17be5c4fd7097ee09b55bcd8c3e46e3d633e109a8"
+      },
+      "check": {
+        "command": "npm run check",
+        "exitCode": 0,
+        "pass": 202,
+        "fail": 0,
+        "skipped": 0,
+        "log": ".local-components-check.log",
+        "sha256": "d9c24227fadc2c5cca0067ebe821bfd5e6ea5190a3e1e1ffda859f56e5e67262",
+        "lint": "No separate lint script; check runs syntax, schema/data validation and Node tests."
+      }
+    },
+    "browser": "docs/evidence/REDESIGN_COMPONENTS_BROWSER_2026-11-16.json"
+  },
+  "resolvedFailure": "Patria test expected only an earlier limitation string; the compiler now preserves both earlier and narrative limitations. Assert inclusion of both, retaining previous protection.",
+  "reportImpact": {
+    "screen": "Five reports byte-identical markup.",
+    "print": "Four reports byte-identical. DSEI differs only in the source link title attribute; all five are identical after removing title attributes, including visible strings/image URLs/links/layout.",
+    "pdf": "No new saved PDF claimed. Prior validated files retained; content and CSS are unchanged."
+  },
+  "remaining": [
+    "Candidate event-photo reuse permissions and individual exhibition models remain unconfirmed.",
+    "Whole-project research and first publication remain unfinished."
+  ],
+  "regressionCoverage": [
+    "Enrich URL-only title/publisher/date/evidence metadata without losing existing restrictions.",
+    "Retain established meaningful metadata and reject an ID mapped to different URLs.",
+    "Merge multiline/array limitations once across three source appearances; do not mutate source inputs."
+  ]
+}
