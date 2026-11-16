@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-16",
+  "status": "bounded_research_complete_with_exact_variant_gaps",
+  "productionIntegrated": false,
+  "scope": "SAHA 2026 report cases and existing ADEX 2025 Hanwha products. The user authorized product reference photographs when same-event photographs are unavailable. References never establish attendance, exhibit status or the current event configuration.",
+  "plan": {
+    "goal": "Verify exact product identity and applicable image permissions; acquire qualifying new photographs and separately identify reusable existing references.",
+    "writeScope": [
+      "docs/research-v2/redesign-product-photo-fallback.json",
+      "tmp/product-photo-fallback-intake/"
+    ],
+    "impact": "Research packet only; parent integrates any approved product associations using existing photo IDs and bytes.",
+    "risks": [
+      "Counting redownloads as new images",
+      "Confusing different turret/UAV configurations",
+      "Treating a public newsroom or download button as reuse permission",
+      "Calling a past-event or general photograph a SAHA 2026 exhibit image"
+    ],
+    "verification": [
+      "Canonical source URL deduplication",
+      "Exact model and visible configuration inspection",
+      "Work-specific license and publisher terms",
+      "Original and existing asset hashes",
+      "Existing ID and organization validation"
+    ]
+  },
+  "baselineReviewed": [
+    "../PROJECT_STATE.md",
+    "../TASKS.md",
+    "../DECISIONS.md",
+    "../EVIDENCE.md",
+    "../CHANGELOG.md",
+    "data/photos.json",
+    "data/v2/app/events/saha-2026.json",
+    "data/v2/app/events/adex-2025.json",
+    "docs/research-v2/redesign-report-saha.json",
+    "docs/research-v2/redesign-content-hanwha.json",
+    "docs/research-v2/redesign-photo-candidates-hanwha.json"
+  ],
+  "counts": {
+    "targetProducts": 5,
+    "newUniqueQualifyingImages": 1,
+    "qualificationScope": "The one newly acquired image qualifies only for the existing general cobra-ii product, not the five original exact-configuration target cases.",
+    "newUniqueBaseVehicleReferenceImages": 1,
+    "allNewUniqueImageOriginalsDownloaded": 1,
+    "newExactTargetConfigurationImages": 0,
+    "existingUniqueImagesReverified": 2,
+    "originalFilesRedownloadedForVerification": 2,
+    "inspectionDerivatives": 1,
+    "existingProductsWithReadyReferenceProposal": 1,
+    "operatingAssetFilesAddedOrChanged": 0,
+    "sameEventImagesAcquired": 0,
+    "correction": "Both downloaded PARS ALPHA originals already underlie existing local WebP assets. Earlier progress wording describing them as new acquisitions was corrected after canonical source comparison."
+  },
+  "targets": [
+    {
+      "eventId": "saha-2026",
+      "productId": "tulpar-korhan",
+      "companyId": "org-261736017afc402204d0",
+      "exactModel": "TULPAR with ASELSAN KORHAN",
+      "status": "permission_or_exact_configuration_gap",
+      "exclude": "TULPAR with MIZRAK or Cockerill is not this configuration."
+    },
+    {
+      "eventId": "saha-2026",
+      "productId": "cobra-ii-bee-eater",
+      "companyId": "org-d1f0494ffffe8855172b",
+      "exactModel": "COBRA II with DASAL vehicle-mounted UAV station",
+      "status": "permission_gap",
+      "exclude": "Manufacturer text names DASAL; do not independently establish BEE EATER branding or substitute an ordinary COBRA II turret image as the integration."
+    },
+    {
+      "eventId": "saha-2026",
+      "productId": "pars-alpha",
+      "companyId": "org-2dffde2d6bd01e4eaf2d",
+      "exactModel": "PARS ALPHA 8x8; report case TEBER-II combination",
+      "status": "two_existing_references_ready",
+      "exhibitStatusPreserved": "unconfirmed"
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "k9a3",
+      "companyId": "org-c919e0346aa5a11fd7a0",
+      "exactModel": "K9A3 development roadmap",
+      "status": "exact_model_photo_and_permission_gap",
+      "exclude": "K9/K9A1/K9A2 photographs and unlabeled renders are not K9A3 photographs."
+    },
+    {
+      "eventId": "adex-2025",
+      "productId": "themis-k",
+      "companyId": "org-f59a1086debbc920179b",
+      "exactModel": "THeMIS-K with Hanwha RCWS",
+      "status": "permission_gap",
+      "exclude": "General THeMIS, THeMIS COMBAT and later generic cooperation photographs do not establish the K configuration."
+    }
+  ],
+  "readyExistingReferences": [
+    {
+      "legacyPhotoId": "pars-alpha-00",
+      "runtimePhotoId": "photo-5856f0c21570a730032d",
+      "productId": "pars-alpha",
+      "companyId": "org-2dffde2d6bd01e4eaf2d",
+      "existingSrc": "assets/photos/pars-alpha-00.webp",
+      "existingSha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+      "existingDimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FNSS_-_PARS_ALPHA_8x8.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/FNSS_-_PARS_ALPHA_8x8.jpg",
+      "author": "Ciko1213",
+      "sourceKind": "independent_photographer_own_work",
+      "manufacturerOfficialImage": false,
+      "sourceIds": [
+        "fallback-commons-pars-saha2024"
+      ],
+      "rights": {
+        "status": "verified_open_license",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "basis": "Individual file page identifies uploader's own work and an explicit CC0 dedication.",
+        "localWebDisplay": true,
+        "printAndPdf": true,
+        "derivativesAllowed": true
+      },
+      "dateEvidence": {
+        "pageDate": "2025-01-07",
+        "uploadedAt": "2025-01-07T19:56:00Z",
+        "visibleCameraWatermark": "26 Eki 2024 13:10",
+        "watermarkDateInterpreted": "2024-10-26",
+        "sourceCaptionEvent": "SAHA Expo 2024",
+        "caution": "The page's 2025 date is not used as a 2025 capture claim; the 2024 camera date is identified as a visible watermark, not independently calibrated camera time."
+      },
+      "pixelReview": {
+        "status": "pass",
+        "reviewed": "Downloaded original and existing WebP",
+        "observed": "Vehicle side reads FNSS / PARS ALPHA 8x8; turret side reads TEBER-II. Indoor exhibit and lower-left date watermark are visible. The existing image retains the same composition and watermark."
+      },
+      "originalVerificationArtifact": {
+        "path": "tmp/product-photo-fallback-intake/pars-alpha-saha2024-cc0.jpg",
+        "bytes": 237720,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "21d77d0d15b60592cac1c40536ee6fb4f159b1e5c49036a2170c0a3b1b4bb79f",
+        "duplicateOfExistingPhoto": true
+      },
+      "proposedAssociation": {
+        "productIds": [
+          "pars-alpha"
+        ],
+        "context": "reference",
+        "eventId": null
+      },
+      "suggestedCaption": "제품 참고사진 — PARS ALPHA 8×8·TEBER-II, SAHA EXPO 2024. SAHA 2026 현장사진이 아닙니다.",
+      "suggestedSourceDateDisplay": "촬영 표시 2024-10-26 · 업로드 2025-01-07",
+      "changesToPreserve": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "integrationNote": "Keep existing ID, src and WebP bytes. Add only the verified product association and reviewed rights/date information. The source depicts a prior event; do not add it to SAHA 2026 event photo IDs or narrative event-photo evidence."
+    },
+    {
+      "legacyPhotoId": "pars-alpha-11",
+      "runtimePhotoId": "photo-6236edcf1728b4f16107",
+      "productId": "pars-alpha",
+      "companyId": "org-2dffde2d6bd01e4eaf2d",
+      "existingSrc": "assets/photos/pars-alpha-11.webp",
+      "existingSha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+      "existingDimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARS_ALPHA_8x8_Taktik_Tekerlekli_Z%C4%B1rhl%C4%B1_Muharebe_Arac%C4%B1.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/PARS_ALPHA_8x8_Taktik_Tekerlekli_Z%C4%B1rhl%C4%B1_Muharebe_Arac%C4%B1.jpg",
+      "author": "RainforestGuardian",
+      "sourceKind": "independent_photographer_own_work",
+      "manufacturerOfficialImage": false,
+      "sourceIds": [
+        "fallback-commons-pars-general"
+      ],
+      "rights": {
+        "status": "verified_open_license",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "basis": "Individual file page identifies uploader's own work and an explicit CC0 dedication.",
+        "localWebDisplay": true,
+        "printAndPdf": true,
+        "derivativesAllowed": true
+      },
+      "dateEvidence": {
+        "pageAndExifDate": "2023-12-06T15:55:38",
+        "uploadedAt": "2024-09-16T06:52:00Z",
+        "capturePlace": null,
+        "caution": "The source warns that camera timestamps may be inaccurate. No event name or exact location is established."
+      },
+      "pixelReview": {
+        "status": "pass",
+        "reviewed": "1280-pixel inspection derivative of downloaded original plus existing 1600-pixel WebP",
+        "observed": "Matching tan eight-wheeled vehicle in an outdoor paved area with an angular turret. Original source names PARS ALPHA. No legible TEBER-II label or current-event marker is established; this supports general vehicle reference, not exact 2026 turret identity."
+      },
+      "originalVerificationArtifact": {
+        "path": "tmp/product-photo-fallback-intake/pars-alpha-general-cc0.jpg",
+        "bytes": 20132541,
+        "width": 7728,
+        "height": 5152,
+        "sha256": "fcd3bcf1cf51ae1cac44ca1291b45ac5c3048496e7efaa4c203823490d827661",
+        "duplicateOfExistingPhoto": true
+      },
+      "inspectionArtifact": {
+        "path": "tmp/product-photo-fallback-intake/pars-alpha-general-inspection-only.jpg",
+        "purpose": "Reduced inspection copy only; not a new photograph or proposed production asset."
+      },
+      "proposedAssociation": {
+        "productIds": [
+          "pars-alpha"
+        ],
+        "context": "reference",
+        "eventId": null
+      },
+      "suggestedCaption": "제품 참고사진 — PARS ALPHA 8×8 외부 전경. 촬영 장소·행사는 확인되지 않았으며 SAHA 2026 현장사진이 아닙니다.",
+      "suggestedSourceDateDisplay": "원문 촬영 메타데이터 2023-12-06 · 업로드 2024-09-16",
+      "changesToPreserve": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "integrationNote": "Use as a second general-product reference. The first, labeled TEBER-II image is preferable for the report's combination theme. Preserve original local WebP bytes and source metadata uncertainty."
+    }
+  ],
+  "newCandidates": [
+    {
+      "candidateId": "fallback-cobra-ii-base-idef2013",
+      "status": "ready_for_existing_general_product_reference_only",
+      "productId": "cobra-ii",
+      "companyId": "org-7b846c15951b021bf59b",
+      "existingProductPresentInEvents": [
+        "idex-2025",
+        "saha-2026"
+      ],
+      "exactPhotoModel": "COBRA II, IDEF 2013 configuration",
+      "excludedProductIds": [
+        "cobra-ii-bee-eater",
+        "tulpar-korhan"
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otokar_Cobra_2.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Otokar_Cobra_2.jpg",
+      "author": "Janissarywiki",
+      "sourceKind": "independent_photographer_convention_photo",
+      "manufacturerOfficialImage": false,
+      "sourceIds": [
+        "fallback-commons-cobra-idef2013"
+      ],
+      "rights": {
+        "status": "verified_open_license",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "basis": "The individual Commons file page explicitly dedicates this photograph under CC0; author Janissarywiki is identified.",
+        "localWebDisplay": true,
+        "printAndPdf": true,
+        "derivativesAllowed": true
+      },
+      "dateEvidence": {
+        "sourceEvent": "IDEF 2013",
+        "pageDate": "2013-05-10",
+        "exifDate": "2013-05-07T12:37",
+        "uploadedAt": "2017-02-18T14:58:00Z",
+        "caution": "Page date and camera timestamp differ. Use IDEF 2013 as context; do not silently choose one as independently verified capture date."
+      },
+      "pixelReview": {
+        "status": "pass_for_base_vehicle_only",
+        "observed": "Front-side view of a green four-wheel armored vehicle inside an exhibition hall; the source identifies COBRA II. Top-mounted turret and opened passenger door are visible. No DASAL UAV station is established. Bright overhead glare and partial turret framing limit hero-image quality."
+      },
+      "artifact": {
+        "path": "tmp/product-photo-fallback-intake/cobra-ii-idef2013-base-cc0.jpg",
+        "bytes": 299179,
+        "width": 800,
+        "height": 600,
+        "sha256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5",
+        "changes": "Downloaded original without edits."
+      },
+      "proposedAssociation": {
+        "productIds": [
+          "cobra-ii"
+        ],
+        "context": "reference",
+        "eventId": null
+      },
+      "suggestedCaption": "기반차량 참고사진 — COBRA II, IDEF 2013. IDEX 2025·SAHA 2026 현장사진이나 DASAL UAV 탑재형이 아닙니다.",
+      "integrationNote": "Existing general product cobra-ii and its organization were found in both IDEX and SAHA runtime data. This may supplement that general product's reference gallery only; preserve any existing current-event image priority. Do not fill the SAHA COBRA-DASAL report case with it.",
+      "deduplication": "The source was already listed as an unselected candidate (selectedAssetId=null) in docs/photo-research/candidates-cobra-ii.json. It has no existing operating photo record or selected asset; this is a newly downloaded original from a previously known candidate, not a newly discovered source. Existing cobra-ii-00 and cobra-ii-08 use different Commons files."
+    }
+  ],
+  "heldCandidates": [
+    {
+      "productIds": [
+        "tulpar-korhan",
+        "cobra-ii-bee-eater"
+      ],
+      "sourceIds": [
+        "fallback-otokar-saha2026",
+        "fallback-otokar-copyright"
+      ],
+      "imageUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/news/otokar-880x460.jpg?ext=.jpg",
+      "status": "link_only_permission_not_verified",
+      "reason": "Release image has no verified reuse exception; exact picture configuration was not accepted from article text alone.",
+      "downloaded": false
+    },
+    {
+      "productIds": [
+        "themis-k"
+      ],
+      "sourceIds": [
+        "fallback-milrem-themisk-post",
+        "fallback-linkedin-embed-help"
+      ],
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D22AQE-MDleqHLnrQ/feedshare-shrink_800/B4DZoAs1vFGwAk-/0/1760948347528?e=2147483647&t=qjQKlv025R-bWR5GsdAQpq39Q_GByzB_UeH1GG5Nk2E&v=beta",
+      "status": "exact_model_pixels_verified_raw_image_reuse_unverified",
+      "pixelReview": "Read remotely in memory without saving: THeMIS-K front label and Hanwha × Milrem branding visible beneath the RCWS; exhibition MUM-T wall behind. The post itself identifies ADEX 2025.",
+      "downloaded": false,
+      "alternative": "Official whole-post embed could be investigated separately. The specific post's generated embed code/settings were not obtained; general embed help is not permission to extract its raw photo or place it in PDF."
+    },
+    {
+      "productIds": [
+        "k9a3"
+      ],
+      "sourceIds": [
+        "fallback-hanwha-k9a3-post",
+        "fallback-linkedin-embed-help"
+      ],
+      "imageUrl": null,
+      "status": "multiple_photo_post_not_qualified",
+      "reason": "Exact-model text appears in an official multi-photo post, but individual K9A3 frame identity and photo reuse are unverified. LinkedIn help excludes multi-photo posts from its standard embed option."
+    },
+    {
+      "productIds": [
+        "cobra-ii"
+      ],
+      "sourceIds": [
+        "fallback-ecuador-cobra-flickr"
+      ],
+      "imageUrl": null,
+      "status": "alternate_base_vehicle_public_domain_mark_only",
+      "reason": "Official Ecuador presidency account labels the photograph Public domain; Commons' work-specific section uses PDM while structured metadata also contains CC BY-SA. No CC0 or CC BY-SA grant was established from the original; this alternative was not downloaded or promoted. The separately acquired CC0 photo has a clearer license path."
+    }
+  ],
+  "investigationRoutes": [
+    {
+      "id": "manufacturer-otokar",
+      "productIds": [
+        "tulpar-korhan",
+        "cobra-ii-bee-eater"
+      ],
+      "sourceIds": [
+        "fallback-otokar-saha2026",
+        "fallback-otokar-copyright"
+      ],
+      "finding": "Official release establishes named configurations. Website terms reserve photographs and require written permission for reuse/publication; a nonprofessional personal-copy provision is not a public-app grant.",
+      "result": "No qualifying license exception found."
+    },
+    {
+      "id": "manufacturer-fnss-press",
+      "productIds": [
+        "pars-alpha"
+      ],
+      "sourceIds": [
+        "fallback-fnss-press-signup"
+      ],
+      "finding": "Press-room registration requests identity and media details; no account created or contact sent. Two existing open-license references provide an independent route."
+    },
+    {
+      "id": "hanwha-global-media",
+      "productIds": [
+        "k9a3",
+        "themis-k"
+      ],
+      "sourceIds": [
+        "fallback-hanwha-media-assets",
+        "fallback-hanwha-media-search",
+        "fallback-hanwha-terms"
+      ],
+      "finding": "Read-only public media-search requests for K9A3 and THeMIS returned no-data markup. General site terms do not grant public image republication.",
+      "request": {
+        "method": "POST",
+        "bodyTemplate": {
+          "pageNum": 1,
+          "pageRow": 9,
+          "pageCnt": 5,
+          "searchText": "K9A3 or THeMIS",
+          "category": null,
+          "categories": null,
+          "type": null,
+          "types": null
+        }
+      },
+      "result": "No candidate from these bounded queries; not a claim that the site has no product images."
+    },
+    {
+      "id": "hanwha-us-media",
+      "productIds": [
+        "k9a3"
+      ],
+      "sourceIds": [
+        "fallback-hanwha-us-media",
+        "fallback-hanwha-us-k9-brochure"
+      ],
+      "finding": "Official media library links a K9A1/A2/A3 brochure. K9A3 wording is present, but no applicable image-reuse grant was found; any depicted render would require a render label and exact identity review.",
+      "result": "Brochure link retained; no image extracted or downloaded for publication."
+    },
+    {
+      "id": "milrem-primary",
+      "productIds": [
+        "themis-k"
+      ],
+      "sourceIds": [
+        "fallback-milrem-terms",
+        "fallback-milrem-hanwha-2026",
+        "fallback-milrem-themisk-post"
+      ],
+      "finding": "Terms page covers supplier/procurement documents, not an image license. The later cooperation release concerns general THeMIS platforms; exact THeMIS-K social post does not establish permission to extract its image.",
+      "result": "No general-platform substitution; no raw social image reused."
+    },
+    {
+      "id": "commons-public-api",
+      "productIds": [
+        "tulpar-korhan",
+        "cobra-ii-bee-eater",
+        "k9a3",
+        "themis-k"
+      ],
+      "sourceIds": [
+        "fallback-commons-api"
+      ],
+      "queries": [
+        {
+          "query": "intitle:K9A3",
+          "totalHits": 0
+        },
+        {
+          "query": "Tulpar Korhan",
+          "totalHits": 0
+        },
+        {
+          "query": "intitle:THeMIS-K",
+          "totalHits": 18,
+          "relevantTargetImages": 0,
+          "note": "Search tokenization returned unrelated books/audio/music; not 18 vehicle images."
+        },
+        {
+          "query": "Cobra DASAL",
+          "totalHits": 2,
+          "relevantTargetImages": 0
+        }
+      ],
+      "result": "No qualifying exact-configuration image in these queries; broader discovery remains possible."
+    },
+    {
+      "id": "flickr-public-search",
+      "productIds": [
+        "tulpar-korhan",
+        "k9a3",
+        "themis-k"
+      ],
+      "sourceIds": [
+        "fallback-flickr-search-tulpar",
+        "fallback-flickr-search-k9a3",
+        "fallback-flickr-search-themisk"
+      ],
+      "finding": "Public page HTML reports no results for TULPAR KORHAN or THeMIS-K. K9A3 returns 25 visible photo titles from a rugby match, not this vehicle. This does not exhaust alternate spellings or untagged albums.",
+      "inspectionArtifacts": [
+        "tmp/product-photo-fallback-intake/flickr-search-TULPAR-KORHAN.html",
+        "tmp/product-photo-fallback-intake/flickr-search-K9A3.html",
+        "tmp/product-photo-fallback-intake/flickr-search-THeMIS-K.html"
+      ]
+    },
+    {
+      "id": "hanwha-other-event",
+      "productIds": [
+        "themis-k"
+      ],
+      "sourceIds": [
+        "fallback-hanwha-bsda2026"
+      ],
+      "finding": "Later official BSDA 2026 release names THeMIS-K, but its visible lead image is explicitly a booth rendering. No exact vehicle photograph or image-permission exception was established."
+    }
+  ],
+  "sources": [
+    {
+      "id": "fallback-commons-pars-saha2024",
+      "url": "https://commons.wikimedia.org/wiki/File:FNSS_-_PARS_ALPHA_8x8.jpg",
+      "title": "File:FNSS - PARS ALPHA 8x8.jpg",
+      "publisher": "Wikimedia Commons / Ciko1213",
+      "accessedAt": "2026-11-16",
+      "scope": "Individual photograph caption, author, date and CC0 license"
+    },
+    {
+      "id": "fallback-commons-pars-general",
+      "url": "https://commons.wikimedia.org/wiki/File:PARS_ALPHA_8x8_Taktik_Tekerlekli_Z%C4%B1rhl%C4%B1_Muharebe_Arac%C4%B1.jpg",
+      "title": "File:PARS ALPHA 8x8 Taktik Tekerlekli Zırhlı Muharebe Aracı.jpg",
+      "publisher": "Wikimedia Commons / RainforestGuardian",
+      "accessedAt": "2026-11-16",
+      "scope": "Individual photograph identity, author, metadata and CC0 license"
+    },
+    {
+      "id": "fallback-otokar-saha2026",
+      "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+      "title": "Otokar Demonstrates Its Global Strength in Land Systems at SAHA 2026",
+      "publisher": "Otokar",
+      "publishedAt": "2026-05-05",
+      "accessedAt": "2026-11-16",
+      "scope": "Manufacturer configuration identification; not image-reuse permission"
+    },
+    {
+      "id": "fallback-otokar-copyright",
+      "url": "https://defense.otokar.com.tr/yasal-bilgiler/gizlilik-telif-haklari",
+      "title": "Gizlilik ve Telif Hakları",
+      "publisher": "Otokar",
+      "accessedAt": "2026-11-16",
+      "scope": "Website photographic-use restrictions"
+    },
+    {
+      "id": "fallback-fnss-press-signup",
+      "url": "https://www.fnss.com.tr/en/panel/sign-up",
+      "title": "Press room registration",
+      "publisher": "FNSS",
+      "accessedAt": "2026-11-16",
+      "scope": "Alternative media path; no account or request submitted"
+    },
+    {
+      "id": "fallback-hanwha-media-assets",
+      "url": "https://www.hanwha.com/newsroom/media-library/media-assets.do",
+      "title": "Media assets",
+      "publisher": "Hanwha",
+      "accessedAt": "2026-11-16",
+      "scope": "Official image discovery"
+    },
+    {
+      "id": "fallback-hanwha-media-search",
+      "url": "https://www.hanwha.com/newsroom/media-library/search-list-ajax.do",
+      "title": "Public media-library search endpoint",
+      "publisher": "Hanwha",
+      "accessedAt": "2026-11-16",
+      "scope": "Read-only K9A3 and THeMIS searches"
+    },
+    {
+      "id": "fallback-hanwha-terms",
+      "url": "https://www.hanwha.com/terms-conditions.do",
+      "title": "Terms & Conditions",
+      "publisher": "Hanwha",
+      "publishedAt": "2024-05-20",
+      "accessedAt": "2026-11-16",
+      "scope": "General reuse restrictions; asset-specific exception not found"
+    },
+    {
+      "id": "fallback-hanwha-us-media",
+      "url": "https://hanwhadefenseusa.com/media",
+      "title": "Media library",
+      "publisher": "Hanwha Defense USA",
+      "accessedAt": "2026-11-16",
+      "scope": "Product brochure discovery; footer reserves rights"
+    },
+    {
+      "id": "fallback-hanwha-us-k9-brochure",
+      "url": "https://hanwhadefenseusa.com/api/media/file/_K9%20SPH_Data%20Sheet.pdf?v=1791817905862",
+      "title": "K9 SPH Data Sheet",
+      "publisher": "Hanwha Defense USA",
+      "accessedAt": "2026-11-16",
+      "scope": "General A1/A2/A3 product document, not ADEX event photograph or reuse grant"
+    },
+    {
+      "id": "fallback-milrem-terms",
+      "url": "https://milremrobotics.com/terms-policies/",
+      "title": "Terms and policies",
+      "publisher": "Milrem Robotics",
+      "accessedAt": "2026-11-16",
+      "scope": "Procurement terms; not an image license"
+    },
+    {
+      "id": "fallback-milrem-hanwha-2026",
+      "url": "https://milremrobotics.com/hanwha-and-milrem-robotics-expand-cooperation-on-unmanned-ground-systems-in-south-korea-australia-and-new-zealand/",
+      "title": "Hanwha and Milrem Robotics expand cooperation on unmanned ground systems",
+      "publisher": "Milrem Robotics",
+      "publishedAt": "2026-10-07",
+      "accessedAt": "2026-11-16",
+      "scope": "Later generic THeMIS cooperation; not exact K-variant photo evidence"
+    },
+    {
+      "id": "fallback-milrem-themisk-post",
+      "url": "https://www.linkedin.com/posts/milremrobotics_milremrobotics-adex2025-activity-7385952703514030080-4StO",
+      "title": "THeMIS-K at ADEX 2025",
+      "publisher": "Milrem Robotics / LinkedIn",
+      "accessedAt": "2026-11-16",
+      "scope": "Exact-model discovery; no permission to extract and republish image verified"
+    },
+    {
+      "id": "fallback-commons-api",
+      "url": "https://commons.wikimedia.org/w/api.php",
+      "title": "Wikimedia Commons public search API",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "scope": "Bounded exact-model discovery; individual file licenses still required"
+    },
+    {
+      "id": "fallback-commons-cobra-idef2013",
+      "url": "https://commons.wikimedia.org/wiki/File:Otokar_Cobra_2.jpg",
+      "title": "File:Otokar Cobra 2.jpg",
+      "publisher": "Wikimedia Commons / Janissarywiki",
+      "accessedAt": "2026-11-16",
+      "scope": "Individual CC0 photograph of general COBRA II; not DASAL integration"
+    },
+    {
+      "id": "fallback-linkedin-embed-help",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a529065",
+      "title": "Availability of your content off LinkedIn",
+      "publisher": "LinkedIn",
+      "accessedAt": "2026-11-16",
+      "scope": "Native public-post embedding; multi-photo posts excluded; no raw-image extraction grant"
+    },
+    {
+      "id": "fallback-hanwha-k9a3-post",
+      "url": "https://kr.linkedin.com/posts/hanwha-aerospace-global_%ED%95%9C%ED%99%94%EC%97%90%EC%96%B4%EB%A1%9C%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-hanwhaaerospace-adex2025-activity-7386018032696905728-AcXc",
+      "title": "Hanwha Aerospace ADEX 2025 multi-photo post",
+      "publisher": "Hanwha Aerospace / LinkedIn",
+      "accessedAt": "2026-11-16",
+      "scope": "K9A3 discovery only; no raw-image use permission"
+    },
+    {
+      "id": "fallback-ecuador-cobra-flickr",
+      "url": "https://www.flickr.com/photos/presidenciaecuador/53181222288/",
+      "title": "Entrega de vehículos COBRA II, Quito, 11 September 2023",
+      "publisher": "Presidencia de la República del Ecuador / Jonathan Miranda",
+      "accessedAt": "2026-11-16",
+      "scope": "Alternative base-vehicle photograph; Public Domain Mark rather than an explicit CC0/BY license"
+    },
+    {
+      "id": "fallback-flickr-search-tulpar",
+      "url": "https://www.flickr.com/search/?text=TULPAR%20KORHAN",
+      "title": "Public photo search: TULPAR KORHAN",
+      "publisher": "Flickr",
+      "accessedAt": "2026-11-16",
+      "scope": "Discovery only"
+    },
+    {
+      "id": "fallback-flickr-search-k9a3",
+      "url": "https://www.flickr.com/search/?text=K9A3",
+      "title": "Public photo search: K9A3",
+      "publisher": "Flickr",
+      "accessedAt": "2026-11-16",
+      "scope": "Discovery only; retrieved titles were rugby photographs"
+    },
+    {
+      "id": "fallback-flickr-search-themisk",
+      "url": "https://www.flickr.com/search/?text=THeMIS-K",
+      "title": "Public photo search: THeMIS-K",
+      "publisher": "Flickr",
+      "accessedAt": "2026-11-16",
+      "scope": "Discovery only"
+    },
+    {
+      "id": "fallback-hanwha-bsda2026",
+      "url": "https://www.hanwha.com/newsroom/news/press-releases/hanwha-showcases-unmanned-and-ai-capabilities-at-bsda-2026-to-advance-european-partnerships.do",
+      "title": "Hanwha showcases unmanned and AI capabilities at BSDA 2026",
+      "publisher": "Hanwha",
+      "publishedAt": "2026-05-14",
+      "accessedAt": "2026-11-16",
+      "scope": "Other-event discovery; lead image labeled booth rendering"
+    }
+  ],
+  "validation": {
+    "packetCheck": {
+      "status": "PASS",
+      "method": "node JSON.parse + unique source-ID/reference walk + crypto SHA256 comparison + runtime product/organization lookup",
+      "sources": 22,
+      "hashesChecked": 5,
+      "existingReferenceImages": 2,
+      "newBaseVehicleImages": 1,
+      "newExactTargetImages": 0
+    },
+    "canonicalSourceDeduplication": "PASS: both ready photographs match data/photos.json source URLs exactly.",
+    "existingWebpHashes": "PASS: both local SHA256 values match their existing photo records.",
+    "pixelReview": "PASS: downloaded originals/inspection copy and both existing WebPs inspected.",
+    "newImageCountCorrection": "PASS: original downloads counted as revalidation only, not new unique assets.",
+    "productIdentity": "PASS: five target IDs/owners and the additional general cobra-ii ID/owner verified in current runtime. PARS ALPHA body/turret label supports the first reference; the second supports general PARS ALPHA only. New COBRA II photo stays with the existing general product.",
+    "originalHashes": "PASS: both PARS originals and the new COBRA II original were hashed; an initial transcription error in the second PARS hash was corrected from the actual file hash.",
+    "runtimeBaseline": "Both canonical runtime photos have productIds=[] and legacy_unreviewed rights; parent to apply only these individually supported references.",
+    "sourceWordBudget": "Notes are brief, and no performance/specification prose is reproduced. Per-source derived text is limited to 200 words; quoted prose is avoided.",
+    "operatingFilesChanged": false,
+    "buildAndTests": "Not run: research-only packet and intake artifacts; parent owns integration validation."
+  },
+  "limitations": [
+    "Four target products still lack a newly qualified exact-model fallback photograph.",
+    "No claim that all available photographs or all 3,685 exhibitors were searched.",
+    "General product references do not change current exhibit/attendance status.",
+    "Community CC0 references are not described as manufacturer photographs.",
+    "Web/PDF permission follows the individual image license; provider-embed-only permission would not authorize a local copy or PDF image."
+  ],
+  "integrationResult": {
+    "asOf": "2026-11-16",
+    "status": "integrated_and_browser_verified",
+    "existingReferencesMapped": 2,
+    "newReferenceAssets": 1,
+    "productIds": [
+      "pars-alpha",
+      "cobra-ii"
+    ],
+    "eventContextUnchanged": true,
+    "reportReferenceProduct": "pars-alpha",
+    "pdfResavePending": true,
+    "evidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json"
+  }
+}

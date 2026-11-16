@@ -11,6 +11,21 @@ const [publicData,registry,taxonomy,mapDisplay]=await Promise.all([read('data/v2
 const output=compileAppData({publicData,registry,taxonomy,mapDisplay});
 const adex=output.events['adex-2025'];
 
+test('the misidentified MBDA photograph is preserved as a correction record and excluded from EO evidence',async()=>{
+  const bundle=await read('data/v2/research/adex-2025/mission-systems.json');
+  const item=bundle.cases.find(item=>item.organizationId==='org-e843c1da4f4efc81c4ca');
+  const id='photo-adex25-eo-booth-motoya',company=adex.companies.find(company=>company.id===item.organizationId);
+  assert.ok(!item.photos.some(photo=>photo.id===id));
+  assert.ok(!company.photoIds.includes(id));
+  const correction=item.excludedPhotos.find(photo=>photo.id===id);
+  assert.equal(correction.originalRecord.id,id);
+  assert.match(correction.correctedCaption,/MBDA/);
+  const source=item.sources.find(source=>source.id==='eo-field');
+  assert.match(source.support,/참가업체명/);
+  assert.match(source.limitations,/이오시스템 제품 사진이 아니다/);
+  assert.ok(item.photos.some(photo=>photo.id==='photo-adex25-eo-raptor-use'));
+});
+
 test('manual selection keeps the tour position aligned with the visible company or ends the tour',()=>{
   const mapped=adex.companies.filter(company=>company.mapBoothIds.length);
   const data={...adex,editorials:mapped.slice(0,3).map(company=>({organizationId:company.id}))};
@@ -79,6 +94,22 @@ test('all matching image angles remain available and other-edition photos are no
     assert.ok(photos.every(p=>['event','reference'].includes(p.context)));
   }
   assert.ok(adex.photos.some(p=>p.context==='reference'));
+});
+
+test('reference-photo URLs retain the product gallery on reload and exclude other equipment',()=>{
+ const data={event:{id:'saha-2026'},companies:[{id:'company',productIds:['p','q'],photoIds:['q-field','p-linked','p-ref','q-ref']}],products:[{id:'p'},{id:'q'}],photos:[
+  {id:'q-field',context:'event',src:'assets/q.jpg',productIds:['q']},
+  {id:'p-linked',context:'event',src:null,delivery:'linked',productIds:['p']},
+  {id:'p-ref',context:'reference',src:'assets/p.jpg',productIds:['p']},
+  {id:'q-ref',context:'reference',src:'assets/q-reference.jpg',productIds:['q']}
+ ]};
+ const company=data.companies[0],expected=productPhotos(data,company,data.products[0]);
+ const state=patchState(DEFAULT_STATE,{route:'company',event:'saha-2026',company:'company',product:'p',photo:'p-ref'});
+ for(const selection of [state,parseState(serializeState(state))]){
+  const actual=getPhotoViewerSelection(data,selection);assert.equal(actual.productId,'p');
+  assert.deepEqual(actual.photos.map(photo=>photo.id),expected.map(photo=>photo.id));
+  assert.equal(actual.photos[actual.index].id,'p-ref');assert.equal(actual.photos.length,2);
+ }
 });
 
 test('URL-selected equipment galleries exclude other products and references but retain their own linked photos',()=>{
@@ -163,6 +194,7 @@ test('optional product narratives enrich only an existing product and its own ev
 test('reviewed source metadata enriches a legacy URL without losing restrictions or mutating inputs',()=>{
   const narrative=narrativeFixture(),reviewed=narrative.sources[0];
   reviewed.limitations=['전시 발표이며 납품 완료 근거가 아니다.\r\n사진만으로 성능을 확인하지 않는다.'];
+  reviewed.note=['사진만으로 성능을 확인하지 않는다.','원격 표시만 확인했으며 재배포 허가는 아니다.'];
   narrative.sources.push(structuredClone(reviewed),structuredClone(reviewed));
   reviewed.independence='primary_single_origin';
   const legacy={id:reviewed.id,url:reviewed.url,title:reviewed.url,publisher:null,publishedAt:null,limitations:'기존 사진의 형상 식별은 미확인이다.'};
@@ -171,7 +203,7 @@ test('reviewed source metadata enriches a legacy URL without losing restrictions
   const source=event.sources.find(source=>source.id===reviewed.id);
   assert.equal(source.title,reviewed.title);assert.equal(source.publisher,reviewed.publisher);
   assert.equal(source.publishedAt,reviewed.publishedAt);assert.equal(source.evidenceStatus,'single_source');
-  assert.deepEqual(source.note.split('\n'),[legacy.limitations,'전시 발표이며 납품 완료 근거가 아니다.','사진만으로 성능을 확인하지 않는다.']);
+  assert.deepEqual(source.note.split('\n'),[legacy.limitations,'전시 발표이며 납품 완료 근거가 아니다.','사진만으로 성능을 확인하지 않는다.','원격 표시만 확인했으며 재배포 허가는 아니다.']);
   assert.deepEqual(input,before);
   legacy.title='기존 원문 제목';legacy.publisher='기존 발행자';
   const retained=withNarratives([narrative],{publicData:input}).events[adex.event.id].sources.find(source=>source.id===reviewed.id);

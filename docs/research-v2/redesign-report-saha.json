@@ -37,7 +37,7 @@
     },
     {
       "title": "같은 조합의 전시 연속성",
-      "summary": "PARS ALPHA·TEBER-II는 2024 사전 발표와 2026 제조사 회고에 모두 등장한다. 같은 명칭만으로 세부 형상의 동일성은 확정할 수 없다.",
+      "summary": "2024 예고와 2026 회고에 PARS ALPHA·TEBER-II가 등장한다. 세부 형상까지 같다는 근거는 없다.",
       "companyId": "org-2dffde2d6bd01e4eaf2d",
       "productId": "pars-alpha",
       "photoId": "",
@@ -52,9 +52,9 @@
   ],
   "interpretation": "전시 구성에 따른 해석: 새로운 탑재 조합과 기존 조합의 재등장이 함께 보인다. 이번 사례만으로 행사 전체의 기술 진보나 군 채택 성과를 판단하지 않는다.",
   "limitations": [
-    "현재 세 사례 모두 표시·재사용 조건까지 확인한 해당 회차 사진이 없다.",
+    "세 사례 모두 해당 회차 표시 가능한 사진이 없다. PARS ALPHA는 2024 참고사진을 함께 제시한다.",
     "제조사 설명과 행사 매체의 재인용을 독립 성능 검증으로 집계하지 않는다.",
-    "TULPAR의 다른 포탑형, 일반 PARS ALPHA 사진을 이번 전시형 사진으로 대체하지 않는다."
+    "참고사진은 2026 전시 형상·개선·성능의 증거가 아니다."
   ],
   "sourceIds": [
     "report-saha-otokar-2024",
@@ -147,12 +147,20 @@
       "goal": "기존 세 제품의 이번 전시 구성을 직전 회차 자료와 제한적으로 비교한다.",
       "writeScope": "docs/research-v2/redesign-report-saha.json만 작성",
       "impact": "기존 회사·제품·사진·출품 상태 및 src/data 변경 없음",
-      "risks": ["사전 발표를 현장 관찰로 승격", "목록 누락으로 부재 단정", "다른 회차 참고사진 혼용", "재사용권 미확정 사진 표시"],
+      "risks": [
+        "사전 발표를 현장 관찰로 승격",
+        "목록 누락으로 부재 단정",
+        "다른 회차 참고사진 혼용",
+        "재사용권 미확정 사진 표시"
+      ],
       "verification": "공식 본문/행사 매체 대조, JSON 구문, 기존 회사·제품 소유 관계와 출처 참조 검사"
     },
     "sourceChecks": [
       {
-        "sourceIds": ["report-saha-otokar-2024", "research-es-otokar-saha-2026"],
+        "sourceIds": [
+          "report-saha-otokar-2024",
+          "research-es-otokar-saha-2026"
+        ],
         "result": "공식 본문·발행일 열람. 공개 구성 명칭만 요약하고 운용 수치·성능 주장은 보고에서 제외.",
         "comparisonDisposition": "COBRA II의 탑재 구성만 비교. TULPAR의 2024 부재 또는 2026 최초 공개 주장은 하지 않음."
       },
@@ -171,7 +179,10 @@
         "comparisonDisposition": "행사 후 제조사 기록으로 사용하며 독립 취재·전수 검증으로 집계하지 않음."
       },
       {
-        "sourceIds": ["report-saha-showdaily-day3", "report-saha-showdaily-day2"],
+        "sourceIds": [
+          "report-saha-showdaily-day3",
+          "report-saha-showdaily-day2"
+        ],
         "result": "공식 행사 웹사이트가 제공한 24쪽 PDF 각각의 관련 기사 텍스트 확인.",
         "comparisonDisposition": "관련 조합 명칭의 보조 대조. 제공자 발표와의 실질적 독립성은 일부 제한됨. 사진 픽셀·사용권 검증 미완료."
       }

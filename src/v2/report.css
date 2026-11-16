@@ -40,3 +40,5 @@
  .report-interpretation{font-size:13px;line-height:1.5}
  .report-sheet-footer{padding-top:8px}
 }
+@media print{.event-report-print-root .report-photo-reference{height:45mm;box-sizing:border-box;background:#edf0ed;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:4mm;gap:2mm;font-size:11pt;color:#61716e}.event-report-print-root .report-photo-reference small{font-size:8pt}}
+.report-sheet-heading h1{word-break:keep-all;overflow-wrap:anywhere}

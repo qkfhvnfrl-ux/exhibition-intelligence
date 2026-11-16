@@ -246,12 +246,12 @@
       "reviewStatus": "reviewed_case",
       "reason": "차내 상호통화·배선·회전 접속부품은 지휘소와 의무후송 차량의 임무장비 연결에 관련됩니다. 항공·우주용 부품은 차량 적합성을 따로 확인합니다.",
       "highlights": [
-        "VIC-7DK는 기관의 전시 결과보고로 확인했습니다.",
+        "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
         "커넥터·전선·슬립링·EMA도 각각 기록했습니다.",
         "독립 부스와 DTaQ 공동 전시를 분리했습니다."
       ],
       "exhibit": {
-        "summary": "VIC-7DK 공동 전시와 자사 부스의 부품군 소개를 함께 확인했습니다. 슬립링 10여종은 이름이 불명확해 하나의 제품군으로 등록하며 개수를 임의 확장하지 않습니다.",
+        "summary": "공동관 출품품으로 VIC-7DK를 명시했다. 자사 부스의 부품군은 회사 자료에서 확인했다. 슬립링 10여종은 이름이 불명확해 하나의 제품군으로 등록하며 개수를 임의 확장하지 않습니다.",
         "items": [
           {
             "productId": "adex25-yeonhab-qpl-connectors",
@@ -302,7 +302,7 @@
             "productId": "adex25-yeonhab-vic7dk",
             "name": "VIC-7DK 전투차량용 상호통화기 세트",
             "status": "onsite_report_confirmed",
-            "form": "국방기술품질원 공동 전시품·개별 사진 식별 미완료",
+            "form": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
             "sourceIds": [
               "dtaq-onsite",
               "dapa-leaflet"
@@ -327,7 +327,7 @@
         ]
       },
       "direction": {
-        "observation": "자사 부품 전시와 기관의 품질인증 제품 전시에 모두 나타납니다.",
+        "observation": "공동관 출품품으로 VIC-7DK를 명시했다. 자사 부품 전시는 회사 자료에서 확인했다.",
         "interpretation": "부품 공급과 인증 제품 홍보를 병행한 구성으로 읽힙니다. 공동관 참가를 계열사 관계로 해석하지 않습니다.",
         "sourceIds": [
           "yeonhab-report",
@@ -379,7 +379,7 @@
           "role": "institutional_onsite_report",
           "originGroup": "dapa-dtaq-adex2025",
           "support": "통합홍보관에서 연합정밀 VIC-7DK 실제 전시를 명시",
-          "limitations": "전시 주체의 결과보고입니다. 작성자와 사진 촬영자는 동일인으로 추정하지 않습니다.",
+          "limitations": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
           "independence": "primary_institutional_observation",
           "eventId": "adex-2025",
           "checkedAt": "2026-11-11"
@@ -442,7 +442,7 @@
           "sourceIds": [
             "dtaq-onsite"
           ],
-          "variantNote": "공동 전시 맥락 사진이며 모든 개별 제품의 모델을 식별한 것은 아닙니다. 게시일 2025-11-10, 촬영일 미기재. VIC-7DK의 출품은 기사 본문에서 별도로 확인했습니다."
+          "variantNote": "공동 전시 맥락 사진이며 모든 개별 제품의 모델을 식별한 것은 아닙니다. 게시일 2025-11-10, 촬영일 미기재. 공동관 출품품으로 VIC-7DK를 명시했다."
         }
       ],
       "catalogs": [],

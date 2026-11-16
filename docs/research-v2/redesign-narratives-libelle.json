@@ -1,0 +1,137 @@
+{
+  "asOf": "2026-11-16",
+  "narratives": [
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-2d90c23ed374de2c2c80",
+      "productId": "idex25-diehl-libelle",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "LIBELLE 대전차체계 전시품이다. 현장 명판에 제품명과 용도가 적혀 있다.",
+          "sourceIds": [
+            "idex25-libelle-commons"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "세로 받침대 위에 단품을 제시했다. 사진으로 확인한 외형이며 세부 사양은 미확인이다.",
+          "sourceIds": [
+            "idex25-libelle-commons"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "Diehl 부스에서 명판과 단품 전시를 확인했다. 이 사진에는 차량 탑재 상태가 보이지 않는다.",
+          "sourceIds": [
+            "idex25-libelle-commons"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "제조사는 2023년 전시 안내에서 단품과 MRZR-D4 차량 탑재형을 함께 제시할 계획을 밝혔다. IDEX 2025 차량 출품이나 양산 완료를 입증하지 않는다.",
+          "sourceIds": [
+            "diehl-libelle-enforce2023"
+          ],
+          "claimType": "general_product"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 단품과 명판으로 제품 개념을 설명하는 구성으로 읽힌다. 차량 전체 체계를 보여주는 전시와 구분해서 볼 사례다.",
+          "sourceIds": [
+            "idex25-libelle-commons"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "idex25-libelle-commons"
+      ],
+      "generalSourceIds": [
+        "diehl-libelle-enforce2023"
+      ],
+      "photoIds": [
+        "idex25-libelle-event-01"
+      ],
+      "form": "명판 확인 · 단품 전시 · 실물/모형 구분 미확인",
+      "limitations": [
+        "단품 외관만 확인했다. 실물·모형 구분, 작동 상태와 제작 단계는 미확인이다.",
+        "2023년 차량 탑재 소개와 IDEX 2025의 단품 사진은 별개 근거다."
+      ],
+      "sources": [
+        {
+          "id": "idex25-libelle-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Diehl_Libelle_at_IDEX_2025.jpg",
+          "title": "IDEX 2025 LIBELLE 현장사진",
+          "publisher": "Mztourist / Wikimedia Commons",
+          "publishedAt": "2025-02-22",
+          "eventEditionId": "idex-2025",
+          "edition": 2025,
+          "role": "independent_event_photo",
+          "originGroup": "mztourist-idex2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-19, 업로드일 2025-02-22. 명판과 Diehl 부스 외관을 대조했다. 단일 사진이며 작동·성능·실물/모형 구분을 확인하지 않는다.",
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "diehl-libelle-enforce2023",
+          "url": "https://new.diehl.com/defence/en/press-media/news/diehl-defence-at-enforce-tac-2023",
+          "title": "Diehl Defence Enforce Tac 2023 전시 안내 — 일반 배경",
+          "publisher": "Diehl Defence",
+          "publishedAt": "2023-02-24",
+          "role": "manufacturer_other_event_background",
+          "originGroup": "diehl-enforce2023",
+          "independence": "primary_single_origin",
+          "limitations": "다른 회차의 사전 안내다. IDEX 2025 차량 탑재 전시·개발 완료·성능의 근거로 사용하지 않는다.",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "draft_for_independent_review",
+    "sourceChecks": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Diehl_Libelle_at_IDEX_2025.jpg",
+        "method": "Commons imageinfo API metadata plus original pixel inspection",
+        "findings": "Mztourist, 2025-02-19, CC BY4.0,1200x1600. LIBELLE Anti-Tank-System 명판과 Diehl 부스 확인."
+      },
+      {
+        "url": "https://new.diehl.com/defence/en/press-media/news/diehl-defence-at-enforce-tac-2023",
+        "method": "Official page direct read",
+        "findings": "2023-02-24 다른회차사전안내, 단품과 MRZR-D4 차량형제시계획. IDEX2025근거에서제외."
+      },
+      {
+        "url": "https://bdsv-exhibitions.eu/show/idex-2025/702",
+        "method": "Official exhibitor directory direct read",
+        "findings": "Germany in company address; adds known country only, not attendance or map geometry."
+      }
+    ],
+    "newImageDownloads": 1,
+    "newDisplayAssets": 1,
+    "originalBytes": 447385,
+    "originalSha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a",
+    "displaySha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a",
+    "transform": "none",
+    "preserved": [
+      "existing company identity",
+      "attendanceStatus",
+      "booths and map geometries",
+      "all existing product/photo identities"
+    ],
+    "independentReview": "PASS: original Commons GET/author/license/date/hash/pixel plus manufacturer other-event scope and BDSV Germany rechecked by independent agent.",
+    "remaining": [
+      "단품 외관만 확인했다. 실물·모형 구분, 작동 상태와 제작 단계는 미확인이다.",
+      "2023년 차량 탑재 소개와 IDEX 2025의 단품 사진은 별개 근거다."
+    ]
+  }
+}

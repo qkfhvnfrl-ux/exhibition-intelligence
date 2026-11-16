@@ -1,0 +1,1534 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-16",
+  "status": "completed_bounded_review_not_integrated",
+  "scope": "Existing data/photos.json reference photographs with no explicit productIds. PARS ALPHA and COBRA II work is excluded. Inventory-level triage is not a fresh audit of all images.",
+  "plan": {
+    "goal": "Identify individually verified product-reference mappings for at most five products while preserving current-event photo priority.",
+    "writeFiles": [
+      "docs/research-v2/redesign-reference-photo-next-queue.json"
+    ],
+    "impact": "Follow-up research queue only; no operating data, code, images, IDs, statuses or commits changed.",
+    "risks": [
+      "equipmentId mistaken for verified product identity",
+      "Source filename mistaken for depicted variant",
+      "Current-event and reference photographs merged",
+      "Existing files counted as new image acquisitions"
+    ],
+    "verification": [
+      "Read project state and source registry",
+      "Fresh per-photo primary rights/date/identity checks",
+      "Inspect 16 existing image files",
+      "Validate source/photo/product IDs and hashes"
+    ]
+  },
+  "counts": {
+    "allReferencePhotos": 53,
+    "excludedCompletedReferencePhotos": 4,
+    "inventoryPhotos": 49,
+    "inventoryProducts": 12,
+    "deepReviewedPhotos": 16,
+    "deepReviewedProducts": 5,
+    "readyReferenceMappings": 13,
+    "qualifiedPrototypeMappingsIncluded": 2,
+    "rejectedMappings": 3,
+    "productsWithReadyReferenceMapping": 4,
+    "newUniqueImages": 0,
+    "downloadedImages": 0,
+    "operatingFilesChanged": 0,
+    "newSameEventPhotos": 0
+  },
+  "definitions": {
+    "readyReference": "Matches the existing general/named product at the stated source granularity; never verifies current-event configuration.",
+    "qualifiedPrototype": "Source labels the pictured prototype, but exact subtype is not established by a readable model plate. Use only the qualified caption and date limitations.",
+    "rejected": "Usage rights may be valid, but the depicted model differs from or does not prove the target product.",
+    "inventoryOnly": "Triage uses existing notes only; no fresh rights/pixel completion claim."
+  },
+  "baselineReviewed": [
+    "../PROJECT_STATE.md",
+    "../TASKS.md",
+    "../DECISIONS.md",
+    "../EVIDENCE.md",
+    "../CHANGELOG.md",
+    "data/photos.json",
+    "data/v2/app/events/*.json"
+  ],
+  "products": [
+    {
+      "priority": 1,
+      "productId": "boxer-miv",
+      "records": [
+        {
+          "eventId": "dsei-2025",
+          "organizationIds": [
+            "org-a194a3130ae22367477e"
+          ],
+          "name": "BOXER MIV",
+          "form": null,
+          "exhibitStatus": "unconfirmed",
+          "hasNarrative": false,
+          "eventPhotoIds": []
+        }
+      ],
+      "reason": "Five UK MIV trial/demonstration photographs can fill the current reference gap. Seven German/common-family photos are kept unlinked.",
+      "limitation": "Do not infer a DSEI 2025 configuration or treat German internal modules as British MIV.",
+      "readyLegacyPhotoIds": [
+        "boxer-miv-00",
+        "boxer-miv-18",
+        "boxer-miv-19",
+        "boxer-miv-21",
+        "boxer-miv-22"
+      ],
+      "heldLegacyPhotoIds": [],
+      "preserveEventPhotoPriority": true,
+      "implementationStatus": "not_integrated"
+    },
+    {
+      "priority": 2,
+      "productId": "leopard-2a8",
+      "records": [
+        {
+          "eventId": "eurosatory-2026",
+          "organizationIds": [
+            "org-a7f46a7e877193b3e57d"
+          ],
+          "name": "LEOPARD 2 A8",
+          "form": null,
+          "exhibitStatus": "unconfirmed",
+          "hasNarrative": false,
+          "eventPhotoIds": []
+        }
+      ],
+      "reason": "Two source-identified 2A8/prototype photographs may serve as qualified references; one 2A7A1 photo is rejected.",
+      "limitation": "Both accepted captions must retain source attribution and prototype/date uncertainty.",
+      "readyLegacyPhotoIds": [
+        "leopard-2a8-04",
+        "leopard-2a8-02"
+      ],
+      "heldLegacyPhotoIds": [
+        "leopard-2a8-07"
+      ],
+      "preserveEventPhotoPriority": true,
+      "implementationStatus": "not_integrated"
+    },
+    {
+      "priority": 3,
+      "productId": "tulpar",
+      "records": [
+        {
+          "eventId": "idex-2025",
+          "organizationIds": [
+            "org-7b846c15951b021bf59b"
+          ],
+          "name": "TULPAR",
+          "form": null,
+          "exhibitStatus": "unconfirmed",
+          "hasNarrative": false,
+          "eventPhotoIds": []
+        },
+        {
+          "eventId": "saha-2026",
+          "organizationIds": [
+            "org-7b846c15951b021bf59b"
+          ],
+          "name": "TULPAR",
+          "form": null,
+          "exhibitStatus": "unconfirmed",
+          "hasNarrative": false,
+          "eventPhotoIds": []
+        }
+      ],
+      "reason": "One clearly labeled TULPAR/MIZRAK 30 photograph fits the existing general TULPAR product in two event views.",
+      "limitation": "Never connect this MIZRAK 30 photo to tulpar-korhan.",
+      "readyLegacyPhotoIds": [
+        "tulpar-00"
+      ],
+      "heldLegacyPhotoIds": [],
+      "preserveEventPhotoPriority": true,
+      "implementationStatus": "not_integrated"
+    },
+    {
+      "priority": 4,
+      "productId": "patria-6x6",
+      "records": [
+        {
+          "eventId": "dsei-2025",
+          "organizationIds": [
+            "org-b2e821937e2348e31631"
+          ],
+          "name": "Patria 6×6",
+          "form": "제조사 현장사진 · 서로 다른 6×6 전시 형상",
+          "exhibitStatus": "exhibitor_event_photo_confirmed",
+          "hasNarrative": true,
+          "eventPhotoIds": [
+            "dsei25-patria-6x6-c4",
+            "dsei25-patria-6x6-cavs"
+          ]
+        }
+      ],
+      "reason": "Five existing licensed photographs broaden general 6x6 visual coverage after the two current-event manufacturer photographs.",
+      "limitation": "Country configurations remain labeled; preserve current C4/CAVS event-photo priority.",
+      "readyLegacyPhotoIds": [
+        "patria-6x6-00",
+        "patria-6x6-01",
+        "patria-6x6-02",
+        "patria-6x6-04",
+        "patria-6x6-08"
+      ],
+      "heldLegacyPhotoIds": [],
+      "preserveEventPhotoPriority": true,
+      "implementationStatus": "not_integrated"
+    },
+    {
+      "priority": 5,
+      "productId": "k2pl",
+      "records": [
+        {
+          "eventId": "adex-2025",
+          "organizationIds": [
+            "org-bb5b014b7abb0359c75b"
+          ],
+          "name": "K2PL",
+          "form": "현장 전시품 확인 · 제조사 ‘실물’/현장기사 ‘실물 모형’ 표현 충돌",
+          "exhibitStatus": "event_photo_confirmed",
+          "hasNarrative": true,
+          "eventPhotoIds": [
+            "photo-f27315794918d9b8ddce"
+          ]
+        }
+      ],
+      "reason": "Review prevents two tempting K2-family photos from being mislabeled K2PL. Existing confirmed ADEX photo remains first.",
+      "limitation": "Neither reviewed photo solves a K2PL picture gap; keep productIds empty for these references.",
+      "readyLegacyPhotoIds": [],
+      "heldLegacyPhotoIds": [
+        "k2pl-23",
+        "k2pl-05"
+      ],
+      "preserveEventPhotoPriority": true,
+      "implementationStatus": "not_integrated"
+    }
+  ],
+  "deepReviewedPhotos": [
+    {
+      "legacyPhotoId": "boxer-miv-00",
+      "runtimePhotoIds": [
+        "photo-3bab6a6d3d461b5e7454"
+      ],
+      "sourceIds": [
+        "source-5f957862458ed07ed895"
+      ],
+      "reviewSourceIds": [
+        "reference-boxer-miv-00"
+      ],
+      "targetProductId": "boxer-miv",
+      "existingSrc": "assets/photos/boxer-miv-00.webp",
+      "existingSha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a",
+      "bytes": 351440,
+      "width": 1600,
+      "height": 1067,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_Mechanised_Infantry_Vehicle_of_the_British_Army.jpg",
+      "existingProductIds": [],
+      "classification": "same_named_product_past_trial",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "boxer-miv"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Jack Eckersley / UK Ministry of Defence / © Crown copyright",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Commons license section grants OGL v1.0; embedded MOD usage terms link OGL v3.0. Both evidence paths identify OGL publication, but preserve this version discrepancy. Retain the recorded v1.0 basis until a deliberate source correction; do not treat this as CC0.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2023-07-10 23:19:38",
+        "reviewedDate": "2023-07-10",
+        "uploadDate": "2024-02-27",
+        "note": "Description and DateTimeOriginal identify 2023-07-10. A different DateTimeDigitized is not the capture date."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Eight-wheeled vehicle in an outdoor trial setting; source identifies British MIV trials at Millbrook. No DSEI 2025 identification."
+      },
+      "suggestedCaption": "제품 참고사진 — 영국 BOXER MIV, Millbrook 시험(2023). DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "metadataCorrection": "Existing photographer-unknown credit can be replaced with Jack Eckersley, explicitly named in the image metadata. No camera-time precision is needed in the visible caption.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "boxer-miv-18",
+      "runtimePhotoIds": [
+        "photo-e0d3676bc8e97ce0194b"
+      ],
+      "sourceIds": [
+        "source-95b5815f1d98ab6b13af"
+      ],
+      "reviewSourceIds": [
+        "reference-boxer-miv-18"
+      ],
+      "targetProductId": "boxer-miv",
+      "existingSrc": "assets/photos/boxer-miv-18.webp",
+      "existingSha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6",
+      "bytes": 212806,
+      "width": 1600,
+      "height": 1067,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_2.jpg",
+      "existingProductIds": [],
+      "classification": "same_named_product_earlier_demonstrator",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "boxer-miv"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Jack Eckersley",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Commons public imageinfo API reconfirmed Jack Eckersley, OGL v1.0 and individual MOD image source credit. Keep Crown copyright attribution and licence link.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2019-10-25 13:45:09",
+        "reviewedDate": "2019-10-25",
+        "uploadDate": null,
+        "note": "Photo metadata is 2019-10-25; source describes ACPD held 2019-10-28–30. Treat as 2019 ACPD-associated imagery, not proof that the photograph was taken during the public event dates."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Rear-quarter view; BOXER plate, RBSL mark and Union Jack rear-door graphic visible. Source names MIV/2019 ACPD."
+      },
+      "suggestedCaption": "제품 참고사진 — 영국 BOXER MIV 시연차의 후면 사선, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "boxer-miv-19",
+      "runtimePhotoIds": [
+        "photo-8b2c22f6f3b6d39d1ba0"
+      ],
+      "sourceIds": [
+        "source-0efb766b007b62cca6ce"
+      ],
+      "reviewSourceIds": [
+        "reference-boxer-miv-19"
+      ],
+      "targetProductId": "boxer-miv",
+      "existingSrc": "assets/photos/boxer-miv-19.webp",
+      "existingSha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f",
+      "bytes": 597506,
+      "width": 1600,
+      "height": 1067,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_11.jpg",
+      "existingProductIds": [],
+      "classification": "same_named_product_earlier_demonstrator",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "boxer-miv"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Jack Eckersley",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Commons public imageinfo API reconfirmed Jack Eckersley, OGL v1.0 and individual MOD image source credit. Keep Crown copyright attribution and licence link.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2019-10-25 13:29:30",
+        "reviewedDate": "2019-10-25",
+        "uploadDate": null,
+        "note": "Photo metadata is 2019-10-25; source describes ACPD held 2019-10-28–30. Treat as 2019 ACPD-associated imagery, not proof that the photograph was taken during the public event dates."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Closer rear-quarter view with BOXER plate, RBSL mark and Union Jack graphic; photographed beside trees/buildings."
+      },
+      "suggestedCaption": "제품 참고사진 — 영국 BOXER MIV 시연차의 후면, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "boxer-miv-21",
+      "runtimePhotoIds": [
+        "photo-3448c374bc6377c4ef10"
+      ],
+      "sourceIds": [
+        "source-df08d809d5ffda92f52b"
+      ],
+      "reviewSourceIds": [
+        "reference-boxer-miv-21"
+      ],
+      "targetProductId": "boxer-miv",
+      "existingSrc": "assets/photos/boxer-miv-21.webp",
+      "existingSha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6",
+      "bytes": 267276,
+      "width": 1600,
+      "height": 1067,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_5.jpg",
+      "existingProductIds": [],
+      "classification": "same_named_product_earlier_demonstrator",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "boxer-miv"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Jack Eckersley",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Commons public imageinfo API reconfirmed Jack Eckersley, OGL v1.0 and individual MOD image source credit. Keep Crown copyright attribution and licence link.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2019-10-25 14:24:21",
+        "reviewedDate": "2019-10-25",
+        "uploadDate": null,
+        "note": "Photo metadata is 2019-10-25; source describes ACPD held 2019-10-28–30. Treat as 2019 ACPD-associated imagery, not proof that the photograph was taken during the public event dates."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Front-quarter view of the BOXER/RBSL-marked vehicle crossing a wet patch. No inferred mobility specification."
+      },
+      "suggestedCaption": "제품 참고사진 — 영국 BOXER MIV 시연차의 전면 사선, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "boxer-miv-22",
+      "runtimePhotoIds": [
+        "photo-19046c09fb26777f48f0"
+      ],
+      "sourceIds": [
+        "source-e738ba8d26025e53eaa7"
+      ],
+      "reviewSourceIds": [
+        "reference-boxer-miv-22"
+      ],
+      "targetProductId": "boxer-miv",
+      "existingSrc": "assets/photos/boxer-miv-22.webp",
+      "existingSha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5",
+      "bytes": 265420,
+      "width": 1600,
+      "height": 1067,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_9.jpg",
+      "existingProductIds": [],
+      "classification": "same_named_product_earlier_demonstrator",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "boxer-miv"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Jack Eckersley",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Commons public imageinfo API reconfirmed Jack Eckersley, OGL v1.0 and individual MOD image source credit. Keep Crown copyright attribution and licence link.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2019-10-25 14:24:22",
+        "reviewedDate": "2019-10-25",
+        "uploadDate": null,
+        "note": "Photo metadata is 2019-10-25; source describes ACPD held 2019-10-28–30. Treat as 2019 ACPD-associated imagery, not proof that the photograph was taken during the public event dates."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Second front-quarter view of the BOXER/RBSL-marked vehicle; distinct photograph, though similar angle to -21."
+      },
+      "suggestedCaption": "제품 참고사진 — 영국 BOXER MIV 시연차의 차체·차륜 전경, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "leopard-2a8-04",
+      "runtimePhotoIds": [
+        "photo-df3f297ae7de030893e5"
+      ],
+      "sourceIds": [
+        "source-d3f36a91aa8807168240"
+      ],
+      "reviewSourceIds": [
+        "reference-leopard-2a8-04"
+      ],
+      "targetProductId": "leopard-2a8",
+      "existingSrc": "assets/photos/leopard-2a8-04.webp",
+      "existingSha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95",
+      "bytes": 145892,
+      "width": 1200,
+      "height": 870,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leopard_2A8.jpg",
+      "existingProductIds": [],
+      "classification": "source_identified_prototype_not_current_event",
+      "decision": "ready_reference_with_qualified_caption",
+      "proposedProductIds": [
+        "leopard-2a8"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Wikimedilea",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Individual file: Wikimedilea, own work, CC BY-SA 4.0.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2025-07-15",
+        "reviewedDate": "2025-07-15",
+        "uploadDate": "2025-07-14T23:45Z",
+        "note": "Source date is 2025-07-15, while upload is 2025-07-14 23:45 UTC; distinguish the fields/time zones. Capture date not independently verified."
+      },
+      "pixelReview": {
+        "reviewer": "eurosatory_report_resume",
+        "status": "completed",
+        "observation": "Side view of a tank on a transport trailer near the Arena building. No readable model plate proves a production 2A8."
+      },
+      "suggestedCaption": "출처 표기 Leopard 2A8 시제차 — Zagreb 운송 참고사진. Eurosatory 2026 현장사진이 아닙니다.",
+      "suggestedVariantNote": "Commons의 2A8·시제차 표기에 따른 분류입니다. 국가별 양산형·2026 전시형과의 동일성은 확인되지 않았습니다.",
+      "changes": "웹 표시용 WebP 변환본입니다. 원본과 같은 1200×870px이며 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "leopard-2a8-02",
+      "runtimePhotoIds": [
+        "photo-43700666675664039ef0"
+      ],
+      "sourceIds": [
+        "source-0694515401bc6f356be4"
+      ],
+      "reviewSourceIds": [
+        "reference-leopard-2a8-02",
+        "reference-dutch-mod-2a8"
+      ],
+      "targetProductId": "leopard-2a8",
+      "existingSrc": "assets/photos/leopard-2a8-02.webp",
+      "existingSha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78",
+      "bytes": 309676,
+      "width": 1250,
+      "height": 833,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leopard_2A8_prototype.jpg",
+      "existingProductIds": [],
+      "classification": "source_identified_prototype_with_date_conflict",
+      "decision": "ready_reference_with_qualified_caption",
+      "proposedProductIds": [
+        "leopard-2a8"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Defensie Nederlands",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "CC BY-SA 4.0 supported by work-specific Commons block and Dutch MOD VRT ticket 2010120610018876. Credit Defensie Nederlands; do not invent a named photographer.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2024-04",
+        "reviewedDate": "2024-04",
+        "uploadDate": "2025-07-10T23:31Z",
+        "note": "Commons April 2024 conflicts with EXIF 2023-06-21 10:39. Publisher article date is 2025-05-20. Preserve all fields; do not resolve by assumption."
+      },
+      "pixelReview": {
+        "reviewer": "eurosatory_report_resume",
+        "status": "completed",
+        "observation": "Side-quarter tank photograph in a wooded trial area; model plate not readable. Commons names a 2A8 prototype; Dutch MOD article discusses 2A8 but does not individually label the photograph as a prototype."
+      },
+      "suggestedCaption": "Commons 표기 Leopard 2A8 시제차 — 일반 제품 참고. Eurosatory 2026 현장사진이 아닙니다.",
+      "suggestedVariantNote": "시제차 명칭은 Commons의 표기입니다. 원문 날짜와 EXIF가 달라 촬영일은 확정하지 않았으며, 국가별 양산형과의 동일성도 미확인입니다.",
+      "changes": "웹 표시용 WebP 변환본입니다. 원본과 같은 1250×833px이며 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "leopard-2a8-07",
+      "runtimePhotoIds": [
+        "photo-4cfe6358b053c3c05ff2"
+      ],
+      "sourceIds": [
+        "source-7bd4499efe3f17d3eca4"
+      ],
+      "reviewSourceIds": [
+        "reference-leopard-2a8-07"
+      ],
+      "targetProductId": "leopard-2a8",
+      "existingSrc": "assets/photos/leopard-2a8-07.webp",
+      "existingSha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea",
+      "bytes": 46876,
+      "width": 735,
+      "height": 491,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leopard_2A8_with_Trophy_system.jpg",
+      "existingProductIds": [],
+      "classification": "different_variant_2a7a1",
+      "decision": "do_not_link_to_target",
+      "proposedProductIds": [],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Defensie",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Human-readable license block: CC BY-SA 4.0, Dutch MOD VRT ticket 2010120610018876. Rights availability does not establish model identity.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "14 May 2025",
+        "reviewedDate": "2025-05-14",
+        "uploadDate": "2025-05-14T16:47Z",
+        "note": "2025-05-14 is publication-related; EXIF records 2024-10-11 10:22 (modified 10:41). The earlier MOD article URL returned 404 during review."
+      },
+      "pixelReview": {
+        "reviewer": "eurosatory_report_resume",
+        "status": "completed",
+        "observation": "Front-quarter tank image. Despite filename 2A8, the work-specific caption/description explicitly says Leopard 2A7A1 with Trophy."
+      },
+      "suggestedCaption": "다른 파생형 참고사진 — Leopard 2A7A1. Leopard 2A8 사진이 아닙니다.",
+      "suggestedVariantNote": "파일 제목에는 2A8이 있지만 원출처 설명은 Leopard 2A7A1입니다. 따라서 2A7A1 참고사진으로 분류했습니다. 2A8 실물 형상을 확정하지 않습니다.",
+      "changes": "웹 표시용 WebP 변환본입니다. 원본과 같은 735×491px이며 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "tulpar-00",
+      "runtimePhotoIds": [
+        "photo-5fbef9765de4f339f63f"
+      ],
+      "sourceIds": [
+        "source-b059479e9362520318ec"
+      ],
+      "reviewSourceIds": [
+        "reference-tulpar-00"
+      ],
+      "targetProductId": "tulpar",
+      "existingSrc": "assets/photos/tulpar-00.webp",
+      "existingSha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8",
+      "bytes": 251040,
+      "width": 1600,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TULPAR.jpg",
+      "existingProductIds": [],
+      "classification": "same_general_product_different_turret_from_korhan",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "tulpar"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Swadim",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Swadim, own work, individual CC BY-SA 4.0 license verified.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2019-09-11 14:56:30",
+        "reviewedDate": "2019-09-11",
+        "uploadDate": "2019-09-14",
+        "note": "Source date and upload date are separate; EXIF is not an independently calibrated clock."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "TULPAR body label and MIZRAK 30 turret label are clearly readable in the indoor exhibit photograph."
+      },
+      "suggestedCaption": "제품 참고사진 — TULPAR·MIZRAK 30, DSEI 2019. IDEX 2025·SAHA 2026 현장사진이 아닙니다.",
+      "suggestedVariantNote": "기존 일반 TULPAR 제품에만 연결합니다. KORHAN 포탑형인 tulpar-korhan과는 다른 형상입니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [
+        "tulpar-korhan"
+      ],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "patria-6x6-00",
+      "runtimePhotoIds": [
+        "photo-3ab93894767d28bdb0f4"
+      ],
+      "sourceIds": [
+        "source-1c731eeeb3c27f67c6c3"
+      ],
+      "reviewSourceIds": [
+        "reference-patria-6x6-00"
+      ],
+      "targetProductId": "patria-6x6",
+      "existingSrc": "assets/photos/patria-6x6-00.webp",
+      "existingSha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9",
+      "bytes": 378042,
+      "width": 1600,
+      "height": 1024,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patria_6x6_APC.jpg",
+      "existingProductIds": [],
+      "classification": "same_general_product_named_configuration",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "patria-6x6"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "TnTkr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "TnTkr, own work, CC BY-SA 4.0.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2021-10-29",
+        "reviewedDate": "2021-10-29",
+        "uploadDate": "2021-11-09",
+        "note": "Source date and upload date are separate; EXIF is not an independently calibrated clock."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Six-wheeled Patria-marked vehicle outdoors; ringmount shielding and basic body are visible. Source names Patria 6x6 APC."
+      },
+      "suggestedCaption": "제품 참고사진 — Patria 6×6 APC 외부 전경(2021). DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "patria-6x6-01",
+      "runtimePhotoIds": [
+        "photo-ecfd6ef1b18a9c9b8992"
+      ],
+      "sourceIds": [
+        "source-6e8a1b8af3568d0d5e05"
+      ],
+      "reviewSourceIds": [
+        "reference-patria-6x6-01"
+      ],
+      "targetProductId": "patria-6x6",
+      "existingSrc": "assets/photos/patria-6x6-01.webp",
+      "existingSha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54",
+      "bytes": 156472,
+      "width": 1600,
+      "height": 960,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patria_6x6_MSPO23_IMG133345590_HDR.jpg",
+      "existingProductIds": [],
+      "classification": "same_general_product_other_event",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "patria-6x6"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Michał Derela",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Michał Derela, own work; file offers CC BY-SA versions 4.0/3.0/2.5/2.0/1.0. Existing chosen 4.0 remains valid.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2023-09-05",
+        "reviewedDate": "2023-09-05",
+        "uploadDate": "2023-10-28",
+        "note": "Source date and upload date are separate; EXIF is not an independently calibrated clock."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Six-wheeled vehicle at a clearly Patria-branded indoor booth; source identifies MSPO 2023 in Kielce."
+      },
+      "suggestedCaption": "제품 참고사진 — Patria 6×6, MSPO 2023. DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "patria-6x6-02",
+      "runtimePhotoIds": [
+        "photo-a20c190c720276d8b052"
+      ],
+      "sourceIds": [
+        "source-f78c98cf9935dd198abf"
+      ],
+      "reviewSourceIds": [
+        "reference-patria-6x6-02"
+      ],
+      "targetProductId": "patria-6x6",
+      "existingSrc": "assets/photos/patria-6x6-02.webp",
+      "existingSha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1",
+      "bytes": 392676,
+      "width": 1600,
+      "height": 1067,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lippujuhlan_p%C3%A4iv%C3%A4n_2022_paraati_046_Patria_6x6_XA-300.JPG",
+      "existingProductIds": [],
+      "classification": "same_general_product_finnish_xa300_variant",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "patria-6x6"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "MKFI",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "MKFI explicitly releases own work to the public domain, with an any-purpose permission fallback where dedication is not possible.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2022-06-04",
+        "reviewedDate": "2022-06-04",
+        "uploadDate": "2022-07-01",
+        "note": "Source date and upload date are separate; EXIF is not an independently calibrated clock."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Front-quarter six-wheel vehicle in a parade; Finnish marking and Patria branding visible. Source calls it Patria 6x6 XA-300."
+      },
+      "suggestedCaption": "제품 참고사진 — 핀란드 Patria 6×6 XA-300, 2022 국기 기념일 행진. DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "patria-6x6-04",
+      "runtimePhotoIds": [
+        "photo-1ac7e803c1bd498e38db"
+      ],
+      "sourceIds": [
+        "source-4f6d4a03ac138e99981e"
+      ],
+      "reviewSourceIds": [
+        "reference-patria-6x6-04"
+      ],
+      "targetProductId": "patria-6x6",
+      "existingSrc": "assets/photos/patria-6x6-04.webp",
+      "existingSha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363",
+      "bytes": 239452,
+      "width": 1600,
+      "height": 1067,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lippujuhlan_p%C3%A4iv%C3%A4n_2022_paraati_049_Patria_6x6_XA-300.JPG",
+      "existingProductIds": [],
+      "classification": "same_general_product_finnish_xa300_variant",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "patria-6x6"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "MKFI",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "MKFI explicitly releases own work to the public domain, with an any-purpose permission fallback where dedication is not possible.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2022-06-04",
+        "reviewedDate": "2022-06-04",
+        "uploadDate": "2022-07-01",
+        "note": "Source date and upload date are separate; EXIF is not an independently calibrated clock."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Rear-side view in the same parade context, showing three visible wheels and rear body. Source calls it Patria 6x6 XA-300."
+      },
+      "suggestedCaption": "제품 참고사진 — 핀란드 Patria 6×6 XA-300 후면, 2022 국기 기념일 행진. DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "patria-6x6-08",
+      "runtimePhotoIds": [
+        "photo-492f1f7a13f186a25ef3"
+      ],
+      "sourceIds": [
+        "source-7fa7cbff617dccc4a08d"
+      ],
+      "reviewSourceIds": [
+        "reference-patria-6x6-08"
+      ],
+      "targetProductId": "patria-6x6",
+      "existingSrc": "assets/photos/patria-6x6-08.webp",
+      "existingSha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18",
+      "bytes": 292640,
+      "width": 1600,
+      "height": 899,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ko%C5%82owy_transporter_opancerzony_Patria_6x6_%C5%82otewskich_Narodowych_Si%C5%82_Zbrojnych_(NBS)..jpg",
+      "existingProductIds": [],
+      "classification": "same_general_product_latvian_variant",
+      "decision": "ready_reference",
+      "proposedProductIds": [
+        "patria-6x6"
+      ],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Naračanski",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Naračanski, own work, CC BY-SA 4.0.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2024-07-10",
+        "reviewedDate": "2024-07-10",
+        "uploadDate": "2025-01-01",
+        "note": "Source date and upload date are separate; EXIF is not an independently calibrated clock."
+      },
+      "pixelReview": {
+        "reviewer": "idex_report_resume",
+        "status": "completed",
+        "observation": "Six-wheel Patria-marked vehicle with front AA562 marking and an open door. Source identifies the Latvian armed forces' Patria 6x6."
+      },
+      "suggestedCaption": "제품 참고사진 — 라트비아 Patria 6×6(2024). DSEI 2025 현장사진이 아닙니다.",
+      "suggestedVariantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "k2pl-23",
+      "runtimePhotoIds": [
+        "photo-20bc64ed322f8b231c24"
+      ],
+      "sourceIds": [
+        "source-9821ebb8989ebf6a226d"
+      ],
+      "reviewSourceIds": [
+        "reference-k2pl-23",
+        "reference-hyundai-mspo2026-k2gf"
+      ],
+      "targetProductId": "k2pl",
+      "existingSrc": "assets/photos/k2pl-23.webp",
+      "existingSha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942",
+      "bytes": 122256,
+      "width": 1067,
+      "height": 1600,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:K2_tank_at_the_Hyundai_Rotem_stand_at_MSPO_2026_in_Kielce.jpg",
+      "existingProductIds": [],
+      "classification": "k2_family_exact_subtype_not_verified",
+      "decision": "do_not_link_to_target",
+      "proposedProductIds": [],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Krzysztof Popławski",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Krzysztof Popławski, CC BY 4.0; license verified independently of the rejected K2PL mapping.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "8 September 2026",
+        "reviewedDate": "2026-09-08",
+        "uploadDate": "2026-09-09",
+        "note": "Source date and upload date are separate; EXIF is not an independently calibrated clock."
+      },
+      "pixelReview": {
+        "reviewer": "dsei_report_resume",
+        "status": "completed",
+        "observation": "Hyundai Rotem booth, large K2 sign, Korean/Polish flags and camouflage over the front. No K2PL label. Manufacturer's MSPO release describes K2GF with MCS; this supports caution, not a pixel-level subtype conclusion."
+      },
+      "suggestedCaption": "기반 계열 참고사진 — MSPO 2026의 K2 전시차. K2PL 또는 ADEX 2025 전시품으로 확인되지 않았습니다.",
+      "suggestedVariantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    },
+    {
+      "legacyPhotoId": "k2pl-05",
+      "runtimePhotoIds": [
+        "photo-f4fdc8f2aee6a9f9a71d"
+      ],
+      "sourceIds": [
+        "source-3fb153ee7a668327af23"
+      ],
+      "reviewSourceIds": [
+        "reference-k2pl-05"
+      ],
+      "targetProductId": "k2pl",
+      "existingSrc": "assets/photos/k2pl-05.webp",
+      "existingSha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b",
+      "bytes": 227336,
+      "width": 1024,
+      "height": 768,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polish_Army_K2_at_Radom-2023.jpg",
+      "existingProductIds": [],
+      "classification": "base_k2_not_k2pl",
+      "decision": "do_not_link_to_target",
+      "proposedProductIds": [],
+      "context": "reference",
+      "eventId": null,
+      "credit": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "rights": {
+        "checked": true,
+        "localDisplayPermitted": true,
+        "printPdfPermitted": true,
+        "basis": "Boevaya mashina, own work, CC BY-SA 3.0.",
+        "preserve": "Credit, original-source link, licence link, applicable share-alike conditions and image-change disclosure."
+      },
+      "dates": {
+        "recordedSourceDate": "2023-08-26",
+        "reviewedDate": "2023-08-26",
+        "uploadDate": "2023-08-31",
+        "note": "Source date and upload date are separate; EXIF is not an independently calibrated clock."
+      },
+      "pixelReview": {
+        "reviewer": "dsei_report_resume",
+        "status": "completed",
+        "observation": "Outdoor K2 display with Polish flag and visitors. Source names Polish Army K2 at Radom Air Show 2023; K2PL label absent. Source registration UA 0534T was not independently read in the pixels."
+      },
+      "suggestedCaption": "기반 계열 참고사진 — 폴란드군 K2, Radom 2023. K2PL 또는 ADEX 2025 전시품이 아닙니다.",
+      "suggestedVariantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "excludedProductIds": [],
+      "integrity": {
+        "sha256MatchesExistingRecord": true,
+        "byteChanges": false
+      },
+      "integrationStatus": "not_integrated"
+    }
+  ],
+  "inventory": [
+    {
+      "productId": "boxer-miv",
+      "photoIds": [
+        "boxer-miv-00",
+        "boxer-miv-01",
+        "boxer-miv-02",
+        "boxer-miv-07",
+        "boxer-miv-08",
+        "boxer-miv-12",
+        "boxer-miv-14",
+        "boxer-miv-16",
+        "boxer-miv-18",
+        "boxer-miv-19",
+        "boxer-miv-21",
+        "boxer-miv-22"
+      ],
+      "photoCount": 12,
+      "reviewLevel": "selected_product_subset_reviewed",
+      "existingRecordLimitations": [
+        "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+        "독일군·기존 Boxer 계열 참고사진입니다. 해당 내부·임무모듈을 영국 MIV의 확정 구성으로 해석하면 안 됩니다."
+      ],
+      "decision": "Use only individual decisions in deepReviewedPhotos; do not inherit equipmentId for unreviewed images."
+    },
+    {
+      "productId": "k2pl",
+      "photoIds": [
+        "k2pl-05",
+        "k2pl-23",
+        "k2pl-00",
+        "k2pl-08",
+        "k2pl-09",
+        "k2pl-10",
+        "k2pl-11",
+        "k2pl-17",
+        "k2pl-01"
+      ],
+      "photoCount": 9,
+      "reviewLevel": "selected_product_subset_reviewed",
+      "existingRecordLimitations": [
+        "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다."
+      ],
+      "decision": "Use only individual decisions in deepReviewedPhotos; do not inherit equipmentId for unreviewed images."
+    },
+    {
+      "productId": "patria-6x6",
+      "photoIds": [
+        "patria-6x6-00",
+        "patria-6x6-01",
+        "patria-6x6-02",
+        "patria-6x6-04",
+        "patria-6x6-08"
+      ],
+      "photoCount": 5,
+      "reviewLevel": "selected_product_subset_reviewed",
+      "existingRecordLimitations": [
+        "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다."
+      ],
+      "decision": "Use only individual decisions in deepReviewedPhotos; do not inherit equipmentId for unreviewed images."
+    },
+    {
+      "productId": "lynx-skyranger35",
+      "photoIds": [
+        "lynx-skyranger35-03",
+        "lynx-skyranger35-05",
+        "lynx-skyranger35-07"
+      ],
+      "photoCount": 3,
+      "reviewLevel": "existing_record_triage_only",
+      "existingRecordLimitations": [
+        "Lynx KF41 계열 참고사진입니다. 사진의 포탑은 Skyranger 35 통합형을 나타내지 않습니다. 방공형 제원·구조의 증거로 사용할 수 없습니다."
+      ],
+      "decision": "Keep unlinked. Existing record explicitly distinguishes a base vehicle or other variant; no fresh pixel/rights audit in this packet."
+    },
+    {
+      "productId": "leopard-2a8",
+      "photoIds": [
+        "leopard-2a8-04",
+        "leopard-2a8-02",
+        "leopard-2a8-07"
+      ],
+      "photoCount": 3,
+      "reviewLevel": "selected_product_subset_reviewed",
+      "existingRecordLimitations": [
+        "원출처는 Leopard 2A8 또는 시제차로 표기합니다. 전시회 출품차·국가별 양산 구성과 동일한지는 별도 확인이 필요합니다.",
+        "파일 제목에는 2A8이 있지만 원출처 설명은 Leopard 2A7A1입니다. 따라서 2A7A1 참고사진으로 분류했습니다. 2A8 실물 형상을 확정하지 않습니다."
+      ],
+      "decision": "Use only individual decisions in deepReviewedPhotos; do not inherit equipmentId for unreviewed images."
+    },
+    {
+      "productId": "rch155-tracked",
+      "photoIds": [
+        "rch155-tracked-03",
+        "rch155-tracked-05",
+        "rch155-tracked-06"
+      ],
+      "photoCount": 3,
+      "reviewLevel": "existing_record_triage_only",
+      "existingRecordLimitations": [
+        "차륜형 Boxer 기반 RCH 155 참고사진입니다. 궤도형 RCH 155 차량 사진이 아닙니다."
+      ],
+      "decision": "Keep unlinked. Existing record explicitly distinguishes a base vehicle or other variant; no fresh pixel/rights audit in this packet."
+    },
+    {
+      "productId": "k808-peru",
+      "photoIds": [
+        "k808-peru-12",
+        "k808-peru-14",
+        "k808-peru-15",
+        "k808-peru-00"
+      ],
+      "photoCount": 4,
+      "reviewLevel": "existing_record_triage_only",
+      "existingRecordLimitations": [
+        "대한민국 K808 계열 참고사진입니다. 페루 수출형의 세부 형상·장비를 나타내지 않습니다."
+      ],
+      "decision": "Keep unlinked. Existing record explicitly distinguishes a base vehicle or other variant; no fresh pixel/rights audit in this packet."
+    },
+    {
+      "productId": "k9a3",
+      "photoIds": [
+        "k9a3-03",
+        "k9a3-02",
+        "k9a3-11",
+        "k9a3-07"
+      ],
+      "photoCount": 4,
+      "reviewLevel": "existing_record_triage_only",
+      "existingRecordLimitations": [
+        "기존 K9 계열 참고사진입니다. K9A3의 무인포탑·자동화 구성이나 최종 형상을 나타내지 않습니다."
+      ],
+      "decision": "Keep unlinked. Existing record explicitly distinguishes a base vehicle or other variant; no fresh pixel/rights audit in this packet."
+    },
+    {
+      "productId": "themis-k",
+      "photoIds": [
+        "themis-k-00",
+        "themis-k-21"
+      ],
+      "photoCount": 2,
+      "reviewLevel": "existing_record_triage_only",
+      "existingRecordLimitations": [
+        "Milrem Robotics의 기존 THeMIS 계열 참고사진입니다. THeMIS-K의 한국형 탑재장비·최종 형상과 다를 수 있습니다.",
+        "IDEX 2025 THeMIS COMBAT 사진입니다. ADEX의 THeMIS-K나 EOS 탑재체의 통합 완료를 보여주는 자료가 아닙니다. 웹 표시용 축소·WebP 변환본입니다. 원 게시본의 얼굴 흐림을 유지합니다."
+      ],
+      "decision": "Keep unlinked. Existing record explicitly distinguishes a base vehicle or other variant; no fresh pixel/rights audit in this packet."
+    },
+    {
+      "productId": "arma-ii",
+      "photoIds": [
+        "arma-ii-00",
+        "arma-ii-01"
+      ],
+      "photoCount": 2,
+      "reviewLevel": "existing_record_triage_only",
+      "existingRecordLimitations": [
+        "에스토니아군 ARMA 6×6 참고사진입니다. ARMA II 8×8과 차체·차륜 수가 다른 선행 계열입니다."
+      ],
+      "decision": "Keep unlinked. Existing record explicitly distinguishes a base vehicle or other variant; no fresh pixel/rights audit in this packet."
+    },
+    {
+      "productId": "tulpar",
+      "photoIds": [
+        "tulpar-00"
+      ],
+      "photoCount": 1,
+      "reviewLevel": "selected_product_subset_reviewed",
+      "existingRecordLimitations": [
+        "DSEI 2019의 TULPAR 참고사진입니다. SAHA 2026 전시 형상을 확정하지 않습니다."
+      ],
+      "decision": "Use only individual decisions in deepReviewedPhotos; do not inherit equipmentId for unreviewed images."
+    },
+    {
+      "productId": "kaplan-hybrid",
+      "photoIds": [
+        "kaplan-hybrid-00"
+      ],
+      "photoCount": 1,
+      "reviewLevel": "existing_record_triage_only",
+      "existingRecordLimitations": [
+        "KAPLAN STA 참고사진입니다. KAPLAN HYBRID의 동력계·최종 형상을 나타내지 않습니다."
+      ],
+      "decision": "Keep unlinked. Existing record explicitly distinguishes a base vehicle or other variant; no fresh pixel/rights audit in this packet."
+    }
+  ],
+  "sources": [
+    {
+      "id": "reference-boxer-miv-00",
+      "url": "https://commons.wikimedia.org/wiki/File:Boxer_Mechanised_Infantry_Vehicle_of_the_British_Army.jpg",
+      "title": "File:Boxer Mechanised Infantry Vehicle of the British Army.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-boxer-miv-18",
+      "url": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_2.jpg",
+      "title": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 2.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Public imageinfo API after page-open failure",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-boxer-miv-19",
+      "url": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_11.jpg",
+      "title": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 11.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Public imageinfo API after page-open failure",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-boxer-miv-21",
+      "url": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_5.jpg",
+      "title": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 5.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Public imageinfo API after page-open failure",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-boxer-miv-22",
+      "url": "https://commons.wikimedia.org/wiki/File:Boxer_MIV_on_2019_Army_Combat_Power_Demonstration_(ACPD)_-_9.jpg",
+      "title": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 9.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Public imageinfo API after page-open failure",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-leopard-2a8-04",
+      "url": "https://commons.wikimedia.org/wiki/File:Leopard_2A8.jpg",
+      "title": "File:Leopard 2A8.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-leopard-2a8-02",
+      "url": "https://commons.wikimedia.org/wiki/File:Leopard_2A8_prototype.jpg",
+      "title": "File:Leopard 2A8 prototype.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-leopard-2a8-07",
+      "url": "https://commons.wikimedia.org/wiki/File:Leopard_2A8_with_Trophy_system.jpg",
+      "title": "File:Leopard 2A8 with Trophy system.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-tulpar-00",
+      "url": "https://commons.wikimedia.org/wiki/File:TULPAR.jpg",
+      "title": "File:TULPAR.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-patria-6x6-00",
+      "url": "https://commons.wikimedia.org/wiki/File:Patria_6x6_APC.jpg",
+      "title": "File:Patria 6x6 APC.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-patria-6x6-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Patria_6x6_MSPO23_IMG133345590_HDR.jpg",
+      "title": "File:Patria 6x6 MSPO23 IMG133345590 HDR.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-patria-6x6-02",
+      "url": "https://commons.wikimedia.org/wiki/File:Lippujuhlan_p%C3%A4iv%C3%A4n_2022_paraati_046_Patria_6x6_XA-300.JPG",
+      "title": "File:Lippujuhlan päivän 2022 paraati 046 Patria 6x6 XA-300.JPG",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-patria-6x6-04",
+      "url": "https://commons.wikimedia.org/wiki/File:Lippujuhlan_p%C3%A4iv%C3%A4n_2022_paraati_049_Patria_6x6_XA-300.JPG",
+      "title": "File:Lippujuhlan päivän 2022 paraati 049 Patria 6x6 XA-300.JPG",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-patria-6x6-08",
+      "url": "https://commons.wikimedia.org/wiki/File:Ko%C5%82owy_transporter_opancerzony_Patria_6x6_%C5%82otewskich_Narodowych_Si%C5%82_Zbrojnych_(NBS)..jpg",
+      "title": "File:Kołowy transporter opancerzony Patria 6x6 łotewskich Narodowych Sił Zbrojnych (NBS)..jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-k2pl-23",
+      "url": "https://commons.wikimedia.org/wiki/File:K2_tank_at_the_Hyundai_Rotem_stand_at_MSPO_2026_in_Kielce.jpg",
+      "title": "File:K2 tank at the Hyundai Rotem stand at MSPO 2026 in Kielce.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-k2pl-05",
+      "url": "https://commons.wikimedia.org/wiki/File:Polish_Army_K2_at_Radom-2023.jpg",
+      "title": "File:Polish Army K2 at Radom-2023.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "reviewMethod": "Individual file page and existing local pixels",
+      "scope": "Individual photograph identity, date, author and rights only"
+    },
+    {
+      "id": "reference-dutch-mod-2a8",
+      "url": "https://magazines.defensie.nl/materieelgezien/2025/04/46-hypermoderne-tanks-in-aantocht",
+      "title": "Hypermoderne tanks in aantocht",
+      "publisher": "Netherlands Ministry of Defence",
+      "publishedAt": "2025-05-20",
+      "accessedAt": "2026-11-16",
+      "scope": "2A8 article context; does not individually name the pictured vehicle as a prototype"
+    },
+    {
+      "id": "reference-hyundai-mspo2026-k2gf",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-rotem-k2gf-mbt-unveiled",
+      "title": "Hyundai Rotem K2GF at MSPO 2026",
+      "publisher": "Hyundai Motor Group / Hyundai Rotem",
+      "publishedAt": "2026-09-08",
+      "accessedAt": "2026-11-16",
+      "scope": "K2GF/MCS exhibit wording; prevents automatic K2PL substitution"
+    },
+    {
+      "id": "reference-commons-api",
+      "url": "https://commons.wikimedia.org/w/api.php",
+      "title": "Wikimedia Commons public imageinfo API",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-11-16",
+      "scope": "Fresh author/date/license/source-credit checks for four 2019 MIV photographs"
+    }
+  ],
+  "sourceLimits": {
+    "perSourceDerivedProseMaximumWords": 200,
+    "approach": "Use short photo-specific observations and metadata; no performance, design or operating instruction text. Repeated licence boilerplate is summarized, not quoted."
+  },
+  "validation": {
+    "status": "PASS",
+    "validatedAt": "2026-11-16",
+    "method": "Node.js v24.16.0 inline assert validation with fs and crypto; exit code 0.",
+    "assertions": {
+      "products": 5,
+      "deepReviewedPhotos": 16,
+      "readyMappingsIncludingQualified": 13,
+      "rejectedMappings": 3,
+      "packetSourceRecords": 19,
+      "legacyRuntimeSourceReferences": "valid",
+      "unchangedImageHashesAndBytes": 16,
+      "currentEventPhotosPreserved": 3,
+      "inventoryOnlyPhotos": 33
+    },
+    "sourceProseCheck": {
+      "maximumPhotoSpecificDerivedWords": 148,
+      "method": "Whitespace count of source-derived rights basis, date note/metadata, pixel observation, suggested caption/variant note, metadata correction, copyright notice and credit. Individual Commons file records are assessed separately even when read through the API. No source text quoted at length."
+    },
+    "reviewedFiles": 16,
+    "hashMatches": true,
+    "ids": "Read directly from current runtime and legacy records.",
+    "currentEventPriority": "Patria existing dsei25-patria-6x6-c4/cavs and K2PL existing photo-f27315794918d9b8ddce retained.",
+    "buildTests": "Not run: no operational code/data change.",
+    "sourceAccessNotes": [
+      "A Commons 2019 MIV page-open failed; all four 2019 file records were freshly read through the public imageinfo API.",
+      "National Archives OGL v1 page returned 403 through web tool; individual photograph license blocks and embedded MOD usage terms were read. No licence upgrade inferred from access failure.",
+      "Leopard 2A7A1 older MOD article returned 404; variant rejection relies on the explicit current Commons description and pixel limits."
+    ]
+  },
+  "nextIntegrationConditions": [
+    "Preserve existing image bytes and stable IDs; add only the listed productIds.",
+    "Keep context reference and eventId null. Do not add these to narrative event-photo IDs or change exhibit status.",
+    "Apply qualified source/date labels and credit/change-disclosure corrections together with mappings.",
+    "Keep existing event images first. References do not replace current photos merely because their composition is attractive.",
+    "Review remaining photographs individually before any association; no batch promotion from equipmentId."
+  ],
+  "limitations": [
+    "This packet deeply reviews 16 of 49 remaining reference photos, covering five products; the rest are triage only.",
+    "Ready mappings are research proposals; operating integration and display verification remain with the parent task.",
+    "Two Leopard references are source-attributed prototypes with date/identity limits, not independently certified production models.",
+    "No new image or current-event photo was acquired; all 16 existing WebP files remain unchanged."
+  ]
+}

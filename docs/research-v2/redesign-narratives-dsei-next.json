@@ -1,0 +1,622 @@
+{
+  "asOf": "2026-11-16",
+  "narratives": [
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-fea8abb4f216a4812b3c",
+      "productId": "roshel-family-dsei2025",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "병력 수송·보안 임무용 차륜형 방호차량 제품군이다. Senator와 Captain은 서로 다른 차종으로 구분한다.",
+          "sourceIds": [
+            "dsei25-roshel-products-general"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "차체 전면과 창 배치, 상부 장비가 서로 다르다. 외관만으로 방호 등급이나 탑재 장비의 성능을 확정하지 않는다.",
+          "sourceIds": [
+            "source-fb6f73bb9a0029ec4e92",
+            "source-582ecbbd300032869839",
+            "source-b66d2bc5911618547f33"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "DSEI 2025 현장사진 세 장에서 Captain과 서로 다른 두 Senator 구성을 대조했다. 제조사의 사전 출품 안내와 구분해 읽는다.",
+          "sourceIds": [
+            "source-1d56590d2f348debbc2b",
+            "source-fb6f73bb9a0029ec4e92",
+            "source-582ecbbd300032869839",
+            "source-b66d2bc5911618547f33"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "사진 속 전시형별 후속 개량·양산·인도 일정은 확인하지 못했다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 다른 차종과 상부 구성을 함께 제시한 전시는 임무별 선택지를 보여주는 접근으로 읽힌다.",
+          "sourceIds": [
+            "source-fb6f73bb9a0029ec4e92",
+            "source-582ecbbd300032869839",
+            "source-b66d2bc5911618547f33"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-1d56590d2f348debbc2b",
+        "source-fb6f73bb9a0029ec4e92",
+        "source-582ecbbd300032869839",
+        "source-b66d2bc5911618547f33"
+      ],
+      "generalSourceIds": [
+        "dsei25-roshel-products-general"
+      ],
+      "photoIds": [
+        "photo-11263067e6d43e7ce029",
+        "photo-bca8aa760976ba37519d",
+        "photo-0cae38d806030dcdea1a"
+      ],
+      "form": "독립 촬영자의 현장사진 · Captain과 두 Senator 구성",
+      "limitations": [
+        "세 사진은 같은 촬영자의 기록이다. 실제 전시 전체 수량이나 독립 성능 검증 세 건으로 확대하지 않는다.",
+        "차종명은 원문 설명과 외관을 대조했다. 상부 장비 모델·실제 작동·공통 차대·방호 등급은 미확인이다.",
+        "Flickr 공식 원격 임베드 제공을 확인했다. ARR을 CC나 재배포 허가로 바꾸지 않는다."
+      ],
+      "sources": [
+        {
+          "id": "source-1d56590d2f348debbc2b",
+          "url": "https://www.linkedin.com/posts/roshel_roshel-smart-armored-vehicles-will-be-presenting-activity-7367200090651881472-SeIs",
+          "title": "Roshel DSEI UK 2025 출품 예고",
+          "publisher": "Roshel / LinkedIn",
+          "publishedAt": null,
+          "accessedAt": "2026-11-16",
+          "eventEditionId": "dsei-2025",
+          "independence": "primary_single_origin",
+          "limitations": "사전 발표. 공개 본문에서 게시 날짜는 상대 표기만 확인하여 정확한 날짜를 추정하지 않았다. 출품 완료 증거는 사진과 별도 대조한다."
+        },
+        {
+          "id": "dsei25-roshel-products-general",
+          "url": "https://roshel.com/products/",
+          "title": "Roshel 제품군 안내",
+          "publisher": "Roshel",
+          "publishedAt": null,
+          "accessedAt": "2026-11-16",
+          "eventEditionId": null,
+          "independence": "primary_single_origin",
+          "limitations": "일반 제품군·용도 설명이다. 현재 페이지의 사양과 구성을 2025 전시차에 소급하지 않는다."
+        },
+        {
+          "id": "source-fb6f73bb9a0029ec4e92",
+          "url": "https://www.flickr.com/photos/dyvroeth/54785994754/",
+          "title": "Roshel Captain APC · DSEI 2025",
+          "publisher": "dyvroeth / Flickr",
+          "publishedAt": "2025-09-14",
+          "accessedAt": "2026-11-16",
+          "eventEditionId": "dsei-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.",
+          "sourceGroup": "dyvroeth-dsei2025",
+          "note": "Flickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+        },
+        {
+          "id": "source-582ecbbd300032869839",
+          "url": "https://www.flickr.com/photos/dyvroeth/54785766106/",
+          "title": "Roshel Senator · DSEI 2025",
+          "publisher": "dyvroeth / Flickr",
+          "publishedAt": "2025-09-14",
+          "accessedAt": "2026-11-16",
+          "eventEditionId": "dsei-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.",
+          "sourceGroup": "dyvroeth-dsei2025",
+          "note": "Flickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+        },
+        {
+          "id": "source-b66d2bc5911618547f33",
+          "url": "https://www.flickr.com/photos/dyvroeth/54786101885/",
+          "title": "Roshel Senator · DSEI 2025",
+          "publisher": "dyvroeth / Flickr",
+          "publishedAt": "2025-09-14",
+          "accessedAt": "2026-11-16",
+          "eventEditionId": "dsei-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.",
+          "sourceGroup": "dyvroeth-dsei2025",
+          "note": "Flickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-e2295099b8d18919a8a9",
+      "productId": "boxer-dsei2025",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "8×8 BOXER 차체에 포탑을 올린 전시형이다. 30mm 무인포탑이라는 설명은 촬영자 원문에 따른다.",
+          "sourceIds": [
+            "source-10f38f26217ddade000c"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "KNDS 일반 자료는 주행 모듈과 임무별 모듈 구조를 설명한다. 전시형의 정확한 포탑 모델과 선택 사양은 미확인이다.",
+          "sourceIds": [
+            "dsei25-boxer-modules-general"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "KNDS 부스의 차량 외관과 촬영일·DSEI 2025 설명을 대조했다. 다른 구역의 Boxer 전시 발표와 같은 차량으로 묶지 않는다.",
+          "sourceIds": [
+            "source-c6dade1f14642d9db79a",
+            "source-10f38f26217ddade000c"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "2025년 9월 발표의 추가 인도 계획은 별도 영국 MIV 사업에 관한 내용이다. 사진 속 포탑형의 납품 완료를 뜻하지 않는다.",
+          "sourceIds": [
+            "source-59e3ce621588fb8633d3"
+          ],
+          "claimType": "official_plan"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 포탑형 전시는 BOXER 계열의 임무 구성을 확장해 제안하는 접근으로 읽힌다.",
+          "sourceIds": [
+            "dsei25-boxer-modules-general",
+            "source-10f38f26217ddade000c"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-c6dade1f14642d9db79a",
+        "source-10f38f26217ddade000c"
+      ],
+      "generalSourceIds": [
+        "source-59e3ce621588fb8633d3",
+        "dsei25-boxer-modules-general"
+      ],
+      "photoIds": [
+        "photo-82d773132553b98ac998"
+      ],
+      "form": "KNDS 부스의 포탑형 현장사진 · 정확한 포탑 모델 미확인",
+      "limitations": [
+        "RCT30 일반 안내의 세부 사양을 현장사진에 소급하지 않는다. 사진의 30mm 표기는 촬영자의 설명이다.",
+        "영국 생산 MIV·Land Zone 지휘소형·Rheinmetall 부스 형상은 사진 속 KNDS 차량과 별개로 취급한다.",
+        "영국 MIV에 관한 2025년 발표를 이 전시형의 납품·채택·성능 검증으로 사용하지 않는다.",
+        "회사 기존 명칭 KNDS / Rheinmetall과 제품 ID·상태를 보존한다. Flickr 임베드는 로컬 재배포 허가가 아니다."
+      ],
+      "sources": [
+        {
+          "id": "source-c6dade1f14642d9db79a",
+          "url": "https://knds.com/en/events/dsei-london-knds-uk",
+          "title": "DSEI London (+ KNDS UK) 전시 안내",
+          "publisher": "KNDS",
+          "publishedAt": null,
+          "accessedAt": "2026-11-16",
+          "eventEditionId": "dsei-2025",
+          "independence": "primary_single_origin",
+          "limitations": "KNDS 부스 S9-210과 회차 일정을 안내한다. 이 페이지 자체에 특정 Boxer 형상 출품 목록은 없다."
+        },
+        {
+          "id": "source-59e3ce621588fb8633d3",
+          "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-dsei-first-uk-built-boxer-has-now-been-delivered",
+          "title": "DSEI 2025: UK Boxer 생산·인도 및 별도 전시형 안내",
+          "publisher": "Rheinmetall",
+          "publishedAt": "2025-09-09",
+          "accessedAt": "2026-11-16",
+          "eventEditionId": "dsei-2025",
+          "independence": "primary_single_origin",
+          "limitations": "영국 MIV 및 다른 부스·구역의 전시형 설명이다. KNDS 부스 사진 속 포탑형과 같은 차량이라는 근거가 아니다."
+        },
+        {
+          "id": "dsei25-boxer-modules-general",
+          "url": "https://knds.com/en/products/systems/boxer/boxer-rct-30",
+          "title": "BOXER RCT30 일반 제품 안내",
+          "publisher": "KNDS",
+          "publishedAt": null,
+          "accessedAt": "2026-11-16",
+          "eventEditionId": null,
+          "independence": "primary_single_origin",
+          "limitations": "BOXER의 모듈 구조만 일반 배경으로 사용한다. 이 페이지의 RCT30 세부 사양을 사진 속 전시형에 적용하지 않는다."
+        },
+        {
+          "id": "source-10f38f26217ddade000c",
+          "url": "https://www.flickr.com/photos/dyvroeth/54785369506/",
+          "title": "Boxer with 30mm turret · DSEI 2025",
+          "publisher": "dyvroeth / Flickr",
+          "publishedAt": "2025-09-14",
+          "accessedAt": "2026-11-16",
+          "eventEditionId": "dsei-2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.",
+          "sourceGroup": "dyvroeth-dsei2025",
+          "note": "Flickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "ready_for_parent_review",
+    "stateTransitions": [
+      "planned",
+      "executing",
+      "verifying",
+      "completed"
+    ],
+    "scope": "DSEI 2025 기존 2제품의 고수준 공개 전시 설명 10항목 및 기존 4사진의 귀속 후보. src/data·사진 권리·회사/제품 상태는 수정하지 않았다.",
+    "plan": {
+      "goal": "공식 발표·일반 제품 안내·독립 현장사진을 분리하여 2제품 서술과 사진 귀속 후보 작성",
+      "editFiles": [
+        "docs/research-v2/redesign-narratives-dsei-next.json",
+        "tmp/dsei-next-intake/flickr-oembed-metadata.json"
+      ],
+      "risk": "같은 계열의 다른 형상을 납품 차량으로 혼동하거나 ARR 사진을 재배포 허가로 오인할 수 있음",
+      "verification": "공식 원문 직접 읽기, Flickr 원문·oEmbed·현재 src·픽셀 대조, 참조 및 5항목 구조 검사"
+    },
+    "sourceReading": [
+      {
+        "url": "https://www.linkedin.com/posts/roshel_roshel-smart-armored-vehicles-will-be-presenting-activity-7367200090651881472-SeIs",
+        "result": "web 공개 본문 직접 확인. S6-161·2025-09-09~12 출품 예고. 정확한 게시 날짜 미표기."
+      },
+      {
+        "url": "https://roshel.com/products/",
+        "result": "web 제품군 원문 직접 확인. 일반 용도만 사용."
+      },
+      {
+        "url": "https://roshel.com/products/defense/captain-apc/",
+        "result": "web 원문 직접 확인. 일반 제품 세부 사양은 현장형에 적용하지 않음."
+      },
+      {
+        "url": "https://knds.com/en/events/dsei-london-knds-uk",
+        "result": "web 원문 직접 확인. S9-210과 2025 일정 안내이며 개별 제품 목록 아님."
+      },
+      {
+        "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-dsei-first-uk-built-boxer-has-now-been-delivered",
+        "result": "web 원문 직접 확인. 영국 MIV 및 다른 구역 전시형과 현장사진 구분."
+      },
+      {
+        "url": "https://knds.com/en/products/systems/boxer/boxer-rct-30",
+        "result": "web 일반 제품 원문 직접 확인. 모듈 구조만 사용; 모델 동정 근거로 사용하지 않음."
+      }
+    ],
+    "photoMappingChanges": [
+      {
+        "photoId": "photo-11263067e6d43e7ce029",
+        "eventId": "dsei-2025",
+        "currentProductIds": [],
+        "proposedProductIds": [
+          "roshel-family-dsei2025"
+        ],
+        "status": "candidate_verified_for_parent_review",
+        "sourceIds": [
+          "source-fb6f73bb9a0029ec4e92"
+        ],
+        "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54785994754/",
+        "src": "https://live.staticflickr.com/65535/54785994754_7042d819f6_b.jpg",
+        "rightsStatusBefore": "provider-embed",
+        "rightsStatusAfter": "provider-embed",
+        "license": "All Rights Reserved",
+        "licenseId": 0,
+        "publicPageHttpStatus": 200,
+        "oembedHttpStatus": 200,
+        "oembedUrl": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdyvroeth%2F54785994754%2F&format=json",
+        "providerEmbedCodeAvailable": true,
+        "providerSrcMatches": true,
+        "isPublic": true,
+        "canShare": true,
+        "capturedAt": "2025-09-09 08:53:25",
+        "publishedAt": "2025-09-14T08:32:33.000Z",
+        "pixelReview": {
+          "method": "Python urllib의 공개 src 바이트를 메모리에서 PIL로 열어 표시. 원본 이미지 파일 저장 없음.",
+          "checkedAt": "2026-11-16",
+          "bytes": 168619,
+          "sha256": "c7e1d214d5299436feea166d96eee64c8cc7b623f48e25c3c602cf90bcc580ef",
+          "pixel": "ROSHEL 차체·부스 표기, 각진 전면과 상부 장비가 보인다. 사진 원문의 Captain APC 명칭 및 회차·촬영일과 대조했다.",
+          "limitation": "픽셀에서 Captain 차명 표지는 읽지 못했다. 차종명은 촬영자 원문에 의존하며 장비 모델·작동·방호 성능은 확인하지 않는다.",
+          "width": 1024,
+          "height": 683,
+          "localFileSaved": false
+        },
+        "conditions": [
+          "Flickr 원격 src·촬영자 dyvroeth 표시·개별 원문 링크 유지",
+          "공식 임베드 제공 확인과 로컬 복제·재배포 허가를 구분",
+          "인쇄/PDF 전달은 상위 작업자의 링크·캡션 정책을 적용; 이 패킷에서 이미지 파일을 제공하지 않음"
+        ],
+        "operationalMappingApplied": false
+      },
+      {
+        "photoId": "photo-bca8aa760976ba37519d",
+        "eventId": "dsei-2025",
+        "currentProductIds": [],
+        "proposedProductIds": [
+          "roshel-family-dsei2025"
+        ],
+        "status": "candidate_verified_for_parent_review",
+        "sourceIds": [
+          "source-582ecbbd300032869839"
+        ],
+        "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54785766106/",
+        "src": "https://live.staticflickr.com/65535/54785766106_41a10e48fa_b.jpg",
+        "rightsStatusBefore": "provider-embed",
+        "rightsStatusAfter": "provider-embed",
+        "license": "All Rights Reserved",
+        "licenseId": 0,
+        "publicPageHttpStatus": 200,
+        "oembedHttpStatus": 200,
+        "oembedUrl": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdyvroeth%2F54785766106%2F&format=json",
+        "providerEmbedCodeAvailable": true,
+        "providerSrcMatches": true,
+        "isPublic": true,
+        "canShare": true,
+        "capturedAt": "2025-09-09 08:54:08",
+        "publishedAt": "2025-09-14T08:32:34.000Z",
+        "pixelReview": {
+          "method": "Python urllib의 공개 src 바이트를 메모리에서 PIL로 열어 표시. 원본 이미지 파일 저장 없음.",
+          "checkedAt": "2026-11-16",
+          "bytes": 192963,
+          "sha256": "e9bd15ebb4b6754d7d741354ca54f19edd735aed60545195b5c8a0fa2812d439",
+          "pixel": "ROSHEL 부스와 DSEI UK 표지, 전면의 차량과 창이 있는 상부 포탑 형상을 확인했다. 옆 차량은 다른 상부 구성을 갖는다.",
+          "limitation": "Senator 명칭은 촬영자 설명과 대조했다. 포탑 세부 모델·구경·운용 상태는 픽셀로 확정하지 않는다.",
+          "width": 1024,
+          "height": 683,
+          "localFileSaved": false
+        },
+        "conditions": [
+          "Flickr 원격 src·촬영자 dyvroeth 표시·개별 원문 링크 유지",
+          "공식 임베드 제공 확인과 로컬 복제·재배포 허가를 구분",
+          "인쇄/PDF 전달은 상위 작업자의 링크·캡션 정책을 적용; 이 패킷에서 이미지 파일을 제공하지 않음"
+        ],
+        "operationalMappingApplied": false
+      },
+      {
+        "photoId": "photo-0cae38d806030dcdea1a",
+        "eventId": "dsei-2025",
+        "currentProductIds": [],
+        "proposedProductIds": [
+          "roshel-family-dsei2025"
+        ],
+        "status": "candidate_verified_for_parent_review",
+        "sourceIds": [
+          "source-b66d2bc5911618547f33"
+        ],
+        "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54786101885/",
+        "src": "https://live.staticflickr.com/65535/54786101885_0f11fbc494_b.jpg",
+        "rightsStatusBefore": "provider-embed",
+        "rightsStatusAfter": "provider-embed",
+        "license": "All Rights Reserved",
+        "licenseId": 0,
+        "publicPageHttpStatus": 200,
+        "oembedHttpStatus": 200,
+        "oembedUrl": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdyvroeth%2F54786101885%2F&format=json",
+        "providerEmbedCodeAvailable": true,
+        "providerSrcMatches": true,
+        "isPublic": true,
+        "canShare": true,
+        "capturedAt": "2025-09-09 08:55:11",
+        "publishedAt": "2025-09-14T08:32:34.000Z",
+        "pixelReview": {
+          "method": "Python urllib의 공개 src 바이트를 메모리에서 PIL로 열어 표시. 원본 이미지 파일 저장 없음.",
+          "checkedAt": "2026-11-16",
+          "bytes": 204980,
+          "sha256": "f578be0bef777ef99084ac37aaa29bd53e1f1907caec9451466963d452716eb7",
+          "pixel": "ROSHEL·LEONARDO 표기와 DSEI UK 배경, 앞의 포탑형과 다른 원형·패널형 상부 장비를 확인했다.",
+          "limitation": "센서·안테나의 정확한 모델과 기능·작동 여부는 확인하지 않았다. 차명은 촬영자 원문의 Senator 설명에 한정한다.",
+          "width": 1024,
+          "height": 683,
+          "localFileSaved": false
+        },
+        "conditions": [
+          "Flickr 원격 src·촬영자 dyvroeth 표시·개별 원문 링크 유지",
+          "공식 임베드 제공 확인과 로컬 복제·재배포 허가를 구분",
+          "인쇄/PDF 전달은 상위 작업자의 링크·캡션 정책을 적용; 이 패킷에서 이미지 파일을 제공하지 않음"
+        ],
+        "operationalMappingApplied": false
+      },
+      {
+        "photoId": "photo-82d773132553b98ac998",
+        "eventId": "dsei-2025",
+        "currentProductIds": [],
+        "proposedProductIds": [
+          "boxer-dsei2025"
+        ],
+        "status": "candidate_verified_for_parent_review",
+        "sourceIds": [
+          "source-10f38f26217ddade000c"
+        ],
+        "sourceUrl": "https://www.flickr.com/photos/dyvroeth/54785369506/",
+        "src": "https://live.staticflickr.com/65535/54785369506_29c25dbe2f_b.jpg",
+        "rightsStatusBefore": "provider-embed",
+        "rightsStatusAfter": "provider-embed",
+        "license": "All Rights Reserved",
+        "licenseId": 0,
+        "publicPageHttpStatus": 200,
+        "oembedHttpStatus": 200,
+        "oembedUrl": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdyvroeth%2F54785369506%2F&format=json",
+        "providerEmbedCodeAvailable": true,
+        "providerSrcMatches": true,
+        "isPublic": true,
+        "canShare": true,
+        "capturedAt": "2025-09-09 09:05:46",
+        "publishedAt": "2025-09-14T03:15:33.000Z",
+        "pixelReview": {
+          "method": "Python urllib의 공개 src 바이트를 메모리에서 PIL로 열어 표시. 원본 이미지 파일 저장 없음.",
+          "checkedAt": "2026-11-16",
+          "bytes": 216364,
+          "sha256": "ea91b5fe02b6e33e9485f22a13f4a5314eb9fbb390cfc3e2491d0baebcb3d3ef",
+          "pixel": "KNDS 부스 앞 8×8 차체와 상부 포탑·포신을 확인했다. 30mm 무인포탑이라는 설명은 촬영자 원문과 대조했다.",
+          "limitation": "픽셀만으로 30mm 구경·RCT30 모델·내부 구성을 식별하지 않았다. UK MIV 납품 차량이나 다른 부스 전시형으로 동일시하지 않는다.",
+          "width": 1024,
+          "height": 683,
+          "localFileSaved": false
+        },
+        "conditions": [
+          "Flickr 원격 src·촬영자 dyvroeth 표시·개별 원문 링크 유지",
+          "공식 임베드 제공 확인과 로컬 복제·재배포 허가를 구분",
+          "인쇄/PDF 전달은 상위 작업자의 링크·캡션 정책을 적용; 이 패킷에서 이미지 파일을 제공하지 않음"
+        ],
+        "operationalMappingApplied": false
+      }
+    ],
+    "flickrRights": {
+      "status": "existing_provider_embed_rechecked",
+      "photos": 4,
+      "newLocalImageFiles": 0,
+      "ccOrManufacturerReusableNewPhotos": 0,
+      "metadataFile": "tmp/dsei-next-intake/flickr-oembed-metadata.json",
+      "sources": [
+        {
+          "url": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "title": "Embed your Flickr content",
+          "publishedAt": "2025-10-12",
+          "finding": "공식 Share/Embed 절차와 외부 표시 시 Flickr 링크 의무를 확인했다. 네 사진의 공개 oEmbed HTML 제공과 src 일치도 확인했다."
+        },
+        {
+          "url": "https://www.flickrhelp.com/hc/en-us/articles/4404070119060-Why-your-Flickr-photos-or-videos-might-appear-on-other-websites",
+          "title": "Why your Flickr photos or videos might appear on other websites",
+          "publishedAt": "2025-08-11",
+          "finding": "공개 콘텐츠의 외부 임베드와 API 공유 가능성, 촬영자 표시·원문 링크를 안내한다."
+        },
+        {
+          "url": "https://www.flickrhelp.com/hc/en-us/articles/10710266545556-Using-Flickr-images-shared-by-other-members",
+          "title": "Using Flickr images shared by other members",
+          "publishedAt": "2025-08-11",
+          "finding": "ARR은 저작권과 이용권이 창작자에게 있음을 뜻한다. 임베드 응답을 독립 다운로드·복제 허용으로 확대하지 않는다."
+        }
+      ],
+      "browserUiLimitation": "CUA iab 미제공. Chrome 앱 접근은 승인 시간 초과로 종료했다. 반복 요청 없이 공개 원문/API 및 메모리 픽셀 검수로 전환했다. Share 버튼 UI 조작 검증은 하지 않았다.",
+      "liveAppPixelCheck": "상위 작업자가 통합 후 원격 로드·사진 연결·링크를 확인할 예정"
+    },
+    "newPhotoSearch": {
+      "ready": 0,
+      "newImageDownloads": 0,
+      "scope": "Roshel·KNDS 공식 자료/이용조건과 Commons의 해당 회차 검색. 전체 인터넷 사진 부재를 입증하는 조사는 아니다.",
+      "queries": [
+        "Roshel DSEI 2025 Captain Senator official",
+        "KNDS DSEI 2025 Boxer RCT 30 UK official",
+        "site:roshel.com DSEI 2025",
+        "site:commons.wikimedia.org DSEI 2025 Roshel",
+        "site:commons.wikimedia.org DSEI 2025 Boxer"
+      ],
+      "exclusions": [
+        {
+          "url": "https://roshel.com/terms-of-use/",
+          "reason": "개인·비상업 다운로드와 추가 복제 제한을 명시. 웹앱의 새 사진 재게시 허용으로 보지 않았다."
+        },
+        {
+          "url": "https://knds.com/en/legal-notice",
+          "reason": "명시 허가 또는 언론 목적 예외가 있다. 이 웹앱의 일반 재게시를 일괄 허용한다고 판단하지 않았으며 같은 회차 사진도 새로 확보하지 않음."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:5MJ_2641.jpg",
+          "reason": "CC BY-SA 4.0이나 DSEI 2017의 다른 회차·형상. DSEI 2025 사진으로 채택하지 않음."
+        }
+      ]
+    },
+    "sourceIndependence": "Roshel 공식 발표·제품 안내는 한 제조사 계열이다. 세 Roshel 사진과 Boxer 사진은 모두 dyvroeth의 동일 촬영자 기록이다. 제조사 자료와 외관 관찰의 출처 성격을 분리하고 사진 수를 독립 성능 검증 수로 세지 않는다.",
+    "statusPreservation": [
+      {
+        "productId": "roshel-family-dsei2025",
+        "exhibitStatus": "unconfirmed",
+        "organizationId": "org-fea8abb4f216a4812b3c",
+        "companyStatus": "imported_unreviewed",
+        "attendanceStatus": "unverified",
+        "changed": false
+      },
+      {
+        "productId": "boxer-dsei2025",
+        "exhibitStatus": "unconfirmed",
+        "organizationId": "org-e2295099b8d18919a8a9",
+        "companyStatus": "imported_unreviewed",
+        "attendanceStatus": "unverified",
+        "changed": false
+      }
+    ],
+    "validation": {
+      "schema": "passed: 2 narratives / 5 ordered sections each / supported claim types",
+      "sourcePhotoProductReferences": "passed: existing 2 product IDs / 2 organization IDs / 4 photo IDs; all section sources resolve",
+      "fiveSectionsPerProduct": "passed",
+      "urlAggregatedSectionWordCount": {
+        "status": "passed",
+        "counting": "신규 항목 본문·출처 제약·사진 관찰 및 현재 앱 narrative 항목을 URL별 합산. 기존 레거시 분석 전체의 재작성 검사는 아님.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/posts/roshel_roshel-smart-armored-vehicles-will-be-presenting-activity-7367200090651881472-SeIs",
+            "words": 37
+          },
+          {
+            "url": "https://roshel.com/products/",
+            "words": 23
+          },
+          {
+            "url": "https://www.flickr.com/photos/dyvroeth/54785994754/",
+            "words": 113
+          },
+          {
+            "url": "https://www.flickr.com/photos/dyvroeth/54785766106/",
+            "words": 113
+          },
+          {
+            "url": "https://www.flickr.com/photos/dyvroeth/54786101885/",
+            "words": 107
+          },
+          {
+            "url": "https://knds.com/en/events/dsei-london-knds-uk",
+            "words": 32
+          },
+          {
+            "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-dsei-first-uk-built-boxer-has-now-been-delivered",
+            "words": 35
+          },
+          {
+            "url": "https://knds.com/en/products/systems/boxer/boxer-rct-30",
+            "words": 44
+          },
+          {
+            "url": "https://www.flickr.com/photos/dyvroeth/54785369506/",
+            "words": 105
+          }
+        ]
+      },
+      "compileBuildTests": "not_run_parent_owned",
+      "operationalFilesChanged": false,
+      "externalMessagesSent": 0,
+      "commitCreated": false,
+      "checkCommand": "node --input-type=module: JSON parse, schema/ID/source/photo assertions, URL-derived text word count <= 200"
+    },
+    "remaining": [
+      "상위 작업자의 내용 검토 및 실제 앱의 원격 사진·원문 링크 확인",
+      "업체/제품의 기존 unreviewed·unconfirmed 상태를 자동 승격하지 않을 것",
+      "전시형별 사양·후속 개발·납품 근거가 추가되면 별도 조사"
+    ],
+    "completionScope": "제한 조사와 패킷·참조 검증 완료. 부모 검토·운영 통합·실제 앱 검증은 남아 있다."
+  }
+}

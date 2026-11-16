@@ -1,0 +1,681 @@
+{
+  "asOf": "2026-11-16",
+  "status": "progress",
+  "baseline": "7b13b9d",
+  "counts": {
+    "events": 5,
+    "companyLabels": 3685,
+    "productRecords": 131,
+    "narratives": 65,
+    "sections": 325,
+    "eventPhotoProducts": 29,
+    "uniqueEventPhotos": 49,
+    "illustratedNarrativeProducts": 30,
+    "eventPhotoGaps": 36,
+    "allPhotoGaps": 35,
+    "newLocalAssets": 2,
+    "newLocalEventAssets": 1,
+    "newLocalReferenceAssets": 1,
+    "existingProviderImagesMapped": 19,
+    "existingReferenceImagesMapped": 2
+  },
+  "newAssets": [
+    {
+      "file": "assets/photos/idex2025-libelle-event.jpg",
+      "bytes": 447385,
+      "sha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a"
+    },
+    {
+      "file": "assets/photos/cobra-ii-idef2013-reference.jpg",
+      "bytes": 299179,
+      "sha256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5"
+    }
+  ],
+  "commands": [
+    {
+      "command": "node scripts/prepare-redesign-content.mjs",
+      "result": "65 narratives / 325 sections / 5 reports"
+    },
+    {
+      "command": "npm run build",
+      "result": "PASS",
+      "log": ".local-next-build-final.log",
+      "sha256": "fb9c6d5c0a664487e881db6044d57ccd8739f2308f85139c297ad9b848b0c61d"
+    },
+    {
+      "command": "npm run check",
+      "result": "209 pass / 0 fail / 0 skip",
+      "log": ".local-next-check-final.log",
+      "sha256": "8cd192765adfa0a1de76dcf3d0b86ab4390850d794d6456de62d960f76b9b27c"
+    }
+  ],
+  "lint": "No separate lint script; npm run check includes syntax/schema/data tests.",
+  "resolvedFailures": [
+    {
+      "log": ".local-next-compile.log",
+      "issue": "Diehl profile reused BDSV directory source ID; compiler rejected URL collision.",
+      "fix": "Separate idex25-diehl-directory-profile ID; original directory ID unchanged."
+    },
+    {
+      "log": ".local-next-check.log",
+      "issue": "Two expectations assumed old print heading and zero SAHA pictures.",
+      "fix": "Assertions verify explicit reference labels, ownership and links; final 209 pass."
+    },
+    {
+      "issue": "Reference URL gallery included another product.",
+      "fix": "URL selection uses the product reference fallback rule; reload isolation regression passes."
+    },
+    {
+      "issue": "SAHA desktop grew to 794.921875px at 1365px width.",
+      "fix": "Shortened repeated theme copy; final 767.8125px, 16:9."
+    }
+  ],
+  "browserEvidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_BROWSER_2026-11-16.json",
+  "independentAudit": "docs/evidence/REDESIGN_NEXT_EXPANSION_AUDIT_2026-11-16.json",
+  "printMarkup": [
+    {
+      "event": "adex-2025",
+      "images": 3,
+      "sourceNotices": 0
+    },
+    {
+      "event": "eurosatory-2026",
+      "images": 3,
+      "sourceNotices": 0
+    },
+    {
+      "event": "dsei-2025",
+      "images": 2,
+      "sourceNotices": 1
+    },
+    {
+      "event": "idex-2025",
+      "images": 3,
+      "sourceNotices": 0
+    },
+    {
+      "event": "saha-2026",
+      "images": 1,
+      "sourceNotices": 0
+    }
+  ],
+  "pdf": {
+    "status": "new_save_pending",
+    "affected": [
+      "dsei-2025",
+      "saha-2026"
+    ],
+    "previousFilesPreserved": true,
+    "historyDirectory": "output/pdf/history/2026-11-16-before-photo-rights",
+    "sahaPreviewPages": 1,
+    "actualNewFiles": 0,
+    "limitation": "Windows print UI readable, but index click failed with missing geometry and coordinate/value/keyboard actions had no effect. User cancelled; ordinary app DOM restored. No fresh PDF completion claimed."
+  },
+  "corrections": [
+    "EO MBDA association excluded; exact original retained.",
+    "DTaQ shared-source text is 196 unique derived words; visible limits retained.",
+    "Flickr screen image links directly to source with separate zoom. Print/PDF keeps caption/credit/link and omits provider-embed pixels.",
+    "Reference photos do not change attendance or become current-event evidence."
+  ],
+  "remaining": [
+    "36 narrative products lack current-event display photos; 35 lack both event and reviewed reference photos.",
+    "66 existing product records have no authored five-section narrative.",
+    "Broader company relevance, official roster/maps, physical phone QA and completed-version review remain.",
+    "No push, merge or deployment."
+  ],
+  "rows": [
+    {
+      "event": "adex-2025",
+      "product": "k808-peru",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "k9a3",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-rotem-30t",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-tasman-chassis",
+      "eventPhotos": [
+        "photo-88508f17c41d264626d0",
+        "photo-af0b79b5b51a37df0ab9"
+      ],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-yeonhab-vic7dk",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-kltv-ai",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-fiberpro-fog-ins",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-kltv-drone",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-kmtv-chassis",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-mnc-redback-isu",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-kltv-cargo",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "rcws",
+      "eventPhotos": [
+        "photo-406026b01ffa0009623a"
+      ],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-fiberpro-antijam-gnss",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-khtv",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-pei-connector-samples",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-wia-ads-all-in-one",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-eo-raptor-f",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "themis-k",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-rotem-mev",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-cots-sbc-family",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-kmtv-armored",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-soosung-bore-cleaner",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-tasman-refrigerated",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-rotem-hydrogen-wav",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "black-veil",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-tasman-cargo-pair",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "kmtv",
+      "eventPhotos": [
+        "photo-c9b10caa412b9d19d1ef"
+      ],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-wia-rcws-ai",
+      "eventPhotos": [
+        "photo-406026b01ffa0009623a"
+      ],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-hkc-radiation-meter",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "k2pl",
+      "eventPhotos": [
+        "photo-f27315794918d9b8ddce"
+      ],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-kia-tasman-fuel",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-cm-metal-fiber",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-wia-ads",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "tasman-military",
+      "eventPhotos": [
+        "photo-88508f17c41d264626d0",
+        "photo-af0b79b5b51a37df0ab9"
+      ],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-rotem-cpv",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-stx-smv1000",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "light-105",
+      "eventPhotos": [
+        "photo-f07b18031de173091dff"
+      ],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-hkc-crew-helmet",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "adex-2025",
+      "product": "adex25-fiberpro-fog",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "eurosatory-2026",
+      "product": "eu-tasman-c2",
+      "eventPhotos": [
+        "photo-999005f47b49d93d96ef"
+      ],
+      "references": []
+    },
+    {
+      "event": "eurosatory-2026",
+      "product": "eu-k2-export",
+      "eventPhotos": [
+        "photo-a305d72436108230a626"
+      ],
+      "references": []
+    },
+    {
+      "event": "eurosatory-2026",
+      "product": "eu-light-105",
+      "eventPhotos": [
+        "photo-81610d7ae35d4bd5b354"
+      ],
+      "references": []
+    },
+    {
+      "event": "eurosatory-2026",
+      "product": "eu-korkut-25",
+      "eventPhotos": [
+        "photo-aec42c56571bfacd9939",
+        "photo-c9de12f9cace0b10535f",
+        "photo-59361c4bf771c72b9b97",
+        "photo-f39ef13bbe35952dc791",
+        "photo-05353942716e54058c53",
+        "photo-8559a88b8564724e9075",
+        "photo-64952442f8046ffbbaf7",
+        "photo-6ac3e9dbf373e131d0e5",
+        "photo-8e783c755c82dc11628c"
+      ],
+      "references": []
+    },
+    {
+      "event": "eurosatory-2026",
+      "product": "eu-mars-rbs70",
+      "eventPhotos": [
+        "photo-f94a052656828e8efc2a",
+        "photo-43d54391a2b676930834",
+        "photo-22321203751121ea76df",
+        "photo-942bfc3e192a0df3b107",
+        "photo-e3d61f8445111321c23f",
+        "photo-cefcbbd2b595ed31a69f"
+      ],
+      "references": []
+    },
+    {
+      "event": "eurosatory-2026",
+      "product": "eu-kltv-cargo",
+      "eventPhotos": [
+        "photo-ce3d7958065066487fe7"
+      ],
+      "references": []
+    },
+    {
+      "event": "eurosatory-2026",
+      "product": "eu-rcws",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "dsei-2025",
+      "product": "dsei25-patria-tremos",
+      "eventPhotos": [
+        "dsei25-patria-tremos"
+      ],
+      "references": []
+    },
+    {
+      "event": "dsei-2025",
+      "product": "roshel-family-dsei2025",
+      "eventPhotos": [
+        "photo-11263067e6d43e7ce029",
+        "photo-bca8aa760976ba37519d",
+        "photo-0cae38d806030dcdea1a"
+      ],
+      "references": []
+    },
+    {
+      "event": "dsei-2025",
+      "product": "kia-platforms-dsei2025",
+      "eventPhotos": [
+        "photo-648d50af60ebb4f3032a"
+      ],
+      "references": []
+    },
+    {
+      "event": "dsei-2025",
+      "product": "dsei25-patria-trackx",
+      "eventPhotos": [
+        "dsei25-patria-trackx"
+      ],
+      "references": []
+    },
+    {
+      "event": "dsei-2025",
+      "product": "patria-6x6",
+      "eventPhotos": [
+        "dsei25-patria-6x6-c4",
+        "dsei25-patria-6x6-cavs"
+      ],
+      "references": []
+    },
+    {
+      "event": "dsei-2025",
+      "product": "boxer-dsei2025",
+      "eventPhotos": [
+        "photo-82d773132553b98ac998"
+      ],
+      "references": []
+    },
+    {
+      "event": "dsei-2025",
+      "product": "gdams-dsei2025",
+      "eventPhotos": [
+        "photo-759379832c8e0bb07807"
+      ],
+      "references": []
+    },
+    {
+      "event": "idex-2025",
+      "product": "t90ms",
+      "eventPhotos": [
+        "photo-5dd70cdd947e8d8264db",
+        "photo-6fe3dd99c161ed32ca7a"
+      ],
+      "references": []
+    },
+    {
+      "event": "idex-2025",
+      "product": "hafeet-mk2",
+      "eventPhotos": [
+        "photo-69dc76e63f40de3a4788"
+      ],
+      "references": []
+    },
+    {
+      "event": "idex-2025",
+      "product": "themis-combat",
+      "eventPhotos": [
+        "photo-25e3c0aefc7efbbcfddc"
+      ],
+      "references": []
+    },
+    {
+      "event": "idex-2025",
+      "product": "acv",
+      "eventPhotos": [
+        "photo-68c423ede7bd55417d56",
+        "photo-ec57e567a5091a1ac1ac"
+      ],
+      "references": []
+    },
+    {
+      "event": "idex-2025",
+      "product": "cobra-ii",
+      "eventPhotos": [
+        "photo-cb87df5d135cfa3a2f1a"
+      ],
+      "references": []
+    },
+    {
+      "event": "idex-2025",
+      "product": "cockerill-ix",
+      "eventPhotos": [
+        "photo-77eec4976f1654c14cd9"
+      ],
+      "references": []
+    },
+    {
+      "event": "idex-2025",
+      "product": "ajban-family",
+      "eventPhotos": [
+        "photo-954ad88a75d6531185e2",
+        "photo-37412350e639440f3d71"
+      ],
+      "references": []
+    },
+    {
+      "event": "idex-2025",
+      "product": "havoc-8x8",
+      "eventPhotos": [
+        "photo-0807aea6727cdd66f83c",
+        "photo-985b49c2b185568fba9d",
+        "photo-d230f00bf90029fc0a2e"
+      ],
+      "references": []
+    },
+    {
+      "event": "idex-2025",
+      "product": "idex25-diehl-libelle",
+      "eventPhotos": [
+        "idex25-libelle-event-01"
+      ],
+      "references": []
+    },
+    {
+      "event": "saha-2026",
+      "product": "cobra-ii-bee-eater",
+      "eventPhotos": [],
+      "references": []
+    },
+    {
+      "event": "saha-2026",
+      "product": "pars-alpha",
+      "eventPhotos": [],
+      "references": [
+        "photo-5856f0c21570a730032d",
+        "photo-6236edcf1728b4f16107"
+      ]
+    },
+    {
+      "event": "saha-2026",
+      "product": "tulpar-korhan",
+      "eventPhotos": [],
+      "references": []
+    }
+  ],
+  "changedFiles": [
+    ".gitignore",
+    "CHANGELOG.md",
+    "DECISIONS.md",
+    "EVIDENCE.md",
+    "PROJECT_STATE.md",
+    "TASKS.md",
+    "assets/photos/cobra-ii-idef2013-reference.jpg",
+    "assets/photos/idex2025-libelle-event.jpg",
+    "data/catalog.json",
+    "data/photos.json",
+    "data/v2/editorial/event-reports.json",
+    "data/v2/editorial/product-narratives.json",
+    "data/v2/legacy-mapping.json",
+    "data/v2/research/adex-2025/mission-systems.json",
+    "data/v2/research/adex-2025/pavilion-components.json",
+    "data/v2/research/adex-2025/pavilion-followup.json",
+    "data/v2/research/adex-2025/population.json",
+    "data/v2/research/adex-2025/small-systems.json",
+    "data/v2/research/idex-2025/libelle-photo.json",
+    "docs/EXECUTIVE_V2_BRIEF.md",
+    "docs/EXECUTIVE_V2_HANDOFF.md",
+    "docs/EXECUTIVE_V2_STATUS.json",
+    "docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json",
+    "docs/evidence/REDESIGN_NEXT_EXPANSION_AUDIT_2026-11-16.json",
+    "docs/evidence/REDESIGN_NEXT_EXPANSION_BROWSER_2026-11-16.json",
+    "docs/evidence/screenshots/korkut-desktop-2026-11-16.png",
+    "docs/evidence/screenshots/libelle-mobile-2026-11-16.png",
+    "docs/evidence/screenshots/pars-alpha-reference-mobile-2026-11-16.png",
+    "docs/research-v2/redesign-dtaq-budget-revision.json",
+    "docs/research-v2/redesign-narratives-adex-next.json",
+    "docs/research-v2/redesign-narratives-components-adex.json",
+    "docs/research-v2/redesign-narratives-dsei-next.json",
+    "docs/research-v2/redesign-narratives-eurosatory-next.json",
+    "docs/research-v2/redesign-narratives-libelle.json",
+    "docs/research-v2/redesign-narratives-pars-alpha.json",
+    "docs/research-v2/redesign-product-photo-fallback.json",
+    "docs/research-v2/redesign-reference-photo-next-queue.json",
+    "docs/research-v2/redesign-report-saha.json",
+    "scripts/compile-v2-app.mjs",
+    "scripts/compile-v2-data.mjs",
+    "scripts/prepare-redesign-content.mjs",
+    "src/v2/data.js",
+    "src/v2/details.css",
+    "src/v2/details.js",
+    "src/v2/report.css",
+    "src/v2/report.js",
+    "tests/v2-app-data.test.mjs",
+    "tests/v2-data.test.mjs",
+    "tests/v2-details.test.mjs",
+    "tests/v2-report.test.mjs"
+  ],
+  "workspaceMemoryFiles": [
+    "../PROJECT_STATE.md",
+    "../TASKS.md",
+    "../DECISIONS.md",
+    "../EVIDENCE.md",
+    "../CHANGELOG.md"
+  ],
+  "localCommit": {
+    "status": "pending",
+    "branch": "codex/fieldnote-redesign-audit",
+    "baseline": "7b13b9d",
+    "pushed": false
+  },
+  "independentEvidenceConsistencyReview": {
+    "status": "passed_after_two_metadata_corrections",
+    "reviewer": "eurosatory_report_resume",
+    "corrections": [
+      "final check log hash/tail aligned with actual final run; prior observation retained",
+      "PDF limitation updated from earlier permission wording to observed input failure and user cancellation"
+    ],
+    "newTestRuns": false
+  },
+  "memoryVerification": {
+    "status": "passed",
+    "scope": "Current counts/task state/PDF pending/log hashes/changed JSON parsing/root memory existence",
+    "publicDeployment": false
+  }
+}

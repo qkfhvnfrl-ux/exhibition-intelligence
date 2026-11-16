@@ -1463,6 +1463,14 @@
       "newId": "photo-25e3c0aefc7efbbcfddc"
     },
     {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "cobra-ii-reference-idef2013",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-055d06685c584af0cb05"
+    },
+    {
       "sourceFile": "data/review-photos.json",
       "recordType": "photo",
       "oldId": "k2pl-event-01",

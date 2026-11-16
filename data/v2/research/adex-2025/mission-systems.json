@@ -455,7 +455,7 @@
       "reason": "승무원 관측장비와 무인체계 영상센서를 함께 검토할 수 있는 국내 광학업체입니다.",
       "highlights": [
         "RAPTOR-F·MGS-5·THETIS를 각각 등록했습니다.",
-        "독립 현장 취재 사진과 회사 제공 사진을 분리했습니다.",
+        "회사 제공 사진과 독립 현장 기사의 참가 언급을 구분했습니다.",
         "24종 전체 모델 명단은 미확보 상태입니다."
       ],
       "exhibit": {
@@ -518,7 +518,6 @@
         ],
         "sourceIds": [
           "eo-release",
-          "eo-field",
           "eo-profile",
           "eo-name"
         ]
@@ -530,7 +529,6 @@
         "status": "configuration_comparison_only",
         "sourceIds": [
           "eo-release",
-          "eo-field",
           "eo-profile",
           "eo-name"
         ]
@@ -540,7 +538,6 @@
         "interpretation": "개별 광학장비에서 영상처리·연동 기능을 함께 제시하는 방향으로 해석됩니다.",
         "sourceIds": [
           "eo-release",
-          "eo-field",
           "eo-profile",
           "eo-name"
         ]
@@ -567,15 +564,15 @@
         {
           "id": "eo-field",
           "url": "https://www.motoya.co.kr/news/articleView.html?idxno=44416",
-          "title": "ADEX 2025 현장 취재와 이오시스템 부스 사진",
+          "title": "ADEX 2025 현장 기사 — 이오시스템 참가 언급",
           "publisher": "모토야 / 박병하",
           "date": "2025-10-22",
           "role": "independent_event_report",
           "originGroup": "motoya-park-adex25",
-          "support": "이오시스템 부스와 광학장비 전시의 독립 관찰",
-          "limitations": "사진은 부스와 출품 존재를 뒷받침하며 성능 시험이 아님.",
+          "support": "본문의 이오시스템 참가업체명 언급. 개별 장비와 부스사진의 식별 근거로 사용하지 않는다.",
+          "limitations": "이전 이오시스템 사진 연결은 재대조에서 MBDA 부스로 확인되어 제외했다. 주변 광학장비 사진도 동인광학이며 이오시스템 제품 사진이 아니다.",
           "independence": "independent_observation_only",
-          "checkedAt": "2026-11-12"
+          "checkedAt": "2026-11-16"
         },
         {
           "id": "eo-profile",
@@ -665,29 +662,6 @@
           "originalImageUrl": "https://cdn.news2day.co.kr/data2/content/image/2025/10/20/.cache/512/20251020500349.png",
           "organizationId": "org-e843c1da4f4efc81c4ca",
           "eventName": "Seoul ADEX 2025"
-        },
-        {
-          "id": "photo-adex25-eo-booth-motoya",
-          "sourceUrl": "https://www.motoya.co.kr/news/articleView.html?idxno=44416",
-          "caption": "ADEX 2025 이오시스템 부스 — 현장 취재 사진",
-          "credit": "모토야 / 박병하 (기사 작성자; 사진별 촬영자 별도 미표기)",
-          "photographer": "모토야 / 박병하 (기사 작성자; 사진별 촬영자 별도 미표기)",
-          "rightsStatus": "link-only",
-          "rightsNote": "재배포 허락 미확인. 원문 링크만 제공하며 이미지 파일을 복제하거나 직접 표시하지 않습니다.",
-          "license": null,
-          "context": "event",
-          "eventId": "adex-2025",
-          "eventYear": 2025,
-          "sourceDate": "2025-10-22",
-          "sourceIds": [
-            "eo-field"
-          ],
-          "productIds": [],
-          "variantNote": "독립 현장 사진 직접 확인. 이오시스템 간판은 명확하나 개별 제품명을 사진만으로 추정하지 않음.",
-          "assetUrl": "https://www.motoya.co.kr/news/photo/202510/44416_251867_5442.jpg",
-          "originalImageUrl": "https://www.motoya.co.kr/news/photo/202510/44416_251867_5442.jpg",
-          "organizationId": "org-e843c1da4f4efc81c4ca",
-          "eventName": "Seoul ADEX 2025"
         }
       ],
       "catalogs": [],
@@ -722,7 +696,41 @@
           ],
           "note": "공식 사전 지도 홀만 확인. 부스 번호와 추가 좌표는 생성하지 않습니다."
         }
-      ]
+      ],
+      "excludedPhotos": [
+        {
+          "id": "photo-adex25-eo-booth-motoya",
+          "excludedAt": "2026-11-16",
+          "reason": "원본 픽셀의 MBDA 간판을 확인했다. 이오시스템 부스로 잘못 식별한 이전 연결을 제외한다.",
+          "correctedCaption": "ADEX 2025 MBDA 부스 — 이오시스템 근거 아님",
+          "originalRecord": {
+            "id": "photo-adex25-eo-booth-motoya",
+            "sourceUrl": "https://www.motoya.co.kr/news/articleView.html?idxno=44416",
+            "caption": "ADEX 2025 이오시스템 부스 — 현장 취재 사진",
+            "credit": "모토야 / 박병하 (기사 작성자; 사진별 촬영자 별도 미표기)",
+            "photographer": "모토야 / 박병하 (기사 작성자; 사진별 촬영자 별도 미표기)",
+            "rightsStatus": "link-only",
+            "rightsNote": "재배포 허락 미확인. 원문 링크만 제공하며 이미지 파일을 복제하거나 직접 표시하지 않습니다.",
+            "license": null,
+            "context": "event",
+            "eventId": "adex-2025",
+            "eventYear": 2025,
+            "sourceDate": "2025-10-22",
+            "sourceIds": [
+              "eo-field"
+            ],
+            "productIds": [],
+            "variantNote": "독립 현장 사진 직접 확인. 이오시스템 간판은 명확하나 개별 제품명을 사진만으로 추정하지 않음.",
+            "assetUrl": "https://www.motoya.co.kr/news/photo/202510/44416_251867_5442.jpg",
+            "originalImageUrl": "https://www.motoya.co.kr/news/photo/202510/44416_251867_5442.jpg",
+            "organizationId": "org-e843c1da4f4efc81c4ca",
+            "eventName": "Seoul ADEX 2025"
+          },
+          "sourceUrl": "https://www.motoya.co.kr/news/articleView.html?idxno=44416",
+          "originalImageUrl": "https://www.motoya.co.kr/news/photo/202510/44416_251867_5442.jpg"
+        }
+      ],
+      "verificationNote": "RAPTOR-F 체험 사진은 회사 제공 기사에 따른다. 별도 현장 기사의 업체명 언급을 개별 장비의 독립 사진 확인으로 세지 않는다."
     },
     {
       "id": "case-adex-2025-solvit",

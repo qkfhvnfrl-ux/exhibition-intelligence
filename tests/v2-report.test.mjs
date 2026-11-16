@@ -55,6 +55,41 @@ test('every displayed report photo keeps its original and rights links on screen
  }
 });
 
+test('provider-hosted report photographs link from the screen image and retain a credited source notice in PDF',()=>{
+ const data=structuredClone(adex),photo=data.photos.find(photo=>photo.id===data.report.themes[0].photoId);
+ photo.src='https://live.staticflickr.com/65535/123_example_b.jpg';photo.sourceUrl='https://www.flickr.com/photos/example/123/';photo.delivery='remote';photo.rights={status:'provider-embed',license:'All Rights Reserved'};
+ for(const print of [false,true]){
+  const markup=eventReportMarkup(data,{print});
+  if(print){
+   assert.ok(!markup.includes(photo.src));
+   assert.match(markup,/class="report-photo-reference"/);
+   assert.match(markup,/사진 원문 안내/);
+   assert.ok(markup.includes(escapeHTML(photo.caption)));
+   assert.ok(markup.includes(escapeHTML(photo.credit)));
+   assert.ok(markup.includes(`href="${photo.sourceUrl}"`));
+  }else assert.match(markup,/<a class="fn-photo-provider-link" href="https:\/\/www\.flickr\.com\/photos\/example\/123\/"[^>]*><img/);
+  assert.match(markup,/All Rights Reserved/);
+ }
+});
+
+test('a report reference fallback requires the same company and product and never becomes event evidence',()=>{
+ const data=structuredClone(adex),theme=data.report.themes[0],company=data.companies.find(row=>row.id===theme.companyId);
+ theme.photoId='';
+ const reference={id:'reference-photo',src:'assets/photos/product-reference.jpg',context:'reference',productIds:[theme.productId],caption:'2024 제품 참고사진',credit:'촬영자',sourceUrl:'https://example.org/reference',sourceIds:['reference-only'],rights:{status:'reusable',license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/'}};
+ data.photos.push(reference);data.sources.push({id:'reference-only',url:reference.sourceUrl,title:'일반 제품사진 근거'});
+ for(const print of [false,true])assert.ok(!eventReportMarkup(data,{print}).includes(reference.src),'another company photograph must not fill the gap');
+ company.photoIds.push(reference.id);
+ const before=structuredClone(data);
+ for(const print of [false,true]){
+  const html=eventReportMarkup(data,{print});
+  assert.ok(html.includes(reference.src));assert.match(html,/제품 참고사진 · 해당 회차 현장사진 아님/);
+  assert.ok(html.includes(`href="${reference.sourceUrl}"`));assert.match(html,/CC BY 4.0/);
+ }
+ const container=containerFor();renderEventReport(container,{data})();assert.match(container.innerHTML,/일반 제품사진 근거/);
+ assert.deepEqual(data,before);
+ reference.productIds=['unrelated'];assert.ok(!eventReportMarkup(data).includes(reference.src));
+});
+
 test('photo-only source IDs join report evidence and duplicate URLs receive one compact citation',()=>{
  const data=structuredClone(adex),photo=data.photos.find(photo=>photo.id===data.report.themes[0].photoId);
  const url='https://example.org/photo-evidence?event=2025&view=original',title='사진에만 연결된 현장 원문';
@@ -119,7 +154,15 @@ for(const data of [adex,...laterEvents])test(`${data.event.id} keeps three revie
   }
   assert.ok(html.includes(`data-report-case="${company.id}" data-product="${product.id}"`));
   assert.ok(printed.includes(escapeHTML(product.name)));
-  if(!theme.photoId)continue;
+  if(!theme.photoId){
+   const reference=data.photos.find(photo=>photo.context==='reference'&&company.photoIds.includes(photo.id)&&photo.productIds.includes(product.id)&&photo.src);
+   if(reference){
+    for(const markup of [html,printed]){assert.ok(markup.includes(`src="${escapeHTML(reference.src)}"`));assert.match(markup,/제품 참고사진 · 해당 회차 현장사진 아님/);}
+    for(const id of reference.sourceIds)sourceIds.add(id);
+    photoCount++;
+   }
+   continue;
+  }
   const photo=data.photos.find(photo=>photo.id===theme.photoId);
   assert.ok(photo,`missing photo ${theme.photoId}`);
   assert.ok(company.photoIds.includes(photo.id),`${company.id} does not own ${photo.id}`);
@@ -129,11 +172,13 @@ for(const data of [adex,...laterEvents])test(`${data.event.id} keeps three revie
   for(const id of photo.sourceIds)sourceIds.add(id);
   assert.ok(photo.src,`${photo.id} has no display asset`);
   assert.ok(html.includes(`src="${escapeHTML(photo.src)}"`));
-  assert.ok(printed.includes(`src="${escapeHTML(photo.src)}"`));
+  assert.equal(printed.includes(`src="${escapeHTML(photo.src)}"`),photo.rights?.status!=='provider-embed');
   photoCount++;
  }
  for(const markup of [html,printed]){
-  assert.equal((markup.match(/<img\s/g)||[]).length,photoCount);
+  const referenceCount=markup===printed?model.themes.filter(theme=>data.photos.find(photo=>photo.id===theme.photoId)?.rights?.status==='provider-embed').length:0;
+  assert.equal((markup.match(/<img\s/g)||[]).length,photoCount-referenceCount);
+  assert.equal((markup.match(/class="report-photo-reference"/g)||[]).length,referenceCount);
   assert.equal((markup.match(/class="report-photo-missing"/g)||[]).length,3-photoCount,'missing theme photos must remain explicit gaps');
  }
  assert.doesNotMatch(printed,/data-report-case=/);

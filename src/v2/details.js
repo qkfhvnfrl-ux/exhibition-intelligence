@@ -17,6 +17,17 @@ export function photoUrl(photo) {
   return safeExternalUrl(src);
 }
 const sourceUrl = photo => safeExternalUrl(photo?.sourceUrl);
+const providerPhotoSource = photo => {
+  const source=sourceUrl(photo),src=photoUrl(photo);
+  return photo?.rights?.status==='provider-embed' && source && src && new URL(src,'https://fieldnote.invalid').hostname==='live.staticflickr.com' && ['flickr.com','www.flickr.com'].includes(new URL(source).hostname) ? source : null;
+};
+export function photoWithSourceLink(photo, image) {
+  const source=providerPhotoSource(photo);
+  return source ? `<a class="fn-photo-provider-link" href="${escapeHTML(source)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHTML(photo.caption||'사진')} Flickr 원문 열기">${image}</a>` : image;
+}
+export function photoPrintNotice(photo, className = 'fn-photo-print-notice') {
+  return photo?.rights?.status === 'provider-embed' ? `<div class="${escapeHTML(className)}"><span>사진 원문 안내</span><small>외부 표시 사진 · 원문에서 열람</small></div>` : null;
+}
 const link = (url, label, className = '') => { const href = safeExternalUrl(url); return href ? `<a class="${className}" href="${escapeHTML(href)}" target="_blank" rel="noopener noreferrer">${escapeHTML(label)}</a>` : `<span class="${className}">${escapeHTML(label)}</span>`; };
 const photoRightsMarkup = photo => {
   const rights=photo.rights||{},label=rights.license||photo.license;
@@ -75,7 +86,7 @@ function imageMarkup(photo, index, {print = false, hero = false, currentEvent = 
   const caption = photo.caption || '전시 자료 사진';
   const context = currentEvent ? '해당 회차 현장' : '관련 참고사진';
   const image = src ? `<img src="${escapeHTML(src)}" alt="${escapeHTML(caption)}" loading="${print || hero ? 'eager' : 'lazy'}" decoding="async"${photo.width && photo.height ? ` width="${Number(photo.width)}" height="${Number(photo.height)}"` : ''}>` : print ? '<p class="fn-note">사진 원문 링크</p>' : `<div class="fn-photo-link-only"><span>사진 원문 열람</span><small>사진은 출처에서 확인할 수 있습니다</small></div>`;
-  const content = print ? image : `<button type="button" class="fn-photo-open" data-photo-index="${index}" aria-label="${escapeHTML(caption)} 확대">${image}<span class="fn-photo-expand">${svg('expand')}</span></button>`;
+  const content = print ? photoPrintNotice(photo) || image : providerPhotoSource(photo) ? `<div class="fn-photo-open fn-photo-provider">${photoWithSourceLink(photo,image)}<button type="button" class="fn-photo-expand" data-photo-index="${index}" aria-label="${escapeHTML(caption)} 확대">${svg('expand')}</button></div>` : `<button type="button" class="fn-photo-open" data-photo-index="${index}" aria-label="${escapeHTML(caption)} 확대">${image}<span class="fn-photo-expand">${svg('expand')}</span></button>`;
   return `<figure class="fn-photo ${hero ? 'fn-photo-hero' : ''}" data-photo-id="${escapeHTML(photo.id)}">${content}<figcaption><span>${escapeHTML(caption)}</span><small>${escapeHTML([context, photo.credit || photo.author, photo.sourceDate ? `자료 날짜 ${photo.sourceDate}` : null].filter(Boolean).join(' · '))}</small>${photo.variantNote ? `<small>${escapeHTML(photo.variantNote)}</small>` : ''}${sourceUrl(photo) ? link(photo.sourceUrl,'사진 원문','fn-source-link') + (print ? `<small class="fn-print-url">${escapeHTML(sourceUrl(photo))}</small>` : '') : ''}${photoRightsMarkup(photo)}</figcaption></figure>`;
 }
 const isCurrentEventPhoto = (data, photo) => photo.context === 'event' && (!(photo.eventId || photo.eventEditionId) || (photo.eventId || photo.eventEditionId) === data?.event?.id);
@@ -86,12 +97,19 @@ function galleryMarkup(photos, {print = false, allPhotos = photos, data = null} 
   const shown=field.filter(({photo})=>photoUrl(photo));
   const linked=field.filter(({photo})=>!photoUrl(photo));
   const reference=rows.filter(row=>!field.includes(row));
-  if(print)return `${field.length?'<h4>해당 회차 현장사진</h4>':''}<div class="fn-photo-gallery fn-photo-gallery-print">${field.map(({photo,index})=>imageMarkup(photo,index,{print:true})).join('')}</div>${reference.length?'<h4 class="fn-reference-heading">비교 참고사진 · 다른 회차·훈련 자료</h4><p class="fn-note">아래 사진은 이번 회차 전시 근거와 구분해 읽어야 합니다.</p>':''}<div class="fn-photo-gallery fn-photo-gallery-print">${reference.map(({photo,index})=>imageMarkup(photo,index,{print:true,currentEvent:false})).join('')}</div>`;
-  const thumbnail=({photo,index})=>`<button type="button" class="fn-photo-thumbnail" data-photo-index="${index}" aria-label="${escapeHTML(photo.caption||'사진')} 확대">${photoUrl(photo)?`<img src="${escapeHTML(photoUrl(photo))}" alt="${escapeHTML(photo.caption||'사진')}" loading="lazy" decoding="async">`:'<span class="fn-thumbnail-linked">원문 열람</span>'}<span>${escapeHTML(photo.caption||'사진 자료')}</span></button>`;
-  const hero=shown.length?imageMarkup(shown[0].photo,shown[0].index,{hero:true}):'';
-  const strip=shown.length>1?`<div class="fn-photo-strip" aria-label="추가 현장사진">${shown.slice(1).map(thumbnail).join('')}</div>`:'';
+  if(print)return `${field.length?'<h4>해당 회차 현장사진</h4>':''}<div class="fn-photo-gallery fn-photo-gallery-print">${field.map(({photo,index})=>imageMarkup(photo,index,{print:true})).join('')}</div>${reference.length?'<h4 class="fn-reference-heading">제품 참고사진 · 해당 회차 현장사진 아님</h4><p class="fn-note">아래 사진은 이번 회차 전시 근거와 구분해 읽어야 합니다.</p>':''}<div class="fn-photo-gallery fn-photo-gallery-print">${reference.map(({photo,index})=>imageMarkup(photo,index,{print:true,currentEvent:false})).join('')}</div>`;
+  const thumbnail=({photo,index})=>{
+    const label=escapeHTML(photo.caption||'사진'),shortLabel=escapeHTML((photo.caption||'사진 자료').split(' — ').at(-1)),image=photoUrl(photo)?`<img src="${escapeHTML(photoUrl(photo))}" alt="${label}" loading="lazy" decoding="async">`:'<span class="fn-thumbnail-linked">원문 열람</span>';
+    if(providerPhotoSource(photo))return `<div class="fn-photo-thumbnail fn-photo-thumbnail-provider">${photoWithSourceLink(photo,image)}<button type="button" class="fn-photo-thumbnail-expand" data-photo-index="${index}" aria-label="${label} 확대"><span>${shortLabel}</span><small>확대 보기 ↗</small></button></div>`;
+    return `<button type="button" class="fn-photo-thumbnail" data-photo-index="${index}" aria-label="${label} 확대">${image}<span>${shortLabel}</span></button>`;
+  };
+  const fallback=shown.length?[]:reference.filter(({photo})=>photoUrl(photo));
+  const primary=shown.length?shown:fallback;
+  const hero=primary.length?`${fallback.length?'<p class="fn-reference-heading">제품 참고사진 · 해당 회차 현장사진 아님</p>':''}${imageMarkup(primary[0].photo,primary[0].index,{hero:true,currentEvent:!fallback.length})}`:'';
+  const strip=primary.length>1?`<div class="fn-photo-strip" aria-label="${fallback.length?'추가 제품 참고사진':'추가 현장사진'}">${primary.slice(1).map(thumbnail).join('')}</div>`:'';
   const linkedList=linked.length?`<div class="fn-linked-photos"><h4>현장사진 원문 <span>${linked.length}</span></h4><ul>${linked.map(({photo,index})=>`<li><button type="button" data-photo-index="${index}">${escapeHTML(photo.caption||'현장사진 원문')}</button>${sourceUrl(photo)?link(photo.sourceUrl,'원문 열기'):''}</li>`).join('')}</ul></div>`:'';
-  const references=reference.length?`<details class="fn-reference-photos"><summary>비교 참고사진 · 다른 회차/훈련 (${reference.length})</summary><p class="fn-note">이번 회차의 출품 근거와 구분해 보관한 사진입니다.</p><div class="fn-photo-strip" aria-label="비교 참고사진">${reference.map(thumbnail).join('')}</div></details>`:'';
+  const remaining=reference.filter(row=>!fallback.includes(row));
+  const references=remaining.length?`<details class="fn-reference-photos"><summary>비교 참고사진 · 다른 회차/훈련 (${remaining.length})</summary><p class="fn-note">이번 회차의 출품 근거와 구분해 보관한 사진입니다.</p><div class="fn-photo-strip" aria-label="비교 참고사진">${remaining.map(thumbnail).join('')}</div></details>`:'';
   return `<div class="fn-photo-gallery">${hero}${strip}${linkedList}${references}</div>`;
 }
 function sourcesMarkup(sources, catalogs, {print = false} = {}) {
@@ -136,7 +154,8 @@ function sourceLinksMarkup(ids, sources) {
 }
 export function productPhotos(data, company, product, photos=companyPhotos(data,company)) {
   const ids=new Set(arr(product.narrative?.photoIds));
-  return photos.filter(photo=>isCurrentEventPhoto(data,photo) && (arr(photo.productIds).includes(product.id) || ids.has(photo.id)));
+  const field=photos.filter(photo=>isCurrentEventPhoto(data,photo) && (arr(photo.productIds).includes(product.id) || ids.has(photo.id)));
+  return field.some(photo=>photoUrl(photo))?field:[...field,...photos.filter(photo=>photo.context==='reference' && arr(photo.productIds).includes(product.id))];
 }
 function productMarkup(data, company, product, photos, {print=false,productId=null}={}) {
   const narrative=product.narrative || {}, sources=productSources(data,product);
@@ -159,7 +178,7 @@ function productMarkup(data, company, product, photos, {print=false,productId=nu
   if(!critical.some(text=>/단일/.test(text)) && eventSources.length===1 && eventSources[0].evidenceStatuses.some(status=>['single_source','primary_single_origin'].includes(status)))critical.push('출품 설명은 발행사 단일 근거입니다.');
   const detailBody=(otherLimits.length?`<div class="fn-product-limits"><h4>추가 확인 범위</h4>${list(otherLimits)}</div>`:'')+(allSources.length?sourcesMarkup(allSources,[],{print}):'');
   const form=narrative.form || product.form || '전시 형상 미확인';
-  return `<article class="fn-product${product.id===productId?' fn-product-selected':''}" id="product-${escapeHTML(product.id)}" data-product-id="${escapeHTML(product.id)}" tabindex="-1"><header class="fn-product-heading"><div><p class="fn-product-form">${escapeHTML(form)}</p><h3>${escapeHTML(product.name)}</h3><p class="fn-product-status">${escapeHTML((!product.exhibitStatus||product.exhibitStatus==='unconfirmed')&&eventIds.length?'해당 회차 출품 관련 원문 확보 · 형상 설명 참조':exhibitStatusLabel(product.exhibitStatus))}</p></div>${print?'':`<button type="button" class="fn-product-permalink" data-product-link="${escapeHTML(product.id)}" aria-label="${escapeHTML(product.name)} 장비 링크 열기">장비 링크 ↗</button>`}</header><div class="fn-product-layout"><div class="fn-product-photos">${gallery.some(photo=>photoUrl(photo))?'':'<p class="fn-photo-unavailable">이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.</p>'}${gallery.length?galleryMarkup(gallery,{print,allPhotos:photos,data}):''}</div><div class="fn-product-copy">${sections}${critical.length?`<aside class="fn-product-critical" aria-label="주요 확인 범위">${list(critical)}</aside>`:''}${detailBody?section('상세 출처와 확인 범위',detailBody,{print}):''}</div></div></article>`;
+  return `<article class="fn-product${product.id===productId?' fn-product-selected':''}" id="product-${escapeHTML(product.id)}" data-product-id="${escapeHTML(product.id)}" tabindex="-1"><header class="fn-product-heading"><div><p class="fn-product-form">${escapeHTML(form)}</p><h3>${escapeHTML(product.name)}</h3><p class="fn-product-status">${escapeHTML((!product.exhibitStatus||product.exhibitStatus==='unconfirmed')&&eventIds.length?'해당 회차 출품 관련 원문 확보 · 형상 설명 참조':exhibitStatusLabel(product.exhibitStatus))}</p></div>${print?'':`<button type="button" class="fn-product-permalink" data-product-link="${escapeHTML(product.id)}" aria-label="${escapeHTML(product.name)} 장비 링크 열기">장비 링크 ↗</button>`}</header><div class="fn-product-layout"><div class="fn-product-photos">${gallery.some(photo=>isCurrentEventPhoto(data,photo)&&photoUrl(photo))?'':'<p class="fn-photo-unavailable">이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.</p>'}${gallery.length?galleryMarkup(gallery,{print,allPhotos:photos,data}):''}</div><div class="fn-product-copy">${sections}${critical.length?`<aside class="fn-product-critical" aria-label="주요 확인 범위">${list(critical)}</aside>`:''}${detailBody?section('상세 출처와 확인 범위',detailBody,{print}):''}</div></div></article>`;
 }
 function editorialSections(data, company, editorial, {print = false} = {}) {
   const exhibit = editorial.exhibit || {};
@@ -263,7 +282,7 @@ export function openPhotoViewer({photos = [],index = 0,onClose,onIndexChange,doc
   let fallbackCleanup=()=>{};
   const draw=()=>{
     const photo=photos[current],src=photoUrl(photo);
-    dialog.innerHTML=`<div class="fn-viewer-toolbar"><span>사진 ${current+1} / ${photos.length}</span><div>${sourceUrl(photo)?link(photo.sourceUrl,'사진 원문'):''}<button type="button" class="fn-icon-button" data-viewer="close" aria-label="사진 닫기">${svg('close')}</button></div></div><div class="fn-viewer-stage">${photos.length>1?`<button type="button" class="fn-viewer-arrow fn-viewer-prev" data-viewer="prev" aria-label="이전 사진"${current===0?' disabled':''}>${svg('left')}</button>`:''}<div class="fn-viewer-image">${src?`<img src="${escapeHTML(src)}" alt="${escapeHTML(photo.caption||'전시 사진')}" decoding="async">`:`<div class="fn-viewer-linked"><h3>사진 원문에서 열람</h3><p>이 사진은 출처 페이지에서 확인할 수 있습니다.</p>${sourceUrl(photo)?link(photo.sourceUrl,'사진 원문 열기','fn-primary-link'):'<p>원문 링크를 확인하고 있습니다.</p>'}</div>`}</div>${photos.length>1?`<button type="button" class="fn-viewer-arrow fn-viewer-next" data-viewer="next" aria-label="다음 사진"${current===photos.length-1?' disabled':''}>${svg('right')}</button>`:''}</div><footer class="fn-viewer-caption"><p>${escapeHTML(photo.caption||'전시 자료 사진')}</p><small>${escapeHTML([photo.context==='event'?'해당 회차 현장':'관련 참고사진',photo.credit,photo.sourceDate ? `자료 날짜 ${photo.sourceDate}` : null].filter(Boolean).join(' · '))}</small>${photo.variantNote?`<small>${escapeHTML(photo.variantNote)}</small>`:''}${photoRightsMarkup(photo)}</footer>`;
+    dialog.innerHTML=`<div class="fn-viewer-toolbar"><span>사진 ${current+1} / ${photos.length}</span><div>${sourceUrl(photo)?link(photo.sourceUrl,'사진 원문'):''}<button type="button" class="fn-icon-button" data-viewer="close" aria-label="사진 닫기">${svg('close')}</button></div></div><div class="fn-viewer-stage">${photos.length>1?`<button type="button" class="fn-viewer-arrow fn-viewer-prev" data-viewer="prev" aria-label="이전 사진"${current===0?' disabled':''}>${svg('left')}</button>`:''}<div class="fn-viewer-image">${src?photoWithSourceLink(photo,`<img src="${escapeHTML(src)}" alt="${escapeHTML(photo.caption||'전시 사진')}" decoding="async">`):`<div class="fn-viewer-linked"><h3>사진 원문에서 열람</h3><p>이 사진은 출처 페이지에서 확인할 수 있습니다.</p>${sourceUrl(photo)?link(photo.sourceUrl,'사진 원문 열기','fn-primary-link'):'<p>원문 링크를 확인하고 있습니다.</p>'}</div>`}</div>${photos.length>1?`<button type="button" class="fn-viewer-arrow fn-viewer-next" data-viewer="next" aria-label="다음 사진"${current===photos.length-1?' disabled':''}>${svg('right')}</button>`:''}</div><footer class="fn-viewer-caption"><p>${escapeHTML(photo.caption||'전시 자료 사진')}</p><small>${escapeHTML([photo.context==='event'?'해당 회차 현장':'관련 참고사진',photo.credit,photo.sourceDate ? `자료 날짜 ${photo.sourceDate}` : null].filter(Boolean).join(' · '))}</small>${photo.variantNote?`<small>${escapeHTML(photo.variantNote)}</small>`:''}${photoRightsMarkup(photo)}</footer>`;
     fallbackCleanup();fallbackCleanup=attachImageFallback(dialog);
   };
   const updateIndex=(next,{notify=true}={})=>{const value=Math.max(0,Math.min(photos.length-1,Number(next)||0));if(value===current)return;const focusAction=doc.activeElement?.dataset?.viewer || 'close';current=value;draw();const focusTarget=dialog.querySelector('[data-viewer="'+focusAction+'"]:not([disabled])') || dialog.querySelector('[data-viewer="close"]');focusTarget?.focus();if(notify)onIndexChange?.(current,photos[current]);};

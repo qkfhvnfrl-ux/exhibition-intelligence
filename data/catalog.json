@@ -3776,21 +3776,26 @@
       "src": "assets/photos/pars-alpha-00.webp",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:FNSS_-_PARS_ALPHA_8x8.jpg",
       "author": "Ciko1213",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "caption": "PARS ALPHA 8×8 전시차량 — 차체·차륜 배치 참고",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "caption": "PARS ALPHA·TEBER-II — SAHA EXPO 2024 참고사진",
       "angle": "측면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "출처 표기 PARS ALPHA 8×8 참고사진입니다. SAHA 2026 실물 전시·최종 양산 구성을 증명하지 않습니다.",
+      "variantNote": "촬영일은 사진 워터마크 기준이며 업로드는 2025-01-07이다. SAHA 2026 현장·최종 전시형을 확인하는 사진이 아니다. 웹 표시용 1600px 축소·WebP 변환본. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:FNSS - PARS ALPHA 8x8.jpg",
-      "sourceDate": "2025-01-07",
+      "sourceDate": "2024-10-26",
       "retrievedAt": "2026-11-10",
       "width": 1600,
       "height": 900,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35"
+      "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+      "productIds": [
+        "pars-alpha"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "2026-11-16 Commons 원문 CC0·촬영자·픽셀을 재대조했다. 현장 출품 근거와 구분한 제품 참고사진이다."
     },
     {
       "id": "pars-alpha-11",
@@ -3798,21 +3803,26 @@
       "src": "assets/photos/pars-alpha-11.webp",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARS_ALPHA_8x8_Taktik_Tekerlekli_Z%C4%B1rhl%C4%B1_Muharebe_Arac%C4%B1.jpg",
       "author": "RainforestGuardian",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "caption": "PARS ALPHA 8×8 외부 전경 — 전면 사선 참고",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "caption": "PARS ALPHA 8×8 — 일반 제품 참고사진",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "출처 표기 PARS ALPHA 8×8 참고사진입니다. SAHA 2026 실물 전시·최종 양산 구성을 증명하지 않습니다.",
+      "variantNote": "촬영일은 원문 카메라 메타데이터이며 장소·행사는 미확인이다. 업로드는 2024-09-16이다. TEBER-II 표지는 판독하지 못했다. SAHA 2026 현장·최종 전시형을 확인하는 사진이 아니다. 웹 표시용 1600px 축소·WebP 변환본. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:PARS ALPHA 8x8 Taktik Tekerlekli Zırhlı Muharebe Aracı.jpg",
-      "sourceDate": "2023-12-06 15:55:38",
+      "sourceDate": "2023-12-06",
       "retrievedAt": "2026-11-10",
       "width": 1600,
       "height": 1067,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855"
+      "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+      "productIds": [
+        "pars-alpha"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "2026-11-16 Commons 원문 CC0·촬영자·픽셀을 재대조했다. 현장 출품 근거와 구분한 제품 참고사진이다."
     },
     {
       "id": "kaplan-hybrid-00",
@@ -3925,6 +3935,32 @@
       "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
       "rightsStatus": "reusable",
       "rightsBasis": "2026-11-16 Commons 원문에서 촬영자·CC BY 4.0·촬영일·IDEX 2025 설명을 대조했다. 저자·원문·라이선스 링크·변경 표시를 유지한다."
+    },
+    {
+      "id": "cobra-ii-reference-idef2013",
+      "equipmentId": "cobra-ii",
+      "productIds": [
+        "cobra-ii"
+      ],
+      "src": "assets/photos/cobra-ii-idef2013-reference.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otokar_Cobra_2.jpg",
+      "author": "Janissarywiki",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "caption": "COBRA II 기반차량 — IDEF 2013 참고사진",
+      "context": "reference",
+      "eventId": null,
+      "variantNote": "일반 COBRA II 참고사진이며 DASAL UAV 구성이나 IDEX 2025·SAHA 2026 현장사진이 아니다. 원문 날짜 2013-05-10과 카메라 날짜 2013-05-07이 상충한다. 원본 JPEG 무변환.",
+      "sourceTitle": "Otokar Cobra 2 · IDEF 2013",
+      "sourceDate": "2013",
+      "retrievedAt": "2026-11-16",
+      "width": 800,
+      "height": 600,
+      "changes": "원본 JPEG 무변환. 자르기·합성·형상 수정 없음.",
+      "mediaType": "photo",
+      "sha256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5",
+      "rightsStatus": "reusable",
+      "rightsBasis": "Commons 개별 파일의 CC0 1.0·촬영자·픽셀·원본 해시 확인. 정확한 날짜 충돌은 보존한다."
     }
   ],
   "criteria": [

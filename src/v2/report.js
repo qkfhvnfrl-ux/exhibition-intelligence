@@ -1,4 +1,4 @@
-import {escapeHTML,photoUrl,preparePrintImages} from './details.js';
+import {escapeHTML,photoUrl,photoWithSourceLink,photoPrintNotice,preparePrintImages} from './details.js';
 import {safeUrl} from './data.js';
 const esc=escapeHTML;
 const arr=value=>Array.isArray(value)?value:[];
@@ -12,18 +12,27 @@ export function reportModel(data){
  const cases=availableCases(data).slice(0,3);
  return {eventId:data.event.id,asOf:data.dataAsOf,title:eventName(data),message:'수록된 업체 자료와 확인 범위',scopeNote:'현재 수록된 업체 자료 기준 · 개별 제품 출품은 확인 중 · 행사 전체 조사 아님',comparisonEvent:null,comparisonNote:'직전 개최 회차의 자료 대조가 끝나지 않아 변화 판단을 보류합니다.',themes:cases.map(({company,photo})=>({title:nameOf(company),summary:company.reason||company.interpretationNote||'해당 회차 출품 근거와 사진의 확인 범위를 업체 화면에서 읽을 수 있습니다.',companyId:company.id,productId:'',photoId:photo?.id||'',before:'비교 자료 미확보',after:company.productIds.length?'제품·서비스 참고자료 · 출품 확인 중':'사진·명단 자료',sourceIds:company.sourceIds})),interpretation:'전시회 전체의 개발 방향은 비교 가능한 표본과 직전 회차 근거를 더 확보한 뒤 판단합니다.',limitations:['대표사진은 업체 자료이며 특정 장비의 출품사진으로 연결하지 않습니다.','제조사 일반 제품과 해당 회차 출품은 구분합니다.','사진이 없거나 이용조건이 미확정인 사례도 업체 목록에서 확인할 수 있습니다.'],sourceIds:[]};
 }
+function reportPhoto(data,theme){
+ const field=data.photos.find(p=>p.id===theme.photoId&&p.context==='event');
+ if(field&&photoUrl(field))return field;
+ const company=data.companies.find(item=>item.id===theme.companyId);
+ return theme.productId ? data.photos.find(photo=>photo.context==='reference'&&arr(company?.photoIds).includes(photo.id)&&arr(photo.productIds).includes(theme.productId)&&photoUrl(photo)) : null;
+}
 function photoMarkup(data,theme,{print=false}={}){
- const photo=data.photos.find(p=>p.id===theme.photoId&&p.context==='event');
+ const photo=reportPhoto(data,theme);
  const src=photo&&photoUrl(photo);
  if(!src)return '<div class="report-photo-missing"><span>현장사진 미확보</span><small>해당 회차에서 식별·표시 가능한 사진이 필요합니다.</small></div>';
  const original=safeUrl(photo.sourceUrl),rights=safeUrl(photo.rights?.licenseUrl)||original;
  const license=photo.rights?.license||'',rightsLabel=/^CC(?:0| BY)/.test(license)?license:'이용조건';
  const changes=photo.variantNote?.match(/웹 표시용 [^.!?\n]*?본/)?.[0]||'';
  const links=[original?`<a href="${esc(original)}" target="_blank" rel="noopener noreferrer">사진 원문</a>`:'',rights?`<a href="${esc(rights)}" target="_blank" rel="noopener noreferrer" title="${esc(license||'원문 이용 안내 확인')}">${esc(rightsLabel)}</a>`:''].filter(Boolean).join('<span aria-hidden="true"> · </span>');
- return `<figure><img src="${esc(src)}" alt="${esc(photo.caption)}" loading="${print?'eager':'lazy'}" decoding="async"><figcaption>${esc(photo.caption)}<small>${esc(photo.credit||'제공기관 미확인')} · ${esc(data.event.year)} 현장사진</small><span class="report-photo-links">${links||'사진 원문·이용조건 주소 미확인'}${changes?` · ${esc(changes)}`:''}</span></figcaption></figure>`;
+ const image=`<img src="${esc(src)}" alt="${esc(photo.caption)}" loading="${print?'eager':'lazy'}" decoding="async">`;
+ const visual=print ? photoPrintNotice(photo,'report-photo-reference') || image : photoWithSourceLink(photo,image);
+ const context=photo.context==='event'?`${data.event.year} 현장사진`:'제품 참고사진 · 해당 회차 현장사진 아님';
+ return `<figure>${visual}<figcaption>${esc(photo.caption)}<small>${esc(photo.credit||'제공기관 미확인')} · ${esc(context)}</small><span class="report-photo-links">${links||'사진 원문·이용조건 주소 미확인'}${changes?` · ${esc(changes)}`:''}</span></figcaption></figure>`;
 }
 function reportSources(data,model){
- const photoIds=model.themes.map(theme=>theme.photoId).filter(Boolean);
+ const photoIds=model.themes.map(theme=>reportPhoto(data,theme)?.id).filter(Boolean);
  const photoSources=arr(data.photos).filter(photo=>photoIds.includes(photo.id)).flatMap(photo=>arr(photo.sourceIds));
  const ids=new Set([...arr(model.sourceIds),...model.themes.flatMap(theme=>arr(theme.sourceIds)),...photoSources]);
  const byId=new Map(arr(data.sources).map(source=>[source.id,source])),urls=new Set();

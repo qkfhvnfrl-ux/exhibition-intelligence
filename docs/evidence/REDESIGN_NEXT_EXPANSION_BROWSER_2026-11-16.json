@@ -1,0 +1,1201 @@
+{
+  "asOf": "2026-11-16",
+  "status": "PASS_WITH_PDF_SAVE_PENDING",
+  "observations": [
+    {
+      "viewport": 1440,
+      "event": "adex-2025",
+      "company": "org-04b57642e09c33ee22c5",
+      "product": "adex25-mnc-redback-isu",
+      "clientWidth": 1425,
+      "eventGap": true,
+      "fallback": false,
+      "id": "adex25-mnc-redback-isu",
+      "images": [],
+      "providerLinks": 0,
+      "scrollWidth": 1425,
+      "title": "Redback용 유기압 현수장치(ISU)",
+      "topics": 5,
+      "zooms": 0
+    },
+    {
+      "viewport": 1440,
+      "event": "adex-2025",
+      "company": "org-73b2ea65b6e784cb4def",
+      "product": "adex25-yeonhab-vic7dk",
+      "clientWidth": 1425,
+      "eventGap": true,
+      "fallback": false,
+      "id": "adex25-yeonhab-vic7dk",
+      "images": [],
+      "providerLinks": 0,
+      "scrollWidth": 1425,
+      "title": "VIC-7DK 전투차량용 상호통화기 세트",
+      "topics": 5,
+      "zooms": 0
+    },
+    {
+      "viewport": 1440,
+      "event": "adex-2025",
+      "company": "org-ded72d6076eb66b253d7",
+      "product": "adex25-pei-connector-samples",
+      "clientWidth": 1425,
+      "eventGap": true,
+      "fallback": false,
+      "id": "adex25-pei-connector-samples",
+      "images": [],
+      "providerLinks": 0,
+      "scrollWidth": 1425,
+      "title": "커넥터·백셸·케이블 및 소형 접속 부품 샘플",
+      "topics": 5,
+      "zooms": 0
+    },
+    {
+      "viewport": 1440,
+      "event": "adex-2025",
+      "company": "org-1273e8383e083821a303",
+      "product": "adex25-cm-metal-fiber",
+      "clientWidth": 1425,
+      "eventGap": true,
+      "fallback": false,
+      "id": "adex25-cm-metal-fiber",
+      "images": [],
+      "providerLinks": 0,
+      "scrollWidth": 1425,
+      "title": "금속섬유 샘플",
+      "topics": 5,
+      "zooms": 1
+    },
+    {
+      "viewport": 1440,
+      "event": "adex-2025",
+      "company": "org-78adc7840c066c08ba6b",
+      "product": "adex25-stx-smv1000",
+      "clientWidth": 1425,
+      "eventGap": true,
+      "fallback": false,
+      "id": "adex25-stx-smv1000",
+      "images": [],
+      "providerLinks": 0,
+      "scrollWidth": 1425,
+      "title": "SMV1000",
+      "topics": 5,
+      "zooms": 1
+    },
+    {
+      "viewport": 1440,
+      "event": "adex-2025",
+      "company": "org-e843c1da4f4efc81c4ca",
+      "product": "adex25-eo-raptor-f",
+      "clientWidth": 1425,
+      "eventGap": true,
+      "fallback": false,
+      "id": "adex25-eo-raptor-f",
+      "images": [],
+      "providerLinks": 0,
+      "scrollWidth": 1425,
+      "title": "RAPTOR-F 야간투시경",
+      "topics": 5,
+      "zooms": 1
+    },
+    {
+      "viewport": 1440,
+      "event": "dsei-2025",
+      "company": "org-fea8abb4f216a4812b3c",
+      "product": "roshel-family-dsei2025",
+      "clientWidth": 1425,
+      "eventGap": false,
+      "fallback": false,
+      "id": "roshel-family-dsei2025",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54785994754_7042d819f6_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/54785766106_41a10e48fa_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/54786101885_0f11fbc494_b.jpg"
+        }
+      ],
+      "providerLinks": 3,
+      "scrollWidth": 1425,
+      "title": "Roshel Senator · Captain 계열",
+      "topics": 5,
+      "zooms": 3
+    },
+    {
+      "viewport": 1440,
+      "event": "dsei-2025",
+      "company": "org-e2295099b8d18919a8a9",
+      "product": "boxer-dsei2025",
+      "clientWidth": 1425,
+      "eventGap": false,
+      "fallback": false,
+      "id": "boxer-dsei2025",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54785369506_29c25dbe2f_b.jpg"
+        }
+      ],
+      "providerLinks": 1,
+      "scrollWidth": 1425,
+      "title": "Boxer · 30mm 포탑 전시형",
+      "topics": 5,
+      "zooms": 1
+    },
+    {
+      "viewport": 1440,
+      "event": "eurosatory-2026",
+      "company": "org-b2ca2a34fd51e38b777e",
+      "product": "eu-korkut-25",
+      "clientWidth": 1425,
+      "eventGap": false,
+      "fallback": false,
+      "id": "eu-korkut-25",
+      "images": [
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343573969_87864d7613_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343771705_d2078ff3c2_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343573879_ab87af6ec2_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343502418_a60fa8ace2_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343568009_f3b26d95b6_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343359116_761fa16165_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343508318_3769067184_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342429582_51b6ba243b_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342429507_5144c50c74_b.jpg"
+        }
+      ],
+      "providerLinks": 9,
+      "scrollWidth": 1425,
+      "title": "KORKUT 25 차량탑재형",
+      "topics": 5,
+      "zooms": 9
+    },
+    {
+      "viewport": 1440,
+      "event": "eurosatory-2026",
+      "company": "org-185024664dfbe6bfe147",
+      "product": "eu-mars-rbs70",
+      "clientWidth": 1425,
+      "eventGap": false,
+      "fallback": false,
+      "id": "eu-mars-rbs70",
+      "images": [
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342429472_21ba2eabf8_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343502408_e2d09f4a40_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342429412_843c372101_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342423407_e0c9855493_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343508278_188a35f374_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343508303_9a9d390a86_b.jpg"
+        }
+      ],
+      "providerLinks": 6,
+      "scrollWidth": 1425,
+      "title": "MARS 4×4 · RBS 70 NG",
+      "topics": 5,
+      "zooms": 6
+    },
+    {
+      "viewport": 1440,
+      "event": "idex-2025",
+      "company": "org-2d90c23ed374de2c2c80",
+      "product": "idex25-diehl-libelle",
+      "clientWidth": 1425,
+      "eventGap": false,
+      "fallback": false,
+      "id": "idex25-diehl-libelle",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-libelle-event.jpg"
+        }
+      ],
+      "providerLinks": 0,
+      "scrollWidth": 1425,
+      "title": "LIBELLE · IDEX 2025 전시품",
+      "topics": 5,
+      "zooms": 1
+    },
+    {
+      "viewport": 1440,
+      "event": "saha-2026",
+      "company": "org-2dffde2d6bd01e4eaf2d",
+      "product": "pars-alpha",
+      "clientWidth": 1425,
+      "eventGap": true,
+      "fallback": true,
+      "id": "pars-alpha",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-00.webp"
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-11.webp"
+        }
+      ],
+      "providerLinks": 0,
+      "scrollWidth": 1425,
+      "title": "PARS ALPHA 8×8",
+      "topics": 5,
+      "zooms": 2
+    },
+    {
+      "viewport": 390,
+      "event": "adex-2025",
+      "company": "org-04b57642e09c33ee22c5",
+      "product": "adex25-mnc-redback-isu",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "adex25-mnc-redback-isu",
+      "images": [],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "adex-2025",
+      "company": "org-73b2ea65b6e784cb4def",
+      "product": "adex25-yeonhab-vic7dk",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "adex25-yeonhab-vic7dk",
+      "images": [],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "adex-2025",
+      "company": "org-ded72d6076eb66b253d7",
+      "product": "adex25-pei-connector-samples",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "adex25-pei-connector-samples",
+      "images": [],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "adex-2025",
+      "company": "org-1273e8383e083821a303",
+      "product": "adex25-cm-metal-fiber",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "adex25-cm-metal-fiber",
+      "images": [],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "adex-2025",
+      "company": "org-78adc7840c066c08ba6b",
+      "product": "adex25-stx-smv1000",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "adex25-stx-smv1000",
+      "images": [],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "adex-2025",
+      "company": "org-e843c1da4f4efc81c4ca",
+      "product": "adex25-eo-raptor-f",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "adex25-eo-raptor-f",
+      "images": [],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "dsei-2025",
+      "company": "org-fea8abb4f216a4812b3c",
+      "product": "roshel-family-dsei2025",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "roshel-family-dsei2025",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54785994754_7042d819f6_b.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54785766106_41a10e48fa_b.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54786101885_0f11fbc494_b.jpg"
+        }
+      ],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "dsei-2025",
+      "company": "org-e2295099b8d18919a8a9",
+      "product": "boxer-dsei2025",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "boxer-dsei2025",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54785369506_29c25dbe2f_b.jpg"
+        }
+      ],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "eurosatory-2026",
+      "company": "org-b2ca2a34fd51e38b777e",
+      "product": "eu-korkut-25",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "eu-korkut-25",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/55343573969_87864d7613_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343771705_d2078ff3c2_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343573879_ab87af6ec2_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343502418_a60fa8ace2_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343568009_f3b26d95b6_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343359116_761fa16165_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343508318_3769067184_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342429582_51b6ba243b_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342429507_5144c50c74_b.jpg"
+        }
+      ],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "eurosatory-2026",
+      "company": "org-185024664dfbe6bfe147",
+      "product": "eu-mars-rbs70",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "eu-mars-rbs70",
+      "images": [
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342429472_21ba2eabf8_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343502408_e2d09f4a40_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342429412_843c372101_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55342423407_e0c9855493_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343508278_188a35f374_b.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://live.staticflickr.com/65535/55343508303_9a9d390a86_b.jpg"
+        }
+      ],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "idex-2025",
+      "company": "org-2d90c23ed374de2c2c80",
+      "product": "idex25-diehl-libelle",
+      "clientWidth": 375,
+      "fallback": false,
+      "id": "idex25-diehl-libelle",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-libelle-event.jpg"
+        }
+      ],
+      "scrollWidth": 375,
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "saha-2026",
+      "company": "org-2dffde2d6bd01e4eaf2d",
+      "product": "pars-alpha",
+      "clientWidth": 375,
+      "fallback": true,
+      "id": "pars-alpha",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-00.webp"
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-11.webp"
+        }
+      ],
+      "scrollWidth": 375,
+      "topics": 5
+    }
+  ],
+  "finalProducts": [
+    {
+      "viewport": 1440,
+      "event": "saha-2026",
+      "company": "org-2dffde2d6bd01e4eaf2d",
+      "product": "pars-alpha",
+      "country": "SAHA 2026FNSS지도 좌표 미확인 · 업체 목록에서 탐색국가 표기 · 튀르키예PARS ALPHA 8×8의 전시 형상과 공개 설명을 살펴봅니다.",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-00.webp"
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-11.webp"
+        }
+      ],
+      "overflow": 0,
+      "text": "제조사 회고에 기록된 PARS ALPHA·TEBER-II 구성\n\nPARS ALPHA 8×8\n\n해당 회차 출품 관련 원문 확보 · 형상 설명 참조\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n제품 참고사진 · 해당 회차 현장사진 아님\n\nPARS ALPHA·TEBER-II — SAHA EXPO 2024 참고사진\n관련 참고사진 · Ciko1213 · 자료 날짜 2024-10-26\n촬영일은 사진 워터마크 기준이며 업로드는 2025-01-07이다. SAHA 2026 현장·최종 전시형을 확인하는 사진이 아니다. 웹 표시용 1600px 축소·WebP 변환본. 자르기·합성·형상 수정 없음.\n사진 원문\nCC0 1.0 Universal\n일반 제품 참고사진\n장비·형상·용도\n\nFNSS의 8×8 차륜형 장갑전투차량이다. 일반 제품 소개와 해당 회차 전시 구성을 구분한다.\n\n일반자료 [2]\n주요 특징\n\n제조사는 PARS ALPHA·TEBER-II 원격통제 포탑 조합을 소개한다. 작동 여부는 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\n제조사 회고에 SAHA 2026 전시가 기록됐다. 해당 회차 표시 가능한 현장사진은 미확보다.\n\n출품 근거 [1]\n개발 방향\n\n공식 발표 · 발표 당시 기준\n\n2026 회고의 튀르키예 육군 인도는 향후 계획이다. 완료 근거로 읽지 않는다.\n\n출품 근거 [1]\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 2024 예고와 2026 회고에 같은 조합이 이어진다. 동일 차량·세부 사양이나 성능 향상을 뜻하지 않는다.\n\n일반자료 [3]\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "topics": 5
+    },
+    {
+      "viewport": 1440,
+      "event": "saha-2026",
+      "company": "org-7b846c15951b021bf59b",
+      "product": "cobra-ii",
+      "country": "SAHA 2026Otokar홀 6 · 부스 6H-12국가 표기 · 튀르키예 · Türkiye실제 전시품목 미확인참가 자료에 등재된 업체입니다. 이번 회차의 실제 출품품목은 아직 확인하지 못했습니다.",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/cobra-ii-idef2013-reference.jpg"
+        }
+      ],
+      "overflow": 0,
+      "text": "전시 형상 미확인\n\nCOBRA II\n\n이번 회차 출품 근거 확인 중\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n제품 참고사진 · 해당 회차 현장사진 아님\n\nCOBRA II 기반차량 — IDEF 2013 참고사진\n관련 참고사진 · Janissarywiki · 자료 날짜 2013\n일반 COBRA II 참고사진이며 DASAL UAV 구성이나 IDEX 2025·SAHA 2026 현장사진이 아니다. 원문 날짜 2013-05-10과 카메라 날짜 2013-05-07이 상충한다. 원본 JPEG 무변환.\n사진 원문\nCC0 1.0 Universal\n장비명·세부 형상·용도\n\n세부 용도는 공개 근거를 추가 확인하고 있습니다.\n\n주요 특징·필요 제원\n\n이 전시 형상에 적용할 특징과 제원은 아직 확인하지 못했습니다.\n\n이번 전시의 구성·변화\n\n이번 회차 출품 근거 확인 중\n\n설명 근거 [1]\n설명 근거 [2]\n직전 회차 비교 (2024) [3]\n설명 근거 [4]\n개발 방향\n\n공식 개발 계획을 확인할 자료가 부족합니다.\n\n전략적 해석\n\n전시 구성에 대한 해석을 뒷받침할 근거가 부족합니다.\n\n상세 출처와 확인 범위",
+      "topics": 5
+    },
+    {
+      "viewport": 1440,
+      "event": "idex-2025",
+      "company": "org-2d90c23ed374de2c2c80",
+      "product": "idex25-diehl-libelle",
+      "country": "IDEX 2025Diehl Defence부스 08-D30국가 표기 · 독일단품 현장 전시와 과거 차량 탑재 제안을 구분해 볼 사례다.LIBELLE 명판을 확인했다.촬영자의 현장사진 1장을 연결했다.차량 탑재형 출품은 별도 확인이 필요하다.현장사진과 제조사의 다른 회차 안내를 분리했다. 성능 검증은 아니다.",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-libelle-event.jpg"
+        }
+      ],
+      "overflow": 0,
+      "text": "명판 확인 · 단품 전시 · 실물/모형 구분 미확인\n\nLIBELLE · IDEX 2025 전시품\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\nIDEX 2025 LIBELLE 단품 전시 — Diehl 부스·명판 확인\n해당 회차 현장 · Mztourist / Wikimedia Commons · CC BY 4.0 · 자료 날짜 2025-02-19\n원본 JPEG 무변환. 사진은 단품 전시이며 실물/모형과 작동 여부를 판정하지 않는다.\n사진 원문\nCC BY 4.0\n장비·형상·용도\n\nLIBELLE 대전차체계 전시품이다. 현장 명판에 제품명과 용도가 적혀 있다.\n\n출품 근거 [1]\n주요 특징\n\n세로 받침대 위에 단품을 제시했다. 사진으로 확인한 외형이며 세부 사양은 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\nDiehl 부스에서 명판과 단품 전시를 확인했다. 이 사진에는 차량 탑재 상태가 보이지 않는다.\n\n출품 근거 [1]\n개발 방향\n\n제조사는 2023년 전시 안내에서 단품과 MRZR-D4 차량 탑재형을 함께 제시할 계획을 밝혔다. IDEX 2025 차량 출품이나 양산 완료를 입증하지 않는다.\n\n일반자료 [2]\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 단품과 명판으로 제품 개념을 설명하는 구성으로 읽힌다. 차량 전체 체계를 보여주는 전시와 구분해서 볼 사례다.\n\n출품 근거 [1]\n상세 출처와 확인 범위",
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "saha-2026",
+      "company": "org-2dffde2d6bd01e4eaf2d",
+      "product": "pars-alpha",
+      "country": "SAHA 2026FNSS지도 좌표 미확인 · 업체 목록에서 탐색국가 표기 · 튀르키예PARS ALPHA 8×8의 전시 형상과 공개 설명을 살펴봅니다.",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-00.webp"
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-11.webp"
+        }
+      ],
+      "overflow": 0,
+      "text": "제조사 회고에 기록된 PARS ALPHA·TEBER-II 구성\n\nPARS ALPHA 8×8\n\n해당 회차 출품 관련 원문 확보 · 형상 설명 참조\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n제품 참고사진 · 해당 회차 현장사진 아님\n\nPARS ALPHA·TEBER-II — SAHA EXPO 2024 참고사진\n관련 참고사진 · Ciko1213 · 자료 날짜 2024-10-26\n촬영일은 사진 워터마크 기준이며 업로드는 2025-01-07이다. SAHA 2026 현장·최종 전시형을 확인하는 사진이 아니다. 웹 표시용 1600px 축소·WebP 변환본. 자르기·합성·형상 수정 없음.\n사진 원문\nCC0 1.0 Universal\n일반 제품 참고사진\n장비·형상·용도\n\nFNSS의 8×8 차륜형 장갑전투차량이다. 일반 제품 소개와 해당 회차 전시 구성을 구분한다.\n\n일반자료 [2]\n주요 특징\n\n제조사는 PARS ALPHA·TEBER-II 원격통제 포탑 조합을 소개한다. 작동 여부는 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\n제조사 회고에 SAHA 2026 전시가 기록됐다. 해당 회차 표시 가능한 현장사진은 미확보다.\n\n출품 근거 [1]\n개발 방향\n\n공식 발표 · 발표 당시 기준\n\n2026 회고의 튀르키예 육군 인도는 향후 계획이다. 완료 근거로 읽지 않는다.\n\n출품 근거 [1]\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 2024 예고와 2026 회고에 같은 조합이 이어진다. 동일 차량·세부 사양이나 성능 향상을 뜻하지 않는다.\n\n일반자료 [3]\n출품 근거 [1]\n출품 설명은 발행사 단일 근거입니다.\n상세 출처와 확인 범위",
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "saha-2026",
+      "company": "org-7b846c15951b021bf59b",
+      "product": "cobra-ii",
+      "country": "SAHA 2026Otokar홀 6 · 부스 6H-12국가 표기 · 튀르키예 · Türkiye실제 전시품목 미확인참가 자료에 등재된 업체입니다. 이번 회차의 실제 출품품목은 아직 확인하지 못했습니다.",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/cobra-ii-idef2013-reference.jpg"
+        }
+      ],
+      "overflow": 0,
+      "text": "전시 형상 미확인\n\nCOBRA II\n\n이번 회차 출품 근거 확인 중\n\n장비 링크 ↗\n\n이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.\n\n제품 참고사진 · 해당 회차 현장사진 아님\n\nCOBRA II 기반차량 — IDEF 2013 참고사진\n관련 참고사진 · Janissarywiki · 자료 날짜 2013\n일반 COBRA II 참고사진이며 DASAL UAV 구성이나 IDEX 2025·SAHA 2026 현장사진이 아니다. 원문 날짜 2013-05-10과 카메라 날짜 2013-05-07이 상충한다. 원본 JPEG 무변환.\n사진 원문\nCC0 1.0 Universal\n장비명·세부 형상·용도\n\n세부 용도는 공개 근거를 추가 확인하고 있습니다.\n\n주요 특징·필요 제원\n\n이 전시 형상에 적용할 특징과 제원은 아직 확인하지 못했습니다.\n\n이번 전시의 구성·변화\n\n이번 회차 출품 근거 확인 중\n\n설명 근거 [1]\n설명 근거 [2]\n직전 회차 비교 (2024) [3]\n설명 근거 [4]\n개발 방향\n\n공식 개발 계획을 확인할 자료가 부족합니다.\n\n전략적 해석\n\n전시 구성에 대한 해석을 뒷받침할 근거가 부족합니다.\n\n상세 출처와 확인 범위",
+      "topics": 5
+    },
+    {
+      "viewport": 390,
+      "event": "idex-2025",
+      "company": "org-2d90c23ed374de2c2c80",
+      "product": "idex25-diehl-libelle",
+      "country": "IDEX 2025Diehl Defence부스 08-D30국가 표기 · 독일단품 현장 전시와 과거 차량 탑재 제안을 구분해 볼 사례다.LIBELLE 명판을 확인했다.촬영자의 현장사진 1장을 연결했다.차량 탑재형 출품은 별도 확인이 필요하다.현장사진과 제조사의 다른 회차 안내를 분리했다. 성능 검증은 아니다.",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-libelle-event.jpg"
+        }
+      ],
+      "overflow": 0,
+      "text": "명판 확인 · 단품 전시 · 실물/모형 구분 미확인\n\nLIBELLE · IDEX 2025 전시품\n\n현장사진으로 출품 확인\n\n장비 링크 ↗\nIDEX 2025 LIBELLE 단품 전시 — Diehl 부스·명판 확인\n해당 회차 현장 · Mztourist / Wikimedia Commons · CC BY 4.0 · 자료 날짜 2025-02-19\n원본 JPEG 무변환. 사진은 단품 전시이며 실물/모형과 작동 여부를 판정하지 않는다.\n사진 원문\nCC BY 4.0\n장비·형상·용도\n\nLIBELLE 대전차체계 전시품이다. 현장 명판에 제품명과 용도가 적혀 있다.\n\n출품 근거 [1]\n주요 특징\n\n세로 받침대 위에 단품을 제시했다. 사진으로 확인한 외형이며 세부 사양은 미확인이다.\n\n출품 근거 [1]\n이번 전시 구성\n\nDiehl 부스에서 명판과 단품 전시를 확인했다. 이 사진에는 차량 탑재 상태가 보이지 않는다.\n\n출품 근거 [1]\n개발 방향\n\n제조사는 2023년 전시 안내에서 단품과 MRZR-D4 차량 탑재형을 함께 제시할 계획을 밝혔다. IDEX 2025 차량 출품이나 양산 완료를 입증하지 않는다.\n\n일반자료 [2]\n전략적 해석\n\n관찰 근거에 따른 추론\n\n편집 해석: 단품과 명판으로 제품 개념을 설명하는 구성으로 읽힌다. 차량 전체 체계를 보여주는 전시와 구분해서 볼 사례다.\n\n출품 근거 [1]\n상세 출처와 확인 범위",
+      "topics": 5
+    }
+  ],
+  "galleryChecks": [
+    {
+      "product": "eu-korkut-25",
+      "caption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 정면",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343573969/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343573969_87864d7613_b.jpg"
+        }
+      ],
+      "text": "사진 1 / 9사진 원문"
+    },
+    {
+      "product": "eu-korkut-25",
+      "caption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 전면·부스 원경",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343771705/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343771705_d2078ff3c2_b.jpg"
+        }
+      ],
+      "text": "사진 2 / 9사진 원문"
+    },
+    {
+      "product": "eu-korkut-25",
+      "caption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 측면·상부 장비",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343573879/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343573879_ab87af6ec2_b.jpg"
+        }
+      ],
+      "text": "사진 3 / 9사진 원문"
+    },
+    {
+      "product": "eu-korkut-25",
+      "caption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 후면·측면 사선",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343502418/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343502418_a60fa8ace2_b.jpg"
+        }
+      ],
+      "text": "사진 4 / 9사진 원문"
+    },
+    {
+      "product": "eu-korkut-25",
+      "caption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 측면 사선",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343568009/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343568009_f3b26d95b6_b.jpg"
+        }
+      ],
+      "text": "사진 5 / 9사진 원문"
+    },
+    {
+      "product": "eu-korkut-25",
+      "caption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 전면·상부 장비",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343359116/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343359116_761fa16165_b.jpg"
+        }
+      ],
+      "text": "사진 6 / 9사진 원문"
+    },
+    {
+      "product": "eu-korkut-25",
+      "caption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 측면 사선",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343508318/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343508318_3769067184_b.jpg"
+        }
+      ],
+      "text": "사진 7 / 9사진 원문"
+    },
+    {
+      "product": "eu-korkut-25",
+      "caption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 전면·측면 사선",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55342429582/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55342429582_51b6ba243b_b.jpg"
+        }
+      ],
+      "text": "사진 8 / 9사진 원문"
+    },
+    {
+      "product": "eu-korkut-25",
+      "caption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 전면 근접",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55342429507/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55342429507_5144c50c74_b.jpg"
+        }
+      ],
+      "text": "사진 9 / 9사진 원문"
+    },
+    {
+      "product": "roshel-family-dsei2025",
+      "caption": "Roshel 부스의 Captain APC",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/dyvroeth/54785994754/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/54785994754_7042d819f6_b.jpg"
+        }
+      ],
+      "text": "사진 1 / 3사진 원문"
+    },
+    {
+      "product": "roshel-family-dsei2025",
+      "caption": "Roshel 부스의 포탑 탑재 Senator",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/dyvroeth/54785766106/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/54785766106_41a10e48fa_b.jpg"
+        }
+      ],
+      "text": "사진 2 / 3사진 원문"
+    },
+    {
+      "product": "roshel-family-dsei2025",
+      "caption": "Roshel 부스의 통신·전자광학 장비 탑재 Senator",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/dyvroeth/54786101885/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/54786101885_0f11fbc494_b.jpg"
+        }
+      ],
+      "text": "사진 3 / 3사진 원문"
+    },
+    {
+      "product": "boxer-dsei2025",
+      "caption": "KNDS 부스의 30mm 무인포탑 탑재 Boxer",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/dyvroeth/54785369506/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/54785369506_29c25dbe2f_b.jpg"
+        }
+      ],
+      "text": "사진 1 / 1사진 원문"
+    },
+    {
+      "product": "eu-mars-rbs70",
+      "caption": "Eurosatory 2026 · MARS 4×4 · RBS 70 NG — 후면·측면 사선",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55342429472/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55342429472_21ba2eabf8_b.jpg"
+        }
+      ],
+      "text": "사진 1 / 6사진 원문"
+    },
+    {
+      "product": "eu-mars-rbs70",
+      "caption": "Eurosatory 2026 · MARS 4×4 · RBS 70 NG — 전면·측면 사선",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343502408/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343502408_e2d09f4a40_b.jpg"
+        }
+      ],
+      "text": "사진 2 / 6사진 원문"
+    },
+    {
+      "product": "eu-mars-rbs70",
+      "caption": "Eurosatory 2026 · MARS 4×4 · RBS 70 NG — 상부 장비 근접",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55342429412/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55342429412_843c372101_b.jpg"
+        }
+      ],
+      "text": "사진 3 / 6사진 원문"
+    },
+    {
+      "product": "eu-mars-rbs70",
+      "caption": "Eurosatory 2026 · MARS 4×4 · RBS 70 NG — 전면·상부 장비",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55342423407/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55342423407_e0c9855493_b.jpg"
+        }
+      ],
+      "text": "사진 4 / 6사진 원문"
+    },
+    {
+      "product": "eu-mars-rbs70",
+      "caption": "Eurosatory 2026 · MARS 4×4 · RBS 70 NG — 후방 출입부",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343508278/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343508278_188a35f374_b.jpg"
+        }
+      ],
+      "text": "사진 5 / 6사진 원문"
+    },
+    {
+      "product": "eu-mars-rbs70",
+      "caption": "Eurosatory 2026 · MARS 4×4 · RBS 70 NG — 전면 차체 근접",
+      "img": [
+        {
+          "href": "https://www.flickr.com/photos/139651532@N04/55343508303/",
+          "loaded": true,
+          "parent": "A",
+          "src": "https://live.staticflickr.com/65535/55343508303_9a9d390a86_b.jpg"
+        }
+      ],
+      "text": "사진 6 / 6사진 원문"
+    }
+  ],
+  "finalReports": [
+    {
+      "event": "adex-2025",
+      "viewport": 1440,
+      "height": 767.8125,
+      "images": [
+        {
+          "alt": "서울 ADEX 2025 현대로템 전시관의 K2PL — 앞쪽 램제트 엔진 모형과 함께 전시",
+          "loaded": true
+        },
+        {
+          "alt": "서울 ADEX 2025 현대위아 부스의 RCWS 3종 — 40mm·12.7mm·7.62mm 전시대 실물",
+          "loaded": true
+        },
+        {
+          "alt": "ADEX 2025 타스만 군용 지휘차와 베어샤시 전시",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1365
+    },
+    {
+      "event": "eurosatory-2026",
+      "viewport": 1440,
+      "height": 767.8125,
+      "images": [
+        {
+          "alt": "Eurosatory 2026 · 타스만 군용 지휘차 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026 · KLTV 2인용 카고 전면·측면 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026의 경량화 105mm 자주포 — 전시 현장",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1365
+    },
+    {
+      "event": "dsei-2025",
+      "viewport": 1440,
+      "height": 767.8125,
+      "images": [
+        {
+          "alt": "DSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시",
+          "loaded": true
+        },
+        {
+          "alt": "Babcock 부스에 전시된 GDAMS 120mm 체계",
+          "loaded": true
+        },
+        {
+          "alt": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1365
+    },
+    {
+      "event": "idex-2025",
+      "viewport": 1440,
+      "height": 767.8125,
+      "images": [
+        {
+          "alt": "HAVOC 8×8 RCV · 현장사진 1",
+          "loaded": true
+        },
+        {
+          "alt": "AJBAN 452A · IDEX 2025 전시",
+          "loaded": true
+        },
+        {
+          "alt": "Cockerill i-X · IDEX 2025 현장",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1365
+    },
+    {
+      "event": "saha-2026",
+      "viewport": 1440,
+      "height": 767.8125,
+      "images": [
+        {
+          "alt": "PARS ALPHA·TEBER-II — SAHA EXPO 2024 참고사진",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1365
+    },
+    {
+      "event": "adex-2025",
+      "viewport": 1280,
+      "height": 677.8125,
+      "images": [
+        {
+          "alt": "서울 ADEX 2025 현대로템 전시관의 K2PL — 앞쪽 램제트 엔진 모형과 함께 전시",
+          "loaded": true
+        },
+        {
+          "alt": "서울 ADEX 2025 현대위아 부스의 RCWS 3종 — 40mm·12.7mm·7.62mm 전시대 실물",
+          "loaded": true
+        },
+        {
+          "alt": "ADEX 2025 타스만 군용 지휘차와 베어샤시 전시",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1205
+    },
+    {
+      "event": "eurosatory-2026",
+      "viewport": 1280,
+      "height": 677.8125,
+      "images": [
+        {
+          "alt": "Eurosatory 2026 · 타스만 군용 지휘차 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026 · KLTV 2인용 카고 전면·측면 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026의 경량화 105mm 자주포 — 전시 현장",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1205
+    },
+    {
+      "event": "dsei-2025",
+      "viewport": 1280,
+      "height": 677.8125,
+      "images": [
+        {
+          "alt": "DSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시",
+          "loaded": true
+        },
+        {
+          "alt": "Babcock 부스에 전시된 GDAMS 120mm 체계",
+          "loaded": true
+        },
+        {
+          "alt": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1205
+    },
+    {
+      "event": "idex-2025",
+      "viewport": 1280,
+      "height": 677.8125,
+      "images": [
+        {
+          "alt": "HAVOC 8×8 RCV · 현장사진 1",
+          "loaded": true
+        },
+        {
+          "alt": "AJBAN 452A · IDEX 2025 전시",
+          "loaded": true
+        },
+        {
+          "alt": "Cockerill i-X · IDEX 2025 현장",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1205
+    },
+    {
+      "event": "saha-2026",
+      "viewport": 1280,
+      "height": 677.8125,
+      "images": [
+        {
+          "alt": "PARS ALPHA·TEBER-II — SAHA EXPO 2024 참고사진",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 1205
+    },
+    {
+      "event": "adex-2025",
+      "viewport": 390,
+      "height": 2320.4375,
+      "images": [
+        {
+          "alt": "서울 ADEX 2025 현대로템 전시관의 K2PL — 앞쪽 램제트 엔진 모형과 함께 전시",
+          "loaded": true
+        },
+        {
+          "alt": "서울 ADEX 2025 현대위아 부스의 RCWS 3종 — 40mm·12.7mm·7.62mm 전시대 실물",
+          "loaded": true
+        },
+        {
+          "alt": "ADEX 2025 타스만 군용 지휘차와 베어샤시 전시",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 347
+    },
+    {
+      "event": "eurosatory-2026",
+      "viewport": 390,
+      "height": 2248.625,
+      "images": [
+        {
+          "alt": "Eurosatory 2026 · 타스만 군용 지휘차 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026 · KLTV 2인용 카고 전면·측면 실차",
+          "loaded": true
+        },
+        {
+          "alt": "Eurosatory 2026의 경량화 105mm 자주포 — 전시 현장",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 347
+    },
+    {
+      "event": "dsei-2025",
+      "viewport": 390,
+      "height": 2291.046875,
+      "images": [
+        {
+          "alt": "DSEI 2025 기아 부스의 타스만 특수목적 쇼카와 KLTV 베어샤시",
+          "loaded": true
+        },
+        {
+          "alt": "Babcock 부스에 전시된 GDAMS 120mm 체계",
+          "loaded": true
+        },
+        {
+          "alt": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 347
+    },
+    {
+      "event": "idex-2025",
+      "viewport": 390,
+      "height": 2270.65625,
+      "images": [
+        {
+          "alt": "HAVOC 8×8 RCV · 현장사진 1",
+          "loaded": true
+        },
+        {
+          "alt": "AJBAN 452A · IDEX 2025 전시",
+          "loaded": true
+        },
+        {
+          "alt": "Cockerill i-X · IDEX 2025 현장",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 347
+    },
+    {
+      "event": "saha-2026",
+      "viewport": 390,
+      "height": 2232.078125,
+      "images": [
+        {
+          "alt": "PARS ALPHA·TEBER-II — SAHA EXPO 2024 참고사진",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "width": 347
+    }
+  ],
+  "referenceReload": {
+    "product": "pars-alpha",
+    "photo": "photo-6236edcf1728b4f16107",
+    "position": "2 / 2",
+    "preservedProductGroup": true
+  },
+  "reportRevision": {
+    "initialSahaDesktopHeight": 794.921875,
+    "finalSahaDesktopHeight": 767.8125,
+    "width": 1365,
+    "fix": "Shortened the third theme without changing its claim; Korean heading keeps words together."
+  },
+  "pdf": {
+    "savedNewFiles": 0,
+    "affected": [
+      "dsei-2025",
+      "saha-2026"
+    ],
+    "sahaPreviewPages": 1,
+    "limitation": "Native Windows print controls were readable, but index click failed with missing geometry; coordinate, value and keyboard attempts did not change state. User cancelled the print window; ordinary app DOM was observed restored. No fresh PDF save claimed.",
+    "previousCopiesPreserved": true
+  },
+  "physicalPhoneTested": false
+}

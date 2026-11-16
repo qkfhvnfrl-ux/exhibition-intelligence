@@ -20,6 +20,25 @@ test('detail retains every photo angle and never embeds link-only photographs',(
  assert.ok(!html.includes('restricted.jpg'));
  assert.ok(html.includes('번호 미확인'));
 });
+
+test('provider-hosted gallery images link directly to their source while separate controls retain every zoom index',()=>{
+ const data=fixture(),company=data.companies[0];
+ for(const index of [0,1])Object.assign(data.photos[index],{src:`https://live.staticflickr.com/65535/${index}_sample_b.jpg`,sourceUrl:`https://www.flickr.com/photos/example/${index}/`,delivery:'remote',rights:{status:'provider-embed',license:'All Rights Reserved'}});
+ const html=companyPanelMarkup(data,company),printed=companyPanelMarkup(data,company,{print:true});
+ for(const index of [0,1]){
+  assert.ok(html.includes(`href="https://www.flickr.com/photos/example/${index}/" target="_blank" rel="noopener noreferrer" aria-label="현장 사진 ${index} Flickr 원문 열기"><img`));
+  assert.ok(printed.includes(`href="https://www.flickr.com/photos/example/${index}/"`));
+  assert.ok(!printed.includes(data.photos[index].src));
+ }
+ assert.equal((printed.match(/class="fn-photo-print-notice"/g)||[]).length,2);
+ assert.equal((printed.match(/<img /g)||[]).length,6);
+ assert.match(printed,/촬영자/);assert.match(printed,/All Rights Reserved/);
+ assert.equal((html.match(/data-photo-index=/g)||[]).length,9);
+ assert.match(html,/class="fn-photo-thumbnail-expand" data-photo-index="1"/);
+ assert.doesNotMatch(html,/<button[^>]*>\s*<a/);
+ assert.doesNotMatch(printed,/data-photo-index=/);
+ assert.match(html,/class="fn-photo-thumbnail" data-photo-index="2"/);
+});
 test('detail distinguishes a listed company and general products from actual exhibition proof',()=>{
  const data=fixture();const html=companyPanelMarkup(data,data.companies[1]);
  assert.match(html,/실제 전시품목 미확인/);
@@ -104,7 +123,7 @@ test('field image leads while all reference angles remain in a separate collapsi
  assert.equal((html.match(/data-photo-index=/g)||[]).length,9);
  assert.ok(html.indexOf('angle-2.jpg')<html.indexOf('2013년 다른 행사 참고'));
  assert.doesNotMatch(html,/fn-photo-link-only/);
- const printed=printReportMarkup(data,['o1']);assert.match(printed,/비교 참고사진 · 다른 회차·훈련 자료/);assert.ok(printed.includes('2013년 다른 행사 참고'));
+ const printed=printReportMarkup(data,['o1']);assert.match(printed,/제품 참고사진 · 해당 회차 현장사진 아님/);assert.ok(printed.includes('2013년 다른 행사 참고'));
 });
 test('catalog callback owns navigation once while plain links keep native navigation',async()=>{
  const data=fixture(),events=new Map(),opened=[];
@@ -235,6 +254,23 @@ test('an unsupported strategy remains an evidence gap on screen and in print',()
   assert.doesNotMatch(topic,/관찰 근거에 따른 추론|fn-source-link|href=/);
   assert.match(html,/공식 발표 · 발표 당시 기준/);
  }
+});
+
+test('equipment without a displayable event photo shows a clearly labelled product reference while preserving the event gap',()=>{
+ const data=equipmentFixture(),company=data.companies[0],product=data.products[0];
+ for(const photo of data.photos)if(photo.id!=='p2'){photo.delivery='linked';photo.rights={status:'link_only'};}
+ const photos=companyPhotos(data,company),before=structuredClone(data);
+ const selected=productPhotos(data,company,product,photos);
+ assert.deepEqual(selected.map(photo=>photo.id),['p1','p4','p6','p2']);
+ for(const print of [false,true]){
+  const html=companyPanelMarkup(data,company,{print,productId:'product'});
+  const body=html.slice(html.indexOf('id="product-product"'),html.indexOf('id="product-missing"'));
+  assert.match(body,/해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다/);
+  assert.ok(body.includes('angle-2.jpg'));
+  assert.doesNotMatch(body,/angle-3.jpg/);
+  if(!print){assert.match(body,/제품 참고사진 · 해당 회차 현장사진 아님/);assert.ok(body.includes(`data-photo-index="${photos.findIndex(photo=>photo.id==='p2')}"`));}
+ }
+ assert.deepEqual(data,before);
 });
 
 test('equipment galleries require product association and current event while viewer indices stay global',()=>{

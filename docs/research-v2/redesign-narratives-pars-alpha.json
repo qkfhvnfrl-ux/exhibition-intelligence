@@ -1,0 +1,206 @@
+{
+  "asOf": "2026-11-16",
+  "narratives": [
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-2dffde2d6bd01e4eaf2d",
+      "productId": "pars-alpha",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "FNSS의 8×8 차륜형 장갑전투차량이다. 일반 제품 소개와 해당 회차 전시 구성을 구분한다.",
+          "sourceIds": [
+            "source-a07c2b1dcf9e0b87e318"
+          ],
+          "claimType": "general_product"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "제조사는 PARS ALPHA·TEBER-II 원격통제 포탑 조합을 소개한다. 작동 여부는 미확인이다.",
+          "sourceIds": [
+            "report-saha-fnss-2026-retrospective"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "제조사 회고에 SAHA 2026 전시가 기록됐다. 해당 회차 표시 가능한 현장사진은 미확보다.",
+          "sourceIds": [
+            "report-saha-fnss-2026-retrospective"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "2026 회고의 튀르키예 육군 인도는 향후 계획이다. 완료 근거로 읽지 않는다.",
+          "sourceIds": [
+            "report-saha-fnss-2026-retrospective"
+          ],
+          "claimType": "official_plan"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 2024 예고와 2026 회고에 같은 조합이 이어진다. 동일 차량·세부 사양이나 성능 향상을 뜻하지 않는다.",
+          "sourceIds": [
+            "report-saha-fnss-2024",
+            "report-saha-fnss-2026-retrospective"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "report-saha-fnss-2026-retrospective"
+      ],
+      "generalSourceIds": [
+        "source-a07c2b1dcf9e0b87e318",
+        "report-saha-fnss-2024"
+      ],
+      "photoIds": [],
+      "form": "제조사 회고에 기록된 PARS ALPHA·TEBER-II 구성",
+      "limitations": [
+        "제조사 단일 기록이다. 기존 상태를 독립 현장 확인으로 승격하지 않는다.",
+        "두 CC0 사진은 2024·일반 제품 참고자료다. 2026 전시 형상·인도·성능의 증거로 사용하지 않는다."
+      ],
+      "sources": [
+        {
+          "id": "source-a07c2b1dcf9e0b87e318",
+          "url": "https://www.fnss.com.tr/en/products/pars-alpha-8x8-new-generation-afv",
+          "title": "PARS ALPHA 제품 소개",
+          "publisher": "FNSS",
+          "publishedAt": null,
+          "accessedAt": "2026-11-16",
+          "eventEditionId": null,
+          "type": "manufacturer_product_page",
+          "independence": "primary_single_origin",
+          "note": "일반 제품 분류만 사용한다. 이번 직접 열람은 timeout이며 공식 검색 수록 본문을 대조했다. 해당 회차의 사양·출품 근거로 승격하지 않는다."
+        },
+        {
+          "id": "report-saha-fnss-2024",
+          "url": "https://www.fnss.com.tr/en/media/press-releases/fnss-showcases-pars-alpha-8x8-and-marine-assault-vehicle-mav-saha-expo-2024-1833",
+          "title": "FNSS showcases PARS ALPHA and MAV at SAHA EXPO 2024",
+          "publisher": "FNSS",
+          "publishedAt": "2024-10-18",
+          "eventEditionId": "saha-2024",
+          "type": "manufacturer_newsroom",
+          "independence": "primary_single_origin",
+          "note": "2024-10-18 개막 전 출품 예고. 직접 열람은 재시도에서도 timeout이며 공식 검색 수록 본문의 PARS ALPHA·TEBER-II 구성을 재확인했다. 현장 완료 기록과 구분한다.",
+          "accessedAt": "2026-11-16"
+        },
+        {
+          "id": "report-saha-fnss-2026-retrospective",
+          "url": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+          "title": "FNSS Focus Q2 2026 Newsletter",
+          "publisher": "FNSS Savunma Sistemleri A.Ş. — 회사 LinkedIn 발행",
+          "publishedAt": "2026-07-27",
+          "eventEditionId": "saha-2026",
+          "type": "manufacturer_retrospective",
+          "independence": "primary_single_origin",
+          "note": "회사 명의 공개 회고 본문과 2026-07-27 발행일을 다시 열람했다. 전시 기록과 향후 인도 표현을 구분하며 독립 검증으로 집계하지 않는다.",
+          "accessedAt": "2026-11-16",
+          "sourceGroup": "fnss-saha2026-retrospective"
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "packet_ready_not_integrated",
+    "checkedAt": "2026-11-16",
+    "plan": {
+      "goal": "SAHA 보고 사례의 기존 PARS ALPHA 제품에 다섯 설명을 제공한다.",
+      "writeScope": "docs/research-v2/redesign-narratives-pars-alpha.json",
+      "impact": "제품·업체 ID, 운영 데이터, 출품 상태, 사진 분류 유지",
+      "risks": [
+        "사전 예고와 행사 후 회고 혼동",
+        "향후 인도를 완료로 오독",
+        "2024 참고사진의 2026 현장사진 승격"
+      ],
+      "verification": "공식 회고 직접 열람, 기존 관계·다섯 항목·출처 참조·사진 빈 배열 검사"
+    },
+    "sourceChecks": [
+      {
+        "sourceId": "report-saha-fnss-2026-retrospective",
+        "url": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+        "accessedAt": "2026-11-16",
+        "result": "공개 본문 직접 열람 성공. 발행일 2026-07-27과 SAHA 절의 전시/인도 예정 표현 확인.",
+        "locator": "FNSS Signed Phase II Agreements for both Marine Assault Vehicle and Special Purpose Vehicles Projects at SAHA 2026",
+        "independence": "FNSS 단일 발행 계열. 본사이트 뉴스레터와 LinkedIn 게시를 별도 독립 근거로 세지 않음."
+      },
+      {
+        "sourceId": "report-saha-fnss-2024",
+        "url": "https://www.fnss.com.tr/en/media/press-releases/fnss-showcases-pars-alpha-8x8-and-marine-assault-vehicle-mav-saha-expo-2024-1833",
+        "accessedAt": "2026-11-16",
+        "result": "직접 열람 2회 timeout. 공식 검색 수록 본문의 will showcase 표현 재확인.",
+        "comparisonDisposition": "2024 사전 예고로만 비교. 기존 report-saha의 확인 이력을 계승하며 직접 열람 성공으로 바꾸지 않음."
+      },
+      {
+        "sourceId": "source-a07c2b1dcf9e0b87e318",
+        "url": "https://www.fnss.com.tr/en/products/pars-alpha-8x8-new-generation-afv",
+        "accessedAt": "2026-11-16",
+        "result": "직접 열람 2회 timeout. 공식 검색 수록 제품 분류만 확인.",
+        "scope": "8×8 장갑전투차량이라는 일반 분류만 사용. 성능 수치·내부 설계 제외."
+      },
+      {
+        "sourceId": "source-7002ecf6d4351b5121a5",
+        "url": "https://www.fnss.com.tr/en/media/news/fnss-showcase-pars-alpha-8x8-zaha-pars-scout-6x6-command-post-vehicle-and-roketsan-alka-dews-fnss-kaplan-hybrid-autonomous-saha-2026-1986",
+        "result": "직접 열람 timeout. 이번 서술의 근거로 추가하지 않음."
+      },
+      {
+        "sourceId": "source-5709226b249758726176",
+        "url": "https://www.fnss.com.tr/en/newsletter/fnss-focus-q2-2026-newsletter",
+        "result": "직접 열람 timeout. 동일 FNSS 명의 LinkedIn 공개 본문을 사용."
+      }
+    ],
+    "preserved": {
+      "productId": "pars-alpha",
+      "organizationId": "org-2dffde2d6bd01e4eaf2d",
+      "productExhibitStatus": "unconfirmed",
+      "companyStatus": "imported_unreviewed",
+      "attendanceStatus": "unverified"
+    },
+    "photoHandling": {
+      "narrativePhotoIds": [],
+      "referenceOnlyPhotoIds": [
+        "photo-5856f0c21570a730032d",
+        "photo-6236edcf1728b4f16107"
+      ],
+      "newDownloads": 0,
+      "operationalPhotoChanges": 0,
+      "note": "기존 reference 사진은 제품 참고사진 fallback으로만 표시한다. 이번 패킷은 이미지를 새로 검수하거나 재분류하지 않는다."
+    },
+    "validation": {
+      "status": "passed",
+      "previousCheck": "첫 보수적 URL 합산에서 회고 자료 206어절 검출. 반복 문구 압축 후 재검사 통과.",
+      "jsonParse": "pass",
+      "existingCompanyProductRelation": "pass",
+      "sections": "5/5 ordered",
+      "sourceReferences": "3/3 resolve",
+      "stateAndReferencePhotos": "unchanged",
+      "sourceWordBudget": [
+        {
+          "sourceId": "source-a07c2b1dcf9e0b87e318",
+          "bodyWords": 73
+        },
+        {
+          "sourceId": "report-saha-fnss-2024",
+          "bodyWords": 171
+        },
+        {
+          "sourceId": "report-saha-fnss-2026-retrospective",
+          "bodyWords": 198
+        }
+      ],
+      "wordCountMethod": "출처가 연결된 새 항목 + 기존 보고 해당 주제·공통 해석/제한 + 새 form/제한·출처 제목/메모·조회 요약을 공백 기준 합산. 모든 출처 200어절 이하.",
+      "applicationBuildOrBrowserQA": "패킷 작성 범위이므로 미실행"
+    },
+    "remaining": [
+      "부모의 생성기 통합 및 해당 제품 링크·화면 검증",
+      "2026 현장사진의 형상·재사용권 확인"
+    ]
+  }
+}

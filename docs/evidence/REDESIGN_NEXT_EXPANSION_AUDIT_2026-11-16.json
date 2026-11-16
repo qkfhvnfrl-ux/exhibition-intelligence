@@ -1,0 +1,2525 @@
+{
+  "asOf": "2026-11-16",
+  "status": "completed",
+  "auditResult": "PASS_FINAL_DATA_PDF_PENDING",
+  "scope": "Read-only independent generated-data and source audit of the 64/320/131 expansion before separate reference-photo fallback integration. No full build/check rerun.",
+  "baseline": {
+    "headCommit": "7b13b9d9b10fe77082667d847476adc7dcca08f6",
+    "eventSnapshotDirectory": "tmp/next-expansion-before",
+    "files": [
+      {
+        "eventId": "adex-2025",
+        "baselineFile": "tmp/next-expansion-before/adex-2025.json",
+        "baselineSha256": "8c99286e926ec66665ba8f519eeea2927233b782ec53159eeafcca7f55c1eab6",
+        "currentFile": "data/v2/app/events/adex-2025.json",
+        "currentSha256": "a9aa282423ea100d22e9f9166f28568e89fd8cda2a2eab468e20dd9a0dc36550"
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "baselineFile": "tmp/next-expansion-before/eurosatory-2026.json",
+        "baselineSha256": "c519bd4dec61cac058711b1f8c6f9747b0cc550b8afecdc434e52e29102fdcbf",
+        "currentFile": "data/v2/app/events/eurosatory-2026.json",
+        "currentSha256": "fad4b6c5a2f4ec0f26e3cce2d4c65bcc45039855f7f980188f69ab3843e071c8"
+      },
+      {
+        "eventId": "dsei-2025",
+        "baselineFile": "tmp/next-expansion-before/dsei-2025.json",
+        "baselineSha256": "52eba6da089298be95c7ba607ee0dcb056b66f4dbddf3b55160aa59e9e2d8308",
+        "currentFile": "data/v2/app/events/dsei-2025.json",
+        "currentSha256": "6f5fbb6db9349aae67fc7c83d8915bfc09a165e5ad676698071dae41d54cb965"
+      },
+      {
+        "eventId": "idex-2025",
+        "baselineFile": "tmp/next-expansion-before/idex-2025.json",
+        "baselineSha256": "0581bafc7be13f0dbb39a2e2b4d3385c46cf223f4e89e4367eec7b434a33d268",
+        "currentFile": "data/v2/app/events/idex-2025.json",
+        "currentSha256": "251137cee1ebd6a9c336422b59128b59438242a0a8a8e88742305c0b3ba64d43"
+      },
+      {
+        "eventId": "saha-2026",
+        "baselineFile": "tmp/next-expansion-before/saha-2026.json",
+        "baselineSha256": "4ac69eaa095ad0d7ea71f331410679acbfb3f6cc4efd8046b61f07b49ebb6934",
+        "currentFile": "data/v2/app/events/saha-2026.json",
+        "currentSha256": "4ac69eaa095ad0d7ea71f331410679acbfb3f6cc4efd8046b61f07b49ebb6934"
+      }
+    ]
+  },
+  "counts": {
+    "eventCompanyRecords": 3685,
+    "eventProductRecords": 131,
+    "authoredProducts": 64,
+    "narrativeSections": 320,
+    "productsWithDisplayableCurrentEventPhotos": 29,
+    "productPhotoAssociations": 52,
+    "uniqueDisplayableCurrentEventPhotos": 49,
+    "authoredProductsWithoutDisplayableCurrentEventPhotos": 35
+  },
+  "eventComparisons": [
+    {
+      "eventId": "adex-2025",
+      "addedProducts": [],
+      "removedProducts": [],
+      "addedPhotos": [],
+      "removedPhotos": [
+        "photo-adex25-eo-booth-motoya"
+      ],
+      "countryChanges": [],
+      "companyPhotoChanges": [
+        {
+          "id": "org-e843c1da4f4efc81c4ca",
+          "before": [
+            "photo-adex25-eo-booth-motoya",
+            "photo-adex25-eo-booth-official",
+            "photo-adex25-eo-raptor-use"
+          ],
+          "after": [
+            "photo-adex25-eo-booth-official",
+            "photo-adex25-eo-raptor-use"
+          ]
+        }
+      ],
+      "productStatusChanges": [],
+      "otherPhotoFieldsChanged": [],
+      "sourceUrlChanges": []
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "addedProducts": [],
+      "removedProducts": [],
+      "addedPhotos": [],
+      "removedPhotos": [],
+      "countryChanges": [],
+      "companyPhotoChanges": [],
+      "productStatusChanges": [],
+      "otherPhotoFieldsChanged": [],
+      "sourceUrlChanges": []
+    },
+    {
+      "eventId": "dsei-2025",
+      "addedProducts": [],
+      "removedProducts": [],
+      "addedPhotos": [],
+      "removedPhotos": [],
+      "countryChanges": [],
+      "companyPhotoChanges": [],
+      "productStatusChanges": [],
+      "otherPhotoFieldsChanged": [],
+      "sourceUrlChanges": []
+    },
+    {
+      "eventId": "idex-2025",
+      "addedProducts": [
+        "idex25-diehl-libelle"
+      ],
+      "removedProducts": [],
+      "addedPhotos": [
+        "idex25-libelle-event-01"
+      ],
+      "removedPhotos": [],
+      "countryChanges": [
+        {
+          "id": "org-2d90c23ed374de2c2c80",
+          "before": [],
+          "after": [
+            "독일"
+          ]
+        }
+      ],
+      "companyPhotoChanges": [
+        {
+          "id": "org-2d90c23ed374de2c2c80",
+          "before": [],
+          "after": [
+            "idex25-libelle-event-01"
+          ]
+        }
+      ],
+      "productStatusChanges": [],
+      "otherPhotoFieldsChanged": [],
+      "sourceUrlChanges": []
+    },
+    {
+      "eventId": "saha-2026",
+      "addedProducts": [],
+      "removedProducts": [],
+      "addedPhotos": [],
+      "removedPhotos": [],
+      "countryChanges": [],
+      "companyPhotoChanges": [],
+      "productStatusChanges": [],
+      "otherPhotoFieldsChanged": [],
+      "sourceUrlChanges": []
+    }
+  ],
+  "flickrMapping": {
+    "count": 19,
+    "checks": [
+      {
+        "eventId": "dsei-2025",
+        "photoId": "photo-11263067e6d43e7ce029",
+        "productIds": [
+          "roshel-family-dsei2025"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "roshel-family-dsei2025"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "dsei-2025",
+        "photoId": "photo-bca8aa760976ba37519d",
+        "productIds": [
+          "roshel-family-dsei2025"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "roshel-family-dsei2025"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "dsei-2025",
+        "photoId": "photo-0cae38d806030dcdea1a",
+        "productIds": [
+          "roshel-family-dsei2025"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "roshel-family-dsei2025"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "dsei-2025",
+        "photoId": "photo-82d773132553b98ac998",
+        "productIds": [
+          "boxer-dsei2025"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "boxer-dsei2025"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 제공 외부 임베드",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-aec42c56571bfacd9939",
+        "productIds": [
+          "eu-korkut-25"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-korkut-25"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-c9de12f9cace0b10535f",
+        "productIds": [
+          "eu-korkut-25"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-korkut-25"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-59361c4bf771c72b9b97",
+        "productIds": [
+          "eu-korkut-25"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-korkut-25"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-f39ef13bbe35952dc791",
+        "productIds": [
+          "eu-korkut-25"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-korkut-25"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-05353942716e54058c53",
+        "productIds": [
+          "eu-korkut-25"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-korkut-25"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-8559a88b8564724e9075",
+        "productIds": [
+          "eu-korkut-25"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-korkut-25"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-64952442f8046ffbbaf7",
+        "productIds": [
+          "eu-korkut-25"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-korkut-25"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-6ac3e9dbf373e131d0e5",
+        "productIds": [
+          "eu-korkut-25"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-korkut-25"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-8e783c755c82dc11628c",
+        "productIds": [
+          "eu-korkut-25"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-korkut-25"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-f94a052656828e8efc2a",
+        "productIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-43d54391a2b676930834",
+        "productIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-22321203751121ea76df",
+        "productIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-942bfc3e192a0df3b107",
+        "productIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-e3d61f8445111321c23f",
+        "productIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "photoId": "photo-cefcbbd2b595ed31a69f",
+        "productIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousProductIds": [],
+        "currentProductIds": [
+          "eu-mars-rbs70"
+        ],
+        "previousRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "currentRights": {
+          "status": "provider-embed",
+          "license": "All Rights Reserved · Flickr 공식 외부 표시",
+          "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+          "basis": null
+        },
+        "srcUnchanged": true,
+        "sourceUrlUnchanged": true,
+        "remoteOnly": true,
+        "rightsUnchanged": true,
+        "ownershipCorrect": true,
+        "narrativeLinked": true
+      }
+    ],
+    "rights": "All 19 remain Flickr provider-embed ARR; no local image assets created."
+  },
+  "eoCorrection": {
+    "excludedId": "photo-adex25-eo-booth-motoya",
+    "originalRecordPreserved": true,
+    "excludedReason": "원본 픽셀의 MBDA 간판을 확인했다. 이오시스템 부스로 잘못 식별한 이전 연결을 제외한다.",
+    "publicAppAbsent": true
+  },
+  "dtaq": {
+    "proposalFile": "docs/research-v2/redesign-dtaq-budget-revision.json",
+    "replacements": [
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/4/sections/0/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/4/sections/2/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/4/sections/4/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/4/form",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/4/limitations/0",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/5/sections/2/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/5/sections/4/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/5/form",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/5/limitations/0",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/6/sections/0/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/6/sections/1/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/6/sections/2/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/6/sections/3/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/6/sections/4/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/6/form",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/6/limitations/0",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-adex-next.json",
+        "jsonPointer": "/narratives/1/sections/2/text",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-adex-next.json",
+        "jsonPointer": "/narratives/1/form",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-adex-next.json",
+        "jsonPointer": "/narratives/1/limitations/0",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/4/sources/0/limitations",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/5/sources/0/limitations",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-components-adex.json",
+        "jsonPointer": "/narratives/6/sources/0/limitations",
+        "applied": true
+      },
+      {
+        "file": "docs/research-v2/redesign-narratives-adex-next.json",
+        "jsonPointer": "/narratives/1/sources/0/limitations",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/0/sources/1/limitations",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/1/sources/1/limitations",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-followup.json",
+        "jsonPointer": "/cases/0/sources/1/limitations",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-followup.json",
+        "jsonPointer": "/cases/1/sources/1/limitations",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-followup.json",
+        "jsonPointer": "/cases/2/sources/1/limitations",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-followup.json",
+        "jsonPointer": "/cases/3/sources/1/limitations",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/small-systems.json",
+        "jsonPointer": "/cases/1/sources/2/limitations",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/population.json",
+        "jsonPointer": "/sources/1/limitations",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/1/highlights/0",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/1/highlights/1",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/1/exhibit/summary",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/1/exhibit/items/0/form",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/1/exhibit/items/1/form",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/1/direction/observation",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/0/highlights/1",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/0/exhibit/summary",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/0/exhibit/items/0/form",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/0/direction/observation",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/pavilion-components.json",
+        "jsonPointer": "/cases/0/direction/interpretation",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/small-systems.json",
+        "jsonPointer": "/cases/1/highlights/0",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/small-systems.json",
+        "jsonPointer": "/cases/1/exhibit/summary",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/small-systems.json",
+        "jsonPointer": "/cases/1/exhibit/items/5/form",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/small-systems.json",
+        "jsonPointer": "/cases/1/direction/observation",
+        "applied": true
+      },
+      {
+        "file": "data/v2/research/adex-2025/small-systems.json",
+        "jsonPointer": "/cases/1/photos/1/variantNote",
+        "applied": true
+      }
+    ],
+    "actualCountedUniqueSentences": 35,
+    "actualCountedWords": 196,
+    "sourceNotes": [
+      {
+        "id": "source-b39935309e4b1397b825",
+        "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+        "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+        "publisher": "국방기술품질원 / 글 정소야",
+        "publishedAt": "2025-11-10",
+        "note": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+        "evidenceStatus": "single_source"
+      },
+      {
+        "id": "pavilion-dtaq-report",
+        "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+        "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+        "publisher": "국방기술품질원 미디어룸 / 글 정소야",
+        "publishedAt": "2025-11-10",
+        "note": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+        "evidenceStatus": "single_source"
+      },
+      {
+        "id": "dtaq-onsite",
+        "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+        "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+        "publisher": "국방기술품질원 / 글 정소야",
+        "publishedAt": "2025-11-10",
+        "note": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+        "evidenceStatus": "primary_institutional_observation"
+      }
+    ],
+    "classificationBoundary": "IDs/URLs/metadata titles/names; original engineering interpretations, audit methods and questions listed individually; explicit other-source content; image-rights/capture-date audit metadata. Exclusions stay public and are not moved to internal fields.",
+    "allPublicTextUpperBoundNotClaimed": true,
+    "captionIndexResolution": {
+      "initialCheck": "JSON pointer /photos/41/caption became stale after the authorized removal of the unrelated EO/MBDA photo.",
+      "resolution": "Look up DTaQ caption by stable photo id and exact source URL/text.",
+      "photoId": "adex25-photo-dtaq-05",
+      "currentJsonPointer": "/photos/40/caption",
+      "textUnchanged": true,
+      "operationalDefect": false
+    }
+  },
+  "libelle": {
+    "newProductId": "idex25-diehl-libelle",
+    "newPhotoId": "idex25-libelle-event-01",
+    "existingCompanyId": "org-2d90c23ed374de2c2c80",
+    "sourceProfileId": "idex25-diehl-directory-profile",
+    "sourceProfileUrl": "https://bdsv-exhibitions.eu/show/idex-2025/702",
+    "assetSha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a",
+    "assetBytes": 447385,
+    "modelVsReal": "Not established; kept explicit in public narrative.",
+    "priorIndependentReview": "Direct Commons image/original SHA/CC BY4.0/2025 context checked earlier in this agent. 2023 manufacturer source is general background only."
+  },
+  "assets": {
+    "baselineCommit": "7b13b9d9b10fe77082667d847476adc7dcca08f6",
+    "existingAssetCount": 85,
+    "allExistingBytesUnchanged": true,
+    "newAssets": [
+      {
+        "file": "assets/photos/idex2025-libelle-event.jpg",
+        "bytes": 447385,
+        "sha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a"
+      }
+    ],
+    "manifest": [
+      {
+        "file": "assets/adex2025/k2pl-event-01.jpg",
+        "blobSha1": "9bdba77c4374c5533470c4f786a2e03957582d1b",
+        "currentBlobSha1": "9bdba77c4374c5533470c4f786a2e03957582d1b",
+        "sha256": "cf68e69710366d23dd41e3491000c4115565b2f26ebfcc4b3659730a5315ed0b",
+        "bytes": 228154,
+        "unchanged": true
+      },
+      {
+        "file": "assets/adex2025/light-105-eurosatory2026-01.jpg",
+        "blobSha1": "ebd50f0f895c6a586f12905fefc501c0fd75ebc7",
+        "currentBlobSha1": "ebd50f0f895c6a586f12905fefc501c0fd75ebc7",
+        "sha256": "5dd80611f9ad285068567420048071bec0e2a7bf419bda21c71ab195ee482438",
+        "bytes": 304109,
+        "unchanged": true
+      },
+      {
+        "file": "assets/adex2025/light-105-eurosatory2026-02.jpg",
+        "blobSha1": "929e6aa9a38fb913d62ad135a8f5285df82ad012",
+        "currentBlobSha1": "929e6aa9a38fb913d62ad135a8f5285df82ad012",
+        "sha256": "6604e9ce7273e5afd762fbc309624e7a51a1f2511b5dfaa2bfee2c1c49cbc10b",
+        "bytes": 485042,
+        "unchanged": true
+      },
+      {
+        "file": "assets/adex2025/light-105-event-01.jpg",
+        "blobSha1": "1cfea8df8a7de2782457ef87f78ef77bcdf99dc5",
+        "currentBlobSha1": "1cfea8df8a7de2782457ef87f78ef77bcdf99dc5",
+        "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72",
+        "bytes": 310237,
+        "unchanged": true
+      },
+      {
+        "file": "assets/adex2025/light-105-wds2026-01.jpg",
+        "blobSha1": "9183ddc164258b918cb44ca877a1859bebdadd16",
+        "currentBlobSha1": "9183ddc164258b918cb44ca877a1859bebdadd16",
+        "sha256": "ed5956e7bd51c1577b1e46df189711ee25ae2f5d4531f9370ad05080533b48c5",
+        "bytes": 287753,
+        "unchanged": true
+      },
+      {
+        "file": "assets/adex2025/rcws-eurosatory2026-01.jpg",
+        "blobSha1": "0bf840eb52cc3f3357dbf739a40835d703acab6d",
+        "currentBlobSha1": "0bf840eb52cc3f3357dbf739a40835d703acab6d",
+        "sha256": "f9e4611325b7f624ea9d56cee9399717e43544163a7f351e1cbcbd816c978941",
+        "bytes": 275007,
+        "unchanged": true
+      },
+      {
+        "file": "assets/adex2025/rcws-event-01.jpg",
+        "blobSha1": "206d3c90828633660a4c12db8456c0c7e727c03e",
+        "currentBlobSha1": "206d3c90828633660a4c12db8456c0c7e727c03e",
+        "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb",
+        "bytes": 246948,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/adex2025-new-kia-family.jpg",
+        "blobSha1": "3e825b722ce5909793fcb92a8fc63a087b551cf5",
+        "currentBlobSha1": "3e825b722ce5909793fcb92a8fc63a087b551cf5",
+        "sha256": "a184930d3cff5ad8e49476cedcf8bed5e8b8674ddd99ab61b9d6a2dc218f7693",
+        "bytes": 452337,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/adex2025-new-kmtv-front.jpg",
+        "blobSha1": "e2df6e9158a291cec005db6e1c71287ce47ebadd",
+        "currentBlobSha1": "e2df6e9158a291cec005db6e1c71287ce47ebadd",
+        "sha256": "62a7c344970dbca6cd6dae82f3d532cdf1ba33636883811999b112fb5d1cc1d5",
+        "bytes": 439007,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/adex2025-new-rotem-booth.jpg",
+        "blobSha1": "50b2290409e02b31b4b513a9308d9761bdca7bf3",
+        "currentBlobSha1": "50b2290409e02b31b4b513a9308d9761bdca7bf3",
+        "sha256": "89be393f6aca5a8fae6b36e0f1191d03fc204fef12ee1778daf3b272729a0629",
+        "bytes": 346351,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/adex2025-new-tasman-front.jpg",
+        "blobSha1": "5ad379f1b65045d677bf613e6b7b274b5f4a51da",
+        "currentBlobSha1": "5ad379f1b65045d677bf613e6b7b274b5f4a51da",
+        "sha256": "627548af6e2c960b4566e7257c2970c39a63b55664ed789460fef1195b69f3bc",
+        "bytes": 413934,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/arma-ii-00.webp",
+        "blobSha1": "c3664c7d88ebb6c7e4027511318c3f1f934847bf",
+        "currentBlobSha1": "c3664c7d88ebb6c7e4027511318c3f1f934847bf",
+        "sha256": "addbf63377971d9381663c910b70f32e23c91c8f9443afcc17f1b50fe58dc35e",
+        "bytes": 352404,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/arma-ii-01.webp",
+        "blobSha1": "928bccc632badaca428a646cb43cde35f13b985f",
+        "currentBlobSha1": "928bccc632badaca428a646cb43cde35f13b985f",
+        "sha256": "ee7c1dff45819b2a7d3057f4685712d3b47f771846a09b172559d9c7d8776298",
+        "bytes": 475830,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-00.webp",
+        "blobSha1": "58082ea2a94a92c5b41ac4556446cdf3fdc4203d",
+        "currentBlobSha1": "58082ea2a94a92c5b41ac4556446cdf3fdc4203d",
+        "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a",
+        "bytes": 351440,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-01.webp",
+        "blobSha1": "6b99c149f1e8165d571201fa5e109f5a6d48c650",
+        "currentBlobSha1": "6b99c149f1e8165d571201fa5e109f5a6d48c650",
+        "sha256": "bde53a504d88c2c4ad98a393539a2cd5162d615aef3590fa7e414cabda426547",
+        "bytes": 133060,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-02.webp",
+        "blobSha1": "9a825a26d18d48b900b0814b577d7ca26a377c36",
+        "currentBlobSha1": "9a825a26d18d48b900b0814b577d7ca26a377c36",
+        "sha256": "dfa659889afcf61910663afec210b716d98d8c90014b5c2afe0cf24ca6238da3",
+        "bytes": 105994,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-07.webp",
+        "blobSha1": "2c45abb4d5f3676532cee98c25d7d1cf0025035d",
+        "currentBlobSha1": "2c45abb4d5f3676532cee98c25d7d1cf0025035d",
+        "sha256": "d730fae4db1f5275fccdc3b94a5da71b2284dded268ead41da9d3ac4f5972661",
+        "bytes": 124600,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-08.webp",
+        "blobSha1": "3707a2cd7b23e24fe2eb58d3b6eb47c88c5fee1e",
+        "currentBlobSha1": "3707a2cd7b23e24fe2eb58d3b6eb47c88c5fee1e",
+        "sha256": "d69f2d5e1178ae5f40e705533fdbaecab10cee1907df3a64785497d4b59f419d",
+        "bytes": 231962,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-12.webp",
+        "blobSha1": "f0b676cb13ee74f5279110b99e49a1d5918f0cd4",
+        "currentBlobSha1": "f0b676cb13ee74f5279110b99e49a1d5918f0cd4",
+        "sha256": "77f87d835eb150a42a13dec3faf3805d620652374668b23b7d5527f29ae403d8",
+        "bytes": 158648,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-14.webp",
+        "blobSha1": "e7624c26ddbe9909b786978066aaa60d917fd92d",
+        "currentBlobSha1": "e7624c26ddbe9909b786978066aaa60d917fd92d",
+        "sha256": "806e6803aa0a0370488fe8c052d26c1bb743bee2a29341c2dabc738f5a991f81",
+        "bytes": 106926,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-16.webp",
+        "blobSha1": "046464eaae29fd27c1be0fdfbf4286cc769120b4",
+        "currentBlobSha1": "046464eaae29fd27c1be0fdfbf4286cc769120b4",
+        "sha256": "c496d985a7713de8ba9842b6fe36dfacff4c51c6532723b34049c654a078e34d",
+        "bytes": 130844,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-18.webp",
+        "blobSha1": "62214a12061c64a1363f34853f438ee369df065e",
+        "currentBlobSha1": "62214a12061c64a1363f34853f438ee369df065e",
+        "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6",
+        "bytes": 212806,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-19.webp",
+        "blobSha1": "3f5333c627197adac0e3c6844abc4690be09b31b",
+        "currentBlobSha1": "3f5333c627197adac0e3c6844abc4690be09b31b",
+        "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f",
+        "bytes": 597506,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-21.webp",
+        "blobSha1": "70fe10a4ece520dc24ec7cc4ed83578e09a23017",
+        "currentBlobSha1": "70fe10a4ece520dc24ec7cc4ed83578e09a23017",
+        "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6",
+        "bytes": 267276,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/boxer-miv-22.webp",
+        "blobSha1": "71abe86b17c2f8fa3e603b6983bd9a4ae3a19588",
+        "currentBlobSha1": "71abe86b17c2f8fa3e603b6983bd9a4ae3a19588",
+        "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5",
+        "bytes": 265420,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/cobra-ii-00.webp",
+        "blobSha1": "7550ffc016a90be7b3fa8425773835f7f8246ef1",
+        "currentBlobSha1": "7550ffc016a90be7b3fa8425773835f7f8246ef1",
+        "sha256": "2120fb5b5c9317560c6cfc5861dc7dbad64ef858ed5ccbd4158bf05fedd6937b",
+        "bytes": 436416,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/cobra-ii-08.webp",
+        "blobSha1": "e39ccc781528ba3b04d11214938e1d622d450c16",
+        "currentBlobSha1": "e39ccc781528ba3b04d11214938e1d622d450c16",
+        "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd",
+        "bytes": 143476,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/dsei2025-new-kia-booth.jpg",
+        "blobSha1": "08bc5e200509f21cf09886f51fa5a048e296f558",
+        "currentBlobSha1": "08bc5e200509f21cf09886f51fa5a048e296f558",
+        "sha256": "05ae2d39572f355278990fb628f6dac75e3b554574212e9823d4d1dd2dd6677f",
+        "bytes": 392836,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/dsei2025-patria-6x6-booth.jpg",
+        "blobSha1": "5e5831e238b8fdb0df53d112d09a628834cd4602",
+        "currentBlobSha1": "5e5831e238b8fdb0df53d112d09a628834cd4602",
+        "sha256": "0c760053a3eb918cd3a2335fc6d4dc83f2ab3143ff0ce50f9425a5d6a9c57242",
+        "bytes": 480064,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/dsei2025-patria-6x6-cavs.jpg",
+        "blobSha1": "a1fc776467a3b8bc1ad9dd9489822126f091c4fb",
+        "currentBlobSha1": "a1fc776467a3b8bc1ad9dd9489822126f091c4fb",
+        "sha256": "772ef5351e69a756bb326e596a07c7ebe38ff24158f5a5e81b7f6bc525773a5b",
+        "bytes": 533534,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/dsei2025-patria-trackx.jpg",
+        "blobSha1": "3206424b71b7490a41ed66a28fd85d4b26ad2ed6",
+        "currentBlobSha1": "3206424b71b7490a41ed66a28fd85d4b26ad2ed6",
+        "sha256": "accf4aff6dd002ddf612a17b4450f6703b523a37316f01a8f52628042382aa9b",
+        "bytes": 517394,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/dsei2025-patria-tremos.jpg",
+        "blobSha1": "30ff16e33bee70462c56ce5ce400ab80689d5242",
+        "currentBlobSha1": "30ff16e33bee70462c56ce5ce400ab80689d5242",
+        "sha256": "2a04dbaed61e31043edfbe127c562a41084bb013bdae5e4f5df5a7a3cc6e10a0",
+        "bytes": 517742,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/eurosatory2026-new-kia-booth.jpg",
+        "blobSha1": "21e1b07756b8fe6fc88770aa3f27c5f3a725a547",
+        "currentBlobSha1": "21e1b07756b8fe6fc88770aa3f27c5f3a725a547",
+        "sha256": "1a22e5316b518f0acd49228dc7e5a0fdbf4856b810b603e90d0092372d5ef62c",
+        "bytes": 482730,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/eurosatory2026-new-kia-kltv.jpg",
+        "blobSha1": "53775293f41ba32c7607bca382089cbc0ca3ac66",
+        "currentBlobSha1": "53775293f41ba32c7607bca382089cbc0ca3ac66",
+        "sha256": "db31a7952f3a5ddaae43e48d5ac3f800c4065e3b0368d7bf0e9b79f2fa1c83d3",
+        "bytes": 450823,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/eurosatory2026-new-kia-tasman.jpg",
+        "blobSha1": "653a92d66891a146730d71f92b1786de85e4ed99",
+        "currentBlobSha1": "653a92d66891a146730d71f92b1786de85e4ed99",
+        "sha256": "84ce8f414a08a8ad3b8000b55c4d4833da6ac805489e9e1f38d838408b5767e5",
+        "bytes": 429522,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/eurosatory2026-new-rotem.jpg",
+        "blobSha1": "4fc97604835889b4b438637d2c7b6a79830f02b3",
+        "currentBlobSha1": "4fc97604835889b4b438637d2c7b6a79830f02b3",
+        "sha256": "62c5bdd392a2a63340697b73bb7717793a0f1fc85500f076a6530b22259301bd",
+        "bytes": 549682,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-acv-rws.webp",
+        "blobSha1": "6db76084c62497b595588c89003aef17784ad454",
+        "currentBlobSha1": "6db76084c62497b595588c89003aef17784ad454",
+        "sha256": "0f6030fd76a7db78166bc68cd9f13a86cd753dbd831744a7ea4493be41772333",
+        "bytes": 125102,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-acv-thruster.webp",
+        "blobSha1": "3d58d9fd376ba93066f880521b667d5f7e0e7850",
+        "currentBlobSha1": "3d58d9fd376ba93066f880521b667d5f7e0e7850",
+        "sha256": "6a7aebbe81f0e8bbcf338a136b3cf29385187a4385350956e854f7fdd4b0b43e",
+        "bytes": 131568,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-ajban-441ae.webp",
+        "blobSha1": "c25fa03552839a21699e3ea5b946241ed011dc4f",
+        "currentBlobSha1": "c25fa03552839a21699e3ea5b946241ed011dc4f",
+        "sha256": "5d48473cfdbcd757aceb18ca3f63eaf5d17ec05d02514ddf20420acfb0aa54ac",
+        "bytes": 273456,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-ajban-442a.webp",
+        "blobSha1": "5f0dd45d207f9e815c8f6e964ca3cb7802821abe",
+        "currentBlobSha1": "5f0dd45d207f9e815c8f6e964ca3cb7802821abe",
+        "sha256": "b88053b5f20fdb3b4bc9b6242017e05bb66b1aa336fe340b70bc45c29aed91ac",
+        "bytes": 263556,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-ajban-452a.webp",
+        "blobSha1": "527fe81c34db6958077f7f3835838b513bef167f",
+        "currentBlobSha1": "527fe81c34db6958077f7f3835838b513bef167f",
+        "sha256": "6c923b1e3d2268d3d8b6afd42f8629130e7688d2566582f8d1d79eb1d802ec3c",
+        "bytes": 276696,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-cockerill-ix.webp",
+        "blobSha1": "56d02d17f7eca4714bb55717e25adce30342ea76",
+        "currentBlobSha1": "56d02d17f7eca4714bb55717e25adce30342ea76",
+        "sha256": "91b52fbd2b42f554083f88a45b5a516febb9a5929fe4f7ac953f4e123d71654f",
+        "bytes": 221340,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-hafeet.webp",
+        "blobSha1": "0a68ae44097216f62337003f8bf9f0bf7196a785",
+        "currentBlobSha1": "0a68ae44097216f62337003f8bf9f0bf7196a785",
+        "sha256": "0bef0345cec60c3e923b0f1f8098876c7d9de10b35c6e64e00b063587c59eb4f",
+        "bytes": 234206,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-havoc-01.webp",
+        "blobSha1": "523741a6e9e014d57b4771bb1c4048af15b259a3",
+        "currentBlobSha1": "523741a6e9e014d57b4771bb1c4048af15b259a3",
+        "sha256": "d76428520c370a61e8a05463bd05cc5954e5726166ab7e59ca7953fdfcbee3b2",
+        "bytes": 215038,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-havoc-02.webp",
+        "blobSha1": "7bf103dec6c356710c9c88da50e9335a734be09a",
+        "currentBlobSha1": "7bf103dec6c356710c9c88da50e9335a734be09a",
+        "sha256": "caa14f707ff0bbd4a0f8eeebe9257fed2598bf0d7f0f242ddfce1785020afde9",
+        "bytes": 241978,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-havoc-03.webp",
+        "blobSha1": "ab9ecdf3cacdd3156c33bee6bdee0b82bae0c930",
+        "currentBlobSha1": "ab9ecdf3cacdd3156c33bee6bdee0b82bae0c930",
+        "sha256": "4a0e4e56c0c98f2cf6897161d96cc9ed2ddf3d089bf1ff93f60470d79ea17dda",
+        "bytes": 231432,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-t90ms-front.webp",
+        "blobSha1": "e5dba3b16a3374264fb05ff22d90f8117aa90127",
+        "currentBlobSha1": "e5dba3b16a3374264fb05ff22d90f8117aa90127",
+        "sha256": "1163407c74001d71eb8104f9fd5375ce3268299b9099ab0cc48a6dc318607af9",
+        "bytes": 313620,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/idex2025-new-t90ms-side.webp",
+        "blobSha1": "cdb9f9a8e82bb2bad6553f551db7a7839cdfb4bc",
+        "currentBlobSha1": "cdb9f9a8e82bb2bad6553f551db7a7839cdfb4bc",
+        "sha256": "3c6e3bbc62b652030f69bf4f340f492391fad9f0c6165e7c99dd93cab76a2b63",
+        "bytes": 359098,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k2pl-00.webp",
+        "blobSha1": "5a91ddb1409db26d70503c2e2754a0b91713e104",
+        "currentBlobSha1": "5a91ddb1409db26d70503c2e2754a0b91713e104",
+        "sha256": "d07c142cab7202e298968d83e0de9cbbb2c59a8a814a10ab4fbe3a8c40043309",
+        "bytes": 170684,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k2pl-01.webp",
+        "blobSha1": "2be4f04a4041e9fca9056beb96ba9654d0babe3b",
+        "currentBlobSha1": "2be4f04a4041e9fca9056beb96ba9654d0babe3b",
+        "sha256": "735b97e00eae905e9fe53f2b23483dec5d21bb04edf5a2e6c145b313fe2465f6",
+        "bytes": 122658,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k2pl-05.webp",
+        "blobSha1": "d3f6177310c808adc6a2686f47756f3f561a6ba0",
+        "currentBlobSha1": "d3f6177310c808adc6a2686f47756f3f561a6ba0",
+        "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b",
+        "bytes": 227336,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k2pl-08.webp",
+        "blobSha1": "02084e49e606c438e78014bd9ac8ad2566258db0",
+        "currentBlobSha1": "02084e49e606c438e78014bd9ac8ad2566258db0",
+        "sha256": "77b4e4a21dffca8e714884022b9c511566c2a0a296d66a6f54dc2ae79c5c1bbf",
+        "bytes": 90994,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k2pl-09.webp",
+        "blobSha1": "77d40571b3ba92584b6b11293d7f91aafee97ee7",
+        "currentBlobSha1": "77d40571b3ba92584b6b11293d7f91aafee97ee7",
+        "sha256": "aca6680ea2ff6b2c7a9159356848faa911e46769120b27a40057e7ff16b3514b",
+        "bytes": 183356,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k2pl-10.webp",
+        "blobSha1": "8dd63f310b5259ca480b578cd4f0451677c0fd00",
+        "currentBlobSha1": "8dd63f310b5259ca480b578cd4f0451677c0fd00",
+        "sha256": "74042ccaca9e680dd01b30393fa7b80d2bcd340160e798fe31f3d661b4848d0f",
+        "bytes": 101760,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k2pl-11.webp",
+        "blobSha1": "035f3223c6ce7e25bd0c9986f42e35e861e386ba",
+        "currentBlobSha1": "035f3223c6ce7e25bd0c9986f42e35e861e386ba",
+        "sha256": "a6c55340ca54f4aba3f3031d87598c16645109db9d1f2fb32618b21cc5072454",
+        "bytes": 108854,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k2pl-17.webp",
+        "blobSha1": "db7331db5ca3d1f46992e3036b61fc5ab5af7b2c",
+        "currentBlobSha1": "db7331db5ca3d1f46992e3036b61fc5ab5af7b2c",
+        "sha256": "3bfe15fb68e24993dc1b83c843583f3753fd9430941a14822150cd3c00927337",
+        "bytes": 266650,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k2pl-23.webp",
+        "blobSha1": "ac6f488e156d0eae29aa778c72a0f7f9d140618a",
+        "currentBlobSha1": "ac6f488e156d0eae29aa778c72a0f7f9d140618a",
+        "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942",
+        "bytes": 122256,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k808-peru-00.webp",
+        "blobSha1": "3414cfc2257cd5eb51574606c6697ec6961c6e1c",
+        "currentBlobSha1": "3414cfc2257cd5eb51574606c6697ec6961c6e1c",
+        "sha256": "e2b6aca06dec2953da24a510d0f33cf73a5d5f411539a631e63d6e19549adf9b",
+        "bytes": 107834,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k808-peru-12.webp",
+        "blobSha1": "cd5f957206ca8c8d8edd14af377e847db50364ce",
+        "currentBlobSha1": "cd5f957206ca8c8d8edd14af377e847db50364ce",
+        "sha256": "2b0f1f6bf39db012c28fa198cc43c1169a3de746fdb9ed72dbf4a3a85b0e0973",
+        "bytes": 509296,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k808-peru-14.webp",
+        "blobSha1": "fdaeaf5287b4cf69d2191924163d8192ed7632aa",
+        "currentBlobSha1": "fdaeaf5287b4cf69d2191924163d8192ed7632aa",
+        "sha256": "b238205a6b0b8951d92d9f3709e77a03e2f025c2dad8044eb6fd8c72d1ec18cf",
+        "bytes": 390294,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k808-peru-15.webp",
+        "blobSha1": "0d58d30ecbb5275a83c9a16680d1820c4aecbf3c",
+        "currentBlobSha1": "0d58d30ecbb5275a83c9a16680d1820c4aecbf3c",
+        "sha256": "8f63c7226570e1e5363d84fc4ce1997b4380df0dd3c0b80ff101a733e2e993a4",
+        "bytes": 439848,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k9a3-02.webp",
+        "blobSha1": "3e59f5489d68553eec961bdbe2ec4e0cdb372dd6",
+        "currentBlobSha1": "3e59f5489d68553eec961bdbe2ec4e0cdb372dd6",
+        "sha256": "f9d30ff810da2c998ee3d07b215388bad3275fe866c7c3edb9f969834ab04d25",
+        "bytes": 62706,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k9a3-03.webp",
+        "blobSha1": "1bfcb421e17be2ac9fe54274fcfbcc5e2d5af409",
+        "currentBlobSha1": "1bfcb421e17be2ac9fe54274fcfbcc5e2d5af409",
+        "sha256": "aaf24af505a5b7b17d4a6faa30d2ff3332f9a98e408a752b95bbf8fccec56e5c",
+        "bytes": 191384,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k9a3-07.webp",
+        "blobSha1": "40ead45bc87abda41304a9bc4977c8f6fecb7015",
+        "currentBlobSha1": "40ead45bc87abda41304a9bc4977c8f6fecb7015",
+        "sha256": "41df7fff5d51af5e282bc138d54edaaa60267bb094db84a239fd7f61a4f341bc",
+        "bytes": 104330,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/k9a3-11.webp",
+        "blobSha1": "9beed59417f331757abf2661e9d3a58f5e7c9ba7",
+        "currentBlobSha1": "9beed59417f331757abf2661e9d3a58f5e7c9ba7",
+        "sha256": "59473682382b3adc312870dfdf99d705f6208a947260ff1e031deb8ae06ee9ed",
+        "bytes": 404398,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/kaplan-hybrid-00.webp",
+        "blobSha1": "22983873111fa9923eaf8c3e41c587a26d975d09",
+        "currentBlobSha1": "22983873111fa9923eaf8c3e41c587a26d975d09",
+        "sha256": "2793449fd6e58feae4a17e4472e0724ffa55066248f37d3ced4c08c931c8d9d2",
+        "bytes": 167210,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/leopard-2a8-02.webp",
+        "blobSha1": "c1dff3c383116ddc2513c55776765bb614b105bc",
+        "currentBlobSha1": "c1dff3c383116ddc2513c55776765bb614b105bc",
+        "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78",
+        "bytes": 309676,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/leopard-2a8-04.webp",
+        "blobSha1": "178038446b6c93dddb5878c58707def381e61c50",
+        "currentBlobSha1": "178038446b6c93dddb5878c58707def381e61c50",
+        "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95",
+        "bytes": 145892,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/leopard-2a8-07.webp",
+        "blobSha1": "2f1b38df3ca185fcc1c3db930bd64075198b1985",
+        "currentBlobSha1": "2f1b38df3ca185fcc1c3db930bd64075198b1985",
+        "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea",
+        "bytes": 46876,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/lynx-skyranger35-03.webp",
+        "blobSha1": "ed77c0b1e5f120615d31cd3c3c9f415bdd8d6d3b",
+        "currentBlobSha1": "ed77c0b1e5f120615d31cd3c3c9f415bdd8d6d3b",
+        "sha256": "077aa8b758ffa16300320af3e9d9cec88dbe6bd64927aa6962ad07a7ac39878e",
+        "bytes": 342876,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/lynx-skyranger35-05.webp",
+        "blobSha1": "f63a1a069cd36cb229a8f2a3d83df68368aae108",
+        "currentBlobSha1": "f63a1a069cd36cb229a8f2a3d83df68368aae108",
+        "sha256": "d03a2e66b69b36a584a4c848898691c1b4b88dea8fdc4da360af153ebafcee62",
+        "bytes": 158086,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/lynx-skyranger35-07.webp",
+        "blobSha1": "8267e576f9cb2cdb148859e96862fd957ee9df03",
+        "currentBlobSha1": "8267e576f9cb2cdb148859e96862fd957ee9df03",
+        "sha256": "cb870eb53e653c35dc21428552ec8501499a211249f43be9debb8a5e7647613e",
+        "bytes": 136660,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/pars-alpha-00.webp",
+        "blobSha1": "b1a9c0cba0dc1904ecebd4ab3f0610ef3dfd275b",
+        "currentBlobSha1": "b1a9c0cba0dc1904ecebd4ab3f0610ef3dfd275b",
+        "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+        "bytes": 128670,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/pars-alpha-11.webp",
+        "blobSha1": "8c77d432af8f8261df3d054b3ac0dd0ec87d47a1",
+        "currentBlobSha1": "8c77d432af8f8261df3d054b3ac0dd0ec87d47a1",
+        "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+        "bytes": 143864,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-00.webp",
+        "blobSha1": "0e898023a369e10be4f93fd014807001327f19cd",
+        "currentBlobSha1": "0e898023a369e10be4f93fd014807001327f19cd",
+        "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9",
+        "bytes": 378042,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-01.webp",
+        "blobSha1": "15f7e1a89be8d00cc2dd0247ae2a346e2fd497dd",
+        "currentBlobSha1": "15f7e1a89be8d00cc2dd0247ae2a346e2fd497dd",
+        "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54",
+        "bytes": 156472,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-02.webp",
+        "blobSha1": "f3de4e6080910979e8f2cba4dfdfd3c4979a527c",
+        "currentBlobSha1": "f3de4e6080910979e8f2cba4dfdfd3c4979a527c",
+        "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1",
+        "bytes": 392676,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-04.webp",
+        "blobSha1": "2fd4ea307efcd3f33e60e32ae885c79f62860c42",
+        "currentBlobSha1": "2fd4ea307efcd3f33e60e32ae885c79f62860c42",
+        "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363",
+        "bytes": 239452,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/patria-6x6-08.webp",
+        "blobSha1": "ea5c7b848b8332f87a09f3a6538cbea58bb44668",
+        "currentBlobSha1": "ea5c7b848b8332f87a09f3a6538cbea58bb44668",
+        "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18",
+        "bytes": 292640,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/rch155-tracked-03.webp",
+        "blobSha1": "2899da430456d1388e882c8b6afbee4475bea8f0",
+        "currentBlobSha1": "2899da430456d1388e882c8b6afbee4475bea8f0",
+        "sha256": "7a6b2344d0d3d38a3fb3a07a3d8da28898be4c2ab8c3e965e893cdfda3585ca3",
+        "bytes": 114518,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/rch155-tracked-05.webp",
+        "blobSha1": "31f0569c4ca25e38275786a17eddbf08d2ea3a4c",
+        "currentBlobSha1": "31f0569c4ca25e38275786a17eddbf08d2ea3a4c",
+        "sha256": "49e650894bf87a3760fc6860be722e4d24e81155c0fac7bae232659e60cc68da",
+        "bytes": 146400,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/rch155-tracked-06.webp",
+        "blobSha1": "4bd2d10817f94a7e94437d76fd46a971c9b80cb1",
+        "currentBlobSha1": "4bd2d10817f94a7e94437d76fd46a971c9b80cb1",
+        "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+        "bytes": 116634,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/themis-k-00.webp",
+        "blobSha1": "39ad5068cef9de5045fed721f0ae8b3a7f90a6c0",
+        "currentBlobSha1": "39ad5068cef9de5045fed721f0ae8b3a7f90a6c0",
+        "sha256": "81c4ea6179f5e2483bf1e8f5ca2f79874a46053d4804ea51ee8699f3660fcd13",
+        "bytes": 448990,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/themis-k-21.webp",
+        "blobSha1": "35dddc957112f5719a91941b7e7f514200588cd7",
+        "currentBlobSha1": "35dddc957112f5719a91941b7e7f514200588cd7",
+        "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
+        "bytes": 214990,
+        "unchanged": true
+      },
+      {
+        "file": "assets/photos/tulpar-00.webp",
+        "blobSha1": "2eecd42e27744ba4ef87869fc0dcfdd5ae0ec039",
+        "currentBlobSha1": "2eecd42e27744ba4ef87869fc0dcfdd5ae0ec039",
+        "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8",
+        "bytes": 251040,
+        "unchanged": true
+      }
+    ]
+  },
+  "savedPdfFiles": {
+    "files": [
+      {
+        "file": "output/pdf/final/fieldnote-adex-2025.pdf",
+        "baselineSha256": "2283ce2375a7d872766d7236e7b4501d97994260dc883a694e7d0a6a4909265c",
+        "currentSha256": "2283ce2375a7d872766d7236e7b4501d97994260dc883a694e7d0a6a4909265c"
+      },
+      {
+        "file": "output/pdf/final/fieldnote-eurosatory-2026.pdf",
+        "baselineSha256": "bdc5b54a3b109c4dc9050213ee07002e3e678991302765290a0a2a3edba71ada",
+        "currentSha256": "bdc5b54a3b109c4dc9050213ee07002e3e678991302765290a0a2a3edba71ada"
+      },
+      {
+        "file": "output/pdf/final/fieldnote-dsei-2025.pdf",
+        "baselineSha256": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1",
+        "currentSha256": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1"
+      },
+      {
+        "file": "output/pdf/final/fieldnote-idex-2025.pdf",
+        "baselineSha256": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501",
+        "currentSha256": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501"
+      },
+      {
+        "file": "output/pdf/final/fieldnote-saha-2026.pdf",
+        "baselineSha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91",
+        "currentSha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91"
+      }
+    ],
+    "allBaselineBytesPreserved": true,
+    "notClaimedCurrentPrintEquivalent": true,
+    "note": "Print policy changed for Flickr; root is responsible for affected PDF resave/QA. No PDF was saved or edited by this audit."
+  },
+  "validation": {
+    "checks": 35356,
+    "passed": 35356,
+    "failed": [],
+    "fullBuildRerun": false,
+    "fullTestsRerun": false,
+    "operationalEdits": false,
+    "resolvedAuditHarnessFindings": [
+      {
+        "initialCheck": "JSON pointer /photos/41/caption became stale after the authorized removal of the unrelated EO/MBDA photo.",
+        "resolution": "Look up DTaQ caption by stable photo id and exact source URL/text.",
+        "photoId": "adex25-photo-dtaq-05",
+        "currentJsonPointer": "/photos/40/caption",
+        "textUnchanged": true,
+        "operationalDefect": false
+      }
+    ]
+  },
+  "commands": [
+    "Node read-only event snapshots/current JSON comparison, exact old/new proposal checks, Git ls-tree/blob-hash comparison.",
+    "Primary source web open for Roshel pre-event post and KNDS/Rheinmetall source separation."
+  ],
+  "limitations": [
+    "Parent browser verification of DSEI four image pixels and current remote rendering remains separate.",
+    "Two general reference-photo candidates are not integrated in this snapshot; this audit must be supplemented after integration.",
+    "Source-budget 196 is explicit article-derived sentence accounting; original public questions, methodology and separate-source claims are retained and excluded with reasons.",
+    "This audit records pre-fallback baseline data hashes. Regenerated data after later integration must receive a delta check."
+  ],
+  "stateTransitions": [
+    "planned",
+    "executing",
+    "verifying",
+    "completed"
+  ],
+  "dseiSourceReview": {
+    "result": "PASS_SOURCE_SEPARATION",
+    "method": "Independent primary-page reread; generated narrative/source data checked. Remote photo pixel QA remains parent-owned.",
+    "primaryPages": [
+      {
+        "url": "https://www.linkedin.com/posts/roshel_roshel-smart-armored-vehicles-will-be-presenting-activity-7367200090651881472-SeIs",
+        "supports": "Pre-event plan and dated event/booth; no invented exact publication date."
+      },
+      {
+        "url": "https://roshel.com/products/",
+        "supports": "Separate Senator and Captain product families; generic role only, no specs retroactively assigned."
+      },
+      {
+        "url": "https://knds.com/en/events/dsei-london-knds-uk",
+        "supports": "KNDS event dates and S9-210 only; no claimed product manifest."
+      },
+      {
+        "url": "https://knds.com/en/products/systems/boxer/boxer-rct-30",
+        "supports": "Generic modular architecture only; no exact turret identification from this page."
+      },
+      {
+        "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-dsei-first-uk-built-boxer-has-now-been-delivered",
+        "supports": "MIV additional deliveries plan and separate Land Zone/Rheinmetall variants; public text does not attribute them to KNDS photo."
+      }
+    ],
+    "checks": {
+      "twoNarrativesTenSections": true,
+      "actualVsPlannedSeparated": true,
+      "eventEvidenceAndGeneralSourceIdsDisjoint": true,
+      "onePhotographerNotMultipleIndependentTests": true,
+      "performanceAndTurretModelUnconfirmed": true,
+      "arrNotPromotedToCC": true
+    },
+    "freshFlickrWebToolResult": "All four photo page opens failed in web tool (cache/access errors); packet metadata and parent pixel review are the available sources for those pages, not a newly successful browser inspection."
+  },
+  "findings": [
+    {
+      "id": "source-note-precedence",
+      "severity": "minor",
+      "status": "resolved_in_afterDelta",
+      "file": "scripts/compile-v2-app.mjs",
+      "line": 38,
+      "issue": "sourceRecord chooses limitations || note, dropping note when both exist in a single source object. The four DSEI Flickr source notes about remote ARR conditions are therefore absent from generated source.note.",
+      "impact": "Same conditions remain public in photo rights/variantNote and narrative limits; no rights promotion was found. This is source metadata completeness, not loss of all visible reuse conditions.",
+      "suggestedFix": "Merge limitations and note into the normalized notes array/string or combine those two input fields in the source packet; preserve both without duplicates.",
+      "resolution": "Both input fields survive in generated source.note and duplicate lines are removed."
+    }
+  ],
+  "afterDelta": {
+    "asOf": "2026-11-16",
+    "status": "PASS",
+    "scope": "Narrow follow-up: source limitations+note merge, explicit two product-reference links, gallery/report fallback, latest dist scan. Baseline claims above remain a pre-delta record.",
+    "currentSnapshots": [
+      {
+        "eventId": "adex-2025",
+        "file": "data/v2/app/events/adex-2025.json",
+        "sha256": "a9aa282423ea100d22e9f9166f28568e89fd8cda2a2eab468e20dd9a0dc36550",
+        "distMatches": true
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "file": "data/v2/app/events/eurosatory-2026.json",
+        "sha256": "fad4b6c5a2f4ec0f26e3cce2d4c65bcc45039855f7f980188f69ab3843e071c8",
+        "distMatches": true
+      },
+      {
+        "eventId": "dsei-2025",
+        "file": "data/v2/app/events/dsei-2025.json",
+        "sha256": "3335b115229a3ca88af031353b49c21453f54c995a5f8d6b4141a2953194d819",
+        "distMatches": true
+      },
+      {
+        "eventId": "idex-2025",
+        "file": "data/v2/app/events/idex-2025.json",
+        "sha256": "251137cee1ebd6a9c336422b59128b59438242a0a8a8e88742305c0b3ba64d43",
+        "distMatches": true
+      },
+      {
+        "eventId": "saha-2026",
+        "file": "data/v2/app/events/saha-2026.json",
+        "sha256": "6073b77975b19e55556515c9a7731dd6e71548d7b99ab6e78d53b29b0943964b",
+        "distMatches": true
+      }
+    ],
+    "checks": {
+      "total": 47,
+      "passed": 47,
+      "failed": []
+    },
+    "sourceNoteFix": {
+      "status": "resolved",
+      "records": [
+        {
+          "sourceId": "source-fb6f73bb9a0029ec4e92",
+          "containsLimitations": true,
+          "containsNote": true,
+          "uniqueLines": true,
+          "note": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.\nFlickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+        },
+        {
+          "sourceId": "source-582ecbbd300032869839",
+          "containsLimitations": true,
+          "containsNote": true,
+          "uniqueLines": true,
+          "note": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.\nFlickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+        },
+        {
+          "sourceId": "source-b66d2bc5911618547f33",
+          "containsLimitations": true,
+          "containsNote": true,
+          "uniqueLines": true,
+          "note": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.\nFlickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+        },
+        {
+          "sourceId": "source-10f38f26217ddade000c",
+          "containsLimitations": true,
+          "containsNote": true,
+          "uniqueLines": true,
+          "note": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.\nFlickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+        }
+      ],
+      "codeReview": "sourceRecord now splits both fields into trimmed unique lines before appendSource merge. Existing title/URL collision guards remain unchanged."
+    },
+    "referencePhotos": {
+      "count": 2,
+      "newUniqueDownloads": 0,
+      "newAssets": 0,
+      "currentEventPhotoAdditions": 0,
+      "records": [
+        {
+          "id": "photo-5856f0c21570a730032d",
+          "productIds": [
+            "pars-alpha"
+          ],
+          "src": "assets/photos/pars-alpha-00.webp",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:FNSS_-_PARS_ALPHA_8x8.jpg",
+          "sourceDate": "2024-10-26",
+          "caption": "PARS ALPHA·TEBER-II — SAHA EXPO 2024 참고사진",
+          "variantNote": "촬영일은 사진 워터마크 기준이며 업로드는 2025-01-07이다. SAHA 2026 현장·최종 전시형을 확인하는 사진이 아니다. 웹 표시용 1600px 축소·WebP 변환본. 자르기·합성·형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC0 1.0 Universal",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "basis": "2026-11-16 Commons 원문 CC0·촬영자·픽셀을 재대조했다. 현장 출품 근거와 구분한 제품 참고사진이다."
+          },
+          "bytesUnchanged": true,
+          "distBytesUnchanged": true,
+          "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+          "companyOwns": true
+        },
+        {
+          "id": "photo-6236edcf1728b4f16107",
+          "productIds": [
+            "pars-alpha"
+          ],
+          "src": "assets/photos/pars-alpha-11.webp",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARS_ALPHA_8x8_Taktik_Tekerlekli_Z%C4%B1rhl%C4%B1_Muharebe_Arac%C4%B1.jpg",
+          "sourceDate": "2023-12-06",
+          "caption": "PARS ALPHA 8×8 — 일반 제품 참고사진",
+          "variantNote": "촬영일은 원문 카메라 메타데이터이며 장소·행사는 미확인이다. 업로드는 2024-09-16이다. TEBER-II 표지는 판독하지 못했다. SAHA 2026 현장·최종 전시형을 확인하는 사진이 아니다. 웹 표시용 1600px 축소·WebP 변환본. 자르기·합성·형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC0 1.0 Universal",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "basis": "2026-11-16 Commons 원문 CC0·촬영자·픽셀을 재대조했다. 현장 출품 근거와 구분한 제품 참고사진이다."
+          },
+          "bytesUnchanged": true,
+          "distBytesUnchanged": true,
+          "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+          "companyOwns": true
+        }
+      ],
+      "explicitCanonicalMapping": [
+        {
+          "photoId": "photo-5856f0c21570a730032d",
+          "before": [],
+          "after": [
+            "pars-alpha"
+          ]
+        },
+        {
+          "photoId": "photo-6236edcf1728b4f16107",
+          "before": [],
+          "after": [
+            "pars-alpha"
+          ]
+        }
+      ],
+      "sourceReview": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:FNSS_-_PARS_ALPHA_8x8.jpg",
+          "checked": "Commons CC0, Ciko1213, SAHA Expo 2024 caption and 2025-01-07 upload. Local pixels show 26 Eki 2024 13:10 watermark and PARS ALPHA/TEBER-II markings."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:PARS_ALPHA_8x8_Taktik_Tekerlekli_Z%C4%B1rhl%C4%B1_Muharebe_Arac%C4%B1.jpg",
+          "checked": "Commons CC0, RainforestGuardian, 2023-12-06 camera timestamp and 2024-09-16 upload. Local pixels inspected; no event/place inference and no readable TEBER-II label claimed."
+        }
+      ],
+      "sourceAndCatalogRecordsSynchronized": true,
+      "assetChanges": []
+    },
+    "galleryAndReport": {
+      "viewerChecks": [
+        {
+          "photoId": "photo-5856f0c21570a730032d",
+          "productId": "pars-alpha",
+          "selectedId": "photo-5856f0c21570a730032d",
+          "photoIds": [
+            "photo-5856f0c21570a730032d",
+            "photo-6236edcf1728b4f16107"
+          ]
+        },
+        {
+          "photoId": "photo-6236edcf1728b4f16107",
+          "productId": "pars-alpha",
+          "selectedId": "photo-6236edcf1728b4f16107",
+          "photoIds": [
+            "photo-5856f0c21570a730032d",
+            "photo-6236edcf1728b4f16107"
+          ]
+        }
+      ],
+      "reportModelChanges": [
+        {
+          "eventId": "adex-2025",
+          "changedPaths": []
+        },
+        {
+          "eventId": "eurosatory-2026",
+          "changedPaths": []
+        },
+        {
+          "eventId": "dsei-2025",
+          "changedPaths": []
+        },
+        {
+          "eventId": "idex-2025",
+          "changedPaths": []
+        },
+        {
+          "eventId": "saha-2026",
+          "changedPaths": [
+            {
+              "path": "/limitations/0",
+              "before": "현재 세 사례 모두 표시·재사용 조건까지 확인한 해당 회차 사진이 없다.",
+              "after": "세 사례 모두 해당 회차 표시 가능한 사진이 없다. PARS ALPHA는 2024 참고사진을 함께 제시한다."
+            },
+            {
+              "path": "/limitations/2",
+              "before": "TULPAR의 다른 포탑형, 일반 PARS ALPHA 사진을 이번 전시형 사진으로 대체하지 않는다.",
+              "after": "참고사진은 2026 전시 형상·개선·성능의 증거가 아니다."
+            }
+          ]
+        }
+      ],
+      "renderedOutput": [
+        {
+          "eventId": "adex-2025",
+          "screenImages": 3,
+          "printImages": 3,
+          "printSourceNotices": 0,
+          "screenReferenceLabels": 0,
+          "printReferenceLabels": 0,
+          "screenSha256": "bcc0a84a96b93b5128f47d206ce4223b84df653821fa0d9f925f48b3c63b4fe9",
+          "printSha256": "7a96559772bb7005d863cc028cb1552e999b6f8b91d7e2ceab8638180b752ca0"
+        },
+        {
+          "eventId": "eurosatory-2026",
+          "screenImages": 3,
+          "printImages": 3,
+          "printSourceNotices": 0,
+          "screenReferenceLabels": 0,
+          "printReferenceLabels": 0,
+          "screenSha256": "61ba216647e9a74b7cc1f1b2f7ea3a4285784c33c8e1bb8d835df79c66a78943",
+          "printSha256": "6612d0bd065dbcaa02ab384809ce6b7d38ee2e6892857ff9cf00df5affe3e8df"
+        },
+        {
+          "eventId": "dsei-2025",
+          "screenImages": 3,
+          "printImages": 2,
+          "printSourceNotices": 1,
+          "screenReferenceLabels": 0,
+          "printReferenceLabels": 0,
+          "screenSha256": "1ee34d139de666f26dc00f7dde49404ebb0c01c402b6b65cbcaca47fd89e96d2",
+          "printSha256": "1360a101e9fe1849c2214096a2cc35637333f31d07aab95f48a6b4f805890340"
+        },
+        {
+          "eventId": "idex-2025",
+          "screenImages": 3,
+          "printImages": 3,
+          "printSourceNotices": 0,
+          "screenReferenceLabels": 0,
+          "printReferenceLabels": 0,
+          "screenSha256": "04607db5e6f1cd9c8a079a71f6d0a352f415af2ff8a5afe70ef20117b7e7e162",
+          "printSha256": "bf19877c5aae79a83ea7e0ef3aa3a7534df3714ef5cfafdfbcf6763cb2fd5876"
+        },
+        {
+          "eventId": "saha-2026",
+          "screenImages": 1,
+          "printImages": 1,
+          "printSourceNotices": 0,
+          "screenReferenceLabels": 1,
+          "printReferenceLabels": 1,
+          "screenSha256": "3007f4bd6a990416569b6a01ce43bd8845a21492a4ce2098ecded405848c1a02",
+          "printSha256": "eba9c6f4d3b8aca326c7738665318c1d7f3677c35af7f921bb57dfb228d32ca1"
+        }
+      ],
+      "photoGapPreserved": true,
+      "themePhotoIdsUnset": true,
+      "wrongCompanyAndProductExcluded": true,
+      "notEventEvidence": true
+    },
+    "publicScan": {
+      "result": "PASS",
+      "targets": [
+        "scripts/compile-v2-data.mjs",
+        "scripts/compile-v2-app.mjs",
+        "scripts/research-v2.mjs",
+        "scripts/validate-v2-data.mjs",
+        "scripts/prepare-redesign-content.mjs",
+        "data",
+        "src/v2",
+        "dist"
+      ],
+      "patternSource": "docs/evidence/REDESIGN_PUBLIC_AUDIT.json#prohibitedPatterns",
+      "patterns": [
+        {
+          "id": "retired_camel_field",
+          "source": "workConnection"
+        },
+        {
+          "id": "retired_snake_predicate",
+          "source": "work_connection"
+        },
+        {
+          "id": "first_person_company_ko",
+          "source": "당사|우리\\s*회사"
+        },
+        {
+          "id": "internal_work_relation_ko",
+          "source": "업무\\s*(?:연결|관련|연계)|체계개발과의\\s*연결"
+        },
+        {
+          "id": "internal_work_relation_en",
+          "source": "Rotem\\s+work\\s+connection|our\\s+company|our\\s+work"
+        }
+      ],
+      "textFiles": 82,
+      "hits": [],
+      "binaryOCR": false,
+      "excluded": [
+        "docs research/evidence",
+        "tests",
+        "historical Git objects"
+      ],
+      "manifestSha256": "a07e182d846d7478d3c5f79dbb9a5b37f33e5d158c7448f6544c2817f5b4cf40"
+    },
+    "validationLogs": [
+      {
+        "file": ".local-next-build-final.log",
+        "sha256": "4c10517c4ccef402cce37337e9844e6ec6b6a1a41fc4450f38a43749fa117d47",
+        "bytes": 605,
+        "tail": "\n> exhibition-intelligence@2.0.0-stage.4 build\n> node scripts/build.mjs\n\nCatalog: 14 equipment, 53 photographs, 5 exhibitions.\nReview bundle: 3 cases, 11 photographs, 9 visual observations.\nEvent reports: 5 exhibitions, 31 equipment entries.\nV2 registry: 3587 organization identities, 3679 population rows, 32 map regions.\nV2 app shards: adex-2025 375 organizations / 29 cases; eurosatory-2026 64 organizations / 0 cases; dsei-2025 1743 organizations / 1 cases; idex-2025 36 organizations / 1 cases; saha-2026 1467 organizations / 0 cases\nBuilt FIELDNOTE 2.0.0-stage.4. No deployment performed.\n",
+        "executedByAudit": false
+      },
+      {
+        "file": ".local-next-check-final.log",
+        "sha256": "d4d488146417874fa04fb97914ab67a539dba79a28b8935b2699d49fb41183e2",
+        "bytes": 22363,
+        "tail": "✔ research retains product-level photo links and separate image angles from the same article (1.5593ms)\n✔ hall-only claims remain observations without fabricating a shared null-code booth (0.6568ms)\n✔ shared pavilion photos keep product ownership and do not imply company staff attendance (2.9195ms)\n✔ research cannot silently duplicate or replace a different editorial identity (0.4263ms)\n✔ research loader resolves explicit stage3 inheritance and ignores population notes without cases (19.4342ms)\nℹ tests 209\nℹ suites 0\nℹ pass 209\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 3692.681\n",
+        "executedByAudit": false
+      }
+    ],
+    "counts": {
+      "products": 131,
+      "narratives": 64,
+      "sections": 320,
+      "currentEventCoverageUnchanged": {
+        "eventCompanyRecords": 3685,
+        "eventProductRecords": 131,
+        "authoredProducts": 64,
+        "narrativeSections": 320,
+        "productsWithDisplayableCurrentEventPhotos": 29,
+        "productPhotoAssociations": 52,
+        "uniqueDisplayableCurrentEventPhotos": 49,
+        "authoredProductsWithoutDisplayableCurrentEventPhotos": 35
+      },
+      "additionalReferenceOnlyCoverage": {
+        "productId": "pars-alpha",
+        "narrativeExists": false,
+        "referencePhotoCount": 2
+      }
+    },
+    "noFullBuildOrCheckRerun": true,
+    "operationalEdits": false,
+    "pdfEffect": {
+      "dsei": "Print now substitutes one remote Flickr image with credited source notice; needs updated saved PDF QA.",
+      "saha": "Report now shows one local CC0 reference image and two revised limitations; needs updated saved PDF QA.",
+      "otherThree": "Report models remain unchanged; existing PDFs retained pending parent final judgment."
+    },
+    "commands": [
+      {
+        "executable": "node",
+        "arguments": [
+          "--input-type=module"
+        ],
+        "stdinDescription": "Read JSON/hash metadata; import pure rendering/selection functions for actual data; evaluate ownership exclusions; scan allowlisted public text. No build/test invoked."
+      }
+    ]
+  },
+  "finalDelta": {
+    "asOf": "2026-11-16",
+    "status": "PASS",
+    "scope": "Final narrow audit after PARS narrative, one CC0 COBRA II reference original and report/thumbnail copy changes; preserves prior snapshots as historical evidence.",
+    "currentSnapshots": [
+      {
+        "eventId": "adex-2025",
+        "file": "data/v2/app/events/adex-2025.json",
+        "sha256": "a9aa282423ea100d22e9f9166f28568e89fd8cda2a2eab468e20dd9a0dc36550",
+        "distSha256": "a9aa282423ea100d22e9f9166f28568e89fd8cda2a2eab468e20dd9a0dc36550"
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "file": "data/v2/app/events/eurosatory-2026.json",
+        "sha256": "fad4b6c5a2f4ec0f26e3cce2d4c65bcc45039855f7f980188f69ab3843e071c8",
+        "distSha256": "fad4b6c5a2f4ec0f26e3cce2d4c65bcc45039855f7f980188f69ab3843e071c8"
+      },
+      {
+        "eventId": "dsei-2025",
+        "file": "data/v2/app/events/dsei-2025.json",
+        "sha256": "3335b115229a3ca88af031353b49c21453f54c995a5f8d6b4141a2953194d819",
+        "distSha256": "3335b115229a3ca88af031353b49c21453f54c995a5f8d6b4141a2953194d819"
+      },
+      {
+        "eventId": "idex-2025",
+        "file": "data/v2/app/events/idex-2025.json",
+        "sha256": "04c0c6250c9ca0adb9cbb792f6c43d9a7b2f6d6495fb16082ae8e9865209ef18",
+        "distSha256": "04c0c6250c9ca0adb9cbb792f6c43d9a7b2f6d6495fb16082ae8e9865209ef18"
+      },
+      {
+        "eventId": "saha-2026",
+        "file": "data/v2/app/events/saha-2026.json",
+        "sha256": "11d1f1b08bdba9e16dfaff36d376c743950f07a3cae98a55ea06acb05b5cfe89",
+        "distSha256": "11d1f1b08bdba9e16dfaff36d376c743950f07a3cae98a55ea06acb05b5cfe89"
+      }
+    ],
+    "checks": {
+      "total": 45,
+      "passed": 45,
+      "failed": []
+    },
+    "counts": {
+      "eventCompanyRecords": 3685,
+      "eventProductRecords": 131,
+      "authoredProducts": 65,
+      "narrativeSections": 325,
+      "productsWithDisplayableCurrentEventPhotos": 29,
+      "uniqueDisplayableCurrentEventPhotos": 49,
+      "currentEventPhotoAssociations": 52,
+      "authoredProductsWithoutDisplayableCurrentEventPhotos": 36,
+      "authoredProductsWithAnyDisplayableProductPhotos": 30,
+      "authoredProductsWithoutAnyDisplayableProductPhotos": 35,
+      "uniqueReferencePhotosUsedByAuthoredProducts": 2,
+      "newUniqueAssetFiles": 2,
+      "newEventAssetFiles": 1,
+      "newReferenceAssetFiles": 1,
+      "existingAssetsPreserved": 85,
+      "totalSourceAssetFiles": 87
+    },
+    "parsReview": {
+      "result": "PASS",
+      "primarySource": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+      "directRead": "Company-signed 2026-07-27 retrospective paragraph distinguishes PARS ALPHA future delivery from already-completed PARS SCOUT delivery and records PARS ALPHA plus TEBER-II exhibition. Draft preserves that distinction.",
+      "source2024DirectRead": "Timeout confirmed again. Existing official indexed text/earlier evidence is used only as pre-event plan; direct successful reread is not claimed.",
+      "overviewClaimType": "general_product",
+      "developmentClaimType": "official_plan",
+      "eventEvidenceCount": 1,
+      "productStatus": "unconfirmed",
+      "referencePhotoIdsStayOutsideNarrative": true,
+      "sharedPublicSourceBudgets": [
+        {
+          "sourceId": "report-saha-fnss-2026-retrospective",
+          "url": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+          "uniquePublicWords": 192,
+          "includes": "Narrative cited body/form/limitations, related report theme, report interpretation/limitations, generated merged source.note.",
+          "excludes": "IDs, URL/title/byline/date attribution metadata and original report comparison methodology.",
+          "sentences": [
+            "제조사는 PARS ALPHA·TEBER-II 원격통제 포탑 조합을 소개한다.",
+            "작동 여부는 미확인이다.",
+            "제조사 회고에 SAHA 2026 전시가 기록됐다.",
+            "해당 회차 표시 가능한 현장사진은 미확보다.",
+            "2026 회고의 튀르키예 육군 인도는 향후 계획이다.",
+            "완료 근거로 읽지 않는다.",
+            "편집 해석: 2024 예고와 2026 회고에 같은 조합이 이어진다.",
+            "동일 차량·세부 사양이나 성능 향상을 뜻하지 않는다.",
+            "제조사 회고에 기록된 PARS ALPHA·TEBER-II 구성",
+            "제조사 단일 기록이다.",
+            "기존 상태를 독립 현장 확인으로 승격하지 않는다.",
+            "두 CC0 사진은 2024·일반 제품 참고자료다.",
+            "2026 전시 형상·인도·성능의 증거로 사용하지 않는다.",
+            "2024 예고와 2026 회고에 PARS ALPHA·TEBER-II가 등장한다.",
+            "세부 형상까지 같다는 근거는 없다.",
+            "PARS ALPHA·TEBER-II 예고",
+            "동일 명칭 조합의 전시 회고",
+            "전시 구성에 따른 해석: 새로운 탑재 조합과 기존 조합의 재등장이 함께 보인다.",
+            "이번 사례만으로 행사 전체의 기술 진보나 군 채택 성과를 판단하지 않는다.",
+            "세 사례 모두 해당 회차 표시 가능한 사진이 없다.",
+            "PARS ALPHA는 2024 참고사진을 함께 제시한다.",
+            "제조사 설명과 행사 매체의 재인용을 독립 성능 검증으로 집계하지 않는다.",
+            "참고사진은 2026 전시 형상·개선·성능의 증거가 아니다.",
+            "회사 명의 공개 회고 본문과 2026-07-27 발행일을 다시 열람했다.",
+            "전시 기록과 향후 인도 표현을 구분하며 독립 검증으로 집계하지 않는다.",
+            "행사 후 제조사 회고에서 PARS ALPHA·TEBER-II 전시를 명시한다.",
+            "FNSS 사이트 뉴스레터 주소의 직접 열람 실패 후 회사 명의 공개 게시 본문을 확인했다."
+          ]
+        },
+        {
+          "sourceId": "source-a07c2b1dcf9e0b87e318",
+          "url": "https://www.fnss.com.tr/en/products/pars-alpha-8x8-new-generation-afv",
+          "uniquePublicWords": 113,
+          "includes": "Narrative cited body/form/limitations, related report theme, report interpretation/limitations, generated merged source.note.",
+          "excludes": "IDs, URL/title/byline/date attribution metadata and original report comparison methodology.",
+          "sentences": [
+            "FNSS의 8×8 차륜형 장갑전투차량이다.",
+            "일반 제품 소개와 해당 회차 전시 구성을 구분한다.",
+            "제조사 회고에 기록된 PARS ALPHA·TEBER-II 구성",
+            "제조사 단일 기록이다.",
+            "기존 상태를 독립 현장 확인으로 승격하지 않는다.",
+            "두 CC0 사진은 2024·일반 제품 참고자료다.",
+            "2026 전시 형상·인도·성능의 증거로 사용하지 않는다.",
+            "전시 구성에 따른 해석: 새로운 탑재 조합과 기존 조합의 재등장이 함께 보인다.",
+            "이번 사례만으로 행사 전체의 기술 진보나 군 채택 성과를 판단하지 않는다.",
+            "세 사례 모두 해당 회차 표시 가능한 사진이 없다.",
+            "PARS ALPHA는 2024 참고사진을 함께 제시한다.",
+            "제조사 설명과 행사 매체의 재인용을 독립 성능 검증으로 집계하지 않는다.",
+            "참고사진은 2026 전시 형상·개선·성능의 증거가 아니다.",
+            "일반 제품 분류만 사용한다.",
+            "이번 직접 열람은 timeout이며 공식 검색 수록 본문을 대조했다.",
+            "해당 회차의 사양·출품 근거로 승격하지 않는다."
+          ]
+        },
+        {
+          "sourceId": "report-saha-fnss-2024",
+          "url": "https://www.fnss.com.tr/en/media/press-releases/fnss-showcases-pars-alpha-8x8-and-marine-assault-vehicle-mav-saha-expo-2024-1833",
+          "uniquePublicWords": 163,
+          "includes": "Narrative cited body/form/limitations, related report theme, report interpretation/limitations, generated merged source.note.",
+          "excludes": "IDs, URL/title/byline/date attribution metadata and original report comparison methodology.",
+          "sentences": [
+            "편집 해석: 2024 예고와 2026 회고에 같은 조합이 이어진다.",
+            "동일 차량·세부 사양이나 성능 향상을 뜻하지 않는다.",
+            "제조사 회고에 기록된 PARS ALPHA·TEBER-II 구성",
+            "제조사 단일 기록이다.",
+            "기존 상태를 독립 현장 확인으로 승격하지 않는다.",
+            "두 CC0 사진은 2024·일반 제품 참고자료다.",
+            "2026 전시 형상·인도·성능의 증거로 사용하지 않는다.",
+            "2024 예고와 2026 회고에 PARS ALPHA·TEBER-II가 등장한다.",
+            "세부 형상까지 같다는 근거는 없다.",
+            "PARS ALPHA·TEBER-II 예고",
+            "동일 명칭 조합의 전시 회고",
+            "전시 구성에 따른 해석: 새로운 탑재 조합과 기존 조합의 재등장이 함께 보인다.",
+            "이번 사례만으로 행사 전체의 기술 진보나 군 채택 성과를 판단하지 않는다.",
+            "세 사례 모두 해당 회차 표시 가능한 사진이 없다.",
+            "PARS ALPHA는 2024 참고사진을 함께 제시한다.",
+            "제조사 설명과 행사 매체의 재인용을 독립 성능 검증으로 집계하지 않는다.",
+            "참고사진은 2026 전시 형상·개선·성능의 증거가 아니다.",
+            "2024-10-18 개막 전 출품 예고.",
+            "직접 열람은 재시도에서도 timeout이며 공식 검색 수록 본문의 PARS ALPHA·TEBER-II 구성을 재확인했다.",
+            "현장 완료 기록과 구분한다.",
+            "개막 전 출품 예고.",
+            "이번 조회에서 직접 열람은 timeout/502였으며 검색에 수록된 공식 본문과 동일 공식 PDF 발췌로 구성을 확인했다.",
+            "실제 전시·성능 검증으로 취급하지 않는다."
+          ]
+        }
+      ]
+    },
+    "cobraReview": {
+      "result": "PASS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otokar_Cobra_2.jpg",
+      "rights": "Commons page directly confirms individual-photo CC0 1.0 and Janissarywiki.",
+      "pixelReview": "Local 800x600 original inspected. General four-wheel COBRA II display with upper turret/door visible; no DASAL UAV station identified. Partial framing/glare preserved.",
+      "dateConflictPreserved": true,
+      "originalSHA256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5",
+      "originalBytes": 299179,
+      "newDiscovery": false,
+      "newLocalAsset": true,
+      "photoMappings": [
+        {
+          "eventId": "idex-2025",
+          "photoId": "photo-055d06685c584af0cb05",
+          "productIds": [
+            "cobra-ii"
+          ],
+          "context": "reference",
+          "sourceDate": "2013",
+          "rights": {
+            "status": "reusable",
+            "license": "CC0 1.0 Universal",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "basis": "Commons 개별 파일의 CC0 1.0·촬영자·픽셀·원본 해시 확인. 정확한 날짜 충돌은 보존한다."
+          },
+          "variantNote": "일반 COBRA II 참고사진이며 DASAL UAV 구성이나 IDEX 2025·SAHA 2026 현장사진이 아니다. 원문 날짜 2013-05-10과 카메라 날짜 2013-05-07이 상충한다. 원본 JPEG 무변환.",
+          "owners": [
+            "org-7b846c15951b021bf59b"
+          ],
+          "visibleInBaseProductGallery": false,
+          "currentEventPhotoTakesPriority": true
+        },
+        {
+          "eventId": "saha-2026",
+          "photoId": "photo-055d06685c584af0cb05",
+          "productIds": [
+            "cobra-ii"
+          ],
+          "context": "reference",
+          "sourceDate": "2013",
+          "rights": {
+            "status": "reusable",
+            "license": "CC0 1.0 Universal",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "basis": "Commons 개별 파일의 CC0 1.0·촬영자·픽셀·원본 해시 확인. 정확한 날짜 충돌은 보존한다."
+          },
+          "variantNote": "일반 COBRA II 참고사진이며 DASAL UAV 구성이나 IDEX 2025·SAHA 2026 현장사진이 아니다. 원문 날짜 2013-05-10과 카메라 날짜 2013-05-07이 상충한다. 원본 JPEG 무변환.",
+          "owners": [
+            "org-7b846c15951b021bf59b"
+          ],
+          "visibleInBaseProductGallery": true,
+          "currentEventPhotoTakesPriority": false
+        }
+      ]
+    },
+    "assets": {
+      "existingChanges": [],
+      "newAssets": [
+        {
+          "file": "assets/photos/cobra-ii-idef2013-reference.jpg",
+          "bytes": 299179,
+          "sha256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5"
+        },
+        {
+          "file": "assets/photos/idex2025-libelle-event.jpg",
+          "bytes": 447385,
+          "sha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a"
+        }
+      ],
+      "total": 87
+    },
+    "reportAndPresentation": {
+      "sahaModelChanges": [
+        {
+          "path": "/themes/2/summary",
+          "before": "PARS ALPHA·TEBER-II는 2024 사전 발표와 2026 제조사 회고에 모두 등장한다. 같은 명칭만으로 세부 형상의 동일성은 확정할 수 없다.",
+          "after": "2024 예고와 2026 회고에 PARS ALPHA·TEBER-II가 등장한다. 세부 형상까지 같다는 근거는 없다."
+        },
+        {
+          "path": "/limitations/0",
+          "before": "현재 세 사례 모두 표시·재사용 조건까지 확인한 해당 회차 사진이 없다.",
+          "after": "세 사례 모두 해당 회차 표시 가능한 사진이 없다. PARS ALPHA는 2024 참고사진을 함께 제시한다."
+        },
+        {
+          "path": "/limitations/2",
+          "before": "TULPAR의 다른 포탑형, 일반 PARS ALPHA 사진을 이번 전시형 사진으로 대체하지 않는다.",
+          "after": "참고사진은 2026 전시 형상·개선·성능의 증거가 아니다."
+        }
+      ],
+      "headingRule": "word-break:keep-all; overflow-wrap:anywhere",
+      "thumbnailRule": "Visible label uses text after em-dash; full caption retained in aria-label and img alt.",
+      "actualBrowserStatus": "Parent final browser verification in progress; this audit uses data/pure markup and local image inspection."
+    },
+    "publicScan": {
+      "status": "PASS",
+      "textFileCount": 82,
+      "hits": [],
+      "targets": [
+        "scripts/compile-v2-data.mjs",
+        "scripts/compile-v2-app.mjs",
+        "scripts/research-v2.mjs",
+        "scripts/validate-v2-data.mjs",
+        "scripts/prepare-redesign-content.mjs",
+        "data",
+        "src/v2",
+        "dist"
+      ],
+      "patternsSource": "docs/evidence/REDESIGN_PUBLIC_AUDIT.json",
+      "binaryOCR": false
+    },
+    "pdf": {
+      "currentDseiAndSahaResaved": false,
+      "blockedReasonReportedByParent": "Windows print dialog was readable but input failed (missing geometry / no effect). User cancelled and normal webapp DOM was observed. New saved PDF files: 0. Not an automatic approval rejection.",
+      "previousFilePreservation": [
+        {
+          "eventId": "adex-2025",
+          "sha256": "2283ce2375a7d872766d7236e7b4501d97994260dc883a694e7d0a6a4909265c",
+          "preservedPaths": [
+            "output/pdf/final/fieldnote-adex-2025.pdf"
+          ]
+        },
+        {
+          "eventId": "eurosatory-2026",
+          "sha256": "bdc5b54a3b109c4dc9050213ee07002e3e678991302765290a0a2a3edba71ada",
+          "preservedPaths": [
+            "output/pdf/final/fieldnote-eurosatory-2026.pdf"
+          ]
+        },
+        {
+          "eventId": "dsei-2025",
+          "sha256": "fa80af390e6ffbcfa98690a7864f12a7bfbf82f7b3e9b0595c18860a8e890fc1",
+          "preservedPaths": [
+            "output/pdf/final/fieldnote-dsei-2025.pdf",
+            "output/pdf/history/2026-11-16-before-photo-rights/fieldnote-dsei-2025.pdf"
+          ]
+        },
+        {
+          "eventId": "idex-2025",
+          "sha256": "9b53ddc72d18b2940a549bbb0a7c3a6178dc8bd0bb9c0d9ba07bd6a68bbac501",
+          "preservedPaths": [
+            "output/pdf/final/fieldnote-idex-2025.pdf"
+          ]
+        },
+        {
+          "eventId": "saha-2026",
+          "sha256": "f1a27444dd294b1f2a36b157e26863fee46870a63c69daedbce6d9c3e50a0e91",
+          "preservedPaths": [
+            "output/pdf/fieldnote-saha-2026.pdf",
+            "output/pdf/final/fieldnote-saha-2026.pdf",
+            "output/pdf/history/2026-11-16-before-photo-rights/fieldnote-saha-2026.pdf"
+          ]
+        }
+      ],
+      "claim": "Previous PDF files are historical validation evidence, not current-output verification. No new PDF completion is claimed.",
+      "priorReportedReason": "Windows native app-control permission pending; changed current PDFs not yet saved.",
+      "currentReasonUpdatedBy": "root after user reply and UI restoration, corroborated by MAIN/BROWSER evidence"
+    },
+    "validationLogs": [
+      {
+        "file": ".local-next-build-final.log",
+        "sha256": "fb9c6d5c0a664487e881db6044d57ccd8739f2308f85139c297ad9b848b0c61d",
+        "tail": "> exhibition-intelligence@2.0.0-stage.4 build\n> node scripts/build.mjs\n\nCatalog: 14 equipment, 54 photographs, 5 exhibitions.\nReview bundle: 3 cases, 11 photographs, 9 visual observations.\nEvent reports: 5 exhibitions, 31 equipment entries.\nV2 registry: 3587 organization identities, 3679 population rows, 32 map regions.\nV2 app shards: adex-2025 375 organizations / 29 cases; eurosatory-2026 64 organizations / 0 cases; dsei-2025 1743 organizations / 1 cases; idex-2025 36 organizations / 1 cases; saha-2026 1467 organizations / 0 cases\nBuilt FIELDNOTE 2.0.0-stage.4. No deployment performed.\n",
+        "runByAudit": false
+      },
+      {
+        "file": ".local-next-check-final.log",
+        "sha256": "8cd192765adfa0a1de76dcf3d0b86ab4390850d794d6456de62d960f76b9b27c",
+        "tail": "✔ research cannot silently duplicate or replace a different editorial identity (0.4861ms)\n✔ research loader resolves explicit stage3 inheritance and ignores population notes without cases (18.2645ms)\nℹ tests 209\nℹ suites 0\nℹ pass 209\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 3876.9274\n",
+        "runByAudit": false,
+        "updatedBy": "root: final log read, independently checked by eurosatory_report_resume; no test rerun by auditor"
+      }
+    ],
+    "fullBuildOrTestsRerun": false,
+    "operationalEdits": false,
+    "previousCheckLogObservation": {
+      "file": ".local-next-check-final.log",
+      "sha256": "ac9558b1e7b59bab5e76034361b961aaa424cc8e27a06cc8897d1c297a404dd3",
+      "tail": "✔ research loader resolves explicit stage3 inheritance and ignores population notes without cases (21.5902ms)\nℹ tests 209\nℹ suites 0\nℹ pass 209\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 3869.3357\n",
+      "runByAudit": false
+    }
+  }
+}

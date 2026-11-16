@@ -1,0 +1,1024 @@
+{
+  "asOf": "2026-11-16",
+  "narratives": [
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-04b57642e09c33ee22c5",
+      "productId": "adex25-mnc-redback-isu",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "주행 중 노면의 충격·진동이 차체에 전달되는 것을 줄이는 현수장치다. 이 용도는 제조사의 일반 현수장치 안내를 따른다.",
+          "sourceIds": [
+            "mnc-suspension-general"
+          ],
+          "claimType": "general_product"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "제조사는 ISU를 암 내장형 유기압 현수장치로 분류한다. ADEX 전시형의 치수·하중 조건은 별도로 확인되지 않았다.",
+          "sourceIds": [
+            "mnc-suspension-general"
+          ],
+          "claimType": "general_product"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "회사는 Redback용 ISU를 포·포탑 구동장치, 서보밸브, 항공기용 유압펌프와 함께 전시했다고 밝혔다. 부스 전경만으로 개별 ISU 형상은 식별되지 않는다.",
+          "sourceIds": [
+            "source-833c02ee574f6ce76cc0",
+            "source-716dc61175cc2bdc0ab1"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "당시 회사는 유럽시장 진출, 부품 직수출과 기술협력 확대를 추진한다고 밝혔다. ISU 후속형의 개발 일정은 미확인이다.",
+          "sourceIds": [
+            "source-833c02ee574f6ce76cc0"
+          ],
+          "claimType": "official_plan"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: Redback 적용 사례와 다른 구동 부품을 함께 제시한 구성은, 다양한 부품을 대상으로 직접 수출과 해외 협력 기회를 넓히려는 방향으로 읽힌다.",
+          "sourceIds": [
+            "source-833c02ee574f6ce76cc0"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-833c02ee574f6ce76cc0",
+        "source-716dc61175cc2bdc0ab1"
+      ],
+      "generalSourceIds": [
+        "mnc-suspension-general"
+      ],
+      "photoIds": [],
+      "form": "출품 발표 · 개별 ISU 전시형 미식별",
+      "limitations": [
+        "부스 전경만으로 개별 ISU의 실물·모형 여부는 확인되지 않았다."
+      ],
+      "sources": [
+        {
+          "id": "source-833c02ee574f6ce76cc0",
+          "url": "https://www.mncsolution.com/kr/media-center/news/136?page=0&query=",
+          "title": "엠앤씨솔루션, 서울 ADEX 참가",
+          "publisher": "MNC솔루션 / 뉴시스 재전재",
+          "publishedAt": "2025-10-21",
+          "eventEditionId": "adex-2025",
+          "independence": "same_origin_republication",
+          "limitations": "회사 발표를 인용한 뉴시스 기사의 제조사 재게시다. 출품 발표와 회사의 당시 계획 범위이며 독립 시험·실물 식별 근거가 아니다."
+        },
+        {
+          "id": "source-716dc61175cc2bdc0ab1",
+          "url": "https://ir.newspim.com/news/view/20251021000067",
+          "title": "엠앤씨솔루션, 서울 ADEX 2025 참가",
+          "publisher": "뉴스핌 / 이나영",
+          "publishedAt": "2025-10-21",
+          "eventEditionId": "adex-2025",
+          "independence": "same_origin_republication",
+          "limitations": "동일 회사 기원의 제공 사진과 발표다. 개별 ISU 표찰이 판독되지 않아 회사 부스 맥락만 확인한다."
+        },
+        {
+          "id": "mnc-suspension-general",
+          "url": "https://www.mncsolution.com/kr/products/defense/suspension",
+          "title": "Suspension — 방위산업용 부품 일반 안내",
+          "publisher": "MNC솔루션",
+          "publishedAt": null,
+          "eventEditionId": null,
+          "independence": "primary_single_origin",
+          "limitations": "2026-11-16 열람한 일반 제품 자료다. 현수장치의 용도·ISU 분류만 사용하며 ADEX 2025 개별 전시품의 사양으로 적용하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-73b2ea65b6e784cb4def",
+      "productId": "adex25-yeonhab-vic7dk",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "전투차량·장갑차량 안팎의 음성통화를 지원하는 상호통화기 세트다. 용도는 제조사의 일반 제품 안내를 따른다.",
+          "sourceIds": [
+            "yeonhab-vic7dk-general"
+          ],
+          "claimType": "general_product"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "일반 제품 안내는 내부통화·무선통화·전화통화와 경보신호를 제공하는 디지털형 통신장치로 설명한다. 전시형의 개별 구성은 미확인이다.",
+          "sourceIds": [
+            "yeonhab-vic7dk-general"
+          ],
+          "claimType": "general_product"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+          "sourceIds": [
+            "source-b39935309e4b1397b825"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "공식 연혁에는 2007년 9월 VIC-7DK 개발이 기록돼 있다. ADEX 2025에서 후속 개량형이나 새 개발 일정을 발표했는지는 확인되지 않았다.",
+          "sourceIds": [
+            "yeonhab-history-general"
+          ],
+          "claimType": "general_product"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "이번 출품만으로 별도의 시장 확대나 제품 전환 전략을 판단할 근거는 확보되지 않았다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-b39935309e4b1397b825"
+      ],
+      "generalSourceIds": [
+        "yeonhab-vic7dk-general",
+        "yeonhab-history-general"
+      ],
+      "photoIds": [],
+      "form": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+      "limitations": [
+        "개별 전시형·사진은 미확인이다."
+      ],
+      "sources": [
+        {
+          "id": "source-b39935309e4b1397b825",
+          "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "title": "K-방산의 품질 자신감, ADEX 2025에서 빛나다",
+          "publisher": "국방기술품질원 / 글 정소야",
+          "publishedAt": "2025-11-10",
+          "eventEditionId": "adex-2025",
+          "independence": "primary_single_origin",
+          "limitations": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다."
+        },
+        {
+          "id": "yeonhab-vic7dk-general",
+          "url": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=81",
+          "title": "통신장치 및 통신시스템 — VIC-7DK",
+          "publisher": "연합정밀",
+          "publishedAt": null,
+          "eventEditionId": null,
+          "independence": "primary_single_origin",
+          "limitations": "일반 제품 안내의 용도와 디지털형 통신장치 분류만 사용했다. ADEX 2025 전시형의 구성·검증 결과는 아니다."
+        },
+        {
+          "id": "yeonhab-history-general",
+          "url": "https://www.yeonhab.co.kr/about/history.jsp",
+          "title": "주요연혁 — 2007년 VIC-7DK 개발 기록",
+          "publisher": "연합정밀",
+          "publishedAt": null,
+          "eventEditionId": null,
+          "independence": "primary_single_origin",
+          "limitations": "공식 연혁의 과거 개발 기록이다. 2025 전시형의 변경 내용·후속 개발 계획과 구분한다."
+        }
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-ded72d6076eb66b253d7",
+      "productId": "adex25-pei-connector-samples",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "항공우주·방산 장비의 접속 요구에 대응하는 커넥터·백셸·케이블 및 맞춤 접속 솔루션을 소개했다. 특정 차량용 한 모델로 좁혀 확인한 전시는 아니다.",
+          "sourceIds": [
+            "source-c5323c9bf59a5c78a682"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "공식 후기 사진에는 상담 공간과 소형 샘플 진열이 보인다. 개별 품번·규격과 사전 발표의 제품 목록에 대응하는 샘플은 식별되지 않았다.",
+          "sourceIds": [
+            "source-55f6f547483a24ea6456"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "공식 현장 게시물과 후기 사진으로 참가를 확인했다. 현장 글의 부스번호 7-C11과 사전 발표의 18-20은 서로 달라 위치 확정에는 한계가 있다.",
+          "sourceIds": [
+            "source-c5323c9bf59a5c78a682",
+            "source-55f6f547483a24ea6456",
+            "source-db787ea8f2bb68f53382"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "현장 글은 PRECI-DIP와 공동 개발한 접속 솔루션의 소개를 언급한다. 개별 전시 샘플의 후속 개발·양산 일정은 공개되지 않았다.",
+          "sourceIds": [
+            "source-c5323c9bf59a5c78a682"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 아시아 고객 지원을 강조한 사전 발표와 파트너 동반 전시는, 여러 공급사의 부품과 맞춤 접속 제안을 묶어 고객 접점을 넓히는 방향으로 읽힌다.",
+          "sourceIds": [
+            "source-db787ea8f2bb68f53382",
+            "source-c5323c9bf59a5c78a682"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-c5323c9bf59a5c78a682",
+        "source-55f6f547483a24ea6456",
+        "source-db787ea8f2bb68f53382"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [],
+      "form": "공식 현장사진의 샘플 · 개별 모델 미식별",
+      "limitations": [
+        "현장 부스번호와 사전 발표 번호의 불일치는 해소되지 않았다.",
+        "접속 부품의 특정 지상차량 탑재·납품 여부는 확인되지 않았다."
+      ],
+      "sources": [
+        {
+          "id": "source-c5323c9bf59a5c78a682",
+          "url": "https://www.linkedin.com/posts/pei-genesis_connectors-backshells-cables-activity-7386215858634833920-QgTU",
+          "title": "PEI-GENESIS 공식 ADEX 2025 현장 게시물",
+          "publisher": "PEI-GENESIS 공식 LinkedIn",
+          "publishedAt": null,
+          "eventEditionId": "adex-2025",
+          "independence": "primary_single_origin",
+          "limitations": "업체 공식 현장 게시물이다. 게시일은 상대 표시로 확정하지 않았다. 부스번호 7-C11은 사전 발표의 18-20과 다르며 개별 샘플 모델은 판독되지 않는다."
+        },
+        {
+          "id": "source-55f6f547483a24ea6456",
+          "url": "https://www.linkedin.com/posts/pei-genesis_aerospace-defense-connectors-activity-7388798681489137664-Pidj",
+          "title": "PEI-GENESIS ADEX 2025 행사 후기·사진 6장",
+          "publisher": "PEI-GENESIS 공식 LinkedIn",
+          "publishedAt": null,
+          "eventEditionId": "adex-2025",
+          "independence": "primary_single_origin",
+          "limitations": "회사 자체 행사 후기 사진이다. 샘플 진열과 상담은 보이지만 품번·규격은 미식별이며 독립 현장사진으로 세지 않는다."
+        },
+        {
+          "id": "source-db787ea8f2bb68f53382",
+          "url": "https://www.prnewswire.com/apac/news-releases/pei-genesis-to-exhibit-at-seoul-adex-2025-in-korea-302572565.html",
+          "title": "PEI-GENESIS to Exhibit at Seoul ADEX 2025 in Korea",
+          "publisher": "PEI-GENESIS 제공 / PRNewswire",
+          "publishedAt": "2025-10-02",
+          "eventEditionId": "adex-2025",
+          "independence": "same_origin_republication",
+          "limitations": "회사 제공 사전 발표다. 아시아 항공우주·방산 고객 지원 방향과 발표 당시 부스번호만 사용하며 예고한 개별 모델의 실제 전시를 확정하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-1273e8383e083821a303",
+      "productId": "adex25-cm-metal-fiber",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "금속섬유라는 명패와 함께 제시한 소재 샘플이다. 구체적인 적용 용도는 해당 행사 공개자료에서 확인되지 않았다.",
+          "sourceIds": [
+            "source-ecea5527601fa8995cb4"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "사진에는 원형으로 감긴 샘플 여러 개가 포개져 있다. 금속의 조성, 섬유 규격과 성능은 명패나 행사 본문에서 확인되지 않는다.",
+          "sourceIds": [
+            "source-ecea5527601fa8995cb4"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "공식 ADEX 2025 후기 사진의 10-M1 전시대에서 금속섬유 명패를 확인했다. 주변에는 E형 열상표적 등 표적 제품이 함께 놓였다.",
+          "sourceIds": [
+            "source-ecea5527601fa8995cb4"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "이 금속섬유 샘플의 후속 개발·사업화·양산 일정은 확인되지 않았다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 표적 완제품과 소재 샘플을 함께 제시한 구성은 소재 분야까지 제품 제안의 폭을 보여준다. 실제 적용 제품이나 공급 계약을 뜻하지는 않는다.",
+          "sourceIds": [
+            "source-ecea5527601fa8995cb4"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-ecea5527601fa8995cb4"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "adex25-photo-cm-1"
+      ],
+      "form": "금속섬유 명패와 샘플 확인 · 조성·성능 미확인",
+      "limitations": [
+        "일반 단열재·흡음재·히터와 전시 금속섬유 샘플의 관계는 확인되지 않았다.",
+        "2026-01-19는 후기 게시일이며 사진은 ADEX 2025 현장을 담았다."
+      ],
+      "sources": [
+        {
+          "id": "source-ecea5527601fa8995cb4",
+          "url": "https://www.cmtechron.com/support/notice?board_code=4&code=357&tpf=board%2Fview",
+          "title": "CMTECHRON Wraps Up Seoul ADEX 2025 — On-Site Highlights",
+          "publisher": "씨엠테크론",
+          "publishedAt": "2026-01-19",
+          "eventEditionId": "adex-2025",
+          "independence": "primary_single_origin",
+          "limitations": "행사명·사진의 2025 표지와 금속섬유 명패를 대조했다. 게시일 2026-01-19는 촬영일이 아니다. 본문은 표적 제품 중심이며 금속섬유의 조성·용도·성능을 설명하지 않는다."
+        }
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-78adc7840c066c08ba6b",
+      "productId": "adex25-stx-smv1000",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "STX엔진이 K9 자주포·Redback 장갑차 적용품으로 소개한 차량용 엔진이다. 이는 회사의 전시 발표이며 개별 차량의 납품 완료를 확인한 내용은 아니다.",
+          "sourceIds": [
+            "source-e5cc1def1589b398e705"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "회사 제공 부스사진의 전시대에서 SMV1000 표지와 엔진 외형을 확인했다. 사진만으로 작동 가능한 실물인지 모형인지 구분할 수 없다.",
+          "sourceIds": [
+            "source-e5cc1def1589b398e705"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "SMV350·520·750 등 다른 엔진과 함께 소개했다. 발표문은 전시품을 실물과 모형으로 묶어 설명하며 SMV1000의 개별 형식은 밝히지 않는다.",
+          "sourceIds": [
+            "source-e5cc1def1589b398e705"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "당시 회사는 엔진 수출과 향후 파워팩 사업 확대를 추진한다고 밝혔다. 회사 차원의 방향이며 SMV1000의 개량 일정이나 완료된 개발 성과는 아니다.",
+          "sourceIds": [
+            "source-e5cc1def1589b398e705"
+          ],
+          "claimType": "official_plan"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 여러 차량용 엔진과 파워팩 사업 방향을 함께 제시한 점은, 단일 엔진 소개에서 동력계 사업의 제안 범위를 넓히려는 움직임으로 읽힌다.",
+          "sourceIds": [
+            "source-e5cc1def1589b398e705"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-e5cc1def1589b398e705"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "case-photo-stx-press"
+      ],
+      "form": "SMV1000 표지 확인 · 실물/모형 미확인",
+      "limitations": [
+        "SMV1000의 이번 행사 최초 공개 여부는 확인되지 않았다.",
+        "전시품의 독립된 성능 검증 결과는 확보되지 않았다."
+      ],
+      "sources": [
+        {
+          "id": "source-e5cc1def1589b398e705",
+          "url": "https://www.newswire.co.kr/newsRead.php?no=1020918",
+          "title": "STX엔진, ADEX 2025서 국산 개발 SMV 엔진 시리즈와 미래 동력원 공개",
+          "publisher": "STX엔진 제공 / 뉴스와이어 배포",
+          "publishedAt": "2025-10-20",
+          "eventEditionId": "adex-2025",
+          "independence": "same_origin_republication",
+          "limitations": "STX엔진이 제공한 보도자료다. 회사 홈페이지의 같은 발표는 현재 재열람 오류로 대체 근거에 더하지 않았다. 실물과 모형을 함께 소개해 SMV1000의 형상은 확정할 수 없다."
+        }
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-e843c1da4f4efc81c4ca",
+      "productId": "adex25-eo-raptor-f",
+      "asOf": "2026-11-16",
+      "sections": [
+        {
+          "id": "overview",
+          "label": "장비·형상·용도",
+          "text": "야간 관측용 야간투시경으로 소개한 장비다. 회사가 제공한 현장 체험사진과 캡션에서 RAPTOR-F라는 제품명을 확인했다.",
+          "sourceIds": [
+            "source-5e6daaaac8a8c83337e2"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "features",
+          "label": "주요 특징",
+          "text": "사진에는 관람객이 장비를 눈앞에 들어 체험하는 장면이 보인다. 관측 거리·영상 품질·센서 구성은 이 사진으로 검증할 수 없다.",
+          "sourceIds": [
+            "source-5e6daaaac8a8c83337e2"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "exhibit",
+          "label": "이번 전시 구성",
+          "text": "회사는 RAPTOR-F를 체험형 전시존에 배치했다고 설명했다. 조준경·관측경도 체험 대상에 포함했으며 RAPTOR-F의 체험사진은 회사 제공 자료다.",
+          "sourceIds": [
+            "source-5e6daaaac8a8c83337e2"
+          ],
+          "claimType": "source_documented"
+        },
+        {
+          "id": "development",
+          "label": "개발 방향",
+          "text": "RAPTOR-F 자체의 후속 모델, 개발 단계와 양산 일정은 확인되지 않았다. 회사의 별도 AI-EO 사업 소개를 이 제품의 개발 계획으로 볼 근거도 부족하다.",
+          "sourceIds": [],
+          "claimType": "evidence_gap"
+        },
+        {
+          "id": "interpretation",
+          "label": "전략적 해석",
+          "text": "편집 해석: 신규 수요와 기술교류를 참가 목적으로 밝히고 직접 체험을 구성한 점은, 제품 소개를 잠재 고객의 사용 경험과 연결하려는 전시 방향으로 읽힌다.",
+          "sourceIds": [
+            "source-5e6daaaac8a8c83337e2"
+          ],
+          "claimType": "editorial_inference"
+        }
+      ],
+      "eventEvidenceSourceIds": [
+        "source-5e6daaaac8a8c83337e2"
+      ],
+      "generalSourceIds": [],
+      "photoIds": [
+        "photo-adex25-eo-raptor-use"
+      ],
+      "form": "회사 제공 현장 체험사진 · RAPTOR-F 캡션 확인",
+      "limitations": [
+        "체험사진은 독립된 성능 시험이 아니다.",
+        "특정 차량과의 통합 여부는 확인되지 않았다."
+      ],
+      "sources": [
+        {
+          "id": "source-5e6daaaac8a8c83337e2",
+          "url": "https://www.news2day.co.kr/article/20251020500350",
+          "title": "이오시스템 ADEX 2025 출품·체험 전시",
+          "publisher": "이오시스템 발표·사진 / 뉴스투데이 김한경",
+          "publishedAt": "2025-10-20",
+          "eventEditionId": "adex-2025",
+          "independence": "same_origin_republication",
+          "limitations": "회사 발표와 제공 사진을 다룬 기사다. RAPTOR-F 체험 캡션을 확인했으나 독립 성능 검증은 아니다. 회사의 AI-EO 전시 설명을 RAPTOR-F의 기능으로 확대하지 않는다."
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "draft_for_parent_integration",
+    "plan": {
+      "goal": "ADEX 2025 구성품·임무장비 6제품의 5항목 설명과 출처 범위 보강",
+      "writeScope": [
+        "docs/research-v2/redesign-narratives-adex-next.json",
+        "tmp/adex-next-intake"
+      ],
+      "impact": "조사 패킷만 작성; 운영 데이터·제품 상태·사진 권리·src는 변경하지 않음",
+      "risks": [
+        "동일 원문 공유 분량",
+        "사전 발표와 실제 현장 형상 혼동",
+        "업체 사진의 제품 오연결"
+      ],
+      "verification": "원문 재열람·11개 이미지 픽셀 대조·기존 참조 및 URL별 분량 계산; 운영 통합 검사와 빌드는 부모 담당"
+    },
+    "sourceChecks": [
+      {
+        "sourceId": "source-833c02ee574f6ce76cc0",
+        "url": "https://www.mncsolution.com/kr/media-center/news/136?page=0&query=",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "same_event",
+        "publishedAt": "2025-10-21"
+      },
+      {
+        "sourceId": "source-716dc61175cc2bdc0ab1",
+        "url": "https://ir.newspim.com/news/view/20251021000067",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "same_event",
+        "publishedAt": "2025-10-21"
+      },
+      {
+        "sourceId": "mnc-suspension-general",
+        "url": "https://www.mncsolution.com/kr/products/defense/suspension",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "general_product_or_history",
+        "publishedAt": null
+      },
+      {
+        "sourceId": "source-b39935309e4b1397b825",
+        "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "same_event",
+        "publishedAt": "2025-11-10"
+      },
+      {
+        "sourceId": "yeonhab-vic7dk-general",
+        "url": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=81",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "general_product_or_history",
+        "publishedAt": null
+      },
+      {
+        "sourceId": "yeonhab-history-general",
+        "url": "https://www.yeonhab.co.kr/about/history.jsp",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "general_product_or_history",
+        "publishedAt": null
+      },
+      {
+        "sourceId": "source-c5323c9bf59a5c78a682",
+        "url": "https://www.linkedin.com/posts/pei-genesis_connectors-backshells-cables-activity-7386215858634833920-QgTU",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "same_event",
+        "publishedAt": null
+      },
+      {
+        "sourceId": "source-55f6f547483a24ea6456",
+        "url": "https://www.linkedin.com/posts/pei-genesis_aerospace-defense-connectors-activity-7388798681489137664-Pidj",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "same_event",
+        "publishedAt": null
+      },
+      {
+        "sourceId": "source-db787ea8f2bb68f53382",
+        "url": "https://www.prnewswire.com/apac/news-releases/pei-genesis-to-exhibit-at-seoul-adex-2025-in-korea-302572565.html",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "same_event",
+        "publishedAt": "2025-10-02"
+      },
+      {
+        "sourceId": "source-ecea5527601fa8995cb4",
+        "url": "https://www.cmtechron.com/support/notice?board_code=4&code=357&tpf=board%2Fview",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "same_event",
+        "publishedAt": "2026-01-19"
+      },
+      {
+        "sourceId": "source-e5cc1def1589b398e705",
+        "url": "https://www.newswire.co.kr/newsRead.php?no=1020918",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "same_event",
+        "publishedAt": "2025-10-20"
+      },
+      {
+        "sourceId": "source-5e6daaaac8a8c83337e2",
+        "url": "https://www.news2day.co.kr/article/20251020500350",
+        "accessedAt": "2026-11-16",
+        "status": "body_reread",
+        "scope": "same_event",
+        "publishedAt": "2025-10-20"
+      }
+    ],
+    "accessFailures": [
+      {
+        "sourceId": "source-645fd18bac06a3ecba54",
+        "url": "https://m.stxengine.co.kr/mkor/html/pr/news/news_view.aspx?lang=mkor&listurl=%2Fmkor%2Fhtml%2Fpr%2Fnews%2Fnews_list.aspx&seq=636&startIndex=0",
+        "status": "502_on_current_read",
+        "resolution": "STX 제공 뉴스와이어 발표를 재열람해 사용. 두 페이지를 독립 근거로 세지 않음."
+      }
+    ],
+    "photoChecks": [
+      {
+        "photoId": "photo-adex25-mnc-booth",
+        "url": "https://img.newspim.com/news/2025/10/21/2510210825081230.jpg",
+        "tempFile": "tmp/adex-next-intake/mnc-booth.jpg",
+        "verifiedAt": "2026-11-16",
+        "method": "view_image pixel inspection",
+        "scope": "company_context_only",
+        "result": "회사 간판과 전시대 확인. ISU의 개별 표찰은 미식별.",
+        "rights": "existing link-only retained",
+        "src": null
+      },
+      {
+        "photoId": "adex25-photo-dtaq-01",
+        "url": "https://dtaq-media.kr/image/asset/a05950017fb18cd16cc1ffac9df777dda9188dcd06c56cb40221cb532ef67595",
+        "tempFile": "tmp/adex-next-intake/dtaq-pavilion.jpg",
+        "verifiedAt": "2026-11-16",
+        "method": "view_image pixel inspection",
+        "scope": "company_context_only",
+        "result": "공동관 전경이며 VIC-7DK의 개별 모델 식별 불가.",
+        "rights": "existing link-only retained",
+        "src": null
+      },
+      {
+        "photoId": "case-photo-pei-booth-angle-1",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQGZs1trNqnFIw/feedshare-shrink_800/B56ZopJPNhHAAg-/0/1761626880047?e=2147483647&t=tHYqZHJSicr3dPppPMHED1BsMexkDCkXyLzvJ7a5UFg&v=beta",
+        "tempFile": "tmp/adex-next-intake/pei-booth-2.jpg",
+        "verifiedAt": "2026-11-16",
+        "method": "view_image pixel inspection",
+        "scope": "company_context_only",
+        "result": "PEI 간판·상담 공간 확인. 개별 부품 품번은 판독하지 못함.",
+        "rights": "existing link-only retained",
+        "src": null
+      },
+      {
+        "photoId": "case-photo-pei-booth-angle-2",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQGV-4AaSv9rSA/feedshare-shrink_800/B56ZopJPNpHQAk-/0/1761626880884?e=2147483647&t=VhsFWYXnYE0LSRbBb0Hl4AjMZpZGXMomXOQ06v3YS6Q&v=beta",
+        "tempFile": "tmp/adex-next-intake/pei-booth-3.jpg",
+        "verifiedAt": "2026-11-16",
+        "method": "view_image pixel inspection",
+        "scope": "company_context_only",
+        "result": "PEI 전시대와 소형 샘플·상담 장면. 샘플별 품번·규격 미확인.",
+        "rights": "existing link-only retained",
+        "src": null
+      },
+      {
+        "photoId": "adex25-photo-cm-1",
+        "url": "https://www.cmtechron.com/user/attachment/202601/1768828352873640.jpg",
+        "tempFile": "tmp/adex-next-intake/cm-metal.jpg",
+        "verifiedAt": "2026-11-16",
+        "method": "view_image pixel inspection",
+        "scope": "existing_product_match",
+        "result": "ADEX 2025·10-M1 표기와 금속섬유 명패, 감긴 샘플 확인.",
+        "rights": "existing link-only retained",
+        "src": null
+      },
+      {
+        "photoId": "case-photo-stx-press",
+        "url": "https://file.newswire.co.kr/data/datafile2/thumb_640/2025/10/31017998_20251020095856_2265828330.png",
+        "tempFile": "tmp/adex-next-intake/stx-booth.png",
+        "verifiedAt": "2026-11-16",
+        "method": "view_image pixel inspection",
+        "scope": "product_association_candidate",
+        "result": "STX 간판과 SMV1000 표지·외형 확인. 작동 실물/모형 구분 불가.",
+        "rights": "existing link-only retained",
+        "src": null
+      },
+      {
+        "photoId": "photo-adex25-eo-raptor-use",
+        "url": "https://cdn.news2day.co.kr/data2/content/image/2025/10/20/.cache/512/20251020500348.png",
+        "tempFile": "tmp/adex-next-intake/eo-raptor.png",
+        "verifiedAt": "2026-11-16",
+        "method": "view_image pixel inspection",
+        "scope": "existing_product_match",
+        "result": "회사 제공 체험사진과 RAPTOR-F 캡션 일치.",
+        "rights": "existing link-only retained",
+        "src": null
+      },
+      {
+        "photoId": "photo-adex25-eo-booth-motoya",
+        "url": "https://www.motoya.co.kr/news/photo/202510/44416_251867_5442.jpg",
+        "tempFile": "tmp/adex-next-intake/eo-booth.jpg",
+        "verifiedAt": "2026-11-16",
+        "method": "view_image pixel inspection",
+        "scope": "incorrect_existing_association",
+        "result": "MBDA 간판과 미사일 모형 전시대이며 EO 부스가 아님.",
+        "rights": "existing link-only retained",
+        "src": null
+      }
+    ],
+    "corrections": [
+      {
+        "id": "adex-next-eo-motoya-photo-correction",
+        "status": "source_correction_applied_pending_full_validation",
+        "photoId": "photo-adex25-eo-booth-motoya",
+        "sourceUrl": "https://www.motoya.co.kr/news/articleView.html?idxno=44416",
+        "originalImageUrl": "https://www.motoya.co.kr/news/photo/202510/44416_251867_5442.jpg",
+        "observed": "2026-11-16 원본 픽셀은 MBDA 부스다. 기존 EO 간판 확인이라는 variantNote와 캡션이 틀렸다.",
+        "preserve": [
+          "photo ID",
+          "source IDs",
+          "source URL",
+          "original image URL",
+          "link-only rights",
+          "src null",
+          "기존 기록과 정정 이력"
+        ],
+        "proposedCaption": "ADEX 2025 MBDA 부스 — 기존 이오시스템 연결 오류 확인",
+        "proposedVariantNote": "2026-11-16 픽셀 재검수에서 MBDA 부스임을 확인했다. 이오시스템·RAPTOR-F의 사진 근거에서 제외한다.",
+        "removeCompanyAssociation": "org-e843c1da4f4efc81c4ca",
+        "proposedProductIds": [],
+        "replacementImageUrl": null,
+        "sameArticleCheck": [
+          {
+            "url": "https://www.motoya.co.kr/news/photo/202510/44416_251865_5441.jpg",
+            "tempFile": "tmp/adex-next-intake/eo-motoya-75.jpg",
+            "result": "동인광학 간판과 제품 표찰"
+          },
+          {
+            "url": "https://www.motoya.co.kr/news/photo/202510/44416_251870_5851.jpg",
+            "tempFile": "tmp/adex-next-intake/eo-motoya-76.jpg",
+            "result": "동인광학의 동일 전시대 광학장비"
+          },
+          {
+            "url": "https://www.motoya.co.kr/news/photo/202510/44416_251866_5441.jpg",
+            "tempFile": "tmp/adex-next-intake/eo-motoya-77.jpg",
+            "result": "D.I. OPTICAL 표찰"
+          }
+        ],
+        "remaining": "본문은 EO를 출품 기업으로 언급하지만 광학장비 문단 주변 사진 3장과 다음 사진에서 EO 부스를 식별하지 못했다. 신규 EO 사진을 임의 지정하지 않는다.",
+        "implementation": "mission-systems.json: removed EO association, preserved full originalRecord in excludedPhotos, corrected eo-field title/support/limitations and highlight."
+      }
+    ],
+    "photoAdditions": [
+      {
+        "eventId": "adex-2025",
+        "productId": "adex25-stx-smv1000",
+        "photoIds": [
+          "case-photo-stx-press"
+        ],
+        "sourceIds": [
+          "source-e5cc1def1589b398e705"
+        ],
+        "status": "approved_for_link_only_integration",
+        "evidence": "회사 제공 부스사진의 SMV1000 표지와 전시품 외형 대조. 실물/모형 여부는 미확인.",
+        "originalImageUrl": "https://file.newswire.co.kr/data/datafile2/thumb_640/2025/10/31017998_20251020095856_2265828330.png",
+        "rights": "link-only",
+        "src": null,
+        "parentVerification": "Root independently viewed stx-booth.png: SMV1000 sign visible; no reuse rights or real/model promotion."
+      }
+    ],
+    "excludedImages": [
+      {
+        "sourceId": "source-ecea5527601fa8995cb4",
+        "reference": "공식 후기의 두 번째 원본 첨부 사진",
+        "reason": "기존 연구에서 AI 워터마크를 확인해 제외한 사진. 이번 설명·제품 식별·사진 후보에 사용하지 않음."
+      }
+    ],
+    "newReusablePhotoCandidates": [],
+    "photoPolicy": "재사용 허가의 명시적 근거를 새로 확보하지 못했다. 임시 다운로드는 원문 대조용이며 공개 자산으로 복제하지 않는다. 기존 productIds가 비어 있는 회사 사진을 narrative photoIds에 임의 연결하지 않는다.",
+    "preservation": [
+      {
+        "productId": "adex25-mnc-redback-isu",
+        "organizationId": "org-04b57642e09c33ee22c5",
+        "exhibitStatus": "exhibitor_event_statement",
+        "statusChanged": false
+      },
+      {
+        "productId": "adex25-yeonhab-vic7dk",
+        "organizationId": "org-73b2ea65b6e784cb4def",
+        "exhibitStatus": "onsite_report_confirmed",
+        "statusChanged": false
+      },
+      {
+        "productId": "adex25-pei-connector-samples",
+        "organizationId": "org-ded72d6076eb66b253d7",
+        "exhibitStatus": "exhibitor_event_photo_confirmed",
+        "statusChanged": false
+      },
+      {
+        "productId": "adex25-cm-metal-fiber",
+        "organizationId": "org-1273e8383e083821a303",
+        "exhibitStatus": "exhibitor_event_photo_confirmed",
+        "statusChanged": false
+      },
+      {
+        "productId": "adex25-stx-smv1000",
+        "organizationId": "org-78adc7840c066c08ba6b",
+        "exhibitStatus": "exhibitor_event_statement",
+        "statusChanged": false
+      },
+      {
+        "productId": "adex25-eo-raptor-f",
+        "organizationId": "org-e843c1da4f4efc81c4ca",
+        "exhibitStatus": "event_photo_confirmed",
+        "statusChanged": false
+      }
+    ],
+    "unverified": [
+      "MNC ISU의 개별 전시 형상",
+      "VIC-7DK의 개별 전시 모델·후속 개발 방향",
+      "PEI 샘플의 품번·규격 및 부스번호 불일치",
+      "금속섬유의 용도·조성·성능·양산 계획",
+      "STX SMV1000의 실물/모형 구분",
+      "RAPTOR-F 후속 모델·특정 차량 통합 및 독립 성능 확인"
+    ],
+    "operationalWrites": false,
+    "newPublicImageFiles": 0,
+    "researchTempImageFiles": 11,
+    "buildTestLint": "운영 데이터 생성·빌드·테스트·린트는 실행하지 않았다. 부모의 통합 검토 단계에 남김.",
+    "stateTransitions": [
+      "planned",
+      "executing",
+      "verifying",
+      "completed"
+    ],
+    "completionScope": "6개 연구 초안과 정정 제안 작성 완료. 운영 통합·검증·공개 반영 완료를 뜻하지 않음.",
+    "sourceWordBudget": {
+      "status": "pass",
+      "verifiedAt": "2026-11-16",
+      "method": "현재 운영 narrative sections와 form·limitations, report theme(summary·before·after), 신규 패킷 본문을 URL별 합산. form·limitations는 해당 narrative의 모든 출처에 보수적으로 귀속. sourceId 별칭은 URL로 통합. 공백 기준 단어 수. 메타데이터·내부 검수 메모는 공개 본문에서 제외.",
+      "existingNarrativesChecked": 54,
+      "maximumCheckedWordsPerSourceUrl": 198,
+      "totals": [
+        {
+          "url": "https://www.mncsolution.com/kr/media-center/news/136?page=0&query=",
+          "sourceIds": [
+            "source-833c02ee574f6ce76cc0",
+            "mnc-event"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 55,
+          "newFormLimitWords": 15,
+          "totalWords": 70
+        },
+        {
+          "url": "https://ir.newspim.com/news/view/20251021000067",
+          "sourceIds": [
+            "source-716dc61175cc2bdc0ab1",
+            "mnc-photo-report"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 18,
+          "newFormLimitWords": 15,
+          "totalWords": 33
+        },
+        {
+          "url": "https://www.mncsolution.com/kr/products/defense/suspension",
+          "sourceIds": [
+            "mnc-suspension-general"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 30,
+          "newFormLimitWords": 15,
+          "totalWords": 45
+        },
+        {
+          "url": "https://dtaq-media.kr/tech-and-quality?id=412",
+          "sourceIds": [
+            "source-b39935309e4b1397b825",
+            "pavilion-dtaq-report",
+            "dtaq-onsite"
+          ],
+          "existingWords": 186,
+          "newSectionWords": 6,
+          "newFormLimitWords": 6,
+          "totalWords": 198
+        },
+        {
+          "url": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=81",
+          "sourceIds": [
+            "yeonhab-vic7dk-general"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 25,
+          "newFormLimitWords": 6,
+          "totalWords": 31
+        },
+        {
+          "url": "https://www.yeonhab.co.kr/about/history.jsp",
+          "sourceIds": [
+            "yeonhab-history-general"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 18,
+          "newFormLimitWords": 6,
+          "totalWords": 24
+        },
+        {
+          "url": "https://www.linkedin.com/posts/pei-genesis_connectors-backshells-cables-activity-7386215858634833920-QgTU",
+          "sourceIds": [
+            "source-c5323c9bf59a5c78a682",
+            "pei-live"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 79,
+          "newFormLimitWords": 23,
+          "totalWords": 102
+        },
+        {
+          "url": "https://www.linkedin.com/posts/pei-genesis_aerospace-defense-connectors-activity-7388798681489137664-Pidj",
+          "sourceIds": [
+            "source-55f6f547483a24ea6456",
+            "pei-recap"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 39,
+          "newFormLimitWords": 23,
+          "totalWords": 62
+        },
+        {
+          "url": "https://www.prnewswire.com/apac/news-releases/pei-genesis-to-exhibit-at-seoul-adex-2025-in-korea-302572565.html",
+          "sourceIds": [
+            "source-db787ea8f2bb68f53382",
+            "pei-pre-event"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 43,
+          "newFormLimitWords": 23,
+          "totalWords": 66
+        },
+        {
+          "url": "https://www.cmtechron.com/support/notice?board_code=4&code=357&tpf=board%2Fview",
+          "sourceIds": [
+            "source-ecea5527601fa8995cb4",
+            "cm-postevent"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 72,
+          "newFormLimitWords": 23,
+          "totalWords": 95
+        },
+        {
+          "url": "https://www.newswire.co.kr/newsRead.php?no=1020918",
+          "sourceIds": [
+            "source-e5cc1def1589b398e705",
+            "stx-issued-release"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 94,
+          "newFormLimitWords": 21,
+          "totalWords": 115
+        },
+        {
+          "url": "https://www.news2day.co.kr/article/20251020500350",
+          "sourceIds": [
+            "source-5e6daaaac8a8c83337e2",
+            "eo-release"
+          ],
+          "existingWords": 0,
+          "newSectionWords": 67,
+          "newFormLimitWords": 19,
+          "totalWords": 86
+        }
+      ]
+    },
+    "validation": {
+      "status": "pass",
+      "verifiedAt": "2026-11-16",
+      "command": "node tmp/adex-next-intake/write-packet.cjs",
+      "results": {
+        "narratives": 6,
+        "sections": 30,
+        "existingNarrativesChecked": 54,
+        "existingProductOrganizationIds": true,
+        "duplicateEventProductPairs": 0,
+        "sourceReferencesResolved": true,
+        "generalSourcesSeparated": true,
+        "linkedProductPhotos": 2,
+        "photoSrcNull": true,
+        "photoRightsUnchanged": true,
+        "sourceWordBudgetPass": true,
+        "whitespacePass": true
+      },
+      "remaining": "부모의 문장·출처·정정 제안 검토 및 운영 통합 검증"
+    }
+  }
+}

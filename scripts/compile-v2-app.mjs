@@ -35,7 +35,10 @@ export function normalizePhoto(photo,sources,{context=photo.context||'reference'
   return {id:photo.id,caption:photo.caption||'',src,sourceUrl,originalImageUrl:safeUrl(photo.originalImageUrl||photo.assetUrl||photo.imageUrl||photo.embedImageUrl)||null,sourceIds,productIds:unique([photo.productId,...array(photo.productIds)]),width:photo.width||null,height:photo.height||null,credit:photo.credit||photo.author||null,rights,context,variantNote:photo.variantNote||null,sourceDate:photo.sourceDate||photo.date||null,delivery,displayBasis};
 }
 
-function sourceRecord(source){return {id:source.id,url:safeUrl(source.url),title:source.title||source.url,publisher:source.publisher||null,publishedAt:source.publishedAt||source.date||null,...(source.limitations||source.note?{note:source.limitations||source.note}:{}),...(source.independence?{evidenceStatus:source.independence==='primary_single_origin'?'single_source':source.independence}:{})};}
+function sourceRecord(source){
+  const notes=unique([source.limitations,source.note].flatMap(value=>Array.isArray(value)?value:[value]).filter(value=>typeof value==='string').flatMap(value=>value.split(/\r?\n/)).map(value=>value.trim()));
+  return {id:source.id,url:safeUrl(source.url),title:source.title||source.url,publisher:source.publisher||null,publishedAt:source.publishedAt||source.date||null,...(notes.length?{note:notes.join('\n')}:{}),...(source.independence?{evidenceStatus:source.independence==='primary_single_origin'?'single_source':source.independence}:{})};
+}
 function categoryIds(taxonomy,{rawCategories=[],productCategories=[],relevanceCategories=[],editorialCategories=[]}){
   return taxonomy.categories.filter(category=>editorialCategories.includes(category.id)||array(category.directoryLabels).some(label=>rawCategories.includes(label))||array(category.productLabels).some(label=>productCategories.includes(label))||array(category.relevanceLabels).some(label=>relevanceCategories.includes(label))).map(category=>category.id);
 }

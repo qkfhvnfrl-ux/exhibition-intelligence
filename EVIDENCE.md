@@ -202,3 +202,14 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 구현 저장점: 7fa59fa2364ca6b5f08d7eb6b584946bdc0f10ea (24파일, source/narrative/UI/202검사/브라우저/독립감사). 인계 기록의 SHA 갱신은 코드 변경이 없는 별도 커밋이다.
 
 다음10제품 큐: 기존ID·회사소유·출처URL·사진권리·미서술차집합 검증PASS. 회사사진19장을확보사진으로집계하지않음. docs/research-v2/redesign-next-narrative-queue.json 참조.
+
+## 2026-11-16 사진·서술 확대 — 65서술/209검사
+
+- 명령: node scripts/prepare-redesign-content.mjs →65 narratives/325 sections/5 reports. npm run build →exit0, .local-next-build-final.log. npm run check →209pass/0fail/0skip, .local-next-check-final.log. 로그 SHA256은 docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json에 기록. 별도 lint 스크립트는 없으며 check에 문법/스키마/데이터 검사 포함.
+- 최초 Diehl 출처ID/URL 충돌은 별도 프로필ID로 수정했다. 최초 검사2건의 기존 출력 기대는 참고사진 소유관계·권리·인쇄 구분을 검증하도록 갱신해 최종 통과했다. 제품 사진 URL의 다른 제품 혼입을 수정하고 회귀검사를 추가했다. SAHA 보고의 세로 넘침은 반복 문구 압축 후16:9 확인.
+- 코드: 정확한 제품ID의 reference fallback, URL 갤러리 범위 일치, Flickr 원문 직접 링크/별도 확대 및 인쇄 원문안내, 출처 note+limitations 보존.
+- 자료: 12서술60항목 추가, LIBELLE 새 제품기록1개·현장사진1장, COBRA II 참고사진1장. 기존 외부 사진19장·PARS 참고사진2장 연결. 기존85자산 바이트 보존, 총87자산. EO 오연결 원본 기록 보존. source분량/형상/권리 독립 검토.
+- 브라우저: 신규12서술의1440/390화면·5항목/가로넘침0, KORKUT9/MARS6/Roshel3/Boxer1사진 실제로딩·순환, PARS2장 URL/새로고침 격리. 최종5보고×1440/1280은16:9,390세로·넘침0. 실제 휴대폰은 미검증.
+- PDF: 이전5개 보존. 변경DSEI/SAHA2개 역사본을 output/pdf/history/2026-11-16-before-photo-rights에 복사했다. SAHA 인쇄미리보기1페이지 관찰, 새 파일0. Windows 인쇄창 index click은 geometry부재 오류, 값/키보드/좌표 입력은 효과없음. 사용자가 취소했고 정상 웹앱 복귀 확인. 자동 승인 거절은 아님.
+- 증거: docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json, docs/evidence/REDESIGN_NEXT_EXPANSION_AUDIT_2026-11-16.json, docs/evidence/REDESIGN_NEXT_EXPANSION_BROWSER_2026-11-16.json, screenshots/korkut-desktop·pars-alpha-reference-mobile·libelle-mobile-2026-11-16.png.
+- 남은 위험: 변경PDF2개 실제 저장, 사진35제품/미서술66기록/전수 관련 업체·지도·명단·실기기 검증. 공개push·merge·배포 없음.

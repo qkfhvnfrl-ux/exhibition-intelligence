@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "eventId": "idex-2025",
+  "batchId": "redesign-libelle-photo-2026-11-16",
+  "checkedAt": "2026-11-16",
+  "scopeNote": "기존 Diehl 업체에 단품1개와 현장사진1장 추가. 참석상태·지도는 변경하지 않는다.",
+  "cases": [
+    {
+      "id": "case-idex25-diehl-libelle",
+      "organizationId": "org-2d90c23ed374de2c2c80",
+      "displayName": "Diehl Defence",
+      "categoryIds": [
+        "unmanned_remote"
+      ],
+      "productIds": [
+        "idex25-diehl-libelle"
+      ],
+      "reviewStatus": "reviewed_case",
+      "reason": "단품 현장 전시와 과거 차량 탑재 제안을 구분해 볼 사례다.",
+      "highlights": [
+        "LIBELLE 명판을 확인했다.",
+        "촬영자의 현장사진 1장을 연결했다.",
+        "차량 탑재형 출품은 별도 확인이 필요하다."
+      ],
+      "exhibit": {
+        "summary": "Diehl 부스의 단품 전시다.",
+        "items": [
+          {
+            "productId": "idex25-diehl-libelle",
+            "name": "LIBELLE · IDEX 2025 전시품",
+            "category": "원격운용 장비",
+            "status": "event_photo_confirmed",
+            "form": "명판 확인 · 단품 전시 · 실물/모형 구분 미확인",
+            "sourceIds": [
+              "idex25-libelle-commons"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "idex25-libelle-commons"
+        ]
+      },
+      "distinction": {
+        "comparator": "단품 전시와 차량 탑재 소개",
+        "conditions": "2023년 안내와 2025년 사진은 다른 회차다.",
+        "judgment": "외관과 발표의 범위를 분리한다.",
+        "status": "qualified_comparison_only",
+        "sourceIds": [
+          "idex25-libelle-commons",
+          "diehl-libelle-enforce2023"
+        ]
+      },
+      "direction": {
+        "observation": "현장사진은 단품을 보여준다.",
+        "interpretation": "제품 개념을 설명하는 구성으로 해석한다.",
+        "sourceIds": [
+          "idex25-libelle-commons"
+        ]
+      },
+      "followUps": [
+        "전시품의 제작 단계는 무엇인가?",
+        "이번 회차에 차량 탑재형도 전시했는가?"
+      ],
+      "sources": [
+        {
+          "id": "idex25-libelle-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Diehl_Libelle_at_IDEX_2025.jpg",
+          "title": "IDEX 2025 LIBELLE 현장사진",
+          "publisher": "Mztourist / Wikimedia Commons",
+          "publishedAt": "2025-02-22",
+          "eventEditionId": "idex-2025",
+          "edition": 2025,
+          "role": "independent_event_photo",
+          "originGroup": "mztourist-idex2025",
+          "independence": "independent_observation_only",
+          "limitations": "촬영일 2025-02-19, 업로드일 2025-02-22. 명판과 Diehl 부스 외관을 대조했다. 단일 사진이며 작동·성능·실물/모형 구분을 확인하지 않는다.",
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "diehl-libelle-enforce2023",
+          "url": "https://new.diehl.com/defence/en/press-media/news/diehl-defence-at-enforce-tac-2023",
+          "title": "Diehl Defence Enforce Tac 2023 전시 안내 — 일반 배경",
+          "publisher": "Diehl Defence",
+          "publishedAt": "2023-02-24",
+          "role": "manufacturer_other_event_background",
+          "originGroup": "diehl-enforce2023",
+          "independence": "primary_single_origin",
+          "limitations": "다른 회차의 사전 안내다. IDEX 2025 차량 탑재 전시·개발 완료·성능의 근거로 사용하지 않는다.",
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "idex25-diehl-directory-profile",
+          "url": "https://bdsv-exhibitions.eu/show/idex-2025/702",
+          "title": "IDEX 2025 BDSV Diehl Defence 출품업체 명단",
+          "publisher": "BDSV",
+          "publishedAt": null,
+          "eventEditionId": "idex-2025",
+          "edition": 2025,
+          "role": "official_exhibitor_directory",
+          "originGroup": "bdsv-idex2025",
+          "independence": "primary_single_origin",
+          "limitations": "주소의 Germany 표기를 확인했다. 명단은 개별 제품의 현장 전시·성능 확인과 구별한다.",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "photos": [
+        {
+          "id": "idex25-libelle-event-01",
+          "src": "assets/photos/idex2025-libelle-event.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diehl_Libelle_at_IDEX_2025.jpg",
+          "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Diehl_Libelle_at_IDEX_2025.jpg",
+          "caption": "IDEX 2025 LIBELLE 단품 전시 — Diehl 부스·명판 확인",
+          "credit": "Mztourist / Wikimedia Commons · CC BY 4.0",
+          "photographer": "Mztourist",
+          "rights": {
+            "status": "reusable",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "basis": "Commons 파일 메타데이터에서 저작자·CC BY 4.0·촬영일을 확인했다. 원본 JPEG를 그대로 사용한다."
+          },
+          "context": "event",
+          "eventId": "idex-2025",
+          "eventYear": 2025,
+          "productIds": [
+            "idex25-diehl-libelle"
+          ],
+          "sourceDate": "2025-02-19",
+          "capturedAt": "2025-02-19",
+          "sourceIds": [
+            "idex25-libelle-commons"
+          ],
+          "variantNote": "원본 JPEG 무변환. 사진은 단품 전시이며 실물/모형과 작동 여부를 판정하지 않는다.",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a",
+          "originalSha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a"
+        }
+      ],
+      "catalogs": [],
+      "verificationNote": "현장사진과 제조사의 다른 회차 안내를 분리했다. 성능 검증은 아니다.",
+      "evidenceAsOf": "2026-11-16",
+      "analysisScope": "bounded_event_case",
+      "review": {
+        "relevance": "confirmed",
+        "reason": "차량 탑재 제안 이력이 있는 지상 임무장비의 단품 전시다.",
+        "categories": [
+          "unmanned_remote"
+        ],
+        "status": "insufficient_data",
+        "reviewedAt": "2026-11-16",
+        "sourceIds": [
+          "idex25-libelle-commons",
+          "diehl-libelle-enforce2023"
+        ],
+        "notes": "단품 외관만 확인했다. 실물·모형 구분, 작동 상태와 제작 단계는 미확인이다. 2023년 차량 탑재 소개와 IDEX 2025의 단품 사진은 별개 근거다."
+      },
+      "countries": [
+        "독일"
+      ],
+      "countrySourceIds": [
+        "idex25-diehl-directory-profile"
+      ]
+    }
+  ]
+}

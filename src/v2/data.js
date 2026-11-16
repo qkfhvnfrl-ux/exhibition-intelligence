@@ -16,7 +16,9 @@ export function getPhotoViewerSelection(data,{company='',product='',photo=''}={}
  const owner=getCompany(data,company),all=getCompanyPhotos(data,company);
  const item=array(owner?.productIds).includes(product)?index(data).products.get(product):null;
  const ids=new Set(array(item?.narrative?.photoIds));
- const grouped=item?all.filter(p=>p.context==='event'&&(!(p.eventId||p.eventEditionId)||(p.eventId||p.eventEditionId)===data.event?.id)&&(array(p.productIds).includes(item.id)||ids.has(p.id))):[];
+ const field=item?all.filter(p=>p.context==='event'&&(!(p.eventId||p.eventEditionId)||(p.eventId||p.eventEditionId)===data.event?.id)&&(array(p.productIds).includes(item.id)||ids.has(p.id))):[];
+ const displayable=p=>p.delivery!=='linked'&&!['link_only','link-only'].includes(p.rights?.status||p.rightsStatus)&&(safeAssetPath(p.src)||safeUrl(p.src));
+ const grouped=item&&!field.some(displayable)?[...field,...all.filter(p=>p.context==='reference'&&array(p.productIds).includes(item.id))]:field;
  const productId=grouped.some(p=>p.id===photo)?product:'';
  const photos=productId?grouped:all;
  return {photos,index:photos.findIndex(p=>p.id===photo),productId};

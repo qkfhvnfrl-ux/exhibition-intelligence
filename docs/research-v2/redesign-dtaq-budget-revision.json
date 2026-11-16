@@ -1,0 +1,2166 @@
+{
+  "asOf": "2026-11-16",
+  "status": "proposal_only_not_applied",
+  "sourceUrl": "https://dtaq-media.kr/tech-and-quality?id=412",
+  "sourceIds": [
+    "source-b39935309e4b1397b825",
+    "pavilion-dtaq-report",
+    "dtaq-onsite",
+    "population-dtaq-postevent"
+  ],
+  "purpose": "Exact replacements to shorten article-dependent public copy; preserve public original analyses, comparison gaps, questions, source limits and all other-source material.",
+  "fileHashes": {
+    "docs/research-v2/redesign-narratives-components-adex.json": "f233f7fcc883556e45a213635ae79c44d3cfebac3dd7c48fd06e9502b41828fa",
+    "docs/research-v2/redesign-narratives-adex-next.json": "9c885b0d6d58534224490633117c6b18f1cfd45b881f233df9ae758e7f98e464",
+    "data/v2/research/adex-2025/pavilion-components.json": "ac12f99766efcaac25f0a4b8d23b2a8eb8940d763f0220464397d0a66ca6fe0f",
+    "data/v2/research/adex-2025/pavilion-followup.json": "4ec17b3e7e2daf8ac00a26fa62a6b15026ec95dde07379004ec47d7f2ed3958f",
+    "data/v2/research/adex-2025/small-systems.json": "d94a9d56cec1373d7aea49000ee93584bff03b27caa677d0f647c6492d3b017e",
+    "data/v2/research/adex-2025/population.json": "491b1a12e954c5a53c0be73303b05f84d4e55e8e42464ba22e0559d92e4d836d"
+  },
+  "applicationInstructions": [
+    "Assert old value before every JSON pointer replacement; abort on mismatch.",
+    "Apply only replacements, then run the normal collection/registry/content/app generation. Never patch generated app/public/registry JSON directly.",
+    "Re-read generated source notes: all aliases for this URL must contain the common note without retained older synonyms. Source-specific limits remain visible.",
+    "Rebuild the sentence inventory after applying; compare with countedSentences. If new wording appears, count it instead of relying on this proposed total.",
+    "The generated alias source-b39935309e4b1397b825 inherits the old small-systems source note; regeneration must clear that old synonym. Do not remove the original public company engineering analyses or questions listed in excludedPublicText."
+  ],
+  "method": {
+    "normalization": "Unicode NFC; collapse whitespace; split only after ., !, ?, 。 followed by whitespace, and at newlines.",
+    "deduplication": "Exact normalized sentence equality across aliases, fields and screen/print; no semantic deduplication.",
+    "unit": "Whitespace-delimited Korean eojeol, preserving intentional internal spaces in 105MM ABC SYSTEM etc.",
+    "included": "All article-dependent narrative claims, narrative form/limitations (even original limits), shared public source notes, source-dependent company statements/mixed-source observations, four other companies exhibition facts/forms, existing five image captions.",
+    "excluded": "IDs/URLs/metadata titles/names; original engineering interpretations, audit methods and questions listed individually; explicit other-source content; image-rights/capture-date audit metadata. Exclusions stay public and are not moved to internal fields.",
+    "notClaimed": "This is not an all-visible-text length limit. The previous all-associated-field upper bounds were 738 words for 3 companies and 1015 for 7 companies, including original questions and unrelated-source text. Those are not source-derivative totals."
+  },
+  "replacements": [
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sections/0/text",
+      "old": "전투차량 승무원이 착용하는 헬멧이다. ADEX 2025의 DQ마크 공동 전시품으로 소개됐다.",
+      "new": "DQ마크 공동관의 전투차량 승무원 헬멧이다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sections/2/text",
+      "old": "현장사진에는 마네킹에 착용한 헬멧과 부착 통신장비가 보인다. 세부 모델은 식별되지 않는다.",
+      "new": "마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sections/4/text",
+      "old": "편집 해석: DQ마크 공동전시는 승무원 장비를 품질인증과 함께 해외 바이어에게 제안하는 접근으로 읽힌다.",
+      "new": "편집 해석: 품질인증을 내세운 승무원 장비 제안이다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/form",
+      "old": "마네킹에 착용한 전시실물 · 세부 모델 미확인",
+      "new": "마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다.",
+      "reason": "Reuse exact exhibited-form statement; no new form claim."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/limitations/0",
+      "old": "일반 제품의 기능이 전시형의 시험 성적이나 특정 차량 호환성을 입증하지는 않는다.",
+      "new": "일반 기능은 전시형의 시험성적·차량 호환성을 입증하지 않는다.",
+      "reason": "Keep the public product-specific uncertainty in a shorter sentence."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/sections/2/text",
+      "old": "국방기술품질원 사후 기사는 HKC 방사능 측정기의 출품을 명시한다. 개별 전시 모델과 사진 대응은 확인하지 못했다.",
+      "new": "기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/sections/4/text",
+      "old": "편집 해석: 헬멧과 측정기를 함께 소개한 구성은 HKC의 제안 범위가 승무원 착용품과 안전 측정장비에 걸쳐 있음을 보여준다.",
+      "new": "편집 해석: 착용품과 안전 측정장비를 함께 제안했다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/form",
+      "old": "사후 현장 기사로 출품 확인 · 개별 모델·사진 미식별",
+      "new": "기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "reason": "Reuse exact exhibited-form statement; no new form claim."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/limitations/0",
+      "old": "전시품의 모델·측정 범위는 미확인이다. 일반 제품의 제원을 이번 전시형에 귀속하지 않는다.",
+      "new": "일반 제원은 전시형에 귀속하지 않는다.",
+      "reason": "Keep the public product-specific uncertainty in a shorter sentence."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/0/text",
+      "old": "포구 내부 청소용 정비장비다. 현장사진에서는 차량에 장착하지 않고 별도 전시대에 제시했다.",
+      "new": "포구 청소용 정비장비를 별도 전시대에 제시했다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/1/text",
+      "old": "사진의 표지는 105MM ABC SYSTEM이다. 다른 구경 형식의 출품 여부는 미확인이다.",
+      "new": "표지는 105MM ABC SYSTEM이다. 다른 구경 출품은 미확인이다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/2/text",
+      "old": "DQ마크 공동전시에 포함됐으며 HKC 승무원 헬멧과 같은 전시대의 사진으로 확인된다.",
+      "new": "공동관에서 HKC 헬멧과 함께 전시했다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/3/text",
+      "old": "2025년 11월 기관 기사는 K9과 연계한 패키지 수출을 검토 중이라고 밝혔다. 계약·인도 완료는 미확인이다.",
+      "new": "2025년 11월 기준 K9 패키지 수출은 검토 단계였다. 계약·인도는 미확인이다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/4/text",
+      "old": "편집 해석: 패키지 수출 검토는 완성 장비의 해외 제안에 정비 지원장비를 함께 묶으려는 접근으로 읽힌다.",
+      "new": "편집 해석: 완성 장비와 정비 지원장비를 묶으려는 제안이다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/form",
+      "old": "별도 전시대 실물 · 105MM ABC SYSTEM 표지",
+      "new": "포구 청소용 정비장비를 별도 전시대에 제시했다.",
+      "reason": "Reuse exact exhibited-form statement; no new form claim."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/limitations/0",
+      "old": "105MM 표지와 K9 연계 검토는 별개 사실이며, 사진 속 장비가 K9용이라는 뜻은 아니다.",
+      "new": "105MM 표지는 K9용 확인이 아니다.",
+      "reason": "Keep the public product-specific uncertainty in a shorter sentence."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/sections/2/text",
+      "old": "국방기술품질원은 ADEX 2025 출품품으로 VIC-7DK를 명시했다.",
+      "new": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+      "reason": "Shorten the same claim without changing claimType/sourceIds; reuse exact wording in company text."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/form",
+      "old": "공동관 출품·사진 미식별",
+      "new": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+      "reason": "Reuse exact exhibited-form statement; no new form claim."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/limitations/0",
+      "old": "개별 전시형 미확인.",
+      "new": "개별 전시형·사진은 미확인이다.",
+      "reason": "Keep the public product-specific uncertainty in a shorter sentence."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sources/0/limitations",
+      "old": "전시 주체의 사후 현장 기사다. 사진 촬영일·촬영자는 미기재이며 게시일과 글쓴이로 대신하지 않는다. 수성의 패키지 수출은 당시 검토 상태다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/sources/0/limitations",
+      "old": "전시 주체의 사후 현장 기사다. 사진 촬영일·촬영자는 미기재이며 게시일과 글쓴이로 대신하지 않는다. 수성의 패키지 수출은 당시 검토 상태다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sources/0/limitations",
+      "old": "전시 주체의 사후 현장 기사다. 사진 촬영일·촬영자는 미기재이며 게시일과 글쓴이로 대신하지 않는다. 수성의 패키지 수출은 당시 검토 상태다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/sources/0/limitations",
+      "old": "전시 주체의 사후 보고다. VIC-7DK의 출품을 명시하지만 공동관 사진에서 개별 모델은 식별되지 않았다. 촬영일·촬영자는 미기재다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/sources/1/limitations",
+      "old": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/sources/1/limitations",
+      "old": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/sources/1/limitations",
+      "old": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/sources/1/limitations",
+      "old": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/sources/1/limitations",
+      "old": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/sources/1/limitations",
+      "old": "기관이 운영한 관의 사후 현장 기사입니다. 기사 필자는 촬영자와 구별하며 성능의 독립 검증으로 세지 않습니다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/sources/2/limitations",
+      "old": "전시 주체의 결과보고입니다. 작성자와 사진 촬영자는 동일인으로 추정하지 않습니다.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "data/v2/research/adex-2025/population.json",
+      "jsonPointer": "/sources/1/limitations",
+      "old": "Institution-run coverage corroborates exhibition, not independent performance certification; overlaps DAPA institutional family.",
+      "new": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "reason": "Keep institutional/post-event, no independent performance proof, missing photographer/date and K9 plan limits visible; normalize aliases."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/highlights/0",
+      "old": "헬멧 실물은 DQ마크 현장사진에서 확인했습니다.",
+      "new": "마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/highlights/1",
+      "old": "방사능 측정기는 공식 현장 기사와 리플릿에서 출품을 확인했고, 사진 속 개별 모델은 확정하지 않았습니다.",
+      "new": "기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/exhibit/summary",
+      "old": "DQ마크 공동 전시에서 헬멧과 방사능 측정기 두 품목을 소개했습니다. 헬멧은 사진과 대조했고 측정기는 사후 기사 출품 서술까지 확인했습니다.",
+      "new": "DQ마크 공동관의 전투차량 승무원 헬멧이다. 마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다. 기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/exhibit/items/0/form",
+      "old": "마네킹에 장착한 전시실물 — 세부 모델 미확인",
+      "new": "마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/exhibit/items/1/form",
+      "old": "현장 기사 출품 확인 — 개별 모델·사진 식별 미완료",
+      "new": "기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/direction/observation",
+      "old": "승무원 착용품과 안전 측정장비를 공동관에서 함께 제시했습니다.",
+      "new": "DQ마크 공동관의 전투차량 승무원 헬멧이다. 기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/highlights/1",
+      "old": "제품군은 포구 자동청소기로 등록했으며, 모든 구경 형식을 출품한 것으로 확대하지 않았습니다.",
+      "new": "다른 구경 출품은 미확인이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/exhibit/summary",
+      "old": "통합홍보관 전시대의 청소기 실물을 현장 사진에서 확인했습니다. 전시 표지와 리플릿의 제품군 표기는 대조했지만 회사 영문 브랜드를 별도 법인명으로 확정하지 않았습니다.",
+      "new": "포구 청소용 정비장비를 별도 전시대에 제시했다. 전시 표지와 리플릿의 제품군 표기는 대조했지만 회사 영문 브랜드를 별도 법인명으로 확정하지 않았습니다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/exhibit/items/0/form",
+      "old": "전시실물 — 표지에 105MM ABC SYSTEM 표기, 전체 형식 범위 미확인",
+      "new": "포구 청소용 정비장비를 별도 전시대에 제시했다. 표지는 105MM ABC SYSTEM이다. 다른 구경 출품은 미확인이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/direction/observation",
+      "old": "완성 무기체계가 아닌 전용 정비장비가 DQ마크 전시 구성에 포함됐습니다.",
+      "new": "공동관에서 HKC 헬멧과 함께 전시했다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/direction/interpretation",
+      "old": "차량 공급 뒤의 유지관리 장비까지 제안 범위로 묶는 접근으로 해석됩니다. 구체적인 수출 계약 성립을 뜻하지 않습니다.",
+      "new": "편집 해석: 완성 장비와 정비 지원장비를 묶으려는 제안이다. 계약·인도는 미확인이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/highlights/0",
+      "old": "VIC-7DK는 기관의 전시 결과보고로 확인했습니다.",
+      "new": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/exhibit/summary",
+      "old": "VIC-7DK 공동 전시와 자사 부스의 부품군 소개를 함께 확인했습니다. 슬립링 10여종은 이름이 불명확해 하나의 제품군으로 등록하며 개수를 임의 확장하지 않습니다.",
+      "new": "공동관 출품품으로 VIC-7DK를 명시했다. 자사 부스의 부품군은 회사 자료에서 확인했다. 슬립링 10여종은 이름이 불명확해 하나의 제품군으로 등록하며 개수를 임의 확장하지 않습니다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/exhibit/items/5/form",
+      "old": "국방기술품질원 공동 전시품·개별 사진 식별 미완료",
+      "new": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/direction/observation",
+      "old": "자사 부품 전시와 기관의 품질인증 제품 전시에 모두 나타납니다.",
+      "new": "공동관 출품품으로 VIC-7DK를 명시했다. 자사 부품 전시는 회사 자료에서 확인했다.",
+      "reason": "Reuse the same public fact sentence; retain IDs/status/source provenance."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/photos/1/variantNote",
+      "old": "공동 전시 맥락 사진이며 모든 개별 제품의 모델을 식별한 것은 아닙니다. 게시일 2025-11-10, 촬영일 미기재. VIC-7DK의 출품은 기사 본문에서 별도로 확인했습니다.",
+      "new": "공동 전시 맥락 사진이며 모든 개별 제품의 모델을 식별한 것은 아닙니다. 게시일 2025-11-10, 촬영일 미기재. 공동관 출품품으로 VIC-7DK를 명시했다.",
+      "reason": "Reuse the already-counted article-dependent clause; preserve all public image/date limitations."
+    }
+  ],
+  "includedText": [
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sections/0/text",
+      "text": "DQ마크 공동관의 전투차량 승무원 헬멧이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sections/2/text",
+      "text": "마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sections/4/text",
+      "text": "편집 해석: 품질인증을 내세운 승무원 장비 제안이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/form",
+      "text": "마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/limitations/0",
+      "text": "일반 기능은 전시형의 시험성적·차량 호환성을 입증하지 않는다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/sections/2/text",
+      "text": "기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/sections/4/text",
+      "text": "편집 해석: 착용품과 안전 측정장비를 함께 제안했다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/form",
+      "text": "기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/limitations/0",
+      "text": "일반 제원은 전시형에 귀속하지 않는다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/0/text",
+      "text": "포구 청소용 정비장비를 별도 전시대에 제시했다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/1/text",
+      "text": "표지는 105MM ABC SYSTEM이다. 다른 구경 출품은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/2/text",
+      "text": "공동관에서 HKC 헬멧과 함께 전시했다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/3/text",
+      "text": "2025년 11월 기준 K9 패키지 수출은 검토 단계였다. 계약·인도는 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sections/4/text",
+      "text": "편집 해석: 완성 장비와 정비 지원장비를 묶으려는 제안이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/form",
+      "text": "포구 청소용 정비장비를 별도 전시대에 제시했다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/limitations/0",
+      "text": "105MM 표지는 K9용 확인이 아니다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/sections/2/text",
+      "text": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/form",
+      "text": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/limitations/0",
+      "text": "개별 전시형·사진은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sources/0/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/sources/0/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/6/sources/0/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/sources/0/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/sources/1/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/sources/1/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/sources/1/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/sources/1/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/sources/1/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/sources/1/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/sources/2/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/population.json",
+      "jsonPointer": "/sources/1/limitations",
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다. 리플릿과 같은 기관 계열이다. 촬영일·촬영자는 미기재다. 글쓴이를 촬영자로 추정하지 않는다. 2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/highlights/0",
+      "text": "마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/highlights/1",
+      "text": "기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/exhibit/summary",
+      "text": "DQ마크 공동관의 전투차량 승무원 헬멧이다. 마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다. 기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/exhibit/items/0/form",
+      "text": "마네킹에 헬멧·통신장비를 착용한 실물이다. 세부 모델은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/exhibit/items/1/form",
+      "text": "기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/direction/observation",
+      "text": "DQ마크 공동관의 전투차량 승무원 헬멧이다. 기사로 방사능 측정기 출품을 확인했다. 개별 모델·사진은 미식별이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/highlights/1",
+      "text": "다른 구경 출품은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/exhibit/items/0/form",
+      "text": "포구 청소용 정비장비를 별도 전시대에 제시했다. 표지는 105MM ABC SYSTEM이다. 다른 구경 출품은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/direction/observation",
+      "text": "공동관에서 HKC 헬멧과 함께 전시했다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/direction/interpretation",
+      "text": "편집 해석: 완성 장비와 정비 지원장비를 묶으려는 제안이다. 계약·인도는 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/exhibit/summary",
+      "text": "포구 청소용 정비장비를 별도 전시대에 제시했다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/highlights/0",
+      "text": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/exhibit/items/5/form",
+      "text": "공동관 출품품으로 VIC-7DK를 명시했다. 개별 전시형·사진은 미확인이다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/exhibit/summary",
+      "text": "공동관 출품품으로 VIC-7DK를 명시했다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/direction/observation",
+      "text": "공동관 출품품으로 VIC-7DK를 명시했다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/direction/interpretation",
+      "text": "부품 공급과 인증 제품 홍보를 병행한 구성으로 읽힙니다.",
+      "rationale": "Conservatively include the mixed-source exhibition interpretation."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/distinction/judgment",
+      "text": "하드웨어 연결과 승무원 통화가 함께 포착됩니다.",
+      "rationale": "Conservatively include the mixed-source exhibition observation."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/direction/observation",
+      "text": "회차별 자료에 연습용 수류탄, 40mm 연습유탄 기재.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/exhibit/items/0/form",
+      "text": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/exhibit/items/1/form",
+      "text": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/direction/observation",
+      "text": "회차별 자료에 멀티콥터형 다목적 드론 기재.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/exhibit/items/0/form",
+      "text": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/direction/observation",
+      "text": "회차별 자료에 항공기용 방풍유리 세척기 조립체 기재.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/exhibit/items/0/form",
+      "text": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/direction/observation",
+      "text": "회차별 자료에 F-16 Block50/52 카본 브레이크 디스크 기재.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/exhibit/items/0/form",
+      "text": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/photos/1/variantNote",
+      "text": "공동관 출품품으로 VIC-7DK를 명시했다.",
+      "rationale": "Article-dependent public summary; counted conservatively."
+    },
+    {
+      "file": "data/v2/app/events/adex-2025.json",
+      "jsonPointer": "/photos/0/caption",
+      "text": "한국씨앤오테크 연습용 수류탄·40mm 연습유탄",
+      "rationale": "Existing independently inspected image caption included conservatively; keep unchanged."
+    },
+    {
+      "file": "data/v2/app/events/adex-2025.json",
+      "jsonPointer": "/photos/2/caption",
+      "text": "ADEX 2025 수성 포구 자동청소기와 뒤쪽 HKC 승무원 헬멧",
+      "rationale": "Existing independently inspected image caption included conservatively; keep unchanged."
+    },
+    {
+      "file": "data/v2/app/events/adex-2025.json",
+      "jsonPointer": "/photos/4/caption",
+      "text": "ADEX 2025 DTaQ 공동 전시대 전경",
+      "rationale": "Existing independently inspected image caption included conservatively; keep unchanged."
+    },
+    {
+      "file": "data/v2/app/events/adex-2025.json",
+      "jsonPointer": "/photos/8/caption",
+      "text": "ADEX 2025 DQ마크 전시대 사선 시점 — 포구 청소기·승무원 헬멧과 관람객",
+      "rationale": "Existing independently inspected image caption included conservatively; keep unchanged."
+    },
+    {
+      "file": "data/v2/app/events/adex-2025.json",
+      "jsonPointer": "/photos/41/caption",
+      "text": "네스앤텍 드론 및 운용 화면",
+      "rationale": "Existing independently inspected image caption included conservatively; keep unchanged."
+    }
+  ],
+  "excludedPublicText": [
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sections/1/text",
+      "text": "일반 제품 소개는 무전기·인터컴 연결과 소음제어 기능을 설명한다. 전시형의 세부 사양은 미확인이다.",
+      "rationale": "Separate general product/history source, not article 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/4/sections/3/text",
+      "text": "이번 전시형의 후속 개발과 납품 일정은 확보하지 못했다.",
+      "rationale": "Original evidence-gap statement, not derived from article 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/sections/0/text",
+      "text": "인원·장비·시설 등의 방사능 오염을 측정하고 경보를 알리는 휴대형 장비로 소개된다.",
+      "rationale": "Separate general product/history source, not article 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/sections/1/text",
+      "text": "일반 제품 자료는 측정값·배터리 상태 표시와 자체 진단을 설명한다. 전시 모델의 세부 구성은 미확인이다.",
+      "rationale": "Separate general product/history source, not article 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-components-adex.json",
+      "jsonPointer": "/narratives/5/sections/3/text",
+      "text": "전시 모델의 개량 계획·인증 변경·공급 일정은 확인되지 않았다.",
+      "rationale": "Original evidence-gap statement, not derived from article 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/sections/0/text",
+      "text": "전투차량·장갑차량 안팎의 음성통화를 지원하는 상호통화기 세트다. 용도는 제조사의 일반 제품 안내를 따른다.",
+      "rationale": "Separate general product/history source, not article 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/sections/1/text",
+      "text": "일반 제품 안내는 내부통화·무선통화·전화통화와 경보신호를 제공하는 디지털형 통신장치로 설명한다. 전시형의 개별 구성은 미확인이다.",
+      "rationale": "Separate general product/history source, not article 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/sections/3/text",
+      "text": "공식 연혁에는 2007년 9월 VIC-7DK 개발이 기록돼 있다. ADEX 2025에서 후속 개량형이나 새 개발 일정을 발표했는지는 확인되지 않았다.",
+      "rationale": "Separate general product/history source, not article 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "docs/research-v2/redesign-narratives-adex-next.json",
+      "jsonPointer": "/narratives/1/sections/4/text",
+      "text": "이번 출품만으로 별도의 시장 확대나 제품 전환 전략을 판단할 근거는 확보되지 않았다.",
+      "rationale": "Original evidence-gap statement, not derived from article 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/exhibit/summary",
+      "text": "전시 표지와 리플릿의 제품군 표기는 대조했지만 회사 영문 브랜드를 별도 법인명으로 확정하지 않았습니다.",
+      "rationale": "Original source-matching/legal-entity uncertainty; preserved, not an article paraphrase.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/reason",
+      "text": "승무원 헬멧과 휴대형 방사능 측정기를 별개 장비로 보면, 승무원 공간·통신·안전장비 요구를 함께 점검할 수 있습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/verificationNote",
+      "text": "전시 리플릿·사후 기사와 실제 사진을 대조했습니다. 촬영자는 미기재입니다. 기사 필자 정소야를 촬영자로 기입하지 않았습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/distinction/comparator",
+      "text": "일반 보호용 헬멧과 차량 승무원용 통신·착용 장비",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/distinction/conditions",
+      "text": "동일 조건의 소음·착용성·충격 시험 및 경쟁 제품 자료가 없습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/distinction/judgment",
+      "text": "차량 운용을 전제로 한 장비 구분은 가능하지만 방호·통신 성능 우위는 비교 불가입니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/direction/interpretation",
+      "text": "차체 밖에 있는 개인 지급품도 차량 운용성 검토의 일부로 취급할 가치가 있습니다. 두 품목이 하나의 통합 시스템이라는 의미는 아닙니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/highlights/2",
+      "text": "일반 제품정보의 모델명을 이번 전시 실물에 그대로 붙이지 않았습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/followUps/0",
+      "text": "전시 헬멧의 정확한 형식과 호환 상호통화기는 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/followUps/1",
+      "text": "좌석·해치·헤드셋을 함께 고려한 착용성 시험자료가 있습니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/1/followUps/2",
+      "text": "방사능 측정기의 정확한 전시 모델과 보관·점검 조건은 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/reason",
+      "text": "포구 자동청소기는 정비장비까지 차량 운용 패키지에 포함할 때 살펴볼 사례입니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/verificationNote",
+      "text": "공식 리플릿과 DTaQ 사후 기사·사진을 2차 대조했습니다. 두 자료는 공공기관 행사 홍보 계열이며 독립 성능검증으로 세지 않습니다. 회사 영문 브랜드 관계는 추가 확인 대상입니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/distinction/comparator",
+      "text": "수동 청소 도구와 자동 구동 청소장비라는 정비 방식",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/distinction/conditions",
+      "text": "같은 구경·오염·작업인원 조건의 작업시간 및 세척 품질 비교자료가 없습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/distinction/judgment",
+      "text": "작업 방식의 차이는 검토할 수 있으나 인시 절감률이나 세척 우수성은 비교 불가입니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/highlights/0",
+      "text": "공식 리플릿의 업체·품목과 사후 현장 전시사진을 대조했습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/highlights/2",
+      "text": "차량 내부 탑재 여부보다 정비장비 보관·반출과 군수지원 범위를 먼저 확인할 대상입니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/followUps/0",
+      "text": "실제 출품 형식과 공급 가능한 정비 대상 범위는 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/followUps/1",
+      "text": "보관·운반·현장 정비에 필요한 지원장비 구성은 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-components.json",
+      "jsonPointer": "/cases/0/followUps/2",
+      "text": "동일 조건의 정비 인시와 세척 결과를 확인한 자료가 있습니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/reason",
+      "text": "차내 상호통화·배선·회전 접속부품은 지휘소와 의무후송 차량의 임무장비 연결에 관련됩니다. 항공·우주용 부품은 차량 적합성을 따로 확인합니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/verificationNote",
+      "text": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/distinction/comparator",
+      "text": "차량 내부 통신장치와 배선·회전 연결 부품",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/distinction/conditions",
+      "text": "핀배열·접점 수명·통신규격의 동일 조건 비교는 없습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/highlights/1",
+      "text": "커넥터·전선·슬립링·EMA도 각각 기록했습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/highlights/2",
+      "text": "독립 부스와 DTaQ 공동 전시를 분리했습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/followUps/0",
+      "text": "전시된 슬립링 개별 모델과 실물 목록은 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/followUps/1",
+      "text": "VIC-7DK의 대상 차량·무전기 인터페이스는 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/followUps/2",
+      "text": "자사 부스와 공동관의 품목·부스번호를 구분할 수 있습니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/reason",
+      "text": "차량 운용부대의 훈련·군수지원 범위를 검토할 사례이며 차량 탑재 구성품으로 분류하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/verificationNote",
+      "text": "공식 리플릿의 업체·제품을 재추출하고 사후 기사 본문과 대조했습니다. 기관 홍보계열 자료이며 독립 성능검증이 아닙니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/distinction/comparator",
+      "text": "동일 임무·운용조건의 대체 장비",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/distinction/conditions",
+      "text": "차량 탑재 유탄발사장치와의 호환성은 확인되지 않았습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/distinction/judgment",
+      "text": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/direction/interpretation",
+      "text": "훈련용 보급품을 장비 공급 후 운용지원과 함께 제시하는 접근으로 해석됩니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/highlights/0",
+      "text": "차량 운용부대의 훈련·군수지원 범위를 검토할 사례이며 차량 탑재 구성품으로 분류하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/highlights/1",
+      "text": "차량 탑재 유탄발사장치와의 호환성은 확인되지 않았습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/highlights/2",
+      "text": "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/followUps/0",
+      "text": "차량용 발사장치와 호환되는 형식은 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/followUps/1",
+      "text": "모형 전시품과 실제 훈련용 공급품은 어떻게 구분됩니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/0/followUps/2",
+      "text": "보관·운반 요구와 훈련지원 범위는 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/reason",
+      "text": "드론과 운용단말을 함께 살펴볼 수 있어 지휘소 차량의 정찰정보 연계 검토에 참고됩니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/verificationNote",
+      "text": "공식 리플릿의 업체·제품을 재추출하고 사후 기사 본문과 대조했습니다. 기관 홍보계열 자료이며 독립 성능검증이 아닙니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/distinction/comparator",
+      "text": "동일 임무·운용조건의 대체 장비",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/distinction/conditions",
+      "text": "차량 탑재·주행 중 운용·연동 인터페이스는 공개 근거가 없습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/distinction/judgment",
+      "text": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/direction/interpretation",
+      "text": "비행체 단품보다 운용단말을 포함한 감시·정찰 운용체계를 제시하는 방향으로 해석됩니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/highlights/0",
+      "text": "드론과 운용단말을 함께 살펴볼 수 있어 지휘소 차량의 정찰정보 연계 검토에 참고됩니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/highlights/1",
+      "text": "차량 탑재·주행 중 운용·연동 인터페이스는 공개 근거가 없습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/highlights/2",
+      "text": "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/followUps/0",
+      "text": "전시 기체의 정확한 모델과 단말 구성은 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/followUps/1",
+      "text": "차량 내부 단말 설치·전원·통신 요구는 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/1/followUps/2",
+      "text": "정찰정보를 지휘체계로 전달하는 공개 인터페이스가 있습니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/reason",
+      "text": "시야 유지장치의 구성과 정비성을 비교할 항공 분야 사례입니다. 차량 적용품 출품으로 확대하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/verificationNote",
+      "text": "공식 리플릿의 업체·제품을 재추출하고 사후 기사 본문과 대조했습니다. 기관 홍보계열 자료이며 독립 성능검증이 아닙니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/distinction/comparator",
+      "text": "동일 임무·운용조건의 대체 장비",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/distinction/conditions",
+      "text": "항공용 제품이며 장갑차 유리·와이퍼·세척액 계통과의 적용성은 미검증입니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/distinction/judgment",
+      "text": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/direction/interpretation",
+      "text": "완성 플랫폼 이외에 시야 유지 부품을 수출 품질 사례로 제시하는 구성으로 해석됩니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/highlights/0",
+      "text": "시야 유지장치의 구성과 정비성을 비교할 항공 분야 사례입니다. 차량 적용품 출품으로 확대하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/highlights/1",
+      "text": "항공용 제품이며 장갑차 유리·와이퍼·세척액 계통과의 적용성은 미검증입니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/highlights/2",
+      "text": "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/followUps/0",
+      "text": "전시품의 정확한 구성과 공급 범위는 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/followUps/1",
+      "text": "차량용 적용 이력 또는 별도 제품이 있습니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/2/followUps/2",
+      "text": "세척성능·환경시험·정비주기 자료를 제공할 수 있습니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/reason",
+      "text": "제동 마찰재와 제조·시험 역량을 검토할 항공용 사례입니다. 차량용 제동품과 구분합니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/verificationNote",
+      "text": "공식 리플릿의 업체·제품을 재추출하고 사후 기사 본문과 대조했습니다. 기관 홍보계열 자료이며 독립 성능검증이 아닙니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/distinction/comparator",
+      "text": "동일 임무·운용조건의 대체 장비",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/distinction/conditions",
+      "text": "동일 하중·온도·반복제동 조건의 비교자료가 없어 차량용 우수성을 판단할 수 없습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/distinction/judgment",
+      "text": "정량 비교자료가 없으므로 성능 우위를 판단하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/direction/interpretation",
+      "text": "특정 항공기 적용 부품을 통해 소재 제조와 품질보증 역량을 드러내는 구성으로 해석됩니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/highlights/0",
+      "text": "제동 마찰재와 제조·시험 역량을 검토할 항공용 사례입니다. 차량용 제동품과 구분합니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/highlights/1",
+      "text": "동일 하중·온도·반복제동 조건의 비교자료가 없어 차량용 우수성을 판단할 수 없습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/highlights/2",
+      "text": "부스 좌표와 개별 모델의 확인 범위를 넘겨 추정하지 않습니다.",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/followUps/0",
+      "text": "항공용 전시품과 차량용 공급품의 차이는 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/followUps/1",
+      "text": "차량의 제동 반복조건에 대한 시험자료가 있습니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/pavilion-followup.json",
+      "jsonPointer": "/cases/3/followUps/2",
+      "text": "교체·검사·수리 범위와 공급 조건은 무엇입니까?",
+      "rationale": "Original editorial engineering interpretation, comparison limitation, verification method or follow-up question; not paraphrased article content. Kept public without shortening.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/exhibit/summary",
+      "text": "자사 부스의 부품군은 회사 자료에서 확인했다. 슬립링 10여종은 이름이 불명확해 하나의 제품군으로 등록하며 개수를 임의 확장하지 않습니다.",
+      "rationale": "Company booth and slipring material comes from yeonhab-report, not DTaQ 412.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/direction/observation",
+      "text": "자사 부품 전시는 회사 자료에서 확인했다.",
+      "rationale": "Company booth material comes from yeonhab-report.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/direction/interpretation",
+      "text": "공동관 참가를 계열사 관계로 해석하지 않습니다.",
+      "rationale": "Original safeguard about organizational relationships, not an article-derived claim.",
+      "remainsPublic": true
+    },
+    {
+      "file": "data/v2/research/adex-2025/small-systems.json",
+      "jsonPointer": "/cases/1/distinction/judgment",
+      "text": "우주급·QPL 표기는 차량 적합성 보증과 구분합니다.",
+      "rationale": "QPL/space-grade qualification statement belongs to other source and original verification limit.",
+      "remainsPublic": true
+    }
+  ],
+  "countedSentences": [
+    {
+      "text": "DQ마크 공동관의 전투차량 승무원 헬멧이다.",
+      "wordCount": 5,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/sections/0/text"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/exhibit/summary"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/direction/observation"
+        }
+      ]
+    },
+    {
+      "text": "마네킹에 헬멧·통신장비를 착용한 실물이다.",
+      "wordCount": 4,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/sections/2/text"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/highlights/0"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/exhibit/summary"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/exhibit/items/0/form"
+        }
+      ]
+    },
+    {
+      "text": "세부 모델은 미확인이다.",
+      "wordCount": 3,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/sections/2/text"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/highlights/0"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/exhibit/summary"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/exhibit/items/0/form"
+        }
+      ]
+    },
+    {
+      "text": "편집 해석: 품질인증을 내세운 승무원 장비 제안이다.",
+      "wordCount": 7,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/sections/4/text"
+        }
+      ]
+    },
+    {
+      "text": "일반 기능은 전시형의 시험성적·차량 호환성을 입증하지 않는다.",
+      "wordCount": 7,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/limitations/0"
+        }
+      ]
+    },
+    {
+      "text": "기사로 방사능 측정기 출품을 확인했다.",
+      "wordCount": 5,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/sections/2/text"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/highlights/1"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/exhibit/summary"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/exhibit/items/1/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/direction/observation"
+        }
+      ]
+    },
+    {
+      "text": "개별 모델·사진은 미식별이다.",
+      "wordCount": 3,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/sections/2/text"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/highlights/1"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/exhibit/summary"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/exhibit/items/1/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/direction/observation"
+        }
+      ]
+    },
+    {
+      "text": "편집 해석: 착용품과 안전 측정장비를 함께 제안했다.",
+      "wordCount": 7,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/sections/4/text"
+        }
+      ]
+    },
+    {
+      "text": "일반 제원은 전시형에 귀속하지 않는다.",
+      "wordCount": 5,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/limitations/0"
+        }
+      ]
+    },
+    {
+      "text": "포구 청소용 정비장비를 별도 전시대에 제시했다.",
+      "wordCount": 6,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sections/0/text"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/exhibit/items/0/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/exhibit/summary"
+        }
+      ]
+    },
+    {
+      "text": "표지는 105MM ABC SYSTEM이다.",
+      "wordCount": 4,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sections/1/text"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/exhibit/items/0/form"
+        }
+      ]
+    },
+    {
+      "text": "다른 구경 출품은 미확인이다.",
+      "wordCount": 4,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sections/1/text"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/highlights/1"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/exhibit/items/0/form"
+        }
+      ]
+    },
+    {
+      "text": "공동관에서 HKC 헬멧과 함께 전시했다.",
+      "wordCount": 5,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sections/2/text"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/direction/observation"
+        }
+      ]
+    },
+    {
+      "text": "2025년 11월 기준 K9 패키지 수출은 검토 단계였다.",
+      "wordCount": 8,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sections/3/text"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/sources/0/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/2/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/3/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/sources/2/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/population.json",
+          "jsonPointer": "/sources/1/limitations"
+        }
+      ]
+    },
+    {
+      "text": "계약·인도는 미확인이다.",
+      "wordCount": 2,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sections/3/text"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/direction/interpretation"
+        }
+      ]
+    },
+    {
+      "text": "편집 해석: 완성 장비와 정비 지원장비를 묶으려는 제안이다.",
+      "wordCount": 8,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sections/4/text"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/direction/interpretation"
+        }
+      ]
+    },
+    {
+      "text": "105MM 표지는 K9용 확인이 아니다.",
+      "wordCount": 5,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/limitations/0"
+        }
+      ]
+    },
+    {
+      "text": "공동관 출품품으로 VIC-7DK를 명시했다.",
+      "wordCount": 4,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/sections/2/text"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/highlights/0"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/exhibit/items/5/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/exhibit/summary"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/direction/observation"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/photos/1/variantNote"
+        }
+      ]
+    },
+    {
+      "text": "개별 전시형·사진은 미확인이다.",
+      "wordCount": 3,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/sections/2/text"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/form"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/limitations/0"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/highlights/0"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/exhibit/items/5/form"
+        }
+      ]
+    },
+    {
+      "text": "기관의 사후 보고이며 독립 성능검증이 아니다.",
+      "wordCount": 6,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/sources/0/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/2/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/3/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/sources/2/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/population.json",
+          "jsonPointer": "/sources/1/limitations"
+        }
+      ]
+    },
+    {
+      "text": "리플릿과 같은 기관 계열이다.",
+      "wordCount": 4,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/sources/0/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/2/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/3/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/sources/2/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/population.json",
+          "jsonPointer": "/sources/1/limitations"
+        }
+      ]
+    },
+    {
+      "text": "촬영일·촬영자는 미기재다.",
+      "wordCount": 2,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/sources/0/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/2/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/3/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/sources/2/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/population.json",
+          "jsonPointer": "/sources/1/limitations"
+        }
+      ]
+    },
+    {
+      "text": "글쓴이를 촬영자로 추정하지 않는다.",
+      "wordCount": 4,
+      "locations": [
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/4/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/5/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "jsonPointer": "/narratives/6/sources/0/limitations"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "jsonPointer": "/narratives/1/sources/0/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-components.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/0/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/1/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/2/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/3/sources/1/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/sources/2/limitations"
+        },
+        {
+          "file": "data/v2/research/adex-2025/population.json",
+          "jsonPointer": "/sources/1/limitations"
+        }
+      ]
+    },
+    {
+      "text": "부품 공급과 인증 제품 홍보를 병행한 구성으로 읽힙니다.",
+      "wordCount": 8,
+      "locations": [
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/direction/interpretation"
+        }
+      ]
+    },
+    {
+      "text": "하드웨어 연결과 승무원 통화가 함께 포착됩니다.",
+      "wordCount": 6,
+      "locations": [
+        {
+          "file": "data/v2/research/adex-2025/small-systems.json",
+          "jsonPointer": "/cases/1/distinction/judgment"
+        }
+      ]
+    },
+    {
+      "text": "회차별 자료에 연습용 수류탄, 40mm 연습유탄 기재.",
+      "wordCount": 7,
+      "locations": [
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/0/direction/observation"
+        }
+      ]
+    },
+    {
+      "text": "기관 사후 기사로 출품 확인; 개별 모델·규격 미확인",
+      "wordCount": 8,
+      "locations": [
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/0/exhibit/items/0/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/0/exhibit/items/1/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/1/exhibit/items/0/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/2/exhibit/items/0/form"
+        },
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/3/exhibit/items/0/form"
+        }
+      ]
+    },
+    {
+      "text": "회차별 자료에 멀티콥터형 다목적 드론 기재.",
+      "wordCount": 6,
+      "locations": [
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/1/direction/observation"
+        }
+      ]
+    },
+    {
+      "text": "회차별 자료에 항공기용 방풍유리 세척기 조립체 기재.",
+      "wordCount": 7,
+      "locations": [
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/2/direction/observation"
+        }
+      ]
+    },
+    {
+      "text": "회차별 자료에 F-16 Block50/52 카본 브레이크 디스크 기재.",
+      "wordCount": 8,
+      "locations": [
+        {
+          "file": "data/v2/research/adex-2025/pavilion-followup.json",
+          "jsonPointer": "/cases/3/direction/observation"
+        }
+      ]
+    },
+    {
+      "text": "한국씨앤오테크 연습용 수류탄·40mm 연습유탄",
+      "wordCount": 4,
+      "locations": [
+        {
+          "file": "data/v2/app/events/adex-2025.json",
+          "jsonPointer": "/photos/0/caption"
+        }
+      ]
+    },
+    {
+      "text": "ADEX 2025 수성 포구 자동청소기와 뒤쪽 HKC 승무원 헬멧",
+      "wordCount": 9,
+      "locations": [
+        {
+          "file": "data/v2/app/events/adex-2025.json",
+          "jsonPointer": "/photos/2/caption"
+        }
+      ]
+    },
+    {
+      "text": "ADEX 2025 DTaQ 공동 전시대 전경",
+      "wordCount": 6,
+      "locations": [
+        {
+          "file": "data/v2/app/events/adex-2025.json",
+          "jsonPointer": "/photos/4/caption"
+        }
+      ]
+    },
+    {
+      "text": "ADEX 2025 DQ마크 전시대 사선 시점 — 포구 청소기·승무원 헬멧과 관람객",
+      "wordCount": 11,
+      "locations": [
+        {
+          "file": "data/v2/app/events/adex-2025.json",
+          "jsonPointer": "/photos/8/caption"
+        }
+      ]
+    },
+    {
+      "text": "네스앤텍 드론 및 운용 화면",
+      "wordCount": 5,
+      "locations": [
+        {
+          "file": "data/v2/app/events/adex-2025.json",
+          "jsonPointer": "/photos/41/caption"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "targetMaximum": 200,
+    "uniqueSentenceCount": 35,
+    "proposedDerivedWords": 196,
+    "withinLimit": true,
+    "sourceLimitsHidden": false,
+    "operationalFilesEdited": false,
+    "testsRerun": false,
+    "proposalOldValuesVerified": true,
+    "notes": "Source attribution classification is explicit and reviewable; conservative extra image captions and original narrative limits are included. No general product specifications transferred to event variants.",
+    "revisionNote": "Initial message-only 199-word pool was not the final patch. Exact-pointer proposal recalculation excludes two unrelated pavilion-followup cases, preserves institutional-family/writer-date limits, restores military crew/separate stand wording and dates the K9 plan.",
+    "proposalOldValueGuardCount": 47
+  },
+  "applicationResult": {
+    "status": "applied",
+    "oldValueGuardsPassed": 47,
+    "files": [
+      "docs/research-v2/redesign-narratives-components-adex.json",
+      "docs/research-v2/redesign-narratives-adex-next.json",
+      "data/v2/research/adex-2025/pavilion-components.json",
+      "data/v2/research/adex-2025/pavilion-followup.json",
+      "data/v2/research/adex-2025/small-systems.json",
+      "data/v2/research/adex-2025/population.json"
+    ],
+    "asOf": "2026-11-16",
+    "actor": "root",
+    "buildPending": false,
+    "verification": {
+      "build": "passed",
+      "check": "209/209",
+      "evidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json"
+    }
+  }
+}
