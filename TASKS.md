@@ -1,3 +1,9 @@
+# RELEASE-2.0.0 완료
+
+verifying → completed. main·정식 태그·Latest 릴리즈·공개 URL 반영과 검증 완료. 증거 docs/evidence/OFFICIAL_RELEASE_2026-11-16.json. 기존 전체 자료 조사 및 PDF/실기기 잔여 범위는 별도 작업으로 유지한다.
+
+---
+
 # RELEASE-2.0.0
 
 상태 new_task → planned → executing. 사용자 공개·정식 버전 관리 요청을 승인으로 적용.

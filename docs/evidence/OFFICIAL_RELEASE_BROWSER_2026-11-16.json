@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-11-16T02:15:49.607Z",
+  "status": "passed_public_browser_checks",
+  "report": {
+    "url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/#report?event=dsei-2025",
+    "heading": "차륜형 장갑차 경쟁, 임무형과 현지 생산·연동이 관건",
+    "imagesLoaded": 3,
+    "horizontalOverflow": false,
+    "screenshot": "docs/evidence/screenshots/official-v2-report-desktop.jpg"
+  },
+  "map": {
+    "event": "adex-2025",
+    "officialMapAndBoothButtonsRendered": true,
+    "companyNavigation": "Hanwha Aerospace"
+  },
+  "company": {
+    "company": "Hanwha Aerospace",
+    "materialCards": [
+      "2026 official brochure PDF",
+      "ADEX 2025 official announcement"
+    ],
+    "referenceImagesLoaded": 6,
+    "horizontalOverflow": false,
+    "productScope": "K9 references clearly distinguished from K9A3 roadmap"
+  },
+  "legacyPreview": {
+    "url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/#report?event=dsei-2025",
+    "sameHeading": true,
+    "imagesLoaded": 3,
+    "horizontalOverflow": false
+  },
+  "githubRelease": {
+    "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/releases/tag/v2.0.0",
+    "visibleTitle": "FIELDNOTE v2.0.0 — 공식 릴리즈",
+    "visibleBadge": "Latest",
+    "commit": "0091d1d",
+    "anonymous": true
+  },
+  "scope": "Public desktop browser checks. Previous local mobile checks retained; no new physical phone or report-PDF claim."
+}

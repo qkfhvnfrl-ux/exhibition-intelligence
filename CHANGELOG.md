@@ -1,3 +1,9 @@
+# 2.0.0 공식 게시 완료 — 2026-11-16
+
+[정식 릴리즈](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/releases/tag/v2.0.0)와 기본 웹앱 공개 완료. 자동검사230개·CI·Pages·익명 HTTP·공개 브라우저 검증 통과. 정식 앱 커밋 0091d1df622be33a94333e68975f878cc3877500.
+
+---
+
 # 2.0.0 — 2026-11-16
 
 - 공식 릴리즈로 버전 관리 전환: 기본 Pages 주소·main·정식 v2.0.0 태그.

@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-11-16T02:15:49.609Z",
+  "status": "completed",
+  "version": "2.0.0",
+  "tag": "v2.0.0",
+  "releaseCommit": "0091d1df622be33a94333e68975f878cc3877500",
+  "tagObject": "ed5dee7ddd0306e8e8d1036f4e2d053870228f13",
+  "sourceImplementation": "566f4c1",
+  "authorization": "User explicitly requested public GitHub release and official version management instead of preview.",
+  "repository": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence",
+  "url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
+  "releaseUrl": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/releases/tag/v2.0.0",
+  "githubRelease": {
+    "id": 446533986,
+    "latest": true,
+    "draft": false,
+    "prerelease": false,
+    "publishedAt": "2026-11-16T02:14:14Z"
+  },
+  "push": {
+    "mode": "atomic_normal_fast_forward_main_and_annotated_tag",
+    "force": false,
+    "mainBefore": "a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7",
+    "mainAfter": "0091d1df622be33a94333e68975f878cc3877500",
+    "legacyDevelopmentBranchChanged": false
+  },
+  "validation": {
+    "build": "passed",
+    "tests": 230,
+    "passed": 230,
+    "failed": 0,
+    "skipped": 0,
+    "ci": {
+      "status": "success",
+      "runId": 43790594165,
+      "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43790594165"
+    },
+    "tagCi": {
+      "status": "success",
+      "runId": 43790594283
+    },
+    "pages": {
+      "status": "success",
+      "runId": 43790594187,
+      "url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/actions/runs/43790594187"
+    },
+    "publicRuntimeFilesPassed": 244,
+    "publicManifestChecksPassed": 2,
+    "nonRuntimeMarker404": [
+      ".nojekyll",
+      "preview/.nojekyll"
+    ],
+    "nonRuntimeNote": "Build-only markers are omitted in GitHub artifact/public serving; original failed probes retained in HTTP_INITIAL evidence. No runtime failure excluded."
+  },
+  "assets": {
+    "sourceCommit": "0091d1df622be33a94333e68975f878cc3877500",
+    "ciRun": 43790594165,
+    "sourceArtifact": "fieldnote-build-0091d1df622be33a94333e68975f878cc3877500",
+    "file": "FIELDNOTE-v2.0.0-webapp.zip",
+    "bytes": 32593699,
+    "sha256": "a708ff157c32e9eb037608529f0fdf93f16b84d4374bcc3332bb193f03d2f418"
+  },
+  "evidenceFiles": [
+    "OFFICIAL_RELEASE_LOCAL_2026-11-16.json",
+    "OFFICIAL_RELEASE_HTTP_2026-11-16.json",
+    "OFFICIAL_RELEASE_HTTP_INITIAL_2026-11-16.json",
+    "OFFICIAL_RELEASE_BROWSER_2026-11-16.json"
+  ],
+  "remainingRisks": [
+    "Some registered companies/products still lack photos or manufacturer catalogs.",
+    "External references may change or block access.",
+    "Latest report PDF regeneration and physical phone verification remain outside the completed release scope."
+  ],
+  "policy": {
+    "primary": "main and root Pages URL",
+    "legacyPreview": "identical official build",
+    "developmentBranches": "CI only; no automatic public deployment",
+    "futureVersions": "SemVer; patch for data/fixes, minor for added features; published tags are immutable"
+  }
+}

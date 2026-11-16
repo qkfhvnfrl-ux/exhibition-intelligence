@@ -1,3 +1,9 @@
+# 현재 공식 기준 — v2.0.0
+
+2026-11-16 정식 공개 완료. 앱 커밋 0091d1df622be33a94333e68975f878cc3877500 및 태그 v2.0.0을 기준으로 한다. 다음 작업 체크아웃은 ./exhibition-intelligence-v2-release (상위 프로젝트 루트 기준)이며, 기존 ./exhibition-intelligence의 미커밋 변경은 보존한다. 수정/자료 보강은 patch, 기능 추가는 minor 정식 버전으로 관리한다. preview-only 지침은 과거 기록이다. 새 작업의 실제 게시 범위는 사용자 요청에 따른다.
+
+---
+
 # 최신 승인 — 공식 릴리즈
 
 2026-11-16 사용자 요청: 현재 검증본을 GitHub 공식 릴리즈로 공개하고 이후 정식 버전으로 관리한다. 기존 preview-only·검토 대기 지침보다 우선한다. 버전 v2.0.0, 기본 공개 주소 https://qkfhvnfrl-ux.github.io/exhibition-intelligence/ . main 정상 병합·push, 정식 태그와 릴리즈 게시를 승인받은 범위로 실행한다. /preview/는 같은 정식 빌드의 호환 주소로 유지한다. 기존 이력·브라우저 저장 데이터·미커밋 변경은 보존한다.

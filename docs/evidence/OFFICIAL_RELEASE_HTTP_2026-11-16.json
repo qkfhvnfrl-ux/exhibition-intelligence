@@ -1,0 +1,3962 @@
+{
+  "checkedAt": "2026-11-16T02:12:03.720Z",
+  "base": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/",
+  "expectedCommit": "0091d1df622be33a94333e68975f878cc3877500",
+  "version": "2.0.0",
+  "manifests": {
+    "root": {
+      "version": "2.0.0",
+      "releaseTag": "v2.0.0",
+      "productionCommit": "0091d1df622be33a94333e68975f878cc3877500",
+      "previewCommit": "0091d1df622be33a94333e68975f878cc3877500",
+      "runId": "43790594187"
+    },
+    "preview/": {
+      "version": "2.0.0",
+      "releaseTag": "v2.0.0",
+      "productionCommit": "0091d1df622be33a94333e68975f878cc3877500",
+      "previewCommit": "0091d1df622be33a94333e68975f878cc3877500",
+      "runId": "43790594187"
+    }
+  },
+  "fileCountPerAddress": 123,
+  "requestCount": 248,
+  "passed": 244,
+  "failed": [],
+  "results": [
+    {
+      "path": ".nojekyll",
+      "error": "404 https://qkfhvnfrl-ux.github.io/exhibition-intelligence/.nojekyll?release=v2.0.0",
+      "matches": false
+    },
+    {
+      "path": "assets/adex2025/k2pl-event-01.jpg",
+      "status": 200,
+      "bytes": 228154,
+      "sha256": "cf68e69710366d23dd41e3491000c4115565b2f26ebfcc4b3659730a5315ed0b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/light-105-eurosatory2026-01.jpg",
+      "status": 200,
+      "bytes": 304109,
+      "sha256": "5dd80611f9ad285068567420048071bec0e2a7bf419bda21c71ab195ee482438",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/light-105-eurosatory2026-02.jpg",
+      "status": 200,
+      "bytes": 485042,
+      "sha256": "6604e9ce7273e5afd762fbc309624e7a51a1f2511b5dfaa2bfee2c1c49cbc10b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/light-105-event-01.jpg",
+      "status": 200,
+      "bytes": 310237,
+      "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/light-105-wds2026-01.jpg",
+      "status": 200,
+      "bytes": 287753,
+      "sha256": "ed5956e7bd51c1577b1e46df189711ee25ae2f5d4531f9370ad05080533b48c5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/rcws-eurosatory2026-01.jpg",
+      "status": 200,
+      "bytes": 275007,
+      "sha256": "f9e4611325b7f624ea9d56cee9399717e43544163a7f351e1cbcbd816c978941",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/rcws-event-01.jpg",
+      "status": 200,
+      "bytes": 246948,
+      "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/adex2025-new-kia-family.jpg",
+      "status": 200,
+      "bytes": 452337,
+      "sha256": "a184930d3cff5ad8e49476cedcf8bed5e8b8674ddd99ab61b9d6a2dc218f7693",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/adex2025-new-kmtv-front.jpg",
+      "status": 200,
+      "bytes": 439007,
+      "sha256": "62a7c344970dbca6cd6dae82f3d532cdf1ba33636883811999b112fb5d1cc1d5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/adex2025-new-rotem-booth.jpg",
+      "status": 200,
+      "bytes": 346351,
+      "sha256": "89be393f6aca5a8fae6b36e0f1191d03fc204fef12ee1778daf3b272729a0629",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/adex2025-new-tasman-front.jpg",
+      "status": 200,
+      "bytes": 413934,
+      "sha256": "627548af6e2c960b4566e7257c2970c39a63b55664ed789460fef1195b69f3bc",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/arma-ii-00.webp",
+      "status": 200,
+      "bytes": 352404,
+      "sha256": "addbf63377971d9381663c910b70f32e23c91c8f9443afcc17f1b50fe58dc35e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/arma-ii-01.webp",
+      "status": 200,
+      "bytes": 475830,
+      "sha256": "ee7c1dff45819b2a7d3057f4685712d3b47f771846a09b172559d9c7d8776298",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-00.webp",
+      "status": 200,
+      "bytes": 351440,
+      "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-01.webp",
+      "status": 200,
+      "bytes": 133060,
+      "sha256": "bde53a504d88c2c4ad98a393539a2cd5162d615aef3590fa7e414cabda426547",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-02.webp",
+      "status": 200,
+      "bytes": 105994,
+      "sha256": "dfa659889afcf61910663afec210b716d98d8c90014b5c2afe0cf24ca6238da3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-07.webp",
+      "status": 200,
+      "bytes": 124600,
+      "sha256": "d730fae4db1f5275fccdc3b94a5da71b2284dded268ead41da9d3ac4f5972661",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-08.webp",
+      "status": 200,
+      "bytes": 231962,
+      "sha256": "d69f2d5e1178ae5f40e705533fdbaecab10cee1907df3a64785497d4b59f419d",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-12.webp",
+      "status": 200,
+      "bytes": 158648,
+      "sha256": "77f87d835eb150a42a13dec3faf3805d620652374668b23b7d5527f29ae403d8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-14.webp",
+      "status": 200,
+      "bytes": 106926,
+      "sha256": "806e6803aa0a0370488fe8c052d26c1bb743bee2a29341c2dabc738f5a991f81",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-16.webp",
+      "status": 200,
+      "bytes": 130844,
+      "sha256": "c496d985a7713de8ba9842b6fe36dfacff4c51c6532723b34049c654a078e34d",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-18.webp",
+      "status": 200,
+      "bytes": 212806,
+      "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-19.webp",
+      "status": 200,
+      "bytes": 597506,
+      "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-21.webp",
+      "status": 200,
+      "bytes": 267276,
+      "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-22.webp",
+      "status": 200,
+      "bytes": 265420,
+      "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/bushmaster-reference-awm.jpg",
+      "status": 200,
+      "bytes": 437522,
+      "sha256": "f20b1304adc97fcf48e326ad92763fcca597e9e5d0f905ffa2271582c8e54614",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/cobra-ii-00.webp",
+      "status": 200,
+      "bytes": 436416,
+      "sha256": "2120fb5b5c9317560c6cfc5861dc7dbad64ef858ed5ccbd4158bf05fedd6937b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/cobra-ii-08.webp",
+      "status": 200,
+      "bytes": 143476,
+      "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/cobra-ii-idef2013-reference.jpg",
+      "status": 200,
+      "bytes": 299179,
+      "sha256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-new-kia-booth.jpg",
+      "status": 200,
+      "bytes": 392836,
+      "sha256": "05ae2d39572f355278990fb628f6dac75e3b554574212e9823d4d1dd2dd6677f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-patria-6x6-booth.jpg",
+      "status": 200,
+      "bytes": 480064,
+      "sha256": "0c760053a3eb918cd3a2335fc6d4dc83f2ab3143ff0ce50f9425a5d6a9c57242",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-patria-6x6-cavs.jpg",
+      "status": 200,
+      "bytes": 533534,
+      "sha256": "772ef5351e69a756bb326e596a07c7ebe38ff24158f5a5e81b7f6bc525773a5b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-patria-trackx.jpg",
+      "status": 200,
+      "bytes": 517394,
+      "sha256": "accf4aff6dd002ddf612a17b4450f6703b523a37316f01a8f52628042382aa9b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-patria-tremos.jpg",
+      "status": 200,
+      "bytes": 517742,
+      "sha256": "2a04dbaed61e31043edfbe127c562a41084bb013bdae5e4f5df5a7a3cc6e10a0",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/eurosatory2026-new-kia-booth.jpg",
+      "status": 200,
+      "bytes": 482730,
+      "sha256": "1a22e5316b518f0acd49228dc7e5a0fdbf4856b810b603e90d0092372d5ef62c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/eurosatory2026-new-kia-kltv.jpg",
+      "status": 200,
+      "bytes": 450823,
+      "sha256": "db31a7952f3a5ddaae43e48d5ac3f800c4065e3b0368d7bf0e9b79f2fa1c83d3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/eurosatory2026-new-kia-tasman.jpg",
+      "status": 200,
+      "bytes": 429522,
+      "sha256": "84ce8f414a08a8ad3b8000b55c4d4833da6ac805489e9e1f38d838408b5767e5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/eurosatory2026-new-rotem.jpg",
+      "status": 200,
+      "bytes": 549682,
+      "sha256": "62c5bdd392a2a63340697b73bb7717793a0f1fc85500f076a6530b22259301bd",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-libelle-event.jpg",
+      "status": 200,
+      "bytes": 447385,
+      "sha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-acv-rws.webp",
+      "status": 200,
+      "bytes": 125102,
+      "sha256": "0f6030fd76a7db78166bc68cd9f13a86cd753dbd831744a7ea4493be41772333",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-acv-thruster.webp",
+      "status": 200,
+      "bytes": 131568,
+      "sha256": "6a7aebbe81f0e8bbcf338a136b3cf29385187a4385350956e854f7fdd4b0b43e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-ajban-441ae.webp",
+      "status": 200,
+      "bytes": 273456,
+      "sha256": "5d48473cfdbcd757aceb18ca3f63eaf5d17ec05d02514ddf20420acfb0aa54ac",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-ajban-442a.webp",
+      "status": 200,
+      "bytes": 263556,
+      "sha256": "b88053b5f20fdb3b4bc9b6242017e05bb66b1aa336fe340b70bc45c29aed91ac",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-ajban-452a.webp",
+      "status": 200,
+      "bytes": 276696,
+      "sha256": "6c923b1e3d2268d3d8b6afd42f8629130e7688d2566582f8d1d79eb1d802ec3c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-cockerill-ix.webp",
+      "status": 200,
+      "bytes": 221340,
+      "sha256": "91b52fbd2b42f554083f88a45b5a516febb9a5929fe4f7ac953f4e123d71654f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-hafeet.webp",
+      "status": 200,
+      "bytes": 234206,
+      "sha256": "0bef0345cec60c3e923b0f1f8098876c7d9de10b35c6e64e00b063587c59eb4f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-havoc-01.webp",
+      "status": 200,
+      "bytes": 215038,
+      "sha256": "d76428520c370a61e8a05463bd05cc5954e5726166ab7e59ca7953fdfcbee3b2",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-havoc-02.webp",
+      "status": 200,
+      "bytes": 241978,
+      "sha256": "caa14f707ff0bbd4a0f8eeebe9257fed2598bf0d7f0f242ddfce1785020afde9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-havoc-03.webp",
+      "status": 200,
+      "bytes": 231432,
+      "sha256": "4a0e4e56c0c98f2cf6897161d96cc9ed2ddf3d089bf1ff93f60470d79ea17dda",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-t90ms-front.webp",
+      "status": 200,
+      "bytes": 313620,
+      "sha256": "1163407c74001d71eb8104f9fd5375ce3268299b9099ab0cc48a6dc318607af9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-t90ms-side.webp",
+      "status": 200,
+      "bytes": 359098,
+      "sha256": "3c6e3bbc62b652030f69bf4f340f492391fad9f0c6165e7c99dd93cab76a2b63",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-00.webp",
+      "status": 200,
+      "bytes": 170684,
+      "sha256": "d07c142cab7202e298968d83e0de9cbbb2c59a8a814a10ab4fbe3a8c40043309",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-01.webp",
+      "status": 200,
+      "bytes": 122658,
+      "sha256": "735b97e00eae905e9fe53f2b23483dec5d21bb04edf5a2e6c145b313fe2465f6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-05.webp",
+      "status": 200,
+      "bytes": 227336,
+      "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-08.webp",
+      "status": 200,
+      "bytes": 90994,
+      "sha256": "77b4e4a21dffca8e714884022b9c511566c2a0a296d66a6f54dc2ae79c5c1bbf",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-09.webp",
+      "status": 200,
+      "bytes": 183356,
+      "sha256": "aca6680ea2ff6b2c7a9159356848faa911e46769120b27a40057e7ff16b3514b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-10.webp",
+      "status": 200,
+      "bytes": 101760,
+      "sha256": "74042ccaca9e680dd01b30393fa7b80d2bcd340160e798fe31f3d661b4848d0f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-11.webp",
+      "status": 200,
+      "bytes": 108854,
+      "sha256": "a6c55340ca54f4aba3f3031d87598c16645109db9d1f2fb32618b21cc5072454",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-17.webp",
+      "status": 200,
+      "bytes": 266650,
+      "sha256": "3bfe15fb68e24993dc1b83c843583f3753fd9430941a14822150cd3c00927337",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-23.webp",
+      "status": 200,
+      "bytes": 122256,
+      "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k808-peru-00.webp",
+      "status": 200,
+      "bytes": 107834,
+      "sha256": "e2b6aca06dec2953da24a510d0f33cf73a5d5f411539a631e63d6e19549adf9b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k808-peru-12.webp",
+      "status": 200,
+      "bytes": 509296,
+      "sha256": "2b0f1f6bf39db012c28fa198cc43c1169a3de746fdb9ed72dbf4a3a85b0e0973",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k808-peru-14.webp",
+      "status": 200,
+      "bytes": 390294,
+      "sha256": "b238205a6b0b8951d92d9f3709e77a03e2f025c2dad8044eb6fd8c72d1ec18cf",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k808-peru-15.webp",
+      "status": 200,
+      "bytes": 439848,
+      "sha256": "8f63c7226570e1e5363d84fc4ce1997b4380df0dd3c0b80ff101a733e2e993a4",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k9a3-02.webp",
+      "status": 200,
+      "bytes": 62706,
+      "sha256": "f9d30ff810da2c998ee3d07b215388bad3275fe866c7c3edb9f969834ab04d25",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k9a3-03.webp",
+      "status": 200,
+      "bytes": 191384,
+      "sha256": "aaf24af505a5b7b17d4a6faa30d2ff3332f9a98e408a752b95bbf8fccec56e5c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k9a3-07.webp",
+      "status": 200,
+      "bytes": 104330,
+      "sha256": "41df7fff5d51af5e282bc138d54edaaa60267bb094db84a239fd7f61a4f341bc",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k9a3-11.webp",
+      "status": 200,
+      "bytes": 404398,
+      "sha256": "59473682382b3adc312870dfdf99d705f6208a947260ff1e031deb8ae06ee9ed",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/kaplan-hybrid-00.webp",
+      "status": 200,
+      "bytes": 167210,
+      "sha256": "2793449fd6e58feae4a17e4472e0724ffa55066248f37d3ced4c08c931c8d9d2",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/leopard-2a8-02.webp",
+      "status": 200,
+      "bytes": 309676,
+      "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/leopard-2a8-04.webp",
+      "status": 200,
+      "bytes": 145892,
+      "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/leopard-2a8-07.webp",
+      "status": 200,
+      "bytes": 46876,
+      "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/lynx-skyranger35-03.webp",
+      "status": 200,
+      "bytes": 342876,
+      "sha256": "077aa8b758ffa16300320af3e9d9cec88dbe6bd64927aa6962ad07a7ac39878e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/lynx-skyranger35-05.webp",
+      "status": 200,
+      "bytes": 158086,
+      "sha256": "d03a2e66b69b36a584a4c848898691c1b4b88dea8fdc4da360af153ebafcee62",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/lynx-skyranger35-07.webp",
+      "status": 200,
+      "bytes": 136660,
+      "sha256": "cb870eb53e653c35dc21428552ec8501499a211249f43be9debb8a5e7647613e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-bae-acv-2016.jpg",
+      "status": 200,
+      "bytes": 732334,
+      "sha256": "48d90602fa6360edb1450dc97106e231ba00cdd806af86e45ba00f77a0c35f75",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-bae-acv-2018.jpg",
+      "status": 200,
+      "bytes": 468234,
+      "sha256": "779ed29f0b2483920bfd96f6069b0345d84d861916bd0f4a8ab0db4809221d9a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-bae-acv-2020.jpg",
+      "status": 200,
+      "bytes": 529993,
+      "sha256": "6449e74634707fb4f5a67d6a778d5bfb599cc1111fc2b57a97303e55b4ae9e43",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-hanwha-k9-front.webp",
+      "status": 200,
+      "bytes": 90048,
+      "sha256": "cb50a759611313c654734b9b0495a254e79c67419ee6679bd9a0317bda1a978a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-hanwha-k9-side.webp",
+      "status": 200,
+      "bytes": 230230,
+      "sha256": "8df161d016a34cad6cc506d6f242fe006a34196374b6ce9e025857a1d41194f6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-kongsberg-crows.jpg",
+      "status": 200,
+      "bytes": 695999,
+      "sha256": "2e640b5c978dfa41e99e49b4417b79a442c6dd02250a354575e5ca18234f52a3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-kongsberg-m151.jpg",
+      "status": 200,
+      "bytes": 55057,
+      "sha256": "b58c76fa710c31c5866b0152f882e3f52a14d58ef711071afbb4d6edff09600b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-kongsberg-tapv.jpg",
+      "status": 200,
+      "bytes": 247324,
+      "sha256": "427756368a898b08f13d789cae855a369da4c0b9a8a55e8b2307873091ae0cd8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-milrem-themis-size.png",
+      "status": 200,
+      "bytes": 749019,
+      "sha256": "79286ba80a99c2d61e1b03378d9154e93c59e7df5de90ddff81f0745d4affca7",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-otokar-cobra2-2024.jpg",
+      "status": 200,
+      "bytes": 115490,
+      "sha256": "867417394e2a7fed327332a8eb8cbfbb28d2754d970582b0aa29abdcd2f536da",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-rheinmetall-lynx-csv.jpg",
+      "status": 200,
+      "bytes": 393842,
+      "sha256": "c46dce684f5a77488ee1c45aaba1a9657bbd262a7e93aba089b5e90a0a1d2579",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-rheinmetall-lynx-rear.jpg",
+      "status": 200,
+      "bytes": 580148,
+      "sha256": "3fc4138386d7d7a7a5b7ae277111a3bed18c146838ba851b980760d47f19c830",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-rheinmetall-lynx120.jpg",
+      "status": 200,
+      "bytes": 698955,
+      "sha256": "8d3bb795b34ea8bb3a66b315ac77ee59f16e9b456d69cd53dd884e231f073d28",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/pars-alpha-00.webp",
+      "status": 200,
+      "bytes": 128670,
+      "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/pars-alpha-11.webp",
+      "status": 200,
+      "bytes": 143864,
+      "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-00.webp",
+      "status": 200,
+      "bytes": 378042,
+      "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-01.webp",
+      "status": 200,
+      "bytes": 156472,
+      "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-02.webp",
+      "status": 200,
+      "bytes": 392676,
+      "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-04.webp",
+      "status": 200,
+      "bytes": 239452,
+      "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-08.webp",
+      "status": 200,
+      "bytes": 292640,
+      "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/piranha-v-reference-ypg.jpg",
+      "status": 200,
+      "bytes": 1260522,
+      "sha256": "d3d32fc517ab57b0b690cfe30dbd477fe9737b2ff6a29f353151120ff5e7116f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/priority-kongsberg-protector-2005.jpg",
+      "status": 200,
+      "bytes": 272488,
+      "sha256": "0cf9af3175c6c799c6966a0033c7fd19083c5b98506b312b8f6b2e4c654827c1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/priority-thales-sophie-2010.jpg",
+      "status": 200,
+      "bytes": 407254,
+      "sha256": "138618185f5a8460fbf73a1c00f9fef38167d67b97220bfc76066ce4e7f1118e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/rch155-tracked-03.webp",
+      "status": 200,
+      "bytes": 114518,
+      "sha256": "7a6b2344d0d3d38a3fb3a07a3d8da28898be4c2ab8c3e965e893cdfda3585ca3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/rch155-tracked-05.webp",
+      "status": 200,
+      "bytes": 146400,
+      "sha256": "49e650894bf87a3760fc6860be722e4d24e81155c0fac7bae232659e60cc68da",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/rch155-tracked-06.webp",
+      "status": 200,
+      "bytes": 116634,
+      "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/themis-k-00.webp",
+      "status": 200,
+      "bytes": 448990,
+      "sha256": "81c4ea6179f5e2483bf1e8f5ca2f79874a46053d4804ea51ee8699f3660fcd13",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/themis-k-21.webp",
+      "status": 200,
+      "bytes": 214990,
+      "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/tulpar-00.webp",
+      "status": 200,
+      "bytes": 251040,
+      "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "data/v2/app/events/adex-2025.json",
+      "status": 200,
+      "bytes": 1011272,
+      "sha256": "041e5d1758380c337dff6f956eeacabd88d636c1e520fee6203ba4dae237efb1",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/events/dsei-2025.json",
+      "status": 200,
+      "bytes": 2493714,
+      "sha256": "01dd5d26545ca8063751de3861ad5a63efcf1add037d1802625ed5bd124aa462",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/events/eurosatory-2026.json",
+      "status": 200,
+      "bytes": 212417,
+      "sha256": "956ac7c61c2bea30a3aa0614fad034fe681d0ca1c05ed6216a215f5862dde13d",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/events/idex-2025.json",
+      "status": 200,
+      "bytes": 218665,
+      "sha256": "da65c7d8619f6dde5471fd9a69657b663ffb80a1288db7b5710b562b52b11603",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/events/saha-2026.json",
+      "status": 200,
+      "bytes": 2134433,
+      "sha256": "01e67e00562bf18fedc57dea5edd4ee5094626f4282d9e5dc303284156696bcd",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/index.json",
+      "status": 200,
+      "bytes": 2983,
+      "sha256": "902f507a8a60b9204e25daea4e8e386b3b82280746da3e55a37fff8915508226",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 3074,
+      "sha256": "dcdf1c909af6b8e5fe2ff7c7f8b90cbd7911855b33b2688a4e5b8c91cbf073d9",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/.nojekyll",
+      "error": "404 https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/.nojekyll?release=v2.0.0",
+      "matches": false
+    },
+    {
+      "path": "preview/assets/adex2025/k2pl-event-01.jpg",
+      "status": 200,
+      "bytes": 228154,
+      "sha256": "cf68e69710366d23dd41e3491000c4115565b2f26ebfcc4b3659730a5315ed0b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/light-105-eurosatory2026-01.jpg",
+      "status": 200,
+      "bytes": 304109,
+      "sha256": "5dd80611f9ad285068567420048071bec0e2a7bf419bda21c71ab195ee482438",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/light-105-eurosatory2026-02.jpg",
+      "status": 200,
+      "bytes": 485042,
+      "sha256": "6604e9ce7273e5afd762fbc309624e7a51a1f2511b5dfaa2bfee2c1c49cbc10b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/light-105-event-01.jpg",
+      "status": 200,
+      "bytes": 310237,
+      "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/light-105-wds2026-01.jpg",
+      "status": 200,
+      "bytes": 287753,
+      "sha256": "ed5956e7bd51c1577b1e46df189711ee25ae2f5d4531f9370ad05080533b48c5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/rcws-eurosatory2026-01.jpg",
+      "status": 200,
+      "bytes": 275007,
+      "sha256": "f9e4611325b7f624ea9d56cee9399717e43544163a7f351e1cbcbd816c978941",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/rcws-event-01.jpg",
+      "status": 200,
+      "bytes": 246948,
+      "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/adex2025-new-kia-family.jpg",
+      "status": 200,
+      "bytes": 452337,
+      "sha256": "a184930d3cff5ad8e49476cedcf8bed5e8b8674ddd99ab61b9d6a2dc218f7693",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/adex2025-new-kmtv-front.jpg",
+      "status": 200,
+      "bytes": 439007,
+      "sha256": "62a7c344970dbca6cd6dae82f3d532cdf1ba33636883811999b112fb5d1cc1d5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/adex2025-new-rotem-booth.jpg",
+      "status": 200,
+      "bytes": 346351,
+      "sha256": "89be393f6aca5a8fae6b36e0f1191d03fc204fef12ee1778daf3b272729a0629",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/adex2025-new-tasman-front.jpg",
+      "status": 200,
+      "bytes": 413934,
+      "sha256": "627548af6e2c960b4566e7257c2970c39a63b55664ed789460fef1195b69f3bc",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/arma-ii-00.webp",
+      "status": 200,
+      "bytes": 352404,
+      "sha256": "addbf63377971d9381663c910b70f32e23c91c8f9443afcc17f1b50fe58dc35e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/arma-ii-01.webp",
+      "status": 200,
+      "bytes": 475830,
+      "sha256": "ee7c1dff45819b2a7d3057f4685712d3b47f771846a09b172559d9c7d8776298",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-00.webp",
+      "status": 200,
+      "bytes": 351440,
+      "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-01.webp",
+      "status": 200,
+      "bytes": 133060,
+      "sha256": "bde53a504d88c2c4ad98a393539a2cd5162d615aef3590fa7e414cabda426547",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-02.webp",
+      "status": 200,
+      "bytes": 105994,
+      "sha256": "dfa659889afcf61910663afec210b716d98d8c90014b5c2afe0cf24ca6238da3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-07.webp",
+      "status": 200,
+      "bytes": 124600,
+      "sha256": "d730fae4db1f5275fccdc3b94a5da71b2284dded268ead41da9d3ac4f5972661",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-08.webp",
+      "status": 200,
+      "bytes": 231962,
+      "sha256": "d69f2d5e1178ae5f40e705533fdbaecab10cee1907df3a64785497d4b59f419d",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-12.webp",
+      "status": 200,
+      "bytes": 158648,
+      "sha256": "77f87d835eb150a42a13dec3faf3805d620652374668b23b7d5527f29ae403d8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-14.webp",
+      "status": 200,
+      "bytes": 106926,
+      "sha256": "806e6803aa0a0370488fe8c052d26c1bb743bee2a29341c2dabc738f5a991f81",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-16.webp",
+      "status": 200,
+      "bytes": 130844,
+      "sha256": "c496d985a7713de8ba9842b6fe36dfacff4c51c6532723b34049c654a078e34d",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-18.webp",
+      "status": 200,
+      "bytes": 212806,
+      "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-19.webp",
+      "status": 200,
+      "bytes": 597506,
+      "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-21.webp",
+      "status": 200,
+      "bytes": 267276,
+      "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-22.webp",
+      "status": 200,
+      "bytes": 265420,
+      "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/bushmaster-reference-awm.jpg",
+      "status": 200,
+      "bytes": 437522,
+      "sha256": "f20b1304adc97fcf48e326ad92763fcca597e9e5d0f905ffa2271582c8e54614",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/cobra-ii-00.webp",
+      "status": 200,
+      "bytes": 436416,
+      "sha256": "2120fb5b5c9317560c6cfc5861dc7dbad64ef858ed5ccbd4158bf05fedd6937b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/cobra-ii-08.webp",
+      "status": 200,
+      "bytes": 143476,
+      "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/cobra-ii-idef2013-reference.jpg",
+      "status": 200,
+      "bytes": 299179,
+      "sha256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-new-kia-booth.jpg",
+      "status": 200,
+      "bytes": 392836,
+      "sha256": "05ae2d39572f355278990fb628f6dac75e3b554574212e9823d4d1dd2dd6677f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-patria-6x6-booth.jpg",
+      "status": 200,
+      "bytes": 480064,
+      "sha256": "0c760053a3eb918cd3a2335fc6d4dc83f2ab3143ff0ce50f9425a5d6a9c57242",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-patria-6x6-cavs.jpg",
+      "status": 200,
+      "bytes": 533534,
+      "sha256": "772ef5351e69a756bb326e596a07c7ebe38ff24158f5a5e81b7f6bc525773a5b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-patria-trackx.jpg",
+      "status": 200,
+      "bytes": 517394,
+      "sha256": "accf4aff6dd002ddf612a17b4450f6703b523a37316f01a8f52628042382aa9b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-patria-tremos.jpg",
+      "status": 200,
+      "bytes": 517742,
+      "sha256": "2a04dbaed61e31043edfbe127c562a41084bb013bdae5e4f5df5a7a3cc6e10a0",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/eurosatory2026-new-kia-booth.jpg",
+      "status": 200,
+      "bytes": 482730,
+      "sha256": "1a22e5316b518f0acd49228dc7e5a0fdbf4856b810b603e90d0092372d5ef62c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/eurosatory2026-new-kia-kltv.jpg",
+      "status": 200,
+      "bytes": 450823,
+      "sha256": "db31a7952f3a5ddaae43e48d5ac3f800c4065e3b0368d7bf0e9b79f2fa1c83d3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/eurosatory2026-new-kia-tasman.jpg",
+      "status": 200,
+      "bytes": 429522,
+      "sha256": "84ce8f414a08a8ad3b8000b55c4d4833da6ac805489e9e1f38d838408b5767e5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/eurosatory2026-new-rotem.jpg",
+      "status": 200,
+      "bytes": 549682,
+      "sha256": "62c5bdd392a2a63340697b73bb7717793a0f1fc85500f076a6530b22259301bd",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-libelle-event.jpg",
+      "status": 200,
+      "bytes": 447385,
+      "sha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-acv-rws.webp",
+      "status": 200,
+      "bytes": 125102,
+      "sha256": "0f6030fd76a7db78166bc68cd9f13a86cd753dbd831744a7ea4493be41772333",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-acv-thruster.webp",
+      "status": 200,
+      "bytes": 131568,
+      "sha256": "6a7aebbe81f0e8bbcf338a136b3cf29385187a4385350956e854f7fdd4b0b43e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-ajban-441ae.webp",
+      "status": 200,
+      "bytes": 273456,
+      "sha256": "5d48473cfdbcd757aceb18ca3f63eaf5d17ec05d02514ddf20420acfb0aa54ac",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-ajban-442a.webp",
+      "status": 200,
+      "bytes": 263556,
+      "sha256": "b88053b5f20fdb3b4bc9b6242017e05bb66b1aa336fe340b70bc45c29aed91ac",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-ajban-452a.webp",
+      "status": 200,
+      "bytes": 276696,
+      "sha256": "6c923b1e3d2268d3d8b6afd42f8629130e7688d2566582f8d1d79eb1d802ec3c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-cockerill-ix.webp",
+      "status": 200,
+      "bytes": 221340,
+      "sha256": "91b52fbd2b42f554083f88a45b5a516febb9a5929fe4f7ac953f4e123d71654f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-hafeet.webp",
+      "status": 200,
+      "bytes": 234206,
+      "sha256": "0bef0345cec60c3e923b0f1f8098876c7d9de10b35c6e64e00b063587c59eb4f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-havoc-01.webp",
+      "status": 200,
+      "bytes": 215038,
+      "sha256": "d76428520c370a61e8a05463bd05cc5954e5726166ab7e59ca7953fdfcbee3b2",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-havoc-02.webp",
+      "status": 200,
+      "bytes": 241978,
+      "sha256": "caa14f707ff0bbd4a0f8eeebe9257fed2598bf0d7f0f242ddfce1785020afde9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-havoc-03.webp",
+      "status": 200,
+      "bytes": 231432,
+      "sha256": "4a0e4e56c0c98f2cf6897161d96cc9ed2ddf3d089bf1ff93f60470d79ea17dda",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-t90ms-front.webp",
+      "status": 200,
+      "bytes": 313620,
+      "sha256": "1163407c74001d71eb8104f9fd5375ce3268299b9099ab0cc48a6dc318607af9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-t90ms-side.webp",
+      "status": 200,
+      "bytes": 359098,
+      "sha256": "3c6e3bbc62b652030f69bf4f340f492391fad9f0c6165e7c99dd93cab76a2b63",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-00.webp",
+      "status": 200,
+      "bytes": 170684,
+      "sha256": "d07c142cab7202e298968d83e0de9cbbb2c59a8a814a10ab4fbe3a8c40043309",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-01.webp",
+      "status": 200,
+      "bytes": 122658,
+      "sha256": "735b97e00eae905e9fe53f2b23483dec5d21bb04edf5a2e6c145b313fe2465f6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-05.webp",
+      "status": 200,
+      "bytes": 227336,
+      "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-08.webp",
+      "status": 200,
+      "bytes": 90994,
+      "sha256": "77b4e4a21dffca8e714884022b9c511566c2a0a296d66a6f54dc2ae79c5c1bbf",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-09.webp",
+      "status": 200,
+      "bytes": 183356,
+      "sha256": "aca6680ea2ff6b2c7a9159356848faa911e46769120b27a40057e7ff16b3514b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-10.webp",
+      "status": 200,
+      "bytes": 101760,
+      "sha256": "74042ccaca9e680dd01b30393fa7b80d2bcd340160e798fe31f3d661b4848d0f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-11.webp",
+      "status": 200,
+      "bytes": 108854,
+      "sha256": "a6c55340ca54f4aba3f3031d87598c16645109db9d1f2fb32618b21cc5072454",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-17.webp",
+      "status": 200,
+      "bytes": 266650,
+      "sha256": "3bfe15fb68e24993dc1b83c843583f3753fd9430941a14822150cd3c00927337",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-23.webp",
+      "status": 200,
+      "bytes": 122256,
+      "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k808-peru-00.webp",
+      "status": 200,
+      "bytes": 107834,
+      "sha256": "e2b6aca06dec2953da24a510d0f33cf73a5d5f411539a631e63d6e19549adf9b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k808-peru-12.webp",
+      "status": 200,
+      "bytes": 509296,
+      "sha256": "2b0f1f6bf39db012c28fa198cc43c1169a3de746fdb9ed72dbf4a3a85b0e0973",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k808-peru-14.webp",
+      "status": 200,
+      "bytes": 390294,
+      "sha256": "b238205a6b0b8951d92d9f3709e77a03e2f025c2dad8044eb6fd8c72d1ec18cf",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k808-peru-15.webp",
+      "status": 200,
+      "bytes": 439848,
+      "sha256": "8f63c7226570e1e5363d84fc4ce1997b4380df0dd3c0b80ff101a733e2e993a4",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k9a3-02.webp",
+      "status": 200,
+      "bytes": 62706,
+      "sha256": "f9d30ff810da2c998ee3d07b215388bad3275fe866c7c3edb9f969834ab04d25",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k9a3-03.webp",
+      "status": 200,
+      "bytes": 191384,
+      "sha256": "aaf24af505a5b7b17d4a6faa30d2ff3332f9a98e408a752b95bbf8fccec56e5c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k9a3-07.webp",
+      "status": 200,
+      "bytes": 104330,
+      "sha256": "41df7fff5d51af5e282bc138d54edaaa60267bb094db84a239fd7f61a4f341bc",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k9a3-11.webp",
+      "status": 200,
+      "bytes": 404398,
+      "sha256": "59473682382b3adc312870dfdf99d705f6208a947260ff1e031deb8ae06ee9ed",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/kaplan-hybrid-00.webp",
+      "status": 200,
+      "bytes": 167210,
+      "sha256": "2793449fd6e58feae4a17e4472e0724ffa55066248f37d3ced4c08c931c8d9d2",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/leopard-2a8-02.webp",
+      "status": 200,
+      "bytes": 309676,
+      "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/leopard-2a8-04.webp",
+      "status": 200,
+      "bytes": 145892,
+      "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/leopard-2a8-07.webp",
+      "status": 200,
+      "bytes": 46876,
+      "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/lynx-skyranger35-03.webp",
+      "status": 200,
+      "bytes": 342876,
+      "sha256": "077aa8b758ffa16300320af3e9d9cec88dbe6bd64927aa6962ad07a7ac39878e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/lynx-skyranger35-05.webp",
+      "status": 200,
+      "bytes": 158086,
+      "sha256": "d03a2e66b69b36a584a4c848898691c1b4b88dea8fdc4da360af153ebafcee62",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/lynx-skyranger35-07.webp",
+      "status": 200,
+      "bytes": 136660,
+      "sha256": "cb870eb53e653c35dc21428552ec8501499a211249f43be9debb8a5e7647613e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-bae-acv-2016.jpg",
+      "status": 200,
+      "bytes": 732334,
+      "sha256": "48d90602fa6360edb1450dc97106e231ba00cdd806af86e45ba00f77a0c35f75",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-bae-acv-2018.jpg",
+      "status": 200,
+      "bytes": 468234,
+      "sha256": "779ed29f0b2483920bfd96f6069b0345d84d861916bd0f4a8ab0db4809221d9a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-bae-acv-2020.jpg",
+      "status": 200,
+      "bytes": 529993,
+      "sha256": "6449e74634707fb4f5a67d6a778d5bfb599cc1111fc2b57a97303e55b4ae9e43",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-hanwha-k9-front.webp",
+      "status": 200,
+      "bytes": 90048,
+      "sha256": "cb50a759611313c654734b9b0495a254e79c67419ee6679bd9a0317bda1a978a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-hanwha-k9-side.webp",
+      "status": 200,
+      "bytes": 230230,
+      "sha256": "8df161d016a34cad6cc506d6f242fe006a34196374b6ce9e025857a1d41194f6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-kongsberg-crows.jpg",
+      "status": 200,
+      "bytes": 695999,
+      "sha256": "2e640b5c978dfa41e99e49b4417b79a442c6dd02250a354575e5ca18234f52a3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-kongsberg-m151.jpg",
+      "status": 200,
+      "bytes": 55057,
+      "sha256": "b58c76fa710c31c5866b0152f882e3f52a14d58ef711071afbb4d6edff09600b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-kongsberg-tapv.jpg",
+      "status": 200,
+      "bytes": 247324,
+      "sha256": "427756368a898b08f13d789cae855a369da4c0b9a8a55e8b2307873091ae0cd8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-milrem-themis-size.png",
+      "status": 200,
+      "bytes": 749019,
+      "sha256": "79286ba80a99c2d61e1b03378d9154e93c59e7df5de90ddff81f0745d4affca7",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-otokar-cobra2-2024.jpg",
+      "status": 200,
+      "bytes": 115490,
+      "sha256": "867417394e2a7fed327332a8eb8cbfbb28d2754d970582b0aa29abdcd2f536da",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-rheinmetall-lynx-csv.jpg",
+      "status": 200,
+      "bytes": 393842,
+      "sha256": "c46dce684f5a77488ee1c45aaba1a9657bbd262a7e93aba089b5e90a0a1d2579",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-rheinmetall-lynx-rear.jpg",
+      "status": 200,
+      "bytes": 580148,
+      "sha256": "3fc4138386d7d7a7a5b7ae277111a3bed18c146838ba851b980760d47f19c830",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-rheinmetall-lynx120.jpg",
+      "status": 200,
+      "bytes": 698955,
+      "sha256": "8d3bb795b34ea8bb3a66b315ac77ee59f16e9b456d69cd53dd884e231f073d28",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/pars-alpha-00.webp",
+      "status": 200,
+      "bytes": 128670,
+      "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/pars-alpha-11.webp",
+      "status": 200,
+      "bytes": 143864,
+      "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-00.webp",
+      "status": 200,
+      "bytes": 378042,
+      "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-01.webp",
+      "status": 200,
+      "bytes": 156472,
+      "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-02.webp",
+      "status": 200,
+      "bytes": 392676,
+      "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-04.webp",
+      "status": 200,
+      "bytes": 239452,
+      "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-08.webp",
+      "status": 200,
+      "bytes": 292640,
+      "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/piranha-v-reference-ypg.jpg",
+      "status": 200,
+      "bytes": 1260522,
+      "sha256": "d3d32fc517ab57b0b690cfe30dbd477fe9737b2ff6a29f353151120ff5e7116f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/priority-kongsberg-protector-2005.jpg",
+      "status": 200,
+      "bytes": 272488,
+      "sha256": "0cf9af3175c6c799c6966a0033c7fd19083c5b98506b312b8f6b2e4c654827c1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/priority-thales-sophie-2010.jpg",
+      "status": 200,
+      "bytes": 407254,
+      "sha256": "138618185f5a8460fbf73a1c00f9fef38167d67b97220bfc76066ce4e7f1118e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/rch155-tracked-03.webp",
+      "status": 200,
+      "bytes": 114518,
+      "sha256": "7a6b2344d0d3d38a3fb3a07a3d8da28898be4c2ab8c3e965e893cdfda3585ca3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/rch155-tracked-05.webp",
+      "status": 200,
+      "bytes": 146400,
+      "sha256": "49e650894bf87a3760fc6860be722e4d24e81155c0fac7bae232659e60cc68da",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/rch155-tracked-06.webp",
+      "status": 200,
+      "bytes": 116634,
+      "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/themis-k-00.webp",
+      "status": 200,
+      "bytes": 448990,
+      "sha256": "81c4ea6179f5e2483bf1e8f5ca2f79874a46053d4804ea51ee8699f3660fcd13",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/themis-k-21.webp",
+      "status": 200,
+      "bytes": 214990,
+      "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/tulpar-00.webp",
+      "status": 200,
+      "bytes": 251040,
+      "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/data/v2/app/events/adex-2025.json",
+      "status": 200,
+      "bytes": 1011272,
+      "sha256": "041e5d1758380c337dff6f956eeacabd88d636c1e520fee6203ba4dae237efb1",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/events/dsei-2025.json",
+      "status": 200,
+      "bytes": 2493714,
+      "sha256": "01dd5d26545ca8063751de3861ad5a63efcf1add037d1802625ed5bd124aa462",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/events/eurosatory-2026.json",
+      "status": 200,
+      "bytes": 212417,
+      "sha256": "956ac7c61c2bea30a3aa0614fad034fe681d0ca1c05ed6216a215f5862dde13d",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/events/idex-2025.json",
+      "status": 200,
+      "bytes": 218665,
+      "sha256": "da65c7d8619f6dde5471fd9a69657b663ffb80a1288db7b5710b562b52b11603",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/events/saha-2026.json",
+      "status": 200,
+      "bytes": 2134433,
+      "sha256": "01e67e00562bf18fedc57dea5edd4ee5094626f4282d9e5dc303284156696bcd",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/index.json",
+      "status": 200,
+      "bytes": 2983,
+      "sha256": "902f507a8a60b9204e25daea4e8e386b3b82280746da3e55a37fff8915508226",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/index.html",
+      "status": 200,
+      "bytes": 3074,
+      "sha256": "dcdf1c909af6b8e5fe2ff7c7f8b90cbd7911855b33b2688a4e5b8c91cbf073d9",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/app.css",
+      "status": 200,
+      "bytes": 12033,
+      "sha256": "75942079ea3944d6416eb6b14a79db42722410bba669e1e7ca1723c2ec826b01",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/app.js",
+      "status": 200,
+      "bytes": 22242,
+      "sha256": "d7d44bd503135f53a9b33489173e6513253e964d1f9da251968e201ee30d8125",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/data.js",
+      "status": 200,
+      "bytes": 5188,
+      "sha256": "7407e5257050dada49744c3a73e16e952d206fc070ec375f3924a1487ac9e7da",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/details.css",
+      "status": 200,
+      "bytes": 25625,
+      "sha256": "0080b1614c85bd875cc606739d13d67f35a6b6e463ef7d66e9204a8b640be9c7",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/details.js",
+      "status": 200,
+      "bytes": 60368,
+      "sha256": "38b98e6be9a724cc77d44ce8fff25e767f5463e9ec395d3bdac2218232329f4b",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/map-view.css",
+      "status": 200,
+      "bytes": 4523,
+      "sha256": "41d1cc05b97855efa6979ec9e07b3f8843a2142d1a050457edd1161e4975b652",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/map-view.js",
+      "status": 200,
+      "bytes": 26167,
+      "sha256": "960537306629281fe3810db0540715f6506c533865929e3d82ca2d09bda7b11b",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/report.css",
+      "status": 200,
+      "bytes": 9299,
+      "sha256": "42b719a3da5bfe1a5c51fa8e9eb0aef59989cac7c246006b44bb7f11b7446b87",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/report.js",
+      "status": 200,
+      "bytes": 13044,
+      "sha256": "456cfd9535665e3f4d8d0fea75896147fb1b860e072468bb415f0a8e064a3d8a",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/state.js",
+      "status": 200,
+      "bytes": 3397,
+      "sha256": "69ecf786b88f077f0074a6b3d3318b70d4f5345149d2fc083d3414f609cc8ebe",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/version.json",
+      "status": 200,
+      "bytes": 63,
+      "sha256": "ca1903ca4e5827ad0dd772f4ee97f4fbf48e12d71d290cc195cd6f4f45a481de",
+      "matches": true,
+      "comparison": "version equality; build time is environment-dependent"
+    },
+    {
+      "path": "src/v2/app.css",
+      "status": 200,
+      "bytes": 12033,
+      "sha256": "75942079ea3944d6416eb6b14a79db42722410bba669e1e7ca1723c2ec826b01",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/app.js",
+      "status": 200,
+      "bytes": 22242,
+      "sha256": "d7d44bd503135f53a9b33489173e6513253e964d1f9da251968e201ee30d8125",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/data.js",
+      "status": 200,
+      "bytes": 5188,
+      "sha256": "7407e5257050dada49744c3a73e16e952d206fc070ec375f3924a1487ac9e7da",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/details.css",
+      "status": 200,
+      "bytes": 25625,
+      "sha256": "0080b1614c85bd875cc606739d13d67f35a6b6e463ef7d66e9204a8b640be9c7",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/details.js",
+      "status": 200,
+      "bytes": 60368,
+      "sha256": "38b98e6be9a724cc77d44ce8fff25e767f5463e9ec395d3bdac2218232329f4b",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/map-view.css",
+      "status": 200,
+      "bytes": 4523,
+      "sha256": "41d1cc05b97855efa6979ec9e07b3f8843a2142d1a050457edd1161e4975b652",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/map-view.js",
+      "status": 200,
+      "bytes": 26167,
+      "sha256": "960537306629281fe3810db0540715f6506c533865929e3d82ca2d09bda7b11b",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/report.css",
+      "status": 200,
+      "bytes": 9299,
+      "sha256": "42b719a3da5bfe1a5c51fa8e9eb0aef59989cac7c246006b44bb7f11b7446b87",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/report.js",
+      "status": 200,
+      "bytes": 13044,
+      "sha256": "456cfd9535665e3f4d8d0fea75896147fb1b860e072468bb415f0a8e064a3d8a",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/state.js",
+      "status": 200,
+      "bytes": 3397,
+      "sha256": "69ecf786b88f077f0074a6b3d3318b70d4f5345149d2fc083d3414f609cc8ebe",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "version.json",
+      "status": 200,
+      "bytes": 63,
+      "sha256": "ca1903ca4e5827ad0dd772f4ee97f4fbf48e12d71d290cc195cd6f4f45a481de",
+      "matches": true,
+      "comparison": "version equality; build time is environment-dependent"
+    }
+  ],
+  "nonRuntimeMarkerProbes": [
+    {
+      "path": ".nojekyll",
+      "error": "404 https://qkfhvnfrl-ux.github.io/exhibition-intelligence/.nojekyll?release=v2.0.0",
+      "matches": false
+    },
+    {
+      "path": "preview/.nojekyll",
+      "error": "404 https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/.nojekyll?release=v2.0.0",
+      "matches": false
+    }
+  ],
+  "runtimeResults": [
+    {
+      "path": "assets/adex2025/k2pl-event-01.jpg",
+      "status": 200,
+      "bytes": 228154,
+      "sha256": "cf68e69710366d23dd41e3491000c4115565b2f26ebfcc4b3659730a5315ed0b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/light-105-eurosatory2026-01.jpg",
+      "status": 200,
+      "bytes": 304109,
+      "sha256": "5dd80611f9ad285068567420048071bec0e2a7bf419bda21c71ab195ee482438",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/light-105-eurosatory2026-02.jpg",
+      "status": 200,
+      "bytes": 485042,
+      "sha256": "6604e9ce7273e5afd762fbc309624e7a51a1f2511b5dfaa2bfee2c1c49cbc10b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/light-105-event-01.jpg",
+      "status": 200,
+      "bytes": 310237,
+      "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/light-105-wds2026-01.jpg",
+      "status": 200,
+      "bytes": 287753,
+      "sha256": "ed5956e7bd51c1577b1e46df189711ee25ae2f5d4531f9370ad05080533b48c5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/rcws-eurosatory2026-01.jpg",
+      "status": 200,
+      "bytes": 275007,
+      "sha256": "f9e4611325b7f624ea9d56cee9399717e43544163a7f351e1cbcbd816c978941",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/adex2025/rcws-event-01.jpg",
+      "status": 200,
+      "bytes": 246948,
+      "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/adex2025-new-kia-family.jpg",
+      "status": 200,
+      "bytes": 452337,
+      "sha256": "a184930d3cff5ad8e49476cedcf8bed5e8b8674ddd99ab61b9d6a2dc218f7693",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/adex2025-new-kmtv-front.jpg",
+      "status": 200,
+      "bytes": 439007,
+      "sha256": "62a7c344970dbca6cd6dae82f3d532cdf1ba33636883811999b112fb5d1cc1d5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/adex2025-new-rotem-booth.jpg",
+      "status": 200,
+      "bytes": 346351,
+      "sha256": "89be393f6aca5a8fae6b36e0f1191d03fc204fef12ee1778daf3b272729a0629",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/adex2025-new-tasman-front.jpg",
+      "status": 200,
+      "bytes": 413934,
+      "sha256": "627548af6e2c960b4566e7257c2970c39a63b55664ed789460fef1195b69f3bc",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/arma-ii-00.webp",
+      "status": 200,
+      "bytes": 352404,
+      "sha256": "addbf63377971d9381663c910b70f32e23c91c8f9443afcc17f1b50fe58dc35e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/arma-ii-01.webp",
+      "status": 200,
+      "bytes": 475830,
+      "sha256": "ee7c1dff45819b2a7d3057f4685712d3b47f771846a09b172559d9c7d8776298",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-00.webp",
+      "status": 200,
+      "bytes": 351440,
+      "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-01.webp",
+      "status": 200,
+      "bytes": 133060,
+      "sha256": "bde53a504d88c2c4ad98a393539a2cd5162d615aef3590fa7e414cabda426547",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-02.webp",
+      "status": 200,
+      "bytes": 105994,
+      "sha256": "dfa659889afcf61910663afec210b716d98d8c90014b5c2afe0cf24ca6238da3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-07.webp",
+      "status": 200,
+      "bytes": 124600,
+      "sha256": "d730fae4db1f5275fccdc3b94a5da71b2284dded268ead41da9d3ac4f5972661",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-08.webp",
+      "status": 200,
+      "bytes": 231962,
+      "sha256": "d69f2d5e1178ae5f40e705533fdbaecab10cee1907df3a64785497d4b59f419d",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-12.webp",
+      "status": 200,
+      "bytes": 158648,
+      "sha256": "77f87d835eb150a42a13dec3faf3805d620652374668b23b7d5527f29ae403d8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-14.webp",
+      "status": 200,
+      "bytes": 106926,
+      "sha256": "806e6803aa0a0370488fe8c052d26c1bb743bee2a29341c2dabc738f5a991f81",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-16.webp",
+      "status": 200,
+      "bytes": 130844,
+      "sha256": "c496d985a7713de8ba9842b6fe36dfacff4c51c6532723b34049c654a078e34d",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-18.webp",
+      "status": 200,
+      "bytes": 212806,
+      "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-19.webp",
+      "status": 200,
+      "bytes": 597506,
+      "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-21.webp",
+      "status": 200,
+      "bytes": 267276,
+      "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/boxer-miv-22.webp",
+      "status": 200,
+      "bytes": 265420,
+      "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/bushmaster-reference-awm.jpg",
+      "status": 200,
+      "bytes": 437522,
+      "sha256": "f20b1304adc97fcf48e326ad92763fcca597e9e5d0f905ffa2271582c8e54614",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/cobra-ii-00.webp",
+      "status": 200,
+      "bytes": 436416,
+      "sha256": "2120fb5b5c9317560c6cfc5861dc7dbad64ef858ed5ccbd4158bf05fedd6937b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/cobra-ii-08.webp",
+      "status": 200,
+      "bytes": 143476,
+      "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/cobra-ii-idef2013-reference.jpg",
+      "status": 200,
+      "bytes": 299179,
+      "sha256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-new-kia-booth.jpg",
+      "status": 200,
+      "bytes": 392836,
+      "sha256": "05ae2d39572f355278990fb628f6dac75e3b554574212e9823d4d1dd2dd6677f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-patria-6x6-booth.jpg",
+      "status": 200,
+      "bytes": 480064,
+      "sha256": "0c760053a3eb918cd3a2335fc6d4dc83f2ab3143ff0ce50f9425a5d6a9c57242",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-patria-6x6-cavs.jpg",
+      "status": 200,
+      "bytes": 533534,
+      "sha256": "772ef5351e69a756bb326e596a07c7ebe38ff24158f5a5e81b7f6bc525773a5b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-patria-trackx.jpg",
+      "status": 200,
+      "bytes": 517394,
+      "sha256": "accf4aff6dd002ddf612a17b4450f6703b523a37316f01a8f52628042382aa9b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/dsei2025-patria-tremos.jpg",
+      "status": 200,
+      "bytes": 517742,
+      "sha256": "2a04dbaed61e31043edfbe127c562a41084bb013bdae5e4f5df5a7a3cc6e10a0",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/eurosatory2026-new-kia-booth.jpg",
+      "status": 200,
+      "bytes": 482730,
+      "sha256": "1a22e5316b518f0acd49228dc7e5a0fdbf4856b810b603e90d0092372d5ef62c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/eurosatory2026-new-kia-kltv.jpg",
+      "status": 200,
+      "bytes": 450823,
+      "sha256": "db31a7952f3a5ddaae43e48d5ac3f800c4065e3b0368d7bf0e9b79f2fa1c83d3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/eurosatory2026-new-kia-tasman.jpg",
+      "status": 200,
+      "bytes": 429522,
+      "sha256": "84ce8f414a08a8ad3b8000b55c4d4833da6ac805489e9e1f38d838408b5767e5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/eurosatory2026-new-rotem.jpg",
+      "status": 200,
+      "bytes": 549682,
+      "sha256": "62c5bdd392a2a63340697b73bb7717793a0f1fc85500f076a6530b22259301bd",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-libelle-event.jpg",
+      "status": 200,
+      "bytes": 447385,
+      "sha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-acv-rws.webp",
+      "status": 200,
+      "bytes": 125102,
+      "sha256": "0f6030fd76a7db78166bc68cd9f13a86cd753dbd831744a7ea4493be41772333",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-acv-thruster.webp",
+      "status": 200,
+      "bytes": 131568,
+      "sha256": "6a7aebbe81f0e8bbcf338a136b3cf29385187a4385350956e854f7fdd4b0b43e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-ajban-441ae.webp",
+      "status": 200,
+      "bytes": 273456,
+      "sha256": "5d48473cfdbcd757aceb18ca3f63eaf5d17ec05d02514ddf20420acfb0aa54ac",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-ajban-442a.webp",
+      "status": 200,
+      "bytes": 263556,
+      "sha256": "b88053b5f20fdb3b4bc9b6242017e05bb66b1aa336fe340b70bc45c29aed91ac",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-ajban-452a.webp",
+      "status": 200,
+      "bytes": 276696,
+      "sha256": "6c923b1e3d2268d3d8b6afd42f8629130e7688d2566582f8d1d79eb1d802ec3c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-cockerill-ix.webp",
+      "status": 200,
+      "bytes": 221340,
+      "sha256": "91b52fbd2b42f554083f88a45b5a516febb9a5929fe4f7ac953f4e123d71654f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-hafeet.webp",
+      "status": 200,
+      "bytes": 234206,
+      "sha256": "0bef0345cec60c3e923b0f1f8098876c7d9de10b35c6e64e00b063587c59eb4f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-havoc-01.webp",
+      "status": 200,
+      "bytes": 215038,
+      "sha256": "d76428520c370a61e8a05463bd05cc5954e5726166ab7e59ca7953fdfcbee3b2",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-havoc-02.webp",
+      "status": 200,
+      "bytes": 241978,
+      "sha256": "caa14f707ff0bbd4a0f8eeebe9257fed2598bf0d7f0f242ddfce1785020afde9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-havoc-03.webp",
+      "status": 200,
+      "bytes": 231432,
+      "sha256": "4a0e4e56c0c98f2cf6897161d96cc9ed2ddf3d089bf1ff93f60470d79ea17dda",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-t90ms-front.webp",
+      "status": 200,
+      "bytes": 313620,
+      "sha256": "1163407c74001d71eb8104f9fd5375ce3268299b9099ab0cc48a6dc318607af9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/idex2025-new-t90ms-side.webp",
+      "status": 200,
+      "bytes": 359098,
+      "sha256": "3c6e3bbc62b652030f69bf4f340f492391fad9f0c6165e7c99dd93cab76a2b63",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-00.webp",
+      "status": 200,
+      "bytes": 170684,
+      "sha256": "d07c142cab7202e298968d83e0de9cbbb2c59a8a814a10ab4fbe3a8c40043309",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-01.webp",
+      "status": 200,
+      "bytes": 122658,
+      "sha256": "735b97e00eae905e9fe53f2b23483dec5d21bb04edf5a2e6c145b313fe2465f6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-05.webp",
+      "status": 200,
+      "bytes": 227336,
+      "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-08.webp",
+      "status": 200,
+      "bytes": 90994,
+      "sha256": "77b4e4a21dffca8e714884022b9c511566c2a0a296d66a6f54dc2ae79c5c1bbf",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-09.webp",
+      "status": 200,
+      "bytes": 183356,
+      "sha256": "aca6680ea2ff6b2c7a9159356848faa911e46769120b27a40057e7ff16b3514b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-10.webp",
+      "status": 200,
+      "bytes": 101760,
+      "sha256": "74042ccaca9e680dd01b30393fa7b80d2bcd340160e798fe31f3d661b4848d0f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-11.webp",
+      "status": 200,
+      "bytes": 108854,
+      "sha256": "a6c55340ca54f4aba3f3031d87598c16645109db9d1f2fb32618b21cc5072454",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-17.webp",
+      "status": 200,
+      "bytes": 266650,
+      "sha256": "3bfe15fb68e24993dc1b83c843583f3753fd9430941a14822150cd3c00927337",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k2pl-23.webp",
+      "status": 200,
+      "bytes": 122256,
+      "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k808-peru-00.webp",
+      "status": 200,
+      "bytes": 107834,
+      "sha256": "e2b6aca06dec2953da24a510d0f33cf73a5d5f411539a631e63d6e19549adf9b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k808-peru-12.webp",
+      "status": 200,
+      "bytes": 509296,
+      "sha256": "2b0f1f6bf39db012c28fa198cc43c1169a3de746fdb9ed72dbf4a3a85b0e0973",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k808-peru-14.webp",
+      "status": 200,
+      "bytes": 390294,
+      "sha256": "b238205a6b0b8951d92d9f3709e77a03e2f025c2dad8044eb6fd8c72d1ec18cf",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k808-peru-15.webp",
+      "status": 200,
+      "bytes": 439848,
+      "sha256": "8f63c7226570e1e5363d84fc4ce1997b4380df0dd3c0b80ff101a733e2e993a4",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k9a3-02.webp",
+      "status": 200,
+      "bytes": 62706,
+      "sha256": "f9d30ff810da2c998ee3d07b215388bad3275fe866c7c3edb9f969834ab04d25",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k9a3-03.webp",
+      "status": 200,
+      "bytes": 191384,
+      "sha256": "aaf24af505a5b7b17d4a6faa30d2ff3332f9a98e408a752b95bbf8fccec56e5c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k9a3-07.webp",
+      "status": 200,
+      "bytes": 104330,
+      "sha256": "41df7fff5d51af5e282bc138d54edaaa60267bb094db84a239fd7f61a4f341bc",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/k9a3-11.webp",
+      "status": 200,
+      "bytes": 404398,
+      "sha256": "59473682382b3adc312870dfdf99d705f6208a947260ff1e031deb8ae06ee9ed",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/kaplan-hybrid-00.webp",
+      "status": 200,
+      "bytes": 167210,
+      "sha256": "2793449fd6e58feae4a17e4472e0724ffa55066248f37d3ced4c08c931c8d9d2",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/leopard-2a8-02.webp",
+      "status": 200,
+      "bytes": 309676,
+      "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/leopard-2a8-04.webp",
+      "status": 200,
+      "bytes": 145892,
+      "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/leopard-2a8-07.webp",
+      "status": 200,
+      "bytes": 46876,
+      "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/lynx-skyranger35-03.webp",
+      "status": 200,
+      "bytes": 342876,
+      "sha256": "077aa8b758ffa16300320af3e9d9cec88dbe6bd64927aa6962ad07a7ac39878e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/lynx-skyranger35-05.webp",
+      "status": 200,
+      "bytes": 158086,
+      "sha256": "d03a2e66b69b36a584a4c848898691c1b4b88dea8fdc4da360af153ebafcee62",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/lynx-skyranger35-07.webp",
+      "status": 200,
+      "bytes": 136660,
+      "sha256": "cb870eb53e653c35dc21428552ec8501499a211249f43be9debb8a5e7647613e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-bae-acv-2016.jpg",
+      "status": 200,
+      "bytes": 732334,
+      "sha256": "48d90602fa6360edb1450dc97106e231ba00cdd806af86e45ba00f77a0c35f75",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-bae-acv-2018.jpg",
+      "status": 200,
+      "bytes": 468234,
+      "sha256": "779ed29f0b2483920bfd96f6069b0345d84d861916bd0f4a8ab0db4809221d9a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-bae-acv-2020.jpg",
+      "status": 200,
+      "bytes": 529993,
+      "sha256": "6449e74634707fb4f5a67d6a778d5bfb599cc1111fc2b57a97303e55b4ae9e43",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-hanwha-k9-front.webp",
+      "status": 200,
+      "bytes": 90048,
+      "sha256": "cb50a759611313c654734b9b0495a254e79c67419ee6679bd9a0317bda1a978a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-hanwha-k9-side.webp",
+      "status": 200,
+      "bytes": 230230,
+      "sha256": "8df161d016a34cad6cc506d6f242fe006a34196374b6ce9e025857a1d41194f6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-kongsberg-crows.jpg",
+      "status": 200,
+      "bytes": 695999,
+      "sha256": "2e640b5c978dfa41e99e49b4417b79a442c6dd02250a354575e5ca18234f52a3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-kongsberg-m151.jpg",
+      "status": 200,
+      "bytes": 55057,
+      "sha256": "b58c76fa710c31c5866b0152f882e3f52a14d58ef711071afbb4d6edff09600b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-kongsberg-tapv.jpg",
+      "status": 200,
+      "bytes": 247324,
+      "sha256": "427756368a898b08f13d789cae855a369da4c0b9a8a55e8b2307873091ae0cd8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-milrem-themis-size.png",
+      "status": 200,
+      "bytes": 749019,
+      "sha256": "79286ba80a99c2d61e1b03378d9154e93c59e7df5de90ddff81f0745d4affca7",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-otokar-cobra2-2024.jpg",
+      "status": 200,
+      "bytes": 115490,
+      "sha256": "867417394e2a7fed327332a8eb8cbfbb28d2754d970582b0aa29abdcd2f536da",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-rheinmetall-lynx-csv.jpg",
+      "status": 200,
+      "bytes": 393842,
+      "sha256": "c46dce684f5a77488ee1c45aaba1a9657bbd262a7e93aba089b5e90a0a1d2579",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-rheinmetall-lynx-rear.jpg",
+      "status": 200,
+      "bytes": 580148,
+      "sha256": "3fc4138386d7d7a7a5b7ae277111a3bed18c146838ba851b980760d47f19c830",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/manufacturer-rheinmetall-lynx120.jpg",
+      "status": 200,
+      "bytes": 698955,
+      "sha256": "8d3bb795b34ea8bb3a66b315ac77ee59f16e9b456d69cd53dd884e231f073d28",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/pars-alpha-00.webp",
+      "status": 200,
+      "bytes": 128670,
+      "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/pars-alpha-11.webp",
+      "status": 200,
+      "bytes": 143864,
+      "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-00.webp",
+      "status": 200,
+      "bytes": 378042,
+      "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-01.webp",
+      "status": 200,
+      "bytes": 156472,
+      "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-02.webp",
+      "status": 200,
+      "bytes": 392676,
+      "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-04.webp",
+      "status": 200,
+      "bytes": 239452,
+      "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/patria-6x6-08.webp",
+      "status": 200,
+      "bytes": 292640,
+      "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/piranha-v-reference-ypg.jpg",
+      "status": 200,
+      "bytes": 1260522,
+      "sha256": "d3d32fc517ab57b0b690cfe30dbd477fe9737b2ff6a29f353151120ff5e7116f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/priority-kongsberg-protector-2005.jpg",
+      "status": 200,
+      "bytes": 272488,
+      "sha256": "0cf9af3175c6c799c6966a0033c7fd19083c5b98506b312b8f6b2e4c654827c1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/priority-thales-sophie-2010.jpg",
+      "status": 200,
+      "bytes": 407254,
+      "sha256": "138618185f5a8460fbf73a1c00f9fef38167d67b97220bfc76066ce4e7f1118e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/rch155-tracked-03.webp",
+      "status": 200,
+      "bytes": 114518,
+      "sha256": "7a6b2344d0d3d38a3fb3a07a3d8da28898be4c2ab8c3e965e893cdfda3585ca3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/rch155-tracked-05.webp",
+      "status": 200,
+      "bytes": 146400,
+      "sha256": "49e650894bf87a3760fc6860be722e4d24e81155c0fac7bae232659e60cc68da",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/rch155-tracked-06.webp",
+      "status": 200,
+      "bytes": 116634,
+      "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/themis-k-00.webp",
+      "status": 200,
+      "bytes": 448990,
+      "sha256": "81c4ea6179f5e2483bf1e8f5ca2f79874a46053d4804ea51ee8699f3660fcd13",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/themis-k-21.webp",
+      "status": 200,
+      "bytes": 214990,
+      "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "assets/photos/tulpar-00.webp",
+      "status": 200,
+      "bytes": 251040,
+      "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "data/v2/app/events/adex-2025.json",
+      "status": 200,
+      "bytes": 1011272,
+      "sha256": "041e5d1758380c337dff6f956eeacabd88d636c1e520fee6203ba4dae237efb1",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/events/dsei-2025.json",
+      "status": 200,
+      "bytes": 2493714,
+      "sha256": "01dd5d26545ca8063751de3861ad5a63efcf1add037d1802625ed5bd124aa462",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/events/eurosatory-2026.json",
+      "status": 200,
+      "bytes": 212417,
+      "sha256": "956ac7c61c2bea30a3aa0614fad034fe681d0ca1c05ed6216a215f5862dde13d",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/events/idex-2025.json",
+      "status": 200,
+      "bytes": 218665,
+      "sha256": "da65c7d8619f6dde5471fd9a69657b663ffb80a1288db7b5710b562b52b11603",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/events/saha-2026.json",
+      "status": 200,
+      "bytes": 2134433,
+      "sha256": "01e67e00562bf18fedc57dea5edd4ee5094626f4282d9e5dc303284156696bcd",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "data/v2/app/index.json",
+      "status": 200,
+      "bytes": 2983,
+      "sha256": "902f507a8a60b9204e25daea4e8e386b3b82280746da3e55a37fff8915508226",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 3074,
+      "sha256": "dcdf1c909af6b8e5fe2ff7c7f8b90cbd7911855b33b2688a4e5b8c91cbf073d9",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/assets/adex2025/k2pl-event-01.jpg",
+      "status": 200,
+      "bytes": 228154,
+      "sha256": "cf68e69710366d23dd41e3491000c4115565b2f26ebfcc4b3659730a5315ed0b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/light-105-eurosatory2026-01.jpg",
+      "status": 200,
+      "bytes": 304109,
+      "sha256": "5dd80611f9ad285068567420048071bec0e2a7bf419bda21c71ab195ee482438",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/light-105-eurosatory2026-02.jpg",
+      "status": 200,
+      "bytes": 485042,
+      "sha256": "6604e9ce7273e5afd762fbc309624e7a51a1f2511b5dfaa2bfee2c1c49cbc10b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/light-105-event-01.jpg",
+      "status": 200,
+      "bytes": 310237,
+      "sha256": "724a34e6c2f82212b6d26d692100c7714347bfab02a1630f522316b0cc287c72",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/light-105-wds2026-01.jpg",
+      "status": 200,
+      "bytes": 287753,
+      "sha256": "ed5956e7bd51c1577b1e46df189711ee25ae2f5d4531f9370ad05080533b48c5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/rcws-eurosatory2026-01.jpg",
+      "status": 200,
+      "bytes": 275007,
+      "sha256": "f9e4611325b7f624ea9d56cee9399717e43544163a7f351e1cbcbd816c978941",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/adex2025/rcws-event-01.jpg",
+      "status": 200,
+      "bytes": 246948,
+      "sha256": "b12a24ed84aee1f5404be7dc500a2d3b69c8081dc917e9fd6db6827ebaaad1eb",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/adex2025-new-kia-family.jpg",
+      "status": 200,
+      "bytes": 452337,
+      "sha256": "a184930d3cff5ad8e49476cedcf8bed5e8b8674ddd99ab61b9d6a2dc218f7693",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/adex2025-new-kmtv-front.jpg",
+      "status": 200,
+      "bytes": 439007,
+      "sha256": "62a7c344970dbca6cd6dae82f3d532cdf1ba33636883811999b112fb5d1cc1d5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/adex2025-new-rotem-booth.jpg",
+      "status": 200,
+      "bytes": 346351,
+      "sha256": "89be393f6aca5a8fae6b36e0f1191d03fc204fef12ee1778daf3b272729a0629",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/adex2025-new-tasman-front.jpg",
+      "status": 200,
+      "bytes": 413934,
+      "sha256": "627548af6e2c960b4566e7257c2970c39a63b55664ed789460fef1195b69f3bc",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/arma-ii-00.webp",
+      "status": 200,
+      "bytes": 352404,
+      "sha256": "addbf63377971d9381663c910b70f32e23c91c8f9443afcc17f1b50fe58dc35e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/arma-ii-01.webp",
+      "status": 200,
+      "bytes": 475830,
+      "sha256": "ee7c1dff45819b2a7d3057f4685712d3b47f771846a09b172559d9c7d8776298",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-00.webp",
+      "status": 200,
+      "bytes": 351440,
+      "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-01.webp",
+      "status": 200,
+      "bytes": 133060,
+      "sha256": "bde53a504d88c2c4ad98a393539a2cd5162d615aef3590fa7e414cabda426547",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-02.webp",
+      "status": 200,
+      "bytes": 105994,
+      "sha256": "dfa659889afcf61910663afec210b716d98d8c90014b5c2afe0cf24ca6238da3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-07.webp",
+      "status": 200,
+      "bytes": 124600,
+      "sha256": "d730fae4db1f5275fccdc3b94a5da71b2284dded268ead41da9d3ac4f5972661",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-08.webp",
+      "status": 200,
+      "bytes": 231962,
+      "sha256": "d69f2d5e1178ae5f40e705533fdbaecab10cee1907df3a64785497d4b59f419d",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-12.webp",
+      "status": 200,
+      "bytes": 158648,
+      "sha256": "77f87d835eb150a42a13dec3faf3805d620652374668b23b7d5527f29ae403d8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-14.webp",
+      "status": 200,
+      "bytes": 106926,
+      "sha256": "806e6803aa0a0370488fe8c052d26c1bb743bee2a29341c2dabc738f5a991f81",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-16.webp",
+      "status": 200,
+      "bytes": 130844,
+      "sha256": "c496d985a7713de8ba9842b6fe36dfacff4c51c6532723b34049c654a078e34d",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-18.webp",
+      "status": 200,
+      "bytes": 212806,
+      "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-19.webp",
+      "status": 200,
+      "bytes": 597506,
+      "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-21.webp",
+      "status": 200,
+      "bytes": 267276,
+      "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/boxer-miv-22.webp",
+      "status": 200,
+      "bytes": 265420,
+      "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/bushmaster-reference-awm.jpg",
+      "status": 200,
+      "bytes": 437522,
+      "sha256": "f20b1304adc97fcf48e326ad92763fcca597e9e5d0f905ffa2271582c8e54614",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/cobra-ii-00.webp",
+      "status": 200,
+      "bytes": 436416,
+      "sha256": "2120fb5b5c9317560c6cfc5861dc7dbad64ef858ed5ccbd4158bf05fedd6937b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/cobra-ii-08.webp",
+      "status": 200,
+      "bytes": 143476,
+      "sha256": "07cba6448098d38e56351ab17946f6baad2486c61575cf7f24c9f00f0c6b0ecd",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/cobra-ii-idef2013-reference.jpg",
+      "status": 200,
+      "bytes": 299179,
+      "sha256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-new-kia-booth.jpg",
+      "status": 200,
+      "bytes": 392836,
+      "sha256": "05ae2d39572f355278990fb628f6dac75e3b554574212e9823d4d1dd2dd6677f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-patria-6x6-booth.jpg",
+      "status": 200,
+      "bytes": 480064,
+      "sha256": "0c760053a3eb918cd3a2335fc6d4dc83f2ab3143ff0ce50f9425a5d6a9c57242",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-patria-6x6-cavs.jpg",
+      "status": 200,
+      "bytes": 533534,
+      "sha256": "772ef5351e69a756bb326e596a07c7ebe38ff24158f5a5e81b7f6bc525773a5b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-patria-trackx.jpg",
+      "status": 200,
+      "bytes": 517394,
+      "sha256": "accf4aff6dd002ddf612a17b4450f6703b523a37316f01a8f52628042382aa9b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/dsei2025-patria-tremos.jpg",
+      "status": 200,
+      "bytes": 517742,
+      "sha256": "2a04dbaed61e31043edfbe127c562a41084bb013bdae5e4f5df5a7a3cc6e10a0",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/eurosatory2026-new-kia-booth.jpg",
+      "status": 200,
+      "bytes": 482730,
+      "sha256": "1a22e5316b518f0acd49228dc7e5a0fdbf4856b810b603e90d0092372d5ef62c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/eurosatory2026-new-kia-kltv.jpg",
+      "status": 200,
+      "bytes": 450823,
+      "sha256": "db31a7952f3a5ddaae43e48d5ac3f800c4065e3b0368d7bf0e9b79f2fa1c83d3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/eurosatory2026-new-kia-tasman.jpg",
+      "status": 200,
+      "bytes": 429522,
+      "sha256": "84ce8f414a08a8ad3b8000b55c4d4833da6ac805489e9e1f38d838408b5767e5",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/eurosatory2026-new-rotem.jpg",
+      "status": 200,
+      "bytes": 549682,
+      "sha256": "62c5bdd392a2a63340697b73bb7717793a0f1fc85500f076a6530b22259301bd",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-libelle-event.jpg",
+      "status": 200,
+      "bytes": 447385,
+      "sha256": "40550f6e94a14d405d383e47851ac78028f328fec5693cf717189173d4113a1a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-acv-rws.webp",
+      "status": 200,
+      "bytes": 125102,
+      "sha256": "0f6030fd76a7db78166bc68cd9f13a86cd753dbd831744a7ea4493be41772333",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-acv-thruster.webp",
+      "status": 200,
+      "bytes": 131568,
+      "sha256": "6a7aebbe81f0e8bbcf338a136b3cf29385187a4385350956e854f7fdd4b0b43e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-ajban-441ae.webp",
+      "status": 200,
+      "bytes": 273456,
+      "sha256": "5d48473cfdbcd757aceb18ca3f63eaf5d17ec05d02514ddf20420acfb0aa54ac",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-ajban-442a.webp",
+      "status": 200,
+      "bytes": 263556,
+      "sha256": "b88053b5f20fdb3b4bc9b6242017e05bb66b1aa336fe340b70bc45c29aed91ac",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-ajban-452a.webp",
+      "status": 200,
+      "bytes": 276696,
+      "sha256": "6c923b1e3d2268d3d8b6afd42f8629130e7688d2566582f8d1d79eb1d802ec3c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-cockerill-ix.webp",
+      "status": 200,
+      "bytes": 221340,
+      "sha256": "91b52fbd2b42f554083f88a45b5a516febb9a5929fe4f7ac953f4e123d71654f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-hafeet.webp",
+      "status": 200,
+      "bytes": 234206,
+      "sha256": "0bef0345cec60c3e923b0f1f8098876c7d9de10b35c6e64e00b063587c59eb4f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-havoc-01.webp",
+      "status": 200,
+      "bytes": 215038,
+      "sha256": "d76428520c370a61e8a05463bd05cc5954e5726166ab7e59ca7953fdfcbee3b2",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-havoc-02.webp",
+      "status": 200,
+      "bytes": 241978,
+      "sha256": "caa14f707ff0bbd4a0f8eeebe9257fed2598bf0d7f0f242ddfce1785020afde9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-havoc-03.webp",
+      "status": 200,
+      "bytes": 231432,
+      "sha256": "4a0e4e56c0c98f2cf6897161d96cc9ed2ddf3d089bf1ff93f60470d79ea17dda",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-t90ms-front.webp",
+      "status": 200,
+      "bytes": 313620,
+      "sha256": "1163407c74001d71eb8104f9fd5375ce3268299b9099ab0cc48a6dc318607af9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/idex2025-new-t90ms-side.webp",
+      "status": 200,
+      "bytes": 359098,
+      "sha256": "3c6e3bbc62b652030f69bf4f340f492391fad9f0c6165e7c99dd93cab76a2b63",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-00.webp",
+      "status": 200,
+      "bytes": 170684,
+      "sha256": "d07c142cab7202e298968d83e0de9cbbb2c59a8a814a10ab4fbe3a8c40043309",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-01.webp",
+      "status": 200,
+      "bytes": 122658,
+      "sha256": "735b97e00eae905e9fe53f2b23483dec5d21bb04edf5a2e6c145b313fe2465f6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-05.webp",
+      "status": 200,
+      "bytes": 227336,
+      "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-08.webp",
+      "status": 200,
+      "bytes": 90994,
+      "sha256": "77b4e4a21dffca8e714884022b9c511566c2a0a296d66a6f54dc2ae79c5c1bbf",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-09.webp",
+      "status": 200,
+      "bytes": 183356,
+      "sha256": "aca6680ea2ff6b2c7a9159356848faa911e46769120b27a40057e7ff16b3514b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-10.webp",
+      "status": 200,
+      "bytes": 101760,
+      "sha256": "74042ccaca9e680dd01b30393fa7b80d2bcd340160e798fe31f3d661b4848d0f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-11.webp",
+      "status": 200,
+      "bytes": 108854,
+      "sha256": "a6c55340ca54f4aba3f3031d87598c16645109db9d1f2fb32618b21cc5072454",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-17.webp",
+      "status": 200,
+      "bytes": 266650,
+      "sha256": "3bfe15fb68e24993dc1b83c843583f3753fd9430941a14822150cd3c00927337",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k2pl-23.webp",
+      "status": 200,
+      "bytes": 122256,
+      "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k808-peru-00.webp",
+      "status": 200,
+      "bytes": 107834,
+      "sha256": "e2b6aca06dec2953da24a510d0f33cf73a5d5f411539a631e63d6e19549adf9b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k808-peru-12.webp",
+      "status": 200,
+      "bytes": 509296,
+      "sha256": "2b0f1f6bf39db012c28fa198cc43c1169a3de746fdb9ed72dbf4a3a85b0e0973",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k808-peru-14.webp",
+      "status": 200,
+      "bytes": 390294,
+      "sha256": "b238205a6b0b8951d92d9f3709e77a03e2f025c2dad8044eb6fd8c72d1ec18cf",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k808-peru-15.webp",
+      "status": 200,
+      "bytes": 439848,
+      "sha256": "8f63c7226570e1e5363d84fc4ce1997b4380df0dd3c0b80ff101a733e2e993a4",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k9a3-02.webp",
+      "status": 200,
+      "bytes": 62706,
+      "sha256": "f9d30ff810da2c998ee3d07b215388bad3275fe866c7c3edb9f969834ab04d25",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k9a3-03.webp",
+      "status": 200,
+      "bytes": 191384,
+      "sha256": "aaf24af505a5b7b17d4a6faa30d2ff3332f9a98e408a752b95bbf8fccec56e5c",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k9a3-07.webp",
+      "status": 200,
+      "bytes": 104330,
+      "sha256": "41df7fff5d51af5e282bc138d54edaaa60267bb094db84a239fd7f61a4f341bc",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/k9a3-11.webp",
+      "status": 200,
+      "bytes": 404398,
+      "sha256": "59473682382b3adc312870dfdf99d705f6208a947260ff1e031deb8ae06ee9ed",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/kaplan-hybrid-00.webp",
+      "status": 200,
+      "bytes": 167210,
+      "sha256": "2793449fd6e58feae4a17e4472e0724ffa55066248f37d3ced4c08c931c8d9d2",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/leopard-2a8-02.webp",
+      "status": 200,
+      "bytes": 309676,
+      "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/leopard-2a8-04.webp",
+      "status": 200,
+      "bytes": 145892,
+      "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/leopard-2a8-07.webp",
+      "status": 200,
+      "bytes": 46876,
+      "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/lynx-skyranger35-03.webp",
+      "status": 200,
+      "bytes": 342876,
+      "sha256": "077aa8b758ffa16300320af3e9d9cec88dbe6bd64927aa6962ad07a7ac39878e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/lynx-skyranger35-05.webp",
+      "status": 200,
+      "bytes": 158086,
+      "sha256": "d03a2e66b69b36a584a4c848898691c1b4b88dea8fdc4da360af153ebafcee62",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/lynx-skyranger35-07.webp",
+      "status": 200,
+      "bytes": 136660,
+      "sha256": "cb870eb53e653c35dc21428552ec8501499a211249f43be9debb8a5e7647613e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-bae-acv-2016.jpg",
+      "status": 200,
+      "bytes": 732334,
+      "sha256": "48d90602fa6360edb1450dc97106e231ba00cdd806af86e45ba00f77a0c35f75",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-bae-acv-2018.jpg",
+      "status": 200,
+      "bytes": 468234,
+      "sha256": "779ed29f0b2483920bfd96f6069b0345d84d861916bd0f4a8ab0db4809221d9a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-bae-acv-2020.jpg",
+      "status": 200,
+      "bytes": 529993,
+      "sha256": "6449e74634707fb4f5a67d6a778d5bfb599cc1111fc2b57a97303e55b4ae9e43",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-hanwha-k9-front.webp",
+      "status": 200,
+      "bytes": 90048,
+      "sha256": "cb50a759611313c654734b9b0495a254e79c67419ee6679bd9a0317bda1a978a",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-hanwha-k9-side.webp",
+      "status": 200,
+      "bytes": 230230,
+      "sha256": "8df161d016a34cad6cc506d6f242fe006a34196374b6ce9e025857a1d41194f6",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-kongsberg-crows.jpg",
+      "status": 200,
+      "bytes": 695999,
+      "sha256": "2e640b5c978dfa41e99e49b4417b79a442c6dd02250a354575e5ca18234f52a3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-kongsberg-m151.jpg",
+      "status": 200,
+      "bytes": 55057,
+      "sha256": "b58c76fa710c31c5866b0152f882e3f52a14d58ef711071afbb4d6edff09600b",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-kongsberg-tapv.jpg",
+      "status": 200,
+      "bytes": 247324,
+      "sha256": "427756368a898b08f13d789cae855a369da4c0b9a8a55e8b2307873091ae0cd8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-milrem-themis-size.png",
+      "status": 200,
+      "bytes": 749019,
+      "sha256": "79286ba80a99c2d61e1b03378d9154e93c59e7df5de90ddff81f0745d4affca7",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-otokar-cobra2-2024.jpg",
+      "status": 200,
+      "bytes": 115490,
+      "sha256": "867417394e2a7fed327332a8eb8cbfbb28d2754d970582b0aa29abdcd2f536da",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-rheinmetall-lynx-csv.jpg",
+      "status": 200,
+      "bytes": 393842,
+      "sha256": "c46dce684f5a77488ee1c45aaba1a9657bbd262a7e93aba089b5e90a0a1d2579",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-rheinmetall-lynx-rear.jpg",
+      "status": 200,
+      "bytes": 580148,
+      "sha256": "3fc4138386d7d7a7a5b7ae277111a3bed18c146838ba851b980760d47f19c830",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/manufacturer-rheinmetall-lynx120.jpg",
+      "status": 200,
+      "bytes": 698955,
+      "sha256": "8d3bb795b34ea8bb3a66b315ac77ee59f16e9b456d69cd53dd884e231f073d28",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/pars-alpha-00.webp",
+      "status": 200,
+      "bytes": 128670,
+      "sha256": "c01dcbda013aa87e9bb6a82248dadb5684401987f50b8562f321bc01c9d96b35",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/pars-alpha-11.webp",
+      "status": 200,
+      "bytes": 143864,
+      "sha256": "82f43e426c796e0808d2cd80ab50d7f6d3a2b616136643c9ee59ace499b88855",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-00.webp",
+      "status": 200,
+      "bytes": 378042,
+      "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-01.webp",
+      "status": 200,
+      "bytes": 156472,
+      "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-02.webp",
+      "status": 200,
+      "bytes": 392676,
+      "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-04.webp",
+      "status": 200,
+      "bytes": 239452,
+      "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/patria-6x6-08.webp",
+      "status": 200,
+      "bytes": 292640,
+      "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/piranha-v-reference-ypg.jpg",
+      "status": 200,
+      "bytes": 1260522,
+      "sha256": "d3d32fc517ab57b0b690cfe30dbd477fe9737b2ff6a29f353151120ff5e7116f",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/priority-kongsberg-protector-2005.jpg",
+      "status": 200,
+      "bytes": 272488,
+      "sha256": "0cf9af3175c6c799c6966a0033c7fd19083c5b98506b312b8f6b2e4c654827c1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/priority-thales-sophie-2010.jpg",
+      "status": 200,
+      "bytes": 407254,
+      "sha256": "138618185f5a8460fbf73a1c00f9fef38167d67b97220bfc76066ce4e7f1118e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/rch155-tracked-03.webp",
+      "status": 200,
+      "bytes": 114518,
+      "sha256": "7a6b2344d0d3d38a3fb3a07a3d8da28898be4c2ab8c3e965e893cdfda3585ca3",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/rch155-tracked-05.webp",
+      "status": 200,
+      "bytes": 146400,
+      "sha256": "49e650894bf87a3760fc6860be722e4d24e81155c0fac7bae232659e60cc68da",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/rch155-tracked-06.webp",
+      "status": 200,
+      "bytes": 116634,
+      "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/themis-k-00.webp",
+      "status": 200,
+      "bytes": 448990,
+      "sha256": "81c4ea6179f5e2483bf1e8f5ca2f79874a46053d4804ea51ee8699f3660fcd13",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/themis-k-21.webp",
+      "status": 200,
+      "bytes": 214990,
+      "sha256": "703c261bb54ad1540853e70eb7f80d15e3e98ddb6449c9bdf1d505099b1810e1",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/assets/photos/tulpar-00.webp",
+      "status": 200,
+      "bytes": 251040,
+      "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8",
+      "matches": true,
+      "comparison": "exact SHA256"
+    },
+    {
+      "path": "preview/data/v2/app/events/adex-2025.json",
+      "status": 200,
+      "bytes": 1011272,
+      "sha256": "041e5d1758380c337dff6f956eeacabd88d636c1e520fee6203ba4dae237efb1",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/events/dsei-2025.json",
+      "status": 200,
+      "bytes": 2493714,
+      "sha256": "01dd5d26545ca8063751de3861ad5a63efcf1add037d1802625ed5bd124aa462",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/events/eurosatory-2026.json",
+      "status": 200,
+      "bytes": 212417,
+      "sha256": "956ac7c61c2bea30a3aa0614fad034fe681d0ca1c05ed6216a215f5862dde13d",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/events/idex-2025.json",
+      "status": 200,
+      "bytes": 218665,
+      "sha256": "da65c7d8619f6dde5471fd9a69657b663ffb80a1288db7b5710b562b52b11603",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/events/saha-2026.json",
+      "status": 200,
+      "bytes": 2134433,
+      "sha256": "01e67e00562bf18fedc57dea5edd4ee5094626f4282d9e5dc303284156696bcd",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/data/v2/app/index.json",
+      "status": 200,
+      "bytes": 2983,
+      "sha256": "902f507a8a60b9204e25daea4e8e386b3b82280746da3e55a37fff8915508226",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/index.html",
+      "status": 200,
+      "bytes": 3074,
+      "sha256": "dcdf1c909af6b8e5fe2ff7c7f8b90cbd7911855b33b2688a4e5b8c91cbf073d9",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/app.css",
+      "status": 200,
+      "bytes": 12033,
+      "sha256": "75942079ea3944d6416eb6b14a79db42722410bba669e1e7ca1723c2ec826b01",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/app.js",
+      "status": 200,
+      "bytes": 22242,
+      "sha256": "d7d44bd503135f53a9b33489173e6513253e964d1f9da251968e201ee30d8125",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/data.js",
+      "status": 200,
+      "bytes": 5188,
+      "sha256": "7407e5257050dada49744c3a73e16e952d206fc070ec375f3924a1487ac9e7da",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/details.css",
+      "status": 200,
+      "bytes": 25625,
+      "sha256": "0080b1614c85bd875cc606739d13d67f35a6b6e463ef7d66e9204a8b640be9c7",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/details.js",
+      "status": 200,
+      "bytes": 60368,
+      "sha256": "38b98e6be9a724cc77d44ce8fff25e767f5463e9ec395d3bdac2218232329f4b",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/map-view.css",
+      "status": 200,
+      "bytes": 4523,
+      "sha256": "41d1cc05b97855efa6979ec9e07b3f8843a2142d1a050457edd1161e4975b652",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/map-view.js",
+      "status": 200,
+      "bytes": 26167,
+      "sha256": "960537306629281fe3810db0540715f6506c533865929e3d82ca2d09bda7b11b",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/report.css",
+      "status": 200,
+      "bytes": 9299,
+      "sha256": "42b719a3da5bfe1a5c51fa8e9eb0aef59989cac7c246006b44bb7f11b7446b87",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/report.js",
+      "status": 200,
+      "bytes": 13044,
+      "sha256": "456cfd9535665e3f4d8d0fea75896147fb1b860e072468bb415f0a8e064a3d8a",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/src/v2/state.js",
+      "status": 200,
+      "bytes": 3397,
+      "sha256": "69ecf786b88f077f0074a6b3d3318b70d4f5345149d2fc083d3414f609cc8ebe",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "preview/version.json",
+      "status": 200,
+      "bytes": 63,
+      "sha256": "ca1903ca4e5827ad0dd772f4ee97f4fbf48e12d71d290cc195cd6f4f45a481de",
+      "matches": true,
+      "comparison": "version equality; build time is environment-dependent"
+    },
+    {
+      "path": "src/v2/app.css",
+      "status": 200,
+      "bytes": 12033,
+      "sha256": "75942079ea3944d6416eb6b14a79db42722410bba669e1e7ca1723c2ec826b01",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/app.js",
+      "status": 200,
+      "bytes": 22242,
+      "sha256": "d7d44bd503135f53a9b33489173e6513253e964d1f9da251968e201ee30d8125",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/data.js",
+      "status": 200,
+      "bytes": 5188,
+      "sha256": "7407e5257050dada49744c3a73e16e952d206fc070ec375f3924a1487ac9e7da",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/details.css",
+      "status": 200,
+      "bytes": 25625,
+      "sha256": "0080b1614c85bd875cc606739d13d67f35a6b6e463ef7d66e9204a8b640be9c7",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/details.js",
+      "status": 200,
+      "bytes": 60368,
+      "sha256": "38b98e6be9a724cc77d44ce8fff25e767f5463e9ec395d3bdac2218232329f4b",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/map-view.css",
+      "status": 200,
+      "bytes": 4523,
+      "sha256": "41d1cc05b97855efa6979ec9e07b3f8843a2142d1a050457edd1161e4975b652",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/map-view.js",
+      "status": 200,
+      "bytes": 26167,
+      "sha256": "960537306629281fe3810db0540715f6506c533865929e3d82ca2d09bda7b11b",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/report.css",
+      "status": 200,
+      "bytes": 9299,
+      "sha256": "42b719a3da5bfe1a5c51fa8e9eb0aef59989cac7c246006b44bb7f11b7446b87",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/report.js",
+      "status": 200,
+      "bytes": 13044,
+      "sha256": "456cfd9535665e3f4d8d0fea75896147fb1b860e072468bb415f0a8e064a3d8a",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "src/v2/state.js",
+      "status": 200,
+      "bytes": 3397,
+      "sha256": "69ecf786b88f077f0074a6b3d3318b70d4f5345149d2fc083d3414f609cc8ebe",
+      "matches": true,
+      "comparison": "SHA256 after CRLF normalization"
+    },
+    {
+      "path": "version.json",
+      "status": 200,
+      "bytes": 63,
+      "sha256": "ca1903ca4e5827ad0dd772f4ee97f4fbf48e12d71d290cc195cd6f4f45a481de",
+      "matches": true,
+      "comparison": "version equality; build time is environment-dependent"
+    }
+  ],
+  "runtimeFilesPerAddress": 122,
+  "runtimeFileChecks": 244,
+  "runtimeFilesPassed": 244,
+  "manifestChecksPassed": 2,
+  "status": "passed_runtime_and_manifests",
+  "note": "The two .nojekyll marker probes returned 404 and remain recorded, including the original failed audit. This is a build/hosting marker, not an application runtime file. The downloaded GitHub CI build artifact also excludes this hidden marker. All 244 runtime file checks and two deployment manifests passed. No failed runtime request was excluded."
+}

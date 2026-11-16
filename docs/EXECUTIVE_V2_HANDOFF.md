@@ -1,3 +1,17 @@
+# 공식 릴리즈 완료 — v2.0.0
+
+상태 completed. 2026-11-16 사용자 승인으로 FIELDNOTE v2.0.0을 정식 공개했다. [공식 웹앱](https://qkfhvnfrl-ux.github.io/exhibition-intelligence/) · [GitHub 정식 릴리즈](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/releases/tag/v2.0.0) · [최신 버전](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/releases/latest).
+
+main 및 v2.0.0 태그의 앱 커밋은 0091d1df622be33a94333e68975f878cc3877500. GitHub release는 Latest, draft=false, prerelease=false이며 웹앱 ZIP·SHA256SUMS를 첨부했다. 기존 /preview/도 같은 정식 빌드를 제공하며 개발 브랜치의 자동 공개는 종료했다. main 정상 병합 및 원자적 fast-forward push, 이력/이전 태그 보존.
+
+검증: build 성공, check230/230(fail/skip0), 원격 CI 43790594165 및 Pages43790594187 성공. 두 주소의 런타임 파일244건+배포 manifest2건 일치. 공개 지도·업체·PDF자료 카드·사진·종합보고 및 GitHub Latest를 브라우저에서 확인. 빌드 전용 .nojekyll의404 두 건은 원래 감사와 함께 별도 기록했다.
+
+증거: docs/evidence/OFFICIAL_RELEASE_2026-11-16.json. 현재 작업 체크아웃은 exhibition-intelligence-v2-release, 브랜치는 codex/fieldnote-release-v2.0.0. 태그 이후의 문서/증거 저장점은 배포 앱 커밋과 구분한다. 원래 exhibition-intelligence의 미커밋 변경은 보존되어 있다.
+
+이후 수정·자료 보강은 patch, 새 기능은 minor 정식 버전으로 관리한다. 일부 사진/자료 공백·외부 URL 제한·최신 종합보고 PDF 재생성·실제 휴대폰 검증은 남아 있다. 아래 이전 미배포/검토 문구는 당시 기록이다.
+
+---
+
 # 공식 릴리즈 진행 — RELEASE-2.0.0
 
 2026-11-16 사용자 요청: 현재 검증본을 GitHub 공식 릴리즈로 공개하고 이후 정식 버전으로 관리한다. 기존 preview-only·검토 대기 지침보다 우선한다. 버전 v2.0.0, 기본 공개 주소 https://qkfhvnfrl-ux.github.io/exhibition-intelligence/ . main 정상 병합·push, 정식 태그와 릴리즈 게시를 승인받은 범위로 실행한다. /preview/는 같은 정식 빌드의 호환 주소로 유지한다. 기존 이력·브라우저 저장 데이터·미커밋 변경은 보존한다.

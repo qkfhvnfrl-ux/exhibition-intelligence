@@ -18,33 +18,33 @@
     "branch": "codex/fieldnote-release-v2.0.0",
     "baseline_branch": "work/fieldnote-v2",
     "baseline_commit": "44c3a4da50c28d8c09cd47b07ec7d7d1e82625bb",
-    "state": "verifying",
-    "phase": "official_release_2.0.0",
+    "state": "completed",
+    "phase": "official_release_2.0.0_published",
     "review": "docs/REDESIGN_REVIEW_2026-11-15.md",
     "local_preview_entry": "index.html",
     "scope": "사용자 승인 정식 v2.0.0 공개; 앱 내용은 566f4c1 유지",
     "quality_target": "의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성",
     "public_cleanup": "implemented_current_sources_and_generators_final_audit_recorded_separately",
     "deployment_authorized": true,
-    "pushed_this_work": false,
-    "final_status_note": "2026-11-16 MATERIAL-02 completed（로컬 구현·검증）. 전차·장갑차·탑재 장비의 제조사 자료 카드와 제품별 정확한 연결, 자료 보유 업체 우선 정렬을 적용했다. 신규 이미지 13개(사진 11·제조사 도해/홍보이미지 2), 기존 참고사진 연결 8건을 추가했다. 5회차 합계 표시 이미지 보유 업체 33→45, 정확한 제품 사진 연결 40→40, 공식 자료 보유 업체 11→47, 사진 없이 공식 자료만 보유한 업체 2→20. 화면에 표시하는 고유 카탈로그·제품 자료 URL 12→40(PDF 9→24 포함). 업체 수는 회차별 기록 합계이며 동일 법인 중복을 포함한다. 과거 PHOTO-01의 37개 표기는 집계 불일치로, 같은 스냅샷을 재계산한 33개를 비교 기준으로 사용한다.",
+    "pushed_this_work": true,
+    "final_status_note": "정식 v2.0.0 공개 완료. build/check230, CI/Pages, 공개 HTTP 및 브라우저 검증 완료.",
     "implementation_plan": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
     "ui_direction_approved": true,
     "first_publication_target": "preview_only",
     "last_checks": {
       "build": "passed",
       "check": "passed",
-      "tests": 227,
-      "passed": 227,
+      "tests": 230,
+      "passed": 230,
       "failed": 0,
       "skipped": 0,
-      "evidence": "docs/evidence/MATERIAL_EXPANSION_2026-11-16.json"
+      "evidence": "docs/evidence/OFFICIAL_RELEASE_2026-11-16.json"
     },
-    "implementation_commit": null,
+    "implementation_commit": "0091d1df622be33a94333e68975f878cc3877500",
     "local_only": false,
-    "head_commit": null,
-    "working_changes": true,
-    "implementation_commit_note": "이번 로컬 변경을 저장하는 커밋에 이 문서를 포함한다. 실제 HEAD는 git log -1로 확인한다.",
+    "head_commit": "0091d1df622be33a94333e68975f878cc3877500",
+    "working_changes": false,
+    "implementation_commit_note": "Official immutable v2.0.0 application commit; follow-up evidence commits are separate.",
     "task_states": {
       "B02": "executing",
       "B03": "retry_with_revision",
@@ -52,7 +52,7 @@
       "B05": "completed",
       "RELEASE_01": "completed",
       "MATERIAL-02": "completed",
-      "RELEASE-2.0.0": "verifying"
+      "RELEASE-2.0.0": "completed"
     },
     "integrated_content": {
       "event_editions": 5,
@@ -1751,7 +1751,7 @@
   "official_release": {
     "version": "2.0.0",
     "tag": "v2.0.0",
-    "state": "verifying",
+    "state": "completed",
     "source_implementation": "566f4c1",
     "source_branch": "codex/fieldnote-release-v2.0.0",
     "target_branch": "main",
@@ -1764,6 +1764,13 @@
       "passed": 230,
       "failed": 0,
       "skipped": 0
-    }
+    },
+    "release_commit": "0091d1df622be33a94333e68975f878cc3877500",
+    "release_url": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/releases/tag/v2.0.0",
+    "latest": true,
+    "draft": false,
+    "ci_run": 43790594165,
+    "pages_run": 43790594187,
+    "evidence": "docs/evidence/OFFICIAL_RELEASE_2026-11-16.json"
   }
 }

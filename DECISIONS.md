@@ -1,3 +1,9 @@
+# 정식 운영 기준 확정
+
+v2.0.0부터 main 기본 주소와 GitHub Latest 정식 릴리즈를 운영 기준으로 적용. /preview/는 동일 정식본의 호환 경로다. 공개 태그/앱 커밋은 보존하고 사후 검증 문서는 별도 저장점으로 기록한다. 다음 작업은 공식 릴리즈 기반 체크아웃 exhibition-intelligence-v2-release에서 시작한다.
+
+---
+
 # 2026-11-16 공식 버전 관리
 
 2026-11-16 사용자 요청: 현재 검증본을 GitHub 공식 릴리즈로 공개하고 이후 정식 버전으로 관리한다. 기존 preview-only·검토 대기 지침보다 우선한다. 버전 v2.0.0, 기본 공개 주소 https://qkfhvnfrl-ux.github.io/exhibition-intelligence/ . main 정상 병합·push, 정식 태그와 릴리즈 게시를 승인받은 범위로 실행한다. /preview/는 같은 정식 빌드의 호환 주소로 유지한다. 기존 이력·브라우저 저장 데이터·미커밋 변경은 보존한다.
