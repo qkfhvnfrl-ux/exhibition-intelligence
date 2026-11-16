@@ -119,3 +119,14 @@
 - 현재 공백: 서술65 중 현장사진 없음36, 참고사진 포함 표시사진 없음35. 미서술 제품기록66. 공식 명단·지도 및 전체 관련 업체 조사 큐 유지.
 
 2026-11-16 구현 저장점: d3c4580091f0c83b580cacfad847ea2d6dcc4b5b. 50파일의65서술/325항목/209검사·사진/화면 변경을 로컬 저장했다. 후속 인계문서는 별도 커밋. 다음 참고사진 큐는5제품16장 검토·후보13/제외3·미통합이며16자산 해시 재대조PASS. 신규사진0/운영연결0, 전체목표진행·공개변경없음.
+
+## 2026-11-16 1차 공개 계획 — 사용자 직접 승인
+
+- 상태: RELEASE-01 new_task → planned → executing. B05의1차 검토본 공개만진행, 전체자료확대목표는일시정지 유지.
+- 목표: 검증완료090fbad를 기존GitHub Pages /preview/에 공개하고 사용자에게 실제접속링크 제공.
+- 수정파일: 승인·상태·증거·인계/릴리즈기록 문서만. 앱코드·자료는090fbad와동일.
+- 작업공간: 별도 exhibition-intelligence-release-1 worktree, codex/fieldnote-preview-release-1. 원본작업공간의미검증후속변경보존.
+- 영향: work/fieldnote-v2를fast-forward push하면 Validate and build 성공후main소유Pages workflow가stable루트와새preview를조립한다. main ref/app변경없음. force push/이력재작성없음.
+- 리스크: 원격분기추가변경·CI실패·공개캐시·하위경로/사진누락·미완료PDF의완료오인.
+- 검증: remote ancestor확인 → 격리worktree build/check → 현재공개산출물검사 → 정상push → CI/Pages실제성공 → 익명deployment.json의preview/mainSHA와이미지·자료HTTP → 실제브라우저지도/업체/사진/보고 확인 → 증거저장.
+- 잔여: 변경DSEI/SAHA2PDF실제저장미완료,사진35제품·미서술66기록등자료공백을1차공개한계로명시한다.

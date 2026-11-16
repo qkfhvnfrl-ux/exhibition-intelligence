@@ -1,0 +1,47 @@
+{
+  "asOf": "2026-11-16",
+  "status": "local_checks_passed",
+  "authorization": "User explicitly requested a public GitHub release of the completed first work product.",
+  "scope": "Existing /preview/ only; unchanged stable main app",
+  "sourceCommit": "090fbad2d933f6fc3ea7e61e9db0b9a35761ebe3",
+  "implementationCommit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
+  "releaseBranch": "codex/fieldnote-preview-release-1",
+  "remotePreviewBefore": "7040964ccc6af9e3ecfd355cb9be53de33ee6ef6",
+  "remoteMainBefore": "a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7",
+  "ancestorComparison": {
+    "remoteOnly": 0,
+    "verifiedLocalOnly": 15
+  },
+  "appCounts": {
+    "events": 5,
+    "companyLabels": 3685,
+    "products": 131,
+    "narratives": 65,
+    "sections": 325,
+    "reports": 5
+  },
+  "excludedWork": "Original worktree uncommitted reference-photo 13 mappings and BOXER/TULPAR drafts preserved.",
+  "limitations": [
+    "Changed DSEI/SAHA PDFs are not newly saved/validated.",
+    "35 narrative products lack displayable event/reference images; 66 product records have no authored five-section narrative.",
+    "Full event coverage and physical phone QA are unfinished."
+  ],
+  "url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/",
+  "localVerification": {
+    "build": {
+      "result": "pass",
+      "log": ".local-release-build.log",
+      "sha256": "fb9c6d5c0a664487e881db6044d57ccd8739f2308f85139c297ad9b848b0c61d"
+    },
+    "check": {
+      "result": "pass",
+      "tests": 209,
+      "failed": 0,
+      "skipped": 0,
+      "log": ".local-release-check.log",
+      "sha256": "7f939440a11fe95cffd6b09fb2be3e345882d0760ebc7117ea796e516700e435"
+    },
+    "lint": "No separate script; check includes syntax/schema/data checks.",
+    "applicationDiffFromVerifiedCommit": []
+  }
+}

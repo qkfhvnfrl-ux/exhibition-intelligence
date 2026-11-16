@@ -18,3 +18,7 @@
 - 다음: 검증한 참고사진 후보 큐 연결 및 부족한 사진/서술 조사 → 변경 PDF 실제 저장 검증 → 완성본 검토. 공개 변경은 검토 뒤에만 진행한다.
 
 증거: docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json, docs/evidence/REDESIGN_NEXT_EXPANSION_AUDIT_2026-11-16.json, docs/evidence/REDESIGN_NEXT_EXPANSION_BROWSER_2026-11-16.json. 이전 검증/결정은 EVIDENCE.md·TASKS.md·DECISIONS.md·CHANGELOG.md와 인계 문서의 과거 기록에 보존했다.
+
+## 2026-11-16 1차 공개 준비
+
+사용자 직접 승인으로 검증완료090fbad를기존/preview/에공개한다. 이번release worktree의앱/자료는65서술검증본이며원래작업공간의후속미검증변경은포함하지않는다. main은유지하고검증→CI→Pages→실제공개접속을확인한다.
