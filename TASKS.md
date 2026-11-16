@@ -1,3 +1,15 @@
+# RELEASE-2.0.0
+
+상태 new_task → planned → executing. 사용자 공개·정식 버전 관리 요청을 승인으로 적용.
+
+- 목표: v2.0.0, main 기본 주소, GitHub 최신 정식 릴리즈.
+- 수정: package.json, README, Pages/CI, 조립 코드·회귀검사, AGENTS 및 상태·증거 문서.
+- 영향/위험: 기본 URL v2 전환, 기존 /preview/ 호환, 태그/배포 SHA 일치. 개발 브랜치는 더 이상 공개 배포를 유발하지 않는다.
+- 검증: build → check → diff → 원격 CI/Pages → 익명 HTTP 파일 대조 및 공개 UI → GitHub release 상태.
+- 경계: 기능·자료는 566f4c1 유지, 기존 미커밋 변경·Git 이력 보존. force push 없음.
+
+---
+
 # 현재 작업 — MATERIAL-02
 
 - 상태: completed (승인된 로컬 자료 확대·UI·5종 보고 개편 범위).
@@ -179,3 +191,6 @@
 - 위험: 제품 파생형 오연결, 공식 공개와 재배포 허가 혼동, PDF 링크 실패, 보고 문장 증가로 인한 넘침.
 - 검증: 전후 지표 스냅샷 → build → check → diff → 데스크톱/모바일 자료 카드·사진·PDF·5종 보고 확인.
 - 공개 범위: 로컬 구현/검증. 이번 변경의 push/배포는 별도 요청 시 진행.
+
+
+2026-11-16 RELEASE-2.0.0 executing → verifying: npm run build 성공, npm run check 230/230 통과(fail/skip 0), git diff --check 통과. 로컬 검증 증거 docs/evidence/OFFICIAL_RELEASE_LOCAL_2026-11-16.json. 공개 CI·Pages·HTTP 검증은 이어서 수행한다.

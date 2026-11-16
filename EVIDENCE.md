@@ -1,3 +1,9 @@
+# RELEASE-2.0.0 검증 진행
+
+원천 566f4c1의 build/check227 통과 및 브라우저 증거를 보존했다. 원격 main a633a97은 1커밋 분기 상태여서 정상 병합했다(86c1eaf). pages-preview 테스트의 add/add 충돌은 검증된 Windows junction 처리 버전을 유지해 해결했다. 공식 배포 구성의 전체 검증·원격 배포 확인은 진행 중.
+
+---
+
 # 2026-11-16 MATERIAL-02 최종 검증
 
 2026-11-16 MATERIAL-02 completed（로컬 구현·검증）. 전차·장갑차·탑재 장비의 제조사 자료 카드와 제품별 정확한 연결, 자료 보유 업체 우선 정렬을 적용했다. 신규 이미지 13개(사진 11·제조사 도해/홍보이미지 2), 기존 참고사진 연결 8건을 추가했다. 5회차 합계 표시 이미지 보유 업체 33→45, 정확한 제품 사진 연결 40→40, 공식 자료 보유 업체 11→47, 사진 없이 공식 자료만 보유한 업체 2→20. 화면에 표시하는 고유 카탈로그·제품 자료 URL 12→40(PDF 9→24 포함). 업체 수는 회차별 기록 합계이며 동일 법인 중복을 포함한다. 과거 PHOTO-01의 37개 표기는 집계 불일치로, 같은 스냅샷을 재계산한 33개를 비교 기준으로 사용한다.
@@ -260,3 +266,6 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 - http://127.0.0.1:4177/#company?event=eurosatory-2026&company=org-a7f46a7e877193b3e57d&product=leopard-2a8
 - http://127.0.0.1:4177/#company?event=dsei-2025&company=org-cd0bf6280f80e73343c7
 - http://127.0.0.1:4177/#company?event=dsei-2025&company=org-08ba69fde2c8bc751f83
+
+
+2026-11-16 RELEASE-2.0.0 executing → verifying: npm run build 성공, npm run check 230/230 통과(fail/skip 0), git diff --check 통과. 로컬 검증 증거 docs/evidence/OFFICIAL_RELEASE_LOCAL_2026-11-16.json. 공개 CI·Pages·HTTP 검증은 이어서 수행한다.

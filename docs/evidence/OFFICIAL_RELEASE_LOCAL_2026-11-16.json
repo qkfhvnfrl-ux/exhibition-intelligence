@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tag": "v2.0.0",
+  "status": "verified_locally_publication_pending",
+  "sourceImplementation": "566f4c1",
+  "mainBefore": "a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7",
+  "previewBefore": "ca195ab60d60265bba73c49fce6779513a316763",
+  "checks": [
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "log": "docs/evidence/OFFICIAL_RELEASE_BUILD_2026-11-16.log",
+      "sha256": "eacc64eb7ad3279c84d019c7efb7bcf50915803c359128d2bab81387e30c66a9"
+    },
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "log": "docs/evidence/OFFICIAL_RELEASE_CHECK_2026-11-16.log",
+      "sha256": "a7c5be21f12217e81eb7fffa610de6cd038a01cc864598dda695ef61940ef227"
+    }
+  ],
+  "tests": {
+    "total": 230,
+    "passed": 230,
+    "failed": 0,
+    "skipped": 0
+  },
+  "diffCheck": "passed",
+  "runtimeChangesFromImplementation": "Only generated package version strings; source application and research/photo data unchanged.",
+  "deploymentPolicy": "main exact commit; stable version only; same build at root and /preview; no development branch deployment",
+  "remaining": [
+    "Some product photos and manufacturer documents still unavailable.",
+    "External sources can change or require access checks.",
+    "Latest report PDF regeneration and physical mobile device checks are not included."
+  ]
+}

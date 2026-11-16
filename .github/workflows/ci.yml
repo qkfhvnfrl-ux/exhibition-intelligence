@@ -12,11 +12,10 @@ jobs:
           node-version: '22'
       - run: npm run build
       - run: npm run check
-      - name: Save FIELDNOTE v2 preview
-        if: github.ref == 'refs/heads/work/fieldnote-v2'
+      - name: Save validated FIELDNOTE build
         uses: actions/upload-artifact@v4
         with:
-          name: fieldnote-v2-preview-${{ github.sha }}
+          name: fieldnote-build-${{ github.sha }}
           path: dist
           if-no-files-found: error
           retention-days: 14
