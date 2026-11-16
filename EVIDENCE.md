@@ -215,3 +215,26 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 - 남은 위험: 변경PDF2개 실제 저장, 사진35제품/미서술66기록/전수 관련 업체·지도·명단·실기기 검증. 공개push·merge·배포 없음.
 
 2026-11-16 구현 저장점: d3c4580091f0c83b580cacfad847ea2d6dcc4b5b. 50파일의65서술/325항목/209검사·사진/화면 변경을 로컬 저장했다. 후속 인계문서는 별도 커밋. 다음 참고사진 큐는5제품16장 검토·후보13/제외3·미통합이며16자산 해시 재대조PASS. 신규사진0/운영연결0, 전체목표진행·공개변경없음.
+
+## 2026-11-16 1차 공개 검증 — completed
+
+- npm run build: exit 0. npm run check: 209 pass, 0 fail, 0 skip. 별도 lint 명령 없음, check에 문법·스키마 검사 포함.
+- git diff 090fbad -- src data assets scripts .github package.json: 내용 변경 없음. 독립 공개 산출물·워크플로 감사 PASS.
+- git push origin ca195ab60d60265bba73c49fce6779513a316763:refs/heads/work/fieldnote-v2: 정상 fast-forward. main 변경 없음.
+- gh run watch 43782581288 --exit-status, gh run watch 43782617358 --exit-status: 모두 성공.
+- 익명 deployment.json: preview=ca195ab60d60265bba73c49fce6779513a316763, production=a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7, run=43782617358. 공개 105파일 HTTP 200, 87자산 바이트 일치, 나머지 텍스트 정규화 비교 일치(빌드 시간은 별도 취급).
+- 공개 브라우저: 지도 → 기아 → 제품 사진 2/2 → 새로고침 유지. ADEX 보고 1365×767.8125(16:9), SAHA 모바일 폭 390px 세로 읽기·가로넘침 0·참고사진 고지. 실제 휴대폰/PDF 저장 검증은 아님.
+- GitHub prerelease v2.0.0-preview.1: published, draft=false, target=ca195ab60d60265bba73c49fce6779513a316763.
+- 증거: docs/evidence/FIRST_PREVIEW_RELEASE_2026-11-16.json, FIRST_PREVIEW_RELEASE_HTTP_2026-11-16.json, FIRST_PREVIEW_RELEASE_BROWSER_2026-11-16.json 및 screenshots/first-public-*.jpg. 루트 문서에서는 exhibition-intelligence-release-1/docs/evidence/를 참조한다.
+- 남은 리스크: 변경 PDF 2개 저장, 사진/서술/전체 조사 공백. 공개 릴리즈 완료와 전체 목표 완료를 구분한다.
+
+## 2026-11-16 PHOTO-01 검증
+
+2026-11-16 PHOTO-01 로컬 1차 사진 묶음 완료. 사진 상태 표시·안정 정렬과 정확한 제품 대표사진 우선 선택을 적용했다. 기존 DSEI 업체 5곳에 참고사진을 추가하여 회차별 사진 보유 업체 합계 32→37, 사진 연결 제품 31→40. 신규 다운로드 4장, SETAS 기존 자산 1장 재사용, 이전 후보 13건 연결. 현장사진 신규 0장. build/check 213개 통과, PC1440/모바일390·사진 확대/새로고침·필터·검색 확인. 로컬 http://127.0.0.1:4177/#companies?event=dsei-2025 를 제공한다. 공개 반영은 별도 요청 범위다.
+
+명령 npm run build, npm run check(Windows 링크 검사를 위한 권한 실행), git diff --check. 상세 전후 집계·로그 해시·독립 감사는 exhibition-intelligence/docs/evidence/PHOTO_PRIORITY_2026-11-16.json, 브라우저 기록은 PHOTO_PRIORITY_BROWSER_2026-11-16.json. 신규 사진은 일반 제품 참고사진이며 회차 현장사진을 확보한 것으로 세지 않는다.
+
+대표 링크
+- http://127.0.0.1:4177/#company?event=eurosatory-2026&company=org-a7f46a7e877193b3e57d&product=leopard-2a8
+- http://127.0.0.1:4177/#company?event=dsei-2025&company=org-cd0bf6280f80e73343c7
+- http://127.0.0.1:4177/#company?event=dsei-2025&company=org-08ba69fde2c8bc751f83

@@ -2756,23 +2756,28 @@
       "equipmentId": "boxer-miv",
       "src": "assets/photos/boxer-miv-00.webp",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxer_Mechanised_Infantry_Vehicle_of_the_British_Army.jpg",
-      "author": "UK Ministry of Defence / Crown copyright (촬영자 미상)",
+      "author": "Jack Eckersley / UK Ministry of Defence / © Crown copyright",
       "license": "OGL v1.0",
       "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
-      "caption": "영국 Boxer MIV의 전면 사선 — 2023년 시험 차량",
+      "caption": "제품 참고사진 — 영국 BOXER MIV, Millbrook 시험(2023). DSEI 2025 현장사진이 아닙니다.",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "variantNote": "영국 MIV의 2023년 시험 사진입니다. DSEI 2025 전시 구성을 확정하지 않습니다. 원문 라이선스 표기는 OGL v1.0이며 사진 메타데이터에는 v3.0 링크도 있어 버전 차이를 보존합니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음. Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
       "sourceTitle": "File:Boxer Mechanised Infantry Vehicle of the British Army.jpg",
-      "sourceDate": "2023-07-10 23:19:38",
+      "sourceDate": "2023-07-10",
       "retrievedAt": "2026-11-10",
       "width": 1600,
       "height": 1067,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
       "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
-      "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a"
+      "sha256": "05c3a49e99accc1d6db984fc1f8e88da9c5a78427ebdb62a0844b3c778e0de1a",
+      "productIds": [
+        "boxer-miv"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Commons license section grants OGL v1.0; embedded MOD usage terms link OGL v3.0. Both evidence paths identify OGL publication, but preserve this version discrepancy. Retain the recorded v1.0 basis until a deliberate source correction; do not treat this as CC0."
     },
     {
       "id": "boxer-miv-01",
@@ -2936,20 +2941,25 @@
       "author": "Jack Eckersley",
       "license": "OGL v1.0",
       "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
-      "caption": "2019년 영국 시연 Boxer MIV — 후면과 임무모듈 참고",
+      "caption": "제품 참고사진 — 영국 BOXER MIV 시연차의 후면 사선, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
       "angle": "후면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "variantNote": "영국 MIV 시험·시연 자료입니다. 촬영 메타데이터는 2019-10-25, 원문이 설명한 ACPD 행사일은 10월 28~30일입니다. DSEI 2025 전시형과의 동일성은 미확인입니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음. Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
       "sourceTitle": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 2.jpg",
-      "sourceDate": "2019-10-25 13:45:09",
+      "sourceDate": "2019-10-25",
       "retrievedAt": "2026-11-10",
       "width": 1600,
       "height": 1067,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
       "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
-      "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6"
+      "sha256": "e78c638129a61765ccc4d9108e29f68290be600f059a527bd93a91f5c625d7d6",
+      "productIds": [
+        "boxer-miv"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Commons public imageinfo API reconfirmed Jack Eckersley, OGL v1.0 and individual MOD image source credit. Keep Crown copyright attribution and licence link."
     },
     {
       "id": "boxer-miv-19",
@@ -2959,20 +2969,25 @@
       "author": "Jack Eckersley",
       "license": "OGL v1.0",
       "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
-      "caption": "2019년 영국 시연 Boxer MIV — 후면 모듈 근접 참고",
+      "caption": "제품 참고사진 — 영국 BOXER MIV 시연차의 후면, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
       "angle": "후면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "variantNote": "영국 MIV 시험·시연 자료입니다. 촬영 메타데이터는 2019-10-25, 원문이 설명한 ACPD 행사일은 10월 28~30일입니다. DSEI 2025 전시형과의 동일성은 미확인입니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음. Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
       "sourceTitle": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 11.jpg",
-      "sourceDate": "2019-10-25 13:29:30",
+      "sourceDate": "2019-10-25",
       "retrievedAt": "2026-11-10",
       "width": 1600,
       "height": 1067,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
       "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
-      "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f"
+      "sha256": "1fec94b10d51c95263fadd16003b9f36cacc4e29c796e7501790c47974bcf50f",
+      "productIds": [
+        "boxer-miv"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Commons public imageinfo API reconfirmed Jack Eckersley, OGL v1.0 and individual MOD image source credit. Keep Crown copyright attribution and licence link."
     },
     {
       "id": "boxer-miv-21",
@@ -2982,20 +2997,25 @@
       "author": "Jack Eckersley",
       "license": "OGL v1.0",
       "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
-      "caption": "2019년 영국 시연 Boxer MIV — 야지 주행 전면 참고",
+      "caption": "제품 참고사진 — 영국 BOXER MIV 시연차의 전면 사선, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "variantNote": "영국 MIV 시험·시연 자료입니다. 촬영 메타데이터는 2019-10-25, 원문이 설명한 ACPD 행사일은 10월 28~30일입니다. DSEI 2025 전시형과의 동일성은 미확인입니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음. Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
       "sourceTitle": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 5.jpg",
-      "sourceDate": "2019-10-25 14:24:21",
+      "sourceDate": "2019-10-25",
       "retrievedAt": "2026-11-10",
       "width": 1600,
       "height": 1067,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
       "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
-      "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6"
+      "sha256": "eb46f1668007a185a2cbfe52f4eeed515d6eb6442ead40042666370bcbe6b7c6",
+      "productIds": [
+        "boxer-miv"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Commons public imageinfo API reconfirmed Jack Eckersley, OGL v1.0 and individual MOD image source credit. Keep Crown copyright attribution and licence link."
     },
     {
       "id": "boxer-miv-22",
@@ -3005,20 +3025,25 @@
       "author": "Jack Eckersley",
       "license": "OGL v1.0",
       "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/open-government-licence.htm",
-      "caption": "2019년 영국 시연 Boxer MIV — 차륜과 차체 측면 참고",
+      "caption": "제품 참고사진 — 영국 BOXER MIV 시연차의 차체·차륜 전경, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "영국 MIV 시험·시연 사진입니다. DSEI 2025 출품 차량의 세부 구성을 확정하지 않습니다.",
+      "variantNote": "영국 MIV 시험·시연 자료입니다. 촬영 메타데이터는 2019-10-25, 원문이 설명한 ACPD 행사일은 10월 28~30일입니다. DSEI 2025 전시형과의 동일성은 미확인입니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음. Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
       "sourceTitle": "File:Boxer MIV on 2019 Army Combat Power Demonstration (ACPD) - 9.jpg",
-      "sourceDate": "2019-10-25 14:24:22",
+      "sourceDate": "2019-10-25",
       "retrievedAt": "2026-11-10",
       "width": 1600,
       "height": 1067,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
       "copyrightNotice": "Contains public sector information licensed under the Open Government Licence v1.0. © Crown copyright.",
-      "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5"
+      "sha256": "5421dc5c68050b617e712652e28bb2fc0b043c24379c81e8d5e074e2eed526f5",
+      "productIds": [
+        "boxer-miv"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Commons public imageinfo API reconfirmed Jack Eckersley, OGL v1.0 and individual MOD image source credit. Keep Crown copyright attribution and licence link."
     },
     {
       "id": "k2pl-05",
@@ -3028,11 +3053,11 @@
       "author": "Boevaya mashina",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "caption": "폴란드군 K2 전경 — K2PL과 구별되는 기존 K2",
+      "caption": "기반 계열 참고사진 — 폴란드군 K2, Radom 2023. K2PL 또는 ADEX 2025 전시품이 아닙니다.",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:Polish Army K2 at Radom-2023.jpg",
       "sourceDate": "2023-08-26",
       "retrievedAt": "2026-11-10",
@@ -3040,7 +3065,10 @@
       "height": 768,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b"
+      "sha256": "6a9435c124bc4d97a48c0372f1e1a161787e88128f97b0166a17f948bb4ce78b",
+      "productIds": [],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Boevaya mashina, own work, CC BY-SA 3.0."
     },
     {
       "id": "k2pl-23",
@@ -3050,19 +3078,22 @@
       "author": "Krzysztof Popławski",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "caption": "MSPO 2026 현대 로템 부스의 K2 — 정면 참고, K2PL 확정 형상 아님",
+      "caption": "기반 계열 참고사진 — MSPO 2026의 K2 전시차. K2PL 또는 ADEX 2025 전시품으로 확인되지 않았습니다.",
       "angle": "정면",
       "context": "reference",
       "eventId": null,
-      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다.",
+      "variantNote": "기존 K2 계열 참고사진입니다. K2PL의 최종 양산 형상·장비를 나타내지 않습니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:K2 tank at the Hyundai Rotem stand at MSPO 2026 in Kielce.jpg",
-      "sourceDate": "8 September 2026",
+      "sourceDate": "2026-09-08",
       "retrievedAt": "2026-11-10",
       "width": 1067,
       "height": 1600,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942"
+      "sha256": "f8af71f356130f8326d4d990252f89f9205d55cd0fe79456ab30418fa2b8f942",
+      "productIds": [],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Krzysztof Popławski, CC BY 4.0; license verified independently of the rejected K2PL mapping."
     },
     {
       "id": "k2pl-00",
@@ -3226,11 +3257,11 @@
       "author": "TnTkr",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "caption": "Patria 6×6의 외부 전경 — 기본 차체와 차륜 배치",
+      "caption": "제품 참고사진 — Patria 6×6 APC 외부 전경(2021). DSEI 2025 현장사진이 아닙니다.",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "variantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:Patria 6x6 APC.jpg",
       "sourceDate": "2021-10-29",
       "retrievedAt": "2026-11-10",
@@ -3238,7 +3269,12 @@
       "height": 1024,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9"
+      "sha256": "0e9f0c939ab93c22677d12e958a42ce36f94463fd3f7a0cf6c7cc259f0427bc9",
+      "productIds": [
+        "patria-6x6"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "TnTkr, own work, CC BY-SA 4.0."
     },
     {
       "id": "patria-6x6-01",
@@ -3248,11 +3284,11 @@
       "author": "Michał Derela",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "caption": "MSPO 2023의 Patria 6×6 전시차량",
+      "caption": "제품 참고사진 — Patria 6×6, MSPO 2023. DSEI 2025 현장사진이 아닙니다.",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "variantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:Patria 6x6 MSPO23 IMG133345590 HDR.jpg",
       "sourceDate": "2023-09-05",
       "retrievedAt": "2026-11-10",
@@ -3260,7 +3296,12 @@
       "height": 960,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54"
+      "sha256": "9dc2ffebc1570fba598f3fa07c6f872c75603c153c471bb1c0117f8941447a54",
+      "productIds": [
+        "patria-6x6"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Michał Derela, own work; file offers CC BY-SA versions 4.0/3.0/2.5/2.0/1.0. Existing chosen 4.0 remains valid."
     },
     {
       "id": "patria-6x6-02",
@@ -3270,11 +3311,11 @@
       "author": "MKFI",
       "license": "Public domain",
       "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-      "caption": "핀란드군 Patria 6×6 XA-300 — 전면 사선 참고",
+      "caption": "제품 참고사진 — 핀란드 Patria 6×6 XA-300, 2022 국기 기념일 행진. DSEI 2025 현장사진이 아닙니다.",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "variantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:Lippujuhlan päivän 2022 paraati 046 Patria 6x6 XA-300.JPG",
       "sourceDate": "2022-06-04",
       "retrievedAt": "2026-11-10",
@@ -3282,7 +3323,12 @@
       "height": 1067,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1"
+      "sha256": "560b6afcb86f4864d28576f1ac23a0c59f333e85805847927f4d8abd330310f1",
+      "productIds": [
+        "patria-6x6"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "MKFI explicitly releases own work to the public domain, with an any-purpose permission fallback where dedication is not possible."
     },
     {
       "id": "patria-6x6-04",
@@ -3292,11 +3338,11 @@
       "author": "MKFI",
       "license": "Public domain",
       "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-      "caption": "핀란드군 Patria 6×6 XA-300 — 후면과 측면 참고",
+      "caption": "제품 참고사진 — 핀란드 Patria 6×6 XA-300 후면, 2022 국기 기념일 행진. DSEI 2025 현장사진이 아닙니다.",
       "angle": "후면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "variantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:Lippujuhlan päivän 2022 paraati 049 Patria 6x6 XA-300.JPG",
       "sourceDate": "2022-06-04",
       "retrievedAt": "2026-11-10",
@@ -3304,7 +3350,12 @@
       "height": 1067,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363"
+      "sha256": "cd4eb48b12295507cec9b075f715b2bfef5269c1f03f187e420f0c3ce2288363",
+      "productIds": [
+        "patria-6x6"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "MKFI explicitly releases own work to the public domain, with an any-purpose permission fallback where dedication is not possible."
     },
     {
       "id": "patria-6x6-08",
@@ -3314,11 +3365,11 @@
       "author": "Naračanski",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "caption": "라트비아군 Patria 6×6 — 국가별 구성 참고",
+      "caption": "제품 참고사진 — 라트비아 Patria 6×6(2024). DSEI 2025 현장사진이 아닙니다.",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "Patria 6×6 계열 참고사진입니다. 국가·임무별 탑재장비가 다를 수 있으며 이번 전시회 형상을 확정하지 않습니다.",
+      "variantNote": "국가·임무별 탑재 형상이 다를 수 있으며 DSEI 2025의 C4·CAVS 전시형과 동일하다고 보지 않습니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:Kołowy transporter opancerzony Patria 6x6 łotewskich Narodowych Sił Zbrojnych (NBS)..jpg",
       "sourceDate": "2024-07-10",
       "retrievedAt": "2026-11-10",
@@ -3326,7 +3377,12 @@
       "height": 899,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18"
+      "sha256": "ce5c5c317b810e19aa0a9f22440dfd243fcfabb970e344166512de4b7e931f18",
+      "productIds": [
+        "patria-6x6"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Naračanski, own work, CC BY-SA 4.0."
     },
     {
       "id": "lynx-skyranger35-03",
@@ -3402,19 +3458,24 @@
       "author": "Wikimedilea",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "caption": "출처 표기 Leopard 2A8 — 2025년 Zagreb 운송 장면",
+      "caption": "출처 표기 Leopard 2A8 시제차 — Zagreb 운송 참고사진. Eurosatory 2026 현장사진이 아닙니다.",
       "angle": "측면",
       "context": "reference",
       "eventId": null,
-      "variantNote": "원출처는 Leopard 2A8 또는 시제차로 표기합니다. 전시회 출품차·국가별 양산 구성과 동일한지는 별도 확인이 필요합니다.",
+      "variantNote": "Commons가 2A8 시제차로 분류한 자료입니다. 국가별 양산형·2026 전시형과의 동일성은 미확인입니다. 원문 날짜는 2025-07-15, 업로드는 2025-07-14 23:45 UTC이며 촬영일을 독립 확인하지 못했습니다. 웹 표시용 WebP 변환본입니다. 원본과 같은 1200×870px이며 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:Leopard 2A8.jpg",
       "sourceDate": "2025-07-15",
       "retrievedAt": "2026-11-10",
       "width": 1200,
       "height": 870,
-      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "changes": "웹 표시용 WebP 변환본입니다. 원본과 같은 1200×870px이며 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95"
+      "sha256": "812c46a711f0ca1f9daa6fce3ac6d54ba67ae4d7e07a22a5429b9debd48efe95",
+      "productIds": [
+        "leopard-2a8"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Individual file: Wikimedilea, own work, CC BY-SA 4.0."
     },
     {
       "id": "leopard-2a8-02",
@@ -3424,19 +3485,24 @@
       "author": "Defensie Nederlands",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "caption": "네덜란드 국방부 자료의 Leopard 2A8 시제차 표기 사진",
+      "caption": "Commons 표기 Leopard 2A8 시제차 — 일반 제품 참고. Eurosatory 2026 현장사진이 아닙니다.",
       "angle": "측면",
       "context": "reference",
       "eventId": null,
-      "variantNote": "원출처는 Leopard 2A8 또는 시제차로 표기합니다. 전시회 출품차·국가별 양산 구성과 동일한지는 별도 확인이 필요합니다.",
+      "variantNote": "시제차 명칭은 Commons 표기입니다. 원문 날짜 2024-04와 EXIF 2023-06-21이 달라 촬영일은 미확정입니다. 제조국별 양산형·2026 전시형과의 동일성도 미확인입니다. 웹 표시용 WebP 변환본입니다. 원본과 같은 1250×833px이며 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:Leopard 2A8 prototype.jpg",
       "sourceDate": "2024-04",
       "retrievedAt": "2026-11-10",
       "width": 1250,
       "height": 833,
-      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "changes": "웹 표시용 WebP 변환본입니다. 원본과 같은 1250×833px이며 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78"
+      "sha256": "2afc173ad6d240bfd5eb1107530c15836490e0cfbe4a158ad3ddc8dc5527be78",
+      "productIds": [
+        "leopard-2a8"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "CC BY-SA 4.0 supported by work-specific Commons block and Dutch MOD VRT ticket 2010120610018876. Credit Defensie Nederlands; do not invent a named photographer."
     },
     {
       "id": "leopard-2a8-07",
@@ -3446,19 +3512,22 @@
       "author": "Defensie",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "caption": "Leopard 2A7A1과 Trophy — 2A8과 구별되는 선행형 참고",
+      "caption": "다른 파생형 참고사진 — Leopard 2A7A1. Leopard 2A8 사진이 아닙니다.",
       "angle": "전면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "파일 제목에는 2A8이 있지만 원출처 설명은 Leopard 2A7A1입니다. 따라서 2A7A1 참고사진으로 분류했습니다. 2A8 실물 형상을 확정하지 않습니다.",
+      "variantNote": "파일 제목의 2A8과 달리 원문 설명은 Leopard 2A7A1입니다. 2A8 제품사진으로 연결하지 않습니다. 2025-05-14 발행 관련 날짜와 EXIF 2024-10-11을 구분합니다. 웹 표시용 WebP 변환본입니다. 원본과 같은 735×491px이며 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:Leopard 2A8 with Trophy system.jpg",
-      "sourceDate": "14 May 2025",
+      "sourceDate": "2025-05-14",
       "retrievedAt": "2026-11-10",
       "width": 735,
       "height": 491,
-      "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
+      "changes": "웹 표시용 WebP 변환본입니다. 원본과 같은 735×491px이며 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea"
+      "sha256": "43687d9e9fc3aa43b36ca171b1ff34ee67aff75e260a7a4cfd406c533daafbea",
+      "productIds": [],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Human-readable license block: CC BY-SA 4.0, Dutch MOD VRT ticket 2010120610018876. Rights availability does not establish model identity."
     },
     {
       "id": "rch155-tracked-03",
@@ -3732,19 +3801,24 @@
       "author": "Swadim",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "caption": "DSEI 2019의 TULPAR — MIZRAK 30 포탑 전시형 참고",
+      "caption": "제품 참고사진 — TULPAR·MIZRAK 30, DSEI 2019. IDEX 2025·SAHA 2026 현장사진이 아닙니다.",
       "angle": "측면 사선",
       "context": "reference",
       "eventId": null,
-      "variantNote": "DSEI 2019의 TULPAR 참고사진입니다. SAHA 2026 전시 형상을 확정하지 않습니다.",
+      "variantNote": "MIZRAK 30 포탑을 탑재한 일반 TULPAR 참고사진입니다. KORHAN 포탑형과는 다른 형상이며 IDEX 2025·SAHA 2026 전시 근거가 아닙니다. 긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "sourceTitle": "File:TULPAR.jpg",
-      "sourceDate": "2019-09-11 14:56:30",
+      "sourceDate": "2019-09-11",
       "retrievedAt": "2026-11-10",
       "width": 1600,
       "height": 1200,
       "changes": "긴 변 1,600px 이하로 축소하고 WebP로 변환했습니다. 자르기·합성·형상 수정 없음.",
       "mediaType": "photo",
-      "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8"
+      "sha256": "7ab34acf3fcd7d511bc1d766f7394f77c3b8228847d764a887246a90a3aa0cb8",
+      "productIds": [
+        "tulpar"
+      ],
+      "rightsStatus": "reusable",
+      "rightsBasis": "Swadim, own work, individual CC BY-SA 4.0 license verified."
     },
     {
       "id": "cobra-ii-08",

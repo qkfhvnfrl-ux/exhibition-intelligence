@@ -1,0 +1,247 @@
+{
+  "asOf": "2026-11-16",
+  "url": "http://127.0.0.1:4177/",
+  "viewports": [
+    1440,
+    390
+  ],
+  "physicalPhoneTested": false,
+  "results": [
+    {
+      "overflow": 0,
+      "rows": [
+        "ASELSAN위치 미확인현장사진 있음완성차·차량 플랫폼",
+        "현대로템위치 미확인현장사진 있음완성차·차량 플랫폼",
+        "현대위아위치 미확인현장사진 있음원격·무인체계",
+        "기아위치 미확인현장사진 있음완성차·차량 플랫폼",
+        "SVOS · Saab위치 미확인현장사진 있음완성차·차량 플랫폼",
+        "KNDS Deutschland위치 미확인제품 참고사진만 있음완성차·차량 플랫폼",
+        "ADVENT ATUM위치 미확인사진 미확보명단 등재 · 전시품목 미확인",
+        "AI Verse위치 미확인사진 미확보명단 등재 · 전시품목 미확인",
+        "AID위치 미확인사진 미확보명단 등재 · 전시품목 미확인"
+      ],
+      "step": "eurosatory-list",
+      "url": "http://127.0.0.1:4177/#companies?event=eurosatory-2026"
+    },
+    {
+      "images": [
+        {
+          "alt": "PIRANHA V — 덴마크군 차량의 Yuma 시험(2017) · 제품 참고사진",
+          "loaded": true,
+          "src": "assets/photos/piranha-v-reference-ypg.jpg"
+        },
+        {
+          "alt": "PIRANHA V — 덴마크군 차량의 Yuma 시험(2017) · 제품 참고사진",
+          "loaded": true,
+          "src": "assets/photos/piranha-v-reference-ypg.jpg"
+        }
+      ],
+      "overflow": 0,
+      "step": "piranha-desktop",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-cd0bf6280f80e73343c7"
+    },
+    {
+      "images": [
+        {
+          "alt": "제품 참고사진 — RCH 155 시험차의 HENSOLDT SETAS 외부 카메라 모듈, Klietz 2025",
+          "loaded": true
+        },
+        {
+          "alt": "제품 참고사진 — RCH 155 시험차의 HENSOLDT SETAS 외부 카메라 모듈, Klietz 2025",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "reference": true,
+      "step": "new-company-desktop",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-5e5d812e407f2c17a6ec"
+    },
+    {
+      "images": [
+        {
+          "alt": "제품 참고사진 — M1126 Stryker에 탑재된 Kongsberg PROTECTOR, 2005년",
+          "loaded": true
+        },
+        {
+          "alt": "제품 참고사진 — M1126 Stryker에 탑재된 Kongsberg PROTECTOR, 2005년",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "reference": true,
+      "step": "new-company-desktop",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-08ba69fde2c8bc751f83"
+    },
+    {
+      "images": [
+        {
+          "alt": "제품 참고사진 — Thales SOPHIE 휴대형 열상 관측장비, 2010년 형상",
+          "loaded": true
+        },
+        {
+          "alt": "제품 참고사진 — Thales SOPHIE 휴대형 열상 관측장비, 2010년 형상",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "reference": true,
+      "step": "new-company-desktop",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-3dba2d2e96e3a37e36af"
+    },
+    {
+      "images": [
+        {
+          "alt": "Bushmaster — 호주 전쟁기념관 전시차(2016) · 제품 참고사진",
+          "loaded": true
+        },
+        {
+          "alt": "Bushmaster — 호주 전쟁기념관 전시차(2016) · 제품 참고사진",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "reference": true,
+      "step": "new-company-desktop",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-0b1aef87a2fea247d4d6"
+    },
+    {
+      "images": [
+        {
+          "alt": "Bushmaster — 호주 전쟁기념관 전시차(2016) · 제품 참고사진",
+          "loaded": true
+        },
+        {
+          "alt": "Bushmaster — 호주 전쟁기념관 전시차(2016) · 제품 참고사진",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "step": "bushmaster-mobile",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-0b1aef87a2fea247d4d6"
+    },
+    {
+      "heroLoaded": true,
+      "overflow": 0,
+      "step": "new-company-mobile",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-cd0bf6280f80e73343c7"
+    },
+    {
+      "heroLoaded": true,
+      "overflow": 0,
+      "step": "new-company-mobile",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-5e5d812e407f2c17a6ec"
+    },
+    {
+      "heroLoaded": true,
+      "overflow": 0,
+      "step": "new-company-mobile",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-08ba69fde2c8bc751f83"
+    },
+    {
+      "heroLoaded": true,
+      "overflow": 0,
+      "step": "new-company-mobile",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-3dba2d2e96e3a37e36af"
+    },
+    {
+      "overflow": 0,
+      "rows": [
+        "Patria위치 미확인현장사진 있음차륜·궤도 차량과 별도 임무장비를 구분해 살펴볼 수 있는 사례다.",
+        "기아위치 미확인현장사진 있음완성차·차량 플랫폼",
+        "KNDS / Rheinmetall위치 미확인현장사진 있음완성차·차량 플랫폼",
+        "Roshel위치 미확인현장사진 있음완성차·차량 플랫폼",
+        "ST Engineering / Babcock위치 미확인현장사진 있음좌석·내장·임무모듈",
+        "General Dynamics위치 미확인제품 참고사진만 있음General Dynamics European Land Systems–Mowag의 PIRANHA 5 차륜형장갑차. 덴마크군 차량의 2017년 시험 사진으로 외형을 확인할 수 있습니다.",
+        "HENSOLDT위치 미확인제품 참고사진만 있음장갑차 내부에서 주변을 관측하는 전자광학 장치. 사진은 차륜형 RCH 155 시험차에 부착된 외부 카메라 모듈을 보여 준다.",
+        "Kongsberg위치 미확인제품 참고사진만 있음차량에 탑재하는 PROTECTOR 원격무장장치의 과거 운용 형상. 사진은 2005년 M1126 Stryker 탑재 장치를 보여 준다.",
+        "Thales위치 미확인제품 참고사진만 있음관측 임무용 휴대형 열상장비. 사진은 2010년에 촬영된 SOPHIE 제품군의 외형과 사용 모습을 보여 준다.",
+        "Thales Australia Limited위치 미확인제품 참고사진만 있음Thales Australia가 제작하는 Bushmaster 방호차량. 호주 전쟁기념관의 2016년 전시차 사진으로 차체와 차륜 배치를 확인할 수 있습니다.",
+        "ARTEC · RBSL · KNDS UK위치 미확인제품 참고사진만 있음완성차·차량 플랫폼",
+        "Rheinmetall위치 미확인제품 참고사진만 있음명단 등재 · 전시품목 미확인",
+        "\"NT Service\" UAB위치 미확인사진 미확보명단 등재 · 전시품목 미확인",
+        "1MILLIKELVIN PTY LTD위치 미확인사진 미확보명단 등재 · 전시품목 미확인"
+      ],
+      "step": "dsei-list-mobile",
+      "url": "http://127.0.0.1:4177/#companies?event=dsei-2025"
+    },
+    {
+      "overflow": 0,
+      "rows": [
+        "HENSOLDT위치 미확인제품 참고사진만 있음장갑차 내부에서 주변을 관측하는 전자광학 장치. 사진은 차륜형 RCH 155 시험차에 부착된 외부 카메라 모듈을 보여 준다."
+      ],
+      "step": "filter-search",
+      "url": "http://127.0.0.1:4177/#companies?event=dsei-2025&q=HENSOLDT&category=optics_awareness"
+    },
+    {
+      "hero": "Commons 표기 Leopard 2A8 시제차 — 일반 제품 참고. Eurosatory 2026 현장사진이 아닙니다.",
+      "heroLoaded": true,
+      "overflow": 0,
+      "productImages": [
+        {
+          "alt": "Commons 표기 Leopard 2A8 시제차 — 일반 제품 참고. Eurosatory 2026 현장사진이 아닙니다.",
+          "loaded": true
+        },
+        {
+          "alt": "출처 표기 Leopard 2A8 시제차 — Zagreb 운송 참고사진. Eurosatory 2026 현장사진이 아닙니다.",
+          "loaded": true
+        }
+      ],
+      "step": "leopard-reference-reload",
+      "url": "http://127.0.0.1:4177/#company?event=eurosatory-2026&company=org-a7f46a7e877193b3e57d&product=leopard-2a8"
+    },
+    {
+      "images": [
+        {
+          "alt": "제품 참고사진 — 영국 BOXER MIV 시연차의 차체·차륜 전경, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
+          "loaded": true
+        },
+        {
+          "alt": "제품 참고사진 — 영국 BOXER MIV 시연차의 후면 사선, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
+          "loaded": true
+        },
+        {
+          "alt": "제품 참고사진 — 영국 BOXER MIV, Millbrook 시험(2023). DSEI 2025 현장사진이 아닙니다.",
+          "loaded": true
+        },
+        {
+          "alt": "제품 참고사진 — 영국 BOXER MIV 시연차의 전면 사선, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
+          "loaded": true
+        },
+        {
+          "alt": "제품 참고사진 — 영국 BOXER MIV 시연차의 후면, 2019 ACPD 자료. DSEI 2025 현장사진이 아닙니다.",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "step": "existing-reference-integration",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-a194a3130ae22367477e&product=boxer-miv"
+    },
+    {
+      "images": [
+        {
+          "alt": "제품 참고사진 — TULPAR·MIZRAK 30, DSEI 2019. IDEX 2025·SAHA 2026 현장사진이 아닙니다.",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "step": "existing-reference-integration",
+      "url": "http://127.0.0.1:4177/#company?event=idex-2025&company=org-7b846c15951b021bf59b&product=tulpar"
+    },
+    {
+      "images": [
+        {
+          "alt": "제품 참고사진 — TULPAR·MIZRAK 30, DSEI 2019. IDEX 2025·SAHA 2026 현장사진이 아닙니다.",
+          "loaded": true
+        }
+      ],
+      "overflow": 0,
+      "step": "existing-reference-integration",
+      "url": "http://127.0.0.1:4177/#company?event=saha-2026&company=org-7b846c15951b021bf59b&product=tulpar"
+    },
+    {
+      "loaded": false,
+      "step": "gallery-reload",
+      "url": "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-08ba69fde2c8bc751f83&photo=priority-kongsberg-protector-2005"
+    }
+  ]
+}

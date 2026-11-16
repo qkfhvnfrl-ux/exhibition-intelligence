@@ -1,0 +1,141 @@
+{
+  "asOf": "2026-11-16",
+  "status": "ready_for_integration",
+  "scope": "Mission-equipment photos for existing DSEI companies. General product references; current-event exhibit status remains unconfirmed.",
+  "counts": {
+    "companies": 3,
+    "newDownloads": 2,
+    "existingAssetsReused": 1,
+    "currentEventPhotos": 0
+  },
+  "verification": {
+    "method": "Read current event roster and photo ledger, open official product pages and Commons licensing pages, inspect all three image pixels, verify downloaded JPEG files and original metadata.",
+    "downloadNote": "Initial sandbox DNS and Wikimedia 429 errors resolved with authorized network execution using the exact original-file URLs displayed by Commons and a descriptive User-Agent. No image transformation.",
+    "setasSourceNote": "Web reader could not open left-view Commons URL. Authorized Invoke-WebRequest fetched the page and verified description, 2025-07-26 date, Boevaya mashina author and CC-BY-SA-3.0-DE license. Existing WebP pixels viewed directly.",
+    "applicationBuild": "Root agent performs after integration."
+  },
+  "candidates": [
+    {
+      "priority": 1,
+      "organizationId": "org-5e5d812e407f2c17a6ec",
+      "organizationName": "HENSOLDT",
+      "eventIds": [
+        "dsei-2025",
+        "adex-2025",
+        "idex-2025"
+      ],
+      "proposedProductId": "hensoldt-setas-reference",
+      "name": "SETAS 차량 주변관측장치",
+      "category": "광학·상황인식",
+      "exhibitStatus": "background_reference",
+      "summary": "장갑차 내부에서 주변을 관측하는 전자광학 장치. 사진은 차륜형 RCH 155 시험차에 부착된 외부 카메라 모듈을 보여 준다.",
+      "officialSource": "https://www.hensoldt.net/products/setas-electro-optical-observation-system-for-armoured-vehicles",
+      "photo": {
+        "existingPhotoId": "rch155-tracked-06",
+        "src": "assets/photos/rch155-tracked-06.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SETAS_left_view_ICM_on_RCH_155_Klietz_2025.JPG",
+        "sourceTitle": "SETAS left view ICM on RCH 155 Klietz 2025",
+        "sourceDate": "2025-07-26",
+        "author": "Boevaya mashina",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "caption": "제품 참고사진 — RCH 155 시험차의 HENSOLDT SETAS 외부 카메라 모듈, Klietz 2025",
+        "context": "reference",
+        "eventId": null,
+        "width": 1024,
+        "height": 768,
+        "changes": "기존 1024×768 WebP 변환 자산 사용. 이번 추가 변형 없음.",
+        "rightsStatus": "reusable",
+        "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+        "visualInspection": "Shielded camera aperture and external sensor enclosure clearly visible on camouflaged vehicle. Correct component close-up, not a logo.",
+        "bytes": 116634
+      },
+      "limitations": [
+        "DSEI/ADEX/IDEX 해당 회차 출품 사진이 아니다.",
+        "기존 equipmentId의 rch155-tracked 문자열은 궤도형 차량 식별 근거가 아니다. 사진의 차륜형 플랫폼 및 SETAS 모듈 맥락을 유지한다."
+      ]
+    },
+    {
+      "priority": 2,
+      "organizationId": "org-08ba69fde2c8bc751f83",
+      "organizationName": "Kongsberg",
+      "eventIds": [
+        "dsei-2025"
+      ],
+      "proposedProductId": "kongsberg-protector-reference",
+      "name": "PROTECTOR 원격무장장치 · 과거 Stryker 탑재형",
+      "category": "원격무장장치",
+      "exhibitStatus": "background_reference",
+      "summary": "차량에 탑재하는 PROTECTOR 원격무장장치의 과거 운용 형상. 사진은 2005년 M1126 Stryker 탑재 장치를 보여 준다.",
+      "officialSource": "https://www.kongsberg.com/what-we-do/defence-and-security/remote-weapon-systems/",
+      "photo": {
+        "id": "priority-kongsberg-protector-2005",
+        "src": "assets/photos/priority-kongsberg-protector-2005.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kongsberg_Protector_RWS_on_M1126.jpg",
+        "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Kongsberg_Protector_RWS_on_M1126.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+        "sourceTitle": "Kongsberg Protector RWS on M1126",
+        "sourceDate": "2005-03-31",
+        "author": "TSGT MIKE BUYTAS, USAF",
+        "license": "Public domain · U.S. Air Force",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force",
+        "caption": "제품 참고사진 — M1126 Stryker에 탑재된 Kongsberg PROTECTOR, 2005년",
+        "context": "reference",
+        "eventId": null,
+        "width": 1071,
+        "height": 1017,
+        "changes": "Commons 제공 JPEG 그대로 사용. 해당 파일은 원래 USAF 사진에서 잘라낸 공개본이며 이번 추가 편집 없음.",
+        "mediaType": "photo",
+        "rightsStatus": "reusable",
+        "visualInspection": "Weapon station, optical assembly and vehicle mounting visible in close-up. Exact family confirmed by Commons description; current RS4 subtype not asserted.",
+        "sha256": "0cf9af3175c6c799c6966a0033c7fd19083c5b98506b312b8f6b2e4c654827c1",
+        "bytes": 272488
+      },
+      "limitations": [
+        "사진은 2005년 형상이다. 최신 PROTECTOR RS4나 DSEI 2025 전시형으로 표시하지 않는다.",
+        "일반 제품군 소개와 과거 사진을 연결하며 이번 회차 출품 근거는 미확보다."
+      ]
+    },
+    {
+      "priority": 3,
+      "organizationId": "org-3dba2d2e96e3a37e36af",
+      "organizationName": "Thales",
+      "eventIds": [
+        "dsei-2025",
+        "adex-2025",
+        "saha-2026"
+      ],
+      "proposedProductId": "thales-sophie-reference",
+      "name": "SOPHIE 휴대형 열상 관측장비 · 과거 형상",
+      "category": "광학·상황인식",
+      "exhibitStatus": "background_reference",
+      "summary": "관측 임무용 휴대형 열상장비. 사진은 2010년에 촬영된 SOPHIE 제품군의 외형과 사용 모습을 보여 준다.",
+      "officialSource": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+      "photo": {
+        "id": "priority-thales-sophie-2010",
+        "src": "assets/photos/priority-thales-sophie-2010.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sophie_%C2%A9B._Rousseau.jpg",
+        "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sophie_%C2%A9B._Rousseau.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+        "sourceTitle": "Sophie ©B. Rousseau",
+        "sourceDate": "2010-03",
+        "author": "Bernard Rousseau Thales",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "제품 참고사진 — Thales SOPHIE 휴대형 열상 관측장비, 2010년 형상",
+        "context": "reference",
+        "eventId": null,
+        "width": 2126,
+        "height": 1535,
+        "changes": "Commons 제공 JPEG 원본 그대로 사용. 추가 자르기·형상 수정 없음.",
+        "mediaType": "photo",
+        "rightsStatus": "reusable",
+        "visualInspection": "Handheld thermal binocular unit clearly visible in use. Device-family identity from author description.",
+        "sha256": "138618185f5a8460fbf73a1c00f9fef38167d67b97220bfc76066ce4e7f1118e",
+        "bytes": 407254
+      },
+      "limitations": [
+        "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다.",
+        "사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다."
+      ]
+    }
+  ]
+}

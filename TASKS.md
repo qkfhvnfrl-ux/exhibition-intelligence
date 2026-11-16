@@ -13,14 +13,6 @@
 
 ## 후속 검증 계획 — 2026-11-15
 
-### 4회차 설명 연결 묶음
-
-- 목표: 새 DSEI/IDEX·Eurosatory/SAHA 조사에서 정확히 식별된 기존 제품을 5항목 설명과 검증된 사진에 연결한다. 최신 보고서 화면도 확인한다.
-- 수정 파일: docs/research-v2/redesign-narratives-*.json, scripts/prepare-redesign-content.mjs, data/v2/editorial/product-narratives.json, 필요 시 compile-v2-app.mjs와 관련 회귀 검사, 상태·증거 문서.
-- 영향: 5회차/회사·제품 ID·출처 원장 보존. 근거가 확인된 제품만 설명 보강; 사진은 회차·제품·권리 대조 후 연결한다.
-- 위험: 같은 제품군의 다른 형상 오연결, 일반자료를 출품으로 승격, 전시예고를 실제전시로 처리. 자료 부족은 별도 제한으로 남긴다.
-- 검증: 원문과 기존 사진 대조 → 생성 → build/check → 해당 회사·제품 URL의 브라우저 표시와 사진 로딩 → 결과 기록. 저장 PDF의 환경 제한은 별도이며 이 자료 연결을 중단시키지 않는다.
-
 - 목표: 마지막 사진 뷰어 수정과 실제 공개와 같은 하위 경로를 브라우저에서 확인하고 한 장 PDF의 저장·렌더 증거를 확보한다. 다른 4회차 자료는 독립 조사 packet으로 보강한다.
 - 수정 파일: 검증 결과에 따라 src/v2/report.css, report.js, details.js, app.js와 관련 검사; docs/evidence, docs/research-v2, 프로젝트 상태 문서. 조사 결과는 출처 검토 후 기존 원천에 연결한다.
 - 영향: 기존 회사·제품 ID, 지도 위치, 사용자 저장소와 공개 배포는 유지하며 승인된 화면·인쇄 흐름만 보완한다.
@@ -119,3 +111,49 @@
 - 현재 공백: 서술65 중 현장사진 없음36, 참고사진 포함 표시사진 없음35. 미서술 제품기록66. 공식 명단·지도 및 전체 관련 업체 조사 큐 유지.
 
 2026-11-16 구현 저장점: d3c4580091f0c83b580cacfad847ea2d6dcc4b5b. 50파일의65서술/325항목/209검사·사진/화면 변경을 로컬 저장했다. 후속 인계문서는 별도 커밋. 다음 참고사진 큐는5제품16장 검토·후보13/제외3·미통합이며16자산 해시 재대조PASS. 신규사진0/운영연결0, 전체목표진행·공개변경없음.
+
+## 2026-11-16 참고사진 연결·기존 장비 설명 보강 계획
+
+- 이전 goal turn 분류: progress. d3c4580 구현·090fbad 인계, 65서술325항목209검사·브라우저·독립감사 증거를 확보했다. 전체 목표는 미완료.
+- 목표: 검토한16참고사진 중 정확한13장만4제품에 연결하고, 나머지3장의 파생형 불일치를 명확히 표시한다. BOXER MIV/Leopard 2A8/일반TULPAR의5항목 설명을 공식원문과 회차근거로 보강한다. 기존5회차·ID·지도·사진바이트는 보존한다.
+- 수정 파일: data/photos.json, data/catalog.json, docs/research-v2/redesign-narratives-reference-{boxer,leopard,tulpar}.json 및 조사packet, prepare-redesign-content.mjs, 생성editorial, 필요한검사·증거·메모리. UI수정은 관찰된 문제에 한정한다.
+- 영향 범위: 제품 참고사진과 설명. Patria현장2장·K2PL현장1장 우선순위 유지, TULPAR MIZRAK30을KORHAN에 연결하지 않음. 업체의참가/제품출품상태와 지도좌표 유지.
+- 리스크: 시제차·파생형·국가별구성 혼동, 출처사진날짜/라이선스버전상충, 일반제품설명을실제출품근거로승격. 원문·픽셀·독립검토로근거범위를보존한다.
+- 검증: 기존runtime·보고screen/print·자산 snapshot → 원문/사진검토 → build → check → 제품사진로딩/확대/주소새로고침/1440·390화면 → 보고영향확인 → 증거/로컬커밋. 신규다운로드와기존사진연결을구분한다.
+- 상태: B02/B04 executing → planned → executing(기존승인된사진·자료확대). B03 retry_with_revision 유지(이전변경PDF2개저장미완료). B05 planned,공개push/배포없음. 인쇄창을다시열지않는다.
+
+## 2026-11-16 1차 공개 계획 — 사용자 직접 승인
+
+- 상태: RELEASE-01 new_task → planned → executing. B05의1차 검토본 공개만진행, 전체자료확대목표는일시정지 유지.
+- 목표: 검증완료090fbad를 기존GitHub Pages /preview/에 공개하고 사용자에게 실제접속링크 제공.
+- 수정파일: 승인·상태·증거·인계/릴리즈기록 문서만. 앱코드·자료는090fbad와동일.
+- 작업공간: 별도 exhibition-intelligence-release-1 worktree, codex/fieldnote-preview-release-1. 원본작업공간의미검증후속변경보존.
+- 영향: work/fieldnote-v2를fast-forward push하면 Validate and build 성공후main소유Pages workflow가stable루트와새preview를조립한다. main ref/app변경없음. force push/이력재작성없음.
+- 리스크: 원격분기추가변경·CI실패·공개캐시·하위경로/사진누락·미완료PDF의완료오인.
+- 검증: remote ancestor확인 → 격리worktree build/check → 현재공개산출물검사 → 정상push → CI/Pages실제성공 → 익명deployment.json의preview/mainSHA와이미지·자료HTTP → 실제브라우저지도/업체/사진/보고 확인 → 증거저장.
+- 잔여: 변경DSEI/SAHA2PDF실제저장미완료,사진35제품·미서술66기록등자료공백을1차공개한계로명시한다.
+
+## 2026-11-16 RELEASE-01 — 1차 공개 완료
+
+- 상태: executing → verifying → completed. 완료 범위는 기존 /preview/의 1차 공개이며 전체 목표는 일시정지 유지.
+- 공개: https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/
+- 릴리즈: https://github.com/qkfhvnfrl-ux/exhibition-intelligence/releases/tag/v2.0.0-preview.1, 커밋 ca195ab60d60265bba73c49fce6779513a316763.
+- 검증: 격리 worktree npm run build 성공, npm run check 209/209 통과. CI 43782581288·Pages 43782617358 성공, 익명 105파일/87자산 검증과 공개 데스크톱·모바일 폭 화면 확인.
+- 보존: main a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7, 원래 작업공간의 미검증 13사진 연결·BOXER/TULPAR 초안.
+- 남은 범위: DSEI/SAHA 새 PDF 2개 저장, 사진 공백 35개 서술 제품, 미서술 66기록, 전체 조사와 실제 휴대폰.
+
+## 2026-11-16 PHOTO-01 — 사진 우선 탐색·핵심 업체 사진 확대
+
+- 사용자 승인: 직전 제안 프롬프트대로 로컬 구현·검증 진행. new_task → planned → executing.
+- 목표: 사진 보유 업체 우선 정렬/상태 표시, Eurosatory 핵심 업체부터 대표 사진 5곳 목표로 연결 후 다른 회차 확대.
+- 수정 파일: src/v2 업체 목록·사진 선택 관련 모듈, 관련 회귀검사, data/photos.json·catalog.json·기존 생성 데이터, 사진 자산, 증거 및 상태 문서.
+- 영향: 업체 검색·필터의 안정 정렬, 사진 상태와 제품별 사진 표시. 기존 ID·지도·사용자 변경 보존.
+- 위험: 다른 회차/파생형 오연결, 표시 권리·외부 이미지 실패, 회사 사진과 제품 사진의 집계 혼동.
+- 검증: build → check → diff → 1440/390 화면의 정렬·상태·실사진 로드·갤러리 → 전후 집계와 로컬 미리보기 링크.
+- 범위: 이번 공개 배포는 별도 요청 시 진행. 전체 업체 조사·장비 설명 대량 작성·PDF 재생성 제외.
+
+## 2026-11-16 PHOTO-01
+
+2026-11-16 PHOTO-01 로컬 1차 사진 묶음 완료. 사진 상태 표시·안정 정렬과 정확한 제품 대표사진 우선 선택을 적용했다. 기존 DSEI 업체 5곳에 참고사진을 추가하여 회차별 사진 보유 업체 합계 32→37, 사진 연결 제품 31→40. 신규 다운로드 4장, SETAS 기존 자산 1장 재사용, 이전 후보 13건 연결. 현장사진 신규 0장. build/check 213개 통과, PC1440/모바일390·사진 확대/새로고침·필터·검색 확인. 로컬 http://127.0.0.1:4177/#companies?event=dsei-2025 를 제공한다. 공개 반영은 별도 요청 범위다.
+
+상태 executing → verifying → completed (이번 로컬 1차 사진 묶음).

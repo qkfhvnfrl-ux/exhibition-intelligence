@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "eventId": "dsei-2025",
+  "batchId": "photo-priority-2026-11-16",
+  "checkedAt": "2026-11-16",
+  "scopeNote": "기존 업체 5곳에 일반 제품 참고사진 추가. 회차별 실제 출품은 미확인.",
+  "cases": [
+    {
+      "id": "photo-priority-dsei25-gd-piranha-v-reference",
+      "organizationId": "org-cd0bf6280f80e73343c7",
+      "displayName": "General Dynamics",
+      "categoryIds": [
+        "complete_vehicle"
+      ],
+      "reason": "General Dynamics European Land Systems–Mowag의 PIRANHA 5 차륜형장갑차. 덴마크군 차량의 2017년 시험 사진으로 외형을 확인할 수 있습니다.",
+      "highlights": [
+        "PIRANHA V · 일반 제품자료",
+        "2017-08-24 제품 참고사진",
+        "U.S. Army · Public domain · U.S. Army"
+      ],
+      "exhibit": {
+        "summary": "제조사 제품 소개와 과거 사진을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-dsei25-gd-piranha-v-reference-official",
+          "photo-priority-dsei25-gd-piranha-v-reference-source"
+        ],
+        "items": [
+          {
+            "productId": "dsei25-gd-piranha-v-reference",
+            "name": "PIRANHA V · 일반 제품자료",
+            "status": "background_reference",
+            "form": "일반 제품 참고사진 · 2017-08-24",
+            "category": "complete_vehicle",
+            "sourceIds": [
+              "photo-priority-dsei25-gd-piranha-v-reference-official",
+              "photo-priority-dsei25-gd-piranha-v-reference-source"
+            ]
+          }
+        ]
+      },
+      "distinction": {
+        "judgment": "DSEI 2025의 실제 출품 여부와 전시 형상은 이 자료로 확인되지 않습니다. 사진의 도하 시험을 전 형상의 수륙양용 능력으로 확대하지 않습니다.",
+        "sourceIds": [
+          "photo-priority-dsei25-gd-piranha-v-reference-official",
+          "photo-priority-dsei25-gd-piranha-v-reference-source"
+        ]
+      },
+      "direction": {
+        "observation": "General Dynamics European Land Systems–Mowag의 PIRANHA 5 차륜형장갑차. 덴마크군 차량의 2017년 시험 사진으로 외형을 확인할 수 있습니다.",
+        "interpretation": "사진의 촬영 시점과 제품 구성을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-dsei25-gd-piranha-v-reference-official",
+          "photo-priority-dsei25-gd-piranha-v-reference-source"
+        ]
+      },
+      "followUps": [
+        "이번 회차의 실제 전시 구성 확인",
+        "최신 형상의 제조사 사진 추가 확인"
+      ],
+      "verificationNote": "DSEI 2025의 실제 출품 여부와 전시 형상은 이 자료로 확인되지 않습니다. 사진의 도하 시험을 전 형상의 수륙양용 능력으로 확대하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "General Dynamics European Land Systems–Mowag의 PIRANHA 5 차륜형장갑차. 덴마크군 차량의 2017년 시험 사진으로 외형을 확인할 수 있습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle"
+        ],
+        "sourceIds": [
+          "photo-priority-dsei25-gd-piranha-v-reference-official",
+          "photo-priority-dsei25-gd-piranha-v-reference-source"
+        ]
+      },
+      "sources": [
+        {
+          "id": "photo-priority-dsei25-gd-piranha-v-reference-official",
+          "url": "https://www.gdels.com/es/media/news/danish-army-receives-first-piranha-5-and-eagle-5-wheeled-armored-vehicles-hlqq2hvbjatp8phjg5rt99kl",
+          "title": "Danish Army receives first PIRANHA 5 and EAGLE 5 wheeled armored vehicles",
+          "publisher": "General Dynamics European Land Systems",
+          "date": "2019-04-03",
+          "supports": "GDELS-Mowag manufacturer, PIRANHA 5 model and Danish customer. Manufacturer product page https://www.gdels.com/en/products/wheeled-vehicles/piranha also checked.",
+          "role": "manufacturer",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "DSEI 2025의 실제 출품 여부와 전시 형상은 이 자료로 확인되지 않습니다. 사진의 도하 시험을 전 형상의 수륙양용 능력으로 확대하지 않습니다."
+          ],
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "photo-priority-dsei25-gd-piranha-v-reference-source",
+          "url": "https://commons.wikimedia.org/wiki/File:YPG_water_fording_pit-Piranha_V.jpg",
+          "title": "YPG water fording pit-Piranha V",
+          "publisher": "U.S. Army",
+          "date": "2017-08-24",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "DSEI 2025의 실제 출품 여부와 전시 형상은 이 자료로 확인되지 않습니다. 사진의 도하 시험을 전 형상의 수륙양용 능력으로 확대하지 않습니다."
+          ],
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "photos": [
+        {
+          "id": "piranha-v-reference-ypg",
+          "src": "assets/photos/piranha-v-reference-ypg.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:YPG_water_fording_pit-Piranha_V.jpg",
+          "sourceIds": [
+            "photo-priority-dsei25-gd-piranha-v-reference-source"
+          ],
+          "productIds": [
+            "dsei25-gd-piranha-v-reference"
+          ],
+          "credit": "U.S. Army",
+          "caption": "PIRANHA V — 덴마크군 차량의 Yuma 시험(2017) · 제품 참고사진",
+          "context": "reference",
+          "eventId": null,
+          "width": 1500,
+          "height": 996,
+          "sourceDate": "2017-08-24",
+          "sha256": "d3d32fc517ab57b0b690cfe30dbd477fe9737b2ff6a29f353151120ff5e7116f",
+          "mediaType": "photo",
+          "variantNote": "DSEI 2025의 실제 출품 여부와 전시 형상은 이 자료로 확인되지 않습니다. 사진의 도하 시험을 전 형상의 수륙양용 능력으로 확대하지 않습니다. Commons에 공개된 JPEG 원본을 변경 없이 사용했습니다.",
+          "rights": {
+            "status": "reusable",
+            "license": "Public domain · U.S. Army",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Army",
+            "basis": "Commons file page identifies an official U.S. Army work and states public-domain status in the United States."
+          }
+        }
+      ]
+    },
+    {
+      "id": "photo-priority-dsei25-thales-bushmaster-reference",
+      "organizationId": "org-0b1aef87a2fea247d4d6",
+      "displayName": "Thales Australia Limited",
+      "categoryIds": [
+        "complete_vehicle"
+      ],
+      "reason": "Thales Australia가 제작하는 Bushmaster 방호차량. 호주 전쟁기념관의 2016년 전시차 사진으로 차체와 차륜 배치를 확인할 수 있습니다.",
+      "highlights": [
+        "Bushmaster 방호차량 · 일반 제품자료",
+        "2016-10-15 제품 참고사진",
+        "Nick-D · CC BY-SA 4.0"
+      ],
+      "exhibit": {
+        "summary": "제조사 제품 소개와 과거 사진을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-dsei25-thales-bushmaster-reference-official",
+          "photo-priority-dsei25-thales-bushmaster-reference-source"
+        ],
+        "items": [
+          {
+            "productId": "dsei25-thales-bushmaster-reference",
+            "name": "Bushmaster 방호차량 · 일반 제품자료",
+            "status": "background_reference",
+            "form": "일반 제품 참고사진 · 2016-10-15",
+            "category": "complete_vehicle",
+            "sourceIds": [
+              "photo-priority-dsei25-thales-bushmaster-reference-official",
+              "photo-priority-dsei25-thales-bushmaster-reference-source"
+            ]
+          }
+        ]
+      },
+      "distinction": {
+        "judgment": "DSEI 2025 현장 사진이나 해당 회차의 출품 근거가 아닙니다. 박물관 전시차를 최신 양산 사양으로 해석하지 않습니다.",
+        "sourceIds": [
+          "photo-priority-dsei25-thales-bushmaster-reference-official",
+          "photo-priority-dsei25-thales-bushmaster-reference-source"
+        ]
+      },
+      "direction": {
+        "observation": "Thales Australia가 제작하는 Bushmaster 방호차량. 호주 전쟁기념관의 2016년 전시차 사진으로 차체와 차륜 배치를 확인할 수 있습니다.",
+        "interpretation": "사진의 촬영 시점과 제품 구성을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-dsei25-thales-bushmaster-reference-official",
+          "photo-priority-dsei25-thales-bushmaster-reference-source"
+        ]
+      },
+      "followUps": [
+        "이번 회차의 실제 전시 구성 확인",
+        "최신 형상의 제조사 사진 추가 확인"
+      ],
+      "verificationNote": "DSEI 2025 현장 사진이나 해당 회차의 출품 근거가 아닙니다. 박물관 전시차를 최신 양산 사양으로 해석하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "Thales Australia가 제작하는 Bushmaster 방호차량. 호주 전쟁기념관의 2016년 전시차 사진으로 차체와 차륜 배치를 확인할 수 있습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle"
+        ],
+        "sourceIds": [
+          "photo-priority-dsei25-thales-bushmaster-reference-official",
+          "photo-priority-dsei25-thales-bushmaster-reference-source"
+        ]
+      },
+      "sources": [
+        {
+          "id": "photo-priority-dsei25-thales-bushmaster-reference-official",
+          "url": "https://www.thalesgroup.com/en/news-centre/press-releases/new-bushmaster-contract-supports-jobs-bendigo",
+          "title": "New Bushmaster contract supports jobs in Bendigo",
+          "publisher": "Thales",
+          "date": "2023-05-17",
+          "supports": "Thales Australia and Bushmaster manufacturing. Search-indexed official press release text verified; direct page wrapper shows an iframe.",
+          "role": "manufacturer",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "DSEI 2025 현장 사진이나 해당 회차의 출품 근거가 아닙니다. 박물관 전시차를 최신 양산 사양으로 해석하지 않습니다."
+          ],
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "photo-priority-dsei25-thales-bushmaster-reference-source",
+          "url": "https://commons.wikimedia.org/wiki/File:Bushmaster_on_display_outside_the_Australian_War_Memorial_October_2016.jpg",
+          "title": "Bushmaster on display outside the Australian War Memorial October 2016",
+          "publisher": "Nick-D",
+          "date": "2016-10-15",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "DSEI 2025 현장 사진이나 해당 회차의 출품 근거가 아닙니다. 박물관 전시차를 최신 양산 사양으로 해석하지 않습니다."
+          ],
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "photos": [
+        {
+          "id": "bushmaster-reference-awm",
+          "src": "assets/photos/bushmaster-reference-awm.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bushmaster_on_display_outside_the_Australian_War_Memorial_October_2016.jpg",
+          "sourceIds": [
+            "photo-priority-dsei25-thales-bushmaster-reference-source"
+          ],
+          "productIds": [
+            "dsei25-thales-bushmaster-reference"
+          ],
+          "credit": "Nick-D",
+          "caption": "Bushmaster — 호주 전쟁기념관 전시차(2016) · 제품 참고사진",
+          "context": "reference",
+          "eventId": null,
+          "width": 1280,
+          "height": 960,
+          "sourceDate": "2016-10-15",
+          "sha256": "f20b1304adc97fcf48e326ad92763fcca597e9e5d0f905ffa2271582c8e54614",
+          "mediaType": "photo",
+          "variantNote": "DSEI 2025 현장 사진이나 해당 회차의 출품 근거가 아닙니다. 박물관 전시차를 최신 양산 사양으로 해석하지 않습니다. Commons에서 제공하는 가로 1,280px 축소본을 사용했습니다. 자르기·합성·형상 수정 없음. CC BY-SA 4.0을 유지합니다.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "basis": "Photographer's own-work declaration and CC BY-SA 4.0 license on Commons file page. Attribution, license link and resizing notice retained."
+          }
+        }
+      ]
+    },
+    {
+      "id": "photo-priority-hensoldt-setas-reference",
+      "organizationId": "org-5e5d812e407f2c17a6ec",
+      "displayName": "HENSOLDT",
+      "categoryIds": [
+        "optics_awareness"
+      ],
+      "reason": "장갑차 내부에서 주변을 관측하는 전자광학 장치. 사진은 차륜형 RCH 155 시험차에 부착된 외부 카메라 모듈을 보여 준다.",
+      "highlights": [
+        "SETAS 차량 주변관측장치",
+        "2025-07-26 제품 참고사진",
+        "Boevaya mashina · CC BY-SA 3.0 de"
+      ],
+      "exhibit": {
+        "summary": "제조사 제품 소개와 과거 사진을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-hensoldt-setas-reference-official",
+          "photo-priority-hensoldt-setas-reference-source"
+        ],
+        "items": [
+          {
+            "productId": "hensoldt-setas-reference",
+            "name": "SETAS 차량 주변관측장치",
+            "status": "background_reference",
+            "form": "일반 제품 참고사진 · 2025-07-26",
+            "category": "optics_awareness",
+            "sourceIds": [
+              "photo-priority-hensoldt-setas-reference-official",
+              "photo-priority-hensoldt-setas-reference-source"
+            ]
+          }
+        ]
+      },
+      "distinction": {
+        "judgment": "DSEI/ADEX/IDEX 해당 회차 출품 사진이 아니다.",
+        "sourceIds": [
+          "photo-priority-hensoldt-setas-reference-official",
+          "photo-priority-hensoldt-setas-reference-source"
+        ]
+      },
+      "direction": {
+        "observation": "장갑차 내부에서 주변을 관측하는 전자광학 장치. 사진은 차륜형 RCH 155 시험차에 부착된 외부 카메라 모듈을 보여 준다.",
+        "interpretation": "사진의 촬영 시점과 제품 구성을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-hensoldt-setas-reference-official",
+          "photo-priority-hensoldt-setas-reference-source"
+        ]
+      },
+      "followUps": [
+        "이번 회차의 실제 전시 구성 확인",
+        "최신 형상의 제조사 사진 추가 확인"
+      ],
+      "verificationNote": "DSEI/ADEX/IDEX 해당 회차 출품 사진이 아니다. 기존 equipmentId의 rch155-tracked 문자열은 궤도형 차량 식별 근거가 아니다. 사진의 차륜형 플랫폼 및 SETAS 모듈 맥락을 유지한다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "장갑차 내부에서 주변을 관측하는 전자광학 장치. 사진은 차륜형 RCH 155 시험차에 부착된 외부 카메라 모듈을 보여 준다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "optics_awareness"
+        ],
+        "sourceIds": [
+          "photo-priority-hensoldt-setas-reference-official",
+          "photo-priority-hensoldt-setas-reference-source"
+        ]
+      },
+      "sources": [
+        {
+          "id": "photo-priority-hensoldt-setas-reference-official",
+          "url": "https://www.hensoldt.net/products/setas-electro-optical-observation-system-for-armoured-vehicles",
+          "title": "SETAS 차량 주변관측장치 제조사 제품 소개",
+          "publisher": "HENSOLDT",
+          "role": "manufacturer",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "DSEI/ADEX/IDEX 해당 회차 출품 사진이 아니다.",
+            "기존 equipmentId의 rch155-tracked 문자열은 궤도형 차량 식별 근거가 아니다. 사진의 차륜형 플랫폼 및 SETAS 모듈 맥락을 유지한다."
+          ],
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "photo-priority-hensoldt-setas-reference-source",
+          "url": "https://commons.wikimedia.org/wiki/File:SETAS_left_view_ICM_on_RCH_155_Klietz_2025.JPG",
+          "title": "SETAS left view ICM on RCH 155 Klietz 2025",
+          "publisher": "Boevaya mashina",
+          "date": "2025-07-26",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "DSEI/ADEX/IDEX 해당 회차 출품 사진이 아니다.",
+            "기존 equipmentId의 rch155-tracked 문자열은 궤도형 차량 식별 근거가 아니다. 사진의 차륜형 플랫폼 및 SETAS 모듈 맥락을 유지한다."
+          ],
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-priority-hensoldt-setas-reference-photo",
+          "src": "assets/photos/rch155-tracked-06.webp",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:SETAS_left_view_ICM_on_RCH_155_Klietz_2025.JPG",
+          "sourceIds": [
+            "photo-priority-hensoldt-setas-reference-source"
+          ],
+          "productIds": [
+            "hensoldt-setas-reference"
+          ],
+          "credit": "Boevaya mashina",
+          "caption": "제품 참고사진 — RCH 155 시험차의 HENSOLDT SETAS 외부 카메라 모듈, Klietz 2025",
+          "context": "reference",
+          "eventId": null,
+          "width": 1024,
+          "height": 768,
+          "sourceDate": "2025-07-26",
+          "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+          "mediaType": "photo",
+          "variantNote": "DSEI/ADEX/IDEX 해당 회차 출품 사진이 아니다. 기존 equipmentId의 rch155-tracked 문자열은 궤도형 차량 식별 근거가 아니다. 사진의 차륜형 플랫폼 및 SETAS 모듈 맥락을 유지한다. 기존 1024×768 WebP 변환 자산 사용. 이번 추가 변형 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC BY-SA 3.0 de",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+            "basis": "Commons 원문에서 촬영자와 라이선스를 확인했습니다. 출처·라이선스·기존 변환 안내를 유지합니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "photo-priority-kongsberg-protector-reference",
+      "organizationId": "org-08ba69fde2c8bc751f83",
+      "displayName": "Kongsberg",
+      "categoryIds": [
+        "unmanned_remote"
+      ],
+      "reason": "차량에 탑재하는 PROTECTOR 원격무장장치의 과거 운용 형상. 사진은 2005년 M1126 Stryker 탑재 장치를 보여 준다.",
+      "highlights": [
+        "PROTECTOR 원격무장장치 · 과거 Stryker 탑재형",
+        "2005-03-31 제품 참고사진",
+        "TSGT MIKE BUYTAS, USAF · Public domain · U.S. Air Force"
+      ],
+      "exhibit": {
+        "summary": "제조사 제품 소개와 과거 사진을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-kongsberg-protector-reference-official",
+          "photo-priority-kongsberg-protector-reference-source"
+        ],
+        "items": [
+          {
+            "productId": "kongsberg-protector-reference",
+            "name": "PROTECTOR 원격무장장치 · 과거 Stryker 탑재형",
+            "status": "background_reference",
+            "form": "일반 제품 참고사진 · 2005-03-31",
+            "category": "unmanned_remote",
+            "sourceIds": [
+              "photo-priority-kongsberg-protector-reference-official",
+              "photo-priority-kongsberg-protector-reference-source"
+            ]
+          }
+        ]
+      },
+      "distinction": {
+        "judgment": "사진은 2005년 형상이다. 최신 PROTECTOR RS4나 DSEI 2025 전시형으로 표시하지 않는다.",
+        "sourceIds": [
+          "photo-priority-kongsberg-protector-reference-official",
+          "photo-priority-kongsberg-protector-reference-source"
+        ]
+      },
+      "direction": {
+        "observation": "차량에 탑재하는 PROTECTOR 원격무장장치의 과거 운용 형상. 사진은 2005년 M1126 Stryker 탑재 장치를 보여 준다.",
+        "interpretation": "사진의 촬영 시점과 제품 구성을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-kongsberg-protector-reference-official",
+          "photo-priority-kongsberg-protector-reference-source"
+        ]
+      },
+      "followUps": [
+        "이번 회차의 실제 전시 구성 확인",
+        "최신 형상의 제조사 사진 추가 확인"
+      ],
+      "verificationNote": "사진은 2005년 형상이다. 최신 PROTECTOR RS4나 DSEI 2025 전시형으로 표시하지 않는다. 일반 제품군 소개와 과거 사진을 연결하며 이번 회차 출품 근거는 미확보다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "차량에 탑재하는 PROTECTOR 원격무장장치의 과거 운용 형상. 사진은 2005년 M1126 Stryker 탑재 장치를 보여 준다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "unmanned_remote"
+        ],
+        "sourceIds": [
+          "photo-priority-kongsberg-protector-reference-official",
+          "photo-priority-kongsberg-protector-reference-source"
+        ]
+      },
+      "sources": [
+        {
+          "id": "photo-priority-kongsberg-protector-reference-official",
+          "url": "https://www.kongsberg.com/what-we-do/defence-and-security/remote-weapon-systems/",
+          "title": "PROTECTOR 원격무장장치 · 과거 Stryker 탑재형 제조사 제품 소개",
+          "publisher": "Kongsberg",
+          "role": "manufacturer",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "사진은 2005년 형상이다. 최신 PROTECTOR RS4나 DSEI 2025 전시형으로 표시하지 않는다.",
+            "일반 제품군 소개와 과거 사진을 연결하며 이번 회차 출품 근거는 미확보다."
+          ],
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "photo-priority-kongsberg-protector-reference-source",
+          "url": "https://commons.wikimedia.org/wiki/File:Kongsberg_Protector_RWS_on_M1126.jpg",
+          "title": "Kongsberg Protector RWS on M1126",
+          "publisher": "TSGT MIKE BUYTAS, USAF",
+          "date": "2005-03-31",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "사진은 2005년 형상이다. 최신 PROTECTOR RS4나 DSEI 2025 전시형으로 표시하지 않는다.",
+            "일반 제품군 소개와 과거 사진을 연결하며 이번 회차 출품 근거는 미확보다."
+          ],
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "photos": [
+        {
+          "id": "priority-kongsberg-protector-2005",
+          "src": "assets/photos/priority-kongsberg-protector-2005.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kongsberg_Protector_RWS_on_M1126.jpg",
+          "sourceIds": [
+            "photo-priority-kongsberg-protector-reference-source"
+          ],
+          "productIds": [
+            "kongsberg-protector-reference"
+          ],
+          "credit": "TSGT MIKE BUYTAS, USAF",
+          "caption": "제품 참고사진 — M1126 Stryker에 탑재된 Kongsberg PROTECTOR, 2005년",
+          "context": "reference",
+          "eventId": null,
+          "width": 1071,
+          "height": 1017,
+          "sourceDate": "2005-03-31",
+          "sha256": "0cf9af3175c6c799c6966a0033c7fd19083c5b98506b312b8f6b2e4c654827c1",
+          "mediaType": "photo",
+          "variantNote": "사진은 2005년 형상이다. 최신 PROTECTOR RS4나 DSEI 2025 전시형으로 표시하지 않는다. 일반 제품군 소개와 과거 사진을 연결하며 이번 회차 출품 근거는 미확보다. Commons 제공 JPEG 그대로 사용. 해당 파일은 원래 USAF 사진에서 잘라낸 공개본이며 이번 추가 편집 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "Public domain · U.S. Air Force",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force",
+            "basis": "Commons 원문에서 촬영자와 라이선스를 확인했습니다. 출처·라이선스·기존 변환 안내를 유지합니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "photo-priority-thales-sophie-reference",
+      "organizationId": "org-3dba2d2e96e3a37e36af",
+      "displayName": "Thales",
+      "categoryIds": [
+        "optics_awareness"
+      ],
+      "reason": "관측 임무용 휴대형 열상장비. 사진은 2010년에 촬영된 SOPHIE 제품군의 외형과 사용 모습을 보여 준다.",
+      "highlights": [
+        "SOPHIE 휴대형 열상 관측장비 · 과거 형상",
+        "2010-03 제품 참고사진",
+        "Bernard Rousseau Thales · CC BY-SA 3.0"
+      ],
+      "exhibit": {
+        "summary": "제조사 제품 소개와 과거 사진을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-thales-sophie-reference-official",
+          "photo-priority-thales-sophie-reference-source"
+        ],
+        "items": [
+          {
+            "productId": "thales-sophie-reference",
+            "name": "SOPHIE 휴대형 열상 관측장비 · 과거 형상",
+            "status": "background_reference",
+            "form": "일반 제품 참고사진 · 2010-03",
+            "category": "optics_awareness",
+            "sourceIds": [
+              "photo-priority-thales-sophie-reference-official",
+              "photo-priority-thales-sophie-reference-source"
+            ]
+          }
+        ]
+      },
+      "distinction": {
+        "judgment": "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다.",
+        "sourceIds": [
+          "photo-priority-thales-sophie-reference-official",
+          "photo-priority-thales-sophie-reference-source"
+        ]
+      },
+      "direction": {
+        "observation": "관측 임무용 휴대형 열상장비. 사진은 2010년에 촬영된 SOPHIE 제품군의 외형과 사용 모습을 보여 준다.",
+        "interpretation": "사진의 촬영 시점과 제품 구성을 함께 확인할 수 있습니다.",
+        "sourceIds": [
+          "photo-priority-thales-sophie-reference-official",
+          "photo-priority-thales-sophie-reference-source"
+        ]
+      },
+      "followUps": [
+        "이번 회차의 실제 전시 구성 확인",
+        "최신 형상의 제조사 사진 추가 확인"
+      ],
+      "verificationNote": "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다. 사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "관측 임무용 휴대형 열상장비. 사진은 2010년에 촬영된 SOPHIE 제품군의 외형과 사용 모습을 보여 준다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "optics_awareness"
+        ],
+        "sourceIds": [
+          "photo-priority-thales-sophie-reference-official",
+          "photo-priority-thales-sophie-reference-source"
+        ]
+      },
+      "sources": [
+        {
+          "id": "photo-priority-thales-sophie-reference-official",
+          "url": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+          "title": "SOPHIE 휴대형 열상 관측장비 · 과거 형상 제조사 제품 소개",
+          "publisher": "Thales",
+          "role": "manufacturer",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다.",
+            "사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다."
+          ],
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "photo-priority-thales-sophie-reference-source",
+          "url": "https://commons.wikimedia.org/wiki/File:Sophie_%C2%A9B._Rousseau.jpg",
+          "title": "Sophie ©B. Rousseau",
+          "publisher": "Bernard Rousseau Thales",
+          "date": "2010-03",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다.",
+            "사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다."
+          ],
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "photos": [
+        {
+          "id": "priority-thales-sophie-2010",
+          "src": "assets/photos/priority-thales-sophie-2010.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sophie_%C2%A9B._Rousseau.jpg",
+          "sourceIds": [
+            "photo-priority-thales-sophie-reference-source"
+          ],
+          "productIds": [
+            "thales-sophie-reference"
+          ],
+          "credit": "Bernard Rousseau Thales",
+          "caption": "제품 참고사진 — Thales SOPHIE 휴대형 열상 관측장비, 2010년 형상",
+          "context": "reference",
+          "eventId": null,
+          "width": 2126,
+          "height": 1535,
+          "sourceDate": "2010-03",
+          "sha256": "138618185f5a8460fbf73a1c00f9fef38167d67b97220bfc76066ce4e7f1118e",
+          "mediaType": "photo",
+          "variantNote": "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다. 사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다. Commons 제공 JPEG 원본 그대로 사용. 추가 자르기·형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "basis": "Commons 원문에서 촬영자와 라이선스를 확인했습니다. 출처·라이선스·기존 변환 안내를 유지합니다."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import {loadIndex,loadEvent,getCompany,getPhotoViewerSelection,getCompanyEditorial,getBoothCompanies,searchCompanies,safeUrl} from './data.js';
 import {createMapView} from './map-view.js';
-import {renderCompanyPanel,renderCompare,openPhotoViewer,printCompanyReport} from './details.js';
+import {renderCompanyPanel,renderCompare,openPhotoViewer,printCompanyReport,companyPhotoStatus,sortCompaniesByPhotos} from './details.js';
 import {renderEventReport} from './report.js';
 import {parseState,serializeState,patchState,mappedBooths,companySelection,mapReturn,eventSelection} from './state.js';
 
@@ -24,10 +24,11 @@ function matchingCompanies(){return searchCompanies(data,{query:state.q,category
 function companyRow(c){
  const booths=(c.boothIds||[]).map(id=>data.booths.find(b=>b.id===id)).filter(Boolean),mapped=mappedBooths(data,c),halls=[...new Set(booths.map(b=>b.hall).filter(Boolean))],editorial=getCompanyEditorial(data,c.id);
  const note=editorial?reasonOf(editorial):(c.categoryIds||[]).map(categoryName).join(' · ')||'명단 등재 · 전시품목 미확인';
- return '<button class="company-row" data-company="'+esc(c.id)+'" aria-current="'+(state.company===c.id)+'"><span class="company-name">'+esc(titleOf(c))+'</span><span class="location-label">'+(mapped.length?(halls.length?'홀 '+esc(halls.join('·')):'지도 연결'):'위치 미확인')+'</span><span class="company-note">'+esc(note)+(c.sourceLabelStatus==='needs_review'?' · 원문 명칭 재확인 필요':'')+'</span></button>';
+ const photoStatus=companyPhotoStatus(data,c);
+ return '<button class="company-row" data-company="'+esc(c.id)+'" aria-current="'+(state.company===c.id)+'"><span class="company-name">'+esc(titleOf(c))+'</span><span class="location-label">'+(mapped.length?(halls.length?'홀 '+esc(halls.join('·')):'지도 연결'):'위치 미확인')+'</span><span class="company-photo-status" data-photo-status="'+photoStatus.kind+'">'+photoStatus.label+'</span><span class="company-note">'+esc(note)+(c.sourceLabelStatus==='needs_review'?' · 원문 명칭 재확인 필요':'')+'</span></button>';
 }
 function companyListHTML(companies){
- return '<div class="company-list">'+companies.slice(0,showCount).map(companyRow).join('')+'</div>'+(companies.length>showCount?'<button type="button" class="more-button" data-more>업체 더 보기 ('+fmt(showCount)+' / '+fmt(companies.length)+')</button>':'')+(!companies.length?'<p class="empty-note">일치하는 업체가 없습니다. 검색어와 기술분류를 바꿔 보세요.</p>':'');
+ return '<div class="company-list">'+sortCompaniesByPhotos(data,companies).slice(0,showCount).map(companyRow).join('')+'</div>'+(companies.length>showCount?'<button type="button" class="more-button" data-more>업체 더 보기 ('+fmt(showCount)+' / '+fmt(companies.length)+')</button>':'')+(!companies.length?'<p class="empty-note">일치하는 업체가 없습니다. 검색어와 기술분류를 바꿔 보세요.</p>':'');
 }
 function bindCompanyList(container){
  container.querySelectorAll('[data-company]').forEach(button=>button.addEventListener('click',()=>selectCompany(button.dataset.company)));

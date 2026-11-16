@@ -90,6 +90,22 @@ function imageMarkup(photo, index, {print = false, hero = false, currentEvent = 
   return `<figure class="fn-photo ${hero ? 'fn-photo-hero' : ''}" data-photo-id="${escapeHTML(photo.id)}">${content}<figcaption><span>${escapeHTML(caption)}</span><small>${escapeHTML([context, photo.credit || photo.author, photo.sourceDate ? `자료 날짜 ${photo.sourceDate}` : null].filter(Boolean).join(' · '))}</small>${photo.variantNote ? `<small>${escapeHTML(photo.variantNote)}</small>` : ''}${sourceUrl(photo) ? link(photo.sourceUrl,'사진 원문','fn-source-link') + (print ? `<small class="fn-print-url">${escapeHTML(sourceUrl(photo))}</small>` : '') : ''}${photoRightsMarkup(photo)}</figcaption></figure>`;
 }
 const isCurrentEventPhoto = (data, photo) => photo.context === 'event' && (!(photo.eventId || photo.eventEditionId) || (photo.eventId || photo.eventEditionId) === data?.event?.id);
+const isLogoPhoto = photo => [photo.kind,photo.type,photo.role].includes('logo') || /(?:^|[\/_-])logo(?:[._/-]|$)/i.test(photo.src || photo.displayUrl || '') || /(?:로고|\blogo)\s*$/i.test(photo.caption || '');
+
+export function companyPhotoStatus(data, company) {
+  const photos = companyPhotos(data,company).filter(photo => photoUrl(photo) && !isLogoPhoto(photo));
+  const eventPhotos = photos.filter(photo => isCurrentEventPhoto(data,photo));
+  if (eventPhotos.length) return {kind:'event',rank:0,label:'현장사진 있음',count:eventPhotos.length};
+  const referencePhotos = photos.filter(photo => photo.context === 'reference' || photo.context === 'event');
+  if (referencePhotos.length) return {kind:'reference',rank:1,label:'제품 참고사진만 있음',count:referencePhotos.length};
+  return {kind:'none',rank:2,label:'사진 미확보',count:0};
+}
+
+export function sortCompaniesByPhotos(data, companies) {
+  return companies.map(company => ({company,rank:companyPhotoStatus(data,company).rank}))
+    .sort((a,b) => a.rank - b.rank)
+    .map(item => item.company);
+}
 function galleryMarkup(photos, {print = false, allPhotos = photos, data = null} = {}) {
   if (!photos.length) return '<p class="fn-note">이 업체의 해당 회차 사진은 아직 연결하지 못했습니다.</p>';
   const rows=photos.map(photo=>({photo,index:allPhotos.indexOf(photo)}));
@@ -189,7 +205,8 @@ function editorialSections(data, company, editorial, {print = false} = {}) {
   const comparison = compared + (distinction.comparator ? `<dl class="fn-facts"><div><dt>비교 대상</dt><dd>${escapeHTML(distinction.comparator)}</dd></div>${distinction.conditions ? `<div><dt>비교 조건</dt><dd>${escapeHTML(Array.isArray(distinction.conditions) ? distinction.conditions.join(' · ') : distinction.conditions)}</dd></div>` : ''}</dl>` : '');
   const direction = editorial.direction || {};
   const development = paragraph(direction.observation) + (direction.interpretation ? `<p class="fn-interpretation">${escapeHTML(direction.interpretation)}</p>` : '');
-  return readingSection('이번 전시에서 보여준 것',exhibited) + readingSection('차별점과 비교 조건',comparison) + readingSection('개발 방향 해석',development) + (arr(editorial.followUps).length?readingSection('공개자료의 확인 범위',list(editorial.followUps)):'') + section('근거와 원문 자료',sourcesMarkup(companySources(data,company),companyCatalogs(data,company),{print}),{print});
+  const exhibitHeading = items.length && items.every(item=>item.status==='background_reference') ? '제품 참고자료' : '이번 전시에서 보여준 것';
+  return readingSection(exhibitHeading,exhibited) + readingSection('차별점과 비교 조건',comparison) + readingSection('개발 방향 해석',development) + (arr(editorial.followUps).length?readingSection('공개자료의 확인 범위',list(editorial.followUps)):'') + section('근거와 원문 자료',sourcesMarkup(companySources(data,company),companyCatalogs(data,company),{print}),{print});
 }
 function basicSections(data, company, {print = false} = {}) {
   const products = arr(data?.products).filter(item => arr(company.productIds).includes(item.id));
@@ -214,14 +231,18 @@ export function companyPanelMarkup(data, company, {print = false, productId = nu
   const assignedPhotos = new Set(products.flatMap(product=>productPhotos(data,company,product,photos)));
   const fieldPhotos = photos.filter(photo=>isCurrentEventPhoto(data,photo));
   const overviewPhoto = fieldPhotos.find(photo=>photoUrl(photo) && /(?:부스|전시|전시장|차량군|공동관).*(?:전경|전체)|(?:전경|booth overview)/i.test(photo.caption || '')) || fieldPhotos.find(photo=>photoUrl(photo) && !assignedPhotos.has(photo)) || fieldPhotos.find(photo=>photoUrl(photo));
-  const companyGallery = [...new Set([overviewPhoto,...photos.filter(photo=>!assignedPhotos.has(photo))].filter(Boolean))];
+  const referencePhotos = photos.filter(photo=>photo.context==='reference' && photoUrl(photo) && !isLogoPhoto(photo));
+  const productIds = new Set(products.map(product=>product.id));
+  const productReferencePhoto = referencePhotos.find(photo=>arr(photo.productIds).some(id=>productIds.has(id)));
+  const representativePhoto = overviewPhoto || productReferencePhoto || referencePhotos[0];
+  const companyGallery = [...new Set([representativePhoto,...photos.filter(photo=>!assignedPhotos.has(photo))].filter(Boolean))];
   const booths = boothSummary(data,company);
   const title = companyName(company,data);
   const countries=arr(company.countries || company.countryNames);
   const header = `<header class="fn-detail-head"><div class="fn-detail-kicker">${escapeHTML(eventName(data))}</div><div class="fn-detail-title"><h2>${escapeHTML(title)}</h2>${print ? '' : '<button type="button" class="fn-icon-button" data-detail-action="close" aria-label="업체 패널 닫기">'+svg('close')+'</button>'}</div>${booths ? `<p class="fn-booth-label">${escapeHTML(booths)}</p>` : '<p class="fn-booth-label">지도 좌표 미확인 · 업체 목록에서 탐색</p>'}${countries.length ? `<p class="fn-note fn-company-country">국가 표기 · ${escapeHTML(countries.join(' · '))}</p>` : ''}${company.sourceLabelStatus === 'needs_review' ? '<p class="fn-note">원문 업체명 재확인이 필요합니다</p>' : ''}${!editorial&&!companyNarrativeProducts(data,company).length ? '<span class="fn-evidence-status">실제 전시품목 미확인</span>' : ''}<p class="fn-company-judgment">${escapeHTML(caseReason(data,company))}</p>${list(arr(editorial?.highlights),'fn-key-points')}${editorial?.verificationNote ? `<p class="fn-note fn-case-conditions">${escapeHTML(editorial.verificationNote)}</p>` : ''}</header>`;
   const actions = print ? '' : `<div class="fn-detail-actions">${canLocate(data,company) ? `<button type="button" data-detail-action="locate">${svg('pin')}지도에서 보기</button>` : ''}<button type="button" data-detail-action="report">전시회 종합보고 ↗</button><button type="button" data-detail-action="compare">${svg('compare')}비교에 담기</button><button type="button" data-detail-action="print">${svg('print')}상세 PDF로 저장</button></div>`;
   const navigation = !print && products.length ? `<nav class="fn-product-nav" aria-label="장비 바로가기">${products.map(product=>`<button type="button" data-product-link="${escapeHTML(product.id)}"${product.id===productId?' aria-current="location"':''}>${escapeHTML(product.name)}</button>`).join('')}</nav>` : '';
-  const gallery = `<section class="fn-company-photos"><h3>전시 현장</h3>${overviewPhoto?'':'<p class="fn-photo-unavailable">이 업체의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.</p>'}${companyGallery.length?galleryMarkup(companyGallery,{print,allPhotos:photos,data}):''}</section>`;
+  const gallery = `<section class="fn-company-photos"><h3>${overviewPhoto?'전시 현장':'업체·제품 사진'}</h3>${overviewPhoto?'':'<p class="fn-photo-unavailable">이 업체의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.</p>'}${companyGallery.length?galleryMarkup(companyGallery,{print,allPhotos:photos,data}):''}</section>`;
   const equipment = `<section class="fn-equipment-section"><header class="fn-equipment-heading"><h3>장비 사진과 설명</h3><p>해당 회차 출품 형상과 공개자료를 함께 확인합니다.</p></header>${navigation}${products.length?products.map(product=>productMarkup(data,company,product,photos,{print,productId})).join(''):'<p class="fn-note">연결된 장비별 출품자료가 아직 없습니다. 업체 정보와 원문 자료는 계속 확인할 수 있습니다.</p>'}</section>`;
   return `<article class="fn-company-detail" data-company-id="${escapeHTML(company.id)}">${header}${actions}${gallery}${equipment}<div class="fn-company-body">${editorial ? editorialSections(data,company,editorial,{print}) : basicSections(data,company,{print})}</div>${print ? '' : '<div class="fn-action-feedback" aria-live="polite"></div>'}</article>`;
 }

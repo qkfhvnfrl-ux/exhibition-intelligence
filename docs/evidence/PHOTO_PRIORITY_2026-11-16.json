@@ -1,0 +1,465 @@
+{
+  "asOf": "2026-11-16",
+  "status": "completed_local_first_photo_batch",
+  "baseline": "090fbad with preexisting uncommitted reference mappings",
+  "localUrl": "http://127.0.0.1:4177/#companies?event=dsei-2025",
+  "before": [
+    {
+      "event": "adex-2025",
+      "companies": 375,
+      "photoCompanies": 5,
+      "eventPhotoCompanies": 3,
+      "referenceOnlyCompanies": 2,
+      "photoProducts": 7,
+      "products": 94,
+      "photoCompanyRows": [
+        {
+          "id": "org-f59a1086debbc920179b",
+          "name": "한화에어로스페이스 · Milrem Robotics",
+          "kind": "reference"
+        },
+        {
+          "id": "org-c919e0346aa5a11fd7a0",
+          "name": "Hanwha Aerospace",
+          "kind": "reference"
+        },
+        {
+          "id": "org-bb5b014b7abb0359c75b",
+          "name": "Hyundai Rotem",
+          "kind": "event"
+        },
+        {
+          "id": "org-b6b486fa375701e51329",
+          "name": "Hyundai WIA",
+          "kind": "event"
+        },
+        {
+          "id": "org-37268bb0020007468bbc",
+          "name": "Kia",
+          "kind": "event"
+        }
+      ]
+    },
+    {
+      "event": "dsei-2025",
+      "companies": 1743,
+      "photoCompanies": 7,
+      "eventPhotoCompanies": 5,
+      "referenceOnlyCompanies": 2,
+      "photoProducts": 7,
+      "products": 9,
+      "photoCompanyRows": [
+        {
+          "id": "org-a194a3130ae22367477e",
+          "name": "ARTEC · RBSL · KNDS UK",
+          "kind": "reference"
+        },
+        {
+          "id": "org-37268bb0020007468bbc",
+          "name": "Kia",
+          "kind": "event"
+        },
+        {
+          "id": "org-e2295099b8d18919a8a9",
+          "name": "KNDS / Rheinmetall",
+          "kind": "event"
+        },
+        {
+          "id": "org-b2e821937e2348e31631",
+          "name": "Patria",
+          "kind": "event"
+        },
+        {
+          "id": "org-00c0527a4f7c4083a394",
+          "name": "Rheinmetall",
+          "kind": "reference"
+        },
+        {
+          "id": "org-fea8abb4f216a4812b3c",
+          "name": "Roshel",
+          "kind": "event"
+        },
+        {
+          "id": "org-c7eb14a21ab8df05af0f",
+          "name": "ST Engineering / Babcock",
+          "kind": "event"
+        }
+      ]
+    },
+    {
+      "event": "eurosatory-2026",
+      "companies": 64,
+      "photoCompanies": 6,
+      "eventPhotoCompanies": 5,
+      "referenceOnlyCompanies": 1,
+      "photoProducts": 6,
+      "products": 9,
+      "photoCompanyRows": [
+        {
+          "id": "org-b2ca2a34fd51e38b777e",
+          "name": "ASELSAN",
+          "kind": "event"
+        },
+        {
+          "id": "org-bb5b014b7abb0359c75b",
+          "name": "Hyundai Rotem",
+          "kind": "event"
+        },
+        {
+          "id": "org-b6b486fa375701e51329",
+          "name": "Hyundai WIA",
+          "kind": "event"
+        },
+        {
+          "id": "org-37268bb0020007468bbc",
+          "name": "Kia",
+          "kind": "event"
+        },
+        {
+          "id": "org-a7f46a7e877193b3e57d",
+          "name": "KNDS Deutschland",
+          "kind": "reference"
+        },
+        {
+          "id": "org-185024664dfbe6bfe147",
+          "name": "SVOS · Saab",
+          "kind": "event"
+        }
+      ]
+    },
+    {
+      "event": "idex-2025",
+      "companies": 36,
+      "photoCompanies": 7,
+      "eventPhotoCompanies": 7,
+      "referenceOnlyCompanies": 0,
+      "photoProducts": 9,
+      "products": 11,
+      "photoCompanyRows": [
+        {
+          "id": "org-8de7f844d3d235b7835b",
+          "name": "BAE Systems · Iveco Defence Vehicles",
+          "kind": "event"
+        },
+        {
+          "id": "org-2d90c23ed374de2c2c80",
+          "name": "Diehl Defence GmbH & Co.KG",
+          "kind": "event"
+        },
+        {
+          "id": "org-1417fcb4283b65d754c3",
+          "name": "John Cockerill Defense",
+          "kind": "event"
+        },
+        {
+          "id": "org-c0aa5fd472a380a0d1d6",
+          "name": "Milrem Robotics · EDGE",
+          "kind": "event"
+        },
+        {
+          "id": "org-3a42e32a1f0025e58e14",
+          "name": "NIMR · EDGE",
+          "kind": "event"
+        },
+        {
+          "id": "org-7b846c15951b021bf59b",
+          "name": "Otokar",
+          "kind": "event"
+        },
+        {
+          "id": "org-2db746a8735131ebbf8e",
+          "name": "Uralvagonzavod · Rosoboronexport",
+          "kind": "event"
+        }
+      ]
+    },
+    {
+      "event": "saha-2026",
+      "companies": 1467,
+      "photoCompanies": 3,
+      "eventPhotoCompanies": 0,
+      "referenceOnlyCompanies": 3,
+      "photoProducts": 2,
+      "products": 8,
+      "photoCompanyRows": [
+        {
+          "id": "org-2dffde2d6bd01e4eaf2d",
+          "name": "FNSS",
+          "kind": "reference"
+        },
+        {
+          "id": "org-b3f73420b52256e15edb",
+          "name": "FNSS · ROKETSAN",
+          "kind": "reference"
+        },
+        {
+          "id": "org-7b846c15951b021bf59b",
+          "name": "Otokar",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "after": [
+    {
+      "event": "adex-2025",
+      "companies": 375,
+      "photoCompanies": 5,
+      "eventPhotoCompanies": 3,
+      "referenceOnlyCompanies": 2,
+      "photoProducts": 7,
+      "products": 94,
+      "photoCompanyRows": [
+        {
+          "id": "org-f59a1086debbc920179b",
+          "name": "한화에어로스페이스 · Milrem Robotics",
+          "kind": "reference"
+        },
+        {
+          "id": "org-c919e0346aa5a11fd7a0",
+          "name": "Hanwha Aerospace",
+          "kind": "reference"
+        },
+        {
+          "id": "org-bb5b014b7abb0359c75b",
+          "name": "Hyundai Rotem",
+          "kind": "event"
+        },
+        {
+          "id": "org-b6b486fa375701e51329",
+          "name": "Hyundai WIA",
+          "kind": "event"
+        },
+        {
+          "id": "org-37268bb0020007468bbc",
+          "name": "Kia",
+          "kind": "event"
+        }
+      ]
+    },
+    {
+      "event": "dsei-2025",
+      "companies": 1743,
+      "photoCompanies": 12,
+      "eventPhotoCompanies": 5,
+      "referenceOnlyCompanies": 7,
+      "photoProducts": 13,
+      "products": 14,
+      "photoCompanyRows": [
+        {
+          "id": "org-a194a3130ae22367477e",
+          "name": "ARTEC · RBSL · KNDS UK",
+          "kind": "reference"
+        },
+        {
+          "id": "org-cd0bf6280f80e73343c7",
+          "name": "General Dynamics",
+          "kind": "reference"
+        },
+        {
+          "id": "org-5e5d812e407f2c17a6ec",
+          "name": "HENSOLDT",
+          "kind": "reference"
+        },
+        {
+          "id": "org-37268bb0020007468bbc",
+          "name": "Kia",
+          "kind": "event"
+        },
+        {
+          "id": "org-e2295099b8d18919a8a9",
+          "name": "KNDS / Rheinmetall",
+          "kind": "event"
+        },
+        {
+          "id": "org-08ba69fde2c8bc751f83",
+          "name": "Kongsberg",
+          "kind": "reference"
+        },
+        {
+          "id": "org-b2e821937e2348e31631",
+          "name": "Patria",
+          "kind": "event"
+        },
+        {
+          "id": "org-00c0527a4f7c4083a394",
+          "name": "Rheinmetall",
+          "kind": "reference"
+        },
+        {
+          "id": "org-fea8abb4f216a4812b3c",
+          "name": "Roshel",
+          "kind": "event"
+        },
+        {
+          "id": "org-c7eb14a21ab8df05af0f",
+          "name": "ST Engineering / Babcock",
+          "kind": "event"
+        },
+        {
+          "id": "org-3dba2d2e96e3a37e36af",
+          "name": "Thales",
+          "kind": "reference"
+        },
+        {
+          "id": "org-0b1aef87a2fea247d4d6",
+          "name": "Thales Australia Limited",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "event": "eurosatory-2026",
+      "companies": 64,
+      "photoCompanies": 6,
+      "eventPhotoCompanies": 5,
+      "referenceOnlyCompanies": 1,
+      "photoProducts": 7,
+      "products": 9,
+      "photoCompanyRows": [
+        {
+          "id": "org-b2ca2a34fd51e38b777e",
+          "name": "ASELSAN",
+          "kind": "event"
+        },
+        {
+          "id": "org-bb5b014b7abb0359c75b",
+          "name": "Hyundai Rotem",
+          "kind": "event"
+        },
+        {
+          "id": "org-b6b486fa375701e51329",
+          "name": "Hyundai WIA",
+          "kind": "event"
+        },
+        {
+          "id": "org-37268bb0020007468bbc",
+          "name": "Kia",
+          "kind": "event"
+        },
+        {
+          "id": "org-a7f46a7e877193b3e57d",
+          "name": "KNDS Deutschland",
+          "kind": "reference"
+        },
+        {
+          "id": "org-185024664dfbe6bfe147",
+          "name": "SVOS · Saab",
+          "kind": "event"
+        }
+      ]
+    },
+    {
+      "event": "idex-2025",
+      "companies": 36,
+      "photoCompanies": 7,
+      "eventPhotoCompanies": 7,
+      "referenceOnlyCompanies": 0,
+      "photoProducts": 10,
+      "products": 11,
+      "photoCompanyRows": [
+        {
+          "id": "org-8de7f844d3d235b7835b",
+          "name": "BAE Systems · Iveco Defence Vehicles",
+          "kind": "event"
+        },
+        {
+          "id": "org-2d90c23ed374de2c2c80",
+          "name": "Diehl Defence GmbH & Co.KG",
+          "kind": "event"
+        },
+        {
+          "id": "org-1417fcb4283b65d754c3",
+          "name": "John Cockerill Defense",
+          "kind": "event"
+        },
+        {
+          "id": "org-c0aa5fd472a380a0d1d6",
+          "name": "Milrem Robotics · EDGE",
+          "kind": "event"
+        },
+        {
+          "id": "org-3a42e32a1f0025e58e14",
+          "name": "NIMR · EDGE",
+          "kind": "event"
+        },
+        {
+          "id": "org-7b846c15951b021bf59b",
+          "name": "Otokar",
+          "kind": "event"
+        },
+        {
+          "id": "org-2db746a8735131ebbf8e",
+          "name": "Uralvagonzavod · Rosoboronexport",
+          "kind": "event"
+        }
+      ]
+    },
+    {
+      "event": "saha-2026",
+      "companies": 1467,
+      "photoCompanies": 3,
+      "eventPhotoCompanies": 0,
+      "referenceOnlyCompanies": 3,
+      "photoProducts": 3,
+      "products": 8,
+      "photoCompanyRows": [
+        {
+          "id": "org-2dffde2d6bd01e4eaf2d",
+          "name": "FNSS",
+          "kind": "reference"
+        },
+        {
+          "id": "org-b3f73420b52256e15edb",
+          "name": "FNSS · ROKETSAN",
+          "kind": "reference"
+        },
+        {
+          "id": "org-7b846c15951b021bf59b",
+          "name": "Otokar",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "newDownloads": 4,
+  "existingReferenceMappingsIntegrated": 13,
+  "existingSetasAssetReused": 1,
+  "newReferenceCompanyCases": 5,
+  "newCurrentEventPhotos": 0,
+  "checks": {
+    "build": "passed",
+    "test": {
+      "passed": 213,
+      "failed": 0,
+      "skipped": 0
+    },
+    "lint": "No separate lint script. check includes syntax and schema validation.",
+    "buildLogSha256": "6c4ef25737b473ecea2a80bb4bd63746f6b16f08b46c38235ce67b19afe15d1f",
+    "checkLogSha256": "dda987b142d64c1845bb962dc8a47d38da62a814430d07a923fde1bcc4fc9a26"
+  },
+  "browserEvidence": "docs/evidence/PHOTO_PRIORITY_BROWSER_2026-11-16.json",
+  "independentReview": {
+    "reviewer": "photo_priority_ui",
+    "result": "bounded_pass",
+    "existing87AssetsUnchanged": true,
+    "all5ReportsUnchanged": true,
+    "newOrganizationsAdded": 0
+  },
+  "issuesResolved": [
+    "Sandbox link tests failed without elevation; authorized run passed.",
+    "Sandbox localhost server timed out; normal-permission localhost:4177 responds HTTP 200 and browser verified.",
+    "KNDS representative reference now prioritizes exact product link."
+  ],
+  "limits": [
+    "New photographs are historical/general product references. No new current-event photographs acquired.",
+    "SOPHIE is a handheld observation device, not vehicle-mounted.",
+    "Physical phone test not performed.",
+    "Public release requires the separate request specified by user-approved prompt."
+  ],
+  "representativeLinks": [
+    "http://127.0.0.1:4177/#company?event=eurosatory-2026&company=org-a7f46a7e877193b3e57d&product=leopard-2a8",
+    "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-cd0bf6280f80e73343c7",
+    "http://127.0.0.1:4177/#company?event=dsei-2025&company=org-08ba69fde2c8bc751f83"
+  ]
+}

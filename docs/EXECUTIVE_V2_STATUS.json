@@ -22,11 +22,11 @@
     "phase": "redesign_B_implementation_and_verification",
     "review": "docs/REDESIGN_REVIEW_2026-11-15.md",
     "local_preview_entry": "index.html",
-    "scope": "승인된 로컬 본 구현·자료 확대. 최신5보고 화면은 통과했으며 변경DSEI/SAHA PDF2개 저장·전체조사·공개반영은 남아 있다.",
+    "scope": "승인된 1차 공개 완료. 전체 자료 확대 목표는 일시정지, 변경 DSEI/SAHA PDF 2개와 전체 조사 미완료.",
     "quality_target": "의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성",
     "public_cleanup": "implemented_current_sources_and_generators_final_audit_recorded_separately",
-    "deployment_authorized": false,
-    "pushed_this_work": false,
+    "deployment_authorized": true,
+    "pushed_this_work": true,
     "final_status_note": "65서술325항목131제품기록·새사진2장·기존사진21장 연결. build/check209통과, 브라우저·독립감사통과. 최신PDF2개 저장미완료, 전체목표진행중.",
     "implementation_plan": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
     "ui_direction_approved": true,
@@ -44,15 +44,16 @@
       "evidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json"
     },
     "implementation_commit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
-    "local_only": true,
+    "local_only": false,
     "head_commit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
-    "working_changes": false,
+    "working_changes": true,
     "implementation_commit_note": "65서술·209검사·사진/참고사진/UI 구현 저장점. head_commit은 이 구현 저장점이며 후속 문서 커밋과 구분한다.",
     "task_states": {
       "B02": "executing",
       "B03": "retry_with_revision",
       "B04": "executing",
-      "B05": "planned"
+      "B05": "completed",
+      "RELEASE_01": "completed"
     },
     "integrated_content": {
       "event_editions": 5,
@@ -95,12 +96,12 @@
         "new_images": 0
       }
     ],
-    "deployment_note": "첫 공개 대상은 기존 /preview/만이다. 완성본 검토 전 push·merge·배포 워크플로를 실행하지 않는다.",
+    "deployment_note": "사용자의 명시적 릴리즈 요청에 따라 검증본만 공개했다. 원래 작업공간의 미검증 변경은 배포하지 않았다.",
     "task_completion_scope": {
       "B02": "이번12서술·사진/UI 묶음 검증 완료, 전체자료확대 진행.",
       "B03": "5보고 최신 화면 통과, 변경DSEI/SAHA PDF2개 실제저장·렌더검증 필요.",
       "B04": "사진35제품/미서술66기록 및 전체관련범위 조사 진행.",
-      "B05": "완성본 검토 전 공개 변경 없음."
+      "B05": "1차 검토본 /preview/ 공개 완료. 전체 자료 확대·PDF 완료와 구분."
     },
     "photo_coverage": {
       "narrative_products": 65,
@@ -282,7 +283,8 @@
       "candidate_mappings": 13,
       "rejected_mappings": 3,
       "new_images": 0
-    }
+    },
+    "overall_goal_status": "paused"
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",
@@ -1438,5 +1440,33 @@
       "direct_product_display_photos": 0,
       "company_photo_candidates": 19
     }
+  },
+  "first_preview_release": {
+    "as_of": "2026-11-16",
+    "status": "completed",
+    "source_commit": "090fbad2d933f6fc3ea7e61e9db0b9a35761ebe3",
+    "release_commit": "ca195ab60d60265bba73c49fce6779513a316763",
+    "url": "https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/",
+    "github_release": "https://github.com/qkfhvnfrl-ux/exhibition-intelligence/releases/tag/v2.0.0-preview.1",
+    "tag": "v2.0.0-preview.1",
+    "evidence": "docs/evidence/FIRST_PREVIEW_RELEASE_2026-11-16.json",
+    "scope": "preview_only",
+    "pending_pdfs": [
+      "dsei-2025",
+      "saha-2026"
+    ],
+    "main_commit_unchanged": "a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7"
+  },
+  "photo_priority": {
+    "status": "completed_local_first_batch",
+    "as_of": "2026-11-16",
+    "local_url": "http://127.0.0.1:4177/#companies?event=dsei-2025",
+    "evidence": "docs/evidence/PHOTO_PRIORITY_2026-11-16.json",
+    "photo_companies_before": 32,
+    "photo_companies_after": 37,
+    "photo_products_before": 31,
+    "photo_products_after": 40,
+    "new_downloads": 4,
+    "new_event_photos": 0
   }
 }

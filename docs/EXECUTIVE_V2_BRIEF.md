@@ -1,3 +1,21 @@
+# 최신 로컬 사진 우선 작업
+
+2026-11-16 PHOTO-01 로컬 1차 사진 묶음 완료. 사진 상태 표시·안정 정렬과 정확한 제품 대표사진 우선 선택을 적용했다. 기존 DSEI 업체 5곳에 참고사진을 추가하여 회차별 사진 보유 업체 합계 32→37, 사진 연결 제품 31→40. 신규 다운로드 4장, SETAS 기존 자산 1장 재사용, 이전 후보 13건 연결. 현장사진 신규 0장. build/check 213개 통과, PC1440/모바일390·사진 확대/새로고침·필터·검색 확인. 로컬 http://127.0.0.1:4177/#companies?event=dsei-2025 를 제공한다. 공개 반영은 별도 요청 범위다.
+
+증거 docs/evidence/PHOTO_PRIORITY_2026-11-16.json.
+
+---
+
+# 2026-11-16 1차 공개 완료
+
+[공개 웹앱](https://qkfhvnfrl-ux.github.io/exhibition-intelligence/preview/) · [GitHub 프리릴리즈](https://github.com/qkfhvnfrl-ux/exhibition-intelligence/releases/tag/v2.0.0-preview.1)
+
+공개 커밋 ca195ab60d60265bba73c49fce6779513a316763. 기존 /preview/에 검증된 65개 장비 설명·325항목·5개 종합보고를 게시했다. main은 a633a9728fdbb1599c0dff5904b2fc4f9ea7a9a7로 유지했다. 로컬 build/check 209개, GitHub CI·Pages, 익명 HTTP 105파일과 공개 브라우저 검증을 통과했다. 전체 자료 확대 목표는 일시정지 상태로 유지하며, 미검증 후속 변경은 원래 작업공간에 보존했다. 변경 PDF 2개와 자료 공백은 미완료다. 아래 이전 공개 보류 문구는 당시 기록이다.
+
+증거: docs/evidence/FIRST_PREVIEW_RELEASE_2026-11-16.json.
+
+---
+
 # 현재 개편 기준 — 2026-11-16
 
 승인된 큰 지도 → 별도 업체 메인 → 장비별 설명 → 16:9 종합보고(모바일 세로)를 로컬 구현·검증 중이다. 현장사진이 없으면 검증한 일반 제품사진을 구분해 표시한다. 첫 공개 대상은 기존 /preview/이며 완성본 검토 전 push·merge·배포하지 않는다.
