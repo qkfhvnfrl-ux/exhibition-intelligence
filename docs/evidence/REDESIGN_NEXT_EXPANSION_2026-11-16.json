@@ -659,10 +659,12 @@
     "../CHANGELOG.md"
   ],
   "localCommit": {
-    "status": "pending",
+    "status": "saved",
+    "implementationCommit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
     "branch": "codex/fieldnote-redesign-audit",
     "baseline": "7b13b9d",
-    "pushed": false
+    "pushed": false,
+    "note": "Subsequent documentation commit records this implementation checkpoint."
   },
   "independentEvidenceConsistencyReview": {
     "status": "passed_after_two_metadata_corrections",
@@ -677,5 +679,16 @@
     "status": "passed",
     "scope": "Current counts/task state/PDF pending/log hashes/changed JSON parsing/root memory existence",
     "publicDeployment": false
+  },
+  "nextReferenceQueue": {
+    "file": "docs/research-v2/redesign-reference-photo-next-queue.json",
+    "status": "research_only_not_integrated",
+    "reviewedProducts": 5,
+    "reviewedPhotos": 16,
+    "candidateMappings": 13,
+    "rejectedMappings": 3,
+    "newImages": 0,
+    "rootHashRecheck": "16/16 passed",
+    "note": "Includes two qualified Leopard prototype mappings; 33 inventory-only photos remain unreviewed."
   }
 }

@@ -43,11 +43,11 @@
       "scope": "사진/서술/참고사진fallback/출처/인쇄권리 변경",
       "evidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json"
     },
-    "implementation_commit": null,
+    "implementation_commit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
     "local_only": true,
-    "head_commit": "7b13b9d",
-    "working_changes": true,
-    "implementation_commit_note": "이번 검증 묶음 저장 후 별도 인계 기록에 커밋 SHA를 갱신한다.",
+    "head_commit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
+    "working_changes": false,
+    "implementation_commit_note": "65서술·209검사·사진/참고사진/UI 구현 저장점. head_commit은 이 구현 저장점이며 후속 문서 커밋과 구분한다.",
     "task_states": {
       "B02": "executing",
       "B03": "retry_with_revision",
@@ -84,7 +84,17 @@
       "saha_preview_pages": 1,
       "limitation": "Windows 인쇄창 제어 입력이 적용되지 않아 사용자가 취소. 정상 웹앱 복귀 확인. 이전PDF를 최신2보고 검증으로 사용하지 않는다."
     },
-    "unintegrated_drafts": [],
+    "unintegrated_drafts": [
+      {
+        "file": "docs/research-v2/redesign-reference-photo-next-queue.json",
+        "status": "research_only_not_integrated",
+        "reviewed_products": 5,
+        "reviewed_photos": 16,
+        "candidate_mappings": 13,
+        "rejected_mappings": 3,
+        "new_images": 0
+      }
+    ],
     "deployment_note": "첫 공개 대상은 기존 /preview/만이다. 완성본 검토 전 push·merge·배포 워크플로를 실행하지 않는다.",
     "task_completion_scope": {
       "B02": "이번12서술·사진/UI 묶음 검증 완료, 전체자료확대 진행.",
@@ -263,6 +273,15 @@
       "event_editions": 3,
       "company_photo_candidates_reviewed_and_mapped": 19,
       "note": "Libelle/PARS의 추가2서술은 별도 packet."
+    },
+    "next_reference_photo_queue": {
+      "file": "docs/research-v2/redesign-reference-photo-next-queue.json",
+      "status": "research_only_not_integrated",
+      "reviewed_products": 5,
+      "reviewed_photos": 16,
+      "candidate_mappings": 13,
+      "rejected_mappings": 3,
+      "new_images": 0
     }
   },
   "unslop": {

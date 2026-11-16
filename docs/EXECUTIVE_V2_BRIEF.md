@@ -9,9 +9,9 @@
 - UI/내용: 정확한 제품ID에만 참고사진 fallback과 URL 갤러리를 적용. 현장사진이 아님을 화면/인쇄에 표시한다. Flickr는 웹 원문링크/별도확대, 인쇄는 이미지 대신 원문안내. EO로 오인한 MBDA사진 연결 제외·원본 보존. DTaQ 파생 공개문구196고유어절.
 - 검증: build 성공, check209/209·실패/skip0, 기존85이미지 보존·총87개. 신규12서술의1440/390, 사진19장 순환·로딩, PARS2장/새로고침, 최종5보고×1440/1280/390 통과. 보고 데스크톱16:9·모바일세로·넘침0. 실제 휴대폰 미검증.
 - PDF: 이전5개 검증본을 보존한다. DSEI 외부사진 제외와 SAHA PARS참고사진 추가 때문에2개 재저장/렌더가 필요하다. 새 PDF0개, SAHA인쇄미리보기1페이지 관찰만 완료. Windows 제어 도구가 인쇄창 입력을 적용하지 못해 사용자가 취소했고 웹앱복귀 확인. 새 인쇄창을 다시 열지 않는다.
-- Git: codex/fieldnote-redesign-audit, 직전구현7fa59fa/인계7b13b9d. 이번구현 저장점은 STATUS의 work.implementation_commit 및 EVIDENCE에 기록한다. 원격변경 없음.
+- Git: codex/fieldnote-redesign-audit, 이번 구현 저장점 d3c4580091f0c83b580cacfad847ea2d6dcc4b5b. 후속 문서 커밋과 구분한다. 원격변경 없음.
 
-다음: 검증한 제품 참고사진 후보를 연결하고 남은 사진35제품/미서술66기록을 조사한다. 공식지도·명단·전체관련업체·실기기·완성본검토도 남는다. ADEX Hall8 024/SANJU OPTICAL 이후112명칭·공동관/핀란드관/미국관, Eurosatory전체카탈로그, DSEI/IDEX/SAHA명단·원본지도 큐를 유지한다.
+다음: redesign-reference-photo-next-queue.json의 검토16장 중 후보13장(시제차 한정2장 포함)을 조건에 맞춰 연결한다. 현재 모두 운영 미통합이며 나머지33장은 원장 분류만 완료했다. 검증한 제품 참고사진 후보를 연결하고 남은 사진35제품/미서술66기록을 조사한다. 공식지도·명단·전체관련업체·실기기·완성본검토도 남는다. ADEX Hall8 024/SANJU OPTICAL 이후112명칭·공동관/핀란드관/미국관, Eurosatory전체카탈로그, DSEI/IDEX/SAHA명단·원본지도 큐를 유지한다.
 
 현재 증거: [통합 검증](evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json), [독립 감사](evidence/REDESIGN_NEXT_EXPANSION_AUDIT_2026-11-16.json), [브라우저](evidence/REDESIGN_NEXT_EXPANSION_BROWSER_2026-11-16.json). 이전 PDF 검사 결과는 최신2보고 저장 검증을 대신하지 않는다.
 

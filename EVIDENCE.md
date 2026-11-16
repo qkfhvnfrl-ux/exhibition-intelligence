@@ -213,3 +213,5 @@ A단계 감사·초안 제출 범위는 완료. 본 개편은 화면 방향 결�
 - PDF: 이전5개 보존. 변경DSEI/SAHA2개 역사본을 output/pdf/history/2026-11-16-before-photo-rights에 복사했다. SAHA 인쇄미리보기1페이지 관찰, 새 파일0. Windows 인쇄창 index click은 geometry부재 오류, 값/키보드/좌표 입력은 효과없음. 사용자가 취소했고 정상 웹앱 복귀 확인. 자동 승인 거절은 아님.
 - 증거: docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json, docs/evidence/REDESIGN_NEXT_EXPANSION_AUDIT_2026-11-16.json, docs/evidence/REDESIGN_NEXT_EXPANSION_BROWSER_2026-11-16.json, screenshots/korkut-desktop·pars-alpha-reference-mobile·libelle-mobile-2026-11-16.png.
 - 남은 위험: 변경PDF2개 실제 저장, 사진35제품/미서술66기록/전수 관련 업체·지도·명단·실기기 검증. 공개push·merge·배포 없음.
+
+2026-11-16 구현 저장점: d3c4580091f0c83b580cacfad847ea2d6dcc4b5b. 50파일의65서술/325항목/209검사·사진/화면 변경을 로컬 저장했다. 후속 인계문서는 별도 커밋. 다음 참고사진 큐는5제품16장 검토·후보13/제외3·미통합이며16자산 해시 재대조PASS. 신규사진0/운영연결0, 전체목표진행·공개변경없음.
