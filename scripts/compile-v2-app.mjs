@@ -32,12 +32,13 @@ export function normalizePhoto(photo,sources,{context=photo.context||'reference'
       else if(status==='reusable'&&image.hostname==='upload.wikimedia.org'){src=remote;delivery='remote';displayBasis='recorded_reuse_basis';}
     }
   }
-  return {id:photo.id,caption:photo.caption||'',src,sourceUrl,originalImageUrl:safeUrl(photo.originalImageUrl||photo.assetUrl||photo.imageUrl||photo.embedImageUrl)||null,sourceIds,productIds:unique([photo.productId,...array(photo.productIds)]),width:photo.width||null,height:photo.height||null,credit:photo.credit||photo.author||null,rights,context,variantNote:photo.variantNote||null,sourceDate:photo.sourceDate||photo.date||null,delivery,displayBasis};
+  return {id:photo.id,caption:photo.caption||'',src,sourceUrl,originalImageUrl:safeUrl(photo.originalImageUrl||photo.assetUrl||photo.imageUrl||photo.embedImageUrl)||null,sourceIds,productIds:unique([photo.productId,...array(photo.productIds)]),width:photo.width||null,height:photo.height||null,credit:photo.credit||photo.author||null,rights,context,mediaType:photo.mediaType||'photo',variantNote:photo.variantNote||null,sourceDate:photo.sourceDate||photo.date||null,delivery,displayBasis};
 }
 
 function sourceRecord(source){
   const notes=unique([source.limitations,source.note].flatMap(value=>Array.isArray(value)?value:[value]).filter(value=>typeof value==='string').flatMap(value=>value.split(/\r?\n/)).map(value=>value.trim()));
-  return {id:source.id,url:safeUrl(source.url),title:source.title||source.url,publisher:source.publisher||null,publishedAt:source.publishedAt||source.date||null,...(notes.length?{note:notes.join('\n')}:{}),...(source.independence?{evidenceStatus:source.independence==='primary_single_origin'?'single_source':source.independence}:{})};
+  const provenance=Object.fromEntries(['role','coverageScope','editionStatus','accessStatus','documentType'].filter(key=>typeof source[key]==='string').map(key=>[key,source[key]]));
+  return {id:source.id,url:safeUrl(source.url),title:source.title||source.url,publisher:source.publisher||null,publishedAt:source.publishedAt||source.date||null,...provenance,...(notes.length?{note:notes.join('\n')}:{}),...(source.independence?{evidenceStatus:source.independence==='primary_single_origin'?'single_source':source.independence}:{})};
 }
 function categoryIds(taxonomy,{rawCategories=[],productCategories=[],relevanceCategories=[],editorialCategories=[]}){
   return taxonomy.categories.filter(category=>editorialCategories.includes(category.id)||array(category.directoryLabels).some(label=>rawCategories.includes(label))||array(category.productLabels).some(label=>productCategories.includes(label))||array(category.relevanceLabels).some(label=>relevanceCategories.includes(label))).map(category=>category.id);
@@ -75,7 +76,9 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
       // Legacy imports often know only the URL. Keep later reviewed attribution
       // and both sets of limitations without replacing established identity.
       if(!existing.title||safeUrl(existing.title)===existing.url)existing.title=record.title;
-      for(const key of ['publisher','publishedAt','evidenceStatus'])if(!existing[key]&&record[key])existing[key]=record[key];
+      for(const key of ['publisher','publishedAt','evidenceStatus','role','coverageScope','editionStatus','accessStatus','documentType'])if(!existing[key]&&record[key])existing[key]=record[key];
+      // A recorded access failure must survive an older or duplicate successful check.
+      if(/(?:blocked|unavailable|failed|forbidden|not_found|broken|\b(?:403|404|410)\b)/i.test(record.accessStatus||''))existing.accessStatus=record.accessStatus;
       const notes=unique([existing.note,record.note].flatMap(value=>Array.isArray(value)?value:[value]).filter(value=>typeof value==='string').flatMap(value=>value.split(/\r?\n/)).map(value=>value.trim()));
       if(notes.length)existing.note=notes.join('\n');
     }else sources.set(id,record);
@@ -135,7 +138,7 @@ export function compileAppData({publicData,registry,taxonomy,editorialBundles=[]
       for(const raw of array(item.catalogs)){
         check(safeUrl(raw.url),'catalog URL invalid '+item.id);
         const id=raw.id||'document-'+hash(raw.url),sourceId=appendSource({url:raw.url,title:raw.title,publisher:raw.publisher});
-        const record={id,title:raw.title||'제품 자료',url:safeUrl(raw.url),sourceIds:unique([...array(raw.sourceIds),sourceId]),organizationIds:[item.organizationId],productIds:array(raw.productIds),documentType:raw.scope==='event'?'event_material':'general_product_reference',edition:raw.edition||null,scope:raw.scope||'general',note:raw.note||(raw.scope==='event'?'해당 회차 자료':'일반 제품자료이며 해당 회차 출품 확인을 대신하지 않습니다'),rights:raw.rights||{status:'link_only'}};
+        const record={id,title:raw.title||'제품 자료',url:safeUrl(raw.url),sourceIds:unique([...array(raw.sourceIds),sourceId]),organizationIds:[item.organizationId],productIds:array(raw.productIds),documentType:raw.documentType||(raw.scope==='event'?'event_material':'general_product_reference'),edition:raw.edition||null,scope:raw.scope||'general',note:raw.note||(raw.scope==='event'?'해당 회차 자료':'일반 제품자료이며 해당 회차 출품 확인을 대신하지 않습니다'),rights:raw.rights||{status:'link_only'},...(raw.publishedAt?{publishedAt:raw.publishedAt}:{}),...(raw.checkedAt?{checkedAt:raw.checkedAt}:{}),...(raw.publisher?{publisher:raw.publisher}:{})};
         catalogs.set(id,record);editorialCatalogIds.push(id);record.sourceIds.forEach(sid=>relevantSourceIds.add(sid));
       }
       companyCatalogIds.set(item.organizationId,editorialCatalogIds);

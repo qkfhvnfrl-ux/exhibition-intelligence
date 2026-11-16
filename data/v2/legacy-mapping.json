@@ -1471,6 +1471,14 @@
       "newId": "photo-055d06685c584af0cb05"
     },
     {
+      "sourceFile": "data/catalog.json",
+      "recordType": "photo",
+      "oldId": "manufacturer-otokar-cobra2-2024",
+      "eventId": null,
+      "newType": "photos",
+      "newId": "photo-2f17d8f9ea3edf7608ac"
+    },
+    {
       "sourceFile": "data/review-photos.json",
       "recordType": "photo",
       "oldId": "k2pl-event-01",

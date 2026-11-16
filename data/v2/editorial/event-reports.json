@@ -3,64 +3,62 @@
   "reports": [
     {
       "eventId": "adex-2025",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-16",
       "title": "서울 ADEX 2025",
-      "message": "플랫폼을 늘리는 전시에서, 임무와 고객 요구를 구체화하는 전시로",
-      "scopeNote": "현대로템·현대위아·기아의 확인된 출품 사례 기준",
+      "message": "한화의 무인화 구상과 차량 탑재체계, 성숙도를 나눠 읽다",
+      "scopeNote": "한화에어로스페이스·현대위아·기아의 지상체계 3사례 · 전체 행사 조사 아님",
       "comparisonEvent": "서울 ADEX 2023",
-      "comparisonNote": "직전 회차 제조사 발표와 2025 공개자료 비교 · 동일 장비의 성능 향상 비교 아님",
+      "comparisonNote": "현대위아·기아의 2023 발표와 비교한다. K9A3는 직전 회차 동일 형상 근거가 없어 변화 판단을 보류한다.",
       "themes": [
         {
-          "title": "고객별 구성의 구체화",
-          "summary": "K2PL은 폴란드 요구에 맞춘 구성을 설명한다. 전시품의 실차·모형 분류에는 자료 간 표현 차이가 남는다.",
-          "companyId": "org-bb5b014b7abb0359c75b",
-          "productId": "k2pl",
-          "photoId": "photo-f27315794918d9b8ddce",
-          "before": "K2EX 수출형 소개",
-          "after": "폴란드형 K2PL 구성 제시",
+          "title": "한화의 플랫폼 발전 로드맵",
+          "summary": "한화는 K9A3의 원격·자율 운용 방향을 제시했다. 현장 기록은 발전 로드맵 전시이며, 완성 실차나 양산 성능의 증거는 아니다.",
+          "companyId": "org-c919e0346aa5a11fd7a0",
+          "productId": "k9a3",
+          "photoId": "",
+          "before": "직전 회차 동일 형상 대조 보류",
+          "after": "K9 발전 로드맵·유무인 협업 구상",
           "sourceIds": [
-            "rotem-adex2023-official",
-            "rotem-adex2025-official",
-            "rotem-adex2025-field"
+            "source-a054039a60d396e259d2",
+            "hanwha-adex2025-ceoscore"
           ]
         },
         {
-          "title": "통합과 형상 선택",
-          "summary": "RCWS 전시대는 3개 구경을 보여 준다. ADS는 기존 차량형과 새 일체형 소개를 구분해야 한다.",
+          "title": "구경별 원격무장 계열화",
+          "summary": "현대위아는 구경별 RCWS 전시대와 일체형 ADS를 소개했다. 탑재장비의 선택지를 보여 주지만 차량별 통합 완료를 뜻하지 않는다.",
           "companyId": "org-b6b486fa375701e51329",
           "productId": "adex25-wia-rcws-ai",
           "photoId": "photo-406026b01ffa0009623a",
-          "before": "차량형 ADS 이미 전시",
-          "after": "일체형 ADS 추가 소개",
+          "before": "차량형 ADS·RCWS 소개",
+          "after": "구경별 RCWS·일체형 ADS 소개",
           "sourceIds": [
             "wia-adex-2023",
             "wia-adex-2025"
           ]
         },
         {
-          "title": "임무별 차량군의 전개",
-          "summary": "타스만 지휘차와 샤시, KMTV·KLTV 파생형을 함께 제시했다. KHTV는 개발 목표를 담은 모형이다.",
+          "title": "차체를 임무별 공급 기반으로",
+          "summary": "기아는 타스만 지휘차·베어샤시와 KLTV 파생형을 제시했다. 완성차와 특장 기반을 함께 제안한 구성이며, KHTV는 개발 목표를 담은 모형이다.",
           "companyId": "org-37268bb0020007468bbc",
           "productId": "tasman-military",
           "photoId": "photo-88508f17c41d264626d0",
-          "before": "EV9·수소 콘셉트와 중형 샤시",
-          "after": "타스만·중형·소형 임무차량군",
+          "before": "EV9·수소 콘셉트·중형 샤시",
+          "after": "타스만·샤시·임무별 차량군",
           "sourceIds": [
             "kia-adex-2023",
             "kia-adex-2025"
           ]
         }
       ],
-      "interpretation": "전시 구성에 따른 해석: 확인 사례에서는 새로운 플랫폼의 등장뿐 아니라 고객별 방호·임무 장비·차량 파생형을 구체화하는 방향이 보인다. 회사 전체 전략이나 시장 성과를 뜻하지 않는다.",
+      "interpretation": "편집 해석: 완성차와 함께 무인화 제어·원격무장·임무차체가 제안의 축으로 등장한다. 경쟁사 비교에서는 로드맵과 실물, 검증 완료 단계를 나누고 통합·지원의 담당 범위를 확인할 필요가 있다.",
       "limitations": [
-        "3사 비교 표본이며 전체 행사 조사·증감 통계가 아니다.",
-        "제조사 발표가 주된 근거다. 최초 공개·계획은 발표 주체와 당시 시점을 따른다.",
-        "사진은 모두 ADEX 2025 현장이다. 가운데 RCWS 사진은 ADS 사진이 아니다."
+        "한화의 무인화 설명은 개발 방향이다. K9A3 완성 실차·양산 성능을 입증하지 않는다.",
+        "K9A3의 정확한 표시사진은 미확보다. 기존 K9 사진으로 대체하지 않는다.",
+        "RCWS 사진은 ADS 사진이 아니다. 세 사례로 시장 우열이나 전체 추세를 단정하지 않는다."
       ],
       "sourceIds": [
-        "rotem-adex2023-official",
-        "rotem-adex2025-official",
-        "rotem-adex2025-field",
+        "source-a054039a60d396e259d2",
+        "hanwha-adex2025-ceoscore",
         "wia-adex-2023",
         "wia-adex-2025",
         "kia-adex-2023",
@@ -68,40 +66,22 @@
       ],
       "sources": [
         {
-          "id": "rotem-adex2025-official",
-          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
-          "title": "현대로템, ADEX서 ‘종합 방산’ 기업 비전 제시",
-          "publisher": "현대자동차그룹 / 현대로템",
+          "id": "source-a054039a60d396e259d2",
+          "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+          "title": "Hanwha to Showcase Next-Generation AI and Unmanned Systems at ADEX 2025",
+          "publisher": "한화에어로스페이스",
+          "publishedAt": "2025-10-16",
+          "evidenceStatus": "single_source",
+          "note": "개막 전 예고이므로 실출품을 단독 확정하지 않는다."
+        },
+        {
+          "id": "hanwha-adex2025-ceoscore",
+          "url": "https://www.ceoscoredaily.com/page/view/2025102017192308138",
+          "title": "[르포] “올해는 수출 300억 달러 넘는다”…K-방산, ADEX 2025에 총출동",
+          "publisher": "CEO스코어데일리",
           "publishedAt": "2025-10-20",
-          "limitations": "개막일 제조사 발표. 현장 사진·독립 보도와 구별한다.",
-          "independence": "primary_single_origin"
-        },
-        {
-          "id": "rotem-adex2023-official",
-          "url": "https://blog.hyundai-rotem.co.kr/905",
-          "title": "[로템B] 현대로템 미래무기체계 만날 수 있는 ‘서울 ADEX 2023’",
-          "publisher": "현대로템 공식 블로그",
-          "publishedAt": "2023-10-20",
-          "limitations": "전시기간 중 제조사 자체 현장 소개. 독립 관찰로 세지 않는다.",
-          "independence": "primary_single_origin"
-        },
-        {
-          "id": "rotem-adex2025-field",
-          "url": "https://www.asiatime.co.kr/article/20251023500386",
-          "title": "[AT 현장] AI로 진화한 첨단 무기…ADEX 2025 가보니",
-          "publisher": "아시아타임즈",
-          "publishedAt": "2025-10-23",
-          "limitations": "기자가 현장 방문을 명시. K2PL 전시형태 표현은 제조사와 상충한다.",
-          "independence": "primary_single_origin"
-        },
-        {
-          "id": "wia-adex-2025",
-          "url": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016",
-          "title": "현대위아, ADEX 2025에서 육·해·공 방산 제품 라인업 공개",
-          "publisher": "hyundai-wia",
-          "publishedAt": "2025-10-20",
-          "limitations": "실물 전시와 양산·전력화·성능 검증은 별개다. 최초라는 표현은 제조사에 귀속한다.",
-          "independence": "primary_single_origin"
+          "note": "기자 현장 관찰과 제조사 관계자 발언을 분리한다. 수출 전망은 이 초안에 사용하지 않음.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "wia-adex-2023",
@@ -109,8 +89,17 @@
           "title": "현대위아, ADEX 2023에서 차량탑재형 ADS 및 신형 화포 공개",
           "publisher": "hyundai-wia",
           "publishedAt": "2023-10-17",
-          "limitations": "105mm는 전시품이라고만 적혀 있어 모형/실물 여부를 이 문장만으로 확정하지 않는다. 보도자료에서 다루지 않은 형상을 당시 부재로 처리하지 않는다.",
-          "independence": "primary_single_origin"
+          "note": "105mm는 전시품이라고만 적혀 있어 모형/실물 여부를 이 문장만으로 확정하지 않는다. 보도자료에서 다루지 않은 형상을 당시 부재로 처리하지 않는다.",
+          "evidenceStatus": "single_source"
+        },
+        {
+          "id": "wia-adex-2025",
+          "url": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016",
+          "title": "현대위아, ADEX 2025에서 육·해·공 방산 제품 라인업 공개",
+          "publisher": "hyundai-wia",
+          "publishedAt": "2025-10-20",
+          "note": "실물 전시와 양산·전력화·성능 검증은 별개다. 최초라는 표현은 제조사에 귀속한다.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "kia-adex-2023",
@@ -118,8 +107,8 @@
           "title": "기아, ‘서울 ADEX 2023’ 참가",
           "publisher": "Hyundai Motor Group / Kia",
           "publishedAt": "2023-10-17",
-          "limitations": "제조사 발표이며 독립 성능시험이 아님. 본문에 없는 품목의 부재나 개발 중단을 뜻하지 않음.",
-          "independence": "primary_single_origin"
+          "note": "제조사 발표이며 독립 성능시험이 아님. 본문에 없는 품목의 부재나 개발 중단을 뜻하지 않음.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "kia-adex-2025",
@@ -127,8 +116,8 @@
           "title": "기아, '서울 ADEX 2025' 방산전시회 참가",
           "publisher": "Hyundai Motor Group / Kia",
           "publishedAt": "2025-10-20",
-          "limitations": "전시 품목과 제조사 설명의 근거. 모든 품목별 사진 식별·실물/모형 구분이 확보된 것은 아님.",
-          "independence": "primary_single_origin"
+          "note": "전시 품목과 제조사 설명의 근거. 모든 품목별 사진 식별·실물/모형 구분이 확보된 것은 아님.",
+          "evidenceStatus": "single_source"
         }
       ]
     },
@@ -136,91 +125,126 @@
       "eventId": "eurosatory-2026",
       "asOf": "2026-11-16",
       "title": "Eurosatory 2026",
-      "message": "지휘·수송·차량 탑재체계로 읽는 세 가지 전시 사례",
-      "scopeNote": "기아 2개·현대위아 1개 사례 기준 · 행사 전체 조사 아님",
+      "message": "전차의 방호 구성부터 차량 탑재체계의 협업까지",
+      "scopeNote": "KNDS·ASELSAN·SVOS/Saab의 전차·차량 탑재체계 사례 · 전체 행사 조사 아님",
       "comparisonEvent": "Eurosatory 2024",
-      "comparisonNote": "기아는 10년 만 참가, 현대위아는 첫 참가라고 발표했다. 직전 회차의 동일 장비·성능 비교는 보류한다.",
+      "comparisonNote": "세 사례의 직전 회차 동일 전시형 비교는 미확립이다. 기존 제품 정의·주문 발표와 2026 출품 근거를 구분한다.",
       "themes": [
         {
-          "title": "픽업의 지휘 임무형",
-          "summary": "타스만 군용 지휘차 실차를 제시했다. 픽업 기반에 지휘차 특수사양을 더한 구성을 보여준다.",
-          "companyId": "org-37268bb0020007468bbc",
-          "productId": "eu-tasman-c2",
-          "photoId": "photo-999005f47b49d93d96ef",
-          "before": "직전 회차 대응 자료 미확보",
-          "after": "타스만 지휘차 실차",
+          "title": "전차의 기준 방호와 국가별 구성",
+          "summary": "KNDS A8 제품 정의는 TROPHY와 국가별 전장품을 구분한다. 2026 출품기업 목록의 A8 소개와 대조하되 현장 실차 형상은 확정하지 않는다.",
+          "companyId": "org-a7f46a7e877193b3e57d",
+          "productId": "leopard-2a8",
+          "photoId": "",
+          "before": "기존 A8 정의 · 회차 형상 대조 보류",
+          "after": "2026 출품기업 목록에 A8 소개",
           "sourceIds": [
-            "research-es-kia-eurosatory-2026"
+            "source-97e42a9a72c2de3a61c0",
+            "source-b6d741c396ba17989449"
           ]
         },
         {
-          "title": "수송용 파생형의 제시",
-          "summary": "KLTV 2인용 카고는 실차로 소개됐다. 함께 출품한 중·대형 표준차 모형과 전시 형태를 구분한다.",
-          "companyId": "org-37268bb0020007468bbc",
-          "productId": "eu-kltv-cargo",
-          "photoId": "photo-ce3d7958065066487fe7",
-          "before": "직전 회차 동일 형상 대조 보류",
-          "after": "KLTV 카고 실차·다른 차량 모형",
+          "title": "차량을 통합 제안의 구성요소로",
+          "summary": "ASELSAN은 KORKUT 100/25 SB를 DRONEDEF 구성요소로 소개했다. 현장의 KORKUT 25 차량과 통합 제안의 설명 범위를 구분한다.",
+          "companyId": "org-b2ca2a34fd51e38b777e",
+          "productId": "eu-korkut-25",
+          "photoId": "photo-aec42c56571bfacd9939",
+          "before": "직전 회차 동일 구성 대조 보류",
+          "after": "KORKUT 차량·DRONEDEF 소개",
           "sourceIds": [
-            "research-es-kia-eurosatory-2026"
+            "source-6232e53730be6ef9cc94",
+            "source-320f6b20062f763c20f4"
           ]
         },
         {
-          "title": "차량과 탑재체계의 결합",
-          "summary": "현대위아는 경량화 105mm 자주포의 실물 전시를 발표했다. 양산·배치 완료는 미확인이다.",
-          "companyId": "org-b6b486fa375701e51329",
-          "productId": "eu-light-105",
-          "photoId": "photo-81610d7ae35d4bd5b354",
-          "before": "직전 회차 대응 자료 미확보",
-          "after": "첫 참가 발표·차량형 체계 실물",
+          "title": "차량·탑재장비 업체의 분업",
+          "summary": "MARS S-330과 Saab RBS 70 NG의 결합을 전시했다. 2025 체코 주문 발표는 현지 C2·기존 레이더와의 연계를 별도로 설명한다.",
+          "companyId": "org-185024664dfbe6bfe147",
+          "productId": "eu-mars-rbs70",
+          "photoId": "photo-43d54391a2b676930834",
+          "before": "2025 주문 발표 · 2024 비교 아님",
+          "after": "차량 탑재형의 2026 전시 확인",
           "sourceIds": [
-            "research-es-wia-eurosatory-2026"
+            "saab-mars-order-20250723",
+            "source-36f4b56eae248699c23f",
+            "source-e607084b279f5b653b23"
           ]
         }
       ],
-      "interpretation": "전시 구성에 따른 해석: 확인 사례는 차량 기반을 지휘·수송·탑재체계로 구체화한다. 회차 간 성능 진보나 회사 전체 전략을 뜻하지 않는다.",
+      "interpretation": "편집 해석: 전차의 기준 방호 구성과 국가별 전장품, 차량·탑재장비 업체의 역할 분담이 주요 비교축이다. 장비 단품과 함께 고객 맞춤 범위·통합 책임·지원 주체를 살펴볼 필요가 있다.",
       "limitations": [
-        "두 제조사의 세 사례이며 전체 행사·유럽 시장을 대표하지 않는다.",
-        "제조사 발표가 주된 근거다. 독립 성능 검증과 구분한다.",
-        "세 사진은 Eurosatory 2026 현장 자산이다. 카고 사진에 다른 중·대형 차량 모형이 담겼다고 뜻하지 않는다."
+        "LEOPARD 2 A8은 출품기업 제품 목록과 일반 제품 정의를 대조했다. 현장 전시 형태는 미확인이다.",
+        "A8 사진은 시제차 참고사진이다. KORKUT·MARS 사진은 2026 현장이며 성능 검증을 뜻하지 않는다.",
+        "Saab의 2028~2030년 인도는 발표 당시 계획이다. 행사 전체 추세나 성능 우열로 확대하지 않는다."
       ],
       "sourceIds": [
-        "research-es-kia-eurosatory-2026",
-        "research-es-wia-eurosatory-2026",
-        "report-eurosatory-2024-organizer-review"
+        "source-97e42a9a72c2de3a61c0",
+        "source-b6d741c396ba17989449",
+        "source-6232e53730be6ef9cc94",
+        "source-320f6b20062f763c20f4",
+        "saab-mars-order-20250723",
+        "source-36f4b56eae248699c23f",
+        "source-e607084b279f5b653b23"
       ],
       "sources": [
         {
-          "id": "research-es-kia-eurosatory-2026",
-          "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
-          "title": "기아, Eurosatory 2026 방산전시회 참가",
-          "publisher": "기아 / 현대자동차그룹 뉴스룸",
-          "publishedAt": "2026-06-15",
-          "eventEditionId": "eurosatory-2026",
-          "type": "manufacturer_newsroom",
-          "independence": "primary_single_origin",
-          "note": "2026 발표의 참가 이력·전시 구성 근거다. 2024의 개별 출품 명단이나 동일 형상 비교 근거로 사용하지 않는다."
+          "id": "source-97e42a9a72c2de3a61c0",
+          "url": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+          "title": "Eurosatory 2026 KNDS 출품기업 제품 목록",
+          "publisher": "BDSV Exhibitions",
+          "publishedAt": null
         },
         {
-          "id": "research-es-wia-eurosatory-2026",
-          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
-          "title": "현대위아, 유럽 최대 방위산업 전시회 유로사토리 2026 첫 참가",
-          "publisher": "현대위아 / 현대자동차그룹 뉴스룸",
-          "publishedAt": "2026-06-16",
-          "eventEditionId": "eurosatory-2026",
-          "type": "manufacturer_newsroom",
-          "independence": "primary_single_origin",
-          "note": "첫 참가와 실물 전시의 제조사 발표다. 기존의 다른 회차 전시, 군 운용 성과 또는 2024 대비 개선을 입증하지 않는다."
+          "id": "source-b6d741c396ba17989449",
+          "url": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+          "title": "A8 기준 형상 공식 정의",
+          "publisher": "KNDS",
+          "publishedAt": "2023-06-13"
         },
         {
-          "id": "report-eurosatory-2024-organizer-review",
-          "url": "https://www.eurosatory.com/wp-content/uploads/2025/02/EN-CP_Bilan_EUROSATORY_July24.pdf",
-          "title": "EUROSATORY 2024: A RECORD-BREAKING EDITION — July 2024",
-          "publisher": "COGES Events / Eurosatory",
-          "publishedAt": "2024-07",
-          "eventEditionId": "eurosatory-2024",
-          "type": "organizer_report",
-          "note": "직전 회차의 행사 종합자료만 확인했다. 본 보고의 세 장비별 대응 출품을 확인할 자료는 아니다. 업로드 경로의 2025년과 본문 발행월을 구분한다."
+          "id": "source-6232e53730be6ef9cc94",
+          "url": "https://www.aselsan.com/en/news/aselsan-demonstrates-dronedef-and-ew-capabilities-at-eurosatory",
+          "title": "ASELSAN DEMONSTRATES DRONEDEF AND EW CAPABILITIES AT EUROSATORY",
+          "publisher": "ASELSAN",
+          "publishedAt": "2026-06-18",
+          "evidenceStatus": "single_source",
+          "note": "제조사 회차 발표. 웹 게시일은 6월 18일, 본문 기준일은 Paris 6월 16일이다. 전시·제안 설명이며 성능시험이나 인도 완료 근거가 아니다."
+        },
+        {
+          "id": "source-320f6b20062f763c20f4",
+          "url": "https://www.flickr.com/photos/139651532@N04/55343573969/",
+          "title": "eurosatory_2026 (3) | Maquettistes Montpellier",
+          "publisher": "Maquettistes Montpellier / montpelliermaquettistes",
+          "publishedAt": "2026-06-18",
+          "evidenceStatus": "independent_observation_only",
+          "note": "촬영 메타데이터 2026-06-16 09:55:25; 시간대 미기재. 같은 촬영자의 연속 사진이며 독립 근거 수를 사진 수만큼 늘리지 않는다. ARR·Flickr 제공자 외부 표시만 검토; 로컬 복제 허가 없음."
+        },
+        {
+          "id": "saab-mars-order-20250723",
+          "url": "https://www.saab.com/newsroom/press-releases/2025/saab-receives-order-for-mobile-air-defence-from-the-czech-republic",
+          "title": "Saab receives order for mobile air defence from the Czech Republic",
+          "publisher": "Saab",
+          "publishedAt": "2025-07-23",
+          "note": "전시 이전의 주문·공급 계획 발표. Eurosatory 2026 개별 전시차의 완성 사양이나 인도 완료 근거로 사용하지 않는다.",
+          "evidenceStatus": "single_source"
+        },
+        {
+          "id": "source-36f4b56eae248699c23f",
+          "url": "https://mzv.gov.cz/paris/cz/obchod_a_ekonomika/ceske_firmy_miri_na_eurosatory_2026.html",
+          "title": "Eurosatory 2026: Česká republika posiluje svou roli v evropském obranném ekosystému",
+          "publisher": "주프랑스 체코 대사관",
+          "publishedAt": "2026-06-23",
+          "evidenceStatus": "single_source",
+          "note": "6월 24일 갱신된 행사 사후 소개. MARS 4×4·RBS 70 NG 출품을 명시하나 성능 검증 자료는 아니다."
+        },
+        {
+          "id": "source-e607084b279f5b653b23",
+          "url": "https://www.flickr.com/photos/139651532@N04/55343502408/",
+          "title": "eurosatory_2026 (11) | Maquettistes Montpellier",
+          "publisher": "Maquettistes Montpellier / montpelliermaquettistes",
+          "publishedAt": "2026-06-18",
+          "evidenceStatus": "independent_observation_only",
+          "note": "촬영 메타데이터 2026-06-16 09:57:41; 시간대 미기재. 같은 촬영자의 연속 사진이며 독립 근거 수를 사진 수만큼 늘리지 않는다. ARR·Flickr 제공자 외부 표시만 검토; 로컬 복제 허가 없음."
         }
       ]
     },
@@ -228,26 +252,43 @@
       "eventId": "dsei-2025",
       "asOf": "2026-11-16",
       "title": "DSEI 2025",
-      "message": "차량 선택지에서 통신 연동과 현지 협력까지",
-      "scopeNote": "기아·Babcock·Patria의 공개 발표 3사례 · 행사 전체 추세 아님",
+      "message": "차륜형 장갑차 경쟁, 임무형과 현지 생산·연동이 관건",
+      "scopeNote": "Patria·KNDS/Rheinmetall·ST Engineering/Babcock의 3사례 · 전체 행사 조사 아님",
       "comparisonEvent": "DSEI 2023",
-      "comparisonNote": "Patria의 직전 회차 전시 구성을 대조했다. 기아는 첫 참가 발표에 따라 비교를 제외하며, GDAMS의 2023 원문 대조는 보류한다.",
+      "comparisonNote": "Patria만 2023 전시 구성을 직접 대조했다. BOXER·GDAMS는 직전 동일 형상 비교를 보류하며 2025 발표 범위를 제시한다.",
       "themes": [
         {
-          "title": "특장 기반을 함께 제시",
-          "summary": "기아는 타스만 쇼카와 KLTV 베어샤시·축소 모형을 소개했다. 쇼카의 양산 일정은 이 발표에서 확인되지 않는다.",
-          "companyId": "org-37268bb0020007468bbc",
-          "productId": "kia-platforms-dsei2025",
-          "photoId": "photo-648d50af60ebb4f3032a",
-          "before": "첫 참가 발표 · 직전 비교 제외",
-          "after": "쇼카·베어샤시·축소 모형",
+          "title": "현지 생산·지원까지 묶은 제안",
+          "summary": "Patria는 6×6 지휘형·병력수송형과 Babcock의 영국 생산·지원 협력을 함께 소개했다. 차종 구성과 산업 협력을 묶어 제안한 사례다.",
+          "companyId": "org-b2e821937e2348e31631",
+          "productId": "patria-6x6",
+          "photoId": "dsei25-patria-6x6-c4",
+          "before": "6×6 NEMO·RS4 구성 소개",
+          "after": "지휘·수송형·영국 생산 협력",
           "sourceIds": [
-            "dsei25-kia-official-followup"
+            "dsei23-patria-report",
+            "dsei25-patria-report",
+            "dsei25-patria-teaming-report"
           ]
         },
         {
-          "title": "기존 통신체계와의 연동",
-          "summary": "Babcock은 GDAMS와 BCIP의 통신 연동 시연을 발표했다. 차량별 통합 완료나 군 채택을 입증한 자료는 아니다.",
+          "title": "공통 차체의 서로 다른 임무형",
+          "summary": "KNDS 부스의 BOXER 포탑형을 현장사진으로 확인했다. 별도 지휘소형·영국 MIV 생산 발표와 구분해 임무 모듈의 선택 폭을 읽는다.",
+          "companyId": "org-e2295099b8d18919a8a9",
+          "productId": "boxer-dsei2025",
+          "photoId": "photo-82d773132553b98ac998",
+          "before": "직전 동일 포탑형 대조 보류",
+          "after": "포탑형 전시·별도 MIV 사업 발표",
+          "sourceIds": [
+            "source-c6dade1f14642d9db79a",
+            "source-10f38f26217ddade000c",
+            "source-59e3ce621588fb8633d3",
+            "dsei25-boxer-modules-general"
+          ]
+        },
+        {
+          "title": "기존 통신체계와의 접속",
+          "summary": "ST Engineering/Babcock은 GDAMS의 BCIP 통신 연동 시연을 발표했다. 단품 전시를 넘어 기존 통신 환경과의 호환성을 설명한 사례다.",
           "companyId": "org-c7eb14a21ab8df05af0f",
           "productId": "gdams-dsei2025",
           "photoId": "photo-759379832c8e0bb07807",
@@ -256,75 +297,42 @@
           "sourceIds": [
             "dsei25-babcock-gdams-official-followup"
           ]
-        },
-        {
-          "title": "차량 계열과 현지 협력",
-          "summary": "Patria는 6×6 지휘형·병력수송형을 각각 안내하고 영국 생산 협력을 발표했다. 전시 구성과 생산 계획을 구분한다.",
-          "companyId": "org-b2e821937e2348e31631",
-          "productId": "patria-6x6",
-          "photoId": "dsei25-patria-6x6-c4",
-          "before": "6×6 NEMO·RS4 구성 소개",
-          "after": "지휘형·병력수송형 안내",
-          "sourceIds": [
-            "dsei23-patria-report",
-            "dsei25-patria-report",
-            "dsei25-patria-teaming-report"
-          ]
         }
       ],
-      "interpretation": "전시 구성에 따른 해석: 확인한 사례는 차체의 파생형, 기존 체계와의 호환성, 현지 협력을 함께 제안하는 방향을 보여준다. 세 사례의 제품 성숙도나 성능을 같은 척도로 비교하지 않는다.",
+      "interpretation": "편집 해석: Patria는 현지 생산·지원 협력, BOXER는 임무형 선택, GDAMS는 기존 통신과의 연동을 강조한다. 경쟁 비교에는 차량 제원뿐 아니라 생산·유지지원 파트너와 통합 책임의 범위가 필요하다.",
       "limitations": [
-        "제조사·사업 참여자의 발표가 주된 근거다. 행사 전체 조사나 독립 성능 검증이 아니다.",
-        "세 사진은 해당 회차 전시 외관의 근거다. GDAMS 사진은 통신 시연 성공을 입증하지 않으며, Patria는 C4 표지형이다.",
-        "2023·2025 전시 구성 비교이며 개발 완료·군 납품·성능 향상을 뜻하지 않는다."
+        "BOXER 사진은 KNDS 부스의 30mm 포탑형이다. 별도 영국 MIV 인도 차량과 혼동하지 않는다.",
+        "Patria의 영국 협력은 발표 당시 계획이며 현지 양산 완료를 뜻하지 않는다.",
+        "GDAMS 시연 발표는 군 채택이나 모든 차량의 통합 완료 증거가 아니다."
       ],
       "sourceIds": [
-        "dsei25-kia-official-followup",
-        "dsei25-babcock-gdams-official-followup",
         "dsei23-patria-report",
         "dsei25-patria-report",
-        "dsei25-patria-teaming-report"
+        "dsei25-patria-teaming-report",
+        "source-c6dade1f14642d9db79a",
+        "source-10f38f26217ddade000c",
+        "source-59e3ce621588fb8633d3",
+        "dsei25-boxer-modules-general",
+        "dsei25-babcock-gdams-official-followup"
       ],
       "sources": [
-        {
-          "id": "dsei25-kia-official-followup",
-          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
-          "title": "기아, '영국 DSEI 2025' 방산전시회 첫 참가",
-          "publisher": "기아 / 현대자동차그룹",
-          "publishedAt": "2025-09-09",
-          "eventEditionId": "dsei-2025",
-          "independence": "primary_single_origin",
-          "note": "제조사의 첫 참가 발표다. 2023년 참가 명부를 전수 대조한 부재 판정으로 사용하지 않는다. 쇼카·베어샤시·모형의 형상을 구분한다."
-        },
-        {
-          "id": "dsei25-babcock-gdams-official-followup",
-          "url": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
-          "title": "Babcock is first to integrate mortar with UK Army’s communications system",
-          "publisher": "Babcock International",
-          "publishedAt": "2025-09-10",
-          "eventEditionId": "dsei-2025",
-          "independence": "primary_single_origin",
-          "note": "시연·통신 연동에 관한 제조사 발표다. 게시일과 본문 요일 표기가 달라 정확한 시연일을 확정하지 않는다. 군 채택이나 납품 완료 근거로 사용하지 않는다."
-        },
         {
           "id": "dsei23-patria-report",
           "url": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
           "title": "Patria showcasing its wide offering at DSEI London on 12 - 15 September 2023",
           "publisher": "Patria",
           "publishedAt": "2023-08-28",
-          "eventEditionId": "dsei-2023",
-          "independence": "primary_single_origin",
-          "note": "2023 개막 전 출품 안내의 6×6 NEMO·RS4 구성만 비교한다. 같은 회사 이미지 자료실의 DSEI 2023 캡션으로 보조 대조했으며 독립 출처는 아니다."
+          "note": "2023 개막 전 출품 안내의 6×6 NEMO·RS4 구성만 비교한다. 같은 회사 이미지 자료실의 DSEI 2023 캡션으로 보조 대조했으며 독립 출처는 아니다.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "dsei25-patria-report",
           "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
-          "title": "Patria to launch a new tracked vehicle at DSEI UK 2025",
+          "title": "Patria DSEI 2025 전시 안내",
           "publisher": "Patria",
           "publishedAt": "2025-08-28",
-          "eventEditionId": "dsei-2025",
-          "independence": "primary_single_origin",
-          "note": "개막 전 안내는 지휘형·병력수송형을 구분한다. 후속 현장사진의 Babcock 표기형·C4 표지형을 대조했으며 C2/C4 표현과 실제 탑재 사양을 동일시하지 않는다."
+          "note": "개막 전 안내이며 실제 형상은 현장사진과 별도 대조한다.\n개막 전 안내는 지휘형·병력수송형을 구분한다. 후속 현장사진의 Babcock 표기형·C4 표지형을 대조했으며 C2/C4 표현과 실제 탑재 사양을 동일시하지 않는다.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "dsei25-patria-teaming-report",
@@ -332,9 +340,53 @@
           "title": "Patria and Babcock agree on teaming in CAVS 6x6 armoured vehicle manufacturing in the United Kingdom",
           "publisher": "Patria",
           "publishedAt": "2025-09-09",
-          "eventEditionId": "dsei-2025",
-          "independence": "primary_single_origin",
-          "note": "생산 협력 발표와 DSEI 2025 현장사진 캡션을 확인했다. 영국 내 생산·군 인도 완료로 표현하지 않는다."
+          "note": "생산 협력 발표와 DSEI 2025 현장사진 캡션을 확인했다. 영국 내 생산·군 인도 완료로 표현하지 않는다.",
+          "evidenceStatus": "single_source"
+        },
+        {
+          "id": "source-c6dade1f14642d9db79a",
+          "url": "https://knds.com/en/events/dsei-london-knds-uk",
+          "title": "DSEI London (+ KNDS UK) 전시 안내",
+          "publisher": "KNDS",
+          "publishedAt": null,
+          "evidenceStatus": "single_source",
+          "note": "KNDS 부스 S9-210과 회차 일정을 안내한다. 이 페이지 자체에 특정 Boxer 형상 출품 목록은 없다."
+        },
+        {
+          "id": "source-10f38f26217ddade000c",
+          "url": "https://www.flickr.com/photos/dyvroeth/54785369506/",
+          "title": "Boxer with 30mm turret · DSEI 2025",
+          "publisher": "dyvroeth / Flickr",
+          "publishedAt": "2025-09-14",
+          "evidenceStatus": "independent_observation_only",
+          "note": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.\nFlickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+        },
+        {
+          "id": "source-59e3ce621588fb8633d3",
+          "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-dsei-first-uk-built-boxer-has-now-been-delivered",
+          "title": "DSEI 2025: UK Boxer 생산·인도 및 별도 전시형 안내",
+          "publisher": "Rheinmetall",
+          "publishedAt": "2025-09-09",
+          "evidenceStatus": "single_source",
+          "note": "영국 MIV 및 다른 부스·구역의 전시형 설명이다. KNDS 부스 사진 속 포탑형과 같은 차량이라는 근거가 아니다."
+        },
+        {
+          "id": "dsei25-boxer-modules-general",
+          "url": "https://knds.com/en/products/systems/boxer/boxer-rct-30",
+          "title": "BOXER RCT30 일반 제품 안내",
+          "publisher": "KNDS",
+          "publishedAt": null,
+          "note": "BOXER의 모듈 구조만 일반 배경으로 사용한다. 이 페이지의 RCT30 세부 사양을 사진 속 전시형에 적용하지 않는다.",
+          "evidenceStatus": "single_source"
+        },
+        {
+          "id": "dsei25-babcock-gdams-official-followup",
+          "url": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+          "title": "Babcock is first to integrate mortar with UK Army’s communications system",
+          "publisher": "Babcock International",
+          "publishedAt": "2025-09-10",
+          "note": "게시일은 9월 10일이나 본문은 'today (Tuesday)'라고 적혀 있어 정확한 시연일은 확정하지 않는다. 제조사 통합·시연 발표이지 군 채택·납품·실전 운용 완료 증거가 아니다. 전술차량에 탑재된 형상 또는 차량 통합 완료를 이 기사만으로 확정할 수 없다.\n시연·통신 연동에 관한 제조사 발표다. 게시일과 본문 요일 표기가 달라 정확한 시연일을 확정하지 않는다. 군 채택이나 납품 완료 근거로 사용하지 않는다.",
+          "evidenceStatus": "single_source"
         }
       ]
     },
@@ -342,14 +394,14 @@
       "eventId": "idex-2025",
       "asOf": "2026-11-16",
       "title": "IDEX 2025",
-      "message": "무인 플랫폼과 임무별 파생형, 함께 제시한 제품군",
-      "scopeNote": "EDGE 계열 2사와 John Cockerill의 공개 발표 비교 · 행사 전체 조사 아님",
+      "message": "장갑차 경쟁의 확장: 공통 차체·무인 플랫폼·지원 서비스",
+      "scopeNote": "MILREM·NIMR·John Cockerill의 공개 발표 비교 · 차량·탑재체계 중심",
       "comparisonEvent": "IDEX 2023",
       "comparisonNote": "직전 회차의 전시·사전 발표를 구분해 비교 · 동일 차량의 성능 향상 비교 아님",
       "themes": [
         {
-          "title": "무인 플랫폼 선택지",
-          "summary": "2025 HAVOC은 무인차 선택지 확장 사례다. 2023 NIMR 개념차의 직접 후속형인지는 미확인이다.",
+          "title": "MILREM의 무인 플랫폼 확장",
+          "summary": "MILREM은 HAVOC 8×8을 추가 공개했다. 기존 THeMIS·Type X와 다른 선택지이며, 2023 NIMR 개념차의 직접 후속형인지는 미확인이다.",
           "companyId": "org-c0aa5fd472a380a0d1d6",
           "productId": "havoc-8x8",
           "photoId": "photo-d230f00bf90029fc0a2e",
@@ -361,8 +413,8 @@
           ]
         },
         {
-          "title": "임무별 파생형의 구체화",
-          "summary": "AJBAN MK2의 452A·432AU·441AE를 공개했다. 사진의 452A와 다른 파생형을 구분한다.",
+          "title": "NIMR의 공통 기반·파생형",
+          "summary": "NIMR는 AJBAN MK2 3종을 공통 차체·하위체계로 설명했다. 지원·정비의 공통성이 제안의 축이며, 실제 비용 절감 폭은 미확인이다.",
           "companyId": "org-3a42e32a1f0025e58e14",
           "productId": "ajban-family",
           "photoId": "photo-954ad88a75d6531185e2",
@@ -374,20 +426,20 @@
           ]
         },
         {
-          "title": "차량과 운용 지원의 묶음",
-          "summary": "i-X와 OPTIMIS·Arquus 제품군을 함께 소개했다. 소개 범위의 확대이며 통합시험 완료를 뜻하지 않는다.",
+          "title": "Cockerill의 공급 범위 확대",
+          "summary": "Cockerill은 i-X와 함께 Arquus 차량·포탑·시뮬레이터·지원을 제시했다. 인수 후 제안 범위의 확대이며 제품별 통합 완료를 뜻하지 않는다.",
           "companyId": "org-1417fcb4283b65d754c3",
           "productId": "cockerill-ix",
           "photoId": "photo-77eec4976f1654c14cd9",
           "before": "i-X·포탑·시뮬레이터 소개",
-          "after": "i-X·OPTIMIS·Arquus 제품군",
+          "after": "Arquus 차량·포탑·지원까지 소개",
           "sourceIds": [
             "report-idex23-cockerill",
             "report-idex25-cockerill"
           ]
         }
       ],
-      "interpretation": "전시 구성에 따른 해석: 확인 표본에서는 새 플랫폼과 함께 임무별 차량형·인터페이스·지원 제품군을 넓혀 제시한다. 판매 성과나 기술 성숙도를 뜻하지 않는다.",
+      "interpretation": "편집 해석: NIMR는 공통 차체의 파생형, MILREM은 무인 플랫폼, Cockerill은 차량·포탑·지원을 묶는다. 공급 범위가 다른 경쟁사를 비교할 때 단품 가격보다 제안에 포함된 통합·교육·지원 범위를 먼저 구분할 필요가 있다.",
       "limitations": [
         "제조사 발표 비교다. EDGE 계열은 단일 발행사 근거이며 독립 성능 검증이 아니다.",
         "2023 AJBAN은 사전 발표다. 목록의 상세도 차이를 제품 수 증가로 환산하지 않는다.",
@@ -395,8 +447,8 @@
       ],
       "sourceIds": [
         "report-idex23-edge-unmanned",
-        "report-idex23-edge-preview",
         "idex25-edge-platforms-official-followup",
+        "report-idex23-edge-preview",
         "report-idex23-cockerill",
         "report-idex25-cockerill"
       ],
@@ -407,21 +459,8 @@
           "title": "EDGE의 IDEX 2023 무인체계 발표",
           "publisher": "EDGE Group",
           "publishedAt": "2023-02-19",
-          "eventEditionId": "idex-2023",
-          "type": "manufacturer_release_pdf",
-          "independence": "primary_single_origin",
-          "note": "공식 PDF 2~3쪽의 Land 항목. HTML 원문은 조회 시간초과였으며 같은 발행사 PDF 본문으로 확인했다. PDF에 개막일 표현과 날짜가 맞지 않는 부분이 있어 발표일은 표기값만 기록한다."
-        },
-        {
-          "id": "report-idex23-edge-preview",
-          "url": "https://edgegroup.ae/news/edge-showcase-large-portfolio-advanced-technology-and-defence-solutions-idex-2023-0",
-          "title": "EDGE의 IDEX 2023 사전 출품 안내",
-          "publisher": "EDGE Group",
-          "publishedAt": "2023-02-07",
-          "eventEditionId": "idex-2023",
-          "type": "manufacturer_pre_event_release",
-          "independence": "primary_single_origin",
-          "note": "개막 전 발표. AJBAN·HAFEET 계열의 참가 예고만 비교하며 개별 형식의 현장 존재를 확정하지 않는다."
+          "note": "공식 PDF 2~3쪽의 Land 항목. HTML 원문은 조회 시간초과였으며 같은 발행사 PDF 본문으로 확인했다. PDF에 개막일 표현과 날짜가 맞지 않는 부분이 있어 발표일은 표기값만 기록한다.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "idex25-edge-platforms-official-followup",
@@ -429,10 +468,17 @@
           "title": "EDGE Launches New Armoured and Robotic Combat Vehicle at IDEX 2025",
           "publisher": "EDGE Group",
           "publishedAt": "2025-02-19",
-          "eventEditionId": "idex-2025",
-          "type": "manufacturer_event_launch_release",
-          "independence": "primary_single_origin",
-          "note": "기존 제품 서술과 같은 발행 근거. 전시·공개 발표를 양산·군 배치 완료로 바꾸지 않는다."
+          "note": "NIMR·Milrem·EDGE는 이 자료에서 같은 그룹 발행 근거다. 독립 3건으로 세지 않는다. 공개·출시 표현만으로 양산·실전 배치·제조사 성능 주장 실증을 확정하지 않는다. AJBAN 432AU와 기존 사진 원장의 442A를 같은 형상으로 바꾸지 않는다.\n기존 제품 서술과 같은 발행 근거. 전시·공개 발표를 양산·군 배치 완료로 바꾸지 않는다.",
+          "evidenceStatus": "single_source"
+        },
+        {
+          "id": "report-idex23-edge-preview",
+          "url": "https://edgegroup.ae/news/edge-showcase-large-portfolio-advanced-technology-and-defence-solutions-idex-2023-0",
+          "title": "EDGE의 IDEX 2023 사전 출품 안내",
+          "publisher": "EDGE Group",
+          "publishedAt": "2023-02-07",
+          "note": "개막 전 발표. AJBAN·HAFEET 계열의 참가 예고만 비교하며 개별 형식의 현장 존재를 확정하지 않는다.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "report-idex23-cockerill",
@@ -440,10 +486,8 @@
           "title": "John Cockerill의 IDEX 2023 출품 소개",
           "publisher": "John Cockerill",
           "publishedAt": "2023-02-20",
-          "eventEditionId": "idex-2023",
-          "type": "manufacturer_event_release",
-          "independence": "primary_single_origin",
-          "note": "전시 제품군만 비교한다. 최초·우월성 등 홍보 주장을 검증된 성능으로 사용하지 않는다."
+          "note": "전시 제품군만 비교한다. 최초·우월성 등 홍보 주장을 검증된 성능으로 사용하지 않는다.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "report-idex25-cockerill",
@@ -451,10 +495,8 @@
           "title": "John Cockerill의 IDEX 2025 출품 소개",
           "publisher": "John Cockerill",
           "publishedAt": "2025-02-17",
-          "eventEditionId": "idex-2025",
-          "type": "manufacturer_event_release",
-          "independence": "primary_single_origin",
-          "note": "i-X, OPTIMIS 및 Arquus 제품 소개의 병치를 다룬다. 모든 제품이 동일 부스·동일 차량에 통합되었다는 의미가 아니다."
+          "note": "i-X, OPTIMIS 및 Arquus 제품 소개의 병치를 다룬다. 모든 제품이 동일 부스·동일 차량에 통합되었다는 의미가 아니다.",
+          "evidenceStatus": "single_source"
         }
       ]
     },
@@ -462,14 +504,28 @@
       "eventId": "saha-2026",
       "asOf": "2026-11-16",
       "title": "SAHA 2026",
-      "message": "차량·임무장비의 조합에서 읽는 변화와 연속성",
-      "scopeNote": "Otokar·FNSS의 세 출품 사례 기준 · 제조사 발표와 행사 기록 대조",
+      "message": "FNSS·Otokar, 장갑차와 탑재장비의 조합으로 경쟁하다",
+      "scopeNote": "FNSS·Otokar의 차륜·궤도 장갑차 3사례 · 제조사 발표와 행사 기록 대조",
       "comparisonEvent": "SAHA 2024",
       "comparisonNote": "직전 회차의 발표 구성과 2026 소개를 비교했다. 동일 실차의 개선·성능 향상 비교가 아니며, 예고와 행사 후 회고를 구분한다.",
       "themes": [
         {
-          "title": "궤도차량·포탑 조합",
-          "summary": "2026 제조사는 TULPAR·KORHAN 구성을 소개했다. 2024 발표 목록만으로 이 형상의 현장 부재를 단정하지 않는다.",
+          "title": "FNSS의 차체·포탑 조합 유지",
+          "summary": "FNSS의 2024 예고와 2026 회고에 PARS ALPHA·TEBER-II가 함께 등장한다. 같은 명칭의 지속 제안이며 세부 형상 동일성은 미확인이다.",
+          "companyId": "org-2dffde2d6bd01e4eaf2d",
+          "productId": "pars-alpha",
+          "photoId": "",
+          "before": "PARS ALPHA·TEBER-II 예고",
+          "after": "동일 명칭 조합의 전시 회고",
+          "sourceIds": [
+            "report-saha-fnss-2024",
+            "report-saha-fnss-2026-retrospective",
+            "report-saha-showdaily-day2"
+          ]
+        },
+        {
+          "title": "Otokar의 궤도차량·포탑 결합",
+          "summary": "Otokar는 2026 TULPAR·KORHAN 조합을 소개했다. 차체·포탑의 결합 사례로 읽되, 2024 자료에 없다는 이유만으로 신규 형상이라 단정하지 않는다.",
           "companyId": "org-261736017afc402204d0",
           "productId": "tulpar-korhan",
           "photoId": "",
@@ -482,8 +538,8 @@
           ]
         },
         {
-          "title": "차체의 임무장비 선택",
-          "summary": "COBRA II는 2024 KESKIN형, 2026 DASAL UAV형으로 소개됐다. 탑재 구성의 차이를 보여주며 성능 우열을 뜻하지 않는다.",
+          "title": "같은 차체의 탑재장비 다변화",
+          "summary": "COBRA II는 2024 KESKIN형에서 2026 DASAL UAV 탑재 구성으로 소개가 달라졌다. 차체의 임무 선택 폭을 보여주며 성능 우열은 미확인이다.",
           "companyId": "org-d1f0494ffffe8855172b",
           "productId": "cobra-ii-bee-eater",
           "photoId": "",
@@ -494,69 +550,31 @@
             "research-es-otokar-saha-2026",
             "report-saha-showdaily-day3"
           ]
-        },
-        {
-          "title": "같은 조합의 전시 연속성",
-          "summary": "2024 예고와 2026 회고에 PARS ALPHA·TEBER-II가 등장한다. 세부 형상까지 같다는 근거는 없다.",
-          "companyId": "org-2dffde2d6bd01e4eaf2d",
-          "productId": "pars-alpha",
-          "photoId": "",
-          "before": "PARS ALPHA·TEBER-II 예고",
-          "after": "동일 명칭 조합의 전시 회고",
-          "sourceIds": [
-            "report-saha-fnss-2024",
-            "report-saha-fnss-2026-retrospective",
-            "report-saha-showdaily-day2"
-          ]
         }
       ],
-      "interpretation": "전시 구성에 따른 해석: 새로운 탑재 조합과 기존 조합의 재등장이 함께 보인다. 이번 사례만으로 행사 전체의 기술 진보나 군 채택 성과를 판단하지 않는다.",
+      "interpretation": "편집 해석: FNSS는 대표 차체·포탑 조합의 연속성을, Otokar는 차체별 임무장비 선택을 보여 준다. 차체와 탑재장비를 따로 나열하기보다 조합별 계약·통합·지원 담당이 누구인지 살펴볼 필요가 있다.",
       "limitations": [
         "세 사례 모두 해당 회차 표시 가능한 사진이 없다. PARS ALPHA는 2024 참고사진을 함께 제시한다.",
         "제조사 설명과 행사 매체의 재인용을 독립 성능 검증으로 집계하지 않는다.",
         "참고사진은 2026 전시 형상·개선·성능의 증거가 아니다."
       ],
       "sourceIds": [
-        "report-saha-otokar-2024",
-        "research-es-otokar-saha-2026",
         "report-saha-fnss-2024",
         "report-saha-fnss-2026-retrospective",
-        "report-saha-showdaily-day3",
-        "report-saha-showdaily-day2"
+        "report-saha-showdaily-day2",
+        "report-saha-otokar-2024",
+        "research-es-otokar-saha-2026",
+        "report-saha-showdaily-day3"
       ],
       "sources": [
-        {
-          "id": "report-saha-otokar-2024",
-          "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
-          "title": "Otokar to Showcase 5 Armored Vehicles at SAHA EXPO 2024",
-          "publisher": "Otokar",
-          "publishedAt": "2024-10-21",
-          "eventEditionId": "saha-2024",
-          "type": "manufacturer_newsroom",
-          "independence": "primary_single_origin",
-          "note": "개막 전 제조사 발표. COBRA II의 KESKIN 구성을 명시한다. 목록의 누락만으로 다른 제품의 현장 부재를 확정하지 않는다."
-        },
-        {
-          "id": "research-es-otokar-saha-2026",
-          "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
-          "title": "Otokar Demonstrates Its Global Strength in Land Systems at SAHA 2026",
-          "publisher": "Otokar",
-          "publishedAt": "2026-05-05",
-          "eventEditionId": "saha-2026",
-          "type": "manufacturer_newsroom",
-          "independence": "primary_single_origin",
-          "note": "개막일 발표에 예고와 현재 전시 표현이 함께 있다. 제품별 현장 실물·모형 및 작동 상태의 독립 검증은 아니다."
-        },
         {
           "id": "report-saha-fnss-2024",
           "url": "https://www.fnss.com.tr/en/media/press-releases/fnss-showcases-pars-alpha-8x8-and-marine-assault-vehicle-mav-saha-expo-2024-1833",
           "title": "FNSS showcases PARS ALPHA and MAV at SAHA EXPO 2024",
           "publisher": "FNSS",
           "publishedAt": "2024-10-18",
-          "eventEditionId": "saha-2024",
-          "type": "manufacturer_newsroom",
-          "independence": "primary_single_origin",
-          "note": "개막 전 출품 예고. 이번 조회에서 직접 열람은 timeout/502였으며 검색에 수록된 공식 본문과 동일 공식 PDF 발췌로 구성을 확인했다. 실제 전시·성능 검증으로 취급하지 않는다."
+          "note": "2024-10-18 개막 전 출품 예고. 직접 열람은 재시도에서도 timeout이며 공식 검색 수록 본문의 PARS ALPHA·TEBER-II 구성을 재확인했다. 현장 완료 기록과 구분한다.\n개막 전 출품 예고. 이번 조회에서 직접 열람은 timeout/502였으며 검색에 수록된 공식 본문과 동일 공식 PDF 발췌로 구성을 확인했다. 실제 전시·성능 검증으로 취급하지 않는다.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "report-saha-fnss-2026-retrospective",
@@ -564,20 +582,8 @@
           "title": "FNSS Focus Q2 2026 Newsletter",
           "publisher": "FNSS Savunma Sistemleri A.Ş. — 회사 LinkedIn 발행",
           "publishedAt": "2026-07-27",
-          "eventEditionId": "saha-2026",
-          "type": "manufacturer_retrospective",
-          "independence": "primary_single_origin",
-          "note": "행사 후 제조사 회고에서 PARS ALPHA·TEBER-II 전시를 명시한다. FNSS 사이트 뉴스레터 주소의 직접 열람 실패 후 회사 명의 공개 게시 본문을 확인했다."
-        },
-        {
-          "id": "report-saha-showdaily-day3",
-          "url": "https://sahaexpo.com/showday/saha-day-3.pdf",
-          "title": "SAHA 2026 Official Show Daily — Day 3, Otokar Showcases Land Systems, p.20",
-          "publisher": "Global Business Press / SAHA Official Show Daily",
-          "publishedAt": "2026-05-07",
-          "eventEditionId": "saha-2026",
-          "type": "official_show_daily",
-          "note": "Otokar 담당자 취재와 제조사 발표 재인용이 섞여 있다. PDF 쪽머리 일부에 MARCH가 있으나 인접 면의 MAY와 본문 행사 날짜가 일치한다. 날짜 표기 오류를 제한으로 남기며 기술 수치는 사용하지 않는다."
+          "note": "회사 명의 공개 회고 본문과 2026-07-27 발행일을 다시 열람했다. 전시 기록과 향후 인도 표현을 구분하며 독립 검증으로 집계하지 않는다.\n행사 후 제조사 회고에서 PARS ALPHA·TEBER-II 전시를 명시한다. FNSS 사이트 뉴스레터 주소의 직접 열람 실패 후 회사 명의 공개 게시 본문을 확인했다.",
+          "evidenceStatus": "single_source"
         },
         {
           "id": "report-saha-showdaily-day2",
@@ -585,9 +591,33 @@
           "title": "SAHA 2026 Official Show Daily — Day 2, FNSS Highlights, p.16",
           "publisher": "Global Business Press / SAHA Official Show Daily",
           "publishedAt": "2026-05-06",
-          "eventEditionId": "saha-2026",
-          "type": "official_show_daily",
           "note": "FNSS 출품 조합을 행사 기사로 대조했다. 기사 안의 현재 전시·향후 전시 표현을 구분한다. PDF 일부 쪽머리의 MARCH/MAY 표기 불일치는 독립 검증 완료로 간주하지 않는다."
+        },
+        {
+          "id": "report-saha-otokar-2024",
+          "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+          "title": "Otokar to Showcase 5 Armored Vehicles at SAHA EXPO 2024",
+          "publisher": "Otokar",
+          "publishedAt": "2024-10-21",
+          "note": "개막 전 제조사 발표. COBRA II의 KESKIN 구성을 명시한다. 목록의 누락만으로 다른 제품의 현장 부재를 확정하지 않는다.",
+          "evidenceStatus": "single_source"
+        },
+        {
+          "id": "research-es-otokar-saha-2026",
+          "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "title": "Otokar Demonstrates Its Global Strength in Land Systems at SAHA 2026",
+          "publisher": "Otokar",
+          "publishedAt": "2026-05-05",
+          "note": "제조사 자체 발표이며 독립 현장 취재나 성능 검증으로 집계하지 않는다.\n개막일 발표에 예고와 현재 전시 표현이 함께 있다. 제품별 현장 실물·모형 및 작동 상태의 독립 검증은 아니다.",
+          "evidenceStatus": "single_source"
+        },
+        {
+          "id": "report-saha-showdaily-day3",
+          "url": "https://sahaexpo.com/showday/saha-day-3.pdf",
+          "title": "SAHA 2026 Official Show Daily — Day 3, Otokar Showcases Land Systems, p.20",
+          "publisher": "Global Business Press / SAHA Official Show Daily",
+          "publishedAt": "2026-05-07",
+          "note": "Otokar 담당자 취재와 제조사 발표 재인용이 섞여 있다. PDF 쪽머리 일부에 MARCH가 있으나 인접 면의 MAY와 본문 행사 날짜가 일치한다. 날짜 표기 오류를 제한으로 남기며 기술 수치는 사용하지 않는다."
         }
       ]
     }

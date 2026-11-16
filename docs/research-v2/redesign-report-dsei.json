@@ -2,26 +2,43 @@
   "eventId": "dsei-2025",
   "asOf": "2026-11-16",
   "title": "DSEI 2025",
-  "message": "차량 선택지에서 통신 연동과 현지 협력까지",
-  "scopeNote": "기아·Babcock·Patria의 공개 발표 3사례 · 행사 전체 추세 아님",
+  "message": "차륜형 장갑차 경쟁, 임무형과 현지 생산·연동이 관건",
+  "scopeNote": "Patria·KNDS/Rheinmetall·ST Engineering/Babcock의 3사례 · 전체 행사 조사 아님",
   "comparisonEvent": "DSEI 2023",
-  "comparisonNote": "Patria의 직전 회차 전시 구성을 대조했다. 기아는 첫 참가 발표에 따라 비교를 제외하며, GDAMS의 2023 원문 대조는 보류한다.",
+  "comparisonNote": "Patria만 2023 전시 구성을 직접 대조했다. BOXER·GDAMS는 직전 동일 형상 비교를 보류하며 2025 발표 범위를 제시한다.",
   "themes": [
     {
-      "title": "특장 기반을 함께 제시",
-      "summary": "기아는 타스만 쇼카와 KLTV 베어샤시·축소 모형을 소개했다. 쇼카의 양산 일정은 이 발표에서 확인되지 않는다.",
-      "companyId": "org-37268bb0020007468bbc",
-      "productId": "kia-platforms-dsei2025",
-      "photoId": "photo-648d50af60ebb4f3032a",
-      "before": "첫 참가 발표 · 직전 비교 제외",
-      "after": "쇼카·베어샤시·축소 모형",
+      "title": "현지 생산·지원까지 묶은 제안",
+      "summary": "Patria는 6×6 지휘형·병력수송형과 Babcock의 영국 생산·지원 협력을 함께 소개했다. 차종 구성과 산업 협력을 묶어 제안한 사례다.",
+      "companyId": "org-b2e821937e2348e31631",
+      "productId": "patria-6x6",
+      "photoId": "dsei25-patria-6x6-c4",
+      "before": "6×6 NEMO·RS4 구성 소개",
+      "after": "지휘·수송형·영국 생산 협력",
       "sourceIds": [
-        "dsei25-kia-official-followup"
+        "dsei23-patria-report",
+        "dsei25-patria-report",
+        "dsei25-patria-teaming-report"
       ]
     },
     {
-      "title": "기존 통신체계와의 연동",
-      "summary": "Babcock은 GDAMS와 BCIP의 통신 연동 시연을 발표했다. 차량별 통합 완료나 군 채택을 입증한 자료는 아니다.",
+      "title": "공통 차체의 서로 다른 임무형",
+      "summary": "KNDS 부스의 BOXER 포탑형을 현장사진으로 확인했다. 별도 지휘소형·영국 MIV 생산 발표와 구분해 임무 모듈의 선택 폭을 읽는다.",
+      "companyId": "org-e2295099b8d18919a8a9",
+      "productId": "boxer-dsei2025",
+      "photoId": "photo-82d773132553b98ac998",
+      "before": "직전 동일 포탑형 대조 보류",
+      "after": "포탑형 전시·별도 MIV 사업 발표",
+      "sourceIds": [
+        "source-c6dade1f14642d9db79a",
+        "source-10f38f26217ddade000c",
+        "source-59e3ce621588fb8633d3",
+        "dsei25-boxer-modules-general"
+      ]
+    },
+    {
+      "title": "기존 통신체계와의 접속",
+      "summary": "ST Engineering/Babcock은 GDAMS의 BCIP 통신 연동 시연을 발표했다. 단품 전시를 넘어 기존 통신 환경과의 호환성을 설명한 사례다.",
       "companyId": "org-c7eb14a21ab8df05af0f",
       "productId": "gdams-dsei2025",
       "photoId": "photo-759379832c8e0bb07807",
@@ -30,75 +47,42 @@
       "sourceIds": [
         "dsei25-babcock-gdams-official-followup"
       ]
-    },
-    {
-      "title": "차량 계열과 현지 협력",
-      "summary": "Patria는 6×6 지휘형·병력수송형을 각각 안내하고 영국 생산 협력을 발표했다. 전시 구성과 생산 계획을 구분한다.",
-      "companyId": "org-b2e821937e2348e31631",
-      "productId": "patria-6x6",
-      "photoId": "dsei25-patria-6x6-c4",
-      "before": "6×6 NEMO·RS4 구성 소개",
-      "after": "지휘형·병력수송형 안내",
-      "sourceIds": [
-        "dsei23-patria-report",
-        "dsei25-patria-report",
-        "dsei25-patria-teaming-report"
-      ]
     }
   ],
-  "interpretation": "전시 구성에 따른 해석: 확인한 사례는 차체의 파생형, 기존 체계와의 호환성, 현지 협력을 함께 제안하는 방향을 보여준다. 세 사례의 제품 성숙도나 성능을 같은 척도로 비교하지 않는다.",
+  "interpretation": "편집 해석: Patria는 현지 생산·지원 협력, BOXER는 임무형 선택, GDAMS는 기존 통신과의 연동을 강조한다. 경쟁 비교에는 차량 제원뿐 아니라 생산·유지지원 파트너와 통합 책임의 범위가 필요하다.",
   "limitations": [
-    "제조사·사업 참여자의 발표가 주된 근거다. 행사 전체 조사나 독립 성능 검증이 아니다.",
-    "세 사진은 해당 회차 전시 외관의 근거다. GDAMS 사진은 통신 시연 성공을 입증하지 않으며, Patria는 C4 표지형이다.",
-    "2023·2025 전시 구성 비교이며 개발 완료·군 납품·성능 향상을 뜻하지 않는다."
+    "BOXER 사진은 KNDS 부스의 30mm 포탑형이다. 별도 영국 MIV 인도 차량과 혼동하지 않는다.",
+    "Patria의 영국 협력은 발표 당시 계획이며 현지 양산 완료를 뜻하지 않는다.",
+    "GDAMS 시연 발표는 군 채택이나 모든 차량의 통합 완료 증거가 아니다."
   ],
   "sourceIds": [
-    "dsei25-kia-official-followup",
-    "dsei25-babcock-gdams-official-followup",
     "dsei23-patria-report",
     "dsei25-patria-report",
-    "dsei25-patria-teaming-report"
+    "dsei25-patria-teaming-report",
+    "source-c6dade1f14642d9db79a",
+    "source-10f38f26217ddade000c",
+    "source-59e3ce621588fb8633d3",
+    "dsei25-boxer-modules-general",
+    "dsei25-babcock-gdams-official-followup"
   ],
   "sources": [
-    {
-      "id": "dsei25-kia-official-followup",
-      "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
-      "title": "기아, '영국 DSEI 2025' 방산전시회 첫 참가",
-      "publisher": "기아 / 현대자동차그룹",
-      "publishedAt": "2025-09-09",
-      "eventEditionId": "dsei-2025",
-      "independence": "primary_single_origin",
-      "note": "제조사의 첫 참가 발표다. 2023년 참가 명부를 전수 대조한 부재 판정으로 사용하지 않는다. 쇼카·베어샤시·모형의 형상을 구분한다."
-    },
-    {
-      "id": "dsei25-babcock-gdams-official-followup",
-      "url": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
-      "title": "Babcock is first to integrate mortar with UK Army’s communications system",
-      "publisher": "Babcock International",
-      "publishedAt": "2025-09-10",
-      "eventEditionId": "dsei-2025",
-      "independence": "primary_single_origin",
-      "note": "시연·통신 연동에 관한 제조사 발표다. 게시일과 본문 요일 표기가 달라 정확한 시연일을 확정하지 않는다. 군 채택이나 납품 완료 근거로 사용하지 않는다."
-    },
     {
       "id": "dsei23-patria-report",
       "url": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
       "title": "Patria showcasing its wide offering at DSEI London on 12 - 15 September 2023",
       "publisher": "Patria",
       "publishedAt": "2023-08-28",
-      "eventEditionId": "dsei-2023",
-      "independence": "primary_single_origin",
-      "note": "2023 개막 전 출품 안내의 6×6 NEMO·RS4 구성만 비교한다. 같은 회사 이미지 자료실의 DSEI 2023 캡션으로 보조 대조했으며 독립 출처는 아니다."
+      "note": "2023 개막 전 출품 안내의 6×6 NEMO·RS4 구성만 비교한다. 같은 회사 이미지 자료실의 DSEI 2023 캡션으로 보조 대조했으며 독립 출처는 아니다.",
+      "evidenceStatus": "single_source"
     },
     {
       "id": "dsei25-patria-report",
       "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
-      "title": "Patria to launch a new tracked vehicle at DSEI UK 2025",
+      "title": "Patria DSEI 2025 전시 안내",
       "publisher": "Patria",
       "publishedAt": "2025-08-28",
-      "eventEditionId": "dsei-2025",
-      "independence": "primary_single_origin",
-      "note": "개막 전 안내는 지휘형·병력수송형을 구분한다. 후속 현장사진의 Babcock 표기형·C4 표지형을 대조했으며 C2/C4 표현과 실제 탑재 사양을 동일시하지 않는다."
+      "note": "개막 전 안내이며 실제 형상은 현장사진과 별도 대조한다.\n개막 전 안내는 지휘형·병력수송형을 구분한다. 후속 현장사진의 Babcock 표기형·C4 표지형을 대조했으며 C2/C4 표현과 실제 탑재 사양을 동일시하지 않는다.",
+      "evidenceStatus": "single_source"
     },
     {
       "id": "dsei25-patria-teaming-report",
@@ -106,9 +90,53 @@
       "title": "Patria and Babcock agree on teaming in CAVS 6x6 armoured vehicle manufacturing in the United Kingdom",
       "publisher": "Patria",
       "publishedAt": "2025-09-09",
-      "eventEditionId": "dsei-2025",
-      "independence": "primary_single_origin",
-      "note": "생산 협력 발표와 DSEI 2025 현장사진 캡션을 확인했다. 영국 내 생산·군 인도 완료로 표현하지 않는다."
+      "note": "생산 협력 발표와 DSEI 2025 현장사진 캡션을 확인했다. 영국 내 생산·군 인도 완료로 표현하지 않는다.",
+      "evidenceStatus": "single_source"
+    },
+    {
+      "id": "source-c6dade1f14642d9db79a",
+      "url": "https://knds.com/en/events/dsei-london-knds-uk",
+      "title": "DSEI London (+ KNDS UK) 전시 안내",
+      "publisher": "KNDS",
+      "publishedAt": null,
+      "evidenceStatus": "single_source",
+      "note": "KNDS 부스 S9-210과 회차 일정을 안내한다. 이 페이지 자체에 특정 Boxer 형상 출품 목록은 없다."
+    },
+    {
+      "id": "source-10f38f26217ddade000c",
+      "url": "https://www.flickr.com/photos/dyvroeth/54785369506/",
+      "title": "Boxer with 30mm turret · DSEI 2025",
+      "publisher": "dyvroeth / Flickr",
+      "publishedAt": "2025-09-14",
+      "evidenceStatus": "independent_observation_only",
+      "note": "촬영일 2025-09-09, 게시일 2025-09-14. 외관·현장 문맥 관찰이며 성능 검증이 아니다. 동일 촬영자 사진을 서로 독립된 여러 검증으로 세지 않는다.\nFlickr 제공 원격 임베드·All Rights Reserved. 촬영자 표시와 Flickr 원문 링크를 유지하고 로컬 복제·재배포하지 않는다."
+    },
+    {
+      "id": "source-59e3ce621588fb8633d3",
+      "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-dsei-first-uk-built-boxer-has-now-been-delivered",
+      "title": "DSEI 2025: UK Boxer 생산·인도 및 별도 전시형 안내",
+      "publisher": "Rheinmetall",
+      "publishedAt": "2025-09-09",
+      "evidenceStatus": "single_source",
+      "note": "영국 MIV 및 다른 부스·구역의 전시형 설명이다. KNDS 부스 사진 속 포탑형과 같은 차량이라는 근거가 아니다."
+    },
+    {
+      "id": "dsei25-boxer-modules-general",
+      "url": "https://knds.com/en/products/systems/boxer/boxer-rct-30",
+      "title": "BOXER RCT30 일반 제품 안내",
+      "publisher": "KNDS",
+      "publishedAt": null,
+      "note": "BOXER의 모듈 구조만 일반 배경으로 사용한다. 이 페이지의 RCT30 세부 사양을 사진 속 전시형에 적용하지 않는다.",
+      "evidenceStatus": "single_source"
+    },
+    {
+      "id": "dsei25-babcock-gdams-official-followup",
+      "url": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+      "title": "Babcock is first to integrate mortar with UK Army’s communications system",
+      "publisher": "Babcock International",
+      "publishedAt": "2025-09-10",
+      "note": "게시일은 9월 10일이나 본문은 'today (Tuesday)'라고 적혀 있어 정확한 시연일은 확정하지 않는다. 제조사 통합·시연 발표이지 군 채택·납품·실전 운용 완료 증거가 아니다. 전술차량에 탑재된 형상 또는 차량 통합 완료를 이 기사만으로 확정할 수 없다.\n시연·통신 연동에 관한 제조사 발표다. 게시일과 본문 요일 표기가 달라 정확한 시연일을 확정하지 않는다. 군 채택이나 납품 완료 근거로 사용하지 않는다.",
+      "evidenceStatus": "single_source"
     }
   ],
   "evidence": {
@@ -233,6 +261,58 @@
       "newImagesDownloaded": 0,
       "deployment": "not_run"
     },
-    "completionScope": "Research draft only; not app publication or full report completion"
+    "completionScope": "Research draft only; not app publication or full report completion",
+    "competitorRevision": {
+      "checkedAt": "2026-11-16",
+      "status": "compiled_focused_checks_passed_pending_browser",
+      "scope": "Competitor platforms and vehicle mission equipment; preserve three themes and current product IDs.",
+      "priorEditionPolicy": "Only specific comparable source content supports before/after claims; otherwise explicitly unestablished.",
+      "currentEventPhotoPolicy": "Exact product event photo or exact product reference fallback; never substitute a different variant.",
+      "plan": {
+        "goal": "Replace Hyundai Rotem lead with Hanwha and competing land-system companies; improve evidence-based integration and commercial observations.",
+        "files": "Five research report packets, report compiler source and compiled report JSON.",
+        "impact": "Authored report content and case links only; three-column layout and product IDs remain.",
+        "risk": "General model reference mistaken for event display; manufacturer plans mistaken for completed deliveries.",
+        "verification": "Regenerate report JSON, compile app data, run focused report/data tests and parent desktop/mobile visual checks."
+      },
+      "primarySourceReferences": [
+        {
+          "id": "dsei23-patria-report",
+          "url": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023"
+        },
+        {
+          "id": "dsei25-patria-report",
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025"
+        },
+        {
+          "id": "dsei25-patria-teaming-report",
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom"
+        },
+        {
+          "id": "source-c6dade1f14642d9db79a",
+          "url": "https://knds.com/en/events/dsei-london-knds-uk"
+        },
+        {
+          "id": "source-59e3ce621588fb8633d3",
+          "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-dsei-first-uk-built-boxer-has-now-been-delivered"
+        },
+        {
+          "id": "dsei25-boxer-modules-general",
+          "url": "https://knds.com/en/products/systems/boxer/boxer-rct-30"
+        },
+        {
+          "id": "dsei25-babcock-gdams-official-followup",
+          "url": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/"
+        }
+      ],
+      "verification": {
+        "commands": [
+          "node scripts/compile-v2-app.mjs",
+          "node --test tests/v2-report.test.mjs tests/v2-app-data.test.mjs"
+        ],
+        "result": "48 passed, 0 failed; final report-only run 23 passed after material-source attribution",
+        "browser": "parent integration verification pending"
+      }
+    }
   }
 }

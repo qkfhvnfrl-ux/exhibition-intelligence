@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "eventId": "idex-2025",
+  "batchId": "manufacturer-materials-2026-11-16",
+  "checkedAt": "2026-11-16",
+  "scopeNote": "제조사 일반 제품자료·공개 참고 이미지 보강. 기존 전시 제품 식별자·출품 상태·장비 서술을 보존하며 새 현장사진으로 집계하지 않습니다.",
+  "cases": [
+    {
+      "id": "manufacturer-materials-1960166643e0",
+      "organizationId": "org-7b846c15951b021bf59b",
+      "displayName": "Otokar",
+      "categoryIds": [
+        "complete_vehicle"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-tulpar",
+          "manufacturer-material-cobra",
+          "manufacturer-material-arma"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-tulpar",
+          "manufacturer-material-cobra",
+          "manufacturer-material-arma"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-tulpar",
+          "manufacturer-material-cobra",
+          "manufacturer-material-arma"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle"
+        ],
+        "sourceIds": [
+          "manufacturer-material-tulpar",
+          "manufacturer-material-cobra",
+          "manufacturer-material-arma"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-tulpar",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/tulpar-en-ap02ei-25.pdf",
+          "title": "Otokar TULPAR 제조사 카탈로그",
+          "publisher": "Otokar",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "TULPAR 플랫폼 일반 카탈로그. 사진의 포탑과 해당 전시회 통합 포탑은 서로 다를 수 있습니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-cobra",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/arac-brosur/COBRA-II-BR-ING-2019.pdf",
+          "title": "Otokar COBRA II 제조사 카탈로그",
+          "publisher": "Otokar",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "2019년 COBRA II 일반 카탈로그. 최신 파생형 및 전시회 탑재장비 구성과 구분합니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-arma",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brosur/arma-ii-8x8-az83tb-23-tr.pdf",
+          "title": "Otokar ARMA II 8×8 제조사 카탈로그",
+          "publisher": "Otokar",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "ARMA II 8×8 일반 카탈로그(터키어). 해당 회차의 전시 포탑을 확정하는 자료는 아닙니다."
+          ]
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-tulpar-1960166643e0",
+          "title": "Otokar TULPAR 제조사 카탈로그",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/tulpar-en-ap02ei-25.pdf",
+          "publisher": "Otokar",
+          "sourceIds": [
+            "manufacturer-material-tulpar"
+          ],
+          "productIds": [
+            "tulpar"
+          ],
+          "scope": "general",
+          "note": "TULPAR 플랫폼 일반 카탈로그. 사진의 포탑과 해당 전시회 통합 포탑은 서로 다를 수 있습니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        },
+        {
+          "id": "manufacturer-catalog-cobra-1960166643e0",
+          "title": "Otokar COBRA II 제조사 카탈로그",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/arac-brosur/COBRA-II-BR-ING-2019.pdf",
+          "publisher": "Otokar",
+          "sourceIds": [
+            "manufacturer-material-cobra"
+          ],
+          "productIds": [
+            "cobra-ii"
+          ],
+          "scope": "general",
+          "note": "2019년 COBRA II 일반 카탈로그. 최신 파생형 및 전시회 탑재장비 구성과 구분합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        },
+        {
+          "id": "manufacturer-catalog-arma-1960166643e0",
+          "title": "Otokar ARMA II 8×8 제조사 카탈로그",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brosur/arma-ii-8x8-az83tb-23-tr.pdf",
+          "publisher": "Otokar",
+          "sourceIds": [
+            "manufacturer-material-arma"
+          ],
+          "productIds": [
+            "arma-ii"
+          ],
+          "scope": "general",
+          "note": "ARMA II 8×8 일반 카탈로그(터키어). 해당 회차의 전시 포탑을 확정하는 자료는 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": []
+    },
+    {
+      "id": "manufacturer-materials-f8be17fa29da",
+      "organizationId": "org-5e5d812e407f2c17a6ec",
+      "displayName": "HENSOLDT",
+      "categoryIds": [
+        "optics_awareness"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-setas"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-setas"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-setas"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "optics_awareness"
+        ],
+        "sourceIds": [
+          "manufacturer-material-setas"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-setas",
+          "url": "https://dam.hensoldt.net/m/3df0822105e0a9ba/original/SETAS-Datasheet-English.pdf",
+          "title": "HENSOLDT SETAS 제조사 데이터시트",
+          "publisher": "HENSOLDT",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "차량 주변관측장치 SETAS 일반 제품자료. 특정 차량의 탑재 계약·전시 이력을 뜻하지 않습니다."
+          ]
+        },
+        {
+          "id": "photo-priority-hensoldt-setas-reference-official",
+          "url": "https://www.hensoldt.net/products/setas-electro-optical-observation-system-for-armoured-vehicles",
+          "title": "SETAS 차량 주변관측장치 제조사 제품 소개",
+          "publisher": "HENSOLDT",
+          "role": "manufacturer",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "DSEI/ADEX/IDEX 해당 회차 출품 사진이 아니다.",
+            "기존 equipmentId의 rch155-tracked 문자열은 궤도형 차량 식별 근거가 아니다. 사진의 차륜형 플랫폼 및 SETAS 모듈 맥락을 유지한다."
+          ],
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "photo-priority-hensoldt-setas-reference-source",
+          "url": "https://commons.wikimedia.org/wiki/File:SETAS_left_view_ICM_on_RCH_155_Klietz_2025.JPG",
+          "title": "SETAS left view ICM on RCH 155 Klietz 2025",
+          "publisher": "Boevaya mashina",
+          "date": "2025-07-26",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "DSEI/ADEX/IDEX 해당 회차 출품 사진이 아니다.",
+            "기존 equipmentId의 rch155-tracked 문자열은 궤도형 차량 식별 근거가 아니다. 사진의 차륜형 플랫폼 및 SETAS 모듈 맥락을 유지한다."
+          ],
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-setas-f8be17fa29da",
+          "title": "HENSOLDT SETAS 제조사 데이터시트",
+          "url": "https://dam.hensoldt.net/m/3df0822105e0a9ba/original/SETAS-Datasheet-English.pdf",
+          "publisher": "HENSOLDT",
+          "sourceIds": [
+            "manufacturer-material-setas"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "차량 주변관측장치 SETAS 일반 제품자료. 특정 차량의 탑재 계약·전시 이력을 뜻하지 않습니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-priority-hensoldt-setas-reference-photo",
+          "src": "assets/photos/rch155-tracked-06.webp",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:SETAS_left_view_ICM_on_RCH_155_Klietz_2025.JPG",
+          "sourceIds": [
+            "photo-priority-hensoldt-setas-reference-source"
+          ],
+          "productIds": [],
+          "credit": "Boevaya mashina",
+          "caption": "일반 제품 참고사진 · 제품 참고사진 — RCH 155 시험차의 HENSOLDT SETAS 외부 카메라 모듈, Klietz 2025",
+          "context": "reference",
+          "eventId": null,
+          "width": 1024,
+          "height": 768,
+          "sourceDate": "2025-07-26",
+          "sha256": "fd3568f97f2774184e14c7427d812fa29eeabe533dc900b38600e7cc483c166e",
+          "mediaType": "photo",
+          "variantNote": "DSEI/ADEX/IDEX 해당 회차 출품 사진이 아니다. 기존 equipmentId의 rch155-tracked 문자열은 궤도형 차량 식별 근거가 아니다. 사진의 차륜형 플랫폼 및 SETAS 모듈 맥락을 유지한다. 기존 1024×768 WebP 변환 자산 사용. 이번 추가 변형 없음. 이번 회차 출품 여부와 관계없는 제조사 제품 참고사진입니다.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC BY-SA 3.0 de",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+            "basis": "Commons 원문에서 촬영자와 라이선스를 확인했습니다. 출처·라이선스·기존 변환 안내를 유지합니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manufacturer-materials-048d2ff826c8",
+      "organizationId": "org-8de7f844d3d235b7835b",
+      "displayName": "BAE Systems · Iveco Defence Vehicles",
+      "categoryIds": [
+        "complete_vehicle"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-acv",
+          "manufacturer-material-acvWeb"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-acv",
+          "manufacturer-material-acvWeb"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-acv",
+          "manufacturer-material-acvWeb"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle"
+        ],
+        "sourceIds": [
+          "manufacturer-material-acv",
+          "manufacturer-material-acvWeb"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-acv",
+          "url": "https://www.baesystems.com/dam/jcr:36eb6327-a224-4f84-bc43-ab0a1914c618/DIGITAL_USL_Landscape_ACV_2024.pdf",
+          "title": "BAE Systems ACV 제조사 카탈로그",
+          "publisher": "BAE Systems",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "blocked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "2024년판 ACV 일반 자료. 과거 시험차 사진 및 전시형의 구성 차이를 구분합니다.",
+            "제조사 사이트가 자동 요청에 브라우저 확인 화면을 반환할 수 있습니다.",
+            "2026-11-16 실제 브라우저에서 제조사 접근 확인 화면(Pardon Our Interruption)이 표시되어 원문 열람을 검증하지 못했습니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-acvWeb",
+          "url": "https://www.baesystems.com/en/product/amphibious-combat-vehicle",
+          "title": "BAE Systems ACV 공식 제품 페이지·사진·파생형 자료",
+          "publisher": "BAE Systems",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "blocked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "ACV 제품군 공식 설명과 다운로드 자료. 특정 회차 출품 근거는 아닙니다.",
+            "제조사 사이트가 자동 요청에 브라우저 확인 화면을 반환할 수 있습니다.",
+            "2026-11-16 실제 브라우저에서 제조사 접근 확인 화면(Pardon Our Interruption)이 표시되어 원문 열람을 검증하지 못했습니다."
+          ]
+        },
+        {
+          "id": "manufacturer-photo-manufacturer-bae-acv-2016",
+          "url": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg",
+          "title": "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개.",
+          "publisher": "Kaitlin Kelly",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음."
+          ]
+        },
+        {
+          "id": "manufacturer-photo-manufacturer-bae-acv-2018",
+          "url": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_180619-M-ZZ999-203.jpg",
+          "title": "제품 참고사진 · ACV 시험차의 해안 이동(2018), 미 해병대 공개.",
+          "publisher": "Kaitlin Kelly",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "제품 참고사진 · ACV 시험차의 해안 이동(2018), 미 해병대 공개. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음."
+          ]
+        },
+        {
+          "id": "manufacturer-photo-manufacturer-bae-acv-2020",
+          "url": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_200129-M-BH464-1020.jpg",
+          "title": "제품 참고사진 · ACV 해상 시험(2020), 미 해병대 공개.",
+          "publisher": "Lance Cpl. Drake Nickels",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "제품 참고사진 · ACV 해상 시험(2020), 미 해병대 공개. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음."
+          ]
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-acv-048d2ff826c8",
+          "title": "BAE Systems ACV 제조사 카탈로그",
+          "url": "https://www.baesystems.com/dam/jcr:36eb6327-a224-4f84-bc43-ab0a1914c618/DIGITAL_USL_Landscape_ACV_2024.pdf",
+          "publisher": "BAE Systems",
+          "sourceIds": [
+            "manufacturer-material-acv"
+          ],
+          "productIds": [
+            "acv"
+          ],
+          "scope": "general",
+          "note": "2024년판 ACV 일반 자료. 과거 시험차 사진 및 전시형의 구성 차이를 구분합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          },
+          "accessStatus": "blocked"
+        },
+        {
+          "id": "manufacturer-catalog-acvWeb-048d2ff826c8",
+          "title": "BAE Systems ACV 공식 제품 페이지·사진·파생형 자료",
+          "url": "https://www.baesystems.com/en/product/amphibious-combat-vehicle",
+          "publisher": "BAE Systems",
+          "sourceIds": [
+            "manufacturer-material-acvWeb"
+          ],
+          "productIds": [
+            "acv"
+          ],
+          "scope": "general",
+          "note": "ACV 제품군 공식 설명과 다운로드 자료. 특정 회차 출품 근거는 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          },
+          "accessStatus": "blocked"
+        }
+      ],
+      "photos": [
+        {
+          "id": "manufacturer-bae-acv-2016",
+          "src": "assets/photos/manufacturer-bae-acv-2016.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg",
+          "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg",
+          "productIds": [
+            "acv"
+          ],
+          "credit": "Kaitlin Kelly",
+          "caption": "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개.",
+          "context": "reference",
+          "eventId": null,
+          "width": 1920,
+          "height": 1280,
+          "sourceDate": "2016-11-08 19:00:00",
+          "sha256": "48d90602fa6360edb1450dc97106e231ba00cdd806af86e45ba00f77a0c35f75",
+          "mediaType": "photo",
+          "variantNote": "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+            "basis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. "
+          },
+          "author": "Kaitlin Kelly",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+          "rightsStatus": "reusable",
+          "rightsBasis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. ",
+          "sourceTitle": "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개.",
+          "retrievedAt": "2026-11-16",
+          "changes": "Wikimedia 공개 파일 또는 제공 축소본. 자르기·합성·형상 수정 없음.",
+          "sourceIds": [
+            "manufacturer-photo-manufacturer-bae-acv-2016"
+          ]
+        },
+        {
+          "id": "manufacturer-bae-acv-2018",
+          "src": "assets/photos/manufacturer-bae-acv-2018.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_180619-M-ZZ999-203.jpg",
+          "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Amphibious_Combat_Vehicle_180619-M-ZZ999-203.jpg",
+          "productIds": [
+            "acv"
+          ],
+          "credit": "Kaitlin Kelly",
+          "caption": "제품 참고사진 · ACV 시험차의 해안 이동(2018), 미 해병대 공개.",
+          "context": "reference",
+          "eventId": null,
+          "width": 1881,
+          "height": 1057,
+          "sourceDate": "2018-06-18 20:00:00",
+          "sha256": "779ed29f0b2483920bfd96f6069b0345d84d861916bd0f4a8ab0db4809221d9a",
+          "mediaType": "photo",
+          "variantNote": "제품 참고사진 · ACV 시험차의 해안 이동(2018), 미 해병대 공개. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+            "basis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. "
+          },
+          "author": "Kaitlin Kelly",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+          "rightsStatus": "reusable",
+          "rightsBasis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. ",
+          "sourceTitle": "제품 참고사진 · ACV 시험차의 해안 이동(2018), 미 해병대 공개.",
+          "retrievedAt": "2026-11-16",
+          "changes": "Wikimedia 공개 파일 또는 제공 축소본. 자르기·합성·형상 수정 없음.",
+          "sourceIds": [
+            "manufacturer-photo-manufacturer-bae-acv-2018"
+          ]
+        },
+        {
+          "id": "manufacturer-bae-acv-2020",
+          "src": "assets/photos/manufacturer-bae-acv-2020.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_200129-M-BH464-1020.jpg",
+          "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Amphibious_Combat_Vehicle_200129-M-BH464-1020.jpg",
+          "productIds": [
+            "acv"
+          ],
+          "credit": "Lance Cpl. Drake Nickels",
+          "caption": "제품 참고사진 · ACV 해상 시험(2020), 미 해병대 공개.",
+          "context": "reference",
+          "eventId": null,
+          "width": 1920,
+          "height": 1080,
+          "sourceDate": "2020-01-28 19:00:00",
+          "sha256": "6449e74634707fb4f5a67d6a778d5bfb599cc1111fc2b57a97303e55b4ae9e43",
+          "mediaType": "photo",
+          "variantNote": "제품 참고사진 · ACV 해상 시험(2020), 미 해병대 공개. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+            "basis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. "
+          },
+          "author": "Lance Cpl. Drake Nickels",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+          "rightsStatus": "reusable",
+          "rightsBasis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. ",
+          "sourceTitle": "제품 참고사진 · ACV 해상 시험(2020), 미 해병대 공개.",
+          "retrievedAt": "2026-11-16",
+          "changes": "Wikimedia 공개 파일 또는 제공 축소본. 자르기·합성·형상 수정 없음.",
+          "sourceIds": [
+            "manufacturer-photo-manufacturer-bae-acv-2020"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manufacturer-materials-be37eba14fba",
+      "organizationId": "org-c0aa5fd472a380a0d1d6",
+      "displayName": "Milrem Robotics · EDGE",
+      "categoryIds": [
+        "complete_vehicle",
+        "unmanned_remote"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-themis",
+          "manufacturer-material-milremPdf"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-themis",
+          "manufacturer-material-milremPdf"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-themis",
+          "manufacturer-material-milremPdf"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle",
+          "unmanned_remote"
+        ],
+        "sourceIds": [
+          "manufacturer-material-themis",
+          "manufacturer-material-milremPdf"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-themis",
+          "url": "https://milremrobotics.com/themis-family/",
+          "title": "Milrem THeMIS 공식 제품군 · 사진과 탑재장비",
+          "publisher": "Milrem Robotics",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "THeMIS 제품군 일반 자료. THeMIS-K 또는 해당 전시회 Combat 탑재 형상과 구분합니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-milremPdf",
+          "url": "https://d3tr2q1wj7u3d5.cloudfront.net/32284/20240611_MILREM-Product-Catalogue-EN_web.pdf",
+          "title": "Milrem Robotics 2024 제품 종합 카탈로그",
+          "publisher": "Milrem Robotics",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "2024년 제조사 제품 종합 카탈로그. 해당 회차 전시 형상 확인 자료가 아닙니다."
+          ]
+        },
+        {
+          "id": "manufacturer-image-source-48488eff02db",
+          "url": "https://commons.wikimedia.org/wiki/File:Milrem_Robotics_UGV_Themis_size.png",
+          "title": "제조사 설명 이미지 · THeMIS 기본 플랫폼 크기 비교(2020). THeMIS-K 전시사진이 아닙니다.",
+          "publisher": "Milrem Robotics",
+          "role": "reference_photo",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "제조사 설명 이미지 · THeMIS 기본 플랫폼 크기 비교(2020). THeMIS-K 전시사진이 아닙니다. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음."
+          ]
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-themis-be37eba14fba",
+          "title": "Milrem THeMIS 공식 제품군 · 사진과 탑재장비",
+          "url": "https://milremrobotics.com/themis-family/",
+          "publisher": "Milrem Robotics",
+          "sourceIds": [
+            "manufacturer-material-themis"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "THeMIS 제품군 일반 자료. THeMIS-K 또는 해당 전시회 Combat 탑재 형상과 구분합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        },
+        {
+          "id": "manufacturer-catalog-milremPdf-be37eba14fba",
+          "title": "Milrem Robotics 2024 제품 종합 카탈로그",
+          "url": "https://d3tr2q1wj7u3d5.cloudfront.net/32284/20240611_MILREM-Product-Catalogue-EN_web.pdf",
+          "publisher": "Milrem Robotics",
+          "sourceIds": [
+            "manufacturer-material-milremPdf"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "2024년 제조사 제품 종합 카탈로그. 해당 회차 전시 형상 확인 자료가 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": [
+        {
+          "id": "manufacturer-milrem-themis-size",
+          "src": "assets/photos/manufacturer-milrem-themis-size.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milrem_Robotics_UGV_Themis_size.png",
+          "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Milrem_Robotics_UGV_Themis_size.png",
+          "sourceIds": [
+            "manufacturer-image-source-48488eff02db"
+          ],
+          "productIds": [],
+          "credit": "Milrem Robotics",
+          "caption": "제조사 설명 이미지 · THeMIS 기본 플랫폼 크기 비교(2020). THeMIS-K 전시사진이 아닙니다.",
+          "context": "reference",
+          "eventId": null,
+          "width": 1920,
+          "height": 962,
+          "sourceDate": "2020-01-21",
+          "sha256": "79286ba80a99c2d61e1b03378d9154e93c59e7df5de90ddff81f0745d4affca7",
+          "mediaType": "illustration",
+          "variantNote": "제조사 설명 이미지 · THeMIS 기본 플랫폼 크기 비교(2020). THeMIS-K 전시사진이 아닙니다. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "basis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. "
+          }
+        }
+      ]
+    }
+  ]
+}

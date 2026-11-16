@@ -145,7 +145,8 @@ export function applyResearch({out,maps,put,addSource,participation,assertion,bo
         const photoSource=addSource(photo.sourceUrl,{role:'research_photo',publisher:photo.credit});
         const sourceIds=unique([...evidence(photo.sourceIds,photo.id),photoSource]);
         const linkedProductIds=unique([photo.productId,...list(photo.productIds)]);
-        for(const pid of linkedProductIds)check(declaredProducts.get(bundle.eventId).has(pid),'photo product outside reviewed event '+photo.id);
+        const ownedEventProduct=pid=>maps.products.get(pid)?.organizationIds.includes(organization.id)&&out.exhibits.some(exhibit=>exhibit.eventId===bundle.eventId&&exhibit.productId===pid);
+        for(const pid of linkedProductIds)check(declaredProducts.get(bundle.eventId).has(pid)||ownedEventProduct(pid),'photo product outside reviewed event '+photo.id);
         const originalImageUrl=photo.originalImageUrl||photo.assetUrl||photo.imageUrl||photo.embedImageUrl||null;
         const sameAsset=out.photos.find(other=>(photo.src&&photo.src===other.localPath)||(originalImageUrl&&originalImageUrl===(other.originalImageUrl||other.imageUrl)));
         const existingId=maps.photos.get(photo.id);check(!existingId||!sameAsset||existingId.id===sameAsset.id,'photo ID and image asset identify different records '+photo.id);
@@ -153,7 +154,7 @@ export function applyResearch({out,maps,put,addSource,participation,assertion,bo
         const ph=put('photos',reviewedPhoto),previousSources=ph.sourceIds,previousLegacyIds=ph.legacyIds,previousProducts=list(ph.productIds);
         Object.assign(ph,reviewedPhoto,{sourceIds:previousSources,legacyIds:previousLegacyIds,productIds:unique([...previousProducts,...linkedProductIds])});append(ph.sourceIds,sourceIds);append(ph.legacyIds,[photo.id]);
         // Keep a direct company link even when the photo shows a whole booth rather than one product.
-        const ownPhotoProducts=linkedProductIds.filter(pid=>productIds.includes(pid));
+        const ownPhotoProducts=linkedProductIds.filter(pid=>productIds.includes(pid)||ownedEventProduct(pid));
         for(const pid of ownPhotoProducts.length?ownPhotoProducts:[null])put('photoLinks',{id:'photo-link-'+hash(ph.id+'|'+bundle.eventId+'|'+organization.id+'|'+(pid||'')),photoId:ph.id,eventId:bundle.eventId,productId:pid,exhibitId:pid&&exhibitIds.find(id=>maps.exhibits.get(id).productId===pid)||null,organizationId:organization.id,context:photo.context||'reference'});
       }
     }

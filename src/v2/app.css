@@ -22,3 +22,5 @@
 .company-row .company-photo-status{grid-column:1/-1;font-size:12px;font-weight:500;color:var(--muted)}
 .company-row .company-photo-status[data-photo-status=event]{color:var(--accent)}
 .company-row .company-photo-status[data-photo-status=reference]{color:var(--secondary)}
+.company-row .company-photo-status[data-photo-status=material]{color:#636229}
+.company-row .company-photo-status[data-photo-status=profile]{color:#52667a}

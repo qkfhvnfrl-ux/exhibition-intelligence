@@ -1,0 +1,10 @@
+
+> exhibition-intelligence@2.0.0-stage.4 build
+> node scripts/build.mjs
+
+Catalog: 14 equipment, 55 photographs, 5 exhibitions.
+Review bundle: 3 cases, 11 photographs, 9 visual observations.
+Event reports: 5 exhibitions, 31 equipment entries.
+V2 registry: 3587 organization identities, 3679 population rows, 32 map regions.
+V2 app shards: adex-2025 375 organizations / 35 cases; eurosatory-2026 64 organizations / 2 cases; dsei-2025 1743 organizations / 11 cases; idex-2025 36 organizations / 5 cases; saha-2026 1467 organizations / 6 cases
+Built FIELDNOTE 2.0.0-stage.4. No deployment performed.

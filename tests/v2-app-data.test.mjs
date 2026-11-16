@@ -277,14 +277,15 @@ test('optional event reports retain their own date, evidence and existing produc
   assert.throws(()=>validateAppEvent(broken),/report company\/photo mismatch/);
 });
 
-const [patriaResearch,patriaNarratives,patriaReport,dseiNarratives]=await Promise.all([
+const [patriaResearch,patriaNarratives,patriaReport,dseiNarratives,dseiNextNarratives]=await Promise.all([
   read('data/v2/research/dsei-2025/patria-photos.json'),
   read('docs/research-v2/redesign-narratives-patria.json'),
   read('docs/research-v2/redesign-report-dsei.json'),
-  read('docs/research-v2/redesign-narratives-dsei-idex.json')
+  read('docs/research-v2/redesign-narratives-dsei-idex.json'),
+  read('docs/research-v2/redesign-narratives-dsei-next.json')
 ]);
 const patriaOrganizationId='org-b2e821937e2348e31631';
-const patriaCompilation=withNarratives([...dseiNarratives.narratives.filter(item=>item.eventId==='dsei-2025'),...patriaNarratives.narratives],{researchBundles:[patriaResearch],reportContents:[patriaReport]});
+const patriaCompilation=withNarratives([...dseiNarratives.narratives.filter(item=>item.eventId==='dsei-2025'),...patriaNarratives.narratives,...dseiNextNarratives.narratives],{researchBundles:[patriaResearch],reportContents:[patriaReport]});
 const patriaEvent=patriaCompilation.events['dsei-2025'];
 const patriaCompany=patriaEvent.companies.find(company=>company.id===patriaOrganizationId);
 const patriaPhotoGroups={

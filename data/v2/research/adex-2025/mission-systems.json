@@ -80,9 +80,10 @@
           "role": "manufacturer_event_statement",
           "originGroup": "cots-adex25-release",
           "support": "SBC 기반 임베디드 제품군 출품 및 한국 본사 주소.",
-          "limitations": "HTTP 원문 200 확인. HTTPS는 Gabia 403으로 전환. 재게시와 언론 원문은 같은 기원.",
+          "limitations": "HTTP 원문 200 확인. HTTPS는 Gabia 403으로 전환. 재게시와 언론 원문은 같은 기원. 2026-11-16 접근 확인: 403 페이지로 이동. 새 자료 카드에서 제외.",
           "independence": "primary_single_origin",
-          "checkedAt": "2026-11-12"
+          "checkedAt": "2026-11-12",
+          "accessStatus": "blocked"
         },
         {
           "id": "cots-photo",
@@ -612,6 +613,18 @@
           "limitations": "사전 계획이며 현장 출품의 근거가 아님.",
           "independence": "primary_single_origin",
           "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "material-eo-products",
+          "url": "https://www.eosystem.com/",
+          "title": "이오시스템/EOST — 광학·탑재 EO/IR 제품 및 공식 영상",
+          "publisher": "EOST (이오시스템)",
+          "role": "company_background",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "현재 공식 홈페이지의 군용 제품군·영상 안내. 전시 모델별 자료는 제품별 근거와 함께 확인합니다."
         }
       ],
       "photos": [
@@ -664,7 +677,27 @@
           "eventName": "Seoul ADEX 2025"
         }
       ],
-      "catalogs": [],
+      "catalogs": [
+        {
+          "id": "material-eo-products",
+          "title": "이오시스템/EOST — 광학·탑재 EO/IR 제품 및 공식 영상",
+          "url": "https://www.eosystem.com/",
+          "publisher": "EOST (이오시스템)",
+          "sourceIds": [
+            "material-eo-products"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "documentType": "company_profile",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "현재 공식 홈페이지의 군용 제품군·영상 안내. 전시 모델별 자료는 제품별 근거와 함께 확인합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        }
+      ],
       "review": {
         "relevance": "confirmed",
         "reason": "승무원 관측장비와 무인체계 영상센서를 함께 검토할 수 있는 국내 광학업체입니다.",
@@ -1170,10 +1203,46 @@
           "limitations": "사전 계획이며 현장 출품의 근거가 아님.",
           "independence": "primary_single_origin",
           "checkedAt": "2026-11-12"
+        },
+        {
+          "id": "material-rfcore-products",
+          "url": "https://www.rfcore.com/",
+          "title": "RFcore HPA·RFFE·MMIC — 공식 제품 이미지",
+          "publisher": "RFcore",
+          "role": "manufacturer_product_page",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "제조사 홈페이지의 제품군 사진·설명. ADEX 출품 확인 자료가 아닙니다."
         }
       ],
       "photos": [],
-      "catalogs": [],
+      "catalogs": [
+        {
+          "id": "material-rfcore-products",
+          "title": "RFcore HPA·RFFE·MMIC — 공식 제품 이미지",
+          "url": "https://www.rfcore.com/",
+          "publisher": "RFcore",
+          "sourceIds": [
+            "material-rfcore-products"
+          ],
+          "productIds": [
+            "adex25-rfcore-hpa-reference",
+            "adex25-rfcore-rffe-reference",
+            "adex25-rfcore-mmic-reference"
+          ],
+          "scope": "general",
+          "documentType": "product_page",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "제조사 홈페이지의 제품군 사진·설명. ADEX 출품 확인 자료가 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        }
+      ],
       "review": {
         "relevance": "confirmed",
         "reason": "RF 증폭기·배열 안테나 전단 부품의 공급 가능성 때문에 관련 업체로 유지합니다.",

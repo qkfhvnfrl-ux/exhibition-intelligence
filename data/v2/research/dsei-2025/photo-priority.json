@@ -360,6 +360,20 @@
             "기존 equipmentId의 rch155-tracked 문자열은 궤도형 차량 식별 근거가 아니다. 사진의 차륜형 플랫폼 및 SETAS 모듈 맥락을 유지한다."
           ],
           "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "manufacturer-material-setas",
+          "url": "https://dam.hensoldt.net/m/3df0822105e0a9ba/original/SETAS-Datasheet-English.pdf",
+          "title": "HENSOLDT SETAS 제조사 데이터시트",
+          "publisher": "HENSOLDT",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "차량 주변관측장치 SETAS 일반 제품자료. 특정 차량의 탑재 계약·전시 이력을 뜻하지 않습니다."
+          ]
         }
       ],
       "photos": [
@@ -388,6 +402,26 @@
             "license": "CC BY-SA 3.0 de",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
             "basis": "Commons 원문에서 촬영자와 라이선스를 확인했습니다. 출처·라이선스·기존 변환 안내를 유지합니다."
+          }
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-setas-f8be17fa29da",
+          "title": "HENSOLDT SETAS 제조사 데이터시트",
+          "url": "https://dam.hensoldt.net/m/3df0822105e0a9ba/original/SETAS-Datasheet-English.pdf",
+          "publisher": "HENSOLDT",
+          "sourceIds": [
+            "manufacturer-material-setas"
+          ],
+          "productIds": [
+            "hensoldt-setas-reference"
+          ],
+          "scope": "general",
+          "note": "차량 주변관측장치 SETAS 일반 제품자료. 특정 차량의 탑재 계약·전시 이력을 뜻하지 않습니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
           }
         }
       ]
@@ -489,6 +523,78 @@
             "일반 제품군 소개와 과거 사진을 연결하며 이번 회차 출품 근거는 미확보다."
           ],
           "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "manufacturer-material-rs4",
+          "url": "https://www.kongsberg.com/what-we-do/defence-and-security/remote-weapon-systems/protector-rs4/",
+          "title": "Kongsberg PROTECTOR RS4 공식 사진·제품자료·PDF 안내",
+          "publisher": "Kongsberg",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "공식 제품 페이지에서 사진과 Product sheet 다운로드를 제공합니다. 과거 M151·CROWS·TAPV 탑재형과 세대·구성을 구분합니다."
+          ],
+          "note": "공식 제품 페이지에서 사진과 Product sheet 다운로드를 제공합니다. 과거 M151·CROWS·TAPV 탑재형과 세대·구성을 구분합니다."
+        },
+        {
+          "id": "manufacturer-image-source-1c5e52bc5f0f",
+          "url": "https://commons.wikimedia.org/wiki/File:M151_Protector-Slovenia.jpg",
+          "title": "제품 참고사진 · 슬로베니아군 M151 PROTECTOR 탑재형(2012).",
+          "publisher": "Emil Jalovec and Bruno Toič",
+          "role": "reference_photo",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "제품 참고사진 · 슬로베니아군 M151 PROTECTOR 탑재형(2012). 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음."
+          ]
+        },
+        {
+          "id": "manufacturer-image-source-4dd6f03187cc",
+          "url": "https://commons.wikimedia.org/wiki/File:Textron_TAPV_Ottawa_City_Hall_Protector_RWS.jpg",
+          "title": "제품 참고사진 · TAPV 차량의 PROTECTOR RWS 센서 외형(2016).",
+          "publisher": "Cplbeaudoin",
+          "role": "reference_photo",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "제품 참고사진 · TAPV 차량의 PROTECTOR RWS 센서 외형(2016). 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음."
+          ]
+        },
+        {
+          "id": "manufacturer-image-source-3f06ca920f27",
+          "url": "https://commons.wikimedia.org/wiki/File:88th_RSC_facilitates_CROWS_Material_Fielding_and_Training_160421-A-UY332-044.jpg",
+          "title": "제품 참고사진 · 미 육군 차량에 탑재한 CROWS(2016).",
+          "publisher": "Catherine Lowrey",
+          "role": "reference_photo",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "제품 참고사진 · 미 육군 차량에 탑재한 CROWS(2016). 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음."
+          ]
+        },
+        {
+          "id": "manufacturer-material-rs4-pdf",
+          "url": "https://www.kongsberg.com/globalassets/kongsberg/1.-what-we-do/1.-defence-and-security/remote-weapon-systems/protector-rs4/rs4-product-sheet-210126.pdf",
+          "title": "Kongsberg PROTECTOR RS4 제조사 PDF · 2026년 1월판",
+          "publisher": "Kongsberg",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "date": "2026-01-21",
+          "limitations": [
+            "DSEI 2025 이후 발행된 일반 제품자료. 과거 M151·CROWS 탑재형과 세대·구성을 구분합니다."
+          ]
         }
       ],
       "photos": [
@@ -517,6 +623,118 @@
             "license": "Public domain · U.S. Air Force",
             "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force",
             "basis": "Commons 원문에서 촬영자와 라이선스를 확인했습니다. 출처·라이선스·기존 변환 안내를 유지합니다."
+          }
+        },
+        {
+          "id": "manufacturer-kongsberg-m151",
+          "src": "assets/photos/manufacturer-kongsberg-m151.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:M151_Protector-Slovenia.jpg",
+          "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/M151_Protector-Slovenia.jpg",
+          "sourceIds": [
+            "manufacturer-image-source-1c5e52bc5f0f"
+          ],
+          "productIds": [],
+          "credit": "Emil Jalovec and Bruno Toič",
+          "caption": "제품 참고사진 · 슬로베니아군 M151 PROTECTOR 탑재형(2012).",
+          "context": "reference",
+          "eventId": null,
+          "width": 400,
+          "height": 600,
+          "sourceDate": "2012-03-04",
+          "sha256": "b58c76fa710c31c5866b0152f882e3f52a14d58ef711071afbb4d6edff09600b",
+          "mediaType": "photo",
+          "variantNote": "제품 참고사진 · 슬로베니아군 M151 PROTECTOR 탑재형(2012). 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "basis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. "
+          }
+        },
+        {
+          "id": "manufacturer-kongsberg-tapv",
+          "src": "assets/photos/manufacturer-kongsberg-tapv.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Textron_TAPV_Ottawa_City_Hall_Protector_RWS.jpg",
+          "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Textron_TAPV_Ottawa_City_Hall_Protector_RWS.jpg",
+          "sourceIds": [
+            "manufacturer-image-source-4dd6f03187cc"
+          ],
+          "productIds": [],
+          "credit": "Cplbeaudoin",
+          "caption": "제품 참고사진 · TAPV 차량의 PROTECTOR RWS 센서 외형(2016).",
+          "context": "reference",
+          "eventId": null,
+          "width": 1920,
+          "height": 1285,
+          "sourceDate": "2016-09-17",
+          "sha256": "427756368a898b08f13d789cae855a369da4c0b9a8a55e8b2307873091ae0cd8",
+          "mediaType": "photo",
+          "variantNote": "제품 참고사진 · TAPV 차량의 PROTECTOR RWS 센서 외형(2016). 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "basis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. "
+          }
+        },
+        {
+          "id": "manufacturer-kongsberg-crows",
+          "src": "assets/photos/manufacturer-kongsberg-crows.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:88th_RSC_facilitates_CROWS_Material_Fielding_and_Training_160421-A-UY332-044.jpg",
+          "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/88th_RSC_facilitates_CROWS_Material_Fielding_and_Training_160421-A-UY332-044.jpg",
+          "sourceIds": [
+            "manufacturer-image-source-3f06ca920f27"
+          ],
+          "productIds": [],
+          "credit": "Catherine Lowrey",
+          "caption": "제품 참고사진 · 미 육군 차량에 탑재한 CROWS(2016).",
+          "context": "reference",
+          "eventId": null,
+          "width": 1920,
+          "height": 1276,
+          "sourceDate": "Taken on 21 April 2016",
+          "sha256": "2e640b5c978dfa41e99e49b4417b79a442c6dd02250a354575e5ca18234f52a3",
+          "mediaType": "photo",
+          "variantNote": "제품 참고사진 · 미 육군 차량에 탑재한 CROWS(2016). 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+            "basis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. "
+          }
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-rs4-c9018c5dce6a",
+          "title": "Kongsberg PROTECTOR RS4 공식 사진·제품자료·PDF 안내",
+          "url": "https://www.kongsberg.com/what-we-do/defence-and-security/remote-weapon-systems/protector-rs4/",
+          "publisher": "Kongsberg",
+          "sourceIds": [
+            "manufacturer-material-rs4"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "공식 제품 페이지에서 사진과 Product sheet 다운로드를 제공합니다. 과거 M151·CROWS·TAPV 탑재형과 세대·구성을 구분합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        },
+        {
+          "id": "manufacturer-material-rs4-pdf",
+          "url": "https://www.kongsberg.com/globalassets/kongsberg/1.-what-we-do/1.-defence-and-security/remote-weapon-systems/protector-rs4/rs4-product-sheet-210126.pdf",
+          "title": "Kongsberg PROTECTOR RS4 제조사 PDF · 2026년 1월판",
+          "publisher": "Kongsberg",
+          "sourceIds": [
+            "manufacturer-material-rs4-pdf"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "DSEI 2025 이후 발행된 일반 제품자료. 과거 M151·CROWS 탑재형과 세대·구성을 구분합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 서버 공식 PDF 원문으로 연결합니다."
           }
         }
       ]
@@ -594,12 +812,13 @@
           "title": "SOPHIE 휴대형 열상 관측장비 · 과거 형상 제조사 제품 소개",
           "publisher": "Thales",
           "role": "manufacturer",
-          "accessStatus": "checked",
+          "accessStatus": "blocked",
           "coverageScope": "general_product",
           "editionStatus": "general",
           "limitations": [
             "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다.",
-            "사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다."
+            "사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다.",
+            "2026-11-16 실제 브라우저에서 hCaptcha 접근 확인 화면이 표시되어 원문 열람을 검증하지 못했습니다."
           ],
           "checkedAt": "2026-11-16"
         },
@@ -618,6 +837,22 @@
             "사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다."
           ],
           "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "manufacturer-material-sophie",
+          "url": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+          "title": "Thales SOPHIE 열상장비 관련 공식 발표 PDF",
+          "publisher": "Thales",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "blocked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "SOPHIE 제품군 및 지원 관련 공식 발표. 상세 제품 카탈로그나 해당 회차 출품 확인은 아닙니다.",
+            "제조사 사이트가 자동 요청에 브라우저 확인 화면을 반환할 수 있습니다.",
+            "2026-11-16 실제 브라우저에서 hCaptcha 접근 확인 화면이 표시되어 원문 열람을 검증하지 못했습니다."
+          ]
         }
       ],
       "photos": [
@@ -646,6 +881,26 @@
             "license": "CC BY-SA 3.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
             "basis": "Commons 원문에서 촬영자와 라이선스를 확인했습니다. 출처·라이선스·기존 변환 안내를 유지합니다."
+          }
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-sophie-866e4664b8cf",
+          "title": "Thales SOPHIE 열상장비 관련 공식 발표 PDF",
+          "url": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+          "publisher": "Thales",
+          "sourceIds": [
+            "manufacturer-material-sophie"
+          ],
+          "productIds": [
+            "thales-sophie-reference"
+          ],
+          "scope": "general",
+          "note": "SOPHIE 제품군 및 지원 관련 공식 발표. 상세 제품 카탈로그나 해당 회차 출품 확인은 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
           }
         }
       ]

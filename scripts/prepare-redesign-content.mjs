@@ -100,15 +100,8 @@ for(const file of ['redesign-narratives-eurosatory-saha.json','redesign-narrativ
  narratives.push(...supplement.narratives.map(item=>({asOf:supplement.asOf,...item})));
 }
 await write('data/v2/editorial/product-narratives.json',{asOf:'2026-11-16',narratives});
-const report={eventId:'adex-2025',asOf:'2026-11-15',title:'서울 ADEX 2025',message:'플랫폼을 늘리는 전시에서, 임무와 고객 요구를 구체화하는 전시로',scopeNote:'현대로템·현대위아·기아의 확인된 출품 사례 기준',comparisonEvent:'서울 ADEX 2023',comparisonNote:'직전 회차 제조사 발표와 2025 공개자료 비교 · 동일 장비의 성능 향상 비교 아님',themes:[
- {title:'고객별 구성의 구체화',summary:'K2PL은 폴란드 요구에 맞춘 구성을 설명한다. 전시품의 실차·모형 분류에는 자료 간 표현 차이가 남는다.',companyId:'org-bb5b014b7abb0359c75b',productId:'k2pl',photoId:'photo-f27315794918d9b8ddce',before:'K2EX 수출형 소개',after:'폴란드형 K2PL 구성 제시',sourceIds:['rotem-adex2023-official','rotem-adex2025-official','rotem-adex2025-field']},
- {title:'통합과 형상 선택',summary:'RCWS 전시대는 3개 구경을 보여 준다. ADS는 기존 차량형과 새 일체형 소개를 구분해야 한다.',companyId:'org-b6b486fa375701e51329',productId:'adex25-wia-rcws-ai',photoId:'photo-406026b01ffa0009623a',before:'차량형 ADS 이미 전시',after:'일체형 ADS 추가 소개',sourceIds:['wia-adex-2023','wia-adex-2025']},
- {title:'임무별 차량군의 전개',summary:'타스만 지휘차와 샤시, KMTV·KLTV 파생형을 함께 제시했다. KHTV는 개발 목표를 담은 모형이다.',companyId:'org-37268bb0020007468bbc',productId:'tasman-military',photoId:'photo-88508f17c41d264626d0',before:'EV9·수소 콘셉트와 중형 샤시',after:'타스만·중형·소형 임무차량군',sourceIds:['kia-adex-2023','kia-adex-2025']}
-],interpretation:'전시 구성에 따른 해석: 확인 사례에서는 새로운 플랫폼의 등장뿐 아니라 고객별 방호·임무 장비·차량 파생형을 구체화하는 방향이 보인다. 회사 전체 전략이나 시장 성과를 뜻하지 않는다.',limitations:['3사 비교 표본이며 전체 행사 조사·증감 통계가 아니다.','제조사 발표가 주된 근거다. 최초 공개·계획은 발표 주체와 당시 시점을 따른다.','사진은 모두 ADEX 2025 현장이다. 가운데 RCWS 사진은 ADS 사진이 아니다.'],sourceIds:[],sources:[]};
-report.sourceIds=unique(report.themes.flatMap(t=>t.sourceIds));
-report.sources=[...sources(rotem),...sources(wia),...sources(kia)].filter(s=>report.sourceIds.includes(s.id));
-const reports=[report];
-for(const edition of ['eurosatory','dsei','idex','saha']){
+const reports=[];
+for(const edition of ['adex','eurosatory','dsei','idex','saha']){
  const {evidence,...supplement}=await read('docs/research-v2/redesign-report-'+edition+'.json');
  reports.push(supplement);
 }

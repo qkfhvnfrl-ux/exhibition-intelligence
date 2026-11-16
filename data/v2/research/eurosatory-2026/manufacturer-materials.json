@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "eventId": "eurosatory-2026",
+  "batchId": "manufacturer-materials-2026-11-16",
+  "checkedAt": "2026-11-16",
+  "scopeNote": "제조사 일반 제품자료·공개 참고 이미지 보강. 기존 전시 제품 식별자·출품 상태·장비 서술을 보존하며 새 현장사진으로 집계하지 않습니다.",
+  "cases": [
+    {
+      "id": "manufacturer-materials-4007c3d70a75",
+      "organizationId": "org-a7f46a7e877193b3e57d",
+      "displayName": "KNDS Deutschland",
+      "categoryIds": [
+        "complete_vehicle"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-leopard",
+          "manufacturer-material-boxer"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-leopard",
+          "manufacturer-material-boxer"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-leopard",
+          "manufacturer-material-boxer"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle"
+        ],
+        "sourceIds": [
+          "manufacturer-material-leopard",
+          "manufacturer-material-boxer"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-leopard",
+          "url": "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf",
+          "title": "KNDS LEOPARD 2 A8 제조사 카탈로그",
+          "publisher": "KNDS",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "LEOPARD 2 A8 일반 제품자료. 수출 대상별 실제 공급 구성은 별도 확인이 필요합니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-boxer",
+          "url": "https://knds.com/en/products/boxer",
+          "title": "KNDS BOXER 제품군 · 공식 사진과 제품 자료",
+          "publisher": "KNDS",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "BOXER 플랫폼과 임무모듈의 일반 제품자료. 특정 전시 형상의 탑재장비 확인을 대신하지 않습니다."
+          ]
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-leopard-4007c3d70a75",
+          "title": "KNDS LEOPARD 2 A8 제조사 카탈로그",
+          "url": "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf",
+          "publisher": "KNDS",
+          "sourceIds": [
+            "manufacturer-material-leopard"
+          ],
+          "productIds": [
+            "leopard-2a8"
+          ],
+          "scope": "general",
+          "note": "LEOPARD 2 A8 일반 제품자료. 수출 대상별 실제 공급 구성은 별도 확인이 필요합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        },
+        {
+          "id": "manufacturer-catalog-boxer-4007c3d70a75",
+          "title": "KNDS BOXER 제품군 · 공식 사진과 제품 자료",
+          "url": "https://knds.com/en/products/boxer",
+          "publisher": "KNDS",
+          "sourceIds": [
+            "manufacturer-material-boxer"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "BOXER 플랫폼과 임무모듈의 일반 제품자료. 특정 전시 형상의 탑재장비 확인을 대신하지 않습니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": []
+    },
+    {
+      "id": "manufacturer-materials-1b6e3dbd6930",
+      "organizationId": "org-b2ca2a34fd51e38b777e",
+      "displayName": "ASELSAN",
+      "categoryIds": [
+        "unmanned_remote",
+        "optics_awareness"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-korkut"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-korkut"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-korkut"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "unmanned_remote",
+          "optics_awareness"
+        ],
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-korkut"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-korhan",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+          "title": "ASELSAN KORHAN 35mm 제조사 카탈로그",
+          "publisher": "ASELSAN",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "KORHAN 포탑 일반 제품자료(2021). 특정 차체와의 통합 완료를 확인하는 자료는 아닙니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-korkut",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORKUT_SSA_ENG.pdf",
+          "title": "ASELSAN KORKUT SSA 35mm 제조사 카탈로그",
+          "publisher": "ASELSAN",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "KORKUT SSA 35mm 계열 일반 자료입니다. KORKUT 25 차량탑재형과 다른 제품입니다."
+          ]
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-korhan-1b6e3dbd6930",
+          "title": "ASELSAN KORHAN 35mm 제조사 카탈로그",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+          "publisher": "ASELSAN",
+          "sourceIds": [
+            "manufacturer-material-korhan"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "KORHAN 포탑 일반 제품자료(2021). 특정 차체와의 통합 완료를 확인하는 자료는 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        },
+        {
+          "id": "manufacturer-catalog-korkut-1b6e3dbd6930",
+          "title": "ASELSAN KORKUT SSA 35mm 제조사 카탈로그",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORKUT_SSA_ENG.pdf",
+          "publisher": "ASELSAN",
+          "sourceIds": [
+            "manufacturer-material-korkut"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "KORKUT SSA 35mm 계열 일반 자료입니다. KORKUT 25 차량탑재형과 다른 제품입니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": []
+    }
+  ]
+}

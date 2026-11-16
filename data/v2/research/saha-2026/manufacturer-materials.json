@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "eventId": "saha-2026",
+  "batchId": "manufacturer-materials-2026-11-16",
+  "checkedAt": "2026-11-16",
+  "scopeNote": "제조사 일반 제품자료·공개 참고 이미지 보강. 기존 전시 제품 식별자·출품 상태·장비 서술을 보존하며 새 현장사진으로 집계하지 않습니다.",
+  "cases": [
+    {
+      "id": "manufacturer-materials-1960166643e0",
+      "organizationId": "org-7b846c15951b021bf59b",
+      "displayName": "Otokar",
+      "categoryIds": [
+        "complete_vehicle"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-tulpar",
+          "manufacturer-material-cobra"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-tulpar",
+          "manufacturer-material-cobra"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-tulpar",
+          "manufacturer-material-cobra"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle"
+        ],
+        "sourceIds": [
+          "manufacturer-material-tulpar",
+          "manufacturer-material-cobra"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-tulpar",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/tulpar-en-ap02ei-25.pdf",
+          "title": "Otokar TULPAR 제조사 카탈로그",
+          "publisher": "Otokar",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "TULPAR 플랫폼 일반 카탈로그. 사진의 포탑과 해당 전시회 통합 포탑은 서로 다를 수 있습니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-cobra",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/arac-brosur/COBRA-II-BR-ING-2019.pdf",
+          "title": "Otokar COBRA II 제조사 카탈로그",
+          "publisher": "Otokar",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "2019년 COBRA II 일반 카탈로그. 최신 파생형 및 전시회 탑재장비 구성과 구분합니다."
+          ]
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-tulpar-1960166643e0",
+          "title": "Otokar TULPAR 제조사 카탈로그",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/tulpar-en-ap02ei-25.pdf",
+          "publisher": "Otokar",
+          "sourceIds": [
+            "manufacturer-material-tulpar"
+          ],
+          "productIds": [
+            "tulpar"
+          ],
+          "scope": "general",
+          "note": "TULPAR 플랫폼 일반 카탈로그. 사진의 포탑과 해당 전시회 통합 포탑은 서로 다를 수 있습니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        },
+        {
+          "id": "manufacturer-catalog-cobra-1960166643e0",
+          "title": "Otokar COBRA II 제조사 카탈로그",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/arac-brosur/COBRA-II-BR-ING-2019.pdf",
+          "publisher": "Otokar",
+          "sourceIds": [
+            "manufacturer-material-cobra"
+          ],
+          "productIds": [
+            "cobra-ii"
+          ],
+          "scope": "general",
+          "note": "2019년 COBRA II 일반 카탈로그. 최신 파생형 및 전시회 탑재장비 구성과 구분합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": []
+    },
+    {
+      "id": "manufacturer-materials-44bf0b974c41",
+      "organizationId": "org-2dffde2d6bd01e4eaf2d",
+      "displayName": "FNSS",
+      "categoryIds": [
+        "complete_vehicle"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-fnss"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-fnss"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-fnss"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle"
+        ],
+        "sourceIds": [
+          "manufacturer-material-fnss"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-fnss",
+          "url": "https://www.fnss.com.tr/uploads/docs/2025-ENG/1752685667_fnss-catalog-eng-2025.pdf",
+          "title": "FNSS 2025 종합 카탈로그 · PARS ALPHA·차량·포탑",
+          "publisher": "FNSS",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "2025년 FNSS 제조사 종합 자료. PARS ALPHA 및 차량·포탑 일반 형상이며 SAHA 2026 출품 근거와 구분합니다."
+          ]
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-fnss-44bf0b974c41",
+          "title": "FNSS 2025 종합 카탈로그 · PARS ALPHA·차량·포탑",
+          "url": "https://www.fnss.com.tr/uploads/docs/2025-ENG/1752685667_fnss-catalog-eng-2025.pdf",
+          "publisher": "FNSS",
+          "sourceIds": [
+            "manufacturer-material-fnss"
+          ],
+          "productIds": [
+            "pars-alpha"
+          ],
+          "scope": "general",
+          "note": "2025년 FNSS 제조사 종합 자료. PARS ALPHA 및 차량·포탑 일반 형상이며 SAHA 2026 출품 근거와 구분합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": []
+    },
+    {
+      "id": "manufacturer-materials-866e4664b8cf",
+      "organizationId": "org-3dba2d2e96e3a37e36af",
+      "displayName": "Thales",
+      "categoryIds": [
+        "optics_awareness"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-sophie"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-sophie"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-sophie"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "optics_awareness"
+        ],
+        "sourceIds": [
+          "manufacturer-material-sophie"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-sophie",
+          "url": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+          "title": "Thales SOPHIE 열상장비 관련 공식 발표 PDF",
+          "publisher": "Thales",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "blocked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "SOPHIE 제품군 및 지원 관련 공식 발표. 상세 제품 카탈로그나 해당 회차 출품 확인은 아닙니다.",
+            "제조사 사이트가 자동 요청에 브라우저 확인 화면을 반환할 수 있습니다.",
+            "2026-11-16 실제 브라우저에서 hCaptcha 접근 확인 화면이 표시되어 원문 열람을 검증하지 못했습니다."
+          ]
+        },
+        {
+          "id": "photo-priority-thales-sophie-reference-official",
+          "url": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+          "title": "SOPHIE 휴대형 열상 관측장비 · 과거 형상 제조사 제품 소개",
+          "publisher": "Thales",
+          "role": "manufacturer",
+          "accessStatus": "blocked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다.",
+            "사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다.",
+            "2026-11-16 실제 브라우저에서 hCaptcha 접근 확인 화면이 표시되어 원문 열람을 검증하지 못했습니다."
+          ],
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "id": "photo-priority-thales-sophie-reference-source",
+          "url": "https://commons.wikimedia.org/wiki/File:Sophie_%C2%A9B._Rousseau.jpg",
+          "title": "Sophie ©B. Rousseau",
+          "publisher": "Bernard Rousseau Thales",
+          "date": "2010-03",
+          "role": "reference_photo",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "limitations": [
+            "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다.",
+            "사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다."
+          ],
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-sophie-866e4664b8cf",
+          "title": "Thales SOPHIE 열상장비 관련 공식 발표 PDF",
+          "url": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+          "publisher": "Thales",
+          "sourceIds": [
+            "manufacturer-material-sophie"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "SOPHIE 제품군 및 지원 관련 공식 발표. 상세 제품 카탈로그나 해당 회차 출품 확인은 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": [
+        {
+          "id": "priority-thales-sophie-2010",
+          "src": "assets/photos/priority-thales-sophie-2010.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sophie_%C2%A9B._Rousseau.jpg",
+          "sourceIds": [
+            "photo-priority-thales-sophie-reference-source"
+          ],
+          "productIds": [],
+          "credit": "Bernard Rousseau Thales",
+          "caption": "일반 제품 참고사진 · 제품 참고사진 — Thales SOPHIE 휴대형 열상 관측장비, 2010년 형상",
+          "context": "reference",
+          "eventId": null,
+          "width": 2126,
+          "height": 1535,
+          "sourceDate": "2010-03",
+          "sha256": "138618185f5a8460fbf73a1c00f9fef38167d67b97220bfc76066ce4e7f1118e",
+          "mediaType": "photo",
+          "variantNote": "보병 휴대형 관측장비로 차량 고정 탑재형이라고 표현하지 않는다. 사진의 세부 하위 모델은 미확인이다. SOPHIE Ultima/Optima 최신형이나 해당 회차 전시품으로 연결하지 않는다. Commons 제공 JPEG 원본 그대로 사용. 추가 자르기·형상 수정 없음. 이번 회차 출품 여부와 관계없는 제조사 제품 참고사진입니다.",
+          "rights": {
+            "status": "reusable",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "basis": "Commons 원문에서 촬영자와 라이선스를 확인했습니다. 출처·라이선스·기존 변환 안내를 유지합니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manufacturer-materials-1b6e3dbd6930",
+      "organizationId": "org-b2ca2a34fd51e38b777e",
+      "displayName": "ASELSAN",
+      "categoryIds": [
+        "unmanned_remote",
+        "optics_awareness"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-korkut"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-korkut"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-korkut"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "unmanned_remote",
+          "optics_awareness"
+        ],
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-korkut"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-korhan",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+          "title": "ASELSAN KORHAN 35mm 제조사 카탈로그",
+          "publisher": "ASELSAN",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "KORHAN 포탑 일반 제품자료(2021). 특정 차체와의 통합 완료를 확인하는 자료는 아닙니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-korkut",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORKUT_SSA_ENG.pdf",
+          "title": "ASELSAN KORKUT SSA 35mm 제조사 카탈로그",
+          "publisher": "ASELSAN",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "KORKUT SSA 35mm 계열 일반 자료입니다. KORKUT 25 차량탑재형과 다른 제품입니다."
+          ]
+        },
+        {
+          "id": "source-320f6b20062f763c20f4",
+          "url": "https://www.flickr.com/photos/139651532@N04/55343573969/",
+          "title": "eurosatory_2026 (3) | Maquettistes Montpellier",
+          "publisher": "Maquettistes Montpellier / montpelliermaquettistes",
+          "publishedAt": "2026-06-18",
+          "evidenceStatus": "independent_observation_only",
+          "note": "촬영 메타데이터 2026-06-16 09:55:25; 시간대 미기재. 같은 촬영자의 연속 사진이며 독립 근거 수를 사진 수만큼 늘리지 않는다. ARR·Flickr 제공자 외부 표시만 검토; 로컬 복제 허가 없음."
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-korhan-1b6e3dbd6930",
+          "title": "ASELSAN KORHAN 35mm 제조사 카탈로그",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+          "publisher": "ASELSAN",
+          "sourceIds": [
+            "manufacturer-material-korhan"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "KORHAN 포탑 일반 제품자료(2021). 특정 차체와의 통합 완료를 확인하는 자료는 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        },
+        {
+          "id": "manufacturer-catalog-korkut-1b6e3dbd6930",
+          "title": "ASELSAN KORKUT SSA 35mm 제조사 카탈로그",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORKUT_SSA_ENG.pdf",
+          "publisher": "ASELSAN",
+          "sourceIds": [
+            "manufacturer-material-korkut"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "KORKUT SSA 35mm 계열 일반 자료입니다. KORKUT 25 차량탑재형과 다른 제품입니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": [
+        {
+          "id": "photo-aec42c56571bfacd9939",
+          "caption": "일반 제품 참고자료 · Eurosatory 2026 · KORKUT 25 차량탑재형 — 정면",
+          "sourceUrl": "https://www.flickr.com/photos/139651532@N04/55343573969/",
+          "originalImageUrl": "https://live.staticflickr.com/65535/55343573969_87864d7613_b.jpg",
+          "sourceIds": [
+            "source-320f6b20062f763c20f4"
+          ],
+          "productIds": [],
+          "width": 1024,
+          "height": 768,
+          "credit": "Maquettistes Montpellier / montpelliermaquettistes",
+          "rights": {
+            "status": "provider-embed",
+            "license": "All Rights Reserved · Flickr 공식 외부 표시",
+            "licenseUrl": "https://www.flickrhelp.com/hc/en-us/articles/24282601008404-Embed-your-Flickr-content",
+            "basis": null
+          },
+          "context": "reference",
+          "mediaType": "photo",
+          "variantNote": " 이 업체 화면에서는 해당 회차 현장사진이 아니라 다른 시점의 제품 참고자료로 제공합니다.",
+          "sourceDate": "2026-06-16",
+          "delivery": "remote",
+          "displayBasis": "provider_embed",
+          "eventId": null,
+          "embedImageUrl": "https://live.staticflickr.com/65535/55343573969_87864d7613_b.jpg"
+        }
+      ]
+    },
+    {
+      "id": "manufacturer-materials-8318957039de",
+      "organizationId": "org-261736017afc402204d0",
+      "displayName": "Otokar · ASELSAN",
+      "categoryIds": [
+        "complete_vehicle"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-tulpar"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-tulpar"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-tulpar"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle"
+        ],
+        "sourceIds": [
+          "manufacturer-material-korhan",
+          "manufacturer-material-tulpar"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-korhan",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+          "title": "ASELSAN KORHAN 35mm 제조사 카탈로그",
+          "publisher": "ASELSAN",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "KORHAN 포탑 일반 제품자료(2021). 특정 차체와의 통합 완료를 확인하는 자료는 아닙니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-tulpar",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/tulpar-en-ap02ei-25.pdf",
+          "title": "Otokar TULPAR 제조사 카탈로그",
+          "publisher": "Otokar",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "TULPAR 플랫폼 일반 카탈로그. 사진의 포탑과 해당 전시회 통합 포탑은 서로 다를 수 있습니다."
+          ]
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-korhan-8318957039de",
+          "title": "ASELSAN KORHAN 35mm 제조사 카탈로그",
+          "url": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+          "publisher": "ASELSAN",
+          "sourceIds": [
+            "manufacturer-material-korhan"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "KORHAN 포탑 일반 제품자료(2021). 특정 차체와의 통합 완료를 확인하는 자료는 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        },
+        {
+          "id": "manufacturer-catalog-tulpar-8318957039de",
+          "title": "Otokar TULPAR 제조사 카탈로그",
+          "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/tulpar-en-ap02ei-25.pdf",
+          "publisher": "Otokar",
+          "sourceIds": [
+            "manufacturer-material-tulpar"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "TULPAR 플랫폼 일반 카탈로그. 사진의 포탑과 해당 전시회 통합 포탑은 서로 다를 수 있습니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          }
+        }
+      ],
+      "photos": []
+    },
+    {
+      "id": "manufacturer-materials-e459df21714f",
+      "organizationId": "org-1916eb4a702ef0dd91b0",
+      "displayName": "BAE Systems",
+      "categoryIds": [
+        "complete_vehicle"
+      ],
+      "reason": "제조사 공개 제품자료와 참고 이미지를 모았습니다. 해당 회차의 실제 전시 확인과 일반 제품자료는 구분합니다.",
+      "highlights": [
+        "공식 제조사 제품자료",
+        "사진·형상과 원문 연결",
+        "자료 시점·파생형 구분"
+      ],
+      "exhibit": {
+        "summary": "제조사 카탈로그와 일반 제품 참고자료이며 해당 회차의 실제 출품 확인과 구분합니다.",
+        "sourceIds": [
+          "manufacturer-material-acv",
+          "manufacturer-material-acvWeb"
+        ],
+        "items": []
+      },
+      "distinction": {
+        "judgment": "일반 제품자료의 사진과 구성은 해당 회차 전시품의 사진·탑재 구성과 다를 수 있습니다.",
+        "sourceIds": [
+          "manufacturer-material-acv",
+          "manufacturer-material-acvWeb"
+        ]
+      },
+      "direction": {
+        "observation": "제조사 공식 제품자료를 통해 제품군과 형상을 확인할 수 있습니다.",
+        "interpretation": "제품군의 공통점과 차이는 개별 장비의 회차 근거와 함께 비교해야 합니다.",
+        "sourceIds": [
+          "manufacturer-material-acv",
+          "manufacturer-material-acvWeb"
+        ]
+      },
+      "followUps": [
+        "원문 발행 시점과 제품 파생형 확인",
+        "해당 회차의 실물 출품 근거 추가 확인"
+      ],
+      "verificationNote": "제품 참고자료 보강이며 신규 현장 출품 확인 또는 심층분석 완료를 뜻하지 않습니다.",
+      "review": {
+        "relevance": "confirmed",
+        "status": "insufficient_data",
+        "reason": "공개 제품자료에서 차량 플랫폼 또는 차량 탑재장비 관련성을 확인했습니다. 이번 회차 실물 전시 여부를 새로 확정하지 않습니다.",
+        "reviewedAt": "2026-11-16",
+        "categories": [
+          "complete_vehicle"
+        ],
+        "sourceIds": [
+          "manufacturer-material-acv",
+          "manufacturer-material-acvWeb"
+        ]
+      },
+      "sources": [
+        {
+          "id": "manufacturer-material-acv",
+          "url": "https://www.baesystems.com/dam/jcr:36eb6327-a224-4f84-bc43-ab0a1914c618/DIGITAL_USL_Landscape_ACV_2024.pdf",
+          "title": "BAE Systems ACV 제조사 카탈로그",
+          "publisher": "BAE Systems",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "blocked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "2024년판 ACV 일반 자료. 과거 시험차 사진 및 전시형의 구성 차이를 구분합니다.",
+            "제조사 사이트가 자동 요청에 브라우저 확인 화면을 반환할 수 있습니다.",
+            "2026-11-16 실제 브라우저에서 제조사 접근 확인 화면(Pardon Our Interruption)이 표시되어 원문 열람을 검증하지 못했습니다."
+          ]
+        },
+        {
+          "id": "manufacturer-material-acvWeb",
+          "url": "https://www.baesystems.com/en/product/amphibious-combat-vehicle",
+          "title": "BAE Systems ACV 공식 제품 페이지·사진·파생형 자료",
+          "publisher": "BAE Systems",
+          "role": "manufacturer",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "blocked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "ACV 제품군 공식 설명과 다운로드 자료. 특정 회차 출품 근거는 아닙니다.",
+            "제조사 사이트가 자동 요청에 브라우저 확인 화면을 반환할 수 있습니다.",
+            "2026-11-16 실제 브라우저에서 제조사 접근 확인 화면(Pardon Our Interruption)이 표시되어 원문 열람을 검증하지 못했습니다."
+          ]
+        },
+        {
+          "id": "manufacturer-image-source-a26f70289e9a",
+          "url": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg",
+          "title": "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개.",
+          "publisher": "Kaitlin Kelly",
+          "role": "reference_photo",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "accessStatus": "checked",
+          "checkedAt": "2026-11-16",
+          "limitations": [
+            "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음."
+          ]
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "manufacturer-catalog-acv-e459df21714f",
+          "title": "BAE Systems ACV 제조사 카탈로그",
+          "url": "https://www.baesystems.com/dam/jcr:36eb6327-a224-4f84-bc43-ab0a1914c618/DIGITAL_USL_Landscape_ACV_2024.pdf",
+          "publisher": "BAE Systems",
+          "sourceIds": [
+            "manufacturer-material-acv"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "2024년판 ACV 일반 자료. 과거 시험차 사진 및 전시형의 구성 차이를 구분합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          },
+          "accessStatus": "blocked"
+        },
+        {
+          "id": "manufacturer-catalog-acvWeb-e459df21714f",
+          "title": "BAE Systems ACV 공식 제품 페이지·사진·파생형 자료",
+          "url": "https://www.baesystems.com/en/product/amphibious-combat-vehicle",
+          "publisher": "BAE Systems",
+          "sourceIds": [
+            "manufacturer-material-acvWeb"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "note": "ACV 제품군 공식 설명과 다운로드 자료. 특정 회차 출품 근거는 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 공식 원문으로 연결합니다. 재배포 허락을 가정하지 않습니다."
+          },
+          "accessStatus": "blocked"
+        }
+      ],
+      "photos": [
+        {
+          "id": "manufacturer-bae-acv-2016",
+          "src": "assets/photos/manufacturer-bae-acv-2016.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg",
+          "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg",
+          "sourceIds": [
+            "manufacturer-image-source-a26f70289e9a"
+          ],
+          "productIds": [],
+          "credit": "Kaitlin Kelly",
+          "caption": "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개.",
+          "context": "reference",
+          "eventId": null,
+          "width": 1920,
+          "height": 1280,
+          "sourceDate": "2016-11-08 19:00:00",
+          "sha256": "48d90602fa6360edb1450dc97106e231ba00cdd806af86e45ba00f77a0c35f75",
+          "mediaType": "photo",
+          "variantNote": "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음.",
+          "rights": {
+            "status": "reusable",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+            "basis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. "
+          }
+        }
+      ]
+    }
+  ]
+}

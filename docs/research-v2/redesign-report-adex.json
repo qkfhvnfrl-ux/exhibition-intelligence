@@ -1,0 +1,166 @@
+{
+  "eventId": "adex-2025",
+  "asOf": "2026-11-16",
+  "title": "서울 ADEX 2025",
+  "message": "한화의 무인화 구상과 차량 탑재체계, 성숙도를 나눠 읽다",
+  "scopeNote": "한화에어로스페이스·현대위아·기아의 지상체계 3사례 · 전체 행사 조사 아님",
+  "comparisonEvent": "서울 ADEX 2023",
+  "comparisonNote": "현대위아·기아의 2023 발표와 비교한다. K9A3는 직전 회차 동일 형상 근거가 없어 변화 판단을 보류한다.",
+  "themes": [
+    {
+      "title": "한화의 플랫폼 발전 로드맵",
+      "summary": "한화는 K9A3의 원격·자율 운용 방향을 제시했다. 현장 기록은 발전 로드맵 전시이며, 완성 실차나 양산 성능의 증거는 아니다.",
+      "companyId": "org-c919e0346aa5a11fd7a0",
+      "productId": "k9a3",
+      "photoId": "",
+      "before": "직전 회차 동일 형상 대조 보류",
+      "after": "K9 발전 로드맵·유무인 협업 구상",
+      "sourceIds": [
+        "source-a054039a60d396e259d2",
+        "hanwha-adex2025-ceoscore"
+      ]
+    },
+    {
+      "title": "구경별 원격무장 계열화",
+      "summary": "현대위아는 구경별 RCWS 전시대와 일체형 ADS를 소개했다. 탑재장비의 선택지를 보여 주지만 차량별 통합 완료를 뜻하지 않는다.",
+      "companyId": "org-b6b486fa375701e51329",
+      "productId": "adex25-wia-rcws-ai",
+      "photoId": "photo-406026b01ffa0009623a",
+      "before": "차량형 ADS·RCWS 소개",
+      "after": "구경별 RCWS·일체형 ADS 소개",
+      "sourceIds": [
+        "wia-adex-2023",
+        "wia-adex-2025"
+      ]
+    },
+    {
+      "title": "차체를 임무별 공급 기반으로",
+      "summary": "기아는 타스만 지휘차·베어샤시와 KLTV 파생형을 제시했다. 완성차와 특장 기반을 함께 제안한 구성이며, KHTV는 개발 목표를 담은 모형이다.",
+      "companyId": "org-37268bb0020007468bbc",
+      "productId": "tasman-military",
+      "photoId": "photo-88508f17c41d264626d0",
+      "before": "EV9·수소 콘셉트·중형 샤시",
+      "after": "타스만·샤시·임무별 차량군",
+      "sourceIds": [
+        "kia-adex-2023",
+        "kia-adex-2025"
+      ]
+    }
+  ],
+  "interpretation": "편집 해석: 완성차와 함께 무인화 제어·원격무장·임무차체가 제안의 축으로 등장한다. 경쟁사 비교에서는 로드맵과 실물, 검증 완료 단계를 나누고 통합·지원의 담당 범위를 확인할 필요가 있다.",
+  "limitations": [
+    "한화의 무인화 설명은 개발 방향이다. K9A3 완성 실차·양산 성능을 입증하지 않는다.",
+    "K9A3의 정확한 표시사진은 미확보다. 기존 K9 사진으로 대체하지 않는다.",
+    "RCWS 사진은 ADS 사진이 아니다. 세 사례로 시장 우열이나 전체 추세를 단정하지 않는다."
+  ],
+  "sourceIds": [
+    "source-a054039a60d396e259d2",
+    "hanwha-adex2025-ceoscore",
+    "wia-adex-2023",
+    "wia-adex-2025",
+    "kia-adex-2023",
+    "kia-adex-2025"
+  ],
+  "sources": [
+    {
+      "id": "source-a054039a60d396e259d2",
+      "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+      "title": "Hanwha to Showcase Next-Generation AI and Unmanned Systems at ADEX 2025",
+      "publisher": "한화에어로스페이스",
+      "publishedAt": "2025-10-16",
+      "evidenceStatus": "single_source",
+      "note": "개막 전 예고이므로 실출품을 단독 확정하지 않는다."
+    },
+    {
+      "id": "hanwha-adex2025-ceoscore",
+      "url": "https://www.ceoscoredaily.com/page/view/2025102017192308138",
+      "title": "[르포] “올해는 수출 300억 달러 넘는다”…K-방산, ADEX 2025에 총출동",
+      "publisher": "CEO스코어데일리",
+      "publishedAt": "2025-10-20",
+      "note": "기자 현장 관찰과 제조사 관계자 발언을 분리한다. 수출 전망은 이 초안에 사용하지 않음.",
+      "evidenceStatus": "single_source"
+    },
+    {
+      "id": "wia-adex-2023",
+      "url": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyCate=&keyField=&keyIdx=5102&keyWord=&page=",
+      "title": "현대위아, ADEX 2023에서 차량탑재형 ADS 및 신형 화포 공개",
+      "publisher": "hyundai-wia",
+      "publishedAt": "2023-10-17",
+      "note": "105mm는 전시품이라고만 적혀 있어 모형/실물 여부를 이 문장만으로 확정하지 않는다. 보도자료에서 다루지 않은 형상을 당시 부재로 처리하지 않는다.",
+      "evidenceStatus": "single_source"
+    },
+    {
+      "id": "wia-adex-2025",
+      "url": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016",
+      "title": "현대위아, ADEX 2025에서 육·해·공 방산 제품 라인업 공개",
+      "publisher": "hyundai-wia",
+      "publishedAt": "2025-10-20",
+      "note": "실물 전시와 양산·전력화·성능 검증은 별개다. 최초라는 표현은 제조사에 귀속한다.",
+      "evidenceStatus": "single_source"
+    },
+    {
+      "id": "kia-adex-2023",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+      "title": "기아, ‘서울 ADEX 2023’ 참가",
+      "publisher": "Hyundai Motor Group / Kia",
+      "publishedAt": "2023-10-17",
+      "note": "제조사 발표이며 독립 성능시험이 아님. 본문에 없는 품목의 부재나 개발 중단을 뜻하지 않음.",
+      "evidenceStatus": "single_source"
+    },
+    {
+      "id": "kia-adex-2025",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+      "title": "기아, '서울 ADEX 2025' 방산전시회 참가",
+      "publisher": "Hyundai Motor Group / Kia",
+      "publishedAt": "2025-10-20",
+      "note": "전시 품목과 제조사 설명의 근거. 모든 품목별 사진 식별·실물/모형 구분이 확보된 것은 아님.",
+      "evidenceStatus": "single_source"
+    }
+  ],
+  "evidence": {
+    "competitorRevision": {
+      "checkedAt": "2026-11-16",
+      "status": "compiled_focused_checks_passed_pending_browser",
+      "scope": "Competitor platforms and vehicle mission equipment; preserve three themes and current product IDs.",
+      "priorEditionPolicy": "Only specific comparable source content supports before/after claims; otherwise explicitly unestablished.",
+      "currentEventPhotoPolicy": "Exact product event photo or exact product reference fallback; never substitute a different variant.",
+      "plan": {
+        "goal": "Replace Hyundai Rotem lead with Hanwha and competing land-system companies; improve evidence-based integration and commercial observations.",
+        "files": "Five research report packets, report compiler source and compiled report JSON.",
+        "impact": "Authored report content and case links only; three-column layout and product IDs remain.",
+        "risk": "General model reference mistaken for event display; manufacturer plans mistaken for completed deliveries.",
+        "verification": "Regenerate report JSON, compile app data, run focused report/data tests and parent desktop/mobile visual checks."
+      },
+      "primarySourceReferences": [
+        {
+          "id": "source-a054039a60d396e259d2",
+          "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575"
+        },
+        {
+          "id": "wia-adex-2023",
+          "url": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyCate=&keyField=&keyIdx=5102&keyWord=&page="
+        },
+        {
+          "id": "wia-adex-2025",
+          "url": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016"
+        },
+        {
+          "id": "kia-adex-2023",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922"
+        },
+        {
+          "id": "kia-adex-2025",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141"
+        }
+      ],
+      "verification": {
+        "commands": [
+          "node scripts/compile-v2-app.mjs",
+          "node --test tests/v2-report.test.mjs tests/v2-app-data.test.mjs"
+        ],
+        "result": "48 passed, 0 failed; final report-only run 23 passed after material-source attribution",
+        "browser": "parent integration verification pending"
+      }
+    }
+  }
+}

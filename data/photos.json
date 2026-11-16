@@ -1283,5 +1283,39 @@
     "sha256": "972ebfe166acb283aca47e9c508cc9e71a9cafdcd652b15cf7e6e84a085532f5",
     "rightsStatus": "reusable",
     "rightsBasis": "Commons 개별 파일의 CC0 1.0·촬영자·픽셀·원본 해시 확인. 정확한 날짜 충돌은 보존한다."
+  },
+  {
+    "id": "manufacturer-otokar-cobra2-2024",
+    "src": "assets/photos/manufacturer-otokar-cobra2-2024.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otokar_Cobra_II.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Otokar_Cobra_II.jpg",
+    "productIds": [
+      "cobra-ii"
+    ],
+    "credit": "Defensie Nederlands",
+    "caption": "제품 참고사진 · COBRA II, 네덜란드 국방부 공개(2024). 해당 회차 현장사진이 아닙니다.",
+    "context": "reference",
+    "eventId": null,
+    "width": 1250,
+    "height": 475,
+    "sourceDate": "2024-03",
+    "sha256": "867417394e2a7fed327332a8eb8cbfbb28d2754d970582b0aa29abdcd2f536da",
+    "mediaType": "photo",
+    "variantNote": "제품 참고사진 · COBRA II, 네덜란드 국방부 공개(2024). 해당 회차 현장사진이 아닙니다. 원본 공개자료를 그대로 사용하며, Wikimedia 제공 축소본인 경우 해상도만 다릅니다. 형상 수정 없음.",
+    "rights": {
+      "status": "reusable",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "basis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. "
+    },
+    "equipmentId": "cobra-ii",
+    "author": "Defensie Nederlands",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "rightsStatus": "reusable",
+    "rightsBasis": "Wikimedia Commons 파일 설명의 저작자·원출처·공개 라이선스를 확인했습니다. ",
+    "sourceTitle": "제품 참고사진 · COBRA II, 네덜란드 국방부 공개(2024). 해당 회차 현장사진이 아닙니다.",
+    "retrievedAt": "2026-11-16",
+    "changes": "Wikimedia 공개 파일 또는 제공 축소본. 자르기·합성·형상 수정 없음."
   }
 ]

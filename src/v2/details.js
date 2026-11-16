@@ -67,12 +67,66 @@ export function companySources(data, company) {
     const url=safeExternalUrl(source.url);if(!url)continue;
     let item=merged.get(url);
     if(!item){item={...source,url,evidenceStatuses:[],notes:[],supports:[]};merged.set(url,item);}
-    for(const key of ['title','publisher','publishedAt','date'])if(!item[key] || (key==='title' && item[key]===url))if(source[key])item[key]=source[key];
+    for(const key of ['title','publisher','publishedAt','date','role','coverageScope','editionStatus','accessStatus','documentType'])if(!item[key] || (key==='title' && item[key]===url))if(source[key])item[key]=source[key];
+    if(!materialAvailable(source))item.accessStatus=source.accessStatus || 'blocked';
     for(const value of [...strings(source.note),...strings(source.limitations),...strings(source.notes)])if(!item.notes.includes(value))item.notes.push(value);
     for(const value of [...strings(source.support),...strings(source.supports)])if(!item.supports.includes(value))item.supports.push(value);
     for(const value of [source.evidenceStatus,source.independence,...arr(source.evidenceStatuses)].filter(Boolean))if(!item.evidenceStatuses.includes(value))item.evidenceStatuses.push(value);
   }
   return [...merged.values()];
+}
+const isPdfUrl = url => /\.pdf(?:$|[?#])|\/(?:print\/)?pdf(?:\/|[?#]|$)/i.test(url || '');
+function materialAvailable(item) {
+  return !/(?:blocked|unavailable|failed|forbidden|not_found|broken|\b(?:403|404|410)\b)/i.test(item?.accessStatus || '') && !/HTTP\s*(?:403|404|410)\b/i.test([item?.note,...arr(item?.notes)].filter(Boolean).join(' '));
+}
+const isPdfMaterial = item => item.documentType==='pdf' || /(?:^|_)pdf(?:_|$)/i.test(item.documentType || '') || isPdfUrl(item.url);
+const catalogMaterialType = item => isPdfMaterial(item)?'pdf':item.documentType==='product_page'?'product':item.documentType==='company_profile'?'manufacturer':'catalog';
+const sourceMaterialType = source => {
+  const role=source.role || '';
+  if (/^(?:manufacturer|company_background|exhibitor_(?:event|pre_event|live)|issuer_(?:press_release|pre_event))/.test(role)) return isPdfMaterial(source)?'pdf':/product|제품/.test([source.coverageScope,source.title].join(' '))?'product':'manufacturer';
+  return null;
+};
+const materialLabels = {pdf:'PDF 자료',product:'공식 제품자료',manufacturer:'제조사·업체 공개자료',catalog:'카탈로그·제품자료',profile:'공식 참가업체 정보',evidence:'관련 원문자료'};
+const materialRank = {pdf:0,catalog:1,product:2,manufacturer:3,profile:4,evidence:5};
+const materialScope = (data,item) => sourceScopeLabel(data,item,item.scope==='event'||item.editionStatus==='current'?'해당 회차 자료':'일반 참고자료 · 이번 회차 출품 확인과 구분');
+function materialRecord(data,item,type) {
+  const url=safeExternalUrl(item.url);if(!url || !materialAvailable(item) || arr(data?.sources).some(source=>safeExternalUrl(source.url)===url && !materialAvailable(source)))return null;
+  return {...item,url,type,label:materialLabels[type],title:item.title || item.publisher || materialLabels[type],publisher:item.publisher || null,date:item.date || item.publishedAt || null,scopeLabel:type==='profile'?'주최사에 등록된 업체 소개 · 실물 출품 확인 아님':materialScope(data,item),note:item.note || arr(item.notes).join(' '),rightsLabel:item.rights?.license || (item.rights?.status==='link_only'||item.rights?.status==='link-only'?'원문 열람 링크':'')};
+}
+function uniqueMaterials(rows) {
+  const seen=new Set();
+  return rows.filter(Boolean).sort((a,b)=>materialRank[a.type]-materialRank[b.type]).filter(item=>{if(seen.has(item.url))return false;seen.add(item.url);return true;});
+}
+/** Displayable resources are not counted as photographs or as event participation proof. */
+export function companyMaterials(data, company) {
+  const catalogs=companyCatalogs(data,company).map(item=>materialRecord(data,item,catalogMaterialType(item)));
+  const sources=companySources(data,company);
+  const official=sources.map(source=>{const type=sourceMaterialType(source);return type?materialRecord(data,source,type):null;}).filter(Boolean);
+  const profiles=arr(company?.profileUrls).map((url,index)=>materialRecord(data,{id:`${company.id}-profile-${index}`,url,title:`${companyName(company,data)} · 공식 참가업체 소개`,publisher:eventName(data)},'profile'));
+  const preferred=uniqueMaterials([...catalogs,...official,...profiles]);
+  if(preferred.length)return preferred;
+  return uniqueMaterials(sources.slice(0,2).map(source=>materialRecord(data,source,'evidence')));
+}
+export function productMaterials(data, company, product) {
+  const ids=new Set([...arr(product.sourceIds),...arr(product.narrative?.eventEvidenceSourceIds),...arr(product.narrative?.generalSourceIds),...arr(product.narrative?.sections).flatMap(section=>arr(section.sourceIds))]);
+  const companyCatalogRows=companyCatalogs(data,company);
+  const catalogs=companyCatalogRows.filter(item=>arr(item.productIds).includes(product.id) || (!arr(item.productIds).length && arr(item.sourceIds).some(id=>ids.has(id)))).map(item=>materialRecord(data,item,catalogMaterialType(item)));
+  const sources=productSources(data,product).filter(source=>ids.has(source.id));
+  const official=sources.map(source=>{const type=sourceMaterialType(source);return type?materialRecord(data,source,type):null;}).filter(Boolean);
+  const exact=uniqueMaterials([...catalogs,...official]);
+  if(exact.length)return exact.map(item=>({...item,association:'product'}));
+  const companyFallback=items=>items.map(item=>({...item,association:'company',scopeLabel:'업체 공통자료 · 개별 장비 일치 미확인'}));
+  const commonCatalogs=uniqueMaterials(companyCatalogRows.filter(item=>!arr(item.productIds).length).map(item=>materialRecord(data,item,catalogMaterialType(item))));
+  if(commonCatalogs.length)return companyFallback(commonCatalogs);
+  const evidence=uniqueMaterials(sources.slice(0,2).map(source=>materialRecord(data,source,'evidence')));
+  if(evidence.length)return evidence.map(item=>({...item,association:'product'}));
+  return companyFallback(companyMaterials(data,company).filter(item=>!arr(item.productIds).length && !['pdf','catalog','product'].includes(item.type)).slice(0,2));
+}
+function materialsMarkup(materials,{print=false,product=false}={}) {
+  if(!materials.length)return '';
+  const card=item=>`<article class="fn-material-card" data-material-type="${item.type}"${item.association?` data-material-association="${item.association}"`:''}><span class="fn-material-type">${escapeHTML(item.label)}</span><h4>${link(item.url,item.type==='evidence'&&product?`${item.publisher || '연결된'} 원문자료`:item.title)}</h4><small>${escapeHTML([item.publisher,item.date].filter(Boolean).join(' · '))}</small><p class="fn-material-scope">${escapeHTML(item.scopeLabel)}</p>${item.note?`<p class="fn-material-note">${escapeHTML(item.note)}</p>`:''}${item.rightsLabel?`<small>${escapeHTML(item.rightsLabel)}</small>`:''}${link(item.url,item.type==='pdf'?'PDF 원문 열기 ↗':'자료 원문 열기 ↗','fn-material-open')}${print?`<small class="fn-print-url">${escapeHTML(item.url)}</small>`:''}</article>`;
+  const limit=product?3:4;
+  return `<section class="fn-materials${product?' fn-product-materials':''}" aria-label="${product?'장비 관련자료':'업체 공개자료'}"><div class="fn-materials-heading"><h3>${product?'장비 관련자료':'사진·장비를 더 볼 수 있는 공개자료'}</h3><p>${product?'제품 연결 자료와 업체 공통자료를 구분해 제공합니다.':'제품 소개와 카탈로그를 원문에서 확인하세요. PDF는 원문 뷰어에서 저장할 수 있습니다.'}</p></div><div class="fn-material-grid">${materials.slice(0,print?materials.length:limit).map(card).join('')}</div>${!print&&materials.length>limit?`<details class="fn-more-materials"><summary>공개자료 ${materials.length-limit}개 더 보기</summary><div class="fn-material-grid">${materials.slice(limit).map(card).join('')}</div></details>`:''}</section>`;
 }
 const eventName = data => { const name=data?.event?.name || data?.event?.title || data?.event?.id || ''; const year=data?.event?.year; return year && !String(name).includes(String(year)) ? `${name} ${year}` : name; };
 const companyName = (company,data) => getCompanyEditorial(data,company)?.displayName || company?.displayName || arr(company?.aliases).find(name=>/[가-힣]/.test(name)) || company?.name || '업체';
@@ -80,11 +134,14 @@ const boothSummary = (data, company) => arr(company?.boothIds).map(id => byId(da
 const canLocate = (data, company) => arr(data?.mapGeometries).some(geometry => arr(company?.boothIds).includes(geometry.boothId));
 const companyNarrativeProducts = (data,company) => arr(data?.products).filter(product=>arr(company?.productIds).includes(product.id)&&product.narrative?.eventId===data?.event?.id&&arr(product.narrative?.eventEvidenceSourceIds).length);
 const caseReason = (data, company) => getCompanyEditorial(data, company)?.reason || company?.relevanceNote || (companyNarrativeProducts(data,company).length ? companyNarrativeProducts(data,company).slice(0,3).map(product=>product.name).join(' · ')+'의 전시 형상과 공개 설명을 살펴봅니다.' : company?.sourceLabelStatus === 'needs_review' ? '공식 배치도에 적힌 명칭입니다. 원문 표기 재확인이 필요합니다.' : company?.status === 'listed' ? '참가 자료에 등재된 업체입니다. 이번 회차의 실제 출품품목은 아직 확인하지 못했습니다.' : company?.status === 'planned' ? '업체의 참가 예정 발표가 있습니다. 이번 회차의 실제 출품품목은 아직 확인하지 못했습니다.' : '기존 조사자료에 연결된 업체입니다. 이번 회차 참가·출품 근거는 재확인이 필요합니다.');
+const isNonPhotoMedia = photo => ['illustration','promotional','rendering'].includes(photo?.mediaType);
+const mediaContextLabel = (photo,currentEvent=photo.context==='event') => isNonPhotoMedia(photo)?({illustration:'제조사 참고이미지·도해',promotional:'제조사 홍보이미지',rendering:'제조사 렌더링 이미지'})[photo.mediaType]:currentEvent?'해당 회차 현장':'관련 참고사진';
+const referenceGroupLabel = photos => photos.length && photos.every(isNonPhotoMedia)?'제품 참고이미지':photos.some(isNonPhotoMedia)?'제품 참고사진·이미지':'제품 참고사진';
 
 function imageMarkup(photo, index, {print = false, hero = false, currentEvent = photo.context === 'event'} = {}) {
   const src = photoUrl(photo);
-  const caption = photo.caption || '전시 자료 사진';
-  const context = currentEvent ? '해당 회차 현장' : '관련 참고사진';
+  const caption = photo.caption || (isNonPhotoMedia(photo)?'제품 참고이미지':'전시 자료 사진');
+  const context = mediaContextLabel(photo,currentEvent);
   const image = src ? `<img src="${escapeHTML(src)}" alt="${escapeHTML(caption)}" loading="${print || hero ? 'eager' : 'lazy'}" decoding="async"${photo.width && photo.height ? ` width="${Number(photo.width)}" height="${Number(photo.height)}"` : ''}>` : print ? '<p class="fn-note">사진 원문 링크</p>' : `<div class="fn-photo-link-only"><span>사진 원문 열람</span><small>사진은 출처에서 확인할 수 있습니다</small></div>`;
   const content = print ? photoPrintNotice(photo) || image : providerPhotoSource(photo) ? `<div class="fn-photo-open fn-photo-provider">${photoWithSourceLink(photo,image)}<button type="button" class="fn-photo-expand" data-photo-index="${index}" aria-label="${escapeHTML(caption)} 확대">${svg('expand')}</button></div>` : `<button type="button" class="fn-photo-open" data-photo-index="${index}" aria-label="${escapeHTML(caption)} 확대">${image}<span class="fn-photo-expand">${svg('expand')}</span></button>`;
   return `<figure class="fn-photo ${hero ? 'fn-photo-hero' : ''}" data-photo-id="${escapeHTML(photo.id)}">${content}<figcaption><span>${escapeHTML(caption)}</span><small>${escapeHTML([context, photo.credit || photo.author, photo.sourceDate ? `자료 날짜 ${photo.sourceDate}` : null].filter(Boolean).join(' · '))}</small>${photo.variantNote ? `<small>${escapeHTML(photo.variantNote)}</small>` : ''}${sourceUrl(photo) ? link(photo.sourceUrl,'사진 원문','fn-source-link') + (print ? `<small class="fn-print-url">${escapeHTML(sourceUrl(photo))}</small>` : '') : ''}${photoRightsMarkup(photo)}</figcaption></figure>`;
@@ -94,11 +151,16 @@ const isLogoPhoto = photo => [photo.kind,photo.type,photo.role].includes('logo')
 
 export function companyPhotoStatus(data, company) {
   const photos = companyPhotos(data,company).filter(photo => photoUrl(photo) && !isLogoPhoto(photo));
-  const eventPhotos = photos.filter(photo => isCurrentEventPhoto(data,photo));
+  const eventPhotos = photos.filter(photo => isCurrentEventPhoto(data,photo) && !isNonPhotoMedia(photo));
   if (eventPhotos.length) return {kind:'event',rank:0,label:'현장사진 있음',count:eventPhotos.length};
   const referencePhotos = photos.filter(photo => photo.context === 'reference' || photo.context === 'event');
-  if (referencePhotos.length) return {kind:'reference',rank:1,label:'제품 참고사진만 있음',count:referencePhotos.length};
-  return {kind:'none',rank:2,label:'사진 미확보',count:0};
+  if (referencePhotos.length) return {kind:'reference',rank:1,label:referencePhotos.every(isNonPhotoMedia)?'제품 참고이미지 있음':'제품 참고사진만 있음',count:referencePhotos.length};
+  const materials=companyMaterials(data,company);
+  const productMaterials=materials.filter(item=>!['profile','evidence'].includes(item.type));
+  if(productMaterials.length)return {kind:'material',rank:2,label:'카탈로그·제품자료 있음',count:0,materialCount:productMaterials.length};
+  if(materials.some(item=>item.type==='profile'))return {kind:'profile',rank:3,label:'공식 업체정보 있음',count:0,materialCount:materials.length};
+  if(materials.length)return {kind:'evidence',rank:4,label:'관련 원문자료 있음',count:0,materialCount:materials.length};
+  return {kind:'none',rank:5,label:'사진 미확보',count:0};
 }
 
 export function sortCompaniesByPhotos(data, companies) {
@@ -113,7 +175,7 @@ function galleryMarkup(photos, {print = false, allPhotos = photos, data = null} 
   const shown=field.filter(({photo})=>photoUrl(photo));
   const linked=field.filter(({photo})=>!photoUrl(photo));
   const reference=rows.filter(row=>!field.includes(row));
-  if(print)return `${field.length?'<h4>해당 회차 현장사진</h4>':''}<div class="fn-photo-gallery fn-photo-gallery-print">${field.map(({photo,index})=>imageMarkup(photo,index,{print:true})).join('')}</div>${reference.length?'<h4 class="fn-reference-heading">제품 참고사진 · 해당 회차 현장사진 아님</h4><p class="fn-note">아래 사진은 이번 회차 전시 근거와 구분해 읽어야 합니다.</p>':''}<div class="fn-photo-gallery fn-photo-gallery-print">${reference.map(({photo,index})=>imageMarkup(photo,index,{print:true,currentEvent:false})).join('')}</div>`;
+  if(print)return `${field.length?'<h4>해당 회차 현장사진</h4>':''}<div class="fn-photo-gallery fn-photo-gallery-print">${field.map(({photo,index})=>imageMarkup(photo,index,{print:true})).join('')}</div>${reference.length?`<h4 class="fn-reference-heading">${referenceGroupLabel(reference.map(row=>row.photo))} · 해당 회차 현장사진 아님</h4><p class="fn-note">아래 자료는 이번 회차 전시 근거와 구분해 읽어야 합니다.</p>`:''}<div class="fn-photo-gallery fn-photo-gallery-print">${reference.map(({photo,index})=>imageMarkup(photo,index,{print:true,currentEvent:false})).join('')}</div>`;
   const thumbnail=({photo,index})=>{
     const label=escapeHTML(photo.caption||'사진'),shortLabel=escapeHTML((photo.caption||'사진 자료').split(' — ').at(-1)),image=photoUrl(photo)?`<img src="${escapeHTML(photoUrl(photo))}" alt="${label}" loading="lazy" decoding="async">`:'<span class="fn-thumbnail-linked">원문 열람</span>';
     if(providerPhotoSource(photo))return `<div class="fn-photo-thumbnail fn-photo-thumbnail-provider">${photoWithSourceLink(photo,image)}<button type="button" class="fn-photo-thumbnail-expand" data-photo-index="${index}" aria-label="${label} 확대"><span>${shortLabel}</span><small>확대 보기 ↗</small></button></div>`;
@@ -121,11 +183,11 @@ function galleryMarkup(photos, {print = false, allPhotos = photos, data = null} 
   };
   const fallback=shown.length?[]:reference.filter(({photo})=>photoUrl(photo));
   const primary=shown.length?shown:fallback;
-  const hero=primary.length?`${fallback.length?'<p class="fn-reference-heading">제품 참고사진 · 해당 회차 현장사진 아님</p>':''}${imageMarkup(primary[0].photo,primary[0].index,{hero:true,currentEvent:!fallback.length})}`:'';
-  const strip=primary.length>1?`<div class="fn-photo-strip" aria-label="${fallback.length?'추가 제품 참고사진':'추가 현장사진'}">${primary.slice(1).map(thumbnail).join('')}</div>`:'';
+  const hero=primary.length?`${fallback.length?`<p class="fn-reference-heading">${referenceGroupLabel(fallback.map(row=>row.photo))} · 해당 회차 현장사진 아님</p>`:''}${imageMarkup(primary[0].photo,primary[0].index,{hero:true,currentEvent:!fallback.length})}`:'';
+  const strip=primary.length>1?`<div class="fn-photo-strip" aria-label="${fallback.length?'추가 '+referenceGroupLabel(fallback.map(row=>row.photo)):'추가 현장사진'}">${primary.slice(1).map(thumbnail).join('')}</div>`:'';
   const linkedList=linked.length?`<div class="fn-linked-photos"><h4>현장사진 원문 <span>${linked.length}</span></h4><ul>${linked.map(({photo,index})=>`<li><button type="button" data-photo-index="${index}">${escapeHTML(photo.caption||'현장사진 원문')}</button>${sourceUrl(photo)?link(photo.sourceUrl,'원문 열기'):''}</li>`).join('')}</ul></div>`:'';
   const remaining=reference.filter(row=>!fallback.includes(row));
-  const references=remaining.length?`<details class="fn-reference-photos"><summary>비교 참고사진 · 다른 회차/훈련 (${remaining.length})</summary><p class="fn-note">이번 회차의 출품 근거와 구분해 보관한 사진입니다.</p><div class="fn-photo-strip" aria-label="비교 참고사진">${remaining.map(thumbnail).join('')}</div></details>`:'';
+  const references=remaining.length?`<details class="fn-reference-photos"><summary>${referenceGroupLabel(remaining.map(row=>row.photo)).replace('제품','비교')} · ${remaining.some(row=>isNonPhotoMedia(row.photo))?'다른 회차/일반자료':'다른 회차/훈련'} (${remaining.length})</summary><p class="fn-note">이번 회차의 출품 근거와 구분해 보관한 자료입니다.</p><div class="fn-photo-strip" aria-label="${referenceGroupLabel(remaining.map(row=>row.photo)).replace('제품','비교')}">${remaining.map(thumbnail).join('')}</div></details>`:'';
   return `<div class="fn-photo-gallery">${hero}${strip}${linkedList}${references}</div>`;
 }
 function sourcesMarkup(sources, catalogs, {print = false} = {}) {
@@ -176,6 +238,7 @@ export function productPhotos(data, company, product, photos=companyPhotos(data,
 function productMarkup(data, company, product, photos, {print=false,productId=null}={}) {
   const narrative=product.narrative || {}, sources=productSources(data,product);
   const gallery=productPhotos(data,company,product,photos);
+  const materials=productMaterials(data,company,product);
   const eventIds=arr(narrative.eventEvidenceSourceIds), generalIds=arr(narrative.generalSourceIds);
   const allIds=[...new Set([...eventIds,...generalIds,...arr(product.sourceIds),...arr(narrative.sections).flatMap(item=>arr(item.sourceIds))])];
   const allSources=numberedProductSources(data,sources,allIds,eventIds,generalIds);
@@ -194,7 +257,7 @@ function productMarkup(data, company, product, photos, {print=false,productId=nu
   if(!critical.some(text=>/단일/.test(text)) && eventSources.length===1 && eventSources[0].evidenceStatuses.some(status=>['single_source','primary_single_origin'].includes(status)))critical.push('출품 설명은 발행사 단일 근거입니다.');
   const detailBody=(otherLimits.length?`<div class="fn-product-limits"><h4>추가 확인 범위</h4>${list(otherLimits)}</div>`:'')+(allSources.length?sourcesMarkup(allSources,[],{print}):'');
   const form=narrative.form || product.form || '전시 형상 미확인';
-  return `<article class="fn-product${product.id===productId?' fn-product-selected':''}" id="product-${escapeHTML(product.id)}" data-product-id="${escapeHTML(product.id)}" tabindex="-1"><header class="fn-product-heading"><div><p class="fn-product-form">${escapeHTML(form)}</p><h3>${escapeHTML(product.name)}</h3><p class="fn-product-status">${escapeHTML((!product.exhibitStatus||product.exhibitStatus==='unconfirmed')&&eventIds.length?'해당 회차 출품 관련 원문 확보 · 형상 설명 참조':exhibitStatusLabel(product.exhibitStatus))}</p></div>${print?'':`<button type="button" class="fn-product-permalink" data-product-link="${escapeHTML(product.id)}" aria-label="${escapeHTML(product.name)} 장비 링크 열기">장비 링크 ↗</button>`}</header><div class="fn-product-layout"><div class="fn-product-photos">${gallery.some(photo=>isCurrentEventPhoto(data,photo)&&photoUrl(photo))?'':'<p class="fn-photo-unavailable">이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.</p>'}${gallery.length?galleryMarkup(gallery,{print,allPhotos:photos,data}):''}</div><div class="fn-product-copy">${sections}${critical.length?`<aside class="fn-product-critical" aria-label="주요 확인 범위">${list(critical)}</aside>`:''}${detailBody?section('상세 출처와 확인 범위',detailBody,{print}):''}</div></div></article>`;
+  return `<article class="fn-product${product.id===productId?' fn-product-selected':''}" id="product-${escapeHTML(product.id)}" data-product-id="${escapeHTML(product.id)}" tabindex="-1"><header class="fn-product-heading"><div><p class="fn-product-form">${escapeHTML(form)}</p><h3>${escapeHTML(product.name)}</h3><p class="fn-product-status">${escapeHTML((!product.exhibitStatus||product.exhibitStatus==='unconfirmed')&&eventIds.length?'해당 회차 출품 관련 원문 확보 · 형상 설명 참조':exhibitStatusLabel(product.exhibitStatus))}</p></div>${print?'':`<button type="button" class="fn-product-permalink" data-product-link="${escapeHTML(product.id)}" aria-label="${escapeHTML(product.name)} 장비 링크 열기">장비 링크 ↗</button>`}</header><div class="fn-product-layout"><div class="fn-product-photos">${gallery.some(photo=>isCurrentEventPhoto(data,photo)&&photoUrl(photo))?'':`<p class="fn-photo-unavailable${materials.length?' fn-photo-unavailable-with-material':''}">이 장비의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.</p>`}${gallery.length?galleryMarkup(gallery,{print,allPhotos:photos,data}):''}${materialsMarkup(materials,{print,product:true})}</div><div class="fn-product-copy">${sections}${critical.length?`<aside class="fn-product-critical" aria-label="주요 확인 범위">${list(critical)}</aside>`:''}${detailBody?section('상세 출처와 확인 범위',detailBody,{print}):''}</div></div></article>`;
 }
 function editorialSections(data, company, editorial, {print = false} = {}) {
   const exhibit = editorial.exhibit || {};
@@ -205,7 +268,7 @@ function editorialSections(data, company, editorial, {print = false} = {}) {
   const comparison = compared + (distinction.comparator ? `<dl class="fn-facts"><div><dt>비교 대상</dt><dd>${escapeHTML(distinction.comparator)}</dd></div>${distinction.conditions ? `<div><dt>비교 조건</dt><dd>${escapeHTML(Array.isArray(distinction.conditions) ? distinction.conditions.join(' · ') : distinction.conditions)}</dd></div>` : ''}</dl>` : '');
   const direction = editorial.direction || {};
   const development = paragraph(direction.observation) + (direction.interpretation ? `<p class="fn-interpretation">${escapeHTML(direction.interpretation)}</p>` : '');
-  const exhibitHeading = items.length && items.every(item=>item.status==='background_reference') ? '제품 참고자료' : '이번 전시에서 보여준 것';
+  const exhibitHeading = (items.length?items.every(item=>item.status==='background_reference'):companyMaterials(data,company).length>0) ? '제품 참고자료' : '이번 전시에서 보여준 것';
   return readingSection(exhibitHeading,exhibited) + readingSection('차별점과 비교 조건',comparison) + readingSection('개발 방향 해석',development) + (arr(editorial.followUps).length?readingSection('공개자료의 확인 범위',list(editorial.followUps)):'') + section('근거와 원문 자료',sourcesMarkup(companySources(data,company),companyCatalogs(data,company),{print}),{print});
 }
 function basicSections(data, company, {print = false} = {}) {
@@ -239,12 +302,13 @@ export function companyPanelMarkup(data, company, {print = false, productId = nu
   const booths = boothSummary(data,company);
   const title = companyName(company,data);
   const countries=arr(company.countries || company.countryNames);
+  const materials=companyMaterials(data,company);
   const header = `<header class="fn-detail-head"><div class="fn-detail-kicker">${escapeHTML(eventName(data))}</div><div class="fn-detail-title"><h2>${escapeHTML(title)}</h2>${print ? '' : '<button type="button" class="fn-icon-button" data-detail-action="close" aria-label="업체 패널 닫기">'+svg('close')+'</button>'}</div>${booths ? `<p class="fn-booth-label">${escapeHTML(booths)}</p>` : '<p class="fn-booth-label">지도 좌표 미확인 · 업체 목록에서 탐색</p>'}${countries.length ? `<p class="fn-note fn-company-country">국가 표기 · ${escapeHTML(countries.join(' · '))}</p>` : ''}${company.sourceLabelStatus === 'needs_review' ? '<p class="fn-note">원문 업체명 재확인이 필요합니다</p>' : ''}${!editorial&&!companyNarrativeProducts(data,company).length ? '<span class="fn-evidence-status">실제 전시품목 미확인</span>' : ''}<p class="fn-company-judgment">${escapeHTML(caseReason(data,company))}</p>${list(arr(editorial?.highlights),'fn-key-points')}${editorial?.verificationNote ? `<p class="fn-note fn-case-conditions">${escapeHTML(editorial.verificationNote)}</p>` : ''}</header>`;
   const actions = print ? '' : `<div class="fn-detail-actions">${canLocate(data,company) ? `<button type="button" data-detail-action="locate">${svg('pin')}지도에서 보기</button>` : ''}<button type="button" data-detail-action="report">전시회 종합보고 ↗</button><button type="button" data-detail-action="compare">${svg('compare')}비교에 담기</button><button type="button" data-detail-action="print">${svg('print')}상세 PDF로 저장</button></div>`;
   const navigation = !print && products.length ? `<nav class="fn-product-nav" aria-label="장비 바로가기">${products.map(product=>`<button type="button" data-product-link="${escapeHTML(product.id)}"${product.id===productId?' aria-current="location"':''}>${escapeHTML(product.name)}</button>`).join('')}</nav>` : '';
-  const gallery = `<section class="fn-company-photos"><h3>${overviewPhoto?'전시 현장':'업체·제품 사진'}</h3>${overviewPhoto?'':'<p class="fn-photo-unavailable">이 업체의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.</p>'}${companyGallery.length?galleryMarkup(companyGallery,{print,allPhotos:photos,data}):''}</section>`;
+  const gallery = `<section class="fn-company-photos"><h3>${overviewPhoto?'전시 현장':'업체·제품 사진'}</h3>${overviewPhoto?'':`<p class="fn-photo-unavailable${materials.length?' fn-photo-unavailable-with-material':''}">이 업체의 해당 회차 표시 가능한 현장사진을 아직 확보하지 못했습니다.</p>`}${companyGallery.length?galleryMarkup(companyGallery,{print,allPhotos:photos,data}):''}</section>`;
   const equipment = `<section class="fn-equipment-section"><header class="fn-equipment-heading"><h3>장비 사진과 설명</h3><p>해당 회차 출품 형상과 공개자료를 함께 확인합니다.</p></header>${navigation}${products.length?products.map(product=>productMarkup(data,company,product,photos,{print,productId})).join(''):'<p class="fn-note">연결된 장비별 출품자료가 아직 없습니다. 업체 정보와 원문 자료는 계속 확인할 수 있습니다.</p>'}</section>`;
-  return `<article class="fn-company-detail" data-company-id="${escapeHTML(company.id)}">${header}${actions}${gallery}${equipment}<div class="fn-company-body">${editorial ? editorialSections(data,company,editorial,{print}) : basicSections(data,company,{print})}</div>${print ? '' : '<div class="fn-action-feedback" aria-live="polite"></div>'}</article>`;
+  return `<article class="fn-company-detail" data-company-id="${escapeHTML(company.id)}">${header}${actions}${materialsMarkup(materials,{print})}${gallery}${equipment}<div class="fn-company-body">${editorial ? editorialSections(data,company,editorial,{print}) : basicSections(data,company,{print})}</div>${print ? '' : '<div class="fn-action-feedback" aria-live="polite"></div>'}</article>`;
 }
 function attachImageFallback(container) {
   const handlers = [];
@@ -303,7 +367,7 @@ export function openPhotoViewer({photos = [],index = 0,onClose,onIndexChange,doc
   let fallbackCleanup=()=>{};
   const draw=()=>{
     const photo=photos[current],src=photoUrl(photo);
-    dialog.innerHTML=`<div class="fn-viewer-toolbar"><span>사진 ${current+1} / ${photos.length}</span><div>${sourceUrl(photo)?link(photo.sourceUrl,'사진 원문'):''}<button type="button" class="fn-icon-button" data-viewer="close" aria-label="사진 닫기">${svg('close')}</button></div></div><div class="fn-viewer-stage">${photos.length>1?`<button type="button" class="fn-viewer-arrow fn-viewer-prev" data-viewer="prev" aria-label="이전 사진"${current===0?' disabled':''}>${svg('left')}</button>`:''}<div class="fn-viewer-image">${src?photoWithSourceLink(photo,`<img src="${escapeHTML(src)}" alt="${escapeHTML(photo.caption||'전시 사진')}" decoding="async">`):`<div class="fn-viewer-linked"><h3>사진 원문에서 열람</h3><p>이 사진은 출처 페이지에서 확인할 수 있습니다.</p>${sourceUrl(photo)?link(photo.sourceUrl,'사진 원문 열기','fn-primary-link'):'<p>원문 링크를 확인하고 있습니다.</p>'}</div>`}</div>${photos.length>1?`<button type="button" class="fn-viewer-arrow fn-viewer-next" data-viewer="next" aria-label="다음 사진"${current===photos.length-1?' disabled':''}>${svg('right')}</button>`:''}</div><footer class="fn-viewer-caption"><p>${escapeHTML(photo.caption||'전시 자료 사진')}</p><small>${escapeHTML([photo.context==='event'?'해당 회차 현장':'관련 참고사진',photo.credit,photo.sourceDate ? `자료 날짜 ${photo.sourceDate}` : null].filter(Boolean).join(' · '))}</small>${photo.variantNote?`<small>${escapeHTML(photo.variantNote)}</small>`:''}${photoRightsMarkup(photo)}</footer>`;
+    dialog.innerHTML=`<div class="fn-viewer-toolbar"><span>사진 ${current+1} / ${photos.length}</span><div>${sourceUrl(photo)?link(photo.sourceUrl,'사진 원문'):''}<button type="button" class="fn-icon-button" data-viewer="close" aria-label="사진 닫기">${svg('close')}</button></div></div><div class="fn-viewer-stage">${photos.length>1?`<button type="button" class="fn-viewer-arrow fn-viewer-prev" data-viewer="prev" aria-label="이전 사진"${current===0?' disabled':''}>${svg('left')}</button>`:''}<div class="fn-viewer-image">${src?photoWithSourceLink(photo,`<img src="${escapeHTML(src)}" alt="${escapeHTML(photo.caption||'전시 사진')}" decoding="async">`):`<div class="fn-viewer-linked"><h3>사진 원문에서 열람</h3><p>이 사진은 출처 페이지에서 확인할 수 있습니다.</p>${sourceUrl(photo)?link(photo.sourceUrl,'사진 원문 열기','fn-primary-link'):'<p>원문 링크를 확인하고 있습니다.</p>'}</div>`}</div>${photos.length>1?`<button type="button" class="fn-viewer-arrow fn-viewer-next" data-viewer="next" aria-label="다음 사진"${current===photos.length-1?' disabled':''}>${svg('right')}</button>`:''}</div><footer class="fn-viewer-caption"><p>${escapeHTML(photo.caption||'전시 자료 사진')}</p><small>${escapeHTML([mediaContextLabel(photo),photo.credit,photo.sourceDate ? `자료 날짜 ${photo.sourceDate}` : null].filter(Boolean).join(' · '))}</small>${photo.variantNote?`<small>${escapeHTML(photo.variantNote)}</small>`:''}${photoRightsMarkup(photo)}</footer>`;
     fallbackCleanup();fallbackCleanup=attachImageFallback(dialog);
   };
   const updateIndex=(next,{notify=true}={})=>{const value=Math.max(0,Math.min(photos.length-1,Number(next)||0));if(value===current)return;const focusAction=doc.activeElement?.dataset?.viewer || 'close';current=value;draw();const focusTarget=dialog.querySelector('[data-viewer="'+focusAction+'"]:not([disabled])') || dialog.querySelector('[data-viewer="close"]');focusTarget?.focus();if(notify)onIndexChange?.(current,photos[current]);};

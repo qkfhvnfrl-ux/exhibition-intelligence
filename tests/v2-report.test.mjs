@@ -7,6 +7,7 @@ import {escapeHTML} from '../src/v2/details.js';
 const readEvent=id=>readFile(new URL(`../data/v2/app/events/${id}.json`,import.meta.url),'utf8').then(JSON.parse);
 const adex=await readEvent('adex-2025');
 const laterEvents=await Promise.all(['eurosatory-2026','dsei-2025','idex-2025','saha-2026'].map(readEvent));
+const firstReportPhoto=data=>data.photos.find(photo=>data.report.themes.some(theme=>theme.photoId===photo.id)&&photo.src);
 function fallbackFixture(data){
  const fixture=structuredClone(data);
  fixture.report=null;
@@ -56,7 +57,7 @@ test('every displayed report photo keeps its original and rights links on screen
 });
 
 test('provider-hosted report photographs link from the screen image and retain a credited source notice in PDF',()=>{
- const data=structuredClone(adex),photo=data.photos.find(photo=>photo.id===data.report.themes[0].photoId);
+ const data=structuredClone(adex),photo=firstReportPhoto(data);
  photo.src='https://live.staticflickr.com/65535/123_example_b.jpg';photo.sourceUrl='https://www.flickr.com/photos/example/123/';photo.delivery='remote';photo.rights={status:'provider-embed',license:'All Rights Reserved'};
  for(const print of [false,true]){
   const markup=eventReportMarkup(data,{print});
@@ -90,8 +91,32 @@ test('a report reference fallback requires the same company and product and neve
  reference.productIds=['unrelated'];assert.ok(!eventReportMarkup(data).includes(reference.src));
 });
 
+test('a missing report photograph offers a matched PDF without borrowing an unrelated product photograph',()=>{
+ const data=structuredClone(adex),theme=data.report.themes[0],company=data.companies.find(row=>row.id===theme.companyId);
+ theme.photoId='';data.photos=data.photos.filter(photo=>!photo.productIds.includes(theme.productId));
+ data.catalogs.push({id:'report-product-catalog',title:'장비 제조사 카탈로그',url:'https://example.org/product.pdf',documentType:'pdf',productIds:[theme.productId],sourceIds:[],scope:'general',rights:{status:'link_only'}});
+ company.catalogIds.push('report-product-catalog');
+ for(const print of [false,true]){
+  const html=eventReportMarkup(data,{print});
+  assert.match(html,/class="report-material-link" href="https:\/\/example.org\/product.pdf"/);
+  assert.match(html,/PDF 원문 열기/);assert.match(html,/장비 사진 미확보/);
+  assert.match(html,/장비 제조사 카탈로그/);
+ }
+ data.catalogs.find(row=>row.id==='report-product-catalog').productIds=['unrelated'];
+ assert.doesNotMatch(eventReportMarkup(data),/href="https:\/\/example.org\/product.pdf"/);
+});
+
+test('authored reports lead with competitors and preserve the Hanwha roadmap evidence boundary',()=>{
+ for(const data of [adex,...laterEvents])assert.notEqual(data.report.themes[0].companyId,'org-bb5b014b7abb0359c75b');
+ assert.equal(adex.report.themes[0].companyId,'org-c919e0346aa5a11fd7a0');
+ assert.equal(adex.report.themes[0].productId,'k9a3');
+ assert.match(adex.report.themes[0].summary,/발전 로드맵/);
+ assert.match(adex.report.themes[0].before,/대조 보류/);
+ assert.ok(adex.report.themes[0].sourceIds.includes('source-a054039a60d396e259d2'));
+});
+
 test('photo-only source IDs join report evidence and duplicate URLs receive one compact citation',()=>{
- const data=structuredClone(adex),photo=data.photos.find(photo=>photo.id===data.report.themes[0].photoId);
+ const data=structuredClone(adex),photo=firstReportPhoto(data);
  const url='https://example.org/photo-evidence?event=2025&view=original',title='사진에만 연결된 현장 원문';
  data.sources.push({id:'photo-only-source',url,title,publisher:'촬영기관',publishedAt:'2025-10-20'});
  data.sources.push({id:'same-photo-origin',url,title:'동일 원문'});
@@ -107,7 +132,7 @@ test('photo-only source IDs join report evidence and duplicate URLs receive one 
 });
 
 test('unsafe photo references and rights URLs cannot become screen or PDF links',()=>{
- const data=structuredClone(adex),photo=data.photos.find(photo=>photo.id===data.report.themes[0].photoId);
+ const data=structuredClone(adex),photo=firstReportPhoto(data);
  photo.sourceUrl='javascript:alert(1)';photo.rights.licenseUrl='data:text/html,unsafe';
  photo.rights.license='<img src=x onerror="alert(1)">';
  for(const print of [false,true]){
@@ -118,7 +143,7 @@ test('unsafe photo references and rights URLs cannot become screen or PDF links'
 });
 
 test('long captions and limitations remain complete in compact print markup',()=>{
- const data=structuredClone(adex),photo=data.photos.find(photo=>photo.id===data.report.themes[0].photoId);
+ const data=structuredClone(adex),photo=firstReportPhoto(data);
  const caption='현장사진의 구성과 확인 한계를 설명하는 긴 문장입니다. '.repeat(12)+'캡션 마지막 문장';
  const limitation='비교 근거와 적용 조건을 모두 검토해야 합니다. '.repeat(8)+'한계 마지막 문장';
  photo.caption=caption;data.report.limitations=[limitation];
@@ -261,7 +286,7 @@ test('report text, attributes and source URLs cannot inject markup or executable
  const data=structuredClone(adex),payload='<img src=x onerror="alert(1)">';
  Object.assign(data.report,{title:payload,message:payload,scopeNote:payload,comparisonEvent:payload,comparisonNote:payload,interpretation:payload,limitations:[payload]});
  data.report.themes[0].title=payload;data.report.themes[0].summary=payload;data.report.themes[0].before=payload;data.report.themes[0].after=payload;
- data.photos.find(photo=>photo.id===data.report.themes[0].photoId).caption=payload;
+ firstReportPhoto(data).caption=payload;
  data.sources.push({id:'unsafe',url:'javascript:alert(1)',title:payload});data.report.sourceIds.push('unsafe');
  const container=containerFor();const cleanup=renderEventReport(container,{data});
  assert.doesNotMatch(container.innerHTML,/<img src=x|href="javascript:/);

@@ -161,6 +161,54 @@
           "independence": "primary_single_origin",
           "eventId": null,
           "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "material-mnc-k2",
+          "url": "https://www.mncsolution.com/kr/products/defense/turret/k2",
+          "title": "MNC K2 전기식 포·포탑 구동장치 — 공식 제품 사진·설명",
+          "publisher": "MNC Solution",
+          "role": "manufacturer_product_page",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "제조사 일반 제품 형상·구성 자료. ADEX 전시품 사진과 구분합니다."
+        },
+        {
+          "id": "material-mnc-isu",
+          "url": "https://www.mncsolution.com/kr/products/defense/suspension",
+          "title": "MNC 현수장치 — LAND400 ISU 형상 포함",
+          "publisher": "MNC Solution",
+          "role": "manufacturer_product_page",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "LAND400용 ISU를 포함한 제품군 비교 자료. 전시회 당시 개별 전시품 형상의 증거가 아닙니다."
+        },
+        {
+          "id": "material-mnc-servo",
+          "url": "https://www.mncsolution.com/kr/products/defense/servo",
+          "title": "MNC 서보밸브 — 공식 제품 자료",
+          "publisher": "MNC Solution",
+          "role": "manufacturer_product_page",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "서보밸브 제품군 참고. ADEX 전시품의 정확한 모델은 미확인입니다."
+        },
+        {
+          "id": "material-mnc-catalog",
+          "url": "https://www.mncsolution.com/download/MNC_%EC%86%94%EB%A3%A8%EC%85%98_%EC%B9%B4%EB%8B%AC%EB%A1%9C%EA%B7%B8_KOR.pdf",
+          "title": "MNC 솔루션 종합 카탈로그 PDF",
+          "publisher": "MNC Solution",
+          "role": "manufacturer_catalog",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "공식 종합 카탈로그. 포탑 구동·현수장치·서보밸브 등 제품군을 확인할 수 있습니다. 약 12 MB."
         }
       ],
       "photos": [
@@ -187,7 +235,90 @@
           "variantNote": "원본을 직접 시각 확인했습니다. 회사 부스와 여러 전시품은 보이지만 표찰이 불명확해 개별 제품사진으로 연결하지 않습니다. 우측 9B는 전시장 벽 표기이며 부스번호로 해석하지 않습니다."
         }
       ],
-      "catalogs": [],
+      "catalogs": [
+        {
+          "id": "material-mnc-k2",
+          "title": "MNC K2 전기식 포·포탑 구동장치 — 공식 제품 사진·설명",
+          "url": "https://www.mncsolution.com/kr/products/defense/turret/k2",
+          "publisher": "MNC Solution",
+          "sourceIds": [
+            "material-mnc-k2"
+          ],
+          "productIds": [
+            "adex25-mnc-k2-electric-drive"
+          ],
+          "scope": "general",
+          "documentType": "product_page",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "제조사 일반 제품 형상·구성 자료. ADEX 전시품 사진과 구분합니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        },
+        {
+          "id": "material-mnc-isu",
+          "title": "MNC 현수장치 — LAND400 ISU 형상 포함",
+          "url": "https://www.mncsolution.com/kr/products/defense/suspension",
+          "publisher": "MNC Solution",
+          "sourceIds": [
+            "material-mnc-isu"
+          ],
+          "productIds": [
+            "adex25-mnc-redback-isu"
+          ],
+          "scope": "general",
+          "documentType": "product_page",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "LAND400용 ISU를 포함한 제품군 비교 자료. 전시회 당시 개별 전시품 형상의 증거가 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        },
+        {
+          "id": "material-mnc-servo",
+          "title": "MNC 서보밸브 — 공식 제품 자료",
+          "url": "https://www.mncsolution.com/kr/products/defense/servo",
+          "publisher": "MNC Solution",
+          "sourceIds": [
+            "material-mnc-servo"
+          ],
+          "productIds": [
+            "adex25-mnc-servo-valve"
+          ],
+          "scope": "general",
+          "documentType": "product_page",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "서보밸브 제품군 참고. ADEX 전시품의 정확한 모델은 미확인입니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        },
+        {
+          "id": "material-mnc-catalog",
+          "title": "MNC 솔루션 종합 카탈로그 PDF",
+          "url": "https://www.mncsolution.com/download/MNC_%EC%86%94%EB%A3%A8%EC%85%98_%EC%B9%B4%EB%8B%AC%EB%A1%9C%EA%B7%B8_KOR.pdf",
+          "publisher": "MNC Solution",
+          "sourceIds": [
+            "material-mnc-catalog"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "documentType": "pdf",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "공식 종합 카탈로그. 포탑 구동·현수장치·서보밸브 등 제품군을 확인할 수 있습니다. 약 12 MB.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        }
+      ],
       "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
       "evidenceAsOf": "2026-11-11",
       "analysisScope": "bounded_event_case",
@@ -397,6 +528,68 @@
           "independence": "primary_single_origin",
           "eventId": "adex-2025",
           "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "material-yeonhab-vic7dk",
+          "url": "https://www.yeonhab.co.kr/fileUpload2/10_VIC-7DK-2025.pdf",
+          "title": "VIC-7DK 차량용 상호통화기 — 2025 카탈로그 PDF",
+          "publisher": "연합정밀",
+          "role": "manufacturer_catalog",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "date": "2025",
+          "limitations": "제조사 공개 제품 카탈로그이며 전시 현장사진이 아닙니다. 약 37 MB."
+        },
+        {
+          "id": "material-yeonhab-intercom",
+          "url": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=81",
+          "title": "연합정밀 VIC-7DK·차량 통신장치 공식 사진",
+          "publisher": "연합정밀",
+          "role": "manufacturer_product_page",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "VIC-7DK를 포함한 인터컴 제품군 사진·설명. 일반 제품 참고자료입니다."
+        },
+        {
+          "id": "material-yeonhab-slipring",
+          "url": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=71",
+          "title": "연합정밀 슬립링 제품군 — 공식 형상 자료",
+          "publisher": "연합정밀",
+          "role": "manufacturer_product_page",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "제품군 참고자료. 전시된 10여종의 개별 모델과 동일하다고 단정하지 않습니다."
+        },
+        {
+          "id": "material-yeonhab-connectors",
+          "url": "https://www.yeonhab.co.kr/fileUpload2/04_MIL-DTL-38999%20I%20III%20IV%20Style-2025.pdf",
+          "title": "연합정밀 MIL-DTL-38999 커넥터 카탈로그 PDF",
+          "publisher": "연합정밀",
+          "role": "manufacturer_catalog",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "date": "2025",
+          "limitations": "Series IV QPL 및 Series I·III 비QPL 제품을 구분한 자료. 모든 제품이 QPL 인증을 받았다는 뜻이 아닙니다."
+        },
+        {
+          "id": "material-yeonhab-catalogs",
+          "url": "https://www.yeonhab.co.kr/media/catalog.jsp?boardid=13",
+          "title": "연합정밀 웹 카탈로그 — 전선·인터컴·커넥터 PDF 13종",
+          "publisher": "연합정밀",
+          "role": "manufacturer_product_page",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "제조사 다운로드 목록. 개별 PDF와 중복 집계하지 않으며 전선 PDF 등 대용량 파일이 포함됩니다."
         }
       ],
       "photos": [
@@ -445,7 +638,111 @@
           "variantNote": "공동 전시 맥락 사진이며 모든 개별 제품의 모델을 식별한 것은 아닙니다. 게시일 2025-11-10, 촬영일 미기재. 공동관 출품품으로 VIC-7DK를 명시했다."
         }
       ],
-      "catalogs": [],
+      "catalogs": [
+        {
+          "id": "material-yeonhab-vic7dk",
+          "title": "VIC-7DK 차량용 상호통화기 — 2025 카탈로그 PDF",
+          "url": "https://www.yeonhab.co.kr/fileUpload2/10_VIC-7DK-2025.pdf",
+          "publisher": "연합정밀",
+          "sourceIds": [
+            "material-yeonhab-vic7dk"
+          ],
+          "productIds": [
+            "adex25-yeonhab-vic7dk"
+          ],
+          "scope": "general",
+          "documentType": "pdf",
+          "checkedAt": "2026-11-16",
+          "publishedAt": "2025",
+          "note": "제조사 공개 제품 카탈로그이며 전시 현장사진이 아닙니다. 약 37 MB.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        },
+        {
+          "id": "material-yeonhab-intercom",
+          "title": "연합정밀 VIC-7DK·차량 통신장치 공식 사진",
+          "url": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=81",
+          "publisher": "연합정밀",
+          "sourceIds": [
+            "material-yeonhab-intercom"
+          ],
+          "productIds": [
+            "adex25-yeonhab-vic7dk"
+          ],
+          "scope": "general",
+          "documentType": "product_page",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "VIC-7DK를 포함한 인터컴 제품군 사진·설명. 일반 제품 참고자료입니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        },
+        {
+          "id": "material-yeonhab-slipring",
+          "title": "연합정밀 슬립링 제품군 — 공식 형상 자료",
+          "url": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=71",
+          "publisher": "연합정밀",
+          "sourceIds": [
+            "material-yeonhab-slipring"
+          ],
+          "productIds": [
+            "adex25-yeonhab-sliprings"
+          ],
+          "scope": "general",
+          "documentType": "product_page",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "제품군 참고자료. 전시된 10여종의 개별 모델과 동일하다고 단정하지 않습니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        },
+        {
+          "id": "material-yeonhab-connectors",
+          "title": "연합정밀 MIL-DTL-38999 커넥터 카탈로그 PDF",
+          "url": "https://www.yeonhab.co.kr/fileUpload2/04_MIL-DTL-38999%20I%20III%20IV%20Style-2025.pdf",
+          "publisher": "연합정밀",
+          "sourceIds": [
+            "material-yeonhab-connectors"
+          ],
+          "productIds": [
+            "adex25-yeonhab-qpl-connectors"
+          ],
+          "scope": "general",
+          "documentType": "pdf",
+          "checkedAt": "2026-11-16",
+          "publishedAt": "2025",
+          "note": "Series IV QPL 및 Series I·III 비QPL 제품을 구분한 자료. 모든 제품이 QPL 인증을 받았다는 뜻이 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        },
+        {
+          "id": "material-yeonhab-catalogs",
+          "title": "연합정밀 웹 카탈로그 — 전선·인터컴·커넥터 PDF 13종",
+          "url": "https://www.yeonhab.co.kr/media/catalog.jsp?boardid=13",
+          "publisher": "연합정밀",
+          "sourceIds": [
+            "material-yeonhab-catalogs"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "documentType": "product_page",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "제조사 다운로드 목록. 개별 PDF와 중복 집계하지 않으며 전선 PDF 등 대용량 파일이 포함됩니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        }
+      ],
       "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
       "evidenceAsOf": "2026-11-11",
       "analysisScope": "bounded_event_case",
@@ -1212,6 +1509,43 @@
           "independence": "primary_single_origin",
           "eventId": "adex-2025",
           "checkedAt": "2026-11-11"
+        },
+        {
+          "id": "material-fiberpro-pnt",
+          "url": "https://fiberpro.co.kr/products/PNTSolutions/PNTSolutions.php",
+          "title": "FIBERPRO PNT — INS·FOG·항재밍 GNSS 공식 제품 자료",
+          "publisher": "FIBERPRO",
+          "role": "manufacturer_product_page",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "제조사 제품군 참고. ADEX 개별 전시 모델을 특정하지 않습니다."
+        },
+        {
+          "id": "material-fiberpro-fog-pdf",
+          "url": "https://www.targikielce.pl/storage/file/core_files/2026/9/3/c68796c866d9289cfefb5e4a6a21461e/FOG-based-Inertial-Sensing-Solutions.pdf",
+          "title": "FIBERPRO FOG·IMU·INS 종합 카탈로그 PDF",
+          "publisher": "FIBERPRO · MSPO 공식 참가업체 자료실",
+          "role": "manufacturer_catalog",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "date": "2025-01-15",
+          "limitations": "제조사 카탈로그 CA2025-01-15, MSPO 2026 자료실 제공. ADEX 2025 현장자료가 아닌 일반 제품 참고입니다."
+        },
+        {
+          "id": "material-fiberpro-fi180-pdf",
+          "url": "https://www.targikielce.pl/storage/file/core_files/2026/9/3/6660e44c0144aa0127b48aa5e046bc27/FI-180.pdf",
+          "title": "FIBERPRO FI-180 IMU 공식 데이터시트 PDF",
+          "publisher": "FIBERPRO · MSPO 공식 참가업체 자료실",
+          "role": "manufacturer_catalog",
+          "accessStatus": "checked",
+          "coverageScope": "general_product",
+          "editionStatus": "general",
+          "checkedAt": "2026-11-16",
+          "limitations": "업체 일반 제품 FI-180의 데이터시트. ADEX에 FI-180이 출품됐다는 증거는 아닙니다."
         }
       ],
       "photos": [
@@ -1308,7 +1642,72 @@
           "variantNote": "실제 사진을 시각 확인했습니다. 진열장 분류는 읽히지만 개별 모델 표찰은 확정하지 않았습니다."
         }
       ],
-      "catalogs": [],
+      "catalogs": [
+        {
+          "id": "material-fiberpro-pnt",
+          "title": "FIBERPRO PNT — INS·FOG·항재밍 GNSS 공식 제품 자료",
+          "url": "https://fiberpro.co.kr/products/PNTSolutions/PNTSolutions.php",
+          "publisher": "FIBERPRO",
+          "sourceIds": [
+            "material-fiberpro-pnt"
+          ],
+          "productIds": [
+            "adex25-fiberpro-fog-ins",
+            "adex25-fiberpro-fog",
+            "adex25-fiberpro-antijam-gnss"
+          ],
+          "scope": "general",
+          "documentType": "product_page",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "제조사 제품군 참고. ADEX 개별 전시 모델을 특정하지 않습니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        },
+        {
+          "id": "material-fiberpro-fog-pdf",
+          "title": "FIBERPRO FOG·IMU·INS 종합 카탈로그 PDF",
+          "url": "https://www.targikielce.pl/storage/file/core_files/2026/9/3/c68796c866d9289cfefb5e4a6a21461e/FOG-based-Inertial-Sensing-Solutions.pdf",
+          "publisher": "FIBERPRO · MSPO 공식 참가업체 자료실",
+          "sourceIds": [
+            "material-fiberpro-fog-pdf"
+          ],
+          "productIds": [
+            "adex25-fiberpro-fog-ins",
+            "adex25-fiberpro-fog"
+          ],
+          "scope": "general",
+          "documentType": "pdf",
+          "checkedAt": "2026-11-16",
+          "publishedAt": "2025-01-15",
+          "note": "제조사 카탈로그 CA2025-01-15, MSPO 2026 자료실 제공. ADEX 2025 현장자료가 아닌 일반 제품 참고입니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        },
+        {
+          "id": "material-fiberpro-fi180-pdf",
+          "title": "FIBERPRO FI-180 IMU 공식 데이터시트 PDF",
+          "url": "https://www.targikielce.pl/storage/file/core_files/2026/9/3/6660e44c0144aa0127b48aa5e046bc27/FI-180.pdf",
+          "publisher": "FIBERPRO · MSPO 공식 참가업체 자료실",
+          "sourceIds": [
+            "material-fiberpro-fi180-pdf"
+          ],
+          "productIds": [],
+          "scope": "general",
+          "documentType": "pdf",
+          "checkedAt": "2026-11-16",
+          "publishedAt": null,
+          "note": "업체 일반 제품 FI-180의 데이터시트. ADEX에 FI-180이 출품됐다는 증거는 아닙니다.",
+          "rights": {
+            "status": "link_only",
+            "basis": "제조사 또는 공식 전시회 자료실 원문 링크. 재배포 권한을 주장하지 않습니다."
+          }
+        }
+      ],
       "verificationNote": "개별 항목의 확인 수준을 구분했습니다. 동일 보도자료 재전재는 독립 근거로 중복 집계하지 않습니다.",
       "evidenceAsOf": "2026-11-11",
       "analysisScope": "bounded_event_case",

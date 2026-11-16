@@ -1,0 +1,1224 @@
+{
+  "status": "completed_local_data_and_assets_after_regression_fix",
+  "checkedAt": "2026-11-16",
+  "plan": {
+    "goal": "핵심 체계·임무장비 공식 자료 및 재사용 가능한 이미지 확대",
+    "files": [
+      "data/photos.json",
+      "data/v2/research/*/manufacturer-materials.json",
+      "data/v2/research/dsei-2025/photo-priority.json",
+      "assets/photos/manufacturer-*"
+    ],
+    "risk": "일반 제품사진의 회차/파생형 오연결 및 자료 링크 만료",
+    "verify": "공식 원문 및 라이선스 대조, 13자산 육안 검토, HTTP·PDF 헤더 검사, compile/build"
+  },
+  "newAssetCount": 13,
+  "newAssets": [
+    {
+      "title": "File:Polish army k9 Thunder.webp",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Polish_army_k9_Thunder.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Polish_army_k9_Thunder.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://commons.wikimedia.org/wiki/File:Polish_army_k9_Thunder.webp",
+      "width": 1000,
+      "height": 654,
+      "license": "Public domain",
+      "artist": "Staff Sgt. Matthew Foster",
+      "description": "A Polish K9 howitzer fires an artillery round i during a live fire demonstration in Bemowo Piskie, Poland on March 31, 2023. The 4th Infantry Division’s mission in Europe is to engage in multinational training and exercises across the continent, working alongside NATO allies and regional security partners to provide combat-credible forces to V Corps, America’s forward deployed corps in Europe. (U.S. Army National Guard photo by Staff Sgt. Matthew A. Foster)",
+      "date": "2023-03-31",
+      "sourceText": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:A_Polish_K9_howitzer_fires_an_artillery_round_during_a_live_fire_demonstration.jpg\" title=\"File:A Polish K9 howitzer fires an artillery round during a live fire demonstration.jpg\">A Polish K9 howitzer fires an artillery round during a live fire demonstration.jpg</a>: <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:A_Polish_K9_howitzer_fires_an_artillery_round_during_a_live_fire_demonstration.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/A_Polish_K9_howitzer_fires_an_artillery_round_during_a_live_fire_demonstration.jpg/60px-A_Polish_K9_howitzer_fires_an_artillery_round_during_a_live_fire_demonstration.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"33\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/A_Polish_K9_howitzer_fires_an_artillery_round_during_a_live_fire_demonstration.jpg/120px-A_Polish_K9_howitzer_fires_an_artillery_round_during_a_live_fire_demonstration.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"5959\" data-file-height=\"3896\"></a></span><br>",
+      "slug": "hanwha-k9-front",
+      "localPath": "assets/photos/manufacturer-hanwha-k9-front.webp",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Polish_army_k9_Thunder.webp",
+      "bytes": 90048,
+      "sha256": "cb50a759611313c654734b9b0495a254e79c67419ee6679bd9a0317bda1a978a",
+      "caption": "K9 계열 참고사진 · 폴란드군 K9, 2023년. K9A3 사진이 아닙니다.",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:Polish army K9 Thunder 2.webp",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Polish_army_K9_Thunder_2.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Polish_army_K9_Thunder_2.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://commons.wikimedia.org/wiki/File:Polish_army_K9_Thunder_2.webp",
+      "width": 1000,
+      "height": 667,
+      "license": "Public domain",
+      "artist": "Staff Sgt. Matthew Foster",
+      "description": "A Polish K9 howitzer maneuvers on the firing range for a live fire demonstration in Bemowo Piskie, Poland on March 31, 2023. The 4th Infantry Divisions’s mission in Europe is to engage in multinational training and exercises across the continent, working alongside NATO allies and regional security partners to provide combat-credible forces to V Corps, America’s forward deployed corps in Europe. (U.S. Army National Guard photo by Staff Sgt. Matthew A. Foster)",
+      "date": "2023-03-31",
+      "sourceText": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:A_Polish_K9_howitzer_maneuvers_on_the_firing_range_for_a_live_fire_demonstration.jpg\" title=\"File:A Polish K9 howitzer maneuvers on the firing range for a live fire demonstration.jpg\">A Polish K9 howitzer maneuvers on the firing range for a live fire demonstration.jpg</a>: <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:A_Polish_K9_howitzer_maneuvers_on_the_firing_range_for_a_live_fire_demonstration.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/A_Polish_K9_howitzer_maneuvers_on_the_firing_range_for_a_live_fire_demonstration.jpg/60px-A_Polish_K9_howitzer_maneuvers_on_the_firing_range_for_a_live_fire_demonstration.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"33\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/A_Polish_K9_howitzer_maneuvers_on_the_firing_range_for_a_live_fire_demonstration.jpg/120px-A_Polish_K9_howitzer_maneuvers_on_the_firing_range_for_a_live_fire_demonstration.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"6218\" data-file-height=\"4145\"></a></span><br>",
+      "slug": "hanwha-k9-side",
+      "localPath": "assets/photos/manufacturer-hanwha-k9-side.webp",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Polish_army_K9_Thunder_2.webp",
+      "bytes": 230230,
+      "sha256": "8df161d016a34cad6cc506d6f242fe006a34196374b6ce9e025857a1d41194f6",
+      "caption": "K9 계열 참고사진 · 폴란드군 K9 측면, 2023년. K9A3 사진이 아닙니다.",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:Lynx KF41 120mm k.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Lynx_KF41_120mm_k.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Lynx_KF41_120mm_k.jpg/1920px-Lynx_KF41_120mm_k.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Lynx_KF41_120mm_k.jpg",
+      "width": 1920,
+      "height": 1280,
+      "originalWidth": 2048,
+      "originalHeight": 1365,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Rheinmetall Defence",
+      "description": "The Lynx 120 is a fire support variant of the Lynx KF41 platform and mounts a large-calibre crewed turret armed with a derivative of Rheinmetall's 120 mm smoothbore gun family",
+      "date": "2022-03-30",
+      "sourceText": "<a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://www.rheinmetall-defence.com\" href=\"https://www.rheinmetall-defence.com\">http://www.rheinmetall-defence.com</a>",
+      "slug": "rheinmetall-lynx120",
+      "localPath": "assets/photos/manufacturer-rheinmetall-lynx120.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Lynx_KF41_120mm_k.jpg/1920px-Lynx_KF41_120mm_k.jpg",
+      "bytes": 698955,
+      "sha256": "8d3bb795b34ea8bb3a66b315ac77ee59f16e9b456d69cd53dd884e231f073d28",
+      "caption": "제조사 홍보 이미지 · LYNX 120 파생형(2022). Skyranger 35 형상이 아닙니다.",
+      "mediaType": "illustration",
+      "visualChecked": true
+    },
+    {
+      "title": "File:LYNX Type II 006.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/LYNX_Type_II_006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/LYNX_Type_II_006.jpg/1920px-LYNX_Type_II_006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:LYNX_Type_II_006.jpg",
+      "width": 1920,
+      "height": 1280,
+      "originalWidth": 8117,
+      "originalHeight": 5411,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Rheinmetall Defence",
+      "description": "The Lynx CSV was designed to meet the Australian Army's Land 400 Phase 3 requirement for approximately 100 support vehicles capable of fulfilling the manoeuvre support, logistics, repair, and recovery roles",
+      "date": "2022-03-30",
+      "sourceText": "<a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://www.rheinmetall-defence.com\" href=\"https://www.rheinmetall-defence.com\">http://www.rheinmetall-defence.com</a>",
+      "slug": "rheinmetall-lynx-csv",
+      "localPath": "assets/photos/manufacturer-rheinmetall-lynx-csv.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/LYNX_Type_II_006.jpg/1920px-LYNX_Type_II_006.jpg",
+      "bytes": 393842,
+      "sha256": "c46dce684f5a77488ee1c45aaba1a9657bbd262a7e93aba089b5e90a0a1d2579",
+      "caption": "제조사 참고사진 · LYNX CSV 지원형(2022). Skyranger 35 형상이 아닙니다.",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:Lynx rear at IDET 2017.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Lynx_rear_at_IDET_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Lynx_rear_at_IDET_2017.jpg/1920px-Lynx_rear_at_IDET_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Lynx_rear_at_IDET_2017.jpg",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 3648,
+      "originalHeight": 2736,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Rheinmetall Defence",
+      "description": "Rear three-quarter view of the Lynx as shown at IDET 2017 in the Czech Republic",
+      "date": "2016-06-01 11:00:49",
+      "sourceText": "<a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://www.rheinmetall-defence.com\" href=\"https://www.rheinmetall-defence.com\">http://www.rheinmetall-defence.com</a>",
+      "slug": "rheinmetall-lynx-rear",
+      "localPath": "assets/photos/manufacturer-rheinmetall-lynx-rear.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Lynx_rear_at_IDET_2017.jpg/1920px-Lynx_rear_at_IDET_2017.jpg",
+      "bytes": 580148,
+      "sha256": "3fc4138386d7d7a7a5b7ae277111a3bed18c146838ba851b980760d47f19c830",
+      "caption": "제조사 참고사진 · LYNX 초기 전시형 후면. KF41 Skyranger 35와 구분합니다.",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:Otokar Cobra II.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Otokar_Cobra_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Otokar_Cobra_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://commons.wikimedia.org/wiki/File:Otokar_Cobra_II.jpg",
+      "width": 1250,
+      "height": 475,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Defensie Nederlands",
+      "description": "Otokar Cobra II",
+      "date": "2024-03",
+      "sourceText": "<a rel=\"nofollow\" class=\"external free\" href=\"https://magazines.defensie.nl/materieelgezien/2024/03/materieel-mondiaal\">https://magazines.defensie.nl/materieelgezien/2024/03/materieel-mondiaal</a>",
+      "slug": "otokar-cobra2-2024",
+      "localPath": "assets/photos/manufacturer-otokar-cobra2-2024.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Otokar_Cobra_II.jpg",
+      "bytes": 115490,
+      "sha256": "867417394e2a7fed327332a8eb8cbfbb28d2754d970582b0aa29abdcd2f536da",
+      "caption": "제품 참고사진 · COBRA II, 네덜란드 국방부 공개(2024). 해당 회차 현장사진이 아닙니다.",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:Amphibious Combat Vehicle 180619-M-ZZ999-201.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg/1920px-Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg",
+      "width": 1920,
+      "height": 1280,
+      "originalWidth": 4000,
+      "originalHeight": 3000,
+      "license": "Public domain",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1445722/kaitlin-kelly\">Kaitlin Kelly</a>",
+      "description": "Marine Corps Systems Command awarded a contract to BAE Systems to produce and deliver the Amphibious Combat Vehicle. Following a successful Milestone C decision by the Assistant Secretary of the Navy for Research, Development, and Acquisition, the contract options worth $198 million will allow BAE Systems to build 30 low rate production vehicles, which will start delivering in the fall of next year. (Courtesy photo)",
+      "date": "2016-11-08 19:00:00",
+      "sourceText": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/4497892/marine-corps-systems-command-awards-contract-produce-acv\">https://www.dvidshub.net/image/4497892/marine-corps-systems-command-awards-contract-produce-acv</a>",
+      "slug": "bae-acv-2016",
+      "localPath": "assets/photos/manufacturer-bae-acv-2016.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg/1920px-Amphibious_Combat_Vehicle_180619-M-ZZ999-201.jpg",
+      "bytes": 732334,
+      "sha256": "48d90602fa6360edb1450dc97106e231ba00cdd806af86e45ba00f77a0c35f75",
+      "caption": "제품 참고사진 · ACV 시험차 외형(2016), 미 해병대 공개.",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:Amphibious Combat Vehicle 200129-M-BH464-1020.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Amphibious_Combat_Vehicle_200129-M-BH464-1020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Amphibious_Combat_Vehicle_200129-M-BH464-1020.jpg/1920px-Amphibious_Combat_Vehicle_200129-M-BH464-1020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_200129-M-BH464-1020.jpg",
+      "width": 1920,
+      "height": 1080,
+      "originalWidth": 5163,
+      "originalHeight": 2904,
+      "license": "Public domain",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1494164/drake-nickels\">Lance Cpl. Drake Nickels</a>",
+      "description": "A U.S. Marine with Amphibious Vehicle Test Branch, Marine Corps Tactical Systems Support Activity, maneuvers an Amphibious Combat Vehicle into the amphibious transport dock ship USS Somerset (LPD 25) as part of the vehicle’s developmental testing off the shore of Marine Corps Base Camp Pendleton, California, Jan. 29, 2020. The Marines of AVTB are currently testing the Marine Corps’ newest amphibious vehicle, which will replace the current Amphibious Assault Vehicle. The testing consisted of entering and departing a naval vessel to assess and verify how well the ACV can integrate with naval shipping. This was the first time Marines have operated the new vehicle while boarding and departing a ship. (U.S. Marine Corps photo by Lance Cpl. Drake Nickels)",
+      "date": "2020-01-28 19:00:00",
+      "sourceText": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/6063246/marines-test-new-acvs-ability-integrate-with-naval-shipping\">https://www.dvidshub.net/image/6063246/marines-test-new-acvs-ability-integrate-with-naval-shipping</a>",
+      "slug": "bae-acv-2020",
+      "localPath": "assets/photos/manufacturer-bae-acv-2020.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Amphibious_Combat_Vehicle_200129-M-BH464-1020.jpg/1920px-Amphibious_Combat_Vehicle_200129-M-BH464-1020.jpg",
+      "bytes": 529993,
+      "sha256": "6449e74634707fb4f5a67d6a778d5bfb599cc1111fc2b57a97303e55b4ae9e43",
+      "caption": "제품 참고사진 · ACV 해상 시험(2020), 미 해병대 공개.",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:Textron TAPV Ottawa City Hall Protector RWS.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Textron_TAPV_Ottawa_City_Hall_Protector_RWS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Textron_TAPV_Ottawa_City_Hall_Protector_RWS.jpg/1920px-Textron_TAPV_Ottawa_City_Hall_Protector_RWS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Textron_TAPV_Ottawa_City_Hall_Protector_RWS.jpg",
+      "width": 1920,
+      "height": 1285,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cplbeaudoin&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cplbeaudoin (page does not exist)\">Cplbeaudoin</a>",
+      "description": "Textron Tactical Armoured Patrol Vehicle at Ottawa City Hall, View of Protector Remote Weapon System",
+      "date": "2016-09-17",
+      "sourceText": "<p>Photo taken by myself at Ottawa Army Run pre-event<br>\n</p>\n<b>Previously published:</b> Facebook",
+      "slug": "kongsberg-tapv",
+      "localPath": "assets/photos/manufacturer-kongsberg-tapv.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Textron_TAPV_Ottawa_City_Hall_Protector_RWS.jpg/1920px-Textron_TAPV_Ottawa_City_Hall_Protector_RWS.jpg",
+      "bytes": 247324,
+      "sha256": "427756368a898b08f13d789cae855a369da4c0b9a8a55e8b2307873091ae0cd8",
+      "caption": "제품 참고사진 · TAPV 차량의 PROTECTOR RWS 센서 외형(2016).",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:88th RSC facilitates CROWS Material Fielding and Training 160421-A-UY332-044.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/88th_RSC_facilitates_CROWS_Material_Fielding_and_Training_160421-A-UY332-044.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/88th_RSC_facilitates_CROWS_Material_Fielding_and_Training_160421-A-UY332-044.jpg/1920px-88th_RSC_facilitates_CROWS_Material_Fielding_and_Training_160421-A-UY332-044.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:88th_RSC_facilitates_CROWS_Material_Fielding_and_Training_160421-A-UY332-044.jpg",
+      "width": 1920,
+      "height": 1276,
+      "originalWidth": 4928,
+      "originalHeight": 3264,
+      "license": "Public domain",
+      "artist": "Catherine Lowrey",
+      "description": "The 88th Regional Support Command’s New Equipment Fielding Facility is currently hosting Soldiers from the 200th MP Command and the 416th Engineer Command during a CROWS Materiel Fielding and Training exercise at Fort McCoy, Wisconsin. The Soldiers participated in a familiarization fire on April 21st.\n<p>The familiarization fire was part of Tank-automotive and Armaments Command’s Operator New Equipment Training for Soldiers on the operation of this weapon platform to improve operational readiness.\nThe 88th RSC supports this training by receiving the equipment, facilitating the training with space and resources, preparing vehicles for installation of the weapon platform and facilitating the hand off of the equipment to the unit. The 88th RSC has 2 NEFF sites, at Fort McCoy, Wis. and Ogden, Utah and currently services a 24 state region, including states in the 63rd RSC Region, which encompasses over 1300 units directly supported over the last 6 years.\n</p>\n<br>Unit: 88th Regional Support Command",
+      "date": "Taken on 21 April 2016",
+      "sourceText": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/2545205/88th-rsc-facilitates-crows-material-fielding-and-training\">https://www.dvidshub.net/image/2545205/88th-rsc-facilitates-crows-material-fielding-and-training</a>",
+      "slug": "kongsberg-crows",
+      "localPath": "assets/photos/manufacturer-kongsberg-crows.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/88th_RSC_facilitates_CROWS_Material_Fielding_and_Training_160421-A-UY332-044.jpg/1920px-88th_RSC_facilitates_CROWS_Material_Fielding_and_Training_160421-A-UY332-044.jpg",
+      "bytes": 695999,
+      "sha256": "2e640b5c978dfa41e99e49b4417b79a442c6dd02250a354575e5ca18234f52a3",
+      "caption": "제품 참고사진 · 미 육군 차량에 탑재한 CROWS(2016).",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:Milrem Robotics UGV Themis size.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Milrem_Robotics_UGV_Themis_size.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Milrem_Robotics_UGV_Themis_size.png/1920px-Milrem_Robotics_UGV_Themis_size.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Milrem_Robotics_UGV_Themis_size.png",
+      "width": 1920,
+      "height": 962,
+      "originalWidth": 2011,
+      "originalHeight": 1008,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Milrem Robotics",
+      "description": "Size comparison between human and <a href=\"https://en.wikipedia.org/wiki/THeMIS\" class=\"extiw\" title=\"w:THeMIS\">THeMIS</a> UGV",
+      "date": "2020-01-21",
+      "sourceText": "Milrem Robotics personal library",
+      "slug": "milrem-themis-size",
+      "localPath": "assets/photos/manufacturer-milrem-themis-size.png",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Milrem_Robotics_UGV_Themis_size.png/1920px-Milrem_Robotics_UGV_Themis_size.png",
+      "bytes": 749019,
+      "sha256": "79286ba80a99c2d61e1b03378d9154e93c59e7df5de90ddff81f0745d4affca7",
+      "caption": "제조사 설명 이미지 · THeMIS 기본 플랫폼 크기 비교(2020). THeMIS-K 전시사진이 아닙니다.",
+      "mediaType": "illustration",
+      "visualChecked": true
+    },
+    {
+      "title": "File:Amphibious Combat Vehicle 180619-M-ZZ999-203.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Amphibious_Combat_Vehicle_180619-M-ZZ999-203.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Amphibious_Combat_Vehicle_180619-M-ZZ999-203.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://commons.wikimedia.org/wiki/File:Amphibious_Combat_Vehicle_180619-M-ZZ999-203.jpg",
+      "width": 1881,
+      "height": 1057,
+      "originalWidth": 1881,
+      "originalHeight": 1057,
+      "license": "Public domain",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1445722/kaitlin-kelly\">Kaitlin Kelly</a>",
+      "description": "Marine Corps Systems Command awarded a contract to BAE Systems to produce and deliver the Amphibious Combat Vehicle. Following a successful Milestone C decision by the Assistant Secretary of the Navy for Research, Development, and Acquisition, the contract options worth $198 million will allow BAE Systems to build 30 low rate production vehicles, which will start delivering in the fall of next year. (Courtesy photo)",
+      "date": "2018-06-18 20:00:00",
+      "sourceText": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/4497892/marine-corps-systems-command-awards-contract-produce-acv\">https://www.dvidshub.net/image/4497892/marine-corps-systems-command-awards-contract-produce-acv</a>",
+      "slug": "bae-acv-2018",
+      "localPath": "assets/photos/manufacturer-bae-acv-2018.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Amphibious_Combat_Vehicle_180619-M-ZZ999-203.jpg",
+      "bytes": 468234,
+      "sha256": "779ed29f0b2483920bfd96f6069b0345d84d861916bd0f4a8ab0db4809221d9a",
+      "caption": "제품 참고사진 · ACV 시험차의 해안 이동(2018), 미 해병대 공개.",
+      "mediaType": "photo",
+      "visualChecked": true
+    },
+    {
+      "title": "File:M151 Protector-Slovenia.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/M151_Protector-Slovenia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/M151_Protector-Slovenia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://commons.wikimedia.org/wiki/File:M151_Protector-Slovenia.jpg",
+      "width": 400,
+      "height": 600,
+      "originalWidth": 400,
+      "originalHeight": 600,
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "artist": "Emil Jalovec and Bruno Toič",
+      "description": "74th Motorized Battalion started the regular training of battalion members with 13 medium wheeled armoured vehicles 8 x 8 at the General Maister Military Post in Maribor",
+      "date": "2012-03-04",
+      "sourceText": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.slovenskavojska.si/en/public-relations/news/news-single/nov/74th-motorized-battalion-of-the-slovenian-armed-forces-started-the-training-with-medium-wheeled-armo/\">https://www.slovenskavojska.si/en/public-relations/news/news-single/nov/74th-motorized-battalion-of-the-slovenian-armed-forces-started-the-training-with-medium-wheeled-armo/</a>",
+      "slug": "kongsberg-m151",
+      "localPath": "assets/photos/manufacturer-kongsberg-m151.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/M151_Protector-Slovenia.jpg",
+      "bytes": 55057,
+      "sha256": "b58c76fa710c31c5866b0152f882e3f52a14d58ef711071afbb4d6edff09600b",
+      "caption": "제품 참고사진 · 슬로베니아군 M151 PROTECTOR 탑재형(2012).",
+      "mediaType": "photo",
+      "visualChecked": true
+    }
+  ],
+  "materials": {
+    "hanwha": {
+      "title": "Hanwha Aerospace 2026 종합 카탈로그 · 공식 전시회 제공본",
+      "url": "https://www.targikielce.pl/storage/file/core_files/2026/8/28/e28c590980e80ffba2f2f4c5400838ae/Hanwha-Aerospace-Brochure-EN260804-edited-1.pdf",
+      "publisher": "Hanwha Aerospace / Targi Kielce",
+      "note": "MSPO 2026 공식 업체 페이지에 게재된 제조사 종합 카탈로그. ADEX 2025 이후 발행된 일반 참고자료이며 K9A3 실차 전시 근거가 아닙니다."
+    },
+    "hanwhaAdex": {
+      "title": "Hanwha Aerospace ADEX 2025 공식 발표",
+      "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+      "publisher": "Hanwha Aerospace",
+      "note": "ADEX 2025 발표 자료. K9A3 발전 로드맵과 완성 실차를 구분합니다.",
+      "productIds": [
+        "k9a3"
+      ]
+    },
+    "tulpar": {
+      "title": "Otokar TULPAR 제조사 카탈로그",
+      "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/tulpar-en-ap02ei-25.pdf",
+      "publisher": "Otokar",
+      "productIds": [
+        "tulpar"
+      ],
+      "note": "TULPAR 플랫폼 일반 카탈로그. 사진의 포탑과 해당 전시회 통합 포탑은 서로 다를 수 있습니다."
+    },
+    "cobra": {
+      "title": "Otokar COBRA II 제조사 카탈로그",
+      "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/arac-brosur/COBRA-II-BR-ING-2019.pdf",
+      "publisher": "Otokar",
+      "productIds": [
+        "cobra-ii"
+      ],
+      "note": "2019년 COBRA II 일반 카탈로그. 최신 파생형 및 전시회 탑재장비 구성과 구분합니다."
+    },
+    "arma": {
+      "title": "Otokar ARMA II 8×8 제조사 카탈로그",
+      "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brosur/arma-ii-8x8-az83tb-23-tr.pdf",
+      "publisher": "Otokar",
+      "productIds": [
+        "arma-ii"
+      ],
+      "note": "ARMA II 8×8 일반 카탈로그(터키어). 해당 회차의 전시 포탑을 확정하는 자료는 아닙니다."
+    },
+    "fnss": {
+      "title": "FNSS 2025 종합 카탈로그 · PARS ALPHA·차량·포탑",
+      "url": "https://www.fnss.com.tr/uploads/docs/2025-ENG/1752685667_fnss-catalog-eng-2025.pdf",
+      "publisher": "FNSS",
+      "productIds": [
+        "pars-alpha"
+      ],
+      "note": "2025년 FNSS 제조사 종합 자료. PARS ALPHA 및 차량·포탑 일반 형상이며 SAHA 2026 출품 근거와 구분합니다."
+    },
+    "lynx": {
+      "title": "Rheinmetall LYNX KF41 제조사 카탈로그",
+      "url": "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Vehicle-Systems/B425e0725-LYNX-Armoured-Fighting-Vehicle.pdf",
+      "publisher": "Rheinmetall",
+      "note": "LYNX KF41 플랫폼 일반 자료. Skyranger 35 장착형의 정확한 전시 형상을 보여 주는 자료는 아닙니다."
+    },
+    "leopard": {
+      "title": "KNDS LEOPARD 2 A8 제조사 카탈로그",
+      "url": "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf",
+      "publisher": "KNDS",
+      "productIds": [
+        "leopard-2a8"
+      ],
+      "note": "LEOPARD 2 A8 일반 제품자료. 수출 대상별 실제 공급 구성은 별도 확인이 필요합니다."
+    },
+    "boxer": {
+      "title": "KNDS BOXER 제품군 · 공식 사진과 제품 자료",
+      "url": "https://knds.com/en/products/boxer",
+      "publisher": "KNDS",
+      "note": "BOXER 플랫폼과 임무모듈의 일반 제품자료. 특정 전시 형상의 탑재장비 확인을 대신하지 않습니다."
+    },
+    "setas": {
+      "title": "HENSOLDT SETAS 제조사 데이터시트",
+      "url": "https://dam.hensoldt.net/m/3df0822105e0a9ba/original/SETAS-Datasheet-English.pdf",
+      "publisher": "HENSOLDT",
+      "productIds": [
+        "hensoldt-setas-reference"
+      ],
+      "note": "차량 주변관측장치 SETAS 일반 제품자료. 특정 차량의 탑재 계약·전시 이력을 뜻하지 않습니다."
+    },
+    "rs4": {
+      "title": "Kongsberg PROTECTOR RS4 공식 사진·제품자료·PDF 안내",
+      "url": "https://www.kongsberg.com/what-we-do/defence-and-security/remote-weapon-systems/protector-rs4/",
+      "publisher": "Kongsberg",
+      "note": "공식 제품 페이지에서 사진과 Product sheet 다운로드를 제공합니다. 과거 M151·CROWS·TAPV 탑재형과 세대·구성을 구분합니다."
+    },
+    "sophie": {
+      "title": "Thales SOPHIE 열상장비 관련 공식 발표 PDF",
+      "url": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+      "publisher": "Thales",
+      "productIds": [
+        "thales-sophie-reference"
+      ],
+      "note": "SOPHIE 제품군 및 지원 관련 공식 발표. 상세 제품 카탈로그나 해당 회차 출품 확인은 아닙니다."
+    },
+    "korhan": {
+      "title": "ASELSAN KORHAN 35mm 제조사 카탈로그",
+      "url": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+      "publisher": "ASELSAN",
+      "note": "KORHAN 포탑 일반 제품자료(2021). 특정 차체와의 통합 완료를 확인하는 자료는 아닙니다."
+    },
+    "korkut": {
+      "title": "ASELSAN KORKUT SSA 35mm 제조사 카탈로그",
+      "url": "https://wwwcdn.aselsan.com/api/file/KORKUT_SSA_ENG.pdf",
+      "publisher": "ASELSAN",
+      "note": "KORKUT SSA 35mm 계열 일반 자료입니다. KORKUT 25 차량탑재형과 다른 제품입니다."
+    },
+    "acv": {
+      "title": "BAE Systems ACV 제조사 카탈로그",
+      "url": "https://www.baesystems.com/dam/jcr:36eb6327-a224-4f84-bc43-ab0a1914c618/DIGITAL_USL_Landscape_ACV_2024.pdf",
+      "publisher": "BAE Systems",
+      "productIds": [
+        "acv"
+      ],
+      "note": "2024년판 ACV 일반 자료. 과거 시험차 사진 및 전시형의 구성 차이를 구분합니다."
+    },
+    "acvWeb": {
+      "title": "BAE Systems ACV 공식 제품 페이지·사진·파생형 자료",
+      "url": "https://www.baesystems.com/en/product/amphibious-combat-vehicle",
+      "publisher": "BAE Systems",
+      "productIds": [
+        "acv"
+      ],
+      "note": "ACV 제품군 공식 설명과 다운로드 자료. 특정 회차 출품 근거는 아닙니다."
+    },
+    "themis": {
+      "title": "Milrem THeMIS 공식 제품군 · 사진과 탑재장비",
+      "url": "https://milremrobotics.com/themis-family/",
+      "publisher": "Milrem Robotics",
+      "note": "THeMIS 제품군 일반 자료. THeMIS-K 또는 해당 전시회 Combat 탑재 형상과 구분합니다."
+    },
+    "milremPdf": {
+      "title": "Milrem Robotics 2024 제품 종합 카탈로그",
+      "url": "https://d3tr2q1wj7u3d5.cloudfront.net/32284/20240611_MILREM-Product-Catalogue-EN_web.pdf",
+      "publisher": "Milrem Robotics",
+      "note": "2024년 제조사 제품 종합 카탈로그. 해당 회차 전시 형상 확인 자료가 아닙니다."
+    },
+    "rs4Pdf": {
+      "url": "https://www.kongsberg.com/globalassets/kongsberg/1.-what-we-do/1.-defence-and-security/remote-weapon-systems/protector-rs4/rs4-product-sheet-210126.pdf",
+      "title": "Kongsberg PROTECTOR RS4 제조사 PDF · 2026년 1월판",
+      "publisher": "Kongsberg",
+      "note": "DSEI 2025 이후 발행된 일반 제품자료. 과거 M151·CROWS 탑재형과 세대·구성을 구분합니다."
+    }
+  },
+  "assignments": [
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-c919e0346aa5a11fd7a0",
+      "company": "Hanwha Aerospace",
+      "catalogKeys": [
+        "hanwhaAdex",
+        "hanwha"
+      ],
+      "photoIds": [
+        "manufacturer-hanwha-k9-side",
+        "manufacturer-hanwha-k9-front"
+      ],
+      "catalogProductLinks": [
+        {
+          "catalogId": "manufacturer-catalog-hanwhaAdex-d64b41188184",
+          "productId": "k9a3"
+        }
+      ]
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-00c0527a4f7c4083a394",
+      "company": "Rheinmetall",
+      "catalogKeys": [
+        "lynx"
+      ],
+      "photoIds": [
+        "manufacturer-rheinmetall-lynx-csv",
+        "manufacturer-rheinmetall-lynx-rear",
+        "manufacturer-rheinmetall-lynx120"
+      ],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "organizationId": "org-a7f46a7e877193b3e57d",
+      "company": "KNDS Deutschland",
+      "catalogKeys": [
+        "leopard",
+        "boxer"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": [
+        {
+          "catalogId": "manufacturer-catalog-leopard-4007c3d70a75",
+          "productId": "leopard-2a8"
+        }
+      ]
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-4b59eb502d9744a8bb69",
+      "company": "KNDS",
+      "catalogKeys": [
+        "leopard",
+        "boxer"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-7b846c15951b021bf59b",
+      "company": "Otokar",
+      "catalogKeys": [
+        "tulpar",
+        "cobra",
+        "arma"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": [
+        {
+          "catalogId": "manufacturer-catalog-tulpar-1960166643e0",
+          "productId": "tulpar"
+        },
+        {
+          "catalogId": "manufacturer-catalog-cobra-1960166643e0",
+          "productId": "cobra-ii"
+        },
+        {
+          "catalogId": "manufacturer-catalog-arma-1960166643e0",
+          "productId": "arma-ii"
+        }
+      ]
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-7b846c15951b021bf59b",
+      "company": "Otokar",
+      "catalogKeys": [
+        "tulpar",
+        "cobra"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": [
+        {
+          "catalogId": "manufacturer-catalog-tulpar-1960166643e0",
+          "productId": "tulpar"
+        },
+        {
+          "catalogId": "manufacturer-catalog-cobra-1960166643e0",
+          "productId": "cobra-ii"
+        }
+      ]
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-2dffde2d6bd01e4eaf2d",
+      "company": "FNSS",
+      "catalogKeys": [
+        "fnss"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": [
+        {
+          "catalogId": "manufacturer-catalog-fnss-44bf0b974c41",
+          "productId": "pars-alpha"
+        }
+      ]
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-5e5d812e407f2c17a6ec",
+      "company": "HENSOLDT",
+      "catalogKeys": [
+        "setas"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": [
+        {
+          "catalogId": "manufacturer-catalog-setas-f8be17fa29da",
+          "productId": "hensoldt-setas-reference"
+        }
+      ]
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-08ba69fde2c8bc751f83",
+      "company": "Kongsberg",
+      "catalogKeys": [
+        "rs4",
+        "rs4Pdf"
+      ],
+      "photoIds": [
+        "manufacturer-kongsberg-m151",
+        "manufacturer-kongsberg-tapv",
+        "manufacturer-kongsberg-crows"
+      ],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-3dba2d2e96e3a37e36af",
+      "company": "Thales",
+      "catalogKeys": [
+        "sophie"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": [
+        {
+          "catalogId": "manufacturer-catalog-sophie-866e4664b8cf",
+          "productId": "thales-sophie-reference"
+        }
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-5e5d812e407f2c17a6ec",
+      "company": "HENSOLDT",
+      "catalogKeys": [
+        "setas"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-5e5d812e407f2c17a6ec",
+      "company": "HENSOLDT",
+      "catalogKeys": [
+        "setas"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-3dba2d2e96e3a37e36af",
+      "company": "Thales",
+      "catalogKeys": [
+        "sophie"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-3dba2d2e96e3a37e36af",
+      "company": "Thales",
+      "catalogKeys": [
+        "sophie"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-b2ca2a34fd51e38b777e",
+      "company": "ASELSAN",
+      "catalogKeys": [
+        "korhan",
+        "korkut"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-b2ca2a34fd51e38b777e",
+      "company": "ASELSAN",
+      "catalogKeys": [
+        "korhan",
+        "korkut"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "eurosatory-2026",
+      "organizationId": "org-b2ca2a34fd51e38b777e",
+      "company": "ASELSAN",
+      "catalogKeys": [
+        "korhan",
+        "korkut"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-b2ca2a34fd51e38b777e",
+      "company": "ASELSAN",
+      "catalogKeys": [
+        "korhan",
+        "korkut"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-261736017afc402204d0",
+      "company": "Otokar · ASELSAN",
+      "catalogKeys": [
+        "korhan",
+        "tulpar"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-8de7f844d3d235b7835b",
+      "company": "BAE Systems · Iveco Defence Vehicles",
+      "catalogKeys": [
+        "acv",
+        "acvWeb"
+      ],
+      "photoIds": [],
+      "catalogProductLinks": [
+        {
+          "catalogId": "manufacturer-catalog-acv-048d2ff826c8",
+          "productId": "acv"
+        },
+        {
+          "catalogId": "manufacturer-catalog-acvWeb-048d2ff826c8",
+          "productId": "acv"
+        }
+      ]
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-1916eb4a702ef0dd91b0",
+      "company": "BAE Systems",
+      "catalogKeys": [
+        "acv",
+        "acvWeb"
+      ],
+      "photoIds": [
+        "manufacturer-bae-acv-2016"
+      ],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-1916eb4a702ef0dd91b0",
+      "company": "BAE Systems",
+      "catalogKeys": [
+        "acv",
+        "acvWeb"
+      ],
+      "photoIds": [
+        "manufacturer-bae-acv-2016"
+      ],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-1916eb4a702ef0dd91b0",
+      "company": "BAE Systems",
+      "catalogKeys": [
+        "acv",
+        "acvWeb"
+      ],
+      "photoIds": [
+        "manufacturer-bae-acv-2016"
+      ],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-3f90d88e7ad8e46bddf7",
+      "company": "Milrem Robotics",
+      "catalogKeys": [
+        "themis",
+        "milremPdf"
+      ],
+      "photoIds": [
+        "manufacturer-milrem-themis-size"
+      ],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-c0aa5fd472a380a0d1d6",
+      "company": "Milrem Robotics · EDGE",
+      "catalogKeys": [
+        "themis",
+        "milremPdf"
+      ],
+      "photoIds": [
+        "manufacturer-milrem-themis-size"
+      ],
+      "catalogProductLinks": []
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-f59a1086debbc920179b",
+      "company": "한화에어로스페이스 · Milrem Robotics",
+      "catalogKeys": [
+        "themis",
+        "milremPdf"
+      ],
+      "photoIds": [
+        "manufacturer-milrem-themis-size"
+      ],
+      "catalogProductLinks": []
+    }
+  ],
+  "modifiedFiles": [
+    "data/v2/research/dsei-2025/photo-priority.json",
+    "data/photos.json",
+    "data/v2/research/adex-2025/manufacturer-materials.json",
+    "data/v2/research/dsei-2025/manufacturer-materials.json",
+    "data/v2/research/eurosatory-2026/manufacturer-materials.json",
+    "data/v2/research/idex-2025/manufacturer-materials.json",
+    "data/v2/research/saha-2026/manufacturer-materials.json",
+    "scripts/research-v2.mjs",
+    "tests/v2-research.test.mjs"
+  ],
+  "limitations": [
+    "신규 현장사진 0장. 일반 제품 참고자료입니다.",
+    "K9A3·LYNX Skyranger35와 다른 형상 사진을 해당 제품 사진으로 연결하지 않습니다.",
+    "THeMIS 크기 비교는 제조사 설명 이미지이며 LYNX120은 제조사 홍보 이미지입니다.",
+    "PDF는 공식 서버 원문 링크이며 파일 재배포 허락을 가정하지 않습니다."
+  ],
+  "httpChecks": [
+    {
+      "key": "hanwha",
+      "url": "https://www.hanwhaaerospace.com/assets/content/library/download/Hanwha%20Defense%20Brochure_EN.pdf",
+      "status": 200,
+      "finalUrl": "https://www.hanwhaaerospace.com/assets/content/library/download/Hanwha%20Defense%20Brochure_EN.pdf",
+      "contentType": "application/json;charset=UTF-8",
+      "pdfSignature": false,
+      "checkedAt": "2026-11-16T01:42:16.710Z"
+    },
+    {
+      "key": "hanwhaAdex",
+      "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+      "status": 200,
+      "finalUrl": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+      "contentType": "text/html;charset=UTF-8",
+      "pdfSignature": false,
+      "checkedAt": "2026-11-16T01:42:16.778Z"
+    },
+    {
+      "key": "tulpar",
+      "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/tulpar-en-ap02ei-25.pdf",
+      "status": 200,
+      "finalUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brochure/tulpar-en-ap02ei-25.pdf",
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "checkedAt": "2026-11-16T01:42:18.885Z"
+    },
+    {
+      "key": "cobra",
+      "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/arac-brosur/COBRA-II-BR-ING-2019.pdf",
+      "status": 200,
+      "finalUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/arac-brosur/COBRA-II-BR-ING-2019.pdf",
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "checkedAt": "2026-11-16T01:42:20.108Z"
+    },
+    {
+      "key": "arma",
+      "url": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brosur/arma-ii-8x8-az83tb-23-tr.pdf",
+      "status": 200,
+      "finalUrl": "https://defense.otokar.com.tr/OtokarSavunma/media/Otokar-Savunma/brosur/arma-ii-8x8-az83tb-23-tr.pdf",
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "checkedAt": "2026-11-16T01:42:21.298Z"
+    },
+    {
+      "key": "fnss",
+      "url": "https://www.fnss.com.tr/uploads/docs/2025-ENG/1752685667_fnss-catalog-eng-2025.pdf",
+      "error": "fetch failed",
+      "checkedAt": "2026-11-16T01:42:21.818Z"
+    },
+    {
+      "key": "lynx",
+      "url": "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Vehicle-Systems/B425e0725-LYNX-Armoured-Fighting-Vehicle.pdf",
+      "status": 200,
+      "finalUrl": "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Vehicle-Systems/B425e0725-LYNX-Armoured-Fighting-Vehicle.pdf",
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "checkedAt": "2026-11-16T01:42:22.989Z"
+    },
+    {
+      "key": "leopard",
+      "url": "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf",
+      "status": 200,
+      "finalUrl": "https://knds.com/media/KNDS_B_Ansicht_LEOPARD_2_A8_EN_056fd1a8ad.pdf",
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "checkedAt": "2026-11-16T01:42:24.015Z"
+    },
+    {
+      "key": "boxer",
+      "url": "https://knds.com/en/products/boxer",
+      "status": 200,
+      "finalUrl": "https://knds.com/en/products/boxer",
+      "contentType": "text/html; charset=utf-8",
+      "pdfSignature": false,
+      "checkedAt": "2026-11-16T01:42:24.826Z"
+    },
+    {
+      "key": "setas",
+      "url": "https://www.hensoldt.net/fileadmin/HENSOLDT_2019/Products/Optronics/HOpt_SETAS_Dat_Eng_06122020.PDF",
+      "status": 404,
+      "finalUrl": "https://www.hensoldt.net/fileadmin/HENSOLDT_2019/Products/Optronics/HOpt_SETAS_Dat_Eng_06122020.PDF",
+      "contentType": "text/html; charset=utf-8",
+      "pdfSignature": false,
+      "checkedAt": "2026-11-16T01:42:25.211Z"
+    },
+    {
+      "key": "rs4",
+      "url": "https://www.kongsberg.com/globalassets/kongsberg-defence--aerospace/1.-what-we-do/1.3-defence--security/remote-weapon-systems/protector-rs4/rs4-product-sheet-191125.pdf",
+      "status": 500,
+      "finalUrl": "https://www.kongsberg.com/error/500/",
+      "contentType": "text/html; charset=utf-8",
+      "pdfSignature": false,
+      "checkedAt": "2026-11-16T01:42:26.956Z"
+    },
+    {
+      "key": "sophie",
+      "url": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+      "status": 200,
+      "finalUrl": "https://www.thalesgroup.com/en/print/pdf/node/6121",
+      "contentType": "text/html",
+      "pdfSignature": false,
+      "checkedAt": "2026-11-16T01:42:26.992Z"
+    },
+    {
+      "key": "korhan",
+      "url": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+      "status": 200,
+      "finalUrl": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "checkedAt": "2026-11-16T01:42:28.572Z"
+    },
+    {
+      "key": "korkut",
+      "url": "https://wwwcdn.aselsan.com/api/file/KORKUT_SSA_ENG.pdf",
+      "status": 200,
+      "finalUrl": "https://wwwcdn.aselsan.com/api/file/KORKUT_SSA_ENG.pdf",
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "checkedAt": "2026-11-16T01:42:29.817Z"
+    },
+    {
+      "key": "acv",
+      "url": "https://www.baesystems.com/dam/jcr:36eb6327-a224-4f84-bc43-ab0a1914c618/DIGITAL_USL_Landscape_ACV_2024.pdf",
+      "status": 200,
+      "finalUrl": "https://www.baesystems.com/dam/jcr:36eb6327-a224-4f84-bc43-ab0a1914c618/DIGITAL_USL_Landscape_ACV_2024.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "pdfSignature": false,
+      "checkedAt": "2026-11-16T01:42:29.872Z"
+    },
+    {
+      "key": "acvWeb",
+      "url": "https://www.baesystems.com/en/product/amphibious-combat-vehicle",
+      "status": 200,
+      "finalUrl": "https://www.baesystems.com/en/product/amphibious-combat-vehicle",
+      "contentType": "text/html; charset=UTF-8",
+      "pdfSignature": false,
+      "checkedAt": "2026-11-16T01:42:29.926Z"
+    },
+    {
+      "key": "themis",
+      "url": "https://milremrobotics.com/themis-family/",
+      "status": 200,
+      "finalUrl": "https://milremrobotics.com/themis-family/",
+      "contentType": "text/html; charset=UTF-8",
+      "pdfSignature": false,
+      "checkedAt": "2026-11-16T01:42:31.432Z"
+    },
+    {
+      "key": "milremPdf",
+      "url": "https://d3tr2q1wj7u3d5.cloudfront.net/32284/20240611_MILREM-Product-Catalogue-EN_web.pdf",
+      "status": 200,
+      "finalUrl": "https://d3tr2q1wj7u3d5.cloudfront.net/32284/20240611_MILREM-Product-Catalogue-EN_web.pdf",
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "checkedAt": "2026-11-16T01:42:32.000Z"
+    },
+    {
+      "key": "hanwha-replacement",
+      "status": 200,
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "bytes": 4257224,
+      "url": "https://www.targikielce.pl/storage/file/core_files/2026/8/28/e28c590980e80ffba2f2f4c5400838ae/Hanwha-Aerospace-Brochure-EN260804-edited-1.pdf"
+    },
+    {
+      "key": "setas-replacement",
+      "status": 200,
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "url": "https://dam.hensoldt.net/m/3df0822105e0a9ba/original/SETAS-Datasheet-English.pdf"
+    },
+    {
+      "key": "rs4-current-pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "pdfSignature": true,
+      "bytes": 1619496,
+      "url": "https://www.kongsberg.com/globalassets/kongsberg/1.-what-we-do/1.-defence-and-security/remote-weapon-systems/protector-rs4/rs4-product-sheet-210126.pdf"
+    },
+    {
+      "key": "fnss-native-trust-store",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 17969147,
+      "method": "curl.exe -I --max-time15; native OS certificate validation",
+      "url": "https://www.fnss.com.tr/uploads/docs/2025-ENG/1752685667_fnss-catalog-eng-2025.pdf"
+    }
+  ],
+  "existingAssetReuse": [
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-5e5d812e407f2c17a6ec",
+      "photoId": "photo-priority-hensoldt-setas-reference-photo"
+    },
+    {
+      "eventId": "idex-2025",
+      "organizationId": "org-5e5d812e407f2c17a6ec",
+      "photoId": "photo-priority-hensoldt-setas-reference-photo"
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-3dba2d2e96e3a37e36af",
+      "photoId": "priority-thales-sophie-2010"
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-3dba2d2e96e3a37e36af",
+      "photoId": "priority-thales-sophie-2010"
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-4b59eb502d9744a8bb69",
+      "photoId": "photo-43700666675664039ef0"
+    },
+    {
+      "eventId": "adex-2025",
+      "organizationId": "org-b2ca2a34fd51e38b777e",
+      "photoId": "photo-aec42c56571bfacd9939"
+    },
+    {
+      "eventId": "dsei-2025",
+      "organizationId": "org-b2ca2a34fd51e38b777e",
+      "photoId": "photo-aec42c56571bfacd9939"
+    },
+    {
+      "eventId": "saha-2026",
+      "organizationId": "org-b2ca2a34fd51e38b777e",
+      "photoId": "photo-aec42c56571bfacd9939"
+    }
+  ],
+  "newVisuals": {
+    "photographs": 11,
+    "manufacturerIllustrationOrPromotionalImages": 2
+  },
+  "httpFollowupNotes": [
+    "Hanwha old path returned JSON FAIL; replaced with manufacturer brochure hosted by official MSPO organiser.",
+    "HENSOLDT old path returned404; replaced using current product download link.",
+    "Kongsberg direct PDFs returned500 to HTTP; replaced with current official product page containing download button.",
+    "FNSS Node TLS chain failed; Windows curl with native certificate store returned200 application/pdf Content-Length17969147; no certificate bypass used.",
+    "BAE/Thales automatic HTTP requests received a browser challenge; authoritative web parser inspected BAE PDF2pages and Thales source, user-browser check remains."
+  ],
+  "validation": {
+    "build": "npm run build passed after final changes",
+    "newAssetsVisuallyInspected": 13,
+    "newAssetBytesPreserved": true,
+    "sourceMutation": "Existing product IDs/status/narratives preserved. Added photos/catalogs/sources; verified inaccessible BAE/Thales sources markedblocked.",
+    "currentPhotoCompanyCounts": {
+      "adex-2025": 9,
+      "dsei-2025": 16,
+      "eurosatory-2026": 6,
+      "idex-2025": 8,
+      "saha-2026": 6
+    },
+    "diffCheck": "git diff --check passed (line-ending notices only)",
+    "identityAndStatusAudit": "all136productIDs/exhibitStatus/narratives preserved",
+    "photoVariantAudit": "K9family not K9A3; Lynxvariants not Skyranger35; legacyACV/Cobra exact matches",
+    "newAssetHashesVerified": 13,
+    "photoCompanyBefore": 33,
+    "photoCompanyAfter": 45,
+    "perEvent": [
+      {
+        "eventId": "adex-2025",
+        "before": 5,
+        "after": 9,
+        "added": [
+          {
+            "id": "org-b2ca2a34fd51e38b777e",
+            "name": "ASELSAN"
+          },
+          {
+            "id": "org-1916eb4a702ef0dd91b0",
+            "name": "BAE Systems"
+          },
+          {
+            "id": "org-5e5d812e407f2c17a6ec",
+            "name": "HENSOLDT"
+          },
+          {
+            "id": "org-3dba2d2e96e3a37e36af",
+            "name": "Thales"
+          }
+        ],
+        "beforeProducts": 7,
+        "afterProducts": 7,
+        "catalogsBefore": 5,
+        "catalogsAfter": 34
+      },
+      {
+        "eventId": "dsei-2025",
+        "before": 12,
+        "after": 16,
+        "added": [
+          {
+            "id": "org-b2ca2a34fd51e38b777e",
+            "name": "ASELSAN"
+          },
+          {
+            "id": "org-1916eb4a702ef0dd91b0",
+            "name": "BAE Systems"
+          },
+          {
+            "id": "org-4b59eb502d9744a8bb69",
+            "name": "KNDS"
+          },
+          {
+            "id": "org-3f90d88e7ad8e46bddf7",
+            "name": "Milrem Robotics"
+          }
+        ],
+        "beforeProducts": 13,
+        "afterProducts": 13,
+        "catalogsBefore": 1,
+        "catalogsAfter": 20
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "before": 6,
+        "after": 6,
+        "added": [],
+        "beforeProducts": 7,
+        "afterProducts": 7,
+        "catalogsBefore": 3,
+        "catalogsAfter": 9
+      },
+      {
+        "eventId": "idex-2025",
+        "before": 7,
+        "after": 8,
+        "added": [
+          {
+            "id": "org-5e5d812e407f2c17a6ec",
+            "name": "HENSOLDT"
+          }
+        ],
+        "beforeProducts": 10,
+        "afterProducts": 10,
+        "catalogsBefore": 2,
+        "catalogsAfter": 16
+      },
+      {
+        "eventId": "saha-2026",
+        "before": 3,
+        "after": 6,
+        "added": [
+          {
+            "id": "org-b2ca2a34fd51e38b777e",
+            "name": "ASELSAN"
+          },
+          {
+            "id": "org-1916eb4a702ef0dd91b0",
+            "name": "BAE Systems"
+          },
+          {
+            "id": "org-3dba2d2e96e3a37e36af",
+            "name": "Thales"
+          }
+        ],
+        "beforeProducts": 3,
+        "afterProducts": 3,
+        "catalogsBefore": 2,
+        "catalogsAfter": 18
+      }
+    ],
+    "productPhotoBefore": 40,
+    "productPhotoAfter": 40,
+    "productPhotoNote": "신규정확제품 연결4사진은 이미 사진이 있던 ACV·COBRAII에 추가되어 사진보유제품 수는40 유지. 일반형상은 회사 참고사진으로 분리.",
+    "materialRecords": {
+      "uniqueOfficialUrls": 19,
+      "catalogPlacements": 45,
+      "eventCompanyRecords": 26
+    },
+    "acvSourceCorrection": "Three ACV reference records moved from14-product legacy catalog to IDEX research case. Existing same-owner same-event product references allowed narrowly; different owner/edition rejected. Canonical product photo links retained.",
+    "baeBrowserAccess": "blocked:actualbrowserPardonOurInterruption; BAEweb unverified/accessrestricted; not counted asworkingPDF",
+    "focusedRegression": "node --test tests/v2-research.test.mjs tests/catalog.test.mjs tests/public-gallery.test.mjs:21passed0failed",
+    "hanwhaEventMaterial": "Only Hanwha ADEX2025 announcement uses event scope/2025edition; 2026catalog remainsgeneral reference.",
+    "blockedMaterials": [
+      "BAE PDF:actual browserPardonOurInterruption",
+      "BAE productpage:automatedrequestchallenge;browser notverified",
+      "Thales SOPHIE PDF:actual browserhCaptcha"
+    ]
+  }
+}

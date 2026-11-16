@@ -1,0 +1,539 @@
+{
+  "checkedAt": "2026-11-16",
+  "status": "implemented_and_focused_checks_passed",
+  "scope": "Five authored reports, reproducible report source packets, and material links in report cards without a displayable exact-product photo. Local changes only.",
+  "leadProducts": {
+    "adex-2025": "k9a3",
+    "eurosatory-2026": "leopard-2a8",
+    "dsei-2025": "patria-6x6",
+    "idex-2025": "havoc-8x8",
+    "saha-2026": "pars-alpha"
+  },
+  "validation": [
+    {
+      "command": "node scripts/compile-v2-app.mjs",
+      "result": "pass; five event shards compiled with product, company and photograph ownership validation"
+    },
+    {
+      "command": "node --test tests/v2-report.test.mjs tests/v2-app-data.test.mjs",
+      "result": "48 passed; 0 failed; 0 skipped"
+    },
+    {
+      "command": "node --test tests/v2-report.test.mjs",
+      "result": "23 passed; 0 failed after material-source attribution was added to report evidence"
+    },
+    {
+      "command": "node scripts/prepare-redesign-content.mjs with before/after SHA-256 comparison",
+      "result": "pass; both product narrative JSON and report JSON reproduced byte for byte; 65 narratives, 325 sections, five reports"
+    },
+    {
+      "command": "git diff --check -- report source packets, report JSON, generator, report UI and report tests",
+      "result": "pass; only Git line-ending notices"
+    }
+  ],
+  "reportJsonSha256": "b1f4943498320dc30d2454e5a6424b67309f11ee1e6e21f717a8a9fe1de5f52c",
+  "preservedNarrativeJsonSha256": "bd6b555ca8811d3062576ab2a86e88ab6e7dde53dee24bc8a498e5c44de949c3",
+  "testFixtureCorrections": [
+    "Photo-rendering tests now select a photographed report case instead of assuming the first theme always has a photo.",
+    "The Patria compilation fixture includes the existing DSEI next-narrative packet because the rewritten DSEI report references its correctly mapped BOXER photograph. No photo identity was changed to satisfy the test."
+  ],
+  "primarySourcesReopened": [
+    {
+      "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+      "access": "direct open timed out; official page content returned through web search; existing reviewed local source retained"
+    },
+    {
+      "url": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+      "access": "body read; 2023 A8 baseline and Norwegian configuration distinction"
+    },
+    {
+      "url": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+      "access": "body read; 2026 KNDS exhibitor product list; no physical exhibit form established"
+    },
+    {
+      "url": "https://www.saab.com/newsroom/press-releases/2025/saab-receives-order-for-mobile-air-defence-from-the-czech-republic",
+      "access": "body read; MARS S-330, Czech partner C2 and existing radar, planned deliveries distinguished from completion"
+    },
+    {
+      "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-09-dsei-first-uk-built-boxer-has-now-been-delivered",
+      "access": "body read; UK MIV programme separated from KNDS booth turret vehicle"
+    },
+    {
+      "url": "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom",
+      "access": "body read; teaming agreement and UK manufacturing/support roles"
+    },
+    {
+      "url": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+      "access": "body read; AJBAN common platform/subsystems and HAVOC introduction"
+    },
+    {
+      "url": "https://johncockerill.com/en/press-and-news/news/john-cockerill-defense-idex-2025/",
+      "access": "body read; post-Arquus acquisition vehicle, turret, simulator and support portfolio"
+    },
+    {
+      "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+      "access": "page reopened; existing reviewed report packet retained"
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+      "access": "page reopened; existing reviewed manufacturer retrospective retained"
+    },
+    {
+      "url": "https://www.aselsan.com/en/news/aselsan-demonstrates-dronedef-and-ew-capabilities-at-eurosatory",
+      "access": "current web extractor returned only branding; prior reviewed source remains the basis; no claim of fresh full-text verification"
+    }
+  ],
+  "remainingChecks": [
+    "Parent integration build, full checks, desktop/mobile layout and actual source/PDF navigation.",
+    "K9A3 exact-display photograph remains unavailable; the report offers product materials instead of relabeling K9 family photographs.",
+    "Leopard 2A8 photograph is a model reference and cannot establish Eurosatory 2026 physical exhibit form.",
+    "No report PDF save or public deployment was performed by this subtask."
+  ],
+  "integrationAudit": {
+    "checkedAt": "2026-11-16T01:42:45.541Z",
+    "baseline": "tmp/material-expansion-before/reports.json",
+    "officialSourceHttp": {
+      "scope": "Original five-report source URLs excluding the independent AsiaTime field article; official manufacturer, organizer, association, embassy and official account sources only. HTTP success checks availability, not claim or edition validity.",
+      "method": "GET with response body cancelled after headers; 12-second timeout; maximum 6 concurrent requests",
+      "requested": 25,
+      "results": [
+        {
+          "url": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyCate=&keyField=&keyIdx=5102&keyWord=&page=",
+          "status": 200,
+          "finalUrl": "https://www.hyundai-wia.com/pr/press_view.asp?flag=CAST&gubun=KO&keyCate=&keyField=&keyIdx=5102&keyWord=&page=",
+          "type": "text/html",
+          "ok": true
+        },
+        {
+          "url": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016",
+          "status": 200,
+          "finalUrl": "https://www.hyundai-wia.com/pr/press_view.asp?keyIdx=6016",
+          "type": "text/html",
+          "ok": true
+        },
+        {
+          "url": "https://blog.hyundai-rotem.co.kr/905",
+          "status": 200,
+          "finalUrl": "https://blog.hyundai-rotem.co.kr/905",
+          "type": "text/html;charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "status": 200,
+          "finalUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190141",
+          "type": "text/html;charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "status": 200,
+          "finalUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000190160",
+          "type": "text/html;charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+          "status": 200,
+          "finalUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000116922",
+          "type": "text/html;charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+          "status": 200,
+          "finalUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
+          "type": "text/html;charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+          "status": 200,
+          "finalUrl": "https://www.babcockinternational.com/news/babcock-is-first-to-integrate-mortar-with-uk-armys-communications-system/",
+          "type": "text/html; charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+          "status": 200,
+          "finalUrl": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
+          "type": "text/html;charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.eurosatory.com/wp-content/uploads/2025/02/EN-CP_Bilan_EUROSATORY_July24.pdf",
+          "status": 200,
+          "finalUrl": "https://www.eurosatory.com/wp-content/uploads/2025/02/EN-CP_Bilan_EUROSATORY_July24.pdf",
+          "type": "application/pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+          "status": 200,
+          "finalUrl": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000186210",
+          "type": "text/html;charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
+          "status": 200,
+          "finalUrl": "https://www.patriagroup.com/newsroom/news/2023/patria-showcasing-its-wide-offering-at-dsei-london-on-12-15-september-2023",
+          "type": "text/html; charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://edgegroup.ae/news/edge-showcase-large-portfolio-advanced-technology-and-defence-solutions-idex-2023-0",
+          "status": 403,
+          "finalUrl": "https://edgegroup.ae/news/edge-showcase-large-portfolio-advanced-technology-and-defence-solutions-idex-2023-0",
+          "type": "text/html; charset=UTF-8",
+          "ok": false
+        },
+        {
+          "url": "https://edgegroup.ae/share/pdf/news/576",
+          "status": 403,
+          "finalUrl": "https://edgegroup.ae/share/pdf/news/576",
+          "type": "text/html; charset=UTF-8",
+          "ok": false
+        },
+        {
+          "url": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+          "status": 403,
+          "finalUrl": "https://edgegroup.ae/news/edge-launches-new-armoured-and-robotic-combat-vehicle-idex-2025",
+          "type": "text/html; charset=UTF-8",
+          "ok": false
+        },
+        {
+          "url": "https://johncockerill.com/en/press-and-news/news/idex-2023-cockerill-i-x-innovative-turrets-and-simulation-in-the-spotlight-of-john-cockerill-defense/",
+          "status": 200,
+          "finalUrl": "https://johncockerill.com/en/press-and-news/news/idex-2023-cockerill-i-x-innovative-turrets-and-simulation-in-the-spotlight-of-john-cockerill-defense/",
+          "type": "text/html; charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+          "status": 200,
+          "finalUrl": "https://www.patriagroup.com/newsroom/news/2025/patria-to-launch-a-new-tracked-vehicle-at-dsei-uk-2025",
+          "type": "text/html; charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom",
+          "status": 200,
+          "finalUrl": "https://www.patriagroup.com/newsroom/news/2025/patria-and-babcock-agree-on-teaming-in-cavs-6x6-armoured-vehicle-manufacturing-in-the-united-kingdom",
+          "type": "text/html; charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+          "status": 403,
+          "finalUrl": "https://www.linkedin.com/pulse/fnss-focus-q2-2026-newsletter-fnss-savunma-sistemleri-vonsf",
+          "type": "text/html; charset=UTF-8",
+          "ok": false
+        },
+        {
+          "url": "https://johncockerill.com/en/press-and-news/news/john-cockerill-defense-idex-2025/",
+          "status": 200,
+          "finalUrl": "https://johncockerill.com/en/press-and-news/news/john-cockerill-defense-idex-2025/",
+          "type": "text/html; charset=UTF-8",
+          "ok": true
+        },
+        {
+          "url": "https://www.fnss.com.tr/en/media/press-releases/fnss-showcases-pars-alpha-8x8-and-marine-assault-vehicle-mav-saha-expo-2024-1833",
+          "status": "request_failed",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://sahaexpo.com/showday/saha-day-3.pdf",
+          "status": 200,
+          "finalUrl": "https://sahaexpo.com/showday/saha-day-3.pdf",
+          "type": "application/pdf",
+          "ok": true
+        },
+        {
+          "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "status": 200,
+          "finalUrl": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+          "type": "text/html; charset=utf-8",
+          "ok": true
+        },
+        {
+          "url": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+          "status": 200,
+          "finalUrl": "https://defense.otokar.com.tr/news/otokar-to-showcase-5-armored-vehicles-at-saha-expo-2024",
+          "type": "text/html; charset=utf-8",
+          "ok": true
+        },
+        {
+          "url": "https://sahaexpo.com/showday/saha-day-2.pdf",
+          "status": 200,
+          "finalUrl": "https://sahaexpo.com/showday/saha-day-2.pdf",
+          "type": "application/pdf",
+          "ok": true
+        }
+      ]
+    },
+    "preservationAndIdentity": [
+      {
+        "eventId": "adex-2025",
+        "leadProductId": "k9a3",
+        "hyundaiRotemLead": false,
+        "allOriginalCaseProductsRetained": true,
+        "allOriginalCasePhotosRetained": true,
+        "interpretationExplicitlyLabeled": true,
+        "themeChecks": [
+          {
+            "productId": "k9a3",
+            "companyOwnsProduct": true,
+            "photoId": null,
+            "photoContext": null,
+            "photoOwnedAndLinked": null,
+            "photoCaption": null,
+            "material": {
+              "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=575",
+              "title": "Hanwha Aerospace ADEX 2025 공식 발표",
+              "association": "product",
+              "scopeLabel": "일반 참고자료 · 이번 회차 출품 확인과 구분",
+              "note": "ADEX 2025 발표 자료. K9A3 발전 로드맵과 완성 실차를 구분합니다."
+            },
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "adex25-wia-rcws-ai",
+            "companyOwnsProduct": true,
+            "photoId": "photo-406026b01ffa0009623a",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "서울 ADEX 2025 현대위아 부스의 RCWS 3종 — 40mm·12.7mm·7.62mm 전시대 실물",
+            "material": null,
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "tasman-military",
+            "companyOwnsProduct": true,
+            "photoId": "photo-88508f17c41d264626d0",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "ADEX 2025 타스만 군용 지휘차와 베어샤시 전시",
+            "material": null,
+            "allClaimSourcesResolve": true
+          }
+        ]
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "leadProductId": "leopard-2a8",
+        "hyundaiRotemLead": false,
+        "allOriginalCaseProductsRetained": true,
+        "allOriginalCasePhotosRetained": true,
+        "interpretationExplicitlyLabeled": true,
+        "themeChecks": [
+          {
+            "productId": "leopard-2a8",
+            "companyOwnsProduct": true,
+            "photoId": "photo-43700666675664039ef0",
+            "photoContext": "reference",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "Commons 표기 Leopard 2A8 시제차 — 일반 제품 참고. Eurosatory 2026 현장사진이 아닙니다.",
+            "material": null,
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "eu-korkut-25",
+            "companyOwnsProduct": true,
+            "photoId": "photo-aec42c56571bfacd9939",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "Eurosatory 2026 · KORKUT 25 차량탑재형 — 정면",
+            "material": null,
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "eu-mars-rbs70",
+            "companyOwnsProduct": true,
+            "photoId": "photo-43d54391a2b676930834",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "Eurosatory 2026 · MARS 4×4 · RBS 70 NG — 전면·측면 사선",
+            "material": null,
+            "allClaimSourcesResolve": true
+          }
+        ]
+      },
+      {
+        "eventId": "dsei-2025",
+        "leadProductId": "patria-6x6",
+        "hyundaiRotemLead": false,
+        "allOriginalCaseProductsRetained": true,
+        "allOriginalCasePhotosRetained": true,
+        "interpretationExplicitlyLabeled": true,
+        "themeChecks": [
+          {
+            "productId": "patria-6x6",
+            "companyOwnsProduct": true,
+            "photoId": "dsei25-patria-6x6-c4",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "DSEI 2025 Patria 6×6 — C4 Concept Vehicle 표지의 전시형",
+            "material": null,
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "boxer-dsei2025",
+            "companyOwnsProduct": true,
+            "photoId": "photo-82d773132553b98ac998",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "KNDS 부스의 30mm 무인포탑 탑재 Boxer",
+            "material": null,
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "gdams-dsei2025",
+            "companyOwnsProduct": true,
+            "photoId": "photo-759379832c8e0bb07807",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "Babcock 부스에 전시된 GDAMS 120mm 체계",
+            "material": null,
+            "allClaimSourcesResolve": true
+          }
+        ]
+      },
+      {
+        "eventId": "idex-2025",
+        "leadProductId": "havoc-8x8",
+        "hyundaiRotemLead": false,
+        "allOriginalCaseProductsRetained": true,
+        "allOriginalCasePhotosRetained": true,
+        "interpretationExplicitlyLabeled": true,
+        "themeChecks": [
+          {
+            "productId": "havoc-8x8",
+            "companyOwnsProduct": true,
+            "photoId": "photo-d230f00bf90029fc0a2e",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "HAVOC 8×8 RCV · 현장사진 1",
+            "material": null,
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "ajban-family",
+            "companyOwnsProduct": true,
+            "photoId": "photo-954ad88a75d6531185e2",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "AJBAN 452A · IDEX 2025 전시",
+            "material": null,
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "cockerill-ix",
+            "companyOwnsProduct": true,
+            "photoId": "photo-77eec4976f1654c14cd9",
+            "photoContext": "event",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "Cockerill i-X · IDEX 2025 현장",
+            "material": null,
+            "allClaimSourcesResolve": true
+          }
+        ]
+      },
+      {
+        "eventId": "saha-2026",
+        "leadProductId": "pars-alpha",
+        "hyundaiRotemLead": false,
+        "allOriginalCaseProductsRetained": true,
+        "allOriginalCasePhotosRetained": true,
+        "interpretationExplicitlyLabeled": true,
+        "themeChecks": [
+          {
+            "productId": "pars-alpha",
+            "companyOwnsProduct": true,
+            "photoId": "photo-5856f0c21570a730032d",
+            "photoContext": "reference",
+            "photoOwnedAndLinked": true,
+            "photoCaption": "PARS ALPHA·TEBER-II — SAHA EXPO 2024 참고사진",
+            "material": null,
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "tulpar-korhan",
+            "companyOwnsProduct": true,
+            "photoId": null,
+            "photoContext": null,
+            "photoOwnedAndLinked": null,
+            "photoCaption": null,
+            "material": {
+              "url": "https://wwwcdn.aselsan.com/api/file/KORHAN_ENG.pdf",
+              "title": "ASELSAN KORHAN 35mm 제조사 카탈로그",
+              "association": "company",
+              "scopeLabel": "업체 공통자료 · 개별 장비 일치 미확인",
+              "note": "KORHAN 포탑 일반 제품자료(2021). 특정 차체와의 통합 완료를 확인하는 자료는 아닙니다."
+            },
+            "allClaimSourcesResolve": true
+          },
+          {
+            "productId": "cobra-ii-bee-eater",
+            "companyOwnsProduct": true,
+            "photoId": null,
+            "photoContext": null,
+            "photoOwnedAndLinked": null,
+            "photoCaption": null,
+            "material": {
+              "url": "https://defense.otokar.com.tr/news/otokar-demonstrates-its-global-strength-in-land-systems-at-saha-2026",
+              "title": "SAHA 2026 전시 구성",
+              "association": "product",
+              "scopeLabel": "일반 참고자료 · 이번 회차 출품 확인과 구분",
+              "note": ""
+            },
+            "allClaimSourcesResolve": true
+          }
+        ]
+      }
+    ],
+    "claimReview": [
+      {
+        "eventId": "adex-2025",
+        "result": "PASS",
+        "basis": "K9A3 2023 same-configuration comparison explicitly withheld; development roadmap not a completed vehicle. RCWS and Kia comparison retains the earlier official 2023/2025 sources. K9A3 material link selects its ADEX manufacturer announcement, not a generic K9-family PDF or image."
+      },
+      {
+        "eventId": "eurosatory-2026",
+        "result": "PASS",
+        "basis": "A8 manufacturer baseline and 2026 exhibitor product listing are distinguished from physical display. 2024 same-configuration comparison explicitly unestablished. Saab 2025 order is dated as such rather than reclassified as 2024 event evidence. A8 reference image remains a reference."
+      },
+      {
+        "eventId": "dsei-2025",
+        "result": "PASS",
+        "basis": "Patria 2023 vs 2025 configuration comparison supported by existing manufacturer statements. BOXER picture is the KNDS booth turret variant, not UK MIV; 2025 UK programme and GDAMS integration statements remain separate claims and incomplete prior-edition comparisons are marked."
+      },
+      {
+        "eventId": "idex-2025",
+        "result": "PASS",
+        "basis": "EDGE 2023 preview distinguished from 2025 release; HAVOC not claimed a direct NIMR concept successor. AJBAN platform commonality and Cockerill portfolio expansion are manufacturer statements, while commercial interpretation is explicitly labeled."
+      },
+      {
+        "eventId": "saha-2026",
+        "result": "PASS",
+        "basis": "PARS ALPHA/TEBER-II name continuity separated from detailed configuration identity; TULPAR novelty withheld; COBRA equipment differences compare published exhibition configurations only. 2024 reference photograph never becomes 2026 event evidence."
+      }
+    ],
+    "summary": {
+      "reports": 5,
+      "themes": 15,
+      "invalidProductOwners": 0,
+      "invalidPhotoLinks": 0,
+      "unresolvedClaimSources": 0,
+      "originalReportCaseProductsRetained": true,
+      "originalReportCasePhotosRetained": true,
+      "hyundaiRotemLeads": 0
+    },
+    "desktopSpacingAdjustment": {
+      "reason": "Parent browser measured overflow beyond intended 16:9 intrinsic dimensions at 1440px. CSS reduced spacing and summary line height; no clipping or forced fixed height.",
+      "changes": "Desktop padding 24 to 20px; row gaps 10 to 8px; image height approximately 180 to 167px; summary text 18 to 17px with line-height 1.5; mobile and 1280-specific rules preserved.",
+      "verification": "Parent browser confirmed all five reports at 1440 viewport: 1365 x 767.8125px, exact 16:9. Initial 1280 viewport ADEX/Eurosatory still exceeded by 9/24px; targeted second spacing adjustment awaiting parent remeasurement.",
+      "narrowDesktopChanges": "1280-specific padding 16 to 12px, row gap 8 to 6px, photograph height 120 to 110px; body text remains 15px and mobile remains unaffected. No clipping or fixed-height overflow."
+    }
+  }
+}

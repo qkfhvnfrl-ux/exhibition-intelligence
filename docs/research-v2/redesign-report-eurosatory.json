@@ -2,91 +2,126 @@
   "eventId": "eurosatory-2026",
   "asOf": "2026-11-16",
   "title": "Eurosatory 2026",
-  "message": "지휘·수송·차량 탑재체계로 읽는 세 가지 전시 사례",
-  "scopeNote": "기아 2개·현대위아 1개 사례 기준 · 행사 전체 조사 아님",
+  "message": "전차의 방호 구성부터 차량 탑재체계의 협업까지",
+  "scopeNote": "KNDS·ASELSAN·SVOS/Saab의 전차·차량 탑재체계 사례 · 전체 행사 조사 아님",
   "comparisonEvent": "Eurosatory 2024",
-  "comparisonNote": "기아는 10년 만 참가, 현대위아는 첫 참가라고 발표했다. 직전 회차의 동일 장비·성능 비교는 보류한다.",
+  "comparisonNote": "세 사례의 직전 회차 동일 전시형 비교는 미확립이다. 기존 제품 정의·주문 발표와 2026 출품 근거를 구분한다.",
   "themes": [
     {
-      "title": "픽업의 지휘 임무형",
-      "summary": "타스만 군용 지휘차 실차를 제시했다. 픽업 기반에 지휘차 특수사양을 더한 구성을 보여준다.",
-      "companyId": "org-37268bb0020007468bbc",
-      "productId": "eu-tasman-c2",
-      "photoId": "photo-999005f47b49d93d96ef",
-      "before": "직전 회차 대응 자료 미확보",
-      "after": "타스만 지휘차 실차",
+      "title": "전차의 기준 방호와 국가별 구성",
+      "summary": "KNDS A8 제품 정의는 TROPHY와 국가별 전장품을 구분한다. 2026 출품기업 목록의 A8 소개와 대조하되 현장 실차 형상은 확정하지 않는다.",
+      "companyId": "org-a7f46a7e877193b3e57d",
+      "productId": "leopard-2a8",
+      "photoId": "",
+      "before": "기존 A8 정의 · 회차 형상 대조 보류",
+      "after": "2026 출품기업 목록에 A8 소개",
       "sourceIds": [
-        "research-es-kia-eurosatory-2026"
+        "source-97e42a9a72c2de3a61c0",
+        "source-b6d741c396ba17989449"
       ]
     },
     {
-      "title": "수송용 파생형의 제시",
-      "summary": "KLTV 2인용 카고는 실차로 소개됐다. 함께 출품한 중·대형 표준차 모형과 전시 형태를 구분한다.",
-      "companyId": "org-37268bb0020007468bbc",
-      "productId": "eu-kltv-cargo",
-      "photoId": "photo-ce3d7958065066487fe7",
-      "before": "직전 회차 동일 형상 대조 보류",
-      "after": "KLTV 카고 실차·다른 차량 모형",
+      "title": "차량을 통합 제안의 구성요소로",
+      "summary": "ASELSAN은 KORKUT 100/25 SB를 DRONEDEF 구성요소로 소개했다. 현장의 KORKUT 25 차량과 통합 제안의 설명 범위를 구분한다.",
+      "companyId": "org-b2ca2a34fd51e38b777e",
+      "productId": "eu-korkut-25",
+      "photoId": "photo-aec42c56571bfacd9939",
+      "before": "직전 회차 동일 구성 대조 보류",
+      "after": "KORKUT 차량·DRONEDEF 소개",
       "sourceIds": [
-        "research-es-kia-eurosatory-2026"
+        "source-6232e53730be6ef9cc94",
+        "source-320f6b20062f763c20f4"
       ]
     },
     {
-      "title": "차량과 탑재체계의 결합",
-      "summary": "현대위아는 경량화 105mm 자주포의 실물 전시를 발표했다. 양산·배치 완료는 미확인이다.",
-      "companyId": "org-b6b486fa375701e51329",
-      "productId": "eu-light-105",
-      "photoId": "photo-81610d7ae35d4bd5b354",
-      "before": "직전 회차 대응 자료 미확보",
-      "after": "첫 참가 발표·차량형 체계 실물",
+      "title": "차량·탑재장비 업체의 분업",
+      "summary": "MARS S-330과 Saab RBS 70 NG의 결합을 전시했다. 2025 체코 주문 발표는 현지 C2·기존 레이더와의 연계를 별도로 설명한다.",
+      "companyId": "org-185024664dfbe6bfe147",
+      "productId": "eu-mars-rbs70",
+      "photoId": "photo-43d54391a2b676930834",
+      "before": "2025 주문 발표 · 2024 비교 아님",
+      "after": "차량 탑재형의 2026 전시 확인",
       "sourceIds": [
-        "research-es-wia-eurosatory-2026"
+        "saab-mars-order-20250723",
+        "source-36f4b56eae248699c23f",
+        "source-e607084b279f5b653b23"
       ]
     }
   ],
-  "interpretation": "전시 구성에 따른 해석: 확인 사례는 차량 기반을 지휘·수송·탑재체계로 구체화한다. 회차 간 성능 진보나 회사 전체 전략을 뜻하지 않는다.",
+  "interpretation": "편집 해석: 전차의 기준 방호 구성과 국가별 전장품, 차량·탑재장비 업체의 역할 분담이 주요 비교축이다. 장비 단품과 함께 고객 맞춤 범위·통합 책임·지원 주체를 살펴볼 필요가 있다.",
   "limitations": [
-    "두 제조사의 세 사례이며 전체 행사·유럽 시장을 대표하지 않는다.",
-    "제조사 발표가 주된 근거다. 독립 성능 검증과 구분한다.",
-    "세 사진은 Eurosatory 2026 현장 자산이다. 카고 사진에 다른 중·대형 차량 모형이 담겼다고 뜻하지 않는다."
+    "LEOPARD 2 A8은 출품기업 제품 목록과 일반 제품 정의를 대조했다. 현장 전시 형태는 미확인이다.",
+    "A8 사진은 시제차 참고사진이다. KORKUT·MARS 사진은 2026 현장이며 성능 검증을 뜻하지 않는다.",
+    "Saab의 2028~2030년 인도는 발표 당시 계획이다. 행사 전체 추세나 성능 우열로 확대하지 않는다."
   ],
   "sourceIds": [
-    "research-es-kia-eurosatory-2026",
-    "research-es-wia-eurosatory-2026",
-    "report-eurosatory-2024-organizer-review"
+    "source-97e42a9a72c2de3a61c0",
+    "source-b6d741c396ba17989449",
+    "source-6232e53730be6ef9cc94",
+    "source-320f6b20062f763c20f4",
+    "saab-mars-order-20250723",
+    "source-36f4b56eae248699c23f",
+    "source-e607084b279f5b653b23"
   ],
   "sources": [
     {
-      "id": "research-es-kia-eurosatory-2026",
-      "url": "https://www.hyundaimotorgroup.com/ko/news/kia-eurosatory-2026-defense-exhibition",
-      "title": "기아, Eurosatory 2026 방산전시회 참가",
-      "publisher": "기아 / 현대자동차그룹 뉴스룸",
-      "publishedAt": "2026-06-15",
-      "eventEditionId": "eurosatory-2026",
-      "type": "manufacturer_newsroom",
-      "independence": "primary_single_origin",
-      "note": "2026 발표의 참가 이력·전시 구성 근거다. 2024의 개별 출품 명단이나 동일 형상 비교 근거로 사용하지 않는다."
+      "id": "source-97e42a9a72c2de3a61c0",
+      "url": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352",
+      "title": "Eurosatory 2026 KNDS 출품기업 제품 목록",
+      "publisher": "BDSV Exhibitions",
+      "publishedAt": null
     },
     {
-      "id": "research-es-wia-eurosatory-2026",
-      "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-wia-eurosatory-2026-first-participation",
-      "title": "현대위아, 유럽 최대 방위산업 전시회 유로사토리 2026 첫 참가",
-      "publisher": "현대위아 / 현대자동차그룹 뉴스룸",
-      "publishedAt": "2026-06-16",
-      "eventEditionId": "eurosatory-2026",
-      "type": "manufacturer_newsroom",
-      "independence": "primary_single_origin",
-      "note": "첫 참가와 실물 전시의 제조사 발표다. 기존의 다른 회차 전시, 군 운용 성과 또는 2024 대비 개선을 입증하지 않는다."
+      "id": "source-b6d741c396ba17989449",
+      "url": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration",
+      "title": "A8 기준 형상 공식 정의",
+      "publisher": "KNDS",
+      "publishedAt": "2023-06-13"
     },
     {
-      "id": "report-eurosatory-2024-organizer-review",
-      "url": "https://www.eurosatory.com/wp-content/uploads/2025/02/EN-CP_Bilan_EUROSATORY_July24.pdf",
-      "title": "EUROSATORY 2024: A RECORD-BREAKING EDITION — July 2024",
-      "publisher": "COGES Events / Eurosatory",
-      "publishedAt": "2024-07",
-      "eventEditionId": "eurosatory-2024",
-      "type": "organizer_report",
-      "note": "직전 회차의 행사 종합자료만 확인했다. 본 보고의 세 장비별 대응 출품을 확인할 자료는 아니다. 업로드 경로의 2025년과 본문 발행월을 구분한다."
+      "id": "source-6232e53730be6ef9cc94",
+      "url": "https://www.aselsan.com/en/news/aselsan-demonstrates-dronedef-and-ew-capabilities-at-eurosatory",
+      "title": "ASELSAN DEMONSTRATES DRONEDEF AND EW CAPABILITIES AT EUROSATORY",
+      "publisher": "ASELSAN",
+      "publishedAt": "2026-06-18",
+      "evidenceStatus": "single_source",
+      "note": "제조사 회차 발표. 웹 게시일은 6월 18일, 본문 기준일은 Paris 6월 16일이다. 전시·제안 설명이며 성능시험이나 인도 완료 근거가 아니다."
+    },
+    {
+      "id": "source-320f6b20062f763c20f4",
+      "url": "https://www.flickr.com/photos/139651532@N04/55343573969/",
+      "title": "eurosatory_2026 (3) | Maquettistes Montpellier",
+      "publisher": "Maquettistes Montpellier / montpelliermaquettistes",
+      "publishedAt": "2026-06-18",
+      "evidenceStatus": "independent_observation_only",
+      "note": "촬영 메타데이터 2026-06-16 09:55:25; 시간대 미기재. 같은 촬영자의 연속 사진이며 독립 근거 수를 사진 수만큼 늘리지 않는다. ARR·Flickr 제공자 외부 표시만 검토; 로컬 복제 허가 없음."
+    },
+    {
+      "id": "saab-mars-order-20250723",
+      "url": "https://www.saab.com/newsroom/press-releases/2025/saab-receives-order-for-mobile-air-defence-from-the-czech-republic",
+      "title": "Saab receives order for mobile air defence from the Czech Republic",
+      "publisher": "Saab",
+      "publishedAt": "2025-07-23",
+      "note": "전시 이전의 주문·공급 계획 발표. Eurosatory 2026 개별 전시차의 완성 사양이나 인도 완료 근거로 사용하지 않는다.",
+      "evidenceStatus": "single_source"
+    },
+    {
+      "id": "source-36f4b56eae248699c23f",
+      "url": "https://mzv.gov.cz/paris/cz/obchod_a_ekonomika/ceske_firmy_miri_na_eurosatory_2026.html",
+      "title": "Eurosatory 2026: Česká republika posiluje svou roli v evropském obranném ekosystému",
+      "publisher": "주프랑스 체코 대사관",
+      "publishedAt": "2026-06-23",
+      "evidenceStatus": "single_source",
+      "note": "6월 24일 갱신된 행사 사후 소개. MARS 4×4·RBS 70 NG 출품을 명시하나 성능 검증 자료는 아니다."
+    },
+    {
+      "id": "source-e607084b279f5b653b23",
+      "url": "https://www.flickr.com/photos/139651532@N04/55343502408/",
+      "title": "eurosatory_2026 (11) | Maquettistes Montpellier",
+      "publisher": "Maquettistes Montpellier / montpelliermaquettistes",
+      "publishedAt": "2026-06-18",
+      "evidenceStatus": "independent_observation_only",
+      "note": "촬영 메타데이터 2026-06-16 09:57:41; 시간대 미기재. 같은 촬영자의 연속 사진이며 독립 근거 수를 사진 수만큼 늘리지 않는다. ARR·Flickr 제공자 외부 표시만 검토; 로컬 복제 허가 없음."
     }
   ],
   "evidence": {
@@ -185,6 +220,50 @@
       "status": "후보 확인 단계. 원본별 제3자 권리·제공기관·크레딧 및 기존 권리 기록 대조 후 사용 판단",
       "licenseClassification": "CC 또는 퍼블릭도메인 아님",
       "downloaded": 0
+    },
+    "competitorRevision": {
+      "checkedAt": "2026-11-16",
+      "status": "compiled_focused_checks_passed_pending_browser",
+      "scope": "Competitor platforms and vehicle mission equipment; preserve three themes and current product IDs.",
+      "priorEditionPolicy": "Only specific comparable source content supports before/after claims; otherwise explicitly unestablished.",
+      "currentEventPhotoPolicy": "Exact product event photo or exact product reference fallback; never substitute a different variant.",
+      "plan": {
+        "goal": "Replace Hyundai Rotem lead with Hanwha and competing land-system companies; improve evidence-based integration and commercial observations.",
+        "files": "Five research report packets, report compiler source and compiled report JSON.",
+        "impact": "Authored report content and case links only; three-column layout and product IDs remain.",
+        "risk": "General model reference mistaken for event display; manufacturer plans mistaken for completed deliveries.",
+        "verification": "Regenerate report JSON, compile app data, run focused report/data tests and parent desktop/mobile visual checks."
+      },
+      "primarySourceReferences": [
+        {
+          "id": "source-97e42a9a72c2de3a61c0",
+          "url": "https://bdsv-exhibitions.eu/show/eurosatory-2026/1352"
+        },
+        {
+          "id": "source-b6d741c396ba17989449",
+          "url": "https://knds.com/en/press-releases/leopard-2-a8-version-new-reference-configuration"
+        },
+        {
+          "id": "source-6232e53730be6ef9cc94",
+          "url": "https://www.aselsan.com/en/news/aselsan-demonstrates-dronedef-and-ew-capabilities-at-eurosatory"
+        },
+        {
+          "id": "saab-mars-order-20250723",
+          "url": "https://www.saab.com/newsroom/press-releases/2025/saab-receives-order-for-mobile-air-defence-from-the-czech-republic"
+        },
+        {
+          "id": "source-36f4b56eae248699c23f",
+          "url": "https://mzv.gov.cz/paris/cz/obchod_a_ekonomika/ceske_firmy_miri_na_eurosatory_2026.html"
+        }
+      ],
+      "verification": {
+        "commands": [
+          "node scripts/compile-v2-app.mjs",
+          "node --test tests/v2-report.test.mjs tests/v2-app-data.test.mjs"
+        ],
+        "result": "48 passed, 0 failed; final report-only run 23 passed after material-source attribution",
+        "browser": "parent integration verification pending"
+      }
     }
   }
 }

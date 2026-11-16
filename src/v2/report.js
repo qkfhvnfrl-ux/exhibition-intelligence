@@ -1,4 +1,4 @@
-import {escapeHTML,photoUrl,photoWithSourceLink,photoPrintNotice,preparePrintImages} from './details.js';
+import {escapeHTML,photoUrl,photoWithSourceLink,photoPrintNotice,preparePrintImages,productMaterials} from './details.js';
 import {safeUrl} from './data.js';
 const esc=escapeHTML;
 const arr=value=>Array.isArray(value)?value:[];
@@ -18,10 +18,18 @@ function reportPhoto(data,theme){
  const company=data.companies.find(item=>item.id===theme.companyId);
  return theme.productId ? data.photos.find(photo=>photo.context==='reference'&&arr(company?.photoIds).includes(photo.id)&&arr(photo.productIds).includes(theme.productId)&&photoUrl(photo)) : null;
 }
+function reportMaterial(data,theme){
+ const company=data.companies.find(item=>item.id===theme.companyId),product=data.products.find(item=>item.id===theme.productId);
+ return company&&product?productMaterials(data,company,product).find(item=>safeUrl(item.url)):null;
+}
 function photoMarkup(data,theme,{print=false}={}){
  const photo=reportPhoto(data,theme);
  const src=photo&&photoUrl(photo);
- if(!src)return '<div class="report-photo-missing"><span>현장사진 미확보</span><small>해당 회차에서 식별·표시 가능한 사진이 필요합니다.</small></div>';
+ if(!src){
+  const material=reportMaterial(data,theme);
+  const link=material?`<a class="report-material-link" href="${esc(safeUrl(material.url))}" target="_blank" rel="noopener noreferrer">${esc(material.type==='pdf'?'PDF 원문 열기':material.label+' 열기')} ↗</a><small class="report-material-title">${esc(material.title)}</small><small>${esc(material.scopeLabel)}</small>`:'<small>해당 회차에서 식별·표시 가능한 사진이 필요합니다.</small>';
+  return `<div class="report-photo-missing"><span>장비 사진 미확보</span>${link}</div>`;
+ }
  const original=safeUrl(photo.sourceUrl),rights=safeUrl(photo.rights?.licenseUrl)||original;
  const license=photo.rights?.license||'',rightsLabel=/^CC(?:0| BY)/.test(license)?license:'이용조건';
  const changes=photo.variantNote?.match(/웹 표시용 [^.!?\n]*?본/)?.[0]||'';
@@ -34,7 +42,8 @@ function photoMarkup(data,theme,{print=false}={}){
 function reportSources(data,model){
  const photoIds=model.themes.map(theme=>reportPhoto(data,theme)?.id).filter(Boolean);
  const photoSources=arr(data.photos).filter(photo=>photoIds.includes(photo.id)).flatMap(photo=>arr(photo.sourceIds));
- const ids=new Set([...arr(model.sourceIds),...model.themes.flatMap(theme=>arr(theme.sourceIds)),...photoSources]);
+ const materialSources=model.themes.filter(theme=>!reportPhoto(data,theme)).flatMap(theme=>{const material=reportMaterial(data,theme);return material?[...arr(material.sourceIds),material.id].filter(Boolean):[];});
+ const ids=new Set([...arr(model.sourceIds),...model.themes.flatMap(theme=>arr(theme.sourceIds)),...photoSources,...materialSources]);
  const byId=new Map(arr(data.sources).map(source=>[source.id,source])),urls=new Set();
  return [...ids].map(id=>byId.get(id)).filter(source=>{const url=source&&safeUrl(source.url);if(!url||urls.has(url))return false;urls.add(url);return true;});
 }

@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-11-16T01:39:06.785Z",
+  "results": [
+    {
+      "key": "mnc-k2",
+      "url": "https://www.mncsolution.com/kr/products/defense/turret/k2",
+      "finalUrl": "https://www.mncsolution.com/kr/products/defense/turret/k2",
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "bytes": 23848,
+      "pdf": false,
+      "sha256": "f75bd2340afe8996d9dd8198ffdcd3ee186a08f595c06dc9ea89dff2504f05a0",
+      "ok": true
+    },
+    {
+      "key": "mnc-isu",
+      "url": "https://www.mncsolution.com/kr/products/defense/suspension",
+      "finalUrl": "https://www.mncsolution.com/kr/products/defense/suspension",
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "bytes": 16211,
+      "pdf": false,
+      "sha256": "235254b0331c18c25a1e6a5d8736e1582e040e4921fd9c7273a2744ce0c05d37",
+      "ok": true
+    },
+    {
+      "key": "mnc-servo",
+      "url": "https://www.mncsolution.com/kr/products/defense/servo",
+      "finalUrl": "https://www.mncsolution.com/kr/products/defense/servo",
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "bytes": 14075,
+      "pdf": false,
+      "sha256": "50e57904e2ab92c65794e0a1ad95dc4e01b669ec356309ffd251c4ed033f39f2",
+      "ok": true
+    },
+    {
+      "key": "mnc-catalog",
+      "url": "https://www.mncsolution.com/download/MNC_%EC%86%94%EB%A3%A8%EC%85%98_%EC%B9%B4%EB%8B%AC%EB%A1%9C%EA%B7%B8_KOR.pdf",
+      "finalUrl": "https://www.mncsolution.com/download/MNC_%EC%86%94%EB%A3%A8%EC%85%98_%EC%B9%B4%EB%8B%AC%EB%A1%9C%EA%B7%B8_KOR.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 11939026,
+      "pdf": true,
+      "sha256": "7fe33d47b0fd1f170d13574db0c19a7bda07634ce78bd1f6b09b9c66c464907a",
+      "ok": true
+    },
+    {
+      "key": "yeonhab-vic7dk",
+      "url": "https://www.yeonhab.co.kr/fileUpload2/10_VIC-7DK-2025.pdf",
+      "finalUrl": "https://www.yeonhab.co.kr/fileUpload2/10_VIC-7DK-2025.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 36797783,
+      "pdf": true,
+      "sha256": "9d8daa61733c756e64ba77c7e7b3a5e56175ce00a3a46f0aaafa25d479ada1c6",
+      "ok": true
+    },
+    {
+      "key": "yeonhab-intercom",
+      "url": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=81",
+      "finalUrl": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=81",
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "bytes": 65975,
+      "pdf": false,
+      "sha256": "b27bf11d225aed89cd8c11c16da4b95dc60b78c422538e4a3d9a1f0e46f5c4b3",
+      "ok": true
+    },
+    {
+      "key": "yeonhab-slipring",
+      "url": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=71",
+      "finalUrl": "https://www.yeonhab.co.kr/product/product_list.jsp?product_cate=71",
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "bytes": 63413,
+      "pdf": false,
+      "sha256": "c2c42d745b4f8ddc122639d494d8f2cd05603bfeb773394c38a0ed17f5909e47",
+      "ok": true
+    },
+    {
+      "key": "yeonhab-connectors",
+      "url": "https://www.yeonhab.co.kr/fileUpload2/04_MIL-DTL-38999%20I%20III%20IV%20Style-2025.pdf",
+      "finalUrl": "https://www.yeonhab.co.kr/fileUpload2/04_MIL-DTL-38999%20I%20III%20IV%20Style-2025.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 4281360,
+      "pdf": true,
+      "sha256": "5dde8fc29d6e826e6eb11c08ab371892b70ecad86057de2004868f191bffa902",
+      "ok": true
+    },
+    {
+      "key": "yeonhab-catalogs",
+      "url": "https://www.yeonhab.co.kr/media/catalog.jsp?boardid=13",
+      "finalUrl": "https://www.yeonhab.co.kr/media/catalog.jsp?boardid=13",
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "bytes": 19361,
+      "pdf": false,
+      "sha256": "17cb61e38df145f81e125f37aba48871061d9900f05a76057ba12fddd83a21cf",
+      "ok": true
+    },
+    {
+      "key": "fiberpro-pnt",
+      "url": "https://fiberpro.co.kr/products/PNTSolutions/PNTSolutions.php",
+      "finalUrl": "https://fiberpro.co.kr/products/PNTSolutions/PNTSolutions.php",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 39855,
+      "pdf": false,
+      "sha256": "de988059808e99ceae923fcc4986555d952af535bde1c0fc6cc1d5326621d177",
+      "ok": true
+    },
+    {
+      "key": "fiberpro-fog-pdf",
+      "url": "https://www.targikielce.pl/storage/file/core_files/2026/9/3/c68796c866d9289cfefb5e4a6a21461e/FOG-based-Inertial-Sensing-Solutions.pdf",
+      "finalUrl": "https://www.targikielce.pl/storage/file/core_files/2026/9/3/c68796c866d9289cfefb5e4a6a21461e/FOG-based-Inertial-Sensing-Solutions.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 2391358,
+      "pdf": true,
+      "sha256": "df842874ff88751d0e0a9f81f81d8edd689dad28ab8a760591d90ebb234f5f10",
+      "ok": true
+    },
+    {
+      "key": "fiberpro-fi180-pdf",
+      "url": "https://www.targikielce.pl/storage/file/core_files/2026/9/3/6660e44c0144aa0127b48aa5e046bc27/FI-180.pdf",
+      "finalUrl": "https://www.targikielce.pl/storage/file/core_files/2026/9/3/6660e44c0144aa0127b48aa5e046bc27/FI-180.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 1738811,
+      "pdf": true,
+      "sha256": "cedf6dae37f03a9c4c1da740b6131bf702ccefbc2883136e6ca933ee8ade229c",
+      "ok": true
+    },
+    {
+      "key": "rfcore-products",
+      "url": "https://www.rfcore.com/",
+      "finalUrl": "https://www.rfcore.com/",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 30937,
+      "pdf": false,
+      "sha256": "61fcb99cc0d348a7bec33c1b64880b1299fa7b90cda1bfaac23732c9c54af62c",
+      "ok": true
+    },
+    {
+      "key": "eo-products",
+      "url": "https://www.eosystem.com/",
+      "finalUrl": "https://www.eosystem.com/",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 24454,
+      "pdf": false,
+      "sha256": "e44ff66994e23d3a1aab477846eb62afafe5df0a07f5a7ea953f9b54de2a0d0c",
+      "ok": true
+    }
+  ]
+}

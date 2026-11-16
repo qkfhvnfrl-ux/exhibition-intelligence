@@ -17,43 +17,41 @@
   "work": {
     "branch": "codex/fieldnote-redesign-audit",
     "baseline_branch": "work/fieldnote-v2",
-    "baseline_commit": "7040964ccc6af9e3ecfd355cb9be53de33ee6ef6",
-    "state": "executing",
-    "phase": "redesign_B_implementation_and_verification",
+    "baseline_commit": "44c3a4da50c28d8c09cd47b07ec7d7d1e82625bb",
+    "state": "completed_local",
+    "phase": "manufacturer_materials_and_competitor_reports",
     "review": "docs/REDESIGN_REVIEW_2026-11-15.md",
     "local_preview_entry": "index.html",
-    "scope": "승인된 1차 공개 완료. 전체 자료 확대 목표는 일시정지, 변경 DSEI/SAHA PDF 2개와 전체 조사 미완료.",
+    "scope": "MATERIAL-02 로컬 자료 확대·제품 카드·5종 보고 완료; 전수 조사 및 공개 배포와 구분",
     "quality_target": "의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성",
     "public_cleanup": "implemented_current_sources_and_generators_final_audit_recorded_separately",
-    "deployment_authorized": true,
-    "pushed_this_work": true,
-    "final_status_note": "65서술325항목131제품기록·새사진2장·기존사진21장 연결. build/check209통과, 브라우저·독립감사통과. 최신PDF2개 저장미완료, 전체목표진행중.",
+    "deployment_authorized": false,
+    "pushed_this_work": false,
+    "final_status_note": "2026-11-16 MATERIAL-02 completed（로컬 구현·검증）. 전차·장갑차·탑재 장비의 제조사 자료 카드와 제품별 정확한 연결, 자료 보유 업체 우선 정렬을 적용했다. 신규 이미지 13개(사진 11·제조사 도해/홍보이미지 2), 기존 참고사진 연결 8건을 추가했다. 5회차 합계 표시 이미지 보유 업체 33→45, 정확한 제품 사진 연결 40→40, 공식 자료 보유 업체 11→47, 사진 없이 공식 자료만 보유한 업체 2→20. 화면에 표시하는 고유 카탈로그·제품 자료 URL 12→40(PDF 9→24 포함). 업체 수는 회차별 기록 합계이며 동일 법인 중복을 포함한다. 과거 PHOTO-01의 37개 표기는 집계 불일치로, 같은 스냅샷을 재계산한 33개를 비교 기준으로 사용한다.",
     "implementation_plan": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
     "ui_direction_approved": true,
     "first_publication_target": "preview_only",
     "last_checks": {
       "build": "passed",
       "check": "passed",
-      "tests": 209,
-      "passed": 209,
+      "tests": 227,
+      "passed": 227,
       "failed": 0,
       "skipped": 0,
-      "build_log": ".local-next-build-final.log",
-      "check_log": ".local-next-check-final.log",
-      "scope": "사진/서술/참고사진fallback/출처/인쇄권리 변경",
-      "evidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json"
+      "evidence": "docs/evidence/MATERIAL_EXPANSION_2026-11-16.json"
     },
-    "implementation_commit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
-    "local_only": false,
-    "head_commit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
+    "implementation_commit": null,
+    "local_only": true,
+    "head_commit": null,
     "working_changes": true,
-    "implementation_commit_note": "65서술·209검사·사진/참고사진/UI 구현 저장점. head_commit은 이 구현 저장점이며 후속 문서 커밋과 구분한다.",
+    "implementation_commit_note": "이번 로컬 변경을 저장하는 커밋에 이 문서를 포함한다. 실제 HEAD는 git log -1로 확인한다.",
     "task_states": {
       "B02": "executing",
       "B03": "retry_with_revision",
       "B04": "executing",
       "B05": "completed",
-      "RELEASE_01": "completed"
+      "RELEASE_01": "completed",
+      "MATERIAL-02": "completed"
     },
     "integrated_content": {
       "event_editions": 5,
@@ -284,7 +282,287 @@
       "rejected_mappings": 3,
       "new_images": 0
     },
-    "overall_goal_status": "paused"
+    "overall_goal_status": "paused",
+    "previous_work_snapshot": {
+      "branch": "codex/fieldnote-redesign-audit",
+      "baseline_branch": "work/fieldnote-v2",
+      "baseline_commit": "7040964ccc6af9e3ecfd355cb9be53de33ee6ef6",
+      "state": "executing",
+      "phase": "redesign_B_implementation_and_verification",
+      "review": "docs/REDESIGN_REVIEW_2026-11-15.md",
+      "local_preview_entry": "index.html",
+      "scope": "승인된 1차 공개 완료. 전체 자료 확대 목표는 일시정지, 변경 DSEI/SAHA PDF 2개와 전체 조사 미완료.",
+      "quality_target": "의사결정용 기존 보고서를 대체할 사진·설명·근거·가독성",
+      "public_cleanup": "implemented_current_sources_and_generators_final_audit_recorded_separately",
+      "deployment_authorized": true,
+      "pushed_this_work": true,
+      "final_status_note": "65서술325항목131제품기록·새사진2장·기존사진21장 연결. build/check209통과, 브라우저·독립감사통과. 최신PDF2개 저장미완료, 전체목표진행중.",
+      "implementation_plan": "docs/REDESIGN_IMPLEMENTATION_PLAN_2026-11-15.md",
+      "ui_direction_approved": true,
+      "first_publication_target": "preview_only",
+      "last_checks": {
+        "build": "passed",
+        "check": "passed",
+        "tests": 209,
+        "passed": 209,
+        "failed": 0,
+        "skipped": 0,
+        "build_log": ".local-next-build-final.log",
+        "check_log": ".local-next-check-final.log",
+        "scope": "사진/서술/참고사진fallback/출처/인쇄권리 변경",
+        "evidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json"
+      },
+      "implementation_commit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
+      "local_only": false,
+      "head_commit": "d3c4580091f0c83b580cacfad847ea2d6dcc4b5b",
+      "working_changes": true,
+      "implementation_commit_note": "65서술·209검사·사진/참고사진/UI 구현 저장점. head_commit은 이 구현 저장점이며 후속 문서 커밋과 구분한다.",
+      "task_states": {
+        "B02": "executing",
+        "B03": "retry_with_revision",
+        "B04": "executing",
+        "B05": "completed",
+        "RELEASE_01": "completed"
+      },
+      "integrated_content": {
+        "event_editions": 5,
+        "company_labels": 3685,
+        "product_service_records": 131,
+        "product_narratives": 65,
+        "narrative_fields": 325,
+        "event_reports": 5,
+        "counting_note": "등록 수는 참가/실물 전시 확인 수가 아니다. 66제품기록은5항목서술 미작성."
+      },
+      "photo_changes": {
+        "new_local_assets": 2,
+        "new_local_event_assets": 1,
+        "new_local_reference_assets": 1,
+        "existing_provider_images_mapped": 19,
+        "existing_reference_images_mapped": 2,
+        "note": "기존 사진 재연결과 신규 확보를 구분. 기존85이미지 바이트 보존, 총87자산."
+      },
+      "saved_pdf": {
+        "status": "two_regenerations_pending",
+        "previous_files_preserved": true,
+        "actual_new_files": 0,
+        "affected": [
+          "dsei-2025",
+          "saha-2026"
+        ],
+        "history": "output/pdf/history/2026-11-16-before-photo-rights",
+        "previous_validation": "docs/evidence/REDESIGN_PDF_VALIDATION_2026-11-16.json",
+        "saha_preview_pages": 1,
+        "limitation": "Windows 인쇄창 제어 입력이 적용되지 않아 사용자가 취소. 정상 웹앱 복귀 확인. 이전PDF를 최신2보고 검증으로 사용하지 않는다."
+      },
+      "unintegrated_drafts": [
+        {
+          "file": "docs/research-v2/redesign-reference-photo-next-queue.json",
+          "status": "research_only_not_integrated",
+          "reviewed_products": 5,
+          "reviewed_photos": 16,
+          "candidate_mappings": 13,
+          "rejected_mappings": 3,
+          "new_images": 0
+        }
+      ],
+      "deployment_note": "사용자의 명시적 릴리즈 요청에 따라 검증본만 공개했다. 원래 작업공간의 미검증 변경은 배포하지 않았다.",
+      "task_completion_scope": {
+        "B02": "이번12서술·사진/UI 묶음 검증 완료, 전체자료확대 진행.",
+        "B03": "5보고 최신 화면 통과, 변경DSEI/SAHA PDF2개 실제저장·렌더검증 필요.",
+        "B04": "사진35제품/미서술66기록 및 전체관련범위 조사 진행.",
+        "B05": "1차 검토본 /preview/ 공개 완료. 전체 자료 확대·PDF 완료와 구분."
+      },
+      "photo_coverage": {
+        "narrative_products": 65,
+        "products_with_displayable_event_photos": 29,
+        "unique_event_photo_records": 49,
+        "products_with_event_or_reference_photos": 30,
+        "products_without_displayable_event_photos": 36,
+        "products_without_any_displayable_photos": 35,
+        "note": "제품별사진연결 범위. 종합보고/전체앱사진수와 구분."
+      },
+      "browser_verification": {
+        "status": "passed",
+        "evidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_BROWSER_2026-11-16.json",
+        "scope": "신규12서술1440/390·외부19사진순환·PARS2장/새로고침·최종5보고1440/1280/390",
+        "horizontal_overflow": false,
+        "desktop_reports_16_9": true,
+        "physical_phone_verified": false
+      },
+      "integrated_drafts": [
+        {
+          "file": "docs/research-v2/redesign-narratives-photo-coverage.json",
+          "product_narratives": 6,
+          "status": "integrated_browser_verified",
+          "next": "통합과 이번 브라우저 검증을 완료했다. 새로운 자료 변경 시 해당 범위를 다시 검증한다.",
+          "previous_status": "not_integrated",
+          "integrated_at": "2026-11-16"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-components-adex.json",
+          "product_narratives": 7,
+          "status": "integrated_browser_verified",
+          "next": "새 근거가 확보되면 사진·내용을 보강하고 해당 변경 범위를 검증한다.",
+          "integrated_at": "2026-11-16"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-adex-next.json",
+          "product_narratives": 6,
+          "status": "integrated_browser_verified",
+          "integrated_at": "2026-11-16"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-dsei-next.json",
+          "product_narratives": 2,
+          "status": "integrated_browser_verified",
+          "integrated_at": "2026-11-16"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-eurosatory-next.json",
+          "product_narratives": 2,
+          "status": "integrated_browser_verified",
+          "integrated_at": "2026-11-16"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-libelle.json",
+          "product_narratives": 1,
+          "status": "integrated_browser_verified",
+          "integrated_at": "2026-11-16"
+        },
+        {
+          "file": "docs/research-v2/redesign-narratives-pars-alpha.json",
+          "product_narratives": 1,
+          "status": "integrated_browser_verified",
+          "integrated_at": "2026-11-16"
+        }
+      ],
+      "saha_photo_followup": {
+        "cases_reviewed": 3,
+        "current_event_photos_ready": 0,
+        "reference_photos_in_report": 1,
+        "status": "reference_fallback_verified_event_gaps_remain",
+        "evidence": "docs/research-v2/redesign-product-photo-fallback.json",
+        "note": "PARS2024/일반참고사진은2026현장사진이 아니다. COBRA II일반사진은Bee Eater/TULPAR에 연결하지 않는다."
+      },
+      "evidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_2026-11-16.json",
+      "previous_implementation_batches": [
+        {
+          "label": "46개 서술·230항목 묶음",
+          "implementation_commit": "49d846d0b80c6247db7bb3003c1ea008a874c9bd",
+          "content": {
+            "event_editions": 5,
+            "company_labels": 3685,
+            "product_service_records": 130,
+            "product_narratives": 46,
+            "narrative_fields": 230,
+            "event_reports": 5,
+            "counting_note": "업체 명칭·제품 기록 수는 실제 참가·실물 전시·독립 검증 완료 수가 아니다. 이전 미통합 6개 제품 서술은 이번에 연결하여 현재 서술 수에 포함했다."
+          },
+          "last_checks": {
+            "build": "passed",
+            "check": "passed",
+            "tests": 201,
+            "passed": 201,
+            "failed": 0,
+            "skipped": 0,
+            "scope": "6개 제품 서술 통합과 기존 사진 10개 연결을 포함한 실행. 브라우저 검증 범위와 결과는 browser_verification에 별도로 기록했다.",
+            "build_log": ".local-photo-coverage-build.log",
+            "check_log": ".local-photo-coverage-check.log",
+            "latest_copy_revision_recheck": "passed"
+          },
+          "browser_verification": {
+            "status": "passed",
+            "scope": "이번 6개 제품 서술·사진 묶음과 관련 갤러리·자료 구분",
+            "evidence": "docs/evidence/REDESIGN_PHOTO_COVERAGE_BROWSER_2026-11-16.json",
+            "viewports": [
+              {
+                "width": 1440,
+                "height": 1000,
+                "documentWidth": 1425
+              },
+              {
+                "width": 390,
+                "height": 844,
+                "documentWidth": 375
+              }
+            ],
+            "products_checked": 6,
+            "displayable_photos_loaded": 8,
+            "horizontal_overflow": false,
+            "physical_phone_verified": false,
+            "interactions": [
+              "ACV 2/2 사진 확대",
+              "THeMIS 주소 새로고침 후 활성 제품 유지와 원본 흐림 고지",
+              "HAVOC 2/3→3/3 순환 및 다른 THeMIS 사진 배제",
+              "T-90MS 개발·전략 해석의 근거 미확보와 ROE 일반 자료 목록 구분"
+            ],
+            "note": "데스크톱 브라우저와 모바일 폭에서 확인한 결과다. 실제 휴대폰 검증은 아니며 이전 5개 보고 화면·PDF 검증과 범위를 구분한다."
+          },
+          "photo_changes": {
+            "batch": "40개 서술 저장점 이후 46개 서술 묶음",
+            "new_local_assets": 0,
+            "new_downloads": 0,
+            "existing_photo_records_linked": 10,
+            "includes": "기존 HAVOC 사진 2개 연결 포함",
+            "limits": "새 사진 확보로 집계하지 않는다. 이전 6×6 형상 구분과 일반 참고사진·해당 회차 사진의 구분, 출처별 제약을 유지한다.",
+            "previous_batch": {
+              "scope": "직전 40개 서술 묶음",
+              "new_local_assets": 4,
+              "new_asset_scope": "Patria DSEI 2025 현장사진 4장",
+              "existing_photo_links_added": [
+                "Cockerill i-X",
+                "GDAMS"
+              ],
+              "limits": "기존 6×6 ID, Babcock 표기형과 C4 표지형, 일반 참고사진 구분을 유지한다. 사진 확보로 참석·심층 조사 완료를 일괄 확정하지 않는다."
+            }
+          },
+          "evidence": "docs/evidence/REDESIGN_PHOTO_COVERAGE_2026-11-16.json"
+        }
+      ],
+      "independent_content_review": {
+        "status": "passed",
+        "evidence": "docs/evidence/REDESIGN_NEXT_EXPANSION_AUDIT_2026-11-16.json",
+        "scope": "원문/사진/권리/출처분량·ID/참석/지도·자산보존·공개문구 감사",
+        "note": "비교항목 수를 자동검사209개와 합산하지 않는다."
+      },
+      "components_photo_followup": {
+        "evidence": "docs/research-v2/redesign-photo-candidates-components.json",
+        "ready": 0,
+        "new_image_downloads": 0,
+        "review_attachment_downloads": 2,
+        "reviewed_pdf_pages": 4,
+        "documents_with_kogl_type1": 2,
+        "event_photos_in_attachments": 0,
+        "note": "첨부 문서의 허용을 문서 밖 사진에 적용하지 않는다. 초기 HTML 조사와 후속 PDF 검토를 구분한다."
+      },
+      "current_evidence_note": "이번65서술·209검사 로컬 검증. PDF2개 저장미완료와 전체목표 진행을 구분한다.",
+      "next_narrative_queue": {
+        "file": "docs/research-v2/redesign-next-narrative-queue.json",
+        "status": "ten_candidates_integrated",
+        "products": 10,
+        "event_editions": 3,
+        "company_photo_candidates_reviewed_and_mapped": 19,
+        "note": "Libelle/PARS의 추가2서술은 별도 packet."
+      },
+      "next_reference_photo_queue": {
+        "file": "docs/research-v2/redesign-reference-photo-next-queue.json",
+        "status": "research_only_not_integrated",
+        "reviewed_products": 5,
+        "reviewed_photos": 16,
+        "candidate_mappings": 13,
+        "rejected_mappings": 3,
+        "new_images": 0
+      },
+      "overall_goal_status": "paused"
+    },
+    "local_preview_url": "http://127.0.0.1:4177/#report?event=dsei-2025",
+    "remaining_risks": [
+      "Not every registered company has a product photo or manufacturer catalog. Official exhibitor profiles and evidence links are labeled separately.",
+      "BAE bot-blocked URLs, Thales CAPTCHA PDF and COTS inaccessible page are retained as evidence and excluded from material cards. External sources can change.",
+      "Public PDFs with redistribution restrictions remain official-source links, not republished copies.",
+      "Latest report PDF exports and actual mobile hardware checks were not part of this batch. Desktop/mobile viewport checks passed.",
+      "No push or public deployment in this batch. Existing public preview remains the previous release."
+    ]
   },
   "unslop": {
     "repository": "https://github.com/heydamir/unslop",

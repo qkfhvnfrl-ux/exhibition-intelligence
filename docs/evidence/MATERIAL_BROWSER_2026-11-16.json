@@ -1,0 +1,251 @@
+{
+  "checkedAt": "2026-11-16T01:52:05.587Z",
+  "reports": [
+    {
+      "event": "adex-2025",
+      "viewport": 1440,
+      "documentOverflow": false,
+      "height": 767.8125,
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/adex2025/rcws-event-01.jpg",
+          "width": 1800
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/adex2025-new-tasman-front.jpg",
+          "width": 1800
+        }
+      ],
+      "overflow": false,
+      "width": 1365
+    },
+    {
+      "event": "eurosatory-2026",
+      "viewport": 1440,
+      "documentOverflow": false,
+      "height": 767.8125,
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/leopard-2a8-02.webp",
+          "width": 1250
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/55343573969_87864d7613_b.jpg",
+          "width": 1024
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/55343502408_e2d09f4a40_b.jpg",
+          "width": 1024
+        }
+      ],
+      "overflow": false,
+      "width": 1365
+    },
+    {
+      "event": "dsei-2025",
+      "viewport": 1440,
+      "documentOverflow": false,
+      "height": 767.8125,
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/dsei2025-patria-6x6-booth.jpg",
+          "width": 1800
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54785369506_29c25dbe2f_b.jpg",
+          "width": 1024
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54783778059_d741fa3a1c_b.jpg",
+          "width": 1024
+        }
+      ],
+      "overflow": false,
+      "width": 1365
+    },
+    {
+      "event": "idex-2025",
+      "viewport": 1440,
+      "documentOverflow": false,
+      "height": 767.8125,
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-new-havoc-01.webp",
+          "width": 1800
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-new-ajban-452a.webp",
+          "width": 1350
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-new-cockerill-ix.webp",
+          "width": 1600
+        }
+      ],
+      "overflow": false,
+      "width": 1365
+    },
+    {
+      "event": "saha-2026",
+      "viewport": 1440,
+      "documentOverflow": false,
+      "height": 767.8125,
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-00.webp",
+          "width": 1600
+        }
+      ],
+      "overflow": false,
+      "width": 1365
+    },
+    {
+      "event": "adex-2025",
+      "viewport": 1280,
+      "height": 677.8125,
+      "overflow": false,
+      "width": 1205
+    },
+    {
+      "event": "eurosatory-2026",
+      "viewport": 1280,
+      "height": 678.0625,
+      "overflow": false,
+      "width": 1205
+    },
+    {
+      "event": "dsei-2025",
+      "viewport": 1280,
+      "height": 677.8125,
+      "overflow": false,
+      "width": 1205
+    },
+    {
+      "event": "idex-2025",
+      "viewport": 1280,
+      "height": 677.8125,
+      "overflow": false,
+      "width": 1205
+    },
+    {
+      "event": "saha-2026",
+      "viewport": 1280,
+      "height": 677.8125,
+      "overflow": false,
+      "width": 1205
+    },
+    {
+      "event": "adex-2025",
+      "documentOverflow": false,
+      "gridDisplay": "block",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/adex2025/rcws-event-01.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/adex2025-new-tasman-front.jpg"
+        }
+      ],
+      "viewport": 390
+    },
+    {
+      "event": "dsei-2025",
+      "documentOverflow": false,
+      "gridDisplay": "block",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/dsei2025-patria-6x6-booth.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54785369506_29c25dbe2f_b.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/54783778059_d741fa3a1c_b.jpg"
+        }
+      ],
+      "viewport": 390
+    },
+    {
+      "event": "idex-2025",
+      "documentOverflow": false,
+      "gridDisplay": "block",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-new-havoc-01.webp"
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-new-ajban-452a.webp"
+        },
+        {
+          "loaded": true,
+          "src": "assets/photos/idex2025-new-cockerill-ix.webp"
+        }
+      ],
+      "viewport": 390
+    },
+    {
+      "event": "saha-2026",
+      "documentOverflow": false,
+      "gridDisplay": "block",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/pars-alpha-00.webp"
+        }
+      ],
+      "viewport": 390
+    },
+    {
+      "event": "eurosatory-2026",
+      "documentOverflow": false,
+      "gridDisplay": "block",
+      "images": [
+        {
+          "loaded": true,
+          "src": "assets/photos/leopard-2a8-02.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/55343573969_87864d7613_b.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://live.staticflickr.com/65535/55343502408_e2d09f4a40_b.jpg"
+        }
+      ],
+      "viewport": 390
+    }
+  ],
+  "checks": [
+    "Five reports:1440 and1280 landscape proportions without clipped overflow;390px vertical flow without horizontal overflow",
+    "VIC-7DK exact product PDF card opened in actual browser PDF viewer,7pages; downloaded to C:/Users/qkfhv/Downloads/10_VIC-7DK-2025.pdf",
+    "MNC Redback ISU specific manufacturer page visible in390px product card",
+    "Hanwha K9 family gallery opens;caption explicitly excludes K9A3;K9A3 product remains officialeventsource ratherthan familyphoto",
+    "Milrem reference diagram labeled manufacturer illustration;actual image loaded",
+    "ADEX list orders fieldphotos thenreferencephotos thenmaterialcards;company-profile category separate",
+    "BAE andThales PDF browseraccessrestrictions observed;blockedcards excluded after final data update"
+  ],
+  "limitations": [
+    "Desktop browser emulation,not physical phone",
+    "Report print-to-PDF save not repeated;catalog download separately verified"
+  ]
+}

@@ -73,6 +73,31 @@ test('research retains product-level photo links and separate image angles from 
   assert.equal(app.photos[0].productIds.length,2);assert.equal(app.eventPhotoIds.length,2);assert(app.photos.every(p=>p.src===null));
 });
 
+test('reference photos may enrich an existing owned event product without redeclaring its exhibit',()=>{
+  const {data,record,oid}=fixture();
+  data.eventReports.events[0].equipment.push({id:'legacy-alpha-vehicle',name:'Legacy Alpha vehicle',manufacturer:'Alpha',sources:[{url:'https://example.org/alpha/legacy-2025'}]});
+  record.photos=[];
+  const before=compileRegistry(data);
+  record.photos.push({id:'legacy-alpha-reference',sourceUrl:'https://example.org/alpha/2018/photo',credit:'Test Photographer',caption:'2018 general product reference',context:'reference',eventId:null,sourceDate:'2018-06-01',rightsStatus:'link-only',sourceIds:['alpha-country'],productIds:['legacy-alpha-vehicle']});
+  const after=compileRegistry(data);
+  assert.deepEqual(after.products,before.products);
+  assert.deepEqual(after.exhibits,before.exhibits);
+  const link=after.photoLinks.find(link=>link.photoId==='legacy-alpha-reference');
+  assert.equal(link.productId,'legacy-alpha-vehicle');assert.equal(link.organizationId,oid);assert.equal(link.eventId,eventId);assert.equal(link.context,'reference');
+  assert(!record.exhibit.items.some(item=>item.productId==='legacy-alpha-vehicle'));
+});
+
+test('existing product reference photos reject another owner and products from only another edition',()=>{
+  for(const scenario of ['other_owner','other_edition']){
+    const {data,record}=fixture();
+    const entry={id:'unrelated-legacy-vehicle',name:'Existing vehicle',manufacturer:scenario==='other_owner'?'Beta':'Alpha',sources:[{url:'https://example.org/vehicle'}]};
+    if(scenario==='other_owner')data.eventReports.events[0].equipment.push(entry);
+    else data.eventReports.events.push({id:'adex-2023',name:'Fixture ADEX2023',year:2023,equipment:[entry],eventPhotos:[]});
+    record.photos=[{id:'unrelated-reference',sourceUrl:'https://example.org/vehicle/photo',credit:'Test Photographer',context:'reference',eventId:null,rightsStatus:'link-only',sourceIds:['alpha-country'],productIds:['unrelated-legacy-vehicle']}];
+    assert.throws(()=>compileRegistry(data),/photo product outside reviewed event/,scenario);
+  }
+});
+
 test('hall-only claims remain observations without fabricating a shared null-code booth',()=>{
   const {data,record}=fixture();record.boothClaims[0].code=null;record.boothClaims[0].status='unverified';
   const r=compileRegistry(data);assert.equal(r.booths.length,0);assert(r.assertions.some(a=>a.predicate==='listed_hall'&&a.text==='7'));
